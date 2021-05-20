@@ -12,7 +12,7 @@ spec:
   project: tenant
   source:
     path: platform-dev/overlays/dev
-    repoURL: https://github.com/VirtoCommerce/vc-deploy-xapi
+    repoURL: https://github.com/VirtoCommerce/vc-deploy-dev
     targetRevision: main
   syncPolicy:
     automated:
