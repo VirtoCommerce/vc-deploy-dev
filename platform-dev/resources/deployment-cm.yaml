@@ -21,6 +21,11 @@ data:
       "PackageUrl": "https://github.com/VirtoCommerce/vc-module-cart/releases/download/3.14.0/VirtoCommerce.Cart_3.14.0.zip"
     },
     {
+        "Id": "VirtoCommerce.AvalaraTax",
+        "Repository": "VirtoCommerce/vc-module-avatax",
+        "PackageUrl": "https://github.com/VirtoCommerce/vc-module-avatax/releases/download/3.3.0/VirtoCommerce.AvalaraTax_3.3.0.zip"
+    },
+    {
       "Id": "VirtoCommerce.Catalog",
       "Repository": "VirtoCommerce/vc-module-catalog",
       "PackageUrl": "https://github.com/VirtoCommerce/vc-module-catalog/releases/download/3.35.0/VirtoCommerce.Catalog_3.35.0.zip"
