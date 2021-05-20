@@ -1,0 +1,15 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+patchesStrategicMerge:
+- deployment-cm.yaml
+- platform-cm.yaml
+- platform-deploy.yaml
+- platform-secrets.yaml
+resources:
+- ../../common-base/platform
+
+images:
+- name: docker.pkg.github.com/virtocommerce/vc-platform/platform
+  newName: docker.pkg.github.com/virtocommerce/vc-platform/platform
+  newTag: 3.56.0-master-80b647b1

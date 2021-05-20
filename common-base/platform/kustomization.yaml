@@ -1,0 +1,34 @@
+resources:
+- ingress.yaml
+- ingress-https.yaml
+- platform-cm.yaml
+- platform-deploy.yaml
+- platform-service.yaml
+- deployment-cm.yaml
+- platform-secrets.yaml
+
+configurations:
+- varconfig.yaml
+
+vars:
+- name: VC_PLATFORM_SERVICE
+  objref:
+    kind: Service
+    name: platform
+    apiVersion: v1
+  fieldref:
+    fieldpath: metadata.name
+- name: VC_NAMESPACE
+  objref:
+    kind: Service
+    name: platform
+    apiVersion: v1
+  fieldref:
+    fieldpath: metadata.namespace
+- name: VC_INSTANCE
+  objref:
+    kind: Service
+    name: platform
+    apiVersion: v1
+  fieldref:
+    fieldpath: metadata.labels['instance']
