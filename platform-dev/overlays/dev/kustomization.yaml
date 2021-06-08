@@ -37,32 +37,32 @@ vars:
     name: db-config
     apiVersion: v1
   fieldref:
-    fieldpath: data['VC_DB_HOST']
+    fieldpath: data.VC_DB_HOST
 - name: VC_DB
   objref:
     kind: ConfigMap
     name: db-config
     apiVersion: v1
   fieldref:
-    fieldpath: data['VC_DB']
+    fieldpath: data.VC_DB
 - name: VC_DB_POOL
   objref:
     kind: ConfigMap
     name: db-config
     apiVersion: v1
   fieldref:
-    fieldpath: data['VC_DB_POOL']
+    fieldpath: data.VC_DB_POOL
 - name: VC_DB_USER
   objref:
     kind: ConfigMap
     name: db-config
     apiVersion: v1
   fieldref:
-    fieldpath: data['VC_DB_USER']
+    fieldpath: data.VC_DB_USER
 - name: VAULT_API_URL
   objref:
     kind: ConfigMap
     name: vault-config
     apiVersion: v1
   fieldref:
-    fieldpath: data['VAULT_API_URL']
+    fieldpath: data.VAULT_API_URL
