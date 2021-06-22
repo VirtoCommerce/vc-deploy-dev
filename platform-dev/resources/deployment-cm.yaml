@@ -38,11 +38,6 @@ data:
         {
       "Id": "VirtoCommerce.Store",
       "Repository": "VirtoCommerce/vc-module-store",
-      "PackageUrl": "https://qademovc3.blob.core.windows.net/packages/VirtoCommerce.Store_3.20.0-alpha.123.zip"
-    },
-        {
-      "Id": "VirtoCommerce.BulkActionsModule",
-      "Repository": "VirtoCommerce/vc-module-bulk-actions",
-      "PackageUrl": "https://qademovc3.blob.core.windows.net/packages/VirtoCommerce.BulkActionsModule_3.4.0-alpha.123.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-store/releases/download/3.15.0/VirtoCommerce.Store_3.15.0.zip"
     }
    ]
