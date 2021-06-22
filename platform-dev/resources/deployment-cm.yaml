@@ -34,10 +34,5 @@ data:
       "Id": "VirtoCommerce.Search",
       "Repository": "VirtoCommerce/vc-module-search",
       "PackageUrl": "https://github.com/VirtoCommerce/vc-module-search/releases/download/3.11.0/VirtoCommerce.Search_3.11.0.zip"
-    },
-     {
-      "Id": "VirtoCommerce.Store",
-      "Repository": "VirtoCommerce/vc-module-store",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-store/releases/download/3.15.0/VirtoCommerce.Store_3.15.0.zip"
     }
    ]
