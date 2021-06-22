@@ -34,5 +34,10 @@ data:
       "Id": "VirtoCommerce.Search",
       "Repository": "VirtoCommerce/vc-module-search",
       "PackageUrl": "https://github.com/VirtoCommerce/vc-module-search/releases/download/3.11.0/VirtoCommerce.Search_3.11.0.zip"
+    },
+        {
+      "Id": "VirtoCommerce.Store",
+      "Repository": "VirtoCommerce/vc-module-store",
+      "PackageUrl": "https://qademovc3.blob.core.windows.net/packages/VirtoCommerce.Store_3.20.0-alpha.123.zip"
     }
    ]
