@@ -62,6 +62,11 @@ data:
       "PackageUrl": "https://github.com/VirtoCommerce/vc-module-core/releases/download/3.16.0/VirtoCommerce.Core_3.16.0.zip"
     },
     {
+    "Id": "VirtoCommerce.ExperienceApi",
+    "Repository": "VirtoCommerce/vc-module-experience-api",
+    "PackageUrl": "https://github.com/VirtoCommerce/vc-module-experience-api/releases/download/1.15.0/VirtoCommerce.ExperienceApi_1.15.0.zip"
+    },
+    {
       "Id": "VirtoCommerce.Customer",
       "Repository": "VirtoCommerce/vc-module-customer",
       "PackageUrl": "https://github.com/VirtoCommerce/vc-module-customer/releases/download/3.28.0/VirtoCommerce.Customer_3.28.0.zip"
@@ -74,7 +79,7 @@ data:
     {
       "Id": "VirtoCommerce.Catalog",
       "Repository": "VirtoCommerce/vc-module-catalog",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-catalog/releases/download/3.43.0/VirtoCommerce.Catalog_3.43.0.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-catalog/releases/download/3.49.0/VirtoCommerce.Catalog_3.49.0.zip"
     },
     {
       "Id": "VirtoCommerce.Content",
