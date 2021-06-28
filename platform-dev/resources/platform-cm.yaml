@@ -22,3 +22,4 @@ data:
   VirtoCommerce__LicensePrivateKeyPath: app_data/private.key
   VirtoCommerce__LocalUploadFolderPath: app_data/uploads
   VirtoCommerce__Hangfire__JobStorageType: SqlServer
+  Logging__LogLevel__Default: "Information"

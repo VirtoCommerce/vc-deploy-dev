@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: storefront
+spec:
+  revisionHistoryLimit: 1
+  replicas: 1
+  selector:
+    matchLabels:
+      app: storefront
+  template:
+    metadata:
+      annotations:
+        reloader.stakater.com/search: "true" 
+        configmap.reloader.stakater.com/reload: "platform-cm,storefront-cm,deployment-cm"
+      labels:
+        app: storefront
+    spec:
+      containers:
+      - name: vc-storefront-web
+        image: docker.pkg.github.com/virtocommerce/vc-storefront/storefront:dev-linux-latest
+        envFrom:
+        - configMapRef:
+            name: storefront-cm
+        ports:
+        - containerPort: 80
+        volumeMounts:
+        - mountPath: /opt/virtocommerce/storefront/wwwroot/cms-content
+          name: cms-content-data
+      volumes:
+      - name: cms-content-data
+        persistentVolumeClaim:
+          claimName: cms-content-volume

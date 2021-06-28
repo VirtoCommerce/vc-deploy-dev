@@ -12,4 +12,4 @@ resources:
 images:
 - name: docker.pkg.github.com/virtocommerce/vc-platform/platform
   newName: docker.pkg.github.com/virtocommerce/vc-platform/platform
-  newTag: 3.62.0-alpha.11934-pt-1295-configure-fowardheaders-0104628b
+  newTag: 3.67.0-master-1d8965d9
