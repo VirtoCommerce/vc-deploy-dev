@@ -1,0 +1,32 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: traefik-ingress-https
+  annotations:
+    kubernetes.io/ingress.class: traefik
+    traefik.ingress.kubernetes.io/router.tls: "true"
+    traefik.ingress.kubernetes.io/router.middlewares: argocd-https-redirect@kubernetescrd
+    cert-manager.io/cluster-issuer: letsencrypt
+spec:
+  tls:
+    - hosts: 
+      - "$(VC_STOREFRONT_SERVICE).$(VC_NAMESPACE).govirto.com"
+      secretName: $(VC_STOREFRONT_SERVICE)-$(VC_NAMESPACE)-tls
+    - hosts:   
+      - "$(VC_PLATFORM_SERVICE).$(VC_NAMESPACE).govirto.com"
+      secretName: $(VC_PLATFORM_SERVICE)-$(VC_NAMESPACE)-tls
+  rules:
+  - host: $(VC_STOREFRONT_SERVICE).$(VC_NAMESPACE).govirto.com
+    http:
+      paths:
+      - backend:
+          serviceName: storefront
+          servicePort: 80
+        path: /
+  - host: $(VC_PLATFORM_SERVICE).$(VC_NAMESPACE).govirto.com
+    http:
+      paths:
+      - backend:
+          serviceName: platform
+          servicePort: 80
+        path: /
