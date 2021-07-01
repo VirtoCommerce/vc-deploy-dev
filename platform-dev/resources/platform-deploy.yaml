@@ -16,11 +16,7 @@ spec:
         vault.hashicorp.com/agent-limits-cpu: "50m" 
     spec:
       imagePullSecrets:
-        - name: dockerconfigjson-github-com
-      initContainers:
-        - name: init-sqldatabase
           image: mcr.microsoft.com/mssql-tools
-          command:
             - "/bin/sh"
             - "-c"
           args:
