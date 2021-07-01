@@ -41,8 +41,6 @@ spec:
           envFrom:
           - configMapRef:
               name: storefront-cm
-          - configMapRef:
-              name: storefront-overlay-config
           volumeMounts:
             - mountPath: /opt/virtocommerce/storefront/wwwroot/cms-content
               name: cms-content-data
