@@ -8,6 +8,7 @@ resources:
 - platform-secrets.yaml
 - storefront-deploy.yaml
 - storefront-cm.yaml
+- storefront-service.yaml
 
 configurations:
 - varconfig.yaml
