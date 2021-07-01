@@ -26,7 +26,7 @@ vars:
     name: storefront
     apiVersion: v1
   fieldref:
-    fieldpath: metadata.name    
+    fieldpath: metadata.name
 - name: VC_NAMESPACE
   objref:
     kind: Service
@@ -40,4 +40,4 @@ vars:
     name: storefront
     apiVersion: v1
   fieldref:
-    fieldpath: metadata.labels.instance
+    fieldpath: metadata.labels.instance.
