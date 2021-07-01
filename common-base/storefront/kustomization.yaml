@@ -9,6 +9,7 @@ resources:
 - storefront-deploy.yaml
 - storefront-cm.yaml
 - storefront-service.yaml
+- storage.yaml
 
 configurations:
 - varconfig.yaml
