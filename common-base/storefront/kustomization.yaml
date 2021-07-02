@@ -1,5 +1,4 @@
 resources:
-- ingress.yaml
 - ingress-https.yaml
 - platform-cm.yaml
 - platform-deploy.yaml
