@@ -5,7 +5,7 @@ metadata:
   annotations:
     kubernetes.io/ingress.class: nginx
     nginx.ingress.kubernetes.io/force-ssl-redirect: "true"
-    nginx.ingress.kubernetes.io/server-snippet: |
+    nginx.ingress.kubernetes.io/configuration-snippet: |
      proxy_pass_request_headers on;
     nginx.ingress.kubernetes.io/proxy-buffering: "on"
     nginx.ingress.kubernetes.io/proxy-buffers-number: "16"
