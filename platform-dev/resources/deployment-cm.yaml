@@ -41,7 +41,6 @@ data:
       "Repository": "VirtoCommerce/vc-module-catalog-csv-import",
       "PackageUrl": "https://github.com/VirtoCommerce/vc-module-catalog-csv-import/releases/download/3.22.0/VirtoCommerce.CatalogCsvImportModule_3.22.0.zip"
     },
-
     {
       "Id": "VirtoCommerce.CatalogPersonalization",
       "Repository": "VirtoCommerce/vc-module-catalog-personalization",
@@ -90,7 +89,7 @@ data:
     {
       "Id": "VirtoCommerce.Export",
       "Repository": "VirtoCommerce/vc-module-export",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-export/releases/download/3.14.0/VirtoCommerce.Export_3.14.0.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-export/releases/download/3.13.0/VirtoCommerce.Export_3.13.0.zip"
     },
     {
       "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
