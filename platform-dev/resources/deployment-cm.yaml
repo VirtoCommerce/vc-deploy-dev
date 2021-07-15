@@ -29,7 +29,7 @@ data:
     {
       "Id": "VirtoCommerce.CatalogPersonalization",
       "Repository": "VirtoCommerce/vc-module-catalog-personalization",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-catalog-personalization/releases/download/3.9.0/VirtoCommerce.CatalogPersonalization_3.9.0.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Catalog_3.53.0-pr-528.zip"
     },
     {
       "Id": "VirtoCommerce.CatalogPublishing",
