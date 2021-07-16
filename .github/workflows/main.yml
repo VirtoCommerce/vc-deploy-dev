@@ -5,22 +5,22 @@ name: QA-demoVC-3 to azure.
 # events but only for the master branch
 on:
   workflow_dispatch:
-  push:
-    paths-ignore:
-      - '.github/**'
-      - 'docs/**'
-      - 'build/**'
-      - 'README.md'
-      - 'LICENSE'
-    branches: [ master, dev ]
-  pull_request:
-    paths-ignore:
-      - '.github/**'
-      - 'docs/**'
-      - 'build/**'
-      - 'README.md'
-      - 'LICENSE'
-    branches: [ master, dev ]
+#  push:
+#    paths-ignore:
+#      - '.github/**'
+#      - 'docs/**'
+#      - 'build/**'
+#      - 'README.md'
+#      - 'LICENSE'
+#    branches: [ master, dev ]
+#  pull_request:
+#    paths-ignore:
+#      - '.github/**'
+#      - 'docs/**'
+#      - 'build/**'
+#      - 'README.md'
+#      - 'LICENSE'
+#    branches: [ master, dev ]
 
 env:
   AZURE_PLATFORM_NAME: dev-demovc3-admin  # set this to your application's name
@@ -57,6 +57,7 @@ jobs:
           package: ${{ env.AZURE_PLATFORM_PACKAGE_PATH }}
 
       - name: 'Deploy Storefront to Azure'
+        uses: azure/webapps-deploy@0b651ed7546ecfc75024011f76944cb9b381ef1e
         with:
           app-name: ${{ env.AZURE_STOREFRONT_NAME }}
           publish-profile: ${{ secrets.AZURE_STOREFRONT_PUBLISH_PROFILE }}
