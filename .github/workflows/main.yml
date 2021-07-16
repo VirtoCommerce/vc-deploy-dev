@@ -57,6 +57,7 @@ jobs:
           package: ${{ env.AZURE_PLATFORM_PACKAGE_PATH }}
 
       - name: 'Deploy Storefront to Azure'
+        with:
           app-name: ${{ env.AZURE_STOREFRONT_NAME }}
           publish-profile: ${{ secrets.AZURE_STOREFRONT_PUBLISH_PROFILE }}
           package: ${{ env.AZURE_STOREFRONT_PACKAGE_PATH }}
