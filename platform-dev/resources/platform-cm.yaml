@@ -3,7 +3,7 @@ apiVersion: v1
 metadata:
   name: platform-cm
 data:
-  ASPNETCORE_FORWARDEDHEADERS_ENABLED: "true"
+  ASPNETCORE_FORWARDEDHEADERS_ENABLED: "false"
   AppInsights__EnableDependencyTrackingTelemetryModule: "false"
   Swagger__UI__Enabled: "false"
   PushNotifications__ForceWebSockets: "true"
