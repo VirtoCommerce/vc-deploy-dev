@@ -14,7 +14,7 @@ data:
   AzureAd__Enabled: "true"
   AzureAd__ApplicationId: "8227d950-975c-4c28-b7d4-ea440a59dcbb"
   AzureAd__TenantId: "bc03e660-5e3a-45c4-bf5c-b75489f78923"
-  Search__Scope: "$(VC_PLATFORM_SERVICE)$(VC_NAMESPACE)-new-index"
+# Search__Scope: "$(VC_PLATFORM_SERVICE)$(VC_NAMESPACE)-new-index"
   Content__FileSystem__PublicUrl: https://$(VC_PLATFORM_SERVICE).$(VC_NAMESPACE).govirto.com/cms-content/
   Assets__FileSystem__PublicUrl: https://$(VC_PLATFORM_SERVICE).$(VC_NAMESPACE).govirto.com/cms-content/assets/
   VirtoCommerce__LicenseFilePath: app_data/VirtoCommerce.lic
@@ -27,5 +27,6 @@ data:
   Search__Provider: AzureSearch
   Search__AzureSearch__SearchServiceName: qa-demovc-3-search
   Search__AzureSearch__Key: 6BE1143312E89C26C227E6BBAE24DD47
+  Search__Scope:"qa_on_argo"
 # Search__Provider: Lucene
 
