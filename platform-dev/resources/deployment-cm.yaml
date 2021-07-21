@@ -17,6 +17,11 @@ data:
       "PackageUrl": "https://github.com/VirtoCommerce/vc-module-Authorize.Net/releases/download/3.4.0/VirtoCommerce.AuthorizeNet_3.4.0.zip"
     },
     {
+      "Id": "VirtoCommerce.AzureSearch",
+      "Repository": "VirtoCommerce/vc-module-azure-search",
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-azure-search/releases/download/3.9.0/VirtoCommerce.AzureSearch_3.9.0.zip"
+    },
+    {
       "Id": "VirtoCommerce.AvalaraTax",
       "Repository": "VirtoCommerce/vc-module-avatax",
       "PackageUrl": "https://github.com/VirtoCommerce/vc-module-avatax/releases/download/3.4.0/VirtoCommerce.AvalaraTax_3.4.0.zip"
