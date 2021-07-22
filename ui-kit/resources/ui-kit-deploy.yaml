@@ -50,7 +50,7 @@ spec:
   tls:
     - hosts:   
       - "ui-kit.govirto.com"
-      secretName: ui-kit-$(VC_NAMESPACE)-tls
+      secretName: ui-kit-tls
   rules:
   - host: ui-kit.govirto.com
     http:
