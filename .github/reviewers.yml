@@ -1,0 +1,8 @@
+# https://github.com/marketplace/actions/auto-request-review#reviewers-configuration
+files:
+  '**/*.yaml':
+    - AlexTzykin
+
+options:
+  ignore_draft: true
+  number_of_reviewers: 1
