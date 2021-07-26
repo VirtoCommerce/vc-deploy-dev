@@ -9,6 +9,7 @@ patchesStrategicMerge:
 resources:
 - ../../common-base/platform
 - demo-manager-deploy.yaml
+- xapi-deploy.yaml
 
 images:
 - name: docker.pkg.github.com/virtocommerce/vc-platform/platform
@@ -17,3 +18,6 @@ images:
 - name: ghcr.io/virtocommerce/platform-demo-manager
   newName: ghcr.io/virtocommerce/platform-demo-manager
   newTag: 0.0.5
+- name: ghcr.io/virtocommerce/demo-xapi-app
+  newName: ghcr.io/virtocommerce/demo-xapi-app
+  newTag: 1.0.0-alpha.16-vds-2423
