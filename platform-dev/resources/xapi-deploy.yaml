@@ -55,7 +55,6 @@ metadata:
 #    nginx.ingress.kubernetes.io/custom-http-errors: "404"
 #    nginx.ingress.kubernetes.io/default-backend: $(VC_INSTANCE)-xapi-page
     cert-manager.io/cluster-issuer: letsencrypt
-    nginx.ingress.kubernetes.io/enable-cors: "true"
 spec:
   tls:
     - hosts:   
