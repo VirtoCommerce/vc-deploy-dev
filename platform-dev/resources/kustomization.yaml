@@ -18,7 +18,7 @@ images:
   newTag: 3.71.0-master-4efc0bd1
 - name: ghcr.io/virtocommerce/platform-demo-manager
   newName: ghcr.io/virtocommerce/platform-demo-manager
-  newTag: 0.0.6-alpha.127-main-a33f33e0
+  newTag: 0.0.6
 - name: ghcr.io/virtocommerce/demo-xapi-app
   newName: ghcr.io/virtocommerce/demo-xapi-app
   newTag: 1.0.0-alpha.16-vds-2423
