@@ -1,6 +1,6 @@
 # Configs
 |File                    |Purpose                                                       |
-|:-----------------------|:------------------------------------------------------------:|
+|:-----------------------|:-------------------------------------------------------------|
 |demo-manager-deploy.yaml|Config deployment of https://demo-manager.govirto.com/        |
 |deployment-cm.yaml      |Setup versions of the modules                                 |
 |ingress-https.yaml      |Setup NGINX for domains                                       |
