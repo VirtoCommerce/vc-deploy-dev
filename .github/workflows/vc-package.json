@@ -1,0 +1,150 @@
+{
+    "Platform": "3.52.0",
+    "Custom": [],
+    "VirtoCommerce": [
+		{
+			"name": "VirtoCommerce.AuthorizeNet",
+			"version": "3.4.0"
+		},
+		{
+			"name": "VirtoCommerce.AzureSearch",
+			"version": "3.9.0"
+		},
+		{
+			"name": "VirtoCommerce.AvalaraTax",
+			"version": "3.4.0"
+		},
+		{
+			"name": "VirtoCommerce.BulkActionsModule",
+			"version": "3.3.0"
+		},
+		{
+			"name": "VirtoCommerce.CatalogPersonalization",
+			"version": "3.9.0"
+		},
+		{
+			"name": "VirtoCommerce.CatalogPublishing",
+			"version": "3.8.0"
+		},
+		{
+			"name": "VirtoCommerce.PageBuilderModule",
+			"version": "3.10.5"
+		},
+		{
+			"name": "VirtoCommerce.CatalogCsvImportModule",
+			"version": "3.21.0"
+		},
+		{
+			"name": "VirtoCommerce.Contentful",
+			"version": "3.0.1"
+		},
+		{
+			"name": "VirtoCommerce.Quote",
+			"version": "3.15.0"
+		},
+		{
+			"name": "VirtoCommerce.DynamicAssociations",
+			"version": "3.6.0"
+		},
+		{
+			"name": "VirtoCommerce.Core",
+			"version": "3.16.0"
+		},
+		{
+			"name": "VirtoCommerce.ExperienceApi",
+			"version": "1.21.0"
+		},
+		{
+			"name": "VirtoCommerce.Customer",
+			"version": "3.28.0"
+		},
+		{
+			"name": "VirtoCommerce.Cart",
+			"version": "3.17.0"
+		},
+		{
+			"name": "VirtoCommerce.Catalog",
+			"version": "3.55.0"
+		},
+		{
+			"name": "VirtoCommerce.Content",
+			"version": "3.11.0"
+		},
+		{
+			"name": "VirtoCommerce.ElasticSearch",
+			"version": "3.7.0"
+		},
+		{
+			"name": "VirtoCommerce.Export",
+			"version": "3.13.0"
+		},
+		{
+			"name": "VirtoCommerce.ImageTools",
+			"version": "3.12.0"
+		},
+		{
+			"name": "VirtoCommerce.Inventory",
+			"version": "3.17.0"
+		},
+		{
+			"name": "VirtoCommerce.Marketing",
+			"version": "3.23.0"
+		},
+		{
+			"name": "VirtoCommerce.Notifications",
+			"version": "3.15.0"
+		},
+		{
+			"name": "VirtoCommerce.Orders",
+			"version": "3.35.0"
+		},
+		{
+			"name": "VirtoCommerce.Payment",
+			"version": "3.7.0"
+		},
+		{
+			"name": "VirtoCommerce.Pricing",
+			"version": "3.21.0"
+		},
+		{
+			"name": "VirtoCommerce.Search",
+			"version": "3.13.0"
+		},
+		{
+			"name": "VirtoCommerce.Shipping",
+			"version": "3.6.0"
+		},
+		{
+			"name": "VirtoCommerce.Sitemaps",
+			"version": "3.7.0"
+		},
+		{
+			"name": "VirtoCommerce.Store",
+			"version": "3.18.0"
+		},
+		{
+			"name": "VirtoCommerce.Subscription",
+			"version": "3.11.0"
+		},
+		{
+			"name": "VirtoCommerce.Tax",
+			"version": "3.6.0"
+		},
+		{
+			"name": "VirtoCommerce.EventBus",
+			"version": "1.1.0"
+		},
+		{
+			"name": "VirtoCommerce.WebHooks",
+			"version": "3.4.0"
+		},
+		{
+			"name": "VirtoCommerce.FeatureManagement",
+			"version": "3.0.0"
+		},
+		{
+			"name": "VirtoCommerce.PriceExportImport",
+			"version": "1.1.0"
+		}
+	]
+}

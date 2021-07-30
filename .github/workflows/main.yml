@@ -46,7 +46,8 @@ jobs:
         id: image
 
       - name: Install modules to Platform
-        run: vc-build Install vc-package.json
+        run: vc-build install -PackageManifestPath vc-package.json
+
 
       - name: 'Deploy Platform to Azure'
         uses: azure/webapps-deploy@0b651ed7546ecfc75024011f76944cb9b381ef1e
