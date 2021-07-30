@@ -1,5 +1,5 @@
 #
-name: QA-demoVC-3 to azure.
+name: DEV-demoVC-3 to azure.
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
@@ -46,7 +46,7 @@ jobs:
         id: image
 
       - name: Install modules to Platform
-        run: vc-build install -PackageManifestPath vc-package.json
+        run: vc-build install -PackageManifestPath ./vc-package.json
 
 
       - name: 'Deploy Platform to Azure'
