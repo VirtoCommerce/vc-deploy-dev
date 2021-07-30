@@ -1,5 +1,5 @@
 #
-name: DEV-demoVC-3 to azure.
+name: DEV-demoVC-3 to azure
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
@@ -45,9 +45,8 @@ jobs:
         uses: VirtoCommerce/vc-github-actions/get-image-version@master
         id: image
 
-      - name: Install modules to Platform
-        run: vc-build install -PackageManifestPath ./vc-package.json
-
+      - name: Install Platform and Modules
+        run: vc-build install -PackageManifestPath ./vc-package.json -SkipDependencySolving
 
       - name: 'Deploy Platform to Azure'
         uses: azure/webapps-deploy@0b651ed7546ecfc75024011f76944cb9b381ef1e
