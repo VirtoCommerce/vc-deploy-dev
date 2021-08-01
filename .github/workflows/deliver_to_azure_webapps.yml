@@ -25,12 +25,12 @@ jobs:
       run: dotnet tool update -g virtocommerce.globaltool
 
     - name: Install Platform and Modules
-    working-directory: ${{ env.AZURE_PLATFORM_PACKAGE_PATH }}
-    run: vc-build install -PackageManifestPath ../vc-package.json -SkipDependencySolving
+      working-directory: ${{ env.AZURE_PLATFORM_PACKAGE_PATH }}
+      run: vc-build install -PackageManifestPath ../vc-package.json -SkipDependencySolving
 
     - name: Deploy Platform to Azure
-    uses: azure/webapps-deploy@0b651ed7546ecfc75024011f76944cb9b381ef1e
-    with:
-      app-name: ${{ env.AZURE_PLATFORM_NAME }}
-      publish-profile: ${{ secrets.AZURE_PLATFORM_PUBLISH_PROFILE }}
-      package: ${{ env.AZURE_PLATFORM_PACKAGE_PATH }}
+      uses: azure/webapps-deploy@0b651ed7546ecfc75024011f76944cb9b381ef1e
+      with:
+        app-name: ${{ env.AZURE_PLATFORM_NAME }}
+        publish-profile: ${{ secrets.AZURE_PLATFORM_PUBLISH_PROFILE }}
+        package: ${{ env.AZURE_PLATFORM_PACKAGE_PATH }}
