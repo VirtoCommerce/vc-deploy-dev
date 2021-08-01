@@ -12,7 +12,7 @@ on:
 
 env:
   AZURE_PLATFORM_NAME: dev-demovc3-admin  # set this to your application's name
-  AZURE_PLATFORM_PACKAGE_PATH: '${{ github.workspace }}/platform'  # set this to the path to your web app project, defaults to the repository root
+  AZURE_PLATFORM_PACKAGE_PATH: '${{ github.workspace }}/backend'  # set this to the path to your web app project, defaults to the repository root
 
   AZURE_STOREFRONT_NAME: dev-demovc3-store  # set this to your application's name
   AZURE_STOREFRONT_PACKAGE_PATH: '${{ github.workspace }}/storefront'  # set this to the path to your web app project, defaults to the repository root
@@ -34,7 +34,7 @@ jobs:
         id: image
 
       - name: Install Platform and Modules
-        working-directory: ${{ github.workspace }}/platform
+        working-directory: ${{ env.AZURE_PLATFORM_PACKAGE_PATH }}
         run: vc-build install -PackageManifestPath ../vc-package.json -SkipDependencySolving
 
       - name: Deploy Platform to Azure
@@ -43,10 +43,3 @@ jobs:
           app-name: ${{ env.AZURE_PLATFORM_NAME }}
           publish-profile: ${{ secrets.AZURE_PLATFORM_PUBLISH_PROFILE }}
           package: ${{ env.AZURE_PLATFORM_PACKAGE_PATH }}
-
-      # - name: Deploy Storefront to Azure
-      #   uses: azure/webapps-deploy@0b651ed7546ecfc75024011f76944cb9b381ef1e
-      #   with:
-      #     app-name: ${{ env.AZURE_STOREFRONT_NAME }}
-      #     publish-profile: ${{ secrets.AZURE_STOREFRONT_PUBLISH_PROFILE }}
-      #     package: ${{ env.AZURE_STOREFRONT_PACKAGE_PATH }}
