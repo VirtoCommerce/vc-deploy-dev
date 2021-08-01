@@ -24,10 +24,6 @@ jobs:
     - name: Install VirtoCommerce.GlobalTool
       run: dotnet tool update -g virtocommerce.globaltool
 
-    - name: Get Image Version
-    uses: VirtoCommerce/vc-github-actions/get-image-version@master
-    id: image
-
     - name: Install Platform and Modules
     working-directory: ${{ env.AZURE_PLATFORM_PACKAGE_PATH }}
     run: vc-build install -PackageManifestPath ../vc-package.json -SkipDependencySolving
