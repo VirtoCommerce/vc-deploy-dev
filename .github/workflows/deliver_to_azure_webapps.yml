@@ -24,10 +24,6 @@ jobs:
       - name: Install VirtoCommerce.GlobalTool
         run: dotnet tool update -g virtocommerce.globaltool
 
-      - name: Current dir
-        working-directory: ${{ env.AZURE_PLATFORM_PACKAGE_PATH }}
-        run: pwd
-
       - name: Current list
         working-directory: ${{ env.AZURE_PLATFORM_PACKAGE_PATH }}
         run: ls
