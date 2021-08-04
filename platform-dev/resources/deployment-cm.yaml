@@ -59,7 +59,7 @@ data:
     {
       "Id": "VirtoCommerce.Core",
       "Repository": "VirtoCommerce/vc-module-core",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-core/releases/download/3.19.0/VirtoCommerce.Core_3.19.0.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Core_3.20.0-pr-189.zip"
     },
     {
       "Id": "VirtoCommerce.Customer",
