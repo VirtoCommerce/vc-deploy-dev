@@ -49,7 +49,7 @@ data:
     {
       "Id": "VirtoCommerce.CatalogCsvImportModule",
       "Repository": "VirtoCommerce/vc-module-catalog-csv-import",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-catalog-csv-import/releases/download/3.21.0/VirtoCommerce.CatalogCsvImportModule_3.21.0.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.CatalogCsvImportModule_3.23.0-pr-82.zip"
     },
     {
       "Id": "VirtoCommerce.Contentful",
