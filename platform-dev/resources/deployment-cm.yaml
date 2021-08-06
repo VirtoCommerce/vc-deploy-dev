@@ -83,11 +83,6 @@ data:
       "PackageUrl": "https://github.com/VirtoCommerce/vc-module-customer/releases/download/3.28.0/VirtoCommerce.Customer_3.28.0.zip"
     },
     {
-      "Id": "VirtoCommerce.Cart",
-      "Repository": "VirtoCommerce/vc-module-cart",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Cart_3.20.0-pr-89.zip"
-    },
-    {
       "Id": "VirtoCommerce.Catalog",
       "Repository": "VirtoCommerce/vc-module-catalog",
       "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Catalog_3.55.0-pr-532.zip"
