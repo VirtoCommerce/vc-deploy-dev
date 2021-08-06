@@ -70,7 +70,7 @@ data:
     {
       "Id": "VirtoCommerce.Core",
       "Repository": "VirtoCommerce/vc-module-core",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-core/releases/download/3.16.0/VirtoCommerce.Core_3.16.0.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-core/releases/download/3.20.0/VirtoCommerce.Core_3.20.0.zip"
     },
     {
     "Id": "VirtoCommerce.ExperienceApi",
@@ -160,7 +160,7 @@ data:
     {
       "Id": "VirtoCommerce.Store",
       "Repository": "VirtoCommerce/vc-module-store",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-store/releases/download/3.18.0/VirtoCommerce.Store_3.18.0.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-store/releases/tag/3.21.0"
     },
     {
       "Id": "VirtoCommerce.Subscription",
