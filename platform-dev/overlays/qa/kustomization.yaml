@@ -29,22 +29,22 @@ patches:
     group: apps
     version: v1
     kind: Deployment
-- patch: |-
-    - op: add
-      path: /spec/csi
-      value:
-        driver: blob.csi.azure.com
-        readOnly: false
-        fsType: ext4 
-        volumeHandle: mc_aks-cluster-dev_aks-dev_westus#fusefdb1fe6c3d1c4b1d814#vcplatform-cms-content-dev
-    - op: add
-      path: /spec/csi/volumeAttributes
-      value: 
-        containername: vcplatform-cms-content-dev
-        skuName: Premium_LRS
-  target:
-    version: v1
-    kind: PersistentVolume
+# - patch: |-
+#     - op: add
+#       path: /spec/csi
+#       value:
+#         driver: blob.csi.azure.com
+#         readOnly: false
+#         fsType: ext4 
+#         volumeHandle: mc_aks-cluster-dev_aks-dev_westus#fusefdb1fe6c3d1c4b1d814#vcplatform-cms-content-dev
+#     - op: add
+#       path: /spec/csi/volumeAttributes
+#       value: 
+#         containername: vcplatform-cms-content-dev
+#         skuName: Premium_LRS
+#   target:
+#     version: v1
+#     kind: PersistentVolume
 
 
 vars:
