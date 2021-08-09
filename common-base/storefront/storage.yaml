@@ -3,7 +3,7 @@ apiVersion: v1
 metadata:
   name: cms-content-volume
   annotations:
-    volume.beta.kubernetes.io/storage-class: blob-premium
+    volume.beta.kubernetes.io/storage-class: rook-nfs-share-delete
 spec:
   accessModes:
     - ReadWriteMany
