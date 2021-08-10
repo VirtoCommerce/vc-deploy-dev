@@ -5,6 +5,16 @@ metadata:
 spec:
   template:
     spec:
+      affinity:
+        podAntiAffinity:
+          requiredDuringSchedulingIgnoredDuringExecution:
+          - labelSelector:
+              matchExpressions:
+              - key: instance
+                operator: In
+                values:
+                - loadtest
+            topologyKey: failure-domain.beta.kubernetes.io/zone
       containers:
         - name: vc-platform-web
           resources:
@@ -27,6 +37,6 @@ spec:
         emptyDir: {}
   strategy:
     rollingUpdate:
-      maxSurge: 1
-      maxUnavailable: 1
+      maxSurge: 0
+      maxUnavailable: 2
     type: RollingUpdate
