@@ -1,0 +1,93 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+namespace: dev
+namePrefix: loadtest-
+commonLabels:
+  instance: loadtest
+
+patchesStrategicMerge:
+- platform-secrets.yaml
+- platform-deploy.yaml
+resources:
+- ../../resources
+- storage.yaml
+
+configMapGenerator:
+- name: db-config
+  literals:
+    - VC_DB_HOST=vc-dev-dbserver.database.windows.net
+    - VC_DB=vc-dev-dbserver
+    - VC_DB_POOL=vc-dev-elasticpool
+    - VC_DB_USER=virto
+- name: vault-config
+  literals:
+    - VAULT_API_URL=http://vault-dev.vault-dev.svc.cluster.local:8200
+
+patches:
+- patch: |-
+    - op: add
+      path: /spec/template/spec/nodeSelector
+      value: 
+        agentpool: agentpool
+    - op: add
+      path: /spec/template/spec/nodeSelector
+      value: 
+        agentpool: agentpool
+  target:
+    group: apps
+    version: v1
+    kind: Deployment
+
+- patch: |-
+    - op: add
+      path: /spec/csi
+      value:
+        driver: blob.csi.azure.com
+        readOnly: false
+        fsType: ext4 
+        volumeHandle: mc_aks-cluster-dev_aks-dev_westus#fusefdb1fe6c3d1c4b1d814#loadtes-cms-content-dev
+    - op: add
+      path: /spec/csi/volumeAttributes
+      value: 
+        containername: loadtes-cms-content-dev
+        skuName: Premium_LRS
+  target:
+    version: v1
+    kind: PersistentVolume
+
+vars:
+- name: VC_DB_HOST
+  objref:
+    kind: ConfigMap
+    name: db-config
+    apiVersion: v1
+  fieldref:
+    fieldpath: data.VC_DB_HOST
+- name: VC_DB
+  objref:
+    kind: ConfigMap
+    name: db-config
+    apiVersion: v1
+  fieldref:
+    fieldpath: data.VC_DB
+- name: VC_DB_POOL
+  objref:
+    kind: ConfigMap
+    name: db-config
+    apiVersion: v1
+  fieldref:
+    fieldpath: data.VC_DB_POOL
+- name: VC_DB_USER
+  objref:
+    kind: ConfigMap
+    name: db-config
+    apiVersion: v1
+  fieldref:
+    fieldpath: data.VC_DB_USER
+- name: VAULT_API_URL
+  objref:
+    kind: ConfigMap
+    name: vault-config
+    apiVersion: v1
+  fieldref:
+    fieldpath: data.VAULT_API_URL
