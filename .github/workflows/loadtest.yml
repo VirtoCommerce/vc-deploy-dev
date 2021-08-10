@@ -13,7 +13,19 @@ jobs:
       steps:
       - uses: actions/checkout@v2
 
-      - name: Echo
+      - name: Azure Login
+        uses: azure/login@v1
+        with:
+          creds: ${{ secrets.AZURE_CREDENTIALS }}
+    
+      # - name: Azure CLI script
+      #   uses: azure/CLI@v1
+      #   with:
+      #     azcliversion: 2.26.0
+      #     inlineScript: |
+      #       az account show
+      #       az storage -h
+      - name: 
         id: echo
         run: |
             echo start
