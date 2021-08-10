@@ -9,8 +9,6 @@ patchesStrategicMerge:
 - platform-secrets.yaml
 resources:
 - ../../common-base/platform
-- demo-manager-deploy.yaml
-- xapi-deploy.yaml
 
 images:
 - name: docker.pkg.github.com/virtocommerce/vc-platform/platform
