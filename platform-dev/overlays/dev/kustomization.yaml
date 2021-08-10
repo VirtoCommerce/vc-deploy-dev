@@ -7,6 +7,8 @@ commonLabels:
 
 resources:
 - ../../resources
+- demo-manager-deploy.yaml
+- xapi-deploy.yaml
 
 configMapGenerator:
 - name: db-config
