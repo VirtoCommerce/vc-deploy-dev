@@ -65,14 +65,6 @@ spec:
                   key: password
       containers:
         - name: vc-platform-web
-          startupProbe:
-            httpGet:
-              path: /health
-              port: 80
-            failureThreshold: 50
-            successThreshold: 1
-            initialDelaySeconds: 10
-            periodSeconds: 1
           resources:
             limits:
               cpu: "500m"
@@ -100,6 +92,6 @@ spec:
         emptyDir: {}
   strategy:
     rollingUpdate:
-      maxSurge: 0
-      maxUnavailable: 2
+      maxSurge: 1
+      maxUnavailable: 1
     type: RollingUpdate
