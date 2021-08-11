@@ -19,7 +19,7 @@ data:
     {
       "Id": "VirtoCommerce.AzureSearch",
       "Repository": "VirtoCommerce/vc-module-azure-search",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-azure-search/releases/download/3.9.0/VirtoCommerce.AzureSearch_3.9.0.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.AzureSearch_3.10.0-pr-23.zip"
     },
     {
       "Id": "VirtoCommerce.AvalaraTax",
