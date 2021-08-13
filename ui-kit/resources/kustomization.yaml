@@ -7,4 +7,4 @@ resources:
 images:
 - name: ghcr.io/virtocommerce/platform-ui-kit
   newName: ghcr.io/virtocommerce/platform-ui-kit
-  newTag: 0.0.15
+  newTag: 0.0.24
