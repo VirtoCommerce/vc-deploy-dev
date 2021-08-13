@@ -65,6 +65,14 @@ spec:
                   key: password
       containers:
         - name: vc-platform-web
+          readinessProbe:
+            httpGet:
+              path: /health
+              port: 80
+            failureThreshold: 50
+            successThreshold: 1
+            initialDelaySeconds: 10
+            periodSeconds: 1
           resources:
             limits:
               cpu: "500m"
