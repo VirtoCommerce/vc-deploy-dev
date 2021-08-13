@@ -82,6 +82,7 @@ jobs:
           export RELEASE_TAG='${{ env.PLATFORM_IMAGE_TAG }}-${{ github.run_id }}'
           export TEST='./vc-benchmark/jmeter/xAPI/xApi_load_test_5_60_1800.jmx'
           export REPO='https://github.com/VirtoCommerce/vc-benchmark.git'
+          echo $RELEASE_TAG
           export AUTH_TOKEN=${{ secrets.REPO_TOKEN }}
           python3.8 loadtest.py && echo "finish"
 
