@@ -65,7 +65,7 @@ spec:
                   key: password
       containers:
         - name: vc-platform-web
-          redinessProbe:
+          readinessProbe:
             httpGet:
               path: /health
               port: 80
