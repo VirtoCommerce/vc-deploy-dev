@@ -39,7 +39,7 @@ jobs:
   #         az vm start --resource-group load-test_group --name load-test
 
   loadtest:
-    needs: [azure-sql, azure-vm]
+    #needs: [azure-sql, azure-vm]
     runs-on: ubuntu-latest
     name: loadtest
     steps:
