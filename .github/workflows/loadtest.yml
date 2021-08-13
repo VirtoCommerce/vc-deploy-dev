@@ -80,7 +80,7 @@ jobs:
         script: |
           cd loadtest
           export RELEASE_TAG='${{ env.PLATFORM_IMAGE_TAG }}-${{ github.run_id }}'
-          export TEST='./vc-benchmark/jmeter/SaaS/JMX/5_60_1800.jmx'
+          export TEST='./vc-benchmark/jmeter/SaaS/JMX/5_60_1800_old.jmx'
           export REPO='https://github.com/VirtoCommerce/vc-benchmark.git'
           echo $RELEASE_TAG
           export AUTH_TOKEN=${{ secrets.REPO_TOKEN }}
