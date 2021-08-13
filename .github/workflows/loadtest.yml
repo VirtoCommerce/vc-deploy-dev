@@ -8,38 +8,38 @@ on:
     types: [closed]
   
 jobs:
-  # azure-sql:
-  #   runs-on: ubuntu-latest
-  #   steps:
-  #   - name: Azure login
-  #     uses: azure/login@v1
-  #     with:
-  #       creds: ${{ secrets.AZURE_CREDENTIALS_SQL }}
+  azure-sql:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Azure login
+      uses: azure/login@v1
+      with:
+        creds: ${{ secrets.AZURE_CREDENTIALS_SQL }}
 
-  #   - name: Azure CLI - scale up DB
-  #     uses: azure/CLI@v1
-  #     with:
-  #       azcliversion: 2.26.0
-  #       inlineScript: |
-  #         az sql db create --resource-group aks-cluster-dev --server vc-dev-dbserver --name loadtest-platform_dev_separate_restored --service-objective S2
+    - name: Azure CLI - scale up DB
+      uses: azure/CLI@v1
+      with:
+        azcliversion: 2.26.0
+        inlineScript: |
+          az sql db create --resource-group aks-cluster-dev --server vc-dev-dbserver --name loadtest-platform_dev_separate_restored --service-objective S2
 
-  # azure-vm:
-  #   runs-on: ubuntu-latest
-  #   steps:
-  #   - name: Azure login
-  #     uses: azure/login@v1
-  #     with:
-  #       creds: ${{ secrets.AZURE_CREDENTIALS_VM }}
+  azure-vm:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Azure login
+      uses: azure/login@v1
+      with:
+        creds: ${{ secrets.AZURE_CREDENTIALS_VM }}
 
-  #   - name: Azure CLI - start vm
-  #     uses: azure/CLI@v1
-  #     with:
-  #       azcliversion: 2.26.0
-  #       inlineScript: |
-  #         az vm start --resource-group load-test_group --name load-test
+    - name: Azure CLI - start vm
+      uses: azure/CLI@v1
+      with:
+        azcliversion: 2.26.0
+        inlineScript: |
+          az vm start --resource-group load-test_group --name load-test
 
   loadtest:
-    #needs: [azure-sql, azure-vm]
+    needs: [azure-sql, azure-vm]
     runs-on: ubuntu-latest
     name: loadtest
     steps:
@@ -86,32 +86,32 @@ jobs:
           export AUTH_TOKEN=${{ secrets.REPO_TOKEN }}
           python3.8 loadtest.py && echo "finish"
 
-  # Scaledown:
-  #   needs: [azure-sql, azure-vm, loadtest]
-  #   if: always()
-  #   runs-on: ubuntu-latest
-  #   name: Scaledown
-  #   steps:
-  #   - name: Azure login SQL
-  #     uses: azure/login@v1
-  #     with:
-  #       creds: ${{ secrets.AZURE_CREDENTIALS_SQL }}
+  Scaledown:
+    needs: [azure-sql, azure-vm, loadtest]
+    if: always()
+    runs-on: ubuntu-latest
+    name: Scaledown
+    steps:
+    - name: Azure login SQL
+      uses: azure/login@v1
+      with:
+        creds: ${{ secrets.AZURE_CREDENTIALS_SQL }}
 
-  #   - name: Azure CLI - scale down DB
-  #     uses: azure/CLI@v1
-  #     with:
-  #       azcliversion: 2.26.0
-  #       inlineScript: |
-  #         az sql db create --resource-group aks-cluster-dev --server vc-dev-dbserver --name loadtest-platform_dev_separate_restored --elastic-pool vc-dev-elasticpool
+    - name: Azure CLI - scale down DB
+      uses: azure/CLI@v1
+      with:
+        azcliversion: 2.26.0
+        inlineScript: |
+          az sql db create --resource-group aks-cluster-dev --server vc-dev-dbserver --name loadtest-platform_dev_separate_restored --elastic-pool vc-dev-elasticpool
       
-  #   - name: Azure login VM
-  #     uses: azure/login@v1
-  #     with:
-  #       creds: ${{ secrets.AZURE_CREDENTIALS_VM }}
+    - name: Azure login VM
+      uses: azure/login@v1
+      with:
+        creds: ${{ secrets.AZURE_CREDENTIALS_VM }}
 
-  #   - name: Azure CLI - stop VM
-  #     uses: azure/CLI@v1
-  #     with:
-  #       azcliversion: 2.26.0
-  #       inlineScript: |
-  #         az vm stop --resource-group load-test_group --name load-test
+    - name: Azure CLI - stop VM
+      uses: azure/CLI@v1
+      with:
+        azcliversion: 2.26.0
+        inlineScript: |
+          az vm stop --resource-group load-test_group --name load-test
