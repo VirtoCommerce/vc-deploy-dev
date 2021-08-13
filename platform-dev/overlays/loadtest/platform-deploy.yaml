@@ -4,6 +4,14 @@ metadata:
   name: platform
 spec:
   template:
+    metadata:
+      annotations:
+        configmap.reloader.stakater.com/reload: "loadtest-platform-cm, loadtest-deployment-cm, loadtest-platform-secret-configmap"
+        vault.hashicorp.com/agent-inject: "true"
+        vault.hashicorp.com/agent-pre-populate-only: "true"
+        vault.hashicorp.com/agent-configmap: "loadtest-platform-secret-configmap"
+        vault.hashicorp.com/agent-requests-cpu: "25m"
+        vault.hashicorp.com/agent-limits-cpu: "50m" 
     spec:
       affinity:
         podAntiAffinity:
