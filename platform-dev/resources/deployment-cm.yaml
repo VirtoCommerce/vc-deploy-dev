@@ -90,7 +90,7 @@ data:
     {
       "Id": "VirtoCommerce.Catalog",
       "Repository": "VirtoCommerce/vc-module-catalog",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-catalog/releases/download/3.55.0/VirtoCommerce.Catalog_3.55.0.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Catalog_3.57.0-pr-535.zip"
     },
     {
       "Id": "VirtoCommerce.Content",
