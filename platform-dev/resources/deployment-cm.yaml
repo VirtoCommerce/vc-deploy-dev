@@ -170,5 +170,10 @@ data:
       "Id": "VirtoCommerce.Tax",
       "Repository": "VirtoCommerce/vc-module-tax",
       "PackageUrl": "https://github.com/VirtoCommerce/vc-module-tax/releases/download/3.8.0/VirtoCommerce.Tax_3.8.0.zip"
+    },
+    {
+        "Id": "VirtoCommerce.MarketplaceVendor",
+        "Repository": "VirtoCommerce/vc-module-marketplace-vendor",
+        "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.MarketplaceVendor_3.0.0-alpha.9.zip"
     }
    ]
