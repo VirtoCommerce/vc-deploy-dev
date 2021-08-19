@@ -61,3 +61,7 @@ spec:
           serviceName: demo-manager
           servicePort: 80
         path: /
+      - backend:
+          serviceName: platform
+          servicePort: 80
+        path: /api
