@@ -31,7 +31,7 @@ data:
     VirtoCommerce__Hangfire__JobStorageType: SqlServer
     Logging__LogLevel__Default: "Information"
     Search__OrderFullTextSearchEnabled: "true"
-    Swagger_Disable: "true"
+    VirtoCommerce__Swagger__Disable: "true"
   # Search__Provider: AzureSearch
   # Search__AzureSearch__SearchServiceName: qa-demovc-3-search
   # Search__AzureSearch__Key: 6BE1143312E89C26C227E6BBAE24DD47
