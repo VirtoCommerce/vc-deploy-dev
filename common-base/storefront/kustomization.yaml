@@ -1,24 +1,17 @@
-resources:
+
+patchesStrategicMerge:
 - ingress-https.yaml
-- platform-cm.yaml
-- platform-deploy.yaml
-- platform-service.yaml
-- deployment-cm.yaml
-- platform-secrets.yaml
-- storefront-deploy.yaml
+
+resources:
+- ../platform
 - storefront-cm.yaml
+- storefront-deploy.yaml
+- storefront-service.yaml
 
 configurations:
 - varconfig.yaml
 
 vars:
-- name: VC_PLATFORM_SERVICE
-  objref:
-    kind: Service
-    name: platform
-    apiVersion: v1
-  fieldref:
-    fieldpath: metadata.name
 - name: VC_STOREFRONT_SERVICE
   objref:
     kind: Service
