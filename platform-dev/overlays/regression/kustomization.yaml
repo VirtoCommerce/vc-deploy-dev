@@ -6,16 +6,20 @@ commonLabels:
   instance: regression-tmp
 
 patchesStrategicMerge:
-- ingress-https.yaml
 - platform-secrets.yaml
 - platform-deploy.yaml
+- storefront-cm.yaml
+- storefront-deploy.yaml
 
 resources:
 - ../../resources
-- shared-pvc.yaml
-- storefront-cm.yaml
-- storefront-deploy.yaml
-- storefront-service.yaml
+- ../../../common-base/storefront
+- storage.yaml
+
+images:
+- name: docker.pkg.github.com/virtocommerce/vc-storefront/storefront
+  newName: ghcr.io/virtocommerce/vc-demo-storefront/demo-storefront
+  newTag: 1.12.0-master-9b6ba2d6
 
 configMapGenerator:
 - name: db-config
@@ -54,7 +58,6 @@ patches:
   target:
     version: v1
     kind: PersistentVolume
-
 
 vars:
 - name: VC_DB_HOST

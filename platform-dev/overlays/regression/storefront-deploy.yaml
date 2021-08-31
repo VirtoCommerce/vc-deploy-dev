@@ -27,6 +27,25 @@ spec:
     spec:
       imagePullSecrets:
       - name: dockerconfigjson-github-com
+
+      initContainers:
+      - name: init-storefront
+        imagePullPolicy: Always
+        image: ghcr.io/virtocommerce/vc-deploy-containers/platform-installer:v3
+        command:
+          - "/bin/sh"
+          - "-c"
+        args:
+          - "python3 installer.py $(ELECTRONICS_THEME_URL) $(ELECTRONICS_THEME_LOCATION)
+          && python3 installer.py $(B2B_THEME_URL) $(B2B_THEME_LOCATION)
+          && python3 installer.py $(ASSETS_URL) $(ASSETS_LOCATION)"
+        envFrom:
+        - configMapRef:
+            name: deployment-cm 
+        volumeMounts:
+          - mountPath: /mnt/cms-content
+            name: cms-content-data
+
       containers:
       - name: vc-storefront-web
         resources:
@@ -41,3 +60,10 @@ spec:
           - "cat /vault/secrets/analyticsaccountid >> /vault/secrets/config;
             cat /vault/secrets/tagmanagercontainerid >> /vault/secrets/config;
             source /vault/secrets/config && dotnet VirtoCommerce.Storefront.dll"
+        volumeMounts:
+        - mountPath: /opt/virtocommerce/storefront/wwwroot/cms-content
+          name: cms-content-data
+      volumes:
+      - name: cms-content-data
+        persistentVolumeClaim:
+          claimName: cms-content-volume-tmp

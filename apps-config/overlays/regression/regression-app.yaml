@@ -11,7 +11,7 @@ spec:
     server: 'https://aks-f783f1e0.hcp.westus.azmk8s.io:443'
   project: tenant
   source:
-    path: regression-app/overlays/regression
+    path: platform-dev/overlays/regression
     repoURL: https://github.com/VirtoCommerce/vc-deploy-dev
     targetRevision: regression
   syncPolicy:

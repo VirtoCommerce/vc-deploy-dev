@@ -20,12 +20,17 @@ spec:
       imagePullSecrets:
       - name: dockerconfigjson-github-com
       initContainers:
-        - name: init-platform
-          image: ghcr.io/virtocommerce/vc-deploy-containers/platform-installer:v3
         - name: init-sqldatabase
+          image: mcr.microsoft.com/mssql-tools
           env:
             - name: VC_SAMPLE_DATA_DB
               value: regression-platform_qa_source
+            - name: VC_DB_COPY_PARAM
+              value: "AS COPY OF [$(VC_SAMPLE_DATA_DB)]"  
+
+        - name: init-platform
+          image: ghcr.io/virtocommerce/vc-deploy-containers/platform-installer:v3
+
       containers:
         - name: vc-platform-web
           resources:
@@ -46,7 +51,7 @@ spec:
           claimName: shared-volume
       - name: cms-content-data
         persistentVolumeClaim:
-          claimName: cms-content-volume
+          claimName: cms-content-volume-tmp
       - name: modules-data
         emptyDir: {}  
   strategy:

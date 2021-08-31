@@ -1,15 +1,8 @@
-
-patchesStrategicMerge:
-- ingress-https.yaml
-
 resources:
-- ../platform
+- ingress-https.yaml
 - storefront-cm.yaml
 - storefront-deploy.yaml
 - storefront-service.yaml
-
-configurations:
-- varconfig.yaml
 
 vars:
 - name: VC_STOREFRONT_SERVICE
@@ -18,18 +11,4 @@ vars:
     name: storefront
     apiVersion: v1
   fieldref:
-    fieldpath: metadata.name    
-- name: VC_NAMESPACE
-  objref:
-    kind: Service
-    name: storefront
-    apiVersion: v1
-  fieldref:
-    fieldpath: metadata.namespace
-- name: VC_INSTANCE
-  objref:
-    kind: Service
-    name: storefront
-    apiVersion: v1
-  fieldref:
-    fieldpath: metadata.labels.instance
+    fieldpath: metadata.name
