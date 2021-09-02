@@ -29,8 +29,8 @@ data:
     VirtoCommerce__LicensePrivateKeyPath: app_data/private.key
     VirtoCommerce__LocalUploadFolderPath: app_data/uploads
     VirtoCommerce__Hangfire__JobStorageType: SqlServer
-    VirtoCommerce__FileExtensionsBlackLis__0: ".pdf"
-    VirtoCommerce__FileExtensionsBlackLis__1: ".json" 
+    VirtoCommerce__FileExtensionsBlackList__0: ".pdf"
+    VirtoCommerce__FileExtensionsBlackList__1: ".json" 
     Logging__LogLevel__Default: "Information"
     Search__OrderFullTextSearchEnabled: "true"
     VirtoCommerce__Swagger__Disable: "true" 
