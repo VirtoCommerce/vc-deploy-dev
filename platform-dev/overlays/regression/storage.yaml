@@ -36,15 +36,15 @@ spec:
     requests:
       storage: 64Mi
   storageClassName: "rook-nfs-share-delete"
----
-kind: PersistentVolumeClaim
-apiVersion: v1
-metadata:
-  name: cms-content-volume-tmp
-spec:
-  accessModes:
-    - ReadWriteMany
-  resources:
-    requests:
-      storage: 64Mi
-  storageClassName: "rook-nfs-share-delete"
+# ---
+# kind: PersistentVolumeClaim
+# apiVersion: v1
+# metadata:
+#   name: cms-content-volume-tmp
+# spec:
+#   accessModes:
+#     - ReadWriteMany
+#   resources:
+#     requests:
+#       storage: 64Mi
+#   storageClassName: "rook-nfs-share-delete"

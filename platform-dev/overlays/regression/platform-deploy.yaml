@@ -9,9 +9,9 @@ spec:
     metadata:
       annotations:
         reloader.stakater.com/search: "true"
-        configmap.reloader.stakater.com/reload: "regression-tmp-platform-cm, regression-tmp-deployment-cm, regression-tmp-platform-secret-configmap"
+        configmap.reloader.stakater.com/reload: "regression-platform-cm, regression-deployment-cm, regression-platform-secret-configmap"
         vault.hashicorp.com/agent-pre-populate-only: "true"
-        vault.hashicorp.com/agent-configmap: "regression-tmp-platform-secret-configmap"
+        vault.hashicorp.com/agent-configmap: "regression-platform-secret-configmap"
         vault.hashicorp.com/agent-requests-cpu: "25m"
         vault.hashicorp.com/agent-limits-cpu: "50m"   
         vault.hashicorp.com/agent-inject: "true"
@@ -51,7 +51,7 @@ spec:
           claimName: shared-volume
       - name: cms-content-data
         persistentVolumeClaim:
-          claimName: cms-content-volume-tmp
+          claimName: cms-content-volume
       - name: modules-data
         emptyDir: {}  
   strategy:
