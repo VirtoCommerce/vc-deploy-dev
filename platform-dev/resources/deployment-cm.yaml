@@ -90,7 +90,7 @@ data:
     {
       "Id": "VirtoCommerce.Catalog",
       "Repository": "VirtoCommerce/vc-module-catalog",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Catalog_3.63.0-pr-546.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Catalog_3.63.0-pr-544.zip"
     },
     {
       "Id": "VirtoCommerce.Content",
@@ -160,7 +160,7 @@ data:
     {
       "Id": "VirtoCommerce.Store",
       "Repository": "VirtoCommerce/vc-module-store",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-store/releases/download/3.21.0/VirtoCommerce.Store_3.21.0.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Store_3.22.0-pr-89.zip"
     },
     {
       "Id": "VirtoCommerce.Subscription",
