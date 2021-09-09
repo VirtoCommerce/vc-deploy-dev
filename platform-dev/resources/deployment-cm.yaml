@@ -102,6 +102,11 @@ data:
       "Repository": "VirtoCommerce/vc-module-elastic-search",
       "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ElasticSearch_3.8.0-pr-29.zip"
     },
+     {
+      "Id": "VirtoCommerce.LuceneSearch",
+      "Repository": "VirtoCommerce/vc-module-lucene-search",
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-lucene-search/releases/download/3.5.0/VirtoCommerce.LuceneSearch_3.5.0.zip"
+    },
     {
       "Id": "VirtoCommerce.Export",
       "Repository": "VirtoCommerce/vc-module-export",
