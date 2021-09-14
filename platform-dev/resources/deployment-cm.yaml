@@ -213,5 +213,10 @@ data:
       "Id": "VirtoCommerce.PriceExportImport",
       "Repository": "VirtoCommerce/vc-module-price-export-import",
       "PackageUrl": "https://github.com/VirtoCommerce/vc-module-price-export-import/releases/download/1.2.0/VirtoCommerce.PriceExportImport_1.2.0.zip"
-    }  
+    } ,
+    {
+      "Id": "VirtoCommerce.CustomerExportImport",
+      "Repository": "VirtoCommerce/vc-module-customer-export-import",
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-customer-export-import/releases/download/1.0.0/VirtoCommerce.CustomerExportImport_1.0.0.zip"
+    }   
    ] 
