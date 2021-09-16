@@ -10,7 +10,12 @@ data:
   ASSETS_URL: https://vcbacpac.blob.core.windows.net/dac-packages/webstore_assets_4.zip
   ASSETS_LOCATION: /mnt/cms-content/assets
   modules.json: |
-   [    
+   [ 
+    {
+     "Id": "VirtoCommerce.AvalaraTax",
+     "Repository": "VirtoCommerce/vc-module-avatax",
+     "PackageUrl": "https://github.com/VirtoCommerce/vc-module-avatax/releases/download/3.4.0/VirtoCommerce.AvalaraTax_3.4.0.zip"
+    },
     {
       "Id": "VirtoCommerce.AuthorizeNet",
       "Repository": "VirtoCommerce/vc-module-Authorize.Net",
