@@ -64,7 +64,7 @@ data:
     {
       "Id": "VirtoCommerce.Customer",
       "Repository": "VirtoCommerce/vc-module-customer",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-customer/releases/download/3.32.0/VirtoCommerce.Customer_3.32.0.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Customer_3.34.0-alpha.616.zip"
     },
     {
       "Id": "VirtoCommerce.CustomerReviews",
