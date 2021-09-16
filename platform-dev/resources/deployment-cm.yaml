@@ -12,9 +12,9 @@ data:
   modules.json: |
    [ 
     {
-     "Id": "VirtoCommerce.AvalaraTax",
-     "Repository": "VirtoCommerce/vc-module-avatax",
-     "PackageUrl": "https://github.com/VirtoCommerce/vc-module-avatax/releases/download/3.4.0/VirtoCommerce.AvalaraTax_3.4.0.zip"
+      "Id": "VirtoCommerce.AvalaraTax",
+      "Repository": "VirtoCommerce/vc-module-avatax",
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-avatax/releases/download/3.4.0/VirtoCommerce.AvalaraTax_3.4.0.zip"
     },
     {
       "Id": "VirtoCommerce.AuthorizeNet",
