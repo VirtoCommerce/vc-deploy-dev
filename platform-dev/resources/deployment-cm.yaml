@@ -124,7 +124,7 @@ data:
     {
       "Id": "VirtoCommerce.Orders",
       "Repository": "VirtoCommerce/vc-module-order",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-order/releases/download/3.37.0/VirtoCommerce.Orders_3.37.0.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Orders_3.40.0-alpha.922.zip"
     },
     {
       "Id": "VirtoCommerce.Payment",
