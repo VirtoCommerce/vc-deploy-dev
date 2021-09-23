@@ -3,13 +3,13 @@ apiVersion: v1
 metadata:
   name: platform-cm
 data:
-    Notifications__DefaultSender: ""
-    Notifications__Gateway: "SendGrid"
-    Notifications__SmsDefaultSender: "+17012510519"
-    Notifications__Smtp__EnableSsl: "False"
-    Notifications__Smtp__Host: "smtp.sendgrid.net"
-    Notifications__Smtp__Login: "apikey"
-    Notifications__Smtp__Port: "587"
+   # Notifications__DefaultSender: "azure_25da07ed75daacae20578a7a7dc58541@azure.com"
+   # Notifications__Gateway: "SendGrid"
+   # Notifications__SmsDefaultSender: "+17012510519"
+   # Notifications__Smtp__EnableSsl: "False"
+   # Notifications__Smtp__Host: "smtp.sendgrid.net"
+   # Notifications__Smtp__Login: "apikey"
+   # Notifications__Smtp__Port: "587"
     ASPNETCORE_ENVIRONMENT: "Production"
     ASPNETCORE_FORWARDEDHEADERS_ENABLED: "false"
     AppInsights__EnableDependencyTrackingTelemetryModule: "false"
