@@ -10,7 +10,7 @@ data:
     Notifications__Smtp__Host: "smtp.sendgrid.net"
     Notifications__Smtp__Login: "apikey"
     Notifications__Smtp__Port: "587"
-    ASPNETCORE_ENVIRONMENT: "Production"
+    ASPNETCORE_ENVIRONMENT: "Development"
     ASPNETCORE_FORWARDEDHEADERS_ENABLED: "false"
     AppInsights__EnableDependencyTrackingTelemetryModule: "false"
     Swagger__UI__Enabled: "false"
