@@ -31,6 +31,6 @@ data:
   Notifications__Gateway: "SendGrid"
   Notifications__SmsDefaultSender: "+17012510519"
   Notifications__Smtp__EnableSsl: "False"
-  Notifications__Smtp__Host: "smtp.sendgrid.net"
+  # Notifications__Smtp__Host: "smtp.sendgrid.net"
   # Notifications__Smtp__Login: "apikey"
   Notifications__Smtp__Port: "587"
