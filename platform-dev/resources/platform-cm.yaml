@@ -43,5 +43,5 @@ data:
   # Search__Provider: Lucene
     Tax__Avalara__AccountNumber: "2000188799"
     Tax__Avalara__LicenseKey: "16BC3F87E836E15C"
-  # APPINSIGHTS_INSTRUMENTATIONKEY: "4120bbdb-aa5b-4512-8d9f-36af1f696719"
+    APPINSIGHTS_INSTRUMENTATIONKEY: "4120bbdb-aa5b-4512-8d9f-36af1f696719"
 
