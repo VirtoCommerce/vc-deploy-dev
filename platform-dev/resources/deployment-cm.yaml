@@ -159,7 +159,7 @@ data:
     {
       "Id": "VirtoCommerce.Store",
       "Repository": "VirtoCommerce/vc-module-store",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-store/releases/download/3.21.0/VirtoCommerce.Store_3.21.0.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Store_3.23.0-alpha.556.zip"
     },
     {
       "Id": "VirtoCommerce.Subscription",
