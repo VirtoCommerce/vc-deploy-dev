@@ -16,7 +16,7 @@ data:
     {
       "Id": "VirtoCommerce.Core",
       "Repository": "VirtoCommerce/vc-module-core",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-core/releases/download/3.22.0/VirtoCommerce.Core_3.22.0.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-core/releases/download/3.23.0/VirtoCommerce.Core_3.23.0.zip"
     },
     {
       "Id": "VirtoCommerce.AzureSearch",
@@ -31,7 +31,7 @@ data:
     {
       "Id": "VirtoCommerce.Catalog",
       "Repository": "VirtoCommerce/vc-module-catalog",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-catalog/releases/download/3.64.0/VirtoCommerce.Catalog_3.64.0.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-catalog/releases/download/3.66.0/VirtoCommerce.Catalog_3.66.0.zip"
     },
     {
       "Id": "VirtoCommerce.Content",
@@ -41,7 +41,7 @@ data:
     {
       "Id": "VirtoCommerce.Customer",
       "Repository": "VirtoCommerce/vc-module-customer",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-customer/releases/download/3.32.0/VirtoCommerce.Customer_3.32.0.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-customer/releases/download/3.33.0/VirtoCommerce.Customer_3.33.0.zip"
     },
     {
       "Id": "VirtoCommerce.ElasticSearch",
@@ -81,7 +81,7 @@ data:
     {
       "Id": "VirtoCommerce.Orders",
       "Repository": "VirtoCommerce/vc-module-order",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-order/releases/download/3.37.0/VirtoCommerce.Orders_3.37.0.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-order/releases/download/3.41.0/VirtoCommerce.Orders_3.41.0.zip"
     },
     {
       "Id": "VirtoCommerce.Payment",
@@ -91,7 +91,7 @@ data:
     {
       "Id": "VirtoCommerce.Pricing",
       "Repository": "VirtoCommerce/vc-module-pricing",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-pricing/releases/download/3.24.0/VirtoCommerce.Pricing_3.24.0.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-pricing/releases/download/3.25.0/VirtoCommerce.Pricing_3.25.0.zip"
     },
     {
       "Id": "VirtoCommerce.Search",
@@ -111,7 +111,7 @@ data:
     {
       "Id": "VirtoCommerce.Store",
       "Repository": "VirtoCommerce/vc-module-store",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-store/releases/download/3.22.0/VirtoCommerce.Store_3.22.0.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-store/releases/download/3.23.0/VirtoCommerce.Store_3.23.0.zip"
     },
     {
       "Id": "VirtoCommerce.Subscription",
@@ -156,7 +156,7 @@ data:
     {
       "Id": "VirtoCommerce.CatalogCsvImportModule",
       "Repository": "VirtoCommerce/vc-module-catalog-csv-import",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-catalog-csv-import/releases/download/3.25.0/VirtoCommerce.CatalogCsvImportModule_3.25.0.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-catalog-csv-import/releases/download/3.26.0/VirtoCommerce.CatalogCsvImportModule_3.26.0.zip"
     },
     {
       "Id": "VirtoCommerce.Contentful",
@@ -176,13 +176,13 @@ data:
     {
       "Id": "VirtoCommerce.DynamicAssociations",
       "Repository": "VirtoCommerce/vc-module-dynamic-associations",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-dynamic-associations/releases/download/3.6.0/VirtoCommerce.DynamicAssociationsModule_3.6.0.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-dynamic-associations/releases/download/3.7.0/VirtoCommerce.DynamicAssociationsModule_3.7.0.zip"
     },
     {
 
       "Id": "VirtoCommerce.ExperienceApi",
       "Repository": "VirtoCommerce/vc-module-experience-api",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-experience-api/releases/download/1.29.0/VirtoCommerce.ExperienceApi_1.29.0.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-experience-api/releases/download/1.34.0/VirtoCommerce.ExperienceApi_1.34.0.zip"
     },
     {
       "Id": "VirtoCommerce.EventBus",
