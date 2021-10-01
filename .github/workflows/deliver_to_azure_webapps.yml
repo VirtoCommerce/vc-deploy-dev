@@ -4,8 +4,8 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - 'vc-package.json'
-    branches: [ qa, dev ]
+      - 'platform-dev/resources/deployment-cm.yaml'
+    branches: [ qa ]
 
 jobs:
   build-and-deploy:
@@ -26,13 +26,19 @@ jobs:
       - name: Install VirtoCommerce.GlobalTool
         run: dotnet tool update -g virtocommerce.globaltool
 
-      - name: Install Platform and Modules
-        working-directory: ${{ env.AZURE_PLATFORM_PACKAGE_PATH }}
-        run: vc-build install -PackageManifestPath ../vc-package.json -SkipDependencySolving
+      - name: Get Env From Argo Deployment
+        uses: VirtoCommerce/vc-github-actions/get-env-from-deployment@VCI-52
 
-      - name: Deploy Platform to Azure
+      - name: Deploy Platform with Modules to Azure
         uses: azure/webapps-deploy@0b651ed7546ecfc75024011f76944cb9b381ef1e
         with:
           app-name: ${{ env.AZURE_PLATFORM_NAME }}
           publish-profile: ${{ secrets.AZURE_PLATFORM_PUBLISH_PROFILE }}
           package: ${{ env.AZURE_PLATFORM_PACKAGE_PATH }}
+
+      - name: Deploy Storefront with Theme to Azure
+        uses: azure/webapps-deploy@0b651ed7546ecfc75024011f76944cb9b381ef1e
+        with:
+          app-name: ${{ env.AZURE_STOREFRONT_NAME }}
+          publish-profile: ${{ secrets.AZURE_STOREFRONT_PUBLISH_PROFILE }}
+          package: ${{ env.AZURE_STOREFRONT_PACKAGE_PATH }}
