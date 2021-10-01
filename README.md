@@ -8,6 +8,4 @@ Load test DEV [![App Status](https://argo.govirto.com/api/badge?name=loadtest-de
 
 Regression QA [![App Status](https://argo.govirto.com/api/badge?name=regression-app-qa&revision=true)](https://argo.govirto.com/applications/regression-app-qa)
 
-Net-5 migration DEV [![App Status](https://argo.govirto.com/api/badge?name=net5-migration-app-dev&revision=true)](https://argo.govirto.com/applications/net5-migration-app-dev)
-
 Marketplace Dev [![App Status](https://argo.govirto.com/api/badge?name=vcmarketplace-dev&revision=true)](https://argo.govirto.com/applications/vcmarketplace-dev)

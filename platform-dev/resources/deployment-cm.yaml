@@ -2,9 +2,17 @@ kind: ConfigMap
 apiVersion: v1
 metadata:
   name: deployment-cm
+  annotations:
+    reloader.stakater.com/match: "true"
 data:
+  ELECTRONICS_THEME_URL: https://github.com/VirtoCommerce/vc-demo-theme-default/releases/download/1.9.0/vc-demo-theme-default-1.9.0.zip
+  ELECTRONICS_THEME_LOCATION: /mnt/cms-content/Themes/Electronics
+  B2B_THEME_URL: https://github.com/VirtoCommerce/vc-demo-theme-b2b/releases/download/1.13.0/vc-demo-theme-b2b-1.13.0.zip
+  B2B_THEME_LOCATION: /mnt/cms-content/Themes/B2B-store
+  ASSETS_URL: https://vcbacpac.blob.core.windows.net/dac-packages/webstore_assets_4.zip
+  ASSETS_LOCATION: /mnt/cms-content/assets
   modules.json: |
-   [
+   [    
     {
         "Id": "VirtoCommerce.AuthorizeNet",
         "Repository": "VirtoCommerce/vc-module-Authorize.Net",
@@ -30,7 +38,6 @@ data:
       "Repository": "VirtoCommerce/vc-module-cart",
       "PackageUrl": "https://github.com/VirtoCommerce/vc-module-cart/releases/download/3.23.0/VirtoCommerce.Cart_3.23.0.zip"
     },
-
     {
       "Id": "VirtoCommerce.Catalog",
       "Repository": "VirtoCommerce/vc-module-catalog",
@@ -109,7 +116,7 @@ data:
     {
       "Id": "VirtoCommerce.LuceneSearch",
       "Repository": "VirtoCommerce/vc-module-lucene-search",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-lucene-search/releases/download/3.4.0/VirtoCommerce.LuceneSearch_3.4.0.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-lucene-search/releases/download/3.5.0/VirtoCommerce.LuceneSearch_3.5.0.zip"
     },
     {
       "Id": "VirtoCommerce.Marketing",
@@ -134,12 +141,7 @@ data:
     {
       "Id": "VirtoCommerce.Pricing",
       "Repository": "VirtoCommerce/vc-module-pricing",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-pricing/releases/download/3.24.0/VirtoCommerce.Pricing_3.24.0.zip"
-    },
-    {
-      "Id": "VirtoCommerce.Quote",
-      "Repository": "VirtoCommerce/vc-module-quote",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-quote/releases/download/3.15.0/VirtoCommerce.Quote_3.15.0.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-pricing/releases/download/3.25.0/VirtoCommerce.Pricing_3.25.0.zip"
     },
     {
       "Id": "VirtoCommerce.Search",

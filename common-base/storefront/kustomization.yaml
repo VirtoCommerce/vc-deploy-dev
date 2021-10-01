@@ -1,42 +1,14 @@
 resources:
 - ingress-https.yaml
-- platform-cm.yaml
-- platform-deploy.yaml
-- platform-service.yaml
-- deployment-cm.yaml
-- platform-secrets.yaml
-- storefront-deploy.yaml
 - storefront-cm.yaml
-
-configurations:
-- varconfig.yaml
+- storefront-deploy.yaml
+- storefront-service.yaml
 
 vars:
-- name: VC_PLATFORM_SERVICE
-  objref:
-    kind: Service
-    name: platform
-    apiVersion: v1
-  fieldref:
-    fieldpath: metadata.name
 - name: VC_STOREFRONT_SERVICE
   objref:
     kind: Service
     name: storefront
     apiVersion: v1
   fieldref:
-    fieldpath: metadata.name    
-- name: VC_NAMESPACE
-  objref:
-    kind: Service
-    name: storefront
-    apiVersion: v1
-  fieldref:
-    fieldpath: metadata.namespace
-- name: VC_INSTANCE
-  objref:
-    kind: Service
-    name: storefront
-    apiVersion: v1
-  fieldref:
-    fieldpath: metadata.labels.instance
+    fieldpath: metadata.name

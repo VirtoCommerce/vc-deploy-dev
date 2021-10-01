@@ -1,0 +1,69 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: storefront
+spec:
+  revisionHistoryLimit: 2
+  replicas: 1
+  template:
+    metadata:
+      annotations:
+        vault.hashicorp.com/agent-inject: "true"
+        vault.hashicorp.com/role: "myapp"
+        vault.hashicorp.com/agent-pre-populate-only: "true"
+        vault.hashicorp.com/agent-inject-secret-analyticsaccountid: "secret/b2b-qa-googleanalytics"
+        vault.hashicorp.com/agent-inject-template-analyticsaccountid: |
+          {{- with secret "secret/b2b-qa-googleanalytics" -}}
+          export GoogleAnalytics__AccountId="{{ .Data.GoogleAnalyticsAccountId }}"
+          {{- end }}
+        vault.hashicorp.com/agent-inject-secret-tagmanagercontainerid: "secret/b2b-qa-googleanalytics"
+        vault.hashicorp.com/agent-inject-template-tagmanagercontainerid: |
+          {{- with secret "secret/b2b-qa-googleanalytics" -}}
+          export VirtoCommerce__AppSettings__GoogleTagManager__ContainerId="{{ .Data.GoogleTagManagerContainerId }}"
+          {{- end }}
+        reloader.stakater.com/search: "true"
+        vault.hashicorp.com/agent-requests-cpu: "25m"
+        vault.hashicorp.com/agent-limits-cpu: "50m"
+    spec:
+      imagePullSecrets:
+      - name: dockerconfigjson-github-com
+
+      initContainers:
+      - name: init-storefront
+        imagePullPolicy: Always
+        image: ghcr.io/virtocommerce/vc-deploy-containers/platform-installer:v3
+        command:
+          - "/bin/sh"
+          - "-c"
+        args:
+          - "python3 installer.py $(ELECTRONICS_THEME_URL) $(ELECTRONICS_THEME_LOCATION)
+          && python3 installer.py $(B2B_THEME_URL) $(B2B_THEME_LOCATION)
+          && python3 installer.py $(ASSETS_URL) $(ASSETS_LOCATION)"
+        envFrom:
+        - configMapRef:
+            name: deployment-cm 
+        volumeMounts:
+          - mountPath: /mnt/cms-content
+            name: cms-content-data
+
+      containers:
+      - name: vc-storefront-web
+        resources:
+          requests:
+            memory: "256Mi"
+          limits:
+            memory: "512Mi"
+        command:
+          - "/bin/bash"
+          - "-c"
+        args:
+          - "cat /vault/secrets/analyticsaccountid >> /vault/secrets/config;
+            cat /vault/secrets/tagmanagercontainerid >> /vault/secrets/config;
+            source /vault/secrets/config && dotnet VirtoCommerce.Storefront.dll"
+        volumeMounts:
+        - mountPath: /opt/virtocommerce/storefront/wwwroot/cms-content
+          name: cms-content-data
+      volumes:
+      - name: cms-content-data
+        persistentVolumeClaim:
+          claimName: cms-content-volume

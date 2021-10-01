@@ -70,6 +70,16 @@ jobs:
         password: ${{ secrets.ARGOCD_PASSWORD }}
         command: app wait loadtest-dev
 
+    - uses: appleboy/scp-action@master
+      name: Upload script
+      with:
+        host: ${{ secrets.VM_HOST }}
+        username: vcadmin
+        password: ${{ secrets.VM_PASSWORD }}
+        source: "./platform-dev/overlays/loadtest/scripts/loadtest.py"
+        target: "/home/vcadmin/loadtest"
+        strip_components: 5
+
     - name: Run Loadtest
       uses: appleboy/ssh-action@master
       with:
@@ -84,7 +94,7 @@ jobs:
           export REPO='https://github.com/VirtoCommerce/vc-benchmark.git'
           echo $RELEASE_TAG
           export AUTH_TOKEN=${{ secrets.REPO_TOKEN }}
-          python3.8 loadtest.py && echo "finish"
+          python3.8 loadtest.py && rm loadtest.py
 
   Scaledown:
     needs: [azure-sql, azure-vm, loadtest]
