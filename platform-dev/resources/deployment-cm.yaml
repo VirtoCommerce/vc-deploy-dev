@@ -183,9 +183,14 @@ data:
         "Repository": "vc-module-notification",
         "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.NotificationsModule.3.19.0-alpha.210-dev.zip"
     },
-        {
+    {
         "Id": "VirtoCommerce.CustomerSample",
         "Repository": "vc-module-customer",
         "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.CustomerModule.3.34.0-alpha.624-dev.zip"
+    },
+    {
+        "Id": "VirtoCommerce.EventBus",
+        "Repository": "vc-module-event-bus",
+        "PackageUrl": "https://github.com/VirtoCommerce/vc-module-event-bus/releases/download/1.1.0/VirtoCommerce.EventBus_1.1.0.zip"
     }
    ]
