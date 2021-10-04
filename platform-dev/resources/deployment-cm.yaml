@@ -192,5 +192,10 @@ data:
         "Id": "VirtoCommerce.EventBus",
         "Repository": "vc-module-event-bus",
         "PackageUrl": "https://github.com/VirtoCommerce/vc-module-event-bus/releases/download/1.1.0/VirtoCommerce.EventBus_1.1.0.zip"
+    },
+    {
+        "Id": "VirtoCommerce.Webhooks",
+        "Repository": "vc-module-webhooks",
+        "PackageUrl": "https://github.com/VirtoCommerce/vc-module-webhooks/releases/download/3.4.0/VirtoCommerce.WebHooks_3.4.0.zip"
     }
    ]
