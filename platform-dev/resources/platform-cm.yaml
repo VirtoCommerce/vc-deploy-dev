@@ -3,6 +3,7 @@ apiVersion: v1
 metadata:
   name: platform-cm
 data:
+   #Setting for SMTP
     Notifications__DefaultSender: "azure_25da07ed75daacae20578a7a7dc58541@azure.com"
     Notifications__Gateway: "SendGrid"
     Notifications__SmsDefaultSender: "+17012510519"
@@ -10,19 +11,26 @@ data:
     Notifications__Smtp__Host: "smtp.sendgrid.net"
     Notifications__Smtp__Login: "apikey"
     Notifications__Smtp__Port: "587"
+   #Platfrom mode
     ASPNETCORE_ENVIRONMENT: "Development"
+   #Enable headers (broken swagger)
     ASPNETCORE_FORWARDEDHEADERS_ENABLED: "false"
+   #Enable telemtry
     AppInsights__EnableDependencyTrackingTelemetryModule: "false"
+   #enable swagger ui
     Swagger__UI__Enabled: "false"
+   #setting for redis(push notification)
     PushNotifications__ForceWebSockets: "true"
     PushNotifications__ScalabilityMode: "RedisBackplane"
     PushNotifications__HubUrl: "https://$(VC_PLATFORM_SERVICE).$(VC_NAMESPACE).govirto.com/pushNotificationHub"
     PushNotifications__RedisBackplane__ChannelName: "$(VC_PLATFORM_SERVICE)-$(VC_NAMESPACE)-chanel"
+   #Setting for elastic search
     Search__ElasticSearch__Server: http://search-dev-es-http.elastic-system:9200
+   #Active directory
     AzureAd__Enabled: "true"
     AzureAd__ApplicationId: "8227d950-975c-4c28-b7d4-ea440a59dcbb"
     AzureAd__TenantId: "bc03e660-5e3a-45c4-bf5c-b75489f78923"
-    Search__Scope: "$(VC_PLATFORM_SERVICE)$(VC_NAMESPACE)-new-index"
+   #Path for assets
     Content__FileSystem__PublicUrl: https://$(VC_PLATFORM_SERVICE).$(VC_NAMESPACE).govirto.com/cms-content/
     Assets__FileSystem__PublicUrl: https://$(VC_PLATFORM_SERVICE).$(VC_NAMESPACE).govirto.com/cms-content/assets/
     VirtoCommerce__LicenseFilePath: app_data/VirtoCommerce.lic
@@ -30,18 +38,26 @@ data:
     VirtoCommerce__LicensePrivateKeyPath: app_data/private.key
     VirtoCommerce__LocalUploadFolderPath: app_data/uploads
     VirtoCommerce__Hangfire__JobStorageType: SqlServer
+   #Black list
     VirtoCommerce__FileExtensionsBlackList__0: ".pdf"
     Logging__LogLevel__Default: "Information"
+   #Index order
     Search__OrderFullTextSearchEnabled: "true"
+   #Setting for authorizenet
     Payments__AuthorizeNet__ApiLogin: "8hPT4p99R"
     Payments__AuthorizeNet__SHA2Hash: "FA6D2B37A7E9105942D2D184F1B2DBD8D9CA85611DE55B2267A6F7E0D7E49ACD9A6BC238CE068E75CA14ACFAD734F700FD94DCAB20353DD4D32D9BABE72DBBE4"
     Payments__AuthorizeNet__TxnKey: "63c54EWq5d2XnGAR"
+   #Disable swagger
   # VirtoCommerce__Swagger__Disable: "true" 
+   #Setting for azure search
   # Search__Provider: AzureSearch
   # Search__AzureSearch__SearchServiceName: qa-demovc-3-search
   # Search__AzureSearch__Key: 6BE1143312E89C26C227E6BBAE24DD47
+   #setting for lucene search
   # Search__Provider: Lucene
+   #Settings for avatax
     Tax__Avalara__AccountNumber: "2000188799"
     Tax__Avalara__LicenseKey: "16BC3F87E836E15C"
+   #Key for AI
     APPINSIGHTS_INSTRUMENTATIONKEY: "4120bbdb-aa5b-4512-8d9f-36af1f696719"
 
