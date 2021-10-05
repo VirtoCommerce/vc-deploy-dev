@@ -7,13 +7,13 @@ metadata:
     - resources-finalizer.argocd.argoproj.io  
 spec:
   destination:
-    namespace: dev
+    namespace: demo
     server: 'https://aks-f783f1e0.hcp.westus.azmk8s.io:443'
   project: tenant
   source:
-    path: platform-dev/overlays/dev
+    path: platform-dev/overlays/demo
     repoURL: https://github.com/VirtoCommerce/vc-deploy-dev
-    targetRevision: dev
+    targetRevision: demo
   syncPolicy:
     automated:
       prune: true
