@@ -3,7 +3,7 @@ apiVersion: v1
 metadata:
   name: deployment-cm
 data:
-  ELECTRONICS_THEME_URL: https://github.com/VirtoCommerce/vc-theme-default/releases/download/2.1.12/vc-theme-default-2.1.12.zip
+  ELECTRONICS_THEME_URL: https://github.com/VirtoCommerce/vc-theme-default/releases/download/2.1.13/vc-theme-default-2.1.13.zip
   ELECTRONICS_THEME_LOCATION: /mnt/cms-content/Themes/Electronics
   B2B_THEME_URL: https://github.com/VirtoCommerce/vc-theme-b2b/releases/download/3.0.8/vc-b2b-theme-3.0.8.zip
   B2B_THEME_LOCATION: /mnt/cms-content/Themes/B2B-store
