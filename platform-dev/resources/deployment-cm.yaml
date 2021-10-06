@@ -179,6 +179,11 @@ data:
         "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.MarketplaceVendor_3.0.0-alpha.20.zip"
     },
     {
+        "Id": "VirtoCommerce.MarketplaceOperator",
+        "Repository": "VirtoCommerce/vc-module-marketplace-vendor",
+        "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.MarketplaceOperator_1.0.0-alpha.26.zip"
+    },
+    {
         "Id": "VirtoCommerce.NotificationsSample",
         "Repository": "vc-module-notification",
         "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.NotificationsModule.3.19.0-alpha.210-dev.zip"
