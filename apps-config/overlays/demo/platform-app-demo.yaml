@@ -7,8 +7,8 @@ metadata:
     - resources-finalizer.argocd.argoproj.io  
 spec:
   destination:
-    namespace: dev
-    server: 'https://aks-f783f1e0.hcp.westus.azmk8s.io:443'
+    namespace: demo
+    server: https://kubernetes.default.svc
   project: prod-tenant
   source:
     path: platform-dev/overlays/demo
