@@ -8,6 +8,7 @@ commonLabels:
 resources:
 - ../../resources
 - demo-manager-deploy.yaml
+- xapi-deploy.yaml
 
 images:
 - name: ghcr.io/virtocommerce/platform-demo-manager
