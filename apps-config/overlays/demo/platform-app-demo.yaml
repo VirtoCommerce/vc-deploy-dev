@@ -9,7 +9,7 @@ spec:
   destination:
     namespace: dev
     server: 'https://aks-f783f1e0.hcp.westus.azmk8s.io:443'
-  project: tenant
+  project: prod-tenant
   source:
     path: platform-dev/overlays/demo
     repoURL: https://github.com/VirtoCommerce/vc-deploy-dev
