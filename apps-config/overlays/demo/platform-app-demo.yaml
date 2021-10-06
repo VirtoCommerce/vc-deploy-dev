@@ -1,0 +1,20 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: vcplatform
+  namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io  
+spec:
+  destination:
+    namespace: dev
+    server: 'https://aks-f783f1e0.hcp.westus.azmk8s.io:443'
+  project: tenant
+  source:
+    path: platform-dev/overlays/demo
+    repoURL: https://github.com/VirtoCommerce/vc-deploy-dev
+    targetRevision: demo
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true

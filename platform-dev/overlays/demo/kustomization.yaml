@@ -1,6 +1,6 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
-namespace: dev
+namespace: demo
 namePrefix: vcplatform-
 commonLabels:
   instance: vcplatform
@@ -9,6 +9,11 @@ resources:
 - ../../resources
 - demo-manager-deploy.yaml
 - xapi-deploy.yaml
+
+images:
+- name: ghcr.io/virtocommerce/platform-demo-manager
+  newName: ghcr.io/virtocommerce/platform-demo-manager
+  newTag: 0.0.46
 
 configMapGenerator:
 - name: db-config
