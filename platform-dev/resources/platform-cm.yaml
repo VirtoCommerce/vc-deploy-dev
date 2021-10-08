@@ -63,3 +63,5 @@ data:
     Search__Scope: "$(VC_PLATFORM_SERVICE)$(VC_NAMESPACE)-new-index"
    #Video key
     Videos__GoogleApiKey: "AIzaSyD5A4oFeSgaMQnMo3OiaqUSJ23SQGELiA4"
+   #cache
+    Caching__CacheEnabled: "true"
