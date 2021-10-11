@@ -7,13 +7,13 @@ metadata:
     - resources-finalizer.argocd.argoproj.io  
 spec:
   destination:
-    namespace: dev
+    namespace: demo
     server: https://kubernetes.default.svc
   project: prod-tenant
   source:
     path: ui-kit/overlays/demo
     repoURL: https://github.com/VirtoCommerce/vc-deploy-dev
-    targetRevision: dev
+    targetRevision: demo
   syncPolicy:
     automated:
       prune: true
