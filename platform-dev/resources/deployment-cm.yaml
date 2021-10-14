@@ -80,7 +80,7 @@ data:
     {
     "Id": "VirtoCommerce.ExperienceApi",
     "Repository": "VirtoCommerce/vc-module-experience-api",
-    "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ExperienceApi_1.38.0-pr-230.zip"
+    "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ExperienceApi_1.39.0-pr-233.zip"
     },
     {
       "Id": "VirtoCommerce.Customer",
@@ -90,7 +90,7 @@ data:
     {
       "Id": "VirtoCommerce.Catalog",
       "Repository": "VirtoCommerce/vc-module-catalog",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-catalog/releases/download/3.66.0/VirtoCommerce.Catalog_3.66.0.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-catalog/releases/download/3.69.0/VirtoCommerce.Catalog_3.69.0.zip"
     },
     {
       "Id": "VirtoCommerce.Content",
