@@ -34,7 +34,7 @@ data:
     {
       "Id": "VirtoCommerce.Cart",
       "Repository": "VirtoCommerce/vc-module-cart",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Cart_3.24.0-pr-92.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-cart/releases/download/3.25.0/VirtoCommerce.Cart_3.25.0.zip"
     },
     {
       "Id": "VirtoCommerce.CatalogPersonalization",
