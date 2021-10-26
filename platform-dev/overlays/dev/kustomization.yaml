@@ -9,6 +9,7 @@ resources:
 - ../../resources
 - xapi-deploy.yaml
 
+
 configMapGenerator:
 - name: db-config
   literals:
