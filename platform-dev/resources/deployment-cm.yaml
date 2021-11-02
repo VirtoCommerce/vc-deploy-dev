@@ -66,7 +66,7 @@ data:
     {
       "Id": "VirtoCommerce.Core",
       "Repository": "VirtoCommerce/vc-module-core",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Core_3.27.0-alpha.1485.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-core/releases/download/3.23.0/VirtoCommerce.Core_3.23.0.zip"
     },
     {
       "Id": "VirtoCommerce.Customer",
@@ -111,7 +111,7 @@ data:
     {
       "Id": "VirtoCommerce.Inventory",
       "Repository": "VirtoCommerce/vc-module-inventory",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Inventory_3.21.0-alpha.328.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-inventory/releases/download/3.19.0/VirtoCommerce.Inventory_3.19.0.zip"
     },
     {
       "Id": "VirtoCommerce.LuceneSearch",
@@ -131,7 +131,7 @@ data:
     {
       "Id": "VirtoCommerce.Orders",
       "Repository": "VirtoCommerce/vc-module-order",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-order/releases/download/3.42.0/VirtoCommerce.Orders_3.42.0.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-order/releases/download/3.41.0/VirtoCommerce.Orders_3.41.0.zip"
     },
     {
       "Id": "VirtoCommerce.Payment",
