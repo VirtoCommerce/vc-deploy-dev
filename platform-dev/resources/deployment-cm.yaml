@@ -36,12 +36,12 @@ data:
     {
       "Id": "VirtoCommerce.Cart",
       "Repository": "VirtoCommerce/vc-module-cart",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Cart_3.27.0-alpha.515.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Cart_3.28.0-alpha.517.zip"
     },
     {
       "Id": "VirtoCommerce.Catalog",
       "Repository": "VirtoCommerce/vc-module-catalog",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Catalog_3.74.0-alpha.1833.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Catalog_3.74.0-alpha.1836.zip"
     },
     {
       "Id": "VirtoCommerce.CatalogCsvImportModule",
@@ -91,7 +91,7 @@ data:
     {
       "Id": "VirtoCommerce.ExperienceApi",
       "Repository": "VirtoCommerce/vc-module-experience-api",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-experience-api/releases/download/1.43.0/VirtoCommerce.ExperienceApi_1.43.0.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ExperienceApi_1.46.0-alpha.785.zip"
     },
     {
       "Id": "VirtoCommerce.Export",
@@ -121,7 +121,7 @@ data:
     {
       "Id": "VirtoCommerce.Marketing",
       "Repository": "VirtoCommerce/vc-module-marketing",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Marketing_3.29.0-alpha.716.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Marketing_3.30.0-alpha.720.zip"
     },
     {
       "Id": "VirtoCommerce.Notifications",
