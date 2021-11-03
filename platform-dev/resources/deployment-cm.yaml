@@ -202,5 +202,10 @@ data:
       "Id": "VirtoCommerce.WebHooks",
       "Repository": "VirtoCommerce/vc-module-webhooks",
       "PackageUrl": "https://github.com/VirtoCommerce/vc-module-webhooks/releases/download/3.4.0/VirtoCommerce.WebHooks_3.4.0.zip"
-    }   
+    },
+      {
+      "Id": "VirtoCommerce.GDPR",
+      "Repository": "VirtoCommerce/vc-module-gdpr",
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.GDPR_1.0.0.zip"
+    }
    ] 
