@@ -65,11 +65,11 @@ data:
     Videos__GoogleApiKey: "AIzaSyD5A4oFeSgaMQnMo3OiaqUSJ23SQGELiA4"
    #cache
     Caching__CacheEnabled: "true"
-    DefaultMainMenuState__items:
-    [
+    DefaultMainMenuState__items:|
+      [
       {
       "path": "browse/marketing",
       "isFavorite": true,
       "order": 1
       }
-    ]
+      ]
