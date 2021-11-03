@@ -67,9 +67,9 @@ data:
     Caching__CacheEnabled: "true"
     DefaultMainMenuState__items:|
       [
-      {
-      "path": "browse/marketing",
-      "isFavorite": true,
-      "order": 1
-      }
+        {
+        "path": "browse/marketing",
+        "isFavorite": true,
+        "order": 1
+        }
       ]
