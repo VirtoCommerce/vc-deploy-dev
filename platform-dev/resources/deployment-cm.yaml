@@ -197,13 +197,12 @@ data:
       "Repository": "VirtoCommerce/vc-module-tax",
       "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Tax_3.9.0-pr-24.zip"
     },
-      {
+    {
       "Id": "VirtoCommerce.GDPR",
       "Repository": "VirtoCommerce/vc-module-gdpr",
       "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.GDPR_1.0.0.zip"
     },
-    ,
-      {
+    {
       "Id": "SampleModule.Web-sample-VirtoCommerce.CustomerModule",
       "Repository": "VirtoCommerce/vc-module-customer",
       "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/SampleModule.Web-sample-VirtoCommerce.CustomerModule.3.36.0-alpha.638-dev.zip"
