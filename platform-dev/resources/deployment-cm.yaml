@@ -101,7 +101,7 @@ data:
     {
       "Id": "VirtoCommerce.Pricing",
       "Repository": "VirtoCommerce/vc-module-pricing",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Pricing_3.28.0-alpha.546.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-pricing/releases/download/3.25.0/VirtoCommerce.Pricing_3.25.0.zip"
     },
     {
       "Id": "VirtoCommerce.Search",
@@ -202,10 +202,5 @@ data:
       "Id": "VirtoCommerce.WebHooks",
       "Repository": "VirtoCommerce/vc-module-webhooks",
       "PackageUrl": "https://github.com/VirtoCommerce/vc-module-webhooks/releases/download/3.4.0/VirtoCommerce.WebHooks_3.4.0.zip"
-    },
-      {
-      "Id": "VirtoCommerce.GDPR",
-      "Repository": "VirtoCommerce/vc-module-gdpr",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.GDPR_1.0.0.zip"
-    }
+    }   
    ] 
