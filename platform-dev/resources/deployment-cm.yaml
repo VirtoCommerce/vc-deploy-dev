@@ -16,7 +16,7 @@ data:
     {
       "Id": "VirtoCommerce.Core",
       "Repository": "VirtoCommerce/vc-module-core",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-core/releases/download/3.23.0/VirtoCommerce.Core_3.23.0.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Core_3.28.0-alpha.1488.zip"
     },
     {
       "Id": "VirtoCommerce.AzureSearch",
@@ -31,7 +31,7 @@ data:
     {
       "Id": "VirtoCommerce.Catalog",
       "Repository": "VirtoCommerce/vc-module-catalog",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-catalog/releases/download/3.66.0/VirtoCommerce.Catalog_3.66.0.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Catalog_3.77.0-alpha.1844.zip"
     },
     {
       "Id": "VirtoCommerce.Content",
@@ -46,7 +46,7 @@ data:
     {
       "Id": "VirtoCommerce.Customer",
       "Repository": "VirtoCommerce/vc-module-customer",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-customer/releases/download/3.33.0/VirtoCommerce.Customer_3.33.0.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Customer_3.37.0-alpha.641.zip"
     },
     {
       "Id": "VirtoCommerce.ElasticSearch",
@@ -56,7 +56,7 @@ data:
     {
       "Id": "VirtoCommerce.ExperienceApi",
       "Repository": "VirtoCommerce/vc-module-experience-api",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ExperienceApi_1.46.0-alpha.787.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ExperienceApi_1.47.0-alpha.815.zip"
     },
     {
       "Id": "VirtoCommerce.Export",
@@ -71,7 +71,7 @@ data:
     {
       "Id": "VirtoCommerce.Inventory",
       "Repository": "VirtoCommerce/vc-module-inventory",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-inventory/releases/download/3.19.0/VirtoCommerce.Inventory_3.19.0.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Inventory_3.22.0-alpha.330.zip"
     },
     {
       "Id": "VirtoCommerce.LuceneSearch",
@@ -121,7 +121,7 @@ data:
     {
       "Id": "VirtoCommerce.Store",
       "Repository": "VirtoCommerce/vc-module-store",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-store/releases/download/3.23.0/VirtoCommerce.Store_3.23.0.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Store_3.26.0-alpha.572.zip"
     },
     {
       "Id": "VirtoCommerce.Subscription",
@@ -151,7 +151,7 @@ data:
     {
       "Id": "VirtoCommerce.CatalogPersonalization",
       "Repository": "VirtoCommerce/vc-module-catalog-personalization",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-catalog-personalization/releases/download/3.10.0/VirtoCommerce.CatalogPersonalization_3.10.0.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.CatalogPersonalization_3.12.0-alpha.159.zip"
     },
     {
       "Id": "VirtoCommerce.CatalogPublishing",
@@ -166,7 +166,7 @@ data:
     {
       "Id": "VirtoCommerce.CatalogCsvImportModule",
       "Repository": "VirtoCommerce/vc-module-catalog-csv-import",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-catalog-csv-import/releases/download/3.26.0/VirtoCommerce.CatalogCsvImportModule_3.26.0.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.CatalogCsvImportModule_3.29.0-alpha.213.zip"
     },
     {
       "Id": "VirtoCommerce.Contentful",
@@ -186,7 +186,7 @@ data:
     {
       "Id": "VirtoCommerce.DynamicAssociations",
       "Repository": "VirtoCommerce/vc-module-dynamic-associations",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-dynamic-associations/releases/download/3.7.0/VirtoCommerce.DynamicAssociationsModule_3.7.0.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.DynamicAssociationsModule_3.9.0-alpha.62.zip"
     },
     {
       "Id": "VirtoCommerce.ExperienceApi",
