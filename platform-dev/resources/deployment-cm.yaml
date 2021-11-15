@@ -135,7 +135,7 @@ data:
     {
       "Id": "VirtoCommerce.Orders",
       "Repository": "VirtoCommerce/vc-module-order",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Orders_3.46.0-pr-272.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-order/releases/download/3.47.0/VirtoCommerce.Orders_3.47.0.zip"
     },
     {
       "Id": "VirtoCommerce.Payment",
@@ -165,12 +165,12 @@ data:
     {
       "Id": "VirtoCommerce.Store",
       "Repository": "VirtoCommerce/vc-module-store",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Store_3.25.0-pr-92.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-store/releases/download/3.25.0/VirtoCommerce.Store_3.25.0.zip"
     },
     {
       "Id": "VirtoCommerce.Subscription",
       "Repository": "VirtoCommerce/vc-module-subscription",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-subscription/releases/download/3.11.0/VirtoCommerce.Subscription_3.11.0.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-subscription/releases/download/3.12.0/VirtoCommerce.Subscription_3.12.0.zip"
     },
     {
       "Id": "VirtoCommerce.Tax",
