@@ -202,5 +202,20 @@ data:
       "Id": "VirtoCommerce.WebHooks",
       "Repository": "VirtoCommerce/vc-module-webhooks",
       "PackageUrl": "https://github.com/VirtoCommerce/vc-module-webhooks/releases/download/3.4.0/VirtoCommerce.WebHooks_3.4.0.zip"
+    },
+    {
+      "Id": "VirtoCommerce.AzureBlobAssets",
+      "Repository": "VirtoCommerce/vc-module-azureblob-assets",
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-azureblob-assets/releases/download/1.1.0/VirtoCommerce.AzureBlobAssets_1.1.0.zip"
+    },
+    {
+      "Id": "VirtoCommerce.FileSystemAssets",
+      "Repository": "VirtoCommerce/vc-module-filesystem-assets",
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-filesystem-assets/releases/download/1.1.0/VirtoCommerce.FileSystemAssets_1.1.0.zip"
+    },
+    {
+      "Id": "VirtoCommerce.Assets",
+      "Repository": "VirtoCommerce/vc-module-assets",
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-assets/releases/download/1.1.0/VirtoCommerce.Assets_1.1.0.zip"
     }   
    ] 
