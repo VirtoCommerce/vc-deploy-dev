@@ -200,7 +200,7 @@ data:
     {
       "Id": "VirtoCommerce.GDPR",
       "Repository": "VirtoCommerce/vc-module-gdpr",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.GDPR_1.0.0.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-gdpr/releases/download/1.0.0/VirtoCommerce.GDPR_1.0.0.zip"
     },
     {
       "Id": "VirtoCommerce.CustomerSample",
