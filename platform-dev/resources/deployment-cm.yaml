@@ -90,7 +90,7 @@ data:
     {
       "Id": "VirtoCommerce.Catalog",
       "Repository": "VirtoCommerce/vc-module-catalog",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-catalog/releases/download/3.78.0/VirtoCommerce.Catalog_3.78.0.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-catalog/releases/download/3.79.0/VirtoCommerce.Catalog_3.79.0.zip"
     },
     {
       "Id": "VirtoCommerce.Content",
@@ -115,7 +115,7 @@ data:
     {
       "Id": "VirtoCommerce.ImageTools",
       "Repository": "VirtoCommerce/vc-module-image-tools",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-image-tools/releases/download/3.14.0/VirtoCommerce.ImageTools_3.14.0.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-image-tools/releases/download/3.16.0/VirtoCommerce.ImageTools_3.16.0.zip"
     },
     {
       "Id": "VirtoCommerce.Inventory",
