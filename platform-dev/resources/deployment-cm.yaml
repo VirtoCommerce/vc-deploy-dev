@@ -31,12 +31,12 @@ data:
     {
       "Id": "VirtoCommerce.Catalog",
       "Repository": "VirtoCommerce/vc-module-catalog",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Catalog_3.79.0-alpha.1848.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Catalog_3.80.0-alpha.1850.zip"
     },
     {
       "Id": "VirtoCommerce.Content",
       "Repository": "VirtoCommerce/vc-module-content",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Content_3.15.0-alpha.752.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Content_3.16.0-alpha.754.zip"
     },
     {
       "Id": "VirtoCommerce.Core",
@@ -46,7 +46,7 @@ data:
     {
       "Id": "VirtoCommerce.Customer",
       "Repository": "VirtoCommerce/vc-module-customer",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Customer_3.37.0-alpha.641.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Customer_3.38.0-alpha.643.zip"
     },
     {
       "Id": "VirtoCommerce.ElasticSearch",
@@ -56,17 +56,17 @@ data:
     {
       "Id": "VirtoCommerce.ExperienceApi",
       "Repository": "VirtoCommerce/vc-module-experience-api",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ExperienceApi_1.47.0-alpha.815.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ExperienceApi_1.48.0-alpha.828.zip"
     },
     {
       "Id": "VirtoCommerce.Export",
       "Repository": "VirtoCommerce/vc-module-export",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-export/releases/download/3.15.0/VirtoCommerce.Export_3.15.0.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Export_3.18.0-alpha.144.zip"
     },
     {
       "Id": "VirtoCommerce.ImageTools",
       "Repository": "VirtoCommerce/vc-module-image-tools",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ImageTools_3.16.0-alpha.241.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ImageTools_3.17.0-alpha.243.zip"
     },
     {
       "Id": "VirtoCommerce.Inventory",
@@ -121,7 +121,7 @@ data:
     {
       "Id": "VirtoCommerce.Store",
       "Repository": "VirtoCommerce/vc-module-store",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Store_3.26.0-alpha.572.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Store_3.27.0-alpha.574.zip"
     },
     {
       "Id": "VirtoCommerce.Subscription",
@@ -146,7 +146,7 @@ data:
     {
       "Id": "VirtoCommerce.AvalaraTax",
       "Repository": "VirtoCommerce/vc-module-avatax",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-avatax/releases/download/3.4.0/VirtoCommerce.AvalaraTax_3.4.0.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.AvalaraTax_3.6.0-alpha.224.zip"
     },
     {
       "Id": "VirtoCommerce.CatalogPersonalization",
@@ -216,6 +216,6 @@ data:
     {
       "Id": "VirtoCommerce.Assets",
       "Repository": "VirtoCommerce/vc-module-assets",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-assets/releases/download/1.1.0/VirtoCommerce.Assets_1.1.0.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Assets_1.3.0-alpha.12.zip"
     }   
    ] 
