@@ -206,12 +206,12 @@ data:
     {
       "Id": "VirtoCommerce.AzureBlobAssets",
       "Repository": "VirtoCommerce/vc-module-azureblob-assets",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-azureblob-assets/releases/download/1.1.0/VirtoCommerce.AzureBlobAssets_1.1.0.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-azureblob-assets/releases/download/1.4.0/VirtoCommerce.AzureBlobAssets_1.4.0.zip"
     },
     {
       "Id": "VirtoCommerce.FileSystemAssets",
       "Repository": "VirtoCommerce/vc-module-filesystem-assets",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-filesystem-assets/releases/download/1.1.0/VirtoCommerce.FileSystemAssets_1.1.0.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-filesystem-assets/releases/download/1.2.0/VirtoCommerce.FileSystemAssets_1.2.0.zip"
     },
     {
       "Id": "VirtoCommerce.Assets",
