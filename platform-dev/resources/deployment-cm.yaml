@@ -36,7 +36,7 @@ data:
     {
       "Id": "VirtoCommerce.Content",
       "Repository": "VirtoCommerce/vc-module-content",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Content_3.16.0-alpha.754.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Content_3.18.0-alpha.760.zip"
     },
     {
       "Id": "VirtoCommerce.Core",
@@ -56,7 +56,7 @@ data:
     {
       "Id": "VirtoCommerce.ExperienceApi",
       "Repository": "VirtoCommerce/vc-module-experience-api",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ExperienceApi_1.48.0-alpha.830.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ExperienceApi_1.50.0-alpha.835.zip"
     },
     {
       "Id": "VirtoCommerce.Export",
@@ -91,7 +91,7 @@ data:
     {
       "Id": "VirtoCommerce.Orders",
       "Repository": "VirtoCommerce/vc-module-order",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-order/releases/download/3.41.0/VirtoCommerce.Orders_3.41.0.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Orders_3.49.0-alpha.966.zip"
     },
     {
       "Id": "VirtoCommerce.Payment",
@@ -201,7 +201,7 @@ data:
     {
       "Id": "VirtoCommerce.WebHooks",
       "Repository": "VirtoCommerce/vc-module-webhooks",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-webhooks/releases/download/3.4.0/VirtoCommerce.WebHooks_3.4.0.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.WebHooks_3.5.0-alpha.165-pt-4176.zip"
     },
     {
       "Id": "VirtoCommerce.AzureBlobAssets",
