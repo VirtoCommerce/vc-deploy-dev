@@ -150,7 +150,7 @@ data:
     {
       "Id": "VirtoCommerce.Search",
       "Repository": "VirtoCommerce/vc-module-search",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-search/releases/download/3.16.0/VirtoCommerce.Search_3.16.0.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Search_3.17.0-pr-54.zip"
     },
     {
       "Id": "VirtoCommerce.Shipping",
@@ -200,7 +200,7 @@ data:
     {
       "Id": "VirtoCommerce.GDPR",
       "Repository": "VirtoCommerce/vc-module-gdpr",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.GDPR_1.1.0-alpha.22.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.GDPR_1.2.0-pr-4.zip"
     },
     {
       "Id": "VirtoCommerce.CustomerSample",
