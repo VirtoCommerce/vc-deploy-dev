@@ -31,12 +31,12 @@ data:
     {
       "Id": "VirtoCommerce.Catalog",
       "Repository": "VirtoCommerce/vc-module-catalog",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-catalog/releases/download/3.79.0/VirtoCommerce.Catalog_3.79.0.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-catalog/releases/download/3.80.0/VirtoCommerce.Catalog_3.80.0.zip"
     },
     {
       "Id": "VirtoCommerce.Content",
       "Repository": "VirtoCommerce/vc-module-content",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-content/releases/download/3.15.0/VirtoCommerce.Content_3.15.0.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-content/releases/download/3.17.0/VirtoCommerce.Content_3.17.0.zip"
     },
     {
       "Id": "VirtoCommerce.Customer",
@@ -71,7 +71,7 @@ data:
     {
       "Id": "VirtoCommerce.Marketing",
       "Repository": "VirtoCommerce/vc-module-marketing",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-marketing/releases/download/3.30.0/VirtoCommerce.Marketing_3.30.0.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-marketing/releases/download/3.31.0/VirtoCommerce.Marketing_3.31.0.zip"
     },
     {
       "Id": "VirtoCommerce.Notifications",
@@ -81,7 +81,7 @@ data:
     {
       "Id": "VirtoCommerce.Orders",
       "Repository": "VirtoCommerce/vc-module-order",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-order/releases/download/3.46.0/VirtoCommerce.Orders_3.46.0.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-order/releases/download/3.48.0/VirtoCommerce.Orders_3.48.0.zip"
     },
     {
       "Id": "VirtoCommerce.Payment",
@@ -136,7 +136,7 @@ data:
     {
       "Id": "VirtoCommerce.AvalaraTax",
       "Repository": "VirtoCommerce/vc-module-avatax",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-avatax/releases/download/3.4.0/VirtoCommerce.AvalaraTax_3.4.0.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-avatax/releases/download/3.5.0/VirtoCommerce.AvalaraTax_3.5.0.zip"
     },
     {
       "Id": "VirtoCommerce.CatalogPersonalization",
@@ -182,7 +182,7 @@ data:
 
       "Id": "VirtoCommerce.ExperienceApi",
       "Repository": "VirtoCommerce/vc-module-experience-api",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-experience-api/releases/download/1.47.0/VirtoCommerce.ExperienceApi_1.47.0.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-experience-api/releases/download/1.49.0/VirtoCommerce.ExperienceApi_1.49.0.zip"
     },
     {
       "Id": "VirtoCommerce.EventBus",
@@ -192,7 +192,7 @@ data:
     {
       "Id": "VirtoCommerce.WebHooks",
       "Repository": "VirtoCommerce/vc-module-webhooks",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-webhooks/releases/download/3.4.0/VirtoCommerce.WebHooks_3.4.0.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-webhooks/releases/download/3.4.0/VirtoCommerce.WebHooks_3.5.0.zip"
     },
      {
     "Id": "VirtoCommerce.DemoSolutionFeatures",
