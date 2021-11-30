@@ -189,11 +189,6 @@ data:
       "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.DynamicAssociationsModule_3.9.0-alpha.62.zip"
     },
     {
-      "Id": "VirtoCommerce.ExperienceApi",
-      "Repository": "VirtoCommerce/vc-module-experience-api",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ExperienceApi_1.37.0-pr-228.zip"
-    },
-    {
       "Id": "VirtoCommerce.EventBus",
       "Repository": "VirtoCommerce/vc-module-event-bus",
       "PackageUrl": "https://github.com/VirtoCommerce/vc-module-event-bus/releases/download/1.1.0/VirtoCommerce.EventBus_1.1.0.zip"
