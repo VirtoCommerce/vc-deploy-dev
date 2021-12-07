@@ -9,3 +9,4 @@ data:
   VirtoCommerce__Endpoint__Password: store
   VirtoCommerce__Endpoint__UserName: admin
   VirtoCommerce__Endpoint__Url: https://$(VC_PLATFORM_SERVICE).$(VC_NAMESPACE).svc.cluster.local
+  VirtoCommerce__DefaultStore: B2B-store
