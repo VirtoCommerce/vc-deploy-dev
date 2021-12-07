@@ -28,6 +28,9 @@ spec:
         args:
           - "python3 installer.py $(MERCURY_THEME_URL) $(MERCURY_THEME_LOCATION)
           && python3 installer.py $(ASSETS_URL) $(ASSETS_LOCATION)"
+        envFrom:
+          - configMapRef:
+              name: deployment-cm
         volumeMounts:
           - mountPath: /mnt/cms-content
             name: cms-content-data
