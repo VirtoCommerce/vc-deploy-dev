@@ -4,9 +4,9 @@ kind: Kustomization
 patchesStrategicMerge:
 - ingress-https.yaml
 - deployment-cm.yaml
-# - platform-cm.yaml
-# - platform-deploy.yaml
-# - platform-secrets.yaml
+- platform-cm.yaml
+- platform-deploy.yaml
+- platform-secrets.yaml
 
 resources:
 - ../../common-base/platform
