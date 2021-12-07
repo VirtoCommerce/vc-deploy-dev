@@ -2,18 +2,18 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 
 patchesStrategicMerge:
-- ingress-https.yaml
-- deployment-cm.yaml
-- platform-cm.yaml
+# - ingress-https.yaml
+# - deployment-cm.yaml
+# - platform-cm.yaml
 - platform-deploy.yaml
-- platform-secrets.yaml
+# - platform-secrets.yaml
 
 resources:
 - ../../common-base/platform
-# - storefront-cm.yaml
-# - storefront-deploy.yaml
-# - storefront-service.yaml
-# - storage.yaml
+- storefront-cm.yaml
+- storefront-deploy.yaml
+- storefront-service.yaml
+- storage.yaml
 
 images:
 - name: docker.pkg.github.com/virtocommerce/vc-platform/platform
