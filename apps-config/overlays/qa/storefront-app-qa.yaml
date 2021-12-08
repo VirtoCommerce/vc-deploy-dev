@@ -1,0 +1,20 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: storefront
+  namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io  
+spec:
+  destination:
+    namespace: qa
+    server: 'https://aks-f783f1e0.hcp.westus.azmk8s.io:443'
+  project: tenant
+  source:
+    path: storefront-app/overlays/qa
+    repoURL: https://github.com/VirtoCommerce/vc-deploy-dev
+    targetRevision: qa
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
