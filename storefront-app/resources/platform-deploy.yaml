@@ -42,6 +42,13 @@ spec:
                   key: password
         - name: init-platform
           image: ghcr.io/virtocommerce/vc-deploy-containers/platform-installer:v3
+          resources:
+            limits:
+              cpu: "500m"
+              memory: 512Mi
+            requests:
+              cpu: "150m"
+              memory: 256Mi
           command:
             - "/bin/sh"
             - "-c"
