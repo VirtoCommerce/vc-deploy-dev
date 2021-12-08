@@ -41,6 +41,8 @@ data:
     VirtoCommerce__Hangfire__JobStorageType: SqlServer
    #Black list
     VirtoCommerce__FileExtensionsWhiteList__0: ".pdf"
+    VirtoCommerce__FileExtensionsWhiteList__1: ".png"
+    VirtoCommerce__FileExtensionsBlackList__0: ".pdf"
     Logging__LogLevel__Default: "Information"
    #Index order
     Search__OrderFullTextSearchEnabled: "true"
