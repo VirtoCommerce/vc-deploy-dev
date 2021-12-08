@@ -40,6 +40,7 @@ data:
     VirtoCommerce__LocalUploadFolderPath: app_data/uploads
     VirtoCommerce__Hangfire__JobStorageType: SqlServer
    #Black list
+    VirtoCommerce__FileExtensionsBlackList__0: ".pdf"
     Logging__LogLevel__Default: "Information"
    #Index order
     Search__OrderFullTextSearchEnabled: "true"
