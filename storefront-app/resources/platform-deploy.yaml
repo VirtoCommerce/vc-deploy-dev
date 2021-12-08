@@ -47,6 +47,7 @@ spec:
             - "-c"
           args:
             - "echo START INIT $(date +%Y-%m-%d-%H-%M-%S)
+            && rm -rf /mnt/Modules/*
             && python3 install-modules.py \"$MODULES_CONFIG\" /mnt/Modules/*"
           envFrom:
           - configMapRef:
