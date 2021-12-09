@@ -173,11 +173,6 @@ data:
       "PackageUrl": "https://github.com/VirtoCommerce/vc-module-subscription/releases/download/3.12.0/VirtoCommerce.Subscription_3.12.0.zip"
     },
     {
-      "Id": "VirtoCommerce.Tax",
-      "Repository": "VirtoCommerce/vc-module-tax",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Tax_3.9.0-alpha.93-dev.zip"
-    },
-    {
       "Id": "VirtoCommerce.EventBus",
       "Repository": "VirtoCommerce/vc-module-event-bus",
       "PackageUrl": "https://github.com/VirtoCommerce/vc-module-event-bus/releases/download/1.1.0/VirtoCommerce.EventBus_1.1.0.zip"
@@ -195,7 +190,7 @@ data:
     {
       "Id": "VirtoCommerce.Tax",
       "Repository": "VirtoCommerce/vc-module-tax",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Tax_3.9.0-pr-24.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Tax_3.9.0-alpha.93-dev.zip"
     },
     {
       "Id": "VirtoCommerce.GDPR",
