@@ -5,10 +5,8 @@ metadata:
   annotations:
     reloader.stakater.com/match: "true"
 data:
-  ELECTRONICS_THEME_URL: https://github.com/VirtoCommerce/vc-demo-theme-default/releases/download/1.9.0/vc-demo-theme-default-1.9.0.zip
-  ELECTRONICS_THEME_LOCATION: /mnt/cms-content/Themes/Electronics
-  B2B_THEME_URL: https://github.com/VirtoCommerce/vc-demo-theme-b2b/releases/download/1.13.0/vc-demo-theme-b2b-1.13.0.zip
-  B2B_THEME_LOCATION: /mnt/cms-content/Themes/B2B-store
+  MERCURY_THEME_URL: https://vc3prerelease.blob.core.windows.net/packages/client-app-0.0.0-pr-18-449d7420.zip
+  MERCURY_THEME_LOCATION: /mnt/cms-content/Themes/B2B-store
   ASSETS_URL: https://vcbacpac.blob.core.windows.net/dac-packages/webstore_assets_4.zip
   ASSETS_LOCATION: /mnt/cms-content/assets
   modules.json: |
@@ -31,7 +29,7 @@ data:
     {
       "Id": "VirtoCommerce.Catalog",
       "Repository": "VirtoCommerce/vc-module-catalog",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Catalog_3.81.0-alpha.1854.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Catalog_3.81.0-alpha.1852.zip"
     },
     {
       "Id": "VirtoCommerce.Content",
