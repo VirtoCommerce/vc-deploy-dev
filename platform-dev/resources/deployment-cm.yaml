@@ -95,7 +95,7 @@ data:
     {
       "Id": "VirtoCommerce.Content",
       "Repository": "VirtoCommerce/vc-module-content",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Content_3.17.0-pr-98.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Content_3.18.0-pr-100.zip"
     },
     {
       "Id": "VirtoCommerce.ElasticSearch",
@@ -190,7 +190,7 @@ data:
     {
       "Id": "VirtoCommerce.Tax",
       "Repository": "VirtoCommerce/vc-module-tax",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Tax_3.9.0-alpha.93-dev.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Tax_3.9.0-pr-27.zip"
     },
     {
       "Id": "VirtoCommerce.GDPR",
