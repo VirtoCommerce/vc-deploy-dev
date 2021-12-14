@@ -31,7 +31,7 @@ data:
     {
       "Id": "VirtoCommerce.Catalog",
       "Repository": "VirtoCommerce/vc-module-catalog",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Catalog_3.81.0-alpha.1854.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Catalog_3.82.0-alpha.1855.zip"
     },
     {
       "Id": "VirtoCommerce.Content",
@@ -51,12 +51,12 @@ data:
     {
       "Id": "VirtoCommerce.ElasticSearch",
       "Repository": "VirtoCommerce/vc-module-elastic-search",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-elastic-search/releases/download/3.9.0/VirtoCommerce.ElasticSearch_3.9.0.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ElasticSearch_3.11.0-alpha.130.zip"
     },
     {
       "Id": "VirtoCommerce.ExperienceApi",
       "Repository": "VirtoCommerce/vc-module-experience-api",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ExperienceApi_1.50.0-alpha.835.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ExperienceApi_1.50.0-alpha.837.zip"
     },
     {
       "Id": "VirtoCommerce.Export",
@@ -131,7 +131,7 @@ data:
     {
       "Id": "VirtoCommerce.Tax",
       "Repository": "VirtoCommerce/vc-module-tax",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-tax/releases/download/3.8.0/VirtoCommerce.Tax_3.8.0.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Tax_3.10.0-alpha.95.zip"
     },
     {
       "Id": "VirtoCommerce.CustomerReviews",
@@ -211,6 +211,6 @@ data:
     {
       "Id": "VirtoCommerce.Assets",
       "Repository": "VirtoCommerce/vc-module-assets",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Assets_1.3.0-alpha.12.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Assets_1.4.0-alpha.15.zip"
     }   
    ] 

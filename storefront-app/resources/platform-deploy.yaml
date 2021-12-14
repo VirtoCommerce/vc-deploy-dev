@@ -11,7 +11,7 @@ spec:
         configmap.reloader.stakater.com/reload: "st-platform-cm, st-deployment-cm, st-platform-secret-configmap"
         vault.hashicorp.com/agent-inject: "true"
         vault.hashicorp.com/agent-pre-populate-only: "true"
-        vault.hashicorp.com/agent-configmap: "vcplatform-platform-secret-configmap"
+        vault.hashicorp.com/agent-configmap: "st-platform-secret-configmap"
         vault.hashicorp.com/agent-requests-cpu: "25m"
         vault.hashicorp.com/agent-limits-cpu: "50m" 
     spec:
@@ -28,8 +28,10 @@ spec:
             && /opt/mssql-tools/bin/sqlcmd -S $(VC_DB_HOST) -U $(VC_DB_USER)@$(VC_DB_HOST) -P '$(VC_DBSERVER_MASTER_PASSWORD)' -q \"CREATE USER [$(VC_INSTANCE)_$(VC_NAMESPACE)_user] FROM LOGIN [$(VC_INSTANCE)_$(VC_NAMESPACE)_user]\"
             && /opt/mssql-tools/bin/sqlcmd -S $(VC_DB_HOST) -U $(VC_DB_USER)@$(VC_DB_HOST) -P '$(VC_DBSERVER_MASTER_PASSWORD)' -q \"CREATE DATABASE [$(VC_PLATFORM_SERVICE)_$(VC_NAMESPACE)] $(VC_DB_COPY_PARAM) ( SERVICE_OBJECTIVE = ELASTIC_POOL ( name = [$(VC_DB_POOL)] ) )\""
           env:
+            - name: VC_SAMPLE_DATA_DB
+              value: st-platform_source
             - name: VC_DB_COPY_PARAM
-              value: ""
+              value: "AS COPY OF [$(VC_SAMPLE_DATA_DB)]"
             - name: VC_DBSERVER_MASTER_PASSWORD
               valueFrom:
                 secretKeyRef:
