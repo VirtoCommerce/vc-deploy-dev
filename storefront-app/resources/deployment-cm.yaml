@@ -210,5 +210,10 @@ data:
       "Id": "VirtoCommerce.CatalogExportImport",
       "Repository": "VirtoCommerce/vc-module-catalog-export-import",
       "PackageUrl": "https://github.com/VirtoCommerce/vc-module-catalog-export-import/releases/download/1.0.0/VirtoCommerce.CatalogExportImport_1.0.0.zip"
-    }   
+    },
+    {
+      "Id": "VirtoCommerce.FeatureManagement",
+      "Repository": "VirtoCommerce/vc-module-feature-flags",
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-feature-flags/releases/download/3.0.0/VirtoCommerce.FeatureManagement_3.0.0.zip"
+    }
    ] 
