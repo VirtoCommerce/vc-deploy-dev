@@ -35,12 +35,7 @@ data:
       "Id": "VirtoCommerce.Content",
       "Repository": "VirtoCommerce/vc-module-content",
       "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Content_3.18.0-alpha.760.zip"
-    },
-    {
-      "Id": "VirtoCommerce.Core",
-      "Repository": "VirtoCommerce/vc-module-core",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Core_3.27.0-alpha.1486.zip"
-    },
+    },    
     {
       "Id": "VirtoCommerce.Customer",
       "Repository": "VirtoCommerce/vc-module-customer",
