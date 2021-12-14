@@ -210,5 +210,10 @@ data:
       "Id": "VirtoCommerce.Assets",
       "Repository": "VirtoCommerce/vc-module-assets",
       "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Assets_1.3.0-alpha.12.zip"
+    },
+    {
+      "Id": "VirtoCommerce.CatalogExportImport",
+      "Repository": "VirtoCommerce/vc-module-catalog-export-import",
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-catalog-export-import/releases/download/1.0.0/VirtoCommerce.CatalogExportImport_1.0.0.zip"
     }   
    ] 
