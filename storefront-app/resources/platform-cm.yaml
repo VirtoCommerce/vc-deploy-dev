@@ -1,0 +1,36 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: platform-cm
+data:
+  ASPNETCORE_FORWARDEDHEADERS_ENABLED: "false"
+  AppInsights__EnableDependencyTrackingTelemetryModule: "false"
+  Swagger__UI__Enabled: "false"
+  PushNotifications__ForceWebSockets: "true"
+  PushNotifications__ScalabilityMode: "RedisBackplane"
+  PushNotifications__HubUrl: "https://$(VC_PLATFORM_SERVICE).$(VC_NAMESPACE).govirto.com/pushNotificationHub"
+  PushNotifications__RedisBackplane__ChannelName: "$(VC_PLATFORM_SERVICE)-$(VC_NAMESPACE)-chanel"
+  Search__ElasticSearch__Server: http://search-dev-es-http.elastic-system:9200
+  AzureAd__Enabled: "true"
+  AzureAd__ApplicationId: "8227d950-975c-4c28-b7d4-ea440a59dcbb"
+  AzureAd__TenantId: "bc03e660-5e3a-45c4-bf5c-b75489f78923"
+  Search__Scope: "$(VC_PLATFORM_SERVICE)$(VC_NAMESPACE)-new-index"
+  Content__FileSystem__PublicUrl: https://$(VC_PLATFORM_SERVICE).$(VC_NAMESPACE).govirto.com/cms-content/
+  Assets__FileSystem__PublicUrl: https://$(VC_PLATFORM_SERVICE).$(VC_NAMESPACE).govirto.com/cms-content/assets/
+  VirtoCommerce__LicenseFilePath: app_data/VirtoCommerce.lic
+  VirtoCommerce__LicensePublicKeyPath: app_data/public.key
+  VirtoCommerce__LicensePrivateKeyPath: app_data/private.key
+  VirtoCommerce__LocalUploadFolderPath: app_data/uploads
+  VirtoCommerce__Hangfire__JobStorageType: Memory
+  Logging__LogLevel__Default: "Information"
+  # Payments__AuthorizeNet__ApiLogin: "8hPT4p99R"
+  # Payments__AuthorizeNet__SHA2Hash: "FA6D2B37A7E9105942D2D184F1B2DBD8D9CA85611DE55B2267A6F7E0D7E49ACD9A6BC238CE068E75CA14ACFAD734F700FD94DCAB20353DD4D32D9BABE72DBBE4"
+  # Payments__AuthorizeNet__TxnKey: "63c54EWq5d2XnGAR"
+  # ASPNETCORE_ENVIRONMENT: "Production"
+# Notifications__DefaultSender: ""
+# Notifications__Gateway: "SendGrid"
+# Notifications__SmsDefaultSender: "+17012510519"
+# Notifications__Smtp__EnableSsl: "False"
+# Notifications__Smtp__Host: "smtp.sendgrid.net"
+# Notifications__Smtp__Login: "apikey"
+# Notifications__Smtp__Port: "587"

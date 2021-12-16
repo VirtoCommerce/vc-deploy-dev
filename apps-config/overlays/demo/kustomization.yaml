@@ -3,4 +3,5 @@ kind: Kustomization
 nameSuffix: -demo
 resources:
 - platform-app-demo.yaml
+- storefront-app-demo.yaml
 - ui-kit.yaml
