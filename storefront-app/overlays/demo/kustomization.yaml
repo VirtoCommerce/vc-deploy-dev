@@ -29,6 +29,22 @@ patches:
     group: apps
     version: v1
     kind: Deployment
+- patch: |-
+    - op: add
+      path: /spec/csi
+      value:
+        driver: blob.csi.azure.com
+        readOnly: false
+        fsType: ext4 
+        volumeHandle: mc_cloud-platform_vc-master_eastus#fuse8d50cd269f0a49fcba0#storefront-demo
+    - op: add
+      path: /spec/csi/volumeAttributes
+      value: 
+        containername: storefront-demo
+        skuName: Premium_LRS
+  target:
+    version: v1
+    kind: PersistentVolume
 
 vars:
 - name: VC_DB_HOST
