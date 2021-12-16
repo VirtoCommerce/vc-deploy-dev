@@ -24,7 +24,7 @@ data:
     {
       "Id": "VirtoCommerce.AzureSearch",
       "Repository": "VirtoCommerce/vc-module-azure-search",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.AzureSearch_3.10.0-pr-23.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-azure-search/releases/download/3.11.0/VirtoCommerce.AzureSearch_3.11.0.zip"
     },
     {
       "Id": "VirtoCommerce.BulkActionsModule",
@@ -34,12 +34,12 @@ data:
     {
       "Id": "VirtoCommerce.Cart",
       "Repository": "VirtoCommerce/vc-module-cart",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Cart_3.27.0-pr-95.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-cart/releases/download/3.23.0/VirtoCommerce.Cart_3.23.0.zip"
     },
     {
       "Id": "VirtoCommerce.CatalogPersonalization",
       "Repository": "VirtoCommerce/vc-module-catalog-personalization",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.CatalogPersonalization_3.11.0-pr-53.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-catalog-personalization/releases/download/3.10.0/VirtoCommerce.CatalogPersonalization_3.10.0.zip"
     },
     {
       "Id": "VirtoCommerce.CatalogPublishing",
@@ -54,7 +54,7 @@ data:
     {
       "Id": "VirtoCommerce.CatalogCsvImportModule",
       "Repository": "VirtoCommerce/vc-module-catalog-csv-import",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-catalog-csv-import/releases/download/3.29.0/VirtoCommerce.CatalogCsvImportModule_3.29.0.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-catalog-csv-import/releases/download/3.28.0/VirtoCommerce.CatalogCsvImportModule_3.28.0.zip"
     },
     {
       "Id": "VirtoCommerce.Contentful",
@@ -75,7 +75,7 @@ data:
     {
       "Id": "VirtoCommerce.Core",
       "Repository": "VirtoCommerce/vc-module-core",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Core_3.29.0-pr-200.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-core/releases/download/3.23.0/VirtoCommerce.Core_3.23.0.zip"
     },
     {
     "Id": "VirtoCommerce.ExperienceApi",
@@ -85,12 +85,12 @@ data:
     {
       "Id": "VirtoCommerce.Customer",
       "Repository": "VirtoCommerce/vc-module-customer",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-customer/releases/download/3.38.0/VirtoCommerce.Customer_3.38.0.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-customer/releases/download/3.34.0/VirtoCommerce.Customer_3.34.0.zip"
     },
     {
       "Id": "VirtoCommerce.Catalog",
       "Repository": "VirtoCommerce/vc-module-catalog",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Catalog_3.81.0-pr-575.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-catalog/releases/download/3.70.0/VirtoCommerce.Catalog_3.70.0.zip"
     },
     {
       "Id": "VirtoCommerce.Content",
@@ -110,52 +110,52 @@ data:
     {
       "Id": "VirtoCommerce.Export",
       "Repository": "VirtoCommerce/vc-module-export",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Export_3.17.0-alpha.143.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-export/releases/download/3.16.0/VirtoCommerce.Export_3.16.0.zip"
     },
     {
       "Id": "VirtoCommerce.ImageTools",
       "Repository": "VirtoCommerce/vc-module-image-tools",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-image-tools/releases/download/3.16.0/VirtoCommerce.ImageTools_3.16.0.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-image-tools/releases/download/3.12.0/VirtoCommerce.ImageTools_3.12.0.zip"
     },
     {
       "Id": "VirtoCommerce.Inventory",
       "Repository": "VirtoCommerce/vc-module-inventory",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Inventory_3.21.0-pr-100.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-inventory/releases/download/3.19.0/VirtoCommerce.Inventory_3.19.0.zip"
     },
     {
       "Id": "VirtoCommerce.Marketing",
       "Repository": "VirtoCommerce/vc-module-marketing",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Marketing_3.31.0-pr-169.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-marketing/releases/download/3.28.0/VirtoCommerce.Marketing_3.28.0.zip"
     },
     {
       "Id": "VirtoCommerce.Notifications",
       "Repository": "VirtoCommerce/vc-module-notification",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-notification/releases/download/3.19.0/VirtoCommerce.Notifications_3.19.0.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-notification/releases/download/3.18.0/VirtoCommerce.Notifications_3.18.0.zip"
     },
     {
       "Id": "VirtoCommerce.Orders",
       "Repository": "VirtoCommerce/vc-module-order",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-order/releases/download/3.48.0/VirtoCommerce.Orders_3.48.0.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-order/releases/download/3.40.0/VirtoCommerce.Orders_3.40.0.zip"
     },
     {
       "Id": "VirtoCommerce.Payment",
       "Repository": "VirtoCommerce/vc-module-payment",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Payment_3.8.0-pr-29.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-payment/releases/download/3.7.0/VirtoCommerce.Payment_3.7.0.zip"
     },
     {
       "Id": "VirtoCommerce.Pricing",
       "Repository": "VirtoCommerce/vc-module-pricing",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Pricing_3.30.0-pr-156.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-pricing/releases/download/3.25.0/VirtoCommerce.Pricing_3.25.0.zip"
     },
     {
       "Id": "VirtoCommerce.Search",
       "Repository": "VirtoCommerce/vc-module-search",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Search_3.17.0-pr-54.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-search/releases/download/3.16.0/VirtoCommerce.Search_3.16.0.zip"
     },
     {
       "Id": "VirtoCommerce.Shipping",
       "Repository": "VirtoCommerce/vc-module-shipping",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Shipping_3.9.0-pr-25.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-shipping/releases/download/3.8.0/VirtoCommerce.Shipping_3.8.0.zip"
     },
     {
       "Id": "VirtoCommerce.Sitemaps",
@@ -165,7 +165,7 @@ data:
     {
       "Id": "VirtoCommerce.Store",
       "Repository": "VirtoCommerce/vc-module-store",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-store/releases/download/3.26.0/VirtoCommerce.Store_3.26.0.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-store/releases/download/3.23.0/VirtoCommerce.Store_3.23.0.zip"
     },
     {
       "Id": "VirtoCommerce.Subscription",
@@ -190,7 +190,7 @@ data:
     {
       "Id": "VirtoCommerce.Tax",
       "Repository": "VirtoCommerce/vc-module-tax",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Tax_3.9.0-pr-27.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-tax/releases/download/3.8.0/VirtoCommerce.Tax_3.8.0.zip"
     },
     {
       "Id": "VirtoCommerce.GDPR",
@@ -216,5 +216,10 @@ data:
       "Id": "VirtoCommerce.Assets",
       "Repository": "VirtoCommerce/vc-module-assets",
       "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Assets_1.3.0-pr-5.zip"
+    },
+    {
+      "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
+      "Repository": "VirtoCommerce/vc-module-google-ecommerce-analytics",
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-google-ecommerce-analytics/releases/download/3.1.0/VirtoCommerce.GoogleEcommerceAnalytics_3.1.0.zip"
     }
    ]
