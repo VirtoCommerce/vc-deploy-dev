@@ -82,3 +82,10 @@ vars:
     apiVersion: v1
   fieldref:
     fieldpath: data.VAULT_API_URL
+- name: VC_STOREFRONT_SERVICE
+  objref:
+    kind: Service
+    name: storefront
+    apiVersion: v1
+  fieldref:
+    fieldpath: metadata.name
