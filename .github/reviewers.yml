@@ -3,7 +3,9 @@ files:
   '**/*.yaml':
     - AlexTzykin
     - team:qa-team
-
+defaults:
+    - AlexTzykin
+    - team:qa-team
 options:
   ignore_draft: true
-  number_of_reviewers: 1
+  number_of_reviewers: 3
