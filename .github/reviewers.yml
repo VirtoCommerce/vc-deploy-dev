@@ -2,6 +2,7 @@
 files:
   '**/*.yaml':
     - @VirtoCommerce/qa-team
+    - AlexTzykin
 
 options:
   ignore_draft: true
