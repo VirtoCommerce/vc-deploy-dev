@@ -1,7 +1,7 @@
 # https://github.com/marketplace/actions/auto-request-review#reviewers-configuration
 files:
   '**/*.yaml':
-    - AlexTzykin
+    - VirtoCommerce/qa-team
 
 options:
   ignore_draft: true
