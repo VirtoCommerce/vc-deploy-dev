@@ -2,10 +2,10 @@
 files:
   '**/*.yaml':
     - AlexTzykin
-    - team:@VirtoCommerce/qa-team
+    - team: qa-team
 defaults:
     - AlexTzykin
-    - team:@VirtoCommerce/qa-team
+    - team: qa-team
 options:
   ignore_draft: false
   number_of_reviewers: 3
