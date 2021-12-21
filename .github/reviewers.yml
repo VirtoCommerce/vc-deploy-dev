@@ -1,7 +1,6 @@
 # https://github.com/marketplace/actions/auto-request-review#reviewers-configuration
 files:
   '**/*.yaml':
-    - @VirtoCommerce/qa-team
     - AlexTzykin
 
 options:
