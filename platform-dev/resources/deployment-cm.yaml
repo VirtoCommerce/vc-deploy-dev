@@ -78,6 +78,11 @@ data:
       "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Core_3.29.0-pr-200.zip"
     },
     {
+      "Id": "VirtoCommerce.ExperienceApi",
+      "Repository": "VirtoCommerce/vc-module-experience-api",
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ExperienceApi_1.50.0-alpha.843-dev.zip"
+    },
+    {
       "Id": "VirtoCommerce.Customer",
       "Repository": "VirtoCommerce/vc-module-customer",
       "PackageUrl": "https://github.com/VirtoCommerce/vc-module-customer/releases/download/3.38.0/VirtoCommerce.Customer_3.38.0.zip"
