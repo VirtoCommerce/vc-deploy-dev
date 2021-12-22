@@ -1,11 +1,12 @@
 # https://github.com/marketplace/actions/auto-request-review#reviewers-configuration
-files:
-  '**/*.yaml':
-    - AlexTzykin
-    - team:qa-team
-defaults:
-    - AlexTzykin
-    - team:qa-team
+reviewers:
+  defaults:
+      - AlexTzykin
+      - team:qa-team
+  files:
+    '**/*.yaml':
+      - AlexTzykin
+      - team:qa-team
 options:
   ignore_draft: false
   number_of_reviewers: 3
