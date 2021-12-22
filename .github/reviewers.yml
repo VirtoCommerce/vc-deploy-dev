@@ -3,10 +3,11 @@ reviewers:
   defaults:
       - AlexTzykin
       - team:qa-team
-  files:
-    '**/*.yaml':
-      - AlexTzykin
-      - team:qa-team
+files:
+  '**/*.yaml':
+    - AlexTzykin
+    - team:qa-team
 options:
   ignore_draft: false
   number_of_reviewers: 3
+  enable_group_assignment: true
