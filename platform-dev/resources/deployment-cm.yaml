@@ -75,7 +75,7 @@ data:
     {
       "Id": "VirtoCommerce.Core",
       "Repository": "VirtoCommerce/vc-module-core",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Core_3.29.0-pr-200.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-core/releases/download/3.29.0/VirtoCommerce.Core_3.29.0.zip"
     },
     {
       "Id": "VirtoCommerce.ExperienceApi",
