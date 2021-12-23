@@ -1,11 +1,9 @@
 # https://github.com/marketplace/actions/auto-request-review#reviewers-configuration
 reviewers:
   defaults:
-      - AlexTzykin
       - team:qa-team
 files:
   '**/*.yaml':
-    - AlexTzykin
     - team:qa-team
 options:
   ignore_draft: false
