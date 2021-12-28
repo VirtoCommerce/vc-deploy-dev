@@ -36,7 +36,7 @@ data:
     {
       "Id": "VirtoCommerce.Content",
       "Repository": "VirtoCommerce/vc-module-content",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Content_3.19.0-alpha.763.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Content_3.19.0-alpha.764.zip"
     },
     {
       "Id": "VirtoCommerce.Core",
@@ -213,5 +213,10 @@ data:
       "Id": "VirtoCommerce.Assets",
       "Repository": "VirtoCommerce/vc-module-assets",
       "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Assets_1.4.0-alpha.15.zip"
-    }   
+    } ,
+    {
+      "Id": "VirtoCommerce.ProfileExperienceApiModule",
+      "Repository": "VirtoCommerce/vc-module-profile-experience-api",
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-profile-experience-api/releases/download/1.0.0/VirtoCommerce.ProfileExperienceApiModule_1.0.0.zip"
+    }     
    ] 
