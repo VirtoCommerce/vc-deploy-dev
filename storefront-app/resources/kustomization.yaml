@@ -21,4 +21,4 @@ images:
   newTag: 3.97.0-alpha.12180-pt-5080-a008aeaf
 - name: docker.pkg.github.com/virtocommerce/vc-storefront/storefront
   newName: ghcr.io/virtocommerce/storefront
-  newTag: ST-20-linux-latest
+  newTag: 6.0.0-alpha.867-dev-0ded8072
