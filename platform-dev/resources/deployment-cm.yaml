@@ -13,7 +13,7 @@ data:
     [
       {
           "Repository": "VirtoCommerce/vc-module-pagebuilder",
-          "Tag" : "3.14.0",
+          "Tag" : "3.16.0",
           "Destination": "/mnt/Modules/pagebuilder"
       }
     ]
@@ -57,7 +57,7 @@ data:
     {
       "Id": "VirtoCommerce.PageBuilderModule",
       "Repository": "VirtoCommerce/vc-module-pagebuilder",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-pagebuilder/releases/download/3.10.5/VirtoCommerce.PageBuilderModule_3.10.5.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-pagebuilder/releases/download/3.16.0/VirtoCommerce.PageBuilderModule_3.16.0.zip"
     },
     {
       "Id": "VirtoCommerce.CatalogCsvImportModule",
