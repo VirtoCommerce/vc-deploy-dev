@@ -43,7 +43,7 @@ spec:
                   name: vc-db-pass
                   key: password
         - name: init-platform
-          image: ghcr.io/virtocommerce/vc-deploy-containers/platform-installer:v5
+          image: ghcr.io/virtocommerce/vc-deploy-containers/platform-installer:v3
           resources:
             limits:
               cpu: "500m"
@@ -56,19 +56,7 @@ spec:
             - "-c"
           args:
             - "echo START INIT $(date +%Y-%m-%d-%H-%M-%S)
-            && python3 install-modules.py \"$MODULES_CONFIG\" /mnt/Modules/*
-            && python3 private-installer.py \"$PRIVATE_CONFIG\""
-          env:
-            - name: PRIVATE_CONFIG
-              valueFrom:
-                configMapKeyRef:
-                  name: deployment-cm
-                  key: private.json
-            - name: AUTH_TOKEN
-              valueFrom:
-                secretKeyRef:
-                  name: github-token
-                  key: token
+            && python3 install-modules.py \"$MODULES_CONFIG\" /mnt/Modules/*"
           envFrom:
           - configMapRef:
               name: deployment-cm
