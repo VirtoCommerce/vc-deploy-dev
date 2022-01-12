@@ -34,10 +34,10 @@ data:
     #Path for assets
     Content__FileSystem__PublicUrl: https://$(VC_PLATFORM_SERVICE).$(VC_NAMESPACE).govirto.com/cms-content/
     Assets__FileSystem__PublicUrl: https://$(VC_PLATFORM_SERVICE).$(VC_NAMESPACE).govirto.com/cms-content/assets/
-    #Assets__Provider: AzureBlobStorage
+    Assets__Provider: AzureBlobStorage
     Assets__AzureBlobStorage__ConnectionString: ${{ secrets.CONNECTION_STRING_BLOB }}
     #Connection for content
-    #Content__Provider: AzureBlobStorage
+    Content__Provider: AzureBlobStorage
     Content__AzureBlobStorage__RootPath: cms
     Content__AzureBlobStorage__ConnectionString: ${{ secrets.CONNECTION_STRING_BLOB }}
     VirtoCommerce__LicenseFilePath: app_data/VirtoCommerce.lic
