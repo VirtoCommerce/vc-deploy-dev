@@ -13,4 +13,9 @@ data:
   ASSETS_LOCATION: /mnt/cms-content/assets
   modules.json: |
    [
-   ] 
+     {
+      "Id": "VirtoCommerce.Core",
+      "Repository": "VirtoCommerce/vc-module-core",
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Core_3.200.0-pr-199.zip"
+    }
+   ]
