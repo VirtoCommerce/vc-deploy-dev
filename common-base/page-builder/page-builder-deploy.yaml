@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: page-builder-deployment
+  name: page-builder
 spec:
   revisionHistoryLimit: 2
   selector:

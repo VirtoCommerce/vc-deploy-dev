@@ -10,7 +10,7 @@ patchesStrategicMerge:
 
 resources:
 - ../../common-base/platform
-- ../../common-base/page-builder
+#- ../../common-base/page-builder
 - storefront-cm.yaml
 - storefront-deploy.yaml
 - storefront-service.yaml
@@ -23,6 +23,6 @@ images:
 - name: docker.pkg.github.com/virtocommerce/vc-storefront/storefront
   newName: ghcr.io/virtocommerce/storefront
   newTag: 6.0.0-alpha.867-dev-0ded8072
-- name: ghcr.io/virtocommerce/page-builder
-  newName: ghcr.io/virtocommerce/page-builder
-  newTag: 0.0.0-alpha.1-pb-78
+#- name: ghcr.io/virtocommerce/page-builder
+#  newName: ghcr.io/virtocommerce/page-builder
+#  newTag: 0.0.0-alpha.1-pb-78
