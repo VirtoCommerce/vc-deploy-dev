@@ -13,6 +13,8 @@ spec:
       labels:
         app: page-builder
     spec:
+      imagePullSecrets:
+      - name: dockerconfigjson-github-com
       containers:
       - name: page-builder
         image: ghcr.io/virtocommerce/page-builder:0.0.0
