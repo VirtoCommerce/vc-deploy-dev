@@ -223,7 +223,7 @@ data:
     {
       "Id": "VirtoCommerce.Assets",
       "Repository": "VirtoCommerce/vc-module-assets",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Assets_1.4.0-pr-7.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-assets/releases/download/1.3.0/VirtoCommerce.Assets_1.3.0.zip"
     },
     {
       "Id": "VirtoCommerce.ProfileExperienceApiModule",
