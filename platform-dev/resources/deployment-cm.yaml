@@ -87,5 +87,10 @@ data:
       "Id": "VirtoCommerce.Orders",
       "Repository": "VirtoCommerce/vc-module-order",
       "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Orders_3.200.0-pr-274.zip"
+    },
+    {
+      "Id": "VirtoCommerce.FileSystemAssets",
+      "Repository": "VirtoCommerce/vc-module-filesystem-assets",
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.FileSystemAssets_3.200.0-pr-3.zip"
     }
    ]
