@@ -92,5 +92,10 @@ data:
       "Id": "VirtoCommerce.FileSystemAssets",
       "Repository": "VirtoCommerce/vc-module-filesystem-assets",
       "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.FileSystemAssets_3.200.0-pr-3.zip"
+    },
+    {
+      "Id": "VirtoCommerce.AzureBlobAssets",
+      "Repository": "VirtoCommerce/vc-module-azureblob-assets",
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.AzureBlobAssets_3.200.0-pr-3.zip"
     }
    ]
