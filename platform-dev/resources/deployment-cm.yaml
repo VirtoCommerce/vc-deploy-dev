@@ -127,5 +127,10 @@ data:
       "Id": "VirtoCommerce.WebHooks",
       "Repository": "VirtoCommerce/vc-module-webhooks",
       "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.WebHooks_3.200.0-pr-51.zip"
+    },
+    {
+      "Id": "VirtoCommerce.Subscription",
+      "Repository": "VirtoCommerce/vc-module-subscription",
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Subscription_3.200.0-pr-62.zip"
     }
    ]
