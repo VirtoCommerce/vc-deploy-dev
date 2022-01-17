@@ -107,5 +107,10 @@ data:
       "Id": "VirtoCommerce.Payment",
       "Repository": "VirtoCommerce/vc-module-payment",
       "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Payment_3.200.0-pr-31.zip"
+    },
+    {
+      "Id": "VirtoCommerce.Content",
+      "Repository": "VirtoCommerce/vc-module-content",
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Content_3.200.0-pr-97.zip"
     }
    ]
