@@ -67,5 +67,10 @@ data:
       "Id": "VirtoCommerce.Cart",
       "Repository": "VirtoCommerce/vc-module-cart",
       "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Cart_3.200.0-pr-96.zip"
+    },
+    {
+      "Id": "VirtoCommerce.Inventory",
+      "Repository": "VirtoCommerce/vc-module-inventory",
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Inventory_3.200.0-pr-101.zip"
     }
    ]
