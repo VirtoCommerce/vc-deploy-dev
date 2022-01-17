@@ -32,5 +32,15 @@ data:
       "Id": "VirtoCommerce.Export",
       "Repository": "VirtoCommerce/vc-module-export",
       "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Export_3.200.0-pr-63.zip"
+    },
+    {
+      "Id": "VirtoCommerce.BulkActionsModule",
+      "Repository": "VirtoCommerce/vc-module-bulk-actions",
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.BulkActionsModule_3.200.0-pr-18.zip"
+    },
+    {
+      "Id": "VirtoCommerce.Search",
+      "Repository": "VirtoCommerce/vc-module-search",
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Search_3.200.0-pr-53.zip"
     }
    ]
