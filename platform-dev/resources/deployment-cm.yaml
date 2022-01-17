@@ -182,5 +182,10 @@ data:
       "Id": "VirtoCommerce.AvalaraTax",
       "Repository": "VirtoCommerce/vc-module-avatax",
       "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.AvalaraTax_3.200.0-pr-37.zip"
-    }
+    },
+    {
+      "Id": "VirtoCommerce.ProfileExperienceApiModule",
+      "Repository": "VirtoCommerce/vc-module-profile-experience-api",
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ProfileExperienceApiModule_3.200.0-pr-5.zip"
+    }     
    ]
