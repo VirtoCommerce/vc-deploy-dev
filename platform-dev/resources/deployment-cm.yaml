@@ -167,5 +167,10 @@ data:
       "Id": "VirtoCommerce.CatalogPersonalization",
       "Repository": "VirtoCommerce/vc-module-catalog-personalization",
       "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.CatalogPersonalization_3.200.0-pr-54.zip"
+    },
+    {
+      "Id": "VirtoCommerce.CatalogCsvImportModule",
+      "Repository": "VirtoCommerce/vc-module-catalog-csv-import",
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.CatalogCsvImportModule_3.200.0-pr-89.zip"
     }
    ]
