@@ -117,5 +117,10 @@ data:
       "Id": "VirtoCommerce.Tax",
       "Repository": "VirtoCommerce/vc-module-tax",
       "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Tax_3.200.0-pr-26.zip"
+    },
+    {
+      "Id": "VirtoCommerce.ExperienceApi",
+      "Repository": "VirtoCommerce/vc-module-experience-api",
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ExperienceApi_3.200.0-pr-253.zip"
     }
    ]
