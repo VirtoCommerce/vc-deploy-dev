@@ -157,5 +157,10 @@ data:
       "Id": "VirtoCommerce.DynamicAssociations",
       "Repository": "VirtoCommerce/vc-module-dynamic-associations",
       "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.DynamicAssociationsModule_3.200.0-pr-26.zip"
+    },
+    {
+      "Id": "VirtoCommerce.CatalogPublishing",
+      "Repository": "VirtoCommerce/vc-module-catalog-publishing",
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.CatalogPublishing_3.200.0-pr-42.zip"
     }
    ]
