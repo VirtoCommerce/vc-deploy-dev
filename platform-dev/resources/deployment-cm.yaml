@@ -142,5 +142,10 @@ data:
       "Id": "VirtoCommerce.LuceneSearch",
       "Repository": "VirtoCommerce/vc-module-lucene-search",
       "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.LuceneSearch_3.200.0-pr-23.zip"
+    },
+    {
+      "Id": "VirtoCommerce.ImageTools",
+      "Repository": "VirtoCommerce/vc-module-image-tools",
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ImageTools_3.200.0-pr-81.zip"
     }
    ]
