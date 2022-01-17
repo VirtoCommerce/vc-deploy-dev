@@ -132,5 +132,10 @@ data:
       "Id": "VirtoCommerce.Subscription",
       "Repository": "VirtoCommerce/vc-module-subscription",
       "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Subscription_3.200.0-pr-62.zip"
+    },
+    {
+      "Id": "VirtoCommerce.Sitemaps",
+      "Repository": "VirtoCommerce/vc-module-sitemaps",
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Sitemaps_3.200.0-pr-40.zip"
     }
    ]
