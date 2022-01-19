@@ -197,5 +197,10 @@ data:
       "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
       "Repository": "VirtoCommerce/vc-module-google-ecommerce-analytics",
       "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.GoogleEcommerceAnalytics_3.200.0-pr-24.zip"
+    },
+    {
+      "Id": "VirtoCommerce.CatalogExportImport",
+      "Repository": "VirtoCommerce/vc-module-catalog-export-import",
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.CatalogExportImport_3.200.0-pr-34.zip"
     }
    ]
