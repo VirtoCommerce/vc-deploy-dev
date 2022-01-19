@@ -25,7 +25,7 @@ data:
     PushNotifications__HubUrl: "https://$(VC_PLATFORM_SERVICE).$(VC_NAMESPACE).govirto.com/pushNotificationHub"
     PushNotifications__RedisBackplane__ChannelName: "$(VC_PLATFORM_SERVICE)-$(VC_NAMESPACE)-chanel"
    #Setting for elastic search
-   #Search__ElasticSearch__Server: http://search-dev-es-http.elastic-system:9200
+    Search__ElasticSearch__Server: http://search-dev-es-http.elastic-system:9200
    #Active directory
     AzureAd__Enabled: "true"
     AzureAd__ApplicationId: "8227d950-975c-4c28-b7d4-ea440a59dcbb"
@@ -60,7 +60,7 @@ data:
    #Search__AzureSearch__SearchServiceName: qa-demovc-3-search
    #Search__AzureSearch__Key: 6BE1143312E89C26C227E6BBAE24DD47
    #setting for lucene search
-    Search__Provider: Lucene
+   #Search__Provider: Lucene
    #Settings for avatax
     Tax__Avalara__AccountNumber: "2000188799"
     Tax__Avalara__LicenseKey: "16BC3F87E836E15C"
