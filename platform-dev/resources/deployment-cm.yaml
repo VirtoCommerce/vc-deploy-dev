@@ -78,11 +78,11 @@ data:
       "Repository": "VirtoCommerce/vc-module-customer",
       "PackageUrl": "https://github.com/VirtoCommerce/vc-module-customer/releases/download/3.200.0/VirtoCommerce.Customer_3.200.0.zip"
     },
-   # {
+    {
       "Id": "VirtoCommerce.CustomerReviews",
       "Repository": "VirtoCommerce/vc-module-customer-review",
       "PackageUrl": "https://github.com/VirtoCommerce/vc-module-customer-review/releases/download/3.200.0/VirtoCommerce.CustomerReviews_3.200.0.zip"
-    #},
+    },
     {
       "Id": "VirtoCommerce.Orders",
       "Repository": "VirtoCommerce/vc-module-order",
