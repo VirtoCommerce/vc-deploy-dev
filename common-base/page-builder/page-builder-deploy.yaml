@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: page-builder
+spec:
+  revisionHistoryLimit: 2
+  selector:
+    matchLabels:
+      app: page-builder
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: page-builder
+    spec:
+      imagePullSecrets:
+      - name: dockerconfigjson-github-com
+      containers:
+      - name: page-builder
+        image: ghcr.io/virtocommerce/page-builder:0.0.0
+        ports:
+        - containerPort: 80
+        resources:
+          requests:
+            memory: 64Mi
+          limits:
+            memory: 64Mi
