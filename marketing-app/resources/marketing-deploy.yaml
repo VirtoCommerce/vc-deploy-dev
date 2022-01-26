@@ -1,0 +1,46 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: marketing-app-deployment
+spec:
+  revisionHistoryLimit: 2
+  selector:
+    matchLabels:
+      app: marketing-app
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: marketing-app
+    spec:
+      containers:
+      - name: marketing-app
+        image: ghcr.io/virtocommerce/demo-xapi-app:alpha.9
+        command:
+          - "/bin/sh"
+          - "-c"
+        env:
+          - name: PLATFORM_URL
+            value: "https://$(VC_PLATFORM_SERVICE).$(VC_NAMESPACE).govirto.com"
+        args:
+          - "rm /usr/share/nginx/html/environments/environment.variables.json
+            && envsubst '$${PLATFORM_URL}'< /usr/share/nginx/html/environments/environment.variables.json.template > /usr/share/nginx/html/environments/environment.variables.json
+            && nginx -g 'daemon off;'"
+        ports:
+        - containerPort: 80
+        resources:
+          requests:
+            memory: 256Mi
+          limits:
+            memory: 256Mi
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: marketing-app
+spec:
+  type: ClusterIP
+  ports:
+  - port: 80
+  selector:
+    app: marketing-app

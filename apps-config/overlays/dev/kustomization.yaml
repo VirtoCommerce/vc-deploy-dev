@@ -4,3 +4,4 @@ nameSuffix: -dev
 resources:
 - platform-app-dev.yaml
 - storefront-app-dev.yaml
+- marketing-app-dev.yaml

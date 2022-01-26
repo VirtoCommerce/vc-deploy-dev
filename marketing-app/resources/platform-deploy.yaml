@@ -1,0 +1,105 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: platform
+spec:
+  revisionHistoryLimit: 1
+  replicas: 2
+  template:
+    metadata:
+      annotations:
+        configmap.reloader.stakater.com/reload: "vcplatform-platform-cm, vcplatform-deployment-cm, vcplatform-platform-secret-configmap"
+        vault.hashicorp.com/agent-inject: "true"
+        vault.hashicorp.com/agent-pre-populate-only: "true"
+        vault.hashicorp.com/agent-configmap: "vcplatform-platform-secret-configmap"
+        vault.hashicorp.com/agent-requests-cpu: "25m"
+        vault.hashicorp.com/agent-limits-cpu: "50m" 
+    spec:
+      imagePullSecrets:
+        - name: dockerconfigjson-github-com
+      initContainers:
+        - name: init-sqldatabase
+          image: mcr.microsoft.com/mssql-tools
+          command:
+            - "/bin/sh"
+            - "-c"
+          args:
+            - "/opt/mssql-tools/bin/sqlcmd -S $(VC_DB_HOST) -U $(VC_DB_USER)@$(VC_DB_HOST) -P '$(VC_DBSERVER_MASTER_PASSWORD)' -q \"CREATE LOGIN [$(VC_INSTANCE)_$(VC_NAMESPACE)_user] WITH PASSWORD = '$(VC_CUSTOMER_DB_PASSWORD)'\"
+            && /opt/mssql-tools/bin/sqlcmd -S $(VC_DB_HOST) -U $(VC_DB_USER)@$(VC_DB_HOST) -P '$(VC_DBSERVER_MASTER_PASSWORD)' -q \"CREATE USER [$(VC_INSTANCE)_$(VC_NAMESPACE)_user] FROM LOGIN [$(VC_INSTANCE)_$(VC_NAMESPACE)_user]\"
+            && /opt/mssql-tools/bin/sqlcmd -S $(VC_DB_HOST) -U $(VC_DB_USER)@$(VC_DB_HOST) -P '$(VC_DBSERVER_MASTER_PASSWORD)' -q \"CREATE DATABASE [$(VC_PLATFORM_SERVICE)_$(VC_NAMESPACE)] $(VC_DB_COPY_PARAM) ( SERVICE_OBJECTIVE = ELASTIC_POOL ( name = [$(VC_DB_POOL)] ) )\""
+          env:
+            - name: VC_DB_COPY_PARAM
+              value: ""
+            - name: VC_DBSERVER_MASTER_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: vc-dbserver-password
+                  key: password
+            - name: VC_CUSTOMER_DB_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: vc-db-pass
+                  key: password
+        - name: init-platform
+          image: ghcr.io/virtocommerce/vc-deploy-containers/platform-installer:v3
+          envFrom:
+          - configMapRef:
+              name: deployment-cm
+        - name: init-dbuser
+          image: mcr.microsoft.com/mssql-tools
+          command:
+            - "/bin/sh"
+            - "-c"
+          args:
+            - "/opt/mssql-tools/bin/sqlcmd -S $(VC_DB_HOST) -U $(VC_DB_USER)@$(VC_DB_HOST) -P '$(VC_DBSERVER_MASTER_PASSWORD)' -d $(VC_PLATFORM_SERVICE)_$(VC_NAMESPACE) -q \"CREATE USER [$(VC_INSTANCE)_$(VC_NAMESPACE)_user] FROM LOGIN [$(VC_INSTANCE)_$(VC_NAMESPACE)_user]; ALTER ROLE db_owner ADD MEMBER [$(VC_INSTANCE)_$(VC_NAMESPACE)_user];\""
+          env:
+            - name: VC_DBSERVER_MASTER_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: vc-dbserver-password
+                  key: password
+            - name: VC_CUSTOMER_DB_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: vc-db-pass
+                  key: password
+      containers:
+        - name: vc-platform-web
+          readinessProbe:
+            httpGet:
+              path: /health
+              port: 80
+            failureThreshold: 50
+            successThreshold: 1
+            initialDelaySeconds: 10
+            periodSeconds: 1
+          resources:
+            limits:
+              cpu: "500m"
+              memory: 512Mi
+            requests:
+              cpu: "54m"
+          command:
+            - "/bin/bash"
+            - "-c"
+          args: 
+            - "source /vault/secrets/config_base && source /vault/secrets/config_custom && dotnet VirtoCommerce.Platform.Web.dll"
+          envFrom:
+          - configMapRef:
+              name: platform-cm
+          env:
+          - name: VC_CUSTOMER_DB_PASSWORD
+            valueFrom:
+              secretKeyRef:
+                name: vc-db-pass
+                key: password
+          - name: ConnectionStrings__VirtoCommerce
+            value: "Server=tcp:$(VC_DB_HOST),1433;Database=$(VC_PLATFORM_SERVICE)_$(VC_NAMESPACE);User ID=$(VC_INSTANCE)_$(VC_NAMESPACE)_user@$(VC_DB_HOST);Password=$(VC_CUSTOMER_DB_PASSWORD);Trusted_Connection=False;Encrypt=True;"
+      volumes:
+      - name: modules-data
+        emptyDir: {}
+  strategy:
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 1
+    type: RollingUpdate
