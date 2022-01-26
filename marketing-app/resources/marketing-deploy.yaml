@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: marketing-app
-        image: ghcr.io/virtocommerce/demo-xapi-app:alpha.9
+        image: ghcr.io/virtocommerce/platform-marketing:latest
         command:
           - "/bin/sh"
           - "-c"
