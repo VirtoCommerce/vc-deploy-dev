@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: marketing-app-deployment
+  name: marketing-app
 spec:
   revisionHistoryLimit: 2
   selector:
