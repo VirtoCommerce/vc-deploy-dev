@@ -9,10 +9,10 @@ metadata:
 spec:
   tls:
     - hosts:   
-      - "$(VC_INSTANCE)-marketing-app.$(VC_NAMESPACE).govirto.com"
-      secretName: $(VC_INSTANCE)-marketing-app-$(VC_NAMESPACE)-tls
+      - "$(VC_INSTANCE)-portal.$(VC_NAMESPACE).govirto.com"
+      secretName: $(VC_INSTANCE)-portal-$(VC_NAMESPACE)-tls
   rules:
-  - host: $(VC_INSTANCE)-marketing-app.$(VC_NAMESPACE).govirto.com
+  - host: $(VC_INSTANCE)-portal.$(VC_NAMESPACE).govirto.com
     http:
       paths:
       - backend:
