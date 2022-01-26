@@ -19,17 +19,13 @@ spec:
         env:
           - name: PLATFORM_URL
             value: "https://$(VC_PLATFORM_SERVICE).$(VC_NAMESPACE).govirto.com"
-        args:
-          - "rm /usr/share/nginx/html/environments/environment.variables.json
-            && envsubst '$${PLATFORM_URL}'< /usr/share/nginx/html/environments/environment.variables.json.template > /usr/share/nginx/html/environments/environment.variables.json
-            && nginx -g 'daemon off;'"
         ports:
         - containerPort: 80
         resources:
           requests:
-            memory: 256Mi
+            memory: 64Mi
           limits:
-            memory: 256Mi
+            memory: 64Mi
 ---
 apiVersion: v1
 kind: Service
