@@ -8,3 +8,4 @@
 | Loadtest    | Platform Team    | [![App Status](https://argo.govirto.com/api/badge?name=loadtest-dev&revision=true)](https://argo.govirto.com/applications/loadtest-dev)           |
 | Regression  | QA Team          | [![App Status](https://argo.govirto.com/api/badge?name=regression-app-qa&revision=true)](https://argo.govirto.com/applications/regression-app-qa) |
 | Marketing | Marketplace Team | [![App Status](https://argo.govirto.com/api/badge?name=marketing-app-dev&revision=true)](https://argo.govirto.com/applications/marketing-app-dev) |
+
