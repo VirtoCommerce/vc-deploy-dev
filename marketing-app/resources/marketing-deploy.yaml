@@ -1,0 +1,39 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: marketing-app
+spec:
+  revisionHistoryLimit: 2
+  selector:
+    matchLabels:
+      app: marketing-app
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: marketing-app
+    spec:
+      containers:
+      - name: marketing-app
+        image: ghcr.io/virtocommerce/platform-marketing:latest
+        env:
+          - name: PLATFORM_URL
+            value: "https://$(VC_PLATFORM_SERVICE).$(VC_NAMESPACE).govirto.com"
+        ports:
+        - containerPort: 80
+        resources:
+          requests:
+            memory: 64Mi
+          limits:
+            memory: 64Mi
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: marketing-app
+spec:
+  type: ClusterIP
+  ports:
+  - port: 80
+  selector:
+    app: marketing-app
