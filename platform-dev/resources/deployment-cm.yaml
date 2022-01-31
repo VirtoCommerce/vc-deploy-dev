@@ -79,11 +79,6 @@ data:
       "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Customer_3.201.0-alpha.664.zip"
     },
     {
-      "Id": "VirtoCommerce.Store",
-      "Repository": "VirtoCommerce/vc-module-store",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Store_3.200.0-pr-93.zip"
-    },
-    {
       "Id": "VirtoCommerce.Orders",
       "Repository": "VirtoCommerce/vc-module-order",
       "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Orders_3.201.0-alpha.983.zip"
