@@ -49,7 +49,7 @@ data:
     {
       "Id": "VirtoCommerce.ExperienceApi",
       "Repository": "VirtoCommerce/vc-module-experience-api",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ExperienceApi_3.201.0-pr-270.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ExperienceApi_3.202.0-pr-274.zip"
     },
     {
       "Id": "VirtoCommerce.ProfileExperienceApiModule",
@@ -99,7 +99,7 @@ data:
     {
       "Id": "VirtoCommerce.Pricing",
       "Repository": "VirtoCommerce/vc-module-pricing",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Pricing_3.200.0-alpha.563-pt-6313-net6.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-pricing/releases/download/3.201.0/VirtoCommerce.Pricing_3.201.0.zip"
     },
     {
       "Id": "VirtoCommerce.Search",
@@ -119,7 +119,7 @@ data:
     {
       "Id": "VirtoCommerce.Store",
       "Repository": "VirtoCommerce/vc-module-store",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Store_3.200.0-pr-93.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-store/releases/download/3.201.0/VirtoCommerce.Store_3.201.0.zip"
     },
     {
       "Id": "VirtoCommerce.Subscription",
