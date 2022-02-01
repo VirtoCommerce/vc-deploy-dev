@@ -12,7 +12,7 @@ data:
     Notifications__Smtp__Login: "apikey"
     Notifications__Smtp__Port: "587"
    #Platfrom mode
-    ASPNETCORE_ENVIRONMENT: "Development"
+    ASPNETCORE_ENVIRONMENT: "Production"
    #Enable headers (broken swagger)
     ASPNETCORE_FORWARDEDHEADERS_ENABLED: "false"
    #Enable telemtry
