@@ -197,5 +197,10 @@ data:
       "Id": "VirtoCommerce.CatalogExportImport",
       "Repository": "VirtoCommerce/vc-module-catalog-export-import",
       "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.CatalogExportImport_3.200.0-pr-34.zip"
+    },
+    {
+      "Id": "VirtoCommerce.EventBus",
+      "Repository": "VirtoCommerce/vc-module-event-bus",
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.EventBus_3.200.0-pr-14.zip"
     }
    ]
