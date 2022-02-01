@@ -116,7 +116,7 @@ data:
     {
       "Id": "VirtoCommerce.ExperienceApi",
       "Repository": "VirtoCommerce/vc-module-experience-api",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ExperienceApi_3.201.0-pr-271.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-experience-api/releases/download/3.201.0/VirtoCommerce.ExperienceApi_3.201.0.zip"
     },
     {
       "Id": "VirtoCommerce.WebHooks",
