@@ -202,5 +202,10 @@ data:
       "Id": "VirtoCommerce.EventBus",
       "Repository": "VirtoCommerce/vc-module-event-bus",
       "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.EventBus_3.200.0-pr-14.zip"
+    },
+    {
+      "Id": "VirtoCommerce.Quote",
+      "Repository": "VirtoCommerce/vc-module-quote",
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-quote/releases/download/3.200.0/VirtoCommerce.Quote_3.200.0.zip"
     }
    ]
