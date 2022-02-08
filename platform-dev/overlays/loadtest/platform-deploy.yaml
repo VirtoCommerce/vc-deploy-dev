@@ -23,6 +23,16 @@ spec:
                 values:
                 - loadtest
             topologyKey: failure-domain.beta.kubernetes.io/zone
+      initContainers:
+        - name: init-sqldatabase
+          image: mcr.microsoft.com/mssql-tools
+          command:
+            - "/bin/sh"
+            - "-c"
+          args:
+            - "/opt/mssql-tools/bin/sqlcmd -S $(VC_DB_HOST) -U $(VC_DB_USER)@$(VC_DB_HOST) -P '$(VC_DBSERVER_MASTER_PASSWORD)' -q \"CREATE LOGIN [$(VC_INSTANCE)_$(VC_NAMESPACE)_user] WITH PASSWORD = '$(VC_CUSTOMER_DB_PASSWORD)'\"
+            && /opt/mssql-tools/bin/sqlcmd -S $(VC_DB_HOST) -U $(VC_DB_USER)@$(VC_DB_HOST) -P '$(VC_DBSERVER_MASTER_PASSWORD)' -q \"CREATE USER [$(VC_INSTANCE)_$(VC_NAMESPACE)_user] FROM LOGIN [$(VC_INSTANCE)_$(VC_NAMESPACE)_user]\"
+            && /opt/mssql-tools/bin/sqlcmd -S $(VC_DB_HOST) -U $(VC_DB_USER)@$(VC_DB_HOST) -P '$(VC_DBSERVER_MASTER_PASSWORD)' -q \"CREATE DATABASE [loadtest-platform_dev_separate] AS COPY OF [loadtest-platform_dev_separate_restored] ( SERVICE_OBJECTIVE = ELASTIC_POOL ( name = [$(VC_DB_POOL)] ) )\""
       containers:
         - name: vc-platform-web
           resources:
