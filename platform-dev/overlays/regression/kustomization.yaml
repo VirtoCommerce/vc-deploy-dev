@@ -13,13 +13,7 @@ patchesStrategicMerge:
 
 resources:
 - ../../resources
-- ../../../common-base/storefront
 - storage.yaml
-
-images:
-- name: docker.pkg.github.com/virtocommerce/vc-storefront/storefront
-  newName: ghcr.io/virtocommerce/vc-demo-storefront/demo-storefront
-  newTag: 1.12.0-master-9b6ba2d6
 
 configMapGenerator:
 - name: db-config
