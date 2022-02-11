@@ -22,6 +22,7 @@ data:
   AzureAd__ApplicationId: "8227d950-975c-4c28-b7d4-ea440a59dcbb"
   AzureAd__TenantId: "bc03e660-5e3a-45c4-bf5c-b75489f78923"
   Search__Scope: "$(VC_PLATFORM_SERVICE)$(VC_NAMESPACE)-new-index"
+  Search__OrderFullTextSearchEnabled: "true"
   Content__FileSystem__PublicUrl: https://$(VC_PLATFORM_SERVICE).$(VC_NAMESPACE).govirto.com/cms-content/
   Assets__FileSystem__PublicUrl: https://$(VC_PLATFORM_SERVICE).$(VC_NAMESPACE).govirto.com/cms-content/assets/
   VirtoCommerce__LicenseFilePath: app_data/VirtoCommerce.lic
@@ -34,4 +35,3 @@ data:
   # Payments__AuthorizeNet__SHA2Hash: "FA6D2B37A7E9105942D2D184F1B2DBD8D9CA85611DE55B2267A6F7E0D7E49ACD9A6BC238CE068E75CA14ACFAD734F700FD94DCAB20353DD4D32D9BABE72DBBE4"
   # Payments__AuthorizeNet__TxnKey: "63c54EWq5d2XnGAR"
   # ASPNETCORE_ENVIRONMENT: "Production"
-  
