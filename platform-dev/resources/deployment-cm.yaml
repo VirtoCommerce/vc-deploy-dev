@@ -46,17 +46,17 @@ data:
     {
       "Id": "VirtoCommerce.Store",
       "Repository": "VirtoCommerce/vc-module-store",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-store/releases/download/3.200.0/VirtoCommerce.Store_3.200.0.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-store/releases/download/3.201.0/VirtoCommerce.Store_3.201.0.zip"
     },
     {
       "Id": "VirtoCommerce.Catalog",
       "Repository": "VirtoCommerce/vc-module-catalog",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-catalog/releases/download/3.200.0/VirtoCommerce.Catalog_3.200.0.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-catalog/releases/download/3.201.0/VirtoCommerce.Catalog_3.201.0.zip"
     },
     {
       "Id": "VirtoCommerce.Pricing",
       "Repository": "VirtoCommerce/vc-module-pricing",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-pricing/releases/download/3.200.0/VirtoCommerce.Pricing_3.200.0.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-pricing/releases/download/3.201.0/VirtoCommerce.Pricing_3.201.0.zip"
     },
     {
       "Id": "VirtoCommerce.Shipping",
@@ -81,12 +81,12 @@ data:
     {
       "Id": "VirtoCommerce.CustomerReviews",
       "Repository": "VirtoCommerce/vc-module-customer-review",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-customer-review/releases/download/3.200.0/VirtoCommerce.CustomerReviews_3.200.0.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-customer-review/releases/download/3.201.0/VirtoCommerce.CustomerReviews_3.201.0.zip"
     },
     {
       "Id": "VirtoCommerce.Orders",
       "Repository": "VirtoCommerce/vc-module-order",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-order/releases/download/3.200.0/VirtoCommerce.Orders_3.200.0.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-order/releases/download/3.201.0/VirtoCommerce.Orders_3.201.0.zip"
     },
     {
       "Id": "VirtoCommerce.FileSystemAssets",
@@ -121,7 +121,7 @@ data:
     {
       "Id": "VirtoCommerce.ExperienceApi",
       "Repository": "VirtoCommerce/vc-module-experience-api",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-experience-api/releases/download/3.200.0/VirtoCommerce.ExperienceApi_3.200.0.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-experience-api/releases/download/3.202.0/VirtoCommerce.ExperienceApi_3.202.0.zip"
     },
     {
       "Id": "VirtoCommerce.WebHooks",
@@ -191,7 +191,7 @@ data:
     {
       "Id": "VirtoCommerce.AuthorizeNet",
       "Repository": "VirtoCommerce/vc-module-Authorize.Net",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-Authorize.Net/releases/download/3.200.0/VirtoCommerce.AuthorizeNet_3.200.0.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-Authorize.Net/releases/download/3.201.0/VirtoCommerce.AuthorizeNet_3.201.0.zip"
     },
     {
       "Id": "VirtoCommerce.Quote",
