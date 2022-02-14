@@ -18,7 +18,7 @@ data:
   PushNotifications__ScalabilityMode: "RedisBackplane"
   PushNotifications__HubUrl: "https://$(VC_PLATFORM_SERVICE).$(VC_NAMESPACE).govirto.com/pushNotificationHub"
   PushNotifications__RedisBackplane__ChannelName: "$(VC_PLATFORM_SERVICE)-$(VC_NAMESPACE)-chanel"
-  Search__ElasticSearch__Server: http://search-dev-es-http.elastic-system:9200
+  Search__ElasticSearch__Server: https://elasticsearch-dev.govirto.com
   AzureAd__Enabled: "true"
   AzureAd__ApplicationId: "8227d950-975c-4c28-b7d4-ea440a59dcbb"
   AzureAd__TenantId: "bc03e660-5e3a-45c4-bf5c-b75489f78923"
