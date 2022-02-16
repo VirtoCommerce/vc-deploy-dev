@@ -19,10 +19,13 @@ data:
   PushNotifications__HubUrl: "https://$(VC_PLATFORM_SERVICE).$(VC_NAMESPACE).govirto.com/pushNotificationHub"
   PushNotifications__RedisBackplane__ChannelName: "$(VC_PLATFORM_SERVICE)-$(VC_NAMESPACE)-chanel"
   Search__ElasticSearch__Server: https://elasticsearch-dev.govirto.com
-  AzureAd__Enabled: "false"
+  AzureAd__Enabled: "true"
+  AzureAd__Priority: "0"
+  AzureAd__AuthenticationType: "AzureAD"
   AzureAd__ApplicationId: "8227d950-975c-4c28-b7d4-ea440a59dcbb"
   AzureAd__TenantId: "bc03e660-5e3a-45c4-bf5c-b75489f78923"
-  PasswordLogin__Enabled: "true"
+  PasswordLogin__Enabled: "true" 
+  PasswordLogin__Priority: "1"
   Search__Scope: "$(VC_PLATFORM_SERVICE)$(VC_NAMESPACE)-new-index"
   Content__FileSystem__PublicUrl: https://$(VC_PLATFORM_SERVICE).$(VC_NAMESPACE).govirto.com/cms-content/
   Assets__FileSystem__PublicUrl: https://$(VC_PLATFORM_SERVICE).$(VC_NAMESPACE).govirto.com/cms-content/assets/
