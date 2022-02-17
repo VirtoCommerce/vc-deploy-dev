@@ -27,7 +27,7 @@ data:
    #Setting for elastic search
     Search__ElasticSearch__Server: https://elasticsearch-dev.govirto.com
    #Active directory
-    AzureAd__Enabled: "true"
+    AzureAd__Enabled: "false"
     AzureAd__ApplicationId: "8227d950-975c-4c28-b7d4-ea440a59dcbb"
     AzureAd__TenantId: "bc03e660-5e3a-45c4-bf5c-b75489f78923"
     PasswordLogin__Enabled: "true"
