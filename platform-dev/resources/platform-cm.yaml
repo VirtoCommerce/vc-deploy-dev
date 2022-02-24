@@ -13,7 +13,7 @@ data:
   Notifications__SmsGateway: "Twilio"
   ASPNETCORE_FORWARDEDHEADERS_ENABLED: "false"
   AppInsights__EnableDependencyTrackingTelemetryModule: "false"
-  Swagger__UI__Enabled: "false"
+  Swagger__UI__Enabled: "true"
   PushNotifications__ForceWebSockets: "true"
   PushNotifications__ScalabilityMode: "RedisBackplane"
   PushNotifications__HubUrl: "https://$(VC_PLATFORM_SERVICE).$(VC_NAMESPACE).govirto.com/pushNotificationHub"
