@@ -4,7 +4,7 @@ name: Push Jira Deployment
 on:
   push:
     branches:
-      [master, qa]
+      [demo, qa]
 
 jobs:
   ci:
