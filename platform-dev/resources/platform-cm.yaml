@@ -47,3 +47,11 @@ data:
 #Active Directory
   AzureAd__Enabled: "false"
   PasswordLogin__Enabled: "true"
+  DefaultMainMenuState__items: |
+      [
+        {
+        "path": "browse/marketing",
+        "isFavorite": true,
+        "order": 1
+        }
+      ]
