@@ -17,4 +17,4 @@ images:
   newTag: 3.204.0-master-b63db860
 - name: docker.pkg.github.com/virtocommerce/vc-storefront/storefront
   newName: ghcr.io/virtocommerce/storefront
-  newTag: 5.9.0-alpha.816-dev-a4ca11f9
+  newTag: 6.0.0-alpha.869-dev-abf6583a
