@@ -22,7 +22,7 @@ jobs:
     steps:
 
     - name: Set variables for Demo Env
-      if: ${{ contains(env.GITHUB_REF, master) }}
+      if: ${{ contains(env.GITHUB_REF, 'demo') }}
       run: |
         echo "VERSION_SUFFIX=${{ steps.image.outputs.suffix }}" >> $GITHUB_ENV
         echo "APP_NAME=vcplatform-demo" >> $GITHUB_ENV
