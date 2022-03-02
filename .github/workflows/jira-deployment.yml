@@ -1,0 +1,79 @@
+# v1.0.0
+name: Push Jira Deployment
+
+on:
+  push:
+    branches:
+      [master, qa]
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    env:
+      ARGO_SERVER: 'argo.govirto.com'
+      GITHUB_TOKEN: ${{ secrets.REPO_TOKEN }}
+      NUGET_KEY: ${{ secrets.NUGET_KEY }}
+      BLOB_SAS: ${{ secrets.BLOB_TOKEN }}
+      APP_NAME: 'vcplatform-qa'
+      ENV_NAME: 'QA'
+      ENV_ID: 'qa'
+      ENV_TYPE: 'testing'
+      DEPLOY_STATE: 'failed'
+    steps:
+
+    - name: Set variables for Demo Env
+      if: ${{ contains(env.GITHUB_REF, master) }}
+      run: |
+        echo "VERSION_SUFFIX=${{ steps.image.outputs.suffix }}" >> $GITHUB_ENV
+        echo "APP_NAME=vcplatform-demo" >> $GITHUB_ENV
+        echo "ENV_NAME=Demo" >> $GITHUB_ENV
+        echo "ENV_ID=demo" >> $GITHUB_ENV
+        echo "ENV_TYPE=production" >> $GITHUB_ENV
+
+    - name: Wait for environment is up
+      uses: VirtoCommerce/vc-github-actions/vc-argocd-cli@master
+      id: argocd-cli
+      with:
+        server: ${{env.ARGO_SERVER}}
+        username: ${{ secrets.ARGOCD_LOGIN }}
+        password: ${{ secrets.ARGOCD_PASSWORD }}
+        command: app wait ${{ env.APP_NAME }}
+
+    - name: DEPLOY_STATE::successful
+      if: success()
+      run: echo "DEPLOY_STATE=successful" >> $GITHUB_ENV
+
+    - name: Parse Jira Keys from All Commits
+      uses: VirtoCommerce/vc-github-actions/get-jira-keys@master
+      if: always()
+      id: jira_keys
+      with:
+        release: ${{ env.RELEASE_STATUS }}
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Push Deployment Info to Jira
+      if: ${{ env.CLOUD_INSTANCE_BASE_URL != 0 && env.CLIENT_ID != 0 && env.CLIENT_SECRET != 0 && steps.jira-keys.outputs.jira-keys != '' && always() }}
+      uses: HighwayThree/jira-upload-deployment-info@master
+      env:
+        CLOUD_INSTANCE_BASE_URL: ${{secrets.CLOUD_INSTANCE_BASE_URL}}
+        CLIENT_ID: ${{secrets.CLIENT_ID}}
+        CLIENT_SECRET: ${{secrets.CLIENT_SECRET}}
+      with:
+        cloud-instance-base-url: ${{ secrets.CLOUD_INSTANCE_BASE_URL }}
+        client-id: ${{ secrets.CLIENT_ID }}
+        client-secret: ${{ secrets.CLIENT_SECRET }}
+        deployment-sequence-number: ${{ github.run_id }}
+        update-sequence-number: ${{ github.run_id }}
+        issue-keys: ${{ steps.jira-keys.outputs.jira-keys }}
+        display-name: ${{ env.APP_NAME }}
+        url: 'https://vcplatform-platform.${{ env.ENV_ID }}.govirto.com/'
+        description: 'Deployment to the ${{ env.ENV_TYPE}} environment'
+        last-updated: '${{github.event.head_commit.timestamp}}'
+        state: '${{ env.DEPLOY_STATE }}'
+        pipeline-id: '${{ github.repository }} ${{ github.workflow }}'
+        pipeline-display-name: 'Workflow: ${{ github.workflow }} (#${{ github.run_number }})'
+        pipeline-url: '${{github.event.repository.html_url}}/actions/runs/${{github.run_id}}'
+        environment-id: ${{ env.ENV_ID }}
+        environment-display-name: ${{ env.ENV_NAME }}
+        environment-type: ${{ env.ENV_TYPE }}
