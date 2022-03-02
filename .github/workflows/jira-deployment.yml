@@ -54,19 +54,15 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Push Deployment Info to Jira
-      if: ${{ env.CLOUD_INSTANCE_BASE_URL != 0 && env.CLIENT_ID != 0 && env.CLIENT_SECRET != 0 && steps.jira-keys.outputs.jira-keys != '' && always() }}
+      if: ${{ env.CLOUD_INSTANCE_BASE_URL != 0 && env.CLIENT_ID != 0 && env.CLIENT_SECRET != 0 && steps.jira_keys.outputs.jira-keys != '' && always() }}
       uses: HighwayThree/jira-upload-deployment-info@master
-      env:
-        CLOUD_INSTANCE_BASE_URL: ${{secrets.CLOUD_INSTANCE_BASE_URL}}
-        CLIENT_ID: ${{secrets.CLIENT_ID}}
-        CLIENT_SECRET: ${{secrets.CLIENT_SECRET}}
       with:
         cloud-instance-base-url: ${{ secrets.CLOUD_INSTANCE_BASE_URL }}
         client-id: ${{ secrets.CLIENT_ID }}
         client-secret: ${{ secrets.CLIENT_SECRET }}
         deployment-sequence-number: ${{ github.run_id }}
         update-sequence-number: ${{ github.run_id }}
-        issue-keys: ${{ steps.jira-keys.outputs.jira-keys }}
+        issue-keys: ${{ steps.jira_keys.outputs.jira-keys }}
         display-name: ${{ env.APP_NAME }}
         url: 'https://vcplatform-platform.${{ env.ENV_ID }}.govirto.com/'
         description: 'Deployment to the ${{ env.ENV_TYPE}} environment'
