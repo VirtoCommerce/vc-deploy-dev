@@ -10,10 +10,11 @@ jobs:
   ci:
     runs-on: ubuntu-latest
     env:
+      CLOUD_INSTANCE_BASE_URL: ${{secrets.CLOUD_INSTANCE_BASE_URL}}
+      CLIENT_ID: ${{secrets.CLIENT_ID}}
+      CLIENT_SECRET: ${{secrets.CLIENT_SECRET}}
       ARGO_SERVER: 'argo.govirto.com'
       GITHUB_TOKEN: ${{ secrets.REPO_TOKEN }}
-      NUGET_KEY: ${{ secrets.NUGET_KEY }}
-      BLOB_SAS: ${{ secrets.BLOB_TOKEN }}
       APP_NAME: 'vcplatform-qa'
       ENV_NAME: 'QA'
       ENV_ID: 'qa'
