@@ -51,7 +51,7 @@ data:
     {
       "Id": "VirtoCommerce.Catalog",
       "Repository": "VirtoCommerce/vc-module-catalog",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Catalog_3.205.0-alpha.1907.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Catalog_3.206.0-alpha.1908.zip"
     },
     {
       "Id": "VirtoCommerce.Pricing",
@@ -72,7 +72,7 @@ data:
     {
       "Id": "VirtoCommerce.Inventory",
       "Repository": "VirtoCommerce/vc-module-inventory",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Inventory_3.202.0-alpha.344.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Inventory_3.203.0-alpha.346.zip"
     },
     {
       "Id": "VirtoCommerce.Customer",
@@ -132,7 +132,7 @@ data:
     {
       "Id": "VirtoCommerce.Sitemaps",
       "Repository": "VirtoCommerce/vc-module-sitemaps",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Sitemaps_3.201.0-alpha.249.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Sitemaps_3.202.0-alpha.252.zip"
     },
     {
       "Id": "VirtoCommerce.LuceneSearch",
