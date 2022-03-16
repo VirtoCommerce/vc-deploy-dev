@@ -16,8 +16,8 @@ data:
 # Search__ElasticSearch__Server: https://elasticsearch-dev.govirto.com
 # Elastic App Search settings
   Search__Provider: "ElasticAppSearch"
-  Search__ElasticAppSearch_Endpoint: https://enterprise-search-dev.govirto.com
-  Search__ElasticAppSearch_EnableHttpCompression: true
+  Search__ElasticAppSearch__Endpoint: https://enterprise-search-dev.govirto.com
+  Search__ElasticAppSearch__EnableHttpCompression: true
   AzureAd__Enabled: "true"
   AzureAd__ApplicationId: "8227d950-975c-4c28-b7d4-ea440a59dcbb"
   AzureAd__TenantId: "bc03e660-5e3a-45c4-bf5c-b75489f78923"
