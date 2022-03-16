@@ -11,6 +11,7 @@ data:
   PushNotifications__HubUrl: "https://$(VC_PLATFORM_SERVICE).$(VC_NAMESPACE).govirto.com/pushNotificationHub"
   PushNotifications__RedisBackplane__ChannelName: "$(VC_PLATFORM_SERVICE)-$(VC_NAMESPACE)-chanel"
 # Search settings
+  Search__Scope: "$(VC_PLATFORM_SERVICE)$(VC_NAMESPACE)-new-index"
   Search__OrderFullTextSearchEnabled: "true"
 # Elastic Search settings
 # Search__ElasticSearch__Server: https://elasticsearch-dev.govirto.com
@@ -22,7 +23,6 @@ data:
   AzureAd__Enabled: "true"
   AzureAd__ApplicationId: "8227d950-975c-4c28-b7d4-ea440a59dcbb"
   AzureAd__TenantId: "bc03e660-5e3a-45c4-bf5c-b75489f78923"
-  Search__Scope: "$(VC_PLATFORM_SERVICE)$(VC_NAMESPACE)-new-index"
   Content__FileSystem__PublicUrl: https://$(VC_PLATFORM_SERVICE).$(VC_NAMESPACE).govirto.com/cms-content/
   Assets__FileSystem__PublicUrl: https://$(VC_PLATFORM_SERVICE).$(VC_NAMESPACE).govirto.com/cms-content/assets/
   VirtoCommerce__LicenseFilePath: app_data/VirtoCommerce.lic
