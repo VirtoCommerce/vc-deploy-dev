@@ -195,5 +195,10 @@ data:
       "Id": "VirtoCommerce.Assets",
       "Repository": "VirtoCommerce/vc-module-assets",
       "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Assets_3.200.0-pr-4.zip"
+    },
+    {
+      "Id": "VirtoCommerce.PageBuilderModule",
+      "Repository": "VirtoCommerce/vc-module-pagebuilder",
+      "PackageUrl": "https://rnd4pb.blob.core.windows.net/composer/VirtoCommerce.PageBuilderModule_3.201.0_templates.zip"
     }
    ]
