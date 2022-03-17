@@ -146,7 +146,7 @@ data:
     {
       "Id": "VirtoCommerce.ElasticSearch",
       "Repository": "VirtoCommerce/vc-module-elastic-search",
-      "PackageUrl": "https://devsteamsta.blob.core.windows.net/platform/VirtoCommerce.ElasticSearch_WithoutPartialUpdate_3.203.0.zip"
+      "PackageUrl": "https://devsteamsta.blob.core.windows.net/platform/VirtoCommerce.ElasticSearch_WithoutPartialUpdateAndBlueGreen_3.203.0.zip"
     },
     {
       "Id": "VirtoCommerce.DynamicAssociations",
