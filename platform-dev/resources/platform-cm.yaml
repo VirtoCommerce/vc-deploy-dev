@@ -32,7 +32,7 @@ data:
    #Elastic Search settings
    #Search__ElasticSearch__Server: "https://elasticsearch-dev.govirto.com"
    #Elastic App Search settings
-    Search__Provider: "ElasticAppSearch"
+   #Search__Provider: "ElasticAppSearch"
     Search__ElasticAppSearch__Endpoint: https://enterprise-search-dev.govirto.com
     Search__ElasticAppSearch__EnableHttpCompression: "true"
    #Azure search settings
