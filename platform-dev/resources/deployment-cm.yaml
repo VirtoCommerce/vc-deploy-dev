@@ -91,7 +91,7 @@ data:
     {
       "Id": "VirtoCommerce.AzureBlobAssets",
       "Repository": "VirtoCommerce/vc-module-azureblob-assets",
-      "PackageUrl": "https://devsteamsta.blob.core.windows.net/platform/VirtoCommerce.AzureSearch_WithoutPartialUpdate_3.203.0.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.AzureBlobAssets_3.200.0-pr-3.zip"
     },
     {
       "Id": "VirtoCommerce.Marketing",
@@ -207,5 +207,10 @@ data:
       "Id": "VirtoCommerce.Return",
       "Repository": "VirtoCommerce/vc-module-return",
       "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Return_3.200.0-pr-2.zip"
+    },
+     {
+      "Id": "VirtoCommerce.AzureSearch",
+      "Repository": "VirtoCommerce/vc-module-azure-search",
+      "PackageUrl": "https://devsteamsta.blob.core.windows.net/platform/VirtoCommerce.AzureSearch_WithoutPartialUpdate_3.203.0.zip"
     }
    ]
