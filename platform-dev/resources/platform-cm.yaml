@@ -30,11 +30,11 @@ data:
    #Lucene settings
    #Search__Provider: "Lucene"
    #Elastic Search settings
-   #Search__ElasticSearch__Server: "https://elasticsearch-dev.govirto.com"
+    Search__ElasticSearch__Server: "https://elasticsearch-dev.govirto.com"
    #Elastic App Search settings
    #Search__Provider: "ElasticAppSearch"
-    Search__ElasticAppSearch__Endpoint: https://enterprise-search-dev.govirto.com
-    Search__ElasticAppSearch__EnableHttpCompression: "true"
+   #Search__ElasticAppSearch__Endpoint: https://enterprise-search-dev.govirto.com
+   #Search__ElasticAppSearch__EnableHttpCompression: "true"
    #Azure search settings
    #Search__Provider: "AzureSearch"
    #Search__AzureSearch__SearchServiceName: "qa-demovc-3-search"
