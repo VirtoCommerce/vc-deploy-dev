@@ -30,8 +30,7 @@ spec:
 
         - name: init-platform
           image: ghcr.io/virtocommerce/vc-deploy-containers/vc-build-image:stable
-#          "InstallModules -DiscoveryPath /mnt/Modules -PackageManifestPath /mnt/config/vc-package.json -SkipDependencySolving"
-          args: ["/root/.dotnet/tools/vc-build InstallModules -DiscoveryPath /mnt/Modules -PackageManifestPath /mnt/config/vc-package.json -SkipDependencySolving"]
+          args: ["/root/.dotnet/tools/vc-build InstallModules -DiscoveryPath /mnt/Modules -PackageManifestPath /mnt/config/vc-package.json -ProbingPath /opt/app_data"]
           volumeMounts:
           - mountPath: /mnt/Modules
             name: modules-data
@@ -61,7 +60,7 @@ spec:
         persistentVolumeClaim:
           claimName: cms-content-volume
       - name: modules-data
-        emptyDir: {}  
+        emptyDir: {}
       - name: vc-package
         configMap:
           name: deployment-cm
