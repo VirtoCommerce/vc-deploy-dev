@@ -29,7 +29,15 @@ spec:
               value: "AS COPY OF [$(VC_SAMPLE_DATA_DB)]"  
 
         - name: init-platform
-          image: ghcr.io/virtocommerce/vc-deploy-containers/platform-installer:v3
+          image: ghcr.io/virtocommerce/vc-deploy-containers/vc-build-image:stable
+          command: ["vc-build"]
+          args: ["InstallModules", "-DiscoveryPath /mnt/Modules", "-ProbingPath ./test/app_data", "--package-manifest-path /config/vc-package.json", "--skip-dependency-solving"]
+          volumeMounts:
+          - mountPath: /mnt/Modules
+            name: modules-data
+          - mountPath: /mnt/config
+            name: vc-package
+            readOnly: true
 
       containers:
         - name: vc-platform-web
@@ -54,6 +62,12 @@ spec:
           claimName: cms-content-volume
       - name: modules-data
         emptyDir: {}  
+      - name: vc-package
+        configMap:
+          name: deployment-cm
+          items:
+          - key: vc-package.json
+            path: vc-package.json
   strategy:
     rollingUpdate:
       maxSurge: 1
