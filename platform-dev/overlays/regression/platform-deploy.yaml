@@ -30,7 +30,7 @@ spec:
 
         - name: init-platform
           image: ghcr.io/virtocommerce/vc-deploy-containers/vc-build-image:stable
-          command: ["vc-build"]
+          command: ["/root/.dotnet/tools/vc-build"]
           args: ["InstallModules", "-DiscoveryPath /mnt/Modules", "-ProbingPath ./test/app_data", "--package-manifest-path /config/vc-package.json", "--skip-dependency-solving"]
           volumeMounts:
           - mountPath: /mnt/Modules
