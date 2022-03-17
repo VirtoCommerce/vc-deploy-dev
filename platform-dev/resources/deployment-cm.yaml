@@ -41,7 +41,7 @@ data:
     {
       "Id": "VirtoCommerce.Search",
       "Repository": "VirtoCommerce/vc-module-search",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Search_3.203.0-beta.1-pr-60.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Search_3.202.0-beta-partialUpdate-2-pr-56.zip"
     },
     {
       "Id": "VirtoCommerce.Store",
@@ -211,6 +211,6 @@ data:
      {
       "Id": "VirtoCommerce.AzureSearch",
       "Repository": "VirtoCommerce/vc-module-azure-search",
-      "PackageUrl": "https://devsteamsta.blob.core.windows.net/platform/VirtoCommerce.AzureSearch_WithoutPartialUpdate_3.203.0.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.AzureSearch_3.202.0-pr-27.zip"
     }
    ]
