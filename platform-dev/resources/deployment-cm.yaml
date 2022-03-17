@@ -44,6 +44,26 @@ data:
       "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Search_3.203.0-beta.1-pr-60.zip"
     },
     {
+      "Id": "VirtoCommerce.LuceneSearch",
+      "Repository": "VirtoCommerce/vc-module-lucene-search",
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.LuceneSearch_3.203.0-pr-28.zip"
+    },
+    {
+      "Id": "VirtoCommerce.ElasticSearch",
+      "Repository": "VirtoCommerce/vc-module-elastic-search",
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ElasticSearch_3.203.0-pr-36.zip"
+    },
+    {
+      "Id": "VirtoCommerce.ElasticAppSearch",
+      "Repository": "VirtoCommerce/vc-module-elastic-app-search",
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ElasticAppSearch_1.0.0.zip"
+    },
+    {
+      "Id": "VirtoCommerce.AzureSearch",
+      "Repository": "VirtoCommerce/vc-module-azure-search",
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.AzureSearch_3.203.0-pr-28.zip"
+    },
+    {
       "Id": "VirtoCommerce.Store",
       "Repository": "VirtoCommerce/vc-module-store",
       "PackageUrl": "https://github.com/VirtoCommerce/vc-module-store/releases/download/3.201.0/VirtoCommerce.Store_3.201.0.zip"
@@ -134,19 +154,9 @@ data:
       "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Sitemaps_3.201.0-pr-42.zip"
     },
     {
-      "Id": "VirtoCommerce.LuceneSearch",
-      "Repository": "VirtoCommerce/vc-module-lucene-search",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.LuceneSearch_3.203.0-pr-28.zip"
-    },
-    {
       "Id": "VirtoCommerce.ImageTools",
       "Repository": "VirtoCommerce/vc-module-image-tools",
       "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ImageTools_3.200.0-pr-81.zip"
-    },
-    {
-      "Id": "VirtoCommerce.ElasticSearch",
-      "Repository": "VirtoCommerce/vc-module-elastic-search",
-      "PackageUrl": "https://devsteamsta.blob.core.windows.net/platform/VirtoCommerce.ElasticSearch_WithoutBlueGreen_3.203.0.zip"
     },
     {
       "Id": "VirtoCommerce.DynamicAssociations",
@@ -207,10 +217,5 @@ data:
       "Id": "VirtoCommerce.Return",
       "Repository": "VirtoCommerce/vc-module-return",
       "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Return_3.200.0-pr-2.zip"
-    },
-     {
-      "Id": "VirtoCommerce.AzureSearch",
-      "Repository": "VirtoCommerce/vc-module-azure-search",
-      "PackageUrl": "https://devsteamsta.blob.core.windows.net/platform/VirtoCommerce.AzureSearch_WithoutPartialUpdate_3.203.0.zip"
     }
    ]
