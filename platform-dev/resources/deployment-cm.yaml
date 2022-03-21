@@ -128,6 +128,14 @@ data:
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "Version": "3.200.0"
+        },
+        {
+          "Id": "VirtoCommerce.AvalaraTax",
+          "Version": "3.200.0"
+        },
+        {
+          "Id": "VirtoCommerce.AuthorizeNet",
+          "Version": "3.201.0"
         }
       ]
     }
