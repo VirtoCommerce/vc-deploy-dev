@@ -91,7 +91,7 @@ data:
     {
       "Id": "VirtoCommerce.ExperienceApi",
       "Repository": "VirtoCommerce/vc-module-experience-api",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-profile-experience-api/releases/download/3.201.0/VirtoCommerce.ProfileExperienceApiModule_3.201.0.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-experience-api/releases/download/3.204.0/VirtoCommerce.ExperienceApi_3.204.0.zip"
     },
     {
       "Id": "VirtoCommerce.Export",
@@ -182,5 +182,21 @@ data:
         "Id": "VirtoCommerce.Webhooks",
         "Repository": "vc-module-webhooks",
         "PackageUrl": "https://github.com/VirtoCommerce/vc-module-webhooks/releases/download/3.200.0/VirtoCommerce.WebHooks_3.200.0.zip"
+    },
+    {
+        "Id": "VirtoCommerce.Assets",
+        "Repository": "vc-module-assets",
+        "PackageUrl": "https://github.com/VirtoCommerce/vc-module-assets/releases/download/3.200.0/VirtoCommerce.Assets_3.200.0.zip"
+    },
+    {
+        "Id": "VirtoCommerce.AzureBlobAssets",
+        "Repository": "vc-module-azureblob-assets",
+        "PackageUrl": "https://github.com/VirtoCommerce/vc-module-azureblob-assets/releases/download/3.200.0/VirtoCommerce.AzureBlobAssets_3.200.0.zip"
+    },
+    {
+        "Id": "VirtoCommerce.FileSystemAssets",
+        "Repository": "vc-module-filesystem-assets",
+        "PackageUrl": "https://github.com/VirtoCommerce/vc-module-filesystem-assets/releases/download/3.200.0/VirtoCommerce.FileSystemAssets_3.200.0.zip"
     }
+
    ]
