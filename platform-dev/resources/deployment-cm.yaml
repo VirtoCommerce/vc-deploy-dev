@@ -169,5 +169,7 @@ data:
           "Id": "VirtoCommerce.WebHooks",
           "Version": "3.200.0"
         }
-      ]
+      ],
+      "ManifestVersion": "2.0",
+      "PlatformVersion": "3.204.0"
     }
