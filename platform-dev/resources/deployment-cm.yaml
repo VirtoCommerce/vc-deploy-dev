@@ -56,7 +56,7 @@ data:
     {
       "Id": "VirtoCommerce.ElasticAppSearch",
       "Repository": "VirtoCommerce/vc-module-elastic-app-search",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ElasticAppSearch_3.200.0-alpha.20.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ElasticAppSearch_3.200.0-alpha.21.zip"
     },
     {
       "Id": "VirtoCommerce.AzureSearch",
@@ -71,7 +71,7 @@ data:
     {
       "Id": "VirtoCommerce.Catalog",
       "Repository": "VirtoCommerce/vc-module-catalog",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Catalog_3.209.0-alpha.1921.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Catalog_3.210.0-alpha.1922.zip"
     },
     {
       "Id": "VirtoCommerce.Pricing",
@@ -92,7 +92,7 @@ data:
     {
       "Id": "VirtoCommerce.Inventory",
       "Repository": "VirtoCommerce/vc-module-inventory",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Inventory_3.203.0-alpha.346.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Inventory_3.203.0-alpha.351.zip"
     },
     {
       "Id": "VirtoCommerce.Customer",
@@ -137,7 +137,7 @@ data:
     {
       "Id": "VirtoCommerce.ExperienceApi",
       "Repository": "VirtoCommerce/vc-module-experience-api",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ExperienceApi_3.205.0-alpha.885.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ExperienceApi_3.205.0-alpha.892.zip"
     },
     {
       "Id": "VirtoCommerce.WebHooks",
