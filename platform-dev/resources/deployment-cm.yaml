@@ -5,8 +5,8 @@ metadata:
   annotations:
     reloader.stakater.com/match: "true"
 data:
-  ELECTRONICS_THEME_URL: https://github.com/VirtoCommerce/vc-theme-default/releases/download/2.1.13/vc-theme-default-2.1.13.zip
-  ELECTRONICS_THEME_LOCATION: /mnt/cms-content/Themes/Electronics
+ #ELECTRONICS_THEME_URL: https://github.com/VirtoCommerce/vc-theme-default/releases/download/2.1.13/vc-theme-default-2.1.13.zip
+ #ELECTRONICS_THEME_LOCATION: /mnt/cms-content/Themes/Electronics
   MERCURY_THEME_URL: https://vc3prerelease.blob.core.windows.net/packages/client-app-0.0.4-pr-85-8067146c.zip
   MERCURY_THEME_LOCATION: /mnt/cms-content/Themes/B2B-store
   ASSETS_URL: https://vcbacpac.blob.core.windows.net/dac-packages/webstore_assets_4.zip
