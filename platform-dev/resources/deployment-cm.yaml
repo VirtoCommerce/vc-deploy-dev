@@ -14,14 +14,14 @@ data:
   modules.json: |
    [    
     {
-        "Id": "VirtoCommerce.AuthorizeNet",
-        "Repository": "VirtoCommerce/vc-module-Authorize.Net",
-        "PackageUrl": "https://github.com/VirtoCommerce/vc-module-Authorize.Net/releases/download/3.201.0/VirtoCommerce.AuthorizeNet_3.201.0.zip"
+      "Id": "VirtoCommerce.AuthorizeNet",
+      "Repository": "VirtoCommerce/vc-module-Authorize.Net",
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-Authorize.Net/releases/download/3.201.0/VirtoCommerce.AuthorizeNet_3.201.0.zip"
     },
     {
-        "Id": "VirtoCommerce.AvalaraTax",
-        "Repository": "VirtoCommerce/vc-module-avatax",
-        "PackageUrl": "https://github.com/VirtoCommerce/vc-module-avatax/releases/download/3.200.0/VirtoCommerce.AvalaraTax_3.200.0.zip"
+      "Id": "VirtoCommerce.AvalaraTax",
+      "Repository": "VirtoCommerce/vc-module-avatax",
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-avatax/releases/download/3.200.0/VirtoCommerce.AvalaraTax_3.200.0.zip"
     },
     {
       "Id": "VirtoCommerce.AzureSearch",
@@ -46,7 +46,7 @@ data:
     {
       "Id": "VirtoCommerce.CatalogCsvImportModule",
       "Repository": "VirtoCommerce/vc-module-catalog-csv-import",
-      "PackageUrl": "PackageUrl": "https://github.com/VirtoCommerce/vc-module-catalog/releases/download/3.209.0/VirtoCommerce.Catalog_3.209.0.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-catalog/releases/download/3.209.0/VirtoCommerce.Catalog_3.209.0.zip"
     },
     {
       "Id": "VirtoCommerce.CatalogPersonalization",
@@ -174,29 +174,35 @@ data:
       "PackageUrl": "https://github.com/VirtoCommerce/vc-module-tax/releases/download/3.200.0/VirtoCommerce.Tax_3.200.0.zip"
     },
     {
-        "Id": "VirtoCommerce.EventBus",
-        "Repository": "vc-module-event-bus",
-        "PackageUrl": "https://github.com/VirtoCommerce/vc-module-event-bus/releases/download/3.200.0/VirtoCommerce.EventBus_3.200.0.zip"
+      "Id": "VirtoCommerce.EventBus",
+      "Repository": "vc-module-event-bus",
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-event-bus/releases/download/3.200.0/VirtoCommerce.EventBus_3.200.0.zip"
     },
     {
-        "Id": "VirtoCommerce.Webhooks",
-        "Repository": "vc-module-webhooks",
-        "PackageUrl": "https://github.com/VirtoCommerce/vc-module-webhooks/releases/download/3.200.0/VirtoCommerce.WebHooks_3.200.0.zip"
+      "Id": "VirtoCommerce.Webhooks",
+      "Repository": "vc-module-webhooks",
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-webhooks/releases/download/3.200.0/VirtoCommerce.WebHooks_3.200.0.zip"
     },
     {
-        "Id": "VirtoCommerce.Assets",
-        "Repository": "vc-module-assets",
-        "PackageUrl": "https://github.com/VirtoCommerce/vc-module-assets/releases/download/3.200.0/VirtoCommerce.Assets_3.200.0.zip"
+      "Id": "VirtoCommerce.Assets",
+      "Repository": "vc-module-assets",
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-assets/releases/download/3.200.0/VirtoCommerce.Assets_3.200.0.zip"
     },
     {
-        "Id": "VirtoCommerce.AzureBlobAssets",
-        "Repository": "vc-module-azureblob-assets",
-        "PackageUrl": "https://github.com/VirtoCommerce/vc-module-azureblob-assets/releases/download/3.200.0/VirtoCommerce.AzureBlobAssets_3.200.0.zip"
+      "Id": "VirtoCommerce.AzureBlobAssets",
+      "Repository": "vc-module-azureblob-assets",
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-azureblob-assets/releases/download/3.200.0/VirtoCommerce.AzureBlobAssets_3.200.0.zip"
     },
     {
-        "Id": "VirtoCommerce.FileSystemAssets",
-        "Repository": "vc-module-filesystem-assets",
-        "PackageUrl": "https://github.com/VirtoCommerce/vc-module-filesystem-assets/releases/download/3.200.0/VirtoCommerce.FileSystemAssets_3.200.0.zip"
-    }
+      "Id": "VirtoCommerce.FileSystemAssets",
+      "Repository": "vc-module-filesystem-assets",
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-filesystem-assets/releases/download/3.200.0/VirtoCommerce.FileSystemAssets_3.200.0.zip"
+    },
+        {
+      "Id": "VirtoCommerce.ProfileExperienceApiModule",
+      "Repository": "vc-module-profile-experience-api",
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-profile-experience-api/releases/download/3.203.0/VirtoCommerce.ProfileExperienceApiModule_3.203.0.zip"
+    },
+
 
    ]
