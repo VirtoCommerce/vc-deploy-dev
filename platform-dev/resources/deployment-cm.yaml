@@ -207,6 +207,11 @@ data:
       "Id": "VirtoCommerce.GDPR",
       "Repository": "vc-module-gdpr",
       "PackageUrl": "https://github.com/VirtoCommerce/vc-module-gdpr/releases/download/3.200.0/VirtoCommerce.GDPR_3.200.0.zip"
+    },
+    {
+      "Id": "VirtoCommerce.Return",
+      "Repository": "vc-module-return",
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-return/releases/download/3.200.0/VirtoCommerce.Return_3.200.0.zip"
     }
 
    ]
