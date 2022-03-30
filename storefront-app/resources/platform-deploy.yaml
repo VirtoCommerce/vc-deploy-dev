@@ -8,10 +8,10 @@ spec:
   template:
     metadata:
       annotations:
-        configmap.reloader.stakater.com/reload: "st-platform-cm, st-deployment-cm, st-platform-secret-configmap"
+        configmap.reloader.stakater.com/reload: "st-mercury-platform-cm, st-mercury-deployment-cm, st-mercury-platform-secret-configmap"
         vault.hashicorp.com/agent-inject: "true"
         vault.hashicorp.com/agent-pre-populate-only: "true"
-        vault.hashicorp.com/agent-configmap: "st-platform-secret-configmap"
+        vault.hashicorp.com/agent-configmap: "st-mercury-platform-secret-configmap"
         vault.hashicorp.com/agent-requests-cpu: "25m"
         vault.hashicorp.com/agent-limits-cpu: "50m" 
     spec:

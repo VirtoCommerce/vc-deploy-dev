@@ -12,7 +12,7 @@ spec:
     metadata:
       annotations:
         reloader.stakater.com/search: "true" 
-        configmap.reloader.stakater.com/reload: "st-storefront-cm, st-deployment-cm"
+        configmap.reloader.stakater.com/reload: "st-mercury-storefront-cm, st-mercury-deployment-cm"
       labels:
         app: storefront
     spec:

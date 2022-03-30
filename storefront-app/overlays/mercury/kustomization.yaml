@@ -1,0 +1,91 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+namespace: demo
+namePrefix: st-mercury-
+commonLabels:
+  instance: st-mercury
+
+resources:
+- ../../resources
+
+configMapGenerator:
+- name: db-config
+  literals:
+    - VC_DB_HOST=vc-prod-dbserver.database.windows.net
+    - VC_DB=vc-prod-dbserver
+    - VC_DB_POOL=vc-prod-elasticpool
+    - VC_DB_USER=virto
+- name: vault-config
+  literals:
+    - VAULT_API_URL=http://hashicorp-vault.vault.svc.cluster.local:8200
+
+patches:
+- patch: |-
+    - op: add
+      path: /spec/template/spec/nodeSelector
+      value: 
+        agentpool: apool
+  target:
+    group: apps
+    version: v1
+    kind: Deployment
+- patch: |-
+    - op: add
+      path: /spec/csi
+      value:
+        driver: blob.csi.azure.com
+        readOnly: false
+        fsType: ext4 
+        volumeHandle: mc_cloud-platform_vc-master_eastus#fuse8d50cd269f0a49fcba0#storefront-sales-demo
+    - op: add
+      path: /spec/csi/volumeAttributes
+      value: 
+        containername: storefront-sales-demo
+        skuName: Premium_LRS
+  target:
+    version: v1
+    kind: PersistentVolume
+
+vars:
+- name: VC_DB_HOST
+  objref:
+    kind: ConfigMap
+    name: db-config
+    apiVersion: v1
+  fieldref:
+    fieldpath: data.VC_DB_HOST
+- name: VC_DB
+  objref:
+    kind: ConfigMap
+    name: db-config
+    apiVersion: v1
+  fieldref:
+    fieldpath: data.VC_DB
+- name: VC_DB_POOL
+  objref:
+    kind: ConfigMap
+    name: db-config
+    apiVersion: v1
+  fieldref:
+    fieldpath: data.VC_DB_POOL
+- name: VC_DB_USER
+  objref:
+    kind: ConfigMap
+    name: db-config
+    apiVersion: v1
+  fieldref:
+    fieldpath: data.VC_DB_USER
+- name: VAULT_API_URL
+  objref:
+    kind: ConfigMap
+    name: vault-config
+    apiVersion: v1
+  fieldref:
+    fieldpath: data.VAULT_API_URL
+- name: VC_STOREFRONT_SERVICE
+  objref:
+    kind: Service
+    name: storefront
+    apiVersion: v1
+  fieldref:
+    fieldpath: metadata.name
