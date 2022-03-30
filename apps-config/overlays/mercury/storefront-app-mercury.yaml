@@ -13,7 +13,7 @@ spec:
   source:
     path: storefront-app/overlays/mercury
     repoURL: https://github.com/VirtoCommerce/vc-deploy-dev
-    targetRevision: demo
+    targetRevision: mercury
   syncPolicy:
     automated:
       prune: true
