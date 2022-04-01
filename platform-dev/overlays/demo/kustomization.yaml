@@ -13,7 +13,7 @@ resources:
 images:
 - name: ghcr.io/virtocommerce/platform-demo-manager
   newName: ghcr.io/virtocommerce/platform-demo-manager
-  newTag: 0.1.8
+  newTag: 0.1.9
 
 configMapGenerator:
 - name: db-config
