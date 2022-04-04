@@ -46,7 +46,7 @@ data:
     {
       "Id": "VirtoCommerce.LuceneSearch",
       "Repository": "VirtoCommerce/vc-module-lucene-search",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.LuceneSearch_3.203.0-pr-28.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-lucene-search/releases/download/3.202.0/VirtoCommerce.LuceneSearch_3.202.0.zip"
     },
     {
       "Id": "VirtoCommerce.ElasticSearch",
@@ -61,7 +61,7 @@ data:
     {
       "Id": "VirtoCommerce.AzureSearch",
       "Repository": "VirtoCommerce/vc-module-azure-search",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.AzureSearch_3.203.0-pr-28.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-azure-search/releases/download/3.202.0/VirtoCommerce.AzureSearch_3.202.0.zip"
     },
     {
       "Id": "VirtoCommerce.Store",
