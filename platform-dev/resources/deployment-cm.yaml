@@ -41,27 +41,27 @@ data:
     {
       "Id": "VirtoCommerce.Search",
       "Repository": "VirtoCommerce/vc-module-search",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Search_3.203.0-beta.2-pr-60.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Search_3.203.0-alpha.587-dev.zip"
     },
     {
       "Id": "VirtoCommerce.LuceneSearch",
       "Repository": "VirtoCommerce/vc-module-lucene-search",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.LuceneSearch_3.203.0-pr-28.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-lucene-search/releases/download/3.202.0/VirtoCommerce.LuceneSearch_3.202.0.zip"
     },
     {
       "Id": "VirtoCommerce.ElasticSearch",
       "Repository": "VirtoCommerce/vc-module-elastic-search",
-      "PackageUrl": "https://devsteamsta.blob.core.windows.net/platform/VirtoCommerce.ElasticSearch_WithoutPartialUpdate_3.203.0.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ElasticSearch_3.203.0-alpha.154-dev.zip"
     },
     {
       "Id": "VirtoCommerce.ElasticAppSearch",
       "Repository": "VirtoCommerce/vc-module-elastic-app-search",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ElasticAppSearch_3.200.0-pr-15.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-elastic-app-search/releases/download/3.200.0/VirtoCommerce.ElasticAppSearch_3.200.0.zip"
     },
     {
       "Id": "VirtoCommerce.AzureSearch",
       "Repository": "VirtoCommerce/vc-module-azure-search",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.AzureSearch_3.203.0-pr-28.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-azure-search/releases/download/3.202.0/VirtoCommerce.AzureSearch_3.202.0.zip"
     },
     {
       "Id": "VirtoCommerce.Store",
@@ -121,7 +121,7 @@ data:
     {
       "Id": "VirtoCommerce.Payment",
       "Repository": "VirtoCommerce/vc-module-payment",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Payment_3.200.0-pr-31.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Payment_3.201.0-beta.1-pr-34.zip"
     },
     {
       "Id": "VirtoCommerce.Content",
@@ -136,7 +136,7 @@ data:
     {
       "Id": "VirtoCommerce.ExperienceApi",
       "Repository": "VirtoCommerce/vc-module-experience-api",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ExperienceApi_3.205.0-pr-287.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ExperienceApi_3.207.0-pr-295.zip"
     },
     {
       "Id": "VirtoCommerce.WebHooks",
