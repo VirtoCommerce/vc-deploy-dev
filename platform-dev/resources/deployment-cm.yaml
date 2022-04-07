@@ -61,7 +61,7 @@ data:
     {
       "Id": "VirtoCommerce.AzureSearch",
       "Repository": "VirtoCommerce/vc-module-azure-search",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-azure-search/releases/download/3.202.0/VirtoCommerce.AzureSearch_3.202.0.zip"
+      "PackageUrl": "https://devsteamsta.blob.core.windows.net/platform/VirtoCommerce.AzureSearch_WithoutPartialUpdate_3.203.0.zip"
     },
     {
       "Id": "VirtoCommerce.Store",
