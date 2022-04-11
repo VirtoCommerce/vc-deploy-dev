@@ -222,5 +222,10 @@ data:
       "Id": "VirtoCommerce.GDPR",
       "Repository": "VirtoCommerce/vc-module-gdpr",
       "PackageUrl": "https://github.com/VirtoCommerce/vc-module-gdpr/releases/download/3.200.0/VirtoCommerce.GDPR_3.200.0.zip"
+    },
+    {
+      "Id": "VirtoCommerce.NativePaymentMethods",
+      "Repository": "VirtoCommerce/vc-module-native-payment-methods",
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.NativePaymentMethods_3.200.0-pr-2.zip"
     }
    ]
