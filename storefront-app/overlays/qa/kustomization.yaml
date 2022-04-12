@@ -8,6 +8,10 @@ commonLabels:
 resources:
 - ../../resources
 
+patchesStrategicMerge:
+- platform-secrets.yaml
+
+
 configMapGenerator:
 - name: db-config
   literals:
