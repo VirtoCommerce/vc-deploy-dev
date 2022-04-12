@@ -41,17 +41,18 @@ data:
     {
       "Id": "VirtoCommerce.Search",
       "Repository": "VirtoCommerce/vc-module-search",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Search_3.204.0-alpha.589.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Search_3.205.0-alpha.592.zip"
+
     },
     {
       "Id": "VirtoCommerce.LuceneSearch",
       "Repository": "VirtoCommerce/vc-module-lucene-search",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.LuceneSearch_3.203.0-pr-28.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.LuceneSearch_3.204.0-alpha.134.zip"
     },
     {
       "Id": "VirtoCommerce.ElasticSearch",
       "Repository": "VirtoCommerce/vc-module-elastic-search",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ElasticSearch_3.203.0-alpha.154-dev.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ElasticSearch_3.204.0-alpha.156.zip"
     },
     {
       "Id": "VirtoCommerce.ElasticAppSearch",
@@ -61,7 +62,7 @@ data:
     {
       "Id": "VirtoCommerce.AzureSearch",
       "Repository": "VirtoCommerce/vc-module-azure-search",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.AzureSearch_3.203.0-pr-28.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.AzureSearch_3.204.0-alpha.150.zip"
     },
     {
       "Id": "VirtoCommerce.Store",
@@ -87,7 +88,7 @@ data:
     {
       "Id": "VirtoCommerce.Cart",
       "Repository": "VirtoCommerce/vc-module-cart",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Cart_3.201.0-alpha.530.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Cart_3.202.0-alpha.538.zip"
     },
     {
       "Id": "VirtoCommerce.Inventory",
@@ -102,7 +103,7 @@ data:
     {
       "Id": "VirtoCommerce.Orders",
       "Repository": "VirtoCommerce/vc-module-order",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Orders_3.203.0-alpha.990.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Orders_3.204.0-alpha.998.zip"
     },
     {
       "Id": "VirtoCommerce.FileSystemAssets",
@@ -137,7 +138,7 @@ data:
     {
       "Id": "VirtoCommerce.ExperienceApi",
       "Repository": "VirtoCommerce/vc-module-experience-api",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ExperienceApi_3.208.0-alpha.935.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ExperienceApi_3.209.0-alpha.937.zip"
     },
     {
       "Id": "VirtoCommerce.WebHooks",
