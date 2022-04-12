@@ -41,27 +41,27 @@ data:
     {
       "Id": "VirtoCommerce.Search",
       "Repository": "VirtoCommerce/vc-module-search",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Search_3.203.0-beta.2-pr-60.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-search/releases/download/3.204.0/VirtoCommerce.Search_3.204.0.zip"
     },
     {
       "Id": "VirtoCommerce.LuceneSearch",
       "Repository": "VirtoCommerce/vc-module-lucene-search",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.LuceneSearch_3.203.0-pr-28.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-lucene-search/releases/download/3.203.0/VirtoCommerce.LuceneSearch_3.203.0.zip"
     },
     {
       "Id": "VirtoCommerce.ElasticSearch",
       "Repository": "VirtoCommerce/vc-module-elastic-search",
-      "PackageUrl": "https://devsteamsta.blob.core.windows.net/platform/VirtoCommerce.ElasticSearch_WithoutPartialUpdate_3.203.0.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-elastic-search/releases/download/3.203.0/VirtoCommerce.ElasticSearch_3.203.0.zip"
     },
     {
       "Id": "VirtoCommerce.ElasticAppSearch",
       "Repository": "VirtoCommerce/vc-module-elastic-app-search",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ElasticAppSearch_3.200.0-pr-15.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-elastic-app-search/releases/download/3.200.0/VirtoCommerce.ElasticAppSearch_3.200.0.zip"
     },
     {
       "Id": "VirtoCommerce.AzureSearch",
       "Repository": "VirtoCommerce/vc-module-azure-search",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.AzureSearch_3.203.0-pr-28.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-azure-search/releases/download/3.203.0/VirtoCommerce.AzureSearch_3.203.0.zip"
     },
     {
       "Id": "VirtoCommerce.Store",
@@ -101,7 +101,7 @@ data:
     {
       "Id": "VirtoCommerce.Orders",
       "Repository": "VirtoCommerce/vc-module-order",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Orders_3.202.0-pr-284.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Orders_3.203.0-pr-286.zip"
     },
     {
       "Id": "VirtoCommerce.FileSystemAssets",
@@ -121,7 +121,7 @@ data:
     {
       "Id": "VirtoCommerce.Payment",
       "Repository": "VirtoCommerce/vc-module-payment",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Payment_3.200.0-pr-31.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Payment_3.201.0-beta.1-pr-34.zip"
     },
     {
       "Id": "VirtoCommerce.Content",
@@ -136,7 +136,7 @@ data:
     {
       "Id": "VirtoCommerce.ExperienceApi",
       "Repository": "VirtoCommerce/vc-module-experience-api",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ExperienceApi_3.205.0-pr-287.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ExperienceApi_3.208.0-pr-297.zip"
     },
     {
       "Id": "VirtoCommerce.WebHooks",
@@ -222,5 +222,10 @@ data:
       "Id": "VirtoCommerce.GDPR",
       "Repository": "VirtoCommerce/vc-module-gdpr",
       "PackageUrl": "https://github.com/VirtoCommerce/vc-module-gdpr/releases/download/3.200.0/VirtoCommerce.GDPR_3.200.0.zip"
+    },
+    {
+      "Id": "VirtoCommerce.NativePaymentMethods",
+      "Repository": "VirtoCommerce/vc-module-native-payment-methods",
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.NativePaymentMethods_3.200.0-pr-2.zip"
     }
    ]
