@@ -74,9 +74,9 @@ data:
       "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Catalog_3.210.0-pr-593.zip"
     },
     {
-      "Id": "VirtoCommerce.BigPricing",
+      "Id": "VirtoCommerce.Pricing",
       "Repository": "VirtoCommerce/vc-module-pricing",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.BigPricing_3.200.0-alpha.14-dev.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Pricing_3.203.0-pr-165.zip"
     },
     {
       "Id": "VirtoCommerce.Shipping",
@@ -86,7 +86,7 @@ data:
     {
       "Id": "VirtoCommerce.Cart",
       "Repository": "VirtoCommerce/vc-module-cart",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-cart/releases/download/3.201.0/VirtoCommerce.Cart_3.201.0.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Cart_3.200.0-pr-96.zip"
     },
     {
       "Id": "VirtoCommerce.Inventory",
@@ -136,7 +136,7 @@ data:
     {
       "Id": "VirtoCommerce.ExperienceApi",
       "Repository": "VirtoCommerce/vc-module-experience-api",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-experience-api/releases/download/3.208.0/VirtoCommerce.ExperienceApi_3.208.0.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ExperienceApi_3.208.0-pr-297.zip"
     },
     {
       "Id": "VirtoCommerce.WebHooks",
