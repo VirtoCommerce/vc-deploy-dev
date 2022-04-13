@@ -53,5 +53,10 @@ data:
         "path": "browse/marketing",
         "isFavorite": true,
         "order": 1
+        }, 
+        {
+        "path": "browse/catalog",
+        "isFavorite": true,
+        "order": 2
         }
       ]
