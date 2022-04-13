@@ -74,9 +74,9 @@ data:
       "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Catalog_3.210.0-pr-593.zip"
     },
     {
-      "Id": "VirtoCommerce.BigPricing",
+      "Id": "VirtoCommerce.Pricing",
       "Repository": "VirtoCommerce/vc-module-pricing",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.BigPricing_3.200.0-alpha.14-dev.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Pricing_3.203.0-pr-165.zip"
     },
     {
       "Id": "VirtoCommerce.Shipping",
