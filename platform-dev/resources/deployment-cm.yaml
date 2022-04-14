@@ -121,7 +121,7 @@ data:
     {
       "Id": "VirtoCommerce.Payment",
       "Repository": "VirtoCommerce/vc-module-payment",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Payment_3.201.0-beta.1-pr-34.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Payment_3.202.0-beta3-pr-35.zip"
     },
     {
       "Id": "VirtoCommerce.Content",
@@ -137,6 +137,7 @@ data:
       "Id": "VirtoCommerce.ExperienceApi",
       "Repository": "VirtoCommerce/vc-module-experience-api",
       "PackageUrl": "https://github.com/VirtoCommerce/vc-module-experience-api/releases/download/3.208.0/VirtoCommerce.ExperienceApi_3.208.0.zip"
+
     },
     {
       "Id": "VirtoCommerce.WebHooks",
@@ -164,19 +165,9 @@ data:
       "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.DynamicAssociationsModule_3.200.0-pr-26.zip"
     },
     {
-      "Id": "VirtoCommerce.CatalogPublishing",
-      "Repository": "VirtoCommerce/vc-module-catalog-publishing",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.CatalogPublishing_3.200.0-pr-42.zip"
-    },
-    {
       "Id": "VirtoCommerce.CatalogPersonalization",
       "Repository": "VirtoCommerce/vc-module-catalog-personalization",
       "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.CatalogPersonalization_3.200.0-pr-54.zip"
-    },
-    {
-      "Id": "VirtoCommerce.CatalogCsvImportModule",
-      "Repository": "VirtoCommerce/vc-module-catalog-csv-import",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.CatalogCsvImportModule_3.200.0-pr-89.zip"
     },
     {
       "Id": "VirtoCommerce.AvalaraTax",
@@ -226,6 +217,6 @@ data:
     {
       "Id": "VirtoCommerce.NativePaymentMethods",
       "Repository": "VirtoCommerce/vc-module-native-payment-methods",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.NativePaymentMethods_3.200.0-pr-2.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.NativePaymentMethods_3.200.0-pr-3.zip"
     }
    ]
