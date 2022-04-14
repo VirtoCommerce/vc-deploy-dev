@@ -42,3 +42,12 @@ data:
 # Notifications__Smtp__Host: "smtp.sendgrid.net"
 # Notifications__Smtp__Login: "apikey"
 # Notifications__Smtp__Port: "587"
+  DefaultMainMenuState__items: |
+    [
+      {
+      "path": "browse/marketing",
+      "isFavorite": true,
+      "order": 1
+      }
+    ]
+
