@@ -5,6 +5,7 @@
     config:
       VirtoCommerce__SampleDataUrl: https://vc3prerelease.blob.core.windows.net/packages/clothing-and-electronics_3_0_2.zip
       APPINSIGHTS_INSTRUMENTATIONKEY: 9fde4353-9a4a-4fe3-9a03-a0c80b4220ff
+      test: ok
     secretConfig: {}
   storefront:
     imageRepository: virtopaasregistry.azurecr.io/virtostart/storefront
