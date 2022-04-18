@@ -1,0 +1,55 @@
+name: virtostart gitops
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'backend/**'
+    branches: [ virtostart ]
+
+jobs:
+  gitops:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+  
+    - name: Az config
+      run: |
+        az config set extension.use_dynamic_install=yes_without_prompt
+    
+    - name: Install vc-build
+      run: |
+        dotnet tool install --global VirtoCommerce.GlobalTool --version 3.1.0
+
+    - name: Pack
+      run: |
+        vc-build install -PackageManifestPath ./backend/packages.json -ProbingPath ./backend/platform/app_data/modules -DiscoveryPath ./backend/platform/modules --root ./backend/platform -SkipDependencySolving
+  
+    - name: Get platfrom version
+      id: platform-version
+      run: |
+        echo "PLATFORM_VERSION=$(cat ./backend/packages.json | jq -r '.PlatformVersion')" >> $GITHUB_ENV
+
+    - name: Set outputs
+      id: vars
+      run: echo "::set-output name=sha_short::$(git rev-parse --short HEAD)"
+
+    - name: Build and Publish Docker Image
+      run: |
+        vc-build BuildAndPush -DockerUsername $DOCKER_LOGIN -DockerPassword $DOCKER_PASSWORD -DockerfilePath $DOCKERFILE_PATH -DockerImageName $IMAGE_REPOSITORY -DockerImageTag $TAG -DockerRegistryUrl $CONTAINER_REGISTRY
+      env:
+        DOCKER_LOGIN: virtostart
+        DOCKER_PASSWORD: ${{ secrets.VIRTOSTART_ACR_DOCKER_PASSWORD }}
+        DOCKERFILE_PATH: ./backend/Dockerfile
+        CONTAINER_REGISTRY: virtopaasregistry.azurecr.io
+        IMAGE_REPOSITORY: virtopaasregistry.azurecr.io/virtostart/platform
+        TAG: ${{ env.PLATFORM_VERSION }}-${{ steps.vars.outputs.sha_short }}
+    
+    - name: Update app
+      run: |
+        vc-build SetHelmParameter -ArgoServer https://argo.govirto.com -ArgoAppName virtostart-main -ArgoToken ${{ secrets.VIRTOSTART_TOKEN }} -HelmParameters platform.image.tag=$TAG
+      env:
+        TAG: ${{ env.PLATFORM_VERSION }}-${{ steps.vars.outputs.sha_short }}
