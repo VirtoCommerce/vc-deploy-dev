@@ -1,4 +1,4 @@
-name: virtostart gitops
+name: virtostart platform
 
 on:
   workflow_dispatch:
