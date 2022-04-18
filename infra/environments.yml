@@ -1,0 +1,23 @@
+- name: virtostart-main
+  platform:
+    imageRepository: virtopaasregistry.azurecr.io/virtostart/platform
+    tier: enterprise
+    config:
+      VirtoCommerce__SampleDataUrl: https://vc3prerelease.blob.core.windows.net/packages/clothing-and-electronics_3_0_2.zip
+      APPINSIGHTS_INSTRUMENTATIONKEY: 9fde4353-9a4a-4fe3-9a03-a0c80b4220ff
+    secretConfig: {}
+  storefront:
+    imageRepository: virtopaasregistry.azurecr.io/virtostart/storefront
+    imageTag: 6.0
+    themeUrl: https://vc3prerelease.blob.core.windows.net/packages/client-app-0.0.4-21c489.zip
+    themeName: B2B-store
+    config:
+      VirtoCommerce__Endpoint__Password: store
+      VirtoCommerce__DefaultStore: B2B-store
+      SnapshotCollectorConfiguration__IsEnabled: false
+      APPINSIGHTS_INSTRUMENTATIONKEY: 4eef52ad-79ec-410c-a273-0a1abff866ea
+    secretConfig: {}
+  ingress: {}
+  advancedService: {}
+  protectedParameters:
+    - platform.image.tag
