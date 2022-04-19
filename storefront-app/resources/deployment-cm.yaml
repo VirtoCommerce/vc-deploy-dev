@@ -19,17 +19,17 @@ data:
     {
       "Id": "VirtoCommerce.AzureSearch",
       "Repository": "VirtoCommerce/vc-module-azure-search",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-azure-search/releases/download/3.202.0/VirtoCommerce.AzureSearch_3.202.0.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-azure-search/releases/download/3.203.0/VirtoCommerce.AzureSearch_3.203.0.zip"
     },
     {
       "Id": "VirtoCommerce.Cart",
       "Repository": "VirtoCommerce/vc-module-cart",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-cart/releases/download/3.200.0/VirtoCommerce.Cart_3.200.0.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-cart/releases/download/3.201.0/VirtoCommerce.Cart_3.201.0.zip"
     },
     {
       "Id": "VirtoCommerce.Catalog",
       "Repository": "VirtoCommerce/vc-module-catalog",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-catalog/releases/download/3.209.0/VirtoCommerce.Catalog_3.209.0.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-catalog/releases/download/3.210.0/VirtoCommerce.Catalog_3.210.0.zip"
     },
     {
       "Id": "VirtoCommerce.Content",
@@ -44,17 +44,17 @@ data:
     {
       "Id": "VirtoCommerce.ElasticSearch",
       "Repository": "VirtoCommerce/vc-module-elastic-search",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-elastic-search/releases/download/3.202.0/VirtoCommerce.ElasticSearch_3.202.0.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-elastic-search/releases/download/3.203.0/VirtoCommerce.ElasticSearch_3.203.0.zip"
     },
     {
       "Id": "VirtoCommerce.ExperienceApi",
       "Repository": "VirtoCommerce/vc-module-experience-api",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-experience-api/releases/download/3.206.0/VirtoCommerce.ExperienceApi_3.206.0.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-experience-api/releases/download/3.209.0/VirtoCommerce.ExperienceApi_3.209.0.zip"
     },
     {
       "Id": "VirtoCommerce.ProfileExperienceApiModule",
       "Repository": "VirtoCommerce/vc-module-profile-experience-api",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ProfileExperienceApiModule_3.204.0-pr-10.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-profile-experience-api/releases/download/3.205.0/VirtoCommerce.ProfileExperienceApiModule_3.205.0.zip"
     },
     {
       "Id": "VirtoCommerce.Export",
@@ -74,7 +74,7 @@ data:
     {
       "Id": "VirtoCommerce.LuceneSearch",
       "Repository": "VirtoCommerce/vc-module-lucene-search",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-lucene-search/releases/download/3.202.0/VirtoCommerce.LuceneSearch_3.202.0.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-lucene-search/releases/download/3.203.0/VirtoCommerce.LuceneSearch_3.203.0.zip"
     },
     {
       "Id": "VirtoCommerce.Marketing",
@@ -89,12 +89,12 @@ data:
     {
       "Id": "VirtoCommerce.Orders",
       "Repository": "VirtoCommerce/vc-module-order",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-order/releases/download/3.202.0/VirtoCommerce.Orders_3.202.0.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-order/releases/download/3.204.0/VirtoCommerce.Orders_3.204.0.zip"
     },
     {
       "Id": "VirtoCommerce.Payment",
       "Repository": "VirtoCommerce/vc-module-payment",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-payment/releases/download/3.200.0/VirtoCommerce.Payment_3.200.0.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-payment/releases/download/3.202.0/VirtoCommerce.Payment_3.202.0.zip"
     },
     {
       "Id": "VirtoCommerce.Pricing",
@@ -104,7 +104,7 @@ data:
     {
       "Id": "VirtoCommerce.Search",
       "Repository": "VirtoCommerce/vc-module-search",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-search/releases/download/3.202.0/VirtoCommerce.Search_3.202.0.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-search/releases/download/3.205.0/VirtoCommerce.Search_3.205.0.zip"
     },
     {
       "Id": "VirtoCommerce.Shipping",
