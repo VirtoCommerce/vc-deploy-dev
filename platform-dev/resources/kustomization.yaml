@@ -23,4 +23,4 @@ images:
   newTag: 1.0.0-alpha.16-vds-2423
 - name: docker.pkg.github.com/virtocommerce/vc-storefront/storefront
   newName: ghcr.io/virtocommerce/storefront
-  newTag: 6.0.0-alpha.871-dev-0c42febd
+  newTag: 5.9.0-alpha.816-dev-a4ca11f9

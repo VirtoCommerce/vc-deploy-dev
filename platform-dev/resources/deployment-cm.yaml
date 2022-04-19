@@ -5,10 +5,10 @@ metadata:
   annotations:
     reloader.stakater.com/match: "true"
 data:
- #ELECTRONICS_THEME_URL: https://github.com/VirtoCommerce/vc-theme-default/releases/download/2.1.13/vc-theme-default-2.1.13.zip
- #ELECTRONICS_THEME_LOCATION: /mnt/cms-content/Themes/Electronics
-  MERCURY_THEME_URL: https://vc3prerelease.blob.core.windows.net/packages/client-app-0.0.4-pr-107-75e178f5.zip
-  MERCURY_THEME_LOCATION: /mnt/cms-content/Themes/B2B-store
+  ELECTRONICS_THEME_URL: https://github.com/VirtoCommerce/vc-theme-default/releases/download/2.1.13/vc-theme-default-2.1.13.zip
+  ELECTRONICS_THEME_LOCATION: /mnt/cms-content/Themes/Electronics
+  B2B_THEME_URL: https://github.com/VirtoCommerce/vc-theme-b2b/releases/download/3.0.8/vc-b2b-theme-3.0.8.zip
+  B2B_THEME_LOCATION: /mnt/cms-content/Themes/B2B-store
   ASSETS_URL: https://vcbacpac.blob.core.windows.net/dac-packages/webstore_assets_4.zip
   ASSETS_LOCATION: /mnt/cms-content/assets
   modules.json: |
@@ -121,7 +121,7 @@ data:
     {
       "Id": "VirtoCommerce.Payment",
       "Repository": "VirtoCommerce/vc-module-payment",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Payment_3.201.0-beta.1-pr-34.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Payment_3.202.0-beta3-pr-35.zip"
     },
     {
       "Id": "VirtoCommerce.Content",
@@ -137,6 +137,7 @@ data:
       "Id": "VirtoCommerce.ExperienceApi",
       "Repository": "VirtoCommerce/vc-module-experience-api",
       "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ExperienceApi_3.209.0-pr-298.zip"
+
     },
     {
       "Id": "VirtoCommerce.WebHooks",
@@ -146,7 +147,7 @@ data:
     {
       "Id": "VirtoCommerce.Subscription",
       "Repository": "VirtoCommerce/vc-module-subscription",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Subscription_3.200.0-pr-62.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Subscription_3.201.0-pr-66.zip"
     },
     {
       "Id": "VirtoCommerce.Sitemaps",
@@ -216,6 +217,6 @@ data:
     {
       "Id": "VirtoCommerce.NativePaymentMethods",
       "Repository": "VirtoCommerce/vc-module-native-payment-methods",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.NativePaymentMethods_3.200.0-pr-2.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.NativePaymentMethods_3.200.0-pr-3.zip"
     }
    ]
