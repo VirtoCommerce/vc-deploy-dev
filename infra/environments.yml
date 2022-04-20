@@ -19,7 +19,9 @@
       SnapshotCollectorConfiguration__IsEnabled: false
       APPINSIGHTS_INSTRUMENTATIONKEY: 4eef52ad-79ec-410c-a273-0a1abff866ea
     secretConfig: {}
-  ingress: {}
+  ingress:
+    storefrontHostname: virtostart-demo-store.govirto.com
+    hostname: virtostart-demo-admin.govirto.com
   advancedService: {}
   protectedParameters:
     - platform.image.tag
