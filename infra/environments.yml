@@ -5,7 +5,7 @@
     config:
       VirtoCommerce__SampleDataUrl: https://vc3prerelease.blob.core.windows.net/packages/clothing-and-electronics_3_0_2.zip
       APPINSIGHTS_INSTRUMENTATIONKEY: 9fde4353-9a4a-4fe3-9a03-a0c80b4220ff
-      AzureAd__ApplicationId: "da89e875-be66-4858-82d3-fd3d60f6000a"
+      AzureAd__ApplicationId: "54cefda5-2d23-4518-ac12-f55a0e1225d4"
       AzureAd__TenantId: "bc03e660-5e3a-45c4-bf5c-b75489f78923"
     secretConfig: {}
   storefront:
