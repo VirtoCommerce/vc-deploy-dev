@@ -5,7 +5,7 @@ metadata:
   annotations:
     reloader.stakater.com/match: "true"
 data:
-  MERCURY_THEME_URL: https://vc3prerelease.blob.core.windows.net/packages/client-app-0.0.4-alpha.256.zip
+  MERCURY_THEME_URL: https://vc3prerelease.blob.core.windows.net/packages/client-app-0.0.4-alpha.257.zip
   MERCURY_THEME_LOCATION: /mnt/cms-content/Themes/B2B-store
   ASSETS_URL: https://vcbacpac.blob.core.windows.net/dac-packages/webstore_assets_4.zip
   ASSETS_LOCATION: /mnt/cms-content/assets
