@@ -41,7 +41,7 @@ data:
     {
       "Id": "VirtoCommerce.Search",
       "Repository": "VirtoCommerce/vc-module-search",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Search_3.205.0-alpha.592.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Search_3.206.0-alpha.594.zip"
 
     },
     {
@@ -72,7 +72,7 @@ data:
     {
       "Id": "VirtoCommerce.Catalog",
       "Repository": "VirtoCommerce/vc-module-catalog",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Catalog_3.210.0-alpha.1922.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Catalog_3.211.0-alpha.1926.zip"
     },
     {
       "Id": "VirtoCommerce.Pricing",
@@ -103,7 +103,7 @@ data:
     {
       "Id": "VirtoCommerce.Orders",
       "Repository": "VirtoCommerce/vc-module-order",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Orders_3.204.0-alpha.998.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Orders_3.205.0-alpha.1000.zip"
     },
     {
       "Id": "VirtoCommerce.FileSystemAssets",
@@ -123,7 +123,7 @@ data:
     {
       "Id": "VirtoCommerce.Payment",
       "Repository": "VirtoCommerce/vc-module-payment",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Payment_3.202.0-alpha.145.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Payment_3.203.0-alpha.149.zip"
     },
     {
       "Id": "VirtoCommerce.Content",
@@ -138,7 +138,7 @@ data:
     {
       "Id": "VirtoCommerce.ExperienceApi",
       "Repository": "VirtoCommerce/vc-module-experience-api",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ExperienceApi_3.209.0-alpha.937.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ExperienceApi_3.210.0-alpha.939.zip"
     },
     {
       "Id": "VirtoCommerce.WebHooks",
@@ -148,7 +148,7 @@ data:
     {
       "Id": "VirtoCommerce.Subscription",
       "Repository": "VirtoCommerce/vc-module-subscription",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Subscription_3.201.0-alpha.248.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Subscription_3.201.0-alpha.255.zip"
     },
     {
       "Id": "VirtoCommerce.Sitemaps",
@@ -178,7 +178,7 @@ data:
     {
       "Id": "VirtoCommerce.CatalogCsvImportModule",
       "Repository": "VirtoCommerce/vc-module-catalog-csv-import",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.CatalogCsvImportModule_3.201.0-alpha.229.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.CatalogCsvImportModule_3.202.0-alpha.237.zip"
     },
     {
       "Id": "VirtoCommerce.AvalaraTax",
@@ -188,13 +188,13 @@ data:
     {
       "Id": "VirtoCommerce.ProfileExperienceApiModule",
       "Repository": "VirtoCommerce/vc-module-profile-experience-api",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ProfileExperienceApiModule_3.204.0-alpha.31.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ProfileExperienceApiModule_3.206.0-alpha.34.zip"
 
     },
     {
       "Id": "VirtoCommerce.AuthorizeNet",
       "Repository": "VirtoCommerce/vc-module-Authorize.Net",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.AuthorizeNet_3.202.0-alpha.252.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.AuthorizeNet_3.202.0-alpha.259.zip"
     },
     {
       "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
