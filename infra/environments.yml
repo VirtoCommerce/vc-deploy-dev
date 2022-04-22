@@ -12,7 +12,7 @@
   storefront:
     imageRepository: virtopaasregistry.azurecr.io/virtostart/storefront
     imageTag: 6.0
-    themeUrl: https://vc3prerelease.blob.core.windows.net/packages/client-app-0.0.4-alpha.259.zip
+    themeUrl: https://vc3prerelease.blob.core.windows.net/packages/client-app-0.0.4-alpha.252.zip
     themeName: B2B-store
     config:
       VirtoCommerce__Endpoint__Password: store
