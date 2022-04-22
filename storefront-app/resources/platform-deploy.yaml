@@ -91,10 +91,10 @@ spec:
           resources:
             limits:
               cpu: "500m"
-              memory: 1024Mi
+              memory: 2048Mi
             requests:
               cpu: "54m"
-              memory: 768Mi
+              memory: 1024Mi
           command:
             - "/bin/bash"
             - "-c"
