@@ -11,7 +11,7 @@
     secretConfig: {}
   storefront:
     imageRepository: virtopaasregistry.azurecr.io/virtostart/storefront
-    imageTag: 6.0
+    imageTag: 6.0.0-alpha.875-dev-10c60cd0
     themeUrl: https://vc3prerelease.blob.core.windows.net/packages/client-app-0.0.4-alpha.252.zip
     themeName: B2B-store
     config:
