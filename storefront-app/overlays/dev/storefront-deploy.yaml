@@ -1,0 +1,51 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: storefront
+spec:
+  revisionHistoryLimit: 1
+  replicas: 2
+  selector:
+    matchLabels:
+      app: storefront
+  template:
+    metadata:
+      annotations:
+        reloader.stakater.com/search: "true" 
+        configmap.reloader.stakater.com/reload: "st-storefront-cm, st-deployment-cm"
+      labels:
+        app: storefront
+    spec:
+      imagePullSecrets:
+      - name: dockerconfigjson-github-com
+      initContainers:
+      - name: init-storefront
+        imagePullPolicy: Always
+        image: ghcr.io/virtocommerce/vc-deploy-containers/platform-installer:v3
+        command:
+          - "/bin/sh"
+          - "-c"
+        args:
+          - "python3 installer.py $(MERCURY_THEME_URL) $(MERCURY_THEME_LOCATION)
+          && python3 installer.py $(ASSETS_URL) $(ASSETS_LOCATION)"
+        envFrom:
+          - configMapRef:
+              name: deployment-cm
+        volumeMounts:
+          - mountPath: /mnt/cms-content
+            name: cms-content-data
+      containers:
+      - name: vc-storefront-web
+        image: docker.pkg.github.com/virtocommerce/vc-storefront/storefront:dev-linux-latest
+        envFrom:
+        - configMapRef:
+            name: storefront-cm
+        ports:
+        - containerPort: 80
+        volumeMounts:
+        - mountPath: /opt/virtocommerce/storefront/wwwroot/cms-content
+          name: cms-content-data
+      volumes:
+      - name: cms-content-data
+        persistentVolumeClaim:
+          claimName: cms-content-volume
