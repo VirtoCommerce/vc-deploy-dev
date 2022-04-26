@@ -218,5 +218,10 @@ data:
       "Id": "VirtoCommerce.NativePaymentMethods",
       "Repository": "VirtoCommerce/vc-module-native-payment-methods",
       "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.NativePaymentMethods_3.200.0-pr-3.zip"
+    },
+    {
+      "Id": "VirtoCommerce.ShipStation",
+      "Repository": "VirtoCommerce/vc-module-shipstation",
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ShipStation_3.200.0-pr-3.zip"
     }
    ]
