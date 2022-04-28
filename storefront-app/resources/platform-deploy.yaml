@@ -94,7 +94,7 @@ spec:
               memory: 2048Mi
             requests:
               cpu: "54m"
-              memory: 1024Mi
+              memory: 768Mi
           command:
             - "/bin/bash"
             - "-c"
