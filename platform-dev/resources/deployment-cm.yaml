@@ -95,12 +95,12 @@ data:
     {
       "Id": "VirtoCommerce.Inventory",
       "Repository": "VirtoCommerce/vc-module-inventory",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Inventory_3.203.0-alpha.354.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Inventory_3.204.0-alpha.356.zip"
     },
     {
       "Id": "VirtoCommerce.Customer",
       "Repository": "VirtoCommerce/vc-module-customer",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Customer_3.202.0-alpha.675.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Customer_3.203.0-alpha.677.zip"
     },
     {
       "Id": "VirtoCommerce.Orders",
@@ -130,7 +130,7 @@ data:
     {
       "Id": "VirtoCommerce.Content",
       "Repository": "VirtoCommerce/vc-module-content",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Content_3.201.0-alpha.797.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Content_3.202.0-alpha.799.zip"
     },
     {
       "Id": "VirtoCommerce.Tax",
@@ -140,7 +140,7 @@ data:
     {
       "Id": "VirtoCommerce.ExperienceApi",
       "Repository": "VirtoCommerce/vc-module-experience-api",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ExperienceApi_3.210.0-alpha.941.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ExperienceApi_3.210.0-alpha.945.zip"
     },
     {
       "Id": "VirtoCommerce.WebHooks",
@@ -160,7 +160,7 @@ data:
     {
       "Id": "VirtoCommerce.ImageTools",
       "Repository": "VirtoCommerce/vc-module-image-tools",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ImageTools_3.201.0-alpha.261.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ImageTools_3.203.0-alpha.265.zip"
     },
     {
       "Id": "VirtoCommerce.DynamicAssociations",
