@@ -223,5 +223,15 @@ data:
       "Id": "VirtoCommerce.ShipStation",
       "Repository": "VirtoCommerce/vc-module-shipstation",
       "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ShipStation_3.200.0-alpha.81-3.200.zip"
+    },
+    {
+      "Id": "VirtoCommerce.CatalogCsvImportModule",
+      "Repository": "VirtoCommerce/vc-module-catalog-csv-import",
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-catalog-csv-import/releases/download/3.201.0/VirtoCommerce.CatalogCsvImportModule_3.201.0.zip"
+    },
+    {
+      "Id": "VirtoCommerce.CatalogPublishing",
+      "Repository": "VirtoCommerce/vc-module-catalog-publishing",
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-catalog-publishing/releases/download/3.200.0/VirtoCommerce.CatalogPublishing_3.200.0.zip"
     }
    ]
