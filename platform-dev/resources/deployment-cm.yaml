@@ -12,7 +12,7 @@ data:
   ASSETS_URL: https://vcbacpac.blob.core.windows.net/dac-packages/webstore_assets_4.zip
   ASSETS_LOCATION: /mnt/cms-content/assets
   modules.json: |
-   [    
+   [
     {
       "Id": "VirtoCommerce.AuthorizeNet",
       "Repository": "VirtoCommerce/vc-module-Authorize.Net",
@@ -51,12 +51,12 @@ data:
     {
       "Id": "VirtoCommerce.CatalogPersonalization",
       "Repository": "VirtoCommerce/vc-module-catalog-personalization",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-catalog-publishing/releases/download/3.200.0/VirtoCommerce.CatalogPublishing_3.200.0.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-catalog-personalization/releases/download/3.200.0/VirtoCommerce.CatalogPersonalization_3.200.0.zip"
     },
     {
       "Id": "VirtoCommerce.CatalogPublishing",
       "Repository": "VirtoCommerce/vc-module-catalog-publishing",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-catalog-personalization/releases/download/3.200.0/VirtoCommerce.CatalogPersonalization_3.200.0.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-catalog-publishing/releases/download/3.200.0/VirtoCommerce.CatalogPublishing_3.200.0.zip"
     },
     {
       "Id": "VirtoCommerce.Content",
@@ -175,43 +175,63 @@ data:
     },
     {
       "Id": "VirtoCommerce.EventBus",
-      "Repository": "vc-module-event-bus",
+      "Repository": "VirtoCommerce/vc-module-event-bus",
       "PackageUrl": "https://github.com/VirtoCommerce/vc-module-event-bus/releases/download/3.201.0/VirtoCommerce.EventBus_3.201.0.zip"
     },
     {
       "Id": "VirtoCommerce.Webhooks",
-      "Repository": "vc-module-webhooks",
+      "Repository": "VirtoCommerce/vc-module-webhooks",
       "PackageUrl": "https://github.com/VirtoCommerce/vc-module-webhooks/releases/download/3.200.0/VirtoCommerce.WebHooks_3.200.0.zip"
     },
     {
       "Id": "VirtoCommerce.Assets",
-      "Repository": "vc-module-assets",
+      "Repository": "VirtoCommerce/vc-module-assets",
       "PackageUrl": "https://github.com/VirtoCommerce/vc-module-assets/releases/download/3.200.0/VirtoCommerce.Assets_3.200.0.zip"
     },
     {
       "Id": "VirtoCommerce.AzureBlobAssets",
-      "Repository": "vc-module-azureblob-assets",
+      "Repository": "VirtoCommerce/vc-module-azureblob-assets",
       "PackageUrl": "https://github.com/VirtoCommerce/vc-module-azureblob-assets/releases/download/3.200.0/VirtoCommerce.AzureBlobAssets_3.200.0.zip"
     },
     {
       "Id": "VirtoCommerce.FileSystemAssets",
-      "Repository": "vc-module-filesystem-assets",
+      "Repository": "VirtoCommerce/vc-module-filesystem-assets",
       "PackageUrl": "https://github.com/VirtoCommerce/vc-module-filesystem-assets/releases/download/3.200.0/VirtoCommerce.FileSystemAssets_3.200.0.zip"
     },
     {
       "Id": "VirtoCommerce.ProfileExperienceApiModule",
-      "Repository": "vc-module-profile-experience-api",
+      "Repository": "VirtoCommerce/vc-module-profile-experience-api",
       "PackageUrl": "https://github.com/VirtoCommerce/vc-module-profile-experience-api/releases/download/3.206.0/VirtoCommerce.ProfileExperienceApiModule_3.206.0.zip"
     },
     {
+    {
+      "Id": "VirtoCommerce.Quote",
+      "Repository": "VirtoCommerce/vc-module-quote",
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-quote/releases/download/3.200.0/VirtoCommerce.Quote_3.200.0.zip"
+    },
+    {
       "Id": "VirtoCommerce.GDPR",
-      "Repository": "vc-module-gdpr",
+      "Repository": "VirtoCommerce/vc-module-gdpr",
       "PackageUrl": "https://github.com/VirtoCommerce/vc-module-gdpr/releases/download/3.200.0/VirtoCommerce.GDPR_3.200.0.zip"
     },
     {
       "Id": "VirtoCommerce.Return",
-      "Repository": "vc-module-return",
+      "Repository": "VirtoCommerce/vc-module-return",
       "PackageUrl": "https://github.com/VirtoCommerce/vc-module-return/releases/download/3.202.0/VirtoCommerce.Return_3.202.0.zip"
+    },
+    {
+      "Id": "VirtoCommerce.ElasticAppSearch",
+      "Repository": "VirtoCommerce/vc-module-elastic-app-search",
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-elastic-app-search/releases/download/3.200.0/VirtoCommerce.ElasticAppSearch_3.200.0.zip"
+    },
+    {
+      "Id": "VirtoCommerce.NativePaymentMethods",
+      "Repository": "VirtoCommerce/vc-module-native-payment-methods",
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-native-payment-methods/releases/download/3.200.0/VirtoCommerce.NativePaymentMethods_3.200.0.zip"
+    },
+    {
+      "Id": "VirtoCommerce.ShipStation",
+      "Repository": "VirtoCommerce/vc-module-shipstation",
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-shipstation/releases/download/3.200.0/VirtoCommerce.ShipStation_3.200.0.zip"
     }
-
    ]
