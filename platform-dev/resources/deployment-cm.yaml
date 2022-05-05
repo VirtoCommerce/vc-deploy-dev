@@ -86,7 +86,7 @@ data:
     {
       "Id": "VirtoCommerce.Cart",
       "Repository": "VirtoCommerce/vc-module-cart",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-cart/releases/download/3.201.0/VirtoCommerce.Cart_3.201.0.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Cart_3.202.0-pr-99.zip"
     },
     {
       "Id": "VirtoCommerce.Inventory",
@@ -157,7 +157,7 @@ data:
     {
       "Id": "VirtoCommerce.ImageTools",
       "Repository": "VirtoCommerce/vc-module-image-tools",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ImageTools_3.202.0-pr-85.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ImageTools_3.203.0-pr-86.zip"
     },
     {
       "Id": "VirtoCommerce.DynamicAssociations",
@@ -172,7 +172,7 @@ data:
     {
       "Id": "VirtoCommerce.AvalaraTax",
       "Repository": "VirtoCommerce/vc-module-avatax",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.AvalaraTax_3.200.0-pr-37.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.AvalaraTax_3.201.0-pr-41.zip"
     },
     {
       "Id": "VirtoCommerce.ProfileExperienceApiModule",
