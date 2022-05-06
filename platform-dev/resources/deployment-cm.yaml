@@ -185,6 +185,11 @@ data:
       "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.AuthorizeNetPayment_3.200.0-pr-1.zip"
     },
     {
+     "Id": "VirtoCommerce.AuthorizeNet",
+      "Repository": "VirtoCommerce/vc-module-Authorize.Net",
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.AuthorizeNet_3.201.0-pr-29.zip"
+    },
+    {
       "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
       "Repository": "VirtoCommerce/vc-module-google-ecommerce-analytics",
       "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.GoogleEcommerceAnalytics_3.200.0-pr-24.zip"
