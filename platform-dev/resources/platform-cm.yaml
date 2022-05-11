@@ -23,7 +23,7 @@ data:
   AzureAd__Enabled: "true"
   AzureAd__ApplicationId: "86d04c35-143d-4d3c-aea2-8608e2186282"
   AzureAd__TenantId: "common"
-  ValidateIssuer: "MultitenantAzureAD"
+  AzureAd__ValidateIssuer: "MultitenantAzureAD"
   Content__FileSystem__PublicUrl: https://$(VC_PLATFORM_SERVICE).$(VC_NAMESPACE).govirto.com/cms-content/
   Assets__FileSystem__PublicUrl: https://$(VC_PLATFORM_SERVICE).$(VC_NAMESPACE).govirto.com/cms-content/assets/
   VirtoCommerce__LicenseFilePath: app_data/VirtoCommerce.lic
