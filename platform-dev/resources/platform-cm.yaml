@@ -14,7 +14,7 @@ data:
    #Platfrom mode
     ASPNETCORE_ENVIRONMENT: "Development"
    #Enable headers (broken swagger)
-    ASPNETCORE_FORWARDEDHEADERS_ENABLED: "false"
+    ASPNETCORE_FORWARDEDHEADERS_ENABLED: "true"
    #Enable telemtry
     AppInsights__EnableDependencyTrackingTelemetryModule: "false"
    #enable swagger ui
