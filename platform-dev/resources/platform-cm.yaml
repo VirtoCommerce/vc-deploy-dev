@@ -43,7 +43,7 @@ data:
    #Active directory
     AzureAd__Enabled: "true"
     AzureAd__ApplicationId: "8227d950-975c-4c28-b7d4-ea440a59dcbb"
-    AzureAd__TenantId: "bc03e660-5e3a-45c4-bf5c-b75489f78923"
+    AzureAd__TenantId: "86d04c35-143d-4d3c-aea2-8608e2186282"
     AzureAd__DefaultUserType: "Manager"
     PasswordLogin__Enabled: "true"
     #Path for assets
