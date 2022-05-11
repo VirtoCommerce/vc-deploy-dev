@@ -151,7 +151,7 @@ data:
     {
       "Id": "VirtoCommerce.Shipping",
       "Repository": "VirtoCommerce/vc-module-shipping",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-shipping/releases/download/3.200.0/VirtoCommerce.Shipping_3.200.0.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Shipping_3.201.0-alpha.116.zip"
     },
     {
       "Id": "VirtoCommerce.Sitemaps",
