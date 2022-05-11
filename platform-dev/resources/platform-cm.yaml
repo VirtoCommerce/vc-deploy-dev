@@ -45,6 +45,7 @@ data:
     AzureAd__ApplicationId: "86d04c35-143d-4d3c-aea2-8608e2186282"
     AzureAd__TenantId: "common"
     AzureAd__ValidateIssuer: "MultitenantAzureAD"
+    AzureAd__UseEmail: "true"
     AzureAd__DefaultUserType: "Manager"
     PasswordLogin__Enabled: "true"
     #Path for assets
