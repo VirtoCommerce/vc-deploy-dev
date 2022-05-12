@@ -28,7 +28,7 @@ data:
         },
         {
           "Id": "VirtoCommerce.Cart",
-          "Version": "3.200.0"
+          "Version": "3.25.1"
         },
         {
           "Id": "VirtoCommerce.Catalog",
@@ -64,7 +64,7 @@ data:
         },
         {
           "Id": "VirtoCommerce.Marketing",
-          "Version": "3.200.0"
+          "Version": "3.31.1"
         },
         {
           "Id": "VirtoCommerce.Notifications",
@@ -84,7 +84,7 @@ data:
         },
         {
           "Id": "VirtoCommerce.Search",
-          "Version": "3.200.0"
+          "Version": "3.16.1"
         },
         {
           "Id": "VirtoCommerce.Shipping",
@@ -132,7 +132,7 @@ data:
         },
         {
           "Id": "VirtoCommerce.AvalaraTax",
-          "Version": "3.200.0"
+          "Version": "3.5.1"
         },
         {
           "Id": "VirtoCommerce.AuthorizeNet",
