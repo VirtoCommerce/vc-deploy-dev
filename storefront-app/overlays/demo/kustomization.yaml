@@ -10,6 +10,7 @@ resources:
 
 patchesStrategicMerge:
 - storefront-deploy.yaml
+- ingress-https.yaml
 
 configMapGenerator:
 - name: db-config
