@@ -4,4 +4,4 @@ metadata:
   name: storefront
 spec:
   revisionHistoryLimit: 1
-  replicas: 2
+  replicas: 1
