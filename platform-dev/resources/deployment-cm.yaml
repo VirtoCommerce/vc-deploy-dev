@@ -206,7 +206,7 @@ data:
     {
       "Id": "VirtoCommerce.Quote",
       "Repository": "VirtoCommerce/vc-module-quote",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-quote/releases/download/3.200.0/VirtoCommerce.Quote_3.200.0.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Quote_3.202.0-alpha.286.zip"
     },
     {
       "Id": "VirtoCommerce.GDPR",
