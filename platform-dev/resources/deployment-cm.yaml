@@ -5,7 +5,7 @@ metadata:
   annotations:
     reloader.stakater.com/match: "true"
 data:
-  ELECTRONICS_THEME_URL: https://github.com/VirtoCommerce/vc-demo-theme-default/releases/download/1.9.0/vc-demo-theme-default-1.9.0.zip
+  ELECTRONICS_THEME_URL: https://github.com/VirtoCommerce/vc-demo-theme-default/releases/download/1.8.0/vc-demo-theme-default-1.8.0.zip
   ELECTRONICS_THEME_LOCATION: /mnt/cms-content/Themes/Electronics
   B2B_THEME_URL: https://github.com/VirtoCommerce/vc-demo-theme-b2b/releases/download/1.13.0/vc-demo-theme-b2b-1.13.0.zip
   B2B_THEME_LOCATION: /mnt/cms-content/Themes/B2B-store
