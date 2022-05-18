@@ -1,5 +1,5 @@
 {
-  "PlatformVersion": "3.209.0",
+  "PlatformVersion": "3.215.0",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -41,11 +41,11 @@
     },
     {
       "Id": "VirtoCommerce.Catalog",
-      "Version": "3.210.0"
+      "Version": "3.211.0"
     },
     {
       "Id": "VirtoCommerce.Content",
-      "Version": "3.200.0"
+      "Version": "3.202.0"
     },
     {
       "Id": "VirtoCommerce.CatalogPersonalization",
@@ -61,7 +61,7 @@
     },
     {
       "Id": "VirtoCommerce.Customer",
-      "Version": "3.201.0"
+      "Version": "3.202.0"
     },
     {
       "Id": "VirtoCommerce.DynamicAssociationsModule",
@@ -73,11 +73,11 @@
     },
     {
       "Id": "VirtoCommerce.ImageTools",
-      "Version": "3.200.0"
+      "Version": "3.203.0"
     },
     {
       "Id": "VirtoCommerce.Inventory",
-      "Version": "3.202.0"
+      "Version": "3.203.0"
     },
     {
       "Id": "VirtoCommerce.Marketing",
@@ -85,27 +85,27 @@
     },
     {
       "Id": "VirtoCommerce.Notifications",
-      "Version": "3.201.0"
-    },
-    {
-      "Id": "VirtoCommerce.Orders",
-      "Version": "3.201.0"
-    },
-    {
-      "Id": "VirtoCommerce.Payment",
       "Version": "3.202.0"
     },
     {
-      "Id": "VirtoCommerce.Pricing",
+      "Id": "VirtoCommerce.Orders",
+      "Version": "3.204.0"
+    },
+    {
+      "Id": "VirtoCommerce.Payment",
       "Version": "3.203.0"
     },
     {
+      "Id": "VirtoCommerce.Pricing",
+      "Version": "3.204.0"
+    },
+    {
       "Id": "VirtoCommerce.Quote",
-      "Version": "3.200.0"
+      "Version": "3.201.0"
     },
     {
       "Id": "VirtoCommerce.Search",
-      "Version": "3.205.0"
+      "Version": "3.206.0"
     },
     {
       "Id": "VirtoCommerce.Shipping",
@@ -113,7 +113,7 @@
     },
     {
       "Id": "VirtoCommerce.Sitemaps",
-      "Version": "3.200.0"
+      "Version": "3.201.0"
     },
     {
       "Id": "VirtoCommerce.Store",
@@ -137,19 +137,19 @@
     },
     {
       "Id": "VirtoCommerce.ExperienceApi",
-      "Version": "3.209.0"
+      "Version": "3.210.0"
     },
     {
       "Id": "VirtoCommerce.WebHooks",
-      "Version": "3.200.0"
+      "Version": "3.201.0"
     },
     {
       "Id": "VirtoCommerce.EventBus",
-      "Version": "3.200.0"
+      "Version": "3.203.0"
     },
     {
       "Id": "VirtoCommerce.ProfileExperienceApiModule",
-      "Version": "3.205.0"
+      "Version": "3.206.0"
     },
     {
       "Id": "VirtoCommerce.GDPR",
