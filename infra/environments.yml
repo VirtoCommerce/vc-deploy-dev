@@ -15,7 +15,7 @@
     themeUrl: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.0.0/vc-theme-b2b-vue-1.0.0.zip
     themeName: B2B-store
     config:
-      VirtoCommerce__Endpoint__Password: store
+      VirtoCommerce__Endpoint__Password: 1Password
       VirtoCommerce__DefaultStore: B2B-store
       SnapshotCollectorConfiguration__IsEnabled: false
       APPINSIGHTS_INSTRUMENTATIONKEY: 4eef52ad-79ec-410c-a273-0a1abff866ea
