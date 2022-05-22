@@ -8,8 +8,10 @@
       AzureAd__ApplicationId: "54cefda5-2d23-4518-ac12-f55a0e1225d4"
       AzureAd__TenantId: "bc03e660-5e3a-45c4-bf5c-b75489f78923"
       Search__OrderFullTextSearchEnabled: true
+      Notifications__DefaultSender: "virto.start@virtoway.com"
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
-    secretConfig: {}
+    secretConfig:
+      Notifications__SendGrid__ApiKey: sendkey
   storefront:
     imageRepository: virtopaasregistry.azurecr.io/virtostart/storefront
     imageTag: 6.0.0-master-8ab17e63
