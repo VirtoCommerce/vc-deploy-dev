@@ -177,6 +177,14 @@ data:
         {
           "Id": "VirtoCommerce.ShipStation",
           "Version": "3.200.0"
+        },
+        {
+          "Id": "VirtoCommerce.GDPR",
+          "Version": "3.201.0"
+        },
+        {
+          "Id": "VirtoCommerce.Return",
+          "Version": "3.203.0"
         }
       ]
     }
