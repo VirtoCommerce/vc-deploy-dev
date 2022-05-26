@@ -53,7 +53,7 @@ data:
     {
       "Id": "VirtoCommerce.ElasticSearch",
       "Repository": "VirtoCommerce/vc-module-elastic-search",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ElasticSearch_3.204.0-pr-37.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-elastic-search/releases/download/3.204.0/VirtoCommerce.ElasticSearch_3.204.0.zip"
     },
     {
       "Id": "VirtoCommerce.ElasticAppSearch",
@@ -98,7 +98,7 @@ data:
     {
       "Id": "VirtoCommerce.Customer",
       "Repository": "VirtoCommerce/vc-module-customer",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Customer_3.202.0-pr-172.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Customer_3.203.0-beta.1-pr-173.zip"
     },
     {
       "Id": "VirtoCommerce.Orders",
