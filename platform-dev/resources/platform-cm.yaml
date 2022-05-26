@@ -88,4 +88,4 @@ data:
         }
       ]
     #Setting password validation
-    IdentityOptions__Password__RequiredLength: 6
+    IdentityOptions__Password__RequiredLength: "6"
