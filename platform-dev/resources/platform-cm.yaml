@@ -87,3 +87,5 @@ data:
         "order": 1
         }
       ]
+    #Setting password validation
+    IdentityOptions__Password__RequiredLength: 6
