@@ -5,7 +5,7 @@ metadata:
   annotations:
     reloader.stakater.com/match: "true"
 data:
-  MERCURY_THEME_URL: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-1.1.0-alpha.279.zip
+  MERCURY_THEME_URL: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-1.1.0-alpha.290.zip
   MERCURY_THEME_LOCATION: /mnt/cms-content/Themes/B2B-store
   ASSETS_URL: https://vcbacpac.blob.core.windows.net/dac-packages/webstore_assets_4.zip
   ASSETS_LOCATION: /mnt/cms-content/assets
@@ -49,7 +49,7 @@ data:
     {
       "Id": "VirtoCommerce.ExperienceApi",
       "Repository": "VirtoCommerce/vc-module-experience-api",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ExperienceApi_3.211.0-pr-305.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-experience-api/releases/download/3.211.0/VirtoCommerce.ExperienceApi_3.211.0.zip"
     },
     {
       "Id": "VirtoCommerce.ProfileExperienceApiModule",
@@ -100,7 +100,7 @@ data:
     {
       "Id": "VirtoCommerce.Pricing",
       "Repository": "VirtoCommerce/vc-module-pricing",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-pricing/releases/download/3.204.0/VirtoCommerce.Pricing_3.204.0.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-pricing/releases/download/3.205.0/VirtoCommerce.Pricing_3.205.0.zip"
     },
     {
       "Id": "VirtoCommerce.Search",
@@ -200,6 +200,6 @@ data:
     {
       "Id": "VirtoCommerce.PageBuilderModule",
       "Repository": "VirtoCommerce/vc-module-pagebuilder",
-      "PackageUrl": "https://rnd4pb.blob.core.windows.net/composer/VirtoCommerce.PageBuilderModule_3.201.0_templates_018.zip"
+      "PackageUrl": "https://rnd4pb.blob.core.windows.net/composer/VirtoCommerce.PageBuilderModule_3.201.0_templates_021.zip"
     }
    ]
