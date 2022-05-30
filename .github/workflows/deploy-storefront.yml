@@ -1,11 +1,11 @@
-name: marketplace storefront
+name: virtostart storefront
 
 on:
   workflow_dispatch:
   push:
     paths:
       - 'storefront/**'
-    branches: [ paas ]
+    branches: [ virtostart ]
 
 jobs:
   gitops:
