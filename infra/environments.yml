@@ -14,7 +14,6 @@
       Notifications__SendGrid__ApiKey: sendkey
   storefront:
     imageRepository: virtopaasregistry.azurecr.io/virtostart/storefront
-    imageTag: 6.1.0-master-39aa5bae
     themeUrl: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.1.0/vc-theme-b2b-vue-1.1.0.zip
     themeName: B2B-store
     config:
@@ -29,3 +28,4 @@
   advancedService: {}
   protectedParameters:
     - platform.image.tag
+    - storefront.image.tag

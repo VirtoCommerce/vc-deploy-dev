@@ -1,0 +1,40 @@
+name: marketplace storefront
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'storefront/**'
+    branches: [ paas ]
+
+jobs:
+  gitops:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+    
+    - name: Install vc-build
+      run: |
+        dotnet tool install --global VirtoCommerce.GlobalTool --version 3.3.0
+    
+    - name: Get storefront version
+      id: platform-version
+      run: |
+        echo "STOREFRONT_TAG=$(cat ./storefront/image.json | jq -r '.Tag')" >> $GITHUB_ENV
+        echo "STOREFRONT_REPO=$(cat ./storefront/image.json | jq -r '.Repository')" >> $GITHUB_ENV
+      
+    - name: Docker
+      run: |
+        docker login virtopaasregistry.azurecr.io -u virtostart -p ${{ secrets.VIRTOSTART_ACR_DOCKER_PASSWORD }}
+        docker pull $STOREFRONT_REPO:$STOREFRONT_TAG
+        docker tag $STOREFRONT_REPO:$STOREFRONT_TAG virtopaasregistry.azurecr.io/virtostart/storefront:$STOREFRONT_TAG
+        docker push virtopaasregistry.azurecr.io/virtostart/storefront:$STOREFRONT_TAG
+
+    - name: Update app
+      run: |
+        vc-build SetHelmParameter -ArgoServer https://argo.govirto.com -ArgoAppName virtostart-main -ArgoToken ${{ secrets.VIRTOSTART_TOKEN }} -HelmParameters storefront.image.tag=$TAG
+      env:
+        TAG: ${{ env.STOREFRONT_TAG }}
