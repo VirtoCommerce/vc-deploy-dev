@@ -49,7 +49,7 @@ data:
     {
       "Id": "VirtoCommerce.ExperienceApi",
       "Repository": "VirtoCommerce/vc-module-experience-api",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-experience-api/releases/download/3.211.0/VirtoCommerce.ExperienceApi_3.211.0.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ExperienceApi_3.213.0-pr-309.zip"
     },
     {
       "Id": "VirtoCommerce.ProfileExperienceApiModule",
@@ -81,6 +81,11 @@ data:
       "Id": "VirtoCommerce.Marketing",
       "Repository": "VirtoCommerce/vc-module-marketing",
       "PackageUrl": "https://github.com/VirtoCommerce/vc-module-marketing/releases/download/3.200.0/VirtoCommerce.Marketing_3.200.0.zip"
+    },
+    {
+      "Id": "VirtoCommerce.NativePaymentMethods",
+      "Repository": "VirtoCommerce/vc-module-native-payment-methods",
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-native-payment-methods/releases/download/3.200.0/VirtoCommerce.NativePaymentMethods_3.200.0.zip"
     },
     {
       "Id": "VirtoCommerce.Notifications",
@@ -138,9 +143,9 @@ data:
       "PackageUrl": "https://github.com/VirtoCommerce/vc-module-customer-review/releases/download/3.204.0/VirtoCommerce.CustomerReviews_3.204.0.zip"
     },
     {
-      "Id": "VirtoCommerce.AuthorizeNet",
-      "Repository": "VirtoCommerce/vc-module-Authorize.Net",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-Authorize.Net/releases/download/3.201.0/VirtoCommerce.AuthorizeNet_3.201.0.zip"
+      "Id": "VirtoCommerce.AuthorizeNetPayment",
+      "Repository": "VirtoCommerce/vc-module-authorize-net",
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-authorize-net/releases/download/3.200.0/VirtoCommerce.AuthorizeNetPayment_3.200.0.zip"
     },
     {
       "Id": "VirtoCommerce.AvalaraTax",
