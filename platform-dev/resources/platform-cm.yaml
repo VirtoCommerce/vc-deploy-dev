@@ -11,7 +11,7 @@ data:
   Notifications__Smtp__Login: "apikey"
   Notifications__Smtp__Port: "587"
   Notifications__SmsGateway: "Twilio"
-  ASPNETCORE_FORWARDEDHEADERS_ENABLED: "true"
+  ASPNETCORE_FORWARDEDHEADERS_ENABLED: "false"
   AppInsights__EnableDependencyTrackingTelemetryModule: "false"
   Swagger__UI__Enabled: "true"
   PushNotifications__ForceWebSockets: "true"
