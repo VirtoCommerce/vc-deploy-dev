@@ -31,7 +31,8 @@ data:
   VirtoCommerce__LocalUploadFolderPath: app_data/uploads
   VirtoCommerce__Hangfire__JobStorageType: SqlServer
   Logging__LogLevel__Default: "Information"
-  # Payments__AuthorizeNet__ApiLogin: "8hPT4p99R"
-  # Payments__AuthorizeNet__SHA2Hash: "FA6D2B37A7E9105942D2D184F1B2DBD8D9CA85611DE55B2267A6F7E0D7E49ACD9A6BC238CE068E75CA14ACFAD734F700FD94DCAB20353DD4D32D9BABE72DBBE4"
-  # Payments__AuthorizeNet__TxnKey: "63c54EWq5d2XnGAR"
+  # Setting for authorizenet
+  Payments__AuthorizeNet__ApiLogin: "8hPT4p99R"
+  Payments__AuthorizeNet__SHA2Hash: "FA6D2B37A7E9105942D2D184F1B2DBD8D9CA85611DE55B2267A6F7E0D7E49ACD9A6BC238CE068E75CA14ACFAD734F700FD94DCAB20353DD4D32D9BABE72DBBE4"
+  Payments__AuthorizeNet__TxnKey: "63c54EWq5d2XnGAR"
   # ASPNETCORE_ENVIRONMENT: "Production"
