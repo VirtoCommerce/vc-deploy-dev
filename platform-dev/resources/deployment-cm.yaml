@@ -123,7 +123,7 @@ data:
     {
       "Id": "VirtoCommerce.Payment",
       "Repository": "VirtoCommerce/vc-module-payment",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Payment_3.203.0-pr-38.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Payment_3.204.0-beta1-pr-39.zip"
     },
     {
       "Id": "VirtoCommerce.Content",
@@ -138,7 +138,7 @@ data:
     {
       "Id": "VirtoCommerce.ExperienceApi",
       "Repository": "VirtoCommerce/vc-module-experience-api",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ExperienceApi_3.213.0-pr-311.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ExperienceApi_3.213.0-pr-309.zip"
 
     },
     {
@@ -184,7 +184,7 @@ data:
     {
       "Id": "VirtoCommerce.AuthorizeNetPayment",
       "Repository": "VirtoCommerce/vc-module-authorize-net",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.AuthorizeNetPayment_3.200.0-pr-1.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.AuthorizeNetPayment_3.201.0-pr-2.zip"
     },
     {
      "Id": "VirtoCommerce.AuthorizeNet",
@@ -224,7 +224,7 @@ data:
     {
       "Id": "VirtoCommerce.NativePaymentMethods",
       "Repository": "VirtoCommerce/vc-module-native-payment-methods",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.NativePaymentMethods_3.200.0-pr-3.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.NativePaymentMethods_3.201.0-pr-5.zip"
     },
     {
       "Id": "VirtoCommerce.ShipStation",
