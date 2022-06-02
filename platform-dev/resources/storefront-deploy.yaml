@@ -19,7 +19,8 @@ spec:
             - "/bin/sh"
             - "-c"
           args:
-            - "python3 installer.py $(MERCURY_THEME_URL) $(MERCURY_THEME_LOCATION)
+            - "python3 installer.py $(ELECTRONICS_THEME_URL) $(ELECTRONICS_THEME_LOCATION)
+            && python3 installer.py $(B2B_THEME_URL) $(B2B_THEME_LOCATION)
             && python3 installer.py $(ASSETS_URL) $(ASSETS_LOCATION)"
           envFrom:
           - configMapRef:
