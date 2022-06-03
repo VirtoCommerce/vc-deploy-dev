@@ -4,3 +4,4 @@ nameSuffix: -qa
 resources:
 - platform-app-dev.yaml
 - storefront-app-qa.yaml
+- platform-app-dev-stable.yaml
