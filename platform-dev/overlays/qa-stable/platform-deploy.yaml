@@ -94,9 +94,6 @@ spec:
                 key: password
           - name: ConnectionStrings__VirtoCommerce
             value: "Server=tcp:$(VC_DB_HOST),1433;Database=$(VC_PLATFORM_SERVICE)_$(VC_NAMESPACE);User ID=$(VC_INSTANCE)_$(VC_NAMESPACE)_user@$(VC_DB_HOST);Password=$(VC_CUSTOMER_DB_PASSWORD);Trusted_Connection=False;Encrypt=True;"
-          volumeMounts:
-          - mountPath: "/opt/virtocommerce/platform/modules"
-            name: modules-data
       volumes:
       - name: modules-data
         emptyDir: {}
