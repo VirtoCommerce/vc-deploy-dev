@@ -42,7 +42,7 @@ spec:
                   name: vc-db-pass
                   key: password
 
-        - name: init-modules
+        - name: init-platform
           image: ghcr.io/virtocommerce/vc-deploy-containers/vc-build-image:stable
           args: ["/root/.dotnet/tools/vc-build InstallModules -DiscoveryPath /mnt/Modules -PackageManifestPath /mnt/config/vc-package.json -ProbingPath /opt/app_data"]
           volumeMounts:
