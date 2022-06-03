@@ -23,6 +23,18 @@ configMapGenerator:
   literals:
     - VAULT_API_URL=http://vault-dev.vault-dev.svc.cluster.local:8200
 
+images:
+- name: docker.pkg.github.com/virtocommerce/vc-platform/platform
+  newName: ghcr.io/virtocommerce/platform
+  newTag: alpha.12340-pt-7697-update-ai-c11cddc1
+- name: ghcr.io/virtocommerce/demo-xapi-app
+  newName: ghcr.io/virtocommerce/demo-xapi-app
+  newTag: 1.0.0-alpha.16-vds-2423
+- name: docker.pkg.github.com/virtocommerce/vc-storefront/storefront
+  newName: ghcr.io/virtocommerce/storefront
+  newTag: 5.9.0-alpha.816-dev-a4ca11f9
+
+
 patches:
 - patch: |-
     - op: add
