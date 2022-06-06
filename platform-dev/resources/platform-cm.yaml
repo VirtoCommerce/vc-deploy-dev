@@ -64,7 +64,9 @@ data:
       "order": 1
       }
     ]
-#White list
-  VirtoCommerce__FileExtensionsWhiteList__0: ".png"
+#White and Black list
+  VirtoCommerce__FileExtensionsWhiteList__0: "..pdf"
+  VirtoCommerce__FileExtensionsWhiteList__1: ".txt"
+  VirtoCommerce__FileExtensionsWhiteList__0: ".pdf"
 
     
