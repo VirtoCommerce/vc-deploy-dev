@@ -64,3 +64,5 @@ data:
       "order": 1
       }
     ]
+#BlackList
+  VirtoCommerce__FileExtensionsBlackList__0: ".png"
