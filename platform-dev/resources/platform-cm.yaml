@@ -65,7 +65,7 @@ data:
       }
     ]
 #White and Black list
-  VirtoCommerce__FileExtensionsWhiteList__0: "..pdf"
+  VirtoCommerce__FileExtensionsWhiteList__0: ".pdf"
   VirtoCommerce__FileExtensionsWhiteList__1: ".txt"
   VirtoCommerce__FileExtensionsBlackList__0: ".pdf"
 
