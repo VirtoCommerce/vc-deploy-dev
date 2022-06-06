@@ -1,0 +1,91 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: platform-cm
+data:
+   #Setting for SMTP
+    Notifications__DefaultSender: "azure_25da07ed75daacae20578a7a7dc58541@azure.com"
+    Notifications__Gateway: "SendGrid"
+    Notifications__SmsDefaultSender: "+17012510519"
+    Notifications__Smtp__EnableSsl: "False"
+    Notifications__Smtp__Host: "smtp.sendgrid.net"
+    Notifications__Smtp__Login: "apikey"
+    Notifications__Smtp__Port: "587"
+   #Platfrom mode
+    ASPNETCORE_ENVIRONMENT: "Development"
+   #Enable headers (broken swagger)
+    ASPNETCORE_FORWARDEDHEADERS_ENABLED: "true"
+   #Enable telemtry
+    AppInsights__EnableDependencyTrackingTelemetryModule: "false"
+   #enable swagger ui
+    Swagger__UI__Enabled: "false"
+   #setting for redis(push notification)
+    PushNotifications__ForceWebSockets: "true"
+    PushNotifications__ScalabilityMode: "RedisBackplane"
+    PushNotifications__HubUrl: "https://$(VC_PLATFORM_SERVICE).$(VC_NAMESPACE).govirto.com/pushNotificationHub"
+    PushNotifications__RedisBackplane__ChannelName: "$(VC_PLATFORM_SERVICE)-$(VC_NAMESPACE)-chanel"
+   #Search settings
+    Search__Scope: "$(VC_PLATFORM_SERVICE)$(VC_NAMESPACE)-new-index"
+    Search__OrderFullTextSearchEnabled: "true"
+   #Lucene settings
+   #Search__Provider: "Lucene"
+   #Elastic Search settings
+    Search__ElasticSearch__Server: "https://elasticsearch-dev.govirto.com"
+   #Elastic App Search settings
+   #Search__Provider: "ElasticAppSearch"
+    Search__ElasticAppSearch__Endpoint: https://enterprise-search-dev.govirto.com
+    Search__ElasticAppSearch__EnableHttpCompression: "true"
+   #Azure search settings
+    Search__Provider: "AzureSearch"
+    Search__AzureSearch__SearchServiceName: "qa-demovc-3-search"
+    Search__AzureSearch__Key: "6BE1143312E89C26C227E6BBAE24DD47"
+   #End of search settings
+   #Active directory
+    AzureAd__Enabled: "true"
+    AzureAd__ApplicationId: "86d04c35-143d-4d3c-aea2-8608e2186282"
+    AzureAd__TenantId: "common"
+    AzureAd__ValidateIssuer: "MultitenantAzureAD"
+    AzureAd__UseEmail: "true"
+    AzureAd__DefaultUserType: "Manager"
+    PasswordLogin__Enabled: "true"
+    #Path for assets
+    Content__FileSystem__PublicUrl: https://$(VC_PLATFORM_SERVICE).$(VC_NAMESPACE).govirto.com/cms-content/
+    Assets__FileSystem__PublicUrl: https://$(VC_PLATFORM_SERVICE).$(VC_NAMESPACE).govirto.com/cms-content/assets/
+    Assets__Provider: AzureBlobStorage
+    Assets__AzureBlobStorage__ConnectionString: DefaultEndpointsProtocol=https;AccountName=qademovc3;AccountKey=qPIpM63MI2P3ei6B1xIL4/DlKDqdsRj54z2GUtgCAeXPcMe8+mZiUvrvI5fjdyrovk331XmBlMFfAEFAjCnvtw==;EndpointSuffix=core.windows.net
+    #Connection for content
+    Content__Provider: AzureBlobStorage
+    Content__AzureBlobStorage__RootPath: cms
+    Content__AzureBlobStorage__ConnectionString: DefaultEndpointsProtocol=https;AccountName=qademovc3;AccountKey=qPIpM63MI2P3ei6B1xIL4/DlKDqdsRj54z2GUtgCAeXPcMe8+mZiUvrvI5fjdyrovk331XmBlMFfAEFAjCnvtw==;EndpointSuffix=core.windows.net
+    VirtoCommerce__LicenseFilePath: app_data/VirtoCommerce.lic
+    VirtoCommerce__LicensePublicKeyPath: app_data/public.key
+    VirtoCommerce__LicensePrivateKeyPath: app_data/private.key
+    VirtoCommerce__LocalUploadFolderPath: app_data/uploads
+    VirtoCommerce__Hangfire__JobStorageType: SqlServer
+   #Black list
+    Logging__LogLevel__Default: "Information"
+   #Setting for authorizenet
+    Payments__AuthorizeNet__ApiLogin: "8hPT4p99R"
+    Payments__AuthorizeNet__SHA2Hash: "FA6D2B37A7E9105942D2D184F1B2DBD8D9CA85611DE55B2267A6F7E0D7E49ACD9A6BC238CE068E75CA14ACFAD734F700FD94DCAB20353DD4D32D9BABE72DBBE4"
+    Payments__AuthorizeNet__TxnKey: "63c54EWq5d2XnGAR"
+   #Disable swagger
+   #VirtoCommerce__Swagger__Disable: "true" 
+   #Settings for avatax
+    Tax__Avalara__AccountNumber: "2000188799"
+    Tax__Avalara__LicenseKey: "16BC3F87E836E15C"
+   #Key for AI
+    APPINSIGHTS_INSTRUMENTATIONKEY: "4120bbdb-aa5b-4512-8d9f-36af1f696719"
+   #Video key
+    Videos__GoogleApiKey: "AIzaSyD5A4oFeSgaMQnMo3OiaqUSJ23SQGELiA4"
+   #cache
+    Caching__CacheEnabled: "true"
+    DefaultMainMenuState__items: |
+      [
+        {
+        "path": "browse/marketing",
+        "isFavorite": true,
+        "order": 1
+        }
+      ]
+    #Setting password validation
+    IdentityOptions__Password__RequiredLength: "6"

@@ -1,0 +1,10 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: storefront-cm
+data:
+    ASPNETCORE_FORWARDEDHEADERS_ENABLED: "true"
+    CookieAuthenticationOptions__ExpireTimeSpan: "12:00:00"
+    SnapshotCollectorConfiguration__IsEnabled: "false"
+    Swagger__UI__Enable: "true"
+    VirtoCommerce__Endpoint__Url: https://$(VC_PLATFORM_SERVICE).$(VC_NAMESPACE).govirto.com

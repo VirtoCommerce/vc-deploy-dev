@@ -11,7 +11,7 @@ spec:
     server: 'https://aks-f783f1e0.hcp.westus.azmk8s.io:443'
   project: tenant
   source:
-    path: platform-dev/overlays/qa-stable
+    path: platform-stable/overlays/qa
     repoURL: https://github.com/VirtoCommerce/vc-deploy-dev
     targetRevision: qa
   syncPolicy:

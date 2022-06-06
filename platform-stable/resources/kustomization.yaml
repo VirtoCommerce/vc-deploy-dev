@@ -1,0 +1,26 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+patchesStrategicMerge:
+- ingress-https.yaml
+- deployment-cm.yaml
+- platform-cm.yaml
+- platform-deploy.yaml
+- platform-secrets.yaml
+- storefront-cm.yaml
+- storefront-deploy.yaml
+
+resources:
+- ../../common-base/storefront
+- xapi-deploy.yaml
+
+images:
+- name: docker.pkg.github.com/virtocommerce/vc-platform/platform
+  newName: ghcr.io/virtocommerce/platform
+  newTag: alpha.12340-pt-7697-update-ai-c11cddc1
+- name: ghcr.io/virtocommerce/demo-xapi-app
+  newName: ghcr.io/virtocommerce/demo-xapi-app
+  newTag: 1.0.0-alpha.16-vds-2423
+- name: docker.pkg.github.com/virtocommerce/vc-storefront/storefront
+  newName: ghcr.io/virtocommerce/storefront
+  newTag: 5.9.0-alpha.816-dev-a4ca11f9
