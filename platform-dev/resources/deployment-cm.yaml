@@ -41,7 +41,7 @@ data:
     {
       "Id": "VirtoCommerce.Catalog",
       "Repository": "VirtoCommerce/vc-module-catalog",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Catalog_3.214.0-alpha.1937.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Catalog_3.218.0-alpha.1946.zip"
     },
     {
       "Id": "VirtoCommerce.CatalogCsvImportModule",
@@ -71,7 +71,7 @@ data:
     {
       "Id": "VirtoCommerce.Customer",
       "Repository": "VirtoCommerce/vc-module-customer",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Customer_3.205.0-alpha.683.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Customer_3.206.0-alpha.686.zip"
     },
     {
       "Id": "VirtoCommerce.CustomerReviews",
@@ -91,7 +91,7 @@ data:
     {
       "Id": "VirtoCommerce.ExperienceApi",
       "Repository": "VirtoCommerce/vc-module-experience-api",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ExperienceApi_3.213.0-alpha.956.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ExperienceApi_3.214.0-alpha.963.zip"
     },
     {
       "Id": "VirtoCommerce.Export",
@@ -131,17 +131,17 @@ data:
     {
       "Id": "VirtoCommerce.Orders",
       "Repository": "VirtoCommerce/vc-module-order",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-order/releases/download/3.204.0/VirtoCommerce.Orders_3.204.0.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Orders_3.205.0-alpha.1005.zip"
     },
     {
       "Id": "VirtoCommerce.Payment",
       "Repository": "VirtoCommerce/vc-module-payment",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Payment_3.204.0-alpha.153.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Payment_3.205.0-alpha.156.zip"
     },
     {
       "Id": "VirtoCommerce.Pricing",
       "Repository": "VirtoCommerce/vc-module-pricing",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Pricing_3.207.0-alpha.590.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Pricing_3.207.0-alpha.592.zip"
     },
     {
       "Id": "VirtoCommerce.Search",
@@ -201,7 +201,7 @@ data:
     {
       "Id": "VirtoCommerce.ProfileExperienceApiModule",
       "Repository": "VirtoCommerce/vc-module-profile-experience-api",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ProfileExperienceApiModule_3.208.0-alpha.40.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ProfileExperienceApiModule_3.209.0-alpha.42.zip"
     },
     {
       "Id": "VirtoCommerce.Quote",
@@ -226,7 +226,7 @@ data:
     {
       "Id": "VirtoCommerce.NativePaymentMethods",
       "Repository": "VirtoCommerce/vc-module-native-payment-methods",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-native-payment-methods/releases/download/3.200.0/VirtoCommerce.NativePaymentMethods_3.200.0.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.NativePaymentMethods_3.202.0-alpha.17.zip"
     },
     {
       "Id": "VirtoCommerce.ShipStation",

@@ -10,6 +10,7 @@ resources:
 
 patchesStrategicMerge:
 - storefront-deploy.yaml
+- platform-cm.yaml
 
 configMapGenerator:
 - name: db-config
