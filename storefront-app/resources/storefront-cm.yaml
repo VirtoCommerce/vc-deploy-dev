@@ -10,5 +10,4 @@ data:
   VirtoCommerce__Endpoint__UserName: admin
   VirtoCommerce__Endpoint__Url: http://$(VC_PLATFORM_SERVICE).$(VC_NAMESPACE).svc.cluster.local
   VirtoCommerce__DefaultStore: B2B-store
-  CookieAuthenticationOptions__ExpireTimeSpan: 00:01:00
   
