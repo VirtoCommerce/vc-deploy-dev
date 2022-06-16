@@ -43,7 +43,7 @@ data:
     {
       "Id": "VirtoCommerce.Search",
       "Repository": "VirtoCommerce/vc-module-search",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-search/releases/download/3.206.0/VirtoCommerce.Search_3.206.0.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Search_3.207.0-pr-66.zip"
     },
     {
       "Id": "VirtoCommerce.LuceneSearch",
