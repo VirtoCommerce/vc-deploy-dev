@@ -5,7 +5,7 @@ metadata:
   annotations:
     reloader.stakater.com/match: "true"
 data:
-  MERCURY_THEME_URL: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-1.3.0-pr-187-36e10b0c.zip
+  MERCURY_THEME_URL: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-1.3.0-pr-191-737c0cf5.zip
   MERCURY_THEME_LOCATION: /mnt/cms-content/Themes/B2B-store
   ASSETS_URL: https://vcbacpac.blob.core.windows.net/dac-packages/webstore_assets_4.zip
   ASSETS_LOCATION: /mnt/cms-content/assets
