@@ -49,7 +49,7 @@ data:
     {
       "Id": "VirtoCommerce.ExperienceApi",
       "Repository": "VirtoCommerce/vc-module-experience-api",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-experience-api/releases/download/3.213.0/VirtoCommerce.ExperienceApi_3.213.0.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ExperienceApi_3.215.0-pr-316.zip"
     },
     {
       "Id": "VirtoCommerce.ProfileExperienceApiModule",
@@ -95,7 +95,7 @@ data:
     {
       "Id": "VirtoCommerce.Orders",
       "Repository": "VirtoCommerce/vc-module-order",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-order/releases/download/3.204.0/VirtoCommerce.Orders_3.204.0.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-order/releases/download/3.205.0/VirtoCommerce.Orders_3.205.0.zip"
     },
     {
       "Id": "VirtoCommerce.Payment",
