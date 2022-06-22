@@ -5,7 +5,7 @@ metadata:
   annotations:
     reloader.stakater.com/match: "true"
 data:
-  MERCURY_THEME_URL: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-1.2.1-pr-171-83c1f334.zip
+  MERCURY_THEME_URL: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-1.3.0-alpha.339.zip
   MERCURY_THEME_LOCATION: /mnt/cms-content/Themes/B2B-store
   ASSETS_URL: https://vcbacpac.blob.core.windows.net/dac-packages/webstore_assets_4.zip
   ASSETS_LOCATION: /mnt/cms-content/assets
@@ -29,7 +29,7 @@ data:
     {
       "Id": "VirtoCommerce.Catalog",
       "Repository": "VirtoCommerce/vc-module-catalog",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-catalog/releases/download/3.213.0/VirtoCommerce.Catalog_3.213.0.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-catalog/releases/download/3.217.0/VirtoCommerce.Catalog_3.217.0.zip"
     },
     {
       "Id": "VirtoCommerce.Content",
@@ -39,7 +39,7 @@ data:
     {
       "Id": "VirtoCommerce.Customer",
       "Repository": "VirtoCommerce/vc-module-customer",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-customer/releases/download/3.204.0/VirtoCommerce.Customer_3.204.0.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-customer/releases/download/3.205.0/VirtoCommerce.Customer_3.205.0.zip"
     },
     {
       "Id": "VirtoCommerce.ElasticSearch",
@@ -54,7 +54,7 @@ data:
     {
       "Id": "VirtoCommerce.ProfileExperienceApiModule",
       "Repository": "VirtoCommerce/vc-module-profile-experience-api",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-profile-experience-api/releases/download/3.207.0/VirtoCommerce.ProfileExperienceApiModule_3.207.0.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-profile-experience-api/releases/download/3.208.0/VirtoCommerce.ProfileExperienceApiModule_3.208.0.zip"
 
     },
     {
