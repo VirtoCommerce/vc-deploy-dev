@@ -13,7 +13,6 @@ patchesStrategicMerge:
 resources:
 - ../../common-base/platform
 - ../../common-base/storefront
-- storefront-secrets.yaml
 
 images:
 - name: docker.pkg.github.com/virtocommerce/vc-platform/platform
