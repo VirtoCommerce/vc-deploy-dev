@@ -7,4 +7,5 @@ data:
     CookieAuthenticationOptions__ExpireTimeSpan: "12:00:00"
     SnapshotCollectorConfiguration__IsEnabled: "false"
     Swagger__UI__Enable: "true"
-    VirtoCommerce__Endpoint__Url: https://$(VC_PLATFORM_SERVICE).$(VC_NAMESPACE).govirto.com
+    VirtoCommerce__Endpoint__Url: http://$(VC_PLATFORM_SERVICE).$(VC_NAMESPACE).svc.cluster.local
+    VirtoCommerce__DefaultStore: B2B-store
