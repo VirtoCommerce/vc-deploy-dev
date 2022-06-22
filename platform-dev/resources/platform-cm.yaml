@@ -40,7 +40,7 @@ data:
   Payments__AuthorizeNet__ApiLogin: "8hPT4p99R"
   Payments__AuthorizeNet__SHA2Hash: "FA6D2B37A7E9105942D2D184F1B2DBD8D9CA85611DE55B2267A6F7E0D7E49ACD9A6BC238CE068E75CA14ACFAD734F700FD94DCAB20353DD4D32D9BABE72DBBE4"
   Payments__AuthorizeNet__TxnKey: "63c54EWq5d2XnGAR"
-  #Search__Provider: AzureSearch
+# Search__Provider: AzureSearch
   Search__AzureSearch__SearchServiceName: qa-demovc-3-search
   Search__AzureSearch__Key: 6BE1143312E89C26C227E6BBAE24DD47
   Search__Provider: Lucene
