@@ -29,7 +29,7 @@ data:
     {
       "Id": "VirtoCommerce.Catalog",
       "Repository": "VirtoCommerce/vc-module-catalog",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-catalog/releases/download/3.217.0/VirtoCommerce.Catalog_3.217.0.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-catalog/releases/download/3.221.0/VirtoCommerce.Catalog_3.221.0.zip"
     },
     {
       "Id": "VirtoCommerce.Content",
@@ -90,7 +90,7 @@ data:
     {
       "Id": "VirtoCommerce.Notifications",
       "Repository": "VirtoCommerce/vc-module-notification",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-notification/releases/download/3.203.0/VirtoCommerce.Notifications_3.203.0.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-notification/releases/download/3.204.0/VirtoCommerce.Notifications_3.204.0.zip"
     },
     {
       "Id": "VirtoCommerce.Orders",
@@ -110,7 +110,7 @@ data:
     {
       "Id": "VirtoCommerce.Search",
       "Repository": "VirtoCommerce/vc-module-search",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-search/releases/download/3.206.0/VirtoCommerce.Search_3.206.0.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-search/releases/download/3.207.0/VirtoCommerce.Search_3.207.0.zip"
     },
     {
       "Id": "VirtoCommerce.Shipping",
@@ -125,7 +125,7 @@ data:
     {
       "Id": "VirtoCommerce.Store",
       "Repository": "VirtoCommerce/vc-module-store",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-store/releases/download/3.203.0/VirtoCommerce.Store_3.203.0.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-store/releases/download/3.204.0/VirtoCommerce.Store_3.204.0.zip"
     },
     {
       "Id": "VirtoCommerce.Subscription",
@@ -175,7 +175,7 @@ data:
     {
       "Id": "VirtoCommerce.Quote",
       "Repository": "VirtoCommerce/vc-module-quote",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-quote/releases/download/3.201.0/VirtoCommerce.Quote_3.201.0.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-quote/releases/download/3.202.0/VirtoCommerce.Quote_3.202.0.zip"
     },
     {
       "Id": "VirtoCommerce.DynamicAssociations",
