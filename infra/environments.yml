@@ -23,6 +23,7 @@
       VirtoCommerce__DefaultStore: B2B-store
       SnapshotCollectorConfiguration__IsEnabled: false
       APPINSIGHTS_INSTRUMENTATIONKEY: 4eef52ad-79ec-410c-a273-0a1abff866ea
+      Reload: 2022-06-27-01
     secretConfig: {}
   ingress:
     storefrontHostname: virtostart-demo-store.govirto.com
