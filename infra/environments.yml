@@ -16,7 +16,7 @@
       Notifications__SendGrid__ApiKey: sendkey
   storefront:
     imageRepository: virtopaasregistry.azurecr.io/virtostart/storefront
-    themeUrl: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.2.1/vc-theme-b2b-vue-1.2.1-.zip
+    themeUrl: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.3.0/vc-theme-b2b-vue-1.3.0.zip
     themeName: B2B-store
     config:
       VirtoCommerce__Endpoint__Password: 1Password

@@ -1,34 +1,26 @@
 {
-  "PlatformVersion": "3.215.0",
+  "PlatformVersion": "3.225.0",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
   ],
   "Сustom": [
-    {
-      "name": "loyalty-module",
-      "version": "3.212.0"
-    }
   ],
   "Modules": [
     {
-      "Id": "VirtoCommerce.AuthorizeNet",
-      "Version": "3.201.0"
+      "Id": "VirtoCommerce.Assets",
+      "Version": "3.200.0"
+    },
+    {
+      "Id": "VirtoCommerce.AuthorizeNetPayment",
+      "Version": "3.203.0"
     },
     {
       "Id": "VirtoCommerce.AvalaraTax",
       "Version": "3.200.0"
     },
     {
-      "Id": "VirtoCommerce.Assets",
-      "Version": "3.200.0"
-    },
-    {
       "Id": "VirtoCommerce.AzureBlobAssets",
-      "Version": "3.200.0"
-    },
-    {
-      "Id": "VirtoCommerce.FileSystemAssets",
       "Version": "3.200.0"
     },
     {
@@ -41,19 +33,23 @@
     },
     {
       "Id": "VirtoCommerce.Catalog",
-      "Version": "3.211.0"
+      "Version": "3.221.0"
     },
     {
-      "Id": "VirtoCommerce.Content",
+      "Id": "VirtoCommerce.CatalogCsvImportModule",
       "Version": "3.202.0"
     },
     {
       "Id": "VirtoCommerce.CatalogPersonalization",
-      "Version": "3.200.0"
+      "Version": "3.200.1"
     },
     {
       "Id": "VirtoCommerce.CatalogPublishing",
       "Version": "3.200.0"
+    },
+    {
+      "Id": "VirtoCommerce.Content",
+      "Version": "3.203.0"
     },
     {
       "Id": "VirtoCommerce.Core",
@@ -61,7 +57,11 @@
     },
     {
       "Id": "VirtoCommerce.Customer",
-      "Version": "3.202.0"
+      "Version": "3.205.0"
+    },
+    {
+      "Id": "VirtoCommerce.CustomerReviews",
+      "Version": "3.204.0"
     },
     {
       "Id": "VirtoCommerce.DynamicAssociationsModule",
@@ -69,7 +69,27 @@
     },
     {
       "Id": "VirtoCommerce.ElasticSearch",
-      "Version": "3.203.0"
+      "Version": "3.205.0"
+    },
+    {
+      "Id": "VirtoCommerce.EventBus",
+      "Version": "3.201.0"
+    },
+    {
+      "Id": "VirtoCommerce.ExperienceApi",
+      "Version": "3.216.0"
+    },
+    {
+      "Id": "VirtoCommerce.Export",
+      "Version": "3.200.0"
+    },
+    {
+      "Id": "VirtoCommerce.FileSystemAssets",
+      "Version": "3.200.0"
+    },
+    {
+      "Id": "VirtoCommerce.GDPR",
+      "Version": "3.200.0"
     },
     {
       "Id": "VirtoCommerce.ImageTools",
@@ -84,28 +104,48 @@
       "Version": "3.200.0"
     },
     {
-      "Id": "VirtoCommerce.Notifications",
-      "Version": "3.202.0"
+      "Id": "VirtoCommerce.NativePaymentMethods",
+      "Version": "3.201.0"
     },
     {
-      "Id": "VirtoCommerce.Orders",
+      "Id": "VirtoCommerce.Notifications",
       "Version": "3.204.0"
     },
     {
+      "Id": "VirtoCommerce.Orders",
+      "Version": "3.208.0"
+    },
+    {
+      "Id": "VirtoCommerce.PageBuilderModule",
+      "Version": "3.201.0"
+    },
+    {
       "Id": "VirtoCommerce.Payment",
-      "Version": "3.203.0"
+      "Version": "3.204.0"
     },
     {
       "Id": "VirtoCommerce.Pricing",
+      "Version": "3.206.0"
+    },
+    {
+      "Id": "VirtoCommerce.PriceExportImport",
       "Version": "3.205.0"
     },
     {
+      "Id": "VirtoCommerce.ProfileExperienceApiModule",
+      "Version": "3.209.0"
+    },
+    {
       "Id": "VirtoCommerce.Quote",
+      "Version": "3.202.0"
+    },
+    {
+      "Id": "VirtoCommerce.Return",
       "Version": "3.201.0"
     },
     {
       "Id": "VirtoCommerce.Search",
-      "Version": "3.206.0"
+      "Version": "3.207.0"
     },
     {
       "Id": "VirtoCommerce.Shipping",
@@ -117,7 +157,7 @@
     },
     {
       "Id": "VirtoCommerce.Store",
-      "Version": "3.203.0"
+      "Version": "3.204.0"
     },
     {
       "Id": "VirtoCommerce.Subscription",
@@ -128,40 +168,8 @@
       "Version": "3.200.0"
     },
     {
-      "Id": "VirtoCommerce.PriceExportImport",
-      "Version": "3.205.0"
-    },
-    {
-      "Id": "VirtoCommerce.Export",
-      "Version": "3.200.0"
-    },
-    {
-      "Id": "VirtoCommerce.ExperienceApi",
-      "Version": "3.211.0"
-    },
-    {
       "Id": "VirtoCommerce.WebHooks",
       "Version": "3.201.0"
-    },
-    {
-      "Id": "VirtoCommerce.EventBus",
-      "Version": "3.201.0"
-    },
-    {
-      "Id": "VirtoCommerce.ProfileExperienceApiModule",
-      "Version": "3.206.0"
-    },
-    {
-      "Id": "VirtoCommerce.GDPR",
-      "Version": "3.200.0"
-    },
-    {
-      "Id": "VirtoCommerce.Return",
-      "Version": "3.201.0"
-    },
-    {
-      "Id": "VirtoCommerce.PriceExportImport",
-      "Version": "3.205.0"
     }
   ]
 }
