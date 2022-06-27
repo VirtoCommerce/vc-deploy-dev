@@ -209,7 +209,7 @@ data:
     {
       "Id": "VirtoCommerce.Quote",
       "Repository": "VirtoCommerce/vc-module-quote",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Quote_3.202.0-pr-56.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Quote_3.203.0-pr-58.zip"
     },
     {
       "Id": "VirtoCommerce.Return",
@@ -250,5 +250,10 @@ data:
       "Id": "VirtoCommerce.Licensing",
       "Repository": "VirtoCommerce/vc-module-licensing",
       "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Licensing_3.200.0.zip"
+    },
+    {
+      "Id": "VirtoCommerce.QuoteExtensionsModule",
+      "Repository": "VirtoCommerce/vc-module-quote",
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.QuoteExtensionsModule.Web-sample-VirtoCommerce.QuoteExtensionsModule_3.203.0-pr-58.zip"
     }
    ]
