@@ -18,6 +18,7 @@ spec:
       imagePullSecrets:
         - name: dockerconfigjson-github-com
       initContainers:
+
         - name: init-sqldatabase
           image: mcr.microsoft.com/mssql-tools
           command:
@@ -42,6 +43,18 @@ spec:
                 secretKeyRef:
                   name: vc-db-pass
                   key: password
+
+        - name: init-platform-license
+          image: alpine:3
+          command:
+            - "/bin/sh"
+            - "-c"
+          args:
+            - "echo '$(VC_LICENSE)' > /opt/virtocommerce/platform/license/VirtoCommerce.lic"
+          volumeMounts:
+            - mountPath: "/opt/virtocommerce/platform/license"
+              name: license
+
         - name: init-platform
           image: ghcr.io/virtocommerce/vc-deploy-containers/platform-installer:v3
           command:
@@ -53,6 +66,7 @@ spec:
           envFrom:
           - configMapRef:
               name: deployment-cm
+
         - name: init-dbuser
           image: mcr.microsoft.com/mssql-tools
           command:
@@ -108,11 +122,16 @@ spec:
               name: cms-content-data
             - mountPath: "/opt/virtocommerce/platform/modules"
               name: modules-data
+            - mountPath: "/opt/virtocommerce/platform/license"
+              name: license
+
       volumes:
       - name: cms-content-data
         persistentVolumeClaim:
           claimName: cms-content-volume
       - name: modules-data
+        emptyDir: {} 
+      - name: license
         emptyDir: {} 
   strategy:
     rollingUpdate:
