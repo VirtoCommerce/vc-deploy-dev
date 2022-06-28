@@ -47,7 +47,8 @@ spec:
             - "/bin/sh"
             - "-c"
           args:
-            - "echo $(VC_LICENSE) > /opt/virtocommerce/platform/license/VirtoCommerce.lic
+            - "source /vault/secrets/config_custom 
+               &&echo $(VC_LICENSE) > /opt/virtocommerce/platform/license/VirtoCommerce.lic
                && echo 'VC_LICENSE saved to /opt/virtocommerce/platform/license/VirtoCommerce.lic'
                && cat /opt/virtocommerce/platform/license/VirtoCommerce.lic"
           volumeMounts:
