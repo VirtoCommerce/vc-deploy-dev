@@ -40,6 +40,18 @@ spec:
                 secretKeyRef:
                   name: vc-db-pass
                   key: password
+
+        - name: init-platform-license
+          image: alpine:3
+          command:
+            - "/bin/sh"
+            - "-c"
+          args:
+            - "echo '$(VC_LICENSE)' > /opt/virtocommerce/platform/license/VirtoCommerce.lic"
+          volumeMounts:
+            - mountPath: "/opt/virtocommerce/platform/license"
+              name: license
+
         - name: init-platform
           image: ghcr.io/virtocommerce/vc-deploy-containers/platform-installer:v3
           envFrom:
@@ -95,9 +107,18 @@ spec:
                 key: password
           - name: ConnectionStrings__VirtoCommerce
             value: "Server=tcp:$(VC_DB_HOST),1433;Database=$(VC_PLATFORM_SERVICE)_$(VC_NAMESPACE);User ID=$(VC_INSTANCE)_$(VC_NAMESPACE)_user@$(VC_DB_HOST);Password=$(VC_CUSTOMER_DB_PASSWORD);Trusted_Connection=False;Encrypt=True;"
+          volumeMounts:
+            - mountPath: "/opt/virtocommerce/platform/modules"
+              name: modules-data
+            - mountPath: "/opt/virtocommerce/platform/license"
+              name: license
+
       volumes:
       - name: modules-data
         emptyDir: {}
+      - name: license
+        emptyDir: {} 
+
   strategy:
     rollingUpdate:
       maxSurge: 1
