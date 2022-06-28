@@ -10,6 +10,7 @@ spec:
       annotations:
         configmap.reloader.stakater.com/reload: "vcplatform-platform-cm, vcplatform-deployment-cm, vcplatform-platform-secret-configmap"
         vault.hashicorp.com/agent-inject: "true"
+        vault.hashicorp.com/agent-init-first: "true"
         vault.hashicorp.com/agent-pre-populate-only: "true"
         vault.hashicorp.com/agent-configmap: "vcplatform-platform-secret-configmap"
         vault.hashicorp.com/agent-requests-cpu: "25m"
@@ -47,7 +48,8 @@ spec:
             - "/bin/sh"
             - "-c"
           args:
-            - "echo $VC_LICENSE > /opt/virtocommerce/platform/license/VirtoCommerce.lic
+            - "source /vault/secrets/config_custom 
+               && echo $VC_LICENSE > /opt/virtocommerce/platform/license/VirtoCommerce.lic
                && echo 'VC_LICENSE saved to /opt/virtocommerce/platform/license/VirtoCommerce.lic'
                && cat /opt/virtocommerce/platform/license/VirtoCommerce.lic"
           volumeMounts:
