@@ -50,8 +50,7 @@ spec:
           args:
             - "source /vault/secrets/config_custom 
                && echo $VC_LICENSE > /opt/virtocommerce/platform/license/VirtoCommerce.lic
-               && echo 'VC_LICENSE saved to /opt/virtocommerce/platform/license/VirtoCommerce.lic'
-               && cat /opt/virtocommerce/platform/license/VirtoCommerce.lic"
+               && echo 'VC_LICENSE saved to /opt/virtocommerce/platform/license/VirtoCommerce.lic'"
           volumeMounts:
             - mountPath: "/opt/virtocommerce/platform/license"
               name: license
