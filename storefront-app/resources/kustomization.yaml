@@ -21,4 +21,4 @@ images:
   newTag: 3.225.0-master-2627ad23
 - name: docker.pkg.github.com/virtocommerce/vc-storefront/storefront
   newName: ghcr.io/virtocommerce/storefront
-  newTag: 6.1.0-master-39aa5bae
+  newTag: 6.2.0-pr-612-st-2216-login-by-email-05b1b8b6
