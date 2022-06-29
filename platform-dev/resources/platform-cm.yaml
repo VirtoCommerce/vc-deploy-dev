@@ -26,9 +26,9 @@ data:
   AzureAd__ValidateIssuer: "MultitenantAzureAD"
   Content__FileSystem__PublicUrl: https://$(VC_PLATFORM_SERVICE).$(VC_NAMESPACE).govirto.com/cms-content/
   Assets__FileSystem__PublicUrl: https://$(VC_PLATFORM_SERVICE).$(VC_NAMESPACE).govirto.com/cms-content/assets/
-  VirtoCommerce__LicenseFilePath: /opt/virtocommerce/platform/license/VirtoCommerce.lic
+  VirtoCommerce__LicenseFilePath: app_data/VirtoCommerce.lic
   VirtoCommerce__LicensePublicKeyPath: app_data/public.key
-  VirtoCommerce__LicensePrivateKeyPath: /opt/virtocommerce/platform/license/VirtoCommerce.lic
+  VirtoCommerce__LicensePrivateKeyPath: app_data/private.key
   VirtoCommerce__LocalUploadFolderPath: app_data/uploads
   VirtoCommerce__Hangfire__JobStorageType: SqlServer
   Logging__LogLevel__Default: "Information"
@@ -46,3 +46,4 @@ data:
   DefaultMainMenuState__items__0__path: "browse/marketing"
   DefaultMainMenuState__items__0__isFavorite: "true"
   DefaultMainMenuState__items__0__order: "1"
+  VirtoCommerce__Licensing__LicensePrivateKeyPath: "/opt/virtocommerce/platform/license/VirtoCommerce.lic"
