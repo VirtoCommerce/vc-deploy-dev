@@ -10,6 +10,7 @@ spec:
       annotations:
         configmap.reloader.stakater.com/reload: "vcplatform-platform-cm, vcplatform-deployment-cm, vcplatform-platform-secret-configmap"
         vault.hashicorp.com/agent-inject: "true"
+        vault.hashicorp.com/agent-init-first: "true"
         vault.hashicorp.com/agent-pre-populate-only: "true"
         vault.hashicorp.com/agent-configmap: "vcplatform-platform-secret-configmap"
         vault.hashicorp.com/agent-requests-cpu: "25m"
@@ -40,6 +41,20 @@ spec:
                 secretKeyRef:
                   name: vc-db-pass
                   key: password
+
+        - name: init-platform-license
+          image: alpine:3
+          command:
+            - "/bin/sh"
+            - "-c"
+          args:
+            - "source /vault/secrets/config_custom 
+               && echo $VC_LICENSE > /opt/virtocommerce/platform/license/VirtoCommerce.lic
+               && echo 'VC_LICENSE saved to /opt/virtocommerce/platform/license/VirtoCommerce.lic'"
+          volumeMounts:
+            - mountPath: "/opt/virtocommerce/platform/license"
+              name: license
+
         - name: init-platform
           image: ghcr.io/virtocommerce/vc-deploy-containers/platform-installer:v5
           command:
@@ -105,9 +120,16 @@ spec:
                 key: password
           - name: ConnectionStrings__VirtoCommerce
             value: "Server=tcp:$(VC_DB_HOST),1433;Database=$(VC_PLATFORM_SERVICE)_$(VC_NAMESPACE);User ID=$(VC_INSTANCE)_$(VC_NAMESPACE)_user@$(VC_DB_HOST);Password=$(VC_CUSTOMER_DB_PASSWORD);Trusted_Connection=False;Encrypt=True;"
+          volumeMounts:
+            - mountPath: "/opt/virtocommerce/platform/modules"
+              name: modules-data
+            - mountPath: "/opt/virtocommerce/platform/license"
+              name: license
       volumes:
       - name: modules-data
         emptyDir: {}
+      - name: license
+        emptyDir: {} 
   strategy:
     rollingUpdate:
       maxSurge: 1
