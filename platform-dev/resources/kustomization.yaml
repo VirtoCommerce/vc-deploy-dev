@@ -17,7 +17,10 @@ resources:
 images:
 - name: docker.pkg.github.com/virtocommerce/vc-platform/platform
   newName: ghcr.io/virtocommerce/platform
-  newTag: 3.223.0-alpha.12369-dev-996cccd2
+  newTag: 3.226.0-alpha.12379-dev-ff2f9a38
+- name: ghcr.io/virtocommerce/demo-xapi-app
+  newName: ghcr.io/virtocommerce/demo-xapi-app
+  newTag: 1.0.0-alpha.16-vds-2423
 - name: docker.pkg.github.com/virtocommerce/vc-storefront/storefront
   newName: ghcr.io/virtocommerce/storefront
   newTag: 6.1.0-master-39aa5bae
