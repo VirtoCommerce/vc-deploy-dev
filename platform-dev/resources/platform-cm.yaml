@@ -64,10 +64,10 @@ data:
     VirtoCommerce__Hangfire__JobStorageType: SqlServer
     VirtoCommerce__Hangfire__WorkerCount: "7"
     VirtoCommerce__Hangfire__Queues: |
-   [
-  {"alpha"}, 
-   {"beta"}
-   ] 
+      [
+        {"alpha"}, 
+        {"beta"}
+      ] 
     VirtoCommerce__Licensing__LicensePrivateKeyPath: /opt/virtocommerce/platform/license/VirtoCommerce.lic
    #Black list
     Logging__LogLevel__Default: "Information"
