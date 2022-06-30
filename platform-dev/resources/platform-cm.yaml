@@ -62,7 +62,7 @@ data:
     VirtoCommerce__LicensePrivateKeyPath: app_data/private.key
     VirtoCommerce__LocalUploadFolderPath: app_data/uploads
     VirtoCommerce__Hangfire__JobStorageType: SqlServer
-    VirtoCommerce__Hangfire__WorkerCount: "7"
+   #VirtoCommerce__Hangfire__WorkerCount: "7"
     VirtoCommerce__Hangfire__Queues: |
       [
         "alpha", 
