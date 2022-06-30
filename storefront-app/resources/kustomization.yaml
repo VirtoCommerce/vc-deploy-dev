@@ -21,4 +21,11 @@ images:
   newTag: 3.225.0-master-2627ad23
 - name: docker.pkg.github.com/virtocommerce/vc-storefront/storefront
   newName: ghcr.io/virtocommerce/storefront
+<<<<<<< HEAD
   newTag: 6.1.0-master-39aa5bae
+=======
+  newTag: 6.2.0-alpha.895-dev-da7d847e
+- name: ghcr.io/virtocommerce/page-builder
+  newName: ghcr.io/virtocommerce/page-builder
+  newTag: 0.0.0
+>>>>>>> fc519b4... ci: Automated update vc-storefront
