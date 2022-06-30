@@ -63,7 +63,7 @@ data:
     VirtoCommerce__LocalUploadFolderPath: app_data/uploads
     VirtoCommerce__Hangfire__JobStorageType: SqlServer
     VirtoCommerce__Hangfire__WorkerCount: "7"
-    VirtoCommerce__Hangfire__Queues: |
+    VirtoCommerce__Hangfire__Queues__items: |
       [
         "alpha", 
         "beta",
