@@ -1,0 +1,50 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: storefront
+spec:
+  template:
+    metadata:
+      annotations:
+        reloader.stakater.com/search: "true"
+        configmap.reloader.stakater.com/reload: "loadtest-storefront-cm, loadtest-platform-cm, loadtest-deployment-cm, loadtest-platform-secret-configmap"
+    spec:
+        imagePullSecrets:
+        - name: dockerconfigjson-github-com
+        initContainers:
+        - name: init-storefront
+          imagePullPolicy: Always
+          image: ghcr.io/virtocommerce/vc-deploy-containers/platform-installer:v3
+          command:
+            - "/bin/sh"
+            - "-c"
+          args:
+            - "python3 installer.py $(MERCURY_THEME_URL) $(MERCURY_THEME_LOCATION)
+            && python3 installer.py $(ASSETS_URL) $(ASSETS_LOCATION)"
+          envFrom:
+          - configMapRef:
+              name: deployment-cm 
+          volumeMounts:
+            - mountPath: /mnt/cms-content
+              name: cms-content-data
+        containers:
+        - name: vc-storefront-web
+          # readinessProbe:
+          #   httpGet:
+          #     path: /
+          #     port: 80
+          #   failureThreshold: 3
+          #   successThreshold: 1
+          #   initialDelaySeconds: 5
+          #   periodSeconds: 1
+          envFrom:
+          - configMapRef:
+              name: storefront-cm
+          volumeMounts:
+            - mountPath: /opt/virtocommerce/storefront/wwwroot/cms-content
+              name: cms-content-data
+  strategy:
+    rollingUpdate:
+      maxSurge: 0
+      maxUnavailable: 1
+    type: RollingUpdate
