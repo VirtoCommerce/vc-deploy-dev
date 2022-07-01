@@ -11,6 +11,7 @@ patchesStrategicMerge:
 - storefront-deploy.yaml
 
 resources:
+- storage.yaml
 - ../../common-base/platform
 - ../../common-base/storefront
 
