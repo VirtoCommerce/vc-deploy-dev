@@ -1,0 +1,26 @@
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: cms-content
+spec:
+  accessModes:
+  - ReadWriteMany
+  capacity:
+    storage: 200Mi
+  csi: {}
+  persistentVolumeReclaimPolicy: Retain
+  volumeMode: Filesystem
+  storageClassName: "blob-premium"
+---
+kind: PersistentVolumeClaim
+apiVersion: v1
+metadata:
+  name: cms-content-volume
+spec:
+  accessModes:
+    - ReadWriteMany
+  resources:
+    requests:
+      storage: 200Mi
+  volumeName: cms-content
+  storageClassName: "blob-premium"
