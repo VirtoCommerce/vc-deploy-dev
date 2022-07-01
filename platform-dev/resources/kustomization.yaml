@@ -7,12 +7,12 @@ patchesStrategicMerge:
 - platform-cm.yaml
 - platform-deploy.yaml
 - platform-secrets.yaml
-- storefront-cm.yaml
-- storefront-deploy.yaml
+#- storefront-cm.yaml
+#- storefront-deploy.yaml
 
 resources:
 - ../../common-base/platform
-- ../../common-base/storefront
+#- ../../common-base/storefront
 
 images:
 - name: docker.pkg.github.com/virtocommerce/vc-platform/platform
