@@ -26,7 +26,7 @@ spec:
               name: deployment-cm 
           volumeMounts:
             - mountPath: /mnt/cms-content
-              name: cms-content-data
+              name: cms-content
         containers:
         - name: vc-storefront-web
           # readinessProbe:
@@ -42,7 +42,10 @@ spec:
               name: storefront-cm
           volumeMounts:
             - mountPath: /opt/virtocommerce/storefront/wwwroot/cms-content
-              name: cms-content-data
+              name: cms-content
+    volumes:
+      - name: cms-content
+        emptyDir: {}
   strategy:
     rollingUpdate:
       maxSurge: 0
