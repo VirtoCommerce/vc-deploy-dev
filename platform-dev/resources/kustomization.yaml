@@ -7,17 +7,17 @@ patchesStrategicMerge:
 - platform-cm.yaml
 - platform-deploy.yaml
 - platform-secrets.yaml
-- storefront-cm.yaml
-- storefront-deploy.yaml
+#- storefront-cm.yaml
+#- storefront-deploy.yaml
 
 resources:
 - ../../common-base/platform
-- ../../common-base/storefront
+#- ../../common-base/storefront
 
 images:
 - name: docker.pkg.github.com/virtocommerce/vc-platform/platform
   newName: ghcr.io/virtocommerce/platform
-  newTag: 3.226.0-alpha.12379-dev-ff2f9a38
+  newTag: 3.227.0-alpha.12382-dev-65b878f3
 - name: ghcr.io/virtocommerce/demo-xapi-app
   newName: ghcr.io/virtocommerce/demo-xapi-app
   newTag: 1.0.0-alpha.16-vds-2423
