@@ -28,13 +28,13 @@ jobs:
       
     - name: Docker
       run: |
-        docker login virtopaasregistry.azurecr.io -u virtostart -p ${{ secrets.VIRTOSTART_ACR_DOCKER_PASSWORD }}
+        docker login virtopaasregistrymain.azurecr.io -u virtostart -p ${{ secrets.VIRTOSTART_ACR_DOCKER_PASSWORD }}
         docker pull $STOREFRONT_REPO:$STOREFRONT_TAG
-        docker tag $STOREFRONT_REPO:$STOREFRONT_TAG virtopaasregistry.azurecr.io/virtostart/storefront:$STOREFRONT_TAG
-        docker push virtopaasregistry.azurecr.io/virtostart/storefront:$STOREFRONT_TAG
+        docker tag $STOREFRONT_REPO:$STOREFRONT_TAG virtopaasregistrymain.azurecr.io/virtostart/storefront:$STOREFRONT_TAG
+        docker push virtopaasregistrymain.azurecr.io/virtostart/storefront:$STOREFRONT_TAG
 
     - name: Update app
       run: |
-        vc-build SetHelmParameter -ArgoServer https://argo.govirto.com -ArgoAppName virtostart-main -ArgoToken ${{ secrets.VIRTOSTART_TOKEN }} -HelmParameters storefront.image.tag=$TAG
+        vc-build SetHelmParameter -ArgoServer https://argocd.govirto.com -ArgoAppName virtostart-main -ArgoToken ${{ secrets.VIRTOSTART_TOKEN }} -HelmParameters storefront.image.tag=$TAG
       env:
         TAG: ${{ env.STOREFRONT_TAG }}
