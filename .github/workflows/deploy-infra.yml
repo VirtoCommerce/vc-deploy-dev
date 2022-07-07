@@ -25,5 +25,5 @@ jobs:
         vc-build ArgoUpdateApplication -ArgoConfigFile $ENV_FILE -ArgoServer $ARGO_SERVER -ArgoToken $TOKEN
       env:
         ENV_FILE: './infra/environments.yml'
-        ARGO_SERVER: https://argo.govirto.com
+        ARGO_SERVER: https://argocd.govirto.com
         TOKEN: ${{ secrets.VIRTOSTART_TOKEN }}
