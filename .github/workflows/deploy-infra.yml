@@ -18,11 +18,11 @@ jobs:
     
     - name: Install vc-build
       run: |
-        dotnet tool install --global VirtoCommerce.GlobalTool --version 3.1.0
+        dotnet tool install --global VirtoCommerce.GlobalTool --version 3.4.0
     
     - name: Update app
       run: |
-        vc-build ArgoUpdateApplication -ArgoConfigFile $ENV_FILE -ArgoServer $ARGO_SERVER -ArgoToken $TOKEN
+        vc-build UpdateCloudEnvironment -CloudToken ${{ secrets.VIRTOSTART_PLATFORM_TOKEN }} -ArgoConfigFile $ENV_FILE -CloudUrl https://cloud.prod.govirto.com
       env:
         ENV_FILE: './infra/environments.yml'
         ARGO_SERVER: https://argocd.govirto.com
