@@ -14,7 +14,7 @@
     secretConfig: {}
   storefront:
     imageRepository: virtopaasregistrymain.azurecr.io/vcpt/storefront
-    themeUrl: https://github.com/VirtoCommerce/vc-theme-material/releases/download/v2.0.2/vc-material-theme-2.0.2.zip
+    themeUrl: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.3.0/vc-theme-b2b-vue-1.3.0.zip
     themeName: B2B-store
     config:
       VirtoCommerce__Endpoint__Password: aDs*2m&sadl!
@@ -24,7 +24,7 @@
       Reload: 2022-3
     secretConfig: {}
     themes:
-      B2B-store: https://github.com/VirtoCommerce/vc-theme-material/releases/download/v2.0.2/vc-material-theme-2.0.2.zip
+      B2B-store: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.3.0/vc-theme-b2b-vue-1.3.0.zip
   ingress:
     hostname: vcpt.govirto.com
     storefrontHostname: vcpt-store.govirto.com
