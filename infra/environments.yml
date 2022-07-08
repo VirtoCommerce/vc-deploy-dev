@@ -1,5 +1,5 @@
 - name: vcpt-main
-  gitops: true
+  gitops: false
   servicePlan: B1
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcpt/platform
@@ -7,21 +7,9 @@
     config:
       VirtoCommerce__SampleDataUrl: https://vc3prerelease.blob.core.windows.net/packages/clothing-and-electronics_3_0_2.zip
       APPINSIGHTS_INSTRUMENTATIONKEY: 6dcd2553-1a00-4e3d-95da-421e85c02aed
-      # AzureAd__ApplicationId: 54cefda5-2d23-4518-ac12-f55a0e1225d4
       AzureAd__TenantId: bc03e660-5e3a-45c4-bf5c-b75489f78923
       AzureAd__Priority: 0
       PasswordLogin__Priority: 1
-      # Search__OrderFullTextSearchEnabled: true
-      # Notifications__DefaultSender: azure_25da07ed75daacae20578a7a7dc58541@azure.com
-      # ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
-      # Notifications__Gateway: SendGrid
-      # Notifications__SmsDefaultSender: +17012510519
-      # Notifications__Smtp__EnableSsl: False
-      # Notifications__Smtp__Host: smtp.sendgrid.net
-      # Notifications__Smtp__Login: apikey
-      # Notifications__Smtp__Port: 587
-    # secretConfig:
-    #   Notifications__SendGrid__ApiKey: sendkey
   storefront:
     imageRepository: virtopaasregistrymain.azurecr.io/vcpt/storefront
     themeUrl: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.3.0/vc-theme-b2b-vue-1.3.0.zip
