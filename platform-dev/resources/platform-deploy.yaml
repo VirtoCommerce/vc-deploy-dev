@@ -82,7 +82,7 @@ spec:
         - name: vc-platform-web
           readinessProbe:
             httpGet:
-              path: /health
+              path: /healthcheck
               port: 80
             failureThreshold: 50
             successThreshold: 1
