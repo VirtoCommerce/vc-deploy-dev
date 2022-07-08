@@ -1,11 +1,11 @@
-name: virtostart storefront
+name: vcpt storefront
 
 on:
   workflow_dispatch:
   push:
     paths:
       - 'storefront/**'
-    branches: [ virtostart ]
+    branches: [ vcpt ]
 
 jobs:
   gitops:
@@ -28,13 +28,13 @@ jobs:
       
     - name: Docker
       run: |
-        docker login virtopaasregistrymain.azurecr.io -u virtostart -p ${{ secrets.VIRTOSTART_ACR_DOCKER_PASSWORD }}
+        docker login virtopaasregistrymain.azurecr.io -u vcpt-repo-saccess -p ${{ secrets.VCPT_ACR_DOCKER_PASSWORD }}
         docker pull $STOREFRONT_REPO:$STOREFRONT_TAG
-        docker tag $STOREFRONT_REPO:$STOREFRONT_TAG virtopaasregistrymain.azurecr.io/virtostart/storefront:$STOREFRONT_TAG
-        docker push virtopaasregistrymain.azurecr.io/virtostart/storefront:$STOREFRONT_TAG
+        docker tag $STOREFRONT_REPO:$STOREFRONT_TAG virtopaasregistrymain.azurecr.io/vcpt/storefront:$STOREFRONT_TAG
+        docker push virtopaasregistrymain.azurecr.io/vcpt/storefront:$STOREFRONT_TAG
 
     - name: Update app
       run: |
-        vc-build SetHelmParameter -ArgoServer https://argocd.govirto.com -ArgoAppName virtostart-main -ArgoToken ${{ secrets.VIRTOSTART_TOKEN }} -HelmParameters storefront.image.tag=$TAG
+        vc-build SetHelmParameter -ArgoServer https://argocd.govirto.com -ArgoAppName vcpt-main -ArgoToken ${{ secrets.VCPT_TOKEN }} -HelmParameters storefront.image.tag=$TAG
       env:
         TAG: ${{ env.STOREFRONT_TAG }}
