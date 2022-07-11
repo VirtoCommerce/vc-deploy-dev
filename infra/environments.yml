@@ -26,7 +26,17 @@
   ingress:
     hostname: vcpt.govirto.com
     storefrontHostname: vcpt-store.govirto.com
-  customApps: {}
+    customApps:
+    app1:
+      probePath: /
+      hostname: vcpt-docs.virtocommerce.org
+      name: docs
+      imageRepository: virtopaasregistry.azurecr.io/vcpt/docs
+      imageTag: 1
+      ingressPath: /
+      platformPath: []
+      storefrontPath: []
+      servicePath: []
   protectedParameters:
-   - platform.image.tag
-   - storefront.image.tag
+    - platform.image.tag
+    - storefront.image.tag
