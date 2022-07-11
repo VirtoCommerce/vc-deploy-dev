@@ -26,7 +26,7 @@
   ingress:
     hostname: vcpt.govirto.com
     storefrontHostname: vcpt-store.govirto.com
-    customApps:
+  customApps:
     app1:
       probePath: /
       hostname: vcpt-docs.virtocommerce.org
