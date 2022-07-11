@@ -5,7 +5,7 @@ on:
   push:
     paths:
       - "infra/**"
-    branches: [vcpt]
+    branches: [docs]
 
 jobs:
   gitops:
