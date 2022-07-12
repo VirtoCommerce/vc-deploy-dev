@@ -40,6 +40,6 @@
       platformPath: []
       storefrontPath: []
       servicePath: []
-    protectedParameters:
-      - platform.image.tag
-      - storefront.image.tag
+  protectedParameters:
+   - platform.image.tag
+   - storefront.image.tag
