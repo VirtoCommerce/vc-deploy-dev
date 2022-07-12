@@ -25,8 +25,8 @@
       APPINSIGHTS_INSTRUMENTATIONKEY: 2202902d-e0e7-497d-9684-e4de597879dc
       Reload: 2022-3
     secretConfig: {}
-    # themes:
-    #   B2B-store: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.4.0/vc-theme-b2b-vue-1.4.0.zip
+    themes:
+      B2B-store: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.4.0/vc-theme-b2b-vue-1.4.0.zip
   ingress:
     hostname: vcpt.govirto.com
     storefrontHostname: vcpt-store.govirto.com
