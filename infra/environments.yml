@@ -3,7 +3,7 @@
   servicePlan: B1
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcpt/platform
-    imageTag: 
+    imageTag: 3.229.0-3516f649
     tier: enterprise
     config:
       VirtoCommerce__LocalUploadFolderPath: wwwroot/cms-content
