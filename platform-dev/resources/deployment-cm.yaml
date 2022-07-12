@@ -93,7 +93,7 @@ data:
     {
       "Id": "VirtoCommerce.Inventory",
       "Repository": "VirtoCommerce/vc-module-inventory",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Inventory_3.205.0-pr-109.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-inventory/releases/download/3.205.0/VirtoCommerce.Inventory_3.205.0.zip"
     },
     {
       "Id": "VirtoCommerce.Customer",
