@@ -43,3 +43,38 @@
   protectedParameters:
    - platform.image.tag
    - storefront.image.tag
+
+
+- name: vcpt-test
+  gitops: false
+  servicePlan: B1
+  platform:
+    imageRepository: virtopaasregistrymain.azurecr.io/vcpt/platform
+    imageTag: 3.216.8-20f7491a
+    tier: enterprise
+    config:
+      VirtoCommerce__LocalUploadFolderPath: wwwroot/cms-content
+      VirtoCommerce__SampleDataUrl: https://vc3prerelease.blob.core.windows.net/packages/clothing-and-electronics_3_0_2.zip
+      APPINSIGHTS_INSTRUMENTATIONKEY: 6dcd2553-1a00-4e3d-95da-421e85c02aed
+      AzureAd__TenantId: bc03e660-5e3a-45c4-bf5c-b75489f78923
+      AzureAd__Priority: 0
+      PasswordLogin__Priority: 1
+    secretConfig: {}
+  storefront:
+    imageRepository: virtopaasregistrymain.azurecr.io/vcpt/storefront
+    imageTag: 6.1.0-master-39aa5bae
+    config:
+      SnapshotCollectorConfiguration__IsEnabled: false
+      VirtoCommerce__DefaultStore: B2B-store
+      VirtoCommerce__Endpoint__Password: aDs*2m&sadl!
+      APPINSIGHTS_INSTRUMENTATIONKEY: 2202902d-e0e7-497d-9684-e4de597879dc
+      Reload: 2022-3
+    secretConfig: {}
+    themes:
+      B2B-store: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.3.0/vc-theme-b2b-vue-1.3.0.zip
+  ingress:
+    hostname: vcpt-test.govirto.com
+    storefrontHostname: vcpt-test-store.govirto.com
+  protectedParameters:
+   - platform.image.tag
+   - storefront.image.tag
