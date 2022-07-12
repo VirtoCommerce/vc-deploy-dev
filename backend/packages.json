@@ -1,5 +1,5 @@
 {
-  "PlatformVersion": "3.229.0",
+  "PlatformVersion": "3.225.0",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -29,7 +29,7 @@
     },
     {
       "Id": "VirtoCommerce.Cart",
-      "Version": "3.202.0"
+      "Version": "3.201.0"
     },
     {
       "Id": "VirtoCommerce.Catalog",
@@ -57,7 +57,7 @@
     },
     {
       "Id": "VirtoCommerce.Customer",
-      "Version": "3.206.0"
+      "Version": "3.205.0"
     },
     {
       "Id": "VirtoCommerce.CustomerReviews",
