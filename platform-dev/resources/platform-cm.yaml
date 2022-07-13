@@ -85,7 +85,7 @@ data:
    #Video key
     Videos__GoogleApiKey: "AIzaSyD5A4oFeSgaMQnMo3OiaqUSJ23SQGELiA4"
    #cache
-    Caching__CacheEnabled: "true"
+    Caching__CacheEnabled: "false"
     DefaultMainMenuState__items: |
       [
         {
