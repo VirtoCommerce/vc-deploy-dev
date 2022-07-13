@@ -20,21 +20,21 @@
       Notifications__Smtp__Host: smtp.sendgrid.net
       Notifications__Smtp__Login: apikey
       Notifications__Smtp__Port: 587
-      Payments__AuthorizeNet__ApiLogin: "8hPT4p99R"
-      Payments__AuthorizeNet__SHA2Hash: "FA6D2B37A7E9105942D2D184F1B2DBD8D9CA85611DE55B2267A6F7E0D7E49ACD9A6BC238CE068E75CA14ACFAD734F700FD94DCAB20353DD4D32D9BABE72DBBE4"
-      Payments__AuthorizeNet__TxnKey: "63c54EWq5d2XnGAR"      
     secretConfig:
       Notifications__SendGrid__ApiKey: sendkey
+      Payments__AuthorizeNet__ApiLogin: apilogin
+      Payments__AuthorizeNet__SHA2Hash: sha2hash
+      Payments__AuthorizeNet__TxnKey: txnkey
   storefront:
     imageRepository: virtopaasregistrymain.azurecr.io/virtostart/storefront
     themeName: B2B-store
     config:
-      VirtoCommerce__Endpoint__Password: 1Password
       VirtoCommerce__DefaultStore: B2B-store
       SnapshotCollectorConfiguration__IsEnabled: false
       APPINSIGHTS_INSTRUMENTATIONKEY: 4eef52ad-79ec-410c-a273-0a1abff866ea
       Reload: 2022-3
-    secretConfig: {}
+    secretConfig:
+      VirtoCommerce__Endpoint__Password: virtocommercepassword
     themes:
       B2B-store: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.4.0/vc-theme-b2b-vue-1.4.0.zip
   ingress:
