@@ -10,7 +10,7 @@
   customApps:
     app1:
       probePath: /
-      hostname: vcpt-docs.virtocommerce.org
+      hostname: vcpt-docs.govirto.com
       name: docs
       imageRepository: virtopaasregistry.azurecr.io/vcpt/docs
       imageTag: 1
@@ -19,4 +19,3 @@
       storefrontPath: []
       servicePath: []
   protectedParameters: []
- 
