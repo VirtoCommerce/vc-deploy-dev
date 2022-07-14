@@ -43,9 +43,9 @@ spec:
           volumeMounts:
             - mountPath: /opt/virtocommerce/storefront/wwwroot/cms-content
               name: cms-content
-    volumes:
-      - name: cms-content
-        emptyDir: {}
+        volumes:
+          - name: cms-content
+            emptyDir: {}
   strategy:
     rollingUpdate:
       maxSurge: 0
