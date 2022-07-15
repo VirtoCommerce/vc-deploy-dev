@@ -10,6 +10,12 @@ on:
 jobs:
   gitops:
     runs-on: ubuntu-latest
+    env:
+      DOCKER_LOGIN: vcpt-repo-saccess
+      DOCKER_PASSWORD: ${{ secrets.VCPT_ACR_DOCKER_PASSWORD }}
+      DOCKERFILE_PATH: ./backend
+      CONTAINER_REGISTRY: virtopaasregistrymain.azurecr.io
+      IMAGE_REPOSITORY: virtopaasregistrymain.azurecr.io/vcpt/platform
 
     steps:
     - uses: actions/checkout@v3
@@ -36,15 +42,22 @@ jobs:
       id: vars
       run: echo "::set-output name=paas_tag::${{ env.PLATFORM_TAG }}-$(git rev-parse --short HEAD)"
 
+
+    - name: Build Docker Image
+      run: |
+        docker build --build-arg PLATFORM_IMAGE=${{ env.PLATFORM_IMAGE }} --build-arg PLATFORM_TAG=${{ env.PLATFORM_TAG }} ${{env.DOCKERFILE_PATH}}
+     
+    - name: Docker Login
+      uses: azure/docker-login@v1
+      with:
+        login-server: ${{ env.CONTAINER_REGISTRY }}
+        username: ${{ env.DOCKER_LOGIN }}
+        password: ${{ env.DOCKER_PASSWORD }}
+
     - name: Build and Publish Docker Image
       run: |
-        vc-build BuildAndPush -DockerUsername $DOCKER_LOGIN -DockerPassword $DOCKER_PASSWORD -DockerfilePath $DOCKERFILE_PATH -DockerImageName $IMAGE_REPOSITORY -DockerImageTag $TAG -DockerRegistryUrl $CONTAINER_REGISTRY
+        docker push ${{ env.IMAGE_REPOSITORY }}:${{ env.TAG }}
       env:
-        DOCKER_LOGIN: vcpt-repo-saccess
-        DOCKER_PASSWORD: ${{ secrets.VCPT_ACR_DOCKER_PASSWORD }}
-        DOCKERFILE_PATH: ./backend/Dockerfile
-        CONTAINER_REGISTRY: virtopaasregistrymain.azurecr.io
-        IMAGE_REPOSITORY: virtopaasregistrymain.azurecr.io/vcpt/platform
         TAG: ${{ steps.vars.outputs.paas_tag }}
     
     - name: Update app
