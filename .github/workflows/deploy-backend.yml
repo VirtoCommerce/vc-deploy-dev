@@ -43,7 +43,7 @@ jobs:
       run: echo "::set-output name=paas_tag::${{ env.PLATFORM_TAG }}-$(git rev-parse --short HEAD)"
 
 
-    - name: Build Docker Image
+    - name: Build platform Image
       run: |
         docker build --build-arg PLATFORM_IMAGE=${{ env.PLATFORM_IMAGE }} --build-arg PLATFORM_TAG=${{ env.PLATFORM_TAG }} ${{env.DOCKERFILE_PATH}}
      
@@ -54,7 +54,7 @@ jobs:
         username: ${{ env.DOCKER_LOGIN }}
         password: ${{ env.DOCKER_PASSWORD }}
 
-    - name: Build and Publish Docker Image
+    - name: Publish platform image to the Virto Cloud
       run: |
         docker tag ${{ env.PLATFORM_IMAGE }}:${{ env.PLATFORM_TAG }} ${{ env.IMAGE_REPOSITORY }}:${{ env.TAG }}
         docker push ${{ env.IMAGE_REPOSITORY }}:${{ env.TAG }}
