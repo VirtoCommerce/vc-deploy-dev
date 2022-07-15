@@ -2,7 +2,7 @@ ARG PLATFORM_IMAGE=ghcr.io/virtocommerce/platform
 ARG PLATFORM_TAG=linux-latest
 FROM $PLATFORM_IMAGE:$PLATFORM_TAG
 
-COPY ./backend/platform/modules /opt/virtocommerce/platform/modules
+COPY ./platform/modules /opt/virtocommerce/platform/modules
 
 WORKDIR /opt/virtocommerce/platform
 
