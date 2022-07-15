@@ -42,7 +42,6 @@ jobs:
       id: vars
       run: echo "::set-output name=paas_tag::${{ env.PLATFORM_TAG }}-$(git rev-parse --short HEAD)"
 
-
     - name: Build platform Image
       run: |
         docker build --build-arg PLATFORM_IMAGE=${{ env.PLATFORM_IMAGE }} --build-arg PLATFORM_TAG=${{ env.PLATFORM_TAG }} ${{env.DOCKERFILE_PATH}}
