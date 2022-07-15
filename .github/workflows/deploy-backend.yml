@@ -56,6 +56,7 @@ jobs:
 
     - name: Build and Publish Docker Image
       run: |
+        docker tag ${{ env.PLATFORM_IMAGE }}:${{ env.PLATFORM_TAG }} ${{ env.IMAGE_REPOSITORY }}:${{ env.TAG }}
         docker push ${{ env.IMAGE_REPOSITORY }}:${{ env.TAG }}
       env:
         TAG: ${{ steps.vars.outputs.paas_tag }}
