@@ -1,5 +1,7 @@
 {
   "PlatformVersion": "3.229.0",
+  "PlatformImage": "ghcr.io/virtocommerce/platform",
+  "PlatformImageTag": "3.229.0-master-fb65e51a",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
