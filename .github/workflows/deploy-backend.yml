@@ -16,6 +16,7 @@ jobs:
       DOCKERFILE_PATH: ./backend
       CONTAINER_REGISTRY: virtopaasregistrymain.azurecr.io
       IMAGE_REPOSITORY: virtopaasregistrymain.azurecr.io/vcpt/platform
+      PLATFORM_IMAGE_NAME: vcpt-platform
 
     steps:
     - uses: actions/checkout@v3
@@ -44,7 +45,7 @@ jobs:
 
     - name: Build platform Image
       run: |
-        docker build --build-arg PLATFORM_IMAGE=${{ env.PLATFORM_IMAGE }} --build-arg PLATFORM_TAG=${{ env.PLATFORM_TAG }} ${{env.DOCKERFILE_PATH}}
+        docker build --build-arg PLATFORM_IMAGE=${{ env.PLATFORM_IMAGE }} --build-arg PLATFORM_TAG=${{ env.PLATFORM_TAG }} -t ${{env.PLATFORM_IMAGE_NAME}} ${{env.DOCKERFILE_PATH}}
      
     - name: Docker Login
       uses: azure/docker-login@v1
@@ -55,7 +56,7 @@ jobs:
 
     - name: Publish platform image to the Virto Cloud
       run: |
-        docker tag ${{ env.PLATFORM_IMAGE }}:${{ env.PLATFORM_TAG }} ${{ env.IMAGE_REPOSITORY }}:${{ env.TAG }}
+        docker tag ${{env.PLATFORM_IMAGE_NAME}} ${{ env.IMAGE_REPOSITORY }}:${{ env.TAG }}
         docker push ${{ env.IMAGE_REPOSITORY }}:${{ env.TAG }}
       env:
         TAG: ${{ steps.vars.outputs.paas_tag }}
