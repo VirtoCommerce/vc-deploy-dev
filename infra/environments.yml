@@ -14,7 +14,7 @@
     secretConfig: {}
   storefront:
     imageRepository: virtopaasregistrymain.azurecr.io/vcpt/storefront
-    imageTag: 6.3.0-pr-613-st-2696-slug-endpoint-1a47611d
+    imageTag: 6.2.0-master-da7d847e
     config:
       SnapshotCollectorConfiguration__IsEnabled: false
       VirtoCommerce__DefaultStore: B2B-store
