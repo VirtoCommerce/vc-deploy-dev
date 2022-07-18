@@ -9,9 +9,8 @@
       VirtoCommerce__LocalUploadFolderPath: wwwroot/cms-content
       VirtoCommerce__SampleDataUrl: https://vc3prerelease.blob.core.windows.net/packages/clothing-and-electronics_3_0_2.zip
       APPINSIGHTS_INSTRUMENTATIONKEY: 6dcd2553-1a00-4e3d-95da-421e85c02aed
-      AzureAd__TenantId: bc03e660-5e3a-45c4-bf5c-b75489f78923
-      AzureAd__Priority: 0
-      PasswordLogin__Priority: 1
+      AzureAd__Priority: 1
+      PasswordLogin__Priority: 0
     secretConfig: {}
   storefront:
     imageRepository: virtopaasregistrymain.azurecr.io/vcpt/storefront
