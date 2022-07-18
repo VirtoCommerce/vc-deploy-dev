@@ -29,23 +29,16 @@ spec:
               name: cms-content
         containers:
         - name: vc-storefront-web
-          # readinessProbe:
-          #   httpGet:
-          #     path: /
-          #     port: 80
-          #   failureThreshold: 3
-          #   successThreshold: 1
-          #   initialDelaySeconds: 5
-          #   periodSeconds: 1
+          image: ghcr.io/virtocommerce/storefront:6.1.0-master-39aa5bae
           envFrom:
           - configMapRef:
               name: storefront-cm
           volumeMounts:
             - mountPath: /opt/virtocommerce/storefront/wwwroot/cms-content
               name: cms-content
-    volumes:
-      - name: cms-content
-        emptyDir: {}
+        volumes:
+          - name: cms-content
+            emptyDir: {}
   strategy:
     rollingUpdate:
       maxSurge: 0
