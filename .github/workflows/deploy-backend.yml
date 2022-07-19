@@ -45,7 +45,7 @@ jobs:
         DOCKER_PASSWORD: ${{ secrets.VCPT_ACR_DOCKER_PASSWORD }}
         DOCKERFILE_PATH: ./backend/Dockerfile
         CONTAINER_REGISTRY: virtopaasregistrymain.azurecr.io
-        IMAGE_REPOSITORY: virtopaasregistrymain.azurecr.io/virtostart/platform
+        IMAGE_REPOSITORY: virtopaasregistrymain.azurecr.io/vcpt/platform
         TAG: ${{ env.PLATFORM_VERSION }}-${{ steps.vars.outputs.sha_short }}
     
     - name: Update app
