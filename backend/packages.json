@@ -1,14 +1,16 @@
 {
+  "ManifestVersion": "2.0",
   "PlatformVersion": "3.216.8",
-  "PlatformAssetUrl": "",
-  "ModuleSources": [
-    "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
-  ],
-  "Сustom": [
+  "Sources": [
     {
-      "Id": "vc-module-licensing",
-      "Version": "3.200.0"
+      "Name": "GithubPrivateRepos",
+      "Owner": "VirtoCommerce",
+      "Modules": [
+        {
+          "Id": "vc-module-licensing",
+          "Version": "3.200.0"
+        }
+      ]
     }
-  ],
-  "Modules": []
+  ]
 }
