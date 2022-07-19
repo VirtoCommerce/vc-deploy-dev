@@ -26,7 +26,7 @@ jobs:
 
     - name: Pack
       run: |
-        vc-build install -PackageManifestPath ./backend/packages.json -ProbingPath ./backend/platform/app_data/modules -DiscoveryPath ./backend/platform/modules --root ./backend/platform -SkipDependencySolving
+        vc-build install -PackageManifestPath ./backend/packages.json -ProbingPath ./backend/platform/app_data/modules -DiscoveryPath ./backend/platform/modules --root ./backend/platform -SkipDependencySolving -GitHubToken ${{ secrets.REPO_TOKEN }}
   
     - name: Get platfrom version
       id: platform-version
