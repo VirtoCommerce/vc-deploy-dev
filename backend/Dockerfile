@@ -12,4 +12,3 @@ RUN apt-get clean autoclean \
 WORKDIR /opt/virtocommerce/platform
 
 ENTRYPOINT ["dotnet", "VirtoCommerce.Platform.Web.dll"]
-#
