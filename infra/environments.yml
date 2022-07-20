@@ -1,12 +1,16 @@
 - name: vcpt-license
   servicePlan: B1
   platform:
-    imageRepository: virtopaasregistrymain.azurecr.io/vcpt/platform
-    imageTag: 3.216.8-4207b817
+    imageRepository: virtopaasregistrymain.azurecr.io/vcpt/license
+    imageTag: 3.216.8-ed30f6d9
     tier: enterprise
     config:
       VirtoCommerce__LocalUploadFolderPath: wwwroot/cms-content
-      VirtoCommerce__SampleDataUrl: https://vc3prerelease.blob.core.windows.net/packages/clothing-and-electronics_3_0_2.zip
+      VirtoCommerce__Licensing__LicensePrivateKeyPath: app_data/license.key
+      AzureAd__ApplicationId: 54cefda5-2d23-4518-ac12-f55a0e1225d4
+      AzureAd__TenantId: bc03e660-5e3a-45c4-bf5c-b75489f78923
+      AzureAd__Priority: 0
+      PasswordLogin__Priority: 1
     secretConfig: {}
   ingress: {}
   customApps: {}

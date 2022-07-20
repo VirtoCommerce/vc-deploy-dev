@@ -57,6 +57,6 @@ jobs:
     
     - name: Update app
       run: |
-        vc-build SetHelmParameter -ArgoServer https://argocd.govirto.com -ArgoAppName vcpt-license -ArgoToken ${{ secrets.VCPT_TOKEN }} -HelmParameters platform.image.tag=$TAG
+        vc-build SetHelmParameter -ArgoServer https://argo.virtocommerce.cloud -ArgoAppName vcpt-license -ArgoToken ${{ secrets.VCPT_TOKEN }} -HelmParameters platform.image.tag=$TAG
       env:
         TAG: ${{ env.PLATFORM_VERSION }}-${{ steps.vars.outputs.sha_short }}
