@@ -13,6 +13,15 @@
       AzureAd__Priority: 0
       PasswordLogin__Priority: 1
     secretConfig: {}
+  storefront:
+    imageRepository: virtopaasregistry.azurecr.io/vcpt/storefront
+    imageTag: 6.0
+    config:
+      SnapshotCollectorConfiguration__IsEnabled: false
+      VirtoCommerce__DefaultStore: B2B-store
+      VirtoCommerce__Endpoint__Password: store
+    secretConfig: {}
+    themes: {}
   ingress: {}
   customApps: {}
   protectedParameters: []
