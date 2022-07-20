@@ -25,5 +25,3 @@ jobs:
           vc-build UpdateCloudEnvironment -CloudToken ${{ secrets.VCPT_PLATFORM_TOKEN }} -ArgoConfigFile $ENV_FILE -CloudUrl https://portal.virtocommerce.cloud
         env:
           ENV_FILE: "./infra/environments.yml"
-          ARGO_SERVER: https://argo.virtocommerce.cloud
-          TOKEN: ${{ secrets.VCPT_TOKEN }}
