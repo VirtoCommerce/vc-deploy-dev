@@ -24,7 +24,7 @@ jobs:
     - uses: azure/login@v1
       with:
         client-id: $VIRTOSTART_AZURE_CLIENT_ID
-        tenant-id: $VIRTOSTART_AZURE_TENANT_ID
+        tenant-id: bc03e660-5e3a-45c4-bf5c-b75489f78923
         subscription-id: $VIRTOSTART_AZURE_SUBSCRIPTION_ID
     
     - name: Deploy dashboard
