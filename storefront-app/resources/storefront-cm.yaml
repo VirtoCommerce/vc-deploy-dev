@@ -12,3 +12,4 @@ data:
   VirtoCommerce__DefaultStore: B2B-store
   VirtoCommerce__CacheEnabled: "false"
   VirtoCommerce__CacheSlidingExpiration: "0:0:5"
+  IdentityOptions__Lockout__MaxFailedAccessAttempts: "5"
