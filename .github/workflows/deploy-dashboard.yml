@@ -1,0 +1,28 @@
+name: virtostart dashboard
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'dashboard/**'
+    branches: [ virtostart ]
+
+jobs:
+  gitops:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+
+    - uses: azure/login@v1
+      with:
+        client-id: ${{ secrets.VIRTOSTART_AZURE_CLIENT_ID }}
+        tenant-id: ${{ secrets.VIRTOSTART_AZURE_TENANT_ID }}
+        subscription-id: ${{ secrets.VIRTOSTART_AZURE_SUBSCRIPTION_ID }}
+    
+    - name: Deploy dashboard
+      shell: pwsh
+      run: |
+        ./dashboard/New-AzRgDeploy.ps1
