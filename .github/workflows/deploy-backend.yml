@@ -27,7 +27,7 @@ jobs:
     
     - name: Install vc-build
       run: |
-        dotnet tool install --global VirtoCommerce.GlobalTool
+        dotnet tool install --global VirtoCommerce.GlobalTool --version 3.4.1
 
     - name: Pack
       run: |
