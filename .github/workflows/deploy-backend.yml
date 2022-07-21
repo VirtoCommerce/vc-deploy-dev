@@ -31,7 +31,7 @@ jobs:
 
     - name: Pack
       run: |
-        vc-build InstallModules -PackageManifestPath ./backend/packages.json -ProbingPath ./backend/platform/app_data/modules -DiscoveryPath ./backend/platform/modules --root ./backend/platform -SkipDependencySolving
+        vc-build InstallModules -PackageManifestPath ./backend/packages.json -ProbingPath ./backend/platform/app_data/modules -DiscoveryPath ./backend/platform/modules --root ./backend/platform -SkipDependencySolving  -AzureToken ${{ secrets.BLOB_TOKEN }}
   
     - name: Get platfrom version
       id: platform-version
