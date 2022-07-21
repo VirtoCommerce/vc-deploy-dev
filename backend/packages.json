@@ -1,10 +1,10 @@
 {
-  "ManifestVersion": "2.0",
-  "PlatformVersion": "",
-  "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "",
-  "PlatformAssetUrl": "",
-  "Sources": [
+    "ManifestVersion": "2.0",
+    "PlatformVersion": "3.231.0-alpha.12395",
+    "PlatformImage": "ghcr.io/virtocommerce/platform",
+    "PlatformImageTag": "3.231.0-alpha.12395-dev-5dca7c88",
+    "PlatformAssetUrl": "",
+    "Sources": [
     {
       "Name": "GithubReleases",
       "ModuleSources": [
