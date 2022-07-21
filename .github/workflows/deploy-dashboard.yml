@@ -22,6 +22,7 @@ jobs:
     - uses: azure/login@v1
       with:
         creds: $VIRTOSTART_AZURE_CREDENTIALS
+        enable-AzPSSession: true
     
     - name: Deploy dashboard
       shell: pwsh
