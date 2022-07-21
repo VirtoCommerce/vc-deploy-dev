@@ -36,6 +36,10 @@
           "Version": "3.207.0"
         },
         {
+          "Id": "VirtoCommerce.ElasticSearch",
+          "Version": "3.203.1"
+        },
+        {
           "Id": "VirtoCommerce.Export",
           "Version": "3.200.0"
         },
@@ -94,6 +98,10 @@
         {
           "Id": "VirtoCommerce.Tax",
           "Version": "3.200.0"
+        },
+        {
+          "Id": "VirtoCommerce.ExperienceApi",
+          "Version": "3.211.4"
         },
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
@@ -170,14 +178,6 @@
         {
           "Id": "VirtoCommerce.Return",
           "Version": "3.203.0"
-        },
-        {
-          "Id": "VirtoCommerce.ElasticSearch",
-          "Version": "3.203.1"
-        },
-        {
-          "Id": "VirtoCommerce.ExperienceApi",
-          "Version": "3.211.4"
         }
       ]
     },
