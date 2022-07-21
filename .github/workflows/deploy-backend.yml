@@ -30,6 +30,7 @@ jobs:
         dotnet tool install --global VirtoCommerce.GlobalTool --version 3.4.1
 
     - name: Pack
+      shell: bash {0}
       run: |
         vc-build InstallModules -PackageManifestPath ./backend/packages.json -ProbingPath ./backend/platform/app_data/modules -DiscoveryPath ./backend/platform/modules --root ./backend/platform -SkipDependencySolving  -AzureToken ${{ secrets.BLOB_TOKEN }}
   
