@@ -1,0 +1,69 @@
+name: vcpt platform
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'backend/**'
+    branches: [ vcpt ]
+
+jobs:
+  gitops:
+    runs-on: ubuntu-22.04
+    env:
+      DOCKER_LOGIN: vcpt-repo-saccess
+      DOCKER_PASSWORD: ${{ secrets.VCPT_ACR_DOCKER_PASSWORD }}
+      DOCKERFILE_PATH: ./backend
+      CONTAINER_REGISTRY: virtopaasregistrymain.azurecr.io
+      IMAGE_REPOSITORY: virtopaasregistrymain.azurecr.io/vcpt/platform
+      PLATFORM_IMAGE_NAME: vcpt-platform
+
+    steps:
+    - uses: actions/checkout@v3
+  
+    - name: Az config
+      run: |
+        az config set extension.use_dynamic_install=yes_without_prompt
+    
+    - name: Install vc-build
+      run: |
+        dotnet tool install --global VirtoCommerce.GlobalTool --version 3.4.1
+
+    - name: Pack
+      shell: bash {0}
+      run: |
+        vc-build install -skip InstallPlatform -PackageManifestPath ./backend/packages.json -ProbingPath ./backend/platform/app_data/modules -DiscoveryPath ./backend/platform/modules --root ./backend/platform -SkipDependencySolving  -AzureToken ${{ secrets.BLOB_TOKEN }}
+  
+    - name: Get platfrom version
+      id: platform-version
+      run: |
+        echo "PLATFORM_IMAGE=$(cat ./backend/packages.json | jq -r '.PlatformImage')" >> $GITHUB_ENV
+        echo "PLATFORM_TAG=$(cat ./backend/packages.json | jq -r '.PlatformImageTag')" >> $GITHUB_ENV
+
+    - name: Set outputs
+      id: vars
+      run: echo "::set-output name=paas_tag::${{ env.PLATFORM_TAG }}-$(git rev-parse --short HEAD)"
+
+    - name: Build platform Image
+      run: |
+        docker build --build-arg PLATFORM_IMAGE=${{ env.PLATFORM_IMAGE }} --build-arg PLATFORM_TAG=${{ env.PLATFORM_TAG }} -t ${{env.PLATFORM_IMAGE_NAME}} ${{env.DOCKERFILE_PATH}}
+     
+    - name: Docker Login
+      uses: azure/docker-login@v1
+      with:
+        login-server: ${{ env.CONTAINER_REGISTRY }}
+        username: ${{ env.DOCKER_LOGIN }}
+        password: ${{ env.DOCKER_PASSWORD }}
+
+    - name: Publish platform image to the Virto Cloud
+      run: |
+        docker tag ${{env.PLATFORM_IMAGE_NAME}} ${{ env.IMAGE_REPOSITORY }}:${{ env.TAG }}
+        docker push ${{ env.IMAGE_REPOSITORY }}:${{ env.TAG }}
+      env:
+        TAG: ${{ steps.vars.outputs.paas_tag }}
+    
+    - name: Update app
+      run: |
+        vc-build SetHelmParameter -ArgoServer https://argocd.govirto.com -ArgoAppName vcpt-main -ArgoToken ${{ secrets.VCPT_TOKEN }} -HelmParameters platform.image.tag=$TAG
+      env:
+        TAG: ${{ steps.vars.outputs.paas_tag }}
