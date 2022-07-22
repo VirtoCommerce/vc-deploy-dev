@@ -9,7 +9,7 @@ on:
 
 jobs:
   gitops:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     env:
       DOCKER_LOGIN: vcpt-repo-saccess
       DOCKER_PASSWORD: ${{ secrets.VCPT_ACR_DOCKER_PASSWORD }}
