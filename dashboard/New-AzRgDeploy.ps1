@@ -1,1 +1,0 @@
-New-AzResourceGroupDeployment -ResourceGroupName virtostart -TemplateFile $PSScriptRoot/KPI_dashboard.json -frontAppInsightsName virtostart-main-storefront -backAppInsightsName virtostart-main -dashboardName virtostart-dashboard -appInsightsResourceGroup virtostart -SubscriptionId b3892b92-b924-4861-b669-3a42f408c7d1 -Verbose
