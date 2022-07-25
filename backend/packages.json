@@ -183,7 +183,7 @@
     },
     {
       "Name": "AzureBlob",
-      "Container": "$web",
+      "Container": "packages",
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": []
     }
