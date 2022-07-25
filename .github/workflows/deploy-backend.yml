@@ -20,19 +20,15 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-  
-    - name: Az config
-      run: |
-        az config set extension.use_dynamic_install=yes_without_prompt
-    
+
     - name: Install vc-build
       run: |
-        dotnet tool install --global VirtoCommerce.GlobalTool --version 3.4.1
+        dotnet tool install --global VirtoCommerce.GlobalTool
 
     - name: Pack
       shell: bash {0}
       run: |
-        vc-build install -skip InstallPlatform -PackageManifestPath ./backend/packages.json -ProbingPath ./backend/platform/app_data/modules -DiscoveryPath ./backend/platform/modules --root ./backend/platform -SkipDependencySolving  -AzureToken ${{ secrets.BLOB_TOKEN }}
+        vc-build InstallModules -PackageManifestPath ./backend/packages.json -ProbingPath ./backend/platform/app_data/modules -DiscoveryPath ./backend/platform/modules --root ./backend/platform -SkipDependencySolving
   
     - name: Get platfrom version
       id: platform-version
@@ -47,7 +43,7 @@ jobs:
     - name: Build platform Image
       run: |
         docker build --build-arg PLATFORM_IMAGE=${{ env.PLATFORM_IMAGE }} --build-arg PLATFORM_TAG=${{ env.PLATFORM_TAG }} -t ${{env.PLATFORM_IMAGE_NAME}} ${{env.DOCKERFILE_PATH}}
-     
+
     - name: Docker Login
       uses: azure/docker-login@v1
       with:
@@ -61,7 +57,11 @@ jobs:
         docker push ${{ env.IMAGE_REPOSITORY }}:${{ env.TAG }}
       env:
         TAG: ${{ steps.vars.outputs.paas_tag }}
-    
+
+    - name: Az config
+      run: |
+        az config set extension.use_dynamic_install=yes_without_prompt
+
     - name: Update app
       run: |
         vc-build SetHelmParameter -ArgoServer https://argocd.govirto.com -ArgoAppName vcpt-main -ArgoToken ${{ secrets.VCPT_TOKEN }} -HelmParameters platform.image.tag=$TAG
