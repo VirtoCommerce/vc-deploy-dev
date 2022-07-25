@@ -73,7 +73,7 @@ data:
     {
       "Id": "VirtoCommerce.Catalog",
       "Repository": "VirtoCommerce/vc-module-catalog",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-catalog/releases/download/3.221.0/VirtoCommerce.Catalog_3.221.0.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Catalog_3.222.0-pr-610.zip"
     },
     {
       "Id": "VirtoCommerce.Pricing",
@@ -153,7 +153,7 @@ data:
     {
       "Id": "VirtoCommerce.Sitemaps",
       "Repository": "VirtoCommerce/vc-module-sitemaps",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Sitemaps_3.203.0-pr-46.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Sitemaps_3.205.0-pr-49.zip"
     },
     {
       "Id": "VirtoCommerce.ImageTools",
