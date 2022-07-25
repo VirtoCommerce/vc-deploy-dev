@@ -68,7 +68,7 @@ data:
     {
       "Id": "VirtoCommerce.Store",
       "Repository": "VirtoCommerce/vc-module-store",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-store/releases/download/3.201.0/VirtoCommerce.Store_3.201.0.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-store/releases/download/3.204.0/VirtoCommerce.Store_3.204.0.zip"
     },
     {
       "Id": "VirtoCommerce.Catalog",
@@ -78,7 +78,7 @@ data:
     {
       "Id": "VirtoCommerce.Pricing",
       "Repository": "VirtoCommerce/vc-module-pricing",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Pricing_3.208.0-pr-172.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Pricing_3.210.0-pr-175.zip"
     },
     {
       "Id": "VirtoCommerce.Shipping",
@@ -138,7 +138,7 @@ data:
     {
       "Id": "VirtoCommerce.ExperienceApi",
       "Repository": "VirtoCommerce/vc-module-experience-api",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ExperienceApi_3.221.0-pr-333.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ExperienceApi_3.221.0-pr-328.zip"
     },
     {
       "Id": "VirtoCommerce.WebHooks",
@@ -153,7 +153,7 @@ data:
     {
       "Id": "VirtoCommerce.Sitemaps",
       "Repository": "VirtoCommerce/vc-module-sitemaps",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Sitemaps_3.203.0-pr-48.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Sitemaps_3.203.0-pr-46.zip"
     },
     {
       "Id": "VirtoCommerce.ImageTools",
