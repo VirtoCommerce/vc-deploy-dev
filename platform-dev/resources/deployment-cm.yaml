@@ -185,6 +185,10 @@ data:
         {
           "Id": "VirtoCommerce.Return",
           "Version": "3.203.0"
+        },
+        {
+          "Id": "VirtoCommerce.NativePaymentMethods",
+          "Version": "3.201.0"
         }
       ]
     }
