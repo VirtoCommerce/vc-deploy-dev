@@ -1,5 +1,5 @@
 {
-  "PlatformVersion": "3.225.0",
+  "PlatformVersion": "3.232.0",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -77,7 +77,7 @@
     },
     {
       "Id": "VirtoCommerce.ExperienceApi",
-      "Version": "3.216.0"
+      "Version": "3.223.0"
     },
     {
       "Id": "VirtoCommerce.Export",
@@ -89,7 +89,7 @@
     },
     {
       "Id": "VirtoCommerce.GDPR",
-      "Version": "3.200.0"
+      "Version": "3.201.0"
     },
     {
       "Id": "VirtoCommerce.ImageTools",
@@ -109,11 +109,11 @@
     },
     {
       "Id": "VirtoCommerce.Notifications",
-      "Version": "3.204.0"
+      "Version": "3.207.0"
     },
     {
       "Id": "VirtoCommerce.Orders",
-      "Version": "3.208.0"
+      "Version": "3.210.0"
     },
     {
       "Id": "VirtoCommerce.Payment",
@@ -149,7 +149,7 @@
     },
     {
       "Id": "VirtoCommerce.Sitemaps",
-      "Version": "3.201.0"
+      "Version": "3.204.0"
     },
     {
       "Id": "VirtoCommerce.Store",
