@@ -1,0 +1,30 @@
+name: virtostart dashboard
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'dashboard/**'
+    branches: [ virtostart ]
+
+env:
+  VIRTOSTART_AZURE_CREDENTIALS: ${{ secrets.VIRTOSTART_AZURE_CREDENTIALS }}
+
+jobs:
+  gitops:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+
+    - uses: azure/login@v1
+      with:
+        creds: ${{ env.VIRTOSTART_AZURE_CREDENTIALS }}
+        enable-AzPSSession: true
+    
+    - name: Deploy dashboard
+      shell: pwsh
+      run: |
+        az deployment group create --resource-group virtostart --name dashboard-deployment --template-file ./dashboard/KPI_dashboard.json --parameters frontAppInsightsName=virtostart-main-storefront backAppInsightsName=virtostart-main dashboardName=virtostart-dashboard appInsightsResourceGroup=virtostart SubscriptionId=b3892b92-b924-4861-b669-3a42f408c7d1

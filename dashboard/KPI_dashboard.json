@@ -1,0 +1,1934 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"frontAppInsightsName": {
+			"type": "string"
+		},
+		"backAppInsightsName": {
+			"type": "string"
+		},
+		"appInsightsResourceGroup": {
+			"type": "string"
+		},
+		"dashboardName": {
+			"defaultValue": "KPIs Dashboard",
+			"type": "string"
+		},
+		"SubscriptionId": {
+			"type": "string"
+		}
+	},
+	"variables": {},
+	"resources": [
+		{
+			"name": "[parameters('dashboardName')]",
+			"apiVersion": "2019-01-01-preview",
+			"type": "Microsoft.Portal/dashboards",
+			"location": "[resourceGroup().location]",
+			"tags": {
+				"hidden-title": "[parameters('dashboardName')]"
+			},
+			"properties": {
+				"lenses": {
+					"0": {
+						"order": 0,
+						"parts": {
+							"0": {
+								"position": {
+									"x": 0,
+									"y": 0,
+									"colSpan": 15,
+									"rowSpan": 1
+								},
+								"metadata": {
+									"inputs": [],
+									"type": "Extension/HubsExtension/PartType/MarkdownPart",
+									"settings": {
+										"content": {
+											"settings": {
+												"content": "# Frontend Performance Dashboard",
+												"title": "",
+												"subtitle": "",
+												"markdownUri": null
+											}
+										}
+									}
+								}
+							},
+							"1": {
+								"position": {
+									"x": 0,
+									"y": 1,
+									"colSpan": 15,
+									"rowSpan": 2
+								},
+								"metadata": {
+									"inputs": [
+										{
+											"name": "options",
+											"value": {
+												"chart": {
+													"metrics": [
+														{
+															"resourceMetadata": {
+																"id": "[concat(resourceGroup().Id, '/providers/microsoft.insights/components/', parameters('frontAppInsightsName'))]"
+															},
+															"name": "availabilityResults/availabilityPercentage",
+															"aggregationType": 4,
+															"namespace": "microsoft.insights/components",
+															"metricVisualization": {
+																"displayName": "Availability",
+																"color": "#47BDF5"
+															}
+														}
+													],
+													"title": "Average availability",
+													"visualization": {
+														"chartType": 3,
+														"legendVisualization": {
+															"isVisible": true,
+															"position": 2,
+															"hideSubtitle": false
+														},
+														"axisVisualization": {
+															"x": {
+																"isVisible": true,
+																"axisType": 2
+															},
+															"y": {
+																"isVisible": true,
+																"axisType": 1
+															}
+														}
+													},
+													"openBladeOnClick": {
+														"openBlade": true,
+														"destinationBlade": {
+															"extensionName": "HubsExtension",
+															"bladeName": "ResourceMenuBlade",
+															"parameters": {
+																"id": "[concat(resourceGroup().Id, '/providers/microsoft.insights/components/', parameters('frontAppInsightsName'))]",
+																"menuid": "availability"
+															}
+														}
+													}
+												}
+											}
+										},
+										{
+											"name": "sharedTimeRange",
+											"isOptional": true
+										}
+									],
+									"type": "Extension/HubsExtension/PartType/MonitorChartPart",
+									"settings": {
+										"content": {
+											"options": {
+												"chart": {
+													"metrics": [
+														{
+															"resourceMetadata": {
+																"id": "[concat(resourceGroup().Id, '/providers/microsoft.insights/components/', parameters('frontAppInsightsName'))]"
+															},
+															"name": "availabilityResults/availabilityPercentage",
+															"aggregationType": 4,
+															"namespace": "microsoft.insights/components",
+															"metricVisualization": {
+																"displayName": "Availability",
+																"color": "#47BDF5"
+															}
+														}
+													],
+													"title": "Average availability",
+													"visualization": {
+														"chartType": 3,
+														"legendVisualization": {
+															"isVisible": true,
+															"position": 2,
+															"hideSubtitle": false
+														},
+														"axisVisualization": {
+															"x": {
+																"isVisible": true,
+																"axisType": 2
+															},
+															"y": {
+																"isVisible": true,
+																"axisType": 1
+															}
+														},
+														"disablePinning": true
+													},
+													"openBladeOnClick": {
+														"openBlade": true,
+														"destinationBlade": {
+															"extensionName": "HubsExtension",
+															"bladeName": "ResourceMenuBlade",
+															"parameters": {
+																"id": "[concat(resourceGroup().Id, '/providers/microsoft.insights/components/', parameters('frontAppInsightsName'))]",
+																"menuid": "availability"
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							},
+							"2": {
+								"position": {
+									"x": 0,
+									"y": 3,
+									"colSpan": 5,
+									"rowSpan": 4
+								},
+								"metadata": {
+									"inputs": [
+										{
+											"name": "ComponentId",
+											"value": "[concat(resourceGroup().Id, '/providers/microsoft.insights/components/', parameters('frontAppInsightsName'))]",
+											"isOptional": true
+										},
+										{
+											"name": "ResourceIds",
+											"value": [
+												"[concat(resourceGroup().Id, '/providers/microsoft.insights/components/', parameters('frontAppInsightsName'))]"
+											],
+											"isOptional": true
+										},
+										{
+											"name": "Type",
+											"value": "workbook",
+											"isOptional": true
+										},
+										{
+											"name": "GalleryResourceType",
+											"value": "microsoft.insights/components",
+											"isOptional": true
+										},
+										{
+											"name": "PinName",
+											"value": "Customer Login (seconds)",
+											"isOptional": true
+										},
+										{
+											"name": "StepSettings",
+											"value": "{\"version\":\"KqlItem/1.0\",\"query\":\"let timeGrain = 2h;\\nlet dataset=requests \\n| where timestamp {TimeRange} \\n| where operation_Name like \\\"POST Account/Login [language/store]\\\"\\n| extend duration = round(duration / 1000, 2);\\ndataset \\n| summarize MAX=max(duration), AVG=avg(duration), MIN=min(duration) by bin(timestamp, timeGrain) \\n| render linechart with(kind=default, title=\\\"Customer Login (seconds)\\\", ytitle=\\\"Sec\\\", xtitle=\\\"timestamps\\\", legend=visible)\\n\",\"size\":0,\"aggregation\":3,\"showAnnotations\":false,\"title\":\"Customer Login (seconds)\",\"noDataMessage\":\"This report measures the duration between when a customer clicks the login button, to arrival on the homepage (in seconds)\",\"queryType\":0,\"resourceType\":\"microsoft.insights/components\",\"chartSettings\":{\"ySettings\":{\"numberFormatSettings\":{\"unit\":0,\"options\":{\"style\":\"decimal\",\"useGrouping\":true,\"maximumFractionDigits\":2}}}}}",
+											"isOptional": true
+										},
+										{
+											"name": "ParameterValues",
+											"value": {
+												"TimeRange": {
+													"type": 4,
+													"value": {
+														"durationMs": 86400000
+													},
+													"isPending": false,
+													"isWaiting": false,
+													"isFailed": false,
+													"isGlobal": false,
+													"labelValue": "Last 24 hours",
+													"displayName": "TimeRange",
+													"formattedValue": "Last 24 hours"
+												},
+												"TimeGrain": {
+													"type": 1,
+													"value": "2h",
+													"isPending": false,
+													"isWaiting": false,
+													"isFailed": false,
+													"isGlobal": false,
+													"labelValue": "2h",
+													"displayName": "TimeGrain",
+													"formattedValue": "2h"
+												}
+											},
+											"isOptional": true
+										},
+										{
+											"name": "IsQueryContainTimeRange",
+											"isOptional": true
+										}
+									],
+									"type": "Extension/AppInsightsExtension/PartType/PinnedNotebookQueryPart"
+								}
+							},
+							"3": {
+								"position": {
+									"x": 5,
+									"y": 3,
+									"colSpan": 5,
+									"rowSpan": 4
+								},
+								"metadata": {
+									"inputs": [
+										{
+											"name": "ComponentId",
+											"value": "[concat(resourceGroup().Id, '/providers/microsoft.insights/components/', parameters('frontAppInsightsName'))]",
+											"isOptional": true
+										},
+										{
+											"name": "TimeContext",
+											"value": null,
+											"isOptional": true
+										},
+										{
+											"name": "ResourceIds",
+											"value": [
+												"[concat(resourceGroup().Id, '/providers/microsoft.insights/components/', parameters('frontAppInsightsName'))]"
+											],
+											"isOptional": true
+										},
+										{
+											"name": "Type",
+											"value": "workbook",
+											"isOptional": true
+										},
+										{
+											"name": "GalleryResourceType",
+											"value": "microsoft.insights/components",
+											"isOptional": true
+										},
+										{
+											"name": "PinName",
+											"value": "Customer Homepage (seconds)",
+											"isOptional": true
+										},
+										{
+											"name": "StepSettings",
+											"value": "{\"version\":\"KqlItem/1.0\",\"query\":\"let timeGrain = 2h;\\nlet dataset=requests\\n| where timestamp {TimeRange} \\n| where operation_Name like \\\"GET Home/Index [language/store]\\\"\\n| extend duration = round(duration / 1000, 2);\\ndataset \\n| summarize MAX=max(duration), AVG=avg(duration), MIN=min(duration) by bin(timestamp, timeGrain) \\n| render linechart with(kind=default, title=\\\"Customer Homepage (seconds)\\\", ytitle=\\\"Sec\\\", xtitle=\\\"timestamps\\\", legend=visible)\\n\",\"size\":0,\"aggregation\":3,\"showAnnotations\":false,\"title\":\"Customer Homepage (seconds)\",\"noDataMessage\":\"This report measures the duration between when a customer clicks the home button, to arrival on the homepage (in seconds)\",\"showExportToExcel\":false,\"exportToExcelOptions\":\"all\",\"queryType\":0,\"resourceType\":\"microsoft.insights/components\",\"chartSettings\":{\"ySettings\":{\"numberFormatSettings\":{\"unit\":0,\"options\":{\"style\":\"decimal\",\"useGrouping\":true,\"maximumFractionDigits\":2}}}}}",
+											"isOptional": true
+										},
+										{
+											"name": "ParameterValues",
+											"value": {
+												"TimeRange": {
+													"type": 4,
+													"value": {
+														"durationMs": 86400000
+													},
+													"isPending": false,
+													"isWaiting": false,
+													"isFailed": false,
+													"isGlobal": false,
+													"labelValue": "Last 24 hours",
+													"displayName": "TimeRange",
+													"formattedValue": "Last 24 hours"
+												},
+												"TimeGrain": {
+													"type": 1,
+													"value": "2h",
+													"isPending": false,
+													"isWaiting": false,
+													"isFailed": false,
+													"isGlobal": false,
+													"labelValue": "2h",
+													"displayName": "TimeGrain",
+													"formattedValue": "2h"
+												}
+											},
+											"isOptional": true
+										}
+									],
+									"type": "Extension/AppInsightsExtension/PartType/PinnedNotebookQueryPart"
+								}
+							},
+							"4": {
+								"position": {
+									"x": 10,
+									"y": 3,
+									"colSpan": 5,
+									"rowSpan": 4
+								},
+								"metadata": {
+									"inputs": [
+										{
+											"name": "ComponentId",
+											"value": "[concat(resourceGroup().Id, '/providers/microsoft.insights/components/', parameters('frontAppInsightsName'))]",
+											"isOptional": true
+										},
+										{
+											"name": "TimeContext",
+											"value": null,
+											"isOptional": true
+										},
+										{
+											"name": "ResourceIds",
+											"value": [
+												"[concat(resourceGroup().Id, '/providers/microsoft.insights/components/', parameters('frontAppInsightsName'))]"
+											],
+											"isOptional": true
+										},
+										{
+											"name": "Type",
+											"value": "workbook",
+											"isOptional": true
+										},
+										{
+											"name": "GalleryResourceType",
+											"value": "microsoft.insights/components",
+											"isOptional": true
+										},
+										{
+											"name": "PinName",
+											"value": "Customer Catalog Browsing (seconds)",
+											"isOptional": true
+										},
+										{
+											"name": "StepSettings",
+											"value": "{\"version\":\"KqlItem/1.0\",\"query\":\"let timeGrain = 2h;\\nlet dataset=requests \\n| where timestamp {TimeRange} \\n| where operation_Name like \\\"GET Product/ProductDetails [language/productId/store]\\\" \\n| extend duration = round(duration / 1000, 2); \\ndataset \\n| summarize MAX=max(duration), AVG=avg(duration), MIN=min(duration) by bin(timestamp, timeGrain) \\n| render linechart with(kind=default, title=\\\"Customer Catalog Browsing (seconds)\\\", ytitle=\\\"Sec\\\", xtitle=\\\"timestamps\\\", legend=visible)\\n\",\"size\":0,\"aggregation\":3,\"showAnnotations\":false,\"title\":\"Customer Catalog Browsing (seconds)\",\"noDataMessage\":\"This report measures the duration between when a customer clicks the catalog entry, to arrival on the catalog page (in seconds)\",\"showExportToExcel\":false,\"exportToExcelOptions\":\"all\",\"queryType\":0,\"resourceType\":\"microsoft.insights/components\",\"chartSettings\":{\"ySettings\":{\"numberFormatSettings\":{\"unit\":0,\"options\":{\"style\":\"decimal\",\"useGrouping\":true,\"maximumFractionDigits\":2}}}}}",
+											"isOptional": true
+										},
+										{
+											"name": "ParameterValues",
+											"value": {
+												"TimeRange": {
+													"type": 4,
+													"value": {
+														"durationMs": 86400000
+													},
+													"isPending": false,
+													"isWaiting": false,
+													"isFailed": false,
+													"isGlobal": false,
+													"labelValue": "Last 24 hours",
+													"displayName": "TimeRange",
+													"formattedValue": "Last 24 hours"
+												},
+												"TimeGrain": {
+													"type": 1,
+													"value": "2h",
+													"isPending": false,
+													"isWaiting": false,
+													"isFailed": false,
+													"isGlobal": false,
+													"labelValue": "2h",
+													"displayName": "TimeGrain",
+													"formattedValue": "2h"
+												}
+											},
+											"isOptional": true
+										}
+									],
+									"type": "Extension/AppInsightsExtension/PartType/PinnedNotebookQueryPart"
+								}
+							},
+							"5": {
+								"position": {
+									"x": 0,
+									"y": 7,
+									"colSpan": 5,
+									"rowSpan": 4
+								},
+								"metadata": {
+									"inputs": [
+										{
+											"name": "ComponentId",
+											"value": "[concat(resourceGroup().Id, '/providers/microsoft.insights/components/', parameters('frontAppInsightsName'))]",
+											"isOptional": true
+										},
+										{
+											"name": "TimeContext",
+											"value": null,
+											"isOptional": true
+										},
+										{
+											"name": "ResourceIds",
+											"value": [
+												"[concat(resourceGroup().Id, '/providers/microsoft.insights/components/', parameters('frontAppInsightsName'))]"
+											],
+											"isOptional": true
+										},
+										{
+											"name": "Type",
+											"value": "workbook",
+											"isOptional": true
+										},
+										{
+											"name": "GalleryResourceType",
+											"value": "microsoft.insights/components",
+											"isOptional": true
+										},
+										{
+											"name": "PinName",
+											"value": "Customer Cart (seconds)",
+											"isOptional": true
+										},
+										{
+											"name": "StepSettings",
+											"value": "{\"version\":\"KqlItem/1.0\",\"query\":\"let timeGrain = 2h;\\nlet dataset=requests\\n| where timestamp {TimeRange} \\n| where operation_Name like \\\"GET Cart/Index [language/store]\\\"\\n| extend duration = round(duration / 1000, 2);\\ndataset\\n| summarize MAX=max(duration), AVG=avg(duration), MIN=min(duration) by bin(timestamp, timeGrain)\\n| render linechart with(kind=default, title=\\\"Customer Cart (seconds)\\\", ytitle=\\\"Sec\\\", xtitle=\\\"timestamps\\\", legend=visible)\\n\",\"size\":0,\"aggregation\":3,\"showAnnotations\":false,\"title\":\"Customer Cart (seconds)\",\"noDataMessage\":\"This report measures the duration between a customer clicks the cart button, to arrival on the cart page\",\"showExportToExcel\":false,\"exportToExcelOptions\":\"all\",\"queryType\":0,\"resourceType\":\"microsoft.insights/components\",\"chartSettings\":{\"ySettings\":{\"numberFormatSettings\":{\"unit\":0,\"options\":{\"style\":\"decimal\",\"useGrouping\":true,\"maximumFractionDigits\":2}}}}}",
+											"isOptional": true
+										},
+										{
+											"name": "ParameterValues",
+											"value": {
+												"TimeRange": {
+													"type": 4,
+													"value": {
+														"durationMs": 86400000
+													},
+													"isPending": false,
+													"isWaiting": false,
+													"isFailed": false,
+													"isGlobal": false,
+													"labelValue": "Last 24 hours",
+													"displayName": "TimeRange",
+													"formattedValue": "Last 24 hours"
+												},
+												"TimeGrain": {
+													"type": 1,
+													"value": "2h",
+													"isPending": false,
+													"isWaiting": false,
+													"isFailed": false,
+													"isGlobal": false,
+													"labelValue": "2h",
+													"displayName": "TimeGrain",
+													"formattedValue": "2h"
+												}
+											},
+											"isOptional": true
+										}
+									],
+									"type": "Extension/AppInsightsExtension/PartType/PinnedNotebookQueryPart"
+								}
+							},
+							"6": {
+								"position": {
+									"x": 5,
+									"y": 7,
+									"colSpan": 5,
+									"rowSpan": 4
+								},
+								"metadata": {
+									"inputs": [
+										{
+											"name": "ComponentId",
+											"value": "[concat(resourceGroup().Id, '/providers/microsoft.insights/components/', parameters('frontAppInsightsName'))]",
+											"isOptional": true
+										},
+										{
+											"name": "TimeContext",
+											"value": null,
+											"isOptional": true
+										},
+										{
+											"name": "ResourceIds",
+											"value": [
+												"[concat(resourceGroup().Id, '/providers/microsoft.insights/components/', parameters('frontAppInsightsName'))]"
+											],
+											"isOptional": true
+										},
+										{
+											"name": "Type",
+											"value": "workbook",
+											"isOptional": true
+										},
+										{
+											"name": "GalleryResourceType",
+											"value": "microsoft.insights/components",
+											"isOptional": true
+										},
+										{
+											"name": "PinName",
+											"value": "Customer Checkout (seconds)",
+											"isOptional": true
+										},
+										{
+											"name": "StepSettings",
+											"value": "{\"version\":\"KqlItem/1.0\",\"query\":\"let timeGrain = 2h;\\nlet dataset=requests\\n| where timestamp {TimeRange} \\n| where operation_Name like \\\"GET RsCart/AuthorizeNetExternalPaymentCallback [language/store]\\\"\\n| extend duration = round(duration / 1000, 2);\\ndataset\\n| summarize MAX=max(duration), AVG=avg(duration), MIN=min(duration) by bin(timestamp, timeGrain)\\n| render linechart with(kind=default, title=\\\"Customer Checkout (seconds)\\\", ytitle=\\\"Sec\\\", xtitle=\\\"timestamps\\\", legend=visible)\\n\",\"size\":0,\"aggregation\":3,\"showAnnotations\":false,\"title\":\"Customer Checkout (seconds)\",\"noDataMessage\":\"\",\"showExportToExcel\":false,\"exportToExcelOptions\":\"all\",\"queryType\":0,\"resourceType\":\"microsoft.insights/components\",\"chartSettings\":{\"ySettings\":{\"numberFormatSettings\":{\"unit\":0,\"options\":{\"style\":\"decimal\",\"useGrouping\":true,\"maximumFractionDigits\":2}}}}}",
+											"isOptional": true
+										},
+										{
+											"name": "ParameterValues",
+											"value": {
+												"TimeRange": {
+													"type": 4,
+													"value": {
+														"durationMs": 86400000
+													},
+													"isPending": false,
+													"isWaiting": false,
+													"isFailed": false,
+													"isGlobal": false,
+													"labelValue": "Last 24 hours",
+													"displayName": "TimeRange",
+													"formattedValue": "Last 24 hours"
+												},
+												"TimeGrain": {
+													"type": 1,
+													"value": "2h",
+													"isPending": false,
+													"isWaiting": false,
+													"isFailed": false,
+													"isGlobal": false,
+													"labelValue": "2h",
+													"displayName": "TimeGrain",
+													"formattedValue": "2h"
+												}
+											},
+											"isOptional": true
+										}
+									],
+									"type": "Extension/AppInsightsExtension/PartType/PinnedNotebookQueryPart"
+								}
+							},
+							"7": {
+								"position": {
+									"x": 10,
+									"y": 7,
+									"colSpan": 5,
+									"rowSpan": 4
+								},
+								"metadata": {
+									"inputs": [
+										{
+											"name": "ComponentId",
+											"value": "[concat(resourceGroup().Id, '/providers/microsoft.insights/components/', parameters('frontAppInsightsName'))]",
+											"isOptional": true
+										},
+										{
+											"name": "TimeContext",
+											"value": null,
+											"isOptional": true
+										},
+										{
+											"name": "ResourceIds",
+											"value": [
+												"[concat(resourceGroup().Id, '/providers/microsoft.insights/components/', parameters('frontAppInsightsName'))]"
+											],
+											"isOptional": true
+										},
+										{
+											"name": "Type",
+											"value": "workbook",
+											"isOptional": true
+										},
+										{
+											"name": "GalleryResourceType",
+											"value": "microsoft.insights/components",
+											"isOptional": true
+										},
+										{
+											"name": "PinName",
+											"value": "Customer Create Order (seconds)",
+											"isOptional": true
+										},
+										{
+											"name": "StepSettings",
+											"value": "{\"version\":\"KqlItem/1.0\",\"query\":\"let timeGrain = 2h;\\nlet dataset=requests\\n| where timestamp {TimeRange} \\n| where operation_Name like \\\"POST ApiCart/CreateOrderFromDefaultCart\\\"\\n| extend duration = round(duration / 1000, 2);\\ndataset\\n| summarize MAX=max(duration), AVG=avg(duration), MIN=min(duration) by bin(timestamp, timeGrain)\\n| render linechart with(kind=default, title=\\\"Customer Create Order (seconds)\\\", ytitle=\\\"Sec\\\", xtitle=\\\"timestamps\\\", legend=visible)\\n\",\"size\":0,\"aggregation\":3,\"showAnnotations\":false,\"title\":\"Customer Create Order (seconds)\",\"noDataMessage\":\"\",\"showExportToExcel\":false,\"exportToExcelOptions\":\"all\",\"queryType\":0,\"resourceType\":\"microsoft.insights/components\",\"chartSettings\":{\"ySettings\":{\"numberFormatSettings\":{\"unit\":0,\"options\":{\"style\":\"decimal\",\"useGrouping\":true,\"maximumFractionDigits\":2}}}}}",
+											"isOptional": true
+										},
+										{
+											"name": "ParameterValues",
+											"value": {
+												"TimeRange": {
+													"type": 4,
+													"value": {
+														"durationMs": 86400000
+													},
+													"isPending": false,
+													"isWaiting": false,
+													"isFailed": false,
+													"isGlobal": false,
+													"labelValue": "Last 24 hours",
+													"displayName": "TimeRange",
+													"formattedValue": "Last 24 hours"
+												},
+												"TimeGrain": {
+													"type": 1,
+													"value": "2h",
+													"isPending": false,
+													"isWaiting": false,
+													"isFailed": false,
+													"isGlobal": false,
+													"labelValue": "2h",
+													"displayName": "TimeGrain",
+													"formattedValue": "2h"
+												}
+											},
+											"isOptional": true
+										}
+									],
+									"type": "Extension/AppInsightsExtension/PartType/PinnedNotebookQueryPart"
+								}
+							},
+							"8": {
+								"position": {
+									"x": 0,
+									"y": 11,
+									"colSpan": 5,
+									"rowSpan": 4
+								},
+								"metadata": {
+									"inputs": [
+										{
+											"name": "options",
+											"value": {
+												"chart": {
+													"metrics": [
+														{
+															"resourceMetadata": {
+																"id": "[concat(resourceGroup().Id, '/providers/microsoft.insights/components/', parameters('frontAppInsightsName'))]"
+															},
+															"name": "users/count",
+															"aggregationType": 5,
+															"namespace": "microsoft.insights/components/kusto",
+															"metricVisualization": {
+																"displayName": "Users"
+															}
+														}
+													],
+													"title": "Unique Users",
+													"titleKind": 1,
+													"visualization": {
+														"chartType": 1,
+														"legendVisualization": {
+															"isVisible": true,
+															"position": 2,
+															"hideSubtitle": false
+														},
+														"axisVisualization": {
+															"x": {
+																"isVisible": true,
+																"axisType": 2
+															},
+															"y": {
+																"isVisible": true,
+																"axisType": 1
+															}
+														}
+													}
+												},
+												"version": 2
+											}
+										},
+										{
+											"name": "sharedTimeRange",
+											"isOptional": true
+										}
+									],
+									"type": "Extension/HubsExtension/PartType/MonitorChartPart",
+									"settings": {
+										"content": {
+											"options": {
+												"chart": {
+													"metrics": [
+														{
+															"resourceMetadata": {
+																"id": "[concat(resourceGroup().Id, '/providers/microsoft.insights/components/', parameters('frontAppInsightsName'))]"
+															},
+															"name": "users/count",
+															"aggregationType": 5,
+															"namespace": "microsoft.insights/components/kusto",
+															"metricVisualization": {
+																"displayName": "Users"
+															}
+														}
+													],
+													"title": "Unique Customers",
+													"titleKind": 2,
+													"visualization": {
+														"chartType": 1,
+														"legendVisualization": {
+															"isVisible": true,
+															"position": 2,
+															"hideSubtitle": false
+														},
+														"axisVisualization": {
+															"x": {
+																"isVisible": true,
+																"axisType": 2
+															},
+															"y": {
+																"isVisible": true,
+																"axisType": 1
+															}
+														},
+														"disablePinning": true
+													}
+												},
+												"version": 2
+											}
+										}
+									}
+								}
+							},
+							"9": {
+								"position": {
+									"x": 5,
+									"y": 11,
+									"colSpan": 5,
+									"rowSpan": 4
+								},
+								"metadata": {
+									"inputs": [
+										{
+											"name": "ComponentId",
+											"value": {
+												"SubscriptionId": "[parameters('SubscriptionId')]",
+												"ResourceGroup": "[parameters('appInsightsResourceGroup')]",
+												"Name": "[parameters('frontAppInsightsName')]",
+												"ResourceId": "[concat(resourceGroup().Id, '/providers/microsoft.insights/components/', parameters('frontAppInsightsName'))]"
+											}
+										},
+										{
+											"name": "Query",
+											"value": "union pageViews,customEvents\n| where timestamp between((now()-24h)..now())\n| summarize Users=dcount(user_Id) by client_City, client_CountryOrRegion, bin(timestamp, 1h)\n| order by timestamp asc\n| render barchart\n"
+										},
+										{
+											"name": "Dimensions",
+											"value": {
+												"xAxis": {
+													"name": "client_CountryOrRegion",
+													"type": "string"
+												},
+												"yAxis": [
+													{
+														"name": "Users",
+														"type": "long"
+													}
+												],
+												"splitBy": [
+													{
+														"name": "client_City",
+														"type": "string"
+													}
+												],
+												"aggregation": "Sum"
+											}
+										},
+										{
+											"name": "Version",
+											"value": "1.0"
+										},
+										{
+											"name": "PartId",
+											"value": "3acf754b-1acd-487f-b90c-11e4bc1ba49a"
+										},
+										{
+											"name": "PartTitle",
+											"value": "Analytics"
+										},
+										{
+											"name": "PartSubTitle",
+											"value": "[parameters('frontAppInsightsName')]"
+										},
+										{
+											"name": "resourceTypeMode",
+											"value": "components"
+										},
+										{
+											"name": "ControlType",
+											"value": "AnalyticsChart"
+										},
+										{
+											"name": "SpecificChart",
+											"value": "Bar"
+										},
+										{
+											"name": "TimeRange",
+											"isOptional": true
+										},
+										{
+											"name": "DashboardId",
+											"isOptional": true
+										},
+										{
+											"name": "Scope",
+											"isOptional": true
+										},
+										{
+											"name": "DraftRequestParameters",
+											"isOptional": true
+										},
+										{
+											"name": "LegendOptions",
+											"isOptional": true
+										},
+										{
+											"name": "IsQueryContainTimeRange",
+											"isOptional": true
+										}
+									],
+									"type": "Extension/Microsoft_OperationsManagementSuite_Workspace/PartType/LogsDashboardPart",
+									"settings": {
+										"content": {
+											"Query": "union pageViews,customEvents\n| summarize Users=dcount(user_Id) by client_CountryOrRegion\n| render piechart\n\n",
+											"SpecificChart": "Pie",
+											"PartTitle": "Customers per Country",
+											"Dimensions": {
+												"xAxis": {
+													"name": "client_CountryOrRegion",
+													"type": "string"
+												},
+												"yAxis": [
+													{
+														"name": "Users",
+														"type": "long"
+													}
+												],
+												"splitBy": [],
+												"aggregation": "Sum"
+											},
+											"LegendOptions": {
+												"isEnabled": false,
+												"position": "Bottom"
+											},
+											"IsQueryContainTimeRange": false
+										}
+									},
+									"asset": {
+										"idInputName": "ComponentId",
+										"type": "ApplicationInsights"
+									}
+								}
+							},
+							"10": {
+								"position": {
+									"x": 10,
+									"y": 11,
+									"colSpan": 5,
+									"rowSpan": 4
+								},
+								"metadata": {
+									"inputs": [
+										{
+											"name": "ComponentId",
+											"value": {
+												"SubscriptionId": "[parameters('SubscriptionId')]",
+												"ResourceGroup": "[parameters('appInsightsResourceGroup')]",
+												"Name": "[parameters('frontAppInsightsName')]",
+												"ResourceId": "[concat(resourceGroup().Id, '/providers/microsoft.insights/components/', parameters('frontAppInsightsName'))]"
+											}
+										},
+										{
+											"name": "Query",
+											"value": "union pageViews,customEvents\n| where client_City != ''\n| summarize Users=dcount(user_Id) by client_City\n| render piechart\n"
+										},
+										{
+											"name": "Dimensions",
+											"value": {
+												"xAxis": {
+													"name": "client_CountryOrRegion",
+													"type": "string"
+												},
+												"yAxis": [
+													{
+														"name": "Users",
+														"type": "long"
+													}
+												],
+												"splitBy": [
+													{
+														"name": "client_City",
+														"type": "string"
+													}
+												],
+												"aggregation": "Sum"
+											}
+										},
+										{
+											"name": "Version",
+											"value": "1.0"
+										},
+										{
+											"name": "PartId",
+											"value": "3acf754b-1acd-487f-b90c-11e4bc1ba49a"
+										},
+										{
+											"name": "PartTitle",
+											"value": "Analytics"
+										},
+										{
+											"name": "PartSubTitle",
+											"value": "[parameters('frontAppInsightsName')]"
+										},
+										{
+											"name": "resourceTypeMode",
+											"value": "components"
+										},
+										{
+											"name": "ControlType",
+											"value": "AnalyticsChart"
+										},
+										{
+											"name": "SpecificChart",
+											"value": "Bar"
+										},
+										{
+											"name": "TimeRange",
+											"isOptional": true
+										},
+										{
+											"name": "DashboardId",
+											"isOptional": true
+										},
+										{
+											"name": "Scope",
+											"isOptional": true
+										},
+										{
+											"name": "DraftRequestParameters",
+											"isOptional": true
+										},
+										{
+											"name": "LegendOptions",
+											"isOptional": true
+										},
+										{
+											"name": "IsQueryContainTimeRange",
+											"isOptional": true
+										}
+									],
+									"type": "Extension/Microsoft_OperationsManagementSuite_Workspace/PartType/LogsDashboardPart",
+									"settings": {
+										"content": {
+											"Query": "union pageViews,customEvents\n| where client_City != ''\n| summarize Users=dcount(user_Id) by client_City\n| sort by Users\n| render piechart\n",
+											"SpecificChart": "Pie",
+											"PartTitle": "Customers per City",
+											"Dimensions": {
+												"xAxis": {
+													"name": "client_City",
+													"type": "string"
+												},
+												"yAxis": [
+													{
+														"name": "Users",
+														"type": "long"
+													}
+												],
+												"splitBy": [],
+												"aggregation": "Sum"
+											},
+											"LegendOptions": {
+												"isEnabled": false,
+												"position": "Bottom"
+											},
+											"IsQueryContainTimeRange": false
+										}
+									},
+									"asset": {
+										"idInputName": "ComponentId",
+										"type": "ApplicationInsights"
+									}
+								}
+							},
+							"11": {
+								"position": {
+									"x": 0,
+									"y": 15,
+									"colSpan": 5,
+									"rowSpan": 4
+								},
+								"metadata": {
+									"inputs": [
+										{
+											"name": "ComponentId",
+											"value": {
+												"SubscriptionId": "[parameters('SubscriptionId')]",
+												"ResourceGroup": "[parameters('appInsightsResourceGroup')]",
+												"Name": "[parameters('frontAppInsightsName')]",
+												"ResourceId": "[concat(resourceGroup().Id, '/providers/microsoft.insights/components/', parameters('frontAppInsightsName'))]"
+											}
+										},
+										{
+											"name": "Query",
+											"value": "union pageViews,customEvents\n| where timestamp between((now()-24h)..now())\n| summarize Users=dcount(user_Id) by client_Browser , bin(timestamp, 1h)\n| order by timestamp asc\n| render barchart\n"
+										},
+										{
+											"name": "Dimensions",
+											"value": {
+												"xAxis": {
+													"name": "client_Browser",
+													"type": "string"
+												},
+												"yAxis": [
+													{
+														"name": "Users",
+														"type": "long"
+													}
+												],
+												"splitBy": [],
+												"aggregation": "Sum"
+											}
+										},
+										{
+											"name": "Version",
+											"value": "1.0"
+										},
+										{
+											"name": "PartId",
+											"value": "674ba85c-4e44-4fd0-b542-2a9ae2009456"
+										},
+										{
+											"name": "PartTitle",
+											"value": "Analytics"
+										},
+										{
+											"name": "PartSubTitle",
+											"value": "[parameters('frontAppInsightsName')]"
+										},
+										{
+											"name": "resourceTypeMode",
+											"value": "components"
+										},
+										{
+											"name": "ControlType",
+											"value": "AnalyticsDonut"
+										},
+										{
+											"name": "TimeRange",
+											"isOptional": true
+										},
+										{
+											"name": "DashboardId",
+											"isOptional": true
+										},
+										{
+											"name": "SpecificChart",
+											"isOptional": true
+										},
+										{
+											"name": "Scope",
+											"isOptional": true
+										},
+										{
+											"name": "DraftRequestParameters",
+											"isOptional": true
+										},
+										{
+											"name": "LegendOptions",
+											"isOptional": true
+										},
+										{
+											"name": "IsQueryContainTimeRange",
+											"isOptional": true
+										}
+									],
+									"type": "Extension/Microsoft_OperationsManagementSuite_Workspace/PartType/LogsDashboardPart",
+									"settings": {
+										"content": {
+											"Query": "union pageViews,customEvents\n| summarize Users=dcount(user_Id) by client_Browser \n| render barchart\n\n",
+											"PartTitle": "Web Browser (Customer % split)",
+											"LegendOptions": {
+												"isEnabled": false,
+												"position": "Bottom"
+											},
+											"IsQueryContainTimeRange": false
+										}
+									}
+								}
+							},
+							"12": {
+								"position": {
+									"x": 5,
+									"y": 15,
+									"colSpan": 5,
+									"rowSpan": 4
+								},
+								"metadata": {
+									"inputs": [
+										{
+											"name": "ComponentId",
+											"value": {
+												"SubscriptionId": "[parameters('SubscriptionId')]",
+												"ResourceGroup": "[parameters('appInsightsResourceGroup')]",
+												"Name": "[parameters('frontAppInsightsName')]",
+												"ResourceId": "[concat(resourceGroup().Id, '/providers/microsoft.insights/components/', parameters('frontAppInsightsName'))]"
+											}
+										},
+										{
+											"name": "Query",
+											"value": "union pageViews,customEvents\n| where timestamp between((now()-24h)..now())\n| summarize Users=dcount(user_Id) by client_OS , bin(timestamp, 1h)\n| order by timestamp asc\n| render barchart\n"
+										},
+										{
+											"name": "Dimensions",
+											"value": {
+												"xAxis": {
+													"name": "timestamp",
+													"type": "datetime"
+												},
+												"yAxis": [
+													{
+														"name": "Users",
+														"type": "long"
+													}
+												],
+												"splitBy": [
+													{
+														"name": "client_OS",
+														"type": "string"
+													}
+												],
+												"aggregation": "Sum"
+											}
+										},
+										{
+											"name": "Version",
+											"value": "1.0"
+										},
+										{
+											"name": "PartId",
+											"value": "7b7d1642-306a-4987-8f14-aff6c405c52a"
+										},
+										{
+											"name": "PartTitle",
+											"value": "Analytics"
+										},
+										{
+											"name": "PartSubTitle",
+											"value": "[parameters('frontAppInsightsName')]"
+										},
+										{
+											"name": "resourceTypeMode",
+											"value": "components"
+										},
+										{
+											"name": "ControlType",
+											"value": "AnalyticsChart"
+										},
+										{
+											"name": "SpecificChart",
+											"value": "Bar"
+										},
+										{
+											"name": "TimeRange",
+											"isOptional": true
+										},
+										{
+											"name": "DashboardId",
+											"isOptional": true
+										},
+										{
+											"name": "Scope",
+											"isOptional": true
+										},
+										{
+											"name": "DraftRequestParameters",
+											"isOptional": true
+										},
+										{
+											"name": "LegendOptions",
+											"isOptional": true
+										},
+										{
+											"name": "IsQueryContainTimeRange",
+											"isOptional": true
+										}
+									],
+									"type": "Extension/Microsoft_OperationsManagementSuite_Workspace/PartType/LogsDashboardPart",
+									"settings": {
+										"content": {
+											"Query": "union pageViews,customEvents\n| summarize Users=dcount(user_Id) by client_Model \n| render barchart\n\n",
+											"SpecificChart": "Donut",
+											"PartTitle": "Customers per Device Type",
+											"Dimensions": {
+												"xAxis": {
+													"name": "client_Model",
+													"type": "string"
+												},
+												"yAxis": [
+													{
+														"name": "Users",
+														"type": "long"
+													}
+												],
+												"splitBy": [],
+												"aggregation": "Sum"
+											},
+											"LegendOptions": {
+												"isEnabled": false,
+												"position": "Bottom"
+											},
+											"IsQueryContainTimeRange": false
+										}
+									}
+								}
+							},
+							"13": {
+								"position": {
+									"x": 10,
+									"y": 15,
+									"colSpan": 5,
+									"rowSpan": 4
+								},
+								"metadata": {
+									"inputs": [
+										{
+											"name": "ComponentId",
+											"value": {
+												"SubscriptionId": "[parameters('SubscriptionId')]",
+												"ResourceGroup": "[parameters('appInsightsResourceGroup')]",
+												"Name": "[parameters('frontAppInsightsName')]",
+												"ResourceId": "[concat(resourceGroup().Id, '/providers/microsoft.insights/components/', parameters('frontAppInsightsName'))]"
+											}
+										},
+										{
+											"name": "Query",
+											"value": "union pageViews,customEvents\n| where timestamp between((now()-24h)..now())\n| summarize Users=dcount(user_Id) by client_OS , bin(timestamp, 1h)\n| order by timestamp asc\n| render barchart\n"
+										},
+										{
+											"name": "Dimensions",
+											"value": {
+												"xAxis": {
+													"name": "timestamp",
+													"type": "datetime"
+												},
+												"yAxis": [
+													{
+														"name": "Users",
+														"type": "long"
+													}
+												],
+												"splitBy": [
+													{
+														"name": "client_OS",
+														"type": "string"
+													}
+												],
+												"aggregation": "Sum"
+											}
+										},
+										{
+											"name": "Version",
+											"value": "1.0"
+										},
+										{
+											"name": "PartId",
+											"value": "7b7d1642-306a-4987-8f14-aff6c405c52a"
+										},
+										{
+											"name": "PartTitle",
+											"value": "Analytics"
+										},
+										{
+											"name": "PartSubTitle",
+											"value": "[parameters('frontAppInsightsName')]"
+										},
+										{
+											"name": "resourceTypeMode",
+											"value": "components"
+										},
+										{
+											"name": "ControlType",
+											"value": "AnalyticsChart"
+										},
+										{
+											"name": "SpecificChart",
+											"value": "Bar"
+										},
+										{
+											"name": "TimeRange",
+											"isOptional": true
+										},
+										{
+											"name": "DashboardId",
+											"isOptional": true
+										},
+										{
+											"name": "Scope",
+											"isOptional": true
+										},
+										{
+											"name": "DraftRequestParameters",
+											"isOptional": true
+										},
+										{
+											"name": "LegendOptions",
+											"isOptional": true
+										},
+										{
+											"name": "IsQueryContainTimeRange",
+											"isOptional": true
+										}
+									],
+									"type": "Extension/Microsoft_OperationsManagementSuite_Workspace/PartType/LogsDashboardPart",
+									"settings": {
+										"content": {
+											"Query": "union pageViews,customEvents\n| summarize Users=dcount(user_Id) by client_OS \n| render barchart\n\n",
+											"SpecificChart": "Donut",
+											"PartTitle": "Customers per Device Version",
+											"Dimensions": {
+												"xAxis": {
+													"name": "client_OS",
+													"type": "string"
+												},
+												"yAxis": [
+													{
+														"name": "Users",
+														"type": "long"
+													}
+												],
+												"splitBy": [],
+												"aggregation": "Sum"
+											},
+											"LegendOptions": {
+												"isEnabled": false,
+												"position": "Bottom"
+											},
+											"IsQueryContainTimeRange": false
+										}
+									}
+								}
+							},
+							"14": {
+								"position": {
+									"x": 0,
+									"y": 19,
+									"colSpan": 15,
+									"rowSpan": 1
+								},
+								"metadata": {
+									"inputs": [],
+									"type": "Extension/HubsExtension/PartType/MarkdownPart",
+									"settings": {
+										"content": {
+											"settings": {
+												"content": "# Backend Performance",
+												"title": "",
+												"subtitle": "",
+												"markdownUri": null
+											}
+										}
+									}
+								}
+							},
+							"15": {
+								"position": {
+									"x": 0,
+									"y": 20,
+									"colSpan": 15,
+									"rowSpan": 2
+								},
+								"metadata": {
+									"inputs": [
+										{
+											"name": "options",
+											"value": {
+												"chart": {
+													"metrics": [
+														{
+															"resourceMetadata": {
+																"id": "[concat(resourceGroup().Id, '/providers/microsoft.insights/components/', parameters('backAppInsightsName'))]"
+															},
+															"name": "availabilityResults/availabilityPercentage",
+															"aggregationType": 4,
+															"namespace": "microsoft.insights/components",
+															"metricVisualization": {
+																"displayName": "Availability",
+																"color": "#47BDF5"
+															}
+														}
+													],
+													"title": "Average availability",
+													"visualization": {
+														"chartType": 3,
+														"legendVisualization": {
+															"isVisible": true,
+															"position": 2,
+															"hideSubtitle": false
+														},
+														"axisVisualization": {
+															"x": {
+																"isVisible": true,
+																"axisType": 2
+															},
+															"y": {
+																"isVisible": true,
+																"axisType": 1
+															}
+														}
+													},
+													"openBladeOnClick": {
+														"openBlade": true,
+														"destinationBlade": {
+															"extensionName": "HubsExtension",
+															"bladeName": "ResourceMenuBlade",
+															"parameters": {
+																"id": "[concat(resourceGroup().Id, '/providers/microsoft.insights/components/', parameters('backAppInsightsName'))]",
+																"menuid": "availability"
+															}
+														}
+													}
+												}
+											}
+										},
+										{
+											"name": "sharedTimeRange",
+											"isOptional": true
+										}
+									],
+									"type": "Extension/HubsExtension/PartType/MonitorChartPart",
+									"settings": {
+										"content": {
+											"options": {
+												"chart": {
+													"metrics": [
+														{
+															"resourceMetadata": {
+																"id": "[concat(resourceGroup().Id, '/providers/microsoft.insights/components/', parameters('backAppInsightsName'))]"
+															},
+															"name": "availabilityResults/availabilityPercentage",
+															"aggregationType": 4,
+															"namespace": "microsoft.insights/components",
+															"metricVisualization": {
+																"displayName": "Availability",
+																"color": "#47BDF5"
+															}
+														}
+													],
+													"title": "Average availability",
+													"visualization": {
+														"chartType": 3,
+														"legendVisualization": {
+															"isVisible": true,
+															"position": 2,
+															"hideSubtitle": false
+														},
+														"axisVisualization": {
+															"x": {
+																"isVisible": true,
+																"axisType": 2
+															},
+															"y": {
+																"isVisible": true,
+																"axisType": 1
+															}
+														},
+														"disablePinning": true
+													},
+													"openBladeOnClick": {
+														"openBlade": true,
+														"destinationBlade": {
+															"extensionName": "HubsExtension",
+															"bladeName": "ResourceMenuBlade",
+															"parameters": {
+																"id": "[concat(resourceGroup().Id, '/providers/microsoft.insights/components/', parameters('backAppInsightsName'))]",
+																"menuid": "availability"
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							},
+							"16": {
+								"position": {
+									"x": 0,
+									"y": 22,
+									"colSpan": 8,
+									"rowSpan": 4
+								},
+								"metadata": {
+									"inputs": [
+										{
+											"name": "options",
+											"isOptional": true
+										},
+										{
+											"name": "sharedTimeRange",
+											"isOptional": true
+										}
+									],
+									"type": "Extension/HubsExtension/PartType/MonitorChartPart",
+									"settings": {
+										"content": {
+											"options": {
+												"chart": {
+													"metrics": [
+														{
+															"resourceMetadata": {
+																"id": "[concat(resourceGroup().Id, '/providers/microsoft.insights/components/', parameters('backAppInsightsName'))]"
+															},
+															"name": "requests/count",
+															"aggregationType": 7,
+															"namespace": "microsoft.insights/components",
+															"metricVisualization": {
+																"displayName": "Server requests"
+															}
+														}
+													],
+													"title": "Server requests",
+													"titleKind": 2,
+													"visualization": {
+														"chartType": 2,
+														"legendVisualization": {
+															"isVisible": true,
+															"position": 2,
+															"hideSubtitle": false
+														},
+														"axisVisualization": {
+															"x": {
+																"isVisible": true,
+																"axisType": 2
+															},
+															"y": {
+																"isVisible": true,
+																"axisType": 1
+															}
+														},
+														"disablePinning": true
+													}
+												}
+											}
+										}
+									}
+								}
+							},
+							"17": {
+								"position": {
+									"x": 8,
+									"y": 22,
+									"colSpan": 7,
+									"rowSpan": 4
+								},
+								"metadata": {
+									"inputs": [
+										{
+											"name": "options",
+											"value": {
+												"chart": {
+													"metrics": [
+														{
+															"resourceMetadata": {
+																"id": "[concat(resourceGroup().Id, '/providers/microsoft.insights/components/', parameters('backAppInsightsName'))]"
+															},
+															"name": "requests/failed",
+															"aggregationType": 7,
+															"namespace": "microsoft.insights/components",
+															"metricVisualization": {
+																"displayName": "Failed requests",
+																"color": "#EC008C"
+															}
+														}
+													],
+													"title": "Failed requests",
+													"visualization": {
+														"chartType": 3,
+														"legendVisualization": {
+															"isVisible": true,
+															"position": 2,
+															"hideSubtitle": false
+														},
+														"axisVisualization": {
+															"x": {
+																"isVisible": true,
+																"axisType": 2
+															},
+															"y": {
+																"isVisible": true,
+																"axisType": 1
+															}
+														}
+													},
+													"openBladeOnClick": {
+														"openBlade": true,
+														"destinationBlade": {
+															"extensionName": "HubsExtension",
+															"bladeName": "ResourceMenuBlade",
+															"parameters": {
+																"id": "[concat(resourceGroup().Id, '/providers/microsoft.insights/components/', parameters('backAppInsightsName'))]",
+																"menuid": "failures"
+															}
+														}
+													}
+												}
+											}
+										},
+										{
+											"name": "sharedTimeRange",
+											"isOptional": true
+										}
+									],
+									"type": "Extension/HubsExtension/PartType/MonitorChartPart",
+									"settings": {
+										"content": {
+											"options": {
+												"chart": {
+													"metrics": [
+														{
+															"resourceMetadata": {
+																"id": "[concat(resourceGroup().Id, '/providers/microsoft.insights/components/', parameters('backAppInsightsName'))]"
+															},
+															"name": "requests/failed",
+															"aggregationType": 7,
+															"namespace": "microsoft.insights/components",
+															"metricVisualization": {
+																"displayName": "Failed requests",
+																"color": "#EC008C"
+															}
+														}
+													],
+													"title": "Failed requests",
+													"visualization": {
+														"chartType": 3,
+														"legendVisualization": {
+															"isVisible": true,
+															"position": 2,
+															"hideSubtitle": false
+														},
+														"axisVisualization": {
+															"x": {
+																"isVisible": true,
+																"axisType": 2
+															},
+															"y": {
+																"isVisible": true,
+																"axisType": 1
+															}
+														},
+														"disablePinning": true
+													},
+													"openBladeOnClick": {
+														"openBlade": true,
+														"destinationBlade": {
+															"extensionName": "HubsExtension",
+															"bladeName": "ResourceMenuBlade",
+															"parameters": {
+																"id": "[concat(resourceGroup().Id, '/providers/microsoft.insights/components/', parameters('backAppInsightsName'))]",
+																"menuid": "failures"
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							},
+							"18": {
+								"position": {
+									"x": 0,
+									"y": 26,
+									"colSpan": 8,
+									"rowSpan": 4
+								},
+								"metadata": {
+									"inputs": [
+										{
+											"name": "options",
+											"isOptional": true
+										},
+										{
+											"name": "sharedTimeRange",
+											"isOptional": true
+										}
+									],
+									"type": "Extension/HubsExtension/PartType/MonitorChartPart",
+									"settings": {
+										"content": {
+											"options": {
+												"chart": {
+													"metrics": [
+														{
+															"resourceMetadata": {
+																"id": "[concat(resourceGroup().Id, '/providers/microsoft.insights/components/', parameters('backAppInsightsName'))]"
+															},
+															"name": "performanceCounters/processCpuPercentage",
+															"aggregationType": 3,
+															"namespace": "microsoft.insights/components/kusto",
+															"metricVisualization": {
+																"displayName": "Process CPU"
+															}
+														}
+													],
+													"title": "Process CPU",
+													"titleKind": 2,
+													"visualization": {
+														"chartType": 2,
+														"legendVisualization": {
+															"isVisible": true,
+															"position": 2,
+															"hideSubtitle": false
+														},
+														"axisVisualization": {
+															"x": {
+																"isVisible": true,
+																"axisType": 2
+															},
+															"y": {
+																"isVisible": true,
+																"axisType": 1
+															}
+														},
+														"disablePinning": true
+													},
+													"grouping": {
+														"dimension": "cloud/roleInstance",
+														"sort": 2,
+														"top": 10
+													}
+												}
+											}
+										}
+									}
+								}
+							},
+							"19": {
+								"position": {
+									"x": 8,
+									"y": 26,
+									"colSpan": 7,
+									"rowSpan": 4
+								},
+								"metadata": {
+									"inputs": [
+										{
+											"name": "options",
+											"value": {
+												"chart": {
+													"metrics": [
+														{
+															"resourceMetadata": {
+																"id": "[concat(resourceGroup().Id, '/providers/microsoft.insights/components/', parameters('backAppInsightsName'))]"
+															},
+															"name": "performanceCounters/memoryAvailableBytes",
+															"aggregationType": 4,
+															"namespace": "microsoft.insights/components",
+															"metricVisualization": {
+																"displayName": "Available memory",
+																"color": "#47BDF5"
+															}
+														}
+													],
+													"title": "Average available memory",
+													"visualization": {
+														"chartType": 2,
+														"legendVisualization": {
+															"isVisible": true,
+															"position": 2,
+															"hideSubtitle": false
+														},
+														"axisVisualization": {
+															"x": {
+																"isVisible": true,
+																"axisType": 2
+															},
+															"y": {
+																"isVisible": true,
+																"axisType": 1
+															}
+														}
+													}
+												}
+											}
+										},
+										{
+											"name": "sharedTimeRange",
+											"isOptional": true
+										}
+									],
+									"type": "Extension/HubsExtension/PartType/MonitorChartPart",
+									"settings": {
+										"content": {
+											"options": {
+												"chart": {
+													"metrics": [
+														{
+															"resourceMetadata": {
+																"id": "[concat(resourceGroup().Id, '/providers/microsoft.insights/components/', parameters('backAppInsightsName'))]"
+															},
+															"name": "performanceCounters/memoryAvailableBytes",
+															"aggregationType": 4,
+															"namespace": "microsoft.insights/components",
+															"metricVisualization": {
+																"displayName": "Available memory",
+																"color": "#47BDF5"
+															}
+														}
+													],
+													"title": "Average available memory",
+													"visualization": {
+														"chartType": 2,
+														"legendVisualization": {
+															"isVisible": true,
+															"position": 2,
+															"hideSubtitle": false
+														},
+														"axisVisualization": {
+															"x": {
+																"isVisible": true,
+																"axisType": 2
+															},
+															"y": {
+																"isVisible": true,
+																"axisType": 1
+															}
+														},
+														"disablePinning": true
+													},
+													"grouping": {
+														"dimension": "cloud/roleInstance",
+														"sort": 2,
+														"top": 10
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				},
+				"metadata": {
+					"model": {
+						"timeRange": {
+							"value": {
+								"relative": {
+									"duration": 24,
+									"timeUnit": 1
+								}
+							},
+							"type": "MsPortalFx.Composition.Configuration.ValueTypes.TimeRange"
+						},
+						"filterLocale": {
+							"value": "en-us"
+						},
+						"filters": {
+							"value": {
+								"MsPortalFx_TimeRange": {
+									"model": {
+										"format": "utc",
+										"granularity": "auto",
+										"relative": "24h"
+									},
+									"displayCache": {
+										"name": "UTC Time",
+										"value": "Past 24 hours"
+									},
+									"filteredPartIds": [
+										"StartboardPart-MonitorChartPart-e2faa546-8005-4ced-a67d-a3ad32a0f00c",
+										"StartboardPart-LogsDashboardPart-e2faa546-8005-4ced-a67d-a3ad32a0f00e",
+										"StartboardPart-LogsDashboardPart-e2faa546-8005-4ced-a67d-a3ad32a0f010",
+										"StartboardPart-LogsDashboardPart-e2faa546-8005-4ced-a67d-a3ad32a0f012",
+										"StartboardPart-LogsDashboardPart-e2faa546-8005-4ced-a67d-a3ad32a0f014",
+										"StartboardPart-LogsDashboardPart-e2faa546-8005-4ced-a67d-a3ad32a0f016",
+										"StartboardPart-LogsDashboardPart-e2faa546-8005-4ced-a67d-a3ad32a0f018",
+										"StartboardPart-MonitorChartPart-e2faa546-8005-4ced-a67d-a3ad32a0f01a",
+										"StartboardPart-LogsDashboardPart-e2faa546-8005-4ced-a67d-a3ad32a0f01c",
+										"StartboardPart-LogsDashboardPart-e2faa546-8005-4ced-a67d-a3ad32a0f01e",
+										"StartboardPart-LogsDashboardPart-e2faa546-8005-4ced-a67d-a3ad32a0f020",
+										"StartboardPart-LogsDashboardPart-e2faa546-8005-4ced-a67d-a3ad32a0f022",
+										"StartboardPart-LogsDashboardPart-e2faa546-8005-4ced-a67d-a3ad32a0f024",
+										"StartboardPart-LogsDashboardPart-e2faa546-8005-4ced-a67d-a3ad32a0f026",
+										"StartboardPart-MonitorChartPart-e2faa546-8005-4ced-a67d-a3ad32a0f02a",
+										"StartboardPart-MonitorChartPart-e2faa546-8005-4ced-a67d-a3ad32a0f02c",
+										"StartboardPart-MonitorChartPart-e2faa546-8005-4ced-a67d-a3ad32a0f02e",
+										"StartboardPart-MonitorChartPart-e2faa546-8005-4ced-a67d-a3ad32a0f030"
+									]
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	]
+}

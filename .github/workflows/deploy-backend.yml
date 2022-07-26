@@ -22,7 +22,7 @@ jobs:
     
     - name: Install vc-build
       run: |
-        dotnet tool install --global VirtoCommerce.GlobalTool --version 3.1.0
+        dotnet tool install --global VirtoCommerce.GlobalTool --version 3.4.1
 
     - name: Pack
       run: |
@@ -50,6 +50,6 @@ jobs:
     
     - name: Update app
       run: |
-        vc-build SetHelmParameter -ArgoServer https://argocd.govirto.com -ArgoAppName virtostart-main -ArgoToken ${{ secrets.VIRTOSTART_TOKEN }} -HelmParameters platform.image.tag=$TAG
+        vc-build SetHelmParameter -ArgoServer https://argo.virtocommerce.cloud -ArgoAppName virtostart-main -ArgoToken ${{ secrets.VIRTOSTART_TOKEN }} -HelmParameters platform.image.tag=$TAG
       env:
         TAG: ${{ env.PLATFORM_VERSION }}-${{ steps.vars.outputs.sha_short }}
