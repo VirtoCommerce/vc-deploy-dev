@@ -3,7 +3,6 @@
   servicePlan: S2
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/virtostart/platform
-    tier: enterprise
     config:
       VirtoCommerce__SampleDataUrl: https://vc3prerelease.blob.core.windows.net/packages/clothing-and-electronics_3_0_2.zip
       APPINSIGHTS_INSTRUMENTATIONKEY: 9fde4353-9a4a-4fe3-9a03-a0c80b4220ff
@@ -27,12 +26,11 @@
       Payments__AuthorizeNet__TxnKey: txnkey
   storefront:
     imageRepository: virtopaasregistrymain.azurecr.io/virtostart/storefront
-    themeName: B2B-store
     config:
       VirtoCommerce__DefaultStore: B2B-store
       SnapshotCollectorConfiguration__IsEnabled: false
       APPINSIGHTS_INSTRUMENTATIONKEY: 4eef52ad-79ec-410c-a273-0a1abff866ea
-      Reload: 2022-07-26
+      Reload: 2022-07-26-3
     secretConfig:
       VirtoCommerce__Endpoint__Password: virtocommercepassword
     themes:
