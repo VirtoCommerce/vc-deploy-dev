@@ -26,7 +26,6 @@
       Payments__AuthorizeNet__TxnKey: txnkey
   storefront:
     imageRepository: virtopaasregistrymain.azurecr.io/virtostart/storefront
-    themeName: B2B-store
     config:
       VirtoCommerce__DefaultStore: B2B-store
       SnapshotCollectorConfiguration__IsEnabled: false
