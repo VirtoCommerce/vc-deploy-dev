@@ -30,7 +30,7 @@
       VirtoCommerce__DefaultStore: B2B-store
       SnapshotCollectorConfiguration__IsEnabled: false
       APPINSIGHTS_INSTRUMENTATIONKEY: 4eef52ad-79ec-410c-a273-0a1abff866ea
-      Reload: 2022-07-26-2
+      Reload: 2022-07-26-3
     secretConfig:
       VirtoCommerce__Endpoint__Password: virtocommercepassword
     themes:
