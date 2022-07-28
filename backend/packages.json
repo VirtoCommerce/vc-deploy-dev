@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.233.0-pr-2536",
+  "PlatformVersion": "3.233.0-pr-2537",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.233.0-pr-2536-test-cloud-a20e3432",
+  "PlatformImageTag": "3.233.0-pr-2537-pt-8419-649d0c07",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -182,11 +182,10 @@
       "Container": "packages",
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
-                {
+        {
           "Id": "VirtoCommerce.Return",
           "BlobName": "VirtoCommerce.Return_3.203.0-alpha.20.zip"
         }
-
       ]
     }
   ]
