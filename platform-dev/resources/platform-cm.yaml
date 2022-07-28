@@ -98,11 +98,9 @@ data:
     #Setting password validation
     IdentityOptions__Password__RequiredLength: "6"
     #Setting overwritten
-    FixedSettings: 
-      {
-      "Settings": 
-        [
-          {
+    PlatformSettings__Settings__items: |
+      [
+         {
           "ItHasValues": true,
           "Value": 20000,
           "RestartRequired": false,
@@ -115,5 +113,4 @@ data:
           "DefaultValue": 10000,
           "IsDictionary": false
           }
-        ]
-      }
+      ]
