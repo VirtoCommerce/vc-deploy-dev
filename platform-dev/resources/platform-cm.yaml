@@ -98,7 +98,7 @@ data:
     #Setting password validation
     IdentityOptions__Password__RequiredLength: "6"
     #Setting overwritten
-    PlatformSettings__Settings__items: |
+    PlatformSettings__Settings__items_0: |
       [
         {
         "ItHasValues": true,
