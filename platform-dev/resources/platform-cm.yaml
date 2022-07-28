@@ -100,17 +100,17 @@ data:
     #Setting overwritten
     PlatformSettings__Settings__items: |
       [
-         {
-          "ItHasValues": true,
-          "Value": 20000,
-          "RestartRequired": false,
-          "ModuleId": "VirtoCommerce.Sitemaps",
-          "GroupName": "Sitemap|General",
-          "Name": "Sitemap.RecordsLimitPerFile",
-          "IsRequired": false,
-          "IsHidden": false,
-          "ValueType": 8,
-          "DefaultValue": 10000,
-          "IsDictionary": false
-          }
+        {
+        "ItHasValues": true,
+        "Value": 20000,
+        "RestartRequired": false,
+        "ModuleId": "VirtoCommerce.Sitemaps",
+        "GroupName": "Sitemap|General",
+        "Name": "Sitemap.RecordsLimitPerFile",
+        "IsRequired": false,
+        "IsHidden": false,
+        "ValueType": 8,
+        "DefaultValue": 10000,
+        "IsDictionary": false
+        }
       ]
