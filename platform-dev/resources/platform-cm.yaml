@@ -99,8 +99,7 @@ data:
     IdentityOptions__Password__RequiredLength: "6"
     #Setting overwritten
     PlatformSettings__Settings__items_0: |
-      [
-        {
+      {
         "ItHasValues": true,
         "Value": 20000,
         "RestartRequired": false,
@@ -112,5 +111,5 @@ data:
         "ValueType": 8,
         "DefaultValue": 10000,
         "IsDictionary": false
-        }
-      ]
+      }
+      
