@@ -97,3 +97,23 @@ data:
       ]
     #Setting password validation
     IdentityOptions__Password__RequiredLength: "6"
+    #Setting overwritten
+    FixedSettings: 
+      {
+      "Settings": 
+        [
+          {
+          "ItHasValues": true,
+          "Value": 20000,
+          "RestartRequired": false,
+          "ModuleId": "VirtoCommerce.Sitemaps",
+          "GroupName": "Sitemap|General",
+          "Name": "Sitemap.RecordsLimitPerFile",
+          "IsRequired": false,
+          "IsHidden": false,
+          "ValueType": 8,
+          "DefaultValue": 10000,
+          "IsDictionary": false
+          }
+        ]
+      }
