@@ -87,29 +87,10 @@ data:
     Videos__GoogleApiKey: "AIzaSyD5A4oFeSgaMQnMo3OiaqUSJ23SQGELiA4"
    #cache
     Caching__CacheEnabled: "true"
-    DefaultMainMenuState__items: |
-      [
-        {
-        "path": "browse/marketing",
-        "isFavorite": true,
-        "order": 1
-        }
-      ]
+    DefaultMainMenuState__items__0__path: "browse/marketing"
+    DefaultMainMenuState__items__0__isFavorite: "true"
+    DefaultMainMenuState__items__0__order: "1"
     #Setting password validation
     IdentityOptions__Password__RequiredLength: "6"
     #Setting overwritten
-    PlatformSettings__Settings__items__0: |
-      {
-      "ItHasValues": true,
-      "Value": 20000,
-      "RestartRequired": false,
-      "ModuleId": "VirtoCommerce.Sitemaps",
-      "GroupName": "Sitemap|General",
-      "Name": "Sitemap.RecordsLimitPerFile",
-      "IsRequired": false,
-      "IsHidden": false,
-      "ValueType": 8,
-      "DefaultValue": 10000,
-      "IsDictionary": false
-      }
-   
+ 
