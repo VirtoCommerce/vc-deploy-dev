@@ -93,6 +93,7 @@ data:
     #Setting password validation
     IdentityOptions__Password__RequiredLength: "6"
     #Setting overwritten
+    #Setting 1
     PlatformSettings__Settings__0__ItHasValues: "true"
     PlatformSettings__Settings__0__Value: "20000"
     PlatformSettings__Settings__0__RestartRequired: "false"
@@ -104,3 +105,16 @@ data:
     PlatformSettings__Settings__0__IsRequired: "false"
     PlatformSettings__Settings__0__IsHidden: "false"
     PlatformSettings__Settings__0__IsDictionary: "false"
+    #Setting 2
+    PlatformSettings__Settings__1__ItHasValues: "true",
+    PlatformSettings__Settings__1__IsReadOnly: "false",
+    PlatformSettings__Settings__1__Value: "true",
+    PlatformSettings__Settings__1__RestartRequired: "false",
+    PlatformSettings__Settings__1__ModuleId: "VirtoCommerce.Catalog",
+    PlatformSettings__Settings__1__GroupName: "Catalog|Search",
+    PlatformSettings__Settings__1__Name: "Catalog.Search.UseFullObjectIndexStoring",
+    PlatformSettings__Settings__1__IsRequired: "false",
+    PlatformSettings__Settings__1__IsHidden: "false",
+    PlatformSettings__Settings__1__ValueType: 5,
+    PlatformSettings__Settings__1__DefaultValue": "false",
+    PlatformSettings__Settings__1__IsDictionary": "false"
