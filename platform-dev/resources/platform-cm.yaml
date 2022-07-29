@@ -93,4 +93,14 @@ data:
     #Setting password validation
     IdentityOptions__Password__RequiredLength: "6"
     #Setting overwritten
- 
+    PlatformSettings__Settings__items__0__ItHasValues: "true"
+    PlatformSettings__Settings__items__0__Value: "20000"
+    PlatformSettings__Settings__items__0__RestartRequired: "false"
+    PlatformSettings__Settings__items__0__ModuleId: "VirtoCommerce.Sitemaps" 
+    PlatformSettings__Settings__items__0__GroupName: "Sitemap|General"
+    PlatformSettings__Settings__items__0__Name: "Sitemap.RecordsLimitPerFile"
+    PlatformSettings__Settings__items__0__DefaultValue: "100000"
+    PlatformSettings__Settings__items__0__ValueType: "8"
+    PlatformSettings__Settings__items__0__IsRequired: "false"
+    PlatformSettings__Settings__items__0__IsHidden: "false"
+    PlatformSettings__Settings__items__0__IsDictionary: "false"
