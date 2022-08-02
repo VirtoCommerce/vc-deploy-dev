@@ -57,7 +57,7 @@ def github_release(file_name):
         print(f'https://github.com/{owner}/{repo}/releases/tag/{tag}')
 
 def main():
-    run_command('rm -rf vc-benchmark')
+    run_command('rm -rf vc-loadtests')
     run_command(git)
     run_command(loadtest)
     shutil.make_archive(result_file_name, 'zip', rusults_dir, result_file_name_jtl)
