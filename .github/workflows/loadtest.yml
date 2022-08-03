@@ -93,7 +93,7 @@ jobs:
           echo $RELEASE_TAG
           export AUTH_TOKEN=${{ secrets.REPO_TOKEN }}
           python3.8 loadtest.py && rm loadtest.py
-
+#test
   Scaledown:
     needs: [azure-sql, azure-vm, loadtest]
     if: always()
