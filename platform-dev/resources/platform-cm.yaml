@@ -35,7 +35,7 @@ data:
   VirtoCommerce__LocalUploadFolderPath: app_data/uploads
   VirtoCommerce__LicenseActivationUrl: https://vcplatform-platform.qa.govirto.com/api/licenses/activate/
   VirtoCommerce__Hangfire__JobStorageType: SqlServer
- #VirtoCommerce__SampleDataUrl: https://virtocommerce.azureedge.net/sample-data/clothing-and-electronics_3_0_0.zip
+  VirtoCommerce__SampleDataUrl: https://virtocommerce.azureedge.net/sample-data/clothing-and-electronics_3_0_3.zip
   Logging__LogLevel__Default: "Information"
   Search__OrderFullTextSearchEnabled: "true"
  #Setting for authorizenet
