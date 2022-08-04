@@ -38,10 +38,10 @@ spec:
           resources:
             limits:
               cpu: "500m"
-              memory: 1024Mi
+              memory: 512Mi
             requests:
               cpu: "500m"
-              memory: 1024Mi
+              memory: 512Mi
           volumeMounts:
           - mountPath: "/opt/virtocommerce/platform/wwwroot/cms-content"
             name: cms-content-data
