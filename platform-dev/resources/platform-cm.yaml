@@ -32,8 +32,6 @@ data:
    #Search__Provider: "Lucene"
    #Elastic Search settings
     Search__ElasticSearch__Server: "https://elasticsearch-dev.govirto.com"
-   #Search__ElasticSearch__Server: "https://pt-8394.es.eastus.azure.elastic-cloud.com"
-   #Search__ElasticSearch__EnableCompatibilityMode: "true"
    #Elastic App Search settings
    #Search__Provider: "ElasticAppSearch"
     Search__ElasticAppSearch__Endpoint: https://enterprise-search-dev.govirto.com
