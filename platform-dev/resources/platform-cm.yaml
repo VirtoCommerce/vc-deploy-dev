@@ -33,7 +33,7 @@ data:
   VirtoCommerce__LicensePublicKeyPath: app_data/public.key
   VirtoCommerce__LicensePrivateKeyPath: app_data/private.key
   VirtoCommerce__LocalUploadFolderPath: app_data/uploads
-  VirtoCommerce__LicenseActivationUrl: https://vcplatform-platform.qa.govirto.com/api/licenses/activate/
+ #VirtoCommerce__LicenseActivationUrl: https://vcplatform-platform.qa.govirto.com/api/licenses/activate/
   VirtoCommerce__Hangfire__JobStorageType: SqlServer
  #VirtoCommerce__SampleDataUrl: https://virtocommerce.azureedge.net/sample-data/clothing-and-electronics_3_0_3.zip
   Logging__LogLevel__Default: "Information"
