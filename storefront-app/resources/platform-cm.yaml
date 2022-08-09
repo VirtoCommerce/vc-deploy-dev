@@ -24,6 +24,10 @@ data:
   AzureAd__TenantId: "bc03e660-5e3a-45c4-bf5c-b75489f78923"
   Search__Scope: "$(VC_PLATFORM_SERVICE)$(VC_NAMESPACE)-new-index"
   Content__FileSystem__PublicUrl: https://$(VC_PLATFORM_SERVICE).$(VC_NAMESPACE).govirto.com/cms-content/
+  Content__PathMappings__pages__0: "Themes"
+  Content__PathMappings__pages__1: "_storeId"
+  Content__PathMappings__pages__2: "_theme"
+  Content__PathMappings__pages__3: "content/pages"
   Assets__FileSystem__PublicUrl: https://$(VC_PLATFORM_SERVICE).$(VC_NAMESPACE).govirto.com/cms-content/assets/
   VirtoCommerce__LicenseFilePath: app_data/VirtoCommerce.lic
   VirtoCommerce__LicensePublicKeyPath: app_data/public.key

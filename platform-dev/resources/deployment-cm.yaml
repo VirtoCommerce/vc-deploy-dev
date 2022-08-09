@@ -39,7 +39,7 @@ data:
     {
       "Id": "VirtoCommerce.Catalog",
       "Repository": "VirtoCommerce/vc-module-catalog",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Catalog_3.224.0-alpha.1969.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Catalog_3.224.0-alpha.1971.zip"
     },
     {
       "Id": "VirtoCommerce.CatalogCsvImportModule",
@@ -59,7 +59,7 @@ data:
     {
       "Id": "VirtoCommerce.Content",
       "Repository": "VirtoCommerce/vc-module-content",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Content_3.204.0-alpha.804.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Content_3.204.0-alpha.814.zip"
     },
     {
       "Id": "VirtoCommerce.Core",
@@ -89,7 +89,7 @@ data:
     {
       "Id": "VirtoCommerce.ExperienceApi",
       "Repository": "VirtoCommerce/vc-module-experience-api",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ExperienceApi_3.225.0-alpha.999.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ExperienceApi_3.226.0-alpha.1001.zip"
     },
     {
       "Id": "VirtoCommerce.Export",
@@ -129,7 +129,7 @@ data:
     {
       "Id": "VirtoCommerce.Orders",
       "Repository": "VirtoCommerce/vc-module-order",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Orders_3.211.0-alpha.1026.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Orders_3.212.0-alpha.1028.zip"
     },
     {
       "Id": "VirtoCommerce.Payment",
@@ -144,7 +144,7 @@ data:
     {
       "Id": "VirtoCommerce.Search",
       "Repository": "VirtoCommerce/vc-module-search",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Search_3.209.0-alpha.612.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Search_3.210.0-alpha.614.zip"
     },
     {
       "Id": "VirtoCommerce.Shipping",
@@ -154,7 +154,7 @@ data:
     {
       "Id": "VirtoCommerce.Sitemaps",
       "Repository": "VirtoCommerce/vc-module-sitemaps",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Sitemaps_3.206.0-alpha.278.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Sitemaps_3.207.0-alpha.280.zip"
     },
     {
       "Id": "VirtoCommerce.Store",
