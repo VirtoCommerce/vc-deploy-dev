@@ -10,7 +10,7 @@ data:
       "ModuleSources": [
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
-      "PlatformVersion": "3.204.10",
+      "PlatformVersion": "3.204.11",
       "Modules": [
         {
           "Id": "VirtoCommerce.Core",
@@ -66,7 +66,7 @@ data:
         },
         {
           "Id": "VirtoCommerce.Orders",
-          "Version": "3.201.0"
+          "Version": "3.201.1"
         },
         {
           "Id": "VirtoCommerce.Payment",
