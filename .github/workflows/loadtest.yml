@@ -13,7 +13,7 @@ jobs:
     - name: Azure login
       uses: azure/login@v1
       with:
-        creds: '{"clientId":"${{ secrets.AZURE_CREDENTIALS_CLIENT }}","clientSecret":"${{ secrets.AZURE_CREDENTIALS_SECRET }}","subscriptionId":"63624d02-de44-421b-9d19-306a8e26b322","tenantId":"${{ secrets.AZURE_TENANT_ID }}"}'
+        creds: '{"clientId":"${{ secrets.AZURE_CREDENTIALS_CLIENT }}","clientSecret":"${{ secrets.AZURE_CREDENTIALS_SECRET }}","subscriptionId":"a6522b3e-cc34-41c8-bf38-a5ff3080186a","tenantId":"${{ secrets.AZURE_TENANT_ID }}"}'
 
     - name: Azure CLI - scale up DB
       uses: azure/CLI@v1
@@ -28,7 +28,7 @@ jobs:
     - name: Azure login
       uses: azure/login@v1
       with:
-        creds: '{"clientId":"${{ secrets.AZURE_CREDENTIALS_CLIENT }}","clientSecret":"${{ secrets.AZURE_CREDENTIALS_SECRET }}","subscriptionId":"63624d02-de44-421b-9d19-306a8e26b322","tenantId":"${{ secrets.AZURE_TENANT_ID }}"}'
+        creds: '{"clientId":"${{ secrets.AZURE_CREDENTIALS_CLIENT }}","clientSecret":"${{ secrets.AZURE_CREDENTIALS_SECRET }}","subscriptionId":"a6522b3e-cc34-41c8-bf38-a5ff3080186a","tenantId":"${{ secrets.AZURE_TENANT_ID }}"}'
 
     - name: Azure CLI - start vm
       uses: azure/CLI@v1
