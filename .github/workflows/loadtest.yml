@@ -1,6 +1,7 @@
 name: Run loadtest
 
 on:
+  workflow_dispatch:
   pull_request:
     branches: [ loadtest ]
     types: [closed]
