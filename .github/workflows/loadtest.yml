@@ -13,7 +13,7 @@ jobs:
     - name: Azure login
       uses: azure/login@v1
       with:
-        creds: '{"clientId":"${{ secrets.AZURE_CREDENTIALS_CLIENT }}","clientSecret":"${{ secrets.AZURE_CREDENTIALS_SECRET }}","subscriptionId":"63624d02-de44-421b-9d19-306a8e26b322","tenantId":"${{ secrets.AZURE_TENANT_ID }}"}'
+        creds: '{"clientId":"${{ secrets.AZURE_CREDENTIALS_CLIENT }}","clientSecret":"${{ secrets.AZURE_CREDENTIALS_SECRET }}","subscriptionId":"${{ secrets.AZURE_CREDENTIALS_SUB }}","tenantId":"${{ secrets.AZURE_TENANT_ID }}"}'
 
     - name: Azure CLI - scale up DB
       uses: azure/CLI@v1
@@ -89,7 +89,7 @@ jobs:
         script: |
           cd loadtest
           export RELEASE_TAG='${{ env.PLATFORM_IMAGE_TAG }}-${{ github.run_id }}'
-          export TEST='./vc-loadtests/Virto_Templates/Storefront_Load_Script_Template.jmx'
+          export TEST='./vc-loadtests/Virto_Templates/Backend_Load_Script_Template.jmx'
           export REPO='https://${{ secrets.TMP_TOKEN }}@github.com/VirtoCommerce/vc-loadtests.git'
           echo $RELEASE_TAG
           export AUTH_TOKEN=${{ secrets.REPO_TOKEN }}
