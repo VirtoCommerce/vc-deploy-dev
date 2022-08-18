@@ -17,7 +17,7 @@ resources:
 images:
 - name: docker.pkg.github.com/virtocommerce/vc-platform/platform
   newName: ghcr.io/virtocommerce/platform
-  newTag: 3.239.0-alpha.12426-pt-8520-json-serializer-settings-2d737b29
+  newTag: 3.239.0-alpha.12427-pt-7777-filter-dropdown-ui-update-c58a9709
 - name: ghcr.io/virtocommerce/demo-xapi-app
   newName: ghcr.io/virtocommerce/demo-xapi-app
   newTag: 1.0.0-alpha.16-vds-2423
