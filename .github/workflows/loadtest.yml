@@ -13,7 +13,7 @@ jobs:
     - name: Azure login
       uses: azure/login@v1
       with:
-        creds: ${{ secrets.AZURE_CREDENTIALS_SQL }}
+        creds: '{"clientId":"${{ secrets.AZURE_CREDENTIALS_CLIENT }}","clientSecret":"${{ secrets.AZURE_CREDENTIALS_SECRET }}","subscriptionId":"${{ secrets.AZURE_CREDENTIALS_SUB }}","tenantId":"${{ secrets.AZURE_TENANT_ID }}"}'
 
     - name: Azure CLI - scale up DB
       uses: azure/CLI@v1
