@@ -27,7 +27,7 @@ data:
     PushNotifications__RedisBackplane__ChannelName: "$(VC_PLATFORM_SERVICE)-$(VC_NAMESPACE)-chanel"
    #Search settings
     Search__Scope: "$(VC_PLATFORM_SERVICE)$(VC_NAMESPACE)-new-index"
-    Search__OrderFullTextSearchEnabled: "true"
+    Search__OrderFullTextSearchEnabled: "false"
    #Lucene settings
    #Search__Provider: "Lucene"
    #Elastic Search settings
