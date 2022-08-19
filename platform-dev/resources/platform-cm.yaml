@@ -83,7 +83,7 @@ data:
     APPINSIGHTS_INSTRUMENTATIONKEY: "4120bbdb-aa5b-4512-8d9f-36af1f696719"
     VirtoCommerce__ApplicationInsights__SamplingOptions__Processor: "Fixed"
    #Video key
-    Videos__GoogleApiKey: "AIzaSyD5A4oFeSgaMQnMo3OiaqUSJ23SQGELiA4"
+    Videos__GoogleApiKey: "1AIzaSyD5A4oFeSgaMQnMo3OiaqUSJ23SQGELiA4"
    #cache
     Caching__CacheEnabled: "true"
     DefaultMainMenuState__items__0__path: "browse/catalog"
