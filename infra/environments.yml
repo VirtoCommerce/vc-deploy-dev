@@ -1,10 +1,8 @@
-- name: vcpt-main
+- name: vcpt-takarabio
   gitops: true
-  servicePlan: B1
+  servicePlan: F2
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcpt/platform
-    imageTag:  3.230.0-alpha.12392-dev-a97c5f0e-1144f2f
-    tier: enterprise
     config:
       VirtoCommerce__LocalUploadFolderPath: wwwroot/cms-content
       VirtoCommerce__SampleDataUrl: https://vc3prerelease.blob.core.windows.net/packages/clothing-and-electronics_3_0_2.zip
@@ -15,7 +13,6 @@
     secretConfig: {}
   storefront:
     imageRepository: virtopaasregistrymain.azurecr.io/vcpt/storefront
-    imageTag: 6.3.0-alpha.897-dev-b0632cd8
     config:
       SnapshotCollectorConfiguration__IsEnabled: false
       VirtoCommerce__DefaultStore: B2B-store
@@ -24,22 +21,10 @@
       Reload: 2022-3
     secretConfig: {}
     themes:
-      B2B-store: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.4.0/vc-theme-b2b-vue-1.4.0.zip
+      B2B-store: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.6.0/vc-theme-b2b-vue-1.6.0.zip
   ingress:
-    hostname: vcpt.govirto.com
-    storefrontHostname: vcpt-store.govirto.com
-  customApps:
-    app1:
-      enabled: true
-      probePath: /
-      hostname: vcpt-docs.govirto.com
-      name: docs
-      imageRepository: virtopaasregistrymain.azurecr.io/vcpt/docs
-      imageTag: 1
-      ingressPath: /
-      platformPath: []
-      storefrontPath: []
-      servicePath: []
+    hostname: takarabio-platform.govirto.com
+    storefrontHostname: takarabio-store.govirto.com
   protectedParameters:
    - platform.image.tag
    - storefront.image.tag
