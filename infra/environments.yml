@@ -1,6 +1,6 @@
 - name: vcpt-takarabio
   gitops: true
-  servicePlan: F2
+  servicePlan: B1
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcpt/platform
     config:
