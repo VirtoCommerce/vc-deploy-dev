@@ -21,7 +21,7 @@
       Reload: 2022-3
     secretConfig: {}
     themes:
-      B2B-store: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.5.0/vc-theme-b2b-vue-1.5.0.zip
+      B2B-store: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.6.0/vc-theme-b2b-vue-1.6.0.zip
   ingress:
     hostname: takarabio-platform.govirto.com
     storefrontHostname: takarabio-store.govirto.com
