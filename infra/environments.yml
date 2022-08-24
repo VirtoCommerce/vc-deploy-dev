@@ -9,7 +9,6 @@
       APPINSIGHTS_INSTRUMENTATIONKEY: 6dcd2553-1a00-4e3d-95da-421e85c02aed
       AzureAd__Priority: 1
       PasswordLogin__Priority: 0
-      Caching__CacheEnabled: false
     secretConfig: {}
   storefront:
     imageRepository: virtopaasregistrymain.azurecr.io/vcpt/storefront
