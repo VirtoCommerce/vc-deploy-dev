@@ -1,11 +1,11 @@
-name: vcpt gitops
+name: vcpt takarabio gitops
 
 on:
   workflow_dispatch:
   push:
     paths:
       - "infra/**"
-    branches: [vcpt]
+    branches: [takarabio]
 
 jobs:
   gitops:

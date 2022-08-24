@@ -1,11 +1,11 @@
-name: vcpt platform
+name: vcpt takarabio platform
 
 on:
   workflow_dispatch:
   push:
     paths:
       - 'backend/**'
-    branches: [ vcpt ]
+    branches: [ takarabio ]
 
 jobs:
   gitops:
@@ -64,6 +64,6 @@ jobs:
 
     - name: Update app
       run: |
-        vc-build SetHelmParameter -ArgoServer https://argocd.govirto.com -ArgoAppName vcpt-main -ArgoToken ${{ secrets.VCPT_TOKEN }} -HelmParameters platform.image.tag=$TAG
+        vc-build SetHelmParameter -ArgoServer https://argocd.govirto.com -ArgoAppName vcpt-takarabio -ArgoToken ${{ secrets.VCPT_TOKEN }} -HelmParameters platform.image.tag=$TAG
       env:
         TAG: ${{ steps.vars.outputs.paas_tag }}
