@@ -33,7 +33,7 @@
     },
     {
       "Id": "VirtoCommerce.Catalog",
-      "Version": "3.222.0"
+      "Version": "3.229.0"
     },
     {
       "Id": "VirtoCommerce.CatalogCsvImportModule",
@@ -66,6 +66,10 @@
     {
       "Id": "VirtoCommerce.DynamicAssociationsModule",
       "Version": "3.200.0"
+    },
+    {
+      "Id": "VirtoCommerce.ElasticAppSearch",
+      "Version": "3.202.0"
     },
     {
       "Id": "VirtoCommerce.ElasticSearch",
