@@ -6,6 +6,7 @@ data:
   ASPNETCORE_FORWARDEDHEADERS_ENABLED: "true"
   AppInsights__EnableDependencyTrackingTelemetryModule: "false"
   Swagger__UI__Enabled: "false"
+# Setting for redis
   PushNotifications__ForceWebSockets: "true"
   PushNotifications__ScalabilityMode: "RedisBackplane"
   PushNotifications__HubUrl: "https://$(VC_PLATFORM_SERVICE).$(VC_NAMESPACE).govirto.com/pushNotificationHub"
