@@ -28,7 +28,7 @@
       Payments__AuthorizeNet__ApiLogin: apilogin
       Payments__AuthorizeNet__SHA2Hash: sha2hash
       Payments__AuthorizeNet__TxnKey: txnkey
-      Search__ElasticAppSearch__PrivateApiKey: elasticAppSearchPrivateApiKey
+      Search__ElasticAppSearch__PrivateApiKey: elasticappsearchprivateapikey
   storefront:
     imageRepository: virtopaasregistrymain.azurecr.io/virtostart/storefront
     config:
