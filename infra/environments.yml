@@ -23,6 +23,7 @@
       Notifications__Smtp__Host: smtp.sendgrid.net
       Notifications__Smtp__Login: apikey
       Notifications__Smtp__Port: 587
+      Reload: 2022-08-26
     secretConfig:
       Notifications__SendGrid__ApiKey: sendkey
       Payments__AuthorizeNet__ApiLogin: apilogin
@@ -35,7 +36,7 @@
       VirtoCommerce__DefaultStore: B2B-store
       SnapshotCollectorConfiguration__IsEnabled: false
       APPINSIGHTS_INSTRUMENTATIONKEY: 4eef52ad-79ec-410c-a273-0a1abff866ea
-      Reload: 2022-08-22
+      Reload: 2022-08-26
     secretConfig:
       VirtoCommerce__Endpoint__Password: virtocommercepassword
     themes:
