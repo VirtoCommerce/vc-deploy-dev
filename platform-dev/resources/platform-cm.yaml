@@ -27,6 +27,7 @@ data:
 # storage 
   Content__FileSystem__PublicUrl: https://$(VC_PLATFORM_SERVICE).$(VC_NAMESPACE).govirto.com/cms-content/
   Assets__FileSystem__PublicUrl: https://$(VC_PLATFORM_SERVICE).$(VC_NAMESPACE).govirto.com/cms-content/assets/
+# license settings
   VirtoCommerce__LicenseFilePath: app_data/VirtoCommerce.lic
   VirtoCommerce__LicensePublicKeyPath: app_data/public.key
   VirtoCommerce__LicensePrivateKeyPath: app_data/private.key
