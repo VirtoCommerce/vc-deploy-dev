@@ -251,11 +251,6 @@ data:
       "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Licensing_3.200.0.zip"
     },
     {
-      "Id": "VirtoCommerce.QuoteExtensionsModule",
-      "Repository": "VirtoCommerce/vc-module-quote",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.QuoteExtensionsModule.Web-sample-VirtoCommerce.QuoteExtensionsModule_3.203.0-pr-58.zip"
-    },
-    {
       "Id": "VirtoCommerce.Contracts",
       "Repository": "VirtoCommerce/vc-module-contract",
       "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Contracts_3.200.0-pr-1.zip"
