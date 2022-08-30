@@ -92,3 +92,5 @@ data:
     #Setting password validation
     IdentityOptions__Password__RequiredLength: "6"
     IdentityOptions__User__RequireUniqueEmail: "true"
+    #Setting organization maintainer role
+    FrontendSecurity__OrganizationMaintainerRole: "Organization maintainer"
