@@ -21,13 +21,13 @@ spec:
       initContainers:
       - name: init-storefront
         imagePullPolicy: Always
-        image: ghcr.io/virtocommerce/vc-deploy-containers/platform-installer:v3
+        image: ghcr.io/virtocommerce/platform-installer:v8
         command:
           - "/bin/sh"
           - "-c"
         args:
-          - "python3 installer.py $(MERCURY_THEME_URL) $(MERCURY_THEME_LOCATION)
-          && python3 installer.py $(ASSETS_URL) $(ASSETS_LOCATION)"
+          - "python3 install-theme.py $(MERCURY_THEME_URL) $(MERCURY_THEME_LOCATION)
+          && python3 upload-assets.py $(ASSETS_URL) $(ASSETS_LOCATION)"
         envFrom:
           - configMapRef:
               name: deployment-cm
