@@ -28,6 +28,8 @@ data:
   Content__PathMappings__pages__1: "_storeId"
   Content__PathMappings__pages__2: "_theme"
   Content__PathMappings__pages__3: "content/pages"
+  Content__PathMappings__themes__0: "Themes"
+  Content__PathMappings__themes__1: "_storeId"
   Assets__FileSystem__PublicUrl: https://$(VC_PLATFORM_SERVICE).$(VC_NAMESPACE).govirto.com/cms-content/assets/
   VirtoCommerce__LicenseFilePath: app_data/VirtoCommerce.lic
   VirtoCommerce__LicensePublicKeyPath: app_data/public.key
