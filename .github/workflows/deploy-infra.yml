@@ -26,4 +26,4 @@ jobs:
         env:
           ENV_FILE: "./infra/environments.yml"
           ARGO_SERVER: https://argocd.govirto.com
-          TOKEN: ${{ secrets.VCPT_TOKEN }}
+          TOKEN: ${{ secrets.VCPTCORE_TOKEN }}
