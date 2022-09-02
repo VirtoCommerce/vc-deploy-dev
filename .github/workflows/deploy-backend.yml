@@ -15,7 +15,7 @@ jobs:
       DOCKER_PASSWORD: ${{ secrets.VCPTCORE_ACR_DOCKER_PASSWORD }}
       DOCKERFILE_PATH: ./backend
       CONTAINER_REGISTRY: virtopaasregistrymain.azurecr.io
-      IMAGE_REPOSITORY: virtopaasregistrymain.azurecr.io/vcpt/platform
+      IMAGE_REPOSITORY: virtopaasregistrymain.azurecr.io/vcptcore/platform
       PLATFORM_IMAGE_NAME: vcptcore-platform
 
     steps:
