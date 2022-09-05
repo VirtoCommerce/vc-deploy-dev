@@ -16,7 +16,7 @@ data:
       "ModuleSources": [
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
-      "PlatformVersion": "3.240.0-master-beed425c",
+      "PlatformVersion": "3.240.3",
       "Modules": [
         {
           "Id": "VirtoCommerce.Core",
