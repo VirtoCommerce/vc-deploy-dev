@@ -36,6 +36,7 @@ data:
   VirtoCommerce__LicensePrivateKeyPath: app_data/private.key
   VirtoCommerce__Licensing__LicensePrivateKeyPath: "/opt/virtocommerce/platform/license/VirtoCommerce.lic"
   VirtoCommerce__LocalUploadFolderPath: app_data/uploads
+# hangfire
   VirtoCommerce__Hangfire__JobStorageType: SqlServer
   Logging__LogLevel__Default: "Information"
 # setting for authorize.net
