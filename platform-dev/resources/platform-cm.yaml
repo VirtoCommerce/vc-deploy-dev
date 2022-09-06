@@ -5,6 +5,7 @@ metadata:
 data:
   ASPNETCORE_FORWARDEDHEADERS_ENABLED: "true"
   AppInsights__EnableDependencyTrackingTelemetryModule: "false"
+#setting for swagger
   Swagger__UI__Enabled: "false"
 # Setting for redis
   PushNotifications__ForceWebSockets: "true"
