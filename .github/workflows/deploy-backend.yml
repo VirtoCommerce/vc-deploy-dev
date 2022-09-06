@@ -1,11 +1,11 @@
-name: vcptcore-qa platform
+name: vcptcore-dev platform
 
 on:
   workflow_dispatch:
   push:
     paths:
       - 'backend/**'
-    branches: [ vcptcore-qa ]
+    branches: [ vcptcore-dev ]
 
 jobs:
   gitops:
@@ -64,6 +64,6 @@ jobs:
 
     - name: Update app
       run: |
-        vc-build SetHelmParameter -ArgoServer https://argocd.govirto.com -ArgoAppName vcptcore-qa -ArgoToken ${{ secrets.VCPTCORE_TOKEN }} -HelmParameters platform.image.tag=$TAG
+        vc-build SetHelmParameter -ArgoServer https://argocd.govirto.com -ArgoAppName vcptcore-dev -ArgoToken ${{ secrets.VCPTCORE_TOKEN }} -HelmParameters platform.image.tag=$TAG
       env:
         TAG: ${{ steps.vars.outputs.paas_tag }}

@@ -1,4 +1,4 @@
-- name: vcptcore-qa
+- name: vcptcore-dev
   gitops: true
   servicePlan: B1
   platform:
@@ -23,6 +23,6 @@
       Reload: 2022-3
     secretConfig: {}
   ingress:
-    hostname: vcptcore-qa.govirto.com
+    hostname: vcptcore-dev.govirto.com
   protectedParameters:
    - platform.image.tag

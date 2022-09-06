@@ -1,11 +1,11 @@
-name: vcptcore-qa gitops
+name: vcptcore-dev gitops
 
 on:
   workflow_dispatch:
   push:
     paths:
       - "infra/**"
-    branches: [vcptcore-qa]
+    branches: [vcptcore-dev]
 
 jobs:
   gitops:
