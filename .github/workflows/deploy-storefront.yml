@@ -1,11 +1,11 @@
-name: vcptcore-demo storefront
+name: vcptcore-stable storefront
 
 on:
   workflow_dispatch:
   push:
     paths:
       - 'storefront/**'
-    branches: [ vcptcore-demo ]
+    branches: [ vcptcore-stable ]
 
 jobs:
   gitops:
@@ -18,7 +18,7 @@ jobs:
     
     - name: Install vc-build
       run: |
-        dotnet tool install --global VirtoCommerce.GlobalTool --version 3.3.0
+        dotnet tool install --global VirtoCommerce.GlobalTool
     
     - name: Get storefront version
       id: platform-version
@@ -35,6 +35,6 @@ jobs:
 
     - name: Update app
       run: |
-        vc-build SetHelmParameter -ArgoServer https://argocd.govirto.com -ArgoAppName vcptcore-demo -ArgoToken ${{ secrets.VCPTCORE_TOKEN }} -HelmParameters storefront.image.tag=$TAG
+        vc-build SetHelmParameter -ArgoServer https://argocd.govirto.com -ArgoAppName vcptcore-stable -ArgoToken ${{ secrets.VCPTCORE_TOKEN }} -HelmParameters storefront.image.tag=$TAG
       env:
         TAG: ${{ env.STOREFRONT_TAG }}
