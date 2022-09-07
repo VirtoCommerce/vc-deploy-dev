@@ -1,6 +1,6 @@
 - name: vcptcore-demo
   gitops: true
-  servicePlan: B1
+  servicePlan: F2
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcpt/platform
     imageTag:  3.230.0-alpha.12392-dev-a97c5f0e-1144f2f
