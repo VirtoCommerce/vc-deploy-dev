@@ -18,9 +18,7 @@ jobs:
       
 
     steps:
-    - uses: actions/checkout@v2
-      with:
-        fetch-depth: 0
+    - uses: actions/checkout@v3
     
     - name: Install vc-build
       run: |
@@ -42,7 +40,7 @@ jobs:
     - name: Publish platform image to the Virto Cloud
       run: |
         docker pull ${{env.STOREFRONT_REPO }}:${{ env.STOREFRONT_TAG }}
-        docker tag ${{env.STOREFRONT_REPO }}:${{ env.STOREFRONT_TAG }} ${{ env.IMAGE_REGISTRY }}:${{ env.STOREFRONT_TAG }}
+        docker tag ${{env.STOREFRONT_REPO }}:${{ env.STOREFRONT_TAG }} ${{ env.IMAGE_REPOSITORY }}:${{ env.STOREFRONT_TAG }}
         docker push ${{ env.IMAGE_REPOSITORY }}:${{ env.STOREFRONT_TAG }}
 
     - name: Update app
