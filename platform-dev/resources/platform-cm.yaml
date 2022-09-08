@@ -3,8 +3,10 @@ apiVersion: v1
 metadata:
   name: platform-cm
 data:
+# headers
   ASPNETCORE_FORWARDEDHEADERS_ENABLED: "true"
   AppInsights__EnableDependencyTrackingTelemetryModule: "false"
+#setting for swagger
   Swagger__UI__Enabled: "false"
 # Setting for redis
   PushNotifications__ForceWebSockets: "true"
@@ -17,7 +19,7 @@ data:
 # Elastic Search settings
   Search__ElasticSearch__Server: https://elasticsearch-dev.govirto.com
 # Elastic App Search settings
-  Search__Provider: "ElasticAppSearch"
+# Search__Provider: "ElasticAppSearch"
   Search__ElasticAppSearch__Endpoint: https://enterprise-search-test.govirto.com
   Search__ElasticAppSearch__EnableHttpCompression: "true"
 # End of search settings
@@ -34,6 +36,7 @@ data:
   VirtoCommerce__LicensePrivateKeyPath: app_data/private.key
   VirtoCommerce__Licensing__LicensePrivateKeyPath: "/opt/virtocommerce/platform/license/VirtoCommerce.lic"
   VirtoCommerce__LocalUploadFolderPath: app_data/uploads
+# hangfire
   VirtoCommerce__Hangfire__JobStorageType: SqlServer
   Logging__LogLevel__Default: "Information"
 # setting for authorize.net
