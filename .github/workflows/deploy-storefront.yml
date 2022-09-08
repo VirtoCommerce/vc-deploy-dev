@@ -30,8 +30,8 @@ jobs:
       run: |
         docker login virtopaasregistrymain.azurecr.io -u vcpt-repo-saccess -p ${{ secrets.VCPT_ACR_DOCKER_PASSWORD }}
         docker pull $STOREFRONT_REPO:$STOREFRONT_TAG
-        docker tag $STOREFRONT_REPO:$STOREFRONT_TAG virtopaasregistrymain.azurecr.io/vcpt/storefront:$STOREFRONT_TAG
-        docker push virtopaasregistrymain.azurecr.io/vcpt/storefront:$STOREFRONT_TAG
+        docker tag $STOREFRONT_REPO:$STOREFRONT_TAG virtopaasregistrymain.azurecr.io/vcptcore/storefront:$STOREFRONT_TAG
+        docker push virtopaasregistrymain.azurecr.io/vcptcore/storefront:$STOREFRONT_TAG
 
     - name: Update app
       run: |
