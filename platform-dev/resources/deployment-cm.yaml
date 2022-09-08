@@ -16,7 +16,7 @@ data:
       "ModuleSources": [
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
-      "PlatformVersion": "3.240.4",
+      "PlatformVersion": "3.240.5",
       "Modules": [
         {
           "Id": "VirtoCommerce.Core",
@@ -32,7 +32,7 @@ data:
         },
         {
           "Id": "VirtoCommerce.Catalog",
-          "Version": "3.230.1"
+          "Version": "3.230.2"
         },
         {
           "Id": "VirtoCommerce.Content",
