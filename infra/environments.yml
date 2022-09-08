@@ -2,7 +2,7 @@
   gitops: true
   servicePlan: F2
   platform:
-    imageRepository: virtopaasregistrymain.azurecr.io/vcpt/platform
+    imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
     tier: enterprise
     config:
       VirtoCommerce__LocalUploadFolderPath: wwwroot/cms-content
@@ -12,7 +12,7 @@
       Caching__CacheEnabled: false
     secretConfig: {}
   storefront:
-    imageRepository: virtopaasregistrymain.azurecr.io/vcpt/storefront
+    imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/storefront
     config:
       SnapshotCollectorConfiguration__IsEnabled: false
       VirtoCommerce__DefaultStore: B2B-store
