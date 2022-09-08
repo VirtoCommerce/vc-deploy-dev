@@ -39,7 +39,7 @@ data:
     {
       "Id": "VirtoCommerce.Catalog",
       "Repository": "VirtoCommerce/vc-module-catalog",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Catalog_3.235.0-alpha.2002.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Catalog_3.236.0-alpha.2010.zip"
     },
     {
       "Id": "VirtoCommerce.CatalogCsvImportModule",
@@ -125,7 +125,7 @@ data:
     {
       "Id": "VirtoCommerce.Notifications",
       "Repository": "VirtoCommerce/vc-module-notification",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Notifications_3.210.0-alpha.283.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Notifications_3.211.0-alpha.287.zip"
     },
     {
       "Id": "VirtoCommerce.Orders",
@@ -145,7 +145,7 @@ data:
     {
       "Id": "VirtoCommerce.Search",
       "Repository": "VirtoCommerce/vc-module-search",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Search_3.211.0-alpha.624.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Search_3.212.0-alpha.627.zip"
     },
     {
       "Id": "VirtoCommerce.Shipping",
@@ -171,6 +171,16 @@ data:
       "Id": "VirtoCommerce.Tax",
       "Repository": "VirtoCommerce/vc-module-tax",
       "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Tax_3.201.0-alpha.132.zip"
+    },
+    {
+      "Id": "VirtoCommerce.EventBus",
+      "Repository": "VirtoCommerce/vc-module-event-bus",
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.EventBus_3.203.0-alpha.86.zip"
+    },
+    {
+      "Id": "VirtoCommerce.Webhooks",
+      "Repository": "VirtoCommerce/vc-module-webhooks",
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-webhooks/releases/download/3.200.0/VirtoCommerce.WebHooks_3.200.0.zip"
     },
     {
       "Id": "VirtoCommerce.Assets",
