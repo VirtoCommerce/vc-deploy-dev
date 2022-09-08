@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.250.0",
+  "PlatformVersion": "3.251.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "",
+  "PlatformImageTag": "3.251.0-master-179cc3ab",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -42,10 +42,6 @@
         {
           "Id": "VirtoCommerce.Cart",
           "Version": "3.201.0"
-        },
-        {
-          "Id": "VirtoCommerce.Catalog",
-          "Version": "3.234.0"
         },
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
@@ -190,6 +186,10 @@
         {
           "Id": "VirtoCommerce.WebHooks",
           "Version": "3.201.0"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "Version": "3.235.0"
         }
       ]
     },
