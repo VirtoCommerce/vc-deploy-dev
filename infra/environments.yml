@@ -26,3 +26,4 @@
     storefrontHostname: vcptcore-stable-store.govirto.com
   protectedParameters:
    - platform.image.tag
+   - storefront.image.tag
