@@ -1,11 +1,12 @@
-name: vcpt gitops
+name: d365-vcmp-demo gitops
 
 on:
   workflow_dispatch:
   push:
     paths:
-      - "infra/**"
-    branches: [vcpt]
+      - 'infra/**'
+    branches: [ d365-vcmp-demo ]
+
 
 jobs:
   gitops:
@@ -13,12 +14,10 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-        with:
-          fetch-depth: 0
 
       - name: Install vc-build
         run: |
-          dotnet tool install --global VirtoCommerce.GlobalTool --version 3.4.0
+          dotnet tool install --global VirtoCommerce.GlobalTool
 
       - name: Update app
         run: |

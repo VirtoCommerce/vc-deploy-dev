@@ -1,45 +1,62 @@
-- name: vcpt-main
+- name: vcpt-d365demovcmp
   gitops: true
-  servicePlan: B1
+  servicePlan: S2
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcpt/platform
-    imageTag:  3.230.0-alpha.12392-dev-a97c5f0e-1144f2f
     tier: enterprise
     config:
-      VirtoCommerce__LocalUploadFolderPath: wwwroot/cms-content
       VirtoCommerce__SampleDataUrl: https://vc3prerelease.blob.core.windows.net/packages/clothing-and-electronics_3_0_2.zip
-      APPINSIGHTS_INSTRUMENTATIONKEY: 6dcd2553-1a00-4e3d-95da-421e85c02aed
-      AzureAd__Priority: 1
-      PasswordLogin__Priority: 0
-      Caching__CacheEnabled: false
-    secretConfig: {}
+      Marketplace__MasterCatalogId: 5aa50aaea01544529a6b6d576a668439
+      Marketplace__StoreId: B2B-store
+      Marketplace__VendorPortalUrl: https://vcpt-d365demovcmp-demo-manager.paas.govirto.com/
+      Search__OrderFullTextSearchEnabled: true
+      VirtoCommerce__LocalUploadFolderPath: /opt/virtocommerce/platform/wwwroot/cms-content
+      Notifications__Gateway: SendGrid
+      Notifications__SmsDefaultSender: +17012510519
+      Notifications__Smtp__EnableSsl: False
+      Notifications__Smtp__Host: smtp.sendgrid.net
+      Notifications__Smtp__Login: apikey
+      Notifications__Smtp__Port: 587
+      Marketplace__d365__BaseUrl: https://virtmpd3657c7fdb808917f525aos.cloud.retail.dynamics.com
+      Marketplace__d365__Tenant: 16d0ce93-4497-4fa4-89dd-bc2c74bdf65e
+      Marketplace__d365__ClientId: 507da3c8-bf1e-42be-b590-f0759617ab84
+    secretConfig:
+      Notifications__SendGrid__ApiKey: sendkey
+      Marketplace__d365__ClientSecret: d365clientsecret
   storefront:
     imageRepository: virtopaasregistrymain.azurecr.io/vcpt/storefront
-    imageTag: 6.3.0-alpha.897-dev-b0632cd8
+    themeName: B2B-store
     config:
-      SnapshotCollectorConfiguration__IsEnabled: false
-      VirtoCommerce__DefaultStore: B2B-store
       VirtoCommerce__Endpoint__Password: store
-      APPINSIGHTS_INSTRUMENTATIONKEY: 2202902d-e0e7-497d-9684-e4de597879dc
-      Reload: 2022-3
+      VirtoCommerce__DefaultStore: B2B-store
+      SnapshotCollectorConfiguration__IsEnabled: false
     secretConfig: {}
     themes:
-      B2B-store: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.4.0/vc-theme-b2b-vue-1.4.0.zip
-  ingress:
-    hostname: vcpt.govirto.com
-    storefrontHostname: vcpt-store.govirto.com
+      B2B-store: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-1.7.0-alpha.415.zip
+  ingress: 
+    hostname: d365-vcmp-demo.govirto.com
+    storefrontHostname: d365-vcmp-demo-store.govirto.com
   customApps:
     app1:
       enabled: true
+      type: standalone
       probePath: /
-      hostname: vcpt-docs.govirto.com
-      name: docs
-      imageRepository: virtopaasregistrymain.azurecr.io/vcpt/docs
-      imageTag: 1
-      ingressPath: /
+      name: demo-manager
+      imageRepository: ghcr.io/virtocommerce/platform-demo-manager
+      imageTag: 1.0.19
+      ingressPath: /(.*)
+      platformPath:
+      - /(api)(.*)
+      - /(connect\/token)(.*)
+      - /(pushNotificationHub)(.*)
+      - /(Modules)(.*)
+      storefrontPath: []
+      servicePath: []
+    app2:
+      enabled: false
       platformPath: []
       storefrontPath: []
       servicePath: []
   protectedParameters:
-   - platform.image.tag
-   - storefront.image.tag
+    - platform.image.tag
+    - storefront.image.tag
