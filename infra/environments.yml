@@ -1,4 +1,4 @@
-- name: vcptcore-regression
+- name: vcptcore-loadtest
   gitops: true
   servicePlan: F2
   platform:
@@ -19,11 +19,10 @@
       Reload: 2022-3
     secretConfig: {}
     themes:
-      B2B-store: https://github.com/VirtoCommerce/vc-theme-b2b/releases/download/3.0.8/vc-b2b-theme-3.0.8.zip
-      Electronics: https://github.com/VirtoCommerce/vc-theme-default/releases/download/2.1.13/vc-theme-default-2.1.13.zip
+      B2B-store: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-1.3.0-pr-194-1c0615fa.zip
   ingress:
-    hostname: vcptcore-regression.govirto.com
-    storefrontHostname: vcptcore-regression-store.govirto.com
+    hostname: vcptcore-loadtest.govirto.com
+    storefrontHostname: vcptcore-loadtest-store.govirto.com
   protectedParameters:
    - platform.image.tag
    - storefront.image.tag

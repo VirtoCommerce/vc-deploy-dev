@@ -1,11 +1,11 @@
-name: vcptcore-regression storefront
+name: vcptcore-loadtest storefront
 
 on:
   workflow_dispatch:
   push:
     paths:
       - 'storefront/**'
-    branches: [ vcptcore-regression ]
+    branches: [ vcptcore-loadtest ]
 
 jobs:
   gitops:
@@ -45,6 +45,6 @@ jobs:
 
     - name: Update app
       run: |
-        vc-build SetHelmParameter -ArgoServer https://argocd.govirto.com -ArgoAppName vcptcore-regression -ArgoToken ${{ secrets.VCPTCORE_TOKEN }} -HelmParameters storefront.image.tag=$TAG
+        vc-build SetHelmParameter -ArgoServer https://argocd.govirto.com -ArgoAppName vcptcore-loadtest -ArgoToken ${{ secrets.VCPTCORE_TOKEN }} -HelmParameters storefront.image.tag=$TAG
       env:
         TAG: ${{ env.STOREFRONT_TAG }}
