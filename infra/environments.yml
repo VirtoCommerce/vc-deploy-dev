@@ -1,4 +1,4 @@
-- name: vcptcore-stable
+- name: vcptcore-regression
   gitops: true
   servicePlan: F2
   platform:
@@ -22,8 +22,8 @@
       B2B-store: https://github.com/VirtoCommerce/vc-theme-b2b/releases/download/3.0.8/vc-b2b-theme-3.0.8.zip
       Electronics: https://github.com/VirtoCommerce/vc-theme-default/releases/download/2.1.13/vc-theme-default-2.1.13.zip
   ingress:
-    hostname: vcptcore-stable.govirto.com
-    storefrontHostname: vcptcore-stable-store.govirto.com
+    hostname: vcptcore-regression.govirto.com
+    storefrontHostname: vcptcore-regression-store.govirto.com
   protectedParameters:
    - platform.image.tag
    - storefront.image.tag

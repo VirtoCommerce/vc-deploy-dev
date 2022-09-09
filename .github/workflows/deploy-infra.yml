@@ -1,11 +1,11 @@
-name: vcptcore-stable gitops
+name: vcptcore-regression gitops
 
 on:
   workflow_dispatch:
   push:
     paths:
       - "infra/**"
-    branches: [vcptcore-stable]
+    branches: [vcptcore-regression]
 
 jobs:
   gitops:
