@@ -1,4 +1,4 @@
-- name: vcpt-d365demovcmp
+- name: vcpt-d365vcmpdemo
   gitops: true
   servicePlan: S2
   platform:
@@ -8,7 +8,7 @@
       VirtoCommerce__SampleDataUrl: https://vc3prerelease.blob.core.windows.net/packages/clothing-and-electronics_3_0_2.zip
       Marketplace__MasterCatalogId: 5aa50aaea01544529a6b6d576a668439
       Marketplace__StoreId: B2B-store
-      Marketplace__VendorPortalUrl: https://vcpt-d365demovcmp-demo-manager.paas.govirto.com/
+      Marketplace__VendorPortalUrl: https://vcpt-d365vcmpdemo-demo-manager.paas.govirto.com/
       Search__OrderFullTextSearchEnabled: true
       VirtoCommerce__LocalUploadFolderPath: /opt/virtocommerce/platform/wwwroot/cms-content
       Notifications__Gateway: SendGrid
