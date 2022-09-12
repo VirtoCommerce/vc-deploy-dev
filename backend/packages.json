@@ -147,10 +147,6 @@
           "BlobName": "VirtoCommerce.Licensing_3.200.0.zip"
         },
         {
-          "Id": "VirtoCommerce.Marketing",
-          "BlobName": "VirtoCommerce.Marketing_3.201.0-pr-175.zip"
-        },
-        {
           "Id": "VirtoCommerce.NativePaymentMethods",
           "BlobName": "VirtoCommerce.NativePaymentMethods_3.203.0-pr-7.zip"
         },
@@ -209,6 +205,10 @@
         {
           "Id": "VirtoCommerce.Contracts",
           "BlobName": "VirtoCommerce.Contracts_3.200.0-alpha.21.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Marketing",
+          "BlobName": "VirtoCommerce.Marketing_3.201.0-alpha.772.zip"
         }
       ]
     }
