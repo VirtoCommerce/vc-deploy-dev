@@ -99,11 +99,6 @@
           "BlobName": "VirtoCommerce.Content_3.204.0-pr-112.zip"
         },
         {
-          "Id": "VirtoCommerce.Contracts",
-          "Repository": "VirtoCommerce/vc-module-contract",
-          "BlobName": "VirtoCommerce.Contracts_3.200.0-pr-1.zip"
-        },
-        {
           "Id": "VirtoCommerce.Customer",
           "BlobName": "VirtoCommerce.Customer_3.214.0-pr-189.zip"
         },
@@ -210,6 +205,10 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "BlobName": "VirtoCommerce.Catalog_3.236.0-alpha.2010.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Contracts",
+          "BlobName": "VirtoCommerce.Contracts_3.200.0-alpha.21.zip"
         }
       ]
     }
