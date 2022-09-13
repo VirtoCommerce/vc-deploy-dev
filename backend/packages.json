@@ -40,159 +40,159 @@
             "Modules": [
                 {
                     "Id": "VirtoCommerce.AuthorizeNet",
-                    "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.AuthorizeNet_3.202.0-alpha.279.zip"
+                    "PackageUrl": "VirtoCommerce.AuthorizeNet_3.202.0-alpha.279.zip"
                   },
                   {
                     "Id": "VirtoCommerce.AvalaraTax",
-                    "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.AvalaraTax_3.202.0-alpha.258.zip"
+                    "PackageUrl": "VirtoCommerce.AvalaraTax_3.202.0-alpha.258.zip"
                   },
                   {
                     "Id": "VirtoCommerce.Cart",
-                    "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Cart_3.202.0-alpha.559.zip"
+                    "PackageUrl": "VirtoCommerce.Cart_3.202.0-alpha.559.zip"
                   },
                   {
                     "Id": "VirtoCommerce.Catalog",
-                    "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Catalog_3.236.0-alpha.2010.zip"
+                    "PackageUrl": "VirtoCommerce.Catalog_3.236.0-alpha.2010.zip"
                   },
                   {
                     "Id": "VirtoCommerce.CatalogCsvImportModule",
-                    "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.CatalogCsvImportModule_3.203.0-alpha.258.zip"
+                    "PackageUrl": "VirtoCommerce.CatalogCsvImportModule_3.203.0-alpha.258.zip"
                   },
                   {
                     "Id": "VirtoCommerce.CatalogPersonalization",
-                    "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.CatalogPersonalization_3.201.0-alpha.180.zip"
+                    "PackageUrl": "VirtoCommerce.CatalogPersonalization_3.201.0-alpha.180.zip"
                   },
                   {
                     "Id": "VirtoCommerce.CatalogPublishing",
-                    "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.CatalogPublishing_3.201.0-alpha.296.zip"
+                    "PackageUrl": "VirtoCommerce.CatalogPublishing_3.201.0-alpha.296.zip"
                   },
                   {
                     "Id": "VirtoCommerce.Content",
-                    "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Content_3.205.0-alpha.823.zip"
+                    "PackageUrl": "VirtoCommerce.Content_3.205.0-alpha.823.zip"
                   },
                   {
                     "Id": "VirtoCommerce.Core",
-                    "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Core_3.205.0-alpha.1536.zip"
+                    "PackageUrl": "VirtoCommerce.Core_3.205.0-alpha.1536.zip"
                   },
                   {
                     "Id": "VirtoCommerce.Customer",
-                    "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Customer_3.214.0-alpha.721.zip"
+                    "PackageUrl": "VirtoCommerce.Customer_3.214.0-alpha.721.zip"
                   },
                   {
                     "Id": "VirtoCommerce.CustomerReviews",
-                    "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.CustomerReviews_3.205.0-alpha.140.zip"
+                    "PackageUrl": "VirtoCommerce.CustomerReviews_3.205.0-alpha.140.zip"
                   },
                   {
                     "Id": "VirtoCommerce.DynamicAssociationsModule",
-                    "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.DynamicAssociationsModule_3.201.0-alpha.103.zip"
+                    "PackageUrl": "VirtoCommerce.DynamicAssociationsModule_3.201.0-alpha.103.zip"
                   },
                   {
                     "Id": "VirtoCommerce.ElasticSearch",
-                    "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ElasticSearch_3.207.0-alpha.183.zip"
+                    "PackageUrl": "VirtoCommerce.ElasticSearch_3.207.0-alpha.183.zip"
                   },
                   {
                     "Id": "VirtoCommerce.ExperienceApi",
-                    "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ExperienceApi_3.229.0-alpha.1012.zip"
+                    "PackageUrl": "VirtoCommerce.ExperienceApi_3.229.0-alpha.1012.zip"
                   },
                   {
                     "Id": "VirtoCommerce.Export",
-                    "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Export_3.202.0-alpha.183.zip"
+                    "PackageUrl": "VirtoCommerce.Export_3.202.0-alpha.183.zip"
                   },
                   {
                     "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
-                    "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.GoogleEcommerceAnalytics_3.202.0-alpha.138.zip"
+                    "PackageUrl": "VirtoCommerce.GoogleEcommerceAnalytics_3.202.0-alpha.138.zip"
                   },
                   {
                     "Id": "VirtoCommerce.ImageTools",
-                    "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ImageTools_3.205.0-alpha.279.zip"
+                    "PackageUrl": "VirtoCommerce.ImageTools_3.205.0-alpha.279.zip"
                   },
                   {
                     "Id": "VirtoCommerce.Inventory",
-                    "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Inventory_3.207.0-alpha.371.zip"
+                    "PackageUrl": "VirtoCommerce.Inventory_3.207.0-alpha.371.zip"
                   },
                   {
                     "Id": "VirtoCommerce.LuceneSearch",
-                    "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.LuceneSearch_3.204.0-alpha.153.zip"
+                    "PackageUrl": "VirtoCommerce.LuceneSearch_3.204.0-alpha.153.zip"
                   },
                   {
                     "Id": "VirtoCommerce.Marketing",
-                    "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Marketing_3.201.0-alpha.764.zip"
+                    "PackageUrl": "VirtoCommerce.Marketing_3.201.0-alpha.764.zip"
                   },
                   {
                     "Id": "VirtoCommerce.Notifications",
-                    "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Notifications_3.211.0-alpha.287.zip"
+                    "PackageUrl": "VirtoCommerce.Notifications_3.211.0-alpha.287.zip"
                   },
                   {
                     "Id": "VirtoCommerce.Orders",
-                    "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Orders_3.215.0-alpha.1037.zip"
+                    "PackageUrl": "VirtoCommerce.Orders_3.215.0-alpha.1037.zip"
                   },
                   {
                     "Id": "VirtoCommerce.Payment",
-                    "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Payment_3.206.0-alpha.174.zip"
+                    "PackageUrl": "VirtoCommerce.Payment_3.206.0-alpha.174.zip"
                   },
                   {
                     "Id": "VirtoCommerce.Pricing",
-                    "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Pricing_3.212.0-alpha.653.zip"
+                    "PackageUrl": "VirtoCommerce.Pricing_3.212.0-alpha.653.zip"
                   },
                   {
                     "Id": "VirtoCommerce.Search",
-                    "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Search_3.212.0-alpha.627.zip"
+                    "PackageUrl": "VirtoCommerce.Search_3.212.0-alpha.627.zip"
                   },
                   {
                     "Id": "VirtoCommerce.Shipping",
-                    "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Shipping_3.202.0-alpha.135.zip"
+                    "PackageUrl": "VirtoCommerce.Shipping_3.202.0-alpha.135.zip"
                   },
                   {
                     "Id": "VirtoCommerce.Sitemaps",
-                    "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Sitemaps_3.207.0-alpha.288.zip"
+                    "PackageUrl": "VirtoCommerce.Sitemaps_3.207.0-alpha.288.zip"
                   },
                   {
                     "Id": "VirtoCommerce.Store",
-                    "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Store_3.208.0-alpha.629.zip"
+                    "PackageUrl": "VirtoCommerce.Store_3.208.0-alpha.629.zip"
                   },
                   {
                     "Id": "VirtoCommerce.Subscription",
-                    "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Subscription_3.202.0-alpha.276.zip"
+                    "PackageUrl": "VirtoCommerce.Subscription_3.202.0-alpha.276.zip"
                   },
                   {
                     "Id": "VirtoCommerce.Tax",
-                    "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Tax_3.201.0-alpha.132.zip"
+                    "PackageUrl": "VirtoCommerce.Tax_3.201.0-alpha.132.zip"
                   },
                   {
                     "Id": "VirtoCommerce.EventBus",
-                    "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.EventBus_3.203.0-alpha.86.zip"
+                    "PackageUrl": "VirtoCommerce.EventBus_3.203.0-alpha.86.zip"
                   },
                   {
                     "Id": "VirtoCommerce.Assets",
-                    "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Assets_3.202.0-alpha.67.zip"
+                    "PackageUrl": "VirtoCommerce.Assets_3.202.0-alpha.67.zip"
                   },
                   {
                     "Id": "VirtoCommerce.ProfileExperienceApiModule",
-                    "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ProfileExperienceApiModule_3.220.0-alpha.82.zip"
+                    "PackageUrl": "VirtoCommerce.ProfileExperienceApiModule_3.220.0-alpha.82.zip"
                   },
                   {
                     "Id": "VirtoCommerce.Quote",
-                    "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Quote_3.205.0-alpha.310.zip"
+                    "PackageUrl": "VirtoCommerce.Quote_3.205.0-alpha.310.zip"
                   },
                   {
                     "Id": "VirtoCommerce.GDPR",
-                    "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.GDPR_3.202.0-alpha.75.zip"
+                    "PackageUrl": "VirtoCommerce.GDPR_3.202.0-alpha.75.zip"
                   },
                   {
                     "Id": "VirtoCommerce.Return",
-                    "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Return_3.204.0-alpha.38.zip"
+                    "PackageUrl": "VirtoCommerce.Return_3.204.0-alpha.38.zip"
                   },
                   {
                     "Id": "VirtoCommerce.ElasticAppSearch",
-                    "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ElasticAppSearch_3.203.0-alpha.49.zip"
+                    "PackageUrl": "VirtoCommerce.ElasticAppSearch_3.203.0-alpha.49.zip"
                   },
                   {
                     "Id": "VirtoCommerce.NativePaymentMethods",
-                    "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.NativePaymentMethods_3.203.0-alpha.36.zip"
+                    "PackageUrl": "VirtoCommerce.NativePaymentMethods_3.203.0-alpha.36.zip"
                   },
                   {
                     "Id": "VirtoCommerce.ShipStation",
-                    "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ShipStation_3.201.0-alpha.76.zip"
+                    "PackageUrl": "VirtoCommerce.ShipStation_3.201.0-alpha.76.zip"
                   }
             ]
         }
