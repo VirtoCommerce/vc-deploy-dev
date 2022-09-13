@@ -3,12 +3,12 @@ name: Run vcptcore-loadtest
 on:
   workflow_dispatch:
   pull_request:
-    branches: [ loadtest ]
+    branches: [ vcptcore-loadtest ]
     types: [closed]
   
 jobs:
   azure-sql:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     steps:
     - name: Azure login
       uses: azure/login@v1
@@ -22,7 +22,7 @@ jobs:
         inlineScript: |
           az sql db create --resource-group aks-cluster-dev --server vc-dev-dbserver --name loadtest-platform_dev_separate --service-objective S2
   azure-vm:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     steps:
     - name: Azure login
       uses: azure/login@v1
@@ -37,7 +37,7 @@ jobs:
           az vm start --resource-group load-test_group --name load-test
   loadtest:
     needs: [azure-sql, azure-vm]
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     name: loadtest
     steps:
     - name: Checkout
@@ -86,7 +86,7 @@ jobs:
   Scaledown:
     needs: [azure-sql, azure-vm, loadtest]
     if: always()
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     name: Scaledown
     steps:
     - name: Azure login SQL
