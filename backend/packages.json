@@ -46,10 +46,6 @@
         {
           "Id": "VirtoCommerce.Shipping",
           "Version": "3.201.0"
-        },
-        {
-          "Id": "VirtoCommerce.Quote",
-          "Version": "3.204.0"
         }
       ]
     },
@@ -209,6 +205,10 @@
         {
           "Id": "VirtoCommerce.Marketing",
           "BlobName": "VirtoCommerce.Marketing_3.201.0-alpha.772.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Quote",
+          "BlobName": "VirtoCommerce.Quote_3.205.0-alpha.318.zip"
         }
       ]
     }
