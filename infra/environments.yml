@@ -56,7 +56,7 @@
       DefaultMainMenuState__items__0__path: "browse/marketing"
       DefaultMainMenuState__items__0__isFavorite: "true"
       DefaultMainMenuState__items__0__order: "1"
-      VirtoCommerce__ApplicationInsights__SamplingOptions__Processor: "Fixed"      
+      VirtoCommerce__ApplicationInsights__SamplingOptions__Processor: "Fixed"
     secretConfig: {}
   storefront:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/storefront
