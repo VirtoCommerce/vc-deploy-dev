@@ -190,6 +190,10 @@
         {
           "Id": "VirtoCommerce.Pricing",
           "Version": "3.212.0"
+        },
+        {
+          "Id": "VirtoCommerce.Contracts",
+          "Version": "3.200.0"
         }
       ]
     },
