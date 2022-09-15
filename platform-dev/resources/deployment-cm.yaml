@@ -39,7 +39,7 @@ data:
     {
       "Id": "VirtoCommerce.Catalog",
       "Repository": "VirtoCommerce/vc-module-catalog",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Catalog_3.236.0-alpha.2010.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Catalog_3.237.0-alpha.2017.zip"
     },
     {
       "Id": "VirtoCommerce.CatalogCsvImportModule",
@@ -90,7 +90,7 @@ data:
     {
       "Id": "VirtoCommerce.ExperienceApi",
       "Repository": "VirtoCommerce/vc-module-experience-api",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ExperienceApi_3.229.0-alpha.1012.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ExperienceApi_3.230.0-alpha.1026.zip"
     },
     {
       "Id": "VirtoCommerce.Export",
@@ -120,7 +120,7 @@ data:
     {
       "Id": "VirtoCommerce.Marketing",
       "Repository": "VirtoCommerce/vc-module-marketing",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Marketing_3.201.0-alpha.764.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Marketing_3.201.0-alpha.772.zip"
     },
     {
       "Id": "VirtoCommerce.Notifications",
@@ -130,7 +130,7 @@ data:
     {
       "Id": "VirtoCommerce.Orders",
       "Repository": "VirtoCommerce/vc-module-order",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Orders_3.215.0-alpha.1037.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Orders_3.215.0-alpha.1052.zip"
     },
     {
       "Id": "VirtoCommerce.Payment",
@@ -206,7 +206,7 @@ data:
     {
       "Id": "VirtoCommerce.Quote",
       "Repository": "VirtoCommerce/vc-module-quote",
-      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Quote_3.205.0-alpha.310.zip"
+      "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Quote_3.206.0-alpha.319.zip"
     },
     {
       "Id": "VirtoCommerce.GDPR",
