@@ -32,7 +32,7 @@ data:
         },
         {
           "Id": "VirtoCommerce.Catalog",
-          "Version": "3.230.2"
+          "Version": "3.230.3"
         },
         {
           "Id": "VirtoCommerce.Content",
@@ -108,7 +108,7 @@ data:
         },
         {
           "Id": "VirtoCommerce.ExperienceApi",
-          "Version": "3.227.2"
+          "Version": "3.227.3"
         },
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
