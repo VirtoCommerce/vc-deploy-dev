@@ -9,6 +9,11 @@
     # headers
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
       AppInsights__EnableDependencyTrackingTelemetryModule: false
+    # Redis Settings
+      PushNotifications__ForceWebSockets: true
+      PushNotifications__ScalabilityMode: RedisBackplane
+      PushNotifications__HubUrl: https://vcptcore-dev.govirto.com/pushNotificationHub
+      PushNotifications__RedisBackplane__ChannelName: "vcptcore-dev-chanel"
     #setting for swagger
       Swagger__UI__Enabled: "false"
     # Search settings
