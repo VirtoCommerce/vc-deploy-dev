@@ -6,7 +6,41 @@
     imageTag:  3.230.0-alpha.12392-dev-a97c5f0e-1144f2f
     tier: enterprise
     config:
-      VirtoCommerce__LocalUploadFolderPath: wwwroot/cms-content
+      ASPNETCORE_FORWARDEDHEADERS_ENABLED: false
+      AppInsights__EnableDependencyTrackingTelemetryModule: false
+      Swagger__UI__Enabled: false
+      PushNotifications__ForceWebSockets: true
+      PushNotifications__ScalabilityMode: RedisBackplane
+      PushNotifications__HubUrl: https://vcptcore-demo.govirto.com/pushNotificationHub
+      PushNotifications__RedisBackplane__ChannelName: "vcptcore-demo-chanel"
+      # Search settings
+      Search__Scope: "vcptcore-demo-index"
+      Search__OrderFullTextSearchEnabled: true
+      # Elastic Search settings
+      Search__ElasticSearch__Server: https://elasticsearch-dev.govirto.com
+      # Elastic App Search settings
+      Search__ElasticAppSearch__Endpoint: https://enterprise-search-test.govirto.com
+      Search__ElasticAppSearch__EnableHttpCompression: true
+      # End of search settings
+      AzureAd__Enabled: true
+      AzureAd__ApplicationId: "8227d950-975c-4c28-b7d4-ea440a59dcbb"
+      AzureAd__TenantId: "bc03e660-5e3a-45c4-bf5c-b75489f78923"
+      # storage
+      Content__FileSystem__PublicUrl: https://vcptcore-demo.govirto.com/cms-content/
+      Assets__FileSystem__PublicUrl: https://vcptcore-demo.govirto.com/cms-content/assets/
+      # license settings
+      VirtoCommerce__LicenseFilePath: app_data/VirtoCommerce.lic
+      VirtoCommerce__LicensePublicKeyPath: app_data/public.key
+      VirtoCommerce__LicensePrivateKeyPath: app_data/private.key
+      VirtoCommerce__LocalUploadFolderPath: app_data/uploads
+      # hangfire
+      VirtoCommerce__Hangfire__JobStorageType: SqlServer
+      Logging__LogLevel__Default: "Information"
+      # setting for authorize.net
+      Payments__AuthorizeNet__ApiLogin: "8hPT4p99R"
+      Payments__AuthorizeNet__SHA2Hash: "FA6D2B37A7E9105942D2D184F1B2DBD8D9CA85611DE55B2267A6F7E0D7E49ACD9A6BC238CE068E75CA14ACFAD734F700FD94DCAB20353DD4D32D9BABE72DBBE4"
+      Payments__AuthorizeNet__TxnKey: "63c54EWq5d2XnGAR"
+      ASPNETCORE_ENVIRONMENT: "Production"
       VirtoCommerce__SampleDataUrl: https://vc3prerelease.blob.core.windows.net/packages/clothing-and-electronics_3_0_2.zip
       AzureAd__Priority: 1
       PasswordLogin__Priority: 0
