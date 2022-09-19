@@ -9,6 +9,7 @@
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: false
       AppInsights__EnableDependencyTrackingTelemetryModule: false
       Swagger__UI__Enabled: false
+      # Redis
       PushNotifications__ForceWebSockets: true
       PushNotifications__ScalabilityMode: RedisBackplane
       PushNotifications__HubUrl: https://vcptcore-demo.govirto.com/pushNotificationHub
