@@ -23,6 +23,12 @@
       Notifications__Smtp__Host: smtp.sendgrid.net
       Notifications__Smtp__Login: apikey
       Notifications__Smtp__Port: 587
+      Content__PathMappings__pages__0: "Themes"
+      Content__PathMappings__pages__1: "_storeId"
+      Content__PathMappings__pages__2: "_theme"
+      Content__PathMappings__pages__3: "content/pages"
+      Content__PathMappings__themes__0: "Themes"
+      Content__PathMappings__themes__1: "_storeId"
       Reload: 2022-08-26
     secretConfig:
       Notifications__SendGrid__ApiKey: sendkey
