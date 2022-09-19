@@ -1,5 +1,5 @@
 {
-  "PlatformVersion": "3.240.0",
+  "PlatformVersion": "3.249.0",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -33,7 +33,7 @@
     },
     {
       "Id": "VirtoCommerce.Catalog",
-      "Version": "3.230.0"
+      "Version": "3.234.0"
     },
     {
       "Id": "VirtoCommerce.CatalogCsvImportModule",
@@ -52,12 +52,16 @@
       "Version": "3.204.0"
     },
     {
+      "Id": "VirtoCommerce.Contracts",
+      "Version": "3.200.0"
+    },
+    {
       "Id": "VirtoCommerce.Core",
       "Version": "3.204.0"
     },
     {
       "Id": "VirtoCommerce.Customer",
-      "Version": "3.211.0"
+      "Version": "3.213.0"
     },
     {
       "Id": "VirtoCommerce.CustomerReviews",
@@ -81,7 +85,7 @@
     },
     {
       "Id": "VirtoCommerce.ExperienceApi",
-      "Version": "3.227.0"
+      "Version": "3.231.0"
     },
     {
       "Id": "VirtoCommerce.Export",
@@ -121,7 +125,7 @@
     },
     {
       "Id": "VirtoCommerce.Pricing",
-      "Version": "3.210.0"
+      "Version": "3.211.0"
     },
     {
       "Id": "VirtoCommerce.PriceExportImport",
@@ -129,7 +133,7 @@
     },
     {
       "Id": "VirtoCommerce.ProfileExperienceApiModule",
-      "Version": "3.214.0"
+      "Version": "3.219.0"
     },
     {
       "Id": "VirtoCommerce.Quote",
@@ -141,7 +145,7 @@
     },
     {
       "Id": "VirtoCommerce.Search",
-      "Version": "3.209.0"
+      "Version": "3.211.0"
     },
     {
       "Id": "VirtoCommerce.Shipping",
