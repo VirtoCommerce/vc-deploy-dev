@@ -7,7 +7,7 @@
   ],
   "Sources": [
     {
-      "Name": "AzureBlobPrerelease",
+      "Name": "AzureBlob",
       "Container": "packages",
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
