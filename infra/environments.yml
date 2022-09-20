@@ -41,6 +41,7 @@
     config:
       VirtoCommerce__DefaultStore: B2B-store
       SnapshotCollectorConfiguration__IsEnabled: false
+      FrontendSecurity__OrganizationMaintainerRole: "Organization maintainer"
       APPINSIGHTS_INSTRUMENTATIONKEY: 4eef52ad-79ec-410c-a273-0a1abff866ea
       Reload: 2022-08-26
     secretConfig:
