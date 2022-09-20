@@ -50,10 +50,18 @@ patches:
     - op: add
       path: /metadata
       value:
-        name: st-cms-content-dev
+        name: cms-content-dev
   target:
     version: v1
     kind: PersistentVolume
+- patch: |-
+    - op: add
+      path: /spec
+      value:
+        volumeName: cms-content-dev
+  target:
+    version: v1
+    kind: PersistentVolumeClaim
 
 vars:
 - name: VC_DB_HOST
