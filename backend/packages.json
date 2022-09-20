@@ -175,10 +175,6 @@
           "BlobName": "VirtoCommerce.WebHooks_3.201.0-pr-54.zip"
         },
         {
-          "Id": "VirtoCommerce.Marketing",
-          "BlobName": "VirtoCommerce.Marketing_3.201.0-alpha.772.zip"
-        },
-        {
           "Id": "VirtoCommerce.Quote",
           "BlobName": "VirtoCommerce.Quote_3.206.0-alpha.319.zip"
         },
@@ -209,6 +205,10 @@
         {
           "Id": "VirtoCommerce.Cart",
           "BlobName": "VirtoCommerce.Cart_3.203.0-alpha.570.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Marketing",
+          "BlobName": "VirtoCommerce.Marketing_3.202.0-alpha.776.zip"
         }
       ]
     }
