@@ -55,9 +55,8 @@ patches:
     kind: PersistentVolume
 - patch: |-
     - op: add
-      path: /spec
-      value:
-        volumeName: cms-content-dev
+      path: /spec/volumeName
+      value: cms-content-dev
   target:
     version: v1
     kind: PersistentVolumeClaim
