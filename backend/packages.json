@@ -167,10 +167,6 @@
           "BlobName": "VirtoCommerce.Subscription_3.201.0-pr-70.zip"
         },
         {
-          "Id": "VirtoCommerce.Tax",
-          "BlobName": "VirtoCommerce.Tax_3.201.0-pr-30.zip"
-        },
-        {
           "Id": "VirtoCommerce.WebHooks",
           "BlobName": "VirtoCommerce.WebHooks_3.201.0-pr-54.zip"
         },
@@ -209,6 +205,10 @@
         {
           "Id": "VirtoCommerce.Marketing",
           "BlobName": "VirtoCommerce.Marketing_3.202.0-alpha.776.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Tax",
+          "BlobName": "VirtoCommerce.Tax_3.202.0-alpha.143.zip"
         }
       ]
     }
