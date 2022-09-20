@@ -156,10 +156,6 @@
           "Version": "3.201.0"
         },
         {
-          "Id": "VirtoCommerce.Tax",
-          "Version": "3.200.0"
-        },
-        {
           "Id": "VirtoCommerce.WebHooks",
           "Version": "3.201.0"
         },
@@ -193,6 +189,10 @@
         },
         {
           "Id": "VirtoCommerce.Marketing",
+          "Version": "3.201.0"
+        },
+        {
+          "Id": "VirtoCommerce.Tax",
           "Version": "3.201.0"
         }
       ]
