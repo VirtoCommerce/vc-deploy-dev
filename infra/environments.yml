@@ -29,6 +29,7 @@
       Content__PathMappings__pages__3: "content/pages"
       Content__PathMappings__themes__0: "Themes"
       Content__PathMappings__themes__1: "_storeId"
+      FrontendSecurity__OrganizationMaintainerRole: "Organization maintainer"
       Reload: 2022-08-26
     secretConfig:
       Notifications__SendGrid__ApiKey: sendkey
@@ -40,8 +41,7 @@
     imageRepository: virtopaasregistrymain.azurecr.io/virtostart/storefront
     config:
       VirtoCommerce__DefaultStore: B2B-store
-      SnapshotCollectorConfiguration__IsEnabled: false
-      FrontendSecurity__OrganizationMaintainerRole: "Organization maintainer"
+      SnapshotCollectorConfiguration__IsEnabled: false      
       APPINSIGHTS_INSTRUMENTATIONKEY: 4eef52ad-79ec-410c-a273-0a1abff866ea
       Reload: 2022-08-26
     secretConfig:
