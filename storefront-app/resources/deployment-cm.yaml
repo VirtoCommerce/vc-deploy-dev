@@ -5,7 +5,7 @@ metadata:
   annotations:
     reloader.stakater.com/match: "true"
 data:
-  MERCURY_THEME_URL: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-1.8.0-alpha.430.zip
+  MERCURY_THEME_URL: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-1.9.0-alpha.442.zip
   MERCURY_THEME_LOCATION: /mnt/cms-content/Themes/B2B-store
   ASSETS_URL: https://vcbacpac.blob.core.windows.net/dac-packages/webstore_assets_4.zip
   ASSETS_LOCATION: /mnt/cms-content/assets
@@ -29,7 +29,7 @@ data:
     {
       "Id": "VirtoCommerce.Catalog",
       "Repository": "VirtoCommerce/vc-module-catalog",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-catalog/releases/download/3.234.0/VirtoCommerce.Catalog_3.234.0.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-catalog/releases/download/3.237.0/VirtoCommerce.Catalog_3.237.0.zip"
     },
     {
       "Id": "VirtoCommerce.Content",
@@ -49,7 +49,7 @@ data:
     {
       "Id": "VirtoCommerce.ExperienceApi",
       "Repository": "VirtoCommerce/vc-module-experience-api",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-experience-api/releases/download/3.229.0/VirtoCommerce.ExperienceApi_3.229.0.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-experience-api/releases/download/3.231.0/VirtoCommerce.ExperienceApi_3.231.0.zip"
     },
     {
       "Id": "VirtoCommerce.ProfileExperienceApiModule",
@@ -89,7 +89,7 @@ data:
     {
       "Id": "VirtoCommerce.Notifications",
       "Repository": "VirtoCommerce/vc-module-notification",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-notification/releases/download/3.209.0/VirtoCommerce.Notifications_3.209.0.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-notification/releases/download/3.210.0/VirtoCommerce.Notifications_3.210.0.zip"
     },
     {
       "Id": "VirtoCommerce.Orders",
@@ -104,7 +104,7 @@ data:
     {
       "Id": "VirtoCommerce.Pricing",
       "Repository": "VirtoCommerce/vc-module-pricing",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-pricing/releases/download/3.211.0/VirtoCommerce.Pricing_3.211.0.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-pricing/releases/download/3.212.0/VirtoCommerce.Pricing_3.212.0.zip"
     },
     {
       "Id": "VirtoCommerce.Search",
@@ -164,7 +164,7 @@ data:
     {
       "Id": "VirtoCommerce.CatalogCsvImportModule",
       "Repository": "VirtoCommerce/vc-module-catalog-csv-import",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-catalog-csv-import/releases/download/3.202.0/VirtoCommerce.CatalogCsvImportModule_3.202.0.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-catalog-csv-import/releases/download/3.203.0/VirtoCommerce.CatalogCsvImportModule_3.203.0.zip"
     },
     {
       "Id": "VirtoCommerce.BulkActionsModule",
@@ -174,7 +174,7 @@ data:
     {
       "Id": "VirtoCommerce.Quote",
       "Repository": "VirtoCommerce/vc-module-quote",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-quote/releases/download/3.204.0/VirtoCommerce.Quote_3.204.0.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-quote/releases/download/3.205.0/VirtoCommerce.Quote_3.205.0.zip"
     },
     {
       "Id": "VirtoCommerce.DynamicAssociations",
@@ -189,7 +189,7 @@ data:
     {
       "Id": "VirtoCommerce.AzureBlobAssets",
       "Repository": "VirtoCommerce/vc-module-azureblob-assets",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-azureblob-assets/releases/download/3.200.0/VirtoCommerce.AzureBlobAssets_3.200.0.zip"
+      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-azureblob-assets/releases/download/3.201.0/VirtoCommerce.AzureBlobAssets_3.201.0.zip"
     },
     {
       "Id": "VirtoCommerce.FileSystemAssets",
