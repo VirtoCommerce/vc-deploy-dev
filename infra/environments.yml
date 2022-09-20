@@ -95,6 +95,9 @@
   storefront:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/storefront
     config:
+      ASPNETCORE_FORWARDEDHEADERS_ENABLED: "true"
+      CookieAuthenticationOptions__ExpireTimeSpan: "12:00:00"
+      Swagger__UI__Enable: "true"
       SnapshotCollectorConfiguration__IsEnabled: false
       VirtoCommerce__DefaultStore: B2B-store
       VirtoCommerce__Endpoint__Password: store
