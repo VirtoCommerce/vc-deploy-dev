@@ -15,13 +15,13 @@ patchesStrategicMerge:
 configMapGenerator:
 - name: db-config
   literals:
-    - VC_DB_HOST=vc-dev-dbserver.database.windows.net
-    - VC_DB=vc-dev-dbserver
-    - VC_DB_POOL=vc-dev-elasticpool
+    - VC_DB_HOST=vc-prod-dbserver.database.windows.net
+    - VC_DB=vc-prod-dbserver
+    - VC_DB_POOL=vc-prod-elasticpool
     - VC_DB_USER=virto
 - name: vault-config
   literals:
-    - VAULT_API_URL=http://vault-dev.vault-dev.svc.cluster.local:8200
+    - VAULT_API_URL=http://hashicorp-vault.vault.svc.cluster.local:8200
 
 patches:
 - patch: |-
@@ -40,11 +40,11 @@ patches:
         driver: blob.csi.azure.com
         readOnly: false
         fsType: ext4 
-        volumeHandle: mc_aks-cluster-dev_aks-dev_westus#fusefdb1fe6c3d1c4b1d814#webstore-cms-content-dev
+        volumeHandle: mc_cloud-platform_vc-master_eastus#fuse8d50cd269f0a49fcba0#storefront-dev
     - op: add
       path: /spec/csi/volumeAttributes
       value: 
-        containername: storefront-cms-content-dev
+        containername: storefront-dev
         skuName: Premium_LRS
   target:
     version: v1
