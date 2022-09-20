@@ -46,6 +46,11 @@ patches:
       value: 
         containername: storefront-dev
         skuName: Premium_LRS
+        metadata:
+    - op: add
+      path: /metadata
+      value:
+        name: st-cms-content-dev
   target:
     version: v1
     kind: PersistentVolume
