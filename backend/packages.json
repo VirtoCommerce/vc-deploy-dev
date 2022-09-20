@@ -75,10 +75,6 @@
           "BlobName": "VirtoCommerce.BulkActionsModule_3.200.0-pr-18.zip"
         },
         {
-          "Id": "VirtoCommerce.Cart",
-          "BlobName": "VirtoCommerce.Cart_3.202.0-pr-99.zip"
-        },
-        {
           "Id": "VirtoCommerce.CatalogExportImport",
           "BlobName": "VirtoCommerce.CatalogExportImport_3.200.0-pr-34.zip"
         },
@@ -209,6 +205,10 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "BlobName": "VirtoCommerce.Catalog_3.237.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Cart",
+          "BlobName": "VirtoCommerce.Cart_3.202.0.zip"
         }
       ]
     }
