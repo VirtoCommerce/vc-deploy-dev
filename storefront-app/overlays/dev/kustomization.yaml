@@ -28,7 +28,7 @@ patches:
     - op: add
       path: /spec/template/spec/nodeSelector
       value: 
-        agentpool: agentpool
+        agentpool: trial
   target:
     group: apps
     version: v1
