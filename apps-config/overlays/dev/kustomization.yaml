@@ -3,4 +3,4 @@ kind: Kustomization
 nameSuffix: -dev
 resources:
 - storefront-app-dev.yaml
-- marketing-app-dev.yaml
+#- marketing-app-dev.yaml
