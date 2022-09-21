@@ -12,7 +12,7 @@
       Notifications__Smtp__Host: "smtp.sendgrid.net"
       Notifications__Smtp__Login: "apikey"
       Notifications__Smtp__Port: "587"
-      Notifications__SmsGateway: "Twilio"
+     #Notifications__SmsGateway: "Twilio"
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: "true"
       AppInsights__EnableDependencyTrackingTelemetryModule: "false"
       Swagger__UI__Enabled: "true"
