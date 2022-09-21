@@ -2,7 +2,7 @@
   "ManifestVersion": "2.0",
   "PlatformVersion": "3.254.0-alpha.12482",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.254.0-alpha.12482-dev-81ce66b6",
+  "PlatformImageTag": "3.254.0-alpha.12493-pt-8283-customusermanager-allow-inheritance-7b8931a9",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -195,10 +195,6 @@
           "BlobName": "VirtoCommerce.Contracts_3.201.0-alpha.25.zip"
         },
         {
-          "Id": "VirtoCommerce.ExperienceApi",
-          "BlobName": "VirtoCommerce.ExperienceApi_3.232.0-alpha.1031.zip"
-        },
-        {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
           "BlobName": "VirtoCommerce.CatalogCsvImportModule_3.204.0-alpha.271.zip"
         },
@@ -207,8 +203,8 @@
           "BlobName": "VirtoCommerce.Catalog_3.237.0.zip"
         },
         {
-          "Id": "VirtoCommerce.Marketing",
-          "BlobName": "VirtoCommerce.Marketing_3.201.0.zip"
+          "Id": "VirtoCommerce.ExperienceApi",
+          "BlobName": "VirtoCommerce.ExperienceApi_3.232.0.zip"
         }
       ]
     }
