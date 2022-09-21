@@ -87,6 +87,8 @@
       VirtoCommerce__ApplicationInsights__SamplingOptions__Processor: "Fixed"
       VirtoCommerce__ApplicationInsights__RoleName: "This is QA role"
       VirtoCommerce__ApplicationInsights__RoleInstance: "This is instance of QA"
+      ApplicationInsights__LogLevel__Default: "Trace"
+      ApplicationInsights__LogLevel__Microsoft: "Warning"
     #Video key
       Videos__GoogleApiKey: "AIzaSyD5A4oFeSgaMQnMo3OiaqUSJ23SQGELiA4"
     #cache
