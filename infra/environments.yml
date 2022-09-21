@@ -21,6 +21,9 @@
       VirtoCommerce__Endpoint__Password: store
       Reload: 2022-3
     secretConfig: {}
+    themes:
+      B2B-store: https://github.com/VirtoCommerce/vc-theme-b2b/releases/download/3.0.8/vc-b2b-theme-3.0.8.zip
+      Electronics: https://github.com/VirtoCommerce/vc-theme-default/releases/download/2.1.13/vc-theme-default-2.1.13.zip
   ingress:
     hostname: vcptcore-qa.govirto.com
   protectedParameters:
