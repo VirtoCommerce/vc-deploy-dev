@@ -1,8 +1,8 @@
 {
     "ManifestVersion": "2.0",
-    "PlatformVersion": "3.240.5",
+    "PlatformVersion": "3.253.0",
     "PlatformImage": "ghcr.io/virtocommerce/platform",
-    "PlatformImageTag": "3.240.5",
+    "PlatformImageTag": "3.253.0",
     "PlatformAssetUrl": "",
     "Sources": [
         {
@@ -61,7 +61,7 @@
                 },
                 {
                   "Id": "VirtoCommerce.Notifications",
-                  "Version": "3.209.0"
+                  "Version": "3.210.0"
                 },
                 {
                   "Id": "VirtoCommerce.Orders",
