@@ -29,7 +29,7 @@
       PushNotifications__HubUrl: "https://vcptcore-qa.govirto.com/pushNotificationHub"
       PushNotifications__RedisBackplane__ChannelName: "vcptcore-qa-chanel"
     #Search settings
-      Search__Scope: "$(VC_PLATFORM_SERVICE)$(VC_NAMESPACE)-new-index"
+      Search__Scope: "vcptcore-qa-index"
       Search__OrderFullTextSearchEnabled: "true"
     #Lucene settings
     #Search__Provider: "Lucene"
