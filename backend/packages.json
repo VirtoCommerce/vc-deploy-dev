@@ -42,8 +42,7 @@
         {
           "Id": "VirtoCommerce.Shipping",
           "Version": "3.201.0"
-        }
-        ,
+        },
         {
           "Id": "VirtoCommerce.Marketing",
           "Version": "3.201.0"
@@ -209,7 +208,11 @@
         },
         {
           "Id": "VirtoCommerce.ExperienceApi",
-          "BlobName": "VirtoCommerce.ExperienceApi_3.232.0.zip"
+          "BlobName": "VirtoCommerce.ExperienceApi_3.234.0-alpha.1036.zip"
+        },
+        {
+          "Id": "VirtoCommerce.QuoteExperienceApi",
+          "Version": "VirtoCommerce.QuoteExperienceApi_3.200.0-alpha.3-pt-8957.zip"
         }
       ]
     }
