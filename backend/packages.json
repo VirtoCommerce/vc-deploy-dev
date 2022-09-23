@@ -119,10 +119,6 @@
           "BlobName": "VirtoCommerce.Export_3.201.0-pr-70.zip"
         },
         {
-          "Id": "VirtoCommerce.FileSystemAssets",
-          "BlobName": "VirtoCommerce.FileSystemAssets_3.201.0-alpha.57-pt-9091-api-empty-date.zip"
-        },
-        {
           "Id": "VirtoCommerce.Inventory",
           "BlobName": "VirtoCommerce.Inventory_3.206.0-pr-111.zip"
         },
@@ -213,6 +209,10 @@
         {
           "Id": "VirtoCommerce.QuoteExperienceApi",
           "BlobName": "VirtoCommerce.QuoteExperienceApi_3.200.0-alpha.3-pt-8957.zip"
+        },
+        {
+          "Id": "VirtoCommerce.FileSystemAssets",
+          "BlobName": "VirtoCommerce.FileSystemAssets_3.201.0.zip"
         }
       ]
     }
