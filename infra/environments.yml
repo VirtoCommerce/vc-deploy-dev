@@ -84,11 +84,11 @@
       Tax__Avalara__LicenseKey: "16BC3F87E836E15C"
     #Key for AI
       APPINSIGHTS_INSTRUMENTATIONKEY: dfe0b99d-faa5-4452-83c9-86e98e592465
-      VirtoCommerce__ApplicationInsights__SamplingOptions__Processor: "Fixed"
+     #VirtoCommerce__ApplicationInsights__SamplingOptions__Processor: "Fixed"
       VirtoCommerce__ApplicationInsights__RoleName: "This is QA role"
       VirtoCommerce__ApplicationInsights__RoleInstance: "This is instance of QA"
-      ApplicationInsights__LogLevel__Default: "Trace"
-      ApplicationInsights__LogLevel__Microsoft: "Warning"
+     #ApplicationInsights__LogLevel__Default: "Trace"
+     #ApplicationInsights__LogLevel__Microsoft: "Warning"
     #Video key
       Videos__GoogleApiKey: "AIzaSyD5A4oFeSgaMQnMo3OiaqUSJ23SQGELiA4"
     #cache
