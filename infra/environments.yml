@@ -28,7 +28,7 @@
       PushNotifications__HubUrl: "https://vcptcore-stable.govirto.com/pushNotificationHub"
       PushNotifications__RedisBackplane__ChannelName: "vcptcore-stable-chanel"
     #Search settings
-      Search__Scope: "vcptcore-stable-index"
+     # Search__Scope: "vcptcore-stable-index"
       Search__OrderFullTextSearchEnabled: "true"
     #Lucene settings
     #Search__Provider: "Lucene"
