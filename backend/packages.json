@@ -199,16 +199,16 @@
           "BlobName": "VirtoCommerce.ExperienceApi_3.234.0-alpha.1036.zip"
         },
         {
-          "Id": "VirtoCommerce.Content",
-          "BlobName": "VirtoCommerce.Content_3.205.0-alpha.834.zip"
-        },
-        {
           "Id": "VirtoCommerce.FileSystemAssets",
           "BlobName": "VirtoCommerce.FileSystemAssets_3.201.0-alpha.56.zip"
         },
         {
           "Id": "VirtoCommerce.AzureBlobAssets",
           "BlobName": "VirtoCommerce.AzureBlobAssets_3.202.0-alpha.62.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Content",
+          "BlobName": "VirtoCommerce.Content_3.206.0-alpha.835.zip"
         }
       ]
     }
