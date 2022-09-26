@@ -20,10 +20,10 @@
       PushNotifications__ScalabilityMode: "RedisBackplane"
       PushNotifications__HubUrl: "https://vcptcore-regression.govirto.com/pushNotificationHub"
       PushNotifications__RedisBackplane__ChannelName: "vcptcore-regression-chanel"
-      # Search__ElasticSearch__Server: https://elasticsearch-dev.govirto.com
-      # Search__Scope: "vcptcore-regression-new-index"
-      # Content__FileSystem__PublicUrl: https://vcptcore-regression.govirto.com/cms-content/
-      # Assets__FileSystem__PublicUrl: https://vcptcore-regression.govirto.com/cms-content/assets/
+      Search__ElasticSearch__Server: https://elasticsearch-dev.govirto.com
+      Search__Scope: "vcptcore-regression-new-index"
+      Content__FileSystem__PublicUrl: https://vcptcore-regression.govirto.com/cms-content/
+      Assets__FileSystem__PublicUrl: https://vcptcore-regression.govirto.com/cms-content/assets/
       # VirtoCommerce__LicenseFilePath: app_data/VirtoCommerce.lic
       # VirtoCommerce__LicensePublicKeyPath: app_data/public.key
       # VirtoCommerce__LicensePrivateKeyPath: app_data/private.key
