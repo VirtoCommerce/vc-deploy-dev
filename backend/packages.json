@@ -29,7 +29,7 @@
         },
         {
           "Id": "VirtoCommerce.Content",
-          "Version": "3.203.0"
+          "Version": "3.203.1"
         },
         {
           "Id": "VirtoCommerce.Customer",
@@ -113,11 +113,11 @@
         },
         {
           "Id": "VirtoCommerce.AzureBlobAssets",
-          "Version": "3.200.0"
+          "Version": "3.200.1"
         },
         {
           "Id": "VirtoCommerce.FileSystemAssets",
-          "Version": "3.200.0"
+          "Version": "3.200.1"
         },
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
