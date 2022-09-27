@@ -9,61 +9,46 @@ on:
 
 jobs:
   gitops:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     env:
       DOCKER_LOGIN: vcptcore-token
       DOCKER_PASSWORD: ${{ secrets.VCPTCORE_ACR_DOCKER_PASSWORD }}
-      DOCKERFILE_PATH: ./backend
+      DOCKERFILE_PATH: ./backend/Dockerfile
       CONTAINER_REGISTRY: virtopaasregistrymain.azurecr.io
       IMAGE_REPOSITORY: virtopaasregistrymain.azurecr.io/vcptcore/platform
-      PLATFORM_IMAGE_NAME: vcptcore-platform
 
     steps:
     - uses: actions/checkout@v3
+    
+    - name: Az config
+      run: |
+        az config set extension.use_dynamic_install=yes_without_prompt
 
     - name: Install vc-build
       run: |
         dotnet tool install --global VirtoCommerce.GlobalTool
 
     - name: Pack
-      shell: bash {0}
       run: |
-        vc-build InstallModules -PackageManifestPath ./backend/packages.json -ProbingPath ./backend/platform/app_data/modules -DiscoveryPath ./backend/platform/modules --root ./backend/platform -SkipDependencySolving
+        vc-build install -PackageManifestPath ./backend/packages.json -ProbingPath ./backend/platform/app_data/modules -DiscoveryPath ./backend/platform/modules --root ./backend/platform -SkipDependencySolving
   
     - name: Get platfrom version
       id: platform-version
       run: |
-        echo "PLATFORM_IMAGE=$(cat ./backend/packages.json | jq -r '.PlatformImage')" >> $GITHUB_ENV
-        echo "PLATFORM_TAG=$(cat ./backend/packages.json | jq -r '.PlatformImageTag')" >> $GITHUB_ENV
+        echo "PLATFORM_VERSION=$(cat ./backend/packages.json | jq -r '.PlatformVersion')" >> $GITHUB_ENV
 
     - name: Set outputs
       id: vars
-      run: echo "::set-output name=paas_tag::${{ env.PLATFORM_TAG }}-$(git rev-parse --short HEAD)"
+      run: echo "::set-output name=sha_short::$(git rev-parse --short HEAD)"
 
-    - name: Build platform Image
+    - name: Build and Publish Docker Image
       run: |
-        docker build --build-arg PLATFORM_IMAGE=${{ env.PLATFORM_IMAGE }} --build-arg PLATFORM_TAG=${{ env.PLATFORM_TAG }} -t ${{env.PLATFORM_IMAGE_NAME}} ${{env.DOCKERFILE_PATH}}
-
-    - name: Docker Login
-      uses: azure/docker-login@v1
-      with:
-        login-server: ${{ env.CONTAINER_REGISTRY }}
-        username: ${{ env.DOCKER_LOGIN }}
-        password: ${{ env.DOCKER_PASSWORD }}
-
-    - name: Publish platform image to the Virto Cloud
-      run: |
-        docker tag ${{env.PLATFORM_IMAGE_NAME}} ${{ env.IMAGE_REPOSITORY }}:${{ env.TAG }}
-        docker push ${{ env.IMAGE_REPOSITORY }}:${{ env.TAG }}
+        vc-build BuildAndPush -DockerUsername $DOCKER_LOGIN -DockerPassword $DOCKER_PASSWORD -DockerfilePath $DOCKERFILE_PATH -DockerImageName $IMAGE_REPOSITORY -DockerImageTag $TAG -DockerRegistryUrl $CONTAINER_REGISTRY
       env:
-        TAG: ${{ steps.vars.outputs.paas_tag }}
-
-    - name: Az config
-      run: |
-        az config set extension.use_dynamic_install=yes_without_prompt
+        TAG: ${{ env.PLATFORM_VERSION }}-${{ steps.vars.outputs.sha_short }}
 
     - name: Update app
       run: |
         vc-build SetHelmParameter -ArgoServer https://argocd.govirto.com -ArgoAppName vcptcore-stable -ArgoToken ${{ secrets.VCPTCORE_TOKEN }} -HelmParameters platform.image.tag=$TAG
       env:
-        TAG: ${{ steps.vars.outputs.paas_tag }}
+        TAG: ${{ env.PLATFORM_VERSION }}-${{ steps.vars.outputs.sha_short }}
