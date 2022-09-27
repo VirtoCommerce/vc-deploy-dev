@@ -3,7 +3,6 @@
   servicePlan: F2
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    tier: enterprise
     config:
      #Notifications__DefaultSender: "azure_25da07ed75daacae20578a7a7dc58541@azure.com"
      #Notifications__Gateway: "SendGrid"
@@ -99,7 +98,7 @@
       SnapshotCollectorConfiguration__IsEnabled: false
       VirtoCommerce__DefaultStore: B2B-store
       VirtoCommerce__Endpoint__Password: store
-      Reload: 2022-3
+      Reload: 2022-4
     secretConfig: {}
     themes:
       B2B-store: https://github.com/VirtoCommerce/vc-theme-b2b/releases/download/3.0.8/vc-b2b-theme-3.0.8.zip
