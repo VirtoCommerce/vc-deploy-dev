@@ -1,8 +1,6 @@
 {
   "ManifestVersion": "2.0",
   "PlatformVersion": "3.216.16",
-  "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.216.16",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -188,12 +186,6 @@
           "Version": "3.201.0"
         }
       ]
-    },
-    {
-      "Name": "AzureBlob",
-      "Container": "packages",
-      "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
-      "Modules": []
     }
   ]
 }
