@@ -19,16 +19,8 @@
       AppInsights__EnableDependencyTrackingTelemetryModule: "false"
     #enable swagger ui
       Swagger__UI__Enabled: "false"
-    #setting for redis(push notification)
-      PushNotifications__ForceWebSockets: "true"
-      PushNotifications__ScalabilityMode: "RedisBackplane"
-      PushNotifications__HubUrl: "https://vcptcore-stable.govirto.com/pushNotificationHub"
-      PushNotifications__RedisBackplane__ChannelName: "vcptcore-stable-chanel"
      #Search settings
-     #Search__Scope: "vcptcore-stable-index"
       Search__OrderFullTextSearchEnabled: "true"
-    #Lucene settings
-     #Search__Provider: "Lucene"
     #Elastic Search settings
      #Search__ElasticSearch__Server: "https://elasticsearch-dev.govirto.com"
     #Elastic App Search settings
