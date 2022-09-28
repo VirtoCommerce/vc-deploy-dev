@@ -1,50 +1,40 @@
-name: vcptcore-loadtest storefront
+name: vcptcore-dev storefront
 
 on:
   workflow_dispatch:
   push:
     paths:
       - 'storefront/**'
-    branches: [ vcptcore-loadtest ]
+    branches: [ vcptcore-dev ]
 
 jobs:
   gitops:
     runs-on: ubuntu-latest
-    env: 
-      DOCKER_LOGIN: vcptcore-token
-      DOCKER_PASSWORD: ${{ secrets.VCPTCORE_ACR_DOCKER_PASSWORD }}
-      CONTAINER_REGISTRY: virtopaasregistrymain.azurecr.io
-      IMAGE_REPOSITORY: virtopaasregistrymain.azurecr.io/vcptcore/storefront
-      
 
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
     
     - name: Install vc-build
       run: |
-        dotnet tool install --global VirtoCommerce.GlobalTool
+        dotnet tool install --global VirtoCommerce.GlobalTool --version 3.3.0
     
     - name: Get storefront version
       id: platform-version
       run: |
         echo "STOREFRONT_TAG=$(cat ./storefront/image.json | jq -r '.Tag')" >> $GITHUB_ENV
         echo "STOREFRONT_REPO=$(cat ./storefront/image.json | jq -r '.Repository')" >> $GITHUB_ENV
-
-    - name: Docker Login
-      uses: azure/docker-login@v1
-      with:
-        login-server: ${{ env.CONTAINER_REGISTRY }}
-        username: ${{ env.DOCKER_LOGIN }}
-        password: ${{ env.DOCKER_PASSWORD }}
-
-    - name: Publish platform image to the Virto Cloud
+      
+    - name: Docker
       run: |
-        docker pull ${{env.STOREFRONT_REPO }}:${{ env.STOREFRONT_TAG }}
-        docker tag ${{env.STOREFRONT_REPO }}:${{ env.STOREFRONT_TAG }} ${{ env.IMAGE_REPOSITORY }}:${{ env.STOREFRONT_TAG }}
-        docker push ${{ env.IMAGE_REPOSITORY }}:${{ env.STOREFRONT_TAG }}
+        docker login virtopaasregistrymain.azurecr.io -u vcpt-repo-saccess -p ${{ secrets.VCPT_ACR_DOCKER_PASSWORD }}
+        docker pull $STOREFRONT_REPO:$STOREFRONT_TAG
+        docker tag $STOREFRONT_REPO:$STOREFRONT_TAG virtopaasregistrymain.azurecr.io/vcpt/storefront:$STOREFRONT_TAG
+        docker push virtopaasregistrymain.azurecr.io/vcpt/storefront:$STOREFRONT_TAG
 
     - name: Update app
       run: |
-        vc-build SetHelmParameter -ArgoServer https://argocd.govirto.com -ArgoAppName vcptcore-loadtest -ArgoToken ${{ secrets.VCPTCORE_TOKEN }} -HelmParameters storefront.image.tag=$TAG
+        vc-build SetHelmParameter -ArgoServer https://argocd.govirto.com -ArgoAppName vcptcore-dev -ArgoToken ${{ secrets.VCPTCORE_TOKEN }} -HelmParameters storefront.image.tag=$TAG
       env:
         TAG: ${{ env.STOREFRONT_TAG }}
