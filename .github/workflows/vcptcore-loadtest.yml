@@ -15,12 +15,12 @@ jobs:
       with:
         creds: '{"clientId":"${{ secrets.AZURE_CREDENTIALS_CLIENT }}","clientSecret":"${{ secrets.AZURE_CREDENTIALS_SECRET }}","subscriptionId":"${{ secrets.AZURE_CREDENTIALS_SUB }}","tenantId":"${{ secrets.AZURE_TENANT_ID }}"}'
 
-    - name: Azure CLI - scale up DB
-      uses: azure/CLI@v1
-      with:
-        azcliversion: 2.30.0
-        inlineScript: |
-          az sql db create --resource-group aks-cluster-dev --server vc-dev-dbserver --name loadtest-platform_dev_separate --service-objective S2
+    # - name: Azure CLI - scale up DB
+    #   uses: azure/CLI@v1
+    #   with:
+    #     azcliversion: 2.30.0
+    #     inlineScript: |
+    #       az sql db create --resource-group aks-cluster-dev --server vc-dev-dbserver --name loadtest-platform_dev_separate --service-objective S2
   azure-vm:
     runs-on: ubuntu-20.04
     steps:
@@ -89,17 +89,17 @@ jobs:
     runs-on: ubuntu-20.04
     name: Scaledown
     steps:
-    - name: Azure login SQL
-      uses: azure/login@v1
-      with:
-        creds: '{"clientId":"${{ secrets.AZURE_CREDENTIALS_CLIENT }}","clientSecret":"${{ secrets.AZURE_CREDENTIALS_SECRET }}","subscriptionId":"63624d02-de44-421b-9d19-306a8e26b322","tenantId":"${{ secrets.AZURE_TENANT_ID }}"}'
+    # - name: Azure login SQL
+    #   uses: azure/login@v1
+    #   with:
+    #     creds: '{"clientId":"${{ secrets.AZURE_CREDENTIALS_CLIENT }}","clientSecret":"${{ secrets.AZURE_CREDENTIALS_SECRET }}","subscriptionId":"63624d02-de44-421b-9d19-306a8e26b322","tenantId":"${{ secrets.AZURE_TENANT_ID }}"}'
 
-    - name: Azure CLI - scale down DB
-      uses: azure/CLI@v1
-      with:
-        azcliversion: 2.30.0
-        inlineScript: |
-          az sql db delete --resource-group aks-cluster-dev --server vc-dev-dbserver --name loadtest-platform_dev_separate --yes
+    # - name: Azure CLI - scale down DB
+    #   uses: azure/CLI@v1
+    #   with:
+    #     azcliversion: 2.30.0
+    #     inlineScript: |
+    #       az sql db delete --resource-group aks-cluster-dev --server vc-dev-dbserver --name loadtest-platform_dev_separate --yes
       
     - name: Azure login VM
       uses: azure/login@v1
