@@ -1,11 +1,11 @@
-name: vcptcore-dev gitops
+name: vcptcore-loadtest gitops
 
 on:
   workflow_dispatch:
   push:
     paths:
       - "infra/**"
-    branches: [vcptcore-dev]
+    branches: [vcptcore-loadtest]
 
 jobs:
   gitops:
@@ -18,7 +18,7 @@ jobs:
 
       - name: Install vc-build
         run: |
-          dotnet tool install --global VirtoCommerce.GlobalTool --version 3.4.0
+          dotnet tool install --global VirtoCommerce.GlobalTool
 
       - name: Update app
         run: |
