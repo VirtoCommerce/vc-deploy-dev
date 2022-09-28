@@ -22,7 +22,7 @@ images:
   newTag: 3.253.0
 - name: docker.pkg.github.com/virtocommerce/vc-storefront/storefront
   newName: ghcr.io/virtocommerce/storefront
-  newTag: 6.4.0-alpha.900-dev-56eb21f8
+  newTag: 6.4.0-alpha.901-dev-0c1028dd
 - name: ghcr.io/virtocommerce/page-builder
   newName: ghcr.io/virtocommerce/page-builder
   newTag: 0.0.0
