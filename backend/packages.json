@@ -12,10 +12,6 @@
       ],
       "Modules": [
         {
-          "Id": "VirtoCommerce.AzureSearch",
-          "Version": "3.203.0"
-        },
-        {
           "Id": "VirtoCommerce.CatalogPublishing",
           "Version": "3.200.0"
         },
@@ -213,6 +209,10 @@
         {
           "Id": "VirtoCommerce.QuoteExperienceApi",
           "BlobName": "VirtoCommerce.QuoteExperienceApi_3.200.0-pr-1-0766.zip"
+        },
+        {
+          "Id": "VirtoCommerce.AzureSearch",
+          "BlobName": "VirtoCommerce.AzureSearch_3.204.0-pr-30-d91b.zip"
         }
       ]
     }
