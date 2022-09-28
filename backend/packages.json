@@ -1,6 +1,6 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.216.15",
+  "PlatformVersion": "3.216.16",
   "Sources": [
     {
       "Name": "GithubReleases",
@@ -8,10 +8,7 @@
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
       "Modules": [
-        {
-          "Id": "VirtoCommerce.Assets",
-          "Version": "3.200.1"
-        }
+
       ]
     }
   ]
