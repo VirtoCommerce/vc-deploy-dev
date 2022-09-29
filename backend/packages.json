@@ -203,12 +203,12 @@
           "BlobName": "VirtoCommerce.ElasticSearch_3.209.0-alpha.196.zip"
         },
         {
-          "Id": "VirtoCommerce.WebHooks",
-          "BlobName": "VirtoCommerce.WebHooks_3.202.0-alpha.222.zip"
-        },
-        {
           "Id": "VirtoCommerce.AzureSearch",
           "BlobName": "VirtoCommerce.AzureSearch_3.205.0-alpha.181.zip"
+        },
+        {
+          "Id": "VirtoCommerce.WebHooks",
+          "BlobName": "VirtoCommerce.WebHooks_3.202.0-alpha.223.zip"
         }
       ]
     }
