@@ -88,7 +88,7 @@ jobs:
         password: ${{ secrets.VM_PASSWORD }}
         command_timeout: 45m
         script: |
-          cd  /home/vcadmin/loadtest-vcptcore
+          cd  /home/vcadmin
           export RELEASE_TAG='${{ env.PLATFORM_IMAGE_TAG }}-${{ github.run_id }}'
           export TEST='./vc-loadtests/Virto_Templates/Backend_Load_Script_Template.jmx'
           export REPO='https://${{ secrets.TMP_TOKEN }}@github.com/VirtoCommerce/vc-loadtests.git'
