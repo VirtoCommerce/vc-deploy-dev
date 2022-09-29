@@ -5,7 +5,16 @@ on:
   pull_request:
     branches: [ vcptcore-loadtest ]
     types: [closed]
-  
+env:
+    ARGO_SERVER: argo.virtocommerce.cloud
+    ENV_NAME: vcptcore-loadtest
+    ARGO_USERNAME: ${{ secrets.VIRTOCLOUD_LOGIN }}
+    ARGO_PASSWORD: ${{ secrets.VIRTOCLOUD_PASSWORD }}
+    DB_NAME: loadtest-platform_dev_separate
+    DB_SERVER: vc-dev-dbserver
+    DB_RESOURCE_GROUP: aks-cluster-dev
+
+
 jobs:
   azure-sql:
     runs-on: ubuntu-20.04
@@ -20,7 +29,7 @@ jobs:
     #   with:
     #     azcliversion: 2.30.0
     #     inlineScript: |
-    #       az sql db create --resource-group aks-cluster-dev --server vc-dev-dbserver --name loadtest-platform_dev_separate --service-objective S2
+    #       az sql db create --resource-group ${{ env.DB_RESOURCE_GROUP }} --server ${{ env.DB_SERVER }} --name ${{ env.DB_NAME }} --service-objective S2
   azure-vm:
     runs-on: ubuntu-20.04
     steps:
@@ -39,9 +48,6 @@ jobs:
     needs: [azure-sql, azure-vm]
     runs-on: ubuntu-20.04
     name: loadtest
-    env:
-      ARGO_SERVER: argo.virtocommerce.cloud
-      ENV_NAME: vcptcore-loadtest
     steps:
     - name: Checkout
       uses: actions/checkout@v2
@@ -56,8 +62,8 @@ jobs:
       id: argocd-cli
       with:
         server: ${{env.ARGO_SERVER}}
-        username: ${{ secrets.VIRTOCLOUD_LOGIN }}
-        password: ${{ secrets.VIRTOCLOUD_PASSWORD }}
+        username: ${{ env.ARGO_USERNAME }}
+        password: ${{ env.ARGO_PASSWORD }}
         command: app wait ${{ env.ENV_NAME }}
 
     - uses: appleboy/scp-action@master
@@ -102,7 +108,7 @@ jobs:
     #   with:
     #     azcliversion: 2.30.0
     #     inlineScript: |
-    #       az sql db delete --resource-group aks-cluster-dev --server vc-dev-dbserver --name loadtest-platform_dev_separate --yes
+    #       az sql db delete --resource-group ${{ env.DB_RESOURCE_GROUP }} --server ${{ env.DB_SERVER }} --name ${{ env.DB_NAME }} --yes
       
     - name: Azure login VM
       uses: azure/login@v1
@@ -115,12 +121,12 @@ jobs:
         azcliversion: 2.30.0
         inlineScript: |
           az vm stop --resource-group load-test_group --name load-test
-    - name: Wait for environment is up
-      if: ${{ matrix.envName }} == 'dev'
+
+    - name: Restart platform 
       uses: VirtoCommerce/vc-github-actions/vc-argocd-cli@master
       id: argocd-cli
       with:
-        server: argo.govirto.com
-        username: ${{ secrets.argoLogin }}
-        password: ${{ secrets.argoPassword }}
-        command: app actions run loadtest-dev restart --kind Deployment --resource-name loadtest-platform
+        server: ${{env.ARGO_SERVER}}
+        username: ${{ env.ARGO_USERNAME }}
+        password: ${{ env.ARGO_PASSWORD }}
+        command: app actions run ${{ env.ENV_NAME }} restart --kind Rollout --resource-name ${{ env.ENV_NAME }}-platform
