@@ -90,8 +90,9 @@ jobs:
           export REPO='https://${{ secrets.TMP_TOKEN }}@github.com/VirtoCommerce/vc-loadtests.git'
           echo $RELEASE_TAG
           export AUTH_TOKEN=${{ secrets.REPO_TOKEN }}
+          cd /home/vcadmin/loadtest
           ls -l
-          python3.8 ./loadtest.py && rm ./loadtest.py
+          python3.8 loadtest.py && rm loadtest.py
 #test
   Scaledown:
     needs: [azure-sql, azure-vm, loadtest]
