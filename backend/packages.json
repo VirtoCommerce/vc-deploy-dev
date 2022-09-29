@@ -195,10 +195,6 @@
           "BlobName": "VirtoCommerce.Catalog_3.239.0-alpha.2023.zip"
         },
         {
-          "Id": "VirtoCommerce.ExperienceApi",
-          "BlobName": "VirtoCommerce.ExperienceApi_3.234.0-alpha.1037.zip"
-        },
-        {
           "Id": "VirtoCommerce.ElasticSearch",
           "BlobName": "VirtoCommerce.ElasticSearch_3.209.0-alpha.196.zip"
         },
@@ -209,6 +205,10 @@
         {
           "Id": "VirtoCommerce.WebHooks",
           "BlobName": "VirtoCommerce.WebHooks_3.203.0-alpha.224.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ExperienceApi",
+          "BlobName": "VirtoCommerce.ExperienceApi_3.234.0-alpha.1038.zip"
         }
       ]
     }
