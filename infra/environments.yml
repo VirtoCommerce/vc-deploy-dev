@@ -70,7 +70,7 @@
       Reload: 2022-3
     secretConfig: {}
     themes:
-      B2B-store: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-1.3.0-pr-194-1c0615fa.zip
+      B2B-store: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-1.9.0-pr-313-8831-8831bc33.zip
   ingress:
     hostname: vcptcore-loadtest.govirto.com
     storefrontHostname: vcptcore-loadtest-store.govirto.com
