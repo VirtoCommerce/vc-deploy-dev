@@ -72,7 +72,7 @@ jobs:
         host: ${{ secrets.VM_HOST }}
         username: vcadmin
         password: ${{ secrets.VM_PASSWORD }}
-        source: "./scripts/loadtest.py"
+        source: "${GITHUB_WORKSPACE}/scripts/loadtest.py"
         target: "/home/vcadmin/loadtest"
         strip_components: 5
 
