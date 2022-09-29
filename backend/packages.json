@@ -164,10 +164,6 @@
           "Version": "3.201.0"
         },
         {
-          "Id": "VirtoCommerce.ExperienceApi",
-          "Version": "3.233.0"
-        },
-        {
           "Id": "VirtoCommerce.AzureBlobAssets",
           "Version": "3.202.0"
         },
@@ -194,6 +190,10 @@
         {
           "Id": "VirtoCommerce.WebHooks",
           "Version": "3.202.0"
+        },
+        {
+          "Id": "VirtoCommerce.ExperienceApi",
+          "Version": "3.234.0"
         }
       ]
     },
