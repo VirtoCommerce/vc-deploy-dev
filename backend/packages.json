@@ -207,12 +207,12 @@
           "BlobName": "VirtoCommerce.QuoteExperienceApi_3.200.0-pr-1-7cf5.zip"
         },
         {
-          "Id": "VirtoCommerce.AzureSearch",
-          "BlobName": "VirtoCommerce.AzureSearch_3.204.0-pr-30-d91b.zip"
-        },
-        {
           "Id": "VirtoCommerce.ElasticSearch",
           "BlobName": "VirtoCommerce.ElasticSearch_3.208.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.AzureSearch",
+          "BlobName": "VirtoCommerce.AzureSearch_3.204.0.zip"
         }
       ]
     }
