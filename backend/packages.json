@@ -12,10 +12,6 @@
       ],
       "Modules": [
         {
-          "Id": "VirtoCommerce.AzureSearch",
-          "Version": "3.203.0"
-        },
-        {
           "Id": "VirtoCommerce.CatalogPublishing",
           "Version": "3.200.0"
         },
@@ -209,6 +205,10 @@
         {
           "Id": "VirtoCommerce.WebHooks",
           "BlobName": "VirtoCommerce.WebHooks_3.202.0-alpha.222.zip"
+        },
+        {
+          "Id": "VirtoCommerce.AzureSearch",
+          "BlobName": "VirtoCommerce.AzureSearch_3.204.0-alpha.180.zip"
         }
       ]
     }
