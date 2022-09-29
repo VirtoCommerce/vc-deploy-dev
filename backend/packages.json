@@ -136,10 +136,6 @@
           "Version": "3.201.0"
         },
         {
-          "Id": "VirtoCommerce.WebHooks",
-          "Version": "3.201.0"
-        },
-        {
           "Id": "VirtoCommerce.Quote",
           "Version": "3.205.0"
         },
@@ -194,6 +190,10 @@
         {
           "Id": "VirtoCommerce.AzureSearch",
           "Version": "3.204.0"
+        },
+        {
+          "Id": "VirtoCommerce.WebHooks",
+          "Version": "3.202.0"
         }
       ]
     },
