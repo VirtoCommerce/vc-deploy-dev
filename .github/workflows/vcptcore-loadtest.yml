@@ -66,6 +66,10 @@ jobs:
         password: ${{ env.ARGO_PASSWORD }}
         command: app wait ${{ env.ENV_NAME }}
 
+    - run: |
+        cd ${{ github.workspace }}/scripts/
+        ls -l
+
     - uses: appleboy/scp-action@master
       name: Upload script
       with:
