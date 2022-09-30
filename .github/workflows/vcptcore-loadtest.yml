@@ -78,6 +78,8 @@ jobs:
         password: ${{ secrets.VM_PASSWORD }}
         source: "${{ github.workspace }}/scripts/loadtest.py"
         target: "/home/vcadmin/loadtest-vcptcore"
+        rm: true
+        overwrite: true
         strip_components: 5
 
     - name: Run Loadtest
@@ -127,11 +129,11 @@ jobs:
         inlineScript: |
           az vm stop --resource-group load-test_group --name load-test
 
-    - name: Restart platform 
-      uses: VirtoCommerce/vc-github-actions/vc-argocd-cli@master
-      id: argocd-cli
-      with:
-        server: ${{env.ARGO_SERVER}}
-        username: ${{ env.ARGO_USERNAME }}
-        password: ${{ env.ARGO_PASSWORD }}
-        command: app actions run ${{ env.ENV_NAME }} restart --kind Rollout --resource-name ${{ env.ENV_NAME }}-platform
+    # - name: Restart platform 
+    #   uses: VirtoCommerce/vc-github-actions/vc-argocd-cli@master
+    #   id: argocd-cli
+    #   with:
+    #     server: ${{env.ARGO_SERVER}}
+    #     username: ${{ env.ARGO_USERNAME }}
+    #     password: ${{ env.ARGO_PASSWORD }}
+    #     command: app actions run ${{ env.ENV_NAME }} restart --kind Rollout --resource-name ${{ env.ENV_NAME }}-platform
