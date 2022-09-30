@@ -188,16 +188,16 @@
           "Version": "3.204.0"
         },
         {
-          "Id": "VirtoCommerce.WebHooks",
-          "Version": "3.202.0"
-        },
-        {
           "Id": "VirtoCommerce.ExperienceApi",
           "Version": "3.234.0"
         },
         {
           "Id": "VirtoCommerce.QuoteExperienceApi",
           "Version": "3.201.0"
+        },
+        {
+          "Id": "VirtoCommerce.WebHooks",
+          "Version": "3.203.0"
         }
       ]
     },
