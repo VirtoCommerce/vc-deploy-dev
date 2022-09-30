@@ -98,7 +98,7 @@ jobs:
           export REPO='https://${{ secrets.TMP_TOKEN }}@github.com/VirtoCommerce/vc-loadtests.git'
           echo $RELEASE_TAG
           export AUTH_TOKEN=${{ secrets.REPO_TOKEN }}
-          cd loadtest-vcptcore
+          cd loadtest-vcptcore/github
           ls -la
           python3.8 loadtest.py && rm loadtest.py
 #test
