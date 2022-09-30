@@ -82,7 +82,7 @@ jobs:
         target: "/home/vcadmin/loadtest-vcptcore"
         rm: true
         overwrite: true
-        strip_components: 5
+        # strip_components: 5
 
     - name: Run Loadtest
       uses: appleboy/ssh-action@master
@@ -99,7 +99,7 @@ jobs:
           echo $RELEASE_TAG
           export AUTH_TOKEN=${{ secrets.REPO_TOKEN }}
           cd loadtest-vcptcore
-          ls -l
+          ls -la
           python3.8 loadtest.py && rm loadtest.py
 #test
   Scaledown:
