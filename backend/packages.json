@@ -194,6 +194,10 @@
         {
           "Id": "VirtoCommerce.ExperienceApi",
           "Version": "3.234.0"
+        },
+        {
+          "Id": "VirtoCommerce.QuoteExperienceApi",
+          "Version": "3.201.0"
         }
       ]
     },
