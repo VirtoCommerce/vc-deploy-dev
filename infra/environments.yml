@@ -45,8 +45,8 @@
       Search__AzureSearch__SearchServiceName: "qa-demovc-3-search"
       Search__AzureSearch__Key: "6BE1143312E89C26C227E6BBAE24DD47"
       Search__AzureSearch__QueryParserType: Full
-    #End of search settings
-    #Active directory
+     #End of search settings
+     #Active directory
       AzureAd__Enabled: "true"
       AzureAd__ApplicationId: "86d04c35-143d-4d3c-aea2-8608e2186282"
       AzureAd__TenantId: "common"
@@ -57,12 +57,12 @@
       #Path for assets
       Content__FileSystem__PublicUrl: https://vcptcore-qa.govirto.com/cms-content/
       Assets__FileSystem__PublicUrl: https://vcptcore-qa.govirto.com/cms-content/assets/
-      #Assets__Provider: FileSystem
+      Assets__Provider: FileSystem
       #Assets__AzureBlobStorage__ConnectionString: DefaultEndpointsProtocol=https;AccountName=qademovc3;AccountKey=qPIpM63MI2P3ei6B1xIL4/DlKDqdsRj54z2GUtgCAeXPcMe8+mZiUvrvI5fjdyrovk331XmBlMFfAEFAjCnvtw==;EndpointSuffix=core.windows.net
       #Connection for content
-      Content__Provider: AzureBlobStorage
-      Content__AzureBlobStorage__RootPath: cms
-      Content__AzureBlobStorage__ConnectionString: DefaultEndpointsProtocol=https;AccountName=qademovc3;AccountKey=qPIpM63MI2P3ei6B1xIL4/DlKDqdsRj54z2GUtgCAeXPcMe8+mZiUvrvI5fjdyrovk331XmBlMFfAEFAjCnvtw==;EndpointSuffix=core.windows.net
+      Content__Provider: FileSystem
+     #Content__AzureBlobStorage__RootPath: cms
+     #Content__AzureBlobStorage__ConnectionString: DefaultEndpointsProtocol=https;AccountName=qademovc3;AccountKey=qPIpM63MI2P3ei6B1xIL4/DlKDqdsRj54z2GUtgCAeXPcMe8+mZiUvrvI5fjdyrovk331XmBlMFfAEFAjCnvtw==;EndpointSuffix=core.windows.net
       VirtoCommerce__LicenseFilePath: app_data/VirtoCommerce.lic
       VirtoCommerce__LicensePublicKeyPath: app_data/public.key
       VirtoCommerce__LicensePrivateKeyPath: app_data/private.key
