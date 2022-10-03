@@ -1,6 +1,6 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.249.0",
+  "PlatformVersion": "3.253.1",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -36,7 +36,7 @@
         },
         {
           "Id": "VirtoCommerce.AzureBlobAssets",
-          "Version": "3.200.0"
+          "Version": "3.202.0"
         },
         {
           "Id": "VirtoCommerce.BulkActionsModule",
@@ -48,7 +48,7 @@
         },
         {
           "Id": "VirtoCommerce.Catalog",
-          "Version": "3.234.0"
+          "Version": "3.238.0"
         },
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
@@ -100,15 +100,15 @@
         },
         {
           "Id": "VirtoCommerce.ExperienceApi",
-          "Version": "3.231.0"
+          "Version": "3.234.0"
         },
         {
           "Id": "VirtoCommerce.Export",
-          "Version": "3.200.0"
+          "Version": "3.201.0"
         },
         {
           "Id": "VirtoCommerce.FileSystemAssets",
-          "Version": "3.200.0"
+          "Version": "3.201.0"
         },
         {
           "Id": "VirtoCommerce.GDPR",
@@ -128,7 +128,7 @@
         },
         {
           "Id": "VirtoCommerce.Notifications",
-          "Version": "3.209.0"
+          "Version": "3.210.0"
         },
         {
           "Id": "VirtoCommerce.Orders",
@@ -152,11 +152,11 @@
         },
         {
           "Id": "VirtoCommerce.Quote",
-          "Version": "3.202.0"
+          "Version": "3.205.0"
         },
         {
           "Id": "VirtoCommerce.Return",
-          "Version": "3.201.0"
+          "Version": "3.203.0"
         },
         {
           "Id": "VirtoCommerce.Search",
@@ -172,11 +172,11 @@
         },
         {
           "Id": "VirtoCommerce.Store",
-          "Version": "3.206.0"
+          "Version": "3.207.0"
         },
         {
           "Id": "VirtoCommerce.Subscription",
-          "Version": "3.200.0"
+          "Version": "3.201.0"
         },
         {
           "Id": "VirtoCommerce.Tax",
@@ -184,7 +184,7 @@
         },
         {
           "Id": "VirtoCommerce.WebHooks",
-          "Version": "3.201.0"
+          "Version": "3.203.0"
         }
       ]
     }
