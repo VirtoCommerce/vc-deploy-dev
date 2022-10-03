@@ -171,10 +171,6 @@
           "BlobName": "VirtoCommerce.Tax_3.201.0.zip"
         },
         {
-          "Id": "VirtoCommerce.WebHooks",
-          "BlobName": "VirtoCommerce.WebHooks_3.202.0-pr-60-443d.zip"
-        },
-        {
           "Id": "VirtoCommerce.Quote",
           "BlobName": "VirtoCommerce.Quote_3.206.0-alpha.319.zip"
         },
@@ -213,6 +209,10 @@
         {
           "Id": "VirtoCommerce.ExperienceApi",
           "BlobName": "VirtoCommerce.ExperienceApi_3.234.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.WebHooks",
+          "BlobName": "VirtoCommerce.WebHooks_3.203.0.zip"
         }
       ]
     }
