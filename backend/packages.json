@@ -16,10 +16,6 @@
           "Version": "3.200.0"
         },
         {
-          "Id": "VirtoCommerce.Core",
-          "Version": "3.203.0"
-        },
-        {
           "Id": "VirtoCommerce.DynamicAssociationsModule",
           "Version": "3.200.0"
         },
@@ -76,7 +72,7 @@
         },
         {
           "Id": "VirtoCommerce.Cart",
-          "BlobName": "VirtoCommerce.Cart_3.202.0-pr-99.zip"
+          "BlobName": "VirtoCommerce.Cart_3.203.0-pr-101-10bd.zip"
         },
         {
           "Id": "VirtoCommerce.CatalogExportImport",
@@ -176,7 +172,7 @@
         },
         {
           "Id": "VirtoCommerce.Orders",
-          "BlobName": "VirtoCommerce.Orders_3.215.0-alpha.1052.zip"
+          "BlobName": "VirtoCommerce.Orders_3.215.0-pr-305-240c.zip"
         },
         {
           "Id": "VirtoCommerce.Pricing",
@@ -192,7 +188,7 @@
         },
         {
           "Id": "VirtoCommerce.Catalog",
-          "BlobName": "VirtoCommerce.Catalog_3.238.0-alpha.2025-vm-869.zip"
+          "BlobName": "VirtoCommerce.Catalog_3.239.0-pr-631-4afb.zip"
         },
         {
           "Id": "VirtoCommerce.QuoteExperienceApi",
@@ -213,6 +209,10 @@
         {
           "Id": "VirtoCommerce.WebHooks",
           "BlobName": "VirtoCommerce.WebHooks_3.203.0.zip"
+        },
+          {
+          "Id": "VirtoCommerce.Core",
+          "BlobName": "VirtoCommerce.Core_3.205.0-pr-208-a12c.zip"
         }
       ]
     }
