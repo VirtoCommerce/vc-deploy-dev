@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.216.16",
+  "PlatformVersion": "3.216.17",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.216.16",
+  "PlatformImageTag": "3.216.17",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -13,7 +13,7 @@
       "Modules": [
         {
           "Id": "VirtoCommerce.Core",
-          "Version": "3.200.1"
+          "Version": "3.200.0"
         },
         {
           "Id": "VirtoCommerce.AzureSearch",
@@ -29,7 +29,7 @@
         },
         {
           "Id": "VirtoCommerce.Content",
-          "Version": "3.203.0"
+          "Version": "3.203.1"
         },
         {
           "Id": "VirtoCommerce.Customer",
@@ -109,7 +109,7 @@
         },
         {
           "Id": "VirtoCommerce.Assets",
-          "Version": "3.200.1"
+          "Version": "3.200.0"
         },
         {
           "Id": "VirtoCommerce.AzureBlobAssets",
