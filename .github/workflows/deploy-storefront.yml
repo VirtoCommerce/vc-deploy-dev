@@ -1,11 +1,12 @@
-name: vcptcore-loadtest storefront
+name: Cloud storefront deployment
 
 on:
   workflow_dispatch:
   push:
     paths:
       - 'storefront/**'
-    branches: [ vcptcore-loadtest ]
+    branches: 
+      - 'vcptcore-*'
 
 jobs:
   gitops-publish-storefront:
@@ -15,6 +16,7 @@ jobs:
       DOCKER_PASSWORD: ${{ secrets.VCPTCORE_ACR_DOCKER_PASSWORD }}
       CONTAINER_REGISTRY: virtopaasregistrymain.azurecr.io
       IMAGE_REPOSITORY: virtopaasregistrymain.azurecr.io/vcptcore/storefront
+      ARGO_APP_NAME: ${{ github.ref_name }}
 
     steps:
     - uses: actions/checkout@v3
@@ -44,6 +46,6 @@ jobs:
 
     - name: Update app
       run: |
-        vc-build SetHelmParameter -ArgoServer https://argocd.govirto.com -ArgoAppName vcptcore-loadtest -ArgoToken ${{ secrets.VCPTCORE_TOKEN }} -HelmParameters storefront.image.tag=$TAG
+        vc-build SetHelmParameter -ArgoServer https://argocd.govirto.com -ArgoAppName ${{ env.ARGO_APP_NAME }} -ArgoToken ${{ secrets.VCPTCORE_TOKEN }} -HelmParameters storefront.image.tag=$TAG
       env:
         TAG: ${{ env.STOREFRONT_TAG }}
