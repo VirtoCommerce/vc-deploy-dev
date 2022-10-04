@@ -13,7 +13,6 @@ jobs:
     env:
       DOCKER_LOGIN: vcptcore-token
       DOCKER_PASSWORD: ${{ secrets.VCPTCORE_ACR_DOCKER_PASSWORD }}
-      DOCKERFILE_PATH: ./backend
       CONTAINER_REGISTRY: virtopaasregistrymain.azurecr.io
       IMAGE_REPOSITORY: virtopaasregistrymain.azurecr.io/vcptcore/storefront
 
