@@ -1,30 +1,28 @@
-name: vcpt platform
+name: Cloud platform deployment
 
 on:
   workflow_dispatch:
   push:
     paths:
       - 'backend/**'
-    branches: [ vcpt ]
+    branches: 
+      - 'vcptcore-*'
 
 jobs:
   gitops:
     runs-on: ubuntu-22.04
     env:
-      DOCKER_LOGIN: vcpt-repo-saccess
-      DOCKER_PASSWORD: ${{ secrets.VCPT_ACR_DOCKER_PASSWORD }}
+      DOCKER_LOGIN: vcptcore-token
+      DOCKER_PASSWORD: ${{ secrets.VCPTCORE_ACR_DOCKER_PASSWORD }}
       DOCKERFILE_PATH: ./backend
       CONTAINER_REGISTRY: virtopaasregistrymain.azurecr.io
-      IMAGE_REPOSITORY: virtopaasregistrymain.azurecr.io/vcpt/platform
-      PLATFORM_IMAGE_NAME: vcpt-platform
+      IMAGE_REPOSITORY: virtopaasregistrymain.azurecr.io/vcptcore/platform
+      PLATFORM_IMAGE_NAME: vcptcore-platform
+      ARGO_APP_NAME: ${{ github.ref_name }}
 
     steps:
     - uses: actions/checkout@v3
-  
-    - name: Az config
-      run: |
-        az config set extension.use_dynamic_install=yes_without_prompt
-    
+
     - name: Install vc-build
       run: |
         dotnet tool install --global VirtoCommerce.GlobalTool
@@ -32,7 +30,7 @@ jobs:
     - name: Pack
       shell: bash {0}
       run: |
-        vc-build install -skip InstallPlatform -PackageManifestPath ./backend/packages.json -ProbingPath ./backend/platform/app_data/modules -DiscoveryPath ./backend/platform/modules --root ./backend/platform -SkipDependencySolving  -AzureToken ${{ secrets.BLOB_TOKEN }}
+        vc-build InstallModules -PackageManifestPath ./backend/packages.json -ProbingPath ./backend/platform/app_data/modules -DiscoveryPath ./backend/platform/modules --root ./backend/platform -SkipDependencySolving
   
     - name: Get platfrom version
       id: platform-version
@@ -47,7 +45,7 @@ jobs:
     - name: Build platform Image
       run: |
         docker build --build-arg PLATFORM_IMAGE=${{ env.PLATFORM_IMAGE }} --build-arg PLATFORM_TAG=${{ env.PLATFORM_TAG }} -t ${{env.PLATFORM_IMAGE_NAME}} ${{env.DOCKERFILE_PATH}}
-     
+
     - name: Docker Login
       uses: azure/docker-login@v1
       with:
@@ -61,9 +59,13 @@ jobs:
         docker push ${{ env.IMAGE_REPOSITORY }}:${{ env.TAG }}
       env:
         TAG: ${{ steps.vars.outputs.paas_tag }}
-    
+
+    - name: Az config
+      run: |
+        az config set extension.use_dynamic_install=yes_without_prompt
+
     - name: Update app
       run: |
-        vc-build SetHelmParameter -ArgoServer https://argocd.govirto.com -ArgoAppName vcpt-main -ArgoToken ${{ secrets.VCPT_TOKEN }} -HelmParameters platform.image.tag=$TAG
+        vc-build SetHelmParameter -ArgoServer https://argocd.govirto.com -ArgoAppName ${{ env.ARGO_APP_NAME }} -ArgoToken ${{ secrets.VCPTCORE_TOKEN }} -HelmParameters platform.image.tag=$TAG
       env:
         TAG: ${{ steps.vars.outputs.paas_tag }}
