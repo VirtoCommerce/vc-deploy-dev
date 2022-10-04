@@ -1,4 +1,4 @@
-name: Cloud environment deployment
+name: Cloud infra deployment
 
 on:
   workflow_dispatch:
