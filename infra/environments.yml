@@ -71,7 +71,7 @@
       VirtoCommerce__SendAccountConfirmation: "true"
       SnapshotCollectorConfiguration__IsEnabled: false
       VirtoCommerce__DefaultStore: B2B-store
-     #VirtoCommerce__Endpoint__Password: store
+      VirtoCommerce__Endpoint__Password: store
       Reload: 2022-3
     secretConfig: {}
     themes:
