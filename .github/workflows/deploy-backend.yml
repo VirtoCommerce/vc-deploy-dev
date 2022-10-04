@@ -8,7 +8,6 @@ on:
     branches: 
       - 'vcptcore-*'
 
-
 jobs:
   gitops:
     runs-on: ubuntu-22.04
