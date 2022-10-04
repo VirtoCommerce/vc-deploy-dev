@@ -1,21 +1,22 @@
-name: vcptcore-regression storefront
+name: Cloud storefront deployment
 
 on:
   workflow_dispatch:
   push:
     paths:
       - 'storefront/**'
-    branches: [ vcptcore-regression ]
+    branches: 
+      - 'vcptcore-*'
 
 jobs:
-  gitops:
-    runs-on: ubuntu-latest
-    env: 
+  gitops-publish-storefront:
+    runs-on: ubuntu-20.04
+    env:
       DOCKER_LOGIN: vcptcore-token
       DOCKER_PASSWORD: ${{ secrets.VCPTCORE_ACR_DOCKER_PASSWORD }}
       CONTAINER_REGISTRY: virtopaasregistrymain.azurecr.io
       IMAGE_REPOSITORY: virtopaasregistrymain.azurecr.io/vcptcore/storefront
-      
+      ARGO_APP_NAME: ${{ github.ref_name }}
 
     steps:
     - uses: actions/checkout@v3
@@ -39,12 +40,12 @@ jobs:
 
     - name: Publish platform image to the Virto Cloud
       run: |
-        docker pull ${{env.STOREFRONT_REPO }}:${{ env.STOREFRONT_TAG }}
-        docker tag ${{env.STOREFRONT_REPO }}:${{ env.STOREFRONT_TAG }} ${{ env.IMAGE_REPOSITORY }}:${{ env.STOREFRONT_TAG }}
+        docker pull ${{ env.STOREFRONT_REPO }}:${{ env.STOREFRONT_TAG }}
+        docker tag ${{ env.STOREFRONT_REPO }}:${{ env.STOREFRONT_TAG }} ${{ env.IMAGE_REPOSITORY }}:${{ env.STOREFRONT_TAG }}
         docker push ${{ env.IMAGE_REPOSITORY }}:${{ env.STOREFRONT_TAG }}
 
     - name: Update app
       run: |
-        vc-build SetHelmParameter -ArgoServer https://argocd.govirto.com -ArgoAppName vcptcore-regression -ArgoToken ${{ secrets.VCPTCORE_TOKEN }} -HelmParameters storefront.image.tag=$TAG
+        vc-build SetHelmParameter -ArgoServer https://argocd.govirto.com -ArgoAppName ${{ env.ARGO_APP_NAME }} -ArgoToken ${{ secrets.VCPTCORE_TOKEN }} -HelmParameters storefront.image.tag=$TAG
       env:
         TAG: ${{ env.STOREFRONT_TAG }}
