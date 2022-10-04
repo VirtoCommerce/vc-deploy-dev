@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.256.0-alpha.12491",
+  "PlatformVersion": "3.256.0-alpha.12496",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.256.0-alpha.12491-dev-e34df116",
+  "PlatformImageTag": "3.256.0-alpha.12496-dev-3a61b7da",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -12,16 +12,8 @@
       ],
       "Modules": [
         {
-          "Id": "VirtoCommerce.AzureSearch",
-          "Version": "3.203.0"
-        },
-        {
           "Id": "VirtoCommerce.CatalogPublishing",
           "Version": "3.200.0"
-        },
-        {
-          "Id": "VirtoCommerce.Core",
-          "Version": "3.203.0"
         },
         {
           "Id": "VirtoCommerce.DynamicAssociationsModule",
@@ -131,10 +123,6 @@
           "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.216.0-pr-24.zip"
         },
         {
-          "Id": "VirtoCommerce.Search",
-          "BlobName": "VirtoCommerce.Search_3.211.0-pr-73.zip"
-        },
-        {
           "Id": "VirtoCommerce.ShipStation",
           "BlobName": "VirtoCommerce.ShipStation_3.200.0-alpha.81-3.200.zip"
         },
@@ -155,10 +143,6 @@
           "BlobName": "VirtoCommerce.Quote_3.206.0-alpha.319.zip"
         },
         {
-          "Id": "VirtoCommerce.Orders",
-          "BlobName": "VirtoCommerce.Orders_3.215.0-alpha.1052.zip"
-        },
-        {
           "Id": "VirtoCommerce.Pricing",
           "BlobName": "VirtoCommerce.Pricing_3.213.0-alpha.664.zip"
         },
@@ -169,10 +153,6 @@
         {
           "Id": "VirtoCommerce.Contracts",
           "BlobName": "VirtoCommerce.Contracts_3.201.0-alpha.29.zip"
-        },
-        {
-          "Id": "VirtoCommerce.Cart",
-          "BlobName": "VirtoCommerce.Cart_3.203.0-alpha.570.zip"
         },
         {
           "Id": "VirtoCommerce.Marketing",
@@ -195,20 +175,44 @@
           "BlobName": "VirtoCommerce.FileSystemAssets_3.202.0-alpha.57.zip"
         },
         {
-          "Id": "VirtoCommerce.Catalog",
-          "BlobName": "VirtoCommerce.Catalog_3.239.0-alpha.2023.zip"
-        },
-        {
-          "Id": "VirtoCommerce.ExperienceApi",
-          "BlobName": "VirtoCommerce.ExperienceApi_3.234.0-alpha.1037.zip"
-        },
-        {
           "Id": "VirtoCommerce.ElasticSearch",
           "BlobName": "VirtoCommerce.ElasticSearch_3.209.0-alpha.196.zip"
         },
         {
+          "Id": "VirtoCommerce.AzureSearch",
+          "BlobName": "VirtoCommerce.AzureSearch_3.205.0-alpha.181.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ExperienceApi",
+          "BlobName": "VirtoCommerce.ExperienceApi_3.235.0-alpha.1039.zip"
+        },
+        {
+          "Id": "VirtoCommerce.QuoteExperienceApi",
+          "BlobName": "VirtoCommerce.QuoteExperienceApi_3.202.0-alpha.6.zip"
+        },
+        {
           "Id": "VirtoCommerce.WebHooks",
-          "BlobName": "VirtoCommerce.WebHooks_3.202.0-alpha.222.zip"
+          "BlobName": "VirtoCommerce.WebHooks_3.204.0-alpha.226.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Search",
+          "BlobName": "VirtoCommerce.Search_3.213.0-alpha.668.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Core",
+          "BlobName": "VirtoCommerce.Core_3.205.0-alpha.1548.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Orders",
+          "BlobName": "VirtoCommerce.Orders_3.215.0-alpha.1056.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Cart",
+          "BlobName": "VirtoCommerce.Cart_3.203.0-alpha.572.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "BlobName": "VirtoCommerce.Catalog_3.239.0-alpha.2025.zip"
         }
       ]
     }
