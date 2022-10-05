@@ -25,7 +25,7 @@ jobs:
       run: |
         dotnet tool install --global VirtoCommerce.GlobalTool
     
-    - name: Get storefront version
+    - name: Get custom app version
       id: platform-version
       run: |
         echo "CUSTOM_APP_TAG=$(cat ./storefront/image.json | jq -r '.Tag')" >> $GITHUB_ENV
