@@ -199,10 +199,6 @@
           "BlobName": "VirtoCommerce.Search_3.213.0-alpha.668.zip"
         },
         {
-          "Id": "VirtoCommerce.Catalog",
-          "BlobName": "VirtoCommerce.Catalog_3.240.0-alpha.2026.zip"
-        },
-        {
           "Id": "VirtoCommerce.Core",
           "BlobName": "VirtoCommerce.Core_3.206.0-alpha.1549.zip"
         },
@@ -213,6 +209,10 @@
         {
           "Id": "VirtoCommerce.Cart",
           "BlobName": "VirtoCommerce.Cart_3.204.0-alpha.574.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "BlobName": "VirtoCommerce.Catalog_3.240.0-alpha.2027.zip"
         }
       ]
     }
