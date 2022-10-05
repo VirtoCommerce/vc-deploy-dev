@@ -27,7 +27,7 @@
       type: standalone
       probePath: /
       name: vc-workflow
-      imageRepository: ghcr.io/virtocommerce/vc-workflow
+      imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/workflow
       imageTag: 0.1.0
       platformPath: []
       storefrontPath: []
@@ -35,3 +35,4 @@
   protectedParameters: 
    - platform.image.tag
    - storefront.image.tag
+   - custom.app1.image.tag
