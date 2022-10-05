@@ -9,7 +9,7 @@ on:
       - 'vcptcore-*'
 
 jobs:
-  gitops-publish-storefront:
+  gitops-publish-custom-app1:
     runs-on: ubuntu-20.04
     env:
       DOCKER_LOGIN: vcptcore-token
