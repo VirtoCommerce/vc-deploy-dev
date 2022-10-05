@@ -207,12 +207,12 @@
           "BlobName": "VirtoCommerce.Cart_3.204.0-alpha.574.zip"
         },
         {
-          "Id": "VirtoCommerce.Catalog",
-          "BlobName": "VirtoCommerce.Catalog_3.240.0-alpha.2027.zip"
-        },
-        {
           "Id": "VirtoCommerce.WebHooks",
           "BlobName": "VirtoCommerce.WebHooks_3.205.0-alpha.230.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "BlobName": "VirtoCommerce.Catalog_3.240.0-alpha.2028.zip"
         }
       ]
     }
