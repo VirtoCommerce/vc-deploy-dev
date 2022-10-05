@@ -23,6 +23,12 @@
   ingress: {}
   customApps:
     app1:
+      enabled: true
+      type: standalone
+      probePath: /
+      name: vc-workflow
+      imageRepository: ghcr.io/virtocommerce/vc-workflow
+      imageTag: 0.1.0
       platformPath: []
       storefrontPath: []
       servicePath: []
