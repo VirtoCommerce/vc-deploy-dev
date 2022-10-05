@@ -176,10 +176,6 @@
           "Version": "3.201.0"
         },
         {
-          "Id": "VirtoCommerce.WebHooks",
-          "Version": "3.203.0"
-        },
-        {
           "Id": "VirtoCommerce.Search",
           "Version": "3.212.0"
         },
@@ -198,6 +194,10 @@
         {
           "Id": "VirtoCommerce.Cart",
           "Version": "3.203.0"
+        },
+        {
+          "Id": "VirtoCommerce.WebHooks",
+          "Version": "3.204.0"
         }
       ]
     },
