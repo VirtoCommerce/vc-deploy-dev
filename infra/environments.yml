@@ -30,7 +30,7 @@
       Content__PathMappings__themes__0: "Themes"
       Content__PathMappings__themes__1: "_storeId"
       FrontendSecurity__OrganizationMaintainerRole: "Organization maintainer"
-      Reload: 2022-08-26
+      Reload: 2022-10-05
     secretConfig:
       Notifications__SendGrid__ApiKey: sendkey
       Payments__AuthorizeNet__ApiLogin: apilogin
@@ -43,11 +43,11 @@
       VirtoCommerce__DefaultStore: B2B-store
       SnapshotCollectorConfiguration__IsEnabled: false      
       APPINSIGHTS_INSTRUMENTATIONKEY: 4eef52ad-79ec-410c-a273-0a1abff866ea
-      Reload: 2022-08-26
+      Reload: 2022-10-05
     secretConfig:
       VirtoCommerce__Endpoint__Password: virtocommercepassword
     themes:
-      B2B-store: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-1.10.0-alpha.460.zip
+      B2B-store: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.9.0/vc-theme-b2b-vue-1.9.0.zip
   ingress:
     hostname: virtostart-demo-admin.govirto.com
     storefrontHostname: virtostart-demo-store.govirto.com
