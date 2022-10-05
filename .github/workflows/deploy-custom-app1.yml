@@ -28,8 +28,8 @@ jobs:
     - name: Get custom app version
       id: platform-version
       run: |
-        echo "CUSTOM_APP_TAG=$(cat ./storefront/image.json | jq -r '.Tag')" >> $GITHUB_ENV
-        echo "CUSTOM_APP_REPO=$(cat ./storefront/image.json | jq -r '.Repository')" >> $GITHUB_ENV
+        echo "CUSTOM_APP_TAG=$(cat ./custom-app1/image.json | jq -r '.Tag')" >> $GITHUB_ENV
+        echo "CUSTOM_APP_REPO=$(cat ./custom-app1/image.json | jq -r '.Repository')" >> $GITHUB_ENV
 
     - name: Docker Login to ghcr.io
       uses: azure/docker-login@v1
