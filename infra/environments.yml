@@ -19,7 +19,7 @@
       APPINSIGHTS_INSTRUMENTATIONKEY: 46417508-392f-41bd-8a63-d04fde377def
     secretConfig: {}
     themes: 
-      B2B-store: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.9.0/vc-theme-b2b-vue-1.9.0.zip
+      B2B-store: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.8.0/vc-theme-b2b-vue-1.8.0.zip
   ingress: {}
   customApps:
     app1:
