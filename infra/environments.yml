@@ -8,6 +8,7 @@
       VirtoCommerce__LocalUploadFolderPath: wwwroot/cms-content
       VirtoCommerce__SampleDataUrl: https://vc3prerelease.blob.core.windows.net/packages/clothing-and-electronics_3_0_2.zip
       APPINSIGHTS_INSTRUMENTATIONKEY: d6678b10-e595-441c-8e01-04884ce00382
+      Temporal__Host: '20.62.224.64'
     secretConfig: {}
   storefront:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/storefront

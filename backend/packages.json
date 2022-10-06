@@ -153,6 +153,10 @@
         {
           "Id": "VirtoCommerce.TaskManagement",
           "BlobName": "VirtoCommerce.TaskManagement_3.200.0-alpha.8.zip"
+        },
+        {
+            "Id": "VirtoCommerce.Workflow",
+            "BlobName": "VirtoCommerce.Workflow_1.0.0.zip"
         }
       ]
     }
