@@ -11,6 +11,7 @@
       Temporal__Host: '20.62.224.64'
     secretConfig: {}
   storefront:
+    enabled: true
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/storefront
     imageTag: 6.0
     config:
