@@ -111,10 +111,6 @@
           "BlobName": "VirtoCommerce.FileSystemAssets_3.201.0-alpha.57-pt-9091-api-empty-date.zip"
         },
         {
-          "Id": "VirtoCommerce.Inventory",
-          "BlobName": "VirtoCommerce.Inventory_3.206.0-pr-111.zip"
-        },
-        {
           "Id": "VirtoCommerce.GDPR",
           "BlobName": "VirtoCommerce.GDPR_3.201.0-pr-11.zip"
         },
@@ -210,9 +206,13 @@
           "Id": "VirtoCommerce.WebHooks",
           "BlobName": "VirtoCommerce.WebHooks_3.203.0.zip"
         },
-          {
+        {
           "Id": "VirtoCommerce.Core",
           "BlobName": "VirtoCommerce.Core_3.205.0-pr-208-f40d.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Inventory",
+          "BlobName": "VirtoCommerce.Inventory_3.208.0.zip"
         }
       ]
     }
