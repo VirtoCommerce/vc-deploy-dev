@@ -29,8 +29,6 @@
       PushNotifications__ScalabilityMode: "RedisBackplane"
       PushNotifications__HubUrl: "https://vcptcore-regression.govirto.com/pushNotificationHub"
       PushNotifications__RedisBackplane__ChannelName: "vcptcore-regression-chanel"
-      Content__FileSystem__PublicUrl: https://vcptcore-regression.govirto.com/cms-content/
-      Assets__FileSystem__PublicUrl: https://vcptcore-regression.govirto.com/cms-content/assets/
       VirtoCommerce__LicenseFilePath: app_data/VirtoCommerce.lic
       VirtoCommerce__LicensePublicKeyPath: app_data/public.key
       VirtoCommerce__LicensePrivateKeyPath: app_data/private.key
@@ -72,6 +70,7 @@
       IdentityOptions__User__RequireUniqueEmail: "true"
     secretConfig: {}
   storefront:
+    enabled: true
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/storefront
     config:
       CookieAuthenticationOptions__ExpireTimeSpan: "12:00:00"
