@@ -1,6 +1,6 @@
 - name: virtostart-main
   gitops: true
-  servicePlan: S2
+  servicePlan: B2
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/virtostart/platform
     config:
@@ -39,6 +39,7 @@
       Search__ElasticAppSearch__PrivateApiKey: elasticappsearchprivateapikey
   storefront:
     enabled: true
+    servicePlan: B2
     imageRepository: virtopaasregistrymain.azurecr.io/virtostart/storefront
     config:
       VirtoCommerce__DefaultStore: B2B-store
