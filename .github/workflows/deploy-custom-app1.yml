@@ -36,7 +36,7 @@ jobs:
       with:
         login-server: ghcr.io
         username: vc-ci
-        password: ${{ secrets.REPO_TOKEN }}
+        password: ${{ secrets.VC_CI_TOKEN }}
 
     - name: Pull vc-workflow image from private registry
       run: |
