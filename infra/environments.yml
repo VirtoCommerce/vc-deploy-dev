@@ -119,6 +119,7 @@
     secretConfig: 
       Notifications__SendGrid__ApiKey: sendkey
   storefront:
+    enabled: true
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/storefront
     imageTag: 6.3.0-alpha.897-dev-b0632cd8
     config:
