@@ -13,7 +13,7 @@
   storefront:
     enabled: true
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/storefront
-    imageTag: 6.0
+    imageTag: 6.4.0-master-48f5e4b5
     config:
       SnapshotCollectorConfiguration__IsEnabled: false
       VirtoCommerce__DefaultStore: B2B-store
@@ -30,8 +30,8 @@
       probePath: /
       name: vc-workflow
       imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/workflow
-      imageTag: '0.1.0'
+      imageTag: 0.1.0
       platformPath: []
       storefrontPath: []
       servicePath: []
-  protectedParameters: 
+  protectedParameters: []
