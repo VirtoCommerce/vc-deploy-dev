@@ -1,4 +1,4 @@
-name: virtostart storefront
+name: Cloud storefront deployment
 
 on:
   workflow_dispatch:

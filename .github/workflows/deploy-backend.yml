@@ -1,4 +1,4 @@
-name: virtostart platform
+name: Cloud platform deployment
 
 on:
   workflow_dispatch:
