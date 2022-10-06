@@ -38,6 +38,7 @@
       Payments__AuthorizeNet__TxnKey: txnkey
       Search__ElasticAppSearch__PrivateApiKey: elasticappsearchprivateapikey
   storefront:
+    enabled: true
     imageRepository: virtopaasregistrymain.azurecr.io/virtostart/storefront
     config:
       VirtoCommerce__DefaultStore: B2B-store
