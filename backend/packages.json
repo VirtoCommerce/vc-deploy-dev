@@ -44,10 +44,6 @@
           "Version": "3.213.0"
         },
         {
-          "Id": "VirtoCommerce.CustomerReviews",
-          "Version": "3.204.0"
-        },
-        {
           "Id": "VirtoCommerce.DynamicAssociationsModule",
           "Version": "3.200.0"
         },
@@ -198,6 +194,10 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "Version": "3.241.0"
+        },
+        {
+          "Id": "VirtoCommerce.CustomerReviews",
+          "Version": "3.205.0"
         }
       ]
     },
