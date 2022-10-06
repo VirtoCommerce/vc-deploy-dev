@@ -59,6 +59,7 @@
       VirtoCommerce__ApplicationInsights__SamplingOptions__Processor: "Fixed"
     secretConfig: {}
   storefront:
+    enabled: true
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/storefront
     config:
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: "true"
@@ -67,7 +68,6 @@
       Swagger__UI__Enable: "true"
       VirtoCommerce__DefaultStore: B2B-store
       VirtoCommerce__Endpoint__Password: store
-      Reload: 2022-3
     secretConfig: {}
     themes:
       B2B-store: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-1.9.0-pr-313-8831-8831bc33.zip
