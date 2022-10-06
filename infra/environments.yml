@@ -81,8 +81,7 @@
       VirtoCommerce__DefaultStore: Electronics
       VirtoCommerce__Endpoint__Password: store
     secretConfig: {}
-    themes: []
-
+    themes: {}
   ingress:
     hostname: vcptcore-regression.govirto.com
     storefrontHostname: vcptcore-regression-store.govirto.com
