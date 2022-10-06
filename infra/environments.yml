@@ -39,7 +39,7 @@
       Search__ElasticAppSearch__PrivateApiKey: elasticappsearchprivateapikey
   storefront:
     enabled: true
-    servicePlan: B2
+    servicePlan: S2
     imageRepository: virtopaasregistrymain.azurecr.io/virtostart/storefront
     config:
       VirtoCommerce__DefaultStore: B2B-store
