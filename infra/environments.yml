@@ -1,6 +1,6 @@
 - name: virtostart-main
   gitops: true
-  servicePlan: B2
+  servicePlan: S2
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/virtostart/platform
     config:
