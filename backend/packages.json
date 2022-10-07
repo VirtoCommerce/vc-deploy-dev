@@ -12,7 +12,7 @@
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
         {
-          "BlobName": "VirtoCommerce.PageBuilderModule_3.201.3-alpha.317.zip"
+          "BlobName": "VirtoCommerce.PageBuilderModule_3.201.4-alpha.318.zip"
         }
       ]
     },
@@ -100,7 +100,7 @@
         },
         {
           "Id": "VirtoCommerce.ExperienceApi",
-          "Version": "3.234.0"
+          "Version": "3.235.0"
         },
         {
           "Id": "VirtoCommerce.Export",
@@ -148,7 +148,7 @@
         },
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.219.0"
+          "Version": "3.220.0"
         },
         {
           "Id": "VirtoCommerce.Quote",
