@@ -139,10 +139,6 @@
           "BlobName": "VirtoCommerce.Payment_3.205.0-pr-41.zip"
         },
         {
-          "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.220.0-pr-27-1e53.zip"
-        },
-        {
           "Id": "VirtoCommerce.Search",
           "BlobName": "VirtoCommerce.Search_3.212.0-pr-74-87eb.zip"
         },
@@ -206,9 +202,13 @@
           "Id": "VirtoCommerce.WebHooks",
           "BlobName": "VirtoCommerce.WebHooks_3.203.0.zip"
         },
-          {
+        {
           "Id": "VirtoCommerce.Core",
           "BlobName": "VirtoCommerce.Core_3.206.0-alpha.1549.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ProfileExperienceApiModule",
+          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.220.0.zip"
         }
       ]
     }
