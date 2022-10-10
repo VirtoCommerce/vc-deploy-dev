@@ -69,6 +69,7 @@
       IdentityOptions__Password__RequireUppercase: false
       IdentityOptions__Password__RequireLowercase: false
       IdentityOptions__User__RequireUniqueEmail: "true"
+      FrontendSecurity__OrganizationMaintainerRole: "Organization maintainer"
     secretConfig: {}
   storefront:
     enabled: true
