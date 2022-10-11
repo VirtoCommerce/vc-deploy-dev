@@ -30,7 +30,7 @@
       probePath: /
       name: vc-workflow
       imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/workflow
-      imageTag: 0.1.4
+      imageTag: 0.1.5
       platformPath: []
       storefrontPath: []
       servicePath: []
