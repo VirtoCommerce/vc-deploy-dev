@@ -20,7 +20,7 @@
       Search__Scope: "vcptcore-dev-index"
       Search__OrderFullTextSearchEnabled: true
     # Elastic Search settings
-      Search__ElasticSearch__Server: https://elasticsearch-dev.govirto.com
+    # Search__ElasticSearch__Server: https://elasticsearch-demo.govirto.com
     # Elastic App Search settings
     # Search__Provider: "ElasticAppSearch"
       Search__ElasticAppSearch__Endpoint: https://enterprise-search-test.govirto.com
@@ -65,7 +65,21 @@
       PasswordLogin__Priority: 0
       Caching__CacheEnabled: false
     secretConfig: {}
+  storefront:
+    enabled: true
+    imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/storefront
+    config:
+      ASPNETCORE_FORWARDEDHEADERS_ENABLED: "true"
+      CookieAuthenticationOptions__ExpireTimeSpan: "12:00:00"
+      SnapshotCollectorConfiguration__IsEnabled: "false"
+      Swagger__UI__Enable: "true"
+      VirtoCommerce__DefaultStore: B2B-store
+      VirtoCommerce__Endpoint__Password: store
+    secretConfig: {}
+    themes:
+      B2B-store: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-1.9.0-pr-313-8831-8831bc33.zip
   ingress:
     hostname: vcptcore-dev.govirto.com
   protectedParameters:
    - platform.image.tag
+   - storefront.image.tag
