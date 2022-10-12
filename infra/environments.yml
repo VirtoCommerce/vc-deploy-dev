@@ -9,8 +9,7 @@
       VirtoCommerce__SampleDataUrl: https://vc3prerelease.blob.core.windows.net/packages/clothing-and-electronics_3_0_2.zip
       APPINSIGHTS_INSTRUMENTATIONKEY: d6678b10-e595-441c-8e01-04884ce00382
     secretConfig:
-      Temporal__Host: temporal-address
-      Temporal__Address: temporal-address
+      Temporal__Host: temporal-host
   storefront:
     enabled: true
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/storefront
@@ -39,6 +38,6 @@
         TEMPORAL_TASK_QUEUE: quote-approval
         VIRTO_PLATFORM_URL: https://vcptcore-workflow.paas.govirto.com
       secretConfig:
-        TEMPORAL_ADDRESS: temporal-address
+        TEMPORAL_ADDRESS: temporal-host
         VIRTO_PLATFORM_API_KEY: virto-platform-api-key
   protectedParameters: []
