@@ -207,12 +207,12 @@
           "BlobName": "VirtoCommerce.Orders_3.217.0-alpha.1059.zip"
         },
         {
-          "Id": "VirtoCommerce.Contracts",
-          "BlobName": "VirtoCommerce.Contracts_3.201.0-alpha.33.zip"
-        },
-        {
           "Id": "VirtoCommerce.Quote",
           "BlobName": "VirtoCommerce.Quote_3.208.0-alpha.328.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Contracts",
+          "BlobName": "VirtoCommerce.Contracts_3.201.0-alpha.34.zip"
         }
       ]
     }
