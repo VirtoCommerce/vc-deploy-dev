@@ -34,4 +34,6 @@
       platformPath: []
       storefrontPath: []
       servicePath: []
+      secretConfig: 
+        TEMPORAL_ADDRESS: temporalAddress
   protectedParameters: []
