@@ -57,11 +57,6 @@ data:
       "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.ProfileExperienceApiModule_3.221.0-pr-28-f858.zip"
     },
     {
-      "Id": "VirtoCommerce.QuoteExperienceApi",
-      "Repository": "VirtoCommerce/vc-module-quote-experience-api",
-      "PackageUrl": "https://github.com/VirtoCommerce/vc-module-quote-experience-api/releases/download/3.201.0/VirtoCommerce.QuoteExperienceApi_3.201.0.zip"
-    },
-    {
       "Id": "VirtoCommerce.Export",
       "Repository": "VirtoCommerce/vc-module-export",
       "PackageUrl": "https://github.com/VirtoCommerce/vc-module-export/releases/download/3.201.0/VirtoCommerce.Export_3.201.0.zip"
