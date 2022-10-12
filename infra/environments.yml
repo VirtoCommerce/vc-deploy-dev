@@ -67,6 +67,7 @@
     secretConfig: {}
   storefront:
     enabled: true
+    servicePlan: F1
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/storefront
     config:
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: "true"
