@@ -207,12 +207,12 @@
           "BlobName": "VirtoCommerce.Quote_3.208.0-alpha.328.zip"
         },
         {
-          "Id": "VirtoCommerce.Contracts",
-          "BlobName": "VirtoCommerce.Contracts_3.201.0-alpha.34.zip"
-        },
-        {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.223.0-alpha.99.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Contracts",
+          "BlobName": "VirtoCommerce.Contracts_3.202.0-alpha.35.zip"
         }
       ]
     }
