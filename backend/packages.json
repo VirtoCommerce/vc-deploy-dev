@@ -112,10 +112,6 @@
           "Version": "3.201.0"
         },
         {
-          "Id": "VirtoCommerce.Contracts",
-          "Version": "3.200.0"
-        },
-        {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
           "Version": "3.203.0"
         },
@@ -198,6 +194,10 @@
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "Version": "3.222.0"
+        },
+        {
+          "Id": "VirtoCommerce.Contracts",
+          "Version": "3.201.0"
         }
       ]
     },
