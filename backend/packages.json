@@ -124,10 +124,6 @@
           "Version": "3.201.0"
         },
         {
-          "Id": "VirtoCommerce.AzureBlobAssets",
-          "Version": "3.202.0"
-        },
-        {
           "Id": "VirtoCommerce.FileSystemAssets",
           "Version": "3.201.0"
         },
@@ -194,6 +190,10 @@
         {
           "Id": "VirtoCommerce.Contracts",
           "Version": "3.202.0"
+        },
+        {
+          "Id": "VirtoCommerce.AzureBlobAssets",
+          "Version": "3.203.0"
         }
       ]
     },
