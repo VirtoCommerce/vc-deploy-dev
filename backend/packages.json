@@ -107,10 +107,6 @@
           "BlobName": "VirtoCommerce.Export_3.201.0-pr-70.zip"
         },
         {
-          "Id": "VirtoCommerce.FileSystemAssets",
-          "BlobName": "VirtoCommerce.FileSystemAssets_3.202.0-pr-5-d3e0.zip"
-        },
-        {
           "Id": "VirtoCommerce.Inventory",
           "BlobName": "VirtoCommerce.Inventory_3.206.0-pr-111.zip"
         },
@@ -209,6 +205,10 @@
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.223.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.FileSystemAssets",
+          "BlobName": "VirtoCommerce.FileSystemAssets_3.202.0.zip"
         }
       ]
     }
