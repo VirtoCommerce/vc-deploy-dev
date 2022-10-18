@@ -9,17 +9,49 @@
       VirtoCommerce__LocalUploadFolderPath: wwwroot/cms-content
       VirtoCommerce__SampleDataUrl: https://vc3prerelease.blob.core.windows.net/packages/clothing-and-electronics_3_0_2.zip
       APPINSIGHTS_INSTRUMENTATIONKEY: b64da477-188b-4154-969b-3cb1310400f0
+      Notifications__DefaultSender: "azure_25da07ed75daacae20578a7a7dc58541@azure.com"
+      Notifications__Gateway: "SendGrid"
+      Notifications__SmsDefaultSender: "+17012510519"
+      Notifications__Smtp__EnableSsl: "False"
+      Notifications__Smtp__Host: "smtp.sendgrid.net"
+      Notifications__Smtp__Login: "apikey"
+      Notifications__Smtp__Port: "587"
+      ASPNETCORE_FORWARDEDHEADERS_ENABLED: "false"
+      AppInsights__EnableDependencyTrackingTelemetryModule: "false"
+      Swagger__UI__Enabled: "false"
+      Search__OrderFullTextSearchEnabled: "true"
+      AzureAd__Enabled: "true"
+      AzureAd__ApplicationId: "8227d950-975c-4c28-b7d4-ea440a59dcbb"
+      AzureAd__TenantId: "bc03e660-5e3a-45c4-bf5c-b75489f78923"
+      Content__PathMappings__pages__0: "Themes"
+      Content__PathMappings__pages__1: "_storeId"
+      Content__PathMappings__pages__2: "_theme"
+      Content__PathMappings__pages__3: "content/pages"
+      Content__PathMappings__themes__0: "Themes"
+      Content__PathMappings__themes__1: "_storeId"
+      VirtoCommerce__Hangfire__JobStorageType: SqlServer
+      Logging__LogLevel__Default: "Information"
+      Payments__AuthorizeNet__ApiLogin: "8hPT4p99R"
+      Content__FileSystem__RootPath: /opt/virtocommerce/platform/wwwroot/cms-content
+      Payments__AuthorizeNet__SHA2Hash: "FA6D2B37A7E9105942D2D184F1B2DBD8D9CA85611DE55B2267A6F7E0D7E49ACD9A6BC238CE068E75CA14ACFAD734F700FD94DCAB20353DD4D32D9BABE72DBBE4"
+      Payments__AuthorizeNet__TxnKey: "63c54EWq5d2XnGAR"
     secretConfig: {}
   storefront:
     imageRepository: virtopaasregistrymain.azurecr.io/vcst/storefront
     imageTag: 6.5.0-master-e7b34d3c
+    enabled: true
+    servicePlan: F1
     config:
       SnapshotCollectorConfiguration__IsEnabled: false
       VirtoCommerce__DefaultStore: B2B-store
       VirtoCommerce__Endpoint__Password: store
       APPINSIGHTS_INSTRUMENTATIONKEY: e71d9642-3996-4fae-872e-74b3f8244779
+      VirtoCommerce__CacheEnabled: "false"
+      VirtoCommerce__CacheSlidingExpiration: "0:0:5"
+      IdentityOptions__Lockout__MaxFailedAccessAttempts: "5"
     secretConfig: {}
-    themes: {}
+    themes:
+      1231s: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-1.11.0-alpha.475.zip
   ingress: {}
   customApps:
     app1:
