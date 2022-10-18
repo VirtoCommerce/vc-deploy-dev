@@ -15,12 +15,12 @@
      #Notifications__SmsGateway: "Twilio"
      #Search__ElasticSearch__Server: https://elasticsearch-dev.govirto.com
      #Path for assets
-      Content__FileSystem__PublicUrl: https://vcptcore-qa.govirto.com/cms-content/
-      Assets__FileSystem__PublicUrl: https://vcptcore-qa.govirto.com/cms-content/assets/
-      Assets__Provider: AzureBlobStorage
+      Content__FileSystem__PublicUrl: https://vcptcore-regression.govirto.com/cms-content/
+      Assets__FileSystem__PublicUrl: https://vcptcore-regression.govirto.com/cms-content/assets/
+      Assets__Provider: FileSystem
       Assets__AzureBlobStorage__ConnectionString: DefaultEndpointsProtocol=https;AccountName=qademovc3;AccountKey=qPIpM63MI2P3ei6B1xIL4/DlKDqdsRj54z2GUtgCAeXPcMe8+mZiUvrvI5fjdyrovk331XmBlMFfAEFAjCnvtw==;EndpointSuffix=core.windows.net
       #Connection for content
-      Content__Provider: AzureBlobStorage
+      Content__Provider: FileSystem
       Content__AzureBlobStorage__RootPath: cms
       Content__AzureBlobStorage__ConnectionString: DefaultEndpointsProtocol=https;AccountName=qademovc3;AccountKey=qPIpM63MI2P3ei6B1xIL4/DlKDqdsRj54z2GUtgCAeXPcMe8+mZiUvrvI5fjdyrovk331XmBlMFfAEFAjCnvtw==;EndpointSuffix=core.windows.net
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: "true"
