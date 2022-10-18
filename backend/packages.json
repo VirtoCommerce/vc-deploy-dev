@@ -144,10 +144,6 @@
           "Version": "3.205.0"
         },
         {
-          "Id": "VirtoCommerce.WebHooks",
-          "Version": "3.204.0"
-        },
-        {
           "Id": "VirtoCommerce.Cart",
           "Version": "3.204.0"
         },
@@ -194,6 +190,10 @@
         {
           "Id": "VirtoCommerce.CustomerReviews",
           "Version": "3.207.0"
+        },
+        {
+          "Id": "VirtoCommerce.WebHooks",
+          "Version": "3.205.0"
         }
       ]
     },
