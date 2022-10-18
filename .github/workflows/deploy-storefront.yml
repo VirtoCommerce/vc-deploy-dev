@@ -6,7 +6,7 @@ on:
     paths:
       - 'storefront/**'
     branches: 
-      - 'vcmp-*'
+      - 'vcst-*'
 
 jobs:
   gitops:
