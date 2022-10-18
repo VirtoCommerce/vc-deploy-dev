@@ -1,4 +1,4 @@
-- name: vcst-dev
+- name: vcst-demo
   production: false
   servicePlan: F1
   platform:
@@ -35,7 +35,6 @@
       Content__FileSystem__RootPath: /opt/virtocommerce/platform/wwwroot/cms-content
       Payments__AuthorizeNet__SHA2Hash: "FA6D2B37A7E9105942D2D184F1B2DBD8D9CA85611DE55B2267A6F7E0D7E49ACD9A6BC238CE068E75CA14ACFAD734F700FD94DCAB20353DD4D32D9BABE72DBBE4"
       Payments__AuthorizeNet__TxnKey: "63c54EWq5d2XnGAR"
-      TEST: 123
     secretConfig:
       Notifications__SendGrid__ApiKey: sendgrid-apikey
       Notifications__Smtp__Password: sendgrid-smtp-password
