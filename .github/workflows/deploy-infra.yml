@@ -5,11 +5,14 @@ on:
   push:
     paths:
       - 'infra/**'
-    branches: [ virtostart ]
+    branches: 
+      - 'vcmp-*'
 
 jobs:
   gitops:
     runs-on: ubuntu-latest
+    env:
+      ARGO_APP_NAME: ${{ github.ref_name }}
 
     steps:
     - uses: actions/checkout@v2
@@ -18,10 +21,10 @@ jobs:
     
     - name: Install vc-build
       run: |
-        dotnet tool install --global VirtoCommerce.GlobalTool --version 3.4.1
+        dotnet tool install --global VirtoCommerce.GlobalTool
     
     - name: Update app
       run: |
-        vc-build UpdateCloudEnvironment -CloudToken ${{ secrets.VIRTOSTART_PLATFORM_TOKEN }} -ArgoConfigFile $ENV_FILE -CloudUrl https://portal.virtocommerce.cloud
+        vc-build UpdateCloudEnvironment -CloudToken ${{ secrets.VCST_PLATFORM_TOKEN }} -ArgoConfigFile $ENV_FILE -CloudUrl https://portal.virtocommerce.cloud
       env:
         ENV_FILE: './infra/environments.yml'

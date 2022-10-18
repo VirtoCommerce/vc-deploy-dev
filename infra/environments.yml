@@ -1,59 +1,31 @@
-- name: virtostart-main
-  gitops: true
-  servicePlan: S2
+- name: vcst-dev
+  production: false
+  servicePlan: F1
   platform:
-    imageRepository: virtopaasregistrymain.azurecr.io/virtostart/platform
+    imageRepository: virtopaasregistrymain.azurecr.io/vcst/platform
+    imageTag: 3.258.0-92530d49
     config:
+      Search__ElasticSearch__Server: https://elasticsearch-vc03.govirto.com
+      VirtoCommerce__LocalUploadFolderPath: wwwroot/cms-content
       VirtoCommerce__SampleDataUrl: https://vc3prerelease.blob.core.windows.net/packages/clothing-and-electronics_3_0_2.zip
-      APPINSIGHTS_INSTRUMENTATIONKEY: 9fde4353-9a4a-4fe3-9a03-a0c80b4220ff
-      AzureAd__ApplicationId: 54cefda5-2d23-4518-ac12-f55a0e1225d4
-      AzureAd__TenantId: bc03e660-5e3a-45c4-bf5c-b75489f78923
-      AzureAd__Priority: 0
-      PasswordLogin__Priority: 1
-      Search__Provider: "ElasticAppSearch"
-      Search__Scope: "virtostart"
-      Search__ElasticAppSearch__Endpoint: https://enterprise-search-test.govirto.com
-      Search__ElasticAppSearch__EnableHttpCompression: "true"
-      Search__OrderFullTextSearchEnabled: true
-      Notifications__DefaultSender: azure_25da07ed75daacae20578a7a7dc58541@azure.com
-      ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
-      Notifications__Gateway: SendGrid
-      Notifications__SmsDefaultSender: +17012510519
-      Notifications__Smtp__EnableSsl: False
-      Notifications__Smtp__Host: smtp.sendgrid.net
-      Notifications__Smtp__Login: apikey
-      Notifications__Smtp__Port: 587
-      Content__PathMappings__pages__0: "Themes"
-      Content__PathMappings__pages__1: "_storeId"
-      Content__PathMappings__pages__2: "_theme"
-      Content__PathMappings__pages__3: "content/pages"
-      Content__PathMappings__themes__0: "Themes"
-      Content__PathMappings__themes__1: "_storeId"
-      FrontendSecurity__OrganizationMaintainerRole: "Organization maintainer"
-      Reload: 2022-10-05
-    secretConfig:
-      Notifications__SendGrid__ApiKey: sendkey
-      Payments__AuthorizeNet__ApiLogin: apilogin
-      Payments__AuthorizeNet__SHA2Hash: sha2hash
-      Payments__AuthorizeNet__TxnKey: txnkey
-      Search__ElasticAppSearch__PrivateApiKey: elasticappsearchprivateapikey
+      APPINSIGHTS_INSTRUMENTATIONKEY: b64da477-188b-4154-969b-3cb1310400f0
+    secretConfig: {}
   storefront:
-    enabled: true
-    servicePlan: S2
-    imageRepository: virtopaasregistrymain.azurecr.io/virtostart/storefront
+    imageRepository: virtopaasregistrymain.azurecr.io/vcst/storefront
+    imageTag: 6.5.0-master-e7b34d3c
     config:
+      SnapshotCollectorConfiguration__IsEnabled: false
       VirtoCommerce__DefaultStore: B2B-store
-      SnapshotCollectorConfiguration__IsEnabled: false      
-      APPINSIGHTS_INSTRUMENTATIONKEY: 4eef52ad-79ec-410c-a273-0a1abff866ea
-      Reload: 2022-10-05
-    secretConfig:
-      VirtoCommerce__Endpoint__Password: virtocommercepassword
-    themes:
-      B2B-store: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.10.0/vc-theme-b2b-vue-1.10.0.zip
-  ingress:
-    hostname: virtostart-demo-admin.govirto.com
-    storefrontHostname: virtostart-demo-store.govirto.com
-  customApps: {}
-  protectedParameters:
-   - platform.image.tag
-   - storefront.image.tag
+      VirtoCommerce__Endpoint__Password: store
+      APPINSIGHTS_INSTRUMENTATIONKEY: e71d9642-3996-4fae-872e-74b3f8244779
+    secretConfig: {}
+    themes: {}
+  ingress: {}
+  customApps:
+    app1:
+      platformPath: []
+      storefrontPath: []
+      servicePath: []
+      config: {}
+      secretConfig: {}
+  protectedParameters: []
