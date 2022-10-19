@@ -5,11 +5,11 @@
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
     tier: enterprise
     config:
-      Reload 1
       VirtoCommerce__LocalUploadFolderPath: wwwroot/cms-content
       VirtoCommerce__SampleDataUrl: https://vc3prerelease.blob.core.windows.net/packages/clothing-and-electronics_3_0_2.zip
       AzureAd__Priority: 1
       PasswordLogin__Priority: 0
+      Reload: 1
     # headers
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: "true"
       AppInsights__EnableDependencyTrackingTelemetryModule: "false"
