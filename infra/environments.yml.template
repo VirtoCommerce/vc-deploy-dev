@@ -63,4 +63,6 @@
       servicePath: []
       config: {}
       secretConfig: {}
-  protectedParameters: []
+  protectedParameters:
+   - themes.B2B-store
+   - storefront.image.tag
