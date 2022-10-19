@@ -21,7 +21,7 @@ jobs:
 
     - name: Prepare env file
       run: |
-        envsubst '${{ env.ARGO_APP_NAME }}' < ./infra/environments.yml.template > ./infra/environments.yml
+        envsubst < ./infra/environments.yml.template > ./infra/environments.yml
 
     - name: Install vc-build
       run: |

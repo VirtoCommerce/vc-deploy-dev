@@ -1,4 +1,4 @@
-- name: ${ARGO_APP_NAME}
+- name: $ARGO_APP_NAME
   production: false
   servicePlan: F1
   platform:
