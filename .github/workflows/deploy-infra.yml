@@ -18,7 +18,11 @@ jobs:
     - uses: actions/checkout@v2
       with:
         fetch-depth: 0
-    
+
+    - name: Prepare env file
+      run: |
+        envsubst '${{ env.ARGO_APP_NAME }}' < ./infra/environments.yml.template > ./infra/environments.yml
+
     - name: Install vc-build
       run: |
         dotnet tool install --global VirtoCommerce.GlobalTool
