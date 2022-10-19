@@ -1,4 +1,4 @@
-- name: $ARGO_APP_NAME
+- name: vcst-demo
   production: false
   servicePlan: F1
   platform:
@@ -35,7 +35,9 @@
       Content__FileSystem__RootPath: /opt/virtocommerce/platform/wwwroot/cms-content
       Payments__AuthorizeNet__SHA2Hash: "FA6D2B37A7E9105942D2D184F1B2DBD8D9CA85611DE55B2267A6F7E0D7E49ACD9A6BC238CE068E75CA14ACFAD734F700FD94DCAB20353DD4D32D9BABE72DBBE4"
       Payments__AuthorizeNet__TxnKey: "63c54EWq5d2XnGAR"
-    secretConfig: {}
+    secretConfig:
+      Notifications__SendGrid__ApiKey: sendgrid-apikey
+      Notifications__Smtp__Password: sendgrid-smtp-password
   storefront:
     imageRepository: virtopaasregistrymain.azurecr.io/vcst/storefront
     imageTag: 6.5.0-master-e7b34d3c
@@ -44,7 +46,7 @@
     config:
       SnapshotCollectorConfiguration__IsEnabled: false
       VirtoCommerce__DefaultStore: B2B-store
-      VirtoCommerce__Endpoint__Password: store
+      VirtoCommerce__Endpoint__Password: Password1
       APPINSIGHTS_INSTRUMENTATIONKEY: e71d9642-3996-4fae-872e-74b3f8244779
       VirtoCommerce__CacheEnabled: "false"
       VirtoCommerce__CacheSlidingExpiration: "0:0:5"
