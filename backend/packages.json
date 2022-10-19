@@ -2,7 +2,7 @@
   "ManifestVersion": "2.0",
   "PlatformVersion": "3.257.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.258.0-alpha.12502-basic-auth-1eca30b2",
+  "PlatformImageTag": "3.258.0-alpha.12502-pt-9274-241dec80",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -192,7 +192,7 @@
         },
         {
           "Id": "VirtoCommerce.ExperienceApi",
-          "BlobName": "VirtoCommerce.ExperienceApi_3.236.0.zip"
+          "BlobName": "VirtoCommerce.ExperienceApi_3.237.0-pr-348-2809.zip"
         },
         {
           "Id": "VirtoCommerce.Core",
@@ -204,7 +204,7 @@
         },
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.225.0-pr-32-99cf.zip"
+          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.225.0-pr-33-05b7.zip"
         },
         {
           "Id": "VirtoCommerce.WebHooks",
