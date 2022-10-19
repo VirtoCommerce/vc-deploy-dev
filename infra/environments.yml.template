@@ -51,7 +51,7 @@
       IdentityOptions__Lockout__MaxFailedAccessAttempts: "5"
     secretConfig: {}
     themes:
-      1231s: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-1.11.0-alpha.475.zip
+      B2B-store: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-1.11.0-alpha.475.zip
   ingress: {}
   customApps:
     app1:
