@@ -187,10 +187,6 @@
           "BlobName": "VirtoCommerce.FileSystemAssets_3.203.0-alpha.60.zip"
         },
         {
-          "Id": "VirtoCommerce.AzureBlobAssets",
-          "BlobName": "VirtoCommerce.AzureBlobAssets_3.204.0-alpha.66.zip"
-        },
-        {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.225.0-alpha.104.zip"
         },
@@ -213,6 +209,10 @@
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
           "BlobName": "VirtoCommerce.CatalogCsvImportModule_3.205.0-alpha.274.zip"
+        },
+        {
+          "Id": "VirtoCommerce.AzureBlobAssets",
+          "BlobName": "VirtoCommerce.AzureBlobAssets_3.204.0-alpha.67.zip"
         }
       ]
     }
