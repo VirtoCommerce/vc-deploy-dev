@@ -16,6 +16,7 @@
       Notifications__Smtp__Host: "smtp.sendgrid.net"
       Notifications__Smtp__Login: "apikey"
       Notifications__Smtp__Port: "587"
+      ExternalModules__ModulesManifestUrl: "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: "false"
       AppInsights__EnableDependencyTrackingTelemetryModule: "false"
       Swagger__UI__Enabled: "false"
@@ -55,14 +56,8 @@
     themes:
       B2B-store: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-1.11.0-alpha.475.zip
   ingress: {}
-  customApps:
-    app1:
-      platformPath: []
-      storefrontPath: []
-      servicePath: []
-      config: {}
-      secretConfig: {}
+  customApps: {}
   protectedParameters:
-    - themes.B2B-store
-    - storefront.image.tag
-    - platform.image.tag
+   - themes.B2B-store
+   - storefront.image.tag
+   - platform.image.tag
