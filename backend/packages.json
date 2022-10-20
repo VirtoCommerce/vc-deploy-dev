@@ -112,10 +112,6 @@
           "Version": "3.201.0"
         },
         {
-          "Id": "VirtoCommerce.CatalogCsvImportModule",
-          "Version": "3.203.0"
-        },
-        {
           "Id": "VirtoCommerce.Marketing",
           "Version": "3.201.0"
         },
@@ -194,6 +190,10 @@
         {
           "Id": "VirtoCommerce.Content",
           "Version": "3.206.0"
+        },
+        {
+          "Id": "VirtoCommerce.CatalogCsvImportModule",
+          "Version": "3.204.0"
         }
       ]
     },
