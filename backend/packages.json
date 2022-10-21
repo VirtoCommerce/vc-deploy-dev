@@ -168,10 +168,6 @@
           "Version": "3.202.0"
         },
         {
-          "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.224.0"
-        },
-        {
           "Id": "VirtoCommerce.ExperienceApi",
           "Version": "3.236.0"
         },
@@ -194,6 +190,10 @@
         {
           "Id": "VirtoCommerce.AzureBlobAssets",
           "Version": "3.204.0"
+        },
+        {
+          "Id": "VirtoCommerce.ProfileExperienceApiModule",
+          "Version": "3.225.0"
         }
       ]
     },
