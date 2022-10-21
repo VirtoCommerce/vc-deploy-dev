@@ -164,10 +164,6 @@
           "Version": "3.202.0"
         },
         {
-          "Id": "VirtoCommerce.AzureBlobAssets",
-          "Version": "3.203.0"
-        },
-        {
           "Id": "VirtoCommerce.FileSystemAssets",
           "Version": "3.202.0"
         },
@@ -193,6 +189,10 @@
         },
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
+          "Version": "3.204.0"
+        },
+        {
+          "Id": "VirtoCommerce.AzureBlobAssets",
           "Version": "3.204.0"
         }
       ]
