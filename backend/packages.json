@@ -63,10 +63,6 @@
           "BlobName": "VirtoCommerce.AvalaraTax_3.201.0-pr-43.zip"
         },
         {
-          "Id": "VirtoCommerce.AzureBlobAssets",
-          "BlobName": "VirtoCommerce.AzureBlobAssets_3.204.0-pr-7-a4e1.zip"
-        },
-        {
           "Id": "VirtoCommerce.BulkActionsModule",
           "BlobName": "VirtoCommerce.BulkActionsModule_3.200.0-pr-18.zip"
         },
@@ -209,6 +205,10 @@
         {
           "Id": "VirtoCommerce.Content",
           "BlobName": "VirtoCommerce.Content_3.206.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.AzureBlobAssets",
+          "BlobName": "VirtoCommerce.AzureBlobAssets_3.204.0.zip"
         }
       ]
     }
