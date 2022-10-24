@@ -2,7 +2,7 @@
   "ManifestVersion": "2.0",
   "PlatformVersion": "3.259.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.259.0-alpha.12504-pt-6997-text-wrap-ea06fc6e",
+  "PlatformImageTag": "3.259.0",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -208,7 +208,7 @@
         },
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.225.0.zip"
+          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.226.0-pr-32-d433.zip"
         }
       ]
     }
