@@ -1,6 +1,6 @@
 - name: vcptcore-loadtest
   gitops: true
-  servicePlan: S1
+  servicePlan: S2
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
     tier: enterprise
@@ -9,7 +9,7 @@
       VirtoCommerce__SampleDataUrl: https://vc3prerelease.blob.core.windows.net/packages/clothing-and-electronics_3_0_2.zip
       AzureAd__Priority: 1
       PasswordLogin__Priority: 0
-      Reload: 5
+      Reload: 6
     # headers
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: "true"
       AppInsights__EnableDependencyTrackingTelemetryModule: "false"
