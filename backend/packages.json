@@ -34,6 +34,34 @@
         {
           "Id": "VirtoCommerce.Shipping",
           "Version": "3.201.0"
+        },
+        {
+          "Id": "VirtoCommerce.AuthorizeNet",
+          "Version": "3.201.0"
+        },
+        {
+          "Id": "VirtoCommerce.BulkActionsModule",
+          "Version": "3.200.0"
+        },
+        {
+          "Id": "VirtoCommerce.EventBus",
+          "Version": "3.201.0"
+        },
+        {
+          "Id": "VirtoCommerce.Export",
+          "Version": "3.200.0"
+        },
+        {
+          "Id": "VirtoCommerce.FileSystemAssets",
+          "Version": "3.200.0"
+        },
+        {
+          "Id": "VirtoCommerce.AzureBlobAssets",
+          "Version": "3.200.0"
+        },
+        {
+          "Id": "VirtoCommerce.WebHooks",
+          "Version": "3.200.0"
         }
       ]
     },
@@ -47,20 +75,12 @@
           "BlobName": "VirtoCommerce.Assets_3.202.0-alpha.59.zip"
         },
         {
-          "Id": "VirtoCommerce.AuthorizeNet",
-          "BlobName": "VirtoCommerce.AuthorizeNet_3.201.0.zip"
-        },
-        {
           "Id": "VirtoCommerce.AuthorizeNetPayment",
           "BlobName": "VirtoCommerce.AuthorizeNetPayment_3.201.0-pr-2.zip"
         },
         {
           "Id": "VirtoCommerce.AvalaraTax",
           "BlobName": "VirtoCommerce.AvalaraTax_3.202.0-alpha.250.zip"
-        },
-        {
-          "Id": "VirtoCommerce.BulkActionsModule",
-          "BlobName": "VirtoCommerce.BulkActionsModule_3.200.0.zip"
         },
         {
           "Id": "VirtoCommerce.CatalogExportImport",
@@ -79,24 +99,12 @@
           "BlobName": "VirtoCommerce.ElasticAppSearch_3.202.0-alpha.39.zip"
         },
         {
-          "Id": "VirtoCommerce.EventBus",
-          "BlobName": "VirtoCommerce.EventBus_3.201.0.zip"
-        },
-        {
-          "Id": "VirtoCommerce.Export",
-          "BlobName": "VirtoCommerce.Export_3.200.0.zip"
-        },
-        {
           "Id": "VirtoCommerce.GDPR",
           "BlobName": "VirtoCommerce.GDPR_3.202.0-alpha.59.zip"
         },
         {
           "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
           "BlobName": "VirtoCommerce.GoogleEcommerceAnalytics_3.202.0-alpha.130.zip"
-        },
-        {
-          "Id": "VirtoCommerce.Licensing",
-          "BlobName": "VirtoCommerce.Licensing_3.200.0.zip"
         },
         {
           "Id": "VirtoCommerce.NativePaymentMethods",
@@ -109,10 +117,6 @@
         {
           "Id": "VirtoCommerce.Payment",
           "BlobName": "VirtoCommerce.Payment_3.205.0-alpha.156.zip"
-        },
-        {
-          "Id": "VirtoCommerce.ShipStation",
-          "BlobName": "VirtoCommerce.ShipStation_3.200.0.zip"
         },
         {
           "Id": "VirtoCommerce.Sitemaps",
@@ -145,10 +149,6 @@
         {
           "Id": "VirtoCommerce.ElasticSearch",
           "BlobName": "VirtoCommerce.ElasticSearch_3.207.0-alpha.175.zip"
-        },
-        {
-          "Id": "VirtoCommerce.AzureSearch",
-          "BlobName": "VirtoCommerce.AzureSearch_3.203.0.zip"
         },
         {
           "Id": "VirtoCommerce.Search",
@@ -187,14 +187,6 @@
           "BlobName": "VirtoCommerce.Contracts_3.203.0-alpha.37.zip"
         },
         {
-          "Id": "VirtoCommerce.FileSystemAssets",
-          "BlobName": "VirtoCommerce.FileSystemAssets_3.200.0.zip"
-        },
-        {
-          "Id": "VirtoCommerce.AzureBlobAssets",
-          "BlobName": "VirtoCommerce.AzureBlobAssets_3.200.0.zip"
-        },
-        {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.215.0-alpha.67.zip"
         },
@@ -205,10 +197,6 @@
         {
           "Id": "VirtoCommerce.CustomerReviews",
           "BlobName": "VirtoCommerce.CustomerReviews_3.205.0-alpha.120.zip"
-        },
-        {
-          "Id": "VirtoCommerce.WebHooks",
-          "BlobName": "VirtoCommerce.WebHooks_3.200.0.zip"
         }
       ]
     }
