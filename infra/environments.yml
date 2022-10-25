@@ -34,6 +34,8 @@
     #Lucene settings
     #Search__Provider: "Lucene"
     #Elastic Search setting
+      Search__ElasticSearch__Server: "https://elasticsearch-dev.govirto.com"
+      Search__ElasticSearch__RequestTimeout: 1
     #Elastic App Search settings
       Search__Provider: "ElasticSearch"
       Search__ElasticAppSearch__Endpoint: https://enterprise-search-dev.govirto.com
