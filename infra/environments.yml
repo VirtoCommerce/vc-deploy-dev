@@ -30,13 +30,10 @@
       PushNotifications__HubUrl: "https://vcptcore-qa.govirto.com/pushNotificationHub"
       PushNotifications__RedisBackplane__ChannelName: "vcptcore-qa-chanel"
     #Search settings
-     #Search__Scope: "vcptcore-qa-new-index"
       Search__OrderFullTextSearchEnabled: "true"
     #Lucene settings
     #Search__Provider: "Lucene"
-    #Elastic Search settings
-     #Search__ElasticSearch__Server: "https://elasticsearch-dev.govirto.com"
-     #Search__ElasticSearch__RequestTimeout: 5
+    #Elastic Search setting
     #Elastic App Search settings
       Search__Provider: "ElasticSearch"
       Search__ElasticAppSearch__Endpoint: https://enterprise-search-dev.govirto.com
