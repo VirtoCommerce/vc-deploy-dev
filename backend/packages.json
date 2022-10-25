@@ -131,10 +131,6 @@
           "BlobName": "VirtoCommerce.Tax_3.202.0-alpha.143.zip"
         },
         {
-          "Id": "VirtoCommerce.ElasticSearch",
-          "BlobName": "VirtoCommerce.ElasticSearch_3.209.0-alpha.196.zip"
-        },
-        {
           "Id": "VirtoCommerce.AzureSearch",
           "BlobName": "VirtoCommerce.AzureSearch_3.205.0-alpha.181.zip"
         },
@@ -213,6 +209,10 @@
         {
           "Id": "VirtoCommerce.Contracts",
           "BlobName": "VirtoCommerce.Contracts_3.203.0-alpha.38.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ElasticSearch",
+          "BlobName": "VirtoCommerce.ElasticSearch_3.209.0-alpha.198.zip"
         }
       ]
     }
