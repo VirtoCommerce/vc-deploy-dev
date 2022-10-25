@@ -180,16 +180,16 @@
           "Version": "3.204.0"
         },
         {
-          "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.226.0"
-        },
-        {
           "Id": "VirtoCommerce.Return",
           "Version": "3.204.0"
         },
         {
           "Id": "VirtoCommerce.ElasticSearch",
           "Version": "3.209.0"
+        },
+        {
+          "Id": "VirtoCommerce.ProfileExperienceApiModule",
+          "Version": "3.227.0"
         }
       ]
     },
