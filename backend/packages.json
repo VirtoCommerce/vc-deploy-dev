@@ -28,10 +28,6 @@
           "Version": "3.203.0"
         },
         {
-          "Id": "VirtoCommerce.Return",
-          "Version": "3.203.0"
-        },
-        {
           "Id": "VirtoCommerce.Shipping",
           "Version": "3.201.0"
         }
@@ -213,6 +209,10 @@
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.227.0-alpha.108.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Return",
+          "BlobName": "VirtoCommerce.Return_3.204.0-alpha.51.zip"
         }
       ]
     }
