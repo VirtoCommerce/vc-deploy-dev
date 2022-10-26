@@ -148,10 +148,6 @@
           "Version": "3.207.0"
         },
         {
-          "Id": "VirtoCommerce.Contracts",
-          "Version": "3.202.0"
-        },
-        {
           "Id": "VirtoCommerce.FileSystemAssets",
           "Version": "3.202.0"
         },
@@ -190,6 +186,10 @@
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "Version": "3.228.0"
+        },
+        {
+          "Id": "VirtoCommerce.Contracts",
+          "Version": "3.203.0"
         }
       ]
     },
