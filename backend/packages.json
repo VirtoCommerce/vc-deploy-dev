@@ -195,10 +195,6 @@
           "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.229.0-alpha.113.zip"
         },
         {
-          "Id": "VirtoCommerce.Quote",
-          "BlobName": "VirtoCommerce.Quote_3.209.0-alpha.331.zip"
-        },
-        {
           "Id": "VirtoCommerce.Contracts",
           "BlobName": "VirtoCommerce.Contracts_3.204.0-alpha.40.zip"
         },
@@ -213,6 +209,10 @@
         {
           "Id": "VirtoCommerce.NativePaymentMethods",
           "BlobName": "VirtoCommerce.NativePaymentMethods_3.204.0-alpha.49.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Quote",
+          "BlobName": "VirtoCommerce.Quote_3.209.0-alpha.332.zip"
         }
       ]
     }
