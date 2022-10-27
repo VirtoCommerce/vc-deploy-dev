@@ -187,10 +187,6 @@
           "BlobName": "VirtoCommerce.AzureBlobAssets_3.205.0-alpha.68.zip"
         },
         {
-          "Id": "VirtoCommerce.ExperienceApi",
-          "BlobName": "VirtoCommerce.ExperienceApi_3.238.0-alpha.1046.zip"
-        },
-        {
           "Id": "VirtoCommerce.Return",
           "BlobName": "VirtoCommerce.Return_3.205.0-alpha.52.zip"
         },
@@ -213,6 +209,10 @@
         {
           "Id": "VirtoCommerce.Inventory",
           "BlobName": "VirtoCommerce.Inventory_3.210.0-alpha.396.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ExperienceApi",
+          "BlobName": "VirtoCommerce.ExperienceApi_3.239.0-alpha.1049.zip"
         }
       ]
     }
