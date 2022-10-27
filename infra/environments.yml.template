@@ -51,7 +51,7 @@
       VirtoCommerce__DefaultStore: B2B-store
       VirtoCommerce__Endpoint__Password: Password1
       APPINSIGHTS_INSTRUMENTATIONKEY: e71d9642-3996-4fae-872e-74b3f8244779
-      VirtoCommerce__CacheEnabled: "false"
+      VirtoCommerce__CacheEnabled: "true"
       VirtoCommerce__CacheSlidingExpiration: "0:0:5"
       IdentityOptions__Lockout__MaxFailedAccessAttempts: "5"
     secretConfig: {}
