@@ -1,8 +1,10 @@
 - name: virtostart-main
+  production: false
   gitops: true
   servicePlan: S2
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/virtostart/platform
+    sqlReplica: false
     config:
       VirtoCommerce__SampleDataUrl: https://vc3prerelease.blob.core.windows.net/packages/clothing-and-electronics_3_0_2.zip
       APPINSIGHTS_INSTRUMENTATIONKEY: 9fde4353-9a4a-4fe3-9a03-a0c80b4220ff
@@ -37,10 +39,11 @@
       Payments__AuthorizeNet__SHA2Hash: sha2hash
       Payments__AuthorizeNet__TxnKey: txnkey
       Search__ElasticAppSearch__PrivateApiKey: elasticappsearchprivateapikey
+    databases: {}
   storefront:
     enabled: true
-    servicePlan: S2
     imageRepository: virtopaasregistrymain.azurecr.io/virtostart/storefront
+    servicePlan: S2
     config:
       VirtoCommerce__DefaultStore: B2B-store
       SnapshotCollectorConfiguration__IsEnabled: false      
