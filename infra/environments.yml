@@ -20,7 +20,7 @@
       Search__Scope: "vcptcore-dev-index"
       Search__OrderFullTextSearchEnabled: true
     # Elastic Search settings
-      Search__ElasticSearch__Server: https://elasticsearch-demo.govirto.com
+      Search__ElasticSearch__Server: https://elasticsearch-vc03.govirto.com
     # Elastic App Search settings
     # Search__Provider: "ElasticAppSearch"
       Search__ElasticAppSearch__Endpoint: https://enterprise-search-test.govirto.com
