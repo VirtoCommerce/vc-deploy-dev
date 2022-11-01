@@ -159,10 +159,6 @@
           "BlobName": "VirtoCommerce.FileSystemAssets_3.203.0-alpha.60.zip"
         },
         {
-          "Id": "VirtoCommerce.CustomerReviews",
-          "BlobName": "VirtoCommerce.CustomerReviews_3.208.0-alpha.155.zip"
-        },
-        {
           "Id": "VirtoCommerce.WebHooks",
           "BlobName": "VirtoCommerce.WebHooks_3.206.0-alpha.232.zip"
         },
@@ -179,16 +175,8 @@
           "BlobName": "VirtoCommerce.AzureBlobAssets_3.205.0-alpha.68.zip"
         },
         {
-          "Id": "VirtoCommerce.Return",
-          "BlobName": "VirtoCommerce.Return_3.205.0-alpha.52.zip"
-        },
-        {
           "Id": "VirtoCommerce.ElasticSearch",
-          "BlobName": "VirtoCommerce.ElasticSearch_3.208.0.zip"
-        },
-        {
-          "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.229.0-pr-36-d358.zip"
+          "BlobName": "VirtoCommerce.ElasticSearch_3.210.0-alpha.199.zip"
         },
         {
           "Id": "VirtoCommerce.Contracts",
@@ -200,7 +188,7 @@
         },
         {
           "Id": "VirtoCommerce.ExperienceApi",
-          "BlobName": "VirtoCommerce.ExperienceApi_3.237.0-pr-349-2392.zip"
+          "BlobName": "VirtoCommerce.ExperienceApi_3.240.0-alpha.1050.zip"
         },
         {
           "Id": "VirtoCommerce.NativePaymentMethods",
@@ -209,6 +197,18 @@
         {
           "Id": "VirtoCommerce.Quote",
           "BlobName": "VirtoCommerce.Quote_3.210.0-alpha.333.zip"
+        },
+        {
+          "Id": "VirtoCommerce.CustomerReviews",
+          "BlobName": "VirtoCommerce.CustomerReviews_3.208.0-alpha.156.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Return",
+          "BlobName": "VirtoCommerce.Return_3.206.0-alpha.56.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ProfileExperienceApiModule",
+          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.230.0-alpha.116.zip"
         }
       ]
     }
