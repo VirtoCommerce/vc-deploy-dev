@@ -12,7 +12,7 @@
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
         {
-          "BlobName": "VirtoCommerce.PageBuilderModule_3.201.0-alpha.332.zip"
+          "BlobName": "VirtoCommerce.PageBuilderModule_3.201.0-alpha.351.zip"
         }
       ]
     },
@@ -152,7 +152,7 @@
         },
         {
           "Id": "VirtoCommerce.Quote",
-          "Version": "3.209.0"
+          "Version": "3.207.0"
         },
         {
           "Id": "VirtoCommerce.Return",
