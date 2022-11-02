@@ -19,7 +19,7 @@
       # Search__Scope: "$(VC_PLATFORM_SERVICE)$(VC_NAMESPACE)-new-index"
       Search__OrderFullTextSearchEnabled: "true"
     # Elastic Search settings
-    # Search__ElasticSearch__Server: https://elasticsearch-demo.govirto.com
+      Search__ElasticSearch__EnableCompatibilityMode: "true"
     # Elastic App Search settings
     # Search__Provider: "ElasticAppSearch"
       Search__ElasticAppSearch__Endpoint: https://enterprise-search-test.govirto.com
