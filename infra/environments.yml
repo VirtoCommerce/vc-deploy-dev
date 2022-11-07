@@ -13,7 +13,7 @@
      #Notifications__Smtp__Login: "apikey"
      #Notifications__Smtp__Port: "587"
      #Notifications__SmsGateway: "Twilio"
-     #Search__ElasticSearch__Server: https://elasticsearch-dev.govirto.com
+      Search__ElasticSearch__Server: https://elasticsearch-dev.govirto.com
       Search__ElasticSearch__EnableCompatibilityMode: "true"
      #Path for assets
       Content__FileSystem__PublicUrl: https://vcptcore-regression.govirto.com/cms-content/
