@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.258.0",
+  "PlatformVersion": "3.261.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.258.0",
+  "PlatformImageTag": "3.261.0",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -17,7 +17,7 @@
         },
         {
           "Id": "VirtoCommerce.AzureBlobAssets",
-          "Version": "3.202.0"
+          "Version": "3.204.0"
         },
         {
           "Id": "VirtoCommerce.AzureSearch",
@@ -37,11 +37,11 @@
         },
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
-          "Version": "3.203.0"
+          "Version": "3.204.0"
         },
         {
           "Id": "VirtoCommerce.Content",
-          "Version": "3.205.0"
+          "Version": "3.206.0"
         },
         {
           "Id": "VirtoCommerce.Core",
@@ -53,11 +53,11 @@
         },
         {
           "Id": "VirtoCommerce.ElasticSearch",
-          "Version": "3.208.0"
+          "Version": "3.209.0"
         },
         {
           "Id": "VirtoCommerce.ExperienceApi",
-          "Version": "3.235.0"
+          "Version": "3.239.0"
         },
         {
           "Id": "VirtoCommerce.Export",
@@ -77,7 +77,7 @@
         },
         {
           "Id": "VirtoCommerce.Inventory",
-          "Version": "3.208.0"
+          "Version": "3.209.0"
         },
         {
           "Id": "VirtoCommerce.LuceneSearch",
@@ -105,11 +105,11 @@
         },
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.223.0"
+          "Version": "3.229.0"
         },
         {
           "Id": "VirtoCommerce.Quote",
-          "Version": "3.207.0"
+          "Version": "3.209.0"
         },
         {
           "Id": "VirtoCommerce.Search",
@@ -125,7 +125,7 @@
         },
         {
           "Id": "VirtoCommerce.Store",
-          "Version": "3.206.0"
+          "Version": "3.207.0"
         },
         {
           "Id": "VirtoCommerce.Subscription",
