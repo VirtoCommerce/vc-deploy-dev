@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.261.0-alpha.12507",
+  "PlatformVersion": "3.262.0-alpha.12509",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.261.0-alpha.12507-dev-d4ae6037",
+  "PlatformImageTag": "3.262.0-alpha.12509-dev-2a601dbd",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -143,10 +143,6 @@
           "BlobName": "VirtoCommerce.Cart_3.205.0-alpha.576.zip"
         },
         {
-          "Id": "VirtoCommerce.Pricing",
-          "BlobName": "VirtoCommerce.Pricing_3.214.0-alpha.668.zip"
-        },
-        {
           "Id": "VirtoCommerce.Catalog",
           "BlobName": "VirtoCommerce.Catalog_3.242.0-alpha.2031.zip"
         },
@@ -176,7 +172,7 @@
         },
         {
           "Id": "VirtoCommerce.ElasticSearch",
-          "BlobName": "VirtoCommerce.ElasticSearch_3.208.0.zip"
+          "BlobName": "VirtoCommerce.ElasticSearch_3.210.0-alpha.199.zip"
         },
         {
           "Id": "VirtoCommerce.Contracts",
@@ -209,6 +205,10 @@
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.230.0-alpha.116.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Pricing",
+          "BlobName": "VirtoCommerce.Pricing_3.215.0-alpha.670.zip"
         }
       ]
     }
