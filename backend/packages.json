@@ -168,10 +168,6 @@
           "Version": "3.209.0"
         },
         {
-          "Id": "VirtoCommerce.ExperienceApi",
-          "Version": "3.239.0"
-        },
-        {
           "Id": "VirtoCommerce.NativePaymentMethods",
           "Version": "3.203.0"
         },
@@ -190,6 +186,10 @@
         {
           "Id": "VirtoCommerce.Pricing",
           "Version": "3.214.0"
+        },
+        {
+          "Id": "VirtoCommerce.ExperienceApi",
+          "Version": "3.241.0"
         }
       ]
     },
