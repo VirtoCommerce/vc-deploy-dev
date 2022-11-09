@@ -21,7 +21,7 @@
       APPINSIGHTS_INSTRUMENTATIONKEY: 46417508-392f-41bd-8a63-d04fde377def
     secretConfig: {}
     themes: 
-      B2B-store: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-1.10.1-alpha.473-workflow.zip
+      B2B-store: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-1.13.0-alpha.505-workflow.zip
   ingress: {}
   customApps:
     app1:
