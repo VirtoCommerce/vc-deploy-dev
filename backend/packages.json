@@ -203,12 +203,12 @@
           "BlobName": "VirtoCommerce.AzureBlobAssets_3.205.0-alpha.69.zip"
         },
         {
-          "Id": "VirtoCommerce.Quote",
-          "BlobName": "VirtoCommerce.Quote_3.210.0-alpha.336.zip"
-        },
-        {
           "Id": "VirtoCommerce.ExperienceApi",
           "BlobName": "VirtoCommerce.ExperienceApi_3.242.0-alpha.1055.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Quote",
+          "BlobName": "VirtoCommerce.Quote_3.211.0-alpha.337.zip"
         }
       ]
     }
