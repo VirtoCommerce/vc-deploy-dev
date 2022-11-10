@@ -94,7 +94,7 @@ jobs:
         script: |
           cd  /home/vcadmin
           export RELEASE_TAG='${{ env.PLATFORM_IMAGE_TAG }}-${{ github.run_id }}'
-          export TEST='./vc-loadtests/Virto_Templates/Storefront_Load_Script_Template.jmx'
+          export TEST='./vc-loadtests/Virto_Templates/Backend_Load_Script_Template.jmx'
           export REPO='https://${{ secrets.TMP_TOKEN }}@github.com/VirtoCommerce/vc-loadtests.git'
           echo $RELEASE_TAG
           export AUTH_TOKEN=${{ secrets.REPO_TOKEN }}
