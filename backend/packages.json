@@ -1,6 +1,6 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.260.0",
+  "PlatformVersion": "3.261.0",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -12,13 +12,7 @@
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
         {
-          "BlobName": "VirtoCommerce.PageBuilderModule_3.201.0-alpha.351.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.230.0-pr-38-caf5.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.Quote_3.210.0-pr-72-c950.zip"
+          "BlobName": "VirtoCommerce.PageBuilderModule_3.201.0-alpha.353.zip"
         }
       ]
     },
@@ -42,7 +36,7 @@
         },
         {
           "Id": "VirtoCommerce.AzureBlobAssets",
-          "Version": "3.204.0"
+          "Version": "3.205.0"
         },
         {
           "Id": "VirtoCommerce.AzureSearch",
@@ -110,7 +104,7 @@
         },
         {
           "Id": "VirtoCommerce.ExperienceApi",
-          "Version": "3.239.0"
+          "Version": "3.241.0"
         },
         {
           "Id": "VirtoCommerce.Export",
@@ -118,7 +112,7 @@
         },
         {
           "Id": "VirtoCommerce.FileSystemAssets",
-          "Version": "3.201.0"
+          "Version": "3.203.0"
         },
         {
           "Id": "VirtoCommerce.GDPR",
@@ -162,11 +156,19 @@
         },
         {
           "Id": "VirtoCommerce.Pricing",
-          "Version": "3.212.0"
+          "Version": "3.214.0"
         },
         {
           "Id": "VirtoCommerce.PriceExportImport",
           "Version": "3.205.0"
+        },
+        {
+          "Id": "VirtoCommerce.ProfileExperienceApiModule",
+          "Version": "3.230.0"
+        },
+        {
+          "Id": "VirtoCommerce.Quote",
+          "Version": "3.210.0"
         },
         {
           "Id": "VirtoCommerce.Return",
