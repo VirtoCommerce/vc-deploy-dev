@@ -37,9 +37,8 @@
       Search__ElasticSearch__EnableCompatibilityMode: "true"
       Search__ElasticSearch__HealthCheckTimeout: 10
     #Elastic App Search settings
-      Search__Provider: "ElasticSearch"
+      Search__Provider: "ElasticAppSearch"
       Search__ElasticAppSearch__EnableHttpCompression: "true"
-      Search__ElasticSearch__EnableCompatibilityMode: "true"
     #Azure search settings
      #Search__Provider: "AzureSearch"
       Search__AzureSearch__SearchServiceName: "qa-demovc-3-search"
