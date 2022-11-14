@@ -6,6 +6,7 @@
     imageRepository: virtopaasregistrymain.azurecr.io/virtostart/platform
     sqlReplica: false
     config:
+      VirtoCommerce__LocalUploadFolderPath: wwwroot/cms-content
       VirtoCommerce__SampleDataUrl: https://vc3prerelease.blob.core.windows.net/packages/clothing-and-electronics_3_0_2.zip
       APPINSIGHTS_INSTRUMENTATIONKEY: 9fde4353-9a4a-4fe3-9a03-a0c80b4220ff
       AzureAd__ApplicationId: 54cefda5-2d23-4518-ac12-f55a0e1225d4
@@ -52,7 +53,7 @@
     secretConfig:
       VirtoCommerce__Endpoint__Password: virtocommercepassword
     themes:
-      B2B-store: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.12.0/vc-theme-b2b-vue-1.12.0.zip
+      B2B-store: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.13.0/vc-theme-b2b-vue-1.13.0.zip
   ingress:
     hostname: virtostart-demo-admin.govirto.com
     storefrontHostname: virtostart-demo-store.govirto.com

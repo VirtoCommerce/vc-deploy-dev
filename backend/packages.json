@@ -36,7 +36,7 @@
         },
         {
           "Id": "VirtoCommerce.AzureBlobAssets",
-          "Version": "3.202.0"
+          "Version": "3.204.0"
         },
         {
           "Id": "VirtoCommerce.BulkActionsModule",
@@ -52,7 +52,7 @@
         },
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
-          "Version": "3.203.0"
+          "Version": "3.204.0"
         },
         {
           "Id": "VirtoCommerce.CatalogPersonalization",
@@ -64,7 +64,7 @@
         },
         {
           "Id": "VirtoCommerce.Content",
-          "Version": "3.205.0"
+          "Version": "3.206.0"
         },
         {
           "Id": "VirtoCommerce.Contracts",
@@ -80,7 +80,7 @@
         },
         {
           "Id": "VirtoCommerce.CustomerReviews",
-          "Version": "3.204.0"
+          "Version": "3.207.0"
         },
         {
           "Id": "VirtoCommerce.DynamicAssociationsModule",
@@ -100,7 +100,7 @@
         },
         {
           "Id": "VirtoCommerce.ExperienceApi",
-          "Version": "3.237.0"
+          "Version": "3.239.0"
         },
         {
           "Id": "VirtoCommerce.Export",
@@ -120,7 +120,7 @@
         },
         {
           "Id": "VirtoCommerce.Inventory",
-          "Version": "3.208.0"
+          "Version": "3.209.0"
         },
         {
           "Id": "VirtoCommerce.Marketing",
@@ -148,11 +148,11 @@
         },
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.225.0"
+          "Version": "3.230.0"
         },
         {
           "Id": "VirtoCommerce.Quote",
-          "Version": "3.207.0"
+          "Version": "3.210.0"
         },
         {
           "Id": "VirtoCommerce.Return",
@@ -180,11 +180,11 @@
         },
         {
           "Id": "VirtoCommerce.Tax",
-          "Version": "3.200.0"
+          "Version": "3.201.0"
         },
         {
           "Id": "VirtoCommerce.WebHooks",
-          "Version": "3.204.0"
+          "Version": "3.205.0"
         }
       ]
     }
