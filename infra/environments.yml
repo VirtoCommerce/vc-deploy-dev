@@ -39,7 +39,7 @@
     #Elastic App Search settings
      #Search__Provider: "ElasticAppSearch"
       Search__ElasticAppSearch__EnableHttpCompression: "true"
-      Search__ElasticAppSearch__Endpoint: https://enterprise-search-dev.govirto.com
+      Search__ElasticAppSearch__Endpoint: https://enterprise-search-vc03.govirto.com
     #Azure search settings
      #Search__Provider: "AzureSearch"
       Search__AzureSearch__SearchServiceName: "qa-demovc-3-search"
@@ -118,6 +118,7 @@
       PasswordLogin__Priority: 0
     secretConfig: 
       Notifications__SendGrid__ApiKey: sendkey
+      Search__ElasticAppSearch__PrivateApiKey: elasticappsearch
   storefront:
     enabled: true
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/storefront
