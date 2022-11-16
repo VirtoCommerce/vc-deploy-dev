@@ -34,10 +34,6 @@
         {
           "Id": "VirtoCommerce.Marketing",
           "Version": "3.201.0"
-        },
-        {
-          "Id": "VirtoCommerce.ElasticAppSearch",
-          "BlobName": "3.202.0"
         }
       ]
     },
@@ -57,6 +53,10 @@
         {
           "Id": "VirtoCommerce.AuthorizeNetPayment",
           "BlobName": "VirtoCommerce.AuthorizeNetPayment_3.201.0-pr-2.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ElasticAppSearch",
+          "BlobName": "VirtoCommerce.ElasticAppSearch_3.203.0-pr-21-aa34.zip"
         },
         {
           "Id": "VirtoCommerce.AvalaraTax",
