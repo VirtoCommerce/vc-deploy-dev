@@ -34,6 +34,10 @@
         {
           "Id": "VirtoCommerce.Marketing",
           "Version": "3.201.0"
+        },
+        {
+          "Id": "VirtoCommerce.ElasticAppSearch",
+          "BlobName": "3.202.0"
         }
       ]
     },
@@ -77,10 +81,6 @@
         {
           "Id": "VirtoCommerce.CustomerReviews",
           "BlobName": "VirtoCommerce.CustomerReviews_3.204.0-pr-32.zip"
-        },
-        {
-          "Id": "VirtoCommerce.ElasticAppSearch",
-          "BlobName": "VirtoCommerce.ElasticAppSearch_3.201.0-pr-17.zip"
         },
         {
           "Id": "VirtoCommerce.EventBus",
