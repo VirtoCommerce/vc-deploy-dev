@@ -113,7 +113,7 @@
       EventBus__Subscriptions__0__ConnectionName: "AzureEventGridApps"
       EventBus__Subscriptions__0__Name: "TestSubscriptionAppS"
       EventBus__Subscriptions__0__Events__0__EventId: "VirtoCommerce.Platform.Core.Security.Events.UserChangedEvent"
-      VirtoCommerce__SampleDataUrl: https://virtocommerce.azureedge.net/sample-data/b2b-sample-store.zip
+      #VirtoCommerce__SampleDataUrl: https://virtocommerce.azureedge.net/sample-data/b2b-sample-store.zip
       AzureAd__Priority: 1
       PasswordLogin__Priority: 0
     secretConfig: 
