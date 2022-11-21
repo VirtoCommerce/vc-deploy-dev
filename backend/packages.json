@@ -75,10 +75,6 @@
           "BlobName": "VirtoCommerce.EventBus_3.202.0-pr-15.zip"
         },
         {
-          "Id": "VirtoCommerce.Export",
-          "BlobName": "VirtoCommerce.Export_3.201.0-pr-70.zip"
-        },
-        {
           "Id": "VirtoCommerce.GDPR",
           "BlobName": "VirtoCommerce.GDPR_3.201.0-pr-11.zip"
         },
@@ -209,6 +205,10 @@
         {
           "Id": "VirtoCommerce.AzureBlobAssets",
           "BlobName": "VirtoCommerce.AzureBlobAssets_3.207.0-alpha.72.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Export",
+          "BlobName": "VirtoCommerce.Export_3.202.0-alpha.195.zip"
         }
       ]
     }
