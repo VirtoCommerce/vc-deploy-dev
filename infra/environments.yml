@@ -5,7 +5,7 @@
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
     tier: enterprise
     config:
-      Reload: 1
+      Reload: 2
      #Notifications__DefaultSender: "azure_25da07ed75daacae20578a7a7dc58541@azure.com"
      #Notifications__Gateway: "SendGrid"
      #Notifications__SmsDefaultSender: "+17012510519"
