@@ -67,10 +67,6 @@
           "BlobName": "VirtoCommerce.CatalogPersonalization_3.201.0-pr-58.zip"
         },
         {
-          "Id": "VirtoCommerce.ElasticAppSearch",
-          "BlobName": "VirtoCommerce.ElasticAppSearch_3.201.0-pr-17.zip"
-        },
-        {
           "Id": "VirtoCommerce.EventBus",
           "BlobName": "VirtoCommerce.EventBus_3.202.0-pr-15.zip"
         },
@@ -209,6 +205,10 @@
         {
           "Id": "VirtoCommerce.Export",
           "BlobName": "VirtoCommerce.Export_3.203.0-alpha.196.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ElasticAppSearch",
+          "BlobName": "VirtoCommerce.ElasticAppSearch_3.203.0-alpha.61.zip"
         }
       ]
     }
