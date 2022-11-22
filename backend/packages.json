@@ -75,10 +75,6 @@
           "BlobName": "VirtoCommerce.GDPR_3.201.0-pr-11.zip"
         },
         {
-          "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
-          "BlobName": "VirtoCommerce.GoogleEcommerceAnalytics_3.200.0-pr-24.zip"
-        },
-        {
           "Id": "VirtoCommerce.Licensing",
           "BlobName": "VirtoCommerce.Licensing_3.200.0.zip"
         },
@@ -209,6 +205,10 @@
         {
           "Id": "VirtoCommerce.ExperienceApi",
           "BlobName": "VirtoCommerce.ExperienceApi_3.244.0-alpha.1059.zip"
+        },
+        {
+          "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
+          "BlobName": "VirtoCommerce.GoogleEcommerceAnalytics_4.0.0-alpha.150.zip"
         }
       ]
     }
