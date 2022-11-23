@@ -21,9 +21,9 @@
     # Elastic Search settings
       Search__ElasticSearch__EnableCompatibilityMode: "true"
     # Elastic App Search settings
-    # Search__Provider: "ElasticAppSearch"
-      Search__ElasticAppSearch__Endpoint: https://enterprise-search-test.govirto.com
+      Search__Provider: "ElasticAppSearch"
       Search__ElasticAppSearch__EnableHttpCompression: "true"
+      Search__ElasticAppSearch__Endpoint: https://enterprise-search-vc03.govirto.com
     # End of search settings
       AzureAd__Enabled: "true"
       AzureAd__ApplicationId: "86d04c35-143d-4d3c-aea2-8608e2186282"
@@ -59,7 +59,8 @@
       DefaultMainMenuState__items__0__order: "1"
       VirtoCommerce__ApplicationInsights__SamplingOptions__Processor: "Fixed"
       APPINSIGHTS_INSTRUMENTATIONKEY: cada4cf7-305b-4827-a03a-ca9aac67fb9e
-    secretConfig: {}
+    secretConfig: 
+      Search__ElasticAppSearch__PrivateApiKey: elasticappsearch
   storefront:
     enabled: true
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/storefront
