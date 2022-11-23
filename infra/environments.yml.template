@@ -47,7 +47,7 @@
       Notifications__Smtp__Password: sendgrid-smtp-password
   storefront:
     imageRepository: virtopaasregistrymain.azurecr.io/vcst/storefront
-    imageTag: 6.5.0-master-e7b34d3c
+    imageTag: 6.8.0-pr-632-7e4b-response_compression-7e4bac76
     enabled: true
     servicePlan: F1
     config:
