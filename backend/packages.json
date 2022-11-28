@@ -1,6 +1,6 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.260.0",
+  "PlatformVersion": "3.262.0",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -12,7 +12,7 @@
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
         {
-          "BlobName": "VirtoCommerce.PageBuilderModule_3.201.0-alpha.353.zip"
+          "BlobName": "VirtoCommerce.PageBuilderModule_3.201.0-alpha.364.zip"
         }
       ]
     },
@@ -48,7 +48,7 @@
         },
         {
           "Id": "VirtoCommerce.Catalog",
-          "Version": "3.241.0"
+          "Version": "3.244.0"
         },
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
@@ -76,7 +76,7 @@
         },
         {
           "Id": "VirtoCommerce.Customer",
-          "Version": "3.213.0"
+          "Version": "3.214.0"
         },
         {
           "Id": "VirtoCommerce.CustomerReviews",
@@ -88,11 +88,11 @@
         },
         {
           "Id": "VirtoCommerce.ElasticAppSearch",
-          "Version": "3.202.0"
+          "Version": "3.203.0"
         },
         {
           "Id": "VirtoCommerce.ElasticSearch",
-          "Version": "3.208.0"
+          "Version": "3.210.0"
         },
         {
           "Id": "VirtoCommerce.EventBus",
@@ -100,7 +100,7 @@
         },
         {
           "Id": "VirtoCommerce.ExperienceApi",
-          "Version": "3.239.0"
+          "Version": "3.243.0"
         },
         {
           "Id": "VirtoCommerce.Export",
@@ -113,6 +113,10 @@
         {
           "Id": "VirtoCommerce.GDPR",
           "Version": "3.201.0"
+        },
+        {
+          "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
+          "Version": "4.0.0"
         },
         {
           "Id": "VirtoCommerce.ImageTools",
@@ -148,11 +152,11 @@
         },
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.230.0"
+          "Version": "3.231.0"
         },
         {
           "Id": "VirtoCommerce.Quote",
-          "Version": "3.210.0"
+          "Version": "3.211.0"
         },
         {
           "Id": "VirtoCommerce.Return",
