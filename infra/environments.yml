@@ -18,7 +18,8 @@
       Search__Scope: "vcptcore-demo-index"
       Search__OrderFullTextSearchEnabled: true
       # Elastic Search settings
-      Search__ElasticSearch__Server: https://elasticsearch-dev.govirto.com
+      #Search__ElasticSearch__Server: https://elasticsearch-dev.govirto.com
+      Search__ElasticSearch__EnableCompatibilityMode: "true"
       # Elastic App Search settings
       Search__ElasticAppSearch__Endpoint: https://enterprise-search-test.govirto.com
       Search__ElasticAppSearch__EnableHttpCompression: true
