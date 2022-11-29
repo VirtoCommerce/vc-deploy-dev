@@ -46,7 +46,7 @@
       VirtoCommerce__SampleDataUrl: https://vc3prerelease.blob.core.windows.net/packages/clothing-and-electronics_3_0_2.zip
       AzureAd__Priority: 1
       PasswordLogin__Priority: 0
-      Caching__CacheEnabled: false
+      Caching__CacheEnabled: true
     secretConfig: {}
   storefront:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/storefront
