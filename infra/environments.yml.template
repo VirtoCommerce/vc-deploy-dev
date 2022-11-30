@@ -47,7 +47,7 @@
       Notifications__Smtp__Password: sendgrid-smtp-password
   storefront:
     imageRepository: virtopaasregistrymain.azurecr.io/vcst/storefront
-    imageTag: 6.8.0-alpha.920-dev-ad670257
+    imageTag: 6.9.0-alpha.922-dev-f2d0b251
     enabled: true
     servicePlan: F1
     config:
@@ -60,7 +60,7 @@
       IdentityOptions__Lockout__MaxFailedAccessAttempts: "5"
     secretConfig: {}
     themes:
-      B2B-store: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-1.11.0-alpha.475.zip
+      B2B-store: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-1.16.0-alpha.517.zip
   ingress: {}
   customApps: {}
   protectedParameters:
