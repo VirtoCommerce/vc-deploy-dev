@@ -27,7 +27,7 @@
         },
         {
           "Id": "VirtoCommerce.AzureBlobAssets",
-          "Version": "3.204.0"
+          "Version": "3.206.0"
         },
         {
           "Id": "VirtoCommerce.BulkActionsModule",
@@ -39,7 +39,7 @@
         },
         {
           "Id": "VirtoCommerce.Catalog",
-          "Version": "3.244.0"
+          "Version": "3.245.0"
         },
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
@@ -95,11 +95,11 @@
         },
         {
           "Id": "VirtoCommerce.Export",
-          "Version": "3.201.0"
+          "Version": "3.202.0"
         },
         {
           "Id": "VirtoCommerce.FileSystemAssets",
-          "Version": "3.201.0"
+          "Version": "3.203.0"
         },
         {
           "Id": "VirtoCommerce.GDPR",
@@ -123,7 +123,7 @@
         },
         {
           "Id": "VirtoCommerce.Notifications",
-          "Version": "3.210.0"
+          "Version": "3.211.0"
         },
         {
           "Id": "VirtoCommerce.Orders",
@@ -135,11 +135,7 @@
         },
         {
           "Id": "VirtoCommerce.Pricing",
-          "Version": "3.213.0"
-        },
-        {
-          "Id": "VirtoCommerce.PriceExportImport",
-          "Version": "3.205.0"
+          "Version": "3.214.0"
         },
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
