@@ -6,14 +6,14 @@
     tier: enterprise
     config:
       Reload: 2
-     #Notifications__DefaultSender: "azure_25da07ed75daacae20578a7a7dc58541@azure.com"
-     #Notifications__Gateway: "SendGrid"
-     #Notifications__SmsDefaultSender: "+17012510519"
-     #Notifications__Smtp__EnableSsl: "False"
-     #Notifications__Smtp__Host: "smtp.sendgrid.net"
-     #Notifications__Smtp__Login: "apikey"
-     #Notifications__Smtp__Port: "587"
-     #Notifications__SmsGateway: "Twilio"
+      Notifications__DefaultSender: "azure_25da07ed75daacae20578a7a7dc58541@azure.com"
+      Notifications__Gateway: "SendGrid"
+      Notifications__SmsDefaultSender: "+17012510519"
+      Notifications__Smtp__EnableSsl: "False"
+      Notifications__Smtp__Host: "smtp.sendgrid.net"
+      Notifications__Smtp__Login: "apikey"
+      Notifications__Smtp__Port: "587"
+      Notifications__SmsGateway: "Twilio"
      #Search__ElasticSearch__Server: https://elasticsearch-dev.govirto.com
       Search__ElasticSearch__EnableCompatibilityMode: "true"
      #Path for assets
@@ -72,7 +72,9 @@
       IdentityOptions__Password__RequireLowercase: false
       IdentityOptions__User__RequireUniqueEmail: "true"
       FrontendSecurity__OrganizationMaintainerRole: "Organization maintainer"
-    secretConfig: {}
+    secretConfig: 
+      Notifications__SendGrid__ApiKey: sendkey
+      Search__ElasticAppSearch__PrivateApiKey: elasticappsearch
   storefront:
     enabled: true
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/storefront
