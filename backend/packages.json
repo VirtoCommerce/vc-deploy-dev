@@ -167,10 +167,6 @@
           "BlobName": "VirtoCommerce.Pricing_3.214.0.zip"
         },
         {
-          "Id": "VirtoCommerce.Customer",
-          "BlobName": "VirtoCommerce.Customer_3.215.0-alpha.736.zip"
-        },
-        {
           "Id": "VirtoCommerce.ExperienceApi",
           "BlobName": "VirtoCommerce.ExperienceApi_3.243.0.zip"
         },
@@ -201,6 +197,10 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "BlobName": "VirtoCommerce.Catalog_3.246.0-alpha.2041.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Customer",
+          "BlobName": "VirtoCommerce.Customer_3.215.0.zip"
         }
       ]
     }
