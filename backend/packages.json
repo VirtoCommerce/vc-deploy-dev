@@ -72,10 +72,6 @@
           "Version": "3.200.0"
         },
         {
-          "Id": "VirtoCommerce.Sitemaps",
-          "Version": "3.206.0"
-        },
-        {
           "Id": "VirtoCommerce.Store",
           "Version": "3.207.0"
         },
@@ -190,6 +186,10 @@
         {
           "Id": "VirtoCommerce.Pricing",
           "Version": "3.215.0"
+        },
+        {
+          "Id": "VirtoCommerce.Sitemaps",
+          "Version": "3.207.0"
         }
       ]
     },
