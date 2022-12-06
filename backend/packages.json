@@ -92,10 +92,6 @@
           "Version": "3.204.0"
         },
         {
-          "Id": "VirtoCommerce.Search",
-          "Version": "3.212.0"
-        },
-        {
           "Id": "VirtoCommerce.Core",
           "Version": "3.205.0"
         },
@@ -190,6 +186,10 @@
         {
           "Id": "VirtoCommerce.Sitemaps",
           "Version": "3.207.0"
+        },
+        {
+          "Id": "VirtoCommerce.Search",
+          "Version": "3.213.0"
         }
       ]
     },
