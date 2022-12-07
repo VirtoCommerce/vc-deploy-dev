@@ -182,6 +182,10 @@
                 {
                   "Id": "VirtoCommerce.EventBus",
                   "Version": "3.201.0"
+                },
+                {
+                  "Id": "VirtoCommerce.Subscription",
+                  "Version": "3.200.1"
                 }
               ]
         },
