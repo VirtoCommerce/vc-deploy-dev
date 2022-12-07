@@ -144,10 +144,6 @@
           "Version": "3.243.0"
         },
         {
-          "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.231.0"
-        },
-        {
           "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
           "Version": "4.0.0"
         },
@@ -190,6 +186,10 @@
         {
           "Id": "VirtoCommerce.Notifications",
           "Version": "3.212.0"
+        },
+        {
+          "Id": "VirtoCommerce.ProfileExperienceApiModule",
+          "Version": "3.232.0"
         }
       ]
     },
