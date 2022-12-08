@@ -84,11 +84,11 @@
       VirtoCommerce__AppSettings__GoogleAnalytics__DomainName: vcptcore-regression-store.govirto.com
       VirtoCommerce__SendAccountConfirmation: "true"
       SnapshotCollectorConfiguration__IsEnabled: false
-      VirtoCommerce__DefaultStore: Electronics
+      VirtoCommerce__DefaultStore: B2B-store
       VirtoCommerce__Endpoint__Password: store
     secretConfig: {}
     themes: 
-      B2B-store: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.13.0/vc-theme-b2b-vue-1.13.0.zip
+      B2B-store: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.15.0/vc-theme-b2b-vue-1.15.0.zip
 
 
   ingress:
