@@ -1,19 +1,19 @@
 {
-    "ManifestVersion": "2.0",
-    "PlatformVersion": "3.262.0",
-    "StorefrontVersion: "6.8.0-master-2d7b13ea",
-    "ThemeB2BVue: "https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.15.0/vc-theme-b2b-vue-1.15.0.zip" 
-    "PlatformImage": "ghcr.io/virtocommerce/platform",
-    "PlatformImageTag": "3.262.0",
-    "PlatformAssetUrl": "",
-    "Sources": [
+  "ManifestVersion": "2.0",
+  "PlatformVersion": "3.262.0",
+  "StorefrontVersion": "6.8.0-master-2d7b13ea",
+  "ThemeB2BVue": "https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.15.0/vc-theme-b2b-vue-1.15.0.zip",
+  "PlatformImage": "ghcr.io/virtocommerce/platform",
+  "PlatformImageTag": "3.262.0",
+  "PlatformAssetUrl": "",
+  "Sources": [
+    {
+      "Name": "GithubReleases",
+      "ModuleSources": [
+        "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
+      ],
+      "Modules": [
         {
-            "Name": "GithubReleases",
-            "ModuleSources": [
-                "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
-            ],
-            "Modules": [
-                 {
           "Id": "VirtoCommerce.Assets",
           "Version": "3.201.0"
         },
@@ -35,11 +35,11 @@
         },
         {
           "Id": "VirtoCommerce.Cart",
-          "Version": "3.204.0"
+          "Version": "3.205.0"
         },
         {
           "Id": "VirtoCommerce.Catalog",
-          "Version": "3.245.0"
+          "Version": "3.246.0"
         },
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
@@ -55,7 +55,7 @@
         },
         {
           "Id": "VirtoCommerce.Content",
-          "Version": "3.206.0"
+          "Version": "3.207.0"
         },
         {
           "Id": "VirtoCommerce.Contracts",
@@ -67,11 +67,11 @@
         },
         {
           "Id": "VirtoCommerce.Customer",
-          "Version": "3.214.0"
+          "Version": "3.215.0"
         },
         {
           "Id": "VirtoCommerce.CustomerReviews",
-          "Version": "3.207.0"
+          "Version": "3.208.0"
         },
         {
           "Id": "VirtoCommerce.DynamicAssociationsModule",
@@ -91,11 +91,11 @@
         },
         {
           "Id": "VirtoCommerce.ExperienceApi",
-          "Version": "3.243.0"
+          "Version": "3.244.0"
         },
         {
           "Id": "VirtoCommerce.Export",
-          "Version": "3.202.0"
+          "Version": "3.203.0"
         },
         {
           "Id": "VirtoCommerce.FileSystemAssets",
@@ -123,7 +123,7 @@
         },
         {
           "Id": "VirtoCommerce.Notifications",
-          "Version": "3.211.0"
+          "Version": "3.212.0"
         },
         {
           "Id": "VirtoCommerce.Orders",
@@ -135,11 +135,11 @@
         },
         {
           "Id": "VirtoCommerce.Pricing",
-          "Version": "3.214.0"
+          "Version": "3.215.0"
         },
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.231.0"
+          "Version": "3.232.0"
         },
         {
           "Id": "VirtoCommerce.Quote",
@@ -151,7 +151,7 @@
         },
         {
           "Id": "VirtoCommerce.Search",
-          "Version": "3.212.0"
+          "Version": "3.213.0"
         },
         {
           "Id": "VirtoCommerce.Shipping",
@@ -159,7 +159,7 @@
         },
         {
           "Id": "VirtoCommerce.Sitemaps",
-          "Version": "3.206.0"
+          "Version": "3.207.0"
         },
         {
           "Id": "VirtoCommerce.Store",
@@ -177,13 +177,13 @@
           "Id": "VirtoCommerce.WebHooks",
           "Version": "3.205.0"
         }
-              ]
-        },
-        {
-            "Name": "AzureBlob",
-            "Container": "packages",
-            "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
-            "Modules": []
-        }
-    ]
+      ]
+    },
+    {
+      "Name": "AzureBlob",
+      "Container": "packages",
+      "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
+      "Modules": []
+    }
+  ]
 }
