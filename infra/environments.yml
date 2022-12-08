@@ -89,7 +89,6 @@
     secretConfig: {}
     themes: 
       B2B-store: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.15.0/vc-theme-b2b-vue-1.15.0.zip
-      Electronics: https://github.com/VirtoCommerce/vc-theme-default/releases/download/2.1.13/vc-theme-default-2.1.13.zip
 
 
   ingress:
