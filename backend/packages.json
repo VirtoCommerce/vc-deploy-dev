@@ -26,10 +26,6 @@
         {
           "Id": "VirtoCommerce.LuceneSearch",
           "Version": "3.203.0"
-        },
-        {
-          "Id": "VirtoCommerce.Shipping",
-          "Version": "3.201.0"
         }
       ]
     },
@@ -213,6 +209,10 @@
         {
           "Id": "VirtoCommerce.Payment",
           "BlobName": "VirtoCommerce.Payment_3.206.0-alpha.186.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Shipping",
+          "BlobName": "VirtoCommerce.Shipping_3.202.0-alpha.147.zip"
         }
       ]
     }
