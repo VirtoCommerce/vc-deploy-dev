@@ -103,10 +103,6 @@
           "BlobName": "VirtoCommerce.Contracts_3.204.0-alpha.40.zip"
         },
         {
-          "Id": "VirtoCommerce.Inventory",
-          "BlobName": "VirtoCommerce.Inventory_3.210.0-alpha.396.zip"
-        },
-        {
           "Id": "VirtoCommerce.NativePaymentMethods",
           "BlobName": "VirtoCommerce.NativePaymentMethods_3.204.0-alpha.49.zip"
         },
@@ -213,6 +209,10 @@
         {
           "Id": "VirtoCommerce.Shipping",
           "BlobName": "VirtoCommerce.Shipping_3.202.0-alpha.147.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Inventory",
+          "BlobName": "VirtoCommerce.Inventory_3.210.0-alpha.397.zip"
         }
       ]
     }
