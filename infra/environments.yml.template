@@ -51,6 +51,7 @@
     enabled: true
     servicePlan: F1
     config:
+      SYSTEM_RESTART: "09.12.2022"
       SnapshotCollectorConfiguration__IsEnabled: false
       VirtoCommerce__DefaultStore: B2B-store
       VirtoCommerce__Endpoint__Password: Password1
