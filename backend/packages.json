@@ -100,10 +100,6 @@
           "Version": "3.203.0"
         },
         {
-          "Id": "VirtoCommerce.Inventory",
-          "Version": "3.209.0"
-        },
-        {
           "Id": "VirtoCommerce.NativePaymentMethods",
           "Version": "3.203.0"
         },
@@ -190,6 +186,10 @@
         {
           "Id": "VirtoCommerce.Tax",
           "Version": "3.202.0"
+        },
+        {
+          "Id": "VirtoCommerce.Inventory",
+          "Version": "3.210.0"
         }
       ]
     },
