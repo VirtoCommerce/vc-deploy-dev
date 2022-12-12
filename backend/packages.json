@@ -91,10 +91,6 @@
           "BlobName": "VirtoCommerce.Orders_3.217.0-alpha.1059.zip"
         },
         {
-          "Id": "VirtoCommerce.WebHooks",
-          "BlobName": "VirtoCommerce.WebHooks_3.206.0-alpha.232.zip"
-        },
-        {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
           "BlobName": "VirtoCommerce.CatalogCsvImportModule_3.205.0-alpha.274.zip"
         },
@@ -213,6 +209,10 @@
         {
           "Id": "VirtoCommerce.Search",
           "BlobName": "VirtoCommerce.Search_3.215.0-alpha.672.zip"
+        },
+        {
+          "Id": "VirtoCommerce.WebHooks",
+          "BlobName": "VirtoCommerce.WebHooks_3.206.0-alpha.233.zip"
         }
       ]
     }
