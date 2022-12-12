@@ -1,6 +1,6 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.262.0",
+  "PlatformVersion": "3.264.0",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -12,7 +12,7 @@
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
         {
-          "BlobName": "VirtoCommerce.PageBuilderModule_3.201.0-alpha.353.zip"
+          "BlobName": "VirtoCommerce.PageBuilderModule_3.201.0-alpha.364.zip"
         }
       ]
     },
@@ -48,11 +48,11 @@
         },
         {
           "Id": "VirtoCommerce.Cart",
-          "Version": "3.204.0"
+          "Version": "3.205.0"
         },
         {
           "Id": "VirtoCommerce.Catalog",
-          "Version": "3.244.0"
+          "Version": "3.246.0"
         },
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
@@ -68,7 +68,7 @@
         },
         {
           "Id": "VirtoCommerce.Content",
-          "Version": "3.206.0"
+          "Version": "3.207.0"
         },
         {
           "Id": "VirtoCommerce.Contracts",
@@ -76,11 +76,11 @@
         },
         {
           "Id": "VirtoCommerce.Core",
-          "Version": "3.205.0"
+          "Version": "3.206.0"
         },
         {
           "Id": "VirtoCommerce.Customer",
-          "Version": "3.214.0"
+          "Version": "3.216.0"
         },
         {
           "Id": "VirtoCommerce.CustomerReviews",
@@ -108,7 +108,7 @@
         },
         {
           "Id": "VirtoCommerce.Export",
-          "Version": "3.201.0"
+          "Version": "3.203.0"
         },
         {
           "Id": "VirtoCommerce.FileSystemAssets",
@@ -144,7 +144,7 @@
         },
         {
           "Id": "VirtoCommerce.Notifications",
-          "Version": "3.210.0"
+          "Version": "3.212.0"
         },
         {
           "Id": "VirtoCommerce.Orders",
@@ -156,7 +156,7 @@
         },
         {
           "Id": "VirtoCommerce.Pricing",
-          "Version": "3.214.0"
+          "Version": "3.215.0"
         },
         {
           "Id": "VirtoCommerce.PriceExportImport",
@@ -164,7 +164,7 @@
         },
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.231.0"
+          "Version": "3.232.0"
         },
         {
           "Id": "VirtoCommerce.Quote",
@@ -176,7 +176,7 @@
         },
         {
           "Id": "VirtoCommerce.Search",
-          "Version": "3.212.0"
+          "Version": "3.213.0"
         },
         {
           "Id": "VirtoCommerce.Shipping",
@@ -184,7 +184,7 @@
         },
         {
           "Id": "VirtoCommerce.Sitemaps",
-          "Version": "3.206.0"
+          "Version": "3.207.0"
         },
         {
           "Id": "VirtoCommerce.Store",
