@@ -156,10 +156,6 @@
           "Version": "3.207.0"
         },
         {
-          "Id": "VirtoCommerce.Search",
-          "Version": "3.213.0"
-        },
-        {
           "Id": "VirtoCommerce.Notifications",
           "Version": "3.212.0"
         },
@@ -190,6 +186,10 @@
         {
           "Id": "VirtoCommerce.Inventory",
           "Version": "3.210.0"
+        },
+        {
+          "Id": "VirtoCommerce.Search",
+          "Version": "3.214.0"
         }
       ]
     },
