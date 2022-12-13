@@ -179,10 +179,6 @@
           "BlobName": "VirtoCommerce.CustomerExportImport_3.202.0-alpha.117.zip"
         },
         {
-          "Id": "VirtoCommerce.Marketing",
-          "BlobName": "VirtoCommerce.Marketing_3.202.0-alpha.780.zip"
-        },
-        {
           "Id": "VirtoCommerce.Payment",
           "BlobName": "VirtoCommerce.Payment_3.206.0-alpha.186.zip"
         },
@@ -213,6 +209,10 @@
         {
           "Id": "VirtoCommerce.WebHooks",
           "BlobName": "VirtoCommerce.WebHooks_3.206.0-alpha.233.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Marketing",
+          "BlobName": "VirtoCommerce.Marketing_3.203.0-alpha.781.zip"
         }
       ]
     }
