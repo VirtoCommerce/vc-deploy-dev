@@ -135,10 +135,6 @@
           "BlobName": "VirtoCommerce.GoogleEcommerceAnalytics_4.0.0.zip"
         },
         {
-          "Id": "VirtoCommerce.Quote",
-          "BlobName": "VirtoCommerce.Quote_3.212.0-pr-78-22fc.zip"
-        },
-        {
           "Id": "VirtoCommerce.Cart",
           "BlobName": "VirtoCommerce.Cart_3.205.0.zip"
         },
@@ -201,6 +197,10 @@
         {
           "Id": "VirtoCommerce.Payment",
           "BlobName": "VirtoCommerce.Payment_3.206.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Quote",
+          "BlobName": "VirtoCommerce.Quote_3.212.0.zip"
         }
       ]
     }
