@@ -26,10 +26,6 @@
         {
           "Id": "VirtoCommerce.LuceneSearch",
           "Version": "3.203.0"
-        },
-        {
-          "Id": "VirtoCommerce.Shipping",
-          "Version": "3.201.0"
         }
       ]
     },
@@ -100,7 +96,7 @@
         },
         {
           "Id": "VirtoCommerce.Store",
-          "BlobName": "VirtoCommerce.Store_3.207.0-pr-107.zip"
+          "BlobName": "VirtoCommerce.Store_3.208.0-alpha.643.zip"
         },
         {
           "Id": "VirtoCommerce.Orders",
@@ -201,6 +197,10 @@
         {
           "Id": "VirtoCommerce.Marketing",
           "BlobName": "VirtoCommerce.Marketing_3.202.0-alpha.780.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Shipping",
+          "BlobName": "VirtoCommerce.Shipping_3.202.0-alpha.147.zip"
         }
       ]
     }
