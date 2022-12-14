@@ -14,7 +14,7 @@
       Notifications__Smtp__EnableSsl: true
       Notifications__Smtp__Host: "smtp.yandex.ru"
       Notifications__Smtp__Login: "tvctests44tp141222vcommerce111"
-      Notifications__Smtp__Port: "587"
+      Notifications__Smtp__Port: "465"
      #Notifications__DefaultSender: "azure_25da07ed75daacae20578a7a7dc58541@azure.com"
      #Notifications__Gateway: "SendGrid"
      #Notifications__Smtp__EnableSsl: "False"
