@@ -10,19 +10,18 @@
     #Setting for SMTP
       Notifications__DefaultSender: "tvctests44tp141222vcommerce111@yandex.ru"
       Notifications__Gateway: "Smtp"
-      Notifications__SmsDefaultSender: "+17012510519"
-      Notifications__Smtp__EnableSsl: "true"
+     #Notifications__SmsDefaultSender: "+17012510519"
+      Notifications__Smtp__EnableSsl: "false"
       Notifications__Smtp__Host: "smtp.yandex.com"
       Notifications__Smtp__Login: "tvctests44tp141222vcommerce111"
       Notifications__Smtp__Port: "587"
      #Notifications__DefaultSender: "azure_25da07ed75daacae20578a7a7dc58541@azure.com"
      #Notifications__Gateway: "SendGrid"
-      Notifications__SmsDefaultSender: "+17012510519"
      #Notifications__Smtp__EnableSsl: "False"
      #Notifications__Smtp__Host: "smtp.sendgrid.net"
      #Notifications__Smtp__Login: "apikey"
      #Notifications__Smtp__Port: "587"
-      Notifications__SmsGateway: "Twilio"
+     #Notifications__SmsGateway: "Twilio"
     #Platfrom mode
       ASPNETCORE_ENVIRONMENT: "Development"
     #Enable headers (broken swagger)
