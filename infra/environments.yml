@@ -11,7 +11,7 @@
       Notifications__DefaultSender: "tvctests44tp141222vcommerce111@yandex.ru"
       Notifications__Gateway: "Smtp"
      #Notifications__SmsDefaultSender: "+17012510519"
-      Notifications__Smtp__EnableSsl: true
+      Notifications__Smtp__EnableSsl: false
       Notifications__Smtp__Host: "smtp.yandex.ru"
       Notifications__Smtp__Login: "tvctests44tp141222vcommerce111"
       Notifications__Smtp__Port: "465"
