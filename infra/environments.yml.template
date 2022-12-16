@@ -59,6 +59,7 @@
       VirtoCommerce__CacheEnabled: "true"
       VirtoCommerce__CacheSlidingExpiration: "0:0:5"
       IdentityOptions__Lockout__MaxFailedAccessAttempts: "5"
+      CookieAuthenticationOptions__LoginPath: "/sign-in"
     secretConfig: {}
     themes:
       B2B-store: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-1.16.0-alpha.517.zip
