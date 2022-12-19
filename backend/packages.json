@@ -111,10 +111,6 @@
           "BlobName": "VirtoCommerce.ElasticSearch_3.211.0-alpha.201.zip"
         },
         {
-          "Id": "VirtoCommerce.AzureBlobAssets",
-          "BlobName": "VirtoCommerce.AzureBlobAssets_3.207.0-alpha.72.zip"
-        },
-        {
           "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
           "BlobName": "VirtoCommerce.GoogleEcommerceAnalytics_4.1.0-alpha.151.zip"
         },
@@ -213,6 +209,10 @@
         {
           "Id": "VirtoCommerce.ExperienceApi",
           "BlobName": "VirtoCommerce.ExperienceApi_3.245.0-alpha.1062.zip"
+        },
+        {
+          "Id": "VirtoCommerce.AzureBlobAssets",
+          "BlobName": "VirtoCommerce.AzureBlobAssets_3.207.0-alpha.73.zip"
         }
       ]
     }
