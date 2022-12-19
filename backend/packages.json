@@ -172,10 +172,6 @@
           "Version": "3.206.0"
         },
         {
-          "Id": "VirtoCommerce.Content",
-          "Version": "3.209.0"
-        },
-        {
           "Id": "VirtoCommerce.ElasticAppSearch",
           "Version": "3.204.0"
         },
@@ -190,6 +186,10 @@
         {
           "Id": "VirtoCommerce.AzureBlobAssets",
           "Version": "3.207.0"
+        },
+        {
+          "Id": "VirtoCommerce.Content",
+          "Version": "3.210.0"
         }
       ]
     },
