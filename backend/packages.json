@@ -92,10 +92,6 @@
           "Version": "3.210.0"
         },
         {
-          "Id": "VirtoCommerce.AzureBlobAssets",
-          "Version": "3.206.0"
-        },
-        {
           "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
           "Version": "4.0.0"
         },
@@ -190,6 +186,10 @@
         {
           "Id": "VirtoCommerce.Orders",
           "Version": "3.217.0"
+        },
+        {
+          "Id": "VirtoCommerce.AzureBlobAssets",
+          "Version": "3.207.0"
         }
       ]
     },
