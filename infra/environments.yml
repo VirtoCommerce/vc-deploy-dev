@@ -111,7 +111,7 @@
       IdentityOptions__Password__RequireUppercase: false
       IdentityOptions__Password__RequireLowercase: false
       #IdentityOptions__User__RequireUniqueEmail: "true"
-      IdentityOptions__Password__PasswordChangeByAdminEnabled: "true"
+      IdentityOptions__Password__PasswordChangeByAdminEnabled: true
       #Setting organization maintainer role
       FrontendSecurity__OrganizationMaintainerRole: "Organization maintainer"
       EventBus__Connections__0__Name: "AzureEventGridApps"
