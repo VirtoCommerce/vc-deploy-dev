@@ -12,10 +12,6 @@
       ],
       "Modules": [
         {
-          "Id": "VirtoCommerce.Assets",
-          "Version": "3.201.0"
-        },
-        {
           "Id": "VirtoCommerce.AuthorizeNetPayment",
           "Version": "3.203.0"
         },
@@ -190,6 +186,10 @@
         {
           "Id": "VirtoCommerce.Content",
           "Version": "3.210.0"
+        },
+        {
+          "Id": "VirtoCommerce.Assets",
+          "Version": "3.202.0"
         }
       ]
     },
