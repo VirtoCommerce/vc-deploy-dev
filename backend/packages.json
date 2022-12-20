@@ -127,10 +127,6 @@
           "BlobName": "VirtoCommerce.Sitemaps_3.208.0-alpha.301.zip"
         },
         {
-          "Id": "VirtoCommerce.Notifications",
-          "BlobName": "VirtoCommerce.Notifications_3.213.0-alpha.302.zip"
-        },
-        {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.233.0-alpha.122.zip"
         },
@@ -213,6 +209,10 @@
         {
           "Id": "VirtoCommerce.Search",
           "BlobName": "VirtoCommerce.Search_3.216.0-alpha.674.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Notifications",
+          "BlobName": "VirtoCommerce.Notifications_3.213.0-alpha.303.zip"
         }
       ]
     }
