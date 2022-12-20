@@ -50,6 +50,7 @@
     imageTag: 6.9.0-alpha.922-dev-f2d0b251
     enabled: true
     servicePlan: F1
+    probePath: "/favicon.ico"
     config:
       SYSTEM_RESTART: "09.12.2022"
       SnapshotCollectorConfiguration__IsEnabled: false
