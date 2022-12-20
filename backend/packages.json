@@ -163,10 +163,6 @@
           "BlobName": "VirtoCommerce.Quote_3.213.0-alpha.340.zip"
         },
         {
-          "Id": "VirtoCommerce.WebHooks",
-          "BlobName": "VirtoCommerce.WebHooks_3.207.0-alpha.246.zip"
-        },
-        {
           "Id": "VirtoCommerce.ElasticAppSearch",
           "BlobName": "VirtoCommerce.ElasticAppSearch_3.205.0-alpha.65.zip"
         },
@@ -213,6 +209,10 @@
         {
           "Id": "VirtoCommerce.Customer",
           "BlobName": "VirtoCommerce.Customer_3.219.0-alpha.742.zip"
+        },
+        {
+          "Id": "VirtoCommerce.WebHooks",
+          "BlobName": "VirtoCommerce.WebHooks_3.207.0-alpha.247.zip"
         }
       ]
     }
