@@ -49,6 +49,7 @@
     imageRepository: virtopaasregistrymain.azurecr.io/vcst/storefront
     imageTag: 6.9.0-alpha.922-dev-f2d0b251
     enabled: true
+    probePath: /favicon.ico
     servicePlan: F1
     config:
       SYSTEM_RESTART: "20.12.2022"
