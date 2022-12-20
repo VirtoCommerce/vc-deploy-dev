@@ -35,10 +35,6 @@
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
         {
-          "Id": "VirtoCommerce.Assets",
-          "BlobName": "VirtoCommerce.Assets_3.201.0-pr-10.zip"
-        },
-        {
           "Id": "VirtoCommerce.AuthorizeNet",
           "BlobName": "VirtoCommerce.AuthorizeNet_3.201.0-pr-29.zip"
         },
@@ -213,6 +209,10 @@
         {
           "Id": "VirtoCommerce.Content",
           "BlobName": "VirtoCommerce.Content_3.211.0-alpha.849.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Assets",
+          "BlobName": "VirtoCommerce.Assets_3.202.0-alpha.82.zip"
         }
       ]
     }
