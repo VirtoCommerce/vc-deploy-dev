@@ -111,7 +111,7 @@
       #IdentityOptions__Password__RequireUppercase: false
       #IdentityOptions__Password__RequireLowercase: false
       #IdentityOptions__User__RequireUniqueEmail: "true"
-      IdentityOptions__Password__PasswordChangeByAdminEnabled: true
+      IdentityOptions__Password__PasswordChangeByAdminEnabled: "true"
       #Setting organization maintainer role
       FrontendSecurity__OrganizationMaintainerRole: "Organization maintainer"
       EventBus__Connections__0__Name: "AzureEventGridApps"
@@ -121,7 +121,6 @@
       EventBus__Subscriptions__0__Name: "TestSubscriptionAppS"
       EventBus__Subscriptions__0__Events__0__EventId: "VirtoCommerce.Platform.Core.Security.Events.UserChangedEvent"
       #VirtoCommerce__SampleDataUrl: https://virtocommerce.azureedge.net/sample-data/b2b-sample-store.zip
-  
       AzureAd__Priority: 1
       PasswordLogin__Priority: 0
     secretConfig: 
