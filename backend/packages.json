@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.265.0-alpha.12524",
+  "PlatformVersion": "3.266.0-alpha.12533",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.265.0-alpha.12524-dev-964b1f9c",
+  "PlatformImageTag": "3.266.0-alpha.12533-dev-1101635d",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -35,10 +35,6 @@
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
         {
-          "Id": "VirtoCommerce.Assets",
-          "BlobName": "VirtoCommerce.Assets_3.201.0-pr-10.zip"
-        },
-        {
           "Id": "VirtoCommerce.AuthorizeNet",
           "BlobName": "VirtoCommerce.AuthorizeNet_3.201.0-pr-29.zip"
         },
@@ -63,10 +59,6 @@
           "BlobName": "VirtoCommerce.CatalogPersonalization_3.201.0-pr-58.zip"
         },
         {
-          "Id": "VirtoCommerce.EventBus",
-          "BlobName": "VirtoCommerce.EventBus_3.202.0-pr-15.zip"
-        },
-        {
           "Id": "VirtoCommerce.GDPR",
           "BlobName": "VirtoCommerce.GDPR_3.201.0-pr-11.zip"
         },
@@ -85,10 +77,6 @@
         {
           "Id": "VirtoCommerce.AzureSearch",
           "BlobName": "VirtoCommerce.AzureSearch_3.205.0-alpha.181.zip"
-        },
-        {
-          "Id": "VirtoCommerce.Orders",
-          "BlobName": "VirtoCommerce.Orders_3.217.0-alpha.1059.zip"
         },
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
@@ -115,20 +103,12 @@
           "BlobName": "VirtoCommerce.ElasticSearch_3.211.0-alpha.201.zip"
         },
         {
-          "Id": "VirtoCommerce.AzureBlobAssets",
-          "BlobName": "VirtoCommerce.AzureBlobAssets_3.207.0-alpha.72.zip"
-        },
-        {
           "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
           "BlobName": "VirtoCommerce.GoogleEcommerceAnalytics_4.1.0-alpha.151.zip"
         },
         {
           "Id": "VirtoCommerce.Cart",
           "BlobName": "VirtoCommerce.Cart_3.206.0-alpha.579.zip"
-        },
-        {
-          "Id": "VirtoCommerce.Catalog",
-          "BlobName": "VirtoCommerce.Catalog_3.246.0-alpha.2042.zip"
         },
         {
           "Id": "VirtoCommerce.Export",
@@ -143,16 +123,8 @@
           "BlobName": "VirtoCommerce.Sitemaps_3.208.0-alpha.301.zip"
         },
         {
-          "Id": "VirtoCommerce.Notifications",
-          "BlobName": "VirtoCommerce.Notifications_3.213.0-alpha.302.zip"
-        },
-        {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.233.0-alpha.122.zip"
-        },
-        {
-          "Id": "VirtoCommerce.ExperienceApi",
-          "BlobName": "VirtoCommerce.ExperienceApi_3.245.0-alpha.1061.zip"
         },
         {
           "Id": "VirtoCommerce.CustomerReviews",
@@ -167,10 +139,6 @@
           "BlobName": "VirtoCommerce.CustomerExportImport_3.202.0-alpha.117.zip"
         },
         {
-          "Id": "VirtoCommerce.Customer",
-          "BlobName": "VirtoCommerce.Customer_3.217.0-alpha.739.zip"
-        },
-        {
           "Id": "VirtoCommerce.Tax",
           "BlobName": "VirtoCommerce.Tax_3.203.0-alpha.146.zip"
         },
@@ -179,20 +147,8 @@
           "BlobName": "VirtoCommerce.Inventory_3.211.0-alpha.398.zip"
         },
         {
-          "Id": "VirtoCommerce.Search",
-          "BlobName": "VirtoCommerce.Search_3.215.0-alpha.672.zip"
-        },
-        {
-          "Id": "VirtoCommerce.WebHooks",
-          "BlobName": "VirtoCommerce.WebHooks_3.206.0-alpha.233.zip"
-        },
-        {
           "Id": "VirtoCommerce.Marketing",
           "BlobName": "VirtoCommerce.Marketing_3.203.0-alpha.781.zip"
-        },
-        {
-          "Id": "VirtoCommerce.Store",
-          "BlobName": "VirtoCommerce.Store_3.209.0-alpha.644.zip"
         },
         {
           "Id": "VirtoCommerce.Shipping",
@@ -203,16 +159,60 @@
           "BlobName": "VirtoCommerce.Payment_3.207.0-alpha.187.zip"
         },
         {
+          "Id": "VirtoCommerce.Quote",
+          "BlobName": "VirtoCommerce.Quote_3.213.0-alpha.340.zip"
+        },
+        {
           "Id": "VirtoCommerce.ElasticAppSearch",
-          "BlobName": "VirtoCommerce.ElasticAppSearch_3.204.0-alpha.64.zip"
+          "BlobName": "VirtoCommerce.ElasticAppSearch_3.205.0-alpha.65.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Orders",
+          "BlobName": "VirtoCommerce.Orders_3.218.0-alpha.1061.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ExperienceApi",
+          "BlobName": "VirtoCommerce.ExperienceApi_3.245.0-alpha.1062.zip"
+        },
+        {
+          "Id": "VirtoCommerce.AzureBlobAssets",
+          "BlobName": "VirtoCommerce.AzureBlobAssets_3.208.0-alpha.74.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Assets",
+          "BlobName": "VirtoCommerce.Assets_3.203.0-alpha.83.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Search",
+          "BlobName": "VirtoCommerce.Search_3.216.0-alpha.674.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Notifications",
+          "BlobName": "VirtoCommerce.Notifications_3.214.0-alpha.304.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Store",
+          "BlobName": "VirtoCommerce.Store_3.210.0-alpha.646.zip"
         },
         {
           "Id": "VirtoCommerce.Content",
-          "BlobName": "VirtoCommerce.Content_3.209.0-alpha.845.zip"
+          "BlobName": "VirtoCommerce.Content_3.212.0-alpha.851.zip"
         },
         {
-          "Id": "VirtoCommerce.Quote",
-          "BlobName": "VirtoCommerce.Quote_3.213.0-alpha.340.zip"
+          "Id": "VirtoCommerce.EventBus",
+          "BlobName": "VirtoCommerce.EventBus_3.204.0-alpha.97.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Customer",
+          "BlobName": "VirtoCommerce.Customer_3.219.0-alpha.742.zip"
+        },
+        {
+          "Id": "VirtoCommerce.WebHooks",
+          "BlobName": "VirtoCommerce.WebHooks_3.208.0-alpha.248.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "BlobName": "VirtoCommerce.Catalog_3.248.0-alpha.2046.zip"
         }
       ]
     }
