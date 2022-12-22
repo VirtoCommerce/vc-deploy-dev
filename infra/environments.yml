@@ -44,7 +44,6 @@
   storefront:
     enabled: true
     imageRepository: virtopaasregistrymain.azurecr.io/virtostart/storefront
-    imageTag: 6.9.0-master-ec45cbf7
     servicePlan: S2
     config:
       VirtoCommerce__DefaultStore: B2B-store
