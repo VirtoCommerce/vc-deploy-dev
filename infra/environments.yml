@@ -1,4 +1,3 @@
-  version: 1.205
 - name: virtostart-main
   production: false
   gitops: true
@@ -62,3 +61,4 @@
   protectedParameters:
    - platform.image.tag
    - storefront.image.tag
+  version: 1.205
