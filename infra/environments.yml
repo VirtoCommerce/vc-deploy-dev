@@ -1,6 +1,6 @@
 - name: vcptcore-loadtest
   gitops: true
-  servicePlan: F1
+  servicePlan: S3
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
     tier: enterprise
