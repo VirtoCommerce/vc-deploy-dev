@@ -1,6 +1,6 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.264.0",
+  "PlatformVersion": "3.267.0",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -44,11 +44,11 @@
         },
         {
           "Id": "VirtoCommerce.Cart",
-          "Version": "3.205.0"
+          "Version": "3.206.0"
         },
         {
           "Id": "VirtoCommerce.Catalog",
-          "Version": "3.244.0"
+          "Version": "3.246.0"
         },
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
@@ -100,7 +100,7 @@
         },
         {
           "Id": "VirtoCommerce.ExperienceApi",
-          "Version": "3.244.0"
+          "Version": "3.245.0"
         },
         {
           "Id": "VirtoCommerce.Export",
@@ -128,7 +128,7 @@
         },
         {
           "Id": "VirtoCommerce.Marketing",
-          "Version": "3.201.0"
+          "Version": "3.203.0"
         },
         {
           "Id": "VirtoCommerce.Notifications",
@@ -164,7 +164,7 @@
         },
         {
           "Id": "VirtoCommerce.Search",
-          "Version": "3.212.0"
+          "Version": "3.213.0"
         },
         {
           "Id": "VirtoCommerce.Shipping",
