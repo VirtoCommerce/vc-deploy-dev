@@ -5,7 +5,6 @@
     "PlatformImageTag": "3.253.8",
     "PlatformAssetUrl": "",
     "Sources": [
-        {
             "Name": "GithubReleases",
             "ModuleSources": [
                 "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -25,7 +24,7 @@
                 },
                 {
                   "Id": "VirtoCommerce.Catalog",
-                  "Version": "3.230.11"
+                  "Version": "3.230.12"
                 },
                 {
                   "Id": "VirtoCommerce.Content",
