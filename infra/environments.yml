@@ -1,6 +1,6 @@
 - name: vcptcore-qa
   gitops: true
-  servicePlan: F1
+  servicePlan: S2
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
     imageTag:  3.230.0-alpha.12392-dev-a97c5f0e-1144f2f
