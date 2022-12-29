@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.267.0",
+  "PlatformVersion": "3.268.0-alpha.12539-pt-9049-update-redis-client-b251af76",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.267.0",
+  "PlatformImageTag": "3.268.0-alpha.12539-pt-9049-update-redis-client-b251af76",
   "PlatformAssetUrl": "",
   "Sources": [
     {
