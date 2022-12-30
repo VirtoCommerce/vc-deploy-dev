@@ -180,16 +180,16 @@
           "Version": "3.218.0"
         },
         {
-          "Id": "VirtoCommerce.Search",
-          "Version": "3.217.0"
-        },
-        {
           "Id": "VirtoCommerce.ExperienceApi",
           "Version": "3.247.0"
         },
         {
           "Id": "VirtoCommerce.Catalog",
           "Version": "3.251.0"
+        },
+        {
+          "Id": "VirtoCommerce.Search",
+          "Version": "3.218.0"
         }
       ]
     },
