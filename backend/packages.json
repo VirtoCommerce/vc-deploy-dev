@@ -16,10 +16,6 @@
           "Version": "3.200.0"
         },
         {
-          "Id": "VirtoCommerce.ImageTools",
-          "Version": "3.205.0"
-        },
-        {
           "Id": "VirtoCommerce.LuceneSearch",
           "Version": "3.203.0"
         }
@@ -201,6 +197,10 @@
         {
           "Id": "VirtoCommerce.CatalogPublishing",
           "BlobName": "VirtoCommerce.CatalogPublishing_3.201.0-pr-51-2d1c.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ImageTools",
+          "BlobName": "VirtoCommerce.ImageTools_3.206.0-pr-94-bd92.zip"
         }
       ]
     }
