@@ -12,10 +12,6 @@
       ],
       "Modules": [
         {
-          "Id": "VirtoCommerce.CatalogPublishing",
-          "Version": "3.200.0"
-        },
-        {
           "Id": "VirtoCommerce.DynamicAssociationsModule",
           "Version": "3.200.0"
         },
@@ -201,6 +197,10 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "BlobName": "VirtoCommerce.Catalog_3.252.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.CatalogPublishing",
+          "BlobName": "VirtoCommerce.CatalogPublishing_3.201.0-pr-51-2d1c.zip"
         }
       ]
     }
