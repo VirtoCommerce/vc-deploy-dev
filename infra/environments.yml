@@ -30,22 +30,22 @@
       PushNotifications__HubUrl: "https://vcptcore-qa.govirto.com/pushNotificationHub"
       PushNotifications__RedisBackplane__ChannelName: "vcptcore-qa-chanel"
     #Search settings
-      Search__OrderFullTextSearchEnabled: "true"
-      Search__DocumentScopes__0__DocumentType: "Product"
-      Search__DocumentScopes__0__Scope: "scope-1"
-      Search__DocumentScopes__2__DocumentType: "Category"
-      Search__DocumentScopes__2__Scope: "scope-2"
-      Search__DocumentScopes__3__DocumentType: "Member"
-      Search__DocumentScopes__3__Scope: "scope-3"
-      Search__DocumentScopes__4__DocumentType: "CustomerOrder"
-      Search__DocumentScopes__4__Scope: "scope-4"
+     #Search__OrderFullTextSearchEnabled: "true"
+     #Search__DocumentScopes__0__DocumentType: "Product"
+     #Search__DocumentScopes__0__Scope: "scope-1"
+     #Search__DocumentScopes__2__DocumentType: "Category"
+     #Search__DocumentScopes__2__Scope: "scope-2"
+     #Search__DocumentScopes__3__DocumentType: "Member"
+     #Search__DocumentScopes__3__Scope: "scope-3"
+     #Search__DocumentScopes__4__DocumentType: "CustomerOrder"
+     #Search__DocumentScopes__4__Scope: "scope-4"
     #Lucene settings
     #Search__Provider: "Lucene"
     #Elastic Search setting
       Search__ElasticSearch__EnableCompatibilityMode: "true"
       Search__ElasticSearch__HealthCheckTimeout: 10
     #Elastic App Search settings
-      Search__Provider: "ElasticAppSearch"
+     #Search__Provider: "ElasticAppSearch"
       Search__ElasticAppSearch__EnableHttpCompression: "true"
       Search__ElasticAppSearch__Endpoint: https://enterprise-search-vc03.govirto.com
     #Azure search settings
