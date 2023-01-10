@@ -31,6 +31,8 @@
       PushNotifications__RedisBackplane__ChannelName: "vcptcore-qa-chanel"
     #Search settings
       Search__OrderFullTextSearchEnabled: "true"
+      Search__DocumentScopes__0__DocumentType: "Product"
+      Search__DocumentScopes__0__Scope: "scope-1"
     #Lucene settings
     #Search__Provider: "Lucene"
     #Elastic Search setting
@@ -121,8 +123,6 @@
       Notifications__SendGrid__ApiKey: sendkey
       Notifications__Smtp__Password: smtppassword
       Search__ElasticAppSearch__PrivateApiKey: elasticappsearch
-      Search__DocumentScopes__0__DocumentType: "Product"
-      Search__DocumentScopes__0__Scope: "scope-1"
 
   storefront:
     enabled: true
