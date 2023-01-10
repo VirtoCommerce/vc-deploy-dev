@@ -28,10 +28,6 @@
           "Version": "3.200.1"
         },
         {
-          "Id": "VirtoCommerce.CatalogPublishing",
-          "Version": "3.200.0"
-        },
-        {
           "Id": "VirtoCommerce.DynamicAssociationsModule",
           "Version": "3.200.0"
         },
@@ -190,6 +186,10 @@
         {
           "Id": "VirtoCommerce.Inventory",
           "Version": "3.211.0"
+        },
+        {
+          "Id": "VirtoCommerce.CatalogPublishing",
+          "Version": "3.201.0"
         }
       ]
     },
