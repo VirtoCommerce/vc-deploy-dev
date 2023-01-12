@@ -163,10 +163,6 @@
           "BlobName": "VirtoCommerce.Inventory_3.212.0-alpha.400.zip"
         },
         {
-          "Id": "VirtoCommerce.CatalogPublishing",
-          "BlobName": "VirtoCommerce.CatalogPublishing_3.202.0-alpha.309.zip"
-        },
-        {
           "Id": "VirtoCommerce.ImageTools",
           "BlobName": "VirtoCommerce.ImageTools_3.207.0-alpha.302.zip"
         },
@@ -213,6 +209,10 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "BlobName": "VirtoCommerce.Catalog_3.254.0-alpha.2061.zip"
+        },
+        {
+          "Id": "VirtoCommerce.CatalogPublishing",
+          "BlobName": "VirtoCommerce.CatalogPublishing_3.202.0-alpha.310.zip"
         }
       ]
     }
