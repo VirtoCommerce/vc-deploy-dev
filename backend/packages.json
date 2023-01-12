@@ -207,12 +207,12 @@
           "BlobName": "VirtoCommerce.ElasticSearch_3.211.0-alpha.202.zip"
         },
         {
-          "Id": "VirtoCommerce.AzureSearch",
-          "BlobName": "VirtoCommerce.AzureSearch_3.205.0-alpha.184.zip"
-        },
-        {
           "Id": "VirtoCommerce.ElasticAppSearch",
           "BlobName": "VirtoCommerce.ElasticAppSearch_3.206.0-alpha.67.zip"
+        },
+        {
+          "Id": "VirtoCommerce.AzureSearch",
+          "BlobName": "VirtoCommerce.AzureSearch_3.206.0-alpha.185.zip"
         }
       ]
     }
