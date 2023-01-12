@@ -14,10 +14,10 @@
       Notifications__Smtp__Login: "apikey"
       Notifications__Smtp__Port: "587"
       #Notifications__SmsGateway: "Twilio"
-     #Search__ElasticSearch__Server: https://elasticsearch-dev.govirto.com
+      Search__ElasticSearch__Server: https://elasticsearch-dev.govirto.com
       Search__ElasticSearch__EnableCompatibilityMode: "true"
      #Elastic App Search settings
-      Search__Provider: "ElasticAppSearch"
+     #Search__Provider: "ElasticAppSearch"
       Search__ElasticAppSearch__EnableHttpCompression: "true"
       Search__ElasticAppSearch__Endpoint: https://enterprise-search-vc03.govirto.com
      #Path for assets
