@@ -103,10 +103,6 @@
           "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.233.0-pr-42-7a46.zip"
         },
         {
-          "Id": "VirtoCommerce.CustomerReviews",
-          "BlobName": "VirtoCommerce.CustomerReviews_3.209.0-pr-47-408c.zip"
-        },
-        {
           "Id": "VirtoCommerce.Core",
           "BlobName": "VirtoCommerce.Core_3.206.0.zip"
         },
@@ -205,6 +201,10 @@
         {
           "Id": "VirtoCommerce.LuceneSearch",
           "BlobName": "VirtoCommerce.LuceneSearch_3.204.0-pr-29-a405.zip"
+        },
+        {
+          "Id": "VirtoCommerce.CustomerReviews",
+          "BlobName": "VirtoCommerce.CustomerReviews_3.209.0.zip"
         }
       ]
     }
