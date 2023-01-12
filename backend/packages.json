@@ -63,10 +63,6 @@
           "BlobName": "VirtoCommerce.CatalogCsvImportModule_3.204.0-pr-98-74d5.zip"
         },
         {
-          "Id": "VirtoCommerce.AzureSearch",
-          "BlobName": "VirtoCommerce.AzureSearch_3.205.0-pr-32-8765.zip"
-        },
-        {
           "Id": "VirtoCommerce.Contracts",
           "BlobName": "VirtoCommerce.Contracts_3.203.0.zip"
         },
@@ -205,6 +201,10 @@
         {
           "Id": "VirtoCommerce.LuceneSearch",
           "BlobName": "VirtoCommerce.LuceneSearch_3.204.0-pr-29-a405.zip"
+        },
+        {
+          "Id": "VirtoCommerce.AzureSearch",
+          "BlobName": "VirtoCommerce.AzureSearch_3.205.0.zip"
         }
       ]
     }
