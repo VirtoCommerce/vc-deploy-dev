@@ -140,10 +140,6 @@
           "Version": "3.211.0"
         },
         {
-          "Id": "VirtoCommerce.CatalogPublishing",
-          "Version": "3.201.0"
-        },
-        {
           "Id": "VirtoCommerce.ImageTools",
           "Version": "3.206.0"
         },
@@ -190,6 +186,10 @@
         {
           "Id": "VirtoCommerce.CatalogPersonalization",
           "Version": "3.203.0"
+        },
+        {
+          "Id": "VirtoCommerce.CatalogPublishing",
+          "Version": "3.202.0"
         }
       ]
     },
