@@ -31,25 +31,25 @@
       PushNotifications__RedisBackplane__ChannelName: "vcptcore-qa-chanel"
     #Search settings
       Search__OrderFullTextSearchEnabled: "true"
-      Search__DocumentScopes__0__DocumentType: "Product"
-      Search__DocumentScopes__0__Scope: "scope-1"
-      Search__DocumentScopes__2__DocumentType: "Category"
-      Search__DocumentScopes__2__Scope: "scope-2"
-      Search__DocumentScopes__3__DocumentType: "Member"
-      Search__DocumentScopes__3__Scope: "scope-3"
-      Search__DocumentScopes__4__DocumentType: "CustomerOrder"
-      Search__DocumentScopes__4__Scope: "scope-4"
+     #Search__DocumentScopes__0__DocumentType: "Product"
+     #Search__DocumentScopes__0__Scope: "scope-1"
+     #Search__DocumentScopes__2__DocumentType: "Category"
+     #Search__DocumentScopes__2__Scope: "scope-2"
+     #Search__DocumentScopes__3__DocumentType: "Member"
+     #Search__DocumentScopes__3__Scope: "scope-3"
+     #Search__DocumentScopes__4__DocumentType: "CustomerOrder"
+     #Search__DocumentScopes__4__Scope: "scope-4"
     #Lucene settings
     #Search__Provider: "Lucene"
     #Elastic Search setting
       Search__ElasticSearch__EnableCompatibilityMode: "true"
       Search__ElasticSearch__HealthCheckTimeout: 10
     #Elastic App Search settings
-     #Search__Provider: "ElasticAppSearch"
+      Search__Provider: "ElasticAppSearch"
       Search__ElasticAppSearch__EnableHttpCompression: "true"
       Search__ElasticAppSearch__Endpoint: https://enterprise-search-vc03.govirto.com
     #Azure search settings
-      Search__Provider: "AzureSearch"
+     #Search__Provider: "AzureSearch"
       Search__AzureSearch__SearchServiceName: "qa-demovc-3-search"
       Search__AzureSearch__Key: "6BE1143312E89C26C227E6BBAE24DD47"
       Search__AzureSearch__QueryParserType: Full
