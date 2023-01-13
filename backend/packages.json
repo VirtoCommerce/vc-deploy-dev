@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.271.0-alpha.12546",
+  "PlatformVersion": "3.274.0-alpha.12555",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.271.0-alpha.12546-dev-8de1f6ae",
+  "PlatformImageTag": "3.274.0-alpha.12555-dev-f736c11b",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -14,10 +14,6 @@
         {
           "Id": "VirtoCommerce.DynamicAssociationsModule",
           "Version": "3.200.0"
-        },
-        {
-          "Id": "VirtoCommerce.LuceneSearch",
-          "Version": "3.203.0"
         }
       ]
     },
@@ -63,10 +59,6 @@
           "BlobName": "VirtoCommerce.Subscription_3.201.0-pr-70.zip"
         },
         {
-          "Id": "VirtoCommerce.AzureSearch",
-          "BlobName": "VirtoCommerce.AzureSearch_3.205.0-alpha.181.zip"
-        },
-        {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
           "BlobName": "VirtoCommerce.CatalogCsvImportModule_3.205.0-alpha.274.zip"
         },
@@ -87,10 +79,6 @@
           "BlobName": "VirtoCommerce.FileSystemAssets_3.204.0-alpha.62.zip"
         },
         {
-          "Id": "VirtoCommerce.ElasticSearch",
-          "BlobName": "VirtoCommerce.ElasticSearch_3.211.0-alpha.201.zip"
-        },
-        {
           "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
           "BlobName": "VirtoCommerce.GoogleEcommerceAnalytics_4.1.0-alpha.151.zip"
         },
@@ -101,14 +89,6 @@
         {
           "Id": "VirtoCommerce.Sitemaps",
           "BlobName": "VirtoCommerce.Sitemaps_3.208.0-alpha.301.zip"
-        },
-        {
-          "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.233.0-alpha.122.zip"
-        },
-        {
-          "Id": "VirtoCommerce.CustomerReviews",
-          "BlobName": "VirtoCommerce.CustomerReviews_3.209.0-alpha.158.zip"
         },
         {
           "Id": "VirtoCommerce.Core",
@@ -133,10 +113,6 @@
         {
           "Id": "VirtoCommerce.Quote",
           "BlobName": "VirtoCommerce.Quote_3.213.0-alpha.340.zip"
-        },
-        {
-          "Id": "VirtoCommerce.ElasticAppSearch",
-          "BlobName": "VirtoCommerce.ElasticAppSearch_3.205.0-alpha.65.zip"
         },
         {
           "Id": "VirtoCommerce.Assets",
@@ -175,24 +151,8 @@
           "BlobName": "VirtoCommerce.Marketing_3.205.0-alpha.785.zip"
         },
         {
-          "Id": "VirtoCommerce.Orders",
-          "BlobName": "VirtoCommerce.Orders_3.219.0-alpha.1063.zip"
-        },
-        {
-          "Id": "VirtoCommerce.Cart",
-          "BlobName": "VirtoCommerce.Cart_3.208.0-alpha.586.zip"
-        },
-        {
-          "Id": "VirtoCommerce.ExperienceApi",
-          "BlobName": "VirtoCommerce.ExperienceApi_3.248.0-alpha.1071.zip"
-        },
-        {
           "Id": "VirtoCommerce.Search",
           "BlobName": "VirtoCommerce.Search_3.219.0-alpha.680.zip"
-        },
-        {
-          "Id": "VirtoCommerce.Catalog",
-          "BlobName": "VirtoCommerce.Catalog_3.253.0-alpha.2058.zip"
         },
         {
           "Id": "VirtoCommerce.Pricing",
@@ -203,16 +163,56 @@
           "BlobName": "VirtoCommerce.Inventory_3.212.0-alpha.400.zip"
         },
         {
-          "Id": "VirtoCommerce.CatalogPublishing",
-          "BlobName": "VirtoCommerce.CatalogPublishing_3.202.0-alpha.309.zip"
+          "Id": "VirtoCommerce.ImageTools",
+          "BlobName": "VirtoCommerce.ImageTools_3.207.0-alpha.302.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Orders",
+          "BlobName": "VirtoCommerce.Orders_3.220.0-alpha.1065.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ElasticAppSearch",
+          "BlobName": "VirtoCommerce.ElasticAppSearch_3.206.0-alpha.67.zip"
+        },
+        {
+          "Id": "VirtoCommerce.AzureSearch",
+          "BlobName": "VirtoCommerce.AzureSearch_3.206.0-alpha.185.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ElasticSearch",
+          "BlobName": "VirtoCommerce.ElasticSearch_3.212.0-alpha.203.zip"
+        },
+        {
+          "Id": "VirtoCommerce.CustomerReviews",
+          "BlobName": "VirtoCommerce.CustomerReviews_3.210.0-alpha.160.zip"
+        },
+        {
+          "Id": "VirtoCommerce.LuceneSearch",
+          "BlobName": "VirtoCommerce.LuceneSearch_3.205.0-alpha.166.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ProfileExperienceApiModule",
+          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.234.0-alpha.124.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Cart",
+          "BlobName": "VirtoCommerce.Cart_3.210.0-alpha.590.zip"
         },
         {
           "Id": "VirtoCommerce.CatalogPersonalization",
-          "BlobName": "VirtoCommerce.CatalogPersonalization_3.202.0-alpha.210.zip"
+          "BlobName": "VirtoCommerce.CatalogPersonalization_3.204.0-alpha.216.zip"
         },
         {
-          "Id": "VirtoCommerce.ImageTools",
-          "BlobName": "VirtoCommerce.ImageTools_3.207.0-alpha.302.zip"
+          "Id": "VirtoCommerce.CatalogPublishing",
+          "BlobName": "VirtoCommerce.CatalogPublishing_3.202.0-alpha.310.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "BlobName": "VirtoCommerce.Catalog_3.255.0-alpha.2062.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ExperienceApi",
+          "BlobName": "VirtoCommerce.ExperienceApi_3.250.0-alpha.1076.zip"
         }
       ]
     }
