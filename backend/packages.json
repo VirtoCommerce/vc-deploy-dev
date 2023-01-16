@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.273.0",
+  "PlatformVersion": "3.274.0-alpha.12556-pt-10345-0e5b070b",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.273.0",
+  "PlatformImageTag": "3.274.0-alpha.12556-pt-10345-0e5b070b",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -205,6 +205,10 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "BlobName": "VirtoCommerce.Catalog_3.254.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.MarketingExperienceApi",
+          "BlobName": "VirtoCommerce.MarketingExperienceApi_3.200.0-pr-1-e4b2.zip"
         }
       ]
     }
