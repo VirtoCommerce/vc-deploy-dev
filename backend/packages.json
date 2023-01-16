@@ -107,10 +107,6 @@
           "BlobName": "VirtoCommerce.CustomerReviews_3.209.0-pr-47-408c.zip"
         },
         {
-          "Id": "VirtoCommerce.Core",
-          "BlobName": "VirtoCommerce.Core_3.206.0.zip"
-        },
-        {
           "Id": "VirtoCommerce.Customer",
           "BlobName": "VirtoCommerce.Customer_3.218.0.zip"
         },
@@ -209,6 +205,10 @@
         {
           "Id": "VirtoCommerce.MarketingExperienceApi",
           "BlobName": "VirtoCommerce.MarketingExperienceApi_3.200.0-pr-1-e4b2.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Core",
+          "BlobName": "VirtoCommerce.Core_3.207.0.zip"
         }
       ]
     }
