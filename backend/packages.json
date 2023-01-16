@@ -72,10 +72,6 @@
           "Version": "3.207.0"
         },
         {
-          "Id": "VirtoCommerce.Core",
-          "Version": "3.206.0"
-        },
-        {
           "Id": "VirtoCommerce.Tax",
           "Version": "3.202.0"
         },
@@ -190,6 +186,10 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "Version": "3.254.0"
+        },
+        {
+          "Id": "VirtoCommerce.Core",
+          "Version": "3.207.0"
         }
       ]
     },
