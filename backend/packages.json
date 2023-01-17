@@ -131,10 +131,6 @@
           "BlobName": "VirtoCommerce.EventBus_3.204.0-alpha.97.zip"
         },
         {
-          "Id": "VirtoCommerce.Customer",
-          "BlobName": "VirtoCommerce.Customer_3.219.0-alpha.742.zip"
-        },
-        {
           "Id": "VirtoCommerce.WebHooks",
           "BlobName": "VirtoCommerce.WebHooks_3.208.0-alpha.248.zip"
         },
@@ -213,6 +209,10 @@
         {
           "Id": "VirtoCommerce.Marketing",
           "BlobName": "VirtoCommerce.Marketing_3.206.0-alpha.787.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Customer",
+          "BlobName": "VirtoCommerce.Customer_3.219.0-alpha.743.zip"
         }
       ]
     }
