@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.274.0-alpha.12555",
+  "PlatformVersion": "3.274.0-alpha.12556",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.274.0-alpha.12555-dev-f736c11b",
+  "PlatformImageTag": "3.274.0-alpha.12556-dev-4afc327b",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -89,10 +89,6 @@
         {
           "Id": "VirtoCommerce.Sitemaps",
           "BlobName": "VirtoCommerce.Sitemaps_3.208.0-alpha.301.zip"
-        },
-        {
-          "Id": "VirtoCommerce.Core",
-          "BlobName": "VirtoCommerce.Core_3.207.0-alpha.1553.zip"
         },
         {
           "Id": "VirtoCommerce.CustomerExportImport",
@@ -213,6 +209,10 @@
         {
           "Id": "VirtoCommerce.ExperienceApi",
           "BlobName": "VirtoCommerce.ExperienceApi_3.250.0-alpha.1076.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Core",
+          "BlobName": "VirtoCommerce.Core_3.208.0-alpha.1556.zip"
         }
       ]
     }
