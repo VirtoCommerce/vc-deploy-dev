@@ -42,7 +42,7 @@
     #Lucene settings
      #Search__Provider: "Lucene"
     #Elastic Search setting
-     #Search__ElasticSearch__EnableCompatibilityMode: "true"
+      Search__ElasticSearch__EnableCompatibilityMode: "true"
       Search__ElasticSearch__HealthCheckTimeout: 10
     #Elastic App Search settings
      #Search__Provider: "ElasticAppSearch"
