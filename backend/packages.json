@@ -116,10 +116,6 @@
           "Version": "3.208.0"
         },
         {
-          "Id": "VirtoCommerce.Search",
-          "Version": "3.218.0"
-        },
-        {
           "Id": "VirtoCommerce.Pricing",
           "Version": "3.216.0"
         },
@@ -190,6 +186,10 @@
         {
           "Id": "VirtoCommerce.ExperienceApi",
           "Version": "3.250.0"
+        },
+        {
+          "Id": "VirtoCommerce.Search",
+          "Version": "3.219.0"
         }
       ]
     },
