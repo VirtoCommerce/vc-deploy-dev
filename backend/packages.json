@@ -107,10 +107,6 @@
           "BlobName": "VirtoCommerce.Payment_3.207.0-alpha.187.zip"
         },
         {
-          "Id": "VirtoCommerce.Quote",
-          "BlobName": "VirtoCommerce.Quote_3.213.0-alpha.340.zip"
-        },
-        {
           "Id": "VirtoCommerce.Assets",
           "BlobName": "VirtoCommerce.Assets_3.203.0-alpha.83.zip"
         },
@@ -213,6 +209,10 @@
         {
           "Id": "VirtoCommerce.ExperienceApi",
           "BlobName": "VirtoCommerce.ExperienceApi_3.252.0-alpha.1079.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Quote",
+          "BlobName": "VirtoCommerce.Quote_3.213.0-alpha.341.zip"
         }
       ]
     }
