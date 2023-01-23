@@ -190,6 +190,10 @@
         {
           "Id": "VirtoCommerce.CustomerReviews",
           "Version": "3.210.0"
+        },
+        {
+          "Id": "VirtoCommerce.CustomerExportImport",
+          "Version": "3.202.0"
         }
       ]
     },
