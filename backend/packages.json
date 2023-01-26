@@ -187,10 +187,6 @@
           "BlobName": "VirtoCommerce.Marketing_3.205.0.zip"
         },
         {
-          "Id": "VirtoCommerce.Customer",
-          "BlobName": "VirtoCommerce.Customer_3.220.0-pr-209-1449.zip"
-        },
-        {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.234.0.zip"
         },
@@ -213,6 +209,10 @@
         {
           "Id": "VirtoCommerce.Subscription",
           "BlobName": "VirtoCommerce.Subscription_3.201.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Customer",
+          "BlobName": "VirtoCommerce.Customer_3.220.0.zip"
         }
       ]
     }
