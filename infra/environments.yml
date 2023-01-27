@@ -20,8 +20,8 @@
       Search__OrderFullTextSearchEnabled: "true"
     # Elastic Search settings
       Search__ElasticSearch__EnableCompatibilityMode: "true"
-    # Elastic App Search settings
-      Search__Provider: "ElasticAppSearch"
+     #Elastic App Search settings
+     #Search__Provider: "ElasticAppSearch"
       Search__ElasticAppSearch__EnableHttpCompression: "true"
       Search__ElasticAppSearch__Endpoint: https://enterprise-search-vc03.govirto.com
     # End of search settings
