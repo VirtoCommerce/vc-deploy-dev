@@ -163,10 +163,6 @@
           "BlobName": "VirtoCommerce.LuceneSearch_3.204.0-pr-29-a405.zip"
         },
         {
-          "Id": "VirtoCommerce.Catalog",
-          "BlobName": "VirtoCommerce.Catalog_3.255.0-pr-656-2468.zip"
-        },
-        {
           "Id": "VirtoCommerce.MarketingExperienceApi",
           "BlobName": "VirtoCommerce.MarketingExperienceApi_3.200.0-pr-1-e4b2.zip"
         },
@@ -213,6 +209,10 @@
         {
           "Id": "VirtoCommerce.Orders",
           "BlobName": "VirtoCommerce.Orders_3.220.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "BlobName": "VirtoCommerce.Catalog_3.255.0.zip"
         }
       ]
     }
