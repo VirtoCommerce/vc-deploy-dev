@@ -44,10 +44,6 @@
           "Version": "3.204.0"
         },
         {
-          "Id": "VirtoCommerce.Contracts",
-          "Version": "3.203.0"
-        },
-        {
           "Id": "VirtoCommerce.NativePaymentMethods",
           "Version": "3.203.0"
         },
@@ -194,6 +190,10 @@
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "Version": "3.235.0"
+        },
+        {
+          "Id": "VirtoCommerce.Contracts",
+          "Version": "3.204.0"
         }
       ]
     },
