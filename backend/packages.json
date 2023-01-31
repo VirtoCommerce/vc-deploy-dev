@@ -217,8 +217,8 @@
       ]
     },
     {
-      "Name": "AzureBlob1",
-      "Container": "packages",
+      "Name": "AzureBlob",
+      "Container": "modules",
       "ServiceUri": "https://vcpsblob.blob.core.windows.net",
       "Modules": [
         {
