@@ -213,14 +213,7 @@
         {
           "Id": "VirtoCommerce.Contracts",
           "BlobName": "VirtoCommerce.Contracts_3.205.0-alpha.42.zip"
-        }
-      ]
-    },
-    {
-      "Name": "AzureBlob",
-      "Container": "modules",
-      "ServiceUri": "https://vcpsblob.blob.core.windows.net",
-      "Modules": [
+        },
         {
           "Id": "VirtoCommerce.TaskManagement",
           "BlobName": "VirtoCommerce.TaskManagement_3.200.0.zip"
