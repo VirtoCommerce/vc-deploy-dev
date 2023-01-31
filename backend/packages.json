@@ -14,6 +14,10 @@
         {
           "Id": "VirtoCommerce.DynamicAssociationsModule",
           "Version": "3.200.0"
+        },
+        {
+          "Id": "VirtoCommerce.TaskManagement",
+          "Version": "3.200.0"
         }
       ]
     },
