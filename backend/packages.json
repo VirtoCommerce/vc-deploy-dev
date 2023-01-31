@@ -67,10 +67,6 @@
           "BlobName": "VirtoCommerce.AzureSearch_3.205.0-pr-32-8765.zip"
         },
         {
-          "Id": "VirtoCommerce.Contracts",
-          "BlobName": "VirtoCommerce.Contracts_3.204.0-pr-9-aea7.zip"
-        },
-        {
           "Id": "VirtoCommerce.NativePaymentMethods",
           "BlobName": "VirtoCommerce.NativePaymentMethods_3.203.0.zip"
         },
@@ -213,6 +209,10 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "BlobName": "VirtoCommerce.Catalog_3.255.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Contracts",
+          "BlobName": "VirtoCommerce.Contracts_3.204.0.zip"
         }
       ]
     }
