@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.277.0",
+  "PlatformVersion": "3.278.0-alpha.12565-pt-10354-9f91cb18",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.277.0",
+  "PlatformImageTag": "3.278.0-alpha.12565-pt-10354-9f91cb18",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -213,6 +213,10 @@
         {
           "Id": "VirtoCommerce.Cart",
           "BlobName": "VirtoCommerce.Cart_3.211.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.AzureAD",
+          "BlobName": "VirtoCommerce.AzureAD_3.200.0-pr-1-77fd.zip"
         }
       ]
     }
