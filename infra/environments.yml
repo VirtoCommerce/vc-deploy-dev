@@ -60,7 +60,7 @@
       AzureAd__TenantId: "common"
       AzureAd__ValidateIssuer: "MultitenantAzureAD"
       AzureAd__UseEmail: "false"
-      AzureAd__DefaultUserType: "Administrator"
+      AzureAd__DefaultUserType: "Manager"
       PasswordLogin__Enabled: "true"
       #Path for assets
       Content__FileSystem__PublicUrl: https://vcptcore-qa.govirto.com/cms-content/
