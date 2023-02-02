@@ -31,6 +31,7 @@
       PushNotifications__RedisBackplane__ChannelName: "vcptcore-qa-chanel"
     #Search settings
       Search__OrderFullTextSearchEnabled: "true"
+      Search__ContentFullTextSearchEnabled: "true"
       Search__DocumentScopes__0__DocumentType: "Product"
       Search__DocumentScopes__0__Scope: "vcptcore-qa-platformvcptcore-scope1"
       Search__DocumentScopes__2__DocumentType: "Category"
