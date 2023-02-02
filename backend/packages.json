@@ -12,10 +12,6 @@
       ],
       "Modules": [
         {
-          "Id": "VirtoCommerce.AuthorizeNetPayment",
-          "Version": "3.203.0"
-        },
-        {
           "Id": "VirtoCommerce.AvalaraTax",
           "Version": "3.201.0"
         },
@@ -194,6 +190,10 @@
         {
           "Id": "VirtoCommerce.CustomerReviews",
           "Version": "3.211.0"
+        },
+        {
+          "Id": "VirtoCommerce.AuthorizeNetPayment",
+          "Version": "3.204.0"
         }
       ]
     },
