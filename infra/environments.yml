@@ -50,7 +50,7 @@
       Search__ElasticAppSearch__EnableHttpCompression: "true"
       Search__ElasticAppSearch__Endpoint: https://enterprise-search-vc03.govirto.com
     #Azure search settings
-     #Search__Provider: "AzureSearch"
+      Search__Provider: "AzureSearch"
       Search__AzureSearch__SearchServiceName: "qa-demovc-3-search"
       Search__AzureSearch__Key: "6BE1143312E89C26C227E6BBAE24DD47"
       Search__AzureSearch__QueryParserType: Full
@@ -66,10 +66,10 @@
       #Path for assets
       Content__FileSystem__PublicUrl: https://vcptcore-qa.govirto.com/cms-content/
       Assets__FileSystem__PublicUrl: https://vcptcore-qa.govirto.com/cms-content/assets/
-      Assets__Provider: FileSystem
+      Assets__Provider: AzureBlobStorage
       Assets__AzureBlobStorage__ConnectionString: DefaultEndpointsProtocol=https;AccountName=qademovc3;AccountKey=qPIpM63MI2P3ei6B1xIL4/DlKDqdsRj54z2GUtgCAeXPcMe8+mZiUvrvI5fjdyrovk331XmBlMFfAEFAjCnvtw==;EndpointSuffix=core.windows.net
       #Connection for content
-      Content__Provider: FileSystem
+      Content__Provider: AzureBlobStorage
       Content__AzureBlobStorage__RootPath: cms
       Content__AzureBlobStorage__ConnectionString: DefaultEndpointsProtocol=https;AccountName=qademovc3;AccountKey=qPIpM63MI2P3ei6B1xIL4/DlKDqdsRj54z2GUtgCAeXPcMe8+mZiUvrvI5fjdyrovk331XmBlMFfAEFAjCnvtw==;EndpointSuffix=core.windows.net
       VirtoCommerce__LicenseFilePath: app_data/VirtoCommerce.lic
