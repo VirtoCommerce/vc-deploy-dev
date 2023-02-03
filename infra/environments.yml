@@ -46,11 +46,11 @@
       Search__ElasticSearch__EnableCompatibilityMode: "true"
       Search__ElasticSearch__HealthCheckTimeout: 10
     #Elastic App Search settings
-      Search__Provider: "ElasticAppSearch"
+     #Search__Provider: "ElasticAppSearch"
       Search__ElasticAppSearch__EnableHttpCompression: "true"
       Search__ElasticAppSearch__Endpoint: https://enterprise-search-vc03.govirto.com
     #Azure search settings
-     #Search__Provider: "AzureSearch"
+      Search__Provider: "AzureSearch"
       Search__AzureSearch__SearchServiceName: "qa-demovc-3-search"
       Search__AzureSearch__Key: "6BE1143312E89C26C227E6BBAE24DD47"
       Search__AzureSearch__QueryParserType: Full
