@@ -35,6 +35,10 @@
           "Version": "3.201.0"
         },
         {
+          "Id": "VirtoCommerce.AzureAD",
+          "Version": "3.201.0" 
+        },
+        {
           "Id": "VirtoCommerce.AzureBlobAssets",
           "Version": "3.209.0"
         },
