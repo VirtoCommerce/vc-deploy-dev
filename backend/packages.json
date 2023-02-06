@@ -207,16 +207,16 @@
           "BlobName": "VirtoCommerce.CustomerReviews_3.211.0.zip"
         },
         {
-          "Id": "VirtoCommerce.AuthorizeNetPayment",
-          "BlobName": "VirtoCommerce.AuthorizeNetPayment_3.204.0.zip"
-        },
-        {
           "Id": "VirtoCommerce.AzureBlobAssets",
           "BlobName": "VirtoCommerce.AzureBlobAssets_3.210.0-pr-13-8abe.zip"
         },
         {
           "Id": "VirtoCommerce.AzureAD",
           "BlobName": "VirtoCommerce.AzureAD_3.201.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.AuthorizeNetPayment",
+          "BlobName": "VirtoCommerce.AuthorizeNetPayment_3.205.0.zip"
         }
       ]
     }
