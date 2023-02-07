@@ -68,10 +68,6 @@
           "Version": "3.202.0"
         },
         {
-          "Id": "VirtoCommerce.Payment",
-          "Version": "3.206.0"
-        },
-        {
           "Id": "VirtoCommerce.Assets",
           "Version": "3.202.0"
         },
@@ -198,6 +194,10 @@
         {
           "Id": "VirtoCommerce.Tax",
           "Version": "3.203.0"
+        },
+        {
+          "Id": "VirtoCommerce.Payment",
+          "Version": "3.207.0"
         }
       ]
     },
