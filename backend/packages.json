@@ -175,10 +175,6 @@
           "BlobName": "VirtoCommerce.Contracts_3.205.0-alpha.42.zip"
         },
         {
-          "Id": "VirtoCommerce.ExperienceApi",
-          "BlobName": "VirtoCommerce.ExperienceApi_3.256.0-alpha.1089.zip"
-        },
-        {
           "Id": "VirtoCommerce.CustomerReviews",
           "BlobName": "VirtoCommerce.CustomerReviews_3.212.0-alpha.164.zip"
         },
@@ -221,6 +217,10 @@
         {
           "Id": "VirtoCommerce.Marketing",
           "BlobName": "VirtoCommerce.Marketing_3.208.0-alpha.791.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ExperienceApi",
+          "BlobName": "VirtoCommerce.ExperienceApi_3.256.0-alpha.1090.zip"
         }
       ]
     }
