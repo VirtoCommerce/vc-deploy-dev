@@ -107,10 +107,6 @@
           "BlobName": "VirtoCommerce.WebHooks_3.208.0-alpha.248.zip"
         },
         {
-          "Id": "VirtoCommerce.Inventory",
-          "BlobName": "VirtoCommerce.Inventory_3.212.0-alpha.400.zip"
-        },
-        {
           "Id": "VirtoCommerce.ImageTools",
           "BlobName": "VirtoCommerce.ImageTools_3.207.0-alpha.302.zip"
         },
@@ -221,6 +217,10 @@
         {
           "Id": "VirtoCommerce.ExperienceApi",
           "BlobName": "VirtoCommerce.ExperienceApi_3.258.0-alpha.1093.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Inventory",
+          "BlobName": "VirtoCommerce.Inventory_3.212.0-alpha.401.zip"
         }
       ]
     }
