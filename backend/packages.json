@@ -14,8 +14,17 @@
         {
           "BlobName": "VirtoCommerce.PageBuilderModule_3.205.0-alpha.371.zip"
         },
-         {
+        {
           "BlobName": "VirtoCommerce.TaskManagement_3.200.0.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Inventory_3.212.0-pr-125-ef6c.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.ExperienceApi_3.258.0-pr-379-b5ca.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.VirtoCommerce.Catalog_3.258.0-pr-661-c24e.zip"
         }
       ]
     },
@@ -53,10 +62,10 @@
           "Id": "VirtoCommerce.Cart",
           "Version": "3.211.0"
         },
-        {
-          "Id": "VirtoCommerce.Catalog",
-          "Version": "3.257.0"
-        },
+        //{
+        //  "Id": "VirtoCommerce.Catalog",
+        //  "Version": "3.257.0"
+        //},
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
           "Version": "3.204.0"
@@ -105,10 +114,10 @@
           "Id": "VirtoCommerce.EventBus",
           "Version": "3.203.0"
         },
-        {
-          "Id": "VirtoCommerce.ExperienceApi",
-          "Version": "3.257.0"
-        },
+        //{
+        //  "Id": "VirtoCommerce.ExperienceApi",
+        //  "Version": "3.257.0"
+        //},
         {
           "Id": "VirtoCommerce.Export",
           "Version": "3.203.0"
@@ -129,10 +138,10 @@
           "Id": "VirtoCommerce.ImageTools",
           "Version": "3.206.0"
         },
-        {
-          "Id": "VirtoCommerce.Inventory",
-          "Version": "3.211.0"
-        },
+        //{
+        //  "Id": "VirtoCommerce.Inventory",
+        //  "Version": "3.211.0"
+        //},
         {
           "Id": "VirtoCommerce.Marketing",
           "Version": "3.205.0"
