@@ -88,10 +88,6 @@
           "Version": "3.207.0"
         },
         {
-          "Id": "VirtoCommerce.Inventory",
-          "Version": "3.211.0"
-        },
-        {
           "Id": "VirtoCommerce.ImageTools",
           "Version": "3.206.0"
         },
@@ -198,6 +194,10 @@
         {
           "Id": "VirtoCommerce.ExperienceApi",
           "Version": "3.258.0"
+        },
+        {
+          "Id": "VirtoCommerce.Inventory",
+          "Version": "3.212.0"
         }
       ]
     },
