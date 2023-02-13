@@ -17,6 +17,17 @@
         }
       ]
     },
+     {
+      "Name": "AzureBlob",
+      "Container": "packages",
+      "ServiceUri": "https://qademovc3.blob.core.windows.net",
+      "Modules": [
+        {
+          "Id": "Ecom.GiftCardPayments",
+          "BlobName": "Ecom.GiftCardPayments_3.0.0.zip"
+        }
+      ]
+    },
     {
       "Name": "AzureBlob",
       "Container": "packages",
@@ -217,17 +228,6 @@
         {
           "Id": "VirtoCommerce.ExperienceApi",
           "BlobName": "VirtoCommerce.ExperienceApi_3.258.0.zip"
-        }
-      ]
-    },
-    {
-      "Name": "AzureBlob",
-      "Container": "packages",
-      "ServiceUri": "https://qademovc3.blob.core.windows.net",
-      "Modules": [
-        {
-          "Id": "Ecom.GiftCardPayments",
-          "BlobName": "Ecom.GiftCardPayments_3.0.0.zip"
         }
       ]
     }
