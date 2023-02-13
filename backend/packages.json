@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.282.0-alpha.12572",
+  "PlatformVersion": "3.282.0-alpha.12574-pt-10442-2081e0e0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.282.0-alpha.12572-dev-f0d64a86",
+  "PlatformImageTag": "3.282.0-alpha.12574-pt-10442-2081e0e0",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -160,7 +160,7 @@
         },
         {
           "Id": "VirtoCommerce.Cart",
-          "BlobName": "VirtoCommerce.Cart_3.212.0-alpha.594.zip"
+          "BlobName": "VirtoCommerce.Cart_3.212.0-pr-112-0aff.zip"
         },
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
@@ -216,7 +216,7 @@
         },
         {
           "Id": "VirtoCommerce.ExperienceApi",
-          "BlobName": "VirtoCommerce.ExperienceApi_3.258.0-alpha.1093.zip"
+          "BlobName": "VirtoCommerce.ExperienceApi_3.259.0-pr-380-906a.zip"
         },
         {
           "Id": "VirtoCommerce.Inventory",
