@@ -17,17 +17,6 @@
         }
       ]
     },
-     {
-      "Name": "AzureBlob",
-      "Container": "packages",
-      "ServiceUri": "https://qademovc3.blob.core.windows.net",
-      "Modules": [
-        {
-          "Id": "Ecom.GiftCardPayments",
-          "BlobName": "Ecom.GiftCardPayments_3.0.0.zip"
-        }
-      ]
-    },
     {
       "Name": "AzureBlob",
       "Container": "packages",
@@ -135,7 +124,7 @@
         },
         {
           "Id": "VirtoCommerce.Inventory",
-          "BlobName": "VirtoCommerce.Inventory_3.212.0-alpha.404.zip"
+          "BlobName": "VirtoCommerce.Inventory_3.212.0.zip"
         },
         {
           "Id": "VirtoCommerce.CatalogPublishing",
@@ -163,11 +152,11 @@
         },
         {
           "Id": "VirtoCommerce.Core",
-          "BlobName": "VirtoCommerce.Core_3.209.0-pr-211-1c48.zip"
+          "BlobName": "VirtoCommerce.Core_3.209.0.zip"
         },
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.236.0-pr-47-f8cb.zip"
+          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.236.0.zip"
         },
         {
           "Id": "VirtoCommerce.Search",
@@ -228,6 +217,10 @@
         {
           "Id": "VirtoCommerce.ExperienceApi",
           "BlobName": "VirtoCommerce.ExperienceApi_3.259.0-pr-380-906a.zip"
+        },
+        {
+          "Id": "VirtoCommerce.TaskManagement",
+          "BlobName": "VirtoCommerce.TaskManagement_3.203.0.zip"
         }
       ]
     }
