@@ -171,10 +171,6 @@
           "BlobName": "VirtoCommerce.AzureBlobAssets_3.210.0-alpha.79.zip"
         },
         {
-          "Id": "VirtoCommerce.TaskManagement",
-          "BlobName": "VirtoCommerce.TaskManagement_3.200.0.zip"
-        },
-        {
           "Id": "VirtoCommerce.AzureAD",
           "BlobName": "VirtoCommerce.AzureAD_3.202.0-alpha.9.zip"
         },
@@ -221,6 +217,10 @@
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.237.0-alpha.130.zip"
+        },
+        {
+          "Id": "VirtoCommerce.TaskManagement",
+          "BlobName": "VirtoCommerce.TaskManagement_3.203.0-alpha.25.zip"
         }
       ]
     }
