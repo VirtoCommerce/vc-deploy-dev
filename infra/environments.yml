@@ -29,7 +29,7 @@
       PushNotifications__ScalabilityMode: "RedisBackplane"
       PushNotifications__HubUrl: "https://vcptcore-qa.govirto.com/pushNotificationHub"
       PushNotifications__RedisBackplane__ChannelName: "vcptcore-qa-chanel"
-      ConnectionStrings__RedisConnectionString: ""
+     #ConnectionStrings__RedisConnectionString: ""
     #Search settings
       Search__OrderFullTextSearchEnabled: "true"
       Search__ContentFullTextSearchEnabled: "true"
