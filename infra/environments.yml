@@ -6,7 +6,7 @@
     imageTag:  3.230.0-alpha.12392-dev-a97c5f0e-1144f2f
     tier: enterprise
     config:
-      Reload: 11
+      Reload: 12
     #Setting for SMTP
       Notifications__DefaultSender: "azure_25da07ed75daacae20578a7a7dc58541@azure.com"
       Notifications__Gateway: "SendGrid"
