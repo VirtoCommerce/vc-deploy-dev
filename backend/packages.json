@@ -108,10 +108,6 @@
           "Id": "VirtoCommerce.EventBus",
           "Version": "3.203.0"
         },
-        //{
-        //  "Id": "VirtoCommerce.ExperienceApi",
-        //  "Version": "3.258.0"
-        //},
         {
           "Id": "VirtoCommerce.Export",
           "Version": "3.203.0"
@@ -168,10 +164,6 @@
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "Version": "3.235.0"
         },
-        //{
-        //  "Id": "VirtoCommerce.Quote",
-        //  "Version": "3.213.0"
-        //},
         {
           "Id": "VirtoCommerce.Return",
           "Version": "3.205.0"
