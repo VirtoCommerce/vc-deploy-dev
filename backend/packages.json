@@ -136,10 +136,6 @@
           "Version": "3.220.0"
         },
         {
-          "Id": "VirtoCommerce.Cart",
-          "Version": "3.211.0"
-        },
-        {
           "Id": "VirtoCommerce.Contracts",
           "Version": "3.204.0"
         },
@@ -202,6 +198,10 @@
         {
           "Id": "VirtoCommerce.TaskManagement",
           "Version": "3.204.0"
+        },
+        {
+          "Id": "VirtoCommerce.Cart",
+          "Version": "3.212.0"
         }
       ]
     },
