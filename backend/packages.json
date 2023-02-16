@@ -15,7 +15,10 @@
           "BlobName": "VirtoCommerce.PageBuilderModule_3.205.0-alpha.371.zip"
         },
         {
-          "BlobName": "VirtoCommerce.TaskManagement_3.200.0.zip"
+          "BlobName": "VirtoCommerce.Quote_3.214.0-pr-85-96aa.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.ExperienceApi_3.259.0-pr-383-9e2d.zip"
         }
       ]
     },
@@ -105,10 +108,10 @@
           "Id": "VirtoCommerce.EventBus",
           "Version": "3.203.0"
         },
-        {
-          "Id": "VirtoCommerce.ExperienceApi",
-          "Version": "3.258.0"
-        },
+        //{
+        //  "Id": "VirtoCommerce.ExperienceApi",
+        //  "Version": "3.258.0"
+        //},
         {
           "Id": "VirtoCommerce.Export",
           "Version": "3.203.0"
@@ -165,10 +168,10 @@
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "Version": "3.235.0"
         },
-        {
-          "Id": "VirtoCommerce.Quote",
-          "Version": "3.213.0"
-        },
+        //{
+        //  "Id": "VirtoCommerce.Quote",
+        //  "Version": "3.213.0"
+        //},
         {
           "Id": "VirtoCommerce.Return",
           "Version": "3.205.0"
@@ -193,6 +196,10 @@
           "Id": "VirtoCommerce.Subscription",
           "Version": "3.201.0"
         },
+        {
+          "Id": "VirtoCommerce.TaskManagement",
+          "Version": "3.204.0"
+        }
         {
           "Id": "VirtoCommerce.Tax",
           "Version": "3.202.0"
