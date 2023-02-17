@@ -4,7 +4,7 @@
   servicePlan: S1
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.283.0-9eddee4
+    imageTag: 3.283.0-829ebc5
     sqlReplica: false
     config:
       Reload: 14
@@ -118,7 +118,7 @@
       type: platform
       name: platform2
       imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-      imageTag: 3.283.0-9eddee4
+      imageTag: 3.283.0-829ebc5
       config:
         VirtoCommerce__Hangfire__Queues__items_0: index_worker
         Notifications__DefaultSender: azure_25da07ed75daacae20578a7a7dc58541@azure.com
@@ -131,5 +131,21 @@
         Notifications__Smtp__Password: smtppassword
         Search__ElasticAppSearch__PrivateApiKey: elasticappsearch
     app2:
-      enabled: false
+      enabled: true
+      servicePlan: B2
+      type: platform
+      name: platform3
+      imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
+      imageTag: 3.283.0-829ebc5
+      config:
+        VirtoCommerce__Hangfire__Queues__items_0: index_worker
+        Notifications__DefaultSender: azure_25da07ed75daacae20578a7a7dc58541@azure.com
+        Notifications__Gateway: SendGrid
+       #Notifications__Smtp__EnableSsl: false
+        Notifications__Smtp__Host: smtp.sendgrid.net
+        Notifications__Smtp__Login: apikey
+      secretConfig:
+        Notifications__SendGrid__ApiKey: sendkey
+        Notifications__Smtp__Password: smtppassword
+        Search__ElasticAppSearch__PrivateApiKey: elasticappsearch
   version: 1.205
