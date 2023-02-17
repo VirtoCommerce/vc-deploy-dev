@@ -87,10 +87,6 @@
           "BlobName": "VirtoCommerce.GoogleEcommerceAnalytics_4.0.0.zip"
         },
         {
-          "Id": "VirtoCommerce.Export",
-          "BlobName": "VirtoCommerce.Export_3.203.0.zip"
-        },
-        {
           "Id": "VirtoCommerce.Tax",
           "BlobName": "VirtoCommerce.Tax_3.203.0.zip"
         },
@@ -225,6 +221,10 @@
         {
           "Id": "VirtoCommerce.PageBuilderModule",
           "BlobName": "VirtoCommerce.PageBuilderModule_3.205.0-alpha.371.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Export",
+          "BlobName": "VirtoCommerce.Export_3.204.0.zip"
         }
       ]
     }
