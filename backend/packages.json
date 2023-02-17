@@ -16,7 +16,10 @@
         },
         {
           "BlobName": "VirtoCommerce.PowerBiReports_3.200.0-alpha.7.zip"
-        }        
+        },
+        {
+          "BlobName": "VirtoCommerce.Inventory_3.213.0-pr-127-d430.zip"
+        }
       ]
     },
     {
@@ -128,10 +131,6 @@
         {
           "Id": "VirtoCommerce.ImageTools",
           "Version": "3.206.0"
-        },
-        {
-          "Id": "VirtoCommerce.Inventory",
-          "Version": "3.212.0"
         },
         {
           "Id": "VirtoCommerce.Marketing",
