@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.282.0-alpha.12575-pt-10544-e9c49341",
+  "PlatformVersion": "3.283.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.282.0-alpha.12575-pt-10544-e9c49341",
+  "PlatformImageTag": "3.283.0",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -164,7 +164,7 @@
         },
         {
           "Id": "VirtoCommerce.Quote",
-          "BlobName": "VirtoCommerce.Quote_3.214.0-pr-85-96aa.zip"
+          "BlobName": "VirtoCommerce.Quote_3.214.0.zip"
         },
         {
           "Id": "VirtoCommerce.Subscription",
@@ -184,7 +184,7 @@
         },
         {
           "Id": "VirtoCommerce.Cart",
-          "BlobName": "VirtoCommerce.Cart_3.211.0.zip"
+          "BlobName": "VirtoCommerce.Cart_3.212.0.zip"
         },
         {
           "Id": "VirtoCommerce.CustomerReviews",
@@ -216,11 +216,11 @@
         },
         {
           "Id": "VirtoCommerce.ExperienceApi",
-          "BlobName": "VirtoCommerce.ExperienceApi_3.259.0-pr-383-9e2d.zip"
+          "BlobName": "VirtoCommerce.ExperienceApi_3.260.0.zip"
         },
         {
           "Id": "VirtoCommerce.TaskManagement",
-          "BlobName": "VirtoCommerce.TaskManagement_3.204.0.zip"
+          "BlobName": "VirtoCommerce.TaskManagement_3.205.0.zip"
         },
         {
           "Id": "VirtoCommerce.PageBuilderModule",
