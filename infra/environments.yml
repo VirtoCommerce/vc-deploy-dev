@@ -9,6 +9,7 @@
       VirtoCommerce__LocalUploadFolderPath: wwwroot/cms-content
       VirtoCommerce__SampleDataUrl: https://vc3prerelease.blob.core.windows.net/packages/clothing-and-electronics_3_0_2.zip
       APPINSIGHTS_INSTRUMENTATIONKEY: 9fde4353-9a4a-4fe3-9a03-a0c80b4220ff
+      Authorization__ReturnPasswordHash: True
       AzureAd__ApplicationId: 54cefda5-2d23-4518-ac12-f55a0e1225d4
       AzureAd__TenantId: bc03e660-5e3a-45c4-bf5c-b75489f78923
       AzureAd__Priority: 0
@@ -33,7 +34,6 @@
       Content__PathMappings__themes__0: "Themes"
       Content__PathMappings__themes__1: "_storeId"
       FrontendSecurity__OrganizationMaintainerRole: "Organization maintainer"
-      Authorization__ReturnPasswordHash: true
       Reload: 2022-10-05
     secretConfig:
       Notifications__SendGrid__ApiKey: sendkey
