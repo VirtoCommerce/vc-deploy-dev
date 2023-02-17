@@ -118,7 +118,7 @@
       type: platform
       name: platform2
       imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-      imageTag: "3.283.0"
+      imageTag: 3.283.0-92b1aff
       config:
         VirtoCommerce__Hangfire__Queues__items_0: index_worker
     app2:
