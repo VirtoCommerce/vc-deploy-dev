@@ -62,7 +62,7 @@
       VirtoCommerce__Hangfire__JobStorageType: SqlServer
       VirtoCommerce__Hangfire__WorkerCount: 7
       VirtoCommerce__Hangfire__Queues__items_0: default
-     #VirtoCommerce__Hangfire__Queues__items_1: index_worker
+      VirtoCommerce__Hangfire__Queues__items_1: index_worker
       VirtoCommerce__Licensing__LicensePrivateKeyPath: /opt/virtocommerce/platform/license/VirtoCommerce.lic
       Logging__LogLevel__Default: Information
       Payments__AuthorizeNet__ApiLogin: 8hPT4p99R
