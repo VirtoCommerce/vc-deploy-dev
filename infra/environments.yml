@@ -62,6 +62,7 @@
       VirtoCommerce__Hangfire__JobStorageType: SqlServer
       VirtoCommerce__Hangfire__WorkerCount: 7
       VirtoCommerce__Hangfire__Queues__items_0: default
+      VirtoCommerce__Hangfire__Queues__items_1: index_worker
       VirtoCommerce__Licensing__LicensePrivateKeyPath: /opt/virtocommerce/platform/license/VirtoCommerce.lic
       Logging__LogLevel__Default: Information
       Payments__AuthorizeNet__ApiLogin: 8hPT4p99R
@@ -125,6 +126,8 @@
         Notifications__Gateway: SendGrid
         Notifications__Smtp__Host: smtp.sendgrid.net
         Notifications__Smtp__Login: apikey
+        VirtoCommerce__ApplicationInsights__RoleName: This is QA role platfrom2
+        VirtoCommerce__ApplicationInsights__RoleInstance: This is instance of QA2
       secretConfig:
         Notifications__SendGrid__ApiKey: sendkey
         Notifications__Smtp__Password: smtppassword
@@ -142,6 +145,8 @@
         Notifications__Gateway: SendGrid
         Notifications__Smtp__Host: smtp.sendgrid.net
         Notifications__Smtp__Login: apikey
+        VirtoCommerce__ApplicationInsights__RoleName: This is QA role platfrom3
+        VirtoCommerce__ApplicationInsights__RoleInstance: This is instance of QA3
       secretConfig:
         Notifications__SendGrid__ApiKey: sendkey
         Notifications__Smtp__Password: smtppassword
