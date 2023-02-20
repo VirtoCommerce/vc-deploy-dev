@@ -122,7 +122,7 @@
       imageTag: 3.283.0-9eddee4
       config:
         VirtoCommerce__Hangfire__Queues__items_0: default
-        VirtoCommerce__Hangfire__Queues__items_1: alpha
+        VirtoCommerce__Hangfire__Queues__items_1: index_worker
         Notifications__DefaultSender: azure_25da07ed75daacae20578a7a7dc58541@azure.com
         Notifications__Gateway: SendGrid
         Notifications__Smtp__Host: smtp.sendgrid.net
