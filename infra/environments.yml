@@ -136,7 +136,7 @@
       enabled: true
       servicePlan: B2
       type: platform
-      name: platfrom4
+      name: platfrom3
       imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
       imageTag: 3.283.0-9eddee4
       config:
