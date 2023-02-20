@@ -1,7 +1,7 @@
 - name: vcptcore-qa
   gitops: false
   production: false
-  servicePlan: S1
+  servicePlan: S2
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
     imageTag: 3.283.0-829ebc5
@@ -121,7 +121,7 @@
       imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
       imageTag: 3.283.0-9eddee4
       config:
-        VirtoCommerce__Hangfire__Queues__items_0: index_worker
+        VirtoCommerce__Hangfire__Queues__items_0: default
         Notifications__DefaultSender: azure_25da07ed75daacae20578a7a7dc58541@azure.com
         Notifications__Gateway: SendGrid
         Notifications__Smtp__Host: smtp.sendgrid.net
