@@ -16,9 +16,6 @@
         },
         {
           "BlobName": "VirtoCommerce.PowerBiReports_3.200.0-alpha.7.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.Inventory_3.213.0-pr-127-d430.zip"
         }
       ]
     },
@@ -133,6 +130,10 @@
           "Version": "3.206.0"
         },
         {
+          "Id": "VirtoCommerce.Inventory",
+          "Version": "3.213.0"
+        },
+        {
           "Id": "VirtoCommerce.Marketing",
           "Version": "3.207.0"
         },
@@ -194,7 +195,7 @@
         },
         {
           "Id": "VirtoCommerce.TaskManagement",
-          "Version": "3.205.0"
+          "Version": "3.210.0"
         },
         {
           "Id": "VirtoCommerce.Tax",
