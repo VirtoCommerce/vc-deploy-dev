@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.285.0-alpha.12593-opus-update-d8b62789",
+  "PlatformVersion": "3.285.0-alpha.12583-pt-10879-smart-float-precision-08a04b43",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.285.0-alpha.12593-opus-update-d8b62789",
+  "PlatformImageTag": "3.285.0-alpha.12583-pt-10879-smart-float-precision-08a04b43",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -144,7 +144,7 @@
         },
         {
           "Id": "VirtoCommerce.Core",
-          "BlobName": "VirtoCommerce.Core_3.209.0.zip"
+          "BlobName": "VirtoCommerce.Core_3.210.0-pr-212-a783.zip"
         },
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
@@ -196,7 +196,7 @@
         },
         {
           "Id": "VirtoCommerce.Catalog",
-          "BlobName": "VirtoCommerce.Catalog_3.258.0.zip"
+          "BlobName": "VirtoCommerce.Catalog_3.259.0-pr-663-1e37.zip"
         },
         {
           "Id": "VirtoCommerce.Payment",
