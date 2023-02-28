@@ -1,7 +1,7 @@
 - name: vcptcore-qa
   gitops: true
   production: false
-  servicePlan: S3
+  servicePlan: S1
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
     imageTag: 3.285.0-alpha.12581-pt-10998-app-insights-space-b8fc07ed-c6a0d94
@@ -114,7 +114,7 @@
     hostname: vcptcore-qa.govirto.com
   customApps:
     app1:
-      enabled: true
+      enabled: false
       servicePlan: B2
       type: platform
       name: platform2
