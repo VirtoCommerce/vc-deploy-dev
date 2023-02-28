@@ -4,7 +4,7 @@
   servicePlan: S3
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.285.0-alpha.12593-opus-update-d8b62789-c3490c2
+    imageTag: 3.285.0-alpha.12587-pt-9395-nodels-lts-8a0b38df-a349d6f
     sqlReplica: false
     config:
       Reload: 15
@@ -114,12 +114,12 @@
     hostname: vcptcore-qa.govirto.com
   customApps:
     app1:
-      enabled: false
+      enabled: true
       servicePlan: B2
       type: platform
       name: platform2
       imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-      imageTag: 3.285.0-alpha.12587-pt-9395-nodels-lts-8a0b38df-96d2444
+      imageTag: 3.285.0-alpha.12587-pt-9395-nodels-lts-8a0b38df-a349d6f
       config:
         VirtoCommerce__Hangfire__Queues__items_0: default
         VirtoCommerce__Hangfire__Queues__items_1: alpha
@@ -134,12 +134,12 @@
         Notifications__Smtp__Password: smtppassword
         Search__ElasticAppSearch__PrivateApiKey: elasticappsearch
     app2:
-      enabled: false
+      enabled: true
       servicePlan: B2
       type: platform
       name: platfrom3
       imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-      imageTag: 3.285.0-alpha.12587-pt-9395-nodels-lts-8a0b38df-96d2444
+      imageTag: 3.285.0-alpha.12587-pt-9395-nodels-lts-8a0b38df-a349d6f
       config:
         VirtoCommerce__Hangfire__Queues__items_0: index_worker
         Notifications__DefaultSender: azure_25da07ed75daacae20578a7a7dc58541@azure.com
