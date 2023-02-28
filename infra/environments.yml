@@ -4,7 +4,7 @@
   servicePlan: S3
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.285.0-alpha.12587-pt-9395-nodels-lts-8a0b38df-96d2444
+    imageTag: 3.285.0-alpha.12593-opus-update-d8b62789-c3490c2
     sqlReplica: false
     config:
       Reload: 15
