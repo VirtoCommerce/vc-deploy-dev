@@ -7,7 +7,7 @@
     imageTag: 3.285.0-alpha.12587-pt-9395-nodels-lts-8a0b38df-96d2444
     sqlReplica: false
     config:
-      Reload: 14
+      Reload: 15
       Notifications__DefaultSender: azure_25da07ed75daacae20578a7a7dc58541@azure.com
       Notifications__Gateway: SendGrid
       Notifications__SmsDefaultSender: +17012510519
