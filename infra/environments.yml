@@ -4,7 +4,7 @@
   servicePlan: S3
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.285.0-alpha.12587-pt-9395-nodels-lts-8a0b38df-ddb864a
+    imageTag: 3.285.0-alpha.12581-pt-10998-app-insights-space-b8fc07ed-ef5066b
     sqlReplica: false
     config:
       Reload: 15
@@ -119,7 +119,7 @@
       type: platform
       name: platform2
       imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-      imageTag: 3.285.0-alpha.12587-pt-9395-nodels-lts-8a0b38df-ddb864a
+      imageTag: 3.285.0-alpha.12581-pt-10998-app-insights-space-b8fc07ed-ef5066b
       config:
         VirtoCommerce__Hangfire__Queues__items_0: default
         VirtoCommerce__Hangfire__Queues__items_1: alpha
@@ -139,7 +139,7 @@
       type: platform
       name: platfrom3
       imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-      imageTag: 3.285.0-alpha.12587-pt-9395-nodels-lts-8a0b38df-ddb864a
+      imageTag: 3.285.0-alpha.12581-pt-10998-app-insights-space-b8fc07ed-ef5066b
       config:
         VirtoCommerce__Hangfire__Queues__items_0: index_worker
         Notifications__DefaultSender: azure_25da07ed75daacae20578a7a7dc58541@azure.com
