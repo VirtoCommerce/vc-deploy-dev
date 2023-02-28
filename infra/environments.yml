@@ -1,5 +1,5 @@
 - name: vcptcore-qa
-  gitops: true
+  gitops: false
   production: false
   servicePlan: S3
   platform:
