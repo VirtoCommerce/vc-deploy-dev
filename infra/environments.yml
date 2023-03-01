@@ -1,88 +1,68 @@
 - name: vcptcore-loadtest
   gitops: true
+  production: false
   servicePlan: S3
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    tier: enterprise
+    imageTag: 3.286.0-alpha.12582-dev-4bb6a702-8e7ddf1
+    sqlReplica: false
     config:
-      ConnectionStrings__RedisConnectionString: ""
+      ConnectionStrings__RedisConnectionString: 
       VirtoCommerce__LocalUploadFolderPath: wwwroot/cms-content
-     #VirtoCommerce__SampleDataUrl: https://virtocommerce.azureedge.net/sample-data/b2b-sample-store.zip
       AzureAd__Priority: 1
       PasswordLogin__Priority: 0
-      Reload: 45
-    # headers
-      ASPNETCORE_FORWARDEDHEADERS_ENABLED: "true"
-      AppInsights__EnableDependencyTrackingTelemetryModule: "false"
-    #setting for swagger
-      Swagger__UI__Enabled: "false"
-    # Search settings
-      # Search__Scope: "$(VC_PLATFORM_SERVICE)$(VC_NAMESPACE)-new-index"
-      Search__OrderFullTextSearchEnabled: "true"
-    # Elastic Search settings
-      Search__ElasticSearch__EnableCompatibilityMode: "true"
-     #Elastic App Search settings
-     #Search__Provider: "ElasticAppSearch"
-      Search__ElasticAppSearch__EnableHttpCompression: "true"
+      Reload: 44
+      ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
+      AppInsights__EnableDependencyTrackingTelemetryModule: false
+      Swagger__UI__Enabled: false
+      Search__OrderFullTextSearchEnabled: true
+      Search__ElasticSearch__EnableCompatibilityMode: true
+      Search__ElasticAppSearch__EnableHttpCompression: true
       Search__ElasticAppSearch__Endpoint: https://enterprise-search-vc03.govirto.com
-    # End of search settings
-      AzureAd__Enabled: "true"
-      AzureAd__ApplicationId: "86d04c35-143d-4d3c-aea2-8608e2186282"
-      AzureAd__TenantId: "common"
-      AzureAd__ValidateIssuer: "MultitenantAzureAD"
-    # storage 
-      # Content__FileSystem__PublicUrl: https://$(VC_PLATFORM_SERVICE).$(VC_NAMESPACE).govirto.com/cms-content/
-      # Assets__FileSystem__PublicUrl: https://$(VC_PLATFORM_SERVICE).$(VC_NAMESPACE).govirto.com/cms-content/assets/
+      AzureAd__Enabled: true
+      AzureAd__ApplicationId: 86d04c35-143d-4d3c-aea2-8608e2186282
+      AzureAd__TenantId: common
+      AzureAd__ValidateIssuer: MultitenantAzureAD
       Content__Provider: AzureBlobStorage
       Content__AzureBlobStorage__RootPath: cms
       Content__AzureBlobStorage__ConnectionString: DefaultEndpointsProtocol=https;AccountName=qademovc3;AccountKey=qPIpM63MI2P3ei6B1xIL4/DlKDqdsRj54z2GUtgCAeXPcMe8+mZiUvrvI5fjdyrovk331XmBlMFfAEFAjCnvtw==;EndpointSuffix=core.windows.net
-      
-    # license settings
       VirtoCommerce__LicenseFilePath: app_data/VirtoCommerce.lic
       VirtoCommerce__LicensePublicKeyPath: app_data/public.key
       VirtoCommerce__LicensePrivateKeyPath: app_data/private.key
-      VirtoCommerce__Licensing__LicensePrivateKeyPath: "/opt/virtocommerce/platform/license/VirtoCommerce.lic"
-      #VirtoCommerce__LocalUploadFolderPath: app_data/uploads
-    # hangfire
+      VirtoCommerce__Licensing__LicensePrivateKeyPath: /opt/virtocommerce/platform/license/VirtoCommerce.lic
       VirtoCommerce__Hangfire__JobStorageType: SqlServer
-      Logging__LogLevel__Default: "Information"
-    # setting for authorize.net
-      Payments__AuthorizeNet__ApiLogin: "8hPT4p99R"
-      Payments__AuthorizeNet__SHA2Hash: "FA6D2B37A7E9105942D2D184F1B2DBD8D9CA85611DE55B2267A6F7E0D7E49ACD9A6BC238CE068E75CA14ACFAD734F700FD94DCAB20353DD4D32D9BABE72DBBE4"
-      Payments__AuthorizeNet__TxnKey: "63c54EWq5d2XnGAR"
-      ASPNETCORE_ENVIRONMENT: "Production"
-    # Notifications__DefaultSender: ""
-    # Notifications__Gateway: "SendGrid"
-    # Notifications__SmsDefaultSender: "+17012510519"
-    # Notifications__Smtp__EnableSsl: "False"
-    # Notifications__Smtp__Host: "smtp.sendgrid.net"
-    # Notifications__Smtp__Login: "apikey"
-    # Notifications__Smtp__Port: "587"
-    # default menu state 
-      DefaultMainMenuState__items__0__path: "browse/marketing"
-      DefaultMainMenuState__items__0__isFavorite: "true"
-      DefaultMainMenuState__items__0__order: "1"
-      VirtoCommerce__ApplicationInsights__SamplingOptions__Processor: "Fixed"
+      Logging__LogLevel__Default: Information
+      Payments__AuthorizeNet__ApiLogin: 8hPT4p99R
+      Payments__AuthorizeNet__SHA2Hash: FA6D2B37A7E9105942D2D184F1B2DBD8D9CA85611DE55B2267A6F7E0D7E49ACD9A6BC238CE068E75CA14ACFAD734F700FD94DCAB20353DD4D32D9BABE72DBBE4
+      Payments__AuthorizeNet__TxnKey: 63c54EWq5d2XnGAR
+      ASPNETCORE_ENVIRONMENT: Production
+      DefaultMainMenuState__items__0__path: browse/marketing
+      DefaultMainMenuState__items__0__isFavorite: true
+      DefaultMainMenuState__items__0__order: 1
+      VirtoCommerce__ApplicationInsights__SamplingOptions__Processor: Fixed
       APPINSIGHTS_INSTRUMENTATIONKEY: cada4cf7-305b-4827-a03a-ca9aac67fb9e
-      FrontendSecurity__OrganizationMaintainerRole: "Organization maintainer"
-    secretConfig: 
+      FrontendSecurity__OrganizationMaintainerRole: Organization maintainer
+    secretConfig:
       Search__ElasticAppSearch__PrivateApiKey: elasticappsearch
   storefront:
     enabled: true
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/storefront
+    imageTag: 6.10.0-master-3a9a6e30
     config:
-      ASPNETCORE_FORWARDEDHEADERS_ENABLED: "true"
-      CookieAuthenticationOptions__ExpireTimeSpan: "12:00:00"
-      SnapshotCollectorConfiguration__IsEnabled: "false"
-      Swagger__UI__Enable: "true"
+      ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
+      CookieAuthenticationOptions__ExpireTimeSpan: 12:00:00
+      SnapshotCollectorConfiguration__IsEnabled: false
+      Swagger__UI__Enable: true
       VirtoCommerce__DefaultStore: B2B-store
       VirtoCommerce__Endpoint__Password: store
-    secretConfig: {}
     themes:
       B2B-store: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.16.0/vc-theme-b2b-vue-1.16.0.zip
   ingress:
     hostname: vcptcore-loadtest.govirto.com
     storefrontHostname: vcptcore-loadtest-store.govirto.com
-  protectedParameters:
-   - platform.image.tag
-   - storefront.image.tag
+  customApps:
+    app1:
+      enabled: false
+    app2:
+      enabled: false
+  version: 2.206
