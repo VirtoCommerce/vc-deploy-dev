@@ -203,10 +203,6 @@
           "BlobName": "VirtoCommerce.Payment_3.207.0.zip"
         },
         {
-          "Id": "VirtoCommerce.Marketing",
-          "BlobName": "VirtoCommerce.Marketing_3.208.0-pr-207-25dd.zip"
-        },
-        {
           "Id": "VirtoCommerce.ExperienceApi",
           "BlobName": "VirtoCommerce.ExperienceApi_3.261.0-alpha.1109-opus-update-contibution.zip"
         },
@@ -217,6 +213,10 @@
         {
           "Id": "VirtoCommerce.Export",
           "BlobName": "VirtoCommerce.Export_3.204.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Marketing",
+          "BlobName": "VirtoCommerce.Marketing_3.208.0.zip"
         }
       ]
     }
