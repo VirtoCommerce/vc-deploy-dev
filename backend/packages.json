@@ -116,10 +116,6 @@
           "Version": "3.218.0"
         },
         {
-          "Id": "VirtoCommerce.Contracts",
-          "Version": "3.204.0"
-        },
-        {
           "Id": "VirtoCommerce.AzureBlobAssets",
           "Version": "3.209.0"
         },
@@ -202,6 +198,10 @@
         {
           "Id": "VirtoCommerce.Sitemaps",
           "Version": "3.208.0"
+        },
+        {
+          "Id": "VirtoCommerce.Contracts",
+          "Version": "3.205.0"
         }
       ]
     },
