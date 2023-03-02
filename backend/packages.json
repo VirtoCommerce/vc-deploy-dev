@@ -135,10 +135,6 @@
           "BlobName": "VirtoCommerce.Pricing_3.219.0-alpha.678.zip"
         },
         {
-          "Id": "VirtoCommerce.AzureBlobAssets",
-          "BlobName": "VirtoCommerce.AzureBlobAssets_3.210.0-alpha.79.zip"
-        },
-        {
           "Id": "VirtoCommerce.AzureAD",
           "BlobName": "VirtoCommerce.AzureAD_3.202.0-alpha.9.zip"
         },
@@ -221,6 +217,10 @@
         {
           "Id": "VirtoCommerce.Orders",
           "BlobName": "VirtoCommerce.Orders_3.223.0-alpha.1076.zip"
+        },
+        {
+          "Id": "VirtoCommerce.AzureBlobAssets",
+          "BlobName": "VirtoCommerce.AzureBlobAssets_3.210.0-alpha.84.zip"
         }
       ]
     }
