@@ -135,10 +135,6 @@
           "BlobName": "VirtoCommerce.Pricing_3.219.0-alpha.678.zip"
         },
         {
-          "Id": "VirtoCommerce.Contracts",
-          "BlobName": "VirtoCommerce.Contracts_3.205.0-alpha.42.zip"
-        },
-        {
           "Id": "VirtoCommerce.AzureBlobAssets",
           "BlobName": "VirtoCommerce.AzureBlobAssets_3.210.0-alpha.79.zip"
         },
@@ -221,6 +217,10 @@
         {
           "Id": "VirtoCommerce.Sitemaps",
           "BlobName": "VirtoCommerce.Sitemaps_3.209.0-alpha.307.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Contracts",
+          "BlobName": "VirtoCommerce.Contracts_3.205.0-alpha.48.zip"
         }
       ]
     }
