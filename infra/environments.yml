@@ -146,8 +146,8 @@
         Notifications__Gateway: SendGrid
         Notifications__Smtp__Host: smtp.sendgrid.net
         Notifications__Smtp__Login: apikey
-        VirtoCommerce__ApplicationInsights__RoleName: This is QA role platfrom3
-        VirtoCommerce__ApplicationInsights__RoleInstance: This is instance of QA3
+        VirtoCommerce__ApplicationInsights__RoleName: This is QA role platfrom1
+        VirtoCommerce__ApplicationInsights__RoleInstance: This is instance of QA1
       secretConfig:
         Notifications__SendGrid__ApiKey: sendkey
         Notifications__Smtp__Password: smtppassword
