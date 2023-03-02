@@ -59,10 +59,6 @@
           "BlobName": "VirtoCommerce.CatalogCsvImportModule_3.205.0-alpha.274.zip"
         },
         {
-          "Id": "VirtoCommerce.NativePaymentMethods",
-          "BlobName": "VirtoCommerce.NativePaymentMethods_3.204.0-alpha.49.zip"
-        },
-        {
           "Id": "VirtoCommerce.Return",
           "BlobName": "VirtoCommerce.Return_3.206.0-alpha.56.zip"
         },
@@ -221,6 +217,10 @@
         {
           "Id": "VirtoCommerce.Cart",
           "BlobName": "VirtoCommerce.Cart_3.214.0-alpha.602.zip"
+        },
+        {
+          "Id": "VirtoCommerce.NativePaymentMethods",
+          "BlobName": "VirtoCommerce.NativePaymentMethods_3.204.0-alpha.54.zip"
         }
       ]
     }
