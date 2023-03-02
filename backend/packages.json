@@ -64,10 +64,6 @@
           "Version": "3.209.0"
         },
         {
-          "Id": "VirtoCommerce.Content",
-          "Version": "3.211.0"
-        },
-        {
           "Id": "VirtoCommerce.EventBus",
           "Version": "3.203.0"
         },
@@ -202,6 +198,10 @@
         {
           "Id": "VirtoCommerce.AzureBlobAssets",
           "Version": "3.210.0"
+        },
+        {
+          "Id": "VirtoCommerce.Content",
+          "Version": "3.212.0"
         }
       ]
     },
