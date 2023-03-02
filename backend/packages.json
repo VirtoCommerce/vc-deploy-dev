@@ -143,10 +143,6 @@
           "BlobName": "VirtoCommerce.Contracts_3.205.0-alpha.42.zip"
         },
         {
-          "Id": "VirtoCommerce.CustomerReviews",
-          "BlobName": "VirtoCommerce.CustomerReviews_3.212.0-alpha.164.zip"
-        },
-        {
           "Id": "VirtoCommerce.AzureBlobAssets",
           "BlobName": "VirtoCommerce.AzureBlobAssets_3.210.0-alpha.79.zip"
         },
@@ -221,6 +217,10 @@
         {
           "Id": "VirtoCommerce.NativePaymentMethods",
           "BlobName": "VirtoCommerce.NativePaymentMethods_3.205.0-alpha.55.zip"
+        },
+        {
+          "Id": "VirtoCommerce.CustomerReviews",
+          "BlobName": "VirtoCommerce.CustomerReviews_3.212.0-alpha.169.zip"
         }
       ]
     }
