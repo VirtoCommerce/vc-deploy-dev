@@ -4,7 +4,7 @@
   servicePlan: S2
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.285.0-alpha.12581-pt-10998-app-insights-space-b8fc07ed-fda14b2
+    imageTag: 3.285.0-alpha.12581-pt-10998-app-insights-space-b8fc07ed-e5476c9
     sqlReplica: false
     config:
       Reload: 25
@@ -114,7 +114,7 @@
     hostname: vcptcore-qa.govirto.com
   customApps:
     app1:
-      enabled: true
+      enabled: false
       servicePlan: B2
       type: platform
       name: platform2
@@ -134,7 +134,7 @@
         Notifications__Smtp__Password: smtppassword
         Search__ElasticAppSearch__PrivateApiKey: elasticappsearch
     app2:
-      enabled: true
+      enabled: false
       servicePlan: B2
       type: platform
       name: platfrom1
