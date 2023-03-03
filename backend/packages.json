@@ -207,10 +207,6 @@
           "BlobName": "VirtoCommerce.AzureBlobAssets_3.211.0-alpha.85.zip"
         },
         {
-          "Id": "VirtoCommerce.Catalog",
-          "BlobName": "VirtoCommerce.Catalog_3.261.0-alpha.2078.zip"
-        },
-        {
           "Id": "VirtoCommerce.Orders",
           "BlobName": "VirtoCommerce.Orders_3.224.0-alpha.1077.zip"
         },
@@ -221,6 +217,10 @@
         {
           "Id": "VirtoCommerce.Content",
           "BlobName": "VirtoCommerce.Content_3.215.0-alpha.862.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "BlobName": "VirtoCommerce.Catalog_3.261.0-alpha.2080.zip"
         }
       ]
     }
