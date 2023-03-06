@@ -1,8 +1,8 @@
 {
     "ManifestVersion": "2.0",
-    "PlatformVersion": "3.253.12",
+    "PlatformVersion": "3.253.13",
     "PlatformImage": "ghcr.io/virtocommerce/platform",
-    "PlatformImageTag": "3.253.12",
+    "PlatformImageTag": "3.253.13",
     "PlatformAssetUrl": "",
     "Sources": [
         {
@@ -154,10 +154,6 @@
                 {
                   "Id": "VirtoCommerce.Quote",
                   "Version": "3.204.1"
-                },
-                {
-                  "Id": "VirtoCommerce.WebHooks",
-                  "Version": "3.202.0"
                 },
                 {
                   "Id": "VirtoCommerce.ShipStation",
