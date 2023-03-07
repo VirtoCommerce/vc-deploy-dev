@@ -76,7 +76,7 @@
         },
         {
           "Id": "VirtoCommerce.ElasticAppSearch",
-          "BlobName": "VirtoCommerce.ElasticAppSearch_3.206.0.zip"
+          "BlobName": "VirtoCommerce.ElasticAppSearch_3.206.0-pr-24-5d07.zip"
         },
         {
           "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
@@ -163,6 +163,10 @@
           "BlobName": "VirtoCommerce.Pricing_3.218.0.zip"
         },
         {
+          "Id": "VirtoCommerce.Orders",
+          "BlobName": "VirtoCommerce.Orders_3.222.0.zip"
+        },
+        {
           "Id": "VirtoCommerce.Cart",
           "BlobName": "VirtoCommerce.Cart_3.213.0.zip"
         },
@@ -172,7 +176,7 @@
         },
         {
           "Id": "VirtoCommerce.AzureBlobAssets",
-          "BlobName": "VirtoCommerce.AzureBlobAssets_3.209.0.zip"
+          "BlobName": "VirtoCommerce.AzureBlobAssets_3.210.0.zip"
         },
         {
           "Id": "VirtoCommerce.AzureAD",
@@ -211,12 +215,8 @@
           "BlobName": "VirtoCommerce.Catalog_3.260.0.zip"
         },
         {
-          "Id": "VirtoCommerce.Orders",
-          "BlobName": "VirtoCommerce.Orders_3.223.0.zip"
-        },
-        {
           "Id": "VirtoCommerce.Content",
-          "BlobName": "VirtoCommerce.Content_3.211.0.zip"
+          "BlobName": "VirtoCommerce.Content_3.213.0-pr-134-1f2c.zip"
         }
       ]
     }
