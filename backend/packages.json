@@ -124,10 +124,6 @@
           "Version": "3.203.0"
         },
         {
-          "Id": "VirtoCommerce.Core",
-          "Version": "3.209.0"
-        },
-        {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "Version": "3.236.0"
         },
@@ -202,6 +198,10 @@
         {
           "Id": "VirtoCommerce.WebHooks",
           "Version": "3.208.0"
+        },
+        {
+          "Id": "VirtoCommerce.Core",
+          "Version": "3.210.0"
         }
       ]
     },
