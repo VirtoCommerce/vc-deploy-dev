@@ -195,10 +195,6 @@
           "BlobName": "VirtoCommerce.AzureBlobAssets_3.211.0-alpha.85.zip"
         },
         {
-          "Id": "VirtoCommerce.Orders",
-          "BlobName": "VirtoCommerce.Orders_3.224.0-alpha.1077.zip"
-        },
-        {
           "Id": "VirtoCommerce.ElasticAppSearch",
           "BlobName": "VirtoCommerce.ElasticAppSearch_3.207.0-alpha.73.zip"
         },
@@ -221,6 +217,10 @@
         {
           "Id": "VirtoCommerce.Payment",
           "BlobName": "VirtoCommerce.Payment_3.208.0-alpha.195.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Orders",
+          "BlobName": "VirtoCommerce.Orders_3.224.0-alpha.1079.zip"
         }
       ]
     }
