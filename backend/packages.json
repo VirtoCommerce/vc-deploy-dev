@@ -203,10 +203,6 @@
           "BlobName": "VirtoCommerce.Orders_3.224.0-alpha.1079.zip"
         },
         {
-          "Id": "VirtoCommerce.BulkActionsModule",
-          "BlobName": "VirtoCommerce.BulkActionsModule_3.201.0-alpha.185.zip"
-        },
-        {
           "Id": "VirtoCommerce.AvalaraTax",
           "BlobName": "VirtoCommerce.AvalaraTax_3.202.0-alpha.275.zip"
         },
@@ -221,6 +217,10 @@
         {
           "Id": "VirtoCommerce.CatalogPublishing",
           "BlobName": "VirtoCommerce.CatalogPublishing_3.203.0-alpha.317.zip"
+        },
+        {
+          "Id": "VirtoCommerce.BulkActionsModule",
+          "BlobName": "VirtoCommerce.BulkActionsModule_3.202.0-alpha.186.zip"
         }
       ]
     }
