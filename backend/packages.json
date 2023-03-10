@@ -12,10 +12,6 @@
       ],
       "Modules": [
         {
-          "Id": "VirtoCommerce.AvalaraTax",
-          "Version": "3.201.0"
-        },
-        {
           "Id": "VirtoCommerce.BulkActionsModule",
           "Version": "3.200.0"
         },
@@ -202,6 +198,10 @@
         {
           "Id": "VirtoCommerce.Assets",
           "Version": "3.203.0"
+        },
+        {
+          "Id": "VirtoCommerce.AvalaraTax",
+          "Version": "3.202.0"
         }
       ]
     },
