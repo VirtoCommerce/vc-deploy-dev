@@ -143,10 +143,6 @@
           "BlobName": "VirtoCommerce.NativePaymentMethods_3.205.0-alpha.55.zip"
         },
         {
-          "Id": "VirtoCommerce.CustomerReviews",
-          "BlobName": "VirtoCommerce.CustomerReviews_3.213.0-alpha.170.zip"
-        },
-        {
           "Id": "VirtoCommerce.Sitemaps",
           "BlobName": "VirtoCommerce.Sitemaps_3.209.0-alpha.307.zip"
         },
@@ -221,6 +217,10 @@
         {
           "Id": "VirtoCommerce.Core",
           "BlobName": "VirtoCommerce.Core_3.211.0-alpha.1570.zip"
+        },
+        {
+          "Id": "VirtoCommerce.CustomerReviews",
+          "BlobName": "VirtoCommerce.CustomerReviews_3.213.0-alpha.172.zip"
         }
       ]
     }
