@@ -182,10 +182,6 @@
           "BlobName": "VirtoCommerce.Notifications_3.214.0-alpha.310.zip"
         },
         {
-          "Id": "VirtoCommerce.ExperienceApi",
-          "BlobName": "VirtoCommerce.ExperienceApi_3.261.0-alpha.1107.zip"
-        },
-        {
           "Id": "VirtoCommerce.AvalaraTax",
           "BlobName": "VirtoCommerce.AvalaraTax_3.203.0-alpha.276.zip"
         },
@@ -220,6 +216,10 @@
         {
           "Id": "VirtoCommerce.Subscription",
           "BlobName": "VirtoCommerce.Subscription_3.202.0-alpha.295.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ExperienceApi",
+          "BlobName": "VirtoCommerce.ExperienceApi_3.262.0-alpha.1108.zip"
         }
       ]
     }
