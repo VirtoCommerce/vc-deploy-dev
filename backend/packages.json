@@ -10,12 +10,7 @@
       "ModuleSources": [
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
-      "Modules": [
-        {
-          "Id": "VirtoCommerce.DynamicAssociationsModule",
-          "Version": "3.200.0"
-        }
-      ]
+      "Modules": []
     },
     {
       "Name": "AzureBlob",
@@ -221,6 +216,10 @@
         {
           "Id": "VirtoCommerce.Customer",
           "BlobName": "VirtoCommerce.Customer_3.223.0-alpha.756.zip"
+        },
+        {
+          "Id": "VirtoCommerce.DynamicAssociationsModule",
+          "BlobName": "VirtoCommerce.DynamicAssociationsModule_3.201.0-alpha.120.zip"
         }
       ]
     }
