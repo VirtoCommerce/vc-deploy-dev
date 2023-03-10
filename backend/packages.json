@@ -52,10 +52,6 @@
           "Version": "4.0.0"
         },
         {
-          "Id": "VirtoCommerce.Assets",
-          "Version": "3.202.0"
-        },
-        {
           "Id": "VirtoCommerce.Notifications",
           "Version": "3.213.0"
         },
@@ -202,6 +198,10 @@
         {
           "Id": "VirtoCommerce.Core",
           "Version": "3.210.0"
+        },
+        {
+          "Id": "VirtoCommerce.Assets",
+          "Version": "3.203.0"
         }
       ]
     },
