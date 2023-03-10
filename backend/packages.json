@@ -199,10 +199,6 @@
           "BlobName": "VirtoCommerce.Catalog_3.260.0.zip"
         },
         {
-          "Id": "VirtoCommerce.Content",
-          "BlobName": "VirtoCommerce.Content_3.215.0-pr-135-6701.zip"
-        },
-        {
           "Id": "VirtoCommerce.WebHooks",
           "BlobName": "VirtoCommerce.WebHooks_3.208.0.zip"
         },
@@ -217,6 +213,10 @@
         {
           "Id": "VirtoCommerce.AvalaraTax",
           "BlobName": "VirtoCommerce.AvalaraTax_3.202.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Content",
+          "BlobName": "VirtoCommerce.Content_3.215.0.zip"
         }
       ]
     }
