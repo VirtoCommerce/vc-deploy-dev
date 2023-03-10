@@ -191,10 +191,6 @@
           "BlobName": "VirtoCommerce.Orders_3.224.0-alpha.1079.zip"
         },
         {
-          "Id": "VirtoCommerce.AvalaraTax",
-          "BlobName": "VirtoCommerce.AvalaraTax_3.202.0-alpha.275.zip"
-        },
-        {
           "Id": "VirtoCommerce.CatalogPersonalization",
           "BlobName": "VirtoCommerce.CatalogPersonalization_3.204.0-alpha.222.zip"
         },
@@ -221,6 +217,10 @@
         {
           "Id": "VirtoCommerce.ExperienceApi",
           "BlobName": "VirtoCommerce.ExperienceApi_3.261.0-alpha.1107.zip"
+        },
+        {
+          "Id": "VirtoCommerce.AvalaraTax",
+          "BlobName": "VirtoCommerce.AvalaraTax_3.203.0-alpha.276.zip"
         }
       ]
     }
