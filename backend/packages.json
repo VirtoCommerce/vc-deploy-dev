@@ -31,10 +31,6 @@
           "BlobName": "VirtoCommerce.CatalogExportImport_3.200.0-pr-34.zip"
         },
         {
-          "Id": "VirtoCommerce.GDPR",
-          "BlobName": "VirtoCommerce.GDPR_3.201.0-pr-11.zip"
-        },
-        {
           "Id": "VirtoCommerce.Licensing",
           "BlobName": "VirtoCommerce.Licensing_3.200.0.zip"
         },
@@ -221,6 +217,10 @@
         {
           "Id": "VirtoCommerce.CustomerReviews",
           "BlobName": "VirtoCommerce.CustomerReviews_3.213.0-alpha.172.zip"
+        },
+        {
+          "Id": "VirtoCommerce.GDPR",
+          "BlobName": "VirtoCommerce.GDPR_3.202.0-alpha.93.zip"
         }
       ]
     }
