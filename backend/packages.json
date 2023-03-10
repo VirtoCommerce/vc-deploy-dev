@@ -63,10 +63,6 @@
           "BlobName": "VirtoCommerce.GoogleEcommerceAnalytics_4.1.0-alpha.151.zip"
         },
         {
-          "Id": "VirtoCommerce.Notifications",
-          "BlobName": "VirtoCommerce.Notifications_3.214.0-alpha.304.zip"
-        },
-        {
           "Id": "VirtoCommerce.Store",
           "BlobName": "VirtoCommerce.Store_3.210.0-alpha.646.zip"
         },
@@ -221,6 +217,10 @@
         {
           "Id": "VirtoCommerce.Assets",
           "BlobName": "VirtoCommerce.Assets_3.204.0-alpha.90.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Notifications",
+          "BlobName": "VirtoCommerce.Notifications_3.214.0-alpha.310.zip"
         }
       ]
     }
