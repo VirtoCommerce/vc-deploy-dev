@@ -178,10 +178,6 @@
           "BlobName": "VirtoCommerce.Content_3.216.0-alpha.865.zip"
         },
         {
-          "Id": "VirtoCommerce.GDPR",
-          "BlobName": "VirtoCommerce.GDPR_3.202.0-alpha.93.zip"
-        },
-        {
           "Id": "VirtoCommerce.Customer",
           "BlobName": "VirtoCommerce.Customer_3.223.0-alpha.756.zip"
         },
@@ -220,6 +216,10 @@
         {
           "Id": "VirtoCommerce.CatalogPersonalization",
           "BlobName": "VirtoCommerce.CatalogPersonalization_3.205.0-alpha.223.zip"
+        },
+        {
+          "Id": "VirtoCommerce.GDPR",
+          "BlobName": "VirtoCommerce.GDPR_3.203.0-alpha.94.zip"
         }
       ]
     }
