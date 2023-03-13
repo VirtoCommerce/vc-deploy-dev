@@ -182,10 +182,6 @@
           "BlobName": "VirtoCommerce.Content_3.216.0-alpha.865.zip"
         },
         {
-          "Id": "VirtoCommerce.CustomerReviews",
-          "BlobName": "VirtoCommerce.CustomerReviews_3.213.0-alpha.172.zip"
-        },
-        {
           "Id": "VirtoCommerce.GDPR",
           "BlobName": "VirtoCommerce.GDPR_3.202.0-alpha.93.zip"
         },
@@ -220,6 +216,10 @@
         {
           "Id": "VirtoCommerce.BulkActionsModule",
           "BlobName": "VirtoCommerce.BulkActionsModule_3.203.0-alpha.187.zip"
+        },
+        {
+          "Id": "VirtoCommerce.CustomerReviews",
+          "BlobName": "VirtoCommerce.CustomerReviews_3.214.0-alpha.173.zip"
         }
       ]
     }
