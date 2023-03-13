@@ -162,10 +162,6 @@
           "BlobName": "VirtoCommerce.CatalogPersonalization_3.204.0-alpha.222.zip"
         },
         {
-          "Id": "VirtoCommerce.CatalogPublishing",
-          "BlobName": "VirtoCommerce.CatalogPublishing_3.203.0-alpha.317.zip"
-        },
-        {
           "Id": "VirtoCommerce.BulkActionsModule",
           "BlobName": "VirtoCommerce.BulkActionsModule_3.202.0-alpha.186.zip"
         },
@@ -220,6 +216,10 @@
         {
           "Id": "VirtoCommerce.Contracts",
           "BlobName": "VirtoCommerce.Contracts_3.207.0-alpha.52.zip"
+        },
+        {
+          "Id": "VirtoCommerce.CatalogPublishing",
+          "BlobName": "VirtoCommerce.CatalogPublishing_3.204.0-alpha.318.zip"
         }
       ]
     }
