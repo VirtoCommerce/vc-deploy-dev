@@ -130,10 +130,6 @@
           "BlobName": "VirtoCommerce.Sitemaps_3.209.0-alpha.307.zip"
         },
         {
-          "Id": "VirtoCommerce.Contracts",
-          "BlobName": "VirtoCommerce.Contracts_3.206.0-alpha.49.zip"
-        },
-        {
           "Id": "VirtoCommerce.Cart",
           "BlobName": "VirtoCommerce.Cart_3.215.0-alpha.604.zip"
         },
@@ -220,6 +216,10 @@
         {
           "Id": "VirtoCommerce.ExperienceApi",
           "BlobName": "VirtoCommerce.ExperienceApi_3.262.0-alpha.1108.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Contracts",
+          "BlobName": "VirtoCommerce.Contracts_3.207.0-alpha.52.zip"
         }
       ]
     }
