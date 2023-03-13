@@ -11,7 +11,7 @@
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
       "Modules": [
-       {
+        {
           "Id": "VirtoCommerce.Core",
           "Version": "3.211.0"
         }
@@ -33,10 +33,6 @@
         {
           "Id": "VirtoCommerce.FileSystemAssets",
           "BlobName": "VirtoCommerce.FileSystemAssets_3.203.0-pr-6-5ef3.zip"
-        },
-        {
-          "Id": "VirtoCommerce.GDPR",
-          "BlobName": "VirtoCommerce.GDPR_3.202.0-alpha.93.zip"
         },
         {
           "Id": "VirtoCommerce.Licensing",
@@ -217,6 +213,10 @@
         {
           "Id": "VirtoCommerce.DynamicAssociationsModule",
           "BlobName": "VirtoCommerce.DynamicAssociationsModule_3.201.0-alpha.120.zip"
+        },
+        {
+          "Id": "VirtoCommerce.GDPR",
+          "BlobName": "VirtoCommerce.GDPR_3.202.0.zip"
         }
       ]
     }
