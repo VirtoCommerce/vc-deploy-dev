@@ -12,10 +12,6 @@
       ],
       "Modules": [
         {
-          "Id": "VirtoCommerce.DynamicAssociationsModule",
-          "Version": "3.200.0"
-        },
-        {
           "Id": "VirtoCommerce.ShipStation",
           "Version": "3.200.0"
         },
@@ -202,6 +198,10 @@
         {
           "Id": "VirtoCommerce.GDPR",
           "Version": "3.202.0"
+        },
+        {
+          "Id": "VirtoCommerce.DynamicAssociationsModule",
+          "Version": "3.201.0"
         }
       ]
     },
