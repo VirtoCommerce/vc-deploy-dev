@@ -70,10 +70,6 @@
           "BlobName": "VirtoCommerce.CustomerExportImport_3.203.0-alpha.119.zip"
         },
         {
-          "Id": "VirtoCommerce.Pricing",
-          "BlobName": "VirtoCommerce.Pricing_3.219.0-alpha.678.zip"
-        },
-        {
           "Id": "VirtoCommerce.AzureAD",
           "BlobName": "VirtoCommerce.AzureAD_3.202.0-alpha.9.zip"
         },
@@ -224,6 +220,10 @@
         {
           "Id": "VirtoCommerce.PriceExportImport",
           "BlobName": "VirtoCommerce.PriceExportImport_3.206.0-alpha.120.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Pricing",
+          "BlobName": "VirtoCommerce.Pricing_3.219.0-alpha.684.zip"
         }
       ]
     }
