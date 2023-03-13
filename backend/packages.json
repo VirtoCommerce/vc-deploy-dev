@@ -68,10 +68,6 @@
           "Version": "3.204.0"
         },
         {
-          "Id": "VirtoCommerce.CatalogPersonalization",
-          "Version": "3.203.0"
-        },
-        {
           "Id": "VirtoCommerce.Search",
           "Version": "3.219.0"
         },
@@ -202,6 +198,10 @@
         {
           "Id": "VirtoCommerce.CustomerReviews",
           "Version": "3.213.0"
+        },
+        {
+          "Id": "VirtoCommerce.CatalogPersonalization",
+          "Version": "3.204.0"
         }
       ]
     },
