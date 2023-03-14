@@ -194,10 +194,6 @@
           "BlobName": "VirtoCommerce.DynamicAssociationsModule_3.202.0-alpha.121.zip"
         },
         {
-          "Id": "VirtoCommerce.PriceExportImport",
-          "BlobName": "VirtoCommerce.PriceExportImport_3.206.0-alpha.120.zip"
-        },
-        {
           "Id": "VirtoCommerce.Pricing",
           "BlobName": "VirtoCommerce.Pricing_3.219.0-alpha.684.zip"
         },
@@ -224,6 +220,10 @@
         {
           "Id": "VirtoCommerce.NativePaymentMethods",
           "BlobName": "VirtoCommerce.NativePaymentMethods_3.206.0-alpha.58.zip"
+        },
+        {
+          "Id": "VirtoCommerce.PriceExportImport",
+          "BlobName": "VirtoCommerce.PriceExportImport_3.207.0-alpha.121.zip"
         }
       ]
     }
