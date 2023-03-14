@@ -99,10 +99,6 @@
           "BlobName": "VirtoCommerce.CatalogPersonalization_3.204.0.zip"
         },
         {
-          "Id": "VirtoCommerce.ImageTools",
-          "BlobName": "VirtoCommerce.ImageTools_3.207.0-alpha.308.zip"
-        },
-        {
           "Id": "VirtoCommerce.LuceneSearch",
           "BlobName": "VirtoCommerce.LuceneSearch_3.204.0-pr-29-a405.zip"
         },
@@ -225,6 +221,10 @@
         {
           "Id": "VirtoCommerce.PowerBiReports",
           "BlobName": "VirtoCommerce.PowerBiReports_3.200.0-alpha.16.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ImageTools",
+          "BlobName": "VirtoCommerce.ImageTools_3.207.0.zip"
         }
       ]
     }
