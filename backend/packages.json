@@ -194,10 +194,6 @@
           "BlobName": "VirtoCommerce.DynamicAssociationsModule_3.202.0-alpha.121.zip"
         },
         {
-          "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
-          "BlobName": "VirtoCommerce.GoogleEcommerceAnalytics_4.1.0-alpha.157.zip"
-        },
-        {
           "Id": "VirtoCommerce.ImageTools",
           "BlobName": "VirtoCommerce.ImageTools_3.207.0-alpha.308.zip"
         },
@@ -224,6 +220,10 @@
         {
           "Id": "VirtoCommerce.Inventory",
           "BlobName": "VirtoCommerce.Inventory_3.214.0-alpha.413.zip"
+        },
+        {
+          "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
+          "BlobName": "VirtoCommerce.GoogleEcommerceAnalytics_4.2.0-alpha.158.zip"
         }
       ]
     }
