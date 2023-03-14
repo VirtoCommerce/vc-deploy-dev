@@ -4,7 +4,7 @@
   servicePlan: S2
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.288.0-alpha.12592-pt-10814-4a78fbbf-6d44cc6
+    imageTag: 3.289.0-alpha.12591-pt-11197-app-menu-57212910-ede2580
     sqlReplica: false
     config:
       Reload: 29
