@@ -94,10 +94,6 @@
           "BlobName": "VirtoCommerce.TaskManagement_3.211.0-alpha.41.zip"
         },
         {
-          "Id": "VirtoCommerce.Sitemaps",
-          "BlobName": "VirtoCommerce.Sitemaps_3.209.0-alpha.307.zip"
-        },
-        {
           "Id": "VirtoCommerce.Cart",
           "BlobName": "VirtoCommerce.Cart_3.215.0-alpha.604.zip"
         },
@@ -224,6 +220,10 @@
         {
           "Id": "VirtoCommerce.Shipping",
           "BlobName": "VirtoCommerce.Shipping_3.204.0-alpha.156.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Sitemaps",
+          "BlobName": "VirtoCommerce.Sitemaps_3.209.0-alpha.309.zip"
         }
       ]
     }
