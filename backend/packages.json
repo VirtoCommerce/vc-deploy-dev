@@ -44,7 +44,7 @@
         },
         {
           "Id": "VirtoCommerce.Sitemaps",
-          "BlobName": "VirtoCommerce.Sitemaps_3.209.0-pr-61-8d93.zip"
+          "BlobName": "VirtoCommerce.Sitemaps_3.208.0.zip"
         },
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
@@ -60,7 +60,7 @@
         },
         {
           "Id": "VirtoCommerce.Return",
-          "BlobName": "VirtoCommerce.Return_3.206.0-pr-9-c002.zip"
+          "BlobName": "VirtoCommerce.Return_3.205.0.zip"
         },
         {
           "Id": "VirtoCommerce.ElasticSearch",
@@ -72,11 +72,11 @@
         },
         {
           "Id": "VirtoCommerce.Tax",
-          "BlobName": "VirtoCommerce.Tax_3.204.0-pr-42-8bdd.zip"
+          "BlobName": "VirtoCommerce.Tax_3.203.0.zip"
         },
         {
           "Id": "VirtoCommerce.Shipping",
-          "BlobName": "VirtoCommerce.Shipping_3.204.0-pr-42-7110.zip"
+          "BlobName": "VirtoCommerce.Shipping_3.203.0.zip"
         },
         {
           "Id": "VirtoCommerce.Notifications",
@@ -84,7 +84,7 @@
         },
         {
           "Id": "VirtoCommerce.Store",
-          "BlobName": "VirtoCommerce.Store_3.210.0-pr-120-2dd5.zip"
+          "BlobName": "VirtoCommerce.Store_3.209.0.zip"
         },
         {
           "Id": "VirtoCommerce.EventBus",
@@ -112,7 +112,7 @@
         },
         {
           "Id": "VirtoCommerce.Search",
-          "BlobName": "VirtoCommerce.Search_3.220.0-pr-90-74b1.zip"
+          "BlobName": "VirtoCommerce.Search_3.219.0.zip"
         },
         {
           "Id": "VirtoCommerce.Quote",
@@ -225,10 +225,6 @@
         {
           "Id": "VirtoCommerce.ImageTools",
           "BlobName": "VirtoCommerce.ImageTools_3.207.0.zip"
-        },
-        {
-          "Id": "VirtoCommerce.CustomerExportImport",
-          "BlobName": "VirtoCommerce.CustomerExportImport_3.203.0-pr-80-1621.zip"
         }
       ]
     }
