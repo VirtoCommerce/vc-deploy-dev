@@ -67,10 +67,6 @@
           "BlobName": "VirtoCommerce.ElasticSearch_3.211.0-pr-48-91f5.zip"
         },
         {
-          "Id": "VirtoCommerce.ElasticAppSearch",
-          "BlobName": "VirtoCommerce.ElasticAppSearch_3.206.0-pr-24-5d07.zip"
-        },
-        {
           "Id": "VirtoCommerce.Tax",
           "BlobName": "VirtoCommerce.Tax_3.204.0-pr-42-8bdd.zip"
         },
@@ -229,6 +225,10 @@
         {
           "Id": "VirtoCommerce.CustomerExportImport",
           "BlobName": "VirtoCommerce.CustomerExportImport_3.203.0-pr-80-1621.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ElasticAppSearch",
+          "BlobName": "VirtoCommerce.ElasticAppSearch_3.207.0.zip"
         }
       ]
     }
