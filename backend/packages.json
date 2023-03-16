@@ -196,16 +196,16 @@
           "Version": "3.219.0"
         },
         {
-          "Id": "VirtoCommerce.ElasticAppSearch",
-          "Version": "3.207.0"
-        },
-        {
           "Id": "VirtoCommerce.ExperienceApi",
           "Version": "3.262.0"
         },
         {
           "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
           "Version": "4.2.0"
+        },
+        {
+          "Id": "VirtoCommerce.ElasticAppSearch",
+          "Version": "3.208.0"
         }
       ]
     },
