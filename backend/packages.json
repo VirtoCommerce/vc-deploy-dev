@@ -1,6 +1,6 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.287.0",
+  "PlatformVersion": "3.290.0",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -95,7 +95,7 @@
         },
         {
           "Id": "VirtoCommerce.ElasticAppSearch",
-          "Version": "3.206.0"
+          "Version": "3.208.0"
         },
         {
           "Id": "VirtoCommerce.ElasticSearch",
@@ -123,7 +123,7 @@
         },
         {
           "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
-          "Version": "4.0.0"
+          "Version": "4.2.0"
         },
         {
           "Id": "VirtoCommerce.ImageTools",
