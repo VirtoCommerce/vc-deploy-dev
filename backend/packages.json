@@ -172,10 +172,6 @@
           "Version": "3.201.0"
         },
         {
-          "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
-          "Version": "4.1.0"
-        },
-        {
           "Id": "VirtoCommerce.ImageTools",
           "Version": "3.207.0"
         },
@@ -206,6 +202,10 @@
         {
           "Id": "VirtoCommerce.ExperienceApi",
           "Version": "3.262.0"
+        },
+        {
+          "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
+          "Version": "4.2.0"
         }
       ]
     },
