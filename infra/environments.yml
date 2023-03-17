@@ -56,7 +56,7 @@
       VirtoCommerce__DefaultStore: B2B-store
       VirtoCommerce__Endpoint__Password: store
     themes:
-      B2B-store: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.17.0/vc-theme-b2b-vue-1.17.0.zip
+      B2B-store: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.18.0/vc-theme-b2b-vue-1.18.0.zip
   ingress:
     hostname: vcptcore-loadtest.govirto.com
     storefrontHostname: vcptcore-loadtest-store.govirto.com
