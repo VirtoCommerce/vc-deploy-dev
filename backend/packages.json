@@ -152,10 +152,6 @@
           "Version": "3.202.0"
         },
         {
-          "Id": "VirtoCommerce.DynamicAssociationsModule",
-          "Version": "3.201.0"
-        },
-        {
           "Id": "VirtoCommerce.ImageTools",
           "Version": "3.207.0"
         },
@@ -205,6 +201,10 @@
         },
         {
           "Id": "VirtoCommerce.Subscription",
+          "Version": "3.202.0"
+        },
+        {
+          "Id": "VirtoCommerce.DynamicAssociationsModule",
           "Version": "3.202.0"
         }
       ]
