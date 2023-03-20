@@ -218,12 +218,12 @@
           "BlobName": "VirtoCommerce.Quote_3.215.0-alpha.351.zip"
         },
         {
-          "Id": "VirtoCommerce.DynamicAssociationsModule",
-          "BlobName": "VirtoCommerce.DynamicAssociationsModule_3.202.0-alpha.122.zip"
-        },
-        {
           "Id": "VirtoCommerce.Subscription",
           "BlobName": "VirtoCommerce.Subscription_3.203.0-alpha.297.zip"
+        },
+        {
+          "Id": "VirtoCommerce.DynamicAssociationsModule",
+          "BlobName": "VirtoCommerce.DynamicAssociationsModule_3.203.0-alpha.123.zip"
         }
       ]
     }
