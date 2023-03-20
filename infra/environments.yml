@@ -1,7 +1,7 @@
 - name: vcptcore-loadtest
   gitops: true
   production: false
-  servicePlan: S3
+  servicePlan: F1
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
     imageTag: 3.286.0-alpha.12582-dev-4bb6a702-8e7ddf1
