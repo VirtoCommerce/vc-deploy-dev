@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.291.0",
+  "PlatformVersion": "3.292.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.291.0",
+  "PlatformImageTag": "3.292.0",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -225,8 +225,8 @@
         {
           "Id": "VirtoCommerce.Content",
           "BlobName": "VirtoCommerce.Content_3.216.0.zip"
-        },  
-         {
+        },
+        {
           "Id": "VirtoCommerce.PageBuilderModule",
           "BlobName": "VirtoCommerce.PageBuilderModule_3.207.0.zip"
         },
