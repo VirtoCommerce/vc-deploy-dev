@@ -134,10 +134,6 @@
           "BlobName": "VirtoCommerce.GDPR_3.203.0-alpha.94.zip"
         },
         {
-          "Id": "VirtoCommerce.DynamicAssociationsModule",
-          "BlobName": "VirtoCommerce.DynamicAssociationsModule_3.202.0-alpha.121.zip"
-        },
-        {
           "Id": "VirtoCommerce.ImageTools",
           "BlobName": "VirtoCommerce.ImageTools_3.208.0-alpha.309.zip"
         },
@@ -224,6 +220,10 @@
         {
           "Id": "VirtoCommerce.Quote",
           "BlobName": "VirtoCommerce.Quote_3.215.0-alpha.351.zip"
+        },
+        {
+          "Id": "VirtoCommerce.DynamicAssociationsModule",
+          "BlobName": "VirtoCommerce.DynamicAssociationsModule_3.202.0-alpha.122.zip"
         }
       ]
     }
