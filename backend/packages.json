@@ -80,10 +80,6 @@
           "Version": "3.236.0"
         },
         {
-          "Id": "VirtoCommerce.Quote",
-          "Version": "3.214.0"
-        },
-        {
           "Id": "VirtoCommerce.Export",
           "Version": "3.204.0"
         },
@@ -206,6 +202,10 @@
         {
           "Id": "VirtoCommerce.DynamicAssociationsModule",
           "Version": "3.202.0"
+        },
+        {
+          "Id": "VirtoCommerce.Quote",
+          "Version": "3.215.0"
         }
       ]
     },
