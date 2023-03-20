@@ -124,10 +124,6 @@
           "Version": "3.223.0"
         },
         {
-          "Id": "VirtoCommerce.CustomerReviews",
-          "Version": "3.213.0"
-        },
-        {
           "Id": "VirtoCommerce.CatalogPersonalization",
           "Version": "3.204.0"
         },
@@ -206,6 +202,10 @@
         {
           "Id": "VirtoCommerce.Quote",
           "Version": "3.216.0"
+        },
+        {
+          "Id": "VirtoCommerce.CustomerReviews",
+          "Version": "3.214.0"
         }
       ]
     },
