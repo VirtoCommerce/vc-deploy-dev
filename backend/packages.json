@@ -56,10 +56,6 @@
           "Version": "3.201.0"
         },
         {
-          "Id": "VirtoCommerce.AuthorizeNetPayment",
-          "Version": "3.205.0"
-        },
-        {
           "Id": "VirtoCommerce.Tax",
           "Version": "3.203.0"
         },
@@ -206,6 +202,10 @@
         {
           "Id": "VirtoCommerce.Notifications",
           "Version": "3.215.0"
+        },
+        {
+          "Id": "VirtoCommerce.AuthorizeNetPayment",
+          "Version": "3.206.0"
         }
       ]
     },
