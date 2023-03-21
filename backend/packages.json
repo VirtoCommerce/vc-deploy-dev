@@ -218,12 +218,12 @@
           "BlobName": "VirtoCommerce.Notifications_3.216.0-alpha.314.zip"
         },
         {
-          "Id": "VirtoCommerce.Catalog",
-          "BlobName": "VirtoCommerce.Catalog_3.261.0-alpha.2081.zip"
-        },
-        {
           "Id": "VirtoCommerce.AuthorizeNetPayment",
           "BlobName": "VirtoCommerce.AuthorizeNetPayment_3.206.0-alpha.47.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "BlobName": "VirtoCommerce.Catalog_3.261.0-alpha.2081.zip"
         }
       ]
     }
