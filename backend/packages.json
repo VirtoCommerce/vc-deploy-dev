@@ -143,10 +143,6 @@
           "BlobName": "VirtoCommerce.AzureAD_3.201.0.zip"
         },
         {
-          "Id": "VirtoCommerce.AuthorizeNetPayment",
-          "BlobName": "VirtoCommerce.AuthorizeNetPayment_3.205.0.zip"
-        },
-        {
           "Id": "VirtoCommerce.Payment",
           "BlobName": "VirtoCommerce.Payment_3.208.0-pr-53-5211.zip"
         },
@@ -233,6 +229,10 @@
         {
           "Id": "VirtoCommerce.PriceExportImport",
           "BlobName": "VirtoCommerce.PriceExportImport_3.207.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.AuthorizeNetPayment",
+          "BlobName": "VirtoCommerce.AuthorizeNetPayment_3.206.0.zip"
         }
       ]
     }
