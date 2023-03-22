@@ -16,10 +16,6 @@
         },
         {
           "BlobName": "VirtoCommerce.PowerBiReports_3.200.0-alpha.7.zip"
-        },
-         {
-          "Id": "VirtoCommerce.Content",
-          "BlobName": "VirtoCommerce.Content_3.217.0-pr-138-3952.zip"
         }
       ]
     },
@@ -72,6 +68,10 @@
         {
           "Id": "VirtoCommerce.CatalogPublishing",
           "Version": "3.202.0"
+        },
+        {
+          "Id": "VirtoCommerce.Content",
+          "Version": "3.214.0"
         },
         {
           "Id": "VirtoCommerce.Contracts",
