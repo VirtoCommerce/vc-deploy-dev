@@ -4,7 +4,7 @@
   servicePlan: S2
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.292.0-86dcd50
+    imageTag: 3.293.0-56a90b3
     sqlReplica: false
     config:
       Reload: 37
@@ -110,7 +110,7 @@
       CookieAuthenticationOptions__ExpireTimeSpan: 12:00:00
       Swagger__UI__Enable: true
     themes:
-      B2B-store: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.22.0/vc-theme-b2b-vue-1.22.0.zip
+      B2B-store: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.23.0/vc-theme-b2b-vue-1.23.0.zip
   ingress:
     hostname: vcptcore-qa.govirto.com
   customApps:
