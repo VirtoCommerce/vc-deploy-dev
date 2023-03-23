@@ -60,10 +60,6 @@
           "Version": "3.203.0"
         },
         {
-          "Id": "VirtoCommerce.Payment",
-          "Version": "3.207.0"
-        },
-        {
           "Id": "VirtoCommerce.Shipping",
           "Version": "3.203.0"
         },
@@ -206,6 +202,10 @@
         {
           "Id": "VirtoCommerce.Cart",
           "Version": "3.215.0"
+        },
+        {
+          "Id": "VirtoCommerce.Payment",
+          "Version": "3.208.0"
         }
       ]
     },
