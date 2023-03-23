@@ -92,7 +92,7 @@
       VirtoCommerce__Endpoint__Password: store
     secretConfig: {}
     themes: 
-      B2B-store: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.17.0/vc-theme-b2b-vue-1.17.0.zip
+      B2B-store: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.23.0/vc-theme-b2b-vue-1.23.0.zip
 
 
   ingress:
