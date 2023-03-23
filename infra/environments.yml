@@ -1,6 +1,6 @@
 - name: vcptcore-regression
   gitops: true
-  servicePlan: F1
+  servicePlan: F2
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
     tier: enterprise
