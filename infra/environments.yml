@@ -111,7 +111,6 @@
       Swagger__UI__Enable: true
     themes:
       B2B-store: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.23.0/vc-theme-b2b-vue-1.23.0.zip
-      testtheme: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.23.0/vc-theme-b2b-vue-1.23.0.zip
   ingress:
     hostname: vcptcore-qa.govirto.com
   customApps:
