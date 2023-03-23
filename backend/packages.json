@@ -12,10 +12,6 @@
       ],
       "Modules": [
         {
-          "Id": "VirtoCommerce.ShipStation",
-          "Version": "3.200.0"
-        },
-        {
           "Id": "VirtoCommerce.Return",
           "Version": "3.205.0"
         },
@@ -48,10 +44,6 @@
           "Version": "3.219.0"
         },
         {
-          "Id": "VirtoCommerce.CustomerExportImport",
-          "Version": "3.202.0"
-        },
-        {
           "Id": "VirtoCommerce.AzureAD",
           "Version": "3.201.0"
         },
@@ -70,10 +62,6 @@
         {
           "Id": "VirtoCommerce.Export",
           "Version": "3.204.0"
-        },
-        {
-          "Id": "VirtoCommerce.TaskManagement",
-          "Version": "3.210.0"
         },
         {
           "Id": "VirtoCommerce.Sitemaps",
@@ -174,10 +162,6 @@
         {
           "Id": "VirtoCommerce.Content",
           "Version": "3.216.0"
-        },
-        {
-          "Id": "VirtoCommerce.PriceExportImport",
-          "Version": "3.207.0"
         },
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
