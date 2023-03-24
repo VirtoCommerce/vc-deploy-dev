@@ -1,103 +1,84 @@
 - name: vcptcore-regression
   gitops: true
+  production: false
   servicePlan: F2
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    tier: enterprise
+    imageTag: 3.293.0-523b46a
+    sqlReplica: false
     config:
       Reload: 3
-      Notifications__DefaultSender: "azure_25da07ed75daacae20578a7a7dc58541@azure.com"
-      Notifications__Gateway: "SendGrid"
-      Notifications__SmsDefaultSender: "+17012510519"
-      Notifications__Smtp__EnableSsl: "False"
-      Notifications__Smtp__Host: "smtp.sendgrid.net"
-      Notifications__Smtp__Login: "apikey"
-      Notifications__Smtp__Port: "587"
-      #Notifications__SmsGateway: "Twilio"
-      #Search__ElasticSearch__Server: https://elasticsearch-dev.govirto.com
-      Search__ElasticSearch__EnableCompatibilityMode: "true"
-     #Elastic App Search settings
-     #Search__Provider: "ElasticAppSearch"
-      Search__ElasticAppSearch__EnableHttpCompression: "true"
+      Notifications__DefaultSender: azure_25da07ed75daacae20578a7a7dc58541@azure.com
+      Notifications__Gateway: SendGrid
+      Notifications__SmsDefaultSender: +17012510519
+      Notifications__Smtp__EnableSsl: False
+      Notifications__Smtp__Host: smtp.sendgrid.net
+      Notifications__Smtp__Login: apikey
+      Notifications__Smtp__Port: 587
+      Search__ElasticSearch__EnableCompatibilityMode: true
+      Search__ElasticAppSearch__EnableHttpCompression: true
       Search__ElasticAppSearch__Endpoint: https://enterprise-search-vc03.govirto.com
-     #Path for assets
       Content__FileSystem__PublicUrl: https://vcptcore-regression.govirto.com/cms-content/
       Assets__FileSystem__PublicUrl: https://vcptcore-regression.govirto.com/cms-content/assets/
       Assets__Provider: AzureBlobStorage
       Assets__AzureBlobStorage__ConnectionString: DefaultEndpointsProtocol=https;AccountName=qademovc3;AccountKey=qPIpM63MI2P3ei6B1xIL4/DlKDqdsRj54z2GUtgCAeXPcMe8+mZiUvrvI5fjdyrovk331XmBlMFfAEFAjCnvtw==;EndpointSuffix=core.windows.net
-     #Connection for content
       Content__Provider: AzureBlobStorage
       Content__AzureBlobStorage__RootPath: cms
       Content__AzureBlobStorage__ConnectionString: DefaultEndpointsProtocol=https;AccountName=qademovc3;AccountKey=qPIpM63MI2P3ei6B1xIL4/DlKDqdsRj54z2GUtgCAeXPcMe8+mZiUvrvI5fjdyrovk331XmBlMFfAEFAjCnvtw==;EndpointSuffix=core.windows.net
-      ASPNETCORE_FORWARDEDHEADERS_ENABLED: "true"
-      AppInsights__EnableDependencyTrackingTelemetryModule: "false"
-      Swagger__UI__Enabled: "true"
-      PushNotifications__ForceWebSockets: "true"
-      PushNotifications__ScalabilityMode: "RedisBackplane"
-      PushNotifications__HubUrl: "https://vcptcore-regression.govirto.com/pushNotificationHub"
-      PushNotifications__RedisBackplane__ChannelName: "vcptcore-regression-chanel"
+      ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
+      AppInsights__EnableDependencyTrackingTelemetryModule: false
+      Swagger__UI__Enabled: true
+      PushNotifications__ForceWebSockets: true
+      PushNotifications__ScalabilityMode: RedisBackplane
+      PushNotifications__HubUrl: https://vcptcore-regression.govirto.com/pushNotificationHub
+      PushNotifications__RedisBackplane__ChannelName: vcptcore-regression-chanel
       VirtoCommerce__LicenseFilePath: app_data/VirtoCommerce.lic
       VirtoCommerce__LicensePublicKeyPath: app_data/public.key
       VirtoCommerce__LicensePrivateKeyPath: app_data/private.key
       VirtoCommerce__LocalUploadFolderPath: app_data/uploads
       VirtoCommerce__LicenseActivationUrl: https://license.virtocommerce.org/api/licenses/activate/
       VirtoCommerce__Hangfire__JobStorageType: SqlServer
-     #VirtoCommerce__SampleDataUrl: https://virtocommerce.azureedge.net/sample-data/b2b-sample-store.zip
-      # Logging__LogLevel__Default: "Information"
-      Search__OrderFullTextSearchEnabled: "true"
-    #Setting for authorizenet
-      Payments__AuthorizeNet__ApiLogin: "8hPT4p99R"
-      Payments__AuthorizeNet__SHA2Hash: "FA6D2B37A7E9105942D2D184F1B2DBD8D9CA85611DE55B2267A6F7E0D7E49ACD9A6BC238CE068E75CA14ACFAD734F700FD94DCAB20353DD4D32D9BABE72DBBE4"
-      Payments__AuthorizeNet__TxnKey: "63c54EWq5d2XnGAR"
-    # Search__Provider: AzureSearch
-    # Search__AzureSearch__SearchServiceName: qa-demovc-3-search
-    # Search__AzureSearch__Key: 6BE1143312E89C26C227E6BBAE24DD47
-    # Search__Provider: Lucene
-    # Search__Scope: "regression"
-    # Settings for avatax
-      Tax__Avalara__AccountNumber: "2000188799"
-      Tax__Avalara__LicenseKey: "16BC3F87E836E15C" 
-    #Active Directory
-      AzureAd__Enabled: "true"
-      AzureAd__Priority: "1"
-      AzureAd__AuthenticationType: "AzureAD"
-      AzureAd__ApplicationId: "8227d950-975c-4c28-b7d4-ea440a59dcbb"
-      AzureAd__TenantId: "bc03e660-5e3a-45c4-bf5c-b75489f78923"
+      Search__OrderFullTextSearchEnabled: true
+      Payments__AuthorizeNet__ApiLogin: 8hPT4p99R
+      Payments__AuthorizeNet__SHA2Hash: FA6D2B37A7E9105942D2D184F1B2DBD8D9CA85611DE55B2267A6F7E0D7E49ACD9A6BC238CE068E75CA14ACFAD734F700FD94DCAB20353DD4D32D9BABE72DBBE4
+      Payments__AuthorizeNet__TxnKey: 63c54EWq5d2XnGAR
+      Tax__Avalara__AccountNumber: 2000188799
+      Tax__Avalara__LicenseKey: 16BC3F87E836E15C
+      AzureAd__Enabled: true
+      AzureAd__Priority: 1
+      AzureAd__AuthenticationType: AzureAD
+      AzureAd__ApplicationId: 8227d950-975c-4c28-b7d4-ea440a59dcbb
+      AzureAd__TenantId: bc03e660-5e3a-45c4-bf5c-b75489f78923
       APPINSIGHTS_INSTRUMENTATIONKEY: 4ead1786-2f72-48ae-a55b-fa934117edfb
-      PasswordLogin__Enabled: "true" 
-      PasswordLogin__Priority: "0"
-      DefaultMainMenuState__items__0__path : "browse/marketing"
-      DefaultMainMenuState__items__0__isFavorite: "true"
+      PasswordLogin__Enabled: true
+      PasswordLogin__Priority: 0
+      DefaultMainMenuState__items__0__path: browse/marketing
+      DefaultMainMenuState__items__0__isFavorite: true
       DefaultMainMenuState__items__0__order: 0
-      #IdentityOptions__Password__RequiredLength: "3"
-      #IdentityOptions__Password__RequireDigit: false
-      #IdentityOptions__Password__RequireNonAlphanumeric: false
-      #IdentityOptions__Password__RequireUppercase: false
-      #IdentityOptions__Password__RequireLowercase: false
-      #IdentityOptions__User__RequireUniqueEmail: "true"
-      FrontendSecurity__OrganizationMaintainerRole: "Organization maintainer"
-    secretConfig: 
+      FrontendSecurity__OrganizationMaintainerRole: Organization maintainer
+    secretConfig:
       Notifications__SendGrid__ApiKey: sendkey
       Search__ElasticAppSearch__PrivateApiKey: elasticappsearch
   storefront:
     enabled: true
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/storefront
+    imageTag: 6.13.0-master-4b0306b0
     config:
-      CookieAuthenticationOptions__ExpireTimeSpan: "12:00:00"
-      ASPNETCORE_FORWARDEDHEADERS_ENABLED: "true"
+      CookieAuthenticationOptions__ExpireTimeSpan: 12:00:00
+      ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
       VirtoCommerce__AppSettings__GoogleAnalytics__DomainName: vcptcore-regression-store.govirto.com
-      VirtoCommerce__SendAccountConfirmation: "true"
+      VirtoCommerce__SendAccountConfirmation: true
       SnapshotCollectorConfiguration__IsEnabled: false
       VirtoCommerce__DefaultStore: B2B-store
       VirtoCommerce__Endpoint__Password: store
-    secretConfig: {}
-    themes: 
+    themes:
       B2B-store: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.23.0/vc-theme-b2b-vue-1.23.0.zip
-
-
   ingress:
     hostname: vcptcore-regression.govirto.com
     storefrontHostname: vcptcore-regression-store.govirto.com
-  protectedParameters:
-   - platform.image.tag
-   - storefront.image.tag
+  customApps:
+    app1:
+      enabled: false
+    app2:
+      enabled: false
+  version: 2.206
