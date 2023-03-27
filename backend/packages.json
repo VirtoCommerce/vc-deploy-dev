@@ -76,10 +76,6 @@
           "Version": "3.208.0"
         },
         {
-          "Id": "VirtoCommerce.WebHooks",
-          "Version": "3.208.0"
-        },
-        {
           "Id": "VirtoCommerce.AvalaraTax",
           "Version": "3.202.0"
         },
@@ -206,6 +202,10 @@
         {
           "Id": "VirtoCommerce.ExperienceApi",
           "Version": "3.301.0"
+        },
+        {
+          "Id": "VirtoCommerce.WebHooks",
+          "Version": "3.209.0"
         }
       ]
     },
