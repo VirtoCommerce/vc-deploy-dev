@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.294.0-alpha.12606-pt-10831-change-password-header-wrap-bffcf2ac",
+  "PlatformVersion": "3.294.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.294.0-alpha.12606-pt-10831-change-password-header-wrap-bffcf2ac",
+  "PlatformImageTag": "3.294.0",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -22,7 +22,7 @@
       "Container": "composer",
       "ServiceUri": "https://rnd4pb.blob.core.windows.net",
       "Modules": [
-       {
+        {
           "Id": "VirtoCommerce.PageBuilderModule",
           "BlobName": "VirtoCommerce.PageBuilderModule_3.209.0.zip"
         }
