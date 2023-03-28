@@ -16,7 +16,7 @@
       Notifications__Smtp__Login: apikey
       Notifications__Smtp__Port: 587
       Search__ElasticSearch__EnableCompatibilityMode: true
-      Search__Provider: ElasticAppSearch
+      #Search__Provider: ElasticAppSearch
       Search__ElasticAppSearch__EnableHttpCompression: true
       Search__ElasticAppSearch__Endpoint: https://enterprise-search-vc03.govirto.com
       Content__FileSystem__PublicUrl: https://vcptcore-regression.govirto.com/cms-content/
