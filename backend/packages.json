@@ -14,6 +14,10 @@
         {
           "Id": "VirtoCommerce.Core",
           "Version": "3.211.0"
+        },
+         {
+          "Id": "VirtoCommerce.PageBuilderModule",
+          "Version": "3.209.0"
         }
       ]
     },
@@ -229,10 +233,6 @@
         {
           "Id": "VirtoCommerce.Cart",
           "BlobName": "VirtoCommerce.Cart_3.216.0.zip"
-        },
-        {
-          "Id": "VirtoCommerce.PageBuilderModule",
-          "BlobName": "VirtoCommerce.PageBuilderModule_3.209.0.zip"
         }
       ]
     }
