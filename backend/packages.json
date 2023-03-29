@@ -166,10 +166,6 @@
           "BlobName": "VirtoCommerce.DynamicAssociationsModule_3.203.0-alpha.123.zip"
         },
         {
-          "Id": "VirtoCommerce.Content",
-          "BlobName": "VirtoCommerce.Content_3.217.0-alpha.867.zip"
-        },
-        {
           "Id": "VirtoCommerce.PriceExportImport",
           "BlobName": "VirtoCommerce.PriceExportImport_3.208.0-alpha.123.zip"
         },
@@ -224,6 +220,10 @@
         {
           "Id": "VirtoCommerce.TaskManagement",
           "BlobName": "VirtoCommerce.TaskManagement_3.211.0-alpha.45.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Content",
+          "BlobName": "VirtoCommerce.Content_3.217.0-alpha.871.zip"
         }
       ]
     }
