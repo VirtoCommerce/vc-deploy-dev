@@ -156,10 +156,6 @@
           "Version": "3.202.0"
         },
         {
-          "Id": "VirtoCommerce.Content",
-          "Version": "3.216.0"
-        },
-        {
           "Id": "VirtoCommerce.PriceExportImport",
           "Version": "3.207.0"
         },
@@ -206,6 +202,10 @@
         {
           "Id": "VirtoCommerce.WebHooks",
           "Version": "3.209.0"
+        },
+        {
+          "Id": "VirtoCommerce.Content",
+          "Version": "3.217.0"
         }
       ]
     },
