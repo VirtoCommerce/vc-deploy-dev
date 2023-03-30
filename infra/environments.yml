@@ -4,7 +4,7 @@
   servicePlan: S2
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.294.0-alpha.12606-pt-10831-change-password-header-wrap-bffcf2ac-c543493
+    imageTag: 3.294.0-alpha.12606-pt-10831-change-password-header-wrap-bffcf2ac-c27c829
     sqlReplica: false
     config:
       Reload: 38
@@ -115,12 +115,12 @@
     hostname: vcptcore-qa.govirto.com
   customApps:
     app1:
-      enabled: false
-      servicePlan: B2
+      enabled: true
+      servicePlan: B1
       type: platform
       name: platform2
       imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-      imageTag: 3.286.0-467e868
+      imageTag: 3.294.0-alpha.12606-pt-10831-change-password-header-wrap-bffcf2ac-c27c829
       config:
         VirtoCommerce__Hangfire__Queues__items_0: default
         VirtoCommerce__Hangfire__Queues__items_1: alpha
