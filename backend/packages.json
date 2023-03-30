@@ -163,10 +163,6 @@
           "BlobName": "VirtoCommerce.Contracts_3.206.0-alpha.51.zip"
         },
         {
-          "Id": "VirtoCommerce.Catalog",
-          "BlobName": "VirtoCommerce.Catalog_3.262.0-pr-668-f4d9.zip"
-        },
-        {
           "Id": "VirtoCommerce.WebHooks",
           "BlobName": "VirtoCommerce.WebHooks_3.209.0-pr-72-0125.zip"
         },
@@ -233,6 +229,10 @@
         {
           "Id": "VirtoCommerce.PageBuilderModule",
           "BlobName": "VirtoCommerce.PageBuilderModule_3.209.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "BlobName": "VirtoCommerce.Catalog_3.262.0.zip"
         }
       ]
     }
