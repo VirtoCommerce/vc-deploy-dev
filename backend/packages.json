@@ -218,12 +218,12 @@
           "BlobName": "VirtoCommerce.Catalog_3.265.0-alpha.2092.zip"
         },
         {
-          "Id": "VirtoCommerce.TaskManagement",
-          "BlobName": "VirtoCommerce.TaskManagement_3.211.0-alpha.46.zip"
-        },
-        {
           "Id": "VirtoCommerce.ElasticSearch",
           "BlobName": "VirtoCommerce.ElasticSearch_3.212.0-alpha.213.zip"
+        },
+        {
+          "Id": "VirtoCommerce.TaskManagement",
+          "BlobName": "VirtoCommerce.TaskManagement_3.211.0-alpha.47.zip"
         }
       ]
     }
