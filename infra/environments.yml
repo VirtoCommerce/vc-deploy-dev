@@ -4,7 +4,7 @@
   servicePlan: S2
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.294.0-alpha.12606-pt-10831-change-password-header-wrap-bffcf2ac-c27c829
+    imageTag: 3.295.0-alpha.12612-pt-11459-revert-back-pt-10895-9182cd0d-a53cb6a
     sqlReplica: false
     config:
       Reload: 38
