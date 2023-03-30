@@ -202,10 +202,6 @@
           "BlobName": "VirtoCommerce.CatalogPersonalization_3.205.0-alpha.225.zip"
         },
         {
-          "Id": "VirtoCommerce.TaskManagement",
-          "BlobName": "VirtoCommerce.TaskManagement_3.211.0-alpha.45.zip"
-        },
-        {
           "Id": "VirtoCommerce.Content",
           "BlobName": "VirtoCommerce.Content_3.218.0-alpha.872.zip"
         },
@@ -224,6 +220,10 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "BlobName": "VirtoCommerce.Catalog_3.265.0-alpha.2092.zip"
+        },
+        {
+          "Id": "VirtoCommerce.TaskManagement",
+          "BlobName": "VirtoCommerce.TaskManagement_3.211.0-alpha.46.zip"
         }
       ]
     }
