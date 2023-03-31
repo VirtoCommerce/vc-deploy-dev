@@ -206,10 +206,6 @@
           "BlobName": "VirtoCommerce.ExperienceApi_3.303.0-alpha.1121.zip"
         },
         {
-          "Id": "VirtoCommerce.Catalog",
-          "BlobName": "VirtoCommerce.Catalog_3.265.0-alpha.2092.zip"
-        },
-        {
           "Id": "VirtoCommerce.ElasticSearch",
           "BlobName": "VirtoCommerce.ElasticSearch_3.212.0-alpha.213.zip"
         },
@@ -224,6 +220,10 @@
         {
           "Id": "VirtoCommerce.CatalogPublishing",
           "BlobName": "VirtoCommerce.CatalogPublishing_3.204.0-alpha.323.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "BlobName": "VirtoCommerce.Catalog_3.265.0-alpha.2093.zip"
         }
       ]
     }
