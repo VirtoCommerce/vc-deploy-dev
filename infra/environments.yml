@@ -4,7 +4,7 @@
   servicePlan: S2
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.296.0-alpha.12616-pt-11548-openapi-yaml-f144f634-7b67afb
+    imageTag:3.296.0-alpha.12615-dev-b56f956e-f030bca
     sqlReplica: false
     config:
       Reload: 39
@@ -101,6 +101,7 @@
       Search__ElasticAppSearch__PrivateApiKey: elasticappsearch
   storefront:
     enabled: true
+    servicePlan: S1
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/storefront
     imageTag: 6.14.0-alpha.934-dev-f9c641ee
     config:
