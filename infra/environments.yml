@@ -4,7 +4,7 @@
   servicePlan: S2
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.296.0-alpha.12616-pt-11548-openapi-yaml-f144f634-7b67afb
+    imageTag: 3.296.0-alpha.12616-pt-11548-openapi-yaml-f144f634-851158f
     sqlReplica: false
     config:
       Reload: 39
