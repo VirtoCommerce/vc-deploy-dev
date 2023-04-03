@@ -1,6 +1,6 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.290.0",
+  "PlatformVersion": "3.295.0",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -27,7 +27,7 @@
       "Modules": [
         {
           "Id": "VirtoCommerce.Assets",
-          "Version": "3.202.0"
+          "Version": "3.204.0"
         },
         {
           "Id": "VirtoCommerce.AuthorizeNetPayment",
@@ -43,23 +43,23 @@
         },
         {
           "Id": "VirtoCommerce.AzureBlobAssets",
-          "Version": "3.210.0"
+          "Version": "3.211.0"
         },
         {
           "Id": "VirtoCommerce.BulkActionsModule",
-          "Version": "3.200.0"
+          "Version": "3.202.0"
         },
         {
           "Id": "VirtoCommerce.Cart",
-          "Version": "3.214.0"
+          "Version": "3.216.0"
         },
         {
           "Id": "VirtoCommerce.Catalog",
-          "Version": "3.260.0"
+          "Version": "3.264.0"
         },
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
-          "Version": "3.204.0"
+          "Version": "3.205.0"
         },
         {
           "Id": "VirtoCommerce.CatalogPersonalization",
@@ -67,23 +67,23 @@
         },
         {
           "Id": "VirtoCommerce.CatalogPublishing",
-          "Version": "3.202.0"
+          "Version": "3.203.0"
         },
         {
           "Id": "VirtoCommerce.Content",
-          "Version": "3.214.0"
+          "Version": "3.217.0"
         },
         {
           "Id": "VirtoCommerce.Contracts",
-          "Version": "3.205.0"
+          "Version": "3.207.0"
         },
         {
           "Id": "VirtoCommerce.Core",
-          "Version": "3.209.0"
+          "Version": "3.211.0"
         },
         {
           "Id": "VirtoCommerce.Customer",
-          "Version": "3.222.0"
+          "Version": "3.223.0"
         },
         {
           "Id": "VirtoCommerce.CustomerReviews",
@@ -91,15 +91,11 @@
         },
         {
           "Id": "VirtoCommerce.DynamicAssociationsModule",
-          "Version": "3.200.0"
+          "Version": "3.201.0"
         },
         {
           "Id": "VirtoCommerce.ElasticAppSearch",
           "Version": "3.208.0"
-        },
-        {
-          "Id": "VirtoCommerce.ElasticSearch",
-          "Version": "3.211.0"
         },
         {
           "Id": "VirtoCommerce.EventBus",
@@ -107,7 +103,7 @@
         },
         {
           "Id": "VirtoCommerce.ExperienceApi",
-          "Version": "3.262.0"
+          "Version": "3.302.0"
         },
         {
           "Id": "VirtoCommerce.Export",
@@ -127,47 +123,47 @@
         },
         {
           "Id": "VirtoCommerce.ImageTools",
-          "Version": "3.206.0"
+          "Version": "3.207.0"
         },
         {
           "Id": "VirtoCommerce.Inventory",
-          "Version": "3.213.0"
+          "Version": "3.214.0"
         },
         {
           "Id": "VirtoCommerce.Marketing",
-          "Version": "3.207.0"
+          "Version": "3.209.0"
         },
         {
           "Id": "VirtoCommerce.MarketingExperienceApi",
-          "Version": "3.201.0"
+          "Version": "3.202.0"
         },
         {
           "Id": "VirtoCommerce.Notifications",
-          "Version": "3.213.0"
+          "Version": "3.215.0"
         },
         {
           "Id": "VirtoCommerce.Orders",
-          "Version": "3.223.0"
+          "Version": "3.226.0"
         },
         {
           "Id": "VirtoCommerce.Payment",
-          "Version": "3.207.0"
+          "Version": "3.208.0"
         },
         {
           "Id": "VirtoCommerce.Pricing",
-          "Version": "3.218.0"
+          "Version": "3.219.0"
         },
         {
           "Id": "VirtoCommerce.PriceExportImport",
-          "Version": "3.205.0"
+          "Version": "3.207.0"
         },
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.236.0"
+          "Version": "3.301.0"
         },
         {
           "Id": "VirtoCommerce.Quote",
-          "Version": "3.214.0"
+          "Version": "3.216.0"
         },
         {
           "Id": "VirtoCommerce.Return",
@@ -191,7 +187,7 @@
         },
         {
           "Id": "VirtoCommerce.Subscription",
-          "Version": "3.201.0"
+          "Version": "3.202.0"
         },
         {
           "Id": "VirtoCommerce.TaskManagement",
@@ -203,7 +199,7 @@
         },
         {
           "Id": "VirtoCommerce.WebHooks",
-          "Version": "3.207.0"
+          "Version": "3.209.0"
         }
       ]
     }
