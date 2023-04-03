@@ -101,7 +101,6 @@
       Search__ElasticAppSearch__PrivateApiKey: elasticappsearch
   storefront:
     enabled: true
-    servicePlan: S1
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/storefront
     imageTag: 6.14.0-alpha.934-dev-f9c641ee
     config:
