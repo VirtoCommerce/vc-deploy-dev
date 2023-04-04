@@ -211,10 +211,6 @@
           "BlobName": "VirtoCommerce.AzureBlobAssets_3.211.0.zip"
         },
         {
-          "Id": "VirtoCommerce.Content",
-          "BlobName": "VirtoCommerce.Content_3.218.0-pr-139-0059.zip"
-        },
-        {
           "Id": "VirtoCommerce.PriceExportImport",
           "BlobName": "VirtoCommerce.PriceExportImport_3.207.0.zip"
         },
@@ -233,6 +229,10 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "BlobName": "VirtoCommerce.Catalog_3.264.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Content",
+          "BlobName": "VirtoCommerce.Content_3.218.0.zip"
         }
       ]
     }
