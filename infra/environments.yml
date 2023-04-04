@@ -1,10 +1,10 @@
 - name: vcptcore-regression
   gitops: true
   production: false
-  servicePlan: F2
+  servicePlan: S2
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.293.1-23cd4ff
+    imageTag: 3.293.3-78877c6
     sqlReplica: false
     config:
       Reload: 4
