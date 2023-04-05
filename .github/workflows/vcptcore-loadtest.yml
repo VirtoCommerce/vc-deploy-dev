@@ -46,7 +46,7 @@ jobs:
           az vm start --resource-group load-test_group --name load-test
   loadtest:
     needs: [azure-sql, azure-vm]
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-20.04
     name: loadtest
     steps:
     - name: Checkout
