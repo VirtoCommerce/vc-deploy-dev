@@ -180,10 +180,6 @@
           "Version": "3.209.0"
         },
         {
-          "Id": "VirtoCommerce.Orders",
-          "Version": "3.226.0"
-        },
-        {
           "Id": "VirtoCommerce.ExperienceApi",
           "Version": "3.302.0"
         },
@@ -206,6 +202,10 @@
         {
           "Id": "VirtoCommerce.Cart",
           "Version": "3.217.0"
+        },
+        {
+          "Id": "VirtoCommerce.Orders",
+          "Version": "3.227.0"
         }
       ]
     },
