@@ -47,7 +47,7 @@
       AzureAd__ValidateIssuer: MultitenantAzureAD
       AzureAd__UseEmail: true
       AzureAd__DefaultUserType: Manager
-      PasswordLogin__Enabled: false
+      PasswordLogin__Enabled: true
       Content__FileSystem__PublicUrl: https://vcptcore-qa.govirto.com/cms-content/
       Assets__FileSystem__PublicUrl: https://vcptcore-qa.govirto.com/cms-content/assets/
       Assets__Provider: AzureBlobStorage
