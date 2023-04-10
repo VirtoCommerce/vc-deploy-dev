@@ -103,7 +103,7 @@ jobs:
           python3.8 loadtest.py && rm loadtest.py
 #test
   Scaledown:
-    needs: [azure-sql, azure-vm, loadtest]
+    needs: [azure-vm, loadtest]
     if: always()
     runs-on: ubuntu-20.04
     name: Scaledown
