@@ -16,13 +16,13 @@ env:
 
 
 jobs:
-  azure-sql:
-    runs-on: ubuntu-20.04
-    steps:
-    - name: Azure login
-      uses: azure/login@v1
-      with:
-        creds: '{"clientId":"${{ secrets.AZURE_CREDENTIALS_CLIENT }}","clientSecret":"${{ secrets.AZURE_CREDENTIALS_SECRET }}","subscriptionId":"${{ secrets.AZURE_CREDENTIALS_SUB }}","tenantId":"${{ secrets.AZURE_TENANT_ID }}"}'
+  #azure-sql:
+  #  runs-on: ubuntu-20.04
+  #  steps:
+  #  - name: Azure login
+  #    uses: azure/login@v1
+  #    with:
+  #      creds: '{"clientId":"${{ secrets.AZURE_CREDENTIALS_CLIENT }}","clientSecret":"${{ secrets.AZURE_CREDENTIALS_SECRET }}","subscriptionId":"${{ secrets.AZURE_CREDENTIALS_SUB }}","tenantId":"${{ secrets.AZURE_TENANT_ID }}"}'
 
     # - name: Azure CLI - scale up DB
     #   uses: azure/CLI@v1
@@ -45,7 +45,7 @@ jobs:
         inlineScript: |
           az vm start --resource-group load-test_group --name load-test
   loadtest:
-    needs: [azure-sql, azure-vm]
+    needs: [azure-vm]
     runs-on: ubuntu-20.04
     name: loadtest
     steps:
