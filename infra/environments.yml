@@ -52,7 +52,7 @@
       AzureAd__ApplicationId: 8227d950-975c-4c28-b7d4-ea440a59dcbb
       AzureAd__TenantId: bc03e660-5e3a-45c4-bf5c-b75489f78923
       APPINSIGHTS_INSTRUMENTATIONKEY: 4ead1786-2f72-48ae-a55b-fa934117edfb
-      PasswordLogin__Enabled: true
+      PasswordLogin__Enabled: false
       PasswordLogin__Priority: 0
       DefaultMainMenuState__items__0__path: browse/marketing
       DefaultMainMenuState__items__0__isFavorite: true
