@@ -41,7 +41,7 @@
       Search__AzureSearch__SearchServiceName: qa-demovc-3-search
       Search__AzureSearch__Key: 6BE1143312E89C26C227E6BBAE24DD47
       Search__AzureSearch__QueryParserType: Full
-      AzureAd__Enabled: true
+      AzureAd__Enabled: false
       AzureAd__ApplicationId: 86d04c35-143d-4d3c-aea2-8608e2186282
       AzureAd__TenantId: common
       AzureAd__ValidateIssuer: MultitenantAzureAD
