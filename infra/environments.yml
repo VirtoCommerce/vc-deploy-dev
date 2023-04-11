@@ -4,7 +4,7 @@
   servicePlan: S2
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.298.0-alpha.12633-pt-10529-redesign-login-page-eec97043-a81503a
+    imageTag: 3.298.0-alpha.12633-pt-10529-redesign-login-page-eec97043-f1351e0
     sqlReplica: false
     config:
       Reload: 39
@@ -24,7 +24,7 @@
       PushNotifications__HubUrl: https://vcptcore-qa.govirto.com/pushNotificationHub
       PushNotifications__RedisBackplane__ChannelName: vcptcore-qa-chanel
       Search__OrderFullTextSearchEnabled: true
-      Search__ContentFullTextSearchEnabled: true
+      Search__ContentFullTextSearchEnabled: false
       Search__DocumentScopes__0__DocumentType: Product
       Search__DocumentScopes__0__Scope: vcptcore-qa-platformvcptcore-scope1
       Search__DocumentScopes__2__DocumentType: Category
