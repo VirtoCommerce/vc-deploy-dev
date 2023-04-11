@@ -4,7 +4,7 @@
   servicePlan: S2
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.298.0-alpha.12633-pt-10529-redesign-login-page-eec97043-f1351e0
+    imageTag: 3.298.0-alpha.12633-pt-10529-redesign-login-page-eec97043-2c81f60
     sqlReplica: false
     config:
       Reload: 39
@@ -41,6 +41,12 @@
       Search__AzureSearch__SearchServiceName: qa-demovc-3-search
       Search__AzureSearch__Key: 6BE1143312E89C26C227E6BBAE24DD47
       Search__AzureSearch__QueryParserType: Full
+      Google__Enabled: true
+      Google__AuthenticationType: Google
+      Google__AuthenticationCaption: Google
+      Google__ClientId: abc
+      Google__ClientSecret: abc
+      Google__DefaultUserType: Manager
       AzureAd__Enabled: true
       AzureAd__ApplicationId: 86d04c35-143d-4d3c-aea2-8608e2186282
       AzureAd__TenantId: common
