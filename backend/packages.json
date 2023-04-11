@@ -231,12 +231,12 @@
           "BlobName": "VirtoCommerce.TaskManagement_3.212.0.zip"
         },
         {
-          "Id": "VirtoCommerce.ExperienceApi",
-          "BlobName": "VirtoCommerce.ExperienceApi_3.304.0-pr-393-4462.zip"
-        },
-        {
           "Id": "VirtoCommerce.TestModule",
           "BlobName": "VirtoCommerce.TestModule_1.0.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ExperienceApi",
+          "BlobName": "VirtoCommerce.ExperienceApi_3.305.0.zip"
         }
       ]
     }
