@@ -196,16 +196,16 @@
           "Version": "3.217.0"
         },
         {
-          "Id": "VirtoCommerce.Orders",
-          "Version": "3.227.0"
-        },
-        {
           "Id": "VirtoCommerce.TaskManagement",
           "Version": "3.212.0"
         },
         {
           "Id": "VirtoCommerce.ExperienceApi",
           "Version": "3.304.0"
+        },
+        {
+          "Id": "VirtoCommerce.Orders",
+          "Version": "3.228.0"
         }
       ]
     },
