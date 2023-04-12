@@ -180,10 +180,6 @@
           "Version": "3.209.0"
         },
         {
-          "Id": "VirtoCommerce.Catalog",
-          "Version": "3.264.0"
-        },
-        {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "Version": "3.301.0"
         },
@@ -206,6 +202,10 @@
         {
           "Id": "VirtoCommerce.ExperienceApi",
           "Version": "3.305.0"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "Version": "3.265.0"
         }
       ]
     },
