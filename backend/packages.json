@@ -211,10 +211,6 @@
           "BlobName": "VirtoCommerce.PageBuilderModule_3.210.0-05bca004.zip"
         },
         {
-          "Id": "VirtoCommerce.Catalog",
-          "BlobName": "VirtoCommerce.Catalog_3.265.0-pr-673-8494.zip"
-        },
-        {
           "Id": "VirtoCommerce.Content",
           "BlobName": "VirtoCommerce.Content_3.219.0-pr-140-d18d.zip"
         },
@@ -237,6 +233,10 @@
         {
           "Id": "VirtoCommerce.Orders",
           "BlobName": "VirtoCommerce.Orders_3.228.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "BlobName": "VirtoCommerce.Catalog_3.265.0.zip"
         }
       ]
     }
