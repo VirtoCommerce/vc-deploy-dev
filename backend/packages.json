@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.297.0-alpha.12617",
+  "PlatformVersion": "3.298.0-alpha.12622",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.297.0-alpha.12617-dev-85c5bf04",
+  "PlatformImageTag": "3.298.0-alpha.12622-dev-9fc38580",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -10,8 +10,8 @@
       "ModuleSources": [
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
-      "Modules": [
-         {
+      "Modules": [   
+        {
           "Id": "VirtoCommerce.FileSystemAssets",
           "Version": "3.203.0"
         }
@@ -183,18 +183,6 @@
           "BlobName": "VirtoCommerce.CatalogPersonalization_3.205.0-alpha.225.zip"
         },
         {
-          "Id": "VirtoCommerce.Cart",
-          "BlobName": "VirtoCommerce.Cart_3.217.0-alpha.612.zip"
-        },
-        {
-          "Id": "VirtoCommerce.Orders",
-          "BlobName": "VirtoCommerce.Orders_3.227.0-alpha.1090.zip"
-        },
-        {
-          "Id": "VirtoCommerce.ExperienceApi",
-          "BlobName": "VirtoCommerce.ExperienceApi_3.303.0-alpha.1121.zip"
-        },
-        {
           "Id": "VirtoCommerce.ElasticSearch",
           "BlobName": "VirtoCommerce.ElasticSearch_3.212.0-alpha.213.zip"
         },
@@ -205,10 +193,6 @@
         {
           "Id": "VirtoCommerce.CatalogPublishing",
           "BlobName": "VirtoCommerce.CatalogPublishing_3.204.0-alpha.323.zip"
-        },
-        {
-          "Id": "VirtoCommerce.Catalog",
-          "BlobName": "VirtoCommerce.Catalog_3.265.0-alpha.2093.zip"
         },
         {
           "Id": "VirtoCommerce.Customer",
@@ -223,8 +207,24 @@
           "BlobName": "VirtoCommerce.Content_3.219.0-alpha.876.zip"
         },
         {
+          "Id": "VirtoCommerce.Cart",
+          "BlobName": "VirtoCommerce.Cart_3.218.0-alpha.616.zip"
+        },
+        {
           "Id": "VirtoCommerce.TaskManagement",
-          "BlobName": "VirtoCommerce.TaskManagement_3.211.0-alpha.48.zip"
+          "BlobName": "VirtoCommerce.TaskManagement_3.213.0-alpha.51.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Orders",
+          "BlobName": "VirtoCommerce.Orders_3.229.0-alpha.1098.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "BlobName": "VirtoCommerce.Catalog_3.267.0-alpha.2097.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ExperienceApi",
+          "BlobName": "VirtoCommerce.ExperienceApi_3.306.0-alpha.1133.zip"
         }
       ]
     }
