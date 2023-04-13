@@ -10,10 +10,10 @@
       "ModuleSources": [
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
-      "Modules": [   
-        {
+      "Modules": [
+       {
           "Id": "VirtoCommerce.FileSystemAssets",
-          "Version": "3.203.0"
+          "Version": "3.204.0"
         }
       ]
     },
@@ -203,10 +203,6 @@
           "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.302.0-alpha.143.zip"
         },
         {
-          "Id": "VirtoCommerce.Content",
-          "BlobName": "VirtoCommerce.Content_3.219.0-alpha.876.zip"
-        },
-        {
           "Id": "VirtoCommerce.Cart",
           "BlobName": "VirtoCommerce.Cart_3.218.0-alpha.616.zip"
         },
@@ -224,7 +220,11 @@
         },
         {
           "Id": "VirtoCommerce.ExperienceApi",
-          "BlobName": "VirtoCommerce.ExperienceApi_3.306.0-alpha.1133.zip"
+          "BlobName": "VirtoCommerce.ExperienceApi_3.307.0-alpha.1135.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Content",
+          "BlobName": "VirtoCommerce.Content_3.219.0-alpha.879.zip"
         }
       ]
     }
