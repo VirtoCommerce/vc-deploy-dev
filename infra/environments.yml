@@ -12,6 +12,7 @@
       AzureAd__Priority: 1
       PasswordLogin__Priority: 0
       Reload: 49
+      VirtoCommerce__SampleDataUrl: https://vc3prerelease.blob.core.windows.net/packages/clothing-and-electronics-themeless_3_0_0.zip
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
       AppInsights__EnableDependencyTrackingTelemetryModule: false
       Swagger__UI__Enabled: false
