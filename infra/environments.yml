@@ -46,7 +46,7 @@
     secretConfig:
       Search__ElasticAppSearch__PrivateApiKey: elasticappsearch
   storefront:
-    enabled: true
+    enabled: false
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/storefront
     imageTag: 6.10.0-master-3a9a6e30
     config:
