@@ -4,7 +4,7 @@
   servicePlan: S3
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.294.0-alpha.12603-dev-6487d070-445e561
+    imageTag: 3.298.0-alpha.12622-dev-9fc38580-8790ec7
     sqlReplica: false
     config:
       ConnectionStrings__RedisConnectionString: 
