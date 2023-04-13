@@ -1,7 +1,7 @@
 - name: vcptcore-loadtest
   gitops: true
   production: false
-  servicePlan: F1
+  servicePlan: S3
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
     imageTag: 3.298.0-alpha.12622-dev-9fc38580-8790ec7
@@ -11,7 +11,7 @@
       VirtoCommerce__LocalUploadFolderPath: wwwroot/cms-content
       AzureAd__Priority: 1
       PasswordLogin__Priority: 0
-      Reload: 49
+      Reload: 50
       VirtoCommerce__SampleDataUrl: https://vc3prerelease.blob.core.windows.net/packages/clothing-and-electronics-themeless_3_0_0.zip
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
       AppInsights__EnableDependencyTrackingTelemetryModule: false
