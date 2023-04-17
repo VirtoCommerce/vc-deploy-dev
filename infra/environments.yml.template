@@ -1,9 +1,11 @@
 - name: $ARGO_APP_NAME
+  gitops: false
   production: false
   servicePlan: F1
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcst/platform
     imageTag: 3.258.0-92530d49
+    sqlReplica: false
     config:
       Search__Provider: "ElasticSearch"
       Search__ElasticSearch__Server: https://elasticsearch-vc03.govirto.com
@@ -46,11 +48,11 @@
       Notifications__SendGrid__ApiKey: sendgrid-apikey
       Notifications__Smtp__Password: sendgrid-smtp-password
   storefront:
+    enabled: true
     imageRepository: virtopaasregistrymain.azurecr.io/vcst/storefront
     imageTag: 6.9.0-alpha.922-dev-f2d0b251
-    enabled: true
-    probePath: "/storefrontapi/version"
     servicePlan: F1
+    probePath: "/storefrontapi/health"
     config:
       SYSTEM_RESTART: "12.04.2023"
       SnapshotCollectorConfiguration__IsEnabled: false
@@ -65,8 +67,13 @@
     themes:
       B2B-store: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-1.20.0-alpha.587.zip
   ingress: {}
-  customApps: {}
+  customApps:
+    app1:
+      enabled: false
+    app2:
+      enabled: false
   protectedParameters:
    - themes.B2B-store
    - storefront.image.tag
    - platform.image.tag
+  version: 2.206
