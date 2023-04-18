@@ -12,10 +12,13 @@
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
         {
-          "BlobName": "VirtoCommerce.PageBuilderModule_3.209.0.zip"
+          "BlobName": "VirtoCommerce.PageBuilderModule_3.211.0.zip"
         },
         {
           "BlobName": "VirtoCommerce.PowerBiReports_3.200.0-alpha.7.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Content_3.220.0-pr-143-8bb7.zip"
         }
       ]
     },
@@ -68,10 +71,6 @@
         {
           "Id": "VirtoCommerce.CatalogPublishing",
           "Version": "3.203.0"
-        },
-        {
-          "Id": "VirtoCommerce.Content",
-          "Version": "3.217.0"
         },
         {
           "Id": "VirtoCommerce.Contracts",
