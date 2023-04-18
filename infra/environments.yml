@@ -4,7 +4,7 @@
   servicePlan: F2
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.299.0-033746b
+    imageTag: 3.299.0-0a9329b
     sqlReplica: false
     config:
       Reload: 39
@@ -59,7 +59,7 @@
       Assets__Provider: AzureBlobStorage
       Assets__AzureBlobStorage__ConnectionString: DefaultEndpointsProtocol=https;AccountName=qademovc3;AccountKey=qPIpM63MI2P3ei6B1xIL4/DlKDqdsRj54z2GUtgCAeXPcMe8+mZiUvrvI5fjdyrovk331XmBlMFfAEFAjCnvtw==;EndpointSuffix=core.windows.net
       Assets__AzureBlobStorage__RootPath: catalog
-      Content__Provider: AzureBlobStorage
+      Content__Provider: FileSystem
       Content__PathMappings__pages__0: Themes
       Content__PathMappings__pages__1: _storeId
       Content__PathMappings__pages__2: _theme
