@@ -116,10 +116,6 @@
           "Version": "3.214.0"
         },
         {
-          "Id": "VirtoCommerce.Marketing",
-          "Version": "3.209.0"
-        },
-        {
           "Id": "VirtoCommerce.NativePaymentMethods",
           "Version": "3.205.0"
         },
@@ -206,6 +202,10 @@
         {
           "Id": "VirtoCommerce.Content",
           "Version": "3.219.0"
+        },
+        {
+          "Id": "VirtoCommerce.Marketing",
+          "Version": "3.210.0"
         }
       ]
     },
