@@ -147,10 +147,6 @@
           "BlobName": "VirtoCommerce.Export_3.204.0.zip"
         },
         {
-          "Id": "VirtoCommerce.Marketing",
-          "BlobName": "VirtoCommerce.Marketing_3.210.0-pr-212-0127.zip"
-        },
-        {
           "Id": "VirtoCommerce.Contracts",
           "BlobName": "VirtoCommerce.Contracts_3.206.0-alpha.51.zip"
         },
@@ -237,6 +233,10 @@
         {
           "Id": "VirtoCommerce.Content",
           "BlobName": "VirtoCommerce.Content_3.220.0-pr-143-37f8.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Marketing",
+          "BlobName": "VirtoCommerce.Marketing_3.210.0.zip"
         }
       ]
     }
