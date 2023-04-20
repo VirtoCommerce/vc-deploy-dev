@@ -4,7 +4,7 @@
   servicePlan: S2
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.299.0-ce5821e
+    imageTag: 3.299.0-6d7b9d2
     sqlReplica: false
     config:
       Reload: 43
@@ -127,15 +127,15 @@
     hostname: vcptcore-qa.govirto.com
   customApps:
     app1:
-      enabled: false
-      servicePlan: B1
+      enabled: true
+      servicePlan: B2
       type: platform
       name: platform2
       imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-      imageTag: 3.295.0-alpha.12612-pt-11459-revert-back-pt-10895-9182cd0d-a53cb6a
+      imageTag: 3.299.0-6d7b9d2
       config:
         VirtoCommerce__Hangfire__Queues__items_0: default
-        VirtoCommerce__Hangfire__Queues__items_1: alpha
+        VirtoCommerce__Hangfire__Queues__items_1: index_worker
         Notifications__DefaultSender: azure_25da07ed75daacae20578a7a7dc58541@azure.com
         Notifications__Gateway: SendGrid
         Notifications__Smtp__Host: smtp.sendgrid.net
@@ -147,14 +147,15 @@
         Notifications__Smtp__Password: smtppassword
         Search__ElasticAppSearch__PrivateApiKey: elasticappsearch
     app2:
-      enabled: false
+      enabled: true
       servicePlan: B2
       type: platform
       name: platfrom1
       imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-      imageTag: 3.295.0-alpha.12612-pt-11459-revert-back-pt-10895-9182cd0d-a53cb6a
+      imageTag: 3.299.0-6d7b9d2
       config:
-        VirtoCommerce__Hangfire__Queues__items_0: index_worker
+        VirtoCommerce__Hangfire__Queues__items_0: default
+        VirtoCommerce__Hangfire__Queues__items_1: index_worker
         Notifications__DefaultSender: azure_25da07ed75daacae20578a7a7dc58541@azure.com
         Notifications__Gateway: SendGrid
         Notifications__Smtp__Host: smtp.sendgrid.net
