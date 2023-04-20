@@ -56,10 +56,10 @@
       PasswordLogin__Enabled: true
       Content__FileSystem__PublicUrl: https://vcptcore-qa.govirto.com/cms-content/
       Assets__FileSystem__PublicUrl: https://vcptcore-qa.govirto.com/cms-content/assets/
-      Assets__Provider: FileSystem
+      Assets__Provider: AzureBlobStorage
       Assets__AzureBlobStorage__ConnectionString: DefaultEndpointsProtocol=https;AccountName=qademovc3;AccountKey=qPIpM63MI2P3ei6B1xIL4/DlKDqdsRj54z2GUtgCAeXPcMe8+mZiUvrvI5fjdyrovk331XmBlMFfAEFAjCnvtw==;EndpointSuffix=core.windows.net
       Assets__AzureBlobStorage__RootPath: catalog
-      Content__Provider: FileSystem
+      Content__Provider: AzureBlobStorage
       Content__PathMappings__pages__0: Themes
       Content__PathMappings__pages__1: _storeId
       Content__PathMappings__pages__2: _theme
@@ -120,7 +120,7 @@
       VirtoCommerce__Endpoint__Password: store
       CookieAuthenticationOptions__ExpireTimeSpan: 12:00:00
       Swagger__UI__Enable: true
-     #ConnectionStrings__ContentConnectionString: provider=AzureBlobStorage;rootPath=cms;DefaultEndpointsProtocol=https;AccountName=qademovc3;AccountKey=qPIpM63MI2P3ei6B1xIL4/DlKDqdsRj54z2GUtgCAeXPcMe8+mZiUvrvI5fjdyrovk331XmBlMFfAEFAjCnvtw==;EndpointSuffix=core.windows.net
+      ConnectionStrings__ContentConnectionString: provider=AzureBlobStorage;rootPath=cms;DefaultEndpointsProtocol=https;AccountName=qademovc3;AccountKey=qPIpM63MI2P3ei6B1xIL4/DlKDqdsRj54z2GUtgCAeXPcMe8+mZiUvrvI5fjdyrovk331XmBlMFfAEFAjCnvtw==;EndpointSuffix=core.windows.net
     themes:
       B2B-store: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-1.24.0-pr-498-7eb9-7eb9b8ed.zip
   ingress:
