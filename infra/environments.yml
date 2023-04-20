@@ -1,10 +1,10 @@
 - name: vcptcore-qa
   gitops: true
   production: false
-  servicePlan: F2
+  servicePlan: S1
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.299.0-d4d22a9
+    imageTag: 3.299.0-ce5821e
     sqlReplica: false
     config:
       Reload: 42
