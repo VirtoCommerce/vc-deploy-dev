@@ -1,13 +1,13 @@
 - name: vcptcore-qa
   gitops: true
   production: false
-  servicePlan: S1
+  servicePlan: S2
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
     imageTag: 3.299.0-ce5821e
     sqlReplica: false
     config:
-      Reload: 42
+      Reload: 43
       Notifications__DefaultSender: azure_25da07ed75daacae20578a7a7dc58541@azure.com
       Notifications__Gateway: SendGrid
       Notifications__SmsDefaultSender: +17012510519
