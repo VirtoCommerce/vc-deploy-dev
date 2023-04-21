@@ -211,10 +211,6 @@
           "BlobName": "VirtoCommerce.PageBuilderModule_3.211.0.zip"
         },
         {
-          "Id": "VirtoCommerce.Cart",
-          "BlobName": "VirtoCommerce.Cart_3.218.0-pr-120-d21d.zip"
-        },
-        {
           "Id": "VirtoCommerce.TaskManagement",
           "BlobName": "VirtoCommerce.TaskManagement_3.213.0-pr-6-d52a.zip"
         },
@@ -237,6 +233,10 @@
         {
           "Id": "VirtoCommerce.ExperienceApi",
           "BlobName": "VirtoCommerce.ExperienceApi_3.308.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Cart",
+          "BlobName": "VirtoCommerce.Cart_3.218.0.zip"
         }
       ]
     }
