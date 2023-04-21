@@ -1,10 +1,10 @@
 - name: vcptcore-qa
-  gitops: true
+  gitops: false
   production: false
   servicePlan: S2
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.299.0-c586ce4
+    imageTag: 3.299.0-1d20845
     sqlReplica: false
     config:
       Reload: 44
@@ -35,7 +35,6 @@
       Search__DocumentScopes__4__Scope: vcptcore-qa-platformvcptcore-scope4
       Search__ElasticSearch__EnableCompatibilityMode: true
       Search__ElasticSearch__HealthCheckTimeout: 10
-      #Search__Provider: ElasticAppSearch
       Search__ElasticAppSearch__EnableHttpCompression: true
       Search__ElasticAppSearch__Endpoint: https://enterprise-search-vc03.govirto.com
       Search__AzureSearch__SearchServiceName: qa-demovc-3-search
@@ -112,8 +111,8 @@
   storefront:
     enabled: true
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/storefront
-    servicePlan: S1
     imageTag: 6.14.0-alpha.934-dev-f9c641ee
+    servicePlan: S1
     config:
       SnapshotCollectorConfiguration__IsEnabled: false
       VirtoCommerce__DefaultStore: B2B-store
@@ -133,6 +132,7 @@
       name: platform2
       imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
       imageTag: 3.299.0-6d7b9d2
+      ingressPath: /
       config:
         VirtoCommerce__Hangfire__Queues__items_0: default
         VirtoCommerce__Hangfire__Queues__items_1: index_worker
@@ -153,6 +153,7 @@
       name: platfrom1
       imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
       imageTag: 3.299.0-6d7b9d2
+      ingressPath: /
       config:
         VirtoCommerce__Hangfire__Queues__items_0: default
         VirtoCommerce__Hangfire__Queues__items_1: index_worker
