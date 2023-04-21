@@ -126,7 +126,7 @@
     hostname: vcptcore-qa.govirto.com
   customApps:
     app1:
-      enabled: true
+      enabled: false
       servicePlan: S2
       type: platform
       name: platform2
