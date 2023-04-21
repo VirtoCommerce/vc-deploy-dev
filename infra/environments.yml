@@ -128,7 +128,7 @@
   customApps:
     app1:
       enabled: true
-      servicePlan: B2
+      servicePlan: S2
       type: platform
       name: platform2
       imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
@@ -148,7 +148,7 @@
         Search__ElasticAppSearch__PrivateApiKey: elasticappsearch
     app2:
       enabled: true
-      servicePlan: B2
+      servicePlan: S2
       type: platform
       name: platfrom1
       imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
