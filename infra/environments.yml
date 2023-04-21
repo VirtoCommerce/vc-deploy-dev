@@ -7,7 +7,7 @@
     imageTag: 3.299.0-c586ce4
     sqlReplica: false
     config:
-      Reload: 44
+      Reload: 45
       Notifications__DefaultSender: azure_25da07ed75daacae20578a7a7dc58541@azure.com
       Notifications__Gateway: SendGrid
       Notifications__SmsDefaultSender: +17012510519
@@ -134,6 +134,7 @@
       imageTag: 3.299.0-c586ce4
       ingressPath: /
       config:
+        Reload: 50
         VirtoCommerce__Hangfire__Queues__items_0: default
         VirtoCommerce__Hangfire__Queues__items_1: index_worker
         Notifications__DefaultSender: azure_25da07ed75daacae20578a7a7dc58541@azure.com
@@ -155,6 +156,7 @@
       imageTag: 3.299.0-c586ce4
       ingressPath: /
       config:
+        Reload: 50
         VirtoCommerce__Hangfire__Queues__items_0: default
         VirtoCommerce__Hangfire__Queues__items_1: index_worker
         Notifications__DefaultSender: azure_25da07ed75daacae20578a7a7dc58541@azure.com
