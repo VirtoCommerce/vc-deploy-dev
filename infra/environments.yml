@@ -1,10 +1,10 @@
 - name: vcptcore-qa
-  gitops: false
+  gitops: true
   production: false
   servicePlan: S2
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.299.0-1d20845
+    imageTag: 3.299.0-c586ce4
     sqlReplica: false
     config:
       Reload: 44
@@ -131,7 +131,7 @@
       type: platform
       name: platform2
       imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-      imageTag: 3.299.0-6d7b9d2
+      imageTag: 3.299.0-c586ce4
       ingressPath: /
       config:
         VirtoCommerce__Hangfire__Queues__items_0: default
@@ -152,7 +152,7 @@
       type: platform
       name: platfrom1
       imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-      imageTag: 3.299.0-6d7b9d2
+      imageTag: 3.299.0-c586ce4
       ingressPath: /
       config:
         VirtoCommerce__Hangfire__Queues__items_0: default
