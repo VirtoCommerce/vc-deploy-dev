@@ -160,10 +160,6 @@
           "Version": "3.214.0"
         },
         {
-          "Id": "VirtoCommerce.Notifications",
-          "Version": "3.215.0"
-        },
-        {
           "Id": "VirtoCommerce.AuthorizeNetPayment",
           "Version": "3.206.0"
         },
@@ -206,6 +202,10 @@
         {
           "Id": "VirtoCommerce.Orders",
           "Version": "3.230.0"
+        },
+        {
+          "Id": "VirtoCommerce.Notifications",
+          "Version": "3.216.0"
         }
       ]
     },
