@@ -149,11 +149,11 @@
         Search__ElasticAppSearch__PrivateApiKey: elasticappsearch
     app2:
       enabled: true
-      servicePlan: S2
+      servicePlan: P1
       type: platform
       name: platfrom1
       imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-      imageTag: 3.300.0-alpha.12631-pt-11873-6e3b2b5e-5637cf0
+      imageTag: 3.300.0-alpha.12635-pt-11873-e8e9f92c-2f7010d
       ingressPath: /
       config:
         VirtoCommerce__Hangfire__Queues__items_0: "default"
