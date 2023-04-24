@@ -4,7 +4,7 @@
   servicePlan: S2
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.299.0-9206df7
+    imageTag: 3.300.0-alpha.12631-pt-11873-6e3b2b5e-5637cf0
     sqlReplica: false
     config:
       Reload: 46
@@ -84,7 +84,7 @@
       VirtoCommerce__ApplicationInsights__RoleName: This is QA role
       VirtoCommerce__ApplicationInsights__RoleInstance: This is instance of QA
       Videos__GoogleApiKey: AIzaSyD5A4oFeSgaMQnMo3OiaqUSJ23SQGELiA4
-      Caching__CacheEnabled: true
+      Caching__CacheEnabled: false
       DefaultMainMenuState__items__0__path: browse/catalog
       DefaultMainMenuState__items__0__isFavorite: true
       DefaultMainMenuState__items__0__order: 1
@@ -153,7 +153,7 @@
       type: platform
       name: platfrom1
       imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-      imageTag: 3.299.0-9206df7
+      imageTag: 3.300.0-alpha.12631-pt-11873-6e3b2b5e-5637cf0
       ingressPath: /
       config:
         VirtoCommerce__Hangfire__Queues__items_0: "default"
