@@ -148,7 +148,7 @@
         Notifications__Smtp__Password: smtppassword
         Search__ElasticAppSearch__PrivateApiKey: elasticappsearch
     app2:
-      enabled: true
+      enabled: false
       servicePlan: P1
       type: platform
       name: platfrom1
