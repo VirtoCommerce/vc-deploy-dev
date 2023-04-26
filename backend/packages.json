@@ -48,10 +48,6 @@
           "Version": "3.219.0"
         },
         {
-          "Id": "VirtoCommerce.CustomerExportImport",
-          "Version": "3.202.0"
-        },
-        {
           "Id": "VirtoCommerce.AzureAD",
           "Version": "3.201.0"
         },
@@ -206,6 +202,10 @@
         {
           "Id": "VirtoCommerce.ExperienceApi",
           "Version": "3.310.0"
+        },
+        {
+          "Id": "VirtoCommerce.CustomerExportImport",
+          "Version": "3.203.0"
         }
       ]
     },
