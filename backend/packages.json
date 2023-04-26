@@ -188,6 +188,10 @@
         {
           "Id": "VirtoCommerce.Cart",
           "Version": "3.215.2"
+        },
+        {
+          "Id": "VirtoCommerce.MarketingExperienceApi",
+          "Version": "3.202.0"
         }
       ]
     },
