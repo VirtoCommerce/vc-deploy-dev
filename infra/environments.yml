@@ -1,10 +1,10 @@
 - name: vcptcore-qa
   gitops: true
   production: false
-  servicePlan: P1
+  servicePlan: P2
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.300.0-alpha.12635-pt-11873-e8e9f92c-2f7010d
+    imageTag: 3.301.0-alpha.12635-dev-9d839500-a310da3
     sqlReplica: false
     config:
       Reload: 46
@@ -70,7 +70,7 @@
       VirtoCommerce__LicensePrivateKeyPath: app_data/private.key
       VirtoCommerce__LocalUploadFolderPath: app_data/uploads
       VirtoCommerce__Hangfire__JobStorageType: SqlServer
-      VirtoCommerce__Hangfire__WorkerCount: 5
+      VirtoCommerce__Hangfire__WorkerCount: 8
       VirtoCommerce__Hangfire__Queues__items_0: default
       VirtoCommerce__Hangfire__Queues__items_1: index_worker
       VirtoCommerce__Licensing__LicensePrivateKeyPath: /opt/virtocommerce/platform/license/VirtoCommerce.lic
@@ -148,12 +148,12 @@
         Notifications__Smtp__Password: smtppassword
         Search__ElasticAppSearch__PrivateApiKey: elasticappsearch
     app2:
-      enabled: false
+      enabled: true
       servicePlan: P1
       type: platform
       name: platfrom1
       imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-      imageTag: 3.300.0-alpha.12635-pt-11873-e8e9f92c-2f7010d
+      imageTag: 3.301.0-alpha.12635-dev-9d839500-a310da3
       ingressPath: /
       config:
         VirtoCommerce__Hangfire__Queues__items_0: "default"
