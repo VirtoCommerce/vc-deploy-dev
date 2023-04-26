@@ -1,7 +1,7 @@
 - name: vcptcore-qa
   gitops: true
   production: false
-  servicePlan: P2
+  servicePlan: P1
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
     imageTag: 3.301.0-alpha.12635-dev-9d839500-a310da3
@@ -148,7 +148,7 @@
         Notifications__Smtp__Password: smtppassword
         Search__ElasticAppSearch__PrivateApiKey: elasticappsearch
     app2:
-      enabled: true
+      enabled: false
       servicePlan: P1
       type: platform
       name: platfrom1
