@@ -55,7 +55,7 @@
       PasswordLogin__Enabled: true
       Content__FileSystem__PublicUrl: https://vcptcore-qa.govirto.com/cms-content/
       Assets__FileSystem__PublicUrl: https://vcptcore-qa.govirto.com/cms-content/assets/
-      Assets__Provider: AzureBlobStorage
+      Assets__Provider: FileSystem
       Assets__AzureBlobStorage__ConnectionString: DefaultEndpointsProtocol=https;AccountName=qademovc3;AccountKey=qPIpM63MI2P3ei6B1xIL4/DlKDqdsRj54z2GUtgCAeXPcMe8+mZiUvrvI5fjdyrovk331XmBlMFfAEFAjCnvtw==;EndpointSuffix=core.windows.net
       Assets__AzureBlobStorage__RootPath: catalog
       Content__Provider: AzureBlobStorage
