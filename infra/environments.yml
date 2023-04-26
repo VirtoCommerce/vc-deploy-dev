@@ -4,7 +4,7 @@
   servicePlan: P1
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.301.0-b42f7d1
+    imageTag: 3.301.0-eb43dfc
     sqlReplica: false
     config:
       Reload: 46
@@ -84,7 +84,7 @@
       VirtoCommerce__ApplicationInsights__RoleName: This is QA role
       VirtoCommerce__ApplicationInsights__RoleInstance: This is instance of QA
       Videos__GoogleApiKey: AIzaSyD5A4oFeSgaMQnMo3OiaqUSJ23SQGELiA4
-      Caching__CacheEnabled: true
+      Caching__CacheEnabled: false
       DefaultMainMenuState__items__0__path: browse/catalog
       DefaultMainMenuState__items__0__isFavorite: true
       DefaultMainMenuState__items__0__order: 1
