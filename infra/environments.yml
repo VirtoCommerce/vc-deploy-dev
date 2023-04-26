@@ -4,10 +4,10 @@
   servicePlan: F2
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.293.3-022b044
+    imageTag: 3.293.7-1b03a29
     sqlReplica: false
     config:
-      Reload: 6
+      Reload: 7
       Notifications__DefaultSender: azure_25da07ed75daacae20578a7a7dc58541@azure.com
       Notifications__Gateway: SendGrid
       Notifications__SmsDefaultSender: +17012510519
