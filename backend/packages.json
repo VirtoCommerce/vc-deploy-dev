@@ -40,10 +40,6 @@
           "Version": "3.204.0"
         },
         {
-          "Id": "VirtoCommerce.Search",
-          "Version": "3.219.0"
-        },
-        {
           "Id": "VirtoCommerce.AzureAD",
           "Version": "3.201.0"
         },
@@ -206,6 +202,10 @@
         {
           "Id": "VirtoCommerce.Inventory",
           "Version": "3.215.0"
+        },
+        {
+          "Id": "VirtoCommerce.Search",
+          "Version": "3.220.0"
         }
       ]
     },
