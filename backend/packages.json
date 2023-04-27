@@ -218,12 +218,12 @@
           "BlobName": "VirtoCommerce.ElasticSearch_3.213.0-alpha.215.zip"
         },
         {
-          "Id": "VirtoCommerce.ExperienceApi",
-          "BlobName": "VirtoCommerce.ExperienceApi_3.311.0-alpha.1145.zip"
-        },
-        {
           "Id": "VirtoCommerce.Inventory",
           "BlobName": "VirtoCommerce.Inventory_3.215.0-alpha.419.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ExperienceApi",
+          "BlobName": "VirtoCommerce.ExperienceApi_3.312.0-alpha.1146.zip"
         }
       ]
     }
