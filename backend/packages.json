@@ -196,16 +196,16 @@
           "Version": "3.220.0"
         },
         {
-          "Id": "VirtoCommerce.ExperienceApi",
-          "Version": "3.310.0"
-        },
-        {
           "Id": "VirtoCommerce.CustomerExportImport",
           "Version": "3.203.0"
         },
         {
           "Id": "VirtoCommerce.ElasticSearch",
           "Version": "3.212.0"
+        },
+        {
+          "Id": "VirtoCommerce.ExperienceApi",
+          "Version": "3.311.0"
         }
       ]
     },
