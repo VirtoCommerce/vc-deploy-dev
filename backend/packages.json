@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.301.0",
+  "PlatformVersion": "3.302.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.301.0",
+  "PlatformImageTag": "3.302.0",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -80,7 +80,7 @@
         },
         {
           "Id": "VirtoCommerce.Inventory",
-          "BlobName": "VirtoCommerce.Inventory_3.215.0-pr-131-ad9d.zip"
+          "BlobName": "VirtoCommerce.Inventory_3.215.0.zip"
         },
         {
           "Id": "VirtoCommerce.CatalogPersonalization",
@@ -100,7 +100,7 @@
         },
         {
           "Id": "VirtoCommerce.Search",
-          "BlobName": "VirtoCommerce.Search_3.220.0-pr-93-71eb.zip"
+          "BlobName": "VirtoCommerce.Search_3.220.0.zip"
         },
         {
           "Id": "VirtoCommerce.Quote",
@@ -216,7 +216,7 @@
         },
         {
           "Id": "VirtoCommerce.Catalog",
-          "BlobName": "VirtoCommerce.Catalog_3.267.0-pr-674-1639.zip"
+          "BlobName": "VirtoCommerce.Catalog_3.267.0.zip"
         },
         {
           "Id": "VirtoCommerce.Content",
@@ -224,7 +224,7 @@
         },
         {
           "Id": "VirtoCommerce.ExperienceApi",
-          "BlobName": "VirtoCommerce.ExperienceApi_3.310.0-pr-404-bb35.zip"
+          "BlobName": "VirtoCommerce.ExperienceApi_3.312.0.zip"
         },
         {
           "Id": "VirtoCommerce.Notifications",
