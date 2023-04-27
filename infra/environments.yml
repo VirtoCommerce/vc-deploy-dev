@@ -20,7 +20,7 @@
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
       Swagger__UI__Enabled: false
       PushNotifications__ForceWebSockets: true
-      PushNotifications__ScalabilityMode: RedisBackplane
+      PushNotifications__ScalabilityMode: None
       PushNotifications__HubUrl: https://vcptcore-qa.govirto.com/pushNotificationHub
       PushNotifications__RedisBackplane__ChannelName: vcptcore-qa-chanel
       Search__OrderFullTextSearchEnabled: true
@@ -84,7 +84,7 @@
       VirtoCommerce__ApplicationInsights__RoleName: This is QA role
       VirtoCommerce__ApplicationInsights__RoleInstance: This is instance of QA
       Videos__GoogleApiKey: AIzaSyD5A4oFeSgaMQnMo3OiaqUSJ23SQGELiA4
-      Caching__CacheEnabled: true
+      Caching__CacheEnabled: false
       DefaultMainMenuState__items__0__path: browse/catalog
       DefaultMainMenuState__items__0__isFavorite: true
       DefaultMainMenuState__items__0__order: 1
