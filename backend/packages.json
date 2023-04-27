@@ -79,10 +79,6 @@
           "BlobName": "VirtoCommerce.EventBus_3.203.0.zip"
         },
         {
-          "Id": "VirtoCommerce.Inventory",
-          "BlobName": "VirtoCommerce.Inventory_3.215.0-pr-131-ad9d.zip"
-        },
-        {
           "Id": "VirtoCommerce.CatalogPersonalization",
           "BlobName": "VirtoCommerce.CatalogPersonalization_3.205.0-pr-72-cde6.zip"
         },
@@ -237,6 +233,10 @@
         {
           "Id": "VirtoCommerce.ElasticSearch",
           "BlobName": "VirtoCommerce.ElasticSearch_3.212.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Inventory",
+          "BlobName": "VirtoCommerce.Inventory_3.215.0.zip"
         }
       ]
     }
