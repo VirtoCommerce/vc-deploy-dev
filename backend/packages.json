@@ -215,10 +215,6 @@
           "BlobName": "VirtoCommerce.TestModule_1.0.0.zip"
         },
         {
-          "Id": "VirtoCommerce.Catalog",
-          "BlobName": "VirtoCommerce.Catalog_3.267.0-pr-674-1639.zip"
-        },
-        {
           "Id": "VirtoCommerce.Content",
           "BlobName": "VirtoCommerce.Content_3.220.0-pr-145-20ff.zip"
         },
@@ -237,6 +233,10 @@
         {
           "Id": "VirtoCommerce.ElasticSearch",
           "BlobName": "VirtoCommerce.ElasticSearch_3.212.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "BlobName": "VirtoCommerce.Catalog_3.267.0.zip"
         }
       ]
     }
