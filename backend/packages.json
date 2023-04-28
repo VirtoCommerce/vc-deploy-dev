@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.301.0",
+  "PlatformVersion": "3.302.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.301.0",
+  "PlatformImageTag": "3.302.0",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -224,7 +224,7 @@
         },
         {
           "Id": "VirtoCommerce.ExperienceApi",
-          "BlobName": "VirtoCommerce.ExperienceApi_3.311.0.zip"
+          "BlobName": "VirtoCommerce.ExperienceApi_3.313.0.zip"
         },
         {
           "Id": "VirtoCommerce.Notifications",
@@ -237,6 +237,10 @@
         {
           "Id": "VirtoCommerce.ElasticSearch",
           "BlobName": "VirtoCommerce.ElasticSearch_3.213.0-pr-52-21e7.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ApplicationInsights",
+          "BlobName": "VirtoCommerce.ApplicationInsights_3.200.0.zip"
         }
       ]
     }
