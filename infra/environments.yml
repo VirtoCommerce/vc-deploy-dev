@@ -7,7 +7,7 @@
     imageTag: 3.293.7-1e2b39a
     sqlReplica: false
     config:
-      Reload: 8
+      Reload: 9
       Notifications__DefaultSender: azure_25da07ed75daacae20578a7a7dc58541@azure.com
       Notifications__Gateway: SendGrid
       Notifications__SmsDefaultSender: +17012510519
