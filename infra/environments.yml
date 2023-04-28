@@ -1,7 +1,7 @@
 - name: vcptcore-regression
   gitops: true
   production: false
-  servicePlan: F2
+  servicePlan: S1
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
     imageTag: 3.293.7-1e2b39a
