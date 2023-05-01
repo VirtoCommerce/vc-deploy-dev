@@ -23,6 +23,10 @@
       ],
       "Modules": [
         {
+          "Id": "VirtoCommerce.ApplicationInsights",
+          "Version": "3.202.0"
+        },
+        {
           "Id": "VirtoCommerce.Assets",
           "Version": "3.204.0"
         },
@@ -48,11 +52,11 @@
         },
         {
           "Id": "VirtoCommerce.Cart",
-          "Version": "3.217.0"
+          "Version": "3.219.0"
         },
         {
           "Id": "VirtoCommerce.Catalog",
-          "Version": "3.266.0"
+          "Version": "3.267.0"
         },
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
@@ -68,7 +72,7 @@
         },
         {
           "Id": "VirtoCommerce.Content",
-          "Version": "3.219.0"
+          "Version": "3.220.0"
         },
         {
           "Id": "VirtoCommerce.Contracts",
@@ -104,7 +108,7 @@
         },
         {
           "Id": "VirtoCommerce.ExperienceApi",
-          "Version": "3.307.0"
+          "Version": "3.314.0"
         },
         {
           "Id": "VirtoCommerce.Export",
@@ -128,7 +132,7 @@
         },
         {
           "Id": "VirtoCommerce.Inventory",
-          "Version": "3.214.0"
+          "Version": "3.215.0"
         },
         {
           "Id": "VirtoCommerce.LuceneSearch",
@@ -148,11 +152,11 @@
         },
         {
           "Id": "VirtoCommerce.Notifications",
-          "Version": "3.215.0"
+          "Version": "3.216.0"
         },
         {
           "Id": "VirtoCommerce.Orders",
-          "Version": "3.228.0"
+          "Version": "3.231.0"
         },
         {
           "Id": "VirtoCommerce.Payment",
@@ -180,7 +184,7 @@
         },
         {
           "Id": "VirtoCommerce.Search",
-          "Version": "3.219.0"
+          "Version": "3.220.0"
         },
         {
           "Id": "VirtoCommerce.Shipping",
