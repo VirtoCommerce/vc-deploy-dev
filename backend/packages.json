@@ -78,10 +78,6 @@
           "BlobName": "VirtoCommerce.GDPR_3.203.0-alpha.94.zip"
         },
         {
-          "Id": "VirtoCommerce.ImageTools",
-          "BlobName": "VirtoCommerce.ImageTools_3.208.0-alpha.309.zip"
-        },
-        {
           "Id": "VirtoCommerce.NativePaymentMethods",
           "BlobName": "VirtoCommerce.NativePaymentMethods_3.206.0-alpha.58.zip"
         },
@@ -224,6 +220,10 @@
         {
           "Id": "VirtoCommerce.TaskManagement",
           "BlobName": "VirtoCommerce.TaskManagement_3.214.0-alpha.53.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ImageTools",
+          "BlobName": "VirtoCommerce.ImageTools_3.208.0-alpha.314.zip"
         }
       ]
     }
