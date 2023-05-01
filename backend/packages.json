@@ -207,10 +207,6 @@
           "BlobName": "VirtoCommerce.Cart_3.219.0.zip"
         },
         {
-          "Id": "VirtoCommerce.TaskManagement",
-          "BlobName": "VirtoCommerce.TaskManagement_3.213.0-pr-6-cb61.zip"
-        },
-        {
           "Id": "VirtoCommerce.TestModule",
           "BlobName": "VirtoCommerce.TestModule_1.0.0.zip"
         },
@@ -241,6 +237,10 @@
         {
           "Id": "VirtoCommerce.ApplicationInsights",
           "BlobName": "VirtoCommerce.ApplicationInsights_3.202.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.TaskManagement",
+          "BlobName": "VirtoCommerce.TaskManagement_3.213.0.zip"
         }
       ]
     }
