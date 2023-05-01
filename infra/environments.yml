@@ -4,7 +4,7 @@
   servicePlan: P1
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.304.0-86b495f
+    imageTag: 3.304.0-82949a1
     sqlReplica: false
     config:
       Reload: 47
@@ -36,7 +36,7 @@
       Search__DocumentScopes__4__Scope: vcptcore-qa-platformvcptcore-scope4
       Search__ElasticSearch__EnableCompatibilityMode: true
       Search__ElasticSearch__HealthCheckTimeout: 10
-      Search__Provider: ElasticAppSearch
+     #Search__Provider: ElasticAppSearch
       Search__ElasticAppSearch__EnableHttpCompression: true
       Search__ElasticAppSearch__Endpoint: https://enterprise-search-vc03.govirto.com
       Search__AzureSearch__SearchServiceName: qa-demovc-3-search
