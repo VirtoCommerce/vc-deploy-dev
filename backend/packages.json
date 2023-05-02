@@ -210,10 +210,6 @@
           "BlobName": "VirtoCommerce.Search_3.221.0-alpha.700.zip"
         },
         {
-          "Id": "VirtoCommerce.ExperienceApi",
-          "BlobName": "VirtoCommerce.ExperienceApi_3.315.0-alpha.1152.zip"
-        },
-        {
           "Id": "VirtoCommerce.TaskManagement",
           "BlobName": "VirtoCommerce.TaskManagement_3.214.0-alpha.53.zip"
         },
@@ -224,6 +220,10 @@
         {
           "Id": "VirtoCommerce.ElasticSearch",
           "BlobName": "VirtoCommerce.ElasticSearch_3.214.0-alpha.217.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ExperienceApi",
+          "BlobName": "VirtoCommerce.ExperienceApi_3.315.0-alpha.1153.zip"
         }
       ]
     }
