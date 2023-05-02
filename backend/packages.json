@@ -96,10 +96,6 @@
           "Version": "3.202.0"
         },
         {
-          "Id": "VirtoCommerce.ImageTools",
-          "Version": "3.207.0"
-        },
-        {
           "Id": "VirtoCommerce.NativePaymentMethods",
           "Version": "3.205.0"
         },
@@ -206,6 +202,10 @@
         {
           "Id": "VirtoCommerce.TaskManagement",
           "Version": "3.213.0"
+        },
+        {
+          "Id": "VirtoCommerce.ImageTools",
+          "Version": "3.208.0"
         }
       ]
     },
