@@ -4,9 +4,10 @@
   servicePlan: S1
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.293.7-1e2b39a
+    imageTag: 3.293.7-3a27531
     sqlReplica: false
     config:
+      VirtoCommerce__FileExtensionsBlackList__0: ".pdf"
       Reload: 9
       Notifications__DefaultSender: azure_25da07ed75daacae20578a7a7dc58541@azure.com
       Notifications__Gateway: SendGrid
