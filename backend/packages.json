@@ -202,10 +202,6 @@
           "BlobName": "VirtoCommerce.Catalog_3.268.0-alpha.2099.zip"
         },
         {
-          "Id": "VirtoCommerce.TaskManagement",
-          "BlobName": "VirtoCommerce.TaskManagement_3.214.0-alpha.53.zip"
-        },
-        {
           "Id": "VirtoCommerce.ImageTools",
           "BlobName": "VirtoCommerce.ImageTools_3.209.0-alpha.315.zip"
         },
@@ -224,6 +220,10 @@
         {
           "Id": "VirtoCommerce.ElasticAppSearch",
           "BlobName": "VirtoCommerce.ElasticAppSearch_3.209.0-alpha.87.zip"
+        },
+        {
+          "Id": "VirtoCommerce.TaskManagement",
+          "BlobName": "VirtoCommerce.TaskManagement_3.214.0-alpha.55.zip"
         }
       ]
     }
