@@ -4,7 +4,7 @@
   servicePlan: P1
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.304.0-26b9f26
+    imageTag: 3.304.0-953a89b
     sqlReplica: false
     config:
       Reload: 49
@@ -34,6 +34,8 @@
       Search__DocumentScopes__3__Scope: vcptcore-qa-platformvcptcore-scope3
       Search__DocumentScopes__4__DocumentType: CustomerOrder
       Search__DocumentScopes__4__Scope: vcptcore-qa-platformvcptcore-scope4
+      Search__DocumentScopes__5__DocumentType: ContentFile
+      Search__DocumentScopes__5__Scope: vcptcore-qa-platformvcptcore-scope6
       Search__ElasticSearch__EnableCompatibilityMode: true
       Search__ElasticSearch__HealthCheckTimeout: 10
       Search__Provider: ElasticAppSearch
