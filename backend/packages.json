@@ -98,10 +98,6 @@
           "BlobName": "VirtoCommerce.Return_3.206.0-alpha.63.zip"
         },
         {
-          "Id": "VirtoCommerce.Tax",
-          "BlobName": "VirtoCommerce.Tax_3.204.0-alpha.154.zip"
-        },
-        {
           "Id": "VirtoCommerce.Store",
           "BlobName": "VirtoCommerce.Store_3.210.0-alpha.652.zip"
         },
@@ -224,6 +220,10 @@
         {
           "Id": "VirtoCommerce.ElasticAppSearch",
           "BlobName": "VirtoCommerce.ElasticAppSearch_3.210.0-alpha.90.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Tax",
+          "BlobName": "VirtoCommerce.Tax_3.204.0-alpha.159.zip"
         }
       ]
     }
