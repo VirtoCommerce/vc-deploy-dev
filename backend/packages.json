@@ -108,10 +108,6 @@
           "Version": "4.2.0"
         },
         {
-          "Id": "VirtoCommerce.ElasticAppSearch",
-          "Version": "3.208.0"
-        },
-        {
           "Id": "VirtoCommerce.Assets",
           "Version": "3.204.0"
         },
@@ -206,6 +202,10 @@
         {
           "Id": "VirtoCommerce.ExperienceApi",
           "Version": "3.315.0"
+        },
+        {
+          "Id": "VirtoCommerce.ElasticAppSearch",
+          "Version": "3.209.0"
         }
       ]
     },
