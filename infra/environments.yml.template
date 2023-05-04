@@ -65,7 +65,7 @@
       CookieAuthenticationOptions__LoginPath: "/sign-in"
     secretConfig: {}
     themes:
-      B2B-store: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-1.27.0-alpha.662.zip
+      B2B-store: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-1.28.0-alpha.679.zip
   ingress: {}
   customApps:
     app1:
@@ -76,4 +76,4 @@
    - themes.B2B-store
    - storefront.image.tag
    - platform.image.tag
-  version: 2.206
+  version: 3.207
