@@ -218,12 +218,12 @@
           "BlobName": "VirtoCommerce.ExperienceApi_3.316.0-alpha.1158.zip"
         },
         {
-          "Id": "VirtoCommerce.ElasticAppSearch",
-          "BlobName": "VirtoCommerce.ElasticAppSearch_3.209.0-alpha.87.zip"
-        },
-        {
           "Id": "VirtoCommerce.TaskManagement",
           "BlobName": "VirtoCommerce.TaskManagement_3.214.0-alpha.54.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ElasticAppSearch",
+          "BlobName": "VirtoCommerce.ElasticAppSearch_3.210.0-alpha.88.zip"
         }
       ]
     }
