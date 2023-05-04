@@ -4,12 +4,12 @@
   servicePlan: P1
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.304.0-dd5a086
+    imageTag: 3.304.0-f1363ea
     sqlReplica: false
     config:
       Reload: 49
       ConnectionStrings__RedisConnectionString: ""
-      TaxModule__FixedRateTaxProvider__Enabled: true
+      TaxModule__FixedRateTaxProvider__Enabled: false
       Notifications__DefaultSender: azure_25da07ed75daacae20578a7a7dc58541@azure.com
       Notifications__Gateway: SendGrid
       Notifications__SmsDefaultSender: +17012510519
