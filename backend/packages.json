@@ -63,10 +63,6 @@
           "BlobName": "VirtoCommerce.Return_3.206.0-pr-9-c002.zip"
         },
         {
-          "Id": "VirtoCommerce.Tax",
-          "BlobName": "VirtoCommerce.Tax_3.204.0-pr-45-6f43.zip"
-        },
-        {
           "Id": "VirtoCommerce.Shipping",
           "BlobName": "VirtoCommerce.Shipping_3.204.0-pr-42-7110.zip"
         },
@@ -241,6 +237,10 @@
         {
           "Id": "VirtoCommerce.TaskManagement",
           "BlobName": "VirtoCommerce.TaskManagement_3.214.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Tax",
+          "BlobName": "VirtoCommerce.Tax_3.204.0.zip"
         }
       ]
     }
