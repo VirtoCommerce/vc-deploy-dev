@@ -17,9 +17,12 @@
       Notifications__Smtp__Login: apikey
       Notifications__Smtp__Port: 587
       Search__ElasticSearch__EnableCompatibilityMode: true
-      Search__Provider: ElasticAppSearch
+      Search__Provider: AzureSearch
       Search__ElasticAppSearch__EnableHttpCompression: true
       Search__ElasticAppSearch__Endpoint: https://enterprise-search-vc03.govirto.com
+      Search__AzureSearch__SearchServiceName: qa-demovc-3-search
+      Search__AzureSearch__Key: 6BE1143312E89C26C227E6BBAE24DD47
+      Search__AzureSearch__QueryParserType: Full
       Content__FileSystem__PublicUrl: https://vcptcore-regression.govirto.com/cms-content/
       Assets__FileSystem__PublicUrl: https://vcptcore-regression.govirto.com/cms-content/assets/
       Assets__Provider: AzureBlobStorage
