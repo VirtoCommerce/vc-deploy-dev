@@ -50,7 +50,7 @@
       Payments__AuthorizeNet__TxnKey: 63c54EWq5d2XnGAR
       Tax__Avalara__AccountNumber: 2000188799
       Tax__Avalara__LicenseKey: 16BC3F87E836E15C
-      AzureAd__Enabled: false
+      AzureAd__Enabled: true
       AzureAd__Priority: 1
       AzureAd__AuthenticationType: AzureAD
       AzureAd__ApplicationId: 8227d950-975c-4c28-b7d4-ea440a59dcbb
