@@ -192,6 +192,10 @@
         {
           "Id": "VirtoCommerce.MarketingExperienceApi",
           "Version": "3.202.0"
+        },
+        {
+          "Id": "VirtoCommerce.AzureAD",
+          "BlobName": "3.201.0"
         }
       ]
     },
