@@ -4,7 +4,7 @@
   servicePlan: S1
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.293.7-3a27531
+    imageTag: 3.293.7-d4cc308
     sqlReplica: false
     config:
       VirtoCommerce__FileExtensionsBlackList__0: ".pdf"
