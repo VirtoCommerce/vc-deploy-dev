@@ -4,7 +4,7 @@
   servicePlan: P1
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.304.0-0322c5f
+    imageTag: 3.305.0-1d193a8
     sqlReplica: false
     config:
       Reload: 49
