@@ -203,10 +203,6 @@
           "BlobName": "VirtoCommerce.Notifications_3.216.0.zip"
         },
         {
-          "Id": "VirtoCommerce.Orders",
-          "BlobName": "VirtoCommerce.Orders_3.232.0-pr-343-b2e6.zip"
-        },
-        {
           "Id": "VirtoCommerce.ApplicationInsights",
           "BlobName": "VirtoCommerce.ApplicationInsights_3.202.0.zip"
         },
@@ -241,6 +237,10 @@
         {
           "Id": "VirtoCommerce.ExperienceApi",
           "BlobName": "VirtoCommerce.ExperienceApi_3.319.0-pr-410-e741.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Orders",
+          "BlobName": "VirtoCommerce.Orders_3.232.0.zip"
         }
       ]
     }
