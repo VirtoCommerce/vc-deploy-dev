@@ -4,7 +4,7 @@
   servicePlan: P1
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.305.0-1d193a8
+    imageTag: 3.306.0-alpha.12657-pt-12153-27cfe323-9947818
     sqlReplica: false
     config:
       Reload: 49
@@ -93,6 +93,7 @@
       DefaultMainMenuState__items__0__isFavorite: true
       DefaultMainMenuState__items__0__order: 1
       Authorization__ReturnPasswordHash: true
+      Authorization__AllowApiAccessForCustomers: false
       IdentityOptions__Password__RequiredLength: 3
       IdentityOptions__Password__RequireDigit: true
       IdentityOptions__Password__RequireNonAlphanumeric: false
