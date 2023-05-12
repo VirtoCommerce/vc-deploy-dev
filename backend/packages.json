@@ -13,9 +13,6 @@
       "Modules": [
         {
           "BlobName": "VirtoCommerce.PageBuilderModule_3.209.0.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.Hotjar_3.200.0-alpha.3-dev.zip"
         }
       ]
     },
@@ -212,6 +209,10 @@
         {
           "Id": "VirtoCommerce.WebHooks",
           "Version": "3.209.0"
+        },
+        {
+          "Id": "VirtoCommerce.Hotjar",
+          "Version": "3.200.0"
         }
       ]
     }
