@@ -54,7 +54,7 @@
     servicePlan: F1
     probePath: "/storefrontapi/health"
     config:
-      SYSTEM_RESTART: "12.05.2023"
+      SYSTEM_RESTART: "12.05.2023_1"
       SnapshotCollectorConfiguration__IsEnabled: false
       VirtoCommerce__DefaultStore: B2B-store
       VirtoCommerce__Endpoint__Password: Store12345
