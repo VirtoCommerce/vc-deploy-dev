@@ -24,10 +24,6 @@
           "Version": "3.203.0"
         },
         {
-          "Id": "VirtoCommerce.Store",
-          "Version": "3.209.0"
-        },
-        {
           "Id": "VirtoCommerce.EventBus",
           "Version": "3.203.0"
         },
@@ -206,6 +202,10 @@
         {
           "Id": "VirtoCommerce.ExperienceApi",
           "Version": "3.320.0"
+        },
+        {
+          "Id": "VirtoCommerce.Store",
+          "Version": "3.210.0"
         }
       ]
     },
