@@ -1,6 +1,6 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.304.0",
+  "PlatformVersion": "3.306.0",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -59,7 +59,7 @@
         },
         {
           "Id": "VirtoCommerce.Catalog",
-          "Version": "3.267.0"
+          "Version": "3.268.0"
         },
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
@@ -75,7 +75,7 @@
         },
         {
           "Id": "VirtoCommerce.Content",
-          "Version": "3.220.0"
+          "Version": "3.221.0"
         },
         {
           "Id": "VirtoCommerce.Contracts",
@@ -99,7 +99,7 @@
         },
         {
           "Id": "VirtoCommerce.ElasticAppSearch",
-          "Version": "3.208.0"
+          "Version": "3.209.0"
         },
         {
           "Id": "VirtoCommerce.EventBus",
@@ -107,7 +107,7 @@
         },
         {
           "Id": "VirtoCommerce.ExperienceApi",
-          "Version": "3.314.0"
+          "Version": "3.320.0"
         },
         {
           "Id": "VirtoCommerce.Export",
@@ -124,6 +124,10 @@
         {
           "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
           "Version": "4.2.0"
+        },
+        {
+          "Id": "VirtoCommerce.Hotjar",
+          "Version": "3.200.0"
         },
         {
           "Id": "VirtoCommerce.ImageTools",
@@ -147,7 +151,7 @@
         },
         {
           "Id": "VirtoCommerce.Orders",
-          "Version": "3.231.0"
+          "Version": "3.232.0"
         },
         {
           "Id": "VirtoCommerce.Payment",
@@ -175,7 +179,7 @@
         },
         {
           "Id": "VirtoCommerce.Search",
-          "Version": "3.220.0"
+          "Version": "3.221.0"
         },
         {
           "Id": "VirtoCommerce.Shipping",
@@ -195,7 +199,7 @@
         },
         {
           "Id": "VirtoCommerce.TaskManagement",
-          "Version": "3.212.0"
+          "Version": "3.214.0"
         },
         {
           "Id": "VirtoCommerce.Tax",
