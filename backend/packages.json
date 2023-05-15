@@ -1,6 +1,6 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.304.0",
+  "PlatformVersion": "3.307.0",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -56,7 +56,7 @@
         },
         {
           "Id": "VirtoCommerce.Catalog",
-          "Version": "3.267.0"
+          "Version": "3.268.0"
         },
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
@@ -72,7 +72,7 @@
         },
         {
           "Id": "VirtoCommerce.Content",
-          "Version": "3.220.0"
+          "Version": "3.221.0"
         },
         {
           "Id": "VirtoCommerce.Contracts",
@@ -96,11 +96,11 @@
         },
         {
           "Id": "VirtoCommerce.ElasticAppSearch",
-          "Version": "3.208.0"
+          "Version": "3.209.0"
         },
         {
           "Id": "VirtoCommerce.ElasticSearch",
-          "Version": "3.212.0"
+          "Version": "3.213.0"
         },
         {
           "Id": "VirtoCommerce.EventBus",
@@ -108,7 +108,7 @@
         },
         {
           "Id": "VirtoCommerce.ExperienceApi",
-          "Version": "3.314.0"
+          "Version": "3.320.0"
         },
         {
           "Id": "VirtoCommerce.Export",
@@ -128,7 +128,7 @@
         },
         {
           "Id": "VirtoCommerce.ImageTools",
-          "Version": "3.207.0"
+          "Version": "3.208.0"
         },
         {
           "Id": "VirtoCommerce.Inventory",
@@ -156,7 +156,7 @@
         },
         {
           "Id": "VirtoCommerce.Orders",
-          "Version": "3.231.0"
+          "Version": "3.232.0"
         },
         {
           "Id": "VirtoCommerce.Payment",
@@ -184,7 +184,7 @@
         },
         {
           "Id": "VirtoCommerce.Search",
-          "Version": "3.220.0"
+          "Version": "3.221.0"
         },
         {
           "Id": "VirtoCommerce.Shipping",
@@ -204,7 +204,7 @@
         },
         {
           "Id": "VirtoCommerce.Tax",
-          "Version": "3.203.0"
+          "Version": "3.204.0"
         },
         {
           "Id": "VirtoCommerce.WebHooks",
