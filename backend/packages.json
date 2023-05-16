@@ -214,16 +214,16 @@
           "BlobName": "VirtoCommerce.ExperienceApi_3.321.0-alpha.1169.zip"
         },
         {
-          "Id": "VirtoCommerce.Search",
-          "BlobName": "VirtoCommerce.Search_3.222.0-alpha.702.zip"
-        },
-        {
           "Id": "VirtoCommerce.Store",
           "BlobName": "VirtoCommerce.Store_3.211.0-alpha.658.zip"
         },
         {
           "Id": "VirtoCommerce.Notifications",
           "BlobName": "VirtoCommerce.Notifications_3.218.0-alpha.326.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Search",
+          "BlobName": "VirtoCommerce.Search_3.222.0-alpha.705.zip"
         }
       ]
     }
