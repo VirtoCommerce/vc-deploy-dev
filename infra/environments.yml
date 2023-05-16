@@ -56,11 +56,13 @@
     themes:
       B2B-store: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.30.0/vc-theme-b2b-vue-1.30.0.zip
   ingress:
-    hostname: virtostart-demo-admin.govirto.com
-    storefrontHostname: virtostart-demo-store.govirto.com
+    hostnames:
+      name1: virtostart-demo-admin.govirto.com
+    storefrontHostnames:
+      name1: virtostart-demo-store.govirto.com
   customApps: {}
   protectedParameters:
    - platform.image.tag
    - storefront.image.tag
-  version: 2.206
+  version: 3.207
 
