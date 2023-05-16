@@ -168,10 +168,6 @@
           "Version": "3.213.0"
         },
         {
-          "Id": "VirtoCommerce.ElasticAppSearch",
-          "Version": "3.209.0"
-        },
-        {
           "Id": "VirtoCommerce.TaskManagement",
           "Version": "3.214.0"
         },
@@ -206,6 +202,10 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "Version": "3.269.0"
+        },
+        {
+          "Id": "VirtoCommerce.ElasticAppSearch",
+          "Version": "3.210.0"
         }
       ]
     },
