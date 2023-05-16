@@ -4,7 +4,7 @@
   servicePlan: S1
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.293.7-d4cc308
+    imageTag: 3.293.10-36d5c4b
     sqlReplica: false
     config:
       Authorization__AllowApiAccessForCustomers: true
