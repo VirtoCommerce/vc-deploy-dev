@@ -7,6 +7,7 @@
     imageTag: 3.293.7-d4cc308
     sqlReplica: false
     config:
+      Authorization__AllowApiAccessForCustomers: true
       VirtoCommerce__FileExtensionsBlackList__0: ".pdf"
       Reload: 10
       Notifications__DefaultSender: azure_25da07ed75daacae20578a7a7dc58541@azure.com
