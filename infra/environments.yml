@@ -7,6 +7,7 @@
     imageTag: 3.298.0-alpha.12622-dev-9fc38580-6c08b08
     sqlReplica: false
     config:
+      DOTNET_USE_POLLING_FILE_WATCHER: true
       ConnectionStrings__RedisConnectionString: 
       VirtoCommerce__LocalUploadFolderPath: wwwroot/cms-content
       AzureAd__Priority: 1
@@ -50,6 +51,7 @@
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/storefront
     imageTag: 6.10.0-master-3a9a6e30
     config:
+      DOTNET_USE_POLLING_FILE_WATCHER: true
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
       CookieAuthenticationOptions__ExpireTimeSpan: 12:00:00
       SnapshotCollectorConfiguration__IsEnabled: false
