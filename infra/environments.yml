@@ -7,6 +7,7 @@
     imageTag: 3.306.0-alpha.12657-pt-12153-27cfe323-9947818
     sqlReplica: false
     config:
+      DOTNET_USE_POLLING_FILE_WATCHER: true
       Reload: 49
       ConnectionStrings__RedisConnectionString: ""
       TaxModule__FixedRateTaxProvider__Enabled: true
@@ -119,6 +120,7 @@
     imageTag: 6.14.0-alpha.934-dev-f9c641ee
     servicePlan: S1
     config:
+      DOTNET_USE_POLLING_FILE_WATCHER: true
       SnapshotCollectorConfiguration__IsEnabled: false
       VirtoCommerce__DefaultStore: B2B-store
       VirtoCommerce__Endpoint__Password: store
@@ -140,6 +142,7 @@
       ingressPath: /
       config:
         Reload: 50
+        DOTNET_USE_POLLING_FILE_WATCHER: true
         VirtoCommerce__Hangfire__Queues__items_0: default
         VirtoCommerce__Hangfire__Queues__items_1: index_worker
         Notifications__DefaultSender: azure_25da07ed75daacae20578a7a7dc58541@azure.com
@@ -161,6 +164,7 @@
       imageTag: 3.301.0-alpha.12635-dev-9d839500-a310da3
       ingressPath: /
       config:
+        DOTNET_USE_POLLING_FILE_WATCHER: true
         VirtoCommerce__Hangfire__Queues__items_0: "default"
         VirtoCommerce__Hangfire__Queues__items_1: "index_worker"
         Notifications__DefaultSender: "azure_25da07ed75daacae20578a7a7dc58541@azure.com"
