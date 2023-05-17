@@ -15,7 +15,7 @@
       Notifications__Smtp__Host: smtp.sendgrid.net
       Notifications__Smtp__Login: apikey
       Notifications__Smtp__Port: 587
-      Reload: 2
+      Reload: 3
       Search__ElasticSearch__EnableCompatibilityMode: true
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
       AppInsights__EnableDependencyTrackingTelemetryModule: false
