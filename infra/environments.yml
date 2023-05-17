@@ -7,6 +7,7 @@
     imageTag: 3.264.14-c5e1d9b
     sqlReplica: false
     config:
+      DOTNET_USE_POLLING_FILE_WATCHER: true
       Notifications__DefaultSender: azure_25da07ed75daacae20578a7a7dc58541@azure.com
       Notifications__Gateway: SendGrid
       Notifications__SmsDefaultSender: +17012510519
@@ -57,6 +58,7 @@
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/storefront
     imageTag: 6.0
     config:
+      DOTNET_USE_POLLING_FILE_WATCHER: true
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
       CookieAuthenticationOptions__ExpireTimeSpan: 12:00:00
       Swagger__UI__Enable: true
