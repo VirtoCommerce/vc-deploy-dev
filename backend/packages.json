@@ -225,6 +225,10 @@
         {
           "Id": "VirtoCommerce.ExperienceApi",
           "BlobName": "VirtoCommerce.ExperienceApi_3.323.0-alpha.1175.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ApplicationInsights",
+          "BlobName": "VirtoCommerce.ApplicationInsights_3.202.0.zip"
         }
       ]
     }
