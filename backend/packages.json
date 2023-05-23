@@ -239,12 +239,12 @@
           "BlobName": "VirtoCommerce.Catalog_3.270.0.zip"
         },
         {
-          "Id": "VirtoCommerce.Orders",
-          "BlobName": "VirtoCommerce.Orders_3.234.0-pr-346-d8d6.zip"
-        },
-        {
           "Id": "VirtoCommerce.Hotjar",
           "BlobName": "VirtoCommerce.Hotjar_3.200.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Orders",
+          "BlobName": "VirtoCommerce.Orders_3.234.0.zip"
         }
       ]
     }
