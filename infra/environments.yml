@@ -4,11 +4,11 @@
   servicePlan: P1
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.306.0-alpha.12657-pt-12153-27cfe323-9947818
+    imageTag: 3.308.0-alpha.12663-pt-12236-clear-blade-error-a2968438-1703d03
     sqlReplica: false
     config:
       DOTNET_USE_POLLING_FILE_WATCHER: true
-      Reload: 49
+      Reload: 50
       ConnectionStrings__RedisConnectionString: ""
       TaxModule__FixedRateTaxProvider__Enabled: true
       Notifications__DefaultSender: azure_25da07ed75daacae20578a7a7dc58541@azure.com
