@@ -27,19 +27,19 @@
       PushNotifications__RedisBackplane__ChannelName: vcptcore-qa-chanel
       Search__OrderFullTextSearchEnabled: true
       Search__ContentFullTextSearchEnabled: true
-      #Search__DocumentScopes__0__DocumentType: Product
-      #Search__DocumentScopes__0__Scope: vcptcore-qa-platformvcptcore-scope1
-      #Search__DocumentScopes__2__DocumentType: Category
-      #Search__DocumentScopes__2__Scope: vcptcore-qa-platformvcptcore-scope5
-      #Search__DocumentScopes__3__DocumentType: Member
-      #Search__DocumentScopes__3__Scope: vcptcore-qa-platformvcptcore-scope3
-      #Search__DocumentScopes__4__DocumentType: CustomerOrder
-      #Search__DocumentScopes__4__Scope: vcptcore-qa-platformvcptcore-scope4
-      #Search__DocumentScopes__5__DocumentType: ContentFile
-      #Search__DocumentScopes__5__Scope: vcptcore-qa-platformvcptcore-scope6
-      #Search__ElasticSearch__EnableCompatibilityMode: true
-      #Search__ElasticSearch__HealthCheckTimeout: 10
-      Search__Provider: AzureSearch
+      Search__DocumentScopes__0__DocumentType: Product
+      Search__DocumentScopes__0__Scope: vcptcore-qa-platformvcptcore-scope1
+      Search__DocumentScopes__2__DocumentType: Category
+      Search__DocumentScopes__2__Scope: vcptcore-qa-platformvcptcore-scope5
+      Search__DocumentScopes__3__DocumentType: Member
+      Search__DocumentScopes__3__Scope: vcptcore-qa-platformvcptcore-scope3
+      Search__DocumentScopes__4__DocumentType: CustomerOrder
+      Search__DocumentScopes__4__Scope: vcptcore-qa-platformvcptcore-scope4
+      Search__DocumentScopes__5__DocumentType: ContentFile
+      Search__DocumentScopes__5__Scope: vcptcore-qa-platformvcptcore-scope6
+      Search__ElasticSearch__EnableCompatibilityMode: true
+      Search__ElasticSearch__HealthCheckTimeout: 10
+      Search__Provider: ElasticSearch
       Search__ElasticAppSearch__EnableHttpCompression: true
       Search__ElasticAppSearch__Endpoint: https://enterprise-search-vc03.govirto.com
       Search__AzureSearch__SearchServiceName: qa-demovc-3-search
