@@ -51,10 +51,6 @@
           "BlobName": "VirtoCommerce.CatalogCsvImportModule_3.205.0.zip"
         },
         {
-          "Id": "VirtoCommerce.AzureSearch",
-          "BlobName": "VirtoCommerce.AzureSearch_3.206.0-pr-33-30bf.zip"
-        },
-        {
           "Id": "VirtoCommerce.NativePaymentMethods",
           "BlobName": "VirtoCommerce.NativePaymentMethods_3.205.0.zip"
         },
@@ -245,6 +241,10 @@
         {
           "Id": "VirtoCommerce.ElasticSearch",
           "BlobName": "VirtoCommerce.ElasticSearch_3.214.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.AzureSearch",
+          "BlobName": "VirtoCommerce.AzureSearch_3.206.0.zip"
         }
       ]
     }
