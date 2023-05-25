@@ -1,10 +1,10 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.264.14",
+  "PlatformVersion": "3.264.15",
   "StorefrontVersion": "6.10.0-master-3a9a6e30",
   "ThemeB2BVue": "https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.17.0/vc-theme-b2b-vue-1.17.0.zip",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.264.14",
+  "PlatformImageTag": "3.264.15",
   "PlatformAssetUrl": "",
   "Sources": [
     {
