@@ -4,7 +4,7 @@
   servicePlan: P1
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.308.0-alpha.12663-pt-12236-clear-blade-error-a2968438-1703d03
+    imageTag: 3.308.0-pr-2655-86e9-pt-12236-clear-blade-error-86e9fc84
     sqlReplica: false
     config:
       DOTNET_USE_POLLING_FILE_WATCHER: true
