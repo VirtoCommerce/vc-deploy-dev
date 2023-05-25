@@ -227,10 +227,6 @@
           "BlobName": "VirtoCommerce.Hotjar_3.200.0.zip"
         },
         {
-          "Id": "VirtoCommerce.ExperienceApi",
-          "BlobName": "VirtoCommerce.ExperienceApi_3.323.0-pr-416-84af.zip"
-        },
-        {
           "Id": "VirtoCommerce.Orders",
           "BlobName": "VirtoCommerce.Orders_3.235.0.zip"
         },
@@ -245,6 +241,10 @@
         {
           "Id": "VirtoCommerce.AzureSearch",
           "BlobName": "VirtoCommerce.AzureSearch_3.206.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ExperienceApi",
+          "BlobName": "VirtoCommerce.ExperienceApi_3.323.0.zip"
         }
       ]
     }
