@@ -7,6 +7,7 @@
     imageTag: 3.258.0-92530d49
     sqlReplica: false
     config:
+      DOTNET_USE_POLLING_FILE_WATCHER: true
       Search__Provider: "ElasticSearch"
       Search__ElasticSearch__Server: https://elasticsearch-vc03.govirto.com
       Search__ElasticSearch__EnableCompatibilityMode: "true"
@@ -55,6 +56,7 @@
     probePath: "/storefrontapi/health"
     config:
       SYSTEM_RESTART: "30.05.2023"
+      DOTNET_USE_POLLING_FILE_WATCHER: true
       SnapshotCollectorConfiguration__IsEnabled: false
       VirtoCommerce__DefaultStore: B2B-store
       VirtoCommerce__Endpoint__Password: Store12345
