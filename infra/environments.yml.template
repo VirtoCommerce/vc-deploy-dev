@@ -14,6 +14,8 @@
       Search__ElasticAppSearch__Endpoint: https://enterprise-search-test.govirto.com
       Search__ElasticAppSearch__EnableHttpCompression: "true"
       Search__OrderFullTextSearchEnabled: "true"
+      VirtoCommerce__UseAllOfToExtendReferenceSchemas: "false"
+      VirtoCommerce__IncludeOutputNullValues: "false"
       VirtoCommerce__LocalUploadFolderPath: wwwroot/cms-content
       VirtoCommerce__SampleDataUrl: https://vc3prerelease.blob.core.windows.net/packages/clothing-and-electronics_3_0_2.zip
       APPINSIGHTS_INSTRUMENTATIONKEY: b64da477-188b-4154-969b-3cb1310400f0
