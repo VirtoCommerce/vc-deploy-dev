@@ -1,6 +1,6 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.306.0",
+  "PlatformVersion": "3.308.0",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -59,7 +59,7 @@
         },
         {
           "Id": "VirtoCommerce.Catalog",
-          "Version": "3.268.0"
+          "Version": "3.270.0"
         },
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
@@ -99,7 +99,7 @@
         },
         {
           "Id": "VirtoCommerce.ElasticAppSearch",
-          "Version": "3.209.0"
+          "Version": "3.210.0"
         },
         {
           "Id": "VirtoCommerce.EventBus",
@@ -107,7 +107,7 @@
         },
         {
           "Id": "VirtoCommerce.ExperienceApi",
-          "Version": "3.320.0"
+          "Version": "3.323.0"
         },
         {
           "Id": "VirtoCommerce.Export",
@@ -151,7 +151,7 @@
         },
         {
           "Id": "VirtoCommerce.Orders",
-          "Version": "3.232.0"
+          "Version": "3.235.0"
         },
         {
           "Id": "VirtoCommerce.Payment",
@@ -179,7 +179,7 @@
         },
         {
           "Id": "VirtoCommerce.Search",
-          "Version": "3.221.0"
+          "Version": "3.222.0"
         },
         {
           "Id": "VirtoCommerce.Shipping",
@@ -191,7 +191,7 @@
         },
         {
           "Id": "VirtoCommerce.Store",
-          "Version": "3.209.0"
+          "Version": "3.210.0"
         },
         {
           "Id": "VirtoCommerce.Subscription",
@@ -203,7 +203,7 @@
         },
         {
           "Id": "VirtoCommerce.Tax",
-          "Version": "3.203.0"
+          "Version": "3.204.0"
         },
         {
           "Id": "VirtoCommerce.WebHooks",
