@@ -4,7 +4,7 @@
   servicePlan: P1
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.308.0-alpha.12664-pt-12236-clear-blade-error-86e9fc84-3f7e8e4
+    imageTag: 3.309.0-alpha.12672-return-types-in-external-sign-in-methods-8e938d50-699547c
     sqlReplica: false
     config:
       DOTNET_USE_POLLING_FILE_WATCHER: true
@@ -124,7 +124,7 @@
       SnapshotCollectorConfiguration__IsEnabled: false
       VirtoCommerce__DefaultStore: B2B-store
       VirtoCommerce__Endpoint__Password: store
-      CookieAuthenticationOptions__ExpireTimeSpan: 12:00:00
+      CookieAuthenticationOptions__ExpireTimeSpan: 00:03:00
       Swagger__UI__Enable: true
       ConnectionStrings__ContentConnectionString: provider=AzureBlobStorage;rootPath=cms;DefaultEndpointsProtocol=https;AccountName=qademovc3;AccountKey=qPIpM63MI2P3ei6B1xIL4/DlKDqdsRj54z2GUtgCAeXPcMe8+mZiUvrvI5fjdyrovk331XmBlMFfAEFAjCnvtw==;EndpointSuffix=core.windows.net
     themes:
