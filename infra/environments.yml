@@ -11,13 +11,13 @@
       Reload: 51
       ConnectionStrings__RedisConnectionString: ""
       TaxModule__FixedRateTaxProvider__Enabled: true
-      Notifications__DefaultSender: tzykin.alexandr@yandex.ru
+      Notifications__DefaultSender: azure_25da07ed75daacae20578a7a7dc58541@azure.com
       Notifications__Gateway: Smtp
       Notifications__SmsDefaultSender: +17012510519
-      Notifications__Smtp__EnableSsl: true
-      Notifications__Smtp__Host: smtp.yandex.ru
-      Notifications__Smtp__Port: 465
-      Notifications__Smtp__Login: tzykin.alexandr
+      Notifications__Smtp__EnableSsl: False
+      Notifications__Smtp__Host: smtp.sendgrid.net
+      Notifications__Smtp__Login: apikey
+      Notifications__Smtp__Port: 587
       ASPNETCORE_ENVIRONMENT: Development
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
       Swagger__UI__Enabled: false
@@ -112,7 +112,7 @@
       PasswordLogin__Priority: 0
     secretConfig:
       Notifications__SendGrid__ApiKey: sendkey
-      Notifications__Smtp__Password: smtppasswordyandex
+      Notifications__Smtp__Password: smtppassword
       Search__ElasticAppSearch__PrivateApiKey: elasticappsearch
   storefront:
     enabled: true
