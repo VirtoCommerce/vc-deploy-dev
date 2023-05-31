@@ -187,10 +187,6 @@
           "BlobName": "VirtoCommerce.TestModule_1.0.0.zip"
         },
         {
-          "Id": "VirtoCommerce.Notifications",
-          "BlobName": "VirtoCommerce.Notifications_3.218.0-alpha.327-pt-12334.zip"
-        },
-        {
           "Id": "VirtoCommerce.ApplicationInsights",
           "BlobName": "VirtoCommerce.ApplicationInsights_3.202.0.zip"
         },
@@ -245,6 +241,10 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "BlobName": "VirtoCommerce.Catalog_3.273.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Notifications",
+          "BlobName": "VirtoCommerce.Notifications_3.218.0.zip"
         }
       ]
     }
