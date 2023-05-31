@@ -53,7 +53,7 @@
   storefront:
     enabled: true
     imageRepository: virtopaasregistrymain.azurecr.io/vcst/storefront
-    imageTag: 6.9.0-alpha.922-dev-f2d0b251
+    imageTag: 6.21.0-alpha.950-dev-e8bc025e
     servicePlan: F1
     probePath: "/storefrontapi/health"
     config:
