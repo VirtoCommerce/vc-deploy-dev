@@ -16,10 +16,9 @@
       Notifications__SmsDefaultSender: +17012510519
       Notifications__Smtp__EnableSsl: true
       Notifications__Smtp__Host: smtp.yandex.ru
-      Notifications__Smtp__Login: apikey
+      #Notifications__Smtp__Login: apikey
       Notifications__Smtp__Port: 465
       Notifications__Smtp__Login: tzykin.alexandr
-      Notifications__Smtp__Password: 465
       ASPNETCORE_ENVIRONMENT: Development
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
       Swagger__UI__Enabled: false
