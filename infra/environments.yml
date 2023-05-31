@@ -4,7 +4,7 @@
   servicePlan: P1
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.309.0-alpha.12672-return-types-in-external-sign-in-methods-8e938d50-699547c
+    imageTag: 3.309.0-alpha.12668-vcps-password-validation-443da7c4-89556dc
     sqlReplica: false
     config:
       DOTNET_USE_POLLING_FILE_WATCHER: true
