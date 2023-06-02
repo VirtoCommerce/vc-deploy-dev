@@ -4,20 +4,20 @@
   servicePlan: F1
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.293.10-768b6f8
+    imageTag: 3.293.11-c55a707
     sqlReplica: false
     config:
       DOTNET_USE_POLLING_FILE_WATCHER: true
       Authorization__AllowApiAccessForCustomers: true
       VirtoCommerce__FileExtensionsBlackList__0: ".pdf"
       Reload: 10
-      Notifications__DefaultSender: azure_25da07ed75daacae20578a7a7dc58541@azure.com
-      Notifications__Gateway: SendGrid
+      Notifications__DefaultSender: tzykin.alexandr@yandex.ru
+      Notifications__Gateway: Smtp
       Notifications__SmsDefaultSender: +17012510519
-      Notifications__Smtp__EnableSsl: False
-      Notifications__Smtp__Host: smtp.sendgrid.net
-      Notifications__Smtp__Login: apikey
-      Notifications__Smtp__Port: 587
+      Notifications__Smtp__EnableSsl: true
+      Notifications__Smtp__SmtpServer: smtp.yandex.ru
+      Notifications__Smtp__Port: 465
+      Notifications__Smtp__Login: tzykin.alexandr
       Search__ElasticSearch__EnableCompatibilityMode: true
       #Search__Provider: AzureSearch
       Search__ElasticAppSearch__EnableHttpCompression: true
@@ -67,6 +67,7 @@
     secretConfig:
       Notifications__SendGrid__ApiKey: sendkey
       Search__ElasticAppSearch__PrivateApiKey: elasticappsearch
+      Notifications__Smtp__Password: smtppasswordyandex
   storefront:
     enabled: true
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/storefront
