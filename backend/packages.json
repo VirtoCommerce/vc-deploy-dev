@@ -200,12 +200,12 @@
           "Version": "3.220.0"
         },
         {
-          "Id": "VirtoCommerce.Orders",
-          "Version": "3.238.0"
-        },
-        {
           "Id": "VirtoCommerce.Inventory",
           "Version": "3.216.0"
+        },
+        {
+          "Id": "VirtoCommerce.Orders",
+          "Version": "3.239.0"
         }
       ]
     },
