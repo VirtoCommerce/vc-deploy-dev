@@ -12,7 +12,7 @@
       VirtoCommerce__LocalUploadFolderPath: wwwroot/cms-content
       AzureAd__Priority: 1
       PasswordLogin__Priority: 0
-      Reload: 57
+      Reload: 56
       VirtoCommerce__SampleDataUrl: https://virtocommerce.azureedge.net/sample-data/b2b-sample-store.zip
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
       AppInsights__EnableDependencyTrackingTelemetryModule: false
@@ -60,12 +60,10 @@
       VirtoCommerce__Endpoint__Password: store
     themes:
       B2B-store: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.18.0/vc-theme-b2b-vue-1.18.0.zip
-  ingress:
-    hostname: vcptcore-loadtest.govirto.com
-    storefrontHostname: vcptcore-loadtest-store.govirto.com
+  ingress: {}
   customApps:
     app1:
       enabled: false
     app2:
       enabled: false
-  version: 2.206
+  version: 3.208
