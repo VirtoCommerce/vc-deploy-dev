@@ -8,8 +8,8 @@
     sqlReplica: false
     config:
       DOTNET_USE_POLLING_FILE_WATCHER: true
-      Reload: 52
-      ConnectionStrings__RedisConnectionString: ""
+      Reload: 51
+      ConnectionStrings__RedisConnectionString: 
       TaxModule__FixedRateTaxProvider__Enabled: true
       Notifications__DefaultSender: tzykin.alexandr@yandex.ru
       Notifications__Gateway: Smtp
@@ -39,7 +39,7 @@
       Search__DocumentScopes__5__Scope: vcptcore-qa-platformvcptcore-scope6
       Search__ElasticSearch__EnableCompatibilityMode: true
       Search__ElasticSearch__HealthCheckTimeout: 10
-      Search__Provider: ElasticAppSearch
+      Search__Provider: ElasticSearch
       Search__ElasticAppSearch__EnableHttpCompression: true
       Search__ElasticAppSearch__Endpoint: https://enterprise-search-vc03.govirto.com
       Search__AzureSearch__SearchServiceName: qa-demovc-3-search
@@ -117,7 +117,7 @@
   storefront:
     enabled: true
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/storefront
-    imageTag: 6.14.0-alpha.934-dev-f9c641ee
+    imageTag: 6.21.0-alpha.951-vcps-file-range-processing-af5dbb8d
     servicePlan: S1
     config:
       DOTNET_USE_POLLING_FILE_WATCHER: true
@@ -129,8 +129,7 @@
       ConnectionStrings__ContentConnectionString: provider=AzureBlobStorage;rootPath=cms;DefaultEndpointsProtocol=https;AccountName=qademovc3;AccountKey=qPIpM63MI2P3ei6B1xIL4/DlKDqdsRj54z2GUtgCAeXPcMe8+mZiUvrvI5fjdyrovk331XmBlMFfAEFAjCnvtw==;EndpointSuffix=core.windows.net
     themes:
       B2B-store: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-1.28.0-pr-538-a86d-a86dd986.zip
-  ingress:
-    hostname: vcptcore-qa.govirto.com
+  ingress: {}
   customApps:
     app1:
       enabled: false
@@ -165,16 +164,16 @@
       ingressPath: /
       config:
         DOTNET_USE_POLLING_FILE_WATCHER: true
-        VirtoCommerce__Hangfire__Queues__items_0: "default"
-        VirtoCommerce__Hangfire__Queues__items_1: "index_worker"
-        Notifications__DefaultSender: "azure_25da07ed75daacae20578a7a7dc58541@azure.com"
-        Notifications__Gateway: "SendGrid"
-        Notifications__Smtp__Host: "smtp.sendgrid.net"
-        Notifications__Smtp__Login: "apikey"
-        VirtoCommerce__ApplicationInsights__RoleName: "This is QA role platfrom1"
-        VirtoCommerce__ApplicationInsights__RoleInstance: "This is instance of QA1"
+        VirtoCommerce__Hangfire__Queues__items_0: default
+        VirtoCommerce__Hangfire__Queues__items_1: index_worker
+        Notifications__DefaultSender: azure_25da07ed75daacae20578a7a7dc58541@azure.com
+        Notifications__Gateway: SendGrid
+        Notifications__Smtp__Host: smtp.sendgrid.net
+        Notifications__Smtp__Login: apikey
+        VirtoCommerce__ApplicationInsights__RoleName: This is QA role platfrom1
+        VirtoCommerce__ApplicationInsights__RoleInstance: This is instance of QA1
       secretConfig:
         Notifications__SendGrid__ApiKey: sendkey
         Notifications__Smtp__Password: smtppassword
         Search__ElasticAppSearch__PrivateApiKey: elasticappsearch
-  version: 2.206
+  version: 3.208
