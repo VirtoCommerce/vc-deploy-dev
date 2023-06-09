@@ -117,7 +117,7 @@
   storefront:
     enabled: true
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/storefront
-    imageTag: 6.21.0-alpha.951-vcps-file-range-processing-af5dbb8d
+    imageTag: 6.22.0-alpha.953-pt-12376-d6a5d9e1
     servicePlan: S1
     config:
       DOTNET_USE_POLLING_FILE_WATCHER: true
