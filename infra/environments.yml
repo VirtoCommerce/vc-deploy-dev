@@ -4,7 +4,7 @@
   servicePlan: P1
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.310.0-alpha.12676-pt-12122-6aa114b0-5ba9e41
+    imageTag: 3.311.0-alpha.12674-pt-12376-e225bce8-ca8f7e1
     sqlReplica: false
     config:
       DOTNET_USE_POLLING_FILE_WATCHER: true
@@ -39,7 +39,7 @@
       Search__DocumentScopes__5__Scope: vcptcore-qa-platformvcptcore-scope6
       Search__ElasticSearch__EnableCompatibilityMode: true
       Search__ElasticSearch__HealthCheckTimeout: 10
-      Search__Provider: AzureSearch
+      #Search__Provider: AzureSearch
       Search__ElasticAppSearch__EnableHttpCompression: true
       Search__ElasticAppSearch__Endpoint: https://enterprise-search-vc03.govirto.com
       Search__AzureSearch__SearchServiceName: qa-demovc-3-search
