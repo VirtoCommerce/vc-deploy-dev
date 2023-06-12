@@ -1,6 +1,6 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.308.0",
+  "PlatformVersion": "3.309.0",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -12,7 +12,7 @@
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
         {
-          "BlobName": "VirtoCommerce.PageBuilderModule_3.209.0.zip"
+          "BlobName": "VirtoCommerce.PageBuilderModule_3.212.0.zip"
         }
       ]
     },
@@ -52,11 +52,11 @@
         },
         {
           "Id": "VirtoCommerce.Cart",
-          "Version": "3.219.0"
+          "Version": "3.221.0"
         },
         {
           "Id": "VirtoCommerce.Catalog",
-          "Version": "3.273.0"
+          "Version": "3.274.0"
         },
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
@@ -108,7 +108,7 @@
         },
         {
           "Id": "VirtoCommerce.ExperienceApi",
-          "Version": "3.324.0"
+          "Version": "3.325.0"
         },
         {
           "Id": "VirtoCommerce.Export",
@@ -132,7 +132,7 @@
         },
         {
           "Id": "VirtoCommerce.Inventory",
-          "Version": "3.215.0"
+          "Version": "3.216.0"
         },
         {
           "Id": "VirtoCommerce.LuceneSearch",
@@ -152,11 +152,11 @@
         },
         {
           "Id": "VirtoCommerce.Notifications",
-          "Version": "3.217.0"
+          "Version": "3.218.0"
         },
         {
           "Id": "VirtoCommerce.Orders",
-          "Version": "3.236.0"
+          "Version": "3.240.0"
         },
         {
           "Id": "VirtoCommerce.Payment",
