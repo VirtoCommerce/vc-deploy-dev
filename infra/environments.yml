@@ -13,7 +13,7 @@
       TaxModule__FixedRateTaxProvider__Enabled: true
       Notifications__DefaultSender: tzykin.alexandr@yandex.ru
       Notifications__Gateway: Smtp
-      Notifications__SmsDefaultSender: +17012510519
+      Notifications__SmsDefaultSender: +17012510519f
       Notifications__Smtp__EnableSsl: true
       Notifications__Smtp__SmtpServer: smtp.yandex.ru
       Notifications__Smtp__Port: 465
@@ -102,7 +102,7 @@
       IdentityOptions__Password__RequireLowercase: true
       IdentityOptions__Password__PasswordChangeByAdminEnabled: true
       IdentityOptions__User__RemindPasswordExpiryInDays: 2
-      IdentityOptions__User__MaxPasswordAge: "2"
+      #IdentityOptions__User__MaxPasswordAge: "2"
       FrontendSecurity__OrganizationMaintainerRole: Organization maintainer
       EventBus__Connections__0__Name: AzureEventGridApps
       EventBus__Connections__0__ProviderName: AzureEventGrid
