@@ -102,7 +102,7 @@
       IdentityOptions__Password__RequireLowercase: true
       IdentityOptions__Password__PasswordChangeByAdminEnabled: true
       IdentityOptions__User__RemindPasswordExpiryInDays: 15
-      IdentityOptions__User__MaxPasswordAge: "30"
+      IdentityOptions__User__MaxPasswordAge: "28"
       FrontendSecurity__OrganizationMaintainerRole: Organization maintainer
       EventBus__Connections__0__Name: AzureEventGridApps
       EventBus__Connections__0__ProviderName: AzureEventGrid
