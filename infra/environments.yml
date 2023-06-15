@@ -4,7 +4,7 @@
   servicePlan: P1
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.312.0-823b93a
+    imageTag: 3.312.0-fe5736a
     sqlReplica: false
     config:
       DOTNET_USE_POLLING_FILE_WATCHER: true
@@ -101,8 +101,8 @@
       IdentityOptions__Password__RequireUppercase: true
       IdentityOptions__Password__RequireLowercase: true
       IdentityOptions__Password__PasswordChangeByAdminEnabled: true
-      IdentityOptions__User__RemindPasswordExpiryInDays: 2
-      #IdentityOptions__User__MaxPasswordAge: "2"
+      IdentityOptions__User__RemindPasswordExpiryInDays: 1
+      IdentityOptions__User__MaxPasswordAge: "2"
       FrontendSecurity__OrganizationMaintainerRole: Organization maintainer
       EventBus__Connections__0__Name: AzureEventGridApps
       EventBus__Connections__0__ProviderName: AzureEventGrid
