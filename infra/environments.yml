@@ -102,7 +102,7 @@
       IdentityOptions__Password__RequireLowercase: true
       IdentityOptions__Password__PasswordChangeByAdminEnabled: true
       IdentityOptions__Lockout__AutoAccountsLockoutJobEnabled: true
-      IdentityOptions__Lockout__LockoutMaximumDaysFromLastLogin: 20
+      IdentityOptions__Lockout__LockoutMaximumDaysFromLastLogin: 3
       IdentityOptions__Lockout__CronAutoAccountsLockoutJob: "0/5 * * * *"
       IdentityOptions__User__RemindPasswordExpiryInDays: 15
       #IdentityOptions__User__MaxPasswordAge: "28"
