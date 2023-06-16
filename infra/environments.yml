@@ -1,7 +1,7 @@
 - name: vcptcore-loadtest
   gitops: true
   production: false
-  servicePlan: F1
+  servicePlan: S3
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
     imageTag: 3.308.0-alpha.12662-dev-7d115a44-ea2a295
@@ -47,9 +47,9 @@
     secretConfig:
       Search__ElasticAppSearch__PrivateApiKey: elasticappsearch
   storefront:
-    enabled: false
+    enabled: true
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/storefront
-    imageTag: 6.10.0-master-3a9a6e30
+    imageTag: 6.23.0-alpha.955-dev-71824774
     config:
       DOTNET_USE_POLLING_FILE_WATCHER: true
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
@@ -59,7 +59,7 @@
       VirtoCommerce__DefaultStore: B2B-store
       VirtoCommerce__Endpoint__Password: store
     themes:
-      B2B-store: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.18.0/vc-theme-b2b-vue-1.18.0.zip
+      B2B-store: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-1.32.0-alpha.735.zip
   ingress: {}
   customApps:
     app1:
