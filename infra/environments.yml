@@ -47,8 +47,8 @@
       IdentityOptions__Password__RequiredLength: 3
       IdentityOptions__Password__RequireDigit: false
       IdentityOptions__Password__RequireNonAlphanumeric: false
-      IdentityOptions__Password__RequireUppercase: false
-      IdentityOptions__Password__RequireLowercase: false
+      IdentityOptions__Password__RequireUppercase: true
+      IdentityOptions__Password__RequireLowercase: true
     secretConfig:
       Search__ElasticAppSearch__PrivateApiKey: elasticappsearch
   storefront:
