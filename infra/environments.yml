@@ -4,11 +4,11 @@
   servicePlan: P1
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.313.0-alpha.12685-pt-12468-987d79ed-8b642ee
+    imageTag: 3.313.0-4559a2c
     sqlReplica: false
     config:
       DOTNET_USE_POLLING_FILE_WATCHER: true
-      Reload: 57
+      Reload: 58
       ConnectionStrings__RedisConnectionString: 
       TaxModule__FixedRateTaxProvider__Enabled: true
       Notifications__DefaultSender: tzykin.alexandr@yandex.ru
