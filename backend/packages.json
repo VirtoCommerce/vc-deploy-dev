@@ -196,16 +196,16 @@
           "Version": "3.221.0"
         },
         {
-          "Id": "VirtoCommerce.Orders",
-          "Version": "3.240.0"
-        },
-        {
           "Id": "VirtoCommerce.ExperienceApi",
           "Version": "3.328.0"
         },
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "Version": "3.303.0"
+        },
+        {
+          "Id": "VirtoCommerce.Orders",
+          "Version": "3.241.0"
         }
       ]
     },
