@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.313.0",
+  "PlatformVersion": "3.314.0-alpha.12681-pt-12488-role-fe6cbcbf",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.313.0",
+  "PlatformImageTag": "3.314.0-alpha.12681-pt-12488-role-fe6cbcbf",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -97,10 +97,6 @@
         {
           "Id": "VirtoCommerce.CustomerReviews",
           "BlobName": "VirtoCommerce.CustomerReviews_3.214.0.zip"
-        },
-        {
-          "Id": "VirtoCommerce.AzureAD",
-          "BlobName": "VirtoCommerce.AzureAD_3.201.0.zip"
         },
         {
           "Id": "VirtoCommerce.AuthorizeNetPayment",
