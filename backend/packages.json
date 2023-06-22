@@ -220,7 +220,7 @@
         },
         {
           "Id": "VirtoCommerce.Catalog",
-          "BlobName": "VirtoCommerce.Catalog_3.274.0.zip"
+          "BlobName": "VirtoCommerce.Catalog_3.275.0-pr-686-0ccf.zip"
         },
         {
           "Id": "VirtoCommerce.Cart",
@@ -241,10 +241,6 @@
         {
           "Id": "VirtoCommerce.Orders",
           "BlobName": "VirtoCommerce.Orders_3.242.0.zip"
-        },
-        {
-          "Id": "VirtoCommerce.AzureAD",
-          "BlobName": "VirtoCommerce.AzureAD_3.202.0-alpha.14-pt-12488-role.zip"
         }
       ]
     }
