@@ -57,6 +57,8 @@
       AzureAd__ValidateIssuer: MultitenantAzureAD
       AzureAd__UseEmail: true
       AzureAd__DefaultUserType: Manager
+      AzureAd__DefaultUserRoles__0: Purchasing agent
+      AzureAd__DefaultUserRoles__1: Order manager
       PasswordLogin__Enabled: true
       Content__FileSystem__PublicUrl: https://vcptcore-qa.govirto.com/cms-content/
       Assets__FileSystem__PublicUrl: https://vcptcore-qa.govirto.com/cms-content/assets/
