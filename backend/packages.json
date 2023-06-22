@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.314.0-alpha.12681-pt-12488-role-fe6cbcbf",
+  "PlatformVersion": "3.314.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.314.0-alpha.12681-pt-12488-role-fe6cbcbf",
+  "PlatformImageTag": "3.314.0",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -242,7 +242,7 @@
           "Id": "VirtoCommerce.Orders",
           "BlobName": "VirtoCommerce.Orders_3.242.0.zip"
         },
-         {
+        {
           "Id": "VirtoCommerce.AzureAD",
           "BlobName": "VirtoCommerce.AzureAD_3.202.0-pr-2-4a09.zip"
         }
