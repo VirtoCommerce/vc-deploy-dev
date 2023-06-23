@@ -151,10 +151,6 @@
           "BlobName": "VirtoCommerce.CustomerExportImport_3.203.0-pr-82-664b.zip"
         },
         {
-          "Id": "VirtoCommerce.ElasticAppSearch",
-          "BlobName": "VirtoCommerce.ElasticAppSearch_3.211.0-pr-29-beef.zip"
-        },
-        {
           "Id": "VirtoCommerce.AzureBlobAssets",
           "BlobName": "VirtoCommerce.AzureBlobAssets_3.211.0.zip"
         },
@@ -245,6 +241,10 @@
         {
           "Id": "VirtoCommerce.AzureAD",
           "BlobName": "VirtoCommerce.AzureAD_3.202.0-pr-2-4a09.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ElasticAppSearch",
+          "BlobName": "VirtoCommerce.ElasticAppSearch_3.211.0.zip"
         }
       ]
     }
