@@ -4,7 +4,7 @@
   servicePlan: P1
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.314.0-alpha.12681-pt-12488-role-fe6cbcbf-8c72f8d
+    imageTag: 3.314.0-1404245
     sqlReplica: false
     config:
       DOTNET_USE_POLLING_FILE_WATCHER: true
@@ -39,7 +39,7 @@
       Search__DocumentScopes__5__Scope: vcptcore-qa-platformvcptcore-scope6
       Search__ElasticSearch__EnableCompatibilityMode: true
       Search__ElasticSearch__HealthCheckTimeout: 10
-      #Search__Provider: ElasticAppSearch
+      Search__Provider: ElasticAppSearch
       Search__ElasticAppSearch__EnableHttpCompression: true
       Search__ElasticAppSearch__Endpoint: https://enterprise-search-vc03.govirto.com
       Search__AzureSearch__SearchServiceName: qa-demovc-3-search
@@ -58,7 +58,7 @@
       AzureAd__UseEmail: true
       AzureAd__DefaultUserType: Manager
       AzureAd__DefaultUserRoles__0: Purchasing agent
-      AzureAd__DefaultUserRoles__1: Order manager1111
+      AzureAd__DefaultUserRoles__1: Order manager
       PasswordLogin__Enabled: true
       Content__FileSystem__PublicUrl: https://vcptcore-qa.govirto.com/cms-content/
       Assets__FileSystem__PublicUrl: https://vcptcore-qa.govirto.com/cms-content/assets/
