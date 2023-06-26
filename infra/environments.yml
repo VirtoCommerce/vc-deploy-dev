@@ -9,8 +9,8 @@
     config:
       DOTNET_USE_POLLING_FILE_WATCHER: true
       Authorization__AllowApiAccessForCustomers: true
-      VirtoCommerce__FileExtensionsBlackList__0: ".pdf"
-      Reload: 11
+      VirtoCommerce__FileExtensionsBlackList__0: .pdf
+      Reload: 10
       Notifications__DefaultSender: tzykin.alexandr@yandex.ru
       Notifications__Gateway: Smtp
       Notifications__SmsDefaultSender: +17012510519
@@ -18,8 +18,8 @@
       Notifications__Smtp__SmtpServer: smtp.yandex.ru
       Notifications__Smtp__Port: 465
       Notifications__Smtp__Login: tzykin.alexandr
-      Search__ElasticSearch__EnableCompatibilityMode: true
       Search__Provider: ElasticAppSearch
+      Search__ElasticSearch__EnableCompatibilityMode: true
       Search__ElasticAppSearch__EnableHttpCompression: true
       Search__ElasticAppSearch__Endpoint: https://enterprise-search-vc03.govirto.com
       Search__AzureSearch__SearchServiceName: qa-demovc-3-search
@@ -83,12 +83,10 @@
       DOTNET_USE_POLLING_FILE_WATCHER: true
     themes:
       B2B-store: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.24.0/vc-theme-b2b-vue-1.24.0.zip
-  ingress:
-    hostname: vcptcore-regression.govirto.com
-    storefrontHostname: vcptcore-regression-store.govirto.com
+  ingress: {}
   customApps:
     app1:
       enabled: false
     app2:
       enabled: false
-  version: 2.206
+  version: 3.208
