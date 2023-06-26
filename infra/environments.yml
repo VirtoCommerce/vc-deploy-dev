@@ -10,7 +10,7 @@
       DOTNET_USE_POLLING_FILE_WATCHER: true
       Authorization__AllowApiAccessForCustomers: true
       VirtoCommerce__FileExtensionsBlackList__0: .pdf
-      Reload: 10
+      Reload: 11
       Notifications__DefaultSender: tzykin.alexandr@yandex.ru
       Notifications__Gateway: Smtp
       Notifications__SmsDefaultSender: +17012510519
