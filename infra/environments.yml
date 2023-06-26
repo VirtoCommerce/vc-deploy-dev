@@ -18,7 +18,7 @@
       Notifications__Smtp__SmtpServer: smtp.yandex.ru
       Notifications__Smtp__Port: 465
       Notifications__Smtp__Login: tzykin.alexandr
-      Search__Provider: ElasticAppSearch
+      #Search__Provider: ElasticAppSearch
       Search__ElasticSearch__EnableCompatibilityMode: true
       Search__ElasticAppSearch__EnableHttpCompression: true
       Search__ElasticAppSearch__Endpoint: https://enterprise-search-vc03.govirto.com
