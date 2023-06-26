@@ -70,6 +70,7 @@
       Notifications__Smtp__Password: smtppasswordyandex
   storefront:
     enabled: true
+    servicePlan: F1
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/storefront
     imageTag: 6.13.0-master-4b0306b0
     config:
