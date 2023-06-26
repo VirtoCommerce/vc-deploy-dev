@@ -239,12 +239,12 @@
           "BlobName": "VirtoCommerce.Orders_3.242.0.zip"
         },
         {
-          "Id": "VirtoCommerce.Customer",
-          "BlobName": "VirtoCommerce.Customer_3.225.0-pr-218-2e7d.zip"
-        },
-        {
           "Id": "VirtoCommerce.AzureAD",
           "BlobName": "VirtoCommerce.AzureAD_3.204.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Customer",
+          "BlobName": "VirtoCommerce.Customer_3.226.0.zip"
         }
       ]
     }
