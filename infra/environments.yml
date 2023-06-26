@@ -4,7 +4,7 @@
   servicePlan: F1
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.293.11-c55a707
+    imageTag: 3.293.11-c606cd9
     sqlReplica: false
     config:
       DOTNET_USE_POLLING_FILE_WATCHER: true
@@ -19,7 +19,7 @@
       Notifications__Smtp__Port: 465
       Notifications__Smtp__Login: tzykin.alexandr
       Search__ElasticSearch__EnableCompatibilityMode: true
-      #Search__Provider: AzureSearch
+      Search__Provider: ElasticAppSearch
       Search__ElasticAppSearch__EnableHttpCompression: true
       Search__ElasticAppSearch__Endpoint: https://enterprise-search-vc03.govirto.com
       Search__AzureSearch__SearchServiceName: qa-demovc-3-search
