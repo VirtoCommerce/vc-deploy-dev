@@ -125,12 +125,12 @@ jobs:
       with:
         creds: '{"clientId":"${{ secrets.AZURE_CREDENTIALS_CLIENT }}","clientSecret":"${{ secrets.AZURE_CREDENTIALS_SECRET }}","subscriptionId":"a6522b3e-cc34-41c8-bf38-a5ff3080186a","tenantId":"${{ secrets.AZURE_TENANT_ID }}"}'
 
-    - name: Azure CLI - stop VM
-      uses: azure/CLI@v1
-      with:
-        azcliversion: 2.30.0
-        inlineScript: |
-          az vm stop --resource-group load-test_group --name load-test
+   #- name: Azure CLI - stop VM
+   #  uses: azure/CLI@v1
+   #  with:
+   #    azcliversion: 2.30.0
+   #    inlineScript: |
+   #      az vm stop --resource-group load-test_group --name load-test
 
     # - name: Restart platform 
     #   uses: VirtoCommerce/vc-github-actions/vc-argocd-cli@master
