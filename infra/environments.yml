@@ -4,7 +4,7 @@
   servicePlan: P3
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.308.0-alpha.12662-dev-7d115a44-ea2a295
+    imageTag: 3.316.0-927165c
     sqlReplica: false
     config:
       DOTNET_USE_POLLING_FILE_WATCHER: true
@@ -18,6 +18,7 @@
       AppInsights__EnableDependencyTrackingTelemetryModule: false
       Swagger__UI__Enabled: false
       Search__OrderFullTextSearchEnabled: true
+      Search__ContentFullTextSearchEnabled: true
       Search__ElasticSearch__EnableCompatibilityMode: true
       Search__ElasticAppSearch__EnableHttpCompression: true
       Search__ElasticAppSearch__Endpoint: https://enterprise-search-vc03.govirto.com
