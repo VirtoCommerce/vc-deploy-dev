@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.316.0",
+  "PlatformVersion": "3.317.0-alpha.12701-pt-10449-d4bc5067",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.316.0",
+  "PlatformImageTag": "3.317.0-alpha.12701-pt-10449-d4bc5067",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -60,15 +60,15 @@
         },
         {
           "Id": "VirtoCommerce.Shipping",
-          "BlobName": "VirtoCommerce.Shipping_3.204.0-pr-42-7110.zip"
+          "BlobName": "VirtoCommerce.Shipping_3.204.0-pr-44-071e.zip"
         },
         {
           "Id": "VirtoCommerce.EventBus",
-          "BlobName": "VirtoCommerce.EventBus_3.203.0.zip"
+          "BlobName": "VirtoCommerce.EventBus_3.204.0-pr-17-b53e.zip"
         },
         {
           "Id": "VirtoCommerce.Inventory",
-          "BlobName": "VirtoCommerce.Inventory_3.216.0.zip"
+          "BlobName": "VirtoCommerce.Inventory_3.217.0-pr-133-05fe.zip"
         },
         {
           "Id": "VirtoCommerce.LuceneSearch",
@@ -88,7 +88,7 @@
         },
         {
           "Id": "VirtoCommerce.Pricing",
-          "BlobName": "VirtoCommerce.Pricing_3.219.0-alpha.684.zip"
+          "BlobName": "VirtoCommerce.Pricing_3.220.0-pr-196-1a93.zip"
         },
         {
           "Id": "VirtoCommerce.CustomerReviews",
@@ -100,7 +100,7 @@
         },
         {
           "Id": "VirtoCommerce.Payment",
-          "BlobName": "VirtoCommerce.Payment_3.208.0.zip"
+          "BlobName": "VirtoCommerce.Payment_3.209.0-pr-56-f7b1.zip"
         },
         {
           "Id": "VirtoCommerce.Marketing",
@@ -108,7 +108,7 @@
         },
         {
           "Id": "VirtoCommerce.Contracts",
-          "BlobName": "VirtoCommerce.Contracts_3.206.0-alpha.51.zip"
+          "BlobName": "VirtoCommerce.Contracts_3.208.0-pr-12-059e.zip"
         },
         {
           "Id": "VirtoCommerce.WebHooks",
@@ -116,7 +116,7 @@
         },
         {
           "Id": "VirtoCommerce.Assets",
-          "BlobName": "VirtoCommerce.Assets_3.204.0.zip"
+          "BlobName": "VirtoCommerce.Assets_3.205.0-pr-15-04b0.zip"
         },
         {
           "Id": "VirtoCommerce.AvalaraTax",
@@ -124,7 +124,7 @@
         },
         {
           "Id": "VirtoCommerce.CatalogPublishing",
-          "BlobName": "VirtoCommerce.CatalogPublishing_3.203.0.zip"
+          "BlobName": "VirtoCommerce.CatalogPublishing_3.204.0-pr-58-bbac.zip"
         },
         {
           "Id": "VirtoCommerce.GDPR",
@@ -176,15 +176,15 @@
         },
         {
           "Id": "VirtoCommerce.Tax",
-          "BlobName": "VirtoCommerce.Tax_3.204.0.zip"
+          "BlobName": "VirtoCommerce.Tax_3.205.0-pr-46-c515.zip"
         },
         {
           "Id": "VirtoCommerce.Content",
-          "BlobName": "VirtoCommerce.Content_3.221.0.zip"
+          "BlobName": "VirtoCommerce.Content_3.222.0-pr-146-7830.zip"
         },
         {
           "Id": "VirtoCommerce.Store",
-          "BlobName": "VirtoCommerce.Store_3.211.0.zip"
+          "BlobName": "VirtoCommerce.Store_3.212.0-pr-123-42d4.zip"
         },
         {
           "Id": "VirtoCommerce.Hotjar",
@@ -208,7 +208,7 @@
         },
         {
           "Id": "VirtoCommerce.Notifications",
-          "BlobName": "VirtoCommerce.Notifications_3.218.0.zip"
+          "BlobName": "VirtoCommerce.Notifications_3.219.0-pr-137-a009.zip"
         },
         {
           "Id": "VirtoCommerce.Catalog",
@@ -216,7 +216,7 @@
         },
         {
           "Id": "VirtoCommerce.Cart",
-          "BlobName": "VirtoCommerce.Cart_3.221.0.zip"
+          "BlobName": "VirtoCommerce.Cart_3.222.0-pr-123-cdfd.zip"
         },
         {
           "Id": "VirtoCommerce.ExperienceApi",
@@ -224,11 +224,11 @@
         },
         {
           "Id": "VirtoCommerce.CatalogPersonalization",
-          "BlobName": "VirtoCommerce.CatalogPersonalization_3.205.0-pr-72-cde6.zip"
+          "BlobName": "VirtoCommerce.CatalogPersonalization_3.206.0-pr-73-c4e4.zip"
         },
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.303.0.zip"
+          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.304.0-pr-51-5317.zip"
         },
         {
           "Id": "VirtoCommerce.Orders",
