@@ -23,10 +23,6 @@
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
         {
-          "Id": "VirtoCommerce.Catalog",
-          "BlobName": "VirtoCommerce.Catalog_3.276.0-pr-685-e951.zip"
-        },
-        {
           "Id": "VirtoCommerce.Customer",
           "BlobName": "VirtoCommerce.Customer_3.226.0.zip"
         }
