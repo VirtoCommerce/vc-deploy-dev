@@ -22,9 +22,9 @@
       "Container": "packages",
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [  
-        {
-          "Id": "VirtoCommerce.Store",
-          "BlobName": "VirtoCommerce.Store_3.212.0-pr-123-42d4.zip"
+    {
+          "Id": "VirtoCommerce.Content",
+          "BlobName": "VirtoCommerce.Content_3.222.0-pr-146-7830.zip"
         },
         {
           "Id": "VirtoCommerce.Customer",
