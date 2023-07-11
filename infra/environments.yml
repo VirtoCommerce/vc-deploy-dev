@@ -1,7 +1,7 @@
 - name: vcptcore-loadtest
   gitops: true
   production: false
-  servicePlan: P3
+  servicePlan: S1
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
     imageTag: 3.317.0-alpha.12701-pt-10449-d4bc5067-59d4240
@@ -26,7 +26,8 @@
       AzureAd__ApplicationId: 86d04c35-143d-4d3c-aea2-8608e2186282
       AzureAd__TenantId: common
       AzureAd__ValidateIssuer: MultitenantAzureAD
-      Content__Provider: AzureBlobStorage
+      Content__Provider: FileSystem
+      Assets__Provider: FileSystem
       Content__AzureBlobStorage__RootPath: cms
       Content__AzureBlobStorage__ConnectionString: DefaultEndpointsProtocol=https;AccountName=qademovc3;AccountKey=qPIpM63MI2P3ei6B1xIL4/DlKDqdsRj54z2GUtgCAeXPcMe8+mZiUvrvI5fjdyrovk331XmBlMFfAEFAjCnvtw==;EndpointSuffix=core.windows.net
       VirtoCommerce__LicenseFilePath: app_data/VirtoCommerce.lic
