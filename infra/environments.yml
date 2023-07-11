@@ -4,7 +4,7 @@
   servicePlan: S1
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.317.0-alpha.12701-pt-10449-d4bc5067-59d4240
+    imageTag: 3.317.0-alpha.12702-pt-10449-1444898c-74869ce
     sqlReplica: false
     config:
       DOTNET_USE_POLLING_FILE_WATCHER: true
@@ -13,6 +13,7 @@
       AzureAd__Priority: 1
       PasswordLogin__Priority: 0
       Reload: 56
+      Search__Provider: Lucene
       VirtoCommerce__SampleDataUrl: https://virtocommerce.azureedge.net/sample-data/b2b-sample-store.zip
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
       AppInsights__EnableDependencyTrackingTelemetryModule: false
