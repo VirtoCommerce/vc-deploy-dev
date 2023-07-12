@@ -1,10 +1,13 @@
 - name: vcptcore-workflow
+  gitops: false
   production: false
-  servicePlan: F1
+  servicePlan: B1
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.261.0-5b288de
+    imageTag: 3.264.15-1465790
+    sqlReplica: false
     config:
+      Search__ElasticSearch__Server: https://elasticsearch-vc03.govirto.com
       VirtoCommerce__LocalUploadFolderPath: wwwroot/cms-content
       VirtoCommerce__SampleDataUrl: https://vc3prerelease.blob.core.windows.net/packages/clothing-and-electronics_3_0_2.zip
       APPINSIGHTS_INSTRUMENTATIONKEY: d6678b10-e595-441c-8e01-04884ce00382
@@ -14,30 +17,30 @@
     enabled: true
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/storefront
     imageTag: 6.4.0-master-48f5e4b5
+    servicePlan: B1
     config:
       SnapshotCollectorConfiguration__IsEnabled: false
       VirtoCommerce__DefaultStore: B2B-store
       VirtoCommerce__Endpoint__Password: store
       APPINSIGHTS_INSTRUMENTATIONKEY: 46417508-392f-41bd-8a63-d04fde377def
-    secretConfig: {}
-    themes: 
+    themes:
       B2B-store: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-1.13.0-alpha.505-workflow.zip
   ingress: {}
   customApps:
     app1:
       enabled: true
+      servicePlan: B1
       type: standalone
       probePath: /
       name: vc-workflow
       imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/workflow
       imageTag: 0.1.16
-      platformPath: []
-      storefrontPath: []
-      servicePath: []
       config:
         TEMPORAL_TASK_QUEUE: quote-approval
         VIRTO_PLATFORM_URL: https://vcptcore-workflow.paas.govirto.com
       secretConfig:
         TEMPORAL_ADDRESS: temporal-host
         VIRTO_PLATFORM_API_KEY: virto-platform-api-key
-  protectedParameters: []
+    app2:
+      enabled: false
+  version: 3.208
