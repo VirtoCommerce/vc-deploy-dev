@@ -4,7 +4,6 @@
   servicePlan: B1
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.264.15-1465790
     sqlReplica: false
     config:
       Search__ElasticSearch__Server: https://elasticsearch-vc03.govirto.com
@@ -16,7 +15,6 @@
   storefront:
     enabled: true
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/storefront
-    imageTag: 6.4.0-master-48f5e4b5
     servicePlan: B1
     config:
       SnapshotCollectorConfiguration__IsEnabled: false
@@ -34,7 +32,6 @@
       probePath: /
       name: vc-workflow
       imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/workflow
-      imageTag: 0.1.16
       config:
         TEMPORAL_TASK_QUEUE: quote-approval
         VIRTO_PLATFORM_URL: https://vcptcore-workflow.paas.govirto.com
@@ -43,4 +40,8 @@
         VIRTO_PLATFORM_API_KEY: virto-platform-api-key
     app2:
       enabled: false
+  protectedParameters:
+   - platform.image.tag
+   - storefront.image.tag
+   - custom.app1.image.tag
   version: 3.208
