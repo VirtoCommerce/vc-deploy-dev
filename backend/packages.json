@@ -118,10 +118,6 @@
           "BlobName": "VirtoCommerce.AuthorizeNetPayment_3.207.0-alpha.48.zip"
         },
         {
-          "Id": "VirtoCommerce.Payment",
-          "BlobName": "VirtoCommerce.Payment_3.209.0-alpha.197.zip"
-        },
-        {
           "Id": "VirtoCommerce.WebHooks",
           "BlobName": "VirtoCommerce.WebHooks_3.210.0-alpha.267.zip"
         },
@@ -224,6 +220,10 @@
         {
           "Id": "VirtoCommerce.ExperienceApi",
           "BlobName": "VirtoCommerce.ExperienceApi_3.332.0-alpha.1196.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Payment",
+          "BlobName": "VirtoCommerce.Payment_3.209.0-alpha.205.zip"
         }
       ]
     }
