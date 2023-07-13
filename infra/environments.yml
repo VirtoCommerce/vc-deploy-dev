@@ -19,7 +19,7 @@
       VirtoCommerce__LocalUploadFolderPath: wwwroot/cms-content
       AzureAd__Priority: 1
       PasswordLogin__Priority: 0
-      Reload: 57
+      Reload: 58
       #Search__Provider: Lucene
       VirtoCommerce__SampleDataUrl: https://virtocommerce.azureedge.net/sample-data/b2b-sample-store.zip
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
