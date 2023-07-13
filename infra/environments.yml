@@ -33,7 +33,7 @@
       name: vc-workflow
       imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/workflow
       config:
-        TEMPORAL_TASK_QUEUE: quote-approval
+        TEMPORAL_TASK_QUEUE: order-processing
         VIRTO_PLATFORM_URL: https://vcptcore-workflow.paas.govirto.com
       secretConfig:
         TEMPORAL_ADDRESS: temporal-host
