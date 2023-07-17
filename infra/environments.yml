@@ -35,6 +35,7 @@
       config:
         TEMPORAL_TASK_QUEUE: order-processing
         VIRTO_PLATFORM_URL: https://vcptcore-workflow.paas.govirto.com
+        WORKFLOW_MODE: LOADTEST
       secretConfig:
         TEMPORAL_ADDRESS: temporal-host
         VIRTO_PLATFORM_API_KEY: virto-platform-api-key
