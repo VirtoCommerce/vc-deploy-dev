@@ -20,6 +20,8 @@
       AzureAd__Priority: 1
       PasswordLogin__Priority: 0
       Reload: 58
+      Tax__Avalara__AccountNumber: 2000188799
+      Tax__Avalara__LicenseKey: 16BC3F87E836E15C
       #Search__Provider: Lucene
       VirtoCommerce__SampleDataUrl: https://virtocommerce.azureedge.net/sample-data/b2b-sample-store.zip
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
