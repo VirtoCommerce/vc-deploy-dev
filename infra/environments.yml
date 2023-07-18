@@ -27,7 +27,7 @@
   customApps:
     app1:
       enabled: true
-      servicePlan: S2
+      servicePlan: S3
       type: standalone
       probePath: /
       name: vc-workflow
