@@ -24,10 +24,6 @@
           "Version": "3.203.0"
         },
         {
-          "Id": "VirtoCommerce.EventBus",
-          "Version": "3.203.0"
-        },
-        {
           "Id": "VirtoCommerce.LuceneSearch",
           "Version": "3.204.0"
         },
@@ -205,6 +201,10 @@
         },
         {
           "Id": "VirtoCommerce.Core",
+          "Version": "3.400.0"
+        },
+        {
+          "Id": "VirtoCommerce.EventBus",
           "Version": "3.400.0"
         }
       ]
