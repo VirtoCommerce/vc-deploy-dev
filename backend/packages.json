@@ -168,10 +168,6 @@
           "Version": "3.331.0"
         },
         {
-          "Id": "VirtoCommerce.Payment",
-          "Version": "3.209.0"
-        },
-        {
           "Id": "VirtoCommerce.Notifications",
           "Version": "3.219.0"
         },
@@ -205,6 +201,10 @@
         },
         {
           "Id": "VirtoCommerce.Inventory",
+          "Version": "3.400.0"
+        },
+        {
+          "Id": "VirtoCommerce.Payment",
           "Version": "3.400.0"
         }
       ]
