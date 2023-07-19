@@ -84,10 +84,6 @@
           "Version": "4.2.0"
         },
         {
-          "Id": "VirtoCommerce.Assets",
-          "Version": "3.204.0"
-        },
-        {
           "Id": "VirtoCommerce.AzureBlobAssets",
           "Version": "3.211.0"
         },
@@ -206,6 +202,10 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "Version": "3.277.0"
+        },
+        {
+          "Id": "VirtoCommerce.Assets",
+          "Version": "3.400.0"
         }
       ]
     },
