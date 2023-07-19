@@ -54,10 +54,6 @@
           "BlobName": "VirtoCommerce.Contracts_3.208.0-alpha.53.zip"
         },
         {
-          "Id": "VirtoCommerce.Core",
-          "BlobName": "VirtoCommerce.Core_3.212.0-alpha.1571.zip"
-        },
-        {
           "Id": "VirtoCommerce.BulkActionsModule",
           "BlobName": "VirtoCommerce.BulkActionsModule_3.203.0-alpha.187.zip"
         },
@@ -224,6 +220,10 @@
         {
           "Id": "VirtoCommerce.Assets",
           "BlobName": "VirtoCommerce.Assets_3.401.0-alpha.105.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Core",
+          "BlobName": "VirtoCommerce.Core_3.400.0-alpha.1582.zip"
         }
       ]
     }
