@@ -144,10 +144,6 @@
           "Version": "3.211.0"
         },
         {
-          "Id": "VirtoCommerce.Inventory",
-          "Version": "3.216.0"
-        },
-        {
           "Id": "VirtoCommerce.Cart",
           "Version": "3.221.0"
         },
@@ -205,6 +201,10 @@
         },
         {
           "Id": "VirtoCommerce.EventBus",
+          "Version": "3.400.0"
+        },
+        {
+          "Id": "VirtoCommerce.Inventory",
           "Version": "3.400.0"
         }
       ]
