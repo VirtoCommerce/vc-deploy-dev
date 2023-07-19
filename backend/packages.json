@@ -10,12 +10,7 @@
       "ModuleSources": [
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
-      "Modules": [
-        {
-          "Id": "VirtoCommerce.Core",
-          "Version": "3.211.0"
-        }
-      ]
+      "Modules": []
     },
     {
       "Name": "AzureBlob",
@@ -241,6 +236,10 @@
         {
           "Id": "VirtoCommerce.CustomerExportImport",
           "BlobName": "VirtoCommerce.CustomerExportImport_3.204.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Core",
+          "BlobName": "VirtoCommerce.Core_3.400.0.zip"
         }
       ]
     }
