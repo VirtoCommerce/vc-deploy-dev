@@ -13,7 +13,7 @@
       "Modules": [
         {
           "Id": "VirtoCommerce.Core",
-          "Version": "3.211.0"
+          "Version": "3.400.0"
         }
       ]
     },
@@ -180,7 +180,7 @@
         },
         {
           "Id": "VirtoCommerce.Search",
-          "BlobName": "VirtoCommerce.Search_3.223.0.zip"
+          "BlobName": "VirtoCommerce.Search_3.400.0.zip"
         },
         {
           "Id": "VirtoCommerce.ElasticSearch",
