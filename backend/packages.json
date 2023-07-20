@@ -168,10 +168,6 @@
           "Version": "3.400.0"
         },
         {
-          "Id": "VirtoCommerce.Inventory",
-          "Version": "3.400.0"
-        },
-        {
           "Id": "VirtoCommerce.Payment",
           "Version": "3.400.0"
         },
@@ -206,6 +202,10 @@
         {
           "Id": "VirtoCommerce.Cart",
           "Version": "3.400.0"
+        },
+        {
+          "Id": "VirtoCommerce.Inventory",
+          "Version": "3.401.0"
         }
       ]
     },
