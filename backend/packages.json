@@ -152,10 +152,6 @@
           "Version": "3.219.0"
         },
         {
-          "Id": "VirtoCommerce.Orders",
-          "Version": "3.245.0"
-        },
-        {
           "Id": "VirtoCommerce.CustomerExportImport",
           "Version": "3.204.0"
         },
@@ -206,6 +202,10 @@
         {
           "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
           "Version": "4.400.0"
+        },
+        {
+          "Id": "VirtoCommerce.Orders",
+          "Version": "3.246.0"
         }
       ]
     },
