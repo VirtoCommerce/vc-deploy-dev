@@ -120,10 +120,6 @@
           "Version": "3.211.0"
         },
         {
-          "Id": "VirtoCommerce.Cart",
-          "Version": "3.221.0"
-        },
-        {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "Version": "3.303.0"
         },
@@ -205,6 +201,10 @@
         },
         {
           "Id": "VirtoCommerce.Content",
+          "Version": "3.400.0"
+        },
+        {
+          "Id": "VirtoCommerce.Cart",
           "Version": "3.400.0"
         }
       ]
