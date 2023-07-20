@@ -118,10 +118,6 @@
           "BlobName": "VirtoCommerce.TaskManagement_3.215.0-alpha.56.zip"
         },
         {
-          "Id": "VirtoCommerce.Content",
-          "BlobName": "VirtoCommerce.Content_3.222.0-alpha.885.zip"
-        },
-        {
           "Id": "VirtoCommerce.AzureSearch",
           "BlobName": "VirtoCommerce.AzureSearch_3.207.0-alpha.201.zip"
         },
@@ -224,6 +220,10 @@
         {
           "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
           "BlobName": "VirtoCommerce.GoogleEcommerceAnalytics_4.401.0-alpha.170.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Content",
+          "BlobName": "VirtoCommerce.Content_3.400.0-alpha.891.zip"
         }
       ]
     }
