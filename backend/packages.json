@@ -14,6 +14,10 @@
         {
           "Id": "VirtoCommerce.Core",
           "Version": "3.211.0"
+        },
+         {
+          "Id": "VirtoCommerce.Inventory",
+          "Version": "3.216.1"
         }
       ]
     },
@@ -65,10 +69,6 @@
         {
           "Id": "VirtoCommerce.EventBus",
           "BlobName": "VirtoCommerce.EventBus_3.203.0.zip"
-        },
-        {
-          "Id": "VirtoCommerce.Inventory",
-          "BlobName": "VirtoCommerce.Inventory_3.216.0.zip"
         },
         {
           "Id": "VirtoCommerce.LuceneSearch",
