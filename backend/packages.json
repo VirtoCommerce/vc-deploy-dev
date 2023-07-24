@@ -15,7 +15,7 @@
           "Id": "VirtoCommerce.Core",
           "Version": "3.211.0"
         },
-         {
+        {
           "Id": "VirtoCommerce.Inventory",
           "Version": "3.216.1"
         }
@@ -227,10 +227,6 @@
           "BlobName": "VirtoCommerce.Customer_3.226.0.zip"
         },
         {
-          "Id": "VirtoCommerce.ExperienceApi",
-          "BlobName": "VirtoCommerce.ExperienceApi_3.332.0-pr-430-41d1.zip"
-        },
-        {
           "Id": "VirtoCommerce.Notifications",
           "BlobName": "VirtoCommerce.Notifications_3.219.0.zip"
         },
@@ -241,6 +237,10 @@
         {
           "Id": "VirtoCommerce.CustomerExportImport",
           "BlobName": "VirtoCommerce.CustomerExportImport_3.204.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ExperienceApi",
+          "BlobName": "VirtoCommerce.ExperienceApi_3.332.0.zip"
         }
       ]
     }
