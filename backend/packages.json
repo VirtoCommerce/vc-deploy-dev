@@ -136,10 +136,6 @@
           "Version": "3.226.0"
         },
         {
-          "Id": "VirtoCommerce.ExperienceApi",
-          "Version": "3.331.0"
-        },
-        {
           "Id": "VirtoCommerce.Notifications",
           "Version": "3.219.0"
         },
@@ -206,6 +202,10 @@
         {
           "Id": "VirtoCommerce.Pricing",
           "Version": "3.221.0"
+        },
+        {
+          "Id": "VirtoCommerce.ExperienceApi",
+          "Version": "3.332.0"
         }
       ]
     },
