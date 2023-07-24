@@ -144,10 +144,6 @@
           "Version": "3.204.0"
         },
         {
-          "Id": "VirtoCommerce.Search",
-          "Version": "3.400.0"
-        },
-        {
           "Id": "VirtoCommerce.Assets",
           "Version": "3.400.0"
         },
@@ -206,6 +202,10 @@
         {
           "Id": "VirtoCommerce.ExperienceApi",
           "Version": "3.332.0"
+        },
+        {
+          "Id": "VirtoCommerce.Search",
+          "Version": "3.401.0"
         }
       ]
     },
