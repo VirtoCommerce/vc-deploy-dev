@@ -1,6 +1,6 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.315.0",
+  "PlatformVersion": "3.318.0",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -59,7 +59,7 @@
         },
         {
           "Id": "VirtoCommerce.Catalog",
-          "Version": "3.274.0"
+          "Version": "3.277.0"
         },
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
@@ -87,7 +87,7 @@
         },
         {
           "Id": "VirtoCommerce.Customer",
-          "Version": "3.225.0"
+          "Version": "3.226.0"
         },
         {
           "Id": "VirtoCommerce.CustomerReviews",
@@ -99,7 +99,7 @@
         },
         {
           "Id": "VirtoCommerce.ElasticAppSearch",
-          "Version": "3.211.0"
+          "Version": "3.214.0"
         },
         {
           "Id": "VirtoCommerce.EventBus",
@@ -107,7 +107,7 @@
         },
         {
           "Id": "VirtoCommerce.ExperienceApi",
-          "Version": "3.328.0"
+          "Version": "3.331.0"
         },
         {
           "Id": "VirtoCommerce.Export",
@@ -147,19 +147,19 @@
         },
         {
           "Id": "VirtoCommerce.Notifications",
-          "Version": "3.218.0"
+          "Version": "3.219.0"
         },
         {
           "Id": "VirtoCommerce.Orders",
-          "Version": "3.242.0"
+          "Version": "3.246.0"
         },
         {
           "Id": "VirtoCommerce.Payment",
-          "Version": "3.208.0"
+          "Version": "3.209.0"
         },
         {
           "Id": "VirtoCommerce.Pricing",
-          "Version": "3.219.0"
+          "Version": "3.220.0"
         },
         {
           "Id": "VirtoCommerce.PriceExportImport",
@@ -191,7 +191,7 @@
         },
         {
           "Id": "VirtoCommerce.Store",
-          "Version": "3.210.0"
+          "Version": "3.211.0"
         },
         {
           "Id": "VirtoCommerce.Subscription",
