@@ -15,7 +15,7 @@
           "Id": "VirtoCommerce.Core",
           "Version": "3.211.0"
         },
-         {
+        {
           "Id": "VirtoCommerce.Inventory",
           "Version": "3.216.1"
         }
@@ -163,10 +163,6 @@
           "BlobName": "VirtoCommerce.ApplicationInsights_3.202.0.zip"
         },
         {
-          "Id": "VirtoCommerce.ImageTools",
-          "BlobName": "VirtoCommerce.ImageTools_3.208.0.zip"
-        },
-        {
           "Id": "VirtoCommerce.TaskManagement",
           "BlobName": "VirtoCommerce.TaskManagement_3.214.0.zip"
         },
@@ -241,6 +237,10 @@
         {
           "Id": "VirtoCommerce.CustomerExportImport",
           "BlobName": "VirtoCommerce.CustomerExportImport_3.204.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ImageTools",
+          "BlobName": "VirtoCommerce.ImageTools_3.401.0.zip"
         }
       ]
     }
