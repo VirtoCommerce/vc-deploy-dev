@@ -58,10 +58,6 @@
           "BlobName": "VirtoCommerce.NativePaymentMethods_3.206.0-alpha.58.zip"
         },
         {
-          "Id": "VirtoCommerce.Sitemaps",
-          "BlobName": "VirtoCommerce.Sitemaps_3.209.0-alpha.309.zip"
-        },
-        {
           "Id": "VirtoCommerce.Return",
           "BlobName": "VirtoCommerce.Return_3.206.0-alpha.63.zip"
         },
@@ -224,6 +220,10 @@
         {
           "Id": "VirtoCommerce.DynamicAssociationsModule",
           "BlobName": "VirtoCommerce.DynamicAssociationsModule_3.401.0-alpha.133.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Sitemaps",
+          "BlobName": "VirtoCommerce.Sitemaps_3.400.0-alpha.317.zip"
         }
       ]
     }
