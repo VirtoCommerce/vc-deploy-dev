@@ -102,10 +102,6 @@
           "BlobName": "VirtoCommerce.WebHooks_3.210.0-alpha.267.zip"
         },
         {
-          "Id": "VirtoCommerce.CatalogPublishing",
-          "BlobName": "VirtoCommerce.CatalogPublishing_3.204.0-alpha.323.zip"
-        },
-        {
           "Id": "VirtoCommerce.TaskManagement",
           "BlobName": "VirtoCommerce.TaskManagement_3.215.0-alpha.56.zip"
         },
@@ -224,6 +220,10 @@
         {
           "Id": "VirtoCommerce.Orders",
           "BlobName": "VirtoCommerce.Orders_3.247.0-alpha.1143.zip"
+        },
+        {
+          "Id": "VirtoCommerce.CatalogPublishing",
+          "BlobName": "VirtoCommerce.CatalogPublishing_3.400.0-alpha.329.zip"
         }
       ]
     }
