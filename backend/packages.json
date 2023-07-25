@@ -13,9 +13,6 @@
       "Modules": [
         {
           "BlobName": "VirtoCommerce.PageBuilderModule_3.212.0.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.PowerBiReports_3.200.0-alpha.7.zip"
         }
       ]
     },
@@ -102,6 +99,10 @@
           "Version": "3.211.0"
         },
         {
+          "Id": "VirtoCommerce.ElasticSearch",
+          "Version": "3.214.0"
+        },
+        {
           "Id": "VirtoCommerce.EventBus",
           "Version": "3.203.0"
         },
@@ -144,6 +145,10 @@
         {
           "Id": "VirtoCommerce.MarketingExperienceApi",
           "Version": "3.202.0"
+        },
+        {
+          "Id": "VirtoCommerce.NativePaymentMethods",
+          "Version": "3.205.0"
         },
         {
           "Id": "VirtoCommerce.Notifications",
@@ -196,10 +201,6 @@
         {
           "Id": "VirtoCommerce.Subscription",
           "Version": "3.202.0"
-        },
-        {
-          "Id": "VirtoCommerce.TaskManagement",
-          "Version": "3.214.0"
         },
         {
           "Id": "VirtoCommerce.Tax",
