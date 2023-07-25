@@ -60,10 +60,6 @@
           "Version": "3.202.0"
         },
         {
-          "Id": "VirtoCommerce.DynamicAssociationsModule",
-          "Version": "3.202.0"
-        },
-        {
           "Id": "VirtoCommerce.PriceExportImport",
           "Version": "3.207.0"
         },
@@ -205,6 +201,10 @@
         },
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
+          "Version": "3.400.0"
+        },
+        {
+          "Id": "VirtoCommerce.DynamicAssociationsModule",
           "Version": "3.400.0"
         }
       ]
