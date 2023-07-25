@@ -15,7 +15,7 @@
           "Id": "VirtoCommerce.Core",
           "Version": "3.211.0"
         },
-         {
+        {
           "Id": "VirtoCommerce.Inventory",
           "Version": "3.216.1"
         }
@@ -85,10 +85,6 @@
         {
           "Id": "VirtoCommerce.Subscription",
           "BlobName": "VirtoCommerce.Subscription_3.202.0.zip"
-        },
-        {
-          "Id": "VirtoCommerce.Pricing",
-          "BlobName": "VirtoCommerce.Pricing_3.220.0-pr-198-2947.zip"
         },
         {
           "Id": "VirtoCommerce.CustomerReviews",
@@ -241,6 +237,10 @@
         {
           "Id": "VirtoCommerce.CustomerExportImport",
           "BlobName": "VirtoCommerce.CustomerExportImport_3.204.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Pricing",
+          "BlobName": "VirtoCommerce.Pricing_3.400.0.zip"
         }
       ]
     }
