@@ -156,10 +156,6 @@
           "Version": "4.400.0"
         },
         {
-          "Id": "VirtoCommerce.Orders",
-          "Version": "3.246.0"
-        },
-        {
           "Id": "VirtoCommerce.Cart",
           "Version": "3.400.0"
         },
@@ -206,6 +202,10 @@
         {
           "Id": "VirtoCommerce.Notifications",
           "Version": "3.401.0"
+        },
+        {
+          "Id": "VirtoCommerce.Orders",
+          "Version": "3.247.0"
         }
       ]
     },
