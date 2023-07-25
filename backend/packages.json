@@ -1,6 +1,6 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.316.0",
+  "PlatformVersion": "3.318.0",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -39,12 +39,12 @@
           "Version": "3.201.0"
         },
         {
-          "Id": "VirtoCommerce.AzureBlobAssets",
-          "Version": "3.211.0"
+          "Id": "VirtoCommerce.AzureAD",
+          "Version": "3.204.0"
         },
         {
-          "Id": "VirtoCommerce.AzureSearch",
-          "Version": "3.206.0"
+          "Id": "VirtoCommerce.AzureBlobAssets",
+          "Version": "3.211.0"
         },
         {
           "Id": "VirtoCommerce.BulkActionsModule",
@@ -56,7 +56,7 @@
         },
         {
           "Id": "VirtoCommerce.Catalog",
-          "Version": "3.276.0"
+          "Version": "3.277.0"
         },
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
@@ -127,16 +127,16 @@
           "Version": "4.2.0"
         },
         {
+          "Id": "VirtoCommerce.Hotjar",
+          "Version": "3.200.0"
+        },
+        {
           "Id": "VirtoCommerce.ImageTools",
           "Version": "3.208.0"
         },
         {
           "Id": "VirtoCommerce.Inventory",
           "Version": "3.216.0"
-        },
-        {
-          "Id": "VirtoCommerce.LuceneSearch",
-          "Version": "3.204.0"
         },
         {
           "Id": "VirtoCommerce.Marketing",
@@ -156,7 +156,7 @@
         },
         {
           "Id": "VirtoCommerce.Orders",
-          "Version": "3.245.0"
+          "Version": "3.246.0"
         },
         {
           "Id": "VirtoCommerce.Payment",
@@ -164,7 +164,7 @@
         },
         {
           "Id": "VirtoCommerce.Pricing",
-          "Version": "3.219.0"
+          "Version": "3.220.0"
         },
         {
           "Id": "VirtoCommerce.PriceExportImport",
@@ -209,10 +209,6 @@
         {
           "Id": "VirtoCommerce.WebHooks",
           "Version": "3.209.0"
-        },
-        {
-          "Id": "VirtoCommerce.Hotjar",
-          "Version": "3.200.0"
         }
       ]
     }
