@@ -32,10 +32,6 @@
           "Version": "3.202.0"
         },
         {
-          "Id": "VirtoCommerce.Contracts",
-          "Version": "3.207.0"
-        },
-        {
           "Id": "VirtoCommerce.BulkActionsModule",
           "Version": "3.202.0"
         },
@@ -205,6 +201,10 @@
         },
         {
           "Id": "VirtoCommerce.Sitemaps",
+          "Version": "3.400.0"
+        },
+        {
+          "Id": "VirtoCommerce.Contracts",
           "Version": "3.400.0"
         }
       ]
