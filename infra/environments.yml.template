@@ -64,6 +64,7 @@
       VirtoCommerce__CacheEnabled: "true"
       VirtoCommerce__CacheSlidingExpiration: "0:0:5"
       IdentityOptions__Lockout__MaxFailedAccessAttempts: "5"
+      IdentityOptions__User__RemindPasswordExpiryInDays: 1
       CookieAuthenticationOptions__LoginPath: "/sign-in"
     secretConfig: {}
     themes:
