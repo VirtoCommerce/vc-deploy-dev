@@ -218,12 +218,12 @@
           "BlobName": "VirtoCommerce.CatalogPublishing_3.401.0-alpha.332.zip"
         },
         {
-          "Id": "VirtoCommerce.CatalogCsvImportModule",
-          "BlobName": "VirtoCommerce.CatalogCsvImportModule_3.400.0-alpha.292.zip"
-        },
-        {
           "Id": "VirtoCommerce.DynamicAssociationsModule",
           "BlobName": "VirtoCommerce.DynamicAssociationsModule_3.400.0-alpha.131.zip"
+        },
+        {
+          "Id": "VirtoCommerce.CatalogCsvImportModule",
+          "BlobName": "VirtoCommerce.CatalogCsvImportModule_3.401.0-alpha.293.zip"
         }
       ]
     }
