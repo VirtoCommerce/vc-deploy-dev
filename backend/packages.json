@@ -47,10 +47,6 @@
           "BlobName": "VirtoCommerce.ShipStation_3.200.0-alpha.81-3.200.zip"
         },
         {
-          "Id": "VirtoCommerce.Sitemaps",
-          "BlobName": "VirtoCommerce.Sitemaps_3.209.0-pr-61-8d93.zip"
-        },
-        {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
           "BlobName": "VirtoCommerce.CatalogCsvImportModule_3.205.0.zip"
         },
@@ -241,6 +237,10 @@
         {
           "Id": "VirtoCommerce.Orders",
           "BlobName": "VirtoCommerce.Orders_3.247.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Sitemaps",
+          "BlobName": "VirtoCommerce.Sitemaps_3.400.0.zip"
         }
       ]
     }
