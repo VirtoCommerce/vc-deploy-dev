@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.402.0-alpha.12705-pt-12651-return-conflict-dbconcurrency-803f3ef2",
+  "PlatformVersion": "3.402.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.402.0-alpha.12705-pt-12651-return-conflict-dbconcurrency-803f3ef2",
+  "PlatformImageTag": "3.402.0",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -40,11 +40,11 @@
         },
         {
           "Id": "VirtoCommerce.Sitemaps",
-          "BlobName": "VirtoCommerce.Sitemaps_3.209.0-pr-62-0bf3.zip"
+          "BlobName": "VirtoCommerce.Sitemaps_3.400.0.zip"
         },
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
-          "BlobName": "VirtoCommerce.CatalogCsvImportModule_3.206.0-pr-106-884e.zip"
+          "BlobName": "VirtoCommerce.CatalogCsvImportModule_3.400.0.zip"
         },
         {
           "Id": "VirtoCommerce.Return",
@@ -100,7 +100,7 @@
         },
         {
           "Id": "VirtoCommerce.Contracts",
-          "BlobName": "VirtoCommerce.Contracts_3.208.0-pr-12-ab70.zip"
+          "BlobName": "VirtoCommerce.Contracts_3.400.0.zip"
         },
         {
           "Id": "VirtoCommerce.WebHooks",
@@ -116,7 +116,7 @@
         },
         {
           "Id": "VirtoCommerce.CatalogPublishing",
-          "BlobName": "VirtoCommerce.CatalogPublishing_3.204.0-pr-58-2ad7.zip"
+          "BlobName": "VirtoCommerce.CatalogPublishing_3.400.0.zip"
         },
         {
           "Id": "VirtoCommerce.GDPR",
@@ -124,7 +124,7 @@
         },
         {
           "Id": "VirtoCommerce.DynamicAssociationsModule",
-          "BlobName": "VirtoCommerce.DynamicAssociationsModule_3.203.0-pr-42-7c1a.zip"
+          "BlobName": "VirtoCommerce.DynamicAssociationsModule_3.400.0.zip"
         },
         {
           "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
