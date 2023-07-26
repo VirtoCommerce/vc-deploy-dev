@@ -32,10 +32,6 @@
           "Version": "3.202.0"
         },
         {
-          "Id": "VirtoCommerce.GDPR",
-          "Version": "3.202.0"
-        },
-        {
           "Id": "VirtoCommerce.NativePaymentMethods",
           "Version": "3.205.0"
         },
@@ -205,6 +201,10 @@
         },
         {
           "Id": "VirtoCommerce.AvalaraTax",
+          "Version": "3.400.0"
+        },
+        {
+          "Id": "VirtoCommerce.GDPR",
           "Version": "3.400.0"
         }
       ]
