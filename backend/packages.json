@@ -54,10 +54,6 @@
           "BlobName": "VirtoCommerce.PriceExportImport_3.208.0-alpha.123.zip"
         },
         {
-          "Id": "VirtoCommerce.CustomerReviews",
-          "BlobName": "VirtoCommerce.CustomerReviews_3.215.0-alpha.175.zip"
-        },
-        {
           "Id": "VirtoCommerce.AuthorizeNetPayment",
           "BlobName": "VirtoCommerce.AuthorizeNetPayment_3.207.0-alpha.48.zip"
         },
@@ -224,6 +220,10 @@
         {
           "Id": "VirtoCommerce.Quote",
           "BlobName": "VirtoCommerce.Quote_3.400.0-alpha.363.zip"
+        },
+        {
+          "Id": "VirtoCommerce.CustomerReviews",
+          "BlobName": "VirtoCommerce.CustomerReviews_3.400.0-alpha.185.zip"
         }
       ]
     }
