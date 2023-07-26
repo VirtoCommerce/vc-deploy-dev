@@ -50,10 +50,6 @@
           "BlobName": "VirtoCommerce.AzureBlobAssets_3.212.0-alpha.89.zip"
         },
         {
-          "Id": "VirtoCommerce.Subscription",
-          "BlobName": "VirtoCommerce.Subscription_3.203.0-alpha.297.zip"
-        },
-        {
           "Id": "VirtoCommerce.PriceExportImport",
           "BlobName": "VirtoCommerce.PriceExportImport_3.208.0-alpha.123.zip"
         },
@@ -224,6 +220,10 @@
         {
           "Id": "VirtoCommerce.Return",
           "BlobName": "VirtoCommerce.Return_3.400.0-alpha.73.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Subscription",
+          "BlobName": "VirtoCommerce.Subscription_3.400.0-alpha.305.zip"
         }
       ]
     }
