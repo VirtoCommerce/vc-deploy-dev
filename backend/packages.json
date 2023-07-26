@@ -42,10 +42,6 @@
           "BlobName": "VirtoCommerce.BulkActionsModule_3.203.0-alpha.187.zip"
         },
         {
-          "Id": "VirtoCommerce.GDPR",
-          "BlobName": "VirtoCommerce.GDPR_3.203.0-alpha.94.zip"
-        },
-        {
           "Id": "VirtoCommerce.NativePaymentMethods",
           "BlobName": "VirtoCommerce.NativePaymentMethods_3.206.0-alpha.58.zip"
         },
@@ -224,6 +220,10 @@
         {
           "Id": "VirtoCommerce.AvalaraTax",
           "BlobName": "VirtoCommerce.AvalaraTax_3.400.0-alpha.288.zip"
+        },
+        {
+          "Id": "VirtoCommerce.GDPR",
+          "BlobName": "VirtoCommerce.GDPR_3.400.0-alpha.103.zip"
         }
       ]
     }
