@@ -14,6 +14,10 @@
       Notifications__Smtp__Host: smtp.sendgrid.net
       Notifications__Smtp__Login: apikey
       Notifications__Smtp__Port: 587
+      Content__PathMappings__pages__0: Themes
+      Content__PathMappings__pages__1: _storeId
+      Content__PathMappings__pages__2: _theme
+      Content__PathMappings__pages__3: content/pages
       DOTNET_USE_POLLING_FILE_WATCHER: true
       ConnectionStrings__RedisConnectionString: 
       VirtoCommerce__LocalUploadFolderPath: wwwroot/cms-content
