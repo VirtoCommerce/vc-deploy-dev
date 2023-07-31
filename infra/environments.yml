@@ -4,7 +4,7 @@
   servicePlan: S1
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.403.0-72964a3
+    imageTag: 3.403.0-95da405
     sqlReplica: false
     config:
       Notifications__DefaultSender: azure_25da07ed75daacae20578a7a7dc58541@azure.com
@@ -18,6 +18,9 @@
       Content__PathMappings__pages__1: _storeId
       Content__PathMappings__pages__2: _theme
       Content__PathMappings__pages__3: content/pages
+      Content__PathMappings__blogs__0: Pages
+      Content__PathMappings__blogs__1: _storeId
+      Content__PathMappings__blogs__2: blogs
       DOTNET_USE_POLLING_FILE_WATCHER: true
       ConnectionStrings__RedisConnectionString: 
       VirtoCommerce__LocalUploadFolderPath: wwwroot/cms-content
@@ -79,7 +82,7 @@
     enabled: true
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/storefront
     servicePlan: S1
-    imageTag: 6.23.0-alpha.955-dev-71824774
+    imageTag: 6.25.0-master-e9a4f990
     config:
       DOTNET_USE_POLLING_FILE_WATCHER: true
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
