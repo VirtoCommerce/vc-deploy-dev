@@ -71,6 +71,9 @@
       Content__PathMappings__pages__1: _storeId
       Content__PathMappings__pages__2: _theme
       Content__PathMappings__pages__3: content/pages
+      Content__PathMappings__blogs__0: Pages
+      Content__PathMappings__blogs__1: _storeId
+      Content__PathMappings__blogs__2: blogs
       Content__AzureBlobStorage__RootPath: cms
       Content__AzureBlobStorage__ConnectionString: DefaultEndpointsProtocol=https;AccountName=qademovc3;AccountKey=qPIpM63MI2P3ei6B1xIL4/DlKDqdsRj54z2GUtgCAeXPcMe8+mZiUvrvI5fjdyrovk331XmBlMFfAEFAjCnvtw==;EndpointSuffix=core.windows.net
       VirtoCommerce__LicenseFilePath: app_data/VirtoCommerce.lic
@@ -125,7 +128,7 @@
   storefront:
     enabled: true
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/storefront
-    imageTag: 6.25.0-alpha.959-dev-6bd29ae2
+    imageTag: 6.25.0-master-e9a4f990
     servicePlan: S1
     config:
       DOTNET_USE_POLLING_FILE_WATCHER: true
@@ -136,7 +139,7 @@
       Swagger__UI__Enable: true
       ConnectionStrings__ContentConnectionString: provider=AzureBlobStorage;rootPath=cms;DefaultEndpointsProtocol=https;AccountName=qademovc3;AccountKey=qPIpM63MI2P3ei6B1xIL4/DlKDqdsRj54z2GUtgCAeXPcMe8+mZiUvrvI5fjdyrovk331XmBlMFfAEFAjCnvtw==;EndpointSuffix=core.windows.net
     themes:
-      B2B-store: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.33.0/vc-theme-b2b-vue-1.33.0.zip
+      B2B-store: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-1.35.0-pr-656-c72c-c72cb0d5.zip
   ingress: {}
   customApps:
     app1:
