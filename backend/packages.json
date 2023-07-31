@@ -13,6 +13,10 @@
       "Modules": [
         {
           "BlobName": "VirtoCommerce.PageBuilderModule_3.212.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ExperienceApi",
+          "BlobName": "VirtoCommerce.ExperienceApi_3.401.0-pr-431-9ace.zip"
         }
       ]
     },
@@ -105,11 +109,7 @@
         {
           "Id": "VirtoCommerce.EventBus",
           "Version": "3.203.0"
-        },
-        {
-          "Id": "VirtoCommerce.ExperienceApi",
-          "Version": "3.331.0"
-        },
+        },      
         {
           "Id": "VirtoCommerce.Export",
           "Version": "3.205.0"
