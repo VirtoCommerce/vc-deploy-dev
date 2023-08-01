@@ -1,10 +1,10 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.293.13",
+  "PlatformVersion": "3.293.14",
   "StorefrontVersion": "6.13.0-master-4b0306b0",
   "ThemeB2BVue": "https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.24.0/vc-theme-b2b-vue-1.24.0.zip",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.293.13",
+  "PlatformImageTag": "3.293.14",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -47,7 +47,7 @@
         },
         {
           "Id": "VirtoCommerce.AzureAD",
-          "Version": "3.201.0"
+          "Version": "3.201.1"
         },
         {
           "Id": "VirtoCommerce.Tax",
