@@ -128,7 +128,7 @@
   storefront:
     enabled: true
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/storefront
-    imageTag: 6.25.0-master-e9a4f990
+    imageTag: 6.26.0-alpha.961-dev-09cdbbc2
     servicePlan: S1
     config:
       DOTNET_USE_POLLING_FILE_WATCHER: true
