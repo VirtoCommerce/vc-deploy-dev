@@ -92,10 +92,6 @@
           "Version": "3.400.0"
         },
         {
-          "Id": "VirtoCommerce.Shipping",
-          "Version": "3.400.0"
-        },
-        {
           "Id": "VirtoCommerce.Tax",
           "Version": "3.400.0"
         },
@@ -206,6 +202,10 @@
         {
           "Id": "VirtoCommerce.Orders",
           "Version": "3.402.0"
+        },
+        {
+          "Id": "VirtoCommerce.Shipping",
+          "Version": "3.401.0"
         }
       ]
     },
