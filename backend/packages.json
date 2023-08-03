@@ -52,10 +52,6 @@
           "Version": "3.209.0"
         },
         {
-          "Id": "VirtoCommerce.TaskManagement",
-          "Version": "3.214.0"
-        },
-        {
           "Id": "VirtoCommerce.Export",
           "Version": "3.205.0"
         },
@@ -206,6 +202,10 @@
         {
           "Id": "VirtoCommerce.ExperienceApi",
           "Version": "3.402.0"
+        },
+        {
+          "Id": "VirtoCommerce.TaskManagement",
+          "Version": "3.400.0"
         }
       ]
     },
