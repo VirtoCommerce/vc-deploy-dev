@@ -4,7 +4,7 @@
   servicePlan: S1
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.403.0-95da405
+    imageTag: 3.406.0-alpha.12720-pt-12659-ec2544fd-5a32f8e
     sqlReplica: false
     config:
       Notifications__DefaultSender: azure_25da07ed75daacae20578a7a7dc58541@azure.com
