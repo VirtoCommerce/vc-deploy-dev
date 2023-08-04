@@ -24,7 +24,7 @@
       Swagger__UI__Enabled: false
       PushNotifications__ForceWebSockets: true
       PushNotifications__ScalabilityMode: RedisBackplane
-      PushNotifications__HubUrl: https://vcptcore-qa.govirto.com/pushNotificationHub
+      PushNotifications__HubUrl: https://vcptcore-qa.paas.govirto.com/pushNotificationHub
       PushNotifications__RedisBackplane__ChannelName: vcptcore-qa-chanel
       Search__OrderFullTextSearchEnabled: true
       Search__ContentFullTextSearchEnabled: true
@@ -61,8 +61,8 @@
       AzureAd__DefaultUserRoles__0: Purchasing agent
       AzureAd__DefaultUserRoles__1: Order manager
       PasswordLogin__Enabled: true
-      Content__FileSystem__PublicUrl: https://vcptcore-qa.govirto.com/cms-content/
-      Assets__FileSystem__PublicUrl: https://vcptcore-qa.govirto.com/cms-content/assets/
+      Content__FileSystem__PublicUrl: https://vcptcore-qa.paas.govirto.com/cms-content/
+      Assets__FileSystem__PublicUrl: https://vcptcore-qa.paas.govirto.com/cms-content/assets/
       Assets__Provider: AzureBlobStorage
       Assets__AzureBlobStorage__ConnectionString: DefaultEndpointsProtocol=https;AccountName=qademovc3;AccountKey=qPIpM63MI2P3ei6B1xIL4/DlKDqdsRj54z2GUtgCAeXPcMe8+mZiUvrvI5fjdyrovk331XmBlMFfAEFAjCnvtw==;EndpointSuffix=core.windows.net
       Assets__AzureBlobStorage__RootPath: catalog
