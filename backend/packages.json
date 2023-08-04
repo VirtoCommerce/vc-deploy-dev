@@ -214,16 +214,16 @@
           "BlobName": "VirtoCommerce.ExperienceApi_3.403.0-alpha.1208.zip"
         },
         {
-          "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.402.0-alpha.155.zip"
-        },
-        {
           "Id": "VirtoCommerce.Contracts",
           "BlobName": "VirtoCommerce.Contracts_3.402.0-alpha.67.zip"
         },
         {
           "Id": "VirtoCommerce.Store",
           "BlobName": "VirtoCommerce.Store_3.402.0-alpha.669.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ProfileExperienceApiModule",
+          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.402.0-alpha.159.zip"
         }
       ]
     }
