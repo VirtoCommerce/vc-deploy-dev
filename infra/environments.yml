@@ -43,8 +43,8 @@
       AzureAd__ApplicationId: 86d04c35-143d-4d3c-aea2-8608e2186282
       AzureAd__TenantId: common
       AzureAd__ValidateIssuer: MultitenantAzureAD
-      Content__Provider: FileSystem
-      Assets__Provider: FileSystem
+      Content__Provider: AzureBlobStorage
+      Assets__Provider: AzureBlobStorage
       Content__AzureBlobStorage__RootPath: cms
       Content__AzureBlobStorage__ConnectionString: DefaultEndpointsProtocol=https;AccountName=qademovc3;AccountKey=qPIpM63MI2P3ei6B1xIL4/DlKDqdsRj54z2GUtgCAeXPcMe8+mZiUvrvI5fjdyrovk331XmBlMFfAEFAjCnvtw==;EndpointSuffix=core.windows.net
       VirtoCommerce__LicenseFilePath: app_data/VirtoCommerce.lic
