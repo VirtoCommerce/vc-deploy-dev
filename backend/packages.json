@@ -1,6 +1,6 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.405.0",
+  "PlatformVersion": "3.406.0",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -15,13 +15,7 @@
           "BlobName": "VirtoCommerce.PageBuilderModule_3.212.0-pr-51-0d08.zip"
         },
         {
-          "BlobName": "VirtoCommerce.PowerBiReports_3.200.0-alpha.7.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.Store_3.401.0-pr-125-4c79.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.401.0-pr-52-f184.zip"
+          "BlobName": "VirtoCommerce.PageBuilderModule_3.401.0-alpha.475.zip"
         }
       ]
     },
@@ -65,7 +59,7 @@
         },
         {
           "Id": "VirtoCommerce.Catalog",
-          "Version": "3.402.0"
+          "Version": "3.403.0"
         },
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
@@ -85,7 +79,7 @@
         },
         {
           "Id": "VirtoCommerce.Contracts",
-          "Version": "3.400.0"
+          "Version": "3.401.0"
         },
         {
           "Id": "VirtoCommerce.Core",
@@ -113,7 +107,7 @@
         },
         {
           "Id": "VirtoCommerce.ExperienceApi",
-          "Version": "3.402.0"
+          "Version": "3.403.0"
         },
         {
           "Id": "VirtoCommerce.Export",
@@ -172,6 +166,10 @@
           "Version": "3.207.0"
         },
         {
+          "Id": "VirtoCommerce.ProfileExperience",
+          "Version": "3.207.0"
+        },
+        {
           "Id": "VirtoCommerce.Quote",
           "Version": "3.400.0"
         },
@@ -192,7 +190,15 @@
           "Version": "3.400.0"
         },
         {
+          "Id": "VirtoCommerce.Store",
+          "Version": "3.401.0"
+        },
+        {
           "Id": "VirtoCommerce.Subscription",
+          "Version": "3.400.0"
+        },
+        {
+          "Id": "VirtoCommerce.TaskManagement",
           "Version": "3.400.0"
         },
         {
