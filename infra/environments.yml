@@ -56,7 +56,7 @@
     secretConfig:
       VirtoCommerce__Endpoint__Password: virtocommercepassword
     themes:
-      B2B-store: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-1.35.0-pr-656-5932-59324fee.zip
+      B2B-store: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-1.36.0-pr-656-be69-be693496.zip
   ingress:
     hostnames:
       name1: virtostart-demo-admin.govirto.com
