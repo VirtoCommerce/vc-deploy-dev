@@ -46,10 +46,6 @@
           "BlobName": "VirtoCommerce.AzureBlobAssets_3.212.0-alpha.89.zip"
         },
         {
-          "Id": "VirtoCommerce.PriceExportImport",
-          "BlobName": "VirtoCommerce.PriceExportImport_3.208.0-alpha.123.zip"
-        },
-        {
           "Id": "VirtoCommerce.AuthorizeNetPayment",
           "BlobName": "VirtoCommerce.AuthorizeNetPayment_3.207.0-alpha.48.zip"
         },
@@ -224,6 +220,10 @@
         {
           "Id": "VirtoCommerce.Contracts",
           "BlobName": "VirtoCommerce.Contracts_3.402.0-alpha.68.zip"
+        },
+        {
+          "Id": "VirtoCommerce.PriceExportImport",
+          "BlobName": "VirtoCommerce.PriceExportImport_3.400.0-alpha.131.zip"
         }
       ]
     }
