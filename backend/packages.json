@@ -128,7 +128,7 @@
         },
         {
           "Id": "VirtoCommerce.Hotjar",
-          "Version": "3.200.0"
+          "Version": "3.400.0"
         },
         {
           "Id": "VirtoCommerce.ImageTools",
@@ -165,10 +165,6 @@
         {
           "Id": "VirtoCommerce.Pricing",
           "Version": "3.400.0"
-        },
-        {
-          "Id": "VirtoCommerce.PriceExportImport",
-          "Version": "3.207.0"
         },
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
