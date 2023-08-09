@@ -14,11 +14,7 @@
         {
           "Id": "VirtoCommerce.Core",
           "Version": "3.400.0"
-        },
-          {
-          "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.402.0"
-        },
+        },       
          {
           "Id": "VirtoCommerce.Hotjar",
           "Version": "3.400.0"
@@ -212,7 +208,11 @@
         },
         {
           "Id": "VirtoCommerce.ExperienceApi",
-          "BlobName": "VirtoCommerce.ExperienceApi_3.403.0-pr-435-6287.zip"
+          "BlobName": "VirtoCommerce.ExperienceApi_3.404.0-pr-438-afac.zip"
+        },
+           {
+          "Id": "VirtoCommerce.ProfileExperienceApiModule",
+          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.403.0-pr-54-d4d5.zip"
         },
         {
           "Id": "VirtoCommerce.CatalogPersonalization",
