@@ -200,12 +200,12 @@
           "Version": "3.404.0"
         },
         {
-          "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.403.0"
-        },
-        {
           "Id": "VirtoCommerce.AzureSearch",
           "Version": "3.208.0"
+        },
+        {
+          "Id": "VirtoCommerce.ProfileExperienceApiModule",
+          "Version": "3.404.0"
         }
       ]
     },
