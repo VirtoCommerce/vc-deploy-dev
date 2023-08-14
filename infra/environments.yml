@@ -4,7 +4,7 @@
   servicePlan: S3
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.407.0-f738d03
+    imageTag: 3.408.0-alpha.12718-pt-11514-f09eef1d-032655e
     sqlReplica: false
     config:
       Notifications__DefaultSender: azure_25da07ed75daacae20578a7a7dc58541@azure.com
@@ -26,7 +26,7 @@
       VirtoCommerce__LocalUploadFolderPath: wwwroot/cms-content
       AzureAd__Priority: 1
       PasswordLogin__Priority: 0
-      Reload: 62
+      Reload: 63
       Tax__Avalara__AccountNumber: 2000188799
       Tax__Avalara__LicenseKey: 16BC3F87E836E15C
       #Search__Provider: Lucene
