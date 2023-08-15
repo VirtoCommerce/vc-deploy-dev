@@ -4,13 +4,13 @@
   servicePlan: F1
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.293.11-c606cd9
+    imageTag: 3.293.15-0f1f3de
     sqlReplica: false
     config:
       DOTNET_USE_POLLING_FILE_WATCHER: true
       Authorization__AllowApiAccessForCustomers: true
       VirtoCommerce__FileExtensionsBlackList__0: .pdf
-      Reload: 11
+      Reload: 12
       Notifications__DefaultSender: tzykin.alexandr@yandex.ru
       Notifications__Gateway: Smtp
       Notifications__SmsDefaultSender: +17012510519
