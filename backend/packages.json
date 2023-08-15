@@ -214,16 +214,16 @@
           "BlobName": "VirtoCommerce.Pricing_3.402.0-alpha.703.zip"
         },
         {
-          "Id": "VirtoCommerce.Orders",
-          "BlobName": "VirtoCommerce.Orders_3.405.0-alpha.1155.zip"
-        },
-        {
           "Id": "VirtoCommerce.Content",
           "BlobName": "VirtoCommerce.Content_3.404.0-alpha.899.zip"
         },
         {
           "Id": "VirtoCommerce.Return",
           "BlobName": "VirtoCommerce.Return_3.402.0-alpha.76.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Orders",
+          "BlobName": "VirtoCommerce.Orders_3.405.0-alpha.1156.zip"
         }
       ]
     }
