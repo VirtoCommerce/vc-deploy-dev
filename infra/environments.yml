@@ -4,7 +4,7 @@
   servicePlan: S3
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.408.0-alpha.12718-pt-11514-f09eef1d-3a9fb24
+    imageTag: 3.411.0-alpha.12726-pt-12665-4c3c6917-d3da063
     sqlReplica: false
     config:
       Notifications__DefaultSender: azure_25da07ed75daacae20578a7a7dc58541@azure.com
@@ -14,6 +14,9 @@
       Notifications__Smtp__Host: smtp.sendgrid.net
       Notifications__Smtp__Login: apikey
       Notifications__Smtp__Port: 587
+      Orders__PaymentDistributionLockOptions__LockTimeout: "00:00:30"
+      Orders__PaymentDistributionLockOptions__TryLockTimeout: "00:00:00"
+      Orders__PaymentDistributionLockOptions__RetryInterval: "00:00:00.000"
       Content__PathMappings__pages__0: Themes
       Content__PathMappings__pages__1: _storeId
       Content__PathMappings__pages__2: _theme
