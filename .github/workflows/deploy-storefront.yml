@@ -6,17 +6,19 @@ on:
     paths:
       - 'storefront/**'
     branches: 
-      - 'vcptcore-*'
+      # VCI-636 
+      - 'virtoseb-krasnodar'
+      - 'virtoseb-bangkok'
+
 
 jobs:
   gitops-publish-storefront:
     runs-on: ubuntu-20.04
     env:
-      DOCKER_LOGIN: vcptcore-token
-      DOCKER_PASSWORD: ${{ secrets.VCPTCORE_ACR_DOCKER_PASSWORD }}
+      DOCKER_LOGIN: virtoseb-token
+      DOCKER_PASSWORD: ${{ secrets.VIRTOSEB_ACR_DOCKER_PASSWORD }}
       CONTAINER_REGISTRY: virtopaasregistrymain.azurecr.io
-      IMAGE_REPOSITORY: virtopaasregistrymain.azurecr.io/vcptcore/storefront
-      ARGO_APP_NAME: ${{ github.ref_name }}
+      IMAGE_REPOSITORY: virtopaasregistrymain.azurecr.io/virtoseb/storefront
 
     steps:
     - uses: actions/checkout@v3
@@ -24,7 +26,13 @@ jobs:
     - name: Install vc-build
       run: |
         dotnet tool install --global VirtoCommerce.GlobalTool
-    
+
+    - name: Set values
+      id: values
+      run: |
+        echo "TEAM=$(echo ${{ github.ref_name }} | awk -F- '{print $2}')" >> $GITHUB_ENV 
+        echo "ARGO_APP_NAME=$TEAM-qa" >> $GITHUB_ENV
+
     - name: Get storefront version
       id: platform-version
       run: |
@@ -46,6 +54,6 @@ jobs:
 
     - name: Update app
       run: |
-        vc-build SetHelmParameter -ArgoServer https://argocd.govirto.com -ArgoAppName ${{ env.ARGO_APP_NAME }} -ArgoToken ${{ secrets.VCPTCORE_TOKEN }} -HelmParameters storefront.image.tag=$TAG
+        vc-build SetHelmParameter -ArgoServer https://argocd.virtocloud.dev -ArgoAppName ${{ env.ARGO_APP_NAME }} -ArgoToken ${{ secrets.VIRTOSEB_TOKEN }} -HelmParameters storefront.image.tag=$TAG
       env:
         TAG: ${{ env.STOREFRONT_TAG }}

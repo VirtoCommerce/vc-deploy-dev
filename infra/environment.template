@@ -1,0 +1,52 @@
+- name: $TEAM-$ARGO_APP_NAME
+  gitops: false
+  production: false
+  servicePlan: $SERVICE_PLAN
+  platform:
+    dbName: $DB_NAME
+    imageRepository: virtopaasregistrymain.azurecr.io/$TEAM/platform
+    imageTag: 3.209.1-5331196711
+    sqlReplica: false
+    config:
+      restart: 2
+      AzureAd__Enabled: true
+      AzureAd__ApplicationId: d7edfa5a-1e20-424f-8fa7-b7084294ff8f
+      AzureAd__TenantId: bc03e660-5e3a-45c4-bf5c-b75489f78923
+      AzureAd__UsePreferredUsername: true
+      ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
+      Search__Provider: ElasticSearch
+      Search__ElasticSearch__Server: http://search-es-http.elastic-system.svc.cluster.local:9200
+      Search__ElasticSearch__User: $ELASTIC_USER
+      AzureAd__Priority: 0
+      PasswordLogin__Priority: 1
+      SaaS__Replica__WebHookUrl: https://$WEBHOOK_URL/db-config
+      Search__ElasticSearch__EnableCompatibilityMode: true
+      Search__ElasticSearch__HealthCheckTimeout: 10
+      VirtoCommerce__ApplicationInsights__RoleName: $TEAM-$ARGO_APP_NAME
+      SaaS__Cache__Enabled: true
+      SaaS__Cache__Expiration: 60
+    secretConfig:
+      ARGO_TOKEN: argo-token
+  storefront:
+	enabled: true
+	servicePlan: F1
+	imageRepository: virtopaasregistrymain.azurecr.io/virtoseb/storefront
+	config:
+	  ASPNETCORE_FORWARDEDHEADERS_ENABLED: "true"
+	  CookieAuthenticationOptions__ExpireTimeSpan: "12:00:00"
+	  SnapshotCollectorConfiguration__IsEnabled: "false"
+	  Swagger__UI__Enable: "true"
+	  VirtoCommerce__DefaultStore: B2B-store
+	  VirtoCommerce__Endpoint__Password: store
+    secretConfig: {}
+    themes:
+	    B2B-store: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-1.9.0-pr-313-8831-8831bc33.zip
+  ingress:
+    hostnames:
+      name1: $EXTERNAL_HOST
+  customApps:
+    app1:
+      enabled: false
+    app2:
+      enabled: false
+  version: 3.207

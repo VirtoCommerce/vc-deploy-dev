@@ -1,28 +1,56 @@
 name: Cloud infra deployment
-
 on:
   workflow_dispatch:
   push:
     paths:
       - 'infra/**'
     branches: 
-      - 'vcptcore-*'
+      # VCI-636 
+      - 'virtoseb-krasnodar'
+      - 'virtoseb-bangkok'
 
 jobs:
-  gitops:
-    runs-on: ubuntu-20.04
-
+  build:
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-   
-      - name: Install vc-build
-        run: |
-          dotnet tool install --global VirtoCommerce.GlobalTool
+      - uses: actions/checkout@v2
 
-      - name: Update app
+      - name: Install VirtoCommerce.GlobalTool
+        uses: VirtoCommerce/vc-github-actions/setup-vcbuild@master
+
+      - name: Set values
+        id: values
         run: |
-          vc-build UpdateCloudEnvironment -CloudToken ${{ secrets.VCPTCORE_PLATFORM_TOKEN }} -ArgoConfigFile $ENV_FILE -CloudUrl https://virtocloud-main.paas.govirto.com
+          echo "TEAM=$(echo ${{ github.ref_name }} | awk -F- '{print $2}')" >> $GITHUB_OUTPUT
+
+      - name: Update ${{ github.ref_name }} cloud environment
+        if: github.ref_name == 'virtoseb-krasnodar' 
         env:
-          ENV_FILE: './infra/environments.yml'
-          ARGO_SERVER: https://argocd.govirto.com
-          TOKEN: ${{ secrets.VCPTCORE_TOKEN }}
+          TEAM: ${{ steps.team.outputs.TEAM }}
+          ARGO_APP_NAME: qa
+          SERVICE_PLAN: B2
+          DB_NAME: krasnodar-qa-platform_krasnodar
+          ELASTIC_USER: krasnodar-qa-krasnodar
+          WEBHOOK_URL: eastus-vc-dev.webhook.virtocloud.dev
+          REGISTRY: virtopaasregistrymain.azurecr.io
+          SAAS_TOKEN: ${{ secrets.VIRTOSEB_PORTAL_TOKEN }}
+        run: |
+          envsubst < environment.template > environment.yml
+          vc-build UpdateCloudEnvironment -CloudToken $SAAS_TOKEN -ArgoConfigFile environment.yml -CloudUrl https://portal.virtocloud.dev
+        working-directory: backend
+
+      - name: Update ${{ github.ref_name }} cloud environment
+        if: github.ref_name == 'virtoseb-bangkok' 
+        env:
+          TEAM: ${{ steps.values.outputs.TEAM }}
+          ARGO_APP_NAME: qa
+          SERVICE_PLAN: B2
+          DB_NAME: bangkok-qa-platform_bangkok
+          ELASTIC_USER: bangkok-qa-bangkok
+          WEBHOOK_URL: eastus-vc-dev.webhook.virtocloud.dev
+          REGISTRY: virtopaasregistrymain.azurecr.io
+          SAAS_TOKEN: ${{ secrets.VIRTOSEB_PORTAL_TOKEN }}
+        run: |
+          envsubst < environment.template > environment.yml
+          vc-build UpdateCloudEnvironment -CloudToken $SAAS_TOKEN -ArgoConfigFile environment.yml -CloudUrl https://portal.virtocloud.dev
+        working-directory: backend        
