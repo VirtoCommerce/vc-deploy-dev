@@ -23,7 +23,7 @@ jobs:
         run: |
           echo "TEAM=$(echo ${{ github.ref_name }} | awk -F- '{print $2}')" >> $GITHUB_OUTPUT
 
-      - name: Update ${{ github.ref_name }} cloud environment
+      - name: Update krasnodar cloud environment
         if: github.ref_name == 'virtoseb-krasnodar' 
         env:
           TEAM: ${{ steps.team.outputs.TEAM }}
@@ -34,12 +34,13 @@ jobs:
           WEBHOOK_URL: eastus-vc-dev.webhook.virtocloud.dev
           REGISTRY: virtopaasregistrymain.azurecr.io
           SAAS_TOKEN: ${{ secrets.VIRTOSEB_PORTAL_TOKEN }}
+          EXTERNAL_HOST: krasnodar-qa.virtocloud.dev
         run: |
           envsubst < environment.template > environment.yml
           vc-build UpdateCloudEnvironment -CloudToken $SAAS_TOKEN -ArgoConfigFile environment.yml -CloudUrl https://portal.virtocloud.dev
-        working-directory: backend
+        working-directory: infra
 
-      - name: Update ${{ github.ref_name }} cloud environment
+      - name: Update bangkok cloud environment
         if: github.ref_name == 'virtoseb-bangkok' 
         env:
           TEAM: ${{ steps.values.outputs.TEAM }}
@@ -50,7 +51,8 @@ jobs:
           WEBHOOK_URL: eastus-vc-dev.webhook.virtocloud.dev
           REGISTRY: virtopaasregistrymain.azurecr.io
           SAAS_TOKEN: ${{ secrets.VIRTOSEB_PORTAL_TOKEN }}
+          EXTERNAL_HOST: bangkok-qa.virtocloud.dev
         run: |
           envsubst < environment.template > environment.yml
           vc-build UpdateCloudEnvironment -CloudToken $SAAS_TOKEN -ArgoConfigFile environment.yml -CloudUrl https://portal.virtocloud.dev
-        working-directory: backend        
+        working-directory: infra        
