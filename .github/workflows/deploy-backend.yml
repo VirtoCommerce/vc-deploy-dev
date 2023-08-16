@@ -32,7 +32,6 @@ jobs:
       id: values
       run: |
         echo "TEAM=$(echo ${{ github.ref_name }} | awk -F- '{print $2}')" >> $GITHUB_ENV 
-        echo "ARGO_APP_NAME=$TEAM-qa" >> $GITHUB_ENV
 
     - name: Pack
       shell: bash {0}
@@ -73,6 +72,6 @@ jobs:
 
     - name: Update app
       run: |
-        vc-build SetHelmParameter -ArgoServer https://argocd.virtocloud.dev -ArgoAppName ${{ env.ARGO_APP_NAME }} -ArgoToken ${{ secrets.VIRTOSEB_TOKEN }} -HelmParameters platform.image.tag=$TAG
+        vc-build SetHelmParameter -ArgoServer https://argocd.virtocloud.dev -ArgoAppName ${{ env.TEAM }}-qa -ArgoToken ${{ secrets.VIRTOSEB_TOKEN }} -HelmParameters platform.image.tag=$TAG
       env:
         TAG: ${{ steps.vars.outputs.paas_tag }}

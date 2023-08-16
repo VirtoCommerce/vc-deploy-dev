@@ -21,12 +21,12 @@ jobs:
       - name: Set values
         id: values
         run: |
-          echo "TEAM=$(echo ${{ github.ref_name }} | awk -F- '{print $2}')" >> $GITHUB_OUTPUT
+          echo "TEAM=$(echo ${{ github.ref_name }} | awk -F- '{print $2}')" >> $GITHUB_ENV
 
       - name: Update krasnodar cloud environment
         if: github.ref_name == 'virtoseb-krasnodar' 
         env:
-          TEAM: ${{ steps.team.outputs.TEAM }}
+          TEAM: ${{ env.TEAM }}
           ARGO_APP_NAME: qa
           SERVICE_PLAN: B2
           DB_NAME: krasnodar-qa-platform_krasnodar
@@ -43,7 +43,7 @@ jobs:
       - name: Update bangkok cloud environment
         if: github.ref_name == 'virtoseb-bangkok' 
         env:
-          TEAM: ${{ steps.values.outputs.TEAM }}
+          TEAM: ${{ env.TEAM }}
           ARGO_APP_NAME: qa
           SERVICE_PLAN: B2
           DB_NAME: bangkok-qa-platform_bangkok
