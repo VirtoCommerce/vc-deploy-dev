@@ -40,7 +40,7 @@ jobs:
 
     - name: Set outputs
       id: vars
-      run: echo "::set-output name=paas_tag::${{ env.PLATFORM_TAG }}-$(git rev-parse --short HEAD)"
+      run: echo "paas_tag=${{ env.PLATFORM_TAG }}-$(git rev-parse --short HEAD)" >> $GITHUB_OUTPUT
 
     - name: Build platform Image
       run: |
