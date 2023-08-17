@@ -4,11 +4,9 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - 'backend/**'
-    branches: 
-      # VCI-636 
-      - 'virtoseb-krasnodar'
-      - 'virtoseb-bangkok'
+      - "backend/**"
+    branches:
+      - "krasnodar-*"
 
 jobs:
   gitops:
@@ -18,60 +16,55 @@ jobs:
       DOCKER_PASSWORD: ${{ secrets.VIRTOSEB_ACR_DOCKER_PASSWORD }}
       DOCKERFILE_PATH: ./backend
       CONTAINER_REGISTRY: virtopaasregistrymain.azurecr.io
-      IMAGE_REPOSITORY: virtopaasregistrymain.azurecr.io/virtoseb/platform
+      IMAGE_REPOSITORY: virtopaasregistrymain.azurecr.io/krasnodar/platform
       PLATFORM_IMAGE_NAME: virtoseb-platform
 
     steps:
-    - uses: actions/checkout@v3
+      - uses: actions/checkout@v3
 
-    - name: Install vc-build
-      run: |
-        dotnet tool install --global VirtoCommerce.GlobalTool
+      - name: Install vc-build
+        run: |
+          dotnet tool install --global VirtoCommerce.GlobalTool
 
-    - name: Set values
-      id: values
-      run: |
-        echo "TEAM=$(echo ${{ github.ref_name }} | awk -F- '{print $2}')" >> $GITHUB_ENV 
+      - name: Pack
+        shell: bash {0}
+        run: |
+          vc-build InstallModules -PackageManifestPath ./backend/packages.json -ProbingPath ./backend/platform/app_data/modules -DiscoveryPath ./backend/platform/modules --root ./backend/platform -SkipDependencySolving
 
-    - name: Pack
-      shell: bash {0}
-      run: |
-        vc-build InstallModules -PackageManifestPath ./backend/packages.json -ProbingPath ./backend/platform/app_data/modules -DiscoveryPath ./backend/platform/modules --root ./backend/platform -SkipDependencySolving
-  
-    - name: Get platfrom version
-      id: platform-version
-      run: |
-        echo "PLATFORM_IMAGE=$(cat ./backend/packages.json | jq -r '.PlatformImage')" >> $GITHUB_ENV
-        echo "PLATFORM_TAG=$(cat ./backend/packages.json | jq -r '.PlatformImageTag')" >> $GITHUB_ENV
+      - name: Get platfrom version
+        id: platform-version
+        run: |
+          echo "PLATFORM_IMAGE=$(cat ./backend/packages.json | jq -r '.PlatformImage')" >> $GITHUB_ENV
+          echo "PLATFORM_TAG=$(cat ./backend/packages.json | jq -r '.PlatformImageTag')" >> $GITHUB_ENV
 
-    - name: Set outputs
-      id: vars
-      run: echo "::set-output name=paas_tag::${{ env.PLATFORM_TAG }}-$(git rev-parse --short HEAD)"
+      - name: Set outputs
+        id: vars
+        run: echo "::set-output name=paas_tag::${{ env.PLATFORM_TAG }}-$(git rev-parse --short HEAD)"
 
-    - name: Build platform Image
-      run: |
-        docker build --build-arg PLATFORM_IMAGE=${{ env.PLATFORM_IMAGE }} --build-arg PLATFORM_TAG=${{ env.PLATFORM_TAG }} -t ${{env.PLATFORM_IMAGE_NAME}} ${{env.DOCKERFILE_PATH}}
+      - name: Build platform Image
+        run: |
+          docker build --build-arg PLATFORM_IMAGE=${{ env.PLATFORM_IMAGE }} --build-arg PLATFORM_TAG=${{ env.PLATFORM_TAG }} -t ${{env.PLATFORM_IMAGE_NAME}} ${{env.DOCKERFILE_PATH}}
 
-    - name: Docker Login
-      uses: azure/docker-login@v1
-      with:
-        login-server: ${{ env.CONTAINER_REGISTRY }}
-        username: ${{ env.DOCKER_LOGIN }}
-        password: ${{ env.DOCKER_PASSWORD }}
+      - name: Docker Login
+        uses: azure/docker-login@v1
+        with:
+          login-server: ${{ env.CONTAINER_REGISTRY }}
+          username: ${{ env.DOCKER_LOGIN }}
+          password: ${{ env.DOCKER_PASSWORD }}
 
-    - name: Publish platform image to the Virto Cloud
-      run: |
-        docker tag ${{env.PLATFORM_IMAGE_NAME}} ${{ env.IMAGE_REPOSITORY }}:${{ env.TAG }}
-        docker push ${{ env.IMAGE_REPOSITORY }}:${{ env.TAG }}
-      env:
-        TAG: ${{ steps.vars.outputs.paas_tag }}
+      - name: Publish platform image to the Virto Cloud
+        run: |
+          docker tag ${{env.PLATFORM_IMAGE_NAME}} ${{ env.IMAGE_REPOSITORY }}:${{ env.TAG }}
+          docker push ${{ env.IMAGE_REPOSITORY }}:${{ env.TAG }}
+        env:
+          TAG: ${{ steps.vars.outputs.paas_tag }}
 
-    - name: Az config
-      run: |
-        az config set extension.use_dynamic_install=yes_without_prompt
+      - name: Az config
+        run: |
+          az config set extension.use_dynamic_install=yes_without_prompt
 
-    - name: Update app
-      run: |
-        vc-build SetHelmParameter -ArgoServer https://argocd.virtocloud.dev -ArgoAppName ${{ env.TEAM }}-qa -ArgoToken ${{ secrets.VIRTOSEB_TOKEN }} -HelmParameters platform.image.tag=$TAG
-      env:
-        TAG: ${{ steps.vars.outputs.paas_tag }}
+      - name: Update app
+        run: |
+          vc-build SetHelmParameter -ArgoServer https://argocd.virtocloud.dev -ArgoAppName ${{ env.ARGO_APP_NAME }} -ArgoToken ${{ secrets.KRASNODAR_TOKEN }} -HelmParameters platform.image.tag=$TAG
+        env:
+          TAG: ${{ steps.vars.outputs.paas_tag }}

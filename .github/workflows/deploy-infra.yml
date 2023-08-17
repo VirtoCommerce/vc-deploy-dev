@@ -3,11 +3,9 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - 'infra/**'
-    branches: 
-      # VCI-636 
-      - 'virtoseb-krasnodar'
-      - 'virtoseb-bangkok'
+      - "infra/**"
+    branches:
+      - "krasnodar-*"
 
 jobs:
   build:
@@ -18,41 +16,17 @@ jobs:
       - name: Install VirtoCommerce.GlobalTool
         uses: VirtoCommerce/vc-github-actions/setup-vcbuild@master
 
-      - name: Set values
-        id: values
-        run: |
-          echo "TEAM=$(echo ${{ github.ref_name }} | awk -F- '{print $2}')" >> $GITHUB_ENV
-
       - name: Update krasnodar cloud environment
-        if: github.ref_name == 'virtoseb-krasnodar' 
         env:
-          TEAM: ${{ env.TEAM }}
           ARGO_APP_NAME: qa
           SERVICE_PLAN: B2
           DB_NAME: krasnodar-qa-platform_krasnodar
           ELASTIC_USER: krasnodar-qa-krasnodar
           WEBHOOK_URL: eastus-vc-dev.webhook.virtocloud.dev
           REGISTRY: virtopaasregistrymain.azurecr.io
-          SAAS_TOKEN: ${{ secrets.VIRTOSEB_PORTAL_TOKEN }}
+          SAAS_TOKEN: ${{ secrets.KRASNODAR_PORTAL_TOKEN }}
           EXTERNAL_HOST: krasnodar-qa.virtocloud.dev
         run: |
           envsubst < environment.template > environment.yml
           vc-build UpdateCloudEnvironment -CloudToken $SAAS_TOKEN -ArgoConfigFile environment.yml -CloudUrl https://portal.virtocloud.dev
         working-directory: infra
-
-      - name: Update bangkok cloud environment
-        if: github.ref_name == 'virtoseb-bangkok' 
-        env:
-          TEAM: ${{ env.TEAM }}
-          ARGO_APP_NAME: qa
-          SERVICE_PLAN: B2
-          DB_NAME: bangkok-qa-platform_bangkok
-          ELASTIC_USER: bangkok-qa-bangkok
-          WEBHOOK_URL: eastus-vc-dev.webhook.virtocloud.dev
-          REGISTRY: virtopaasregistrymain.azurecr.io
-          SAAS_TOKEN: ${{ secrets.VIRTOSEB_PORTAL_TOKEN }}
-          EXTERNAL_HOST: bangkok-qa.virtocloud.dev
-        run: |
-          envsubst < environment.template > environment.yml
-          vc-build UpdateCloudEnvironment -CloudToken $SAAS_TOKEN -ArgoConfigFile environment.yml -CloudUrl https://portal.virtocloud.dev
-        working-directory: infra        
