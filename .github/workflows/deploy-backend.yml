@@ -18,6 +18,7 @@ jobs:
       CONTAINER_REGISTRY: virtopaasregistrymain.azurecr.io
       IMAGE_REPOSITORY: virtopaasregistrymain.azurecr.io/bangkok/platform
       PLATFORM_IMAGE_NAME: virtoseb-platform
+      ARGO_APP_NAME: ${{ github.ref_name }}
 
     steps:
       - uses: actions/checkout@v3
@@ -70,6 +71,6 @@ jobs:
 
       - name: Update app
         run: |
-          vc-build SetHelmParameter -ArgoServer https://argocd.virtocloud.dev -ArgoAppName ${{ env.TEAM }}-qa -ArgoToken ${{ secrets.BANGKOK_TOKEN }} -HelmParameters platform.image.tag=$TAG
+          vc-build SetHelmParameter -ArgoServer https://argocd.virtocloud.dev -ArgoAppName ${{ env.ARGO_APP_NAME }} -ArgoToken ${{ secrets.BANGKOK_TOKEN }} -HelmParameters platform.image.tag=$TAG
         env:
           TAG: ${{ steps.vars.outputs.paas_tag }}
