@@ -18,7 +18,7 @@ jobs:
 
       - name: Set values
         run: |
-          echo "APP_NAME=$(echo ${{ github.ref_name }} | awk -F- '{print $2}'" >> $GITHUB_ENV
+          echo "APP_NAME=$(echo ${{ github.ref_name }} | awk -F- '{print $2}')" >> $GITHUB_ENV
 
       - name: Update bangkok-${{ env.APP_NAME }} cloud environment
         env:
