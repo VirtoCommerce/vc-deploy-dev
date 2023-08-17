@@ -16,9 +16,13 @@ jobs:
       - name: Install VirtoCommerce.GlobalTool
         uses: VirtoCommerce/vc-github-actions/setup-vcbuild@master
 
-      - name: Update bangkok cloud environment
+      - name: Set values
+        run: |
+          echo "APP_NAME=$(echo ${{ github.ref_name }} | awk -F- '{print $2}'" >> $GITHUB_ENV
+
+      - name: Update bangkok-${{ env.APP_NAME }} cloud environment
         env:
-          ARGO_APP_NAME: qa
+          ARGO_APP_NAME: ${{ env.APP_NAME }}
           SERVICE_PLAN: B2
           DB_NAME: bangkok-qa-platform_bangkok
           ELASTIC_USER: bangkok-qa-bangkok
