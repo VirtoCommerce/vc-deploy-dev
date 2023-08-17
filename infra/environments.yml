@@ -40,7 +40,7 @@
       Search__DocumentScopes__5__Scope: vcptcore-qa-platformvcptcore-scope6
       Search__ElasticSearch__EnableCompatibilityMode: true
       Search__ElasticSearch__HealthCheckTimeout: 10
-      Search__Provider: ElasticAppSearch
+      #Search__Provider: ElasticAppSearch
       Search__ElasticAppSearch__EnableHttpCompression: true
       Search__ElasticAppSearch__Endpoint: https://enterprise-search-vc03.govirto.com
       Search__AzureSearch__SearchServiceName: qa-demovc-3-search
@@ -81,7 +81,7 @@
       VirtoCommerce__LicensePrivateKeyPath: app_data/private.key
       VirtoCommerce__LocalUploadFolderPath: app_data/uploads
       VirtoCommerce__Hangfire__JobStorageType: SqlServer
-      VirtoCommerce__Hangfire__WorkerCount: 8
+      VirtoCommerce__Hangfire__WorkerCount: 2
       VirtoCommerce__Hangfire__Queues__items_0: default
       VirtoCommerce__Hangfire__Queues__items_1: index_worker
       VirtoCommerce__Licensing__LicensePrivateKeyPath: /opt/virtocommerce/platform/license/VirtoCommerce.lic
