@@ -22,7 +22,7 @@
       SaaS__Replica__WebHookUrl: https: //$WEBHOOK_URL/db-config
       Search__ElasticSearch__EnableCompatibilityMode: true
       Search__ElasticSearch__HealthCheckTimeout: 10
-      VirtoCommerce__ApplicationInsights__RoleName: $TEAM-$ARGO_APP_NAME
+      VirtoCommerce__ApplicationInsights__RoleName: krasnodar-$ARGO_APP_NAME
       SaaS__Cache__Enabled: true
       SaaS__Cache__Expiration: 60
     secretConfig:
