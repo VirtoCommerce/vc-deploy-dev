@@ -28,7 +28,7 @@ jobs:
           ELASTIC_USER: bangkok-qa-bangkok
           WEBHOOK_URL: eastus-vc-dev.webhook.virtocloud.dev
           REGISTRY: virtopaasregistrymain.azurecr.io
-          SAAS_TOKEN: ${{ secrets.BANGKOK_PORTAL_TOKEN }}
+          SAAS_TOKEN: ${{ secrets.SAAS_DEV_TOKEN }}
           EXTERNAL_HOST: bangkok-qa.virtocloud.dev
         run: |
           envsubst < environment.template > environment.yml
