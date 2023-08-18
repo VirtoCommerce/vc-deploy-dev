@@ -14,8 +14,8 @@
         {
           "Id": "VirtoCommerce.Core",
           "Version": "3.400.0"
-        },       
-         {
+        },
+        {
           "Id": "VirtoCommerce.Hotjar",
           "Version": "3.400.0"
         }
@@ -173,7 +173,7 @@
         {
           "Id": "VirtoCommerce.Store",
           "BlobName": "VirtoCommerce.Store_3.401.0-pr-125-4c79.zip"
-        },       
+        },
         {
           "Id": "VirtoCommerce.Search",
           "BlobName": "VirtoCommerce.Search_3.401.0.zip"
@@ -206,14 +206,10 @@
           "Id": "VirtoCommerce.ExperienceApi",
           "BlobName": "VirtoCommerce.ExperienceApi_3.407.0.zip"
         },
-           {
-          "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.406.0-pr-57-ba59.zip"
-        },
         {
           "Id": "VirtoCommerce.CatalogPersonalization",
           "BlobName": "VirtoCommerce.CatalogPersonalization_3.400.0.zip"
-        },      
+        },
         {
           "Id": "VirtoCommerce.Orders",
           "BlobName": "VirtoCommerce.Orders_3.408.0-pr-373-792b.zip"
@@ -237,6 +233,10 @@
         {
           "Id": "VirtoCommerce.ScalableIndexation",
           "BlobName": "VirtoCommerce.ScalableIndexation_3.200.0-pr-1-e579.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ProfileExperienceApiModule",
+          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.406.0.zip"
         }
       ]
     }
