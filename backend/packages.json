@@ -211,10 +211,6 @@
           "BlobName": "VirtoCommerce.CatalogPersonalization_3.400.0.zip"
         },
         {
-          "Id": "VirtoCommerce.Orders",
-          "BlobName": "VirtoCommerce.Orders_3.408.0-pr-373-792b.zip"
-        },
-        {
           "Id": "VirtoCommerce.AzureAD",
           "BlobName": "VirtoCommerce.AzureAD_3.204.0.zip"
         },
@@ -237,6 +233,10 @@
         {
           "Id": "VirtoCommerce.Contracts",
           "BlobName": "VirtoCommerce.Contracts_3.402.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Orders",
+          "BlobName": "VirtoCommerce.Orders_3.408.0.zip"
         }
       ]
     }
