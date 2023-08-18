@@ -131,10 +131,6 @@
           "BlobName": "VirtoCommerce.PowerBiReports_3.200.0-alpha.16.zip"
         },
         {
-          "Id": "VirtoCommerce.CustomerExportImport",
-          "BlobName": "VirtoCommerce.CustomerExportImport_3.203.0-pr-82-664b.zip"
-        },
-        {
           "Id": "VirtoCommerce.ElasticAppSearch",
           "BlobName": "VirtoCommerce.ElasticAppSearch_3.211.0.zip"
         },
@@ -237,6 +233,10 @@
         {
           "Id": "VirtoCommerce.Contracts",
           "BlobName": "VirtoCommerce.Contracts_3.402.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.CustomerExportImport",
+          "BlobName": "VirtoCommerce.CustomerExportImport_3.400.0.zip"
         }
       ]
     }
