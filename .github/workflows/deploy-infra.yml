@@ -28,7 +28,7 @@ jobs:
           ELASTIC_USER: krasnodar-qa-krasnodar
           WEBHOOK_URL: eastus-vc-dev.webhook.virtocloud.dev
           REGISTRY: virtopaasregistrymain.azurecr.io
-          SAAS_TOKEN: ${{ secrets.KRASNODAR_PORTAL_TOKEN }}
+          SAAS_TOKEN: ${{ secrets.SAAS_DEV_TOKEN }}
           EXTERNAL_HOST: krasnodar-qa.virtocloud.dev
         run: |
           envsubst < environment.template > environment.yml
