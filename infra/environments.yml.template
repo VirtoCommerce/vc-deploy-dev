@@ -71,7 +71,7 @@
       B2C: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.36.0/vc-theme-b2b-vue-1.36.0.zip
   ingress:
     storefrontHostnames:
-      name1: vcst-b2c-store.govirto.com
+      name1: $ARGO_APP_NAME-b2c-store.govirto.com
   customApps:
     app1:
       enabled: false
@@ -79,6 +79,7 @@
       enabled: false
   protectedParameters:
    - themes.B2B-store
+   - themes.B2C-store
    - storefront.image.tag
    - platform.image.tag
   version: 3.208
