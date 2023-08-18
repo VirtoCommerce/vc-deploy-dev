@@ -148,10 +148,6 @@
           "Version": "3.400.0"
         },
         {
-          "Id": "VirtoCommerce.Contracts",
-          "Version": "3.401.0"
-        },
-        {
           "Id": "VirtoCommerce.Store",
           "Version": "3.401.0"
         },
@@ -206,6 +202,10 @@
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "Version": "3.406.0"
+        },
+        {
+          "Id": "VirtoCommerce.Contracts",
+          "Version": "3.402.0"
         }
       ]
     },
