@@ -15,11 +15,11 @@
       AzureAd__UsePreferredUsername: true
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
       Search__Provider: ElasticSearch
-      Search__ElasticSearch__Server: http: //search-es-http.elastic-system.svc.cluster.local:9200
+      Search__ElasticSearch__Server: http://search-es-http.elastic-system.svc.cluster.local:9200
       Search__ElasticSearch__User: $ELASTIC_USER
       AzureAd__Priority: 0
       PasswordLogin__Priority: 1
-      SaaS__Replica__WebHookUrl: https: //$WEBHOOK_URL/db-config
+      SaaS__Replica__WebHookUrl: https://$WEBHOOK_URL/db-config
       Search__ElasticSearch__EnableCompatibilityMode: true
       Search__ElasticSearch__HealthCheckTimeout: 10
       VirtoCommerce__ApplicationInsights__RoleName: krasnodar-$ARGO_APP_NAME
