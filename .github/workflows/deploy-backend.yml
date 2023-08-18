@@ -25,7 +25,7 @@ jobs:
 
     - name: Install vc-build
       run: |
-        dotnet tool install --global VirtoCommerce.GlobalTool --version 3.15.0-alpha.140
+        dotnet tool install --global VirtoCommerce.GlobalTool
 
     - name: Pack
       shell: bash {0}
@@ -40,7 +40,7 @@ jobs:
 
     - name: Set outputs
       id: vars
-      run: echo "::set-output name=paas_tag::${{ env.PLATFORM_TAG }}-$(git rev-parse --short HEAD)"
+      run: echo "paas_tag=${{ env.PLATFORM_TAG }}-$(git rev-parse --short HEAD)" >> $GITHUB_OUTPUT
 
     - name: Build platform Image
       run: |
