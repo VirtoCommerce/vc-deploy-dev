@@ -18,6 +18,7 @@ jobs:
       CONTAINER_REGISTRY: virtopaasregistrymain.azurecr.io
       IMAGE_REPOSITORY: virtopaasregistrymain.azurecr.io/krasnodar/platform
       PLATFORM_IMAGE_NAME: virtoseb-platform
+      ARGO_APP_NAME: ${{ github.ref_name }}
 
     steps:
       - uses: actions/checkout@v3
@@ -65,6 +66,6 @@ jobs:
 
       - name: Update app
         run: |
-          vc-build SetHelmParameter -ArgoServer https://argocd.virtocloud.dev -ArgoAppName ${{ env.ARGO_APP_NAME }} -ArgoToken ${{ secrets.KRASNODAR_TOKEN }} -HelmParameters platform.image.tag=$TAG
+          vc-build SetEnvParameter -CloudUrl https://portal.virtocloud.dev -CloudToken ${{ secrets.SAAS_DEV_TOKEN }} -EnvironmentName ${{ env.ARGO_APP_NAME }} -HelmParameters platform.image.tag=$TAG
         env:
           TAG: ${{ steps.vars.outputs.paas_tag }}
