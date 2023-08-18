@@ -46,6 +46,6 @@ jobs:
 
       - name: Update app
         run: |
-          vc-build SetHelmParameter -ArgoServer https://argocd.virtocloud.dev -ArgoAppName ${{ env.ARGO_APP_NAME }} -ArgoToken ${{ secrets.KRASNODAR_TOKEN }} -HelmParameters storefront.image.tag=$TAG
+          vc-build SetEnvParameter -CloudUrl https://portal.virtocloud.dev -CloudToken ${{ secrets.SAAS_DEV_TOKEN }} -EnvironmentName ${{ env.ARGO_APP_NAME }} -HelmParameters storefront.image.tag=$TAG
         env:
           TAG: ${{ env.STOREFRONT_TAG }}
