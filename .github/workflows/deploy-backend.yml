@@ -12,8 +12,8 @@ jobs:
   gitops:
     runs-on: ubuntu-22.04
     env:
-      DOCKER_LOGIN: virtoseb-token
-      DOCKER_PASSWORD: ${{ secrets.VIRTOSEB_ACR_DOCKER_PASSWORD }}
+      DOCKER_LOGIN: krasnodar-token
+      DOCKER_PASSWORD: ${{ secrets.KRASNODAR_ACR_DOCKER_PASSWORD }}
       DOCKERFILE_PATH: ./backend
       CONTAINER_REGISTRY: virtopaasregistrymain.azurecr.io
       IMAGE_REPOSITORY: virtopaasregistrymain.azurecr.io/krasnodar/platform
