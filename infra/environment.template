@@ -38,9 +38,8 @@
       Swagger__UI__Enable: "true"
       VirtoCommerce__DefaultStore: B2B-store
       VirtoCommerce__Endpoint__Password: store
-      secretConfig: {}
-      themes:
-        B2B-store: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-1.9.0-pr-313-8831-8831bc33.zip
+  themes:
+    B2B-store: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-1.9.0-pr-313-8831-8831bc33.zip
   ingress:
     hostnames:
       name1: $EXTERNAL_HOST
