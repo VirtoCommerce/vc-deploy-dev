@@ -53,7 +53,7 @@
     imageRepository: virtopaasregistrymain.azurecr.io/vcst/storefront
     imageTag: 6.21.0-alpha.950-dev-e8bc025e
     servicePlan: F1
-    probePath: "/storefrontapi/health"
+    probePath: /storefrontapi/health
     config:
       SYSTEM_RESTART: "07.08.2023"
       DOTNET_USE_POLLING_FILE_WATCHER: true
@@ -68,7 +68,7 @@
       CookieAuthenticationOptions__LoginPath: "/sign-in"
     secretConfig: {}
     themes:
-      B2B-store: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-1.32.0-alpha.706.zip
+      B2B-store: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.37.0/vc-theme-b2b-vue-1.37.0.zip
   ingress: {}
   customApps:
     app1:
@@ -79,4 +79,4 @@
    - themes.B2B-store
    - storefront.image.tag
    - platform.image.tag
-  version: 3.207
+  version: 3.208
