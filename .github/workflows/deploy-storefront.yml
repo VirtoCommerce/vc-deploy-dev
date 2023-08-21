@@ -25,6 +25,10 @@ jobs:
         run: |
           dotnet tool install --global VirtoCommerce.GlobalTool
 
+      - name: Set values
+        run: |
+          echo "APP_NAME=$(echo ${{ github.ref_name }} | awk -F- '{print $2}')" >> $GITHUB_ENV  
+
       - name: Get storefront version
         id: platform-version
         run: |
@@ -46,6 +50,6 @@ jobs:
 
       - name: Update app
         run: |
-          vc-build SetEnvParameter -CloudUrl https://portal.virtocloud.dev -CloudToken ${{ secrets.SAAS_DEV_TOKEN }} -EnvironmentName ${{ env.ARGO_APP_NAME }} -HelmParameters storefront.image.tag=$TAG
+          vc-build SetEnvParameter -CloudUrl https://portal.virtocloud.dev -CloudToken ${{ secrets.SAAS_DEV_TOKEN }} -EnvironmentName ${{ env.APP_NAME }} -HelmParameters storefront.image.tag=$TAG
         env:
           TAG: ${{ env.STOREFRONT_TAG }}
