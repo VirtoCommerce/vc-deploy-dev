@@ -16,7 +16,6 @@ jobs:
       DOCKER_PASSWORD: ${{ secrets.BANGKOK_ACR_DOCKER_PASSWORD }}
       CONTAINER_REGISTRY: virtopaasregistrymain.azurecr.io
       IMAGE_REPOSITORY: virtopaasregistrymain.azurecr.io/bangkok/storefront
-      ARGO_APP_NAME: ${{ github.ref_name}}
 
     steps:
       - uses: actions/checkout@v3
@@ -24,6 +23,10 @@ jobs:
       - name: Install vc-build
         run: |
           dotnet tool install --global VirtoCommerce.GlobalTool
+
+      - name: Set values
+        run: |
+          echo "APP_NAME=$(echo ${{ github.ref_name }} | awk -F- '{print $2}')" >> $GITHUB_ENV          
 
       - name: Get storefront version
         id: platform-version
@@ -46,6 +49,6 @@ jobs:
 
       - name: Update app
         run: |
-          vc-build SetEnvParameter -CloudUrl https://portal.virtocloud.dev -CloudToken ${{ secrets.SAAS_DEV_TOKEN }} -EnvironmentName ${{ env.ARGO_APP_NAME }} -HelmParameters storefront.image.tag=$TAG
+          vc-build SetEnvParameter -CloudUrl https://portal.virtocloud.dev -CloudToken ${{ secrets.SAAS_DEV_TOKEN }} -EnvironmentName ${{ env.APP_NAME }} -HelmParameters storefront.image.tag=$TAG
         env:
           TAG: ${{ env.STOREFRONT_TAG }}
