@@ -12,10 +12,6 @@
       ],
       "Modules": [
         {
-          "Id": "VirtoCommerce.ShipStation",
-          "Version": "3.200.0"
-        },
-        {
           "Id": "VirtoCommerce.FileSystemAssets",
           "Version": "3.203.0"
         },
@@ -206,6 +202,10 @@
         {
           "Id": "VirtoCommerce.Orders",
           "Version": "3.408.0"
+        },
+        {
+          "Id": "VirtoCommerce.ShipStation",
+          "Version": "3.201.0"
         }
       ]
     },
