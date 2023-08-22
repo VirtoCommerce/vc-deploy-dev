@@ -4,7 +4,7 @@
   servicePlan: S3
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.410.0-c734807
+    imageTag: 3.410.0-01d8d41
     sqlReplica: false
     config:
       Notifications__DefaultSender: azure_25da07ed75daacae20578a7a7dc58541@azure.com
@@ -66,11 +66,11 @@
       VirtoCommerce__ApplicationInsights__SamplingOptions__Processor: Fixed
       APPINSIGHTS_INSTRUMENTATIONKEY: cada4cf7-305b-4827-a03a-ca9aac67fb9e
       FrontendSecurity__OrganizationMaintainerRole: Organization maintainer
-      IdentityOptions__Password__RequiredLength: 8
-      IdentityOptions__Password__RequireDigit: true
-      IdentityOptions__Password__RequireNonAlphanumeric: true
-      IdentityOptions__Password__RequireUppercase: true
-      IdentityOptions__Password__RequireLowercase: true
+      IdentityOptions__Password__RequiredLength: 3
+      IdentityOptions__Password__RequireDigit: false
+      IdentityOptions__Password__RequireNonAlphanumeric: false
+      IdentityOptions__Password__RequireUppercase: false
+      IdentityOptions__Password__RequireLowercase: false
       EventBus__Connections__0__Name: "AzureEventGridApps"
       EventBus__Connections__0__ProviderName: "AzureEventGrid"
       EventBus__Connections__0__ConnectionOptionsSerialized: "{\"ConnectionString\": \"https://test-event-grid-dont-delete.westus-1.eventgrid.azure.net/api/events\", \"AccessKey\": \"kvpXOgw5MiNjBeBKdroX1r45UvZloXMwlM7i1TyqoiI=\"}"
