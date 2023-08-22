@@ -196,16 +196,16 @@
           "Version": "3.400.0"
         },
         {
-          "Id": "VirtoCommerce.Orders",
-          "Version": "3.408.0"
-        },
-        {
           "Id": "VirtoCommerce.ShipStation",
           "Version": "3.400.0"
         },
         {
           "Id": "VirtoCommerce.Search",
           "Version": "3.402.0"
+        },
+        {
+          "Id": "VirtoCommerce.Orders",
+          "Version": "3.409.0"
         }
       ]
     },
