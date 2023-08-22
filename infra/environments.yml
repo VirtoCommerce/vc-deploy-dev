@@ -10,7 +10,7 @@
       DOTNET_USE_POLLING_FILE_WATCHER: true
       Reload: 69
       VirtoCommerce__SampleDataUrl: https://virtocommerce.azureedge.net/sample-data/b2b-sample-store.zip
-      ConnectionStrings__RedisConnectionString: 
+      #ConnectionStrings__RedisConnectionString: 
       TaxModule__FixedRateTaxProvider__Enabled: true
       Notifications__DefaultSender: azure_25da07ed75daacae20578a7a7dc58541@azure.com
       Notifications__Gateway: SendGrid
