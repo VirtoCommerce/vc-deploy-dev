@@ -4,7 +4,7 @@
   servicePlan: S3
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.411.0-alpha.12726-pt-12665-4c3c6917-d3da063
+    imageTag: 3.410.0-c734807
     sqlReplica: false
     config:
       Notifications__DefaultSender: azure_25da07ed75daacae20578a7a7dc58541@azure.com
