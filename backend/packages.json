@@ -80,10 +80,6 @@
           "Version": "4.400.0"
         },
         {
-          "Id": "VirtoCommerce.Cart",
-          "Version": "3.400.0"
-        },
-        {
           "Id": "VirtoCommerce.CatalogPersonalization",
           "Version": "3.400.0"
         },
@@ -206,6 +202,10 @@
         {
           "Id": "VirtoCommerce.Shipping",
           "Version": "3.402.0"
+        },
+        {
+          "Id": "VirtoCommerce.Cart",
+          "Version": "3.401.0"
         }
       ]
     },
