@@ -38,7 +38,6 @@
       #Search__Provider: Lucene
       VirtoCommerce__SampleDataUrl: https://virtocommerce.azureedge.net/sample-data/b2b-sample-store.zip
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
-      AppInsights__EnableDependencyTrackingTelemetryModule: false
       Swagger__UI__Enabled: false
       Search__OrderFullTextSearchEnabled: true
       Search__ContentFullTextSearchEnabled: true
@@ -66,7 +65,6 @@
       DefaultMainMenuState__items__0__path: browse/marketing
       DefaultMainMenuState__items__0__isFavorite: true
       DefaultMainMenuState__items__0__order: 1
-      VirtoCommerce__ApplicationInsights__SamplingOptions__Processor: Fixed
       APPINSIGHTS_INSTRUMENTATIONKEY: cada4cf7-305b-4827-a03a-ca9aac67fb9e
       FrontendSecurity__OrganizationMaintainerRole: Organization maintainer
       IdentityOptions__Password__RequiredLength: 3
