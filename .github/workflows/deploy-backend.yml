@@ -68,7 +68,8 @@ jobs:
           az config set extension.use_dynamic_install=yes_without_prompt
 
       - name: Update app
+        # Using Bangkok scoped token, no need to specify organization
         run: |
-          vc-build SetEnvParameter -CloudUrl https://portal.virtocloud.dev -CloudToken ${{ secrets.SAAS_DEV_TOKEN }} -EnvironmentName ${{ env.APP_NAME }} -HelmParameters platform.image.tag=$TAG 
+          vc-build SetEnvParameter -CloudUrl https://portal.virtocloud.dev -CloudToken ${{ secrets.BANGKOK_PORTAL_TOKEN }} -EnvironmentName ${{ env.APP_NAME }} -HelmParameters platform.image.tag=$TAG 
         env:
           TAG: ${{ steps.vars.outputs.paas_tag }}
