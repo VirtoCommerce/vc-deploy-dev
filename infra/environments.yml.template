@@ -1,7 +1,7 @@
 - name: $ARGO_APP_NAME
   gitops: false
   production: false
-  servicePlan: F1
+  servicePlan: B1
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcst/platform
     imageTag: 3.258.0-92530d49
@@ -52,7 +52,7 @@
     enabled: true
     imageRepository: virtopaasregistrymain.azurecr.io/vcst/storefront
     imageTag: 6.21.0-alpha.950-dev-e8bc025e
-    servicePlan: F1
+    servicePlan: B1
     probePath: /storefrontapi/health
     config:
       SYSTEM_RESTART: "07.08.2023"
