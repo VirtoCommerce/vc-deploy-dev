@@ -7,6 +7,10 @@
     imageTag: 3.410.0-ce6ce4b
     sqlReplica: false
     config:
+      PushNotifications__ForceWebSockets: true
+      PushNotifications__ScalabilityMode: RedisBackplane
+      PushNotifications__HubUrl: https://vcptcore-loadtest.paas.govirto.com/pushNotificationHub
+      PushNotifications__RedisBackplane__ChannelName: vcptcore-loadtest-chanel
       Notifications__DefaultSender: azure_25da07ed75daacae20578a7a7dc58541@azure.com
       Notifications__Gateway: SendGrid
       Notifications__SmsDefaultSender: +17012510519
