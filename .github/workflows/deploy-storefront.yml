@@ -50,6 +50,7 @@ jobs:
           docker push ${{ env.IMAGE_REPOSITORY }}:${{ env.STOREFRONT_TAG }}
 
       - name: Update app
+        # Using Krasnodar scoped token, no need to specify organization
         run: |
           vc-build SetEnvParameter -CloudUrl https://portal.virtocloud.dev -CloudToken ${{ secrets.KRASNODAR_PORTAL_TOKEN }} -EnvironmentName ${{ env.APP_NAME }} -HelmParameters storefront.image.tag=$TAG
         env:

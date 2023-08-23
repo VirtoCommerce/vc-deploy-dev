@@ -70,6 +70,7 @@ jobs:
           az config set extension.use_dynamic_install=yes_without_prompt
 
       - name: Update app
+        # Using Krasnodar scoped token, no need to specify organization
         run: |
           vc-build SetEnvParameter -CloudUrl https://portal.virtocloud.dev -CloudToken ${{ secrets.KRASNODAR_PORTAL_TOKEN }} -EnvironmentName ${{ env.APP_NAME }} -HelmParameters platform.image.tag=$TAG
         env:
