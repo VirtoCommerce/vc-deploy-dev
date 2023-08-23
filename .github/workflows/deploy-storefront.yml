@@ -51,6 +51,6 @@ jobs:
 
       - name: Update app
         run: |
-          vc-build SetEnvParameter -CloudUrl https://portal.virtocloud.dev -CloudToken ${{ secrets.SAAS_DEV_TOKEN }} -Organization krasnodar -EnvironmentName ${{ env.APP_NAME }} -HelmParameters storefront.image.tag=$TAG
+          vc-build SetEnvParameter -CloudUrl https://portal.virtocloud.dev -CloudToken ${{ secrets.KRASNODAR_PORTAL_TOKEN }} -EnvironmentName ${{ env.APP_NAME }} -HelmParameters storefront.image.tag=$TAG
         env:
           TAG: ${{ env.STOREFRONT_TAG }}
