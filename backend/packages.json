@@ -206,6 +206,10 @@
         {
           "Id": "VirtoCommerce.Customer",
           "Version": "3.403.0"
+        },
+        {
+          "Id": "VirtoCommerce.ApplicationInsights",
+          "Version": "3.202.0"
         }
       ]
     },
