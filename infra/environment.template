@@ -5,7 +5,7 @@
   platform:
     dbName: $DB_NAME
     imageRepository: virtopaasregistrymain.azurecr.io/bangkok/platform
-    imageTag: 3.209.1-5331196711
+    imageTag: 3.411.0-alpha.12726-dev-4be3190f-2555d23
     sqlReplica: false
     config:
       restart: 2
@@ -39,7 +39,7 @@
       VirtoCommerce__DefaultStore: B2B-store
       VirtoCommerce__Endpoint__Password: store
   themes:
-    B2B-store: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-1.9.0-pr-313-8831-8831bc33.zip
+    B2B-store: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-1.38.0-alpha.834.zip
   ingress:
     hostnames:
       name1: $EXTERNAL_HOST
