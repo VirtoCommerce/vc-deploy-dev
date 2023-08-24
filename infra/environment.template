@@ -5,7 +5,7 @@
   platform:
     dbName: $DB_NAME
     imageRepository: virtopaasregistrymain.azurecr.io/bangkok/platform
-    imageTag: 3.411.0-alpha.12726-dev-4be3190f-2555d23
+    imageTag: 3.411.0-alpha.12726-dev-4be3190f-93954cf
     sqlReplica: false
     config:
       restart: 2
