@@ -37,7 +37,7 @@
       SnapshotCollectorConfiguration__IsEnabled: false      
       Reload: 2022-10-05
     secretConfig:
-      VirtoCommerce__Endpoint__Password: virtocommercepassword
+      VirtoCommerce__Endpoint__Password: krasnodar-frontendpass
     themes:
       B2B-store: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.37.0/vc-theme-b2b-vue-1.37.0.zip
   ingress:
