@@ -4,11 +4,11 @@
   servicePlan: S2
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.411.0-alpha.12726-pt-12665-4c3c6917-7932cc1
+    imageTag: 3.411.0-alpha.12726-pt-12665-4c3c6917-82e1f45
     sqlReplica: false
     config:
       DOTNET_USE_POLLING_FILE_WATCHER: true
-      Reload: 69
+      Reload: 70
       VirtoCommerce__SampleDataUrl: https://virtocommerce.azureedge.net/sample-data/b2b-sample-store.zip
       #ConnectionStrings__RedisConnectionString: 
       TaxModule__FixedRateTaxProvider__Enabled: true
