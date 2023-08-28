@@ -4,7 +4,7 @@
   servicePlan: S2
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.411.0-alpha.12726-pt-12665-4c3c6917-82e1f45
+    imageTag: 3.411.0-alpha.12730-pt-13018-c3c2bde9-6c935cb
     sqlReplica: false
     config:
       DOTNET_USE_POLLING_FILE_WATCHER: true
@@ -140,7 +140,7 @@
       Swagger__UI__Enable: true
       ConnectionStrings__ContentConnectionString: provider=AzureBlobStorage;rootPath=cms;DefaultEndpointsProtocol=https;AccountName=qademovc3;AccountKey=qPIpM63MI2P3ei6B1xIL4/DlKDqdsRj54z2GUtgCAeXPcMe8+mZiUvrvI5fjdyrovk331XmBlMFfAEFAjCnvtw==;EndpointSuffix=core.windows.net
     themes:
-      B2B-store: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.36.0/vc-theme-b2b-vue-1.36.0.zip
+      B2B-store: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-1.38.0-alpha.840.zip
   ingress: {}
   customApps:
     app1:
