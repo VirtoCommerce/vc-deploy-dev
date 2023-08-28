@@ -4,7 +4,7 @@
   servicePlan: S2
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.411.0-alpha.12730-pt-13018-c3c2bde9-6c935cb
+    imageTag: 3.411.0-alpha.12730-pt-13018-c3c2bde9-151ee02
     sqlReplica: false
     config:
       DOTNET_USE_POLLING_FILE_WATCHER: true
@@ -110,8 +110,8 @@
       IdentityOptions__Lockout__AutoAccountsLockoutJobEnabled: false
       IdentityOptions__Lockout__LockoutMaximumDaysFromLastLogin: 3
       IdentityOptions__Lockout__CronAutoAccountsLockoutJob: "0/5 * * * *"
-      IdentityOptions__User__RemindPasswordExpiryInDays: 15
-      #IdentityOptions__User__MaxPasswordAge: "28"
+      IdentityOptions__User__RemindPasswordExpiryInDays: 27
+      IdentityOptions__User__MaxPasswordAge: "28"
       FrontendSecurity__OrganizationMaintainerRole: Organization maintainer
       EventBus__Connections__0__Name: AzureEventGridApps
       EventBus__Connections__0__ProviderName: AzureEventGrid
