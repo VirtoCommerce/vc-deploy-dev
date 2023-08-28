@@ -178,10 +178,6 @@
           "BlobName": "VirtoCommerce.Pricing_3.403.0-alpha.706.zip"
         },
         {
-          "Id": "VirtoCommerce.AzureSearch",
-          "BlobName": "VirtoCommerce.AzureSearch_3.210.0-alpha.209.zip"
-        },
-        {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.407.0-alpha.170.zip"
         },
@@ -224,6 +220,10 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "BlobName": "VirtoCommerce.Catalog_3.406.0-alpha.2147.zip"
+        },
+        {
+          "Id": "VirtoCommerce.AzureSearch",
+          "BlobName": "VirtoCommerce.AzureSearch_3.210.0-alpha.211.zip"
         }
       ]
     }
