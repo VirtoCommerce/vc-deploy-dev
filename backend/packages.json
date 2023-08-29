@@ -48,10 +48,6 @@
           "Version": "3.205.0"
         },
         {
-          "Id": "VirtoCommerce.ElasticAppSearch",
-          "Version": "3.211.0"
-        },
-        {
           "Id": "VirtoCommerce.AzureAD",
           "Version": "3.204.0"
         },
@@ -206,6 +202,10 @@
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "Version": "3.407.0"
+        },
+        {
+          "Id": "VirtoCommerce.ElasticAppSearch",
+          "Version": "3.212.0"
         }
       ]
     },
