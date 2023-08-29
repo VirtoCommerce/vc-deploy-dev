@@ -58,10 +58,6 @@
           "BlobName": "VirtoCommerce.FileSystemAssets_3.204.0-alpha.75.zip"
         },
         {
-          "Id": "VirtoCommerce.ElasticAppSearch",
-          "BlobName": "VirtoCommerce.ElasticAppSearch_3.212.0-alpha.98.zip"
-        },
-        {
           "Id": "VirtoCommerce.AzureAD",
           "BlobName": "VirtoCommerce.AzureAD_3.205.0-alpha.19.zip"
         },
@@ -224,6 +220,10 @@
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.408.0-alpha.172.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ElasticAppSearch",
+          "BlobName": "VirtoCommerce.ElasticAppSearch_3.212.0-alpha.101.zip"
         }
       ]
     }
