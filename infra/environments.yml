@@ -10,7 +10,6 @@
       DOTNET_USE_POLLING_FILE_WATCHER: true
       Reload: 70
       VirtoCommerce__SampleDataUrl: https://virtocommerce.azureedge.net/sample-data/b2b-sample-store.zip
-      #ConnectionStrings__RedisConnectionString: 
       TaxModule__FixedRateTaxProvider__Enabled: true
       Notifications__DefaultSender: azure_25da07ed75daacae20578a7a7dc58541@azure.com
       Notifications__Gateway: SendGrid
@@ -40,7 +39,7 @@
       Search__DocumentScopes__5__Scope: vcptcore-qa-platformvcptcore-scope6
       Search__ElasticSearch__EnableCompatibilityMode: true
       Search__ElasticSearch__HealthCheckTimeout: 10
-      Search__Provider: AzureSearch
+      Search__Provider: ElasticAppSearch
       Search__ElasticAppSearch__EnableHttpCompression: true
       Search__ElasticAppSearch__Endpoint: https://enterprise-search-vc03.govirto.com
       Search__AzureSearch__SearchServiceName: qa-demovc-3-search
@@ -109,9 +108,9 @@
       IdentityOptions__Password__PasswordChangeByAdminEnabled: true
       IdentityOptions__Lockout__AutoAccountsLockoutJobEnabled: false
       IdentityOptions__Lockout__LockoutMaximumDaysFromLastLogin: 3
-      IdentityOptions__Lockout__CronAutoAccountsLockoutJob: "0/5 * * * *"
+      IdentityOptions__Lockout__CronAutoAccountsLockoutJob: 0/5 * * * *
       IdentityOptions__User__RemindPasswordExpiryInDays: 89
-      IdentityOptions__User__MaxPasswordAge: "90"
+      IdentityOptions__User__MaxPasswordAge: 90
       FrontendSecurity__OrganizationMaintainerRole: Organization maintainer
       EventBus__Connections__0__Name: AzureEventGridApps
       EventBus__Connections__0__ProviderName: AzureEventGrid
@@ -188,4 +187,4 @@
         Notifications__SendGrid__ApiKey: sendkey
         Notifications__Smtp__Password: smtppassword
         Search__ElasticAppSearch__PrivateApiKey: elasticappsearch
-  version: 3.208
+  version: 3.210
