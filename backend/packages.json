@@ -24,10 +24,6 @@
           "Version": "3.202.0"
         },
         {
-          "Id": "VirtoCommerce.NativePaymentMethods",
-          "Version": "3.205.0"
-        },
-        {
           "Id": "VirtoCommerce.AzureBlobAssets",
           "Version": "3.211.0"
         },
@@ -206,6 +202,10 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "Version": "3.406.0"
+        },
+        {
+          "Id": "VirtoCommerce.NativePaymentMethods",
+          "Version": "3.401.0"
         }
       ]
     },
