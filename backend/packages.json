@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.410.0",
+  "PlatformVersion": "3.412.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.410.0",
+  "PlatformImageTag": "3.412.0",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -24,10 +24,6 @@
           "Version": "3.202.0"
         },
         {
-          "Id": "VirtoCommerce.NativePaymentMethods",
-          "Version": "3.400.0"
-        },
-        {
           "Id": "VirtoCommerce.AzureBlobAssets",
           "Version": "3.211.0"
         },
@@ -46,10 +42,6 @@
         {
           "Id": "VirtoCommerce.Export",
           "Version": "3.205.0"
-        },
-        {
-          "Id": "VirtoCommerce.ElasticAppSearch",
-          "Version": "3.211.0"
         },
         {
           "Id": "VirtoCommerce.AzureAD",
@@ -80,10 +72,6 @@
           "Version": "4.400.0"
         },
         {
-          "Id": "VirtoCommerce.Cart",
-          "Version": "3.400.0"
-        },
-        {
           "Id": "VirtoCommerce.CatalogPersonalization",
           "Version": "3.400.0"
         },
@@ -112,10 +100,6 @@
           "Version": "3.400.0"
         },
         {
-          "Id": "VirtoCommerce.Subscription",
-          "Version": "3.400.0"
-        },
-        {
           "Id": "VirtoCommerce.Quote",
           "Version": "3.400.0"
         },
@@ -124,15 +108,7 @@
           "Version": "3.402.0"
         },
         {
-          "Id": "VirtoCommerce.Shipping",
-          "Version": "3.401.0"
-        },
-        {
           "Id": "VirtoCommerce.ElasticSearch",
-          "Version": "3.400.0"
-        },
-        {
-          "Id": "VirtoCommerce.TaskManagement",
           "Version": "3.400.0"
         },
         {
@@ -142,10 +118,6 @@
         {
           "Id": "VirtoCommerce.PriceExportImport",
           "Version": "3.400.0"
-        },
-        {
-          "Id": "VirtoCommerce.Catalog",
-          "Version": "3.404.0"
         },
         {
           "Id": "VirtoCommerce.Inventory",
@@ -164,27 +136,7 @@
           "Version": "3.402.0"
         },
         {
-          "Id": "VirtoCommerce.Content",
-          "Version": "3.404.0"
-        },
-        {
           "Id": "VirtoCommerce.Pricing",
-          "Version": "3.402.0"
-        },
-        {
-          "Id": "VirtoCommerce.AzureSearch",
-          "Version": "3.209.0"
-        },
-        {
-          "Id": "VirtoCommerce.ExperienceApi",
-          "Version": "3.407.0"
-        },
-        {
-          "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.406.0"
-        },
-        {
-          "Id": "VirtoCommerce.Contracts",
           "Version": "3.402.0"
         },
         {
@@ -200,12 +152,60 @@
           "Version": "3.402.0"
         },
         {
-          "Id": "VirtoCommerce.Orders",
-          "Version": "3.409.0"
-        },
-        {
           "Id": "VirtoCommerce.Customer",
           "Version": "3.403.0"
+        },
+        {
+          "Id": "VirtoCommerce.Shipping",
+          "Version": "3.402.0"
+        },
+        {
+          "Id": "VirtoCommerce.Cart",
+          "Version": "3.401.0"
+        },
+        {
+          "Id": "VirtoCommerce.ProfileExperienceApiModule",
+          "Version": "3.407.0"
+        },
+        {
+          "Id": "VirtoCommerce.ElasticAppSearch",
+          "Version": "3.212.0"
+        },
+        {
+          "Id": "VirtoCommerce.AzureSearch",
+          "Version": "3.210.0"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "Version": "3.406.0"
+        },
+        {
+          "Id": "VirtoCommerce.NativePaymentMethods",
+          "Version": "3.401.0"
+        },
+        {
+          "Id": "VirtoCommerce.Content",
+          "Version": "3.405.0"
+        },
+        {
+          "Id": "VirtoCommerce.Subscription",
+          "Version": "3.401.0"
+        },
+        {
+          "Id": "VirtoCommerce.Orders",
+          "Version": "3.410.0"
+        },
+        {
+          "Id": "VirtoCommerce.ExperienceApi",
+          "Version": "3.408.0"
+        },
+        {
+          "Id": "VirtoCommerce.Contracts",
+          "Version": "3.403.0"
+        },
+        {
+          "Id": "VirtoCommerce.TaskManagement",
+          "Version": "3.401.0"
         },
         {
           "Id": "VirtoCommerce.ApplicationInsights",
