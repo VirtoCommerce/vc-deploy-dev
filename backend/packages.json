@@ -218,12 +218,12 @@
           "BlobName": "VirtoCommerce.Inventory_3.405.0-alpha.439.zip"
         },
         {
-          "Id": "VirtoCommerce.Catalog",
-          "BlobName": "VirtoCommerce.Catalog_3.407.0-alpha.2150.zip"
-        },
-        {
           "Id": "VirtoCommerce.Customer",
           "BlobName": "VirtoCommerce.Customer_3.404.0-alpha.786.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "BlobName": "VirtoCommerce.Catalog_3.408.0-alpha.2151.zip"
         }
       ]
     }
