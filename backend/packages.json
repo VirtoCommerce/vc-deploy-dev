@@ -1,6 +1,6 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.410.0",
+  "PlatformVersion": "3.412.0",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -35,7 +35,7 @@
         },
         {
           "Id": "VirtoCommerce.AuthorizeNetPayment",
-          "Version": "3.205.0"
+          "Version": "3.206.0"
         },
         {
           "Id": "VirtoCommerce.AvalaraTax",
@@ -55,11 +55,11 @@
         },
         {
           "Id": "VirtoCommerce.Cart",
-          "Version": "3.400.0"
+          "Version": "3.401.0"
         },
         {
           "Id": "VirtoCommerce.Catalog",
-          "Version": "3.404.0"
+          "Version": "3.406.0"
         },
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
@@ -75,11 +75,11 @@
         },
         {
           "Id": "VirtoCommerce.Content",
-          "Version": "3.404.0"
+          "Version": "3.405.0"
         },
         {
           "Id": "VirtoCommerce.Contracts",
-          "Version": "3.402.0"
+          "Version": "3.403.0"
         },
         {
           "Id": "VirtoCommerce.Core",
@@ -87,7 +87,7 @@
         },
         {
           "Id": "VirtoCommerce.Customer",
-          "Version": "3.402.0"
+          "Version": "3.403.0"
         },
         {
           "Id": "VirtoCommerce.CustomerReviews",
@@ -99,7 +99,7 @@
         },
         {
           "Id": "VirtoCommerce.ElasticAppSearch",
-          "Version": "3.211.0"
+          "Version": "3.212.0"
         },
         {
           "Id": "VirtoCommerce.EventBus",
@@ -107,7 +107,7 @@
         },
         {
           "Id": "VirtoCommerce.ExperienceApi",
-          "Version": "3.407.0"
+          "Version": "3.408.0"
         },
         {
           "Id": "VirtoCommerce.Export",
@@ -151,7 +151,7 @@
         },
         {
           "Id": "VirtoCommerce.Orders",
-          "Version": "3.408.0"
+          "Version": "3.410.0"
         },
         {
           "Id": "VirtoCommerce.Payment",
@@ -159,7 +159,7 @@
         },
         {
           "Id": "VirtoCommerce.Pricing",
-          "Version": "3.400.0"
+          "Version": "3.402.0"
         },
         {
           "Id": "VirtoCommerce.PriceExportImport",
@@ -167,7 +167,7 @@
         },
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.406.0"
+          "Version": "3.407.0"
         },
         {
           "Id": "VirtoCommerce.Quote",
@@ -183,7 +183,7 @@
         },
         {
           "Id": "VirtoCommerce.Shipping",
-          "Version": "3.401.0"
+          "Version": "3.402.0"
         },
         {
           "Id": "VirtoCommerce.Sitemaps",
@@ -195,11 +195,11 @@
         },
         {
           "Id": "VirtoCommerce.Subscription",
-          "Version": "3.400.0"
+          "Version": "3.401.0"
         },
         {
           "Id": "VirtoCommerce.TaskManagement",
-          "Version": "3.400.0"
+          "Version": "3.401.0"
         },
         {
           "Id": "VirtoCommerce.Tax",
