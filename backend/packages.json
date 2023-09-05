@@ -1,20 +1,15 @@
 {
-  "ManifestVersion": "2.0",
-  "PlatformVersion": "3.410.0",
   "PlatformAssetUrl": "",
-  "ModuleSources": [
-    "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
-  ],
   "Sources": [
     {
       "Name": "AzureBlob",
-      "Container": "packages",
-      "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
         {
           "BlobName": "VirtoCommerce.PageBuilderModule_3.400.0.zip"
         }
-      ]
+      ],
+      "Container": "packages",
+      "ServiceUri": "https://vc3prerelease.blob.core.windows.net"
     },
     {
       "Name": "GithubReleases",
@@ -52,11 +47,11 @@
         },
         {
           "Id": "VirtoCommerce.Cart",
-          "Version": "3.400.0"
+          "Version": "3.401.0"
         },
         {
           "Id": "VirtoCommerce.Catalog",
-          "Version": "3.404.0"
+          "Version": "3.406.0"
         },
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
@@ -72,11 +67,11 @@
         },
         {
           "Id": "VirtoCommerce.Content",
-          "Version": "3.404.0"
+          "Version": "3.405.0"
         },
         {
           "Id": "VirtoCommerce.Contracts",
-          "Version": "3.402.0"
+          "Version": "3.403.0"
         },
         {
           "Id": "VirtoCommerce.Core",
@@ -84,7 +79,7 @@
         },
         {
           "Id": "VirtoCommerce.Customer",
-          "Version": "3.402.0"
+          "Version": "3.403.0"
         },
         {
           "Id": "VirtoCommerce.CustomerReviews",
@@ -96,7 +91,7 @@
         },
         {
           "Id": "VirtoCommerce.ElasticAppSearch",
-          "Version": "3.211.0"
+          "Version": "3.212.0"
         },
         {
           "Id": "VirtoCommerce.ElasticSearch",
@@ -108,7 +103,7 @@
         },
         {
           "Id": "VirtoCommerce.ExperienceApi",
-          "Version": "3.407.0"
+          "Version": "3.408.0"
         },
         {
           "Id": "VirtoCommerce.Export",
@@ -148,7 +143,7 @@
         },
         {
           "Id": "VirtoCommerce.NativePaymentMethods",
-          "Version": "3.400.0"
+          "Version": "3.401.0"
         },
         {
           "Id": "VirtoCommerce.Notifications",
@@ -156,7 +151,7 @@
         },
         {
           "Id": "VirtoCommerce.Orders",
-          "Version": "3.408.0"
+          "Version": "3.410.0"
         },
         {
           "Id": "VirtoCommerce.Payment",
@@ -168,7 +163,7 @@
         },
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.406.0"
+          "Version": "3.407.0"
         },
         {
           "Id": "VirtoCommerce.Quote",
@@ -180,11 +175,11 @@
         },
         {
           "Id": "VirtoCommerce.Search",
-          "Version": "3.401.0"
+          "Version": "3.402.0"
         },
         {
           "Id": "VirtoCommerce.Shipping",
-          "Version": "3.401.0"
+          "Version": "3.402.0"
         },
         {
           "Id": "VirtoCommerce.Sitemaps",
@@ -196,7 +191,7 @@
         },
         {
           "Id": "VirtoCommerce.Subscription",
-          "Version": "3.400.0"
+          "Version": "3.401.0"
         },
         {
           "Id": "VirtoCommerce.Tax",
@@ -208,5 +203,7 @@
         }
       ]
     }
-  ]
+  ],
+  "ManifestVersion": "2.0",
+  "PlatformVersion": "3.412.0"
 }
