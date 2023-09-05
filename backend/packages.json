@@ -1,4 +1,6 @@
 {
+  "ManifestVersion": "2.0",
+  "PlatformVersion": "3.412.0",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -203,7 +205,5 @@
         }
       ]
     }
-  ],
-  "ManifestVersion": "2.0",
-  "PlatformVersion": "3.412.0"
+  ]
 }
