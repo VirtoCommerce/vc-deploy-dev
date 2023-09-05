@@ -178,10 +178,6 @@
           "BlobName": "VirtoCommerce.Shipping_3.403.0-alpha.172.zip"
         },
         {
-          "Id": "VirtoCommerce.Cart",
-          "BlobName": "VirtoCommerce.Cart_3.402.0-alpha.638.zip"
-        },
-        {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.408.0-alpha.172.zip"
         },
@@ -224,6 +220,10 @@
         {
           "Id": "VirtoCommerce.TaskManagement",
           "BlobName": "VirtoCommerce.TaskManagement_3.402.0-alpha.61.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Cart",
+          "BlobName": "VirtoCommerce.Cart_3.402.0-alpha.639.zip"
         }
       ]
     }
