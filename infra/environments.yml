@@ -4,7 +4,7 @@
   servicePlan: S2
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.413.0-b878e83
+    imageTag: 3.413.0-197826a
     sqlReplica: false
     config:
       DOTNET_USE_POLLING_FILE_WATCHER: true
@@ -41,7 +41,7 @@
       Search__ElasticSearch__HealthCheckTimeout: 10
       Search__Provider: ElasticSearch8x
       Search__ElasticSearch8x__Server: "https://6d79630e64d7403993990bca62b80cfc.us-central1.gcp.cloud.es.io"
-      Search__ElasticSearch8x__User: "tzykin.alexandr@gmail.com"
+      Search__ElasticSearch8x__User: "elastic"
       Search__ElasticAppSearch__EnableHttpCompression: true
       Search__ElasticAppSearch__Endpoint: https://enterprise-search-vc03.govirto.com
       Search__AzureSearch__SearchServiceName: qa-demovc-3-search
