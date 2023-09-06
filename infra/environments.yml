@@ -4,7 +4,7 @@
   servicePlan: F1
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.293.15-0f1f3de
+    imageTag: 3.293.15-9699901
     sqlReplica: false
     config:
       DOTNET_USE_POLLING_FILE_WATCHER: true
@@ -18,7 +18,7 @@
       Notifications__Smtp__SmtpServer: smtp.yandex.ru
       Notifications__Smtp__Port: 465
       Notifications__Smtp__Login: tzykin.alexandr
-      Search__Provider: AzureSearch
+      #Search__Provider: AzureSearch
       Search__ElasticSearch__EnableCompatibilityMode: true
       Search__ElasticAppSearch__EnableHttpCompression: true
       Search__ElasticAppSearch__Endpoint: https://enterprise-search-vc03.govirto.com
