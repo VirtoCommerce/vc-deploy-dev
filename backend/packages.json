@@ -211,10 +211,6 @@
           "BlobName": "VirtoCommerce.Orders_3.412.0-pr-377-08e2.zip"
         },
         {
-          "Id": "VirtoCommerce.Customer",
-          "BlobName": "VirtoCommerce.Customer_3.404.0.zip"
-        },
-        {
           "Id": "VirtoCommerce.Cart",
           "BlobName": "VirtoCommerce.Cart_3.403.0-pr-130-6b8e.zip"
         },
@@ -241,6 +237,10 @@
         {
           "Id": "VirtoCommerce.TaskManagement",
           "BlobName": "VirtoCommerce.TaskManagement_3.401.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Customer",
+          "BlobName": "VirtoCommerce.Customer_3.405.0.zip"
         }
       ]
     }
