@@ -4,7 +4,7 @@
   servicePlan: S2
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.411.0-937492f
+    imageTag: 3.413.0-b878e83
     sqlReplica: false
     config:
       DOTNET_USE_POLLING_FILE_WATCHER: true
@@ -39,7 +39,9 @@
       Search__DocumentScopes__5__Scope: vcptcore-qa-platformvcptcore-scope6
       Search__ElasticSearch__EnableCompatibilityMode: true
       Search__ElasticSearch__HealthCheckTimeout: 10
-      #Search__Provider: AzureSearch
+      Search__Provider: ElasticSearch8x
+      Search__ElasticSearch8x__Server: "https://6d79630e64d7403993990bca62b80cfc.us-central1.gcp.cloud.es.io"
+      Search__ElasticSearch8x__User: "tzykin.alexandr@gmail.com"
       Search__ElasticAppSearch__EnableHttpCompression: true
       Search__ElasticAppSearch__Endpoint: https://enterprise-search-vc03.govirto.com
       Search__AzureSearch__SearchServiceName: qa-demovc-3-search
@@ -124,6 +126,7 @@
       Notifications__SendGrid__ApiKey: sendkey
       Notifications__Smtp__Password: smtppasswordyandex
       Search__ElasticAppSearch__PrivateApiKey: elasticappsearch
+      Search__ElasticSearch8x__Key: elastic8xkey
   storefront:
     enabled: true
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/storefront
