@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.413.0",
+  "PlatformVersion": "3.414.0-alpha.12738-pt-13494-86080285",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.413.0",
+  "PlatformImageTag": "3.414.0-alpha.12738-pt-13494-86080285",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -160,7 +160,7 @@
         },
         {
           "Id": "VirtoCommerce.Content",
-          "BlobName": "VirtoCommerce.Content_3.406.0-pr-151-9cc9.zip"
+          "BlobName": "VirtoCommerce.Content_3.406.0-pr-152-cf8a.zip"
         },
         {
           "Id": "VirtoCommerce.Store",
