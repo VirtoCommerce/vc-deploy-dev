@@ -42,6 +42,7 @@
       Search__Provider: ElasticSearch8x
       Search__ElasticSearch8x__Server: "https://6d79630e64d7403993990bca62b80cfc.us-central1.gcp.cloud.es.io"
       Search__ElasticSearch8x__User: "elastic"
+      Search__ElasticSearch8x__Key: "IhrvJpvel4nDdCMnbtGVkrZJ"
       Search__ElasticAppSearch__EnableHttpCompression: true
       Search__ElasticAppSearch__Endpoint: https://enterprise-search-vc03.govirto.com
       Search__AzureSearch__SearchServiceName: qa-demovc-3-search
@@ -126,7 +127,6 @@
       Notifications__SendGrid__ApiKey: sendkey
       Notifications__Smtp__Password: smtppasswordyandex
       Search__ElasticAppSearch__PrivateApiKey: elasticappsearch
-      Search__ElasticSearch8x__Key: elastic8xkey
   storefront:
     enabled: true
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/storefront
