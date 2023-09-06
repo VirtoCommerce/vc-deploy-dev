@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.413.0-alpha.12739-pt-13179-utc-converter-f46fad8e",
+  "PlatformVersion": "3.413.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.413.0-alpha.12739-pt-13179-utc-converter-f46fad8e",
+  "PlatformImageTag": "3.413.0",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -60,7 +60,7 @@
         },
         {
           "Id": "VirtoCommerce.Inventory",
-          "BlobName": "VirtoCommerce.Inventory_3.404.0-pr-136-4600.zip"
+          "BlobName": "VirtoCommerce.Inventory_3.404.0.zip"
         },
         {
           "Id": "VirtoCommerce.LuceneSearch",
@@ -80,7 +80,7 @@
         },
         {
           "Id": "VirtoCommerce.Pricing",
-          "BlobName": "VirtoCommerce.Pricing_3.403.0-pr-203-1137.zip"
+          "BlobName": "VirtoCommerce.Pricing_3.403.0.zip"
         },
         {
           "Id": "VirtoCommerce.CustomerReviews",
@@ -212,7 +212,7 @@
         },
         {
           "Id": "VirtoCommerce.Customer",
-          "BlobName": "VirtoCommerce.Customer_3.404.0-pr-223-45bb.zip"
+          "BlobName": "VirtoCommerce.Customer_3.404.0.zip"
         },
         {
           "Id": "VirtoCommerce.Cart",
@@ -220,7 +220,7 @@
         },
         {
           "Id": "VirtoCommerce.Catalog",
-          "BlobName": "VirtoCommerce.Catalog_3.407.0-pr-698-5294.zip"
+          "BlobName": "VirtoCommerce.Catalog_3.407.0.zip"
         },
         {
           "Id": "VirtoCommerce.Contentful",
