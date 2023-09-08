@@ -4,7 +4,7 @@
   servicePlan: S2
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.413.0-197826a
+    imageTag: 3.414.0-alpha.12738-pt-13494-86080285-1a74d06
     sqlReplica: false
     config:
       DOTNET_USE_POLLING_FILE_WATCHER: true
@@ -39,7 +39,7 @@
       Search__DocumentScopes__5__Scope: vcptcore-qa-platformvcptcore-scope6
       Search__ElasticSearch__EnableCompatibilityMode: true
       Search__ElasticSearch__HealthCheckTimeout: 10
-      Search__Provider: ElasticSearch8x
+      #Search__Provider: ElasticSearch8x
       Search__ElasticSearch8x__Server: "https://6d79630e64d7403993990bca62b80cfc.us-central1.gcp.cloud.es.io"
       Search__ElasticSearch8x__User: "elastic"
       Search__ElasticSearch8x__Key: "IhrvJpvel4nDdCMnbtGVkrZJ"
