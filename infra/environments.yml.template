@@ -55,7 +55,7 @@
     servicePlan: B1
     probePath: /storefrontapi/health
     config:
-      SYSTEM_RESTART: "07.08.2023"
+      SYSTEM_RESTART: "08.09.2023"
       DOTNET_USE_POLLING_FILE_WATCHER: true
       SnapshotCollectorConfiguration__IsEnabled: false
       VirtoCommerce__DefaultStore: B2B-store
