@@ -8,7 +8,19 @@
       "Modules": [
         {
           "BlobName": "VirtoCommerce.PageBuilderModule_3.400.0.zip"
-        }
+        },
+         {
+          "Id": "VirtoCommerce.Orders",
+          "BlobName": "VirtoCommerce.Orders_3.412.0-pr-377-08e2.zip"
+        },
+         {
+          "Id": "VirtoCommerce.Cart",
+          "BlobName": "VirtoCommerce.Cart_3.403.0-pr-130-a23b.zip"
+        },
+         {
+          "Id": "VirtoCommerce.ExperienceApi",
+          "BlobName": "VirtoCommerce.ExperienceApi_3.409.0-pr-445-3a19.zip"
+        }        
       ],
       "Container": "packages",
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net"
@@ -46,11 +58,7 @@
         {
           "Id": "VirtoCommerce.BulkActionsModule",
           "Version": "3.202.0"
-        },
-        {
-          "Id": "VirtoCommerce.Cart",
-          "Version": "3.401.0"
-        },
+        },       
         {
           "Id": "VirtoCommerce.Catalog",
           "Version": "3.406.0"
@@ -102,11 +110,7 @@
         {
           "Id": "VirtoCommerce.EventBus",
           "Version": "3.400.0"
-        },
-        {
-          "Id": "VirtoCommerce.ExperienceApi",
-          "Version": "3.408.0"
-        },
+        },       
         {
           "Id": "VirtoCommerce.Export",
           "Version": "3.205.0"
@@ -150,11 +154,7 @@
         {
           "Id": "VirtoCommerce.Notifications",
           "Version": "3.402.0"
-        },
-        {
-          "Id": "VirtoCommerce.Orders",
-          "Version": "3.410.0"
-        },
+        },       
         {
           "Id": "VirtoCommerce.Payment",
           "Version": "3.400.0"
