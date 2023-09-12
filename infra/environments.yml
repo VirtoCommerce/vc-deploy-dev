@@ -4,7 +4,7 @@
   servicePlan: P3
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.410.0-ce6ce4b
+    imageTag: 3.414.0-9eae18b
     sqlReplica: false
     config:
       PushNotifications__ForceWebSockets: true
