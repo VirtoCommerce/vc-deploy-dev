@@ -4,7 +4,7 @@
   servicePlan: F1
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.293.15-9699901
+    imageTag: 3.414.0-93a99b9
     sqlReplica: false
     config:
       DOTNET_USE_POLLING_FILE_WATCHER: true
@@ -72,7 +72,7 @@
     enabled: true
     servicePlan: F1
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/storefront
-    imageTag: 6.13.0-master-4b0306b0
+    imageTag: 6.27.0-master-2ab4d9cd
     config:
       CookieAuthenticationOptions__ExpireTimeSpan: 12:00:00
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
@@ -83,7 +83,7 @@
       VirtoCommerce__Endpoint__Password: store
       DOTNET_USE_POLLING_FILE_WATCHER: true
     themes:
-      B2B-store: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.24.0/vc-theme-b2b-vue-1.24.0.zip
+      B2B-store: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.38.0/vc-theme-b2b-vue-1.38.0.zip
   ingress: {}
   customApps:
     app1:
