@@ -1,10 +1,10 @@
 - name: vcptcore-qa
   gitops: true
   production: false
-  servicePlan: S2
+  servicePlan: F2
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.414.0-alpha.12738-pt-13494-86080285-1a74d06
+    imageTag: 3.415.0-alpha.12742-pt-13529-22ffdb9e-751fb5c
     sqlReplica: false
     config:
       DOTNET_USE_POLLING_FILE_WATCHER: true
