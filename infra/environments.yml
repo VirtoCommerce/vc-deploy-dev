@@ -1,16 +1,18 @@
-- name: vcptcore-loadtest
+- name: vcptcore-postgresql
   gitops: true
   production: false
   servicePlan: P3
   platform:
+    dbProvider: Azure Database for PostgreSQL
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
     imageTag: 3.414.0-9eae18b
     sqlReplica: false
     config:
+      APPINSIGHTS_INSTRUMENTATIONKEY: eb2fbd36-8ffa-4e9d-bf64-5ec908e7fc74
       PushNotifications__ForceWebSockets: true
       PushNotifications__ScalabilityMode: RedisBackplane
-      PushNotifications__HubUrl: https://vcptcore-loadtest.paas.govirto.com/pushNotificationHub
-      PushNotifications__RedisBackplane__ChannelName: vcptcore-loadtest-chanel
+      PushNotifications__HubUrl: https://vcptcore-postgresql.paas.govirto.com/pushNotificationHub
+      PushNotifications__RedisBackplane__ChannelName: vcptcore-postgresql-chanel
       Notifications__DefaultSender: azure_25da07ed75daacae20578a7a7dc58541@azure.com
       Notifications__Gateway: SendGrid
       Notifications__SmsDefaultSender: +17012510519
@@ -56,7 +58,6 @@
       VirtoCommerce__LicensePublicKeyPath: app_data/public.key
       VirtoCommerce__LicensePrivateKeyPath: app_data/private.key
       VirtoCommerce__Licensing__LicensePrivateKeyPath: /opt/virtocommerce/platform/license/VirtoCommerce.lic
-      VirtoCommerce__Hangfire__JobStorageType: SqlServer
       Logging__LogLevel__Default: Information
       Payments__AuthorizeNet__ApiLogin: 8hPT4p99R
       Payments__AuthorizeNet__SHA2Hash: FA6D2B37A7E9105942D2D184F1B2DBD8D9CA85611DE55B2267A6F7E0D7E49ACD9A6BC238CE068E75CA14ACFAD734F700FD94DCAB20353DD4D32D9BABE72DBBE4
@@ -83,7 +84,7 @@
       Notifications__SendGrid__ApiKey: sendkey
       Notifications__Smtp__Password: smtppasswordyandex
   storefront:
-    enabled: true
+    enabled: false
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/storefront
     servicePlan: S1
     imageTag: 6.26.0-alpha.961-dev-09cdbbc2
