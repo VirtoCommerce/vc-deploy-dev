@@ -196,16 +196,16 @@
           "Version": "3.412.0"
         },
         {
-          "Id": "VirtoCommerce.Orders",
-          "Version": "3.412.0"
-        },
-        {
           "Id": "VirtoCommerce.Catalog",
           "Version": "3.408.0"
         },
         {
           "Id": "VirtoCommerce.Cart",
           "Version": "3.403.0"
+        },
+        {
+          "Id": "VirtoCommerce.Orders",
+          "Version": "3.413.0"
         }
       ]
     },
