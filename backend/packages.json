@@ -140,10 +140,6 @@
           "Version": "3.402.0"
         },
         {
-          "Id": "VirtoCommerce.Shipping",
-          "Version": "3.402.0"
-        },
-        {
           "Id": "VirtoCommerce.ElasticAppSearch",
           "Version": "3.212.0"
         },
@@ -206,6 +202,10 @@
         {
           "Id": "VirtoCommerce.Orders",
           "Version": "3.413.0"
+        },
+        {
+          "Id": "VirtoCommerce.Shipping",
+          "Version": "3.403.0"
         }
       ]
     },
