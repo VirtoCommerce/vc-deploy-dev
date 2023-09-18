@@ -1,7 +1,4 @@
 {
-  "ManifestVersion": "2.0",
-  "PlatformVersion": "3.415.0",
-  "PlatformAssetUrl": "",
   "Sources": [
     {
       "Name": "AzureBlob",
@@ -205,5 +202,7 @@
         }
       ]
     }
-  ]  
+  ],
+  "ManifestVersion": "2.0",
+  "PlatformVersion": "3.415.0"
 }
