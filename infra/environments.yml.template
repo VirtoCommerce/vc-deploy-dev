@@ -55,7 +55,7 @@
     servicePlan: B1
     probePath: /storefrontapi/health
     config:
-      SYSTEM_RESTART: "07.08.2023"
+      SYSTEM_RESTART: "08.09.2023"
       DOTNET_USE_POLLING_FILE_WATCHER: true
       SnapshotCollectorConfiguration__IsEnabled: false
       VirtoCommerce__DefaultStore: B2B-store
@@ -68,7 +68,7 @@
       CookieAuthenticationOptions__LoginPath: "/sign-in"
     secretConfig: {}
     themes:
-      B2B-store: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.38.0/vc-theme-b2b-vue-1.38.0.zip
+      B2B-store: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.39.0/vc-theme-b2b-vue-1.39.0.zip
   ingress: {}
   customApps:
     app1:
