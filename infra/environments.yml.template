@@ -69,8 +69,8 @@
       CookieAuthenticationOptions__LoginPath: "/sign-in"
     secretConfig: {}
     themes:
-      B2B-store: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.38.0/vc-theme-b2b-vue-1.38.0.zip
-      B2C: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.38.0/vc-theme-b2b-vue-1.38.0.zip
+      B2B-store: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.39.0/vc-theme-b2b-vue-1.39.0.zip
+      B2C: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.39.0/vc-theme-b2b-vue-1.39.0.zip
   ingress:
     storefrontHostnames:
       name1: $ARGO_APP_NAME-b2c-store.govirto.com
