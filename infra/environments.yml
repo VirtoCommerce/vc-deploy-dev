@@ -73,7 +73,7 @@
       name1: vcst-dev-b2c-store.govirto.com
   customApps:
     app1:
-      enabled: true
+      enabled: false
       servicePlan: B1
       type: standalone
       hostname: vcst-dev-storybook.paas.govirto.com
