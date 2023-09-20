@@ -4,6 +4,9 @@
       "Name": "AzureBlob",
       "Modules": [
         {
+          "BlobName": "VirtoCommerce.ExperienceApi_3.415.0-pr-453-feaa.zip"
+        },
+        {
           "BlobName": "VirtoCommerce.PageBuilderModule_3.401.0.zip"
         }
       ],
@@ -99,10 +102,6 @@
         {
           "Id": "VirtoCommerce.EventBus",
           "Version": "3.400.0"
-        },
-        {
-          "Id": "VirtoCommerce.ExperienceApi",
-          "Version": "3.414.0"
         },
         {
           "Id": "VirtoCommerce.Export",
