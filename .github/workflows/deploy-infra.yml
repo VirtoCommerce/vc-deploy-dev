@@ -19,10 +19,6 @@ jobs:
       with:
         fetch-depth: 0
 
-    - name: Prepare env file
-      run: |
-        envsubst < ./infra/environments.yml.template > ./infra/environments.yml
-
     - name: Install vc-build
       run: |
         dotnet tool install --global VirtoCommerce.GlobalTool
