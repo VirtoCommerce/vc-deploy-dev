@@ -28,10 +28,6 @@
           "Version": "3.211.0"
         },
         {
-          "Id": "VirtoCommerce.CustomerReviews",
-          "Version": "3.400.0"
-        },
-        {
           "Id": "VirtoCommerce.AuthorizeNetPayment",
           "Version": "3.206.0"
         },
@@ -205,6 +201,10 @@
         },
         {
           "Id": "VirtoCommerce.Quote",
+          "Version": "3.401.0"
+        },
+        {
+          "Id": "VirtoCommerce.CustomerReviews",
           "Version": "3.401.0"
         }
       ]
