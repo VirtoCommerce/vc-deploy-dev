@@ -210,10 +210,6 @@
           "BlobName": "VirtoCommerce.Content_3.408.0-alpha.910.zip"
         },
         {
-          "Id": "VirtoCommerce.Contracts",
-          "BlobName": "VirtoCommerce.Contracts_3.405.0-alpha.77.zip"
-        },
-        {
           "Id": "VirtoCommerce.Quote",
           "BlobName": "VirtoCommerce.Quote_3.402.0-alpha.368.zip"
         },
@@ -224,6 +220,10 @@
         {
           "Id": "VirtoCommerce.TaskManagement",
           "BlobName": "VirtoCommerce.TaskManagement_3.403.0-alpha.64.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Contracts",
+          "BlobName": "VirtoCommerce.Contracts_3.406.0-alpha.78.zip"
         }
       ]
     }
