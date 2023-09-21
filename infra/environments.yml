@@ -1,10 +1,10 @@
 - name: vcptcore-stable
   gitops: true
   production: false
-  servicePlan: F2
+  servicePlan: F1
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.293.15-e11ab8b
+    imageTag: 3.293.15-53bae2f
     sqlReplica: false
     config:
       Authorization__AllowApiAccessForCustomers: true
