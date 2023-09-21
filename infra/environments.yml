@@ -11,10 +11,11 @@
       Reload: 73
       Serilog__Using__0: Serilog.Sinks.Console
       Serilog__Using__1: Serilog.Sinks.ApplicationInsights
-      Serilog__MinimumLevel__Default: Information
+      Serilog__MinimumLevel__Default: "Information"
       Serilog__WriteTo__0: Console
       Serilog__WriteTo__1__Name: ApplicationInsights
       Serilog__WriteTo__1__Args__telemetryConverter: Serilog.Sinks.ApplicationInsights.TelemetryConverters.TraceTelemetryConverter, Serilog.Sinks.ApplicationInsights
+      Serilog__WriteTo__1__Args__restrictedToMinimumLevel: "Information"
       VirtoCommerce__SampleDataUrl: https://virtocommerce.azureedge.net/sample-data/b2b-sample-store.zip
       TaxModule__FixedRateTaxProvider__Enabled: true
       Notifications__DefaultSender: azure_25da07ed75daacae20578a7a7dc58541@azure.com
