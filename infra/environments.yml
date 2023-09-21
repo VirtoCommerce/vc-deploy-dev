@@ -9,8 +9,8 @@
     config:
       DOTNET_USE_POLLING_FILE_WATCHER: true
       Reload: 73
-      Serilog__Using__0: Serilog.Sinks.ApplicationInsights
-      Serilog__Using__1: Serilog.Sinks.Console
+      Serilog__Using__0: Serilog.Sinks.Console
+      Serilog__Using__1: Serilog.Sinks.ApplicationInsights
       Serilog__MinimumLevel__Default: Information
       Serilog__WriteTo__0: Console
       Serilog__WriteTo__1__Name: ApplicationInsights
