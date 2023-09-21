@@ -4,7 +4,10 @@
       "Name": "AzureBlob",
       "Modules": [
         {
-          "BlobName": "VirtoCommerce.ExperienceApi_3.415.0-pr-453-feaa.zip"
+          "BlobName": "VirtoCommerce.Cart_3.405.0-pr-132-c049.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.ExperienceApi_3.415.0-pr-455-8259.zip"
         },
         {
           "BlobName": "VirtoCommerce.PageBuilderModule_3.401.0.zip"
@@ -46,10 +49,6 @@
         {
           "Id": "VirtoCommerce.BulkActionsModule",
           "Version": "3.202.0"
-        },
-        {
-          "Id": "VirtoCommerce.Cart",
-          "Version": "3.404.0"
         },
         {
           "Id": "VirtoCommerce.Catalog",
