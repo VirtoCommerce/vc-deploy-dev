@@ -1,10 +1,10 @@
 - name: vcptcore-regression
   gitops: true
   production: false
-  servicePlan: F2
+  servicePlan: F1
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.414.0-93a99b9
+    imageTag: 3.414.0-ba98ab0
     sqlReplica: false
     config:
       VirtoCommerce__SampleDataUrl: https://virtocommerce.azureedge.net/sample-data/b2b-sample-store.zip
