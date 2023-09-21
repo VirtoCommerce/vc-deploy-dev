@@ -8,7 +8,7 @@
     sqlReplica: false
     config:
       DOTNET_USE_POLLING_FILE_WATCHER: true
-      Reload: 72
+      Reload: 73
       Serilog__Using__0: Serilog.Sinks.ApplicationInsights
       Serilog__Using__1: Serilog.Sinks.Console
       Serilog__MinimumLevel__Default: Information
@@ -133,7 +133,7 @@
       Notifications__SendGrid__ApiKey: sendkey
       Notifications__Smtp__Password: smtppasswordyandex
       Search__ElasticAppSearch__PrivateApiKey: elasticappsearch
-      Serilog__WriteTo__1__Args__connectionString: connectionstringAI
+      Serilog__WriteTo__1__Args__connectionString: connectionstringaiqa
 
   storefront:
     enabled: true
