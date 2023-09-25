@@ -7,6 +7,7 @@
     imageTag: 3.293.15-53bae2f
     sqlReplica: false
     config:
+      FrontendSecurity__OrganizationMaintainerRole: Organization maintainer
       Authorization__AllowApiAccessForCustomers: true
       DOTNET_USE_POLLING_FILE_WATCHER: true
       Notifications__DefaultSender: azure_25da07ed75daacae20578a7a7dc58541@azure.com
