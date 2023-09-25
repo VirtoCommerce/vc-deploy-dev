@@ -62,8 +62,8 @@
       VirtoCommerce__CacheEnabled: true
       VirtoCommerce__CacheSlidingExpiration: 0:0:5
       IdentityOptions__Lockout__MaxFailedAccessAttempts: 5
-      IdentityOptions__User__RemindPasswordExpiryInDays: 29
-      IdentityOptions__User__MaxPasswordAge: 30
+      IdentityOptions__User__RemindPasswordExpiryInDays: 2
+      IdentityOptions__User__MaxPasswordAge: 3
       CookieAuthenticationOptions__LoginPath: /sign-in
     themes:
       B2B-store: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.39.0/vc-theme-b2b-vue-1.39.0.zip
