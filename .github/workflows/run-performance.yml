@@ -1,0 +1,35 @@
+name: Run performance
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    env:
+      PYTHON_VERSION: 3.11.4
+      serverDB: ${{ secrets.PS_SERVERDB }}
+      nameDB: ${{ secrets.PS_DBNAME }}
+      usernameDB: ${{ secrets.PS_USERNAME }}
+      passwordDB: ${{ secrets.PS_DBPASS }}
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: ${{ env.PYTHON_VERSION }}
+        architecture: x64
+
+    - name: Install project dependencies
+      run: |
+        pip install -r scripts/performance/requirements.txt
+      working-directory: scripts/performance
+
+    - name: Run
+      run: |
+        python scripts/performance/scriptDB.py
+      working-directory: scripts/performance
