@@ -29,7 +29,7 @@ jobs:
         pip install -r ./scripts/performance/requirements.txt
       working-directory: ./scripts/performance
 
-    - name: Run
+    - name: Run #
       run: |
         python ./scripts/performance/scriptDB.py
       working-directory: ./scripts/performance
