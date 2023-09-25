@@ -26,10 +26,10 @@ jobs:
 
     - name: Install project dependencies
       run: |
-        pip install -r scripts/performance/requirements.txt
-      working-directory: scripts/performance
+        pip install -r ./scripts/performance/requirements.txt
+      working-directory: ./scripts/performance
 
     - name: Run
       run: |
-        python scripts/performance/scriptDB.py
-      working-directory: scripts/performance
+        python ./scripts/performance/scriptDB.py
+      working-directory: ./scripts/performance
