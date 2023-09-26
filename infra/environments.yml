@@ -16,6 +16,11 @@
       VirtoCommerce__Hangfire__WorkerCount: 2
       VirtoCommerce__Hangfire__Queues__items_0: default
       VirtoCommerce__Hangfire__Queues__items_1: index_worker
+      VirtoCommerce__Hangfire__JobStorageType: "Datebase"
+      Serilog__Using__0: Serilog.Sinks.Console
+      Serilog__MinimumLevel__Default: "Information"
+      Serilog__MinimumLevel__Override__Hangfire: "Information"
+      Serilog__WriteTo__0: Console
       APPINSIGHTS_INSTRUMENTATIONKEY: eb2fbd36-8ffa-4e9d-bf64-5ec908e7fc74
       PushNotifications__ForceWebSockets: true
       PushNotifications__ScalabilityMode: RedisBackplane
