@@ -61,7 +61,10 @@
       APPINSIGHTS_INSTRUMENTATIONKEY: e71d9642-3996-4fae-872e-74b3f8244779
       VirtoCommerce__CacheEnabled: true
       VirtoCommerce__CacheSlidingExpiration: 0:0:5
-      IdentityOptions__Lockout__MaxFailedAccessAttempts: 5
+      IdentityOptions__Password__PasswordChangeByAdminEnabled: true
+      IdentityOptions__Lockout__AutoAccountsLockoutJobEnabled: false
+      IdentityOptions__Lockout__LockoutMaximumDaysFromLastLogin: 3
+      IdentityOptions__Lockout__CronAutoAccountsLockoutJob: 0/5 * * * *
       IdentityOptions__User__RemindPasswordExpiryInDays: 2
       IdentityOptions__User__MaxPasswordAge: 3
       CookieAuthenticationOptions__LoginPath: /sign-in
