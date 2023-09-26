@@ -5,9 +5,14 @@
   platform:
     dbProvider: Azure Database for PostgreSQL
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.414.0-9eae18b
+    imageTag: 3.416.0-alpha.12741-pt-12062-hangfire-postgresql-d8b9a098-e659f3a
     sqlReplica: false
     config:
+      VirtoCommerce__Hangfire__PostgreSqlStorageOptions__InvisibilityTimeout: "03:00:00"
+      VirtoCommerce__Hangfire__PostgreSqlStorageOptions__QueuePollInterval: "00:00:05"
+      VirtoCommerce__Hangfire__PostgreSqlStorageOptions__UseRecommendedIsolationLevel: true
+      VirtoCommerce__Hangfire__PostgreSqlStorageOptions__UsePageLocksOnDequeue: true
+      VirtoCommerce__Hangfire__PostgreSqlStorageOptions__DisableGlobalLocks: true
       APPINSIGHTS_INSTRUMENTATIONKEY: eb2fbd36-8ffa-4e9d-bf64-5ec908e7fc74
       PushNotifications__ForceWebSockets: true
       PushNotifications__ScalabilityMode: RedisBackplane
@@ -59,6 +64,7 @@
       VirtoCommerce__LicensePrivateKeyPath: app_data/private.key
       VirtoCommerce__Licensing__LicensePrivateKeyPath: /opt/virtocommerce/platform/license/VirtoCommerce.lic
       Logging__LogLevel__Default: Information
+      Logging__LogLevel__Hangfire: Information
       Payments__AuthorizeNet__ApiLogin: 8hPT4p99R
       Payments__AuthorizeNet__SHA2Hash: FA6D2B37A7E9105942D2D184F1B2DBD8D9CA85611DE55B2267A6F7E0D7E49ACD9A6BC238CE068E75CA14ACFAD734F700FD94DCAB20353DD4D32D9BABE72DBBE4
       Payments__AuthorizeNet__TxnKey: 63c54EWq5d2XnGAR
