@@ -13,6 +13,9 @@
       VirtoCommerce__Hangfire__PostgreSqlStorageOptions__UseRecommendedIsolationLevel: true
       VirtoCommerce__Hangfire__PostgreSqlStorageOptions__UsePageLocksOnDequeue: true
       VirtoCommerce__Hangfire__PostgreSqlStorageOptions__DisableGlobalLocks: true
+      VirtoCommerce__Hangfire__WorkerCount: 2
+      VirtoCommerce__Hangfire__Queues__items_0: default
+      VirtoCommerce__Hangfire__Queues__items_1: index_worker
       APPINSIGHTS_INSTRUMENTATIONKEY: eb2fbd36-8ffa-4e9d-bf64-5ec908e7fc74
       PushNotifications__ForceWebSockets: true
       PushNotifications__ScalabilityMode: RedisBackplane
