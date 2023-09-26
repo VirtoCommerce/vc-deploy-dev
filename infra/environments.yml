@@ -16,7 +16,7 @@
       VirtoCommerce__Hangfire__WorkerCount: 2
       VirtoCommerce__Hangfire__Queues__items_0: default
       VirtoCommerce__Hangfire__Queues__items_1: index_worker
-      VirtoCommerce__Hangfire__JobStorageType: "Datebase"
+      VirtoCommerce__Hangfire__JobStorageType: "Database"
       Serilog__Using__0: Serilog.Sinks.Console
       Serilog__MinimumLevel__Default: "Information"
       Serilog__MinimumLevel__Override__Hangfire: "Information"
