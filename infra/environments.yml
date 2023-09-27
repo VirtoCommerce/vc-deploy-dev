@@ -43,17 +43,17 @@
       Content__FileSystem__RootPath: /opt/virtocommerce/platform/wwwroot/cms-content
       Payments__AuthorizeNet__SHA2Hash: FA6D2B37A7E9105942D2D184F1B2DBD8D9CA85611DE55B2267A6F7E0D7E49ACD9A6BC238CE068E75CA14ACFAD734F700FD94DCAB20353DD4D32D9BABE72DBBE4
       Payments__AuthorizeNet__TxnKey: 63c54EWq5d2XnGAR
-      IdentityOptions__Password__RequiredLength: 8
+      IdentityOptions__Password__RequiredLength: 3
       IdentityOptions__Password__RequireDigit: false
-      IdentityOptions__Password__RequireNonAlphanumeric: true
+      IdentityOptions__Password__RequireNonAlphanumeric: false
       IdentityOptions__Password__RequireUppercase: true
       IdentityOptions__Password__RequireLowercase: true
       IdentityOptions__Password__PasswordChangeByAdminEnabled: true
       IdentityOptions__Lockout__AutoAccountsLockoutJobEnabled: false
       IdentityOptions__Lockout__LockoutMaximumDaysFromLastLogin: 3
       IdentityOptions__Lockout__CronAutoAccountsLockoutJob: 0/5 * * * *
-      IdentityOptions__User__RemindPasswordExpiryInDays: 5
-      IdentityOptions__User__MaxPasswordAge: 15
+      IdentityOptions__User__RemindPasswordExpiryInDays: 7
+      IdentityOptions__User__MaxPasswordAge: 30
       FrontendSecurity__OrganizationMaintainerRole: Organization maintainer
     secretConfig:
       Notifications__SendGrid__ApiKey: sendgrid-apikey
