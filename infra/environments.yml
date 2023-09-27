@@ -72,6 +72,7 @@
       APPINSIGHTS_INSTRUMENTATIONKEY: e71d9642-3996-4fae-872e-74b3f8244779
       VirtoCommerce__CacheEnabled: true
       VirtoCommerce__CacheSlidingExpiration: 0:0:5
+      IdentityOptions__Lockout__MaxFailedAccessAttempts: 5
       CookieAuthenticationOptions__LoginPath: /sign-in
     themes:
       B2B-store: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.39.0/vc-theme-b2b-vue-1.39.0.zip
