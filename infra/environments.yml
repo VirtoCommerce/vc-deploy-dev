@@ -65,8 +65,8 @@
       IdentityOptions__Lockout__AutoAccountsLockoutJobEnabled: false
       IdentityOptions__Lockout__LockoutMaximumDaysFromLastLogin: 3
       IdentityOptions__Lockout__CronAutoAccountsLockoutJob: 0/5 * * * *
-      IdentityOptions__User__RemindPasswordExpiryInDays: 2
-      IdentityOptions__User__MaxPasswordAge: 3
+      IdentityOptions__User__RemindPasswordExpiryInDays: 5
+      IdentityOptions__User__MaxPasswordAge: 15
       CookieAuthenticationOptions__LoginPath: /sign-in
     themes:
       B2B-store: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.39.0/vc-theme-b2b-vue-1.39.0.zip
