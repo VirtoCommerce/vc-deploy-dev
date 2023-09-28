@@ -236,7 +236,7 @@
         },
         {
           "Id": "VirtoCommerce.Content",
-          "BlobName": "VirtoCommerce.Content_3.408.0.zip"
+          "BlobName": "VirtoCommerce.Content_3.409.0-pr-157-bbeb.zip"
         },
         {
           "Id": "VirtoCommerce.Cart",
@@ -245,6 +245,10 @@
         {
           "Id": "VirtoCommerce.Customer",
           "BlobName": "VirtoCommerce.Customer_3.406.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.PageBuilderModule",
+          "BlobName": "VirtoCommerce.PageBuilderModule_3.402.0-pr-56-c72e.zip"
         }
       ]
     }
