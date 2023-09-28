@@ -75,7 +75,8 @@
     app1:
       name: storybook
       enabled: true
-      imageRepository: virtopaasregistrymain.azurecr.io/vcst/storybook
+      imageRepository: ghcr.io/virtocommerce/vc-theme-b2b-vue-storybook
+      imageTag: 1.40.0-pr-765-ba6a-storybook-deploy-ba6abfe7
       servicePlan: B1
       type: standalone
       hostname: vcst-dev-storybook.paas.govirto.com
@@ -86,5 +87,4 @@
    - themes.B2C-store
    - storefront.image.tag
    - platform.image.tag
-   - customApps.app1.image.tag
   version: 3.210
