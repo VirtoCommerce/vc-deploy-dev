@@ -80,6 +80,8 @@
       servicePlan: B1
       type: standalone
       hostname: vcst-dev-storybook.paas.govirto.com
+      probePath: /
+      ingressPath: /
     app2:
       enabled: false
   protectedParameters:
