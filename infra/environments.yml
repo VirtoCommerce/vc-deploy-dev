@@ -73,13 +73,12 @@
       name1: vcst-dev-b2c-store.govirto.com
   customApps:
     app1:
+      name: storybook
       enabled: true
+      imageRepository: virtopaasregistrymain.azurecr.io/vcst/storybook
       servicePlan: B1
       type: standalone
       hostname: vcst-dev-storybook.paas.govirto.com
-      name: storybook
-      imageRepository: ghcr.io/virtocommerce/vc-theme-b2b-vue-storybook
-      imageTag: 1.40.0-pr-765-ba6a-storybook-deploy-ba6abfe7
     app2:
       enabled: false
   protectedParameters:
