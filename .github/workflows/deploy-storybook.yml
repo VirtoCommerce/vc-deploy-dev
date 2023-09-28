@@ -38,6 +38,6 @@ jobs:
 
     - name: Update app
       run: |
-        vc-build SetHelmParameter -ArgoServer https://argo.virtocommerce.cloud -ArgoAppName ${{ env.ARGO_APP_NAME }} -ArgoToken ${{ secrets.VCST_TOKEN }} -HelmParameters storybook.image.tag=$TAG
+        vc-build SetHelmParameter -ArgoServer https://argo.virtocommerce.cloud -ArgoAppName ${{ env.ARGO_APP_NAME }} -ArgoToken ${{ secrets.VCST_TOKEN }} -HelmParameters customApps.app1.image.tag=$TAG
       env:
         TAG: ${{ env.STORYBOOK_TAG }}
