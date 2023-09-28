@@ -4,11 +4,11 @@
   servicePlan: F1
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.415.0-alpha.12742-pt-13529-22ffdb9e-7eefdae
+    imageTag: 3.418.0-07097d4
     sqlReplica: false
     config:
       DOTNET_USE_POLLING_FILE_WATCHER: true
-      Reload: 73
+      Reload: 74
       Serilog__Using__0: Serilog.Sinks.Console
       Serilog__Using__1: Serilog.Sinks.ApplicationInsights
       Serilog__MinimumLevel__Default: "Information"
