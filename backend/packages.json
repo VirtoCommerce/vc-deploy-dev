@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.419.0-alpha.12748-pt-13784-4ab17a29",
+  "PlatformVersion": "3.419.0-alpha.12748-pt-13778-environment-name-6c75bc11",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.419.0-alpha.12748-pt-13784-4ab17a29",
+  "PlatformImageTag": "3.419.0-alpha.12748-pt-13778-environment-name-6c75bc11",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -168,7 +168,7 @@
         },
         {
           "Id": "VirtoCommerce.AzureAD",
-          "BlobName": "VirtoCommerce.AzureAD_3.205.0-pr-4-51df.zip"
+          "BlobName": "VirtoCommerce.AzureAD_3.204.0.zip"
         },
         {
           "Id": "VirtoCommerce.NativePaymentMethods",
