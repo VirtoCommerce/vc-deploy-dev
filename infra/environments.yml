@@ -27,7 +27,7 @@
       Notifications__Smtp__Port: 587
       ASPNETCORE_ENVIRONMENT: Production
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
-      Swagger__Disable: true
+      VirtoCommerce__Swagger__Disable: true
       PushNotifications__ForceWebSockets: true
       PushNotifications__ScalabilityMode: RedisBackplane
       PushNotifications__HubUrl: https://vcptcore-qa.paas.govirto.com/pushNotificationHub
