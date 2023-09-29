@@ -25,7 +25,7 @@
       Notifications__Smtp__Host: smtp.sendgrid.net
       Notifications__Smtp__Login: apikey
       Notifications__Smtp__Port: 587
-      ASPNETCORE_ENVIRONMENT: Production
+      ASPNETCORE_ENVIRONMENT: Development
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
       Swagger__UI__Enabled: false
       PushNotifications__ForceWebSockets: true
