@@ -1,6 +1,6 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.415.0",
+  "PlatformVersion": "3.420.0",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -43,7 +43,7 @@
         },
         {
           "Id": "VirtoCommerce.AzureAD",
-          "Version": "3.204.0"
+          "Version": "3.205.0"
         },
         {
           "Id": "VirtoCommerce.AzureBlobAssets",
@@ -55,11 +55,11 @@
         },
         {
           "Id": "VirtoCommerce.Cart",
-          "Version": "3.404.0"
+          "Version": "3.405.0"
         },
         {
           "Id": "VirtoCommerce.Catalog",
-          "Version": "3.408.0"
+          "Version": "3.409.0"
         },
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
@@ -75,11 +75,11 @@
         },
         {
           "Id": "VirtoCommerce.Content",
-          "Version": "3.407.0"
+          "Version": "3.408.0"
         },
         {
           "Id": "VirtoCommerce.Contracts",
-          "Version": "3.403.0"
+          "Version": "3.405.0"
         },
         {
           "Id": "VirtoCommerce.Core",
@@ -87,11 +87,11 @@
         },
         {
           "Id": "VirtoCommerce.Customer",
-          "Version": "3.405.0"
+          "Version": "3.406.0"
         },
         {
           "Id": "VirtoCommerce.CustomerReviews",
-          "Version": "3.400.0"
+          "Version": "3.401.0"
         },
         {
           "Id": "VirtoCommerce.DynamicAssociationsModule",
@@ -102,12 +102,16 @@
           "Version": "3.212.0"
         },
         {
+          "Id": "VirtoCommerce.ElasticSearch8",
+          "Version": "3.200.0"
+        },
+        {
           "Id": "VirtoCommerce.EventBus",
           "Version": "3.400.0"
         },
         {
           "Id": "VirtoCommerce.ExperienceApi",
-          "Version": "3.414.0"
+          "Version": "3.416.0"
         },
         {
           "Id": "VirtoCommerce.Export",
@@ -199,7 +203,7 @@
         },
         {
           "Id": "VirtoCommerce.TaskManagement",
-          "Version": "3.401.0"
+          "Version": "3.402.0"
         },
         {
           "Id": "VirtoCommerce.Tax",
