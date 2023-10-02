@@ -37,7 +37,7 @@
       Content__PathMappings__themes__1: "_storeId"
       FrontendSecurity__OrganizationMaintainerRole: "Organization maintainer"
       IdentityOptions__User__RemindPasswordExpiryInDays: 7
-      IdentityOptions__User__MaxPasswordAge: 90
+      IdentityOptions__User__MaxPasswordAge: 0
       Reload: 2023-10-02
     secretConfig:
       Notifications__SendGrid__ApiKey: sendkey
