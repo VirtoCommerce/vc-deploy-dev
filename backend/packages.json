@@ -47,10 +47,6 @@
           "BlobName": "VirtoCommerce.CatalogCsvImportModule_3.400.0.zip"
         },
         {
-          "Id": "VirtoCommerce.Return",
-          "BlobName": "VirtoCommerce.Return_3.402.0-pr-12-fba4.zip"
-        },
-        {
           "Id": "VirtoCommerce.EventBus",
           "BlobName": "VirtoCommerce.EventBus_3.400.0.zip"
         },
@@ -245,6 +241,10 @@
         {
           "Id": "VirtoCommerce.AzureAD",
           "BlobName": "VirtoCommerce.AzureAD_3.205.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Return",
+          "BlobName": "VirtoCommerce.Return_3.402.0.zip"
         }
       ]
     }
