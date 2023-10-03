@@ -53,7 +53,7 @@
       VirtoCommerce__Endpoint__Password: Store12345
       VirtoCommerce__CacheSlidingExpiration: 0:0:5
     themes:
-      B2B-store: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.39.0/vc-theme-b2b-vue-1.39.0.zip
+      B2B-store: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.40.0/vc-theme-b2b-vue-1.40.0.zip
       B2C: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.40.0/vc-theme-b2b-vue-1.40.0.zip
   ingress:
     storefrontHostnames:
@@ -74,6 +74,6 @@
   protectedParameters:
    - platform.image.tag
    - storefront.image.tag
-   - themes.B2B-store
-   - themes.B2C-store
+   - storefront.themes.B2B-store
+   - customApps.app1.imageTag
   version: 3.210
