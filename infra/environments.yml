@@ -121,7 +121,7 @@
       IdentityOptions__Lockout__CronAutoAccountsLockoutJob: 0/5 * * * *
       IdentityOptions__User__RemindPasswordExpiryInDays: 89
       IdentityOptions__User__MaxPasswordAge: 90
-      FrontendSecurity__OrganizationMaintainerRole: Organization maintainer11
+      FrontendSecurity__OrganizationMaintainerRole: Organization maintainer
       EventBus__Connections__0__Name: AzureEventGridApps
       EventBus__Connections__0__ProviderName: AzureEventGrid
       EventBus__Connections__0__ConnectionOptionsSerialized: '{"ConnectionString": "https://test-event-grid-dont-delete.westus-1.eventgrid.azure.net/api/events", "AccessKey": "kvpXOgw5MiNjBeBKdroX1r45UvZloXMwlM7i1TyqoiI="}'
