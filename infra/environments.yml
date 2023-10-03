@@ -4,7 +4,7 @@
   servicePlan: S2
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.420.0-6dfa8a1
+    imageTag: 3.420.0-927e422
     sqlReplica: false
     config:
       DOTNET_USE_POLLING_FILE_WATCHER: true
