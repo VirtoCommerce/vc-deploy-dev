@@ -74,6 +74,6 @@
   protectedParameters:
    - platform.image.tag
    - storefront.image.tag
-   - storefront.themes.B2B-store
-   - customApps.app1.imageTag
+   - themes.B2B-store
+   - customApps.app1.image.tag
   version: 3.210
