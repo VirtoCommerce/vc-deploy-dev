@@ -21,7 +21,7 @@ jobs:
     
     - name: Install vc-build
       run: |
-        dotnet tool install --global VirtoCommerce.GlobalTool --version 3.4.1
+        dotnet tool install --global VirtoCommerce.GlobalTool
     
     - name: Get storefront version
       id: platform-version
