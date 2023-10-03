@@ -25,7 +25,7 @@ jobs:
 
     - name: Install vc-build
       run: |
-        dotnet tool install --global VirtoCommerce.GlobalTool --version 3.17.0-alpha.157
+        dotnet tool install --global VirtoCommerce.GlobalTool
 
     - name: Pack
       shell: bash {0}
