@@ -15,9 +15,7 @@ jobs:
       ARGO_APP_NAME: ${{ github.ref_name }}
 
     steps:
-    - uses: actions/checkout@v2
-      with:
-        fetch-depth: 0
+    - uses: actions/checkout@v3
   
     - name: Az config
       run: |
