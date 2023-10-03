@@ -4,12 +4,6 @@
       "Name": "AzureBlob",
       "Modules": [
         {
-          "BlobName": "VirtoCommerce.Cart_3.405.0-pr-132-c049.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.ExperienceApi_3.415.0-pr-455-8259.zip"
-        },
-        {
           "BlobName": "VirtoCommerce.PageBuilderModule_3.401.0.zip"
         }
       ],
@@ -40,7 +34,7 @@
         },
         {
           "Id": "VirtoCommerce.AzureAD",
-          "Version": "3.204.0"
+          "Version": "3.205.0"
         },
         {
           "Id": "VirtoCommerce.AzureBlobAssets",
@@ -51,8 +45,12 @@
           "Version": "3.202.0"
         },
         {
+          "Id": "VirtoCommerce.Cart",
+          "Version": "3.405.0"
+        },
+        {
           "Id": "VirtoCommerce.Catalog",
-          "Version": "3.408.0"
+          "Version": "3.409.0"
         },
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
@@ -68,11 +66,11 @@
         },
         {
           "Id": "VirtoCommerce.Content",
-          "Version": "3.407.0"
+          "Version": "3.408.0"
         },
         {
           "Id": "VirtoCommerce.Contracts",
-          "Version": "3.403.0"
+          "Version": "3.405.0"
         },
         {
           "Id": "VirtoCommerce.Core",
@@ -80,11 +78,11 @@
         },
         {
           "Id": "VirtoCommerce.Customer",
-          "Version": "3.405.0"
+          "Version": "3.406.0"
         },
         {
           "Id": "VirtoCommerce.CustomerReviews",
-          "Version": "3.400.0"
+          "Version": "3.401.0"
         },
         {
           "Id": "VirtoCommerce.DynamicAssociationsModule",
@@ -97,6 +95,10 @@
         {
           "Id": "VirtoCommerce.ElasticSearch",
           "Version": "3.400.0"
+        },
+        {
+          "Id": "VirtoCommerce.ExperienceApi",
+          "Version": "3.416.0"
         },
         {
           "Id": "VirtoCommerce.EventBus",
@@ -164,7 +166,7 @@
         },
         {
           "Id": "VirtoCommerce.Quote",
-          "Version": "3.400.0"
+          "Version": "3.401.0"
         },
         {
           "Id": "VirtoCommerce.Return",
@@ -202,5 +204,5 @@
     }
   ],
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.415.0"
+  "PlatformVersion": "3.420.0"
 }
