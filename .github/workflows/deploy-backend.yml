@@ -13,6 +13,8 @@ jobs:
     runs-on: ubuntu-latest
     env:
       ARGO_APP_NAME: ${{ github.ref_name }}
+      PLATFORM_VERSION: ''
+      SHA_SHORT: ''
 
     steps:
     - uses: actions/checkout@v3
@@ -36,7 +38,7 @@ jobs:
 
     - name: Set outputs
       id: vars
-      run: echo "::set-output name=sha_short::$(git rev-parse --short HEAD)"
+      run: echo "sha_short=$(git rev-parse --short HEAD)" >> $GITHUB_OUTPUT
 
     - name: Build and Publish Docker Image
       run: |
@@ -47,10 +49,10 @@ jobs:
         DOCKERFILE_PATH: ./backend/Dockerfile
         CONTAINER_REGISTRY: virtopaasregistrymain.azurecr.io
         IMAGE_REPOSITORY: virtopaasregistrymain.azurecr.io/vcst/platform
-        TAG: ${{ env.PLATFORM_VERSION }}-${{ steps.vars.outputs.sha_short }}
+        TAG: ${{ env.PLATFORM_VERSION }}-${{ env.SHA_SHORT }}
     
     - name: Update app
       run: |
         vc-build SetEnvParameter -EnvironmentName ${{ env.ARGO_APP_NAME }} -CloudToken ${{ secrets.VCST_PLATFORM_TOKEN }} -HelmParameters platform.image.tag=$TAG
       env:
-        TAG: ${{ env.PLATFORM_VERSION }}-${{ steps.vars.outputs.sha_short }}
+        TAG: ${{ env.PLATFORM_VERSION }}-${{ env.SHA_SHORT }}
