@@ -4,7 +4,7 @@
   servicePlan: S2
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.420.0-927e422
+    imageTag: 3.421.0-alpha.12751-pt-13422-simplify-configuration-40149e9d-6de9e81
     sqlReplica: false
     config:
       DOTNET_USE_POLLING_FILE_WATCHER: true
@@ -27,13 +27,13 @@
       Notifications__Smtp__Port: 587
       ASPNETCORE_ENVIRONMENT: Production
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
-      VirtoCommerce__Swagger__Disable: false
+      #VirtoCommerce__Swagger__Disable: false
       PushNotifications__ForceWebSockets: true
       PushNotifications__ScalabilityMode: RedisBackplane
       PushNotifications__HubUrl: https://vcptcore-qa.paas.govirto.com/pushNotificationHub
       PushNotifications__RedisBackplane__ChannelName: vcptcore-qa-chanel
-      Search__OrderFullTextSearchEnabled: true
-      Search__ContentFullTextSearchEnabled: true
+      #Search__OrderFullTextSearchEnabled: true
+      #Search__ContentFullTextSearchEnabled: true
       Search__DocumentScopes__0__DocumentType: Product
       Search__DocumentScopes__0__Scope: vcptcore-qa-platformvcptcore-scope1
       Search__DocumentScopes__2__DocumentType: Category
@@ -119,9 +119,9 @@
       IdentityOptions__Lockout__AutoAccountsLockoutJobEnabled: false
       IdentityOptions__Lockout__LockoutMaximumDaysFromLastLogin: 3
       IdentityOptions__Lockout__CronAutoAccountsLockoutJob: 0/5 * * * *
-      IdentityOptions__User__RemindPasswordExpiryInDays: 89
-      IdentityOptions__User__MaxPasswordAge: 90
-      FrontendSecurity__OrganizationMaintainerRole: Organization maintainer
+      #IdentityOptions__User__RemindPasswordExpiryInDays: 89
+      #IdentityOptions__User__MaxPasswordAge: 90
+      #FrontendSecurity__OrganizationMaintainerRole: Organization maintainer
       EventBus__Connections__0__Name: AzureEventGridApps
       EventBus__Connections__0__ProviderName: AzureEventGrid
       EventBus__Connections__0__ConnectionOptionsSerialized: '{"ConnectionString": "https://test-event-grid-dont-delete.westus-1.eventgrid.azure.net/api/events", "AccessKey": "kvpXOgw5MiNjBeBKdroX1r45UvZloXMwlM7i1TyqoiI="}'
