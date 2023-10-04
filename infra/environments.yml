@@ -53,7 +53,6 @@
       VirtoCommerce__Endpoint__Password: Store12345
       VirtoCommerce__CacheSlidingExpiration: 0:0:5
     themes:
-      B2B-store: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.40.0/vc-theme-b2b-vue-1.40.0.zip
       B2C: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.40.0/vc-theme-b2b-vue-1.40.0.zip
   ingress:
     storefrontHostnames:
@@ -63,7 +62,6 @@
       name: storybook
       enabled: true
       imageRepository: ghcr.io/virtocommerce/vc-theme-b2b-vue-storybook
-      imageTag: 1.40.0-pr-765-ba6a-storybook-deploy-ba6abfe7
       servicePlan: B1
       type: standalone
       hostname: vcst-dev-storybook.paas.govirto.com
