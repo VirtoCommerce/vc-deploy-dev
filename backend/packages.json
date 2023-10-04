@@ -12,10 +12,6 @@
       ],
       "Modules": [
         {
-          "Id": "VirtoCommerce.Core",
-          "Version": "3.400.0"
-        },
-        {
           "Id": "VirtoCommerce.Hotjar",
           "Version": "3.400.0"
         }
@@ -245,6 +241,11 @@
         {
           "Id": "VirtoCommerce.Store",
           "BlobName": "VirtoCommerce.Store_3.402.0.zip"
+        }
+        ,
+        {
+          "Id": "VirtoCommerce.Core",
+          "BlobName": "VirtoCommerce.Core_3.401.0-pr-217-7833.zip"
         }
       ]
     }
