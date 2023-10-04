@@ -143,10 +143,6 @@
           "BlobName": "VirtoCommerce.Tax_3.400.0.zip"
         },
         {
-          "Id": "VirtoCommerce.Store",
-          "BlobName": "VirtoCommerce.Store_3.402.0-pr-126-add3.zip"
-        },
-        {
           "Id": "VirtoCommerce.ElasticSearch",
           "BlobName": "VirtoCommerce.ElasticSearch_3.400.0.zip"
         },
@@ -245,6 +241,10 @@
         {
           "Id": "VirtoCommerce.Quote",
           "BlobName": "VirtoCommerce.Quote_3.402.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Store",
+          "BlobName": "VirtoCommerce.Store_3.402.0.zip"
         }
       ]
     }
