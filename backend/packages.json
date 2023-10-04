@@ -235,16 +235,16 @@
           "BlobName": "VirtoCommerce.Quote_3.402.0.zip"
         },
         {
-          "Id": "VirtoCommerce.Store",
-          "BlobName": "VirtoCommerce.Store_3.403.0-pr-127-48a0.zip"
-        },
-        {
           "Id": "VirtoCommerce.Core",
           "BlobName": "VirtoCommerce.Core_3.401.0-pr-217-7833.zip"
         },
         {
           "Id": "VirtoCommerce.AvalaraTax",
           "BlobName": "VirtoCommerce.AvalaraTax_3.402.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Store",
+          "BlobName": "VirtoCommerce.Store_3.403.0.zip"
         }
       ]
     }
