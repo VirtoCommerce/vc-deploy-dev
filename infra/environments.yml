@@ -78,7 +78,8 @@
     app2:
       enabled: false
   protectedParameters:
-   - themes.B2B-store
-   - storefront.image.tag
    - platform.image.tag
+   - storefront.image.tag
+   - themes.B2B-store
+   - customApps.app1.image.tag
   version: 3.210
