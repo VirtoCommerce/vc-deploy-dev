@@ -122,10 +122,6 @@
           "BlobName": "VirtoCommerce.PriceExportImport_3.401.0-alpha.132.zip"
         },
         {
-          "Id": "VirtoCommerce.AvalaraTax",
-          "BlobName": "VirtoCommerce.AvalaraTax_3.402.0-alpha.292.zip"
-        },
-        {
           "Id": "VirtoCommerce.Notifications",
           "BlobName": "VirtoCommerce.Notifications_3.403.0-alpha.339.zip"
         },
@@ -224,6 +220,10 @@
         {
           "Id": "VirtoCommerce.Store",
           "BlobName": "VirtoCommerce.Store_3.403.0-alpha.673.zip"
+        },
+        {
+          "Id": "VirtoCommerce.AvalaraTax",
+          "BlobName": "VirtoCommerce.AvalaraTax_3.402.0-alpha.295.zip"
         }
       ]
     }
