@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.421.0",
+  "PlatformVersion": "3.422.0-alpha.12753-pt-13790-1eea600e",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.421.0",
+  "PlatformImageTag": "3.422.0-alpha.12753-pt-13790-1eea600e",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -228,7 +228,7 @@
         },
         {
           "Id": "VirtoCommerce.ExperienceApi",
-          "BlobName": "VirtoCommerce.ExperienceApi_3.417.0.zip"
+          "BlobName": "VirtoCommerce.ExperienceApi_3.418.0-pr-461-1244.zip"
         },
         {
           "Id": "VirtoCommerce.Quote",
