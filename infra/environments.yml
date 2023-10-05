@@ -120,7 +120,7 @@
       IdentityOptions__Lockout__AutoAccountsLockoutJobEnabled: false
       IdentityOptions__Lockout__LockoutMaximumDaysFromLastLogin: 3
       IdentityOptions__Lockout__CronAutoAccountsLockoutJob: 0/5 * * * *
-      IdentityOptions__User__RemindPasswordExpiryInDays: 1
+      IdentityOptions__User__RemindPasswordExpiryInDays: 2
       IdentityOptions__User__MaxPasswordAge: 3
       #FrontendSecurity__OrganizationMaintainerRole: Organization maintainer
       EventBus__Connections__0__Name: AzureEventGridApps
