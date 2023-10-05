@@ -4,7 +4,7 @@
   servicePlan: S2
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.422.0-e30c267
+    imageTag: 3.422.0-bb04473
     sqlReplica: false
     config:
       DOTNET_USE_POLLING_FILE_WATCHER: true
@@ -27,7 +27,7 @@
       Notifications__Smtp__Port: 587
       ASPNETCORE_ENVIRONMENT: Production
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
-      VirtoCommerce__GraphQLPlayground__Enable: false
+      VirtoCommerce__GraphQLPlayground__Enable: true
       VirtoCommerce__Swagger__Enable: true
       PushNotifications__ForceWebSockets: true
       PushNotifications__ScalabilityMode: RedisBackplane
