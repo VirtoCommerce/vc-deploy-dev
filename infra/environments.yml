@@ -14,11 +14,13 @@
       AzureAd__TenantId: bc03e660-5e3a-45c4-bf5c-b75489f78923
       AzureAd__Priority: 0
       PasswordLogin__Priority: 1
-      Search__Provider: "ElasticAppSearch"
+      Search__Provider: "ElasticSearch8"
       Search__Scope: "virtostart"
       Search__ElasticAppSearch__Endpoint: https://enterprise-search-test.govirto.com
       Search__ElasticAppSearch__EnableHttpCompression: "true"
       Search__ElasticAppSearch__KibanaBaseUrl: "https://kibana-test.govirto.com/"
+      Search__ElasticSearch8__Endpoint: https://virto-start-public-demo.es.us-central1.gcp.cloud.es.io
+      Search__ElasticSearch8__User: elastic
       Search__OrderFullTextSearchEnabled: true
       Search__ContentFullTextSearchEnabled: true
       Notifications__DefaultSender: azure_25da07ed75daacae20578a7a7dc58541@azure.com
@@ -37,7 +39,7 @@
       Content__PathMappings__themes__1: "_storeId"
       FrontendSecurity__OrganizationMaintainerRole: "Organization maintainer"
       IdentityOptions__User__RemindPasswordExpiryInDays: 7
-      IdentityOptions__User__MaxPasswordAge: 0
+      IdentityOptions__User__MaxPasswordAge: 90
       Reload: 2023-10-02
     secretConfig:
       Notifications__SendGrid__ApiKey: sendkey
@@ -45,6 +47,7 @@
       Payments__AuthorizeNet__SHA2Hash: sha2hash
       Payments__AuthorizeNet__TxnKey: txnkey
       Search__ElasticAppSearch__PrivateApiKey: elasticappsearchprivateapikey
+      Search__ElasticSearch8__Key: elasticsearch8key
     databases: {}
   storefront:
     enabled: true
