@@ -120,7 +120,7 @@
       IdentityOptions__Lockout__AutoAccountsLockoutJobEnabled: false
       IdentityOptions__Lockout__LockoutMaximumDaysFromLastLogin: 3
       IdentityOptions__Lockout__CronAutoAccountsLockoutJob: 0/5 * * * *
-      IdentityOptions__User__RemindPasswordExpiryInDays: 89
+      IdentityOptions__User__RemindPasswordExpiryInDays: 10
       IdentityOptions__User__MaxPasswordAge: 90
       IdentityOptions__User__RequireUniqueEmail: true
       #FrontendSecurity__OrganizationMaintainerRole: Organization maintainer
