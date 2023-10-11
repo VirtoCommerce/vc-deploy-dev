@@ -8,7 +8,7 @@
     config:
     # headers
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
-      Reload: 4
+      Reload: 5
       AppInsights__EnableDependencyTrackingTelemetryModule: false
     # Redis Settings
       PushNotifications__ForceWebSockets: true
