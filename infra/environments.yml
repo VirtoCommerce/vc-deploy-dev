@@ -8,7 +8,7 @@
     config:
     # headers
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
-      Reload: 6
+      Reload: 7
       AppInsights__EnableDependencyTrackingTelemetryModule: false
     # Redis Settings
       PushNotifications__ForceWebSockets: true
@@ -82,7 +82,12 @@
       B2B-store: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-1.9.0-pr-313-8831-8831bc33.zip
   ingress:
     hostname: vcptcore-dev.govirto.com
+  customApps:
+    app1:
+      enabled: false
+    app2:
+      enabled: false
   protectedParameters:
    - platform.image.tag
    - storefront.image.tag
-  version: 3.210
+  version: 3.211
