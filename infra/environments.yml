@@ -8,7 +8,7 @@
     config:
     # headers
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
-      Reload: 5
+      Reload: 6
       AppInsights__EnableDependencyTrackingTelemetryModule: false
     # Redis Settings
       PushNotifications__ForceWebSockets: true
@@ -85,3 +85,4 @@
   protectedParameters:
    - platform.image.tag
    - storefront.image.tag
+  version: 3.210
