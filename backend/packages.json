@@ -182,10 +182,6 @@
           "BlobName": "VirtoCommerce.Cart_3.406.0-alpha.646.zip"
         },
         {
-          "Id": "VirtoCommerce.Customer",
-          "BlobName": "VirtoCommerce.Customer_3.407.0-alpha.791.zip"
-        },
-        {
           "Id": "VirtoCommerce.AzureAD",
           "BlobName": "VirtoCommerce.AzureAD_3.206.0-alpha.23.zip"
         },
@@ -224,6 +220,10 @@
         {
           "Id": "VirtoCommerce.ExperienceApi",
           "BlobName": "VirtoCommerce.ExperienceApi_3.423.0-alpha.1253.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Customer",
+          "BlobName": "VirtoCommerce.Customer_3.408.0-alpha.793.zip"
         }
       ]
     }
