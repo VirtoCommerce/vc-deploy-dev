@@ -104,10 +104,6 @@
           "Version": "3.400.0"
         },
         {
-          "Id": "VirtoCommerce.Notifications",
-          "Version": "3.402.0"
-        },
-        {
           "Id": "VirtoCommerce.ShipStation",
           "Version": "3.400.0"
         },
@@ -206,6 +202,10 @@
         {
           "Id": "VirtoCommerce.ExperienceApi",
           "Version": "3.421.0"
+        },
+        {
+          "Id": "VirtoCommerce.Notifications",
+          "Version": "3.403.0"
         }
       ]
     },
