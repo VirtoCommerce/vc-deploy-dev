@@ -143,10 +143,6 @@
           "BlobName": "VirtoCommerce.Export_3.205.0.zip"
         },
         {
-          "Id": "VirtoCommerce.Notifications",
-          "BlobName": "VirtoCommerce.Notifications_3.403.0-pr-144-183f.zip"
-        },
-        {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.410.0-pr-61-4338.zip"
         },
@@ -241,6 +237,10 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "BlobName": "VirtoCommerce.Catalog_3.410.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Notifications",
+          "BlobName": "VirtoCommerce.Notifications_3.403.0.zip"
         }
       ]
     }
