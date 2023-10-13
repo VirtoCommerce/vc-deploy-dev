@@ -116,10 +116,6 @@
           "Version": "3.212.0"
         },
         {
-          "Id": "VirtoCommerce.AzureSearch",
-          "Version": "3.210.0"
-        },
-        {
           "Id": "VirtoCommerce.NativePaymentMethods",
           "Version": "3.401.0"
         },
@@ -206,6 +202,10 @@
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "Version": "3.410.0"
+        },
+        {
+          "Id": "VirtoCommerce.AzureSearch",
+          "Version": "3.211.0"
         }
       ]
     },
