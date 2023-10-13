@@ -60,7 +60,7 @@
   customApps:
     app1:
       name: storybook
-      enabled: true
+      enabled: false
       imageRepository: ghcr.io/virtocommerce/vc-theme-b2b-vue-storybook
       servicePlan: B1
       type: standalone
