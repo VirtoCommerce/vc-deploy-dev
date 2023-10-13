@@ -130,10 +130,6 @@
           "BlobName": "VirtoCommerce.ElasticAppSearch_3.213.0-alpha.102.zip"
         },
         {
-          "Id": "VirtoCommerce.AzureSearch",
-          "BlobName": "VirtoCommerce.AzureSearch_3.211.0-alpha.213.zip"
-        },
-        {
           "Id": "VirtoCommerce.NativePaymentMethods",
           "BlobName": "VirtoCommerce.NativePaymentMethods_3.402.0-alpha.72.zip"
         },
@@ -224,6 +220,10 @@
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.411.0-alpha.178.zip"
+        },
+        {
+          "Id": "VirtoCommerce.AzureSearch",
+          "BlobName": "VirtoCommerce.AzureSearch_3.211.0-alpha.214.zip"
         }
       ]
     }
