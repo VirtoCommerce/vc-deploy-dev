@@ -25,10 +25,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-  
-    - name: Az config
-      run: |
-        az config set extension.use_dynamic_install=yes_without_prompt
     
     - name: Install vc-build
       run: |
