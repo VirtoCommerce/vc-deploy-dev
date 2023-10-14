@@ -203,5 +203,7 @@
     }
   ],
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.420.0"
+  "PlatformVersion": "3.420.0",
+  "PlatformImage": "ghcr.io/virtocommerce/platform",
+  "PlatformImageTag": "3.420.0"
 }
