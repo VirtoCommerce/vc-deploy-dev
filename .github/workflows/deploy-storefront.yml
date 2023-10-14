@@ -12,7 +12,13 @@ jobs:
   gitops:
     runs-on: ubuntu-latest
     env:
+      DOCKER_LOGIN: vcst-token
+      DOCKER_PASSWORD: ${{ secrets.VCST_ACR_DOCKER_PASSWORD }}
+      CONTAINER_REGISTRY: virtopaasregistrymain.azurecr.io
+      IMAGE_REPOSITORY: virtopaasregistrymain.azurecr.io/vcst/storefront
       ARGO_APP_NAME: ${{ github.ref_name }}
+      STOREFRONT_REPO: ''
+      STOREFRONT_TAG: ''
 
     steps:
     - uses: actions/checkout@v3
@@ -22,17 +28,23 @@ jobs:
         dotnet tool install --global VirtoCommerce.GlobalTool
     
     - name: Get storefront version
-      id: platform-version
+      id: storefront-version
       run: |
         echo "STOREFRONT_TAG=$(cat ./storefront/image.json | jq -r '.Tag')" >> $GITHUB_ENV
         echo "STOREFRONT_REPO=$(cat ./storefront/image.json | jq -r '.Repository')" >> $GITHUB_ENV
-      
-    - name: Docker
+
+    - name: Docker Login
+      uses: azure/docker-login@v1
+      with:
+        login-server: ${{ env.CONTAINER_REGISTRY }}
+        username: ${{ env.DOCKER_LOGIN }}
+        password: ${{ env.DOCKER_PASSWORD }}
+
+    - name: Publish storefront image to the Virto Cloud
       run: |
-        docker login virtopaasregistrymain.azurecr.io -u vcst-token -p ${{ secrets.VCST_ACR_DOCKER_PASSWORD }}
-        docker pull $STOREFRONT_REPO:$STOREFRONT_TAG
-        docker tag $STOREFRONT_REPO:$STOREFRONT_TAG virtopaasregistrymain.azurecr.io/vcst/storefront:$STOREFRONT_TAG
-        docker push virtopaasregistrymain.azurecr.io/vcst/storefront:$STOREFRONT_TAG
+        docker pull ${{ env.STOREFRONT_REPO }}:${{ env.STOREFRONT_TAG }}
+        docker tag ${{ env.STOREFRONT_REPO }}:${{ env.STOREFRONT_TAG }} ${{ env.IMAGE_REPOSITORY }}:${{ env.STOREFRONT_TAG }}
+        docker push ${{ env.IMAGE_REPOSITORY }}:${{ env.STOREFRONT_TAG }}
 
     - name: Update app
       run: |
