@@ -8,7 +8,7 @@
     sqlReplica: false
     config:
       DOTNET_USE_POLLING_FILE_WATCHER: true
-      Reload: 80
+      Reload: 81
       Serilog__Using__0: Serilog.Sinks.Console
       Serilog__Using__1: Serilog.Sinks.ApplicationInsights
       Serilog__MinimumLevel__Default: "Information"
