@@ -62,7 +62,7 @@
       VirtoCommerce__Endpoint__Password: Store12345
       VirtoCommerce__CacheSlidingExpiration: 0:0:5
     themes:
-      B2C: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.40.0/vc-theme-b2b-vue-1.40.0.zip
+      B2C: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.41.0/vc-theme-b2b-vue-1.41.0.zip
   ingress:
     storefrontHostnames:
       name1: vcst-dev-b2c-store.govirto.com
