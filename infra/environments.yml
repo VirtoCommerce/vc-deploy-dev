@@ -4,7 +4,7 @@
   servicePlan: S2
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.426.0-alpha.12763-pt-13960-reset-password-hash-2a0d0eae-000351c
+    imageTag: 3.426.0-alpha.12762-dev-fb592f04-32a9c03
     sqlReplica: false
     config:
       DOTNET_USE_POLLING_FILE_WATCHER: true
