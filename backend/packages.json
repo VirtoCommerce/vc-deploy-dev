@@ -1,6 +1,6 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.424.0",
+  "PlatformVersion": "3.425.0",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -39,7 +39,7 @@
         },
         {
           "Id": "VirtoCommerce.AvalaraTax",
-          "Version": "3.401.0"
+          "Version": "3.402.0"
         },
         {
           "Id": "VirtoCommerce.AzureAD",
@@ -59,7 +59,7 @@
         },
         {
           "Id": "VirtoCommerce.Catalog",
-          "Version": "3.409.0"
+          "Version": "3.410.0"
         },
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
@@ -87,7 +87,7 @@
         },
         {
           "Id": "VirtoCommerce.Customer",
-          "Version": "3.406.0"
+          "Version": "3.407.0"
         },
         {
           "Id": "VirtoCommerce.CustomerReviews",
@@ -111,7 +111,7 @@
         },
         {
           "Id": "VirtoCommerce.ExperienceApi",
-          "Version": "3.416.0"
+          "Version": "3.423.0"
         },
         {
           "Id": "VirtoCommerce.Export",
@@ -151,11 +151,11 @@
         },
         {
           "Id": "VirtoCommerce.Notifications",
-          "Version": "3.402.0"
+          "Version": "3.403.0"
         },
         {
           "Id": "VirtoCommerce.Orders",
-          "Version": "3.414.0"
+          "Version": "3.415.0"
         },
         {
           "Id": "VirtoCommerce.Payment",
@@ -171,15 +171,15 @@
         },
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.409.0"
+          "Version": "3.410.0"
         },
         {
           "Id": "VirtoCommerce.Quote",
-          "Version": "3.400.0"
+          "Version": "3.402.0"
         },
         {
           "Id": "VirtoCommerce.Return",
-          "Version": "3.401.0"
+          "Version": "3.402.0"
         },
         {
           "Id": "VirtoCommerce.Search",
@@ -195,7 +195,7 @@
         },
         {
           "Id": "VirtoCommerce.Store",
-          "Version": "3.401.0"
+          "Version": "3.403.0"
         },
         {
           "Id": "VirtoCommerce.Subscription",
