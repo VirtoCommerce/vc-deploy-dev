@@ -34,6 +34,7 @@
       Content__AzureBlobStorage__RootPath: cms
       Content__AzureBlobStorage__ConnectionString: DefaultEndpointsProtocol=https;AccountName=qademovc3;AccountKey=qPIpM63MI2P3ei6B1xIL4/DlKDqdsRj54z2GUtgCAeXPcMe8+mZiUvrvI5fjdyrovk331XmBlMFfAEFAjCnvtw==;EndpointSuffix=core.windows.net
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
+      ASPNETCORE_ENVIRONMENT: Production
       AppInsights__EnableDependencyTrackingTelemetryModule: false
       Swagger__UI__Enabled: true
       PushNotifications__ForceWebSockets: true
