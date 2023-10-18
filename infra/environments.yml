@@ -37,7 +37,7 @@
       ASPNETCORE_ENVIRONMENT: Production
       AppInsights__EnableDependencyTrackingTelemetryModule: false
       Swagger__UI__Enabled: true
-      Authorization__ReturnPasswordHash: false
+      Authorization__ReturnPasswordHash: true
       PushNotifications__ForceWebSockets: true
       PushNotifications__ScalabilityMode: RedisBackplane
       PushNotifications__HubUrl: https://vcptcore-regression.govirto.com/pushNotificationHub
