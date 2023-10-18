@@ -4,7 +4,7 @@
   servicePlan: F1
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.293.15-53bae2f
+    imageTag: 3.293.19-44e6e86
     sqlReplica: false
     config:
       FrontendSecurity__OrganizationMaintainerRole: Organization maintainer
@@ -48,6 +48,7 @@
       APPINSIGHTS_INSTRUMENTATIONKEY: 4ead1786-2f72-48ae-a55b-fa934117edfb
       PasswordLogin__Enabled: true
       PasswordLogin__Priority: 0
+      Authorization__ReturnPasswordHash: false
       DefaultMainMenuState__items__0__path: browse/marketing
       DefaultMainMenuState__items__0__isFavorite: true
       DefaultMainMenuState__items__0__order: 0
