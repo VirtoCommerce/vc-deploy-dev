@@ -1,4 +1,4 @@
-- name: vcst-demo
+- name: vcst-qa
   gitops: true
   production: false
   servicePlan: B1
@@ -73,7 +73,7 @@
       imageRepository: ghcr.io/virtocommerce/vc-theme-b2b-vue-storybook
       servicePlan: B1
       type: standalone
-      hostname: vcst-demo-storybook.paas.govirto.com
+      hostname: vcst-qa-storybook.paas.govirto.com
       probePath: /
       ingressPath: /
     app2:
