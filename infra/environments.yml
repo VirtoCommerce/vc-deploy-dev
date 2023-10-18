@@ -4,7 +4,7 @@
   servicePlan: S1
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.414.5-9ce37c5
+    imageTag: 3.414.6-0a9d052
     sqlReplica: false
     config:
       VirtoCommerce__SampleDataUrl: https://virtocommerce.azureedge.net/sample-data/b2b-sample-store.zip
@@ -37,6 +37,7 @@
       ASPNETCORE_ENVIRONMENT: Production
       AppInsights__EnableDependencyTrackingTelemetryModule: false
       Swagger__UI__Enabled: true
+      Authorization__ReturnPasswordHash: false
       PushNotifications__ForceWebSockets: true
       PushNotifications__ScalabilityMode: RedisBackplane
       PushNotifications__HubUrl: https://vcptcore-regression.govirto.com/pushNotificationHub
