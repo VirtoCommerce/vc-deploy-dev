@@ -6,7 +6,7 @@
     imageRepository: virtopaasregistrymain.azurecr.io/vcst/platform
     sqlReplica: false
     config:
-      APPINSIGHTS_INSTRUMENTATIONKEY: af7ad45a-a19f-4f13-9a7f-7338304c51dd
+      APPINSIGHTS_INSTRUMENTATIONKEY: ef0125aa-1c8e-42d3-964f-d0a11256309d
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
       AzureAd__ApplicationId: 8227d950-975c-4c28-b7d4-ea440a59dcbb
       AzureAd__Enabled: true
@@ -54,7 +54,7 @@
     servicePlan: B1
     probePath: /storefrontapi/health
     config:
-      APPINSIGHTS_INSTRUMENTATIONKEY: 9a34272c-1f9c-44c0-b64d-916a46529733
+      APPINSIGHTS_INSTRUMENTATIONKEY: 48cca1d8-ea02-433e-bfa6-7aa21acb88d9
       CookieAuthenticationOptions__LoginPath: /sign-in
       DOTNET_USE_POLLING_FILE_WATCHER: true
       SnapshotCollectorConfiguration__IsEnabled: false
