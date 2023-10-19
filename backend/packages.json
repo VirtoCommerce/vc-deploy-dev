@@ -200,12 +200,12 @@
           "Version": "3.211.0"
         },
         {
-          "Id": "VirtoCommerce.ExperienceApi",
-          "Version": "3.423.0"
-        },
-        {
           "Id": "VirtoCommerce.Content",
           "Version": "3.409.0"
+        },
+        {
+          "Id": "VirtoCommerce.ExperienceApi",
+          "Version": "3.424.0"
         }
       ]
     },
