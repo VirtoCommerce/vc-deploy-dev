@@ -25,7 +25,7 @@ jobs:
       - name: Get theme version
         id: storybook-version
         run: |
-            echo "STORYBOOK_TAG=$(cat ./storybook/image.json | jq -r '.Repository')" >> $GITHUB_ENV
+            echo "STORYBOOK_TAG=$(cat ./storybook/image.json | jq -r '.Tag')" >> $GITHUB_ENV
 
       - name: Update environment
         run: |
