@@ -1,4 +1,4 @@
-name: Cloud theme deployment
+name: Cloud storybook deployment
 
 on:
   workflow_dispatch:
