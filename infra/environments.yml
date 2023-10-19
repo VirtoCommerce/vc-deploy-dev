@@ -61,14 +61,11 @@
       SYSTEM_RESTART: 11.10.2023-2
       VirtoCommerce__Endpoint__Password: Store12345
       VirtoCommerce__CacheSlidingExpiration: 0:0:5
-    themes:
-      B2B-store: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-1.42.0-pr-820-3d9c-3d9caf84.zip
   customApps:
     app1:
       name: storybook
       enabled: true
       imageRepository: ghcr.io/virtocommerce/vc-theme-b2b-vue-storybook
-      imageTag: dev-latest
       servicePlan: B1
       type: standalone
       hostname: vcst-qa-storybook.paas.govirto.com
@@ -79,4 +76,6 @@
   protectedParameters:
    - platform.image.tag
    - storefront.image.tag
+   - themes.B2B-store
+   - custom.app1.image.tag
   version: 3.211
