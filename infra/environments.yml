@@ -4,7 +4,7 @@
   servicePlan: F1
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.293.19-44e6e86
+    imageTag: 3.293.20-ebacaad
     sqlReplica: false
     config:
       FrontendSecurity__OrganizationMaintainerRole: Organization maintainer
@@ -24,10 +24,10 @@
       Swagger__UI__Enabled: true
       PushNotifications__ForceWebSockets: true
       PushNotifications__ScalabilityMode: RedisBackplane
-      PushNotifications__HubUrl: https://vcptcore-regression.govirto.com/pushNotificationHub
-      PushNotifications__RedisBackplane__ChannelName: vcptcore-regression-chanel
-      Content__FileSystem__PublicUrl: https://vcptcore-regression.govirto.com/cms-content/
-      Assets__FileSystem__PublicUrl: https://vcptcore-regression.govirto.com/cms-content/assets/
+      PushNotifications__HubUrl: https://vcptcore-stable.govirto.com/pushNotificationHub
+      PushNotifications__RedisBackplane__ChannelName: vcptcore-stable-chanel
+      Content__FileSystem__PublicUrl: https://vcptcore-stable.govirto.com/cms-content/
+      Assets__FileSystem__PublicUrl: https://vcptcore-stable.govirto.com/cms-content/assets/
       VirtoCommerce__LicenseFilePath: app_data/VirtoCommerce.lic
       VirtoCommerce__LicensePublicKeyPath: app_data/public.key
       VirtoCommerce__LicensePrivateKeyPath: app_data/private.key
