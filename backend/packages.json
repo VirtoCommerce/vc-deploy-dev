@@ -202,10 +202,6 @@
           "BlobName": "VirtoCommerce.Notifications_3.404.0-alpha.344.zip"
         },
         {
-          "Id": "VirtoCommerce.Customer",
-          "BlobName": "VirtoCommerce.Customer_3.408.0-alpha.793.zip"
-        },
-        {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.411.0-alpha.178.zip"
         },
@@ -224,6 +220,10 @@
         {
           "Id": "VirtoCommerce.Content",
           "BlobName": "VirtoCommerce.Content_3.410.0-alpha.914.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Customer",
+          "BlobName": "VirtoCommerce.Customer_3.408.0-alpha.794.zip"
         }
       ]
     }
