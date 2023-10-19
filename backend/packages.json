@@ -156,10 +156,6 @@
           "Version": "3.405.0"
         },
         {
-          "Id": "VirtoCommerce.Customer",
-          "Version": "3.406.0"
-        },
-        {
           "Id": "VirtoCommerce.AzureAD",
           "Version": "3.205.0"
         },
@@ -206,6 +202,10 @@
         {
           "Id": "VirtoCommerce.ExperienceApi",
           "Version": "3.424.0"
+        },
+        {
+          "Id": "VirtoCommerce.Customer",
+          "Version": "3.408.0"
         }
       ]
     },
