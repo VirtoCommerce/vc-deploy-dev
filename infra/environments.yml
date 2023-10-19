@@ -26,6 +26,7 @@
       PushNotifications__ScalabilityMode: RedisBackplane
       PushNotifications__HubUrl: https://vcptcore-stable.govirto.com/pushNotificationHub
       PushNotifications__RedisBackplane__ChannelName: vcptcore-stable-chanel
+      Assets__Provider: FileSystem
       Content__FileSystem__PublicUrl: https://vcptcore-stable.govirto.com/cms-content/
       Assets__FileSystem__PublicUrl: https://vcptcore-stable.govirto.com/cms-content/assets/
       VirtoCommerce__LicenseFilePath: app_data/VirtoCommerce.lic
