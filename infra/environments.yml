@@ -4,7 +4,7 @@
   servicePlan: S2
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.428.0-1ecb452
+    imageTag: 3.429.0-alpha.12773-pt-13441-bb13aa84-3c6834c
     sqlReplica: false
     config:
       DOTNET_USE_POLLING_FILE_WATCHER: true
@@ -73,7 +73,7 @@
       PasswordLogin__Enabled: true
       Content__FileSystem__PublicUrl: https://vcptcore-qa.paas.govirto.com/cms-content/
       Assets__FileSystem__PublicUrl: https://vcptcore-qa.paas.govirto.com/cms-content/assets/
-      Assets__Provider: AzureBlobStorage
+      Assets__Provider: FileSystem
       Assets__AzureBlobStorage__ConnectionString: DefaultEndpointsProtocol=https;AccountName=qademovc3;AccountKey=qPIpM63MI2P3ei6B1xIL4/DlKDqdsRj54z2GUtgCAeXPcMe8+mZiUvrvI5fjdyrovk331XmBlMFfAEFAjCnvtw==;EndpointSuffix=core.windows.net
       Assets__AzureBlobStorage__RootPath: catalog
       Content__Provider: AzureBlobStorage
