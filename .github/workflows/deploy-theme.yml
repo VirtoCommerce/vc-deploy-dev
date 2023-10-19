@@ -28,10 +28,10 @@ jobs:
       - name: Get theme version
         id: theme-version
         run: |
-            echo "ARTIFACT_URL=$(cat ./theme/artifact.json | jq -r '.URL')" >> $GITHUB_ENV
+            echo "ARTEFACT_URL=$(cat ./theme/artefact.json | jq -r '.URL')" >> $GITHUB_ENV
 
       - name: Update environment
         run: |
             export PARAMETER_NAME=$(echo "themes.${{ matrix.store }}" | xargs)
-            export PARAMETER_VALUE=$(echo "${{ env.ARTIFACT_URL }}" | xargs)
+            export PARAMETER_VALUE=$(echo "${{ env.ARTEFACT_URL }}" | xargs)
             vc-build SetEnvParameter -EnvironmentName ${{ env.ARGO_APP_NAME }} -CloudToken ${{ secrets.VCST_PLATFORM_TOKEN }} -HelmParameters $PARAMETER_NAME=$PARAMETER_VALUE
