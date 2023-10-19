@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       ARGO_APP_NAME: ${{ github.ref_name }}
-      ARTIFACT_URL: ''
+      ARTEFACT_URL: ''
 
     steps:
       - uses: actions/checkout@v3
