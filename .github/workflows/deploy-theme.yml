@@ -1,0 +1,37 @@
+name: Cloud theme deployment
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'theme/**'
+    branches: 
+      - 'vcst-*'
+
+jobs:
+  gitops:
+    strategy:
+      matrix:
+        store: [B2B-store, B2C]
+    runs-on: ubuntu-latest
+    env:
+      ARGO_APP_NAME: ${{ github.ref_name }}
+      ARTIFACT_URL: ''
+
+    steps:
+      - uses: actions/checkout@v3
+   
+      - name: Install vc-build
+        run: |
+          dotnet tool install --global VirtoCommerce.GlobalTool
+    
+      - name: Get theme version
+        id: theme-version
+        run: |
+            echo "ARTIFACT_URL=$(cat ./theme/artifact.json | jq -r '.URL')" >> $GITHUB_ENV
+
+      - name: Update environment
+        run: |
+            export PARAMETER_NAME=$(echo "themes.${{ matrix.store }}" | xargs)
+            export PARAMETER_VALUE=$(echo "${{ env.ARTIFACT_URL }}" | xargs)
+            vc-build SetEnvParameter -EnvironmentName ${{ env.ARGO_APP_NAME }} -CloudToken ${{ secrets.VCST_PLATFORM_TOKEN }} -HelmParameters $PARAMETER_NAME=$PARAMETER_VALUE
