@@ -141,10 +141,10 @@
   storefront:
     enabled: true
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/storefront
-    imageTag: 6.29.0-master-5b60c47b
+    imageTag: 6.31.0-alpha.975-pt-14042-eceea92a
     servicePlan: S1
     config:
-      Reload: 20
+      Reload: 21
       DOTNET_USE_POLLING_FILE_WATCHER: true
       SnapshotCollectorConfiguration__IsEnabled: false
       VirtoCommerce__DefaultStore: B2B-store
