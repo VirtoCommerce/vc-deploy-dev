@@ -44,10 +44,6 @@
           "Version": "3.400.0"
         },
         {
-          "Id": "VirtoCommerce.Core",
-          "Version": "3.400.0"
-        },
-        {
           "Id": "VirtoCommerce.EventBus",
           "Version": "3.400.0"
         },
@@ -206,6 +202,10 @@
         {
           "Id": "VirtoCommerce.Quote",
           "Version": "3.403.0"
+        },
+        {
+          "Id": "VirtoCommerce.Core",
+          "Version": "3.401.0"
         }
       ]
     },
