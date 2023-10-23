@@ -88,10 +88,6 @@
           "Version": "3.400.0"
         },
         {
-          "Id": "VirtoCommerce.ImageTools",
-          "Version": "3.402.0"
-        },
-        {
           "Id": "VirtoCommerce.ElasticSearch",
           "Version": "3.400.0"
         },
@@ -206,6 +202,10 @@
         {
           "Id": "VirtoCommerce.Core",
           "Version": "3.404.0"
+        },
+        {
+          "Id": "VirtoCommerce.ImageTools",
+          "Version": "3.403.0"
         }
       ]
     },
