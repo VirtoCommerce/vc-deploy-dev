@@ -23,7 +23,6 @@
       Notifications__Gateway: SendGrid
       Notifications__SmsDefaultSender: +17012510519
       Payments__AuthorizeNet__ApiLogin: 8hPT4p99R
-      Prerender_Enabled: true
       Search__ContentFullTextSearchEnabled: true
       Search__ElasticAppSearch__Endpoint: https://enterprise-search-test.govirto.com
       Search__ElasticAppSearch__EnableHttpCompression: true
@@ -37,7 +36,6 @@
       Notifications__SendGrid__ApiKey: sendgrid-apikey
       Payments__AuthorizeNet__SHA2Hash: authorizenet-sha2hash
       Payments__AuthorizeNet__TxnKey: authorizenet-txnkey
-      Prerender_Token: prerender-token
   storefront:
     enabled: true
     imageRepository: virtopaasregistrymain.azurecr.io/vcst/storefront
@@ -47,10 +45,13 @@
       APPINSIGHTS_INSTRUMENTATIONKEY: 48cca1d8-ea02-433e-bfa6-7aa21acb88d9
       CookieAuthenticationOptions__LoginPath: /sign-in
       DOTNET_USE_POLLING_FILE_WATCHER: true
+      Prerender_Enabled: true
       SnapshotCollectorConfiguration__IsEnabled: false
       SYSTEM_RESTART: 11.10.2023-2
       VirtoCommerce__Endpoint__Password: Store12345
       VirtoCommerce__CacheSlidingExpiration: 0:0:5
+    secretConfig:
+      Prerender_Token: prerender-token
   customApps:
     app1:
       name: storybook
