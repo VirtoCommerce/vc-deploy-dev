@@ -23,6 +23,7 @@
       Notifications__Gateway: SendGrid
       Notifications__SmsDefaultSender: +17012510519
       Payments__AuthorizeNet__ApiLogin: 8hPT4p99R
+      Prerender_Enabled: true
       Search__ContentFullTextSearchEnabled: true
       Search__ElasticAppSearch__Endpoint: https://enterprise-search-test.govirto.com
       Search__ElasticAppSearch__EnableHttpCompression: true
@@ -36,6 +37,7 @@
       Notifications__SendGrid__ApiKey: sendgrid-apikey
       Payments__AuthorizeNet__SHA2Hash: authorizenet-sha2hash
       Payments__AuthorizeNet__TxnKey: authorizenet-txnkey
+      Prerender_Token: prerender-token
   storefront:
     enabled: true
     imageRepository: virtopaasregistrymain.azurecr.io/vcst/storefront
