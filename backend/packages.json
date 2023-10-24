@@ -192,6 +192,10 @@
         {
           "Id": "VirtoCommerce.MarketingExperienceApi",
           "Version": "3.400.0"
+        },
+        {
+          "Id": "VirtoCommerce.ApplicationInsights",
+          "Version": "3.202.0"
         }
       ]
     },
