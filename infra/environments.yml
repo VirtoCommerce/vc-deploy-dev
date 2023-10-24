@@ -19,24 +19,10 @@
       Content__PathMappings__themes__0: Themes
       Content__PathMappings__themes__1: _storeId
       DOTNET_USE_POLLING_FILE_WATCHER: true
-      FrontendSecurity__OrganizationMaintainerRole: Organization maintainer
-      IdentityOptions__Password__PasswordChangeByAdminEnabled: true
-      IdentityOptions__Password__RequiredLength: 3
-      IdentityOptions__Password__RequireDigit: false
-      IdentityOptions__Password__RequireLowercase: true
-      IdentityOptions__Password__RequireNonAlphanumeric: false
-      IdentityOptions__Password__RequireUppercase: false
-      IdentityOptions__Lockout__AutoAccountsLockoutJobEnabled: false
-      IdentityOptions__Lockout__CronAutoAccountsLockoutJob: 0/5 * * * *
-      IdentityOptions__Lockout__LockoutMaximumDaysFromLastLogin: 3
-      IdentityOptions__User__MaxPasswordAge: 30
-      IdentityOptions__User__RemindPasswordExpiryInDays: 7
       Notifications__DefaultSender: azure_25da07ed75daacae20578a7a7dc58541@azure.com
       Notifications__Gateway: SendGrid
       Notifications__SmsDefaultSender: +17012510519
       Payments__AuthorizeNet__ApiLogin: 8hPT4p99R
-      Payments__AuthorizeNet__SHA2Hash: FA6D2B37A7E9105942D2D184F1B2DBD8D9CA85611DE55B2267A6F7E0D7E49ACD9A6BC238CE068E75CA14ACFAD734F700FD94DCAB20353DD4D32D9BABE72DBBE4
-      Payments__AuthorizeNet__TxnKey: 63c54EWq5d2XnGAR
       Search__ContentFullTextSearchEnabled: true
       Search__ElasticAppSearch__Endpoint: https://enterprise-search-test.govirto.com
       Search__ElasticAppSearch__EnableHttpCompression: true
@@ -48,6 +34,8 @@
       VirtoCommerce__SampleDataUrl: https://vc3prerelease.blob.core.windows.net/packages/clothing-and-electronics_3_0_2.zip
     secretConfig:
       Notifications__SendGrid__ApiKey: sendgrid-apikey
+      Payments__AuthorizeNet__SHA2Hash: authorizenet-sha2hash
+      Payments__AuthorizeNet__TxnKey: authorizenet-txnkey
   storefront:
     enabled: true
     imageRepository: virtopaasregistrymain.azurecr.io/vcst/storefront
