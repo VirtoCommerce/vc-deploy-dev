@@ -47,7 +47,7 @@
       DOTNET_USE_POLLING_FILE_WATCHER: true
       Prerender_Enabled: true
       SnapshotCollectorConfiguration__IsEnabled: false
-      SYSTEM_RESTART: 11.10.2023-2
+      SYSTEM_RESTART: 25.10.2023
       VirtoCommerce__Endpoint__Password: Store12345
       VirtoCommerce__CacheSlidingExpiration: 0:0:5
     secretConfig:
