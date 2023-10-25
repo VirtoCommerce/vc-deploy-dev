@@ -160,10 +160,6 @@
           "Version": "3.403.0"
         },
         {
-          "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.410.0"
-        },
-        {
           "Id": "VirtoCommerce.AzureSearch",
           "Version": "3.211.0"
         },
@@ -206,6 +202,10 @@
         {
           "Id": "VirtoCommerce.ImageTools",
           "Version": "3.403.0"
+        },
+        {
+          "Id": "VirtoCommerce.ProfileExperienceApiModule",
+          "Version": "3.411.0"
         }
       ]
     },
