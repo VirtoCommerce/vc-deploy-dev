@@ -45,13 +45,10 @@
       APPINSIGHTS_INSTRUMENTATIONKEY: 48cca1d8-ea02-433e-bfa6-7aa21acb88d9
       CookieAuthenticationOptions__LoginPath: /sign-in
       DOTNET_USE_POLLING_FILE_WATCHER: true
-      Prerender__Enabled: true
       SnapshotCollectorConfiguration__IsEnabled: false
       SYSTEM_RESTART: 25.10.2023
       VirtoCommerce__Endpoint__Password: Store12345
       VirtoCommerce__CacheSlidingExpiration: 0:0:5
-    secretConfig:
-      Prerender__Token: prerender-token
   customApps:
     app1:
       name: storybook
