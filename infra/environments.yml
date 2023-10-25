@@ -51,7 +51,7 @@
       VirtoCommerce__Endpoint__Password: Store12345
       VirtoCommerce__CacheSlidingExpiration: 0:0:5
     secretConfig:
-      Prerender_Token: prerender-token
+      Prerender__Token: prerender-token
   customApps:
     app1:
       name: storybook
