@@ -4,11 +4,12 @@
   servicePlan: S2
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.430.0-679f8d2
+    imageTag: 3.430.0-ab3e09a
     sqlReplica: false
     config:
       DOTNET_USE_POLLING_FILE_WATCHER: true
       Reload: 81
+      ConnectionStrings__AzureAppConfigurationConnectionString: "Endpoint=https://qa-vc-app-config.azconfig.io;Id=BvwK;Secret=nbF7kOXCU14+qCF5OtP4LR63zfbSyDx6th46bIWkUHQ="
       Serilog__Using__0: Serilog.Sinks.Console
       Serilog__Using__1: Serilog.Sinks.ApplicationInsights
       Serilog__MinimumLevel__Default: "Information"
@@ -141,7 +142,7 @@
   storefront:
     enabled: true
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/storefront
-    imageTag: 6.32.0-alpha.977-dev-66dd0968
+    imageTag: 6.33.0-alpha.979-pt-13653-slug-28135c54
     servicePlan: S1
     config:
       Reload: 21
