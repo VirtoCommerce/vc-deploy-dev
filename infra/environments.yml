@@ -125,10 +125,10 @@
       IdentityOptions__User__MaxPasswordAge: 90
       IdentityOptions__User__RequireUniqueEmail: true
       #FrontendSecurity__OrganizationMaintainerRole: Organization maintainer
-      EventBus__Connections__0__Name: AzureEventGridApps
+      EventBus__Connections__0__Name: AzureEventGridApps1
       EventBus__Connections__0__ProviderName: AzureEventGrid
-      EventBus__Connections__0__ConnectionOptionsSerialized: "{'ConnectionString': 'https://test-event-grid-dont-delete.westus-1.eventgrid.azure.net/api/events', 'AccessKey': 'kvpXOgw5MiNjBeBKdroX1r45UvZloXMwlM7i1TyqoiI='}"
-      EventBus__Subscriptions__0__ConnectionName: AzureEventGridApps
+      #EventBus__Connections__0__ConnectionOptionsSerialized: "{'ConnectionString': 'https://test-event-grid-dont-delete.westus-1.eventgrid.azure.net/api/events', 'AccessKey': 'kvpXOgw5MiNjBeBKdroX1r45UvZloXMwlM7i1TyqoiI='}"
+      EventBus__Subscriptions__0__ConnectionName: AzureEventGridApps1
       EventBus__Subscriptions__0__Name: TestSubscriptionAppS
       EventBus__Subscriptions__0__Events__0__EventId: VirtoCommerce.Platform.Core.Security.Events.UserChangedEvent
       AzureAd__Priority: 1
