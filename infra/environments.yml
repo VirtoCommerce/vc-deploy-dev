@@ -4,7 +4,7 @@
   servicePlan: S2
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.431.0-alpha.12773-pt-13986-4d0e45b8-023a3b6
+    imageTag: 3.431.0-alpha.12773-pt-13986-4d0e45b8-dd8eb0f
     sqlReplica: false
     config:
       DOTNET_USE_POLLING_FILE_WATCHER: true
@@ -127,7 +127,7 @@
       #FrontendSecurity__OrganizationMaintainerRole: Organization maintainer
       EventBus__Connections__0__Name: AzureEventGridApps
       EventBus__Connections__0__ProviderName: AzureEventGrid
-      #EventBus__Connections__0__ConnectionOptionsSerialized: "{'ConnectionString': 'https://test-event-grid-dont-delete.westus-1.eventgrid.azure.net/api/events', 'AccessKey': 'kvpXOgw5MiNjBeBKdroX1r45UvZloXMwlM7i1TyqoiI='}"
+      EventBus__Connections__0__ConnectionOptionsSerialized: "{'ConnectionString': 'https://test-event-grid-dont-delete.westus-1.eventgrid.azure.net/api/events', 'AccessKey': 'kvpXOgw5MiNjBeBKdroX1r45UvZloXMwlM7i1TyqoiI='}"
       EventBus__Subscriptions__0__ConnectionName: AzureEventGridApps
       EventBus__Subscriptions__0__Name: TestSubscriptionAppS
       EventBus__Subscriptions__0__Events__0__EventId: VirtoCommerce.Platform.Core.Security.Events.UserChangedEvent
