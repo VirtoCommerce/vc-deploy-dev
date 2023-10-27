@@ -218,12 +218,12 @@
           "BlobName": "VirtoCommerce.EventBus_3.401.0-alpha.116.zip"
         },
         {
-          "Id": "VirtoCommerce.Notifications",
-          "BlobName": "VirtoCommerce.Notifications_3.405.0-alpha.348.zip"
-        },
-        {
           "Id": "VirtoCommerce.Customer",
           "BlobName": "VirtoCommerce.Customer_3.410.0-alpha.800.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Notifications",
+          "BlobName": "VirtoCommerce.Notifications_3.405.0-alpha.348.zip"
         }
       ]
     }
