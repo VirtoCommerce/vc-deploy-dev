@@ -160,10 +160,6 @@
           "Version": "3.211.0"
         },
         {
-          "Id": "VirtoCommerce.Customer",
-          "Version": "3.408.0"
-        },
-        {
           "Id": "VirtoCommerce.Contracts",
           "Version": "3.406.0"
         },
@@ -206,6 +202,10 @@
         {
           "Id": "VirtoCommerce.Notifications",
           "Version": "3.405.0"
+        },
+        {
+          "Id": "VirtoCommerce.Customer",
+          "Version": "3.410.0"
         }
       ]
     },
