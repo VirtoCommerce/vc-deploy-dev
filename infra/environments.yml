@@ -57,14 +57,14 @@
     config: >-
       set \$\prerender 0;
 
-      if (\$\http_user_agent ~* "Prerender")
+      if (\$\http_user_agent ~* "googlebot|yahoo!\ slurp|bingbot|yandex|baiduspider|facebookexternalhit|twitterbot|rogerbot|linkedinbot|embedly|quora\ link\ preview|showyoubot|outbrain|pinterest\/0\.|developers.google.com\/\+\/web\/snippet|slackbot|vkShare|W3C_Validator|redditbot|applebot|whatsapp|flipboard|tumblr|bitlybot|skypeuripreview|nuzzel|discordbot|google\ page\ speed|qwantify|pinterestbot|bitrix\ link\ preview|xing-contenttabreceiver|chrome-lighthouse|telegrambot|google-inspectiontool|petalbot")
       {
         set \$\prerender 1;
       }
 
-      if (\$\http_user_agent ~* "googlebot|yahoo!\ slurp|bingbot|yandex|baiduspider|facebookexternalhit|twitterbot|rogerbot|linkedinbot|embedly|quora\ link\ preview|showyoubot|outbrain|pinterest\/0\.|developers.google.com\/\+\/web\/snippet|slackbot|vkShare|W3C_Validator|redditbot|applebot|whatsapp|flipboard|tumblr|bitlybot|skypeuripreview|nuzzel|discordbot|google\ page\ speed|qwantify|pinterestbot|bitrix\ link\ preview|xing-contenttabreceiver|chrome-lighthouse|telegrambot|google-inspectiontool|petalbot")
+      if (\$\http_user_agent ~* "Prerender")
       {
-        set \$\prerender 1;
+        set \$\prerender 0;
       }
 
       if (\$\args ~ "_escaped_fragment_") {
