@@ -97,8 +97,6 @@
               return 404;
             }
 
-          proxy_set_header X-Prerender-Token {{ .Values.ingress.secrets.prerender_token }};
-
           proxy_hide_header Cache-Control;
           add_header Cache-Control "private,max-age=600,must-revalidate";
 
