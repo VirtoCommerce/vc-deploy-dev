@@ -21,8 +21,6 @@
       Search__ElasticAppSearch__KibanaBaseUrl: "https://kibana-test.govirto.com/"
       Search__ElasticSearch8__Server: https://virto-start-public-demo.es.us-central1.gcp.cloud.es.io
       Search__ElasticSearch8__User: elastic 
-      Search__OrderFullTextSearchEnabled: true
-      Search__ContentFullTextSearchEnabled: true
       Notifications__DefaultSender: azure_25da07ed75daacae20578a7a7dc58541@azure.com
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
       Notifications__Gateway: SendGrid
@@ -37,9 +35,6 @@
       Content__PathMappings__pages__3: "content/pages"
       Content__PathMappings__themes__0: "Themes"
       Content__PathMappings__themes__1: "_storeId"
-      FrontendSecurity__OrganizationMaintainerRole: "Organization maintainer"
-      IdentityOptions__User__RemindPasswordExpiryInDays: 7
-      IdentityOptions__User__MaxPasswordAge: 90
       Reload: 2023-10-06
     secretConfig:
       Notifications__SendGrid__ApiKey: sendkey
@@ -62,7 +57,7 @@
     secretConfig:
       VirtoCommerce__Endpoint__Password: virtocommercepassword
     themes:
-      B2B-store: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.41.0/vc-theme-b2b-vue-1.41.0.zip
+      B2B-store: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.42.0/vc-theme-b2b-vue-1.42.0.zip
   ingress:
     config: >-
       add_header 'Access-Control-Allow-Origin' '*';
