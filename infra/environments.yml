@@ -80,14 +80,18 @@
         set \$\prerender 0;
       }
 
-      location / {
-        if (\$\prerender = 1) {
+      location /
+      {
+        if (\$\prerender = 1)
+        {
           rewrite (.*) /prerenderio last;
         }
       }
 
-      location /prerenderio {
-         if (\$\prerender = 0) {
+      location /prerenderio
+      {
+        if (\$\prerender = 0)
+        {
           return 404;
         }
 
