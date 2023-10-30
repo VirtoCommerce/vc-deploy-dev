@@ -11,6 +11,8 @@ on:
 jobs:
   gitops:
     runs-on: ubuntu-latest
+    env:
+      ARGO_APP_NAME: ${{ github.ref_name }}
 
     steps:
       - uses: actions/checkout@v3
@@ -22,6 +24,7 @@ jobs:
       - name: Update app
         run: |
           vc-build UpdateCloudEnvironment -CloudToken ${{ secrets.VCST_PLATFORM_TOKEN }} -ArgoConfigFile $ENV_FILE -CloudUrl https://portal.virtocommerce.cloud
+          vc-build SetEnvParameter -EnvironmentName ${{ env.ARGO_APP_NAME }} -CloudToken ${{ secrets.VCST_PLATFORM_TOKEN }} -HelmParameters ingress.secrets.prerender_token=${{ secrets.PRERENDER_TOKEN }}
         env:
           ENV_FILE: './infra/environments.yml'
           ARGO_SERVER: https://argo.virtocommerce.cloud
