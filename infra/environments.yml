@@ -58,7 +58,7 @@
       name: storybook
       enabled: true
       imageRepository: ghcr.io/virtocommerce/vc-theme-b2b-vue-storybook
-      servicePlan: B1
+      servicePlan: F1
       type: standalone
       hostname: vcst-qa-storybook.paas.govirto.com
       probePath: /
