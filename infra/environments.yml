@@ -58,53 +58,55 @@
       set \$\prerender 0;
 
       if (\$\http_user_agent ~* "googlebot|yahoo!\ slurp|bingbot|yandex|baiduspider|facebookexternalhit|twitterbot|rogerbot|linkedinbot|embedly|quora\ link\ preview|showyoubot|outbrain|pinterest\/0\.|developers.google.com\/\+\/web\/snippet|slackbot|vkShare|W3C_Validator|redditbot|applebot|whatsapp|flipboard|tumblr|bitlybot|skypeuripreview|nuzzel|discordbot|google\ page\ speed|qwantify|pinterestbot|bitrix\ link\ preview|xing-contenttabreceiver|chrome-lighthouse|telegrambot|google-inspectiontool|petalbot")
-      {
-        set \$\prerender 1;
-      }
+        {
+          set \$\prerender 1;
+        }
 
       if (\$\http_user_agent ~* "Prerender")
-      {
-        set \$\prerender 0;
-      }
+        {
+          set \$\prerender 0;
+        }
 
-      if (\$\args ~ "_escaped_fragment_") {
-        set \$\prerender 1;
-      }
+      if (\$\args ~ "_escaped_fragment_")
+        {
+          set \$\prerender 1;
+        }
 
-      if (\$\http_x_prerender = "1") {
-        set \$\prerender 0;
-      }
+      if (\$\http_x_prerender = "1")
+        {
+          set \$\prerender 0;
+        }
 
       if (\$\uri ~* "\.(js|css|xml|less|png|jpg|jpeg|gif|pdf|txt|ico|rss|zip|mp3|rar|exe|wmv|doc|avi|ppt|mpg|mpeg|tif|wav|mov|psd|ai|xls|mp4|m4a|swf|dat|dmg|iso|flv|m4v|torrent|ttf|woff|woff2|svg|eot)")
-      {
-        set \$\prerender 0;
-      }
+        {
+          set \$\prerender 0;
+        }
 
       location /
-      {
-        if (\$\prerender = 1)
         {
-          rewrite (.*) /prerenderio last;
+          if (\$\prerender = 1)
+            {
+              rewrite (.*) /prerenderio last;
+            }
         }
-      }
 
       location /prerenderio
-      {
-        if (\$\prerender = 0)
         {
-          return 404;
+          if (\$\prerender = 0)
+            {
+              return 404;
+            }
+
+          proxy_set_header X-Prerender-Token {{ .Values.ingress.secrets.prerender_token }};
+
+          proxy_hide_header Cache-Control;
+          add_header Cache-Control "private,max-age=600,must-revalidate";
+
+          resolver 8.8.8.8 8.8.4.4;
+          set \$\prerender_host "service.prerender.io";
+          proxy_pass https://\$\prerender_host;
+          rewrite .* /\$\scheme://\$\host\$\request_uri? break;
         }
-
-        proxy_set_header X-Prerender-Token {{ .Values.ingress.secrets.prerender_token }};
-
-        proxy_hide_header Cache-Control;
-        add_header Cache-Control "private,max-age=600,must-revalidate";
-
-        resolver 8.8.8.8 8.8.4.4;
-        set \$\prerender_host "service.prerender.io";
-        proxy_pass https://\$\prerender_host;
-        rewrite .* /\$\scheme://\$\host\$\request_uri? break;
-      }
   customApps:
     app1:
       name: storybook
