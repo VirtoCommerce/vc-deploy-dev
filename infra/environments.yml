@@ -84,30 +84,6 @@
         {
           set \$\prerender 0;
         }
-
-      location /
-        {
-          if (\$\prerender = 1)
-            {
-              rewrite (.*) /prerenderio last;
-            }
-        }
-
-      location /prerenderio
-        {
-          if (\$\prerender = 0)
-            {
-              return 404;
-            }
-
-          proxy_hide_header Cache-Control;
-          add_header Cache-Control "private,max-age=600,must-revalidate";
-
-          resolver 8.8.8.8 8.8.4.4;
-          set \$\prerender_host "service.prerender.io";
-          proxy_pass https://\$\prerender_host;
-          rewrite .* /\$\scheme://\$\host\$\request_uri? break;
-        }
   customApps:
     app1:
       name: storybook
