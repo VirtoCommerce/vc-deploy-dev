@@ -106,7 +106,7 @@
       VirtoCommerce__ApplicationInsights__RoleName: This is QA role
       VirtoCommerce__ApplicationInsights__RoleInstance: This is instance of QA
       Videos__GoogleApiKey: AIzaSyD5A4oFeSgaMQnMo3OiaqUSJ23SQGELiA4
-      Caching__CacheEnabled: false
+      Caching__CacheEnabled: true
       DefaultMainMenuState__items__0__path: browse/catalog
       DefaultMainMenuState__items__0__isFavorite: true
       DefaultMainMenuState__items__0__order: 1
