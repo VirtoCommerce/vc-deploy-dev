@@ -4,7 +4,7 @@
   servicePlan: S2
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.432.0-alpha.12786-pt-13900-afa24b00-773070e
+    imageTag: 3.433.0-579b88b
     sqlReplica: false
     config:
       DOTNET_USE_POLLING_FILE_WATCHER: true
@@ -35,7 +35,7 @@
       PushNotifications__HubUrl: https://vcptcore-qa.paas.govirto.com/pushNotificationHub
       PushNotifications__RedisBackplane__ChannelName: vcptcore-qa-chanel
       Search__OrderFullTextSearchEnabled: true
-      Search__ContentFullTextSearchEnabled: false
+      Search__ContentFullTextSearchEnabled: true
       Search__DocumentScopes__0__DocumentType: Product
       Search__DocumentScopes__0__Scope: vcptcore-qa-platformvcptcore-scope1
       Search__DocumentScopes__2__DocumentType: Category
