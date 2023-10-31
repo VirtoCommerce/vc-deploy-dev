@@ -168,10 +168,6 @@
           "Version": "3.403.0"
         },
         {
-          "Id": "VirtoCommerce.ExperienceApi",
-          "Version": "3.425.0"
-        },
-        {
           "Id": "VirtoCommerce.Core",
           "Version": "3.404.0"
         },
@@ -206,6 +202,10 @@
         {
           "Id": "VirtoCommerce.Customer",
           "Version": "3.410.0"
+        },
+        {
+          "Id": "VirtoCommerce.ExperienceApi",
+          "Version": "3.426.0"
         }
       ]
     },
