@@ -211,10 +211,6 @@
           "BlobName": "VirtoCommerce.Notifications_3.405.0-alpha.347.zip"
         },
         {
-          "Id": "VirtoCommerce.Orders",
-          "BlobName": "VirtoCommerce.Orders_3.417.0.zip"
-        },
-        {
           "Id": "VirtoCommerce.ImageTools",
           "BlobName": "VirtoCommerce.ImageTools_3.403.0.zip"
         },
@@ -241,6 +237,10 @@
         {
           "Id": "VirtoCommerce.Pricing",
           "BlobName": "VirtoCommerce.Pricing_3.404.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Orders",
+          "BlobName": "VirtoCommerce.Orders_3.418.0.zip"
         }
       ]
     }
