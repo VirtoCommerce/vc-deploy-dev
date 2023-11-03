@@ -112,10 +112,6 @@
           "Version": "3.401.0"
         },
         {
-          "Id": "VirtoCommerce.Inventory",
-          "Version": "3.404.0"
-        },
-        {
           "Id": "VirtoCommerce.CustomerExportImport",
           "Version": "3.401.0"
         },
@@ -206,6 +202,10 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "Version": "3.414.0"
+        },
+        {
+          "Id": "VirtoCommerce.Inventory",
+          "Version": "3.405.0"
         }
       ]
     },
