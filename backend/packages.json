@@ -200,12 +200,12 @@
           "Version": "3.405.0"
         },
         {
-          "Id": "VirtoCommerce.Content",
-          "Version": "3.413.0"
-        },
-        {
           "Id": "VirtoCommerce.Orders",
           "Version": "3.419.0"
+        },
+        {
+          "Id": "VirtoCommerce.Content",
+          "Version": "3.414.0"
         }
       ]
     },
