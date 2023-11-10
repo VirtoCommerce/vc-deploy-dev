@@ -1,10 +1,10 @@
 - name: vcptcore-loadtest
   gitops: true
   production: false
-  servicePlan: F1
+  servicePlan: P3
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.430.0-c64636f
+    imageTag: 3.437.0-1bd1c19
     sqlReplica: false
     config:
       PushNotifications__ForceWebSockets: true
