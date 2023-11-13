@@ -32,12 +32,12 @@
       Search__Provider: ElasticSearch
       VirtoCommerce__LocalUploadFolderPath: wwwroot/cms-content
       VirtoCommerce__SampleDataUrl: https://vc3prerelease.blob.core.windows.net/packages/clothing-and-electronics_3_0_2.zip
+      IdentityOptions__User__RemindPasswordExpiryInDays: 7
+      IdentityOptions__User__MaxPasswordAge: 7
     secretConfig:
       Notifications__SendGrid__ApiKey: sendgrid-apikey
       Payments__AuthorizeNet__SHA2Hash: authorizenet-sha2hash
       Payments__AuthorizeNet__TxnKey: authorizenet-txnkey
-      IdentityOptions__User__RemindPasswordExpiryInDays: 7
-      IdentityOptions__User__MaxPasswordAge: 7
   storefront:
     enabled: true
     imageRepository: virtopaasregistrymain.azurecr.io/vcst/storefront
