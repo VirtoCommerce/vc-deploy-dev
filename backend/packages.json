@@ -1,6 +1,6 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.431.0",
+  "PlatformVersion": "3.437.0",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -12,7 +12,7 @@
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
         {
-          "BlobName": "VirtoCommerce.PageBuilderModule_3.404.0-alpha.500.zip"
+          "BlobName": "VirtoCommerce.PageBuilderModule_3.408.0-alpha.515.zip"
         },
         {
           "BlobName": "VirtoCommerce.PowerBiReports_3.200.0-alpha.7.zip"
@@ -75,7 +75,7 @@
         },
         {
           "Id": "VirtoCommerce.Content",
-          "Version": "3.411.0"
+          "Version": "3.415.0"
         },
         {
           "Id": "VirtoCommerce.Contracts",
@@ -111,7 +111,7 @@
         },
         {
           "Id": "VirtoCommerce.ExperienceApi",
-          "Version": "3.425.0"
+          "Version": "3.429.0"
         },
         {
           "Id": "VirtoCommerce.Export",
@@ -139,7 +139,7 @@
         },
         {
           "Id": "VirtoCommerce.Inventory",
-          "Version": "3.404.0"
+          "Version": "3.405.0"
         },
         {
           "Id": "VirtoCommerce.Marketing",
@@ -155,7 +155,7 @@
         },
         {
           "Id": "VirtoCommerce.Orders",
-          "Version": "3.417.0"
+          "Version": "3.420.0"
         },
         {
           "Id": "VirtoCommerce.Payment",
@@ -163,7 +163,7 @@
         },
         {
           "Id": "VirtoCommerce.Pricing",
-          "Version": "3.403.0"
+          "Version": "3.404.0"
         },
         {
           "Id": "VirtoCommerce.PriceExportImport",
@@ -171,11 +171,11 @@
         },
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.411.0"
+          "Version": "3.412.0"
         },
         {
           "Id": "VirtoCommerce.Quote",
-          "Version": "3.403.0"
+          "Version": "3.404.0"
         },
         {
           "Id": "VirtoCommerce.Return",
