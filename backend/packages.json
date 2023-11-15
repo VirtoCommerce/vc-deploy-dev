@@ -4,7 +4,7 @@
       "Name": "AzureBlob",
       "Modules": [
         {
-          "BlobName": "VirtoCommerce.PageBuilderModule_3.403.0.zip"
+          "BlobName": "VirtoCommerce.PageBuilderModule_3.407.0.zip"
         }
       ],
       "Container": "packages",
@@ -50,7 +50,7 @@
         },
         {
           "Id": "VirtoCommerce.Catalog",
-          "Version": "3.412.0"
+          "Version": "3.416.0"
         },
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
@@ -66,7 +66,7 @@
         },
         {
           "Id": "VirtoCommerce.Content",
-          "Version": "3.411.0"
+          "Version": "3.415.0"
         },
         {
           "Id": "VirtoCommerce.Contracts",
@@ -98,7 +98,7 @@
         },
         {
           "Id": "VirtoCommerce.ExperienceApi",
-          "Version": "3.425.0"
+          "Version": "3.429.0"
         },
         {
           "Id": "VirtoCommerce.EventBus",
@@ -106,7 +106,7 @@
         },
         {
           "Id": "VirtoCommerce.Export",
-          "Version": "3.205.0"
+          "Version": "3.206.0"
         },
         {
           "Id": "VirtoCommerce.FileSystemAssets",
@@ -130,11 +130,11 @@
         },
         {
           "Id": "VirtoCommerce.Inventory",
-          "Version": "3.404.0"
+          "Version": "3.405.0"
         },
         {
           "Id": "VirtoCommerce.Marketing",
-          "Version": "3.400.0"
+          "Version": "3.401.0"
         },
         {
           "Id": "VirtoCommerce.MarketingExperienceApi",
@@ -150,7 +150,7 @@
         },
         {
           "Id": "VirtoCommerce.Orders",
-          "Version": "3.417.0"
+          "Version": "3.420.0"
         },
         {
           "Id": "VirtoCommerce.Payment",
@@ -158,7 +158,7 @@
         },
         {
           "Id": "VirtoCommerce.Pricing",
-          "Version": "3.403.0"
+          "Version": "3.404.0"
         },
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
@@ -166,7 +166,7 @@
         },
         {
           "Id": "VirtoCommerce.Quote",
-          "Version": "3.403.0"
+          "Version": "3.404.0"
         },
         {
           "Id": "VirtoCommerce.Return",
@@ -204,7 +204,7 @@
     }
   ],
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.431.0",
+  "PlatformVersion": "3.437.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.431.0"
+  "PlatformImageTag": "3.437.0"
 }
