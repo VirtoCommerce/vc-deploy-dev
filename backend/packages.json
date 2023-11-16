@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.439.0-alpha.12790-pt-14520-forbid-should-403-dc977132",
+  "PlatformVersion": "3.437.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.439.0-alpha.12790-pt-14520-forbid-should-403-dc977132",
+  "PlatformImageTag": "3.437.0",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -36,7 +36,7 @@
         },
         {
           "Id": "VirtoCommerce.Sitemaps",
-          "BlobName": "VirtoCommerce.Sitemaps_3.401.0-pr-64-1ab5.zip"
+          "BlobName": "VirtoCommerce.Sitemaps_3.401.0-alpha.322.zip"
         },
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
@@ -77,6 +77,10 @@
         {
           "Id": "VirtoCommerce.Payment",
           "BlobName": "VirtoCommerce.Payment_3.400.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Marketing",
+          "BlobName": "VirtoCommerce.Marketing_3.401.0-pr-215-e421.zip"
         },
         {
           "Id": "VirtoCommerce.WebHooks",
@@ -240,12 +244,9 @@
         },
         {
           "Id": "VirtoCommerce.Catalog",
-          "BlobName": "VirtoCommerce.Catalog_3.416.0.zip"
-        },
-        {
-          "Id": "VirtoCommerce.Marketing",
-          "BlobName": "VirtoCommerce.Marketing_3.401.0.zip"
+          "BlobName": "VirtoCommerce.Catalog_3.416.0-pr-710-be0b.zip"
         }
+        
       ]
     }
   ]
