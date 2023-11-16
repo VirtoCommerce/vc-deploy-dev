@@ -5,6 +5,9 @@
       "Modules": [
         {
           "BlobName": "VirtoCommerce.PageBuilderModule_3.407.0.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.ExperienceApi_3.430.0-pr-480-c2b2.zip"
         }
       ],
       "Container": "packages",
@@ -95,10 +98,6 @@
         {
           "Id": "VirtoCommerce.ElasticSearch",
           "Version": "3.400.0"
-        },
-        {
-          "Id": "VirtoCommerce.ExperienceApi",
-          "Version": "3.429.0"
         },
         {
           "Id": "VirtoCommerce.EventBus",
