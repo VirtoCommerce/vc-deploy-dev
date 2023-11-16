@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.437.0",
+  "PlatformVersion": "3.439.0-alpha.12790-pt-14520-forbid-should-403-dc977132",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.437.0",
+  "PlatformImageTag": "3.439.0-alpha.12790-pt-14520-forbid-should-403-dc977132",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -36,7 +36,7 @@
         },
         {
           "Id": "VirtoCommerce.Sitemaps",
-          "BlobName": "VirtoCommerce.Sitemaps_3.401.0-alpha.322.zip"
+          "BlobName": "VirtoCommerce.Sitemaps_3.401.0-pr-64-1ab5.zip"
         },
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
@@ -77,10 +77,6 @@
         {
           "Id": "VirtoCommerce.Payment",
           "BlobName": "VirtoCommerce.Payment_3.400.0.zip"
-        },
-        {
-          "Id": "VirtoCommerce.Marketing",
-          "BlobName": "VirtoCommerce.Marketing_3.401.0-pr-215-e421.zip"
         },
         {
           "Id": "VirtoCommerce.WebHooks",
@@ -180,7 +176,7 @@
         },
         {
           "Id": "VirtoCommerce.Cart",
-          "BlobName": "VirtoCommerce.Cart_3.405.0.zip"
+          "BlobName": "VirtoCommerce.Cart_3.406.0-pr-134-bbab.zip"
         },
         {
           "Id": "VirtoCommerce.AzureAD",
@@ -232,7 +228,7 @@
         },
         {
           "Id": "VirtoCommerce.ExperienceApi",
-          "BlobName": "VirtoCommerce.ExperienceApi_3.429.0.zip"
+          "BlobName": "VirtoCommerce.ExperienceApi_3.430.0-pr-480-c2b2.zip"
         },
         {
           "Id": "VirtoCommerce.Orders",
@@ -244,9 +240,12 @@
         },
         {
           "Id": "VirtoCommerce.Catalog",
-          "BlobName": "VirtoCommerce.Catalog_3.416.0-pr-710-be0b.zip"
+          "BlobName": "VirtoCommerce.Catalog_3.417.0-pr-708-d9a9.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Marketing",
+          "BlobName": "VirtoCommerce.Marketing_3.401.0.zip"
         }
-        
       ]
     }
   ]
