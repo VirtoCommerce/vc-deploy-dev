@@ -8,7 +8,7 @@
     sqlReplica: false
     config:
       DOTNET_USE_POLLING_FILE_WATCHER: true
-      Reload: 94
+      Reload: 95
       #ConnectionStrings__AzureAppConfigurationConnectionString: "Endpoint=https://qa-vc-app-config.azconfig.io;Id=BvwK;Secret=nbF7kOXCU14+qCF5OtP4LR63zfbSyDx6th46bIWkUHQ="
       Serilog__Using__0: Serilog.Sinks.Console
       Serilog__Using__1: Serilog.Sinks.ApplicationInsights
