@@ -200,12 +200,12 @@
           "Version": "3.404.0"
         },
         {
-          "Id": "VirtoCommerce.ExperienceApi",
-          "Version": "3.432.0"
-        },
-        {
           "Id": "VirtoCommerce.ElasticSearch",
           "Version": "3.402.0"
+        },
+        {
+          "Id": "VirtoCommerce.ExperienceApi",
+          "Version": "3.433.0"
         }
       ]
     },
