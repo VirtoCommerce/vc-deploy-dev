@@ -8,7 +8,7 @@
     imageTag: 3.411.0-alpha.12726-dev-4be3190f-93954cf
     sqlReplica: false
     config:
-      restart: 2
+      restart: 3
       AzureAd__Enabled: true
       AzureAd__ApplicationId: d7edfa5a-1e20-424f-8fa7-b7084294ff8f
       AzureAd__TenantId: bc03e660-5e3a-45c4-bf5c-b75489f78923
