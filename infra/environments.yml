@@ -46,15 +46,15 @@
       Search__DocumentScopes__4__Scope: vcptcore-qa-platformvcptcore-scope4
       Search__DocumentScopes__5__DocumentType: ContentFile
       Search__DocumentScopes__5__Scope: vcptcore-qa-platformvcptcore-scope6
-      #Search__ElasticSearch__Server: server
+      Search__ElasticSearch__Server: server
       Search__ElasticSearch__EnableCompatibilityMode: true
       Search__ElasticSearch__HealthCheckTimeout: 10
       Search__Provider: AzureSearch
-      #Search__ElasticSearch8x__Server: "https://6d79630e64d7403993990bca62b80cfc.us-central1.gcp.cloud.es.io"
-      #Search__ElasticSearch8x__User: "elastic"
-      #Search__ElasticSearch8x__Key: "IhrvJpvel4nDdCMnbtGVkrZJ"
-      #Search__ElasticAppSearch__EnableHttpCompression: true
-      #Search__ElasticAppSearch__Endpoint: https://enterprise-search-vc03.govirto.com
+      Search__ElasticSearch8x__Server: "https://6d79630e64d7403993990bca62b80cfc.us-central1.gcp.cloud.es.io"
+      Search__ElasticSearch8x__User: "elastic"
+      Search__ElasticSearch8x__Key: "IhrvJpvel4nDdCMnbtGVkrZJ"
+      Search__ElasticAppSearch__EnableHttpCompression: true
+      Search__ElasticAppSearch__Endpoint: https://enterprise-search-vc03.govirto.com
       Search__AzureSearch__SearchServiceName: qa-demovc-3-search
       Search__AzureSearch__Key: 6BE1143312E89C26C227E6BBAE24DD47
       Search__AzureSearch__QueryParserType: Full
