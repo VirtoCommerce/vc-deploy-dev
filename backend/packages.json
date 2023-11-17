@@ -143,10 +143,6 @@
           "BlobName": "VirtoCommerce.ShipStation_3.400.0.zip"
         },
         {
-          "Id": "VirtoCommerce.Search",
-          "BlobName": "VirtoCommerce.Search_3.404.0-pr-99-5b67.zip"
-        },
-        {
           "Id": "VirtoCommerce.AzureSearch",
           "BlobName": "VirtoCommerce.AzureSearch_3.212.0-pr-40-b10f.zip"
         },
@@ -237,6 +233,10 @@
         {
           "Id": "VirtoCommerce.Marketing",
           "BlobName": "VirtoCommerce.Marketing_3.401.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Search",
+          "BlobName": "VirtoCommerce.Search_3.404.0.zip"
         }
       ]
     }
