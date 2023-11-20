@@ -124,6 +124,7 @@
       IdentityOptions__User__RemindPasswordExpiryInDays: 10
       IdentityOptions__User__MaxPasswordAge: 90
       IdentityOptions__User__RequireUniqueEmail: true
+      IdentityOptions__Lockout__MaxFailedAccessAttempts: 5
       #FrontendSecurity__OrganizationMaintainerRole: Organization maintainer
       EventBus__Connections__0__Name: AzureEventGridApps
       EventBus__Connections__0__ProviderName: AzureEventGrid
