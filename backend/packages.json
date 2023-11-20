@@ -11,7 +11,7 @@
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
       "Modules": [
-        {
+       {
           "Id": "VirtoCommerce.FileSystemAssets",
           "Version": "3.203.0"
         },
@@ -34,10 +34,6 @@
         {
           "Id": "VirtoCommerce.WebHooks",
           "Version": "3.209.0"
-        },
-        {
-          "Id": "VirtoCommerce.Export",
-          "Version": "3.205.0"
         },
         {
           "Id": "VirtoCommerce.Assets",
@@ -76,19 +72,7 @@
           "Version": "3.400.0"
         },
         {
-          "Id": "VirtoCommerce.Sitemaps",
-          "Version": "3.400.0"
-        },
-        {
-          "Id": "VirtoCommerce.Marketing",
-          "Version": "3.400.0"
-        },
-        {
           "Id": "VirtoCommerce.GDPR",
-          "Version": "3.400.0"
-        },
-        {
-          "Id": "VirtoCommerce.ElasticSearch",
           "Version": "3.400.0"
         },
         {
@@ -98,14 +82,6 @@
         {
           "Id": "VirtoCommerce.ShipStation",
           "Version": "3.400.0"
-        },
-        {
-          "Id": "VirtoCommerce.Search",
-          "Version": "3.402.0"
-        },
-        {
-          "Id": "VirtoCommerce.ElasticAppSearch",
-          "Version": "3.212.0"
         },
         {
           "Id": "VirtoCommerce.NativePaymentMethods",
@@ -148,10 +124,6 @@
           "Version": "3.403.0"
         },
         {
-          "Id": "VirtoCommerce.AzureSearch",
-          "Version": "3.211.0"
-        },
-        {
           "Id": "VirtoCommerce.Contracts",
           "Version": "3.406.0"
         },
@@ -188,24 +160,52 @@
           "Version": "3.404.0"
         },
         {
-          "Id": "VirtoCommerce.Catalog",
-          "Version": "3.414.0"
-        },
-        {
           "Id": "VirtoCommerce.Inventory",
           "Version": "3.405.0"
-        },
-        {
-          "Id": "VirtoCommerce.Orders",
-          "Version": "3.419.0"
         },
         {
           "Id": "VirtoCommerce.Content",
           "Version": "3.415.0"
         },
         {
+          "Id": "VirtoCommerce.Orders",
+          "Version": "3.420.0"
+        },
+        {
+          "Id": "VirtoCommerce.Export",
+          "Version": "3.206.0"
+        },
+        {
+          "Id": "VirtoCommerce.Marketing",
+          "Version": "3.401.0"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "Version": "3.417.0"
+        },
+        {
+          "Id": "VirtoCommerce.ElasticAppSearch",
+          "Version": "3.213.0"
+        },
+        {
+          "Id": "VirtoCommerce.AzureSearch",
+          "Version": "3.212.0"
+        },
+        {
+          "Id": "VirtoCommerce.Sitemaps",
+          "Version": "3.401.0"
+        },
+        {
+          "Id": "VirtoCommerce.Search",
+          "Version": "3.404.0"
+        },
+        {
+          "Id": "VirtoCommerce.ElasticSearch",
+          "Version": "3.402.0"
+        },
+        {
           "Id": "VirtoCommerce.ExperienceApi",
-          "Version": "3.429.0"
+          "Version": "3.433.0"
         },
         {
           "Id": "VirtoCommerce.ApplicationInsights",
