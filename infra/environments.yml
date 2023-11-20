@@ -143,7 +143,7 @@
   storefront:
     enabled: true
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/storefront
-    imageTag: 6.33.0-alpha.979-pt-13653-slug-28135c54
+    imageTag: 6.34.0-alpha.981-pt-14407-reset-access-failed-count-8edd99e1
     servicePlan: S1
     config:
       Reload: 21
