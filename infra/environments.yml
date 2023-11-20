@@ -4,7 +4,7 @@
   servicePlan: F1
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.293.20-ebacaad
+    imageTag: 3.293.25-51b4097
     sqlReplica: false
     config:
       FrontendSecurity__OrganizationMaintainerRole: Organization maintainer
