@@ -4,7 +4,7 @@
   servicePlan: S2
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.443.0-alpha.12800-pt-14414-f9138b6b-b45b008
+    imageTag: 3.444.0-alpha.12813-pt-14211-redis-reconnect-30977c06-53ef8d3
     sqlReplica: false
     config:
       DOTNET_USE_POLLING_FILE_WATCHER: true
@@ -106,7 +106,7 @@
       VirtoCommerce__ApplicationInsights__RoleName: This is QA role
       VirtoCommerce__ApplicationInsights__RoleInstance: This is instance of QA
       Videos__GoogleApiKey: AIzaSyD5A4oFeSgaMQnMo3OiaqUSJ23SQGELiA4
-      Caching__CacheEnabled: true
+      Caching__CacheEnabled: false
       DefaultMainMenuState__items__0__path: browse/catalog
       DefaultMainMenuState__items__0__isFavorite: true
       DefaultMainMenuState__items__0__order: 1
