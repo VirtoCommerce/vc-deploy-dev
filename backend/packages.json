@@ -5,6 +5,12 @@
       "Modules": [
         {
           "BlobName": "VirtoCommerce.PageBuilderModule_3.407.0.zip"
+        },
+            {
+          "BlobName": "VirtoCommerce.Cart_3.406.0-pr-134-bbab.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.ExperienceApi_3.434.0-pr-480-dedd.zip"
         }
       ],
       "Container": "packages",
@@ -43,11 +49,7 @@
         {
           "Id": "VirtoCommerce.BulkActionsModule",
           "Version": "3.202.0"
-        },
-        {
-          "Id": "VirtoCommerce.Cart",
-          "Version": "3.405.0"
-        },
+        },       
         {
           "Id": "VirtoCommerce.Catalog",
           "Version": "3.416.0"
@@ -95,11 +97,7 @@
         {
           "Id": "VirtoCommerce.ElasticSearch",
           "Version": "3.400.0"
-        },
-        {
-          "Id": "VirtoCommerce.ExperienceApi",
-          "Version": "3.429.0"
-        },
+        },     
         {
           "Id": "VirtoCommerce.EventBus",
           "Version": "3.400.0"
@@ -204,7 +202,8 @@
     }
   ],
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.437.0",
+  "PlatformVersion": "3.443.0-alpha.12800-pt-14414-f9138b6b",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.437.0"
+  "PlatformImageTag": "3.443.0-alpha.12800-pt-14414-f9138b6b",
+  "PlatformAssetUrl": "",
 }
