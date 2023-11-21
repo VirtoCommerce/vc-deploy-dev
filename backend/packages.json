@@ -7,10 +7,10 @@
           "BlobName": "VirtoCommerce.PageBuilderModule_3.407.0.zip"
         },
         {
-          "BlobName": "VirtoCommerce.Cart_3.406.0-pr-134-bbab.zip"
+          "BlobName": "VirtoCommerce.Cart_3.407.0-pr-135-f34e.zip"
         },
         {
-          "BlobName": "VirtoCommerce.ExperienceApi_3.434.0-pr-480-dedd.zip"
+          "BlobName": "VirtoCommerce.ExperienceApi_3.435.0-pr-480-ad60.zip"
         }
       ],
       "Container": "packages",
@@ -202,7 +202,7 @@
     }
   ],
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.437.0",
+  "PlatformVersion": "3.444.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.437.0"
+  "PlatformImageTag": "3.444.0"
 }
