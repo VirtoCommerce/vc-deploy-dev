@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.444.0-alpha.12813-pt-14211-redis-reconnect-30977c06",
+  "PlatformVersion": "3.445.0-alpha.12806-pt-14600-update-hangfire-0481fa0e",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.444.0-alpha.12813-pt-14211-redis-reconnect-30977c06",
+  "PlatformImageTag": "3.445.0-alpha.12806-pt-14600-update-hangfire-0481fa0e",
   "PlatformAssetUrl": "",
   "Sources": [
     {
