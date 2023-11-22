@@ -229,7 +229,8 @@
         {
           "Id": "VirtoCommerce.ElasticSearch",
           "BlobName": "VirtoCommerce.ElasticSearch_3.402.0.zip"
-        }, {
+        },
+        {
           "Id": "VirtoCommerce.ElasticAppSearch",
           "BlobName": "VirtoCommerce.ElasticAppSearch_3.213.0.zip"
         },
@@ -239,7 +240,7 @@
         },
         {
           "Id": "VirtoCommerce.ExperienceApi",
-          "BlobName": "VirtoCommerce.ExperienceApi_3.433.0.zip"
+          "BlobName": "VirtoCommerce.ExperienceApi_3.435.0.zip"
         }
       ]
     }
