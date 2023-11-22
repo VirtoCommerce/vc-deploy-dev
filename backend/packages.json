@@ -196,16 +196,16 @@
           "Version": "3.402.0"
         },
         {
-          "Id": "VirtoCommerce.Cart",
-          "Version": "3.406.0"
-        },
-        {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "Version": "3.413.0"
         },
         {
           "Id": "VirtoCommerce.ExperienceApi",
           "Version": "3.434.0"
+        },
+        {
+          "Id": "VirtoCommerce.Cart",
+          "Version": "3.407.0"
         }
       ]
     },
