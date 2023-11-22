@@ -35,8 +35,8 @@
       IdentityOptions__Lockout__AutoAccountsLockoutJobEnabled: false
       IdentityOptions__Lockout__LockoutMaximumDaysFromLastLogin: 3
       IdentityOptions__Lockout__CronAutoAccountsLockoutJob: 0/5 * * * *
-      IdentityOptions__User__RemindPasswordExpiryInDays: 2
-      IdentityOptions__User__MaxPasswordAge: 3
+      IdentityOptions__User__RemindPasswordExpiryInDays: 7
+      IdentityOptions__User__MaxPasswordAge: 90
       IdentityOptions__Lockout__MaxFailedAccessAttempts: 5
       FrontendSecurity__OrganizationMaintainerRole: "Organization maintainer"
     secretConfig:
