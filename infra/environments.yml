@@ -139,7 +139,7 @@
     secretConfig:
       Notifications__SendGrid__ApiKey: sendkey
       Notifications__Smtp__Password: smtppasswordyandex
-      #Search__ElasticAppSearch__PrivateApiKey: elasticappsearch
+      Search__ElasticAppSearch__PrivateApiKey: elasticappsearch
       Serilog__WriteTo__1__Args__connectionString: connectionstringaiqa
       EventBus__Connections__0__ConnectionOptionsSerialized: eventbusconnection
 
