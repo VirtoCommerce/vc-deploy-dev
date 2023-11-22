@@ -93,7 +93,7 @@
       VirtoCommerce__LocalUploadFolderPath: app_data/uploads
       VirtoCommerce__Hangfire__JobStorageType: SqlServer
       VirtoCommerce__Hangfire__WorkerCount: 2
-      VirtoCommerce__Hangfire__SqlServerStorageOptions__InactiveStateExpirationTimeout: 00:05:00
+      #VirtoCommerce__Hangfire__SqlServerStorageOptions__InactiveStateExpirationTimeout: 00:05:00
       VirtoCommerce__Hangfire__Queues__items_0: default
       VirtoCommerce__Hangfire__Queues__items_1: index_worker
       VirtoCommerce__Licensing__LicensePrivateKeyPath: /opt/virtocommerce/platform/license/VirtoCommerce.lic
