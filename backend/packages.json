@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.446.0-alpha.12812-pt-14600-update-hangfire-6e55ad32",
+  "PlatformVersion": "3.446.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.446.0-alpha.12812-pt-14600-update-hangfire-6e55ad32",
+  "PlatformImageTag": "3.446.0",
   "PlatformAssetUrl": "",
   "Sources": [
     {
