@@ -222,10 +222,6 @@
           "BlobName": "VirtoCommerce.ElasticAppSearch_3.213.0.zip"
         },
         {
-          "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.415.0-pr-66-0d07.zip"
-        },
-        {
           "Id": "VirtoCommerce.ExperienceApi",
           "BlobName": "VirtoCommerce.ExperienceApi_3.440.0-pr-495-1777.zip"
         },
@@ -236,6 +232,10 @@
         {
           "Id": "VirtoCommerce.Orders",
           "BlobName": "VirtoCommerce.Orders_3.423.0-alpha.1197.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ProfileExperienceApiModule",
+          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.415.0-alpha.187.zip"
         }
       ]
     }
