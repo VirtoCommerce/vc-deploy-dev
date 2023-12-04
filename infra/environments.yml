@@ -48,7 +48,7 @@
       Search__DocumentScopes__5__Scope: vcptcore-qa-platformvcptcore-scope66
       Search__ElasticSearch__EnableCompatibilityMode: true
       Search__ElasticSearch__HealthCheckTimeout: 10
-      Search__Provider: Lucene
+      #Search__Provider: Lucene
       Search__ElasticSearch8__Server: "https://b89996ea9e774887bd87ecd0874dfabf.us-central1.gcp.cloud.es.io"
       Search__ElasticSearch8__User: "elastic"
       Search__ElasticSearch8__Key: "Gv89YuMmCqGiM5K0TdZkLMUp"
