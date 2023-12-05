@@ -1,7 +1,7 @@
 - name: vcptcore-stable
   gitops: true
   production: false
-  servicePlan: F3
+  servicePlan: F2
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
     imageTag: 3.293.30-d3a3354
@@ -17,7 +17,7 @@
       Notifications__Smtp__Host: smtp.sendgrid.net
       Notifications__Smtp__Login: apikey
       Notifications__Smtp__Port: 587
-      Reload: 5
+      Reload: 6
       Search__ElasticSearch__EnableCompatibilityMode: true
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
       AppInsights__EnableDependencyTrackingTelemetryModule: false
