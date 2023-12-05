@@ -226,16 +226,16 @@
           "BlobName": "VirtoCommerce.LuceneSearch_3.206.0-alpha.182.zip"
         },
         {
-          "Id": "VirtoCommerce.AzureSearch",
-          "BlobName": "VirtoCommerce.AzureSearch_3.213.0-alpha.220.zip"
-        },
-        {
           "Id": "VirtoCommerce.Orders",
           "BlobName": "VirtoCommerce.Orders_3.423.0-alpha.1198.zip"
         },
         {
           "Id": "VirtoCommerce.ExperienceApi",
           "BlobName": "VirtoCommerce.ExperienceApi_3.441.0-alpha.1296.zip"
+        },
+        {
+          "Id": "VirtoCommerce.AzureSearch",
+          "BlobName": "VirtoCommerce.AzureSearch_3.214.0-alpha.221.zip"
         }
       ]
     }
