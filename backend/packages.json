@@ -184,10 +184,6 @@
           "Version": "3.414.0"
         },
         {
-          "Id": "VirtoCommerce.Orders",
-          "Version": "3.422.0"
-        },
-        {
           "Id": "VirtoCommerce.ExperienceApi",
           "Version": "3.440.0"
         },
@@ -206,6 +202,10 @@
         {
           "Id": "VirtoCommerce.AzureSearch",
           "Version": "3.213.0"
+        },
+        {
+          "Id": "VirtoCommerce.Orders",
+          "Version": "3.423.0"
         }
       ]
     },
