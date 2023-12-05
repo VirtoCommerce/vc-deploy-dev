@@ -1,10 +1,10 @@
 - name: vcptcore-stable
   gitops: true
   production: false
-  servicePlan: F1
+  servicePlan: F3
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.293.25-51b4097
+    imageTag: 3.293.30-d3a3354
     sqlReplica: false
     config:
       FrontendSecurity__OrganizationMaintainerRole: Organization maintainer
