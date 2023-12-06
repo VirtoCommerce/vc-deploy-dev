@@ -4,7 +4,7 @@
   servicePlan: S2
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.449.0-alpha.12811-pt-14619-65085f7a-164793e
+    imageTag: 3.449.0-alpha.12821-pt-14619-b50263f9-8ac94b2
     sqlReplica: false
     config:
       DOTNET_USE_POLLING_FILE_WATCHER: true
@@ -17,7 +17,7 @@
       Serilog__WriteTo__1__Name: ApplicationInsights
       Serilog__WriteTo__1__Args__telemetryConverter: Serilog.Sinks.ApplicationInsights.TelemetryConverters.TraceTelemetryConverter, Serilog.Sinks.ApplicationInsights
       Serilog__WriteTo__1__Args__restrictedToMinimumLevel: "Information"
-      VirtoCommerce__SampleDataUrl: ""
+      #VirtoCommerce__SampleDataUrl: ""
       TaxModule__FixedRateTaxProvider__Enabled: true
       Notifications__DefaultSender: azure_25da07ed75daacae20578a7a7dc58541@azure.com
       Notifications__Gateway: SendGrid
