@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.449.0-alpha.12823-pt-14619-48d3ef7c",
+  "PlatformVersion": "3.449.0-alpha.12814-pt-14083-0fcf1e7a",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.449.0-alpha.12823-pt-14619-48d3ef7c",
+  "PlatformImageTag": "3.449.0-alpha.12814-pt-14083-0fcf1e7a",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -184,7 +184,7 @@
         },
         {
           "Id": "VirtoCommerce.Notifications",
-          "BlobName": "VirtoCommerce.Notifications_3.405.0.zip"
+          "BlobName": "VirtoCommerce.Notifications_3.406.0-pr-150-a7f8.zip"
         },
         {
           "Id": "VirtoCommerce.ImageTools",
