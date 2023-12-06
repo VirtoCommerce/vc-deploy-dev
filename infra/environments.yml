@@ -4,7 +4,7 @@
   servicePlan: S2
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.449.0-alpha.12822-pt-14619-cf754780-206e5d0
+    imageTag: 3.449.0-alpha.12823-pt-14619-48d3ef7c-45c7c83
     sqlReplica: false
     config:
       DOTNET_USE_POLLING_FILE_WATCHER: true
@@ -111,7 +111,7 @@
       DefaultMainMenuState__items__0__path: browse/catalog
       DefaultMainMenuState__items__0__isFavorite: true
       DefaultMainMenuState__items__0__order: 1
-      Authorization__ReturnPasswordHash: true
+      Authorization__ReturnPasswordHash: false
       Authorization__AllowApiAccessForCustomers: false
       IdentityOptions__Password__RequiredLength: 3
       IdentityOptions__Password__RequireDigit: false
