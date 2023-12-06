@@ -4,7 +4,7 @@
   servicePlan: S2
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.449.0-alpha.12821-pt-14619-b50263f9-8ac94b2
+    imageTag: 3.449.0-alpha.12822-pt-14619-cf754780-206e5d0
     sqlReplica: false
     config:
       DOTNET_USE_POLLING_FILE_WATCHER: true
@@ -126,6 +126,7 @@
       IdentityOptions__User__MaxPasswordAge: 90
       IdentityOptions__User__RequireUniqueEmail: true
       IdentityOptions__Lockout__MaxFailedAccessAttempts: 5
+      IdentityOptions__Lockout__DefaultLockoutTimeSpan: 00:02:00
       #FrontendSecurity__OrganizationMaintainerRole: Organization maintainer
       EventBus__Connections__0__Name: AzureEventGridApps1
       EventBus__Connections__0__ProviderName: AzureEventGrid
