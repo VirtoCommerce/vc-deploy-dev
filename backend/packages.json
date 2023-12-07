@@ -155,10 +155,6 @@
           "BlobName": "VirtoCommerce.SeqLog_3.200.0.zip"
         },
         {
-          "Id": "VirtoCommerce.Cart",
-          "BlobName": "VirtoCommerce.Cart_3.407.0.zip"
-        },
-        {
           "Id": "VirtoCommerce.AzureAD",
           "BlobName": "VirtoCommerce.AzureAD_3.205.0.zip"
         },
@@ -245,6 +241,10 @@
         {
           "Id": "VirtoCommerce.ExperienceApi",
           "BlobName": "VirtoCommerce.ExperienceApi_3.441.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Cart",
+          "BlobName": "VirtoCommerce.Cart_3.408.0.zip"
         }
       ]
     }
