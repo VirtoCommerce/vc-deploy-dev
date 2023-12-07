@@ -183,10 +183,6 @@
           "BlobName": "VirtoCommerce.Contracts_3.406.0.zip"
         },
         {
-          "Id": "VirtoCommerce.Notifications",
-          "BlobName": "VirtoCommerce.Notifications_3.406.0-pr-150-086d.zip"
-        },
-        {
           "Id": "VirtoCommerce.ImageTools",
           "BlobName": "VirtoCommerce.ImageTools_3.403.0.zip"
         },
@@ -245,6 +241,10 @@
         {
           "Id": "VirtoCommerce.ExperienceApi",
           "BlobName": "VirtoCommerce.ExperienceApi_3.441.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Notifications",
+          "BlobName": "VirtoCommerce.Notifications_3.406.0.zip"
         }
       ]
     }
