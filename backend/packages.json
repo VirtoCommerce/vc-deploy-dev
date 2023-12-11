@@ -148,10 +148,6 @@
           "Version": "3.405.0"
         },
         {
-          "Id": "VirtoCommerce.Content",
-          "Version": "3.415.0"
-        },
-        {
           "Id": "VirtoCommerce.Export",
           "Version": "3.206.0"
         },
@@ -206,6 +202,10 @@
         {
           "Id": "VirtoCommerce.Sitemaps",
           "Version": "3.402.0"
+        },
+        {
+          "Id": "VirtoCommerce.Content",
+          "Version": "3.416.0"
         }
       ]
     },
