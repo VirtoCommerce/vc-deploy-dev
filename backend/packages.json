@@ -1,6 +1,6 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.446.0",
+  "PlatformVersion": "3.450.0",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -55,7 +55,7 @@
         },
         {
           "Id": "VirtoCommerce.Cart",
-          "Version": "3.407.0"
+          "Version": "3.408.0"
         },
         {
           "Id": "VirtoCommerce.Catalog",
@@ -99,7 +99,7 @@
         },
         {
           "Id": "VirtoCommerce.ElasticAppSearch",
-          "Version": "3.213.0"
+          "Version": "3.214.0"
         },
         {
           "Id": "VirtoCommerce.ElasticSearch8",
@@ -111,7 +111,7 @@
         },
         {
           "Id": "VirtoCommerce.ExperienceApi",
-          "Version": "3.436.0"
+          "Version": "3.443.0"
         },
         {
           "Id": "VirtoCommerce.Export",
@@ -151,11 +151,11 @@
         },
         {
           "Id": "VirtoCommerce.Notifications",
-          "Version": "3.405.0"
+          "Version": "3.406.0"
         },
         {
           "Id": "VirtoCommerce.Orders",
-          "Version": "3.420.0"
+          "Version": "3.423.0"
         },
         {
           "Id": "VirtoCommerce.Payment",
@@ -171,7 +171,7 @@
         },
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.413.0"
+          "Version": "3.415.0"
         },
         {
           "Id": "VirtoCommerce.Quote",
@@ -183,7 +183,7 @@
         },
         {
           "Id": "VirtoCommerce.Search",
-          "Version": "3.404.0"
+          "Version": "3.405.0"
         },
         {
           "Id": "VirtoCommerce.Shipping",
