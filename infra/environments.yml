@@ -37,7 +37,7 @@
       IdentityOptions__Lockout__CronAutoAccountsLockoutJob: 0/5 * * * *
       IdentityOptions__User__RemindPasswordExpiryInDays: 7
       IdentityOptions__User__MaxPasswordAge: 90
-      IdentityOptions__Lockout__MaxFailedAccessAttempts: 5
+      IdentityOptions__Lockout__MaxFailedAccessAttempts: 6
       FrontendSecurity__OrganizationMaintainerRole: "Organization maintainer"
     secretConfig:
       Notifications__SendGrid__ApiKey: sendgrid-apikey
