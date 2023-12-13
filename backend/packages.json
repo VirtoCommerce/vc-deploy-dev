@@ -18,10 +18,7 @@
       "Container": "packages",
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
-         {
-          "Id": "VirtoCommerce.Core",
-          "BlobName": "VirtoCommerce.Core_3.800.0-pr-220-6619.zip"
-        }      ]
+              ]
     }
   ]
 }
