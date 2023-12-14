@@ -146,6 +146,42 @@
         }, {
           "Id": "VirtoCommerce.Store",
           "BlobName": "VirtoCommerce.Store_3.800.0-pr-128-da87.zip"
+        }, {
+          "Id": "VirtoCommerce.CustomerExportImport",
+          "BlobName": "VirtoCommerce.CustomerExportImport_3.800.0-pr-86-bb3c.zip"
+        }, {
+          "Id": "VirtoCommerce.PriceExportImport",
+          "BlobName": "VirtoCommerce.PriceExportImport_3.800.0-pr-85-5519.zip"
+        }, {
+          "Id": "VirtoCommerce.Quote",
+          "BlobName": "VirtoCommerce.Quote_3.800.0-pr-97-89b0.zip"
+        }, {
+          "Id": "VirtoCommerce.Contracts",
+          "BlobName": "VirtoCommerce.Contracts_3.800.0-pr-19-7047.zip"
+        }, {
+          "Id": "VirtoCommerce.CustomerReviews",
+          "BlobName": "VirtoCommerce.CustomerReviews_3.800.0-pr-57-8992.zip"
+        }, {
+          "Id": "VirtoCommerce.Sitemaps",
+          "BlobName": "VirtoCommerce.Sitemaps_3.800.0-pr-67-52b9.zip"
+        }, {
+          "Id": "VirtoCommerce.CatalogPublishing",
+          "BlobName": "VirtoCommerce.CatalogPublishing_3.800.0-pr-59-cad0.zip"
+        }, {
+          "Id": "VirtoCommerce.CatalogPersonalization",
+          "BlobName": "VirtoCommerce.CatalogPersonalization_3.800.0-pr-74-c465.zip"
+        }, {
+          "Id": "VirtoCommerce.DynamicAssociationsModule",
+          "BlobName": "VirtoCommerce.DynamicAssociationsModule_3.800.0-pr-43-1bdf.zip"
+        }, {
+          "Id": "VirtoCommerce.TaskManagement",
+          "BlobName": "VirtoCommerce.TaskManagement_3.800.0-pr-12-b594.zip"
+        }, {
+          "Id": "VirtoCommerce.PageBuilderModule",
+          "BlobName": "VirtoCommerce.PageBuilderModule_3.800.0-pr-60-0001.zip"
+        }, {
+          "Id": "VirtoCommerce.Contentful",
+          "BlobName": "VirtoCommerce.Contentful_3.800.0-pr-10-af1d.zip"
         }
       ]
     }
