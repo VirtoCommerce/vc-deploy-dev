@@ -17,9 +17,33 @@
       "Container": "packages",
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
+         {
+          "Id": "VirtoCommerce.SeqLog",
+          "BlobName": "VirtoCommerce.SeqLog_3.800.0-pr-1-71a3.zip"
+        },
         {
           "Id": "VirtoCommerce.Core",
           "BlobName": "VirtoCommerce.Core_3.800.0-pr-220-6619.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ApplicationInsights",
+          "BlobName": "VirtoCommerce.ApplicationInsights_3.800.0-pr-3-666b.zip"
+        },
+         {
+          "Id": "VirtoCommerce.AzureAD",
+          "BlobName": "VirtoCommerce.AzureAD_3.800.0-pr-5-501f.zip"
+        },  {
+          "Id": "VirtoCommerce.Assets",
+          "BlobName": "VirtoCommerce.Assets_3.800.0-pr-16-7f1e.zip"
+        },       {
+          "Id": "VirtoCommerce.EventBus",
+          "BlobName": "VirtoCommerce.EventBus_3.800.0-pr-18-3ccf.zip"
+        }  , {
+          "Id": "VirtoCommerce.Search",
+          "BlobName": "VirtoCommerce.Search_3.800.0-pr-102-c6f2.zip"
+        }, {
+          "Id": "VirtoCommerce.Export",
+          "BlobName": "VirtoCommerce.Export_3.800.0-pr-84-6c3e.zip"
         }
       ]
     }
