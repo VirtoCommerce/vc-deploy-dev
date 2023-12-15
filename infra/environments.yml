@@ -147,7 +147,7 @@
   storefront:
     enabled: true
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/storefront
-    imageTag: 6.35.0-alpha.982-dev-3f6abcdc
+    imageTag: 6.35.0-alpha.983-pt-14386-ba3e63f2
     servicePlan: S1
     config:
       Reload: 21
