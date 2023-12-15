@@ -1,7 +1,7 @@
 - name: vcptcore-qa
   gitops: true
   production: false
-  servicePlan: S1
+  servicePlan: S3
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
     imageTag: 3.451.0-alpha.12820-pt-14881-system-event-list-98f65235-fdd36f1
