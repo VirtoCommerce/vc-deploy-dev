@@ -4,7 +4,7 @@
   servicePlan: S3
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.451.0-alpha.12820-pt-14881-system-event-list-98f65235-fdd36f1
+    imageTag: 3.451.0-alpha.12820-pt-14881-system-event-list-98f65235-ac5c5a8
     sqlReplica: false
     config:
       DOTNET_USE_POLLING_FILE_WATCHER: true
@@ -93,7 +93,7 @@
       VirtoCommerce__LocalUploadFolderPath: app_data/uploads
       VirtoCommerce__Hangfire__JobStorageType: SqlServer
       VirtoCommerce__Hangfire__WorkerCount: 2
-      #VirtoCommerce__Hangfire__SqlServerStorageOptions__InactiveStateExpirationTimeout: 00:05:00
+      VirtoCommerce__Hangfire__SqlServerStorageOptions__InactiveStateExpirationTimeout: 00:05:00
       VirtoCommerce__Hangfire__Queues__items_0: default
       VirtoCommerce__Hangfire__Queues__items_1: index_worker
       VirtoCommerce__Licensing__LicensePrivateKeyPath: /opt/virtocommerce/platform/license/VirtoCommerce.lic
