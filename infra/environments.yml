@@ -26,8 +26,8 @@
       Search__AzureSearch__SearchServiceName: qa-demovc-3-search
       Search__AzureSearch__Key: 6BE1143312E89C26C227E6BBAE24DD47
       Search__AzureSearch__QueryParserType: Full
-      Content__FileSystem__PublicUrl: https://vcptcore-regression.govirto.com/cms-content/
-      Assets__FileSystem__PublicUrl: https://vcptcore-regression.govirto.com/cms-content/assets/
+      Content__FileSystem__PublicUrl: https://vcptcore-regression.paas.govirto.com/cms-content/
+      Assets__FileSystem__PublicUrl: https://vcptcore-regression.paas.govirto.com/cms-content/assets/
       Assets__Provider: AzureBlobStorage
       Assets__AzureBlobStorage__ConnectionString: DefaultEndpointsProtocol=https;AccountName=qademovc3;AccountKey=qPIpM63MI2P3ei6B1xIL4/DlKDqdsRj54z2GUtgCAeXPcMe8+mZiUvrvI5fjdyrovk331XmBlMFfAEFAjCnvtw==;EndpointSuffix=core.windows.net
       Content__Provider: AzureBlobStorage
@@ -40,7 +40,7 @@
       Authorization__ReturnPasswordHash: true
       PushNotifications__ForceWebSockets: true
       PushNotifications__ScalabilityMode: RedisBackplane
-      PushNotifications__HubUrl: https://vcptcore-regression.govirto.com/pushNotificationHub?api_key=7901e49b-9d71-49b0-9902-05fc2dbb4115
+      PushNotifications__HubUrl: https://vcptcore-regression.paas.govirto.com/pushNotificationHub?api_key=7901e49b-9d71-49b0-9902-05fc2dbb4115
       PushNotifications__RedisBackplane__ChannelName: vcptcore-regression-chanel
       VirtoCommerce__LicenseFilePath: app_data/VirtoCommerce.lic
       VirtoCommerce__LicensePublicKeyPath: app_data/public.key
