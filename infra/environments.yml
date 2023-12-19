@@ -40,7 +40,7 @@
       Authorization__ReturnPasswordHash: true
       PushNotifications__ForceWebSockets: true
       PushNotifications__ScalabilityMode: RedisBackplane
-      PushNotifications__HubUrl: https://vcptcore-regression.govirto.com/pushNotificationHub?api_key=458ab7f7-df17-4aed-9f21-092f8b611efa
+      PushNotifications__HubUrl: https://vcptcore-regression.govirto.com/pushNotificationHub?api_key=7901e49b-9d71-49b0-9902-05fc2dbb4115
       PushNotifications__RedisBackplane__ChannelName: vcptcore-regression-chanel
       VirtoCommerce__LicenseFilePath: app_data/VirtoCommerce.lic
       VirtoCommerce__LicensePublicKeyPath: app_data/public.key
