@@ -4,7 +4,7 @@
   servicePlan: S3
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.452.0-8ccd606
+    imageTag: 3.452.0-6a3d0b4
     sqlReplica: false
     config:
       DOTNET_USE_POLLING_FILE_WATCHER: true
@@ -30,10 +30,10 @@
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
       VirtoCommerce__GraphQLPlayground__Enable: true
       VirtoCommerce__Swagger__Enable: true
-      PushNotifications__ForceWebSockets: true
-      PushNotifications__ScalabilityMode: RedisBackplane
-      PushNotifications__HubUrl: https://vcptcore-qa.paas.govirto.com/pushNotificationHub?api_key=458ab7f7-df17-4aed-9f21-092f8b611efa
-      PushNotifications__RedisBackplane__ChannelName: vcptcore-qa-chanel
+      #PushNotifications__ForceWebSockets: true
+      PushNotifications__ScalabilityMode: None
+      #PushNotifications__HubUrl: https://vcptcore-qa.paas.govirto.com/pushNotificationHub?api_key=458ab7f7-df17-4aed-9f21-092f8b611efa
+      #PushNotifications__RedisBackplane__ChannelName: vcptcore-qa-chanel
       Search__OrderFullTextSearchEnabled: true
       Search__ContentFullTextSearchEnabled: true
       Search__DocumentScopes__0__DocumentType: Product
