@@ -46,11 +46,11 @@
         },
         {
           "Id": "VirtoCommerce.Cart",
-          "Version": "3.408.0"
+          "Version": "3.409.0"
         },
         {
           "Id": "VirtoCommerce.Catalog",
-          "Version": "3.419.0"
+          "Version": "3.423.0"
         },
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
@@ -78,7 +78,7 @@
         },
         {
           "Id": "VirtoCommerce.Customer",
-          "Version": "3.408.0"
+          "Version": "3.411.0"
         },
         {
           "Id": "VirtoCommerce.CustomerReviews",
@@ -122,7 +122,7 @@
         },
         {
           "Id": "VirtoCommerce.ExperienceApi",
-          "Version": "3.443.0"
+          "Version": "3.448.0"
         },
         {
           "Id": "VirtoCommerce.ImageTools",
@@ -150,7 +150,7 @@
         },
         {
           "Id": "VirtoCommerce.Orders",
-          "Version": "3.423.0"
+          "Version": "3.426.0"
         },
         {
           "Id": "VirtoCommerce.Payment",
@@ -174,7 +174,7 @@
         },
         {
           "Id": "VirtoCommerce.Search",
-          "Version": "3.405.0"
+          "Version": "3.406.0"
         },
         {
           "Id": "VirtoCommerce.Shipping",
@@ -182,7 +182,7 @@
         },
         {
           "Id": "VirtoCommerce.Sitemaps",
-          "Version": "3.401.0"
+          "Version": "3.402.0"
         },
         {
           "Id": "VirtoCommerce.Store",
@@ -204,7 +204,7 @@
     }
   ],
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.450.0",
+  "PlatformVersion": "3.452.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.450.0"
+  "PlatformImageTag": "3.452.0"
 }
