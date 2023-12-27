@@ -31,7 +31,7 @@
       Content__PathMappings__blogs__1: _storeId
       Content__PathMappings__blogs__2: blogs
       DOTNET_USE_POLLING_FILE_WATCHER: true
-      VirtoCommerce__LocalUploadFolderPath: wwwroot/cms-content
+      #VirtoCommerce__LocalUploadFolderPath: wwwroot/cms-content
       AzureAd__Priority: 1
       PasswordLogin__Priority: 0
       Reload: 66
