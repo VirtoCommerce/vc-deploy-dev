@@ -8,7 +8,7 @@
     imageTag: 3.800.0-alpha.12843-net8-057e2385-e958c0d
     sqlReplica: false
     config:
-      APPINSIGHTS_INSTRUMENTATIONKEY: eb2fbd36-8ffa-4e9d-bf64-5ec908e7fc74
+      #APPINSIGHTS_INSTRUMENTATIONKEY: eb2fbd36-8ffa-4e9d-bf64-5ec908e7fc74
       PushNotifications__ForceWebSockets: true
       PushNotifications__ScalabilityMode: RedisBackplane
       PushNotifications__HubUrl: https://vcptcore-loadtest.paas.govirto.com/pushNotificationHub?api_key=458ab7f7-df17-4aed-9f21-092f8b611efa
