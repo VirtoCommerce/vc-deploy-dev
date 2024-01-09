@@ -31,6 +31,9 @@
       Content__PathMappings__blogs__1: _storeId
       Content__PathMappings__blogs__2: blogs
       DOTNET_USE_POLLING_FILE_WATCHER: true
+      Search__AzureSearch__SearchServiceName: qa-demovc-3-search
+      Search__AzureSearch__Key: 6BE1143312E89C26C227E6BBAE24DD47
+      Search__AzureSearch__QueryParserType: Full
       #VirtoCommerce__LocalUploadFolderPath: wwwroot/cms-content
       AzureAd__Priority: 1
       PasswordLogin__Priority: 0
