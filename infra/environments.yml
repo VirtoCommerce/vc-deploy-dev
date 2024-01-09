@@ -94,7 +94,7 @@
     enabled: true
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/storefront
     servicePlan: S1
-    imageTag: 6.26.0-alpha.961-dev-09cdbbc2
+    imageTag: 6.34.0-master-d8f90289
     config:
       DOTNET_USE_POLLING_FILE_WATCHER: true
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
