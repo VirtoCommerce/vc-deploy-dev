@@ -230,12 +230,12 @@
           "BlobName": "VirtoCommerce.Catalog_3.425.0-alpha.2187.zip"
         },
         {
-          "Id": "VirtoCommerce.Quote",
-          "BlobName": "VirtoCommerce.Quote_3.405.0-alpha.375.zip"
-        },
-        {
           "Id": "VirtoCommerce.NativePaymentMethods",
           "BlobName": "VirtoCommerce.NativePaymentMethods_3.403.0-alpha.74.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Quote",
+          "BlobName": "VirtoCommerce.Quote_3.406.0-alpha.376.zip"
         }
       ]
     }
