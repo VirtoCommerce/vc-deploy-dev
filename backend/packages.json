@@ -94,10 +94,6 @@
           "BlobName": "VirtoCommerce.Tax_3.400.0.zip"
         },
         {
-          "Id": "VirtoCommerce.Export",
-          "BlobName": "VirtoCommerce.Export_3.206.0-pr-83-8907.zip"
-        },
-        {
           "Id": "VirtoCommerce.CatalogPersonalization",
           "BlobName": "VirtoCommerce.CatalogPersonalization_3.400.0.zip"
         },
@@ -236,6 +232,10 @@
         {
           "Id": "VirtoCommerce.Assets",
           "BlobName": "VirtoCommerce.Assets_3.801.0-alpha.111.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Export",
+          "BlobName": "VirtoCommerce.Export_3.801.0-alpha.222.zip"
         }
       ]
     }
