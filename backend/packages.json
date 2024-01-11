@@ -23,10 +23,6 @@
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
         {
-          "Id": "VirtoCommerce.BulkActionsModule",
-          "BlobName": "VirtoCommerce.BulkActionsModule_3.202.0.zip"
-        },
-        {
           "Id": "VirtoCommerce.CatalogExportImport",
           "BlobName": "VirtoCommerce.CatalogExportImport_3.200.0-pr-34.zip"
         },
@@ -245,6 +241,10 @@
         {
           "Id": "VirtoCommerce.Quote",
           "BlobName": "VirtoCommerce.Quote_3.405.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.BulkActionsModule",
+          "BlobName": "VirtoCommerce.BulkActionsModule_3.800.0.zip"
         }
       ]
     }
