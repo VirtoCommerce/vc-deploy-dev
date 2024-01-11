@@ -144,10 +144,6 @@
           "Version": "3.449.0"
         },
         {
-          "Id": "VirtoCommerce.Catalog",
-          "Version": "3.424.0"
-        },
-        {
           "Id": "VirtoCommerce.NativePaymentMethods",
           "Version": "3.402.0"
         },
@@ -205,6 +201,10 @@
         },
         {
           "Id": "VirtoCommerce.WebHooks",
+          "Version": "3.800.0"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
           "Version": "3.800.0"
         }
       ]
