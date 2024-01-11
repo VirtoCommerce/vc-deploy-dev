@@ -60,10 +60,6 @@
           "Version": "3.402.0"
         },
         {
-          "Id": "VirtoCommerce.AvalaraTax",
-          "Version": "3.402.0"
-        },
-        {
           "Id": "VirtoCommerce.Contracts",
           "Version": "3.406.0"
         },
@@ -205,6 +201,10 @@
         },
         {
           "Id": "VirtoCommerce.NativePaymentMethods",
+          "Version": "3.800.0"
+        },
+        {
+          "Id": "VirtoCommerce.AvalaraTax",
           "Version": "3.800.0"
         }
       ]
