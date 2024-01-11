@@ -230,12 +230,12 @@
           "BlobName": "VirtoCommerce.Inventory_3.801.0-alpha.443.zip"
         },
         {
-          "Id": "VirtoCommerce.Customer",
-          "BlobName": "VirtoCommerce.Customer_3.800.0-alpha.804.zip"
-        },
-        {
           "Id": "VirtoCommerce.LuceneSearch",
           "BlobName": "VirtoCommerce.LuceneSearch_3.801.0-alpha.188.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Customer",
+          "BlobName": "VirtoCommerce.Customer_3.801.0-alpha.805.zip"
         }
       ]
     }
