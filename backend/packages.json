@@ -16,10 +16,6 @@
           "Version": "3.206.0"
         },
         {
-          "Id": "VirtoCommerce.Tax",
-          "Version": "3.400.0"
-        },
-        {
           "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
           "Version": "4.400.0"
         },
@@ -205,6 +201,10 @@
         },
         {
           "Id": "VirtoCommerce.AzureSearch",
+          "Version": "3.800.0"
+        },
+        {
+          "Id": "VirtoCommerce.Tax",
           "Version": "3.800.0"
         }
       ]
