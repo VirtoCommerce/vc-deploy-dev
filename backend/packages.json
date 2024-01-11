@@ -230,12 +230,12 @@
           "BlobName": "VirtoCommerce.Customer_3.801.0-alpha.805.zip"
         },
         {
-          "Id": "VirtoCommerce.AzureSearch",
-          "BlobName": "VirtoCommerce.AzureSearch_3.800.0-alpha.222.zip"
-        },
-        {
           "Id": "VirtoCommerce.Tax",
           "BlobName": "VirtoCommerce.Tax_3.800.0-alpha.169.zip"
+        },
+        {
+          "Id": "VirtoCommerce.AzureSearch",
+          "BlobName": "VirtoCommerce.AzureSearch_3.801.0-alpha.223.zip"
         }
       ]
     }
