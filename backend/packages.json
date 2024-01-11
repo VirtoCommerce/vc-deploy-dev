@@ -112,10 +112,6 @@
           "Version": "3.426.0"
         },
         {
-          "Id": "VirtoCommerce.Customer",
-          "Version": "3.411.0"
-        },
-        {
           "Id": "VirtoCommerce.ExperienceApi",
           "Version": "3.449.0"
         },
@@ -205,6 +201,10 @@
         },
         {
           "Id": "VirtoCommerce.LuceneSearch",
+          "Version": "3.800.0"
+        },
+        {
+          "Id": "VirtoCommerce.Customer",
           "Version": "3.800.0"
         }
       ]
