@@ -47,10 +47,6 @@
           "BlobName": "VirtoCommerce.EventBus_3.400.0.zip"
         },
         {
-          "Id": "VirtoCommerce.Inventory",
-          "BlobName": "VirtoCommerce.Inventory_3.405.0-pr-137-8b42.zip"
-        },
-        {
           "Id": "VirtoCommerce.MarketingExperienceApi",
           "BlobName": "VirtoCommerce.MarketingExperienceApi_3.202.0.zip"
         },
@@ -245,6 +241,10 @@
         {
           "Id": "VirtoCommerce.Quote",
           "BlobName": "VirtoCommerce.Quote_3.405.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Inventory",
+          "BlobName": "VirtoCommerce.Inventory_3.800.0.zip"
         }
       ]
     }
