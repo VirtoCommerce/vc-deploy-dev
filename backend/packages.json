@@ -24,10 +24,6 @@
           "Version": "3.206.0"
         },
         {
-          "Id": "VirtoCommerce.WebHooks",
-          "Version": "3.209.0"
-        },
-        {
           "Id": "VirtoCommerce.Payment",
           "Version": "3.400.0"
         },
@@ -205,6 +201,10 @@
         },
         {
           "Id": "VirtoCommerce.Search",
+          "Version": "3.800.0"
+        },
+        {
+          "Id": "VirtoCommerce.WebHooks",
           "Version": "3.800.0"
         }
       ]
