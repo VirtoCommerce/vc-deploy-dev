@@ -239,12 +239,12 @@
           "BlobName": "VirtoCommerce.Orders_3.426.0-pr-394-4c8b.zip"
         },
         {
-          "Id": "VirtoCommerce.Catalog",
-          "BlobName": "VirtoCommerce.Catalog_3.424.0-pr-716-c79f.zip"
-        },
-        {
           "Id": "VirtoCommerce.Quote",
           "BlobName": "VirtoCommerce.Quote_3.405.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "BlobName": "VirtoCommerce.Catalog_3.800.0.zip"
         }
       ]
     }
