@@ -16,10 +16,6 @@
           "Version": "3.203.0"
         },
         {
-          "Id": "VirtoCommerce.AzureBlobAssets",
-          "Version": "3.211.0"
-        },
-        {
           "Id": "VirtoCommerce.AuthorizeNetPayment",
           "Version": "3.206.0"
         },
@@ -205,6 +201,10 @@
         },
         {
           "Id": "VirtoCommerce.Payment",
+          "Version": "3.800.0"
+        },
+        {
+          "Id": "VirtoCommerce.AzureBlobAssets",
           "Version": "3.800.0"
         }
       ]
