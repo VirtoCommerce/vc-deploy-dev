@@ -230,12 +230,12 @@
           "BlobName": "VirtoCommerce.BulkActionsModule_3.801.0-alpha.200.zip"
         },
         {
-          "Id": "VirtoCommerce.Assets",
-          "BlobName": "VirtoCommerce.Assets_3.402.0-alpha.109.zip"
-        },
-        {
           "Id": "VirtoCommerce.EventBus",
           "BlobName": "VirtoCommerce.EventBus_3.801.0-alpha.118.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Assets",
+          "BlobName": "VirtoCommerce.Assets_3.800.0-alpha.110.zip"
         }
       ]
     }
