@@ -130,10 +130,6 @@
           "BlobName": "VirtoCommerce.SeqLog_3.200.0.zip"
         },
         {
-          "Id": "VirtoCommerce.AzureAD",
-          "BlobName": "VirtoCommerce.AzureAD_3.205.0.zip"
-        },
-        {
           "Id": "VirtoCommerce.AvalaraTax",
           "BlobName": "VirtoCommerce.AvalaraTax_3.402.0.zip"
         },
@@ -236,6 +232,10 @@
         {
           "Id": "VirtoCommerce.Core",
           "BlobName": "VirtoCommerce.Core_3.801.0-alpha.1598.zip"
+        },
+        {
+          "Id": "VirtoCommerce.AzureAD",
+          "BlobName": "VirtoCommerce.AzureAD_3.800.0-alpha.24.zip"
         }
       ]
     }
