@@ -98,10 +98,6 @@
           "BlobName": "VirtoCommerce.Contracts_3.406.0.zip"
         },
         {
-          "Id": "VirtoCommerce.Pricing",
-          "BlobName": "VirtoCommerce.Pricing_3.404.0.zip"
-        },
-        {
           "Id": "VirtoCommerce.PageBuilderModule",
           "BlobName": "VirtoCommerce.PageBuilderModule_3.407.0-pr-59-dc5e.zip"
         },
@@ -236,6 +232,10 @@
         {
           "Id": "VirtoCommerce.ElasticSearch",
           "BlobName": "VirtoCommerce.ElasticSearch_3.801.0-alpha.239.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Pricing",
+          "BlobName": "VirtoCommerce.Pricing_3.800.0-alpha.712.zip"
         }
       ]
     }
