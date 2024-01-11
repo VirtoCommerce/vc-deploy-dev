@@ -30,10 +30,6 @@
           "BlobName": "VirtoCommerce.CatalogCsvImportModule_3.400.0.zip"
         },
         {
-          "Id": "VirtoCommerce.EventBus",
-          "BlobName": "VirtoCommerce.EventBus_3.400.0.zip"
-        },
-        {
           "Id": "VirtoCommerce.Inventory",
           "BlobName": "VirtoCommerce.Inventory_3.405.0-pr-137-8b42.zip"
         },
@@ -236,6 +232,10 @@
         {
           "Id": "VirtoCommerce.BulkActionsModule",
           "BlobName": "VirtoCommerce.BulkActionsModule_3.801.0-alpha.200.zip"
+        },
+        {
+          "Id": "VirtoCommerce.EventBus",
+          "BlobName": "VirtoCommerce.EventBus_3.800.0-alpha.117.zip"
         }
       ]
     }
