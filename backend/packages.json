@@ -70,10 +70,6 @@
           "BlobName": "VirtoCommerce.PowerBiReports_3.200.0-alpha.16.zip"
         },
         {
-          "Id": "VirtoCommerce.AzureBlobAssets",
-          "BlobName": "VirtoCommerce.AzureBlobAssets_3.211.0.zip"
-        },
-        {
           "Id": "VirtoCommerce.PriceExportImport",
           "BlobName": "VirtoCommerce.PriceExportImport_3.400.0-pr-82-24c5.zip"
         },
@@ -236,6 +232,10 @@
         {
           "Id": "VirtoCommerce.Payment",
           "BlobName": "VirtoCommerce.Payment_3.801.0-alpha.213.zip"
+        },
+        {
+          "Id": "VirtoCommerce.AzureBlobAssets",
+          "BlobName": "VirtoCommerce.AzureBlobAssets_3.800.0-alpha.102.zip"
         }
       ]
     }
