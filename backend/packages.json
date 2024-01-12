@@ -24,10 +24,6 @@
           "Version": "3.400.0"
         },
         {
-          "Id": "VirtoCommerce.TaskManagement",
-          "Version": "3.402.0"
-        },
-        {
           "Id": "VirtoCommerce.ExperienceApi",
           "Version": "3.449.0"
         },
@@ -205,6 +201,10 @@
         },
         {
           "Id": "VirtoCommerce.CatalogPersonalization",
+          "Version": "3.800.0"
+        },
+        {
+          "Id": "VirtoCommerce.TaskManagement",
           "Version": "3.800.0"
         }
       ]
