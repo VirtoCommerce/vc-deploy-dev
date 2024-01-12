@@ -60,10 +60,6 @@
           "Version": "3.800.0"
         },
         {
-          "Id": "VirtoCommerce.WebHooks",
-          "Version": "3.800.0"
-        },
-        {
           "Id": "VirtoCommerce.Catalog",
           "Version": "3.800.0"
         },
@@ -206,6 +202,10 @@
         {
           "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
           "Version": "4.800.0"
+        },
+        {
+          "Id": "VirtoCommerce.WebHooks",
+          "Version": "3.800.0"
         }
       ]
     },
