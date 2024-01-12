@@ -26,7 +26,6 @@
   ingress:
     hostnames:
       krasnodar-testdomainnamevirtoclouddev: krasnodar-testdomainname.virtocloud.dev
-      krasnodar-testdomainnamepaasvirtoclouddev: krasnodar-testdomainname.paas.virtocloud.dev
   customApps:
     app1:
       enabled: false
