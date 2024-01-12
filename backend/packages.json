@@ -98,10 +98,6 @@
           "BlobName": "VirtoCommerce.Sitemaps_3.403.0-alpha.326.zip"
         },
         {
-          "Id": "VirtoCommerce.ExperienceApi",
-          "BlobName": "VirtoCommerce.ExperienceApi_3.450.0-alpha.1321.zip"
-        },
-        {
           "Id": "VirtoCommerce.Quote",
           "BlobName": "VirtoCommerce.Quote_3.406.0-alpha.376.zip"
         },
@@ -236,6 +232,10 @@
         {
           "Id": "VirtoCommerce.AuthorizeNetPayment",
           "BlobName": "VirtoCommerce.AuthorizeNetPayment_3.801.0-alpha.61.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ExperienceApi",
+          "BlobName": "VirtoCommerce.ExperienceApi_3.800.0-alpha.1322.zip"
         }
       ]
     }
