@@ -5,7 +5,7 @@
   platform:
     #dbProvider: Azure Database for PostgreSQL
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.800.0-7ee4893
+    imageTag: 3.801.0-alpha.12829-net-8-bump-3272244a-ed7b29a
     sqlReplica: false
     config:
       Serilog__Using__0: Serilog.Sinks.Console
@@ -43,7 +43,7 @@
       Reload: 69
       Tax__Avalara__AccountNumber: 2000188799
       Tax__Avalara__LicenseKey: 16BC3F87E836E15C
-      Search__Provider: Lucene
+      #Search__Provider: Lucene
       VirtoCommerce__SampleDataUrl: https://virtocommerce.azureedge.net/sample-data/b2b-sample-store.zip
       #VirtoCommerce__SampleDataUrl: ""
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
