@@ -44,10 +44,6 @@
           "Version": "3.401.0"
         },
         {
-          "Id": "VirtoCommerce.CustomerReviews",
-          "Version": "3.401.0"
-        },
-        {
           "Id": "VirtoCommerce.TaskManagement",
           "Version": "3.402.0"
         },
@@ -205,6 +201,10 @@
         },
         {
           "Id": "VirtoCommerce.Sitemaps",
+          "Version": "3.800.0"
+        },
+        {
+          "Id": "VirtoCommerce.CustomerReviews",
           "Version": "3.800.0"
         }
       ]
