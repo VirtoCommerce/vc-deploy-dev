@@ -71,10 +71,6 @@
           "BlobName": "VirtoCommerce.Payment_3.400.0.zip"
         },
         {
-          "Id": "VirtoCommerce.WebHooks",
-          "BlobName": "VirtoCommerce.WebHooks_3.209.0.zip"
-        },
-        {
           "Id": "VirtoCommerce.Assets",
           "BlobName": "VirtoCommerce.Assets_3.401.0.zip"
         },
@@ -249,6 +245,10 @@
         {
           "Id": "VirtoCommerce.FileExperienceApi",
           "BlobName": "VirtoCommerce.FileExperienceApi_3.400.0-pr-2-6555.zip"
+        },
+        {
+          "Id": "VirtoCommerce.WebHooks",
+          "BlobName": "VirtoCommerce.WebHooks_3.800.0.zip"
         }
       ]
     }
