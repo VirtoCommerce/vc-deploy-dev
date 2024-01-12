@@ -184,7 +184,10 @@
         {
           "Id": "VirtoCommerce.Cart",
           "Version": "3.800.0"
-        },  
+        },  {
+          "Id": "VirtoCommerce.WebHooks",
+          "Version": "3.800.0"
+        },
         {
           "Id": "VirtoCommerce.MarketingExperienceApi",
           "Version": "3.800.0"
