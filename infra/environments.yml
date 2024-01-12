@@ -7,6 +7,16 @@
     imageTag: 3.452.0-2d15516
     sqlReplica: false
     config:
+      FileUpload__RootPath: attachments
+      FileUpload__Scopes__0__Scope: quote-attachments
+      FileUpload__Scopes__0__MaxFileSize: 1000000
+      FileUpload__Scopes__0__AllowedExtensions__0: .csv
+      FileUpload__Scopes__0__AllowedExtensions__1: .docx
+      FileUpload__Scopes__0__AllowedExtensions__2: .jpg
+      FileUpload__Scopes__0__AllowedExtensions__3: .pdf
+      FileUpload__Scopes__0__AllowedExtensions__4: .png
+      FileUpload__Scopes__0__AllowedExtensions__5: .txt
+      FileUpload__Scopes__0__AllowedExtensions__6: .xlsx
       DOTNET_USE_POLLING_FILE_WATCHER: true
       Reload: 11
       #ConnectionStrings__AzureAppConfigurationConnectionString: "Endpoint=https://qa-vc-app-config.azconfig.io;Id=BvwK;Secret=nbF7kOXCU14+qCF5OtP4LR63zfbSyDx6th46bIWkUHQ="
