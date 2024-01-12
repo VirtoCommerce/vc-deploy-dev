@@ -26,10 +26,6 @@
           "BlobName": "VirtoCommerce.MarketingExperienceApi_3.202.0.zip"
         },
         {
-          "Id": "VirtoCommerce.DynamicAssociationsModule",
-          "BlobName": "VirtoCommerce.DynamicAssociationsModule_3.400.0.zip"
-        },
-        {
           "Id": "VirtoCommerce.PowerBiReports",
           "BlobName": "VirtoCommerce.PowerBiReports_3.200.0-alpha.16.zip"
         },
@@ -236,6 +232,10 @@
         {
           "Id": "VirtoCommerce.TaskManagement",
           "BlobName": "VirtoCommerce.TaskManagement_3.800.0-alpha.67.zip"
+        },
+        {
+          "Id": "VirtoCommerce.DynamicAssociationsModule",
+          "BlobName": "VirtoCommerce.DynamicAssociationsModule_3.801.0-alpha.137.zip"
         }
       ]
     }
