@@ -35,7 +35,7 @@
       Content__PathMappings__pages__3: "content/pages"
       Content__PathMappings__themes__0: "Themes"
       Content__PathMappings__themes__1: "_storeId"
-      Reload: 2023-10-06
+      Reload: 2024-01-12
     secretConfig:
       Notifications__SendGrid__ApiKey: sendkey
       Payments__AuthorizeNet__ApiLogin: apilogin
