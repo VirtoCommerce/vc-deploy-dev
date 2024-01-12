@@ -74,10 +74,6 @@
           "BlobName": "VirtoCommerce.SeqLog_3.200.0.zip"
         },
         {
-          "Id": "VirtoCommerce.Contracts",
-          "BlobName": "VirtoCommerce.Contracts_3.406.0.zip"
-        },
-        {
           "Id": "VirtoCommerce.PageBuilderModule",
           "BlobName": "VirtoCommerce.PageBuilderModule_3.407.0-pr-59-dc5e.zip"
         },
@@ -236,6 +232,10 @@
         {
           "Id": "VirtoCommerce.Quote",
           "BlobName": "VirtoCommerce.Quote_3.801.0-alpha.378.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Contracts",
+          "BlobName": "VirtoCommerce.Contracts_3.800.0-alpha.81.zip"
         }
       ]
     }
