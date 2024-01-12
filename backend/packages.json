@@ -30,10 +30,6 @@
           "BlobName": "VirtoCommerce.MarketingExperienceApi_3.202.0.zip"
         },
         {
-          "Id": "VirtoCommerce.CatalogPublishing",
-          "BlobName": "VirtoCommerce.CatalogPublishing_3.400.0.zip"
-        },
-        {
           "Id": "VirtoCommerce.DynamicAssociationsModule",
           "BlobName": "VirtoCommerce.DynamicAssociationsModule_3.400.0.zip"
         },
@@ -236,6 +232,10 @@
         {
           "Id": "VirtoCommerce.PriceExportImport",
           "BlobName": "VirtoCommerce.PriceExportImport_3.801.0-alpha.136.zip"
+        },
+        {
+          "Id": "VirtoCommerce.CatalogPublishing",
+          "BlobName": "VirtoCommerce.CatalogPublishing_3.800.0-alpha.335.zip"
         }
       ]
     }
