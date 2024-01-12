@@ -76,10 +76,6 @@
           "Version": "3.405.0"
         },
         {
-          "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.416.0"
-        },
-        {
           "Id": "VirtoCommerce.Return",
           "Version": "3.403.0"
         },
@@ -205,6 +201,10 @@
         },
         {
           "Id": "VirtoCommerce.AuthorizeNetPayment",
+          "Version": "3.800.0"
+        },
+        {
+          "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "Version": "3.800.0"
         }
       ]
