@@ -24,12 +24,10 @@ jobs:
         env:
           ARGO_APP_NAME: ${{ env.APP_NAME }}
           SERVICE_PLAN: B2
-          DB_NAME: krasnodar-qa-platform_krasnodar
-          ELASTIC_USER: krasnodar-qa-krasnodar
+          ELASTIC_USER: krasnodar-eku-krasnodar
           WEBHOOK_URL: eastus-vc-dev.webhook.virtocloud.dev
           REGISTRY: virtopaasregistrymain.azurecr.io
           SAAS_TOKEN: ${{ secrets.SAAS_DEV_TOKEN }}
-          EXTERNAL_HOST: krasnodar-qa.virtocloud.dev
         run: |
           envsubst < environment.template > environment.yml
           vc-build UpdateCloudEnvironment -CloudToken $SAAS_TOKEN -ArgoConfigFile environment.yml -CloudUrl https://portal.virtocloud.dev
