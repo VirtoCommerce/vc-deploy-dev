@@ -42,10 +42,6 @@
           "BlobName": "VirtoCommerce.PowerBiReports_3.200.0-alpha.16.zip"
         },
         {
-          "Id": "VirtoCommerce.PriceExportImport",
-          "BlobName": "VirtoCommerce.PriceExportImport_3.400.0-pr-82-24c5.zip"
-        },
-        {
           "Id": "VirtoCommerce.ApplicationInsights",
           "BlobName": "VirtoCommerce.ApplicationInsights_3.202.0.zip"
         },
@@ -236,6 +232,10 @@
         {
           "Id": "VirtoCommerce.CustomerExportImport",
           "BlobName": "VirtoCommerce.CustomerExportImport_3.801.0-alpha.146.zip"
+        },
+        {
+          "Id": "VirtoCommerce.PriceExportImport",
+          "BlobName": "VirtoCommerce.PriceExportImport_3.800.0-alpha.135.zip"
         }
       ]
     }
