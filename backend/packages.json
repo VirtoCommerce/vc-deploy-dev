@@ -32,10 +32,6 @@
           "Version": "3.400.0"
         },
         {
-          "Id": "VirtoCommerce.PriceExportImport",
-          "Version": "3.400.0"
-        },
-        {
           "Id": "VirtoCommerce.ShipStation",
           "Version": "3.400.0"
         },
@@ -205,6 +201,10 @@
         },
         {
           "Id": "VirtoCommerce.CustomerExportImport",
+          "Version": "3.800.0"
+        },
+        {
+          "Id": "VirtoCommerce.PriceExportImport",
           "Version": "3.800.0"
         }
       ]
