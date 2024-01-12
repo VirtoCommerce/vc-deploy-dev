@@ -10,5 +10,7 @@ RUN apt-get clean autoclean \
     && rm -rf /var/lib/{apt,dpkg,cache,log}/
 WORKDIR /opt/virtocommerce/platform
 
+EXPOSE 80
+ENV ASPNETCORE_HTTP_PORTS=80
 ENTRYPOINT ["dotnet", "VirtoCommerce.Platform.Web.dll"]
 #
