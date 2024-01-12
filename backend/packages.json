@@ -12,10 +12,6 @@
       ],
       "Modules": [
         {
-          "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
-          "Version": "4.400.0"
-        },
-        {
           "Id": "VirtoCommerce.ShipStation",
           "Version": "3.400.0"
         },
@@ -206,6 +202,10 @@
         {
           "Id": "VirtoCommerce.DynamicAssociationsModule",
           "Version": "3.800.0"
+        },
+        {
+          "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
+          "Version": "4.800.0"
         }
       ]
     },
