@@ -5,48 +5,31 @@
   platform:
     dbName: $DB_NAME
     imageRepository: virtopaasregistrymain.azurecr.io/krasnodar/platform
-    imageTag: 3.411.0-alpha.12726-dev-4be3190f-2555d23
+    imageTag: 3.438.0-alpha.12792-pt-14211-redis-reconnect-391dc595-4f078aa
     sqlReplica: false
     config:
-      restart: 2
-      AzureAd__Enabled: true
-      AzureAd__ApplicationId: d7edfa5a-1e20-424f-8fa7-b7084294ff8f
-      AzureAd__TenantId: bc03e660-5e3a-45c4-bf5c-b75489f78923
-      AzureAd__UsePreferredUsername: true
-      ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
-      Search__Provider: ElasticSearch
-      Search__ElasticSearch__Server: http://search-es-http.elastic-system.svc.cluster.local:9200
-      Search__ElasticSearch__User: $ELASTIC_USER
-      AzureAd__Priority: 0
-      PasswordLogin__Priority: 1
-      SaaS__Replica__WebHookUrl: https://$WEBHOOK_URL/db-config
-      Search__ElasticSearch__EnableCompatibilityMode: true
-      Search__ElasticSearch__HealthCheckTimeout: 10
-      VirtoCommerce__ApplicationInsights__RoleName: krasnodar-$ARGO_APP_NAME
-      SaaS__Cache__Enabled: true
-      SaaS__Cache__Expiration: 60
-    secretConfig:
-      ARGO_TOKEN: argo-token
+     APPINSIGHTS_INSTRUMENTATIONKEY: f783fb6a-fc05-4f19-9a2b-3e587ad37ecc
+     Search__ElasticSearch__EnableCompatibilityMode: true
+     ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
+     Restart: 11
   storefront:
     enabled: true
     imageRepository: virtopaasregistrymain.azurecr.io/krasnodar/storefront
     imageTag: 6.25.0-master-e9a4f990
-    servicePlan: B2
+    servicePlan: B1
     config:
-      ASPNETCORE_FORWARDEDHEADERS_ENABLED: "true"
+      APPINSIGHTS_INSTRUMENTATIONKEY: f96b35e6-2863-4c82-b30f-46131f985cea
+      VirtoCommerce__Endpoint__Password: ddD1e2DH
       VirtoCommerce__DefaultStore: B2B-store
-      SnapshotCollectorConfiguration__IsEnabled: false      
-      Reload: 2022-10-05
-    secretConfig:
-      VirtoCommerce__Endpoint__Password: krasnodar-frontendpass
     themes:
       B2B-store: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.37.0/vc-theme-b2b-vue-1.37.0.zip
   ingress:
     hostnames:
-      name1: $EXTERNAL_HOST
+      krasnodar-testdomainnamevirtoclouddev: krasnodar-testdomainname.virtocloud.dev
+      krasnodar-testdomainnamepaasvirtoclouddev: krasnodar-testdomainname.paas.virtocloud.dev
   customApps:
     app1:
       enabled: false
     app2:
       enabled: false
-  version: 3.207
+  version: 3.215
