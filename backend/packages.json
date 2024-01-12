@@ -60,10 +60,6 @@
           "Version": "3.406.0"
         },
         {
-          "Id": "VirtoCommerce.Subscription",
-          "Version": "3.402.0"
-        },
-        {
           "Id": "VirtoCommerce.Sitemaps",
           "Version": "3.402.0"
         },
@@ -205,6 +201,10 @@
         },
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
+          "Version": "3.800.0"
+        },
+        {
+          "Id": "VirtoCommerce.Subscription",
           "Version": "3.800.0"
         }
       ]
