@@ -82,10 +82,6 @@
           "BlobName": "VirtoCommerce.Sitemaps_3.403.0-alpha.326.zip"
         },
         {
-          "Id": "VirtoCommerce.Return",
-          "BlobName": "VirtoCommerce.Return_3.404.0-alpha.82.zip"
-        },
-        {
           "Id": "VirtoCommerce.Core",
           "BlobName": "VirtoCommerce.Core_3.801.0-alpha.1598.zip"
         },
@@ -236,6 +232,10 @@
         {
           "Id": "VirtoCommerce.Contracts",
           "BlobName": "VirtoCommerce.Contracts_3.800.0-alpha.84.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Return",
+          "BlobName": "VirtoCommerce.Return_3.800.0-alpha.83.zip"
         }
       ]
     }
