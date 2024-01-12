@@ -11,7 +11,7 @@
      APPINSIGHTS_INSTRUMENTATIONKEY: f783fb6a-fc05-4f19-9a2b-3e587ad37ecc
      Search__ElasticSearch__EnableCompatibilityMode: true
      ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
-     Restart: 10
+     Restart: 11
   storefront:
     enabled: true
     imageRepository: virtopaasregistrymain.azurecr.io/krasnodar/storefront
