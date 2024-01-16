@@ -12,10 +12,6 @@
       ],
       "Modules": [
         {
-          "Id": "VirtoCommerce.ShipStation",
-          "Version": "3.400.0"
-        },
-        {
           "Id": "VirtoCommerce.ExperienceApi",
           "Version": "3.449.0"
         },
@@ -205,6 +201,10 @@
         },
         {
           "Id": "VirtoCommerce.WebHooks",
+          "Version": "3.800.0"
+        },
+        {
+          "Id": "VirtoCommerce.ShipStation",
           "Version": "3.800.0"
         }
       ]
