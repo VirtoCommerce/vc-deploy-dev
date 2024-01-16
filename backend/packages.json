@@ -34,10 +34,6 @@
           "BlobName": "VirtoCommerce.ApplicationInsights_3.202.0.zip"
         },
         {
-          "Id": "VirtoCommerce.ShipStation",
-          "BlobName": "VirtoCommerce.ShipStation_3.400.0.zip"
-        },
-        {
           "Id": "VirtoCommerce.SeqLog",
           "BlobName": "VirtoCommerce.SeqLog_3.200.0.zip"
         },
@@ -236,6 +232,10 @@
         {
           "Id": "VirtoCommerce.WebHooks",
           "BlobName": "VirtoCommerce.WebHooks_3.801.0-alpha.283.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ShipStation",
+          "BlobName": "VirtoCommerce.ShipStation_3.800.0-alpha.106.zip"
         }
       ]
     }
