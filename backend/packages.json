@@ -10,7 +10,7 @@
     {
       "Name": "GithubReleases",
       "ModuleSources": [
-        "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3_net8.json"
+        "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
       "Modules": [
         {
