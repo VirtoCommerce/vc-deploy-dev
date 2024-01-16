@@ -184,7 +184,8 @@
         {
           "Id": "VirtoCommerce.Cart",
           "Version": "3.800.0"
-        },  {
+        },
+        {
           "Id": "VirtoCommerce.WebHooks",
           "Version": "3.800.0"
         },
@@ -202,7 +203,12 @@
       "Name": "AzureBlob",
       "Container": "packages",
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
-      "Modules": []
+      "Modules": [
+        {
+          "Id": "VirtoCommerce.ShipStation",
+          "BlobName": "VirtoCommerce.ShipStation_3.800.0.zip"
+        }
+      ]
     }
   ]
 }
