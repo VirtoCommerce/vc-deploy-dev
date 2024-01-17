@@ -134,19 +134,11 @@
           "Version": "3.800.0"
         },
         {
-          "Id": "VirtoCommerce.Orders",
-          "Version": "3.800.0"
-        },
-        {
           "Id": "VirtoCommerce.Assets",
           "Version": "3.800.0"
         },
         {
           "Id": "VirtoCommerce.AzureBlobAssets",
-          "Version": "3.800.0"
-        },
-        {
-          "Id": "VirtoCommerce.Subscription",
           "Version": "3.800.0"
         },
         {
@@ -202,6 +194,14 @@
            {
           "Id": "VirtoCommerce.Catalog",
           "BlobName": "VirtoCommerce.Catalog_3.801.0-pr-717-e1fa.zip"
+        },
+           {
+          "Id": "VirtoCommerce.Orders",
+          "BlobName": "VirtoCommerce.Orders_3.801.0-pr-396-b903.zip"
+        },
+           {
+          "Id": "VirtoCommerce.Subscription",
+          "BlobName": "VirtoCommerce.Subscription_3.801.0-pr-86-271d.zip"
         }
       ]
     }
