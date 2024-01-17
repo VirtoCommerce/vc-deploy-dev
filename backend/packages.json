@@ -16,10 +16,6 @@
           "Version": "3.449.0"
         },
         {
-          "Id": "VirtoCommerce.Core",
-          "Version": "3.800.0"
-        },
-        {
           "Id": "VirtoCommerce.AzureAD",
           "Version": "3.800.0"
         },
@@ -206,6 +202,10 @@
         {
           "Id": "VirtoCommerce.ShipStation",
           "Version": "3.800.0"
+        },
+        {
+          "Id": "VirtoCommerce.Core",
+          "Version": "3.801.0"
         }
       ]
     },
