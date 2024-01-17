@@ -197,16 +197,16 @@
           "BlobName": "VirtoCommerce.Catalog_3.801.0-pr-717-e1fa.zip"
         },
         {
-          "Id": "VirtoCommerce.Orders",
-          "BlobName": "VirtoCommerce.Orders_3.801.0-pr-397-d024.zip"
-        },
-        {
           "Id": "VirtoCommerce.Subscription",
           "BlobName": "VirtoCommerce.Subscription_3.801.0-pr-86-159b.zip"
         },
         {
           "Id": "VirtoCommerce.Core",
           "BlobName": "VirtoCommerce.Core_3.801.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Orders",
+          "BlobName": "VirtoCommerce.Orders_3.801.0.zip"
         }
       ]
     }
