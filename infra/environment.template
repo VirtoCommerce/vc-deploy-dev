@@ -15,7 +15,6 @@
       AzureAd__UsePreferredUsername: true
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
       Search__Provider: ElasticSearch
-      Search__ElasticSearch__Server: http://search-es-http.elastic-system.svc.cluster.local:9200
       Search__ElasticSearch__User: $ELASTIC_USER
       AzureAd__Priority: 0
       PasswordLogin__Priority: 1
@@ -49,4 +48,4 @@
       enabled: false
     app2:
       enabled: false
-  version: 3.207
+  version: 3.215
