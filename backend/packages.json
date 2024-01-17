@@ -178,10 +178,6 @@
           "Version": "3.800.0"
         },
         {
-          "Id": "VirtoCommerce.Catalog",
-          "Version": "3.800.0"
-        },
-        {
           "Id": "VirtoCommerce.Cart",
           "Version": "3.800.0"
         },  {
@@ -202,7 +198,12 @@
       "Name": "AzureBlob",
       "Container": "packages",
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
-      "Modules": []
+      "Modules": [
+           {
+          "Id": "VirtoCommerce.Catalog",
+          "BlobName": "VirtoCommerce.Catalog_3.801.0-pr-717-e1fa.zip"
+        },
+      ]
     }
   ]
 }
