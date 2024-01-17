@@ -31,7 +31,7 @@
     enabled: true
     imageRepository: virtopaasregistrymain.azurecr.io/krasnodar/storefront
     imageTag: 6.25.0-master-e9a4f990
-    servicePlan: B1
+    servicePlan: B2
     config:
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: "true"
       VirtoCommerce__DefaultStore: B2B-store
