@@ -86,10 +86,6 @@
           "Version": "3.800.0"
         },
         {
-          "Id": "VirtoCommerce.Core",
-          "Version": "3.800.0"
-        },
-        {
           "Id": "VirtoCommerce.BulkActionsModule",
           "Version": "3.800.0"
         },
@@ -172,7 +168,8 @@
         {
           "Id": "VirtoCommerce.Cart",
           "Version": "3.800.0"
-        },  {
+        },
+        {
           "Id": "VirtoCommerce.WebHooks",
           "Version": "3.800.0"
         },
@@ -191,17 +188,21 @@
       "Container": "packages",
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
-           {
+        {
           "Id": "VirtoCommerce.Catalog",
           "BlobName": "VirtoCommerce.Catalog_3.801.0-pr-717-e1fa.zip"
         },
-           {
+        {
           "Id": "VirtoCommerce.Orders",
           "BlobName": "VirtoCommerce.Orders_3.801.0-pr-397-d024.zip"
         },
-           {
+        {
           "Id": "VirtoCommerce.Subscription",
           "BlobName": "VirtoCommerce.Subscription_3.801.0-pr-86-159b.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Core",
+          "BlobName": "VirtoCommerce.Core_3.801.0.zip"
         }
       ]
     }
