@@ -5,7 +5,7 @@
   platform:
     dbName: $DB_NAME
     imageRepository: virtopaasregistrymain.azurecr.io/krasnodar/platform
-    imageTag: 3.411.0-alpha.12726-dev-4be3190f-2555d23
+    imageTag: 3.438.0-alpha.12792-pt-14211-redis-reconnect-391dc595-4f078aa
     sqlReplica: false
     config:
       restart: 2
