@@ -154,10 +154,6 @@
           "BlobName": "VirtoCommerce.AuthorizeNetPayment_3.801.0-alpha.61.zip"
         },
         {
-          "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.801.0-alpha.192.zip"
-        },
-        {
           "Id": "VirtoCommerce.GDPR",
           "BlobName": "VirtoCommerce.GDPR_3.801.0-alpha.109.zip"
         },
@@ -236,6 +232,10 @@
         {
           "Id": "VirtoCommerce.Subscription",
           "BlobName": "VirtoCommerce.Subscription_3.801.0-alpha.317.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ProfileExperienceApiModule",
+          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.801.0-alpha.194.zip"
         }
       ]
     }
