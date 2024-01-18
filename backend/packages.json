@@ -146,10 +146,6 @@
           "Version": "3.800.0"
         },
         {
-          "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.800.0"
-        },
-        {
           "Id": "VirtoCommerce.Quote",
           "Version": "3.800.0"
         },
@@ -207,6 +203,9 @@
         {
           "Id": "VirtoCommerce.Orders",
           "BlobName": "VirtoCommerce.Orders_3.801.0.zip"
+        },{
+          "Id": "VirtoCommerce.ProfileExperienceApiModule",
+          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.801.0-pr-69-ac08.zip"
         }
       ]
     }
