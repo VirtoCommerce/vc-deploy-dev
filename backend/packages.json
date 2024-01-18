@@ -1,10 +1,10 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.802.0-alpha.12842-vcst-147-8974d344",
+  "PlatformVersion": "3.802.0",
   "StorefrontVersion": "6.34.0-master-d8f90289",
   "ThemeB2BVue": "https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.46.0/vc-theme-b2b-vue-1.46.0.zip",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.802.0-alpha.12842-vcst-147-8974d344",
+  "PlatformImageTag": "3.802.0",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -203,7 +203,8 @@
         {
           "Id": "VirtoCommerce.Orders",
           "BlobName": "VirtoCommerce.Orders_3.801.0.zip"
-        },{
+        },
+        {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.801.0-pr-69-ac08.zip"
         }
