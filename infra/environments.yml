@@ -4,7 +4,7 @@
   servicePlan: S3
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.801.0-alpha.12836-vcst-146-skip-auto-installation-05aeb194-6725ca7
+    imageTag: 3.802.0-alpha.12842-vcst-147-8974d344-56f0c28
     sqlReplica: false
     config:
       FileUpload__RootPath: attachments
@@ -27,7 +27,7 @@
       #Serilog__WriteTo__1__Name: ApplicationInsights
       #Serilog__WriteTo__1__Args__telemetryConverter: Serilog.Sinks.ApplicationInsights.TelemetryConverters.TraceTelemetryConverter, Serilog.Sinks.ApplicationInsights
       #Serilog__WriteTo__1__Args__restrictedToMinimumLevel: "Information"
-      #VirtoCommerce__SampleDataUrl: ""
+      VirtoCommerce__SampleDataUrl: "https://virtocommerce.azureedge.net/sample-data/b2b-sample-store.zip"
       TaxModule__FixedRateTaxProvider__Enabled: true
       Notifications__DefaultSender: azure_25da07ed75daacae20578a7a7dc58541@azure.com
       Notifications__Gateway: SendGrid
