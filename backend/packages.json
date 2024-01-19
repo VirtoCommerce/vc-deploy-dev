@@ -7,13 +7,7 @@
           "BlobName": "VirtoCommerce.PageBuilderModule_3.407.0.zip"
         },
         {
-          "BlobName": "VirtoCommerce.FileExperienceApi_3.400.0-pr-2-235e.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.ExperienceApi_3.450.0-alpha.1327-pt-14933.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.Quote_3.406.0-alpha.381-vcst-117.zip"
+           "BlobName": "VirtoCommerce.ExperienceApi_3.450.0-pr-516-cf66.zip"
         }
       ],
       "Container": "packages",
@@ -130,6 +124,10 @@
           "Version": "3.400.0"
         },
         {
+          "Id": "VirtoCommerce.ExperienceApi",
+          "Version": "3.449.0"
+        },
+        {
           "Id": "VirtoCommerce.ImageTools",
           "Version": "3.403.0"
         },
@@ -168,6 +166,10 @@
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "Version": "3.415.0"
+        },
+        {
+          "Id": "VirtoCommerce.Quote",
+          "Version": "3.405.0"
         },
         {
           "Id": "VirtoCommerce.Return",
