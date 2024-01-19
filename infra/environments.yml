@@ -4,7 +4,7 @@
   servicePlan: S3
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.802.0-alpha.12842-vcst-147-8974d344-56f0c28
+    imageTag: 3.802.0-f1403b1
     sqlReplica: false
     config:
       FileUpload__RootPath: attachments
@@ -44,7 +44,7 @@
       PushNotifications__ScalabilityMode: RedisBackplane
       PushNotifications__HubUrl: https://vcptcore-qa.paas.govirto.com/pushNotificationHub?api_key=458ab7f7-df17-4aed-9f21-092f8b611efa
       PushNotifications__RedisBackplane__ChannelName: vcptcore-qa-chanel
-      Search__OrderFullTextSearchEnabled: true
+      Search__OrderFullTextSearchEnabled: false
       Search__ContentFullTextSearchEnabled: true
       Search__DocumentScopes__0__DocumentType: Product
       Search__DocumentScopes__0__Scope: vcptcore-qa-platformvcptcore-scope11
