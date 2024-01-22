@@ -10,6 +10,9 @@
           "BlobName": "VirtoCommerce.FileExperienceApi_3.400.0-pr-2-235e.zip"
         },
         {
+          "BlobName": "VirtoCommerce.ExperienceApi_3.450.0-alpha.1327-pt-14933.zip"
+        },
+        {
           "BlobName": "VirtoCommerce.Quote_3.406.0-alpha.381-vcst-117.zip"
         }
       ],
@@ -125,10 +128,6 @@
         {
           "Id": "VirtoCommerce.Hotjar",
           "Version": "3.400.0"
-        },
-        {
-          "Id": "VirtoCommerce.ExperienceApi",
-          "Version": "3.449.0"
         },
         {
           "Id": "VirtoCommerce.ImageTools",
