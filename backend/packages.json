@@ -7,7 +7,10 @@
           "BlobName": "VirtoCommerce.PageBuilderModule_3.407.0.zip"
         },
         {
-          "BlobName": "VirtoCommerce.FileExperienceApi_3.400.0-alpha.5-pt-14952.zip"
+          "BlobName": "VirtoCommerce.FileExperienceApi_3.400.0-pr-2-235e.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Quote_3.406.0-alpha.381-vcst-117.zip"
         }
       ],
       "Container": "packages",
@@ -166,10 +169,6 @@
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "Version": "3.415.0"
-        },
-        {
-          "Id": "VirtoCommerce.Quote",
-          "Version": "3.404.0"
         },
         {
           "Id": "VirtoCommerce.Return",
