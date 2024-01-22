@@ -5,6 +5,9 @@
       "Modules": [
         {
           "BlobName": "VirtoCommerce.PageBuilderModule_3.407.0.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.FileExperienceApi_3.400.0-alpha.5-pt-14952.zip"
         }
       ],
       "Container": "packages",
@@ -50,7 +53,7 @@
         },
         {
           "Id": "VirtoCommerce.Catalog",
-          "Version": "3.423.0"
+          "Version": "3.424.0"
         },
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
@@ -122,7 +125,7 @@
         },
         {
           "Id": "VirtoCommerce.ExperienceApi",
-          "Version": "3.448.0"
+          "Version": "3.449.0"
         },
         {
           "Id": "VirtoCommerce.ImageTools",
