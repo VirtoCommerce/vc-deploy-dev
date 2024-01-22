@@ -11,7 +11,7 @@
      APPINSIGHTS_INSTRUMENTATIONKEY: f783fb6a-fc05-4f19-9a2b-3e587ad37ecc
      Search__ElasticSearch__EnableCompatibilityMode: true
      ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
-     Restart: 11
+     Restart: 17
   storefront:
     enabled: true
     imageRepository: virtopaasregistrymain.azurecr.io/krasnodar/storefront
@@ -19,13 +19,16 @@
     servicePlan: B1
     config:
       APPINSIGHTS_INSTRUMENTATIONKEY: f96b35e6-2863-4c82-b30f-46131f985cea
-      VirtoCommerce__Endpoint__Password: ddD1e2DH
-      VirtoCommerce__DefaultStore: B2B-store
+      VirtoCommerce__DefaultStore: Clothing
+    secretConfig:
+      VirtoCommerce__Endpoint__Password: frontendpass
     themes:
-      B2B-store: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.37.0/vc-theme-b2b-vue-1.37.0.zip
+      Clothing: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.47.0/vc-theme-b2b-vue-1.47.0.zip
   ingress:
     hostnames:
       krasnodar-testdomainnamevirtoclouddev: krasnodar-testdomainname.virtocloud.dev
+storefrontHostnames:
+      krasnodar-testdomainname-storefrontvirtoclouddev: krasnodar-testdomainname-storefront.virtocloud.dev
   customApps:
     app1:
       enabled: false
