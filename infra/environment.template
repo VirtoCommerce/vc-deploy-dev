@@ -1,5 +1,5 @@
 - name: krasnodar-$ARGO_APP_NAME
-  gitops: true
+  gitops: false
   production: false
   servicePlan: $SERVICE_PLAN
   platform:
