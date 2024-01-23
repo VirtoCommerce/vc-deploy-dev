@@ -4,7 +4,7 @@
   servicePlan: S3
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.803.0-7cc3189
+    imageTag: 3.804.0-alpha.12846-vcst-275-c4c5bdbe-20edf9f
     sqlReplica: false
     config:
       FileUpload__RootPath: attachments
