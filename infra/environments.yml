@@ -14,12 +14,12 @@
       AzureAd__TenantId: bc03e660-5e3a-45c4-bf5c-b75489f78923
       AzureAd__Priority: 0
       PasswordLogin__Priority: 1
-      Search__Provider: ElasticAppSearch
+      Search__Provider: ElasticSearch8
       Search__Scope: virtostart
       Search__ElasticAppSearch__Endpoint: "http://enterprise-search-ent-http.elastic-system.svc.cluster.local:3002"
       Search__ElasticAppSearch__EnableHttpCompression: "true"
       Search__ElasticAppSearch__KibanaBaseUrl: "https://kibana-vc-02.govirto.com/"
-      Search__ElasticSearch8__Server: https://virto-start-public-demo.es.us-central1.gcp.cloud.es.io
+      Search__ElasticSearch8__Server: https://12c4e146940b4cf89bbab1a02f2cf11b.us-central1.gcp.cloud.es.io
       Search__ElasticSearch8__User: elastic 
       Notifications__DefaultSender: azure_25da07ed75daacae20578a7a7dc58541@azure.com
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
