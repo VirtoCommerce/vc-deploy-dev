@@ -23,7 +23,7 @@ jobs:
       - name: Update krasnodar-${{ env.APP_NAME }} cloud environment
         env:
           ARGO_APP_NAME: ${{ env.APP_NAME }}
-          SERVICE_PLAN: B2
+          SERVICE_PLAN: B1
           DB_NAME: krasnodar-qa-platform_krasnodar
           ELASTIC_USER: krasnodar-qa-krasnodar
           WEBHOOK_URL: eastus-vc-dev.webhook.virtocloud.dev
