@@ -154,10 +154,6 @@
           "Version": "3.800.0"
         },
         {
-          "Id": "VirtoCommerce.WebHooks",
-          "Version": "3.800.0"
-        },
-        {
           "Id": "VirtoCommerce.MarketingExperienceApi",
           "Version": "3.800.0"
         },
@@ -211,6 +207,10 @@
         {
           "Id": "VirtoCommerce.DynamicAssociationsModule",
           "BlobName": "VirtoCommerce.DynamicAssociationsModule_3.801.0-pr-44-e971.zip"
+        },
+        {
+          "Id": "VirtoCommerce.WebHooks",
+          "BlobName": "VirtoCommerce.WebHooks_3.801.0-pr-75-35a8.zip"
         },
            {
           "Id": "VirtoCommerce.ImageTools",
