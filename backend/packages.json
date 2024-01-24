@@ -209,12 +209,12 @@
           "BlobName": "VirtoCommerce.DynamicAssociationsModule_3.801.0-pr-44-e971.zip"
         },
         {
-          "Id": "VirtoCommerce.WebHooks",
-          "BlobName": "VirtoCommerce.WebHooks_3.801.0-pr-75-35a8.zip"
-        },
-           {
           "Id": "VirtoCommerce.ImageTools",
           "BlobName": "VirtoCommerce.ImageTools_3.801.0-pr-105-592f.zip"
+        },
+        {
+          "Id": "VirtoCommerce.WebHooks",
+          "BlobName": "VirtoCommerce.WebHooks_3.801.0.zip"
         }
       ]
     }
