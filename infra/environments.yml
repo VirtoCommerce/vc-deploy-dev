@@ -4,7 +4,7 @@
   servicePlan: F2
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.414.19-a2629b9
+    imageTag: 3.800.6-8e7a25f
     sqlReplica: false
     config:
       VirtoCommerce__SampleDataUrl: https://virtocommerce.azureedge.net/sample-data/b2b-sample-store.zip
@@ -86,7 +86,7 @@
       VirtoCommerce__Endpoint__Password: store
       DOTNET_USE_POLLING_FILE_WATCHER: true
     themes:
-      B2B-store: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.38.0/vc-theme-b2b-vue-1.38.0.zip
+      B2B-store: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.46.0/vc-theme-b2b-vue-1.46.0.zip
   ingress: {}
   customApps:
     app1:
