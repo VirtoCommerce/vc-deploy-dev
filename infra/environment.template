@@ -31,6 +31,7 @@
       admin1: krasnodar-testdomainname.virtocloud.dev
     storefrontHostnames:
       storefront1: krasnodar-stestdomainname.virtocloud.dev
+      storefront2: krasondar
   customApps:
     app1:
       enabled: false
