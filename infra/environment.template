@@ -19,10 +19,10 @@
     servicePlan: B1
     config:
       APPINSIGHTS_INSTRUMENTATIONKEY: f96b35e6-2863-4c82-b30f-46131f985cea
-      VirtoCommerce__DefaultStore: Clothing
       Restart: 24
     secretConfig:
       VirtoCommerce__Endpoint__Password: frontendpass
+      VirtoCommerce__DefaultStore: defaultstore
     themes:
       Clothing: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.47.0/vc-theme-b2b-vue-1.47.0.zip
   ingress:
