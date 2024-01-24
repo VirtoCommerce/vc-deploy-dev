@@ -102,10 +102,6 @@
           "Version": "3.800.0"
         },
         {
-          "Id": "VirtoCommerce.ImageTools",
-          "Version": "3.800.0"
-        },
-        {
           "Id": "VirtoCommerce.Inventory",
           "Version": "3.800.0"
         },
@@ -215,6 +211,10 @@
         {
           "Id": "VirtoCommerce.DynamicAssociationsModule",
           "BlobName": "VirtoCommerce.DynamicAssociationsModule_3.801.0-pr-44-e971.zip"
+        },
+           {
+          "Id": "VirtoCommerce.ImageTools",
+          "BlobName": "VirtoCommerce.ImageTools_3.801.0-pr-105-592f.zip"
         }
       ]
     }
