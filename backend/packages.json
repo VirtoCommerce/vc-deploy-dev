@@ -168,10 +168,6 @@
           "Version": "3.800.0"
         },
         {
-          "Id": "VirtoCommerce.DynamicAssociationsModule",
-          "Version": "3.800.0"
-        },
-        {
           "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
           "Version": "4.800.0"
         },
@@ -205,6 +201,10 @@
         },
         {
           "Id": "VirtoCommerce.Marketing",
+          "Version": "3.801.0"
+        },
+        {
+          "Id": "VirtoCommerce.DynamicAssociationsModule",
           "Version": "3.801.0"
         }
       ]
