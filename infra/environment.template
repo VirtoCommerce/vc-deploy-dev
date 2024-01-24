@@ -22,9 +22,10 @@
       Restart: 24
     secretConfig:
       VirtoCommerce__Endpoint__Password: frontendpass
-      VirtoCommerce__DefaultStore: defaultstore
+      VirtoCommerce__DefaultStore: defaultstore1
     themes:
       Clothing: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.47.0/vc-theme-b2b-vue-1.47.0.zip
+      B2B-store: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.37.0/vc-theme-b2b-vue-1.37.0.zip
   ingress:
     hostnames:
       admin1: krasnodar-testdomainname.virtocloud.dev
