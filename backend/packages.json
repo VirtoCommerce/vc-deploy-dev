@@ -172,10 +172,6 @@
           "Version": "4.800.0"
         },
         {
-          "Id": "VirtoCommerce.WebHooks",
-          "Version": "3.800.0"
-        },
-        {
           "Id": "VirtoCommerce.ShipStation",
           "Version": "3.800.0"
         },
@@ -206,6 +202,10 @@
         {
           "Id": "VirtoCommerce.Marketing",
           "Version": "3.802.0"
+        },
+        {
+          "Id": "VirtoCommerce.WebHooks",
+          "Version": "3.801.0"
         }
       ]
     },
