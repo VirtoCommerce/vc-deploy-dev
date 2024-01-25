@@ -18,6 +18,13 @@
       FileUpload__Scopes__0__AllowedExtensions__4: .png
       FileUpload__Scopes__0__AllowedExtensions__5: .txt
       FileUpload__Scopes__0__AllowedExtensions__6: .xlsx
+      FileUpload__Scopes__0__AllowedExtensions__7: .sasd
+      FileUpload__Scopes__0__AllowedExtensions__8: .tests
+      FileUpload__Scopes__0__AllowedExtensions__9: .testnine
+      FileUpload__Scopes__0__AllowedExtensions__10: .test
+      FileUpload__Scopes__0__AllowedExtensions__11: .123sete456
+      FileUpload__Scopes__0__AllowedExtensions__12: .terdfd
+      FileUpload__Scopes__0__AllowedExtensions__13: .sometest
       AzureAd__ApplicationId: 8227d950-975c-4c28-b7d4-ea440a59dcbb
       AzureAd__Enabled: true
       AzureAd__TenantId: bc03e660-5e3a-45c4-bf5c-b75489f78923
