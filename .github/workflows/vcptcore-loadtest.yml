@@ -16,13 +16,13 @@ env:
 
 
 jobs:
-  azure-sql:
-    runs-on: ubuntu-20.04
-    steps:
-    - name: Azure login
-      uses: azure/login@v1
-      with:
-        creds: '{"clientId":"${{ secrets.AZURE_CREDENTIALS_CLIENT }}","clientSecret":"${{ secrets.AZURE_CREDENTIALS_SECRET }}","subscriptionId":"${{ secrets.AZURE_CREDENTIALS_SUB }}","tenantId":"${{ secrets.AZURE_TENANT_ID }}"}'
+  #azure-sql:
+  #  runs-on: ubuntu-20.04
+  #  steps:
+    #- name: Azure login
+    #  uses: azure/login@v1
+    #  with:
+    #    creds: '{"clientId":"${{ secrets.AZURE_CREDENTIALS_CLIENT }}","clientSecret":"${{ secrets.AZURE_CREDENTIALS_SECRET }}","subscriptionId":"${{ secrets.AZURE_CREDENTIALS_SUB }}","tenantId":"${{ secrets.AZURE_TENANT_ID }}"}'
 
     # - name: Azure CLI - scale up DB
     #   uses: azure/CLI@v1
@@ -45,7 +45,8 @@ jobs:
         inlineScript: |
           az vm start --resource-group Loadtest --name linuxJmeter
   loadtest:
-    needs: [azure-sql, azure-vm]
+    #needs: [azure-sql, azure-vm]
+    needs: [ azure-vm ]
     runs-on: ubuntu-18.04
     name: loadtest
     steps:
@@ -103,7 +104,8 @@ jobs:
           python3.8 loadtest.py && rm loadtest.py
 #test
   Scaledown:
-    needs: [azure-sql, azure-vm, loadtest]
+    #needs: [azure-sql, azure-vm, loadtest]
+    needs: [ azure-vm, loadtest]
     if: always()
     runs-on: ubuntu-20.04
     name: Scaledown
