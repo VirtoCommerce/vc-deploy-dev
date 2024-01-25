@@ -13,24 +13,10 @@
      ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
      Restart: 24
   storefront:
-    enabled: true
-    imageRepository: virtopaasregistrymain.azurecr.io/krasnodar/storefront
-    imageTag: 6.25.0-master-e9a4f990
-    servicePlan: B2
-    config:
-      APPINSIGHTS_INSTRUMENTATIONKEY: f96b35e6-2863-4c82-b30f-46131f985cea
-      Restart: 24
-    secretConfig:
-      VirtoCommerce__Endpoint__Password: frontendpass
-      VirtoCommerce__DefaultStore: defaultstore1
-    themes:
-      Clothing: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.47.0/vc-theme-b2b-vue-1.47.0.zip
-      B2B-store: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.37.0/vc-theme-b2b-vue-1.37.0.zip
+    enabled: false
   ingress:
     hostnames:
       admin1: krasnodar-testdomainname.virtocloud.dev
-    storefrontHostnames:
-      storefront1: krasnodar-stestdomainname.virtocloud.dev
   customApps:
     app1:
       enabled: false
