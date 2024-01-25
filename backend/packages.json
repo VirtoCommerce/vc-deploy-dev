@@ -32,10 +32,6 @@
           "Version": "3.800.0"
         },
         {
-          "Id": "VirtoCommerce.ImageTools",
-          "Version": "3.800.0"
-        },
-        {
           "Id": "VirtoCommerce.Notifications",
           "Version": "3.800.0"
         },
@@ -205,6 +201,10 @@
         },
         {
           "Id": "VirtoCommerce.ExperienceApi",
+          "Version": "3.801.0"
+        },
+        {
+          "Id": "VirtoCommerce.ImageTools",
           "Version": "3.801.0"
         }
       ]
