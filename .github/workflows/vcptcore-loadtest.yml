@@ -3,7 +3,7 @@ name: Run vcptcore-loadtest
 on:
   workflow_dispatch:
   pull_request:
-    branches: [ vcptcore-loadtest, VCI-795_use-recreated_VM ]
+    branches: [ vcptcore-loadtest ]
     types: [closed]
 env:
     ARGO_SERVER: argo.virtocommerce.cloud
