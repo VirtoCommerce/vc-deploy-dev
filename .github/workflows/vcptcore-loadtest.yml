@@ -3,7 +3,7 @@ name: Run vcptcore-loadtest
 on:
   workflow_dispatch:
   pull_request:
-    branches: [ vcptcore-loadtest ]
+    branches: [ vcptcore-loadtest, VCI-795_use-recreated_VM ]
     types: [closed]
 env:
     ARGO_SERVER: argo.virtocommerce.cloud
@@ -36,14 +36,14 @@ jobs:
     - name: Azure login
       uses: azure/login@v1
       with:
-        creds: '{"clientId":"${{ secrets.AZURE_CREDENTIALS_CLIENT }}","clientSecret":"${{ secrets.AZURE_CREDENTIALS_SECRET }}","subscriptionId":"a6522b3e-cc34-41c8-bf38-a5ff3080186a","tenantId":"${{ secrets.AZURE_TENANT_ID }}"}'
+        creds: '{"clientId":"${{ secrets.AZURE_CREDENTIALS_CLIENT }}","clientSecret":"${{ secrets.AZURE_CREDENTIALS_SECRET }}","subscriptionId":"29e73d5c-378f-4e50-8803-270f82cf1114","tenantId":"${{ secrets.AZURE_TENANT_ID }}"}'
 
     - name: Azure CLI - start vm
       uses: azure/CLI@v1
       with:
         azcliversion: 2.30.0
         inlineScript: |
-          az vm start --resource-group load-test_group --name load-test
+          az vm start --resource-group Loadtest --name linuxJmeter
   loadtest:
     needs: [azure-sql, azure-vm]
     runs-on: ubuntu-18.04
@@ -76,10 +76,10 @@ jobs:
       name: Upload script
       with:
         host: ${{ secrets.VM_HOST }}
-        username: vcadmin
+        username: virtoUser
         password: ${{ secrets.VM_PASSWORD }}
         source: "${{ github.workspace }}/scripts/loadtest.py"
-        target: "/home/vcadmin/loadtest-vcptcore"
+        target: "/home/virtoUser/loadtest-vcptcore"
         rm: true
         overwrite: true
         # strip_components: 5
@@ -88,11 +88,11 @@ jobs:
       uses: appleboy/ssh-action@master
       with:
         host: ${{ secrets.VM_HOST }}
-        username: vcadmin
+        username: virtoUser
         password: ${{ secrets.VM_PASSWORD }}
         command_timeout: 45m
         script: |
-          cd  /home/vcadmin
+          cd  /home/virtoUser
           export RELEASE_TAG='${{ env.PLATFORM_IMAGE_TAG }}-${{ github.run_id }}'
           export TEST='./vc-loadtests/Virto_Templates/Backend_Load_Script_Template.jmx'
           export REPO='https://${{ secrets.TMP_TOKEN }}@github.com/VirtoCommerce/vc-loadtests.git'
@@ -123,14 +123,14 @@ jobs:
     - name: Azure login VM
       uses: azure/login@v1
       with:
-        creds: '{"clientId":"${{ secrets.AZURE_CREDENTIALS_CLIENT }}","clientSecret":"${{ secrets.AZURE_CREDENTIALS_SECRET }}","subscriptionId":"a6522b3e-cc34-41c8-bf38-a5ff3080186a","tenantId":"${{ secrets.AZURE_TENANT_ID }}"}'
+        creds: '{"clientId":"${{ secrets.AZURE_CREDENTIALS_CLIENT }}","clientSecret":"${{ secrets.AZURE_CREDENTIALS_SECRET }}","subscriptionId":"29e73d5c-378f-4e50-8803-270f82cf1114","tenantId":"${{ secrets.AZURE_TENANT_ID }}"}'
 
     - name: Azure CLI - stop VM
       uses: azure/CLI@v1
       with:
         azcliversion: 2.30.0
         inlineScript: |
-          az vm stop --resource-group load-test_group --name load-test
+          az vm stop --resource-group Loadtest --name linuxJmeter
 
     # - name: Restart platform 
     #   uses: VirtoCommerce/vc-github-actions/vc-argocd-cli@master
