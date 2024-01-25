@@ -73,7 +73,7 @@
       imageRepository: ghcr.io/virtocommerce/vc-theme-b2b-vue-storybook
       servicePlan: F1
       type: standalone
-      hostname: vcst-qa-storybook.paas.govirto.com
+      hostname: vcst-qa-storybook.govirto.com
       probePath: /
       ingressPath: /
     app2:
