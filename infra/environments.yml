@@ -10,7 +10,7 @@
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
       FileUpload__RootPath: attachments
       FileUpload__Scopes__0__Scope: quote-attachments
-      FileUpload__Scopes__0__MaxFileSize: 1000000
+      FileUpload__Scopes__0__MaxFileSize: 10485760
       FileUpload__Scopes__0__AllowedExtensions__0: .csv
       FileUpload__Scopes__0__AllowedExtensions__1: .docx
       FileUpload__Scopes__0__AllowedExtensions__2: .jpg
