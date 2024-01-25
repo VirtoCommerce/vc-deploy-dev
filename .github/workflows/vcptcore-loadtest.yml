@@ -77,10 +77,10 @@ jobs:
       name: Upload script
       with:
         host: ${{ secrets.VM_HOST }}
-        username: virtoUser
+        username: vcadmin
         password: ${{ secrets.VM_PASSWORD }}
         source: "${{ github.workspace }}/scripts/loadtest.py"
-        target: "/home/virtoUser/loadtest-vcptcore"
+        target: "/home/vcadmin/loadtest-vcptcore"
         rm: true
         overwrite: true
         # strip_components: 5
@@ -89,11 +89,11 @@ jobs:
       uses: appleboy/ssh-action@master
       with:
         host: ${{ secrets.VM_HOST }}
-        username: virtoUser
+        username: vcadmin
         password: ${{ secrets.VM_PASSWORD }}
         command_timeout: 45m
         script: |
-          cd  /home/virtoUser
+          cd  /home/vcadmin
           export RELEASE_TAG='${{ env.PLATFORM_IMAGE_TAG }}-${{ github.run_id }}'
           export TEST='./vc-loadtests/Virto_Templates/Backend_Load_Script_Template.jmx'
           export REPO='https://${{ secrets.TMP_TOKEN }}@github.com/VirtoCommerce/vc-loadtests.git'
