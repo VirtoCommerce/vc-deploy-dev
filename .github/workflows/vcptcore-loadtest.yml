@@ -19,10 +19,10 @@ jobs:
   #azure-sql:
   #  runs-on: ubuntu-20.04
   #  steps:
-  #  - name: Azure login
-  #    uses: azure/login@v1
-  #    with:
-  #      creds: '{"clientId":"${{ secrets.AZURE_CREDENTIALS_CLIENT }}","clientSecret":"${{ secrets.AZURE_CREDENTIALS_SECRET }}","subscriptionId":"${{ secrets.AZURE_CREDENTIALS_SUB }}","tenantId":"${{ secrets.AZURE_TENANT_ID }}"}'
+    #- name: Azure login
+    #  uses: azure/login@v1
+    #  with:
+    #    creds: '{"clientId":"${{ secrets.AZURE_CREDENTIALS_CLIENT }}","clientSecret":"${{ secrets.AZURE_CREDENTIALS_SECRET }}","subscriptionId":"${{ secrets.AZURE_CREDENTIALS_SUB }}","tenantId":"${{ secrets.AZURE_TENANT_ID }}"}'
 
     # - name: Azure CLI - scale up DB
     #   uses: azure/CLI@v1
@@ -36,16 +36,17 @@ jobs:
     - name: Azure login
       uses: azure/login@v1
       with:
-        creds: '{"clientId":"${{ secrets.AZURE_CREDENTIALS_CLIENT }}","clientSecret":"${{ secrets.AZURE_CREDENTIALS_SECRET }}","subscriptionId":"a6522b3e-cc34-41c8-bf38-a5ff3080186a","tenantId":"${{ secrets.AZURE_TENANT_ID }}"}'
+        creds: '{"clientId":"${{ secrets.AZURE_CREDENTIALS_CLIENT }}","clientSecret":"${{ secrets.AZURE_CREDENTIALS_SECRET }}","subscriptionId":"29e73d5c-378f-4e50-8803-270f82cf1114","tenantId":"${{ secrets.AZURE_TENANT_ID }}"}'
 
     - name: Azure CLI - start vm
       uses: azure/CLI@v1
       with:
         azcliversion: 2.30.0
         inlineScript: |
-          az vm start --resource-group load-test_group --name load-test
+          az vm start --resource-group Loadtest --name linuxJmeter
   loadtest:
-    needs: [azure-vm]
+    #needs: [azure-sql, azure-vm]
+    needs: [ azure-vm ]
     runs-on: ubuntu-20.04
     name: loadtest
     steps:
@@ -103,7 +104,8 @@ jobs:
           python3.8 loadtest.py && rm loadtest.py
 #test
   Scaledown:
-    needs: [azure-vm, loadtest]
+    #needs: [azure-sql, azure-vm, loadtest]
+    needs: [ azure-vm, loadtest]
     if: always()
     runs-on: ubuntu-20.04
     name: Scaledown
@@ -123,14 +125,14 @@ jobs:
     - name: Azure login VM
       uses: azure/login@v1
       with:
-        creds: '{"clientId":"${{ secrets.AZURE_CREDENTIALS_CLIENT }}","clientSecret":"${{ secrets.AZURE_CREDENTIALS_SECRET }}","subscriptionId":"a6522b3e-cc34-41c8-bf38-a5ff3080186a","tenantId":"${{ secrets.AZURE_TENANT_ID }}"}'
+        creds: '{"clientId":"${{ secrets.AZURE_CREDENTIALS_CLIENT }}","clientSecret":"${{ secrets.AZURE_CREDENTIALS_SECRET }}","subscriptionId":"29e73d5c-378f-4e50-8803-270f82cf1114","tenantId":"${{ secrets.AZURE_TENANT_ID }}"}'
 
-    - name: Azure CLI - stop VM
+    - name: Azure CLI - stop(deallocate) VM
       uses: azure/CLI@v1
       with:
         azcliversion: 2.30.0
         inlineScript: |
-          az vm stop --resource-group load-test_group --name load-test
+          az vm deallocate --resource-group Loadtest --name linuxJmeter
 
     # - name: Restart platform 
     #   uses: VirtoCommerce/vc-github-actions/vc-argocd-cli@master
