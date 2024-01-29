@@ -127,12 +127,12 @@ jobs:
       with:
         creds: '{"clientId":"${{ secrets.AZURE_CREDENTIALS_CLIENT }}","clientSecret":"${{ secrets.AZURE_CREDENTIALS_SECRET }}","subscriptionId":"29e73d5c-378f-4e50-8803-270f82cf1114","tenantId":"${{ secrets.AZURE_TENANT_ID }}"}'
 
-    - name: Azure CLI - stop(deallocate) VM
-      uses: azure/CLI@v1
-      with:
-        azcliversion: 2.30.0
-        inlineScript: |
-          az vm deallocate --resource-group Loadtest --name linuxJmeter
+   #- name: Azure CLI - stop(deallocate) VM
+   #  uses: azure/CLI@v1
+   #  with:
+   #    azcliversion: 2.30.0
+   #    inlineScript: |
+   #      az vm deallocate --resource-group Loadtest --name linuxJmeter
 
     # - name: Restart platform 
     #   uses: VirtoCommerce/vc-github-actions/vc-argocd-cli@master
