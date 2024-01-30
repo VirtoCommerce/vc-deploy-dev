@@ -193,10 +193,6 @@
           "BlobName": "VirtoCommerce.PageBuilderModule_3.800.0.zip"
         },
         {
-          "Id": "VirtoCommerce.Marketing",
-          "BlobName": "VirtoCommerce.Marketing_3.804.0-pr-224-0241.zip"
-        },
-        {
           "Id": "VirtoCommerce.DynamicAssociationsModule",
           "BlobName": "VirtoCommerce.DynamicAssociationsModule_3.801.0-pr-44-e971.zip"
         },
@@ -215,6 +211,10 @@
         {
           "Id": "VirtoCommerce.ImageTools",
           "BlobName": "VirtoCommerce.ImageTools_3.801.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Marketing",
+          "BlobName": "VirtoCommerce.Marketing_3.804.0.zip"
         }
       ]
     }
