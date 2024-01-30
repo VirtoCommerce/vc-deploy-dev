@@ -122,10 +122,6 @@
           "Version": "3.800.0"
         },
         {
-          "Id": "VirtoCommerce.AzureBlobAssets",
-          "Version": "3.800.0"
-        },
-        {
           "Id": "VirtoCommerce.Content",
           "Version": "3.800.0"
         },
@@ -211,6 +207,10 @@
         {
           "Id": "VirtoCommerce.ImageTools",
           "BlobName": "VirtoCommerce.ImageTools_3.801.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.AzureBlobAssets",
+          "BlobName": "VirtoCommerce.AzureBlobAssets_3.801.0-pr-19-b1a1.zip"
         },
         {
           "Id": "VirtoCommerce.Marketing",
