@@ -16,10 +16,6 @@
           "Version": "3.800.0"
         },
         {
-          "Id": "VirtoCommerce.BulkActionsModule",
-          "Version": "3.800.0"
-        },
-        {
           "Id": "VirtoCommerce.EventBus",
           "Version": "3.800.0"
         },
@@ -206,6 +202,10 @@
         {
           "Id": "VirtoCommerce.Marketing",
           "Version": "3.803.0"
+        },
+        {
+          "Id": "VirtoCommerce.BulkActionsModule",
+          "Version": "3.801.0"
         }
       ]
     },
