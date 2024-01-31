@@ -87,7 +87,7 @@
       Assets__Provider: AzureBlobStorage
       Assets__AzureBlobStorage__ConnectionString: DefaultEndpointsProtocol=https;AccountName=qademovc3;AccountKey=qPIpM63MI2P3ei6B1xIL4/DlKDqdsRj54z2GUtgCAeXPcMe8+mZiUvrvI5fjdyrovk331XmBlMFfAEFAjCnvtw==;EndpointSuffix=core.windows.net
       Assets__AzureBlobStorage__RootPath: catalog
-      Assets__AzureBlobStorage__AllowBlobPublicAccess: true
+      Assets__AzureBlobStorage__AllowBlobPublicAccess: false
       Content__Provider: AzureBlobStorage
       Content__PathMappings__pages__0: Themes
       Content__PathMappings__pages__1: _storeId
