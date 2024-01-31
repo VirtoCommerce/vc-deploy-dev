@@ -4,7 +4,7 @@
   servicePlan: S3
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.805.0-alpha.12849-vcst-352-d6fd3015-8226b0a
+    imageTag: 3.805.0-alpha.12849-vcst-352-d6fd3015-81c96ed
     sqlReplica: false
     config:
       FileUpload__RootPath: attachments
@@ -97,6 +97,7 @@
       Content__PathMappings__blogs__1: _storeId
       Content__PathMappings__blogs__2: blogs
       Content__AzureBlobStorage__RootPath: cms
+      Content__AzureBlobStorage__AllowBlobPublicAccess: false
       Content__AzureBlobStorage__ConnectionString: DefaultEndpointsProtocol=https;AccountName=qademovc3;AccountKey=qPIpM63MI2P3ei6B1xIL4/DlKDqdsRj54z2GUtgCAeXPcMe8+mZiUvrvI5fjdyrovk331XmBlMFfAEFAjCnvtw==;EndpointSuffix=core.windows.net
       VirtoCommerce__LicenseFilePath: app_data/VirtoCommerce.lic
       VirtoCommerce__LicensePublicKeyPath: app_data/public.key
