@@ -6,7 +6,7 @@
     imageTag:  3.805.0-afdae4b
     tier: enterprise
     config:
-      Reload: 40
+      Reload: 41
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: false
       AppInsights__EnableDependencyTrackingTelemetryModule: false
       Swagger__UI__Enabled: false
