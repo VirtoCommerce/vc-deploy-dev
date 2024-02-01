@@ -10,7 +10,7 @@
           "BlobName": "VirtoCommerce.Orders_3.803.0-pr-399-1dab.zip"
         },
         {
-          "BlobName": "VirtoCommerce.ExperienceApi_3.802.0-pr-517-6c6e.zip"
+          "BlobName": "VirtoCommerce.ExperienceApi_3.803.0-pr-515-0a40.zip"
         }
       ],
       "Container": "packages",
@@ -202,7 +202,7 @@
     }
   ],
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.803.0",
+  "PlatformVersion": "3.806.0-alpha.12860-vcst-114-95e03165",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.803.0"
+  "PlatformImageTag": "3.806.0-alpha.12860-vcst-114-95e03165"
 }
