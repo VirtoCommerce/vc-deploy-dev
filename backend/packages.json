@@ -78,10 +78,6 @@
           "BlobName": "VirtoCommerce.Payment_3.801.0-alpha.213.zip"
         },
         {
-          "Id": "VirtoCommerce.AzureBlobAssets",
-          "BlobName": "VirtoCommerce.AzureBlobAssets_3.801.0-alpha.103.zip"
-        },
-        {
           "Id": "VirtoCommerce.FileSystemAssets",
           "BlobName": "VirtoCommerce.FileSystemAssets_3.801.0-alpha.80.zip"
         },
@@ -236,6 +232,10 @@
         {
           "Id": "VirtoCommerce.Orders",
           "BlobName": "VirtoCommerce.Orders_3.804.0-alpha.1217.zip"
+        },
+        {
+          "Id": "VirtoCommerce.AzureBlobAssets",
+          "BlobName": "VirtoCommerce.AzureBlobAssets_3.801.0-alpha.106.zip"
         }
       ]
     }
