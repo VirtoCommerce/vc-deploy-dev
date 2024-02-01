@@ -180,10 +180,6 @@
           "Version": "3.801.0"
         },
         {
-          "Id": "VirtoCommerce.ExperienceApi",
-          "Version": "3.801.0"
-        },
-        {
           "Id": "VirtoCommerce.ImageTools",
           "Version": "3.801.0"
         },
@@ -206,6 +202,10 @@
         {
           "Id": "VirtoCommerce.AzureBlobAssets",
           "Version": "3.801.0"
+        },
+        {
+          "Id": "VirtoCommerce.ExperienceApi",
+          "Version": "3.802.0"
         }
       ]
     },
