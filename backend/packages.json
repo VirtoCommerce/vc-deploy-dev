@@ -1,6 +1,6 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.803.0",
+  "PlatformVersion": "3.805.0",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -47,11 +47,11 @@
         },
         {
           "Id": "VirtoCommerce.AzureBlobAssets",
-          "Version": "3.800.0"
+          "Version": "3.801.0"
         },
         {
           "Id": "VirtoCommerce.BulkActionsModule",
-          "Version": "3.800.0"
+          "Version": "3.801.0"
         },
         {
           "Id": "VirtoCommerce.Cart",
@@ -83,7 +83,7 @@
         },
         {
           "Id": "VirtoCommerce.Core",
-          "Version": "3.801.0"
+          "Version": "3.803.0"
         },
         {
           "Id": "VirtoCommerce.Customer",
@@ -95,7 +95,7 @@
         },
         {
           "Id": "VirtoCommerce.DynamicAssociationsModule",
-          "Version": "3.800.0"
+          "Version": "3.801.0"
         },
         {
           "Id": "VirtoCommerce.ElasticAppSearch",
@@ -111,7 +111,7 @@
         },
         {
           "Id": "VirtoCommerce.ExperienceApi",
-          "Version": "3.801.0"
+          "Version": "3.802.0"
         },
         {
           "Id": "VirtoCommerce.Export",
@@ -135,7 +135,7 @@
         },
         {
           "Id": "VirtoCommerce.ImageTools",
-          "Version": "3.800.0"
+          "Version": "3.801.0"
         },
         {
           "Id": "VirtoCommerce.Inventory",
@@ -143,7 +143,7 @@
         },
         {
           "Id": "VirtoCommerce.Marketing",
-          "Version": "3.800.0"
+          "Version": "3.805.0"
         },
         {
           "Id": "VirtoCommerce.MarketingExperienceApi",
@@ -155,7 +155,7 @@
         },
         {
           "Id": "VirtoCommerce.Orders",
-          "Version": "3.802.0"
+          "Version": "3.803.0"
         },
         {
           "Id": "VirtoCommerce.Payment",
@@ -171,7 +171,7 @@
         },
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.800.0"
+          "Version": "3.801.0"
         },
         {
           "Id": "VirtoCommerce.Quote",
@@ -211,7 +211,7 @@
         },
         {
           "Id": "VirtoCommerce.WebHooks",
-          "Version": "3.800.0"
+          "Version": "3.801.0"
         }
       ]
     }
