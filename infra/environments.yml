@@ -18,6 +18,10 @@
       FileUpload__Scopes__0__AllowedExtensions__4: .png
       FileUpload__Scopes__0__AllowedExtensions__5: .txt
       FileUpload__Scopes__0__AllowedExtensions__6: .xlsx
+      PushNotifications__ForceWebSockets: true
+      PushNotifications__ScalabilityMode: RedisBackplane
+      PushNotifications__HubUrl: https://vcst-qa.govirto.com/pushNotificationHub?api_key=458ab7f7-df17-4aed-9f21-092f8b611efa
+      PushNotifications__RedisBackplane__ChannelName: vcst-qa-chanel
       VirtoCommerce__Hangfire__SqlServerStorageOptions__TryAutoDetectSchemaDependentOptions: true
       VirtoCommerce__Hangfire__SqlServerStorageOptions__UseIgnoreDupKeyOption: true
       AzureAd__ApplicationId: 8227d950-975c-4c28-b7d4-ea440a59dcbb
