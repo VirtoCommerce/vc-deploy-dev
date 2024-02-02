@@ -19,7 +19,7 @@
       FileUpload__Scopes__0__AllowedExtensions__5: .txt
       FileUpload__Scopes__0__AllowedExtensions__6: .xlsx
       VirtoCommerce__Hangfire__SqlServerStorageOptions__TryAutoDetectSchemaDependentOptions: true
-      VirtoCommerce__Hangfire__SqlServerStorageOptions__UseIgnoreDupKeyOption: false
+      VirtoCommerce__Hangfire__SqlServerStorageOptions__UseIgnoreDupKeyOption: true
       AzureAd__ApplicationId: 8227d950-975c-4c28-b7d4-ea440a59dcbb
       AzureAd__Enabled: true
       AzureAd__TenantId: bc03e660-5e3a-45c4-bf5c-b75489f78923
