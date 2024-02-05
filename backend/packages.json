@@ -18,28 +18,24 @@
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
         {
-          "Id": "VirtoCommerce.CatalogExportImport",
-          "BlobName": "VirtoCommerce.CatalogExportImport_3.200.0-pr-34.zip"
-        },
-        {
           "Id": "VirtoCommerce.MarketingExperienceApi",
-          "BlobName": "VirtoCommerce.MarketingExperienceApi_3.202.0.zip"
+          "BlobName": "VirtoCommerce.MarketingExperienceApi_3.800.0.zip"
         },
         {
           "Id": "VirtoCommerce.PowerBiReports",
-          "BlobName": "VirtoCommerce.PowerBiReports_3.200.0-alpha.16.zip"
+          "BlobName": "VirtoCommerce.PowerBiReports_3.800.0.zip"
         },
         {
           "Id": "VirtoCommerce.ApplicationInsights",
-          "BlobName": "VirtoCommerce.ApplicationInsights_3.202.0.zip"
+          "BlobName": "VirtoCommerce.ApplicationInsights_3.800.0.zip"
         },
         {
           "Id": "VirtoCommerce.SeqLog",
-          "BlobName": "VirtoCommerce.SeqLog_3.200.0.zip"
+          "BlobName": "VirtoCommerce.SeqLog_3.800.0.zip"
         },
         {
           "Id": "VirtoCommerce.PageBuilderModule",
-          "BlobName": "VirtoCommerce.PageBuilderModule_3.407.0-pr-59-dc5e.zip"
+          "BlobName": "VirtoCommerce.PageBuilderModule_3.800.0.zip"
         },
         {
           "Id": "VirtoCommerce.AzureAD",
