@@ -3,7 +3,7 @@
   servicePlan: F2
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag:  3.230.0-alpha.12392-dev-a97c5f0e-1144f2f-
+    imageTag:  3.806.0-alpha.12850-dev-511eb755-9bd4bad
     tier: enterprise
     config:
     # headers
@@ -21,7 +21,6 @@
       Search__Scope: "vcptcore-dev-index"
       Search__OrderFullTextSearchEnabled: true
     # Elastic Search settings
-      Search__ElasticSearch__Server: https://elasticsearch-vc03.govirto.com
     # Elastic App Search settings
     # Search__Provider: "ElasticAppSearch"
       Search__ElasticAppSearch__Endpoint: https://enterprise-search-test.govirto.com
