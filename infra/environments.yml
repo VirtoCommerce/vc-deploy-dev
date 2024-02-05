@@ -20,9 +20,9 @@
       FileUpload__Scopes__0__AllowedExtensions__5: .txt
       FileUpload__Scopes__0__AllowedExtensions__6: .xlsx
       #blob storage access
-      Assets__Provider: AzureBlobStorage
-      Assets__AzureBlobStorage__ConnectionString: DefaultEndpointsProtocol=https;AccountName=qademovc3;AccountKey=qPIpM63MI2P3ei6B1xIL4/DlKDqdsRj54z2GUtgCAeXPcMe8+mZiUvrvI5fjdyrovk331XmBlMFfAEFAjCnvtw==;EndpointSuffix=core.windows.net
-      Assets__AzureBlobStorage__RootPath: catalog
+      #Assets__Provider: AzureBlobStorage
+      #Assets__AzureBlobStorage__ConnectionString: DefaultEndpointsProtocol=https;AccountName=qademovc3;AccountKey=qPIpM63MI2P3ei6B1xIL4/DlKDqdsRj54z2GUtgCAeXPcMe8+mZiUvrvI5fjdyrovk331XmBlMFfAEFAjCnvtw==;EndpointSuffix=core.windows.net
+      #Assets__AzureBlobStorage__RootPath: catalog
       PushNotifications__ForceWebSockets: true
       PushNotifications__ScalabilityMode: RedisBackplane
       PushNotifications__HubUrl: https://vcst-qa.govirto.com/pushNotificationHub?api_key=458ab7f7-df17-4aed-9f21-092f8b611efa
