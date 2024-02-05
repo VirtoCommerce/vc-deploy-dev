@@ -8,16 +8,21 @@
     config:
       APPINSIGHTS_INSTRUMENTATIONKEY: ef0125aa-1c8e-42d3-964f-d0a11256309d
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
+      #fileupload setting
       FileUpload__RootPath: attachments
       FileUpload__Scopes__0__Scope: quote-attachments
       FileUpload__Scopes__0__MaxFileSize: 10485760
-      #FileUpload__Scopes__0__AllowedExtensions__0: .csv
-      #FileUpload__Scopes__0__AllowedExtensions__1: .docx
-      #FileUpload__Scopes__0__AllowedExtensions__2: .jpg
-      #FileUpload__Scopes__0__AllowedExtensions__3: .pdf
-      #FileUpload__Scopes__0__AllowedExtensions__4: .png
-      #FileUpload__Scopes__0__AllowedExtensions__5: .txt
-      #FileUpload__Scopes__0__AllowedExtensions__6: .xlsx
+      FileUpload__Scopes__0__AllowedExtensions__0: .csv
+      FileUpload__Scopes__0__AllowedExtensions__1: .docx
+      FileUpload__Scopes__0__AllowedExtensions__2: .jpg
+      FileUpload__Scopes__0__AllowedExtensions__3: .pdf
+      FileUpload__Scopes__0__AllowedExtensions__4: .png
+      FileUpload__Scopes__0__AllowedExtensions__5: .txt
+      FileUpload__Scopes__0__AllowedExtensions__6: .xlsx
+      #blob storage access
+      Assets__Provider: AzureBlobStorage
+      Assets__AzureBlobStorage__ConnectionString: DefaultEndpointsProtocol=https;AccountName=qademovc3;AccountKey=qPIpM63MI2P3ei6B1xIL4/DlKDqdsRj54z2GUtgCAeXPcMe8+mZiUvrvI5fjdyrovk331XmBlMFfAEFAjCnvtw==;EndpointSuffix=core.windows.net
+      Assets__AzureBlobStorage__RootPath: catalog
       PushNotifications__ForceWebSockets: true
       PushNotifications__ScalabilityMode: RedisBackplane
       PushNotifications__HubUrl: https://vcst-qa.govirto.com/pushNotificationHub?api_key=458ab7f7-df17-4aed-9f21-092f8b611efa
