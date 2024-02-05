@@ -1,92 +1,117 @@
 - name: vcptcore-dev
   gitops: true
-  servicePlan: F2
+  production: false
+  servicePlan: F1
   platform:
+    #dbProvider: Azure Database for PostgreSQL
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag:  3.806.0-alpha.12850-dev-511eb755-9bd4bad
-    tier: enterprise
+    imageTag: 3.806.0-alpha.12850-dev-511eb755-9bd4bad
+    sqlReplica: false
     config:
-    # headers
-      ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
-      Reload: 8
-      AppInsights__EnableDependencyTrackingTelemetryModule: false
-    # Redis Settings
+      Serilog__Using__0: Serilog.Sinks.Console
+      Serilog__MinimumLevel__Default: "Information"
+      Serilog__WriteTo__0: Console
+      #APPINSIGHTS_INSTRUMENTATIONKEY: eb2fbd36-8ffa-4e9d-bf64-5ec908e7fc74
       PushNotifications__ForceWebSockets: true
       PushNotifications__ScalabilityMode: RedisBackplane
-      PushNotifications__HubUrl: https://vcptcore-dev.govirto.com/pushNotificationHub
-      PushNotifications__RedisBackplane__ChannelName: "vcptcore-dev-chanel"
-    #setting for swagger
-      Swagger__UI__Enabled: "false"
-    # Search settings
-      Search__Scope: "vcptcore-dev-index"
+      PushNotifications__HubUrl: https://vcptcore-dev.govirto.com/pushNotificationHub?api_key=458ab7f7-df17-4aed-9f21-092f8b611efa
+      PushNotifications__RedisBackplane__ChannelName: vcptcore-dev-chanel
+      Notifications__DefaultSender: azure_25da07ed75daacae20578a7a7dc58541@azure.com
+      Notifications__Gateway: SendGrid
+      Notifications__SmsDefaultSender: +17012510519
+      Notifications__Smtp__EnableSsl: False
+      Notifications__Smtp__Host: smtp.sendgrid.net
+      Notifications__Smtp__Login: apikey
+      Notifications__Smtp__Port: 587
+      Orders__PaymentDistributionLockOptions__LockTimeout: "00:00:30"
+      Orders__PaymentDistributionLockOptions__TryLockTimeout: "00:00:00"
+      Orders__PaymentDistributionLockOptions__RetryInterval: "00:00:00.000"
+      Content__PathMappings__pages__0: Themes
+      Content__PathMappings__pages__1: _storeId
+      Content__PathMappings__pages__2: _theme
+      Content__PathMappings__pages__3: content/pages
+      Content__PathMappings__blogs__0: Pages
+      Content__PathMappings__blogs__1: _storeId
+      Content__PathMappings__blogs__2: blogs
+      DOTNET_USE_POLLING_FILE_WATCHER: true
+      Search__AzureSearch__SearchServiceName: qa-demovc-3-search
+      Search__AzureSearch__Key: 6BE1143312E89C26C227E6BBAE24DD47
+      Search__AzureSearch__QueryParserType: Full
+      #VirtoCommerce__LocalUploadFolderPath: wwwroot/cms-content
+      AzureAd__Priority: 1
+      PasswordLogin__Priority: 0
+      Reload: 69
+      Tax__Avalara__AccountNumber: 2000188799
+      Tax__Avalara__LicenseKey: 16BC3F87E836E15C
+      Search__Provider: Lucene
+      VirtoCommerce__SampleDataUrl: https://virtocommerce.azureedge.net/sample-data/b2b-sample-store.zip
+      #VirtoCommerce__SampleDataUrl: ""
+      ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
+      Swagger__UI__Enabled: false
       Search__OrderFullTextSearchEnabled: true
-    # Elastic Search settings
-    # Elastic App Search settings
-    # Search__Provider: "ElasticAppSearch"
-      Search__ElasticAppSearch__Endpoint: https://enterprise-search-test.govirto.com
+      Search__ContentFullTextSearchEnabled: true
+      Search__ElasticSearch__EnableCompatibilityMode: true
       Search__ElasticAppSearch__EnableHttpCompression: true
-    # End of search settings
-    # End of search settings
-      AzureAd__Enabled: "true"
-      AzureAd__ApplicationId: "86d04c35-143d-4d3c-aea2-8608e2186282"
-      AzureAd__TenantId: "common"
-      AzureAd__ValidateIssuer: "MultitenantAzureAD"
-    # storage
-      Content__FileSystem__PublicUrl: https://vcptcore-dev.govirto.com/cms-content/
-      Assets__FileSystem__PublicUrl: https://vcptcore-dev.govirto.com/cms-content/assets/
-    # license settings
+      Search__ElasticAppSearch__Endpoint: https://enterprise-search-vc03.govirto.com
+      AzureAd__Enabled: true
+      AzureAd__ApplicationId: 86d04c35-143d-4d3c-aea2-8608e2186282
+      AzureAd__TenantId: common
+      AzureAd__ValidateIssuer: MultitenantAzureAD
+      Content__Provider: FileSystem
+      Assets__Provider: FileSystem
+      Assets__AzureBlobStorage__ConnectionString: DefaultEndpointsProtocol=https;AccountName=qademovc3;AccountKey=qPIpM63MI2P3ei6B1xIL4/DlKDqdsRj54z2GUtgCAeXPcMe8+mZiUvrvI5fjdyrovk331XmBlMFfAEFAjCnvtw==;EndpointSuffix=core.windows.net
+      Assets__AzureBlobStorage__RootPath: catalog
+      Content__AzureBlobStorage__RootPath: cms
+      Content__AzureBlobStorage__ConnectionString: DefaultEndpointsProtocol=https;AccountName=qademovc3;AccountKey=qPIpM63MI2P3ei6B1xIL4/DlKDqdsRj54z2GUtgCAeXPcMe8+mZiUvrvI5fjdyrovk331XmBlMFfAEFAjCnvtw==;EndpointSuffix=core.windows.net
       VirtoCommerce__LicenseFilePath: app_data/VirtoCommerce.lic
       VirtoCommerce__LicensePublicKeyPath: app_data/public.key
       VirtoCommerce__LicensePrivateKeyPath: app_data/private.key
-      VirtoCommerce__Licensing__LicensePrivateKeyPath: "/opt/virtocommerce/platform/license/VirtoCommerce.lic"
-      VirtoCommerce__LocalUploadFolderPath: app_data/uploads
-    # hangfire
+      VirtoCommerce__Licensing__LicensePrivateKeyPath: /opt/virtocommerce/platform/license/VirtoCommerce.lic
       VirtoCommerce__Hangfire__JobStorageType: SqlServer
-      Logging__LogLevel__Default: "Information"
-    # setting for authorize.net
-      Payments__AuthorizeNet__ApiLogin: "8hPT4p99R"
-      Payments__AuthorizeNet__SHA2Hash: "FA6D2B37A7E9105942D2D184F1B2DBD8D9CA85611DE55B2267A6F7E0D7E49ACD9A6BC238CE068E75CA14ACFAD734F700FD94DCAB20353DD4D32D9BABE72DBBE4"
-      Payments__AuthorizeNet__TxnKey: "63c54EWq5d2XnGAR"
-      ASPNETCORE_ENVIRONMENT: "Production"
-    # Notifications__DefaultSender: ""
-    # Notifications__Gateway: "SendGrid"
-    # Notifications__SmsDefaultSender: "+17012510519"
-    # Notifications__Smtp__EnableSsl: "False"
-    # Notifications__Smtp__Host: "smtp.sendgrid.net"
-    # Notifications__Smtp__Login: "apikey"
-    # Notifications__Smtp__Port: "587"
-    # default menu state 
-      DefaultMainMenuState__items__0__path: "browse/marketing"
-      DefaultMainMenuState__items__0__isFavorite: "true"
-      DefaultMainMenuState__items__0__order: "1"
-      VirtoCommerce__ApplicationInsights__SamplingOptions__Processor: "Fixed"
-      VirtoCommerce__SampleDataUrl: https://vc3prerelease.blob.core.windows.net/packages/clothing-and-electronics_3_0_2.zip
-      AzureAd__Priority: 1
-      PasswordLogin__Priority: 0
-      Caching__CacheEnabled: true
-    secretConfig: {}
+      Logging__LogLevel__Default: Information
+      Payments__AuthorizeNet__ApiLogin: 8hPT4p99R
+      Payments__AuthorizeNet__SHA2Hash: FA6D2B37A7E9105942D2D184F1B2DBD8D9CA85611DE55B2267A6F7E0D7E49ACD9A6BC238CE068E75CA14ACFAD734F700FD94DCAB20353DD4D32D9BABE72DBBE4
+      Payments__AuthorizeNet__TxnKey: 63c54EWq5d2XnGAR
+      ASPNETCORE_ENVIRONMENT: Production
+      DefaultMainMenuState__items__0__path: browse/marketing
+      DefaultMainMenuState__items__0__isFavorite: true
+      DefaultMainMenuState__items__0__order: 1
+      APPINSIGHTS_INSTRUMENTATIONKEY: cada4cf7-305b-4827-a03a-ca9aac67fb9e
+      FrontendSecurity__OrganizationMaintainerRole: Organization maintainer
+      IdentityOptions__Password__RequiredLength: 3
+      IdentityOptions__Password__RequireDigit: false
+      IdentityOptions__Password__RequireNonAlphanumeric: false
+      IdentityOptions__Password__RequireUppercase: false
+      IdentityOptions__Password__RequireLowercase: false
+      EventBus__Connections__0__Name: "AzureEventGridApps"
+      EventBus__Connections__0__ProviderName: "AzureEventGrid"
+      EventBus__Connections__0__ConnectionOptionsSerialized: "{\"ConnectionString\": \"https://test-event-grid-dont-delete.westus-1.eventgrid.azure.net/api/events\", \"AccessKey\": \"kvpXOgw5MiNjBeBKdroX1r45UvZloXMwlM7i1TyqoiI=\"}"
+      EventBus__Subscriptions__0__ConnectionName: "AzureEventGridApps"
+      EventBus__Subscriptions__0__Name: "TestSubscriptionAppS"
+      EventBus__Subscriptions__0__Events__0__EventId: "VirtoCommerce.Platform.Core.Security.Events.UserChangedEvent"
+    secretConfig:
+      Search__ElasticAppSearch__PrivateApiKey: elasticappsearch
+      Notifications__SendGrid__ApiKey: sendkey
+      Notifications__Smtp__Password: smtppasswordyandex
   storefront:
     enabled: true
-    servicePlan: F1
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/storefront
+    servicePlan: S1
+    imageTag: 6.34.0-master-d8f90289
     config:
-      ASPNETCORE_FORWARDEDHEADERS_ENABLED: "true"
-      CookieAuthenticationOptions__ExpireTimeSpan: "12:00:00"
-      SnapshotCollectorConfiguration__IsEnabled: "false"
-      Swagger__UI__Enable: "true"
+      DOTNET_USE_POLLING_FILE_WATCHER: true
+      ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
+      CookieAuthenticationOptions__ExpireTimeSpan: 12:00:00
+      SnapshotCollectorConfiguration__IsEnabled: false
+      Swagger__UI__Enable: true
       VirtoCommerce__DefaultStore: B2B-store
       VirtoCommerce__Endpoint__Password: store
-    secretConfig: {}
     themes:
-      B2B-store: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-1.9.0-pr-313-8831-8831bc33.zip
-  ingress:
-    hostname: vcptcore-dev.govirto.com
+      B2B-store: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.46.0/vc-theme-b2b-vue-1.46.0.zip
+  ingress: {}
   customApps:
     app1:
       enabled: false
     app2:
       enabled: false
-  protectedParameters:
-   - platform.image.tag
-   - storefront.image.tag
-  version: 3.211
+  version: 3.208
