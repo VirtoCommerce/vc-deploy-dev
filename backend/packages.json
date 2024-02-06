@@ -193,10 +193,6 @@
           "BlobName": "VirtoCommerce.WebHooks_3.801.0-pr-75-35a8.zip"
         },
         {
-          "Id": "VirtoCommerce.Quote",
-          "BlobName": "VirtoCommerce.Quote_3.801.0-pr-102-0180.zip"
-        },
-        {
           "Id": "VirtoCommerce.ImageTools",
           "BlobName": "VirtoCommerce.ImageTools_3.801.0.zip"
         },
@@ -223,6 +219,10 @@
         {
           "Id": "VirtoCommerce.ExperienceApi",
           "BlobName": "VirtoCommerce.ExperienceApi_3.803.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Quote",
+          "BlobName": "VirtoCommerce.Quote_3.801.0.zip"
         }
       ]
     }
