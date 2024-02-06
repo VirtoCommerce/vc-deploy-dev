@@ -1,11 +1,11 @@
-- name: vcptcore-loadtest
+- name: vcptcore-postgresql
   gitops: true
   production: false
   servicePlan: P2
   platform:
-    #dbProvider: Azure Database for PostgreSQL
+    dbProvider: Azure Database for PostgreSQL
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.801.0-alpha.12829-net-8-bump-3272244a-ed7b29a
+    imageTag: 3.452.4-abde7b1
     sqlReplica: false
     config:
       Serilog__Using__0: Serilog.Sinks.Console
@@ -14,8 +14,8 @@
       #APPINSIGHTS_INSTRUMENTATIONKEY: eb2fbd36-8ffa-4e9d-bf64-5ec908e7fc74
       PushNotifications__ForceWebSockets: true
       PushNotifications__ScalabilityMode: RedisBackplane
-      PushNotifications__HubUrl: https://vcptcore-loadtest.paas.govirto.com/pushNotificationHub?api_key=458ab7f7-df17-4aed-9f21-092f8b611efa
-      PushNotifications__RedisBackplane__ChannelName: vcptcore-loadtest-chanel
+      PushNotifications__HubUrl: https://vcptcore-postgresql.govirto.com/pushNotificationHub?api_key=458ab7f7-df17-4aed-9f21-092f8b611efa
+      PushNotifications__RedisBackplane__ChannelName: vcptcore-postgresql-chanel
       Notifications__DefaultSender: azure_25da07ed75daacae20578a7a7dc58541@azure.com
       Notifications__Gateway: SendGrid
       Notifications__SmsDefaultSender: +17012510519
@@ -76,7 +76,7 @@
       DefaultMainMenuState__items__0__path: browse/marketing
       DefaultMainMenuState__items__0__isFavorite: true
       DefaultMainMenuState__items__0__order: 1
-      APPINSIGHTS_INSTRUMENTATIONKEY: cada4cf7-305b-4827-a03a-ca9aac67fb9e
+      #APPINSIGHTS_INSTRUMENTATIONKEY: cada4cf7-305b-4827-a03a-ca9aac67fb9e
       FrontendSecurity__OrganizationMaintainerRole: Organization maintainer
       IdentityOptions__Password__RequiredLength: 3
       IdentityOptions__Password__RequireDigit: false
