@@ -6,7 +6,7 @@
     imageRepository: virtopaasregistrymain.azurecr.io/vcst/platform
     sqlReplica: false
     config:
-      reload: 1
+      reload: 2
       APPINSIGHTS_INSTRUMENTATIONKEY: b64da477-188b-4154-969b-3cb1310400f0
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
       AzureAd__ApplicationId: 8227d950-975c-4c28-b7d4-ea440a59dcbb
