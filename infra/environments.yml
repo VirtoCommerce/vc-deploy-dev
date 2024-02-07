@@ -48,9 +48,9 @@
       Notifications__SendGrid__ApiKey: sendgrid-apikey
       Payments__AuthorizeNet__SHA2Hash: authorizenet-sha2hash
       Payments__AuthorizeNet__TxnKey: authorizenet-txnkey
-      Skyflow__clientID: skyflow-clientID
-      Skyflow__keyID: skyflow-keyID
-      Skyflow__privateKey: skyflow-privateKey
+      Skyflow__clientID: skyflow-clientid
+      Skyflow__keyID: skyflow-keyid
+      Skyflow__privateKey: skyflow-privatekey
   storefront:
     enabled: true
     imageRepository: virtopaasregistrymain.azurecr.io/vcst/storefront
