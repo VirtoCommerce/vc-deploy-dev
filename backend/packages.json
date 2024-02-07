@@ -222,16 +222,16 @@
           "BlobName": "VirtoCommerce.FileExperienceApi_3.801.0-alpha.10.zip"
         },
         {
-          "Id": "VirtoCommerce.ExperienceApi",
-          "BlobName": "VirtoCommerce.ExperienceApi_3.804.0-alpha.1334.zip"
-        },
-        {
           "Id": "VirtoCommerce.Quote",
           "BlobName": "VirtoCommerce.Quote_3.802.0-alpha.383.zip"
         },
         {
           "Id": "VirtoCommerce.Sitemaps",
           "BlobName": "VirtoCommerce.Sitemaps_3.801.0-alpha.332.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ExperienceApi",
+          "BlobName": "VirtoCommerce.ExperienceApi_3.804.0-alpha.1335.zip"
         }
       ]
     }
