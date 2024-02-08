@@ -112,10 +112,6 @@
           "Version": "3.800.0"
         },
         {
-          "Id": "VirtoCommerce.Sitemaps",
-          "Version": "3.800.0"
-        },
-        {
           "Id": "VirtoCommerce.CustomerReviews",
           "Version": "3.800.0"
         },
@@ -209,6 +205,10 @@
         },
         {
           "Id": "VirtoCommerce.Quote",
+          "Version": "3.801.0"
+        },
+        {
+          "Id": "VirtoCommerce.Sitemaps",
           "Version": "3.801.0"
         }
       ]
