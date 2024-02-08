@@ -5,15 +5,6 @@
       "Modules": [
         {
           "BlobName": "VirtoCommerce.PageBuilderModule_3.800.0.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.FileExperienceApi_3.800.0-pr-2-a664.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.Quote_3.801.0-pr-101-c98e.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.Assets_3.801.0-pr-18-4fb7.zip"
         }
       ],
       "Container": "packages",
@@ -30,6 +21,10 @@
           "Version": "3.800.0"
         },
         {
+          "Id": "VirtoCommerce.Assets",
+          "Version": "3.801.0"
+        },
+        {
           "Id": "VirtoCommerce.AuthorizeNetPayment",
           "Version": "3.800.0"
         },
@@ -43,11 +38,11 @@
         },
         {
           "Id": "VirtoCommerce.AzureBlobAssets",
-          "Version": "3.800.0"
+          "Version": "3.801.0"
         },
         {
           "Id": "VirtoCommerce.BulkActionsModule",
-          "Version": "3.800.0"
+          "Version": "3.801.0"
         },
         {
           "Id": "VirtoCommerce.Cart",
@@ -79,7 +74,7 @@
         },
         {
           "Id": "VirtoCommerce.Core",
-          "Version": "3.800.0"
+          "Version": "3.803.0"
         },
         {
           "Id": "VirtoCommerce.Customer",
@@ -91,7 +86,7 @@
         },
         {
           "Id": "VirtoCommerce.DynamicAssociationsModule",
-          "Version": "3.800.0"
+          "Version": "3.801.0"
         },
         {
           "Id": "VirtoCommerce.ElasticAppSearch",
@@ -107,10 +102,14 @@
         },
         {
           "Id": "VirtoCommerce.ExperienceApi",
-          "Version": "3.802.0"
+          "Version": "3.803.0"
         },
         {
           "Id": "VirtoCommerce.Export",
+          "Version": "3.800.0"
+        },
+        {
+          "Id": "VirtoCommerce.FileExperienceApi",
           "Version": "3.800.0"
         },
         {
@@ -131,7 +130,7 @@
         },
         {
           "Id": "VirtoCommerce.ImageTools",
-          "Version": "3.800.0"
+          "Version": "3.801.0"
         },
         {
           "Id": "VirtoCommerce.Inventory",
@@ -139,7 +138,7 @@
         },
         {
           "Id": "VirtoCommerce.Marketing",
-          "Version": "3.800.0"
+          "Version": "3.805.0"
         },
         {
           "Id": "VirtoCommerce.MarketingExperienceApi",
@@ -167,7 +166,11 @@
         },
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.800.0"
+          "Version": "3.801.0"
+        },
+        {
+          "Id": "VirtoCommerce.Quote",
+          "Version": "3.801.0"
         },
         {
           "Id": "VirtoCommerce.Return",
@@ -199,7 +202,7 @@
         },
         {
           "Id": "VirtoCommerce.WebHooks",
-          "Version": "3.800.0"
+          "Version": "3.801.0"
         }
       ]
     }
