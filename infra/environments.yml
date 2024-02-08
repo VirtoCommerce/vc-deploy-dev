@@ -5,7 +5,7 @@
   platform:
     dbProvider: Azure Database for PostgreSQL
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.800.0-c857000
+    imageTag: 3.807.0-fe03eb5
     sqlReplica: false
     config:
       Serilog__Using__0: Serilog.Sinks.Console
