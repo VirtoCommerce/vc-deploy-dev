@@ -4,7 +4,7 @@
   servicePlan: S3
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.806.0-alpha.12854-vcst-345-81ac680e-be59d5e
+    imageTag: 3.807.0-2fdfbdf
     sqlReplica: false
     config:
       FileUpload__RootPath: attachments
@@ -18,7 +18,7 @@
       FileUpload__Scopes__0__AllowedExtensions__5: .txt
       FileUpload__Scopes__0__AllowedExtensions__6: .xlsx
       DOTNET_USE_POLLING_FILE_WATCHER: true
-      Reload: 16
+      Reload: 17
       #ConnectionStrings__AzureAppConfigurationConnectionString: "Endpoint=https://qa-vc-app-config.azconfig.io;Id=BvwK;Secret=nbF7kOXCU14+qCF5OtP4LR63zfbSyDx6th46bIWkUHQ="
       #Serilog__Using__0: Serilog.Sinks.Console
       #Serilog__Using__1: Serilog.Sinks.ApplicationInsights
