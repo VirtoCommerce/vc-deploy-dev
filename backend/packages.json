@@ -144,10 +144,6 @@
           "Version": "3.800.0"
         },
         {
-          "Id": "VirtoCommerce.Catalog",
-          "Version": "3.801.0"
-        },
-        {
           "Id": "VirtoCommerce.Subscription",
           "Version": "3.801.0"
         },
@@ -210,6 +206,10 @@
         {
           "Id": "VirtoCommerce.Sitemaps",
           "Version": "3.801.0"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "Version": "3.802.0"
         }
       ]
     },
