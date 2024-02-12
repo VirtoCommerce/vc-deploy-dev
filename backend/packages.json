@@ -164,10 +164,6 @@
           "Version": "3.801.0"
         },
         {
-          "Id": "VirtoCommerce.Core",
-          "Version": "3.803.0"
-        },
-        {
           "Id": "VirtoCommerce.AzureBlobAssets",
           "Version": "3.801.0"
         },
@@ -209,6 +205,10 @@
         },
         {
           "Id": "VirtoCommerce.Orders",
+          "Version": "3.804.0"
+        },
+        {
+          "Id": "VirtoCommerce.Core",
           "Version": "3.804.0"
         }
       ]
