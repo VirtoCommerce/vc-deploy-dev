@@ -4,7 +4,7 @@
   servicePlan: S3
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.807.0-145478a
+    imageTag: 3.807.0-412369a
     sqlReplica: false
     config:
       FileUpload__RootPath: attachments
@@ -159,7 +159,7 @@
   storefront:
     enabled: true
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/storefront
-    imageTag: 6.35.0-alpha.983-pt-14386-ba3e63f2
+    imageTag: 6.37.0-master-628b3528
     servicePlan: S1
     config:
       Reload: 21
@@ -171,7 +171,7 @@
       Swagger__UI__Enable: true
       ConnectionStrings__ContentConnectionString: provider=AzureBlobStorage;rootPath=cms;DefaultEndpointsProtocol=https;AccountName=qademovc3;AccountKey=qPIpM63MI2P3ei6B1xIL4/DlKDqdsRj54z2GUtgCAeXPcMe8+mZiUvrvI5fjdyrovk331XmBlMFfAEFAjCnvtw==;EndpointSuffix=core.windows.net
     themes:
-      B2B-store: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-1.49.0-pr-944-c46d-c46dbc69.zip
+      B2B-store: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.49.0/vc-theme-b2b-vue-1.49.0.zip
   ingress: {}
   customApps:
     app1:
