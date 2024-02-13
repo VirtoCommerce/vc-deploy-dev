@@ -6,6 +6,7 @@
     imageRepository: virtopaasregistrymain.azurecr.io/vcst/platform
     sqlReplica: false
     config:
+      reload: 4
       APPINSIGHTS_INSTRUMENTATIONKEY: b64da477-188b-4154-969b-3cb1310400f0
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
       AzureAd__ApplicationId: 8227d950-975c-4c28-b7d4-ea440a59dcbb
@@ -42,10 +43,20 @@
       Search__Provider: ElasticSearch
       VirtoCommerce__LocalUploadFolderPath: wwwroot/cms-content
       VirtoCommerce__SampleDataUrl: https://vc3prerelease.blob.core.windows.net/packages/clothing-and-electronics_3_0_2.zip
+      Skyflow__ServerSDK__clientName: vc-module-skyflow
+      Skyflow__ServerSDK__tokenURI: https://manage.skyflowapis.com/v1/auth/sa/oauth/token
+      Skyflow__ClientSDK__clientName: ClientSDK
+      Skyflow__ClientSDK__tokenURI: https://manage.skyflowapis.com/v1/auth/sa/oauth/token
     secretConfig:
       Notifications__SendGrid__ApiKey: sendgrid-apikey
       Payments__AuthorizeNet__SHA2Hash: authorizenet-sha2hash
       Payments__AuthorizeNet__TxnKey: authorizenet-txnkey
+      Skyflow__ServerSDK__clientID: skyflow-server-clientid
+      Skyflow__ServerSDK__keyID: skyflow-server-keyid
+      Skyflow__ServerSDK__privateKey: skyflow-server-privatekey
+      Skyflow__ClientSDK__clientID: skyflow-client-clientid
+      Skyflow__ClientSDK__keyID: skyflow-client-keyid
+      Skyflow__ClientSDK__privateKey: skyflow-client-privatekey
   storefront:
     enabled: true
     imageRepository: virtopaasregistrymain.azurecr.io/vcst/storefront
