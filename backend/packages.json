@@ -126,10 +126,6 @@
           "Version": "3.800.0"
         },
         {
-          "Id": "VirtoCommerce.Cart",
-          "Version": "3.800.0"
-        },
-        {
           "Id": "VirtoCommerce.MarketingExperienceApi",
           "Version": "3.800.0"
         },
@@ -151,6 +147,10 @@
         {
           "Id": "VirtoCommerce.Core",
           "BlobName": "VirtoCommerce.Core_3.804.0.zip"
+        },
+         {
+          "Id": "VirtoCommerce.Cart",
+          "BlobName": "VirtoCommerce.Cart_3.801.0-pr-139-1a62.zip"
         },
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
@@ -218,7 +218,7 @@
         },
         {
           "Id": "VirtoCommerce.ExperienceApi",
-          "BlobName": "VirtoCommerce.ExperienceApi_3.804.0.zip"
+          "BlobName": "VirtoCommerce.ExperienceApi_3.804.0-pr-524-a591.zip"
         },
         {
           "Id": "VirtoCommerce.CustomerExportImport",
