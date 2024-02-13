@@ -5,6 +5,9 @@
       "Modules": [
         {
           "BlobName": "VirtoCommerce.PageBuilderModule_3.800.0.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.802.0-pr-71-5297.zip"
         }
       ],
       "Container": "packages",
@@ -109,10 +112,6 @@
           "Version": "3.800.0"
         },
         {
-          "Id": "VirtoCommerce.FileExperienceApi",
-          "Version": "3.800.0"
-        },
-        {
           "Id": "VirtoCommerce.FileSystemAssets",
           "Version": "3.800.0"
         },
@@ -208,7 +207,5 @@
     }
   ],
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.805.0",
-  "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.805.0"
+  "PlatformVersion": "3.805.0"
 }
