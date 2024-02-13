@@ -115,6 +115,10 @@
           "Version": "3.800.0"
         },
         {
+          "Id": "VirtoCommerce.FileExperienceApi",
+          "Version": "3.800.0"
+        },
+        {
           "Id": "VirtoCommerce.FileSystemAssets",
           "Version": "3.800.0"
         },
@@ -167,10 +171,6 @@
           "Version": "3.800.0"
         },
         {
-          "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.801.0"
-        },
-        {
           "Id": "VirtoCommerce.Quote",
           "Version": "3.801.0"
         },
@@ -210,5 +210,7 @@
     }
   ],
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.805.0"
+  "PlatformVersion": "3.805.0",
+  "PlatformImage": "ghcr.io/virtocommerce/platform",
+  "PlatformImageTag": "3.805.0"
 }
