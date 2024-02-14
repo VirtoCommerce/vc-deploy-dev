@@ -67,6 +67,7 @@
       Search__AzureSearch__SearchServiceName: qa-demovc-3-search
       Search__AzureSearch__Key: 6BE1143312E89C26C227E6BBAE24DD47
       Search__AzureSearch__QueryParserType: Full
+      Search__AzureSearch__Endpoint: https://qa-demovc-3-search.search.windows.net
       Google__Enabled: true
       Google__AuthenticationType: Google
       Google__AuthenticationCaption: Google
@@ -197,6 +198,7 @@
         Notifications__SendGrid__ApiKey: sendkey
         Notifications__Smtp__Password: smtppassword
         Search__ElasticAppSearch__PrivateApiKey: elasticappsearch
+        Search__AzureSearch__Key: azureseearchkey
     app2:
       enabled: false
       servicePlan: P1
