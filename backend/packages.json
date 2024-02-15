@@ -209,10 +209,6 @@
           "BlobName": "VirtoCommerce.Orders_3.805.0-pr-405-2ec1.zip"
         },
         {
-          "Id": "VirtoCommerce.ExperienceApi",
-          "BlobName": "VirtoCommerce.ExperienceApi_3.805.0-pr-526-cda4.zip"
-        },
-        {
           "Id": "VirtoCommerce.CustomerExportImport",
           "BlobName": "VirtoCommerce.CustomerExportImport_3.803.0.zip"
         },
@@ -227,6 +223,10 @@
         {
           "Id": "VirtoCommerce.Skyflow",
           "BlobName": "VirtoCommerce.Skyflow_3.800.0-pr-1-c361.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ExperienceApi",
+          "BlobName": "VirtoCommerce.ExperienceApi_3.806.0.zip"
         }
       ]
     }
