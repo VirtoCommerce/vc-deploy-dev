@@ -149,10 +149,6 @@
           "BlobName": "VirtoCommerce.Cart_3.801.0.zip"
         },
         {
-          "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.803.0-pr-72-c0c4.zip"
-        },
-        {
           "Id": "VirtoCommerce.AzureSearch",
           "BlobName": "VirtoCommerce.AzureSearch_3.801.0-pr-44-bf50.zip"
         },
@@ -227,6 +223,10 @@
         {
           "Id": "VirtoCommerce.Skyflow",
           "BlobName": "VirtoCommerce.Skyflow_3.800.0-pr-1-c361.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ProfileExperienceApiModule",
+          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.803.0.zip"
         }
       ]
     }
