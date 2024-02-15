@@ -14,6 +14,9 @@
         },
         {
           "BlobName": "VirtoCommerce.Skyflow_3.800.0-pr-1-c361.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.ExperienceApi_3.807.0-pr-515-932b.zip"
         }
       ],
       "Container": "packages",
@@ -104,10 +107,6 @@
         {
           "Id": "VirtoCommerce.EventBus",
           "Version": "3.800.0"
-        },
-        {
-          "Id": "VirtoCommerce.ExperienceApi",
-          "Version": "3.803.0"
         },
         {
           "Id": "VirtoCommerce.Export",
@@ -209,7 +208,7 @@
     }
   ],
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.805.0",
+  "PlatformVersion": "3.808.0-alpha.12883",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.805.0"
+  "PlatformImageTag": "3.808.0-alpha.12883-vcst-114-499761d0"
 }
