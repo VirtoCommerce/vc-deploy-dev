@@ -4,7 +4,7 @@
   servicePlan: S3
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.808.0-alpha.12858-vcst-452-de074e26-c6bb63a
+    imageTag: 3.808.0-alpha.12858-vcst-452-de074e26-c0e43e9
     sqlReplica: false
     config:
       FileUpload__RootPath: attachments
@@ -152,7 +152,7 @@
       PasswordLogin__Priority: 0
       #skyflow
       Skyflow__tokenURI: https://manage.skyflowapis.com/v1/auth/sa/oauth/token
-      Skyflow__DefaultConnection__name: 8hPT4p99R
+      Skyflow__DefaultConnection__name: 52B9X7vb4
       Skyflow__DefaultCOnnection__connectionUrl: https://ebfc9bee4242.gateway.skyflowapis.com/v1/gateway/outboundRoutes/gfb5ce07e91340efac348a2df035c513/xml/v1/request.api
     secretConfig:
       Skyflow__Connections__Default__clientID: skyflow-server-clientid
