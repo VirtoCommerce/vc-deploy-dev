@@ -155,10 +155,13 @@
       Skyflow__DefaultConnection__name: 8hPT4p99R
       Skyflow__DefaultCOnnection__connectionUrl: https://ebfc9bee4242.gateway.skyflowapis.com/v1/gateway/outboundRoutes/gfb5ce07e91340efac348a2df035c513/xml/v1/request.api
     secretConfig:
-      #Skyflow__Connections__Default__clientID: skyflow-server-clientid
-      #Skyflow__Connections__Default__keyID: skyflow-server-keyid
-      #Skyflow__Connections__Default__privateKey: skyflow-server-privatekey
-      #Skyflow__DefaultConnection__transactionKey: authorizenet-txnkey
+      Skyflow__Connections__Default__clientID: skyflow-server-clientid
+      Skyflow__Connections__Default__keyID: skyflow-server-keyid
+      Skyflow__Connections__Default__privateKey: skyflow-server-privatekey
+      Skyflow__DefaultConnection__transactionKey: authorizenet-txnkey
+      Skyflow__ClientSDK__clientID: skyflow-client-clientid
+      Skyflow__ClientSDK__keyID: skyflow-client-keyid
+      Skyflow__ClientSDK__privateKey: skyflow-client-privatekey
       Notifications__SendGrid__ApiKey: sendkey
       Notifications__Smtp__Password: smtppasswordyandex
       Search__ElasticAppSearch__PrivateApiKey: elasticappsearch
