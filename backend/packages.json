@@ -204,12 +204,12 @@
           "Version": "3.801.0"
         },
         {
-          "Id": "VirtoCommerce.ExperienceApi",
-          "Version": "3.805.0"
-        },
-        {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "Version": "3.803.0"
+        },
+        {
+          "Id": "VirtoCommerce.ExperienceApi",
+          "Version": "3.806.0"
         }
       ]
     },
