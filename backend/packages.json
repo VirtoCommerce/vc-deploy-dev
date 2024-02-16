@@ -58,10 +58,6 @@
           "Version": "3.800.0"
         },
         {
-          "Id": "VirtoCommerce.Export",
-          "Version": "3.800.0"
-        },
-        {
           "Id": "VirtoCommerce.AvalaraTax",
           "Version": "3.800.0"
         },
@@ -175,6 +171,9 @@
         {
           "Id": "VirtoCommerce.Quote",
           "BlobName": "VirtoCommerce.Quote_3.801.0.zip"
+        }, {
+          "Id": "VirtoCommerce.Export",
+          "BlobName": "VirtoCommerce.Export_3.801.0-pr-85-ecca.zip"
         },
         {
           "Id": "VirtoCommerce.ImageTools",
