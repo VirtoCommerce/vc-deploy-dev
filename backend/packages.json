@@ -20,10 +20,6 @@
           "Version": "3.800.0"
         },
         {
-          "Id": "VirtoCommerce.Export",
-          "Version": "3.800.0"
-        },
-        {
           "Id": "VirtoCommerce.Notifications",
           "Version": "3.800.0"
         },
@@ -209,6 +205,10 @@
         },
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
+          "Version": "3.801.0"
+        },
+        {
+          "Id": "VirtoCommerce.Export",
           "Version": "3.801.0"
         }
       ]
