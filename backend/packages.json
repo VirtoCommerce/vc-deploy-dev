@@ -112,10 +112,6 @@
           "Version": "3.800.0"
         },
         {
-          "Id": "VirtoCommerce.CatalogCsvImportModule",
-          "Version": "3.800.0"
-        },
-        {
           "Id": "VirtoCommerce.CatalogPersonalization",
           "Version": "3.800.0"
         },
@@ -209,6 +205,10 @@
         },
         {
           "Id": "VirtoCommerce.AzureSearch",
+          "Version": "3.801.0"
+        },
+        {
+          "Id": "VirtoCommerce.CatalogCsvImportModule",
           "Version": "3.801.0"
         }
       ]
