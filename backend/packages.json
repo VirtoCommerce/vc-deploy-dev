@@ -226,12 +226,12 @@
           "BlobName": "VirtoCommerce.AzureSearch_3.802.0-alpha.229.zip"
         },
         {
-          "Id": "VirtoCommerce.Export",
-          "BlobName": "VirtoCommerce.Export_3.801.0-alpha.227.zip"
-        },
-        {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
           "BlobName": "VirtoCommerce.CatalogCsvImportModule_3.802.0-alpha.303.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Export",
+          "BlobName": "VirtoCommerce.Export_3.802.0-alpha.228.zip"
         }
       ]
     }
