@@ -4,7 +4,7 @@
   servicePlan: S3
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.808.0-alpha.12858-vcst-452-de074e26-c0e43e9
+    imageTag: 3.808.0-alpha.12862-vcst-383-c8c198a2-7b3ea44
     sqlReplica: false
     config:
       FileUpload__RootPath: attachments
@@ -18,7 +18,7 @@
       FileUpload__Scopes__0__AllowedExtensions__5: .txt
       FileUpload__Scopes__0__AllowedExtensions__6: .xlsx
       DOTNET_USE_POLLING_FILE_WATCHER: true
-      Reload: 17
+      Reload: 18
       #ConnectionStrings__AzureAppConfigurationConnectionString: "Endpoint=https://qa-vc-app-config.azconfig.io;Id=BvwK;Secret=nbF7kOXCU14+qCF5OtP4LR63zfbSyDx6th46bIWkUHQ="
       #Serilog__Using__0: Serilog.Sinks.Console
       #Serilog__Using__1: Serilog.Sinks.ApplicationInsights
@@ -58,7 +58,7 @@
       Search__DocumentScopes__5__Scope: vcptcore-qa-platformvcptcore-scope66
       Search__ElasticSearch__EnableCompatibilityMode: true
       Search__ElasticSearch__HealthCheckTimeout: 10
-      #Search__Provider: AzureSearch
+      Search__Provider: AzureSearch
       Search__ElasticSearch8__Server: "https://20c9ebe0bc0d4c13ab7cac13bdf03f9d.us-central1.gcp.cloud.es.io"
       Search__ElasticSearch8__User: "elastic"
       Search__ElasticSearch8__Key: "zitlRlynyE7oTXflcom70wYz"
