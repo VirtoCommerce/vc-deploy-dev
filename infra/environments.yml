@@ -55,8 +55,8 @@
       VirtoCommerce__SampleDataUrl: https://vc3prerelease.blob.core.windows.net/packages/clothing-and-electronics_3_0_2.zip
       # Temporary settings below
       PasswordLogin__DetailedErrors: true
-      Authorization__RefreshTokenLifeTime: 00.00:02:00
-      Authorization__AccessTokenLifeTime: 0:01:00
+      Authorization__RefreshTokenLifeTime: 00.00:10:00
+      Authorization__AccessTokenLifeTime: 0:03:00
     secretConfig:
       Notifications__SendGrid__ApiKey: sendgrid-apikey
       Payments__AuthorizeNet__SHA2Hash: authorizenet-sha2hash
