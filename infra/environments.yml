@@ -34,18 +34,16 @@
       Notifications__Gateway: SendGrid
       Notifications__SmsDefaultSender: +17012510519
       Payments__AuthorizeNet__ApiLogin: 8hPT4p99R
-      Search__ContentFullTextSearchEnabled: true
       Search__ElasticAppSearch__Endpoint: https://enterprise-search-test.govirto.com
       Search__ElasticAppSearch__EnableHttpCompression: true
       Search__ElasticSearch__Server: https://elasticsearch-vc03.govirto.com
       Search__ElasticSearch__EnableCompatibilityMode: true
-      Search__OrderFullTextSearchEnabled: true
       Search__Provider: ElasticSearch
-      VirtoCommerce__LocalUploadFolderPath: wwwroot/cms-content
-      VirtoCommerce__SampleDataUrl: https://vc3prerelease.blob.core.windows.net/packages/clothing-and-electronics_3_0_2.zip
       Skyflow__tokenURI: https://manage.skyflowapis.com/v1/auth/sa/oauth/token
       Skyflow__DefaultConnection__name: 8hPT4p99R
       Skyflow__DefaultCOnnection__connectionUrl: https://ebfc9bee4242.gateway.skyflowapis.com/v1/gateway/outboundRoutes/gfb5ce07e91340efac348a2df035c513/xml/v1/request.api
+      VirtoCommerce__LocalUploadFolderPath: wwwroot/cms-content
+      VirtoCommerce__SampleDataUrl: https://vc3prerelease.blob.core.windows.net/packages/clothing-and-electronics_3_0_2.zip
       PasswordLogin__DetailedErrors: true
       Authorization__RefreshTokenLifeTime: 00.00:02:00
       Authorization__AccessTokenLifeTime: 0:01:00
