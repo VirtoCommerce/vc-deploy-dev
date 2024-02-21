@@ -44,6 +44,7 @@
       Skyflow__DefaultCOnnection__connectionUrl: https://ebfc9bee4242.gateway.skyflowapis.com/v1/gateway/outboundRoutes/gfb5ce07e91340efac348a2df035c513/xml/v1/request.api
       VirtoCommerce__LocalUploadFolderPath: wwwroot/cms-content
       VirtoCommerce__SampleDataUrl: https://vc3prerelease.blob.core.windows.net/packages/clothing-and-electronics_3_0_2.zip
+      # Temporary settings below
       PasswordLogin__DetailedErrors: true
       Authorization__RefreshTokenLifeTime: 00.00:02:00
       Authorization__AccessTokenLifeTime: 0:01:00
