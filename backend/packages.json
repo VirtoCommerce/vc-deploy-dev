@@ -98,10 +98,6 @@
           "Version": "3.800.0"
         },
         {
-          "Id": "VirtoCommerce.Content",
-          "Version": "3.800.0"
-        },
-        {
           "Id": "VirtoCommerce.CustomerReviews",
           "Version": "3.800.0"
         },
@@ -170,7 +166,7 @@
         },
         {
           "Id": "VirtoCommerce.AzureBlobAssets",
-          "BlobName": "VirtoCommerce.AzureBlobAssets_3.801.0.zip"
+          "BlobName": "VirtoCommerce.AzureBlobAssets_3.802.0-pr-20-4173.zip"
         },
         {
           "Id": "VirtoCommerce.Marketing",
@@ -223,6 +219,10 @@
         {
           "Id": "VirtoCommerce.Export",
           "BlobName": "VirtoCommerce.Export_3.801.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Content",
+          "BlobName": "VirtoCommerce.Content_3.801.0-pr-167-a098.zip"
         },
         {
           "Id": "VirtoCommerce.ExperienceApi",
