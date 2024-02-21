@@ -4,7 +4,7 @@
   servicePlan: S3
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.808.0-alpha.12862-vcst-383-c8c198a2-6bfdbc9
+    imageTag: 3.808.0-alpha.12862-vcst-383-c8c198a2-430d8d2
     sqlReplica: false
     config:
       FileUpload__RootPath: attachments
@@ -86,7 +86,7 @@
       Content__FileSystem__PublicUrl: https://vcptcore-qa.govirto.com/cms-content/
       Assets__FileSystem__PublicUrl: https://vcptcore-qa.govirto.com/cms-content/assets/
       Assets__Provider: AzureBlobStorage
-      Assets__AzureBlobStorage__ConnectionString: DefaultEndpointsProtocol=https;AccountName=qademovc3;AccountKey=qPIpM63MI2P3ei6B1xIL4/DlKDqdsRj54z2GUtgCAeXPcMe8+mZiUvrvI5fjdyrovk331XmBlMFfAEFAjCnvtw==;EndpointSuffix=core.windows.net
+      #Assets__AzureBlobStorage__ConnectionString: DefaultEndpointsProtocol=https;AccountName=qademovc3;AccountKey=qPIpM63MI2P3ei6B1xIL4/DlKDqdsRj54z2GUtgCAeXPcMe8+mZiUvrvI5fjdyrovk331XmBlMFfAEFAjCnvtw==;EndpointSuffix=core.windows.net
       Assets__AzureBlobStorage__RootPath: catalog
       Assets__AzureBlobStorage__AllowBlobPublicAccess: true
       Content__Provider: AzureBlobStorage
@@ -167,6 +167,7 @@
       Search__ElasticAppSearch__PrivateApiKey: elasticappsearch
       Serilog__WriteTo__1__Args__connectionString: connectionstringaiqa
       EventBus__Connections__0__ConnectionOptionsSerialized: eventbusconnection
+      Assets__AzureBlobStorage__ConnectionString: azureblobconnectionstring
 
   storefront:
     enabled: true
