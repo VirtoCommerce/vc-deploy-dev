@@ -24,7 +24,7 @@ jobs:
       PLATFORM_TAG: ''
 
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
     
     - name: Install vc-build
       run: |
@@ -43,7 +43,7 @@ jobs:
 
     - name: Set outputs
       id: vars
-      run: echo "::set-output name=paas_tag::${{ env.PLATFORM_TAG }}-$(git rev-parse --short HEAD)"
+      run: echo "paas_tag=${{ env.PLATFORM_TAG }}-$(git rev-parse --short HEAD)" >> $GITHUB_ENV
 
     - name: Build platform Image
       run: |
