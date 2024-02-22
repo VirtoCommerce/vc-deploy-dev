@@ -230,12 +230,12 @@
           "BlobName": "VirtoCommerce.Assets_3.803.0-alpha.119.zip"
         },
         {
-          "Id": "VirtoCommerce.AzureBlobAssets",
-          "BlobName": "VirtoCommerce.AzureBlobAssets_3.802.0-alpha.112.zip"
-        },
-        {
           "Id": "VirtoCommerce.FileSystemAssets",
           "BlobName": "VirtoCommerce.FileSystemAssets_3.802.0-alpha.88.zip"
+        },
+        {
+          "Id": "VirtoCommerce.AzureBlobAssets",
+          "BlobName": "VirtoCommerce.AzureBlobAssets_3.803.0-alpha.113.zip"
         }
       ]
     }
