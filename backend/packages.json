@@ -213,9 +213,6 @@
           "BlobName": "VirtoCommerce.Export_3.801.0.zip"
         },
         {
-          "Id": "VirtoCommerce.Content",
-          "BlobName": "VirtoCommerce.Content_3.801.0-pr-168-6d9b.zip"
-        }, {
           "Id": "VirtoCommerce.FileSystemAssets",
           "BlobName": "VirtoCommerce.FileSystemAssets_3.801.0-pr-8-fde9.zip"
         },
@@ -226,6 +223,10 @@
         {
           "Id": "VirtoCommerce.Skyflow",
           "BlobName": "VirtoCommerce.Skyflow_3.801.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Content",
+          "BlobName": "VirtoCommerce.Content_3.801.0.zip"
         }
       ]
     }
