@@ -64,10 +64,6 @@
           "Version": "3.800.0"
         },
         {
-          "Id": "VirtoCommerce.Content",
-          "Version": "3.800.0"
-        },
-        {
           "Id": "VirtoCommerce.NativePaymentMethods",
           "Version": "3.800.0"
         },
@@ -213,6 +209,10 @@
         },
         {
           "Id": "VirtoCommerce.FileSystemAssets",
+          "Version": "3.801.0"
+        },
+        {
+          "Id": "VirtoCommerce.Content",
           "Version": "3.801.0"
         }
       ]
