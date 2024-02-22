@@ -43,7 +43,7 @@ jobs:
 
     - name: Set outputs
       id: vars
-      run: echo "paas_tag=${{ env.PLATFORM_TAG }}-$(git rev-parse --short HEAD)" >> $GITHUB_ENV
+      run: echo "paas_tag=${{ env.PLATFORM_TAG }}-$(git rev-parse --short HEAD)" >> $$GITHUB_OUTPUT
 
     - name: Build platform Image
       run: |
@@ -61,7 +61,7 @@ jobs:
         docker tag ${{env.PLATFORM_IMAGE_NAME}} ${{ env.IMAGE_REPOSITORY }}:${{ env.TAG }}
         docker push ${{ env.IMAGE_REPOSITORY }}:${{ env.TAG }}
       env:
-        TAG: ${{ env.paas_tag }}
+        TAG: ${{ steps.vars.outputs.paas_tag }}
 
     - name: Az config
       run: |
