@@ -182,10 +182,6 @@
           "BlobName": "VirtoCommerce.FileExperienceApi_3.801.0-alpha.10.zip"
         },
         {
-          "Id": "VirtoCommerce.Quote",
-          "BlobName": "VirtoCommerce.Quote_3.802.0-alpha.383.zip"
-        },
-        {
           "Id": "VirtoCommerce.Sitemaps",
           "BlobName": "VirtoCommerce.Sitemaps_3.802.0-alpha.334.zip"
         },
@@ -236,6 +232,10 @@
         {
           "Id": "VirtoCommerce.Skyflow",
           "BlobName": "VirtoCommerce.Skyflow_3.802.0-alpha.14.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Quote",
+          "BlobName": "VirtoCommerce.Quote_3.802.0-alpha.386.zip"
         }
       ]
     }
