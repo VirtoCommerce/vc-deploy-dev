@@ -4,7 +4,7 @@
   servicePlan: S3
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.808.0-5b8ed95
+    imageTag: 3.808.0-b69662b
     sqlReplica: false
     config:
       FileUpload__RootPath: attachments
@@ -85,7 +85,7 @@
       PasswordLogin__Enabled: true
       Content__FileSystem__PublicUrl: https://vcptcore-qa.govirto.com/cms-content/
       Assets__FileSystem__PublicUrl: https://vcptcore-qa.govirto.com/cms-content/assets/
-      Assets__Provider: AzureBlobStorage
+      Assets__Provider: FileSystem
       Assets__AzureBlobStorage__ConnectionString: DefaultEndpointsProtocol=https;AccountName=qademovc3;AccountKey=qPIpM63MI2P3ei6B1xIL4/DlKDqdsRj54z2GUtgCAeXPcMe8+mZiUvrvI5fjdyrovk331XmBlMFfAEFAjCnvtw==;EndpointSuffix=core.windows.net
       #Assets__AzureBlobStorage__ConnectionString: BlobEndpoint=https://qademovc3.blob.core.windows.net/;QueueEndpoint=https://qademovc3.queue.core.windows.net/;FileEndpoint=https://qademovc3.file.core.windows.net/;TableEndpoint=https://qademovc3.table.core.windows.net/;SharedAccessSignature=sv=2022-11-02&ss=bfqt&srt=sco&sp=rwdlacupiytfx&se=2024-02-21T22:01:58Z&st=2024-02-21T14:01:58Z&spr=https&sig=9JuSMfYopQ095lxmiUtcE%2FGxZLdLDRXErLGt6SPHjfY%3D
       Assets__AzureBlobStorage__RootPath: catalog
