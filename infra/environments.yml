@@ -4,7 +4,7 @@
   servicePlan: S3
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.808.0-68004a3
+    imageTag: 3.808.0-5b8ed95
     sqlReplica: false
     config:
       FileUpload__RootPath: attachments
@@ -36,7 +36,7 @@
       Notifications__Smtp__Host: smtp.sendgrid.net
       Notifications__Smtp__Login: apikey
       Notifications__Smtp__Port: 587
-      ASPNETCORE_ENVIRONMENT: Production
+      ASPNETCORE_ENVIRONMENT: Development
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
       VirtoCommerce__GraphQLPlayground__Enable: true
       VirtoCommerce__Swagger__Enable: true
