@@ -65,7 +65,7 @@
       APPINSIGHTS_INSTRUMENTATIONKEY: 4eef52ad-79ec-410c-a273-0a1abff866ea
       IdentityOptions__Lockout__MaxFailedAccessAttempts: 6
       CookieAuthenticationOptions__ExpireTimeSpan: "24:00:00"
-      Reload: 2022-10-05
+      Reload: 2024-02-22
     secretConfig:
       VirtoCommerce__Endpoint__Password: virtocommercepassword
     themes:
