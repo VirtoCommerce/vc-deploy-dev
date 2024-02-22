@@ -61,7 +61,7 @@ jobs:
         docker tag ${{env.PLATFORM_IMAGE_NAME}} ${{ env.IMAGE_REPOSITORY }}:${{ env.TAG }}
         docker push ${{ env.IMAGE_REPOSITORY }}:${{ env.TAG }}
       env:
-        TAG: ${{ steps.vars.outputs.paas_tag }}
+        TAG: ${{ env.paas_tag }}
 
     - name: Az config
       run: |
@@ -71,4 +71,4 @@ jobs:
       run: |
         vc-build SetEnvParameter -EnvironmentName ${{ env.ARGO_APP_NAME }} -CloudToken ${{ secrets.VCST_PLATFORM_TOKEN }} -HelmParameters platform.image.tag=$TAG
       env:
-        TAG: ${{ steps.vars.outputs.paas_tag }}
+        TAG: ${{ env.paas_tag }}
