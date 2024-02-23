@@ -13,10 +13,10 @@ jobs:
   gitops:
     strategy:
       matrix:
-        store: [B2B-store, B2C]
+        store: [B2B-store]
     runs-on: ubuntu-latest
     env:
-      ARGO_APP_NAME: ${{ github.ref_name }}
+      ARGO_APP_NAME: 'vcptcore-dev' #${{ github.ref_name }}
       ARTIFACT_URL: ''
 
     steps:
