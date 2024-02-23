@@ -214,10 +214,6 @@
           "BlobName": "VirtoCommerce.ImageTools_3.802.0-alpha.337.zip"
         },
         {
-          "Id": "VirtoCommerce.ExperienceApi",
-          "BlobName": "VirtoCommerce.ExperienceApi_3.808.0-alpha.1347.zip"
-        },
-        {
           "Id": "VirtoCommerce.Assets",
           "BlobName": "VirtoCommerce.Assets_3.803.0-alpha.119.zip"
         },
@@ -236,6 +232,10 @@
         {
           "Id": "VirtoCommerce.Sitemaps",
           "BlobName": "VirtoCommerce.Sitemaps_3.802.0-alpha.337.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ExperienceApi",
+          "BlobName": "VirtoCommerce.ExperienceApi_3.808.0-alpha.1348.zip"
         }
       ]
     }
