@@ -1,14 +1,14 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.216.8",
+  "PlatformVersion": "3.808.0",
   "Sources": [
     {
-      "Name": "GithubPrivateRepos",
-      "Owner": "VirtoCommerce",
+      "Name": "AzureBlob",
+      "Container": "packages",
+      "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
         {
-          "Id": "vc-module-licensing",
-          "Version": "3.201.0"
+          "BlobName": "VirtoCommerce.Licensing_3.800.0.zip"
         }
       ]
     },
