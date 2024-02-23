@@ -3,11 +3,10 @@ name: Cloud theme deployment
 on:
   workflow_dispatch:
   push:
-    #paths:
-    #  - 'theme/**'
+    paths:
+      - 'theme/**'
     branches: 
       - 'vcptcore-*'
-      - 'VCST-408'
 
 jobs:
   gitops:
@@ -16,7 +15,7 @@ jobs:
         store: [B2B-store]
     runs-on: ubuntu-latest
     env:
-      ARGO_APP_NAME: 'vcptcore-dev' #${{ github.ref_name }}
+      ARGO_APP_NAME: ${{ github.ref_name }}
       ARTIFACT_URL: ''
 
     steps:
