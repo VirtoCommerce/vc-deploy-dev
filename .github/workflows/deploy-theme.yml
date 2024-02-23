@@ -3,8 +3,8 @@ name: Cloud theme deployment
 on:
   workflow_dispatch:
   push:
-    paths:
-      - 'theme/**'
+    #paths:
+    #  - 'theme/**'
     branches: 
       - 'vcptcore-*'
       - 'VCST-408'
@@ -35,4 +35,4 @@ jobs:
         run: |
             export PARAMETER_NAME=$(echo "themes.${{ matrix.store }}" | xargs)
             export PARAMETER_VALUE=$(echo "${{ env.ARTIFACT_URL }}" | xargs)
-            vc-build SetEnvParameter -EnvironmentName ${{ env.ARGO_APP_NAME }} -CloudToken ${{ secrets.VCST_PLATFORM_TOKEN }} -HelmParameters $PARAMETER_NAME=$PARAMETER_VALUE
+            vc-build SetEnvParameter -EnvironmentName ${{ env.ARGO_APP_NAME }} -CloudToken ${{ secrets.VCPTCORE_PLATFORM_TOKEN }} -HelmParameters $PARAMETER_NAME=$PARAMETER_VALUE
