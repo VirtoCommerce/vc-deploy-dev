@@ -62,8 +62,8 @@
       Search__ElasticSearch8__Server: "https://20c9ebe0bc0d4c13ab7cac13bdf03f9d.us-central1.gcp.cloud.es.io"
       Search__ElasticSearch8__User: "elastic"
       Search__ElasticSearch8__Key: "zitlRlynyE7oTXflcom70wYz"
-      #Search__ElasticAppSearch__EnableHttpCompression: true
-      #Search__ElasticAppSearch__Endpoint: https://enterprise-search-vc03.govirto.com
+      Search__ElasticAppSearch__EnableHttpCompression: true
+      Search__ElasticAppSearch__Endpoint: https://enterprise-search-vc03.govirto.com
       Search__AzureSearch__SearchServiceName: qa-demovc-3-search
       Search__AzureSearch__Key: 6BE1143312E89C26C227E6BBAE24DD47
       Search__AzureSearch__QueryParserType: Full
