@@ -101,7 +101,7 @@
       Content__AzureBlobStorage__RootPath: cms
       Content__AzureBlobStorage__AllowBlobPublicAccess: false
       Content__AzureBlobStorage__ConnectionString: DefaultEndpointsProtocol=https;AccountName=qademovc3;AccountKey=qPIpM63MI2P3ei6B1xIL4/DlKDqdsRj54z2GUtgCAeXPcMe8+mZiUvrvI5fjdyrovk331XmBlMFfAEFAjCnvtw==;EndpointSuffix=core.windows.net
-      VirtoCommerce__FileExtensionsWhiteList__0: ".pdf"
+      #VirtoCommerce__FileExtensionsWhiteList__0: ".pdf"
       VirtoCommerce__LicenseFilePath: app_data/VirtoCommerce.lic
       VirtoCommerce__LicensePublicKeyPath: app_data/public.key
       VirtoCommerce__LicensePrivateKeyPath: app_data/private.key
