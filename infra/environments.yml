@@ -133,6 +133,7 @@
       IdentityOptions__Password__RequireNonAlphanumeric: false
       IdentityOptions__Password__RequireUppercase: false
       IdentityOptions__Password__RequireLowercase: false
+      IdentityOptions__Password__requiredUniqueChars: 2
       IdentityOptions__Password__PasswordChangeByAdminEnabled: true
       IdentityOptions__Lockout__AutoAccountsLockoutJobEnabled: false
       IdentityOptions__Lockout__LockoutMaximumDaysFromLastLogin: 3
