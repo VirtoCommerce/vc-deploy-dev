@@ -22,6 +22,6 @@ jobs:
     
     - name: Update app
       run: |
-        vc-build UpdateCloudEnvironment -CloudToken ${{ secrets.VIRTOSTART_PLATFORM_TOKEN }} -ArgoConfigFile $ENV_FILE -CloudUrl https://portal.virtocommerce.cloud
+        vc-build CloudEnvUpdate -CloudToken ${{ secrets.VIRTOSTART_PLATFORM_TOKEN }} -ArgoConfigFile $ENV_FILE -CloudUrl https://portal.virtocommerce.cloud
       env:
         ENV_FILE: './infra/environments.yml'
