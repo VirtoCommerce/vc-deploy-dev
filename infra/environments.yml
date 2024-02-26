@@ -114,4 +114,9 @@
       enabled: false
     app2:
       enabled: false
+  protectedParameters:
+   #- platform.image.tag
+   #- storefront.image.tag
+   - themes.B2B-store
+   #- custom.app1.image.tag
   version: 3.208
