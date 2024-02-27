@@ -29,6 +29,13 @@
       FileUpload__Scopes__0__AllowedExtensions__4: .png
       FileUpload__Scopes__0__AllowedExtensions__5: .txt
       FileUpload__Scopes__0__AllowedExtensions__6: .xlsx
+      IdentityOptions__Password__RequiredLength: 3
+      IdentityOptions__Password__RequireDigit: false
+      IdentityOptions__Password__RequireNonAlphanumeric: false
+      IdentityOptions__Password__RequireUppercase: true
+      IdentityOptions__Password__RequireLowercase: false
+      IdentityOptions__Password__requiredUniqueChars: 1
+      IdentityOptions__Password__PasswordChangeByAdminEnabled: true
       IdentityOptions__Lockout__LockoutMaximumDaysFromLastLogin: 3
       IdentityOptions__Lockout__CronAutoAccountsLockoutJob: 0/5 * * * *
       IdentityOptions__Lockout__MaxFailedAccessAttempts: 6
