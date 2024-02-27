@@ -1,10 +1,10 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.809.0",
+  "PlatformVersion": "3.810.0-alpha.12867-vcst-608-7d531ebd",
   "StorefrontVersion": "6.34.0-master-d8f90289",
   "ThemeB2BVue": "https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-1.49.0-pr-880-6a14-6a141236.zip",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.809.0",
+  "PlatformImageTag": "3.810.0-alpha.12867-vcst-608-7d531ebd",
   "PlatformAssetUrl": "",
   "Sources": [
     {
