@@ -19,13 +19,6 @@ jobs:
     - name: Az config
       run: |
         az config set extension.use_dynamic_install=yes_without_prompt
-
-    - name: Copy license.key
-      run: |
-          echo "$LIC_KEY" >> ./backend/platform/app_data/license.key
-      shell: bash
-      env:
-        LIC_KEY: ${{ secrets.LIC_KEY }}
     
     - name: Install vc-build
       run: |
@@ -35,6 +28,13 @@ jobs:
       run: |
         vc-build install -PackageManifestPath ./backend/packages.json -ProbingPath ./backend/platform/app_data/modules -DiscoveryPath ./backend/platform/modules --root ./backend/platform -SkipDependencySolving -GitHubToken ${{ secrets.PR_REPO_TOKEN }}
   
+    - name: Copy license.key
+      run: |
+          echo "$LIC_KEY" >> ./backend/platform/app_data/license.key
+      shell: bash
+      env:
+        LIC_KEY: ${{ secrets.LIC_KEY }}
+    
     - name: Get platfrom version
       id: platform-version
       run: |
