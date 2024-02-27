@@ -7,9 +7,6 @@
           "BlobName": "VirtoCommerce.PageBuilderModule_3.800.0.zip"
         },
         {
-          "BlobName": "VirtoCommerce.ExperienceApi_3.809.0-pr-530-2d63.zip"
-        },
-        {
           "BlobName": "VirtoCommerce.Skyflow_3.800.0-pr-1-c361.zip"
         }
       ],
@@ -105,6 +102,10 @@
         {
           "Id": "VirtoCommerce.EventBus",
           "Version": "3.800.0"
+        },
+        {
+          "Id": "VirtoCommerce.ExperienceApi",
+          "Version": "3.809.0"
         },
         {
           "Id": "VirtoCommerce.Export",
