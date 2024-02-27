@@ -101,7 +101,7 @@
         },        
         {
           "Id": "VirtoCommerce.ExperienceApi",
-          "Version": "3.807.0"
+          "Version": "3.809.0"
         },
         {
           "Id": "VirtoCommerce.Export",
@@ -207,7 +207,7 @@
     }
   ],
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.808.0-alpha.12885-vcst-114-28c08b3e",
+  "PlatformVersion": "3.809.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.808.0-alpha.12885-vcst-114-28c08b3e"
+  "PlatformImageTag": "3.809.0"
 }
