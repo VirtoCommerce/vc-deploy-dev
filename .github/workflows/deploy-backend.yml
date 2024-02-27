@@ -19,6 +19,13 @@ jobs:
     - name: Az config
       run: |
         az config set extension.use_dynamic_install=yes_without_prompt
+
+    - name: Copy license.key
+      run: |
+          echo "$LIC_KEY" >> ./backend/license.key
+      shell: bash
+      env:
+        LIC_KEY: ${{ secrets.LIC_KEY }}
     
     - name: Install vc-build
       run: |
