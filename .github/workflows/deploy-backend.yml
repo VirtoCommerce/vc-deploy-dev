@@ -22,7 +22,7 @@ jobs:
 
     - name: Copy license.key
       run: |
-          echo "$LIC_KEY" >> ./backend/license.key
+          echo "$LIC_KEY" >> ./backend/platform/app_data/license.key
       shell: bash
       env:
         LIC_KEY: ${{ secrets.LIC_KEY }}
