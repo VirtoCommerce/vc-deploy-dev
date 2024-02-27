@@ -90,7 +90,7 @@
       #Assets__AzureBlobStorage__ConnectionString: BlobEndpoint=https://qademovc3.blob.core.windows.net/;QueueEndpoint=https://qademovc3.queue.core.windows.net/;FileEndpoint=https://qademovc3.file.core.windows.net/;TableEndpoint=https://qademovc3.table.core.windows.net/;SharedAccessSignature=sv=2022-11-02&ss=bfqt&srt=sco&sp=rwdlacupiytfx&se=2025-02-27T00:34:20Z&st=2024-02-26T16:34:20Z&spr=https&sig=QSyd83bPIqXYfQAK9AhGgdXaXYmPsSz450OGegOnZUE%3D
       Assets__AzureBlobStorage__RootPath: catalog
       Assets__AzureBlobStorage__AllowBlobPublicAccess: true
-      Content__Provider: AzureBlobStorage
+      Content__Provider: FileSystem
       Content__PathMappings__pages__0: Themes
       Content__PathMappings__pages__1: _storeId
       Content__PathMappings__pages__2: _theme
