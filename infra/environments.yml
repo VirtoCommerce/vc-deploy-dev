@@ -4,7 +4,7 @@
   servicePlan: S3
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.809.0-e140a1f
+    imageTag: 3.810.0-alpha.12867-vcst-608-7d531ebd-3fefc25
     sqlReplica: false
     config:
       FileUpload__RootPath: attachments
@@ -75,6 +75,7 @@
       Google__ClientSecret: abc
       Google__DefaultUserType: Manager
       AzureAd__Enabled: true
+      AzureAd__Priority: 1
       AzureAd__ApplicationId: 86d04c35-143d-4d3c-aea2-8608e2186282
       AzureAd__TenantId: common
       AzureAd__ValidateIssuer: MultitenantAzureAD
@@ -83,6 +84,7 @@
       AzureAd__DefaultUserRoles__0: Purchasing agent
       AzureAd__DefaultUserRoles__1: Order manager
       PasswordLogin__Enabled: true
+      PasswordLogin__Priority: 0
       Content__FileSystem__PublicUrl: https://vcptcore-qa.govirto.com/cms-content/
       Assets__FileSystem__PublicUrl: https://vcptcore-qa.govirto.com/cms-content/assets/
       Assets__Provider: AzureBlobStorage
