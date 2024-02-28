@@ -78,7 +78,7 @@
       CookieAuthenticationOptions__LoginPath: /sign-in
       DOTNET_USE_POLLING_FILE_WATCHER: true
       SnapshotCollectorConfiguration__IsEnabled: false
-      SYSTEM_RESTART: 11.10.2023-2
+      SYSTEM_RESTART: 28.02.2024-1
       VirtoCommerce__Endpoint__Password: Store12345
       VirtoCommerce__CacheSlidingExpiration: 0:0:5
   ingress:
@@ -97,8 +97,8 @@
     app2:
       enabled: false
   protectedParameters:
-   - platform.image.tag
-   - storefront.image.tag
-   - themes.B2B-store
-   - custom.app1.image.tag
+    - platform.image.tag
+    - storefront.image.tag
+    - themes.B2B-store
+    - custom.app1.image.tag
   version: 3.211
