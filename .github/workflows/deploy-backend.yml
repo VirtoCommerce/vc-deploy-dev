@@ -47,9 +47,9 @@ jobs:
         docker build --build-arg PLATFORM_IMAGE=${{ env.PLATFORM_IMAGE }} --build-arg PLATFORM_TAG=${{ env.PLATFORM_TAG }} -t ${{env.PLATFORM_IMAGE_NAME}} ${{env.DOCKERFILE_PATH}}
 
     - name: Docker Login
-      uses: azure/docker-login@v1
+      uses: docker/login-action@v3
       with:
-        login-server: ${{ env.CONTAINER_REGISTRY }}
+        registry: ${{ env.CONTAINER_REGISTRY }}
         username: ${{ env.DOCKER_LOGIN }}
         password: ${{ env.DOCKER_PASSWORD }}
 
