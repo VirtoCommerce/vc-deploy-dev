@@ -19,7 +19,7 @@ jobs:
       with:
         fetch-depth: 0
 
-    - uses: azure/login@v1
+    - uses: azure/login@master
       with:
         creds: ${{ env.VIRTOSTART_AZURE_CREDENTIALS }}
         enable-AzPSSession: true
