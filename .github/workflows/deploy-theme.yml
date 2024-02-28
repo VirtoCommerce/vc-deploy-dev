@@ -19,7 +19,7 @@ jobs:
       ARTIFACT_URL: ''
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
    
       - name: Install vc-build
         run: |
@@ -34,4 +34,4 @@ jobs:
         run: |
             export PARAMETER_NAME=$(echo "themes.${{ matrix.store }}" | xargs)
             export PARAMETER_VALUE=$(echo "${{ env.ARTIFACT_URL }}" | xargs)
-            vc-build SetEnvParameter -EnvironmentName ${{ env.ARGO_APP_NAME }} -CloudToken ${{ secrets.VCST_PLATFORM_TOKEN }} -HelmParameters $PARAMETER_NAME=$PARAMETER_VALUE
+            vc-build CloudEnvSetParameter -EnvironmentName ${{ env.ARGO_APP_NAME }} -CloudToken ${{ secrets.VCST_PLATFORM_TOKEN }} -HelmParameters $PARAMETER_NAME=$PARAMETER_VALUE
