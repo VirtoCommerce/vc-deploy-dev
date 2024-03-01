@@ -14,10 +14,6 @@
       ],
       "Modules": [
         {
-          "Id": "VirtoCommerce.Return",
-          "Version": "3.800.0"
-        },
-        {
           "Id": "VirtoCommerce.EventBus",
           "Version": "3.800.0"
         },
@@ -116,6 +112,10 @@
       "Container": "packages",
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
+        {
+          "Id": "VirtoCommerce.Return",
+          "BlobName": "VirtoCommerce.Return_3.801.0-pr-15-e4b8.zip"
+        },
         {
           "Id": "VirtoCommerce.Store",
           "BlobName": "VirtoCommerce.Store_3.801.0-pr-130-8992.zip"
