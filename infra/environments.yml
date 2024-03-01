@@ -43,7 +43,7 @@
       Reload: 80
       Tax__Avalara__AccountNumber: 2000188799
       Tax__Avalara__LicenseKey: 16BC3F87E836E15C
-      Search__Provider: Lucene
+      #Search__Provider: Lucene
       VirtoCommerce__SampleDataUrl: https://virtocommerce.azureedge.net/sample-data/b2b-sample-store.zip
       #VirtoCommerce__SampleDataUrl: ""
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
@@ -115,8 +115,8 @@
     app2:
       enabled: false
   protectedParameters:
-   #- platform.image.tag
-   #- storefront.image.tag
+   - platform.image.tag
+   - storefront.image.tag
    - themes.B2B-store
    #- custom.app1.image.tag
   version: 3.208
