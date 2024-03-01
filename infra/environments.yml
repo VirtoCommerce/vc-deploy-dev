@@ -5,7 +5,7 @@
   platform:
     #dbProvider: Azure Database for PostgreSQL
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.806.0-alpha.12850-dev-511eb755-273f509
+    imageTag: 3.811.0-alpha.12870-vcst-388-63cbde4f-27b60ad
     sqlReplica: false
     config:
       Serilog__Using__0: Serilog.Sinks.Console
@@ -51,6 +51,7 @@
       Search__OrderFullTextSearchEnabled: true
       Search__ContentFullTextSearchEnabled: true
       Search__ElasticSearch__EnableCompatibilityMode: true
+      Search__ElasticSearch__HealthCheckTimeout: 10
       Search__ElasticAppSearch__EnableHttpCompression: true
       Search__ElasticAppSearch__Endpoint: https://enterprise-search-vc03.govirto.com
       AzureAd__Enabled: true
