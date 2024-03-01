@@ -74,7 +74,7 @@
           "Version": "4.800.0"
         },
         {
-          "Id": "VirtoCommerce.ElasticAppSearch",
+          "Id": "VirtoCommerce.ElasticSearch",
           "Version": "3.800.0"
         },
         {
@@ -109,7 +109,7 @@
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
         {
-          "Id": "VirtoCommerce.ElasticSearch",
+          "Id": "VirtoCommerce.ElasticAppSearch",
           "BlobName": "VirtoCommerce.ElasticAppSearch_3.801.0-pr-34-ee78.zip"
         },
         {
