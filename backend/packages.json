@@ -120,7 +120,7 @@
           "Id": "VirtoCommerce.Store",
           "BlobName": "VirtoCommerce.Store_3.801.0-pr-130-8992.zip"
         },
-         {
+        {
           "Id": "VirtoCommerce.Inventory",
           "BlobName": "VirtoCommerce.Inventory_3.801.0-pr-139-f3cd.zip"
         },
@@ -173,10 +173,6 @@
           "BlobName": "VirtoCommerce.Sitemaps_3.802.0.zip"
         },
         {
-          "Id": "VirtoCommerce.Assets",
-          "BlobName": "VirtoCommerce.Assets_3.804.0-alpha.124-dev.zip"
-        },
-        {
           "Id": "VirtoCommerce.Catalog",
           "BlobName": "VirtoCommerce.Catalog_3.804.0-pr-720-2f52.zip"
         },
@@ -227,6 +223,10 @@
         {
           "Id": "VirtoCommerce.ExperienceApi",
           "BlobName": "VirtoCommerce.ExperienceApi_3.810.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Assets",
+          "BlobName": "VirtoCommerce.Assets_3.804.0.zip"
         }
       ]
     }
