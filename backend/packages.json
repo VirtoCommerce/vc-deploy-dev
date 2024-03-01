@@ -18,10 +18,6 @@
           "Version": "3.800.0"
         },
         {
-          "Id": "VirtoCommerce.ElasticSearch",
-          "Version": "3.800.0"
-        },
-        {
           "Id": "VirtoCommerce.LuceneSearch",
           "Version": "3.800.0"
         },
@@ -112,6 +108,10 @@
       "Container": "packages",
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
+        {
+          "Id": "VirtoCommerce.ElasticSearch",
+          "BlobName": "VirtoCommerce.ElasticAppSearch_3.801.0-pr-34-ee78.zip"
+        },
         {
           "Id": "VirtoCommerce.Return",
           "BlobName": "VirtoCommerce.Return_3.801.0-pr-15-6b0b.zip"
