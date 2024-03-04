@@ -4,7 +4,7 @@
   servicePlan: S3
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.810.0-alpha.12869-vcst-567-counter-402fc9e2-a3ea8dd
+    imageTag: 3.812.0-alpha.12873-vcst-567-counter-2c3cae8c-3c6554d
     sqlReplica: false
     config:
       FileUpload__RootPath: attachments
@@ -58,7 +58,7 @@
       Search__DocumentScopes__5__Scope: vcptcore-qa-platformvcptcore-scope66
       Search__ElasticSearch__EnableCompatibilityMode: true
       Search__ElasticSearch__HealthCheckTimeout: 10
-      #Search__Provider: ElasticAppSearch
+      Search__Provider: ElasticAppSearch
       Search__ElasticSearch8__Server: "https://20c9ebe0bc0d4c13ab7cac13bdf03f9d.us-central1.gcp.cloud.es.io"
       Search__ElasticSearch8__User: "elastic"
       Search__ElasticSearch8__Key: "zitlRlynyE7oTXflcom70wYz"
