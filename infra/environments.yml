@@ -37,6 +37,9 @@
       Notifications__Gateway: SendGrid
       Notifications__SmsDefaultSender: +17012510519
       Payments__AuthorizeNet__ApiLogin: 8hPT4p99R
+      Payments__Skyflow__tokenURI: https://manage.skyflowapis.com/v1/auth/sa/oauth/token
+      Payments__Skyflow__DefaultConnection__name: 8hPT4p99R
+      Payments__Skyflow__DefaultCOnnection__connectionUrl: https://ebfc9bee4242.gateway.skyflowapis.com/v1/gateway/outboundRoutes/gfb5ce07e91340efac348a2df035c513/xml/v1/request.api
       PushNotifications__ForceWebSockets: true
       PushNotifications__ScalabilityMode: RedisBackplane
       PushNotifications__HubUrl: https://vcst-dev.govirto.com/pushNotificationHub?api_key=458ab7f7-df17-4aed-9f21-092f8b611efa
@@ -46,9 +49,6 @@
       Search__ElasticSearch__Server: https://elasticsearch-vc03.govirto.com
       Search__ElasticSearch__EnableCompatibilityMode: true
       Search__Provider: ElasticSearch
-      Skyflow__tokenURI: https://manage.skyflowapis.com/v1/auth/sa/oauth/token
-      Skyflow__DefaultConnection__name: 8hPT4p99R
-      Skyflow__DefaultCOnnection__connectionUrl: https://ebfc9bee4242.gateway.skyflowapis.com/v1/gateway/outboundRoutes/gfb5ce07e91340efac348a2df035c513/xml/v1/request.api
       VirtoCommerce__Hangfire__SqlServerStorageOptions__TryAutoDetectSchemaDependentOptions: true
       VirtoCommerce__Hangfire__SqlServerStorageOptions__UseIgnoreDupKeyOption: true
       VirtoCommerce__LocalUploadFolderPath: wwwroot/cms-content
@@ -61,13 +61,13 @@
       Notifications__SendGrid__ApiKey: sendgrid-apikey
       Payments__AuthorizeNet__SHA2Hash: authorizenet-sha2hash
       Payments__AuthorizeNet__TxnKey: authorizenet-txnkey
-      Skyflow__ClientSDK__clientID: skyflow-client-clientid
-      Skyflow__ClientSDK__keyID: skyflow-client-keyid
-      Skyflow__ClientSDK__privateKey: skyflow-client-privatekey
-      Skyflow__Connections__Default__clientID: skyflow-server-clientid
-      Skyflow__Connections__Default__keyID: skyflow-server-keyid
-      Skyflow__Connections__Default__privateKey: skyflow-server-privatekey
-      Skyflow__DefaultConnection__transactionKey: authorizenet-txnkey
+      Payments__Skyflow__ClientSDK__clientID: skyflow-client-clientid
+      Payments__Skyflow__ClientSDK__keyID: skyflow-client-keyid
+      Payments__Skyflow__ClientSDK__privateKey: skyflow-client-privatekey
+      Payments__Skyflow__Connections__Default__clientID: skyflow-server-clientid
+      Payments__Skyflow__Connections__Default__keyID: skyflow-server-keyid
+      Payments__Skyflow__Connections__Default__privateKey: skyflow-server-privatekey
+      Payments__Skyflow__DefaultConnection__transactionKey: authorizenet-txnkey
   storefront:
     enabled: true
     imageRepository: virtopaasregistrymain.azurecr.io/vcst/storefront
