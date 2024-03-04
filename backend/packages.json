@@ -5,9 +5,6 @@
       "Modules": [
         {
           "BlobName": "VirtoCommerce.PageBuilderModule_3.800.0.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.Skyflow_3.800.0-pr-1-c361.zip"
         }
       ],
       "Container": "packages",
@@ -25,7 +22,7 @@
         },
         {
           "Id": "VirtoCommerce.Assets",
-          "Version": "3.801.0"
+          "Version": "3.804.0"
         },
         {
           "Id": "VirtoCommerce.AuthorizeNetPayment",
@@ -41,7 +38,7 @@
         },
         {
           "Id": "VirtoCommerce.AzureBlobAssets",
-          "Version": "3.801.0"
+          "Version": "3.803.0"
         },
         {
           "Id": "VirtoCommerce.BulkActionsModule",
@@ -53,7 +50,7 @@
         },
         {
           "Id": "VirtoCommerce.Catalog",
-          "Version": "3.802.0"
+          "Version": "3.803.0"
         },
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
@@ -69,7 +66,7 @@
         },
         {
           "Id": "VirtoCommerce.Content",
-          "Version": "3.800.0"
+          "Version": "3.801.0"
         },
         {
           "Id": "VirtoCommerce.Contracts",
@@ -117,7 +114,7 @@
         },
         {
           "Id": "VirtoCommerce.FileSystemAssets",
-          "Version": "3.800.0"
+          "Version": "3.801.0"
         },
         {
           "Id": "VirtoCommerce.GDPR",
@@ -157,7 +154,7 @@
         },
         {
           "Id": "VirtoCommerce.Orders",
-          "Version": "3.805.0"
+          "Version": "3.806.0"
         },
         {
           "Id": "VirtoCommerce.Payment",
@@ -173,11 +170,11 @@
         },
         {
           "Id": "VirtoCommerce.Quote",
-          "Version": "3.801.0"
+          "Version": "3.802.0"
         },
         {
           "Id": "VirtoCommerce.Return",
-          "Version": "3.800.0"
+          "Version": "3.801.0"
         },
         {
           "Id": "VirtoCommerce.Search",
@@ -189,6 +186,10 @@
         },
         {
           "Id": "VirtoCommerce.Sitemaps",
+          "Version": "3.802.0"
+        },
+        {
+          "Id": "VirtoCommerce.Skyflow",
           "Version": "3.801.0"
         },
         {
@@ -211,7 +212,7 @@
     }
   ],
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.809.0",
+  "PlatformVersion": "3.811.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.809.0"
+  "PlatformImageTag": "3.811.0"
 }
