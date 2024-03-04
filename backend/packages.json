@@ -113,10 +113,6 @@
           "BlobName": "VirtoCommerce.ElasticAppSearch_3.801.0-pr-34-ee78.zip"
         },
         {
-          "Id": "VirtoCommerce.Return",
-          "BlobName": "VirtoCommerce.Return_3.801.0-pr-15-6b0b.zip"
-        },
-        {
           "Id": "VirtoCommerce.Store",
           "BlobName": "VirtoCommerce.Store_3.801.0-pr-130-8992.zip"
         },
@@ -227,6 +223,10 @@
         {
           "Id": "VirtoCommerce.Assets",
           "BlobName": "VirtoCommerce.Assets_3.804.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Return",
+          "BlobName": "VirtoCommerce.Return_3.801.0.zip"
         }
       ]
     }
