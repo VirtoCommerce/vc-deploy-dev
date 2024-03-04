@@ -116,6 +116,7 @@
       VirtoCommerce__Hangfire__Queues__items_1: index_worker
       VirtoCommerce__Licensing__LicensePrivateKeyPath: /opt/virtocommerce/platform/license/VirtoCommerce.lic
       Logging__LogLevel__Default: Information
+      PasswordLogin__DetailedErrors: true
       Payments__AuthorizeNet__ApiLogin: 52B9X7vb4
       #Payments__AuthorizeNet__SHA2Hash: FA6D2B37A7E9105942D2D184F1B2DBD8D9CA85611DE55B2267A6F7E0D7E49ACD9A6BC238CE068E75CA14ACFAD734F700FD94DCAB20353DD4D32D9BABE72DBBE4
       Payments__AuthorizeNet__TxnKey: 6QzDf3843wVRp4vx
