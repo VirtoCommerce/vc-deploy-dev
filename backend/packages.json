@@ -156,10 +156,6 @@
           "Version": "3.801.0"
         },
         {
-          "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.803.0"
-        },
-        {
           "Id": "VirtoCommerce.AzureSearch",
           "Version": "3.801.0"
         },
@@ -214,9 +210,14 @@
         {
           "Id": "VirtoCommerce.Return",
           "Version": "3.801.0"
-        }, {
+        },
+        {
           "Id": "VirtoCommerce.ApplicationInsights",
           "Version": "3.800.0"
+        },
+        {
+          "Id": "VirtoCommerce.ProfileExperienceApiModule",
+          "Version": "3.804.0"
         }
       ]
     },
