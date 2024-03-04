@@ -6,11 +6,17 @@
     imageRepository: virtopaasregistrymain.azurecr.io/vcst/platform
     sqlReplica: false
     config:
+      # Increment to force environment reload
+      reload: 4
+      # Application Insights settings
       APPINSIGHTS_INSTRUMENTATIONKEY: ef0125aa-1c8e-42d3-964f-d0a11256309d
+      # Forward headers to Nginx
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
+      # Enable Azure Active Directory login in platform UI
       AzureAd__ApplicationId: 8227d950-975c-4c28-b7d4-ea440a59dcbb
       AzureAd__Enabled: true
       AzureAd__TenantId: bc03e660-5e3a-45c4-bf5c-b75489f78923
+      # Allows to see theme in Content menu in platform UI
       Content__FileSystem__RootPath: /opt/virtocommerce/platform/wwwroot/cms-content
       Content__PathMappings__pages__0: Themes
       Content__PathMappings__pages__1: _storeId
@@ -18,7 +24,9 @@
       Content__PathMappings__pages__3: content/pages
       Content__PathMappings__themes__0: Themes
       Content__PathMappings__themes__1: _storeId
+      # Because cms-content is network share
       DOTNET_USE_POLLING_FILE_WATCHER: true
+      # File Uploader settings
       FileUpload__RootPath: attachments
       FileUpload__Scopes__0__Scope: quote-attachments
       FileUpload__Scopes__0__MaxFileSize: 10485760
@@ -29,28 +37,40 @@
       FileUpload__Scopes__0__AllowedExtensions__4: .png
       FileUpload__Scopes__0__AllowedExtensions__5: .txt
       FileUpload__Scopes__0__AllowedExtensions__6: .xlsx
+      # Prevent password expired dialog to appear
       IdentityOptions__Lockout__LockoutMaximumDaysFromLastLogin: 3
       IdentityOptions__Lockout__CronAutoAccountsLockoutJob: 0/5 * * * *
-      PasswordLogin__DetailedErrors: true
+      # Send notifications via email
       Notifications__DefaultSender: azure_25da07ed75daacae20578a7a7dc58541@azure.com
       Notifications__Gateway: SendGrid
       Notifications__SmsDefaultSender: +17012510519
+      # Return detailed error information if login failed
+      PasswordLogin__DetailedErrors: true
+      # Authorize.Net settings
       Payments__AuthorizeNet__ApiLogin: 8hPT4p99R
+      # Skyflow settings
       Payments__Skyflow__tokenURI: https://manage.skyflowapis.com/v1/auth/sa/oauth/token
       Payments__Skyflow__DefaultConnection__name: 8hPT4p99R
       Payments__Skyflow__DefaultCOnnection__connectionUrl: https://ebfc9bee4242.gateway.skyflowapis.com/v1/gateway/outboundRoutes/gfb5ce07e91340efac348a2df035c513/xml/v1/request.api
+      # Sync push notifications between platform instances
       PushNotifications__ForceWebSockets: true
       PushNotifications__ScalabilityMode: RedisBackplane
       PushNotifications__HubUrl: https://vcst-qa.govirto.com/pushNotificationHub?api_key=458ab7f7-df17-4aed-9f21-092f8b611efa
       PushNotifications__RedisBackplane__ChannelName: vcst-qa-chanel
+      # Elastic App Search settings
       Search__ElasticAppSearch__Endpoint: https://enterprise-search-test.govirto.com
       Search__ElasticAppSearch__EnableHttpCompression: true
+      # Elastic Search settings
       Search__ElasticSearch__Server: https://elasticsearch-vc03.govirto.com
       Search__ElasticSearch__EnableCompatibilityMode: true
+      # VirtoCommerce Search settings
       Search__Provider: ElasticSearch
+      # Prevent Hangfire duplication key error
       VirtoCommerce__Hangfire__SqlServerStorageOptions__TryAutoDetectSchemaDependentOptions: true
       VirtoCommerce__Hangfire__SqlServerStorageOptions__UseIgnoreDupKeyOption: true
+      # Network share path where to upload files
       VirtoCommerce__LocalUploadFolderPath: wwwroot/cms-content
+      # Sample data used if db is empty
       VirtoCommerce__SampleDataUrl: https://vc3prerelease.blob.core.windows.net/packages/clothing-and-electronics_3_0_2.zip
       # Temporary settings below
     secretConfig:
