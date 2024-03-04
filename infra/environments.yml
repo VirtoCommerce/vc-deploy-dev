@@ -4,7 +4,7 @@
   servicePlan: S2
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.452.8-b62867b
+    imageTag: 3.293.34-f007c14
     sqlReplica: false
     config:
       FrontendSecurity__OrganizationMaintainerRole: Organization maintainer
@@ -20,6 +20,7 @@
       Reload: 10
       Search__ElasticSearch__EnableCompatibilityMode: true
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
+      ASPNETCORE_ENVIRONMENT: Development
       AppInsights__EnableDependencyTrackingTelemetryModule: false
       Swagger__UI__Enabled: true
       PushNotifications__ForceWebSockets: true
