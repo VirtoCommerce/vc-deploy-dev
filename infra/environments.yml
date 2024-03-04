@@ -31,6 +31,7 @@
       FileUpload__Scopes__0__AllowedExtensions__6: .xlsx
       IdentityOptions__Lockout__LockoutMaximumDaysFromLastLogin: 3
       IdentityOptions__Lockout__CronAutoAccountsLockoutJob: 0/5 * * * *
+      PasswordLogin__DetailedErrors: true
       Notifications__DefaultSender: azure_25da07ed75daacae20578a7a7dc58541@azure.com
       Notifications__Gateway: SendGrid
       Notifications__SmsDefaultSender: +17012510519
