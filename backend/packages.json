@@ -181,10 +181,6 @@
           "BlobName": "VirtoCommerce.FileExperienceApi_3.800.0.zip"
         },
         {
-          "Id": "VirtoCommerce.Customer",
-          "BlobName": "VirtoCommerce.Customer_3.802.0-pr-235-cd4b.zip"
-        },
-        {
           "Id": "VirtoCommerce.AzureSearch",
           "BlobName": "VirtoCommerce.AzureSearch_3.801.0.zip"
         },
@@ -227,6 +223,10 @@
         {
           "Id": "VirtoCommerce.Quote",
           "BlobName": "VirtoCommerce.Quote_3.803.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Customer",
+          "BlobName": "VirtoCommerce.Customer_3.802.0.zip"
         }
       ]
     }
