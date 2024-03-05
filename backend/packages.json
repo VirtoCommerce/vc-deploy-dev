@@ -136,10 +136,6 @@
           "Version": "3.800.0"
         },
         {
-          "Id": "VirtoCommerce.Core",
-          "Version": "3.804.0"
-        },
-        {
           "Id": "VirtoCommerce.CustomerExportImport",
           "Version": "3.803.0"
         },
@@ -218,6 +214,10 @@
         {
           "Id": "VirtoCommerce.ElasticAppSearch",
           "Version": "3.801.0"
+        },
+        {
+          "Id": "VirtoCommerce.Core",
+          "Version": "3.805.0"
         }
       ]
     },
