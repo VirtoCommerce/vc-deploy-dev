@@ -37,9 +37,6 @@
       FileUpload__Scopes__0__AllowedExtensions__4: .png
       FileUpload__Scopes__0__AllowedExtensions__5: .txt
       FileUpload__Scopes__0__AllowedExtensions__6: .xlsx
-      # Prevent password expired dialog to appear
-      IdentityOptions__Lockout__LockoutMaximumDaysFromLastLogin: 3
-      IdentityOptions__Lockout__CronAutoAccountsLockoutJob: 0/5 * * * *
       # Send notifications via email
       Notifications__DefaultSender: azure_25da07ed75daacae20578a7a7dc58541@azure.com
       Notifications__Gateway: SendGrid
