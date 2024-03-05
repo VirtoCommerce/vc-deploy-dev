@@ -82,10 +82,6 @@
           "BlobName": "VirtoCommerce.Pricing_3.801.0-alpha.713.zip"
         },
         {
-          "Id": "VirtoCommerce.ElasticAppSearch",
-          "BlobName": "VirtoCommerce.ElasticAppSearch_3.801.0-alpha.109.zip"
-        },
-        {
           "Id": "VirtoCommerce.NativePaymentMethods",
           "BlobName": "VirtoCommerce.NativePaymentMethods_3.801.0-alpha.76.zip"
         },
@@ -236,6 +232,10 @@
         {
           "Id": "VirtoCommerce.Cart",
           "BlobName": "VirtoCommerce.Cart_3.803.0-alpha.667.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ElasticAppSearch",
+          "BlobName": "VirtoCommerce.ElasticAppSearch_3.801.0-alpha.116.zip"
         }
       ]
     }
