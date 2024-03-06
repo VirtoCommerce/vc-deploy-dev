@@ -44,7 +44,7 @@
       # Return detailed error information if login failed
       PasswordLogin__DetailedErrors: true
       # Authorize.Net settings
-      Payments__AuthorizeNet__ApiLogin: 8hPT4p99R
+      Payments__AuthorizeNet__ApiLogin: 52B9X7vb4
       # Skyflow settings
       Payments__Skyflow__tokenURI: https://manage.skyflowapis.com/v1/auth/sa/oauth/token
       Payments__Skyflow__DefaultConnection__name: 8hPT4p99R
