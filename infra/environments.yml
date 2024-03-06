@@ -70,7 +70,7 @@
       # Sample data used if db is empty
       VirtoCommerce__SampleDataUrl: https://vc3prerelease.blob.core.windows.net/packages/clothing-and-electronics_3_0_2.zip
       # Temporary settings below
-      Authorization__AccessTokenLifeTime: 0:00:30
+      Authorization__AccessTokenLifeTime: 0:30:00
     secretConfig:
       Notifications__SendGrid__ApiKey: sendgrid-apikey
       Payments__AuthorizeNet__SHA2Hash: authorizenet-sha2hash
