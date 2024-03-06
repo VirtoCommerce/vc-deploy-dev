@@ -1,10 +1,10 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.813.0-alpha.12883-vcst-430-12c48358",
+  "PlatformVersion": "3.812.0-alpha.12871-vcst-662fix-environment-folder-breaking-changes-for-macos-in-.net8-f7d5337e",
   "StorefrontVersion": "6.34.0-master-d8f90289",
   "ThemeB2BVue": "https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-1.49.0-pr-880-6a14-6a141236.zip",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.813.0-alpha.12883-vcst-430-12c48358",
+  "PlatformImageTag": "3.812.0-alpha.12871-vcst-662fix-environment-folder-breaking-changes-for-macos-in-.net8-f7d5337e",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -13,6 +13,10 @@
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
       "Modules": [
+        {
+          "Id": "VirtoCommerce.EventBus",
+          "Version": "3.800.0"
+        },
         {
           "Id": "VirtoCommerce.LuceneSearch",
           "Version": "3.800.0"
@@ -120,10 +124,6 @@
           "Id": "VirtoCommerce.Core",
           "BlobName": "VirtoCommerce.Core_3.804.0.zip"
         },
-           {
-          "Id": "VirtoCommerce.EventBus",
-          "BlobName": "VirtoCommerce.EventBus_3.801.0-pr-19-e312.zip"
-        },
         {
           "Id": "VirtoCommerce.Cart",
           "BlobName": "VirtoCommerce.Cart_3.802.0-pr-140-8c3d.zip"
@@ -142,7 +142,7 @@
         },
         {
           "Id": "VirtoCommerce.WebHooks",
-          "BlobName": "VirtoCommerce.WebHooks_3.802.0-pr-76-72a2.zip"
+          "BlobName": "VirtoCommerce.WebHooks_3.801.0-pr-75-35a8.zip"
         },
         {
           "Id": "VirtoCommerce.ImageTools",
@@ -227,10 +227,6 @@
         {
           "Id": "VirtoCommerce.Quote",
           "BlobName": "VirtoCommerce.Quote_3.803.0.zip"
-        },
-        {
-          "Id": "VirtoCommerce.AuditLog",
-          "BlobName": "VirtoCommerce.AuditLog_3.801.0-pr-2-52e8.zip"
         }
       ]
     }
