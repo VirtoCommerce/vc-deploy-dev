@@ -5,7 +5,7 @@
   platform:
     dbProvider: Azure Database for PostgreSQL
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.807.0-48700f6
+    imageTag: 3.812.0-6988fae
     sqlReplica: false
     config:
       Serilog__Using__0: Serilog.Sinks.Console
@@ -82,6 +82,7 @@
       IdentityOptions__Password__RequireDigit: false
       IdentityOptions__Password__RequireNonAlphanumeric: false
       IdentityOptions__Password__RequireUppercase: false
+      IdentityOptions__User__MaxPasswordAge: 0
       IdentityOptions__Password__RequireLowercase: false
       EventBus__Connections__0__Name: "AzureEventGridApps"
       EventBus__Connections__0__ProviderName: "AzureEventGrid"
