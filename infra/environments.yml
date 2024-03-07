@@ -173,11 +173,6 @@
       AuditLogOptions__EntityOptions__3__NameProperty: Code
       AuditLogOptions__EntityOptions__4__TypeFullName: VirtoCommerce.CatalogModule.Core.Model.Property
       AuditLogOptions__EntityOptions__4__NameProperty: Name
-      AuditLogOptions__TrackingEvents__0: VirtoCommerce.OrdersModule.Core.Events.OrderChangedEvent
-      AuditLogOptions__TrackingEvents__1: VirtoCommerce.Platform.Core.Settings.Events.ObjectSettingChangedEvent
-      AuditLogOptions__TrackingEvents__2: VirtoCommerce.StoreModule.Core.Events.StoreChangedEvent
-      AuditLogOptions__TrackingEvents__3: VirtoCommerce.CatalogModule.Core.Events.ProductChangedEvent
-      AuditLogOptions__TrackingEvents__4: VirtoCommerce.CustomerModule.Core.Events.MemberChangedEvent
     secretConfig:
       Payments__Skyflow__Connections__Default__clientID: skyflow-server-clientid
       Payments__Skyflow__Connections__Default__keyID: skyflow-server-keyid
