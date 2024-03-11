@@ -1,11 +1,11 @@
-- name: vcptcore-postgresql
+- name: vcptcore-loadtest
   gitops: true
   production: false
   servicePlan: P2
   platform:
-    dbProvider: Azure Database for PostgreSQL
+    #dbProvider: Azure Database for PostgreSQL
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.807.0-48700f6
+    imageTag: 3.812.0-6988fae
     sqlReplica: false
     config:
       Serilog__Using__0: Serilog.Sinks.Console
@@ -14,8 +14,8 @@
       #APPINSIGHTS_INSTRUMENTATIONKEY: eb2fbd36-8ffa-4e9d-bf64-5ec908e7fc74
       PushNotifications__ForceWebSockets: true
       PushNotifications__ScalabilityMode: RedisBackplane
-      PushNotifications__HubUrl: https://vcptcore-postgresql.govirto.com/pushNotificationHub?api_key=458ab7f7-df17-4aed-9f21-092f8b611efa
-      PushNotifications__RedisBackplane__ChannelName: vcptcore-postgresql-chanel
+      PushNotifications__HubUrl: https://vcptcore-loadtest.govirto.com/pushNotificationHub?api_key=458ab7f7-df17-4aed-9f21-092f8b611efa
+      PushNotifications__RedisBackplane__ChannelName: vcptcore-loadtest-chanel
       Notifications__DefaultSender: azure_25da07ed75daacae20578a7a7dc58541@azure.com
       Notifications__Gateway: SendGrid
       Notifications__SmsDefaultSender: +17012510519
@@ -40,12 +40,12 @@
       #VirtoCommerce__LocalUploadFolderPath: wwwroot/cms-content
       AzureAd__Priority: 1
       PasswordLogin__Priority: 0
-      Reload: 70
+      Reload: 73
       Tax__Avalara__AccountNumber: 2000188799
       Tax__Avalara__LicenseKey: 16BC3F87E836E15C
       #Search__Provider: Lucene
-      #VirtoCommerce__SampleDataUrl: https://virtocommerce.azureedge.net/sample-data/b2b-sample-store.zip
-      VirtoCommerce__SampleDataUrl: ""
+      VirtoCommerce__SampleDataUrl: https://virtocommerce.azureedge.net/sample-data/b2b-sample-store.zip
+      #VirtoCommerce__SampleDataUrl: ""
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
       Swagger__UI__Enabled: false
       Search__OrderFullTextSearchEnabled: true
@@ -82,6 +82,7 @@
       IdentityOptions__Password__RequireDigit: false
       IdentityOptions__Password__RequireNonAlphanumeric: false
       IdentityOptions__Password__RequireUppercase: false
+      IdentityOptions__User__MaxPasswordAge: 0
       IdentityOptions__Password__RequireLowercase: false
       EventBus__Connections__0__Name: "AzureEventGridApps"
       EventBus__Connections__0__ProviderName: "AzureEventGrid"
