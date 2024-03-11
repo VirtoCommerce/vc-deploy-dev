@@ -19,11 +19,10 @@
       FileUpload__Scopes__0__AllowedExtensions__6: .xlsx
       DOTNET_USE_POLLING_FILE_WATCHER: true
       Reload: 21
-      Serilog__MinimumLevel__Override__VirtoCommerce.Platform.Core.Bus.InProcessBus: Information
       #ConnectionStrings__AzureAppConfigurationConnectionString: "Endpoint=https://qa-vc-app-config.azconfig.io;Id=BvwK;Secret=nbF7kOXCU14+qCF5OtP4LR63zfbSyDx6th46bIWkUHQ="
-      #Serilog__Using__0: Serilog.Sinks.Console
+      Serilog__Using__0: Serilog.Sinks.Console
       #Serilog__Using__1: Serilog.Sinks.ApplicationInsights
-      #Serilog__MinimumLevel__Default: "Information"
+      Serilog__MinimumLevel__Default: "Information"
       #Serilog__WriteTo__0: Console
       #Serilog__WriteTo__1__Name: ApplicationInsights
       #Serilog__WriteTo__1__Args__telemetryConverter: Serilog.Sinks.ApplicationInsights.TelemetryConverters.TraceTelemetryConverter, Serilog.Sinks.ApplicationInsights
