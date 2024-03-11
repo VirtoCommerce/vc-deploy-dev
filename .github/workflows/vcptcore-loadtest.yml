@@ -34,7 +34,7 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
     - name: Azure login
-      uses: azure/login@master
+      uses: azure/login@v1
       with:
         creds: '{"clientId":"${{ secrets.AZURE_CREDENTIALS_CLIENT }}","clientSecret":"${{ secrets.AZURE_CREDENTIALS_SECRET }}","subscriptionId":"29e73d5c-378f-4e50-8803-270f82cf1114","tenantId":"${{ secrets.AZURE_TENANT_ID }}"}'
 
@@ -123,7 +123,7 @@ jobs:
     #       az sql db delete --resource-group ${{ env.DB_RESOURCE_GROUP }} --server ${{ env.DB_SERVER }} --name ${{ env.DB_NAME }} --yes
       
     - name: Azure login VM
-      uses: azure/login@master
+      uses: azure/login@v1
       with:
         creds: '{"clientId":"${{ secrets.AZURE_CREDENTIALS_CLIENT }}","clientSecret":"${{ secrets.AZURE_CREDENTIALS_SECRET }}","subscriptionId":"29e73d5c-378f-4e50-8803-270f82cf1114","tenantId":"${{ secrets.AZURE_TENANT_ID }}"}'
 
