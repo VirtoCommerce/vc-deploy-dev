@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.812.0",
+  "PlatformVersion": "3.813.0-alpha.12873-vcst-596-module-store-settings-23cbe0f9",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.812.0",
+  "PlatformImageTag": "3.813.0-alpha.12873-vcst-596-module-store-settings-23cbe0f9",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -100,10 +100,6 @@
           "Version": "3.800.0"
         },
         {
-          "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
-          "Version": "4.800.0"
-        },
-        {
           "Id": "VirtoCommerce.ShipStation",
           "Version": "3.800.0"
         },
@@ -172,10 +168,6 @@
           "Version": "3.803.0"
         },
         {
-          "Id": "VirtoCommerce.ExperienceApi",
-          "Version": "3.810.0"
-        },
-        {
           "Id": "VirtoCommerce.Assets",
           "Version": "3.804.0"
         },
@@ -225,7 +217,16 @@
       "Name": "AzureBlob",
       "Container": "packages",
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
-      "Modules": []
+      "Modules": [
+         {
+          "Id": "VirtoCommerce.ExperienceApi",
+          "BlobName": "VirtoCommerce.ExperienceApi_3.811.0-pr-535-77cd.zip"
+        },
+         {
+          "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
+          "BlobName": "VirtoCommerce.GoogleEcommerceAnalytics_4.801.0-pr-48-a3e3.zip"
+        }
+      ]
     }
   ]
 }
