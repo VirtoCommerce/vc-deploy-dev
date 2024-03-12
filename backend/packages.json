@@ -100,10 +100,6 @@
           "Version": "3.800.0"
         },
         {
-          "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
-          "Version": "4.800.0"
-        },
-        {
           "Id": "VirtoCommerce.ShipStation",
           "Version": "3.800.0"
         },
@@ -218,6 +214,10 @@
         {
           "Id": "VirtoCommerce.ExperienceApi",
           "Version": "3.811.0"
+        },
+        {
+          "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
+          "Version": "4.801.0"
         }
       ]
     },
