@@ -1,6 +1,6 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.811.0",
+  "PlatformVersion": "3.813.0",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -18,7 +18,7 @@
           "BlobName": "VirtoCommerce.PowerBiReports_3.800.0-alpha.31.zip"
         },
         {
-          "BlobName": "VirtoCommerce.ExperienceApi_3.811.0-pr-536-ddfe.zip"
+          "BlobName": "VirtoCommerce.ExperienceApi_3.812.0-pr-535-8460.zip"
         }
       ]
     },
@@ -134,7 +134,7 @@
         },
         {
           "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
-          "Version": "4.800.0"
+          "Version": "4.801.0"
         },
         {
           "Id": "VirtoCommerce.Hotjar",
