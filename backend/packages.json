@@ -66,10 +66,6 @@
           "Version": "3.800.0"
         },
         {
-          "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
-          "Version": "4.800.0"
-        },
-        {
           "Id": "VirtoCommerce.ElasticSearch",
           "Version": "3.800.0"
         },
@@ -231,6 +227,10 @@
         {
           "Id": "VirtoCommerce.ExperienceApi",
           "BlobName": "VirtoCommerce.ExperienceApi_3.811.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
+          "BlobName": "VirtoCommerce.GoogleEcommerceAnalytics_4.801.0.zip"
         }
       ]
     }
