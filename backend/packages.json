@@ -16,9 +16,6 @@
         },
         {
           "BlobName": "VirtoCommerce.PowerBiReports_3.800.0-alpha.31.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.ExperienceApi_3.812.0-pr-535-6563.zip"
         }
       ]
     },
@@ -115,6 +112,10 @@
         {
           "Id": "VirtoCommerce.EventBus",
           "Version": "3.800.0"
+        },
+        {
+          "Id": "VirtoCommerce.ExperienceApi",
+          "Version": "3.812.0"
         },
         {
           "Id": "VirtoCommerce.Export",
