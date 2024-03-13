@@ -201,7 +201,7 @@
       VirtoCommerce__Endpoint__Password: store
       CookieAuthenticationOptions__ExpireTimeSpan: 10:00:00
       Swagger__UI__Enable: true
-      ConnectionStrings__ContentConnectionString: provider=AzureBlobStorage;rootPath=cms;DefaultEndpointsProtocol=https;AccountName=qademovc3;AccountKey=qPIpM63MI2P3ei6B1xIL4/DlKDqdsRj54z2GUtgCAeXPcMe8+mZiUvrvI5fjdyrovk331XmBlMFfAEFAjCnvtw==;EndpointSuffix=core.windows.net
+      #ConnectionStrings__ContentConnectionString: provider=AzureBlobStorage;rootPath=cms;DefaultEndpointsProtocol=https;AccountName=qademovc3;AccountKey=qPIpM63MI2P3ei6B1xIL4/DlKDqdsRj54z2GUtgCAeXPcMe8+mZiUvrvI5fjdyrovk331XmBlMFfAEFAjCnvtw==;EndpointSuffix=core.windows.net
     themes:
       B2B-store: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-1.51.0-alpha.1098-vcst-334-card-payment-via-skyflow.zip
   ingress: {}
