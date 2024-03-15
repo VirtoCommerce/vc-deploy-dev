@@ -38,10 +38,6 @@
           "BlobName": "VirtoCommerce.AzureAD_3.801.0-alpha.25.zip"
         },
         {
-          "Id": "VirtoCommerce.EventBus",
-          "BlobName": "VirtoCommerce.EventBus_3.801.0-alpha.118.zip"
-        },
-        {
           "Id": "VirtoCommerce.Notifications",
           "BlobName": "VirtoCommerce.Notifications_3.801.0-alpha.354.zip"
         },
@@ -236,6 +232,10 @@
         {
           "Id": "VirtoCommerce.ExperienceApi",
           "BlobName": "VirtoCommerce.ExperienceApi_3.814.0-alpha.1365.zip"
+        },
+        {
+          "Id": "VirtoCommerce.EventBus",
+          "BlobName": "VirtoCommerce.EventBus_3.801.0-alpha.125.zip"
         }
       ]
     }
