@@ -5,7 +5,10 @@
       "Modules": [
         {
           "BlobName": "VirtoCommerce.PageBuilderModule_3.800.0.zip"
-        }            
+        },
+        {
+          "BlobName": "VirtoCommerce.Skyflow_3.803.0-pr-6-4994.zip"
+        }          
       ],
       "Container": "packages",
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net"
@@ -179,10 +182,6 @@
         {
           "Id": "VirtoCommerce.Search",
           "Version": "3.800.0"
-        },
-        {
-          "Id": "VirtoCommerce.Skyflow",
-          "Version": "3.802.0"
         },
         {
           "Id": "VirtoCommerce.Shipping",
