@@ -140,10 +140,6 @@
           "Version": "3.801.0"
         },
         {
-          "Id": "VirtoCommerce.Skyflow",
-          "Version": "3.801.0"
-        },
-        {
           "Id": "VirtoCommerce.FileSystemAssets",
           "Version": "3.801.0"
         },
@@ -217,6 +213,10 @@
         },
         {
           "Id": "VirtoCommerce.WebHooks",
+          "Version": "3.802.0"
+        },
+        {
+          "Id": "VirtoCommerce.Skyflow",
           "Version": "3.802.0"
         }
       ]
