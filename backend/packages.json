@@ -108,10 +108,6 @@
           "Version": "3.801.0"
         },
         {
-          "Id": "VirtoCommerce.WebHooks",
-          "Version": "3.801.0"
-        },
-        {
           "Id": "VirtoCommerce.ImageTools",
           "Version": "3.801.0"
         },
@@ -218,6 +214,10 @@
         {
           "Id": "VirtoCommerce.EventBus",
           "Version": "3.801.0"
+        },
+        {
+          "Id": "VirtoCommerce.WebHooks",
+          "Version": "3.802.0"
         }
       ]
     },
