@@ -158,10 +158,6 @@
           "BlobName": "VirtoCommerce.Export_3.802.0-alpha.228.zip"
         },
         {
-          "Id": "VirtoCommerce.Skyflow",
-          "BlobName": "VirtoCommerce.Skyflow_3.802.0-alpha.14.zip"
-        },
-        {
           "Id": "VirtoCommerce.ImageTools",
           "BlobName": "VirtoCommerce.ImageTools_3.802.0-alpha.337.zip"
         },
@@ -236,6 +232,10 @@
         {
           "Id": "VirtoCommerce.WebHooks",
           "BlobName": "VirtoCommerce.WebHooks_3.803.0-alpha.293.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Skyflow",
+          "BlobName": "VirtoCommerce.Skyflow_3.802.0-alpha.15.zip"
         }
       ]
     }
