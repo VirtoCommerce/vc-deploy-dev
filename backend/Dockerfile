@@ -7,4 +7,4 @@ COPY ./platform /opt/virtocommerce/platform
 WORKDIR /opt/virtocommerce/platform
 
 ENTRYPOINT ["dotnet", "VirtoCommerce.Platform.Web.dll"]
-#
+##
