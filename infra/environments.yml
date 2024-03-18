@@ -71,7 +71,8 @@
       # Sample data used if db is empty
       VirtoCommerce__SampleDataUrl: https://vc3prerelease.blob.core.windows.net/packages/clothing-and-electronics_3_0_2.zip
       # Temporary settings below
-      Authorization__AccessTokenLifeTime: 0:30:00
+      Authorization__AccessTokenLifeTime: 00:03:00
+      Authorization__RefreshTokenLifeTime: 00:10:00
     secretConfig:
       Notifications__SendGrid__ApiKey: sendgrid-apikey
       Payments__Skyflow__Connections__Default__clientID: skyflow-server-clientid
