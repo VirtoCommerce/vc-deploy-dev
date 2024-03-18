@@ -10,13 +10,14 @@
       "Container": "packages",
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net"
     },
+  
     {
       "Name": "GithubReleases",
       "ModuleSources": [
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
-	"Modules": [
-		{
+      "Modules": [
+                {
 			"Id": "VirtoCommerce.ApplicationInsights",
 			"Version": "3.800.0"
 		},
@@ -224,7 +225,9 @@
 			"Id": "VirtoCommerce.WebHooks",
 			"Version": "3.802.0"
 		}
-	],
+	      ]
+    }
+  ],
   "ManifestVersion": "2.0",
   "PlatformVersion": "3.815.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
