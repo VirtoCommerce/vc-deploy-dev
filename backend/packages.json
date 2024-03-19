@@ -1,6 +1,6 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.813.0",
+  "PlatformVersion": "3.815.0",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -12,7 +12,7 @@
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
         {
-          "BlobName": "VirtoCommerce.PageBuilderModule_3.800.0-alpha.518.zip"
+          "BlobName": "VirtoCommerce.PageBuilderModule_3.802.0-alpha.522.zip"
         },
         {
           "BlobName": "VirtoCommerce.PowerBiReports_3.800.0-alpha.31.zip"
@@ -59,7 +59,7 @@
         },
         {
           "Id": "VirtoCommerce.Catalog",
-          "Version": "3.803.0"
+          "Version": "3.804.0"
         },
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
@@ -75,7 +75,7 @@
         },
         {
           "Id": "VirtoCommerce.Content",
-          "Version": "3.801.0"
+          "Version": "3.802.0"
         },
         {
           "Id": "VirtoCommerce.Contracts",
@@ -83,7 +83,7 @@
         },
         {
           "Id": "VirtoCommerce.Core",
-          "Version": "3.804.0"
+          "Version": "3.805.0"
         },
         {
           "Id": "VirtoCommerce.Customer",
@@ -99,7 +99,7 @@
         },
         {
           "Id": "VirtoCommerce.ElasticAppSearch",
-          "Version": "3.800.0"
+          "Version": "3.801.0"
         },
         {
           "Id": "VirtoCommerce.ElasticSearch",
@@ -107,15 +107,15 @@
         },
         {
           "Id": "VirtoCommerce.ElasticSearch8",
-          "Version": "3.804.0"
+          "Version": "3.805.0"
         },
         {
           "Id": "VirtoCommerce.EventBus",
-          "Version": "3.800.0"
+          "Version": "3.801.0"
         },
         {
           "Id": "VirtoCommerce.ExperienceApi",
-          "Version": "3.812.0"
+          "Version": "3.815.0"
         },
         {
           "Id": "VirtoCommerce.Export",
@@ -139,7 +139,7 @@
         },
         {
           "Id": "VirtoCommerce.Hotjar",
-          "Version": "3.800.0"
+          "Version": "3.801.0"
         },
         {
           "Id": "VirtoCommerce.ImageTools",
@@ -179,11 +179,11 @@
         },
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.803.0"
+          "Version": "3.804.0"
         },
         {
           "Id": "VirtoCommerce.Quote",
-          "Version": "3.802.0"
+          "Version": "3.803.0"
         },
         {
           "Id": "VirtoCommerce.Return",
@@ -200,6 +200,10 @@
         {
           "Id": "VirtoCommerce.Sitemaps",
           "Version": "3.802.0"
+        },
+        {
+          "Id": "VirtoCommerce.Skyflow",
+          "Version": "3.803.0"
         },
         {
           "Id": "VirtoCommerce.Store",
@@ -219,7 +223,7 @@
         },
         {
           "Id": "VirtoCommerce.WebHooks",
-          "Version": "3.801.0"
+          "Version": "3.802.0"
         }
       ]
     }
