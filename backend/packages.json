@@ -78,10 +78,6 @@
           "Version": "3.800.0"
         },
         {
-          "Id": "VirtoCommerce.Notifications",
-          "Version": "3.800.0"
-        },
-        {
           "Id": "VirtoCommerce.AuthorizeNetPayment",
           "Version": "3.800.0"
         },
@@ -104,6 +100,10 @@
       "Container": "packages",
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
+        {
+          "Id": "VirtoCommerce.Notifications",
+          "BlobName": "VirtoCommerce.Notifications_3.801.0-pr-152-501e.zip"
+        },
         {
           "Id": "VirtoCommerce.ElasticAppSearch",
           "BlobName": "VirtoCommerce.ElasticAppSearch_3.801.0.zip"
