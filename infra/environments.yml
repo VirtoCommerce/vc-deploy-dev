@@ -45,7 +45,6 @@
       PasswordLogin__DetailedErrors: true
       # Authorize.Net settings
       Payments__AuthorizeNet__ApiLogin: 52B9X7vb4
-      Payments__AuthorizeNet__TxnKey: 6QzDf3843wVRp4vx      
       # Skyflow settings
       Payments__Skyflow__tokenURI: https://manage.skyflowapis.com/v1/auth/sa/oauth/token
       Payments__Skyflow__DefaultConnection__name: 52B9X7vb4
@@ -75,13 +74,14 @@
       Authorization__RefreshTokenLifeTime: 00:30:00
     secretConfig:
       Notifications__SendGrid__ApiKey: sendgrid-apikey
+      Payments__AuthorizeNet__TxnKey: authorizenet-txnkey
+      Payments__Skyflow__ClientSDK__clientID: skyflow-client-clientid
+      Payments__Skyflow__ClientSDK__keyID: skyflow-client-keyid
+      Payments__Skyflow__ClientSDK__privateKey: skyflow-client-privatekey
       Payments__Skyflow__Connections__Default__clientID: skyflow-server-clientid
       Payments__Skyflow__Connections__Default__keyID: skyflow-server-keyid
       Payments__Skyflow__Connections__Default__privateKey: skyflow-server-privatekey
       Payments__Skyflow__DefaultConnection__transactionKey: authorizenet-txnkey
-      Payments__Skyflow__ClientSDK__clientID: skyflow-client-clientid
-      Payments__Skyflow__ClientSDK__keyID: skyflow-client-keyid
-      Payments__Skyflow__ClientSDK__privateKey: skyflow-client-privatekey
   storefront:
     enabled: true
     imageRepository: virtopaasregistrymain.azurecr.io/vcst/storefront
