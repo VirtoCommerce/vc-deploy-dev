@@ -16,10 +16,6 @@
           "Version": "3.800.0"
         },
         {
-          "Id": "VirtoCommerce.Notifications",
-          "Version": "3.800.0"
-        },
-        {
           "Id": "VirtoCommerce.Store",
           "Version": "3.800.0"
         },
@@ -218,6 +214,10 @@
         {
           "Id": "VirtoCommerce.Sitemaps",
           "Version": "3.803.0"
+        },
+        {
+          "Id": "VirtoCommerce.Notifications",
+          "Version": "3.801.0"
         }
       ]
     },
