@@ -56,7 +56,7 @@
       Payments__Skyflow__tokenURI: https://manage.skyflowapis.com/v1/auth/sa/oauth/token
       Payments__Skyflow__DefaultConnection__name: 52B9X7vb4
       Payments__Skyflow__DefaultCOnnection__connectionUrl: https://ebfc9bee4242.gateway.skyflowapis.com/v1/gateway/outboundRoutes/gfb5ce07e91340efac348a2df035c513/xml/v1/request.api
-      Reload: 2024-01-12-01
+      Reload: 2024-03-21
     secretConfig:
       Notifications__SendGrid__ApiKey: sendkey
       Payments__AuthorizeNet__TxnKey: txnkey      
