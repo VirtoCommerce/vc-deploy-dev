@@ -55,16 +55,16 @@ jobs:
       env:
         IMAGE_REPOSITORY: virtopaasregistrymain.azurecr.io/virtostart/platform
         TAG: ${{ env.PLATFORM_VERSION }}-${{ steps.vars.outputs.sha_short }}
-        GH_CONTAINER_REPOSITORY: 'virtostart/platform'
+        GH_CONTAINER_REPOSITORY: 'ghcr.io/virtocommerce/virtostart'
     
     - name: Publish Docker Image to GitHub
       uses: VirtoCommerce/vc-github-actions/publish-docker-image@master
       with:
-          image: 'virtostart/platform'
+          image: 'ghcr.io/virtocommerce/virtostart'
           tag: ${{ env.PLATFORM_VERSION }}-${{ steps.vars.outputs.sha_short }}
           docker_user: ${{ secrets.DOCKER_USERNAME }}
           docker_token: ${{ secrets.DOCKER_TOKEN }}
-          docker_hub: 'true'
+          docker_hub: 'false'
           update_latest: 'true'
           release_branch: virtostart
 
