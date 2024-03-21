@@ -43,6 +43,7 @@
       Notifications__SmsDefaultSender: +17012510519
       # Return detailed error information if login failed
       PasswordLogin__DetailedErrors: true
+      IdentityOptions__Lockout__MaxFailedAccessAttempts: 5
       # Authorize.Net settings
       Payments__AuthorizeNet__ApiLogin: 52B9X7vb4
       # Skyflow settings
