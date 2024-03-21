@@ -16,6 +16,7 @@
       PasswordLogin__Priority: 1
       # Return detailed error information if login failed
       PasswordLogin__DetailedErrors: true
+      IdentityOptions__Lockout__MaxFailedAccessAttempts: 5
       Search__Provider: ElasticAppSearch
       Search__Scope: virtostart
       Search__ElasticAppSearch__Endpoint: "http://enterprise-search-ent-http.elastic-system.svc.cluster.local:3002"
@@ -48,6 +49,9 @@
       FileUpload__Scopes__0__AllowedExtensions__4: .png
       FileUpload__Scopes__0__AllowedExtensions__5: .txt
       FileUpload__Scopes__0__AllowedExtensions__6: .xlsx
+      # Authorize.Net settings
+      Payments__AuthorizeNet__ApiLogin: 52B9X7vb4      
+      Payments__AuthorizeNet__SHA2Hash: sha2hash
       # Skyflow settings
       Payments__Skyflow__tokenURI: https://manage.skyflowapis.com/v1/auth/sa/oauth/token
       Payments__Skyflow__DefaultConnection__name: 52B9X7vb4
@@ -55,10 +59,7 @@
       Reload: 2024-01-12-01
     secretConfig:
       Notifications__SendGrid__ApiKey: sendkey
-      Payments__AuthorizeNet__ApiLogin: apilogin
-      Payments__AuthorizeNet__SHA2Hash: sha2hash
-      Payments__AuthorizeNet__TxnKey: txnkey
-      # Skyflow settings
+      Payments__AuthorizeNet__TxnKey: txnkey      
       Payments__Skyflow__ClientSDK__clientID: skyflow-client-clientid
       Payments__Skyflow__ClientSDK__keyID: skyflow-client-keyid
       Payments__Skyflow__ClientSDK__privateKey: skyflow-client-privatekey
@@ -76,8 +77,7 @@
     config:
       VirtoCommerce__DefaultStore: B2B-store
       SnapshotCollectorConfiguration__IsEnabled: false      
-      APPINSIGHTS_INSTRUMENTATIONKEY: 4eef52ad-79ec-410c-a273-0a1abff866ea
-      IdentityOptions__Lockout__MaxFailedAccessAttempts: 5
+      APPINSIGHTS_INSTRUMENTATIONKEY: 4eef52ad-79ec-410c-a273-0a1abff866ea      
       CookieAuthenticationOptions__ExpireTimeSpan: "24:00:00"
       Reload: 2024-02-22-v1
     secretConfig:
