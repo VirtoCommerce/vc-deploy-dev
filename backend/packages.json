@@ -7,10 +7,10 @@
           "BlobName": "VirtoCommerce.PageBuilderModule_3.801.0.zip"
         },
         {
-          "BlobName": "VirtoCommerce.ExperienceApi_3.816.0-pr-534-a37e.zip"
+          "BlobName": "VirtoCommerce.ExperienceApi_3.816.0-pr-540-0579.zip"
         },
         {
-          "BlobName": "VirtoCommerce.PushMessages_3.800.0-pr-1-1351.zip"
+          "BlobName": "VirtoCommerce.Cart_3.803.0-pr-141-f55b.zip"
         }
       ],
       "Container": "packages",
@@ -49,10 +49,6 @@
         {
           "Id": "VirtoCommerce.AzureSearch",
           "Version": "3.801.0"
-        },
-        {
-          "Id": "VirtoCommerce.Cart",
-          "Version": "3.802.0"
         },
         {
           "Id": "VirtoCommerce.BulkActionsModule",
