@@ -43,11 +43,12 @@
       Notifications__SmsDefaultSender: +17012510519
       # Return detailed error information if login failed
       PasswordLogin__DetailedErrors: true
+      IdentityOptions__Lockout__MaxFailedAccessAttempts: 5
       # Authorize.Net settings
       Payments__AuthorizeNet__ApiLogin: 52B9X7vb4
       # Skyflow settings
       Payments__Skyflow__tokenURI: https://manage.skyflowapis.com/v1/auth/sa/oauth/token
-      Payments__Skyflow__DefaultConnection__name: 8hPT4p99R
+      Payments__Skyflow__DefaultConnection__name: 52B9X7vb4
       Payments__Skyflow__DefaultCOnnection__connectionUrl: https://ebfc9bee4242.gateway.skyflowapis.com/v1/gateway/outboundRoutes/gfb5ce07e91340efac348a2df035c513/xml/v1/request.api
       # Sync push notifications between platform instances
       PushNotifications__ForceWebSockets: true
@@ -70,10 +71,9 @@
       # Sample data used if db is empty
       VirtoCommerce__SampleDataUrl: https://vc3prerelease.blob.core.windows.net/packages/clothing-and-electronics_3_0_2.zip
       # Temporary settings below
-      Authorization__AccessTokenLifeTime: 0:30:00
+      Authorization__AccessTokenLifeTime: 00:30:00
     secretConfig:
       Notifications__SendGrid__ApiKey: sendgrid-apikey
-      Payments__AuthorizeNet__SHA2Hash: authorizenet-sha2hash
       Payments__AuthorizeNet__TxnKey: authorizenet-txnkey
       Payments__Skyflow__ClientSDK__clientID: skyflow-client-clientid
       Payments__Skyflow__ClientSDK__keyID: skyflow-client-keyid
