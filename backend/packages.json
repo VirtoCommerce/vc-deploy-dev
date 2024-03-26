@@ -165,10 +165,6 @@
           "BlobName": "VirtoCommerce.Sitemaps_3.803.0-pr-70-e20f.zip"
         },
         {
-          "Id": "VirtoCommerce.Catalog",
-          "BlobName": "VirtoCommerce.Catalog_3.805.0-pr-722-49f0.zip"
-        },
-        {
           "Id": "VirtoCommerce.CustomerExportImport",
           "BlobName": "VirtoCommerce.CustomerExportImport_3.803.0.zip"
         },
@@ -239,6 +235,10 @@
         {
           "Id": "VirtoCommerce.PushMessages",
           "BlobName": "VirtoCommerce.PushMessages_3.800.0-pr-1-fd07.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "BlobName": "VirtoCommerce.Catalog_3.805.0.zip"
         }
       ]
     }
