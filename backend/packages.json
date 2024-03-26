@@ -217,10 +217,6 @@
           "BlobName": "VirtoCommerce.AuditLog_3.801.0-pr-2-b0c3.zip"
         },
         {
-          "Id": "VirtoCommerce.Quote",
-          "BlobName": "VirtoCommerce.Quote_3.804.0-pr-106-6ab8.zip"
-        },
-        {
           "Id": "VirtoCommerce.Orders",
           "BlobName": "VirtoCommerce.Orders_3.810.0-pr-413-dbef.zip"
         },
@@ -239,6 +235,10 @@
         {
           "Id": "VirtoCommerce.PushMessages",
           "BlobName": "VirtoCommerce.PushMessages_3.800.0-pr-1-fd07.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Quote",
+          "BlobName": "VirtoCommerce.Quote_3.805.0.zip"
         }
       ]
     }
