@@ -110,7 +110,7 @@
         },
         {
           "Id": "VirtoCommerce.ExperienceApi",
-          "Version": "3.815.0"
+          "Version": "3.816.0"
         },
         {
           "Id": "VirtoCommerce.Export",
@@ -183,6 +183,10 @@
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "Version": "3.804.0"
+        },
+        {
+          "Id": "VirtoCommerce.PushMessages",
+          "Version": "3.801.0"
         },
         {
           "Id": "VirtoCommerce.Quote",
