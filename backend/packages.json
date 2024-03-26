@@ -210,10 +210,6 @@
           "BlobName": "VirtoCommerce.Skyflow_3.804.0-alpha.18.zip"
         },
         {
-          "Id": "VirtoCommerce.Catalog",
-          "BlobName": "VirtoCommerce.Catalog_3.805.0-alpha.2203.zip"
-        },
-        {
           "Id": "VirtoCommerce.Sitemaps",
           "BlobName": "VirtoCommerce.Sitemaps_3.804.0-alpha.342.zip"
         },
@@ -236,6 +232,10 @@
         {
           "Id": "VirtoCommerce.ExperienceApi",
           "BlobName": "VirtoCommerce.ExperienceApi_3.817.0-alpha.1373.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "BlobName": "VirtoCommerce.Catalog_3.805.0-alpha.2204.zip"
         }
       ]
     }
