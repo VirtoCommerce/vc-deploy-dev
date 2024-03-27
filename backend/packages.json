@@ -7,10 +7,7 @@
           "BlobName": "VirtoCommerce.PageBuilderModule_3.801.0.zip"
         },
         {
-          "BlobName": "VirtoCommerce.PushMessages_3.800.0-pr-1-f7c6.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.ExperienceApi_3.816.0-pr-534-a37e.zip"
+          "BlobName": "VirtoCommerce.ExperienceApi_3.817.0-pr-541-739b.zip"
         }
       ],
       "Container": "packages",
@@ -136,7 +133,7 @@
         },
         {
           "Id": "VirtoCommerce.Hotjar",
-          "Version": "3.801.0"
+          "Version": "3.803.0"
         },
         {
           "Id": "VirtoCommerce.ImageTools",
@@ -185,6 +182,10 @@
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "Version": "3.804.0"
+        },
+        {
+          "Id": "VirtoCommerce.PushMessages",
+          "Version": "3.801.0"
         },
         {
           "Id": "VirtoCommerce.Quote",
