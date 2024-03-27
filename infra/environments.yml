@@ -43,6 +43,7 @@
       Notifications__SmsDefaultSender: +17012510519
       # Return detailed error information if login failed
       PasswordLogin__DetailedErrors: true
+      IdentityOptions__Lockout__MaxFailedAccessAttempts: 5
       # Authorize.Net settings
       Payments__AuthorizeNet__ApiLogin: 52B9X7vb4
       # Skyflow settings
@@ -71,7 +72,6 @@
       VirtoCommerce__SampleDataUrl: https://vc3prerelease.blob.core.windows.net/packages/clothing-and-electronics_3_0_2.zip
       # Temporary settings below
       Authorization__AccessTokenLifeTime: 00:30:00
-      Authorization__RefreshTokenLifeTime: 00:30:00
     secretConfig:
       Notifications__SendGrid__ApiKey: sendgrid-apikey
       Payments__AuthorizeNet__TxnKey: authorizenet-txnkey

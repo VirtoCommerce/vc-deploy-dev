@@ -5,6 +5,9 @@
       "Modules": [
         {
           "BlobName": "VirtoCommerce.PageBuilderModule_3.801.0.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.ExperienceApi_3.817.0-pr-541-739b.zip"
         }
       ],
       "Container": "packages",
@@ -107,11 +110,7 @@
         {
           "Id": "VirtoCommerce.EventBus",
           "Version": "3.801.0"
-        },
-        {
-          "Id": "VirtoCommerce.ExperienceApi",
-          "Version": "3.815.0"
-        },
+        },      
         {
           "Id": "VirtoCommerce.Export",
           "Version": "3.801.0"
@@ -183,6 +182,10 @@
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "Version": "3.804.0"
+        },
+        {
+          "Id": "VirtoCommerce.PushMessages",
+          "Version": "3.801.0"
         },
         {
           "Id": "VirtoCommerce.Quote",
