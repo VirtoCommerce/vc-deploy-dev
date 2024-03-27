@@ -180,10 +180,6 @@
           "Version": "4.801.0"
         },
         {
-          "Id": "VirtoCommerce.Orders",
-          "Version": "3.809.0"
-        },
-        {
           "Id": "VirtoCommerce.EventBus",
           "Version": "3.801.0"
         },
@@ -218,6 +214,10 @@
         {
           "Id": "VirtoCommerce.Quote",
           "Version": "3.805.0"
+        },
+        {
+          "Id": "VirtoCommerce.Orders",
+          "Version": "3.810.0"
         }
       ]
     },
