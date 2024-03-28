@@ -88,8 +88,8 @@
       Content__FileSystem__PublicUrl: https://vcptcore-qa.govirto.com/cms-content/
       Assets__FileSystem__PublicUrl: https://vcptcore-qa.govirto.com/cms-content/assets/
       Assets__Provider: FileSystem
-      Assets__AzureBlobStorage__ConnectionString: DefaultEndpointsProtocol=https;AccountName=qademovc3;AccountKey=qPIpM63MI2P3ei6B1xIL4/DlKDqdsRj54z2GUtgCAeXPcMe8+mZiUvrvI5fjdyrovk331XmBlMFfAEFAjCnvtw==;EndpointSuffix=core.windows.net
-      #Assets__AzureBlobStorage__ConnectionString: BlobEndpoint=https://qademovc3.blob.core.windows.net/;QueueEndpoint=https://qademovc3.queue.core.windows.net/;FileEndpoint=https://qademovc3.file.core.windows.net/;TableEndpoint=https://qademovc3.table.core.windows.net/;SharedAccessSignature=sv=2022-11-02&ss=bfqt&srt=sco&sp=rwdlacupiytfx&se=2025-02-27T00:34:20Z&st=2024-02-26T16:34:20Z&spr=https&sig=QSyd83bPIqXYfQAK9AhGgdXaXYmPsSz450OGegOnZUE%3D
+      #Assets__AzureBlobStorage__ConnectionString: DefaultEndpointsProtocol=https;AccountName=qademovc3;AccountKey=qPIpM63MI2P3ei6B1xIL4/DlKDqdsRj54z2GUtgCAeXPcMe8+mZiUvrvI5fjdyrovk331XmBlMFfAEFAjCnvtw==;EndpointSuffix=core.windows.net
+      Assets__AzureBlobStorage__ConnectionString: BlobEndpoint=https://qademovc3.blob.core.windows.net/;QueueEndpoint=https://qademovc3.queue.core.windows.net/;FileEndpoint=https://qademovc3.file.core.windows.net/;TableEndpoint=https://qademovc3.table.core.windows.net/;SharedAccessSignature=sv=2022-11-02&ss=bfqt&srt=sco&sp=rwdlacupiytfx&se=2025-02-27T00:34:20Z&st=2024-02-26T16:34:20Z&spr=https&sig=QSyd83bPIqXYfQAK9AhGgdXaXYmPsSz450OGegOnZUE%3D
       Assets__AzureBlobStorage__RootPath: catalog
       Assets__AzureBlobStorage__AllowBlobPublicAccess: true
       Content__Provider: FileSystem
@@ -102,8 +102,8 @@
       Content__PathMappings__blogs__2: blogs
       Content__AzureBlobStorage__RootPath: cms
       Content__AzureBlobStorage__AllowBlobPublicAccess: false
-      #Content__AzureBlobStorage__ConnectionString: BlobEndpoint=https://qademovc3.blob.core.windows.net/;QueueEndpoint=https://qademovc3.queue.core.windows.net/;FileEndpoint=https://qademovc3.file.core.windows.net/;TableEndpoint=https://qademovc3.table.core.windows.net/;SharedAccessSignature=sv=2022-11-02&ss=bfqt&srt=sco&sp=rwdlacupiytfx&se=2025-02-27T00:34:20Z&st=2024-02-26T16:34:20Z&spr=https&sig=QSyd83bPIqXYfQAK9AhGgdXaXYmPsSz450OGegOnZUE%3D
-      Content__AzureBlobStorage__ConnectionString: DefaultEndpointsProtocol=https;AccountName=qademovc3;AccountKey=qPIpM63MI2P3ei6B1xIL4/DlKDqdsRj54z2GUtgCAeXPcMe8+mZiUvrvI5fjdyrovk331XmBlMFfAEFAjCnvtw==;EndpointSuffix=core.windows.net
+      Content__AzureBlobStorage__ConnectionString: BlobEndpoint=https://qademovc3.blob.core.windows.net/;QueueEndpoint=https://qademovc3.queue.core.windows.net/;FileEndpoint=https://qademovc3.file.core.windows.net/;TableEndpoint=https://qademovc3.table.core.windows.net/;SharedAccessSignature=sv=2022-11-02&ss=bfqt&srt=sco&sp=rwdlacupiytfx&se=2025-02-27T00:34:20Z&st=2024-02-26T16:34:20Z&spr=https&sig=QSyd83bPIqXYfQAK9AhGgdXaXYmPsSz450OGegOnZUE%3D
+      #Content__AzureBlobStorage__ConnectionString: DefaultEndpointsProtocol=https;AccountName=qademovc3;AccountKey=qPIpM63MI2P3ei6B1xIL4/DlKDqdsRj54z2GUtgCAeXPcMe8+mZiUvrvI5fjdyrovk331XmBlMFfAEFAjCnvtw==;EndpointSuffix=core.windows.net
       #VirtoCommerce__FileExtensionsWhiteList__0: ".pdf"
       VirtoCommerce__LicenseFilePath: app_data/VirtoCommerce.lic
       VirtoCommerce__LicensePublicKeyPath: app_data/public.key
