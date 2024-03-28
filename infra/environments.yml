@@ -29,7 +29,7 @@
       # File Uploader settings
       FileUpload__RootPath: attachments
       FileUpload__Scopes__0__Scope: quote-attachments
-      FileUpload__Scopes__0__MaxFileSize: 100000000
+      FileUpload__Scopes__0__MaxFileSize: 1000000
       FileUpload__Scopes__0__AllowedExtensions__0: .csv
       FileUpload__Scopes__0__AllowedExtensions__1: .docx
       FileUpload__Scopes__0__AllowedExtensions__2: .jpg
