@@ -121,10 +121,6 @@
           "BlobName": "VirtoCommerce.Core_3.805.0.zip"
         },
         {
-          "Id": "VirtoCommerce.Cart",
-          "BlobName": "VirtoCommerce.Cart_3.803.0-pr-141-751d.zip"
-        },
-        {
           "Id": "VirtoCommerce.Subscription",
           "BlobName": "VirtoCommerce.Subscription_3.801.0.zip"
         },
@@ -239,6 +235,10 @@
         {
           "Id": "VirtoCommerce.PushMessages",
           "BlobName": "VirtoCommerce.PushMessages_3.800.0-pr-1-fd07.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Cart",
+          "BlobName": "VirtoCommerce.Cart_3.803.0.zip"
         }
       ]
     }
