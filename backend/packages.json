@@ -208,16 +208,16 @@
           "Version": "3.806.0"
         },
         {
-          "Id": "VirtoCommerce.ExperienceApi",
-          "Version": "3.817.0"
-        },
-        {
           "Id": "VirtoCommerce.Cart",
           "Version": "3.803.0"
         },
         {
           "Id": "VirtoCommerce.Content",
           "Version": "3.804.0"
+        },
+        {
+          "Id": "VirtoCommerce.ExperienceApi",
+          "Version": "3.818.0"
         }
       ]
     },
