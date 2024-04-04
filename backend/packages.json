@@ -188,10 +188,6 @@
           "Version": "3.803.0"
         },
         {
-          "Id": "VirtoCommerce.Quote",
-          "Version": "3.805.0"
-        },
-        {
           "Id": "VirtoCommerce.Orders",
           "Version": "3.811.0"
         },
@@ -218,6 +214,10 @@
         {
           "Id": "VirtoCommerce.Notifications",
           "Version": "3.802.0"
+        },
+        {
+          "Id": "VirtoCommerce.Quote",
+          "Version": "3.806.0"
         }
       ]
     },
