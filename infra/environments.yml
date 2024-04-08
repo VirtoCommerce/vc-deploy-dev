@@ -59,7 +59,7 @@
       Reload: 2024-03-21
     secretConfig:
       Notifications__SendGrid__ApiKey: sendkey
-      Payments__AuthorizeNet__TxnKey: txnkey      
+      Payments__AuthorizeNet__TxnKey: authorizenet-txnkey      
       Payments__Skyflow__ClientSDK__clientID: skyflow-client-clientid
       Payments__Skyflow__ClientSDK__keyID: skyflow-client-keyid
       Payments__Skyflow__ClientSDK__privateKey: skyflow-client-privatekey
