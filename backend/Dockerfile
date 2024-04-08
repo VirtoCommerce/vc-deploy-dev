@@ -9,4 +9,4 @@ WORKDIR /opt/virtocommerce/platform
 EXPOSE 8080
 
 ENTRYPOINT ["dotnet", "VirtoCommerce.Platform.Web.dll"]
-##
+#
