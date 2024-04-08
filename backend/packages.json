@@ -1,10 +1,10 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.816.0-alpha.12880-vcst-820-14f524d4",
+  "PlatformVersion": "3.817.0-alpha.12888-vcst-567-contacts-redesign-dcacccf1",
   "StorefrontVersion": "6.43.0-alpha.1043-vcst-905-login-is-admin-0550785e",
   "ThemeB2BVue": "https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-1.55.0-pr-1007-1871-1871b1ee.zip",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.816.0-alpha.12880-vcst-820-14f524d4",
+  "PlatformImageTag": "3.817.0-alpha.12888-vcst-567-contacts-redesign-dcacccf1",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -27,10 +27,6 @@
         },
         {
           "Id": "VirtoCommerce.Tax",
-          "Version": "3.800.0"
-        },
-        {
-          "Id": "VirtoCommerce.Payment",
           "Version": "3.800.0"
         },
         {
@@ -182,7 +178,7 @@
         },
         {
           "Id": "VirtoCommerce.Customer",
-          "BlobName": "VirtoCommerce.Customer_3.803.0.zip"
+          "BlobName": "VirtoCommerce.Customer_3.804.0-pr-238-24c4.zip"
         },
         {
           "Id": "VirtoCommerce.AzureSearch",
@@ -222,7 +218,7 @@
         },
         {
           "Id": "VirtoCommerce.Orders",
-          "BlobName": "VirtoCommerce.Orders_3.811.0-pr-412-bf05.zip"
+          "BlobName": "VirtoCommerce.Orders_3.812.0-pr-414-a02d.zip"
         },
         {
           "Id": "VirtoCommerce.ExperienceApi",
@@ -239,6 +235,10 @@
         {
           "Id": "VirtoCommerce.Quote",
           "BlobName": "VirtoCommerce.Quote_3.806.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Payment",
+          "BlobName": "VirtoCommerce.Payment_3.801.0.zip"
         }
       ]
     }
