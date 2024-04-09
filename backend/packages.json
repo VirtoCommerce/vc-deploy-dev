@@ -217,10 +217,6 @@
           "BlobName": "VirtoCommerce.AuditLog_3.801.0-pr-2-b0c3.zip"
         },
         {
-          "Id": "VirtoCommerce.Orders",
-          "BlobName": "VirtoCommerce.Orders_3.812.0-pr-414-102c.zip"
-        },
-        {
           "Id": "VirtoCommerce.ExperienceApi",
           "BlobName": "VirtoCommerce.ExperienceApi_3.819.0-pr-543-1737.zip"
         },
@@ -239,6 +235,10 @@
         {
           "Id": "VirtoCommerce.Payment",
           "BlobName": "VirtoCommerce.Payment_3.801.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Orders",
+          "BlobName": "VirtoCommerce.Orders_3.812.0.zip"
         }
       ]
     }
