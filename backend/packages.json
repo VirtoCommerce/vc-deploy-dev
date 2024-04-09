@@ -5,10 +5,7 @@
       "Modules": [
         {
           "BlobName": "VirtoCommerce.PageBuilderModule_3.801.0.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.ExperienceApi_3.817.0-pr-541-739b.zip"
-        }
+        }       
       ],
       "Container": "packages",
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net"
@@ -53,7 +50,7 @@
         },
         {
           "Id": "VirtoCommerce.Cart",
-          "Version": "3.802.0"
+          "Version": "3.803.0"
         },
         {
           "Id": "VirtoCommerce.Catalog",
@@ -73,7 +70,7 @@
         },
         {
           "Id": "VirtoCommerce.Content",
-          "Version": "3.802.0"
+          "Version": "3.804.0"
         },
         {
           "Id": "VirtoCommerce.Contracts",
@@ -100,8 +97,12 @@
           "Version": "3.801.0"
         },
         {
+          "Id": "VirtoCommerce.ExperienceApi",
+          "Version": "3.818.0"
+        },
+        {
           "Id": "VirtoCommerce.ElasticAppSearch",
-          "Version": "3.801.0"
+          "Version": "3.802.0"
         },
         {
           "Id": "VirtoCommerce.ElasticSearch",
@@ -161,11 +162,11 @@
         },
         {
           "Id": "VirtoCommerce.Notifications",
-          "Version": "3.800.0"
+          "Version": "3.803.0"
         },
         {
           "Id": "VirtoCommerce.Orders",
-          "Version": "3.809.0"
+          "Version": "3.811.0"
         },
         {
           "Id": "VirtoCommerce.Payment",
@@ -189,7 +190,7 @@
         },
         {
           "Id": "VirtoCommerce.Quote",
-          "Version": "3.803.0"
+          "Version": "3.806.0"
         },
         {
           "Id": "VirtoCommerce.Return",
@@ -239,7 +240,7 @@
     }
   ],
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.816.0-alpha.12880-dev-1644119d",
+  "PlatformVersion": "3.816.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.816.0-alpha.12880-dev-1644119d"
+  "PlatformImageTag": "3.816.0"
 }
