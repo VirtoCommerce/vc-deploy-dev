@@ -173,10 +173,6 @@
           "BlobName": "VirtoCommerce.CustomerExportImport_3.803.0.zip"
         },
         {
-          "Id": "VirtoCommerce.FileExperienceApi",
-          "BlobName": "VirtoCommerce.FileExperienceApi_3.801.0-pr-3-2829.zip"
-        },
-        {
           "Id": "VirtoCommerce.Customer",
           "BlobName": "VirtoCommerce.Customer_3.804.0-pr-238-24c4.zip"
         },
@@ -239,6 +235,10 @@
         {
           "Id": "VirtoCommerce.Payment",
           "BlobName": "VirtoCommerce.Payment_3.801.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.FileExperienceApi",
+          "BlobName": "VirtoCommerce.FileExperienceApi_3.801.0.zip"
         }
       ]
     }
