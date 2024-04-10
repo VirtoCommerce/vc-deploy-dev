@@ -14,10 +14,6 @@
       ],
       "Modules": [
         {
-          "Id": "VirtoCommerce.Return",
-          "Version": "3.205.1"
-        },
-        {
           "Id": "VirtoCommerce.FileSystemAssets",
           "Version": "3.203.0"
         },
