@@ -1,10 +1,10 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.817.0-alpha.12883-vcst-567-count-redesign-0e64371b",
+  "PlatformVersion": "3.818.0-alpha.12887-vcst-781-ed3932c2",
   "StorefrontVersion": "6.43.0-alpha.1043-vcst-905-login-is-admin-0550785e",
   "ThemeB2BVue": "https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-1.55.0-pr-1007-1871-1871b1ee.zip",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.817.0-alpha.12883-vcst-567-count-redesign-0e64371b",
+  "PlatformImageTag": "3.818.0-alpha.12887-vcst-781-ed3932c2",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -130,7 +130,7 @@
         },
         {
           "Id": "VirtoCommerce.PageBuilderModule",
-          "BlobName": "VirtoCommerce.PageBuilderModule_3.802.0-pr-62-5f9b.zip"
+          "BlobName": "VirtoCommerce.PageBuilderModule_3.802.0-pr-62-5196.zip"
         },
         {
           "Id": "VirtoCommerce.DynamicAssociationsModule",
