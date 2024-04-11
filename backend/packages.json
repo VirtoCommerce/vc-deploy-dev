@@ -170,10 +170,6 @@
           "BlobName": "VirtoCommerce.Core_3.806.0-alpha.1614.zip"
         },
         {
-          "Id": "VirtoCommerce.Customer",
-          "BlobName": "VirtoCommerce.Customer_3.804.0-alpha.818.zip"
-        },
-        {
           "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
           "BlobName": "VirtoCommerce.GoogleEcommerceAnalytics_4.802.0-alpha.184.zip"
         },
@@ -236,6 +232,10 @@
         {
           "Id": "VirtoCommerce.ExperienceApi",
           "BlobName": "VirtoCommerce.ExperienceApi_3.820.0-alpha.1380.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Customer",
+          "BlobName": "VirtoCommerce.Customer_3.804.0-alpha.819.zip"
         }
       ]
     }
