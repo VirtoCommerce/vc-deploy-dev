@@ -70,10 +70,6 @@
           "Version": "3.800.0"
         },
         {
-          "Id": "VirtoCommerce.CustomerReviews",
-          "Version": "3.800.0"
-        },
-        {
           "Id": "VirtoCommerce.AuthorizeNetPayment",
           "Version": "3.800.0"
         },
@@ -239,6 +235,10 @@
         {
           "Id": "VirtoCommerce.Payment",
           "BlobName": "VirtoCommerce.Payment_3.801.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.CustomerReviews",
+          "BlobName": "VirtoCommerce.CustomerReviews_3.801.0.zip"
         }
       ]
     }
