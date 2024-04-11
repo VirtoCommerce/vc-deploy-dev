@@ -113,7 +113,7 @@
         },
         {
           "Id": "VirtoCommerce.ExperienceApi",
-          "Version": "3.818.0"
+          "Version": "3.819.0"
         },
         {
           "Id": "VirtoCommerce.Export",
@@ -121,7 +121,7 @@
         },
         {
           "Id": "VirtoCommerce.FileExperienceApi",
-          "Version": "3.800.0"
+          "Version": "3.801.0"
         },
         {
           "Id": "VirtoCommerce.FileSystemAssets",
@@ -239,7 +239,7 @@
     }
   ],
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.815.0",
+  "PlatformVersion": "3.817.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.815.0"
+  "PlatformImageTag": "3.817.0"
 }
