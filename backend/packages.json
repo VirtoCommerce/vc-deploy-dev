@@ -68,10 +68,6 @@
           "Version": "3.800.0"
         },
         {
-          "Id": "VirtoCommerce.CustomerReviews",
-          "Version": "3.800.0"
-        },
-        {
           "Id": "VirtoCommerce.PriceExportImport",
           "Version": "3.800.0"
         },
@@ -218,6 +214,10 @@
         {
           "Id": "VirtoCommerce.ExperienceApi",
           "Version": "3.820.0"
+        },
+        {
+          "Id": "VirtoCommerce.CustomerReviews",
+          "Version": "3.801.0"
         }
       ]
     },
