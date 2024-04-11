@@ -37,7 +37,7 @@ jobs:
       id: vars
       run: echo "sha_short=$(git rev-parse --short HEAD)" >> $GITHUB_OUTPUT
 
-    - name: Build and Publish Docker Image
+    - name: Build and Publish Docker Image to Virto container registry
       run: |
         vc-build BuildAndPush -DockerUsername $DOCKER_LOGIN -DockerPassword $DOCKER_PASSWORD -DockerfilePath $DOCKERFILE_PATH -DockerImageName $IMAGE_REPOSITORY -DockerImageTag $TAG -DockerRegistryUrl $CONTAINER_REGISTRY
       env:
@@ -47,7 +47,34 @@ jobs:
         CONTAINER_REGISTRY: virtopaasregistrymain.azurecr.io
         IMAGE_REPOSITORY: virtopaasregistrymain.azurecr.io/virtostart/platform
         TAG: ${{ env.PLATFORM_VERSION }}-${{ steps.vars.outputs.sha_short }}
+
+    - name: Rename docker image
+      run: | 
+        docker images
+        docker tag $IMAGE_REPOSITORY:$TAG $GH_CONTAINER_REPOSITORY:$TAG
+      env:
+        IMAGE_REPOSITORY: virtopaasregistrymain.azurecr.io/virtostart/platform
+        TAG: ${{ env.PLATFORM_VERSION }}-${{ steps.vars.outputs.sha_short }}
+        GH_CONTAINER_REPOSITORY: 'ghcr.io/virtocommerce/virtostart'
     
+    - name: Login to GH Registry
+      uses: docker/login-action@v3
+      with:
+        registry: 'ghcr.io'
+        username: $GITHUB_ACTOR
+        password: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Publish Docker Image to GH Registry
+      uses: VirtoCommerce/vc-github-actions/publish-docker-image@master
+      with:
+          image: 'ghcr.io/virtocommerce/virtostart'
+          tag: ${{ env.PLATFORM_VERSION }}-${{ steps.vars.outputs.sha_short }}
+          docker_user: $GITHUB_ACTOR
+          docker_token: ${{ secrets.GITHUB_TOKEN }}
+          docker_hub: 'false'
+          update_latest: 'true'
+          release_branch: virtostart
+
     - name: Update app
       run: |
         vc-build CloudEnvSetParameter -EnvironmentName virtostart-main -CloudToken ${{ secrets.VIRTOSTART_PLATFORM_TOKEN }} -HelmParameters platform.image.tag=$TAG
