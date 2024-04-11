@@ -1,6 +1,6 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.817.0",
+  "PlatformVersion": "3.818.0",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -27,7 +27,7 @@
       "Modules": [
         {
           "Id": "VirtoCommerce.ApplicationInsights",
-          "Version": "3.800.0"
+          "Version": "3.801.0"
         },
         {
           "Id": "VirtoCommerce.Assets",
@@ -91,7 +91,7 @@
         },
         {
           "Id": "VirtoCommerce.CustomerReviews",
-          "Version": "3.800.0"
+          "Version": "3.801.0"
         },
         {
           "Id": "VirtoCommerce.DynamicAssociationsModule",
