@@ -4,7 +4,7 @@
   servicePlan: F2
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.800.10-4cc0548
+    imageTag: 3.818.0
     sqlReplica: false
     config:
       VirtoCommerce__SampleDataUrl: https://virtocommerce.azureedge.net/sample-data/b2b-sample-store.zip
@@ -76,7 +76,7 @@
     enabled: true
     servicePlan: F1
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/storefront
-    imageTag: 6.27.0-master-2ab4d9cd
+    imageTag: 8.0.0-master-a2e679a8
     config:
       CookieAuthenticationOptions__ExpireTimeSpan: 12:00:00
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
