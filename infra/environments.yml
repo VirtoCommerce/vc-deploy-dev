@@ -4,7 +4,7 @@
   servicePlan: F2
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.819.0-alpha.12889-vcst-593-1965a335
+    imageTag: 3.811.0-alpha.12870-vcst-388-63cbde4f-27b60ad
     sqlReplica: false
     config:
       VirtoCommerce__SampleDataUrl: https://virtocommerce.azureedge.net/sample-data/b2b-sample-store.zip
