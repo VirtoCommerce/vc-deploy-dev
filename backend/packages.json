@@ -8,6 +8,9 @@
         },
         {
           "BlobName": "VirtoCommerce.WhiteLabeling_3.800.0-pr-2-0b51.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.ExperienceApi_3.822.0-pr-546-7246.zip"
         }
       ],
       "Container": "packages",
@@ -110,10 +113,6 @@
         {
           "Id": "VirtoCommerce.EventBus",
           "Version": "3.801.0"
-        },
-        {
-          "Id": "VirtoCommerce.ExperienceApi",
-          "Version": "3.821.0"
         },
         {
           "Id": "VirtoCommerce.Export",
@@ -243,7 +242,7 @@
     }
   ],
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.818.0",
+  "PlatformVersion": "3.819.0-pr-2781-720d-vcst-934-login-on-begalf-720d39df",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.818.0"
+  "PlatformImageTag": "3.819.0-pr-2781-720d-vcst-934-login-on-begalf-720d39df"
 }
