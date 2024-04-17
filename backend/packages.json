@@ -7,9 +7,6 @@
           "BlobName": "VirtoCommerce.PageBuilderModule_3.801.0.zip"
         },
         {
-          "BlobName": "VirtoCommerce.PushMessages_3.802.0-pr-2-bf65.zip"
-        },
-        {
           "BlobName": "VirtoCommerce.WhiteLabeling_3.800.0-pr-2-0b51.zip"
         }
       ],
@@ -189,6 +186,10 @@
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "Version": "3.804.0"
+        },
+        {
+          "Id": "VirtoCommerce.PushMessages",
+          "Version": "3.801.0"
         },
         {
           "Id": "VirtoCommerce.Quote",
