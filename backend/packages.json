@@ -174,10 +174,6 @@
           "BlobName": "VirtoCommerce.GoogleEcommerceAnalytics_4.802.0-alpha.184.zip"
         },
         {
-          "Id": "VirtoCommerce.WebHooks",
-          "BlobName": "VirtoCommerce.WebHooks_3.803.0-alpha.293.zip"
-        },
-        {
           "Id": "VirtoCommerce.Skyflow",
           "BlobName": "VirtoCommerce.Skyflow_3.804.0-alpha.18.zip"
         },
@@ -236,6 +232,10 @@
         {
           "Id": "VirtoCommerce.EventBus",
           "BlobName": "VirtoCommerce.EventBus_3.803.0-alpha.128.zip"
+        },
+        {
+          "Id": "VirtoCommerce.WebHooks",
+          "BlobName": "VirtoCommerce.WebHooks_3.803.0-alpha.294.zip"
         }
       ]
     }
