@@ -218,6 +218,10 @@
         {
           "Id": "VirtoCommerce.EventBus",
           "Version": "3.802.0"
+        },
+        {
+          "Id": "VirtoCommerce.BuilderIO",
+          "Version": "3.802.0"
         }
       ]
     },
