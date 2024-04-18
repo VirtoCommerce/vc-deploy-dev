@@ -234,12 +234,12 @@
           "BlobName": "VirtoCommerce.WebHooks_3.803.0-alpha.294.zip"
         },
         {
-          "Id": "VirtoCommerce.BuilderIO",
-          "BlobName": "VirtoCommerce.BuilderIO_3.803.0-alpha.31.zip"
-        },
-        {
           "Id": "VirtoCommerce.Inventory",
           "BlobName": "VirtoCommerce.Inventory_3.802.0-alpha.451.zip"
+        },
+        {
+          "Id": "VirtoCommerce.BuilderIO",
+          "BlobName": "VirtoCommerce.BuilderIO_3.803.0-alpha.32.zip"
         }
       ]
     }
