@@ -50,10 +50,6 @@
           "BlobName": "VirtoCommerce.Shipping_3.801.0-alpha.178.zip"
         },
         {
-          "Id": "VirtoCommerce.Inventory",
-          "BlobName": "VirtoCommerce.Inventory_3.801.0-alpha.443.zip"
-        },
-        {
           "Id": "VirtoCommerce.LuceneSearch",
           "BlobName": "VirtoCommerce.LuceneSearch_3.801.0-alpha.188.zip"
         },
@@ -240,6 +236,10 @@
         {
           "Id": "VirtoCommerce.BuilderIO",
           "BlobName": "VirtoCommerce.BuilderIO_3.803.0-alpha.31.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Inventory",
+          "BlobName": "VirtoCommerce.Inventory_3.801.0-alpha.450.zip"
         }
       ]
     }
