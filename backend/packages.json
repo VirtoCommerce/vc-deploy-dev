@@ -60,10 +60,6 @@
           "Version": "3.800.0"
         },
         {
-          "Id": "VirtoCommerce.Contracts",
-          "Version": "3.800.0"
-        },
-        {
           "Id": "VirtoCommerce.PriceExportImport",
           "Version": "3.800.0"
         },
@@ -222,6 +218,10 @@
         {
           "Id": "VirtoCommerce.Export",
           "Version": "3.802.0"
+        },
+        {
+          "Id": "VirtoCommerce.Contracts",
+          "Version": "3.801.0"
         }
       ]
     },
