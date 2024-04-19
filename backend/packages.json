@@ -100,7 +100,7 @@
           "Id": "VirtoCommerce.Notifications",
           "BlobName": "VirtoCommerce.Notifications_3.802.0-pr-154-3cd9.zip"
         },
-         {
+        {
           "Id": "VirtoCommerce.Customer",
           "BlobName": "VirtoCommerce.Customer_3.805.0-alpha.821.zip"
         },
@@ -201,10 +201,6 @@
           "BlobName": "VirtoCommerce.Assets_3.804.0.zip"
         },
         {
-          "Id": "VirtoCommerce.Return",
-          "BlobName": "VirtoCommerce.Return_3.801.0.zip"
-        },
-        {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.804.0.zip"
         },
@@ -239,6 +235,10 @@
         {
           "Id": "VirtoCommerce.GDPR",
           "BlobName": "VirtoCommerce.GDPR_3.801.0-pr-15-7d37.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Return",
+          "BlobName": "VirtoCommerce.Return_3.802.0.zip"
         }
       ]
     }
