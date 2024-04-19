@@ -58,10 +58,6 @@
           "BlobName": "VirtoCommerce.ElasticSearch_3.801.0-alpha.239.zip"
         },
         {
-          "Id": "VirtoCommerce.Pricing",
-          "BlobName": "VirtoCommerce.Pricing_3.801.0-alpha.713.zip"
-        },
-        {
           "Id": "VirtoCommerce.NativePaymentMethods",
           "BlobName": "VirtoCommerce.NativePaymentMethods_3.801.0-alpha.76.zip"
         },
@@ -240,6 +236,10 @@
         {
           "Id": "VirtoCommerce.Subscription",
           "BlobName": "VirtoCommerce.Subscription_3.803.0-alpha.325.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Pricing",
+          "BlobName": "VirtoCommerce.Pricing_3.801.0-alpha.720.zip"
         }
       ]
     }
