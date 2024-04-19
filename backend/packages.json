@@ -100,7 +100,7 @@
           "Id": "VirtoCommerce.Notifications",
           "BlobName": "VirtoCommerce.Notifications_3.802.0-pr-154-3cd9.zip"
         },
-         {
+        {
           "Id": "VirtoCommerce.Customer",
           "BlobName": "VirtoCommerce.Customer_3.805.0-alpha.821.zip"
         },
@@ -151,10 +151,6 @@
         {
           "Id": "VirtoCommerce.EventBus",
           "BlobName": "VirtoCommerce.EventBus_3.803.0-pr-21-7f2d.zip"
-        },
-        {
-          "Id": "VirtoCommerce.Marketing",
-          "BlobName": "VirtoCommerce.Marketing_3.806.0-pr-226-6d70.zip"
         },
         {
           "Id": "VirtoCommerce.ElasticSearch8",
@@ -239,6 +235,10 @@
         {
           "Id": "VirtoCommerce.GDPR",
           "BlobName": "VirtoCommerce.GDPR_3.801.0-pr-15-7d37.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Marketing",
+          "BlobName": "VirtoCommerce.Marketing_3.806.0.zip"
         }
       ]
     }
