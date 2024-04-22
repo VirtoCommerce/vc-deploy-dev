@@ -24,6 +24,9 @@
         },
         {
         "BlobName": "VirtoCommerce.Quote_3.807.0-pr-109-b839.zip"
+        },
+        {
+        "BlobName": "VirtoCommerce.ExperienceApi_3.822.0-pr-546-e1ce.zip"
         }
       ]
     },
@@ -120,11 +123,7 @@
         {
           "Id": "VirtoCommerce.EventBus",
           "Version": "3.801.0"
-        },
-        {
-          "Id": "VirtoCommerce.ExperienceApi",
-          "Version": "3.821.0"
-        },
+        },      
         {
           "Id": "VirtoCommerce.Export",
           "Version": "3.801.0"
