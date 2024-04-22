@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.818.0",
+  "PlatformVersion": "3.819.0-alpha.12889-vcst-934-login-on-begalf-720d39df",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.818.0",
+  "PlatformImageTag": "3.819.0-alpha.12889-vcst-934-login-on-begalf-720d39df",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -24,6 +24,9 @@
         },
         {
         "BlobName": "VirtoCommerce.Quote_3.807.0-pr-109-b839.zip"
+        },
+        {
+        "BlobName": "VirtoCommerce.ExperienceApi_3.822.0-pr-546-e1ce.zip"
         }
       ]
     },
@@ -120,11 +123,7 @@
         {
           "Id": "VirtoCommerce.EventBus",
           "Version": "3.801.0"
-        },
-        {
-          "Id": "VirtoCommerce.ExperienceApi",
-          "Version": "3.821.0"
-        },
+        },      
         {
           "Id": "VirtoCommerce.Export",
           "Version": "3.801.0"
