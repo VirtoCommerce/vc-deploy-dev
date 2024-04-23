@@ -66,10 +66,15 @@
       APPINSIGHTS_INSTRUMENTATIONKEY: 4ead1786-2f72-48ae-a55b-fa934117edfb
       PasswordLogin__Enabled: true
       PasswordLogin__Priority: 0
+      # Return detailed error information if login failed
+      PasswordLogin__DetailedErrors: true
+      IdentityOptions__Lockout__MaxFailedAccessAttempts: 5
       DefaultMainMenuState__items__0__path: browse/marketing
       DefaultMainMenuState__items__0__isFavorite: true
       DefaultMainMenuState__items__0__order: 0
       FrontendSecurity__OrganizationMaintainerRole: Organization maintainer
+      Authorization__AccessTokenLifeTime: 00:30:00
+      Authorization__RefreshTokenLifeTime: 0:30:00
     secretConfig:
       Notifications__SendGrid__ApiKey: sendkey
       Search__ElasticAppSearch__PrivateApiKey: elasticappsearch
