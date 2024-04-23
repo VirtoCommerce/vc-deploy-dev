@@ -28,8 +28,8 @@
       PushNotifications__HubUrl: https://vcptcore-stable.paas.govirto.com/pushNotificationHub?api_key=02afefbb-ce9e-47b7-8051-54a5be648965
       PushNotifications__RedisBackplane__ChannelName: vcptcore-stable-chanel
       Assets__Provider: FileSystem
-      Content__FileSystem__PublicUrl: https://vcptcore-stable.paas.govirto.com/cms-content/
-      Assets__FileSystem__PublicUrl: https://vcptcore-stable.paas.govirto.com/cms-content/assets/
+      Content__FileSystem__PublicUrl: https://vcptcore-stable.govirto.com/cms-content/
+      Assets__FileSystem__PublicUrl: https://vcptcore-stable.govirto.com/cms-content/assets/
       VirtoCommerce__LicenseFilePath: app_data/VirtoCommerce.lic
       VirtoCommerce__LicensePublicKeyPath: app_data/public.key
       VirtoCommerce__LicensePrivateKeyPath: app_data/private.key
