@@ -234,12 +234,12 @@
           "BlobName": "VirtoCommerce.Pricing_3.802.0-alpha.721.zip"
         },
         {
-          "Id": "VirtoCommerce.Quote",
-          "BlobName": "VirtoCommerce.Quote_3.809.0-alpha.401.zip"
-        },
-        {
           "Id": "VirtoCommerce.ExperienceApi",
           "BlobName": "VirtoCommerce.ExperienceApi_3.823.0-alpha.1386.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Quote",
+          "BlobName": "VirtoCommerce.Quote_3.809.0-alpha.403.zip"
         }
       ]
     }
