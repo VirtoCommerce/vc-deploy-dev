@@ -1,10 +1,10 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.820.0-alpha.12895-vcst-822-8bd2360f",
+  "PlatformVersion": "3.820.0",
   "StorefrontVersion": "6.43.0-alpha.1043-vcst-905-login-is-admin-0550785e",
   "ThemeB2BVue": "https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-1.55.0-pr-1007-1871-1871b1ee.zip",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.820.0-alpha.12895-vcst-822-8bd2360f",
+  "PlatformImageTag": "3.820.0",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -96,7 +96,7 @@
           "Id": "VirtoCommerce.Notifications",
           "BlobName": "VirtoCommerce.Notifications_3.802.0-pr-154-3cd9.zip"
         },
-         {
+        {
           "Id": "VirtoCommerce.Customer",
           "BlobName": "VirtoCommerce.Customer_3.805.0-alpha.821.zip"
         },
@@ -235,7 +235,7 @@
         {
           "Id": "VirtoCommerce.GDPR",
           "BlobName": "VirtoCommerce.GDPR_3.800.0.zip"
-        }, 
+        },
         {
           "Id": "VirtoCommerce.PushMessages",
           "BlobName": "VirtoCommerce.PushMessages_3.802.0-pr-3-0a51.zip"
