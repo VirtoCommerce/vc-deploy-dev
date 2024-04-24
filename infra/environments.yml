@@ -75,6 +75,14 @@
       FrontendSecurity__OrganizationMaintainerRole: Organization maintainer
       Authorization__AccessTokenLifeTime: 00:30:00
       Authorization__RefreshTokenLifeTime: 0:30:00
+      EventBus__Connections__0__Name: TestConnectionRS25
+      EventBus__Connections__0__ProviderName: AzureEventGrid
+      EventBus__Connections__0__ConnectionOptionsSerialized: >-
+      {'ConnectionString': 'https://test-event-grid-dont-delete.westus-1.eventgrid.azure.net/api/events', 'AccessKey': 'kvpXOgw5MiNjBeBKdroX1r45UvZloXMwlM7i1TyqoiI='}  
+      EventBus__Subscriptions__0__ConnectionName: TestConnectionRS25
+      EventBus__Subscriptions__0__Name: TestRegression
+      EventBus__Subscriptions__0__Events__0__EventId: VirtoCommerce.Platform.Core.Security.Events.UserPasswordChangedEvent
+      EventBus__Subscriptions__0__Events__1__EventId: VirtoCommerce.MarketingModule.Core.Events.PromotionChangedEvent
     secretConfig:
       Notifications__SendGrid__ApiKey: sendkey
       Search__ElasticAppSearch__PrivateApiKey: elasticappsearch
