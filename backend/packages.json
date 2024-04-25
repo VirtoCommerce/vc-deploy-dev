@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.819.0",
+  "PlatformVersion": "3.820.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.819.0",
+  "PlatformImageTag": "3.820.0",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -24,6 +24,9 @@
         },   
         {
         "BlobName": "VirtoCommerce.WhiteLabeling_3.800.0-pr-2-1eac.zip"
+        },
+        {
+        "BlobName": "VirtoCommerce.ImageTools_3.802.0-pr-109-2406.zip"
         }
       ]
     },
@@ -148,11 +151,7 @@
         {
           "Id": "VirtoCommerce.Hotjar",
           "Version": "3.803.0"
-        },
-        {
-          "Id": "VirtoCommerce.ImageTools",
-          "Version": "3.801.0"
-        },
+        },    
         {
           "Id": "VirtoCommerce.Inventory",
           "Version": "3.800.0"
