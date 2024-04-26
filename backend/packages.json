@@ -110,10 +110,6 @@
           "BlobName": "VirtoCommerce.CatalogCsvImportModule_3.802.0-alpha.303.zip"
         },
         {
-          "Id": "VirtoCommerce.ImageTools",
-          "BlobName": "VirtoCommerce.ImageTools_3.802.0-alpha.337.zip"
-        },
-        {
           "Id": "VirtoCommerce.FileSystemAssets",
           "BlobName": "VirtoCommerce.FileSystemAssets_3.802.0-alpha.88.zip"
         },
@@ -240,6 +236,10 @@
         {
           "Id": "VirtoCommerce.Notifications",
           "BlobName": "VirtoCommerce.Notifications_3.806.0-alpha.371.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ImageTools",
+          "BlobName": "VirtoCommerce.ImageTools_3.802.0-alpha.341.zip"
         }
       ]
     }
