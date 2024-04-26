@@ -90,7 +90,7 @@
       CookieAuthenticationOptions__LoginPath: /sign-in
       DOTNET_USE_POLLING_FILE_WATCHER: true
       SnapshotCollectorConfiguration__IsEnabled: false
-      SYSTEM_RESTART: 28.02.2024-1
+      SYSTEM_RESTART: 26.04.2024
       VirtoCommerce__Endpoint__Password: Store12345
       VirtoCommerce__CacheSlidingExpiration: 0:0:5
   ingress:
