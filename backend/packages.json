@@ -24,6 +24,9 @@
         },
         {
         "BlobName": "VirtoCommerce.ImageTools_3.802.0-pr-109-2406.zip"
+        },
+         {
+        "BlobName": "VirtoCommerce.Quote_3.811.0-pr-109-b6b3.zip"
         }
       ]
     },
@@ -192,11 +195,7 @@
         {
           "Id": "VirtoCommerce.Return",
           "Version": "3.801.0"
-        },
-          {
-          "Id": "VirtoCommerce.Quote",
-          "Version": "3.810.0"
-        },        
+        },          
         {
           "Id": "VirtoCommerce.Search",
           "Version": "3.800.0"
