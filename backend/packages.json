@@ -96,7 +96,7 @@
           "Id": "VirtoCommerce.Notifications",
           "BlobName": "VirtoCommerce.Notifications_3.805.0-pr-158-7e0d.zip"
         },
-         {
+        {
           "Id": "VirtoCommerce.Customer",
           "BlobName": "VirtoCommerce.Customer_3.805.0-alpha.821.zip"
         },
@@ -135,10 +135,6 @@
         {
           "Id": "VirtoCommerce.WebHooks",
           "BlobName": "VirtoCommerce.WebHooks_3.803.0.zip"
-        },
-        {
-          "Id": "VirtoCommerce.ImageTools",
-          "BlobName": "VirtoCommerce.ImageTools_3.802.0-pr-106-9ad1.zip"
         },
         {
           "Id": "VirtoCommerce.AzureBlobAssets",
@@ -235,7 +231,7 @@
         {
           "Id": "VirtoCommerce.GDPR",
           "BlobName": "VirtoCommerce.GDPR_3.800.0.zip"
-        }, 
+        },
         {
           "Id": "VirtoCommerce.PushMessages",
           "BlobName": "VirtoCommerce.PushMessages_3.802.0-pr-3-0a51.zip"
@@ -243,6 +239,10 @@
         {
           "Id": "VirtoCommerce.TaskManagement",
           "BlobName": "VirtoCommerce.TaskManagement_3.801.0-pr-13-b288.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ImageTools",
+          "BlobName": "VirtoCommerce.ImageTools_3.802.0.zip"
         }
       ]
     }
