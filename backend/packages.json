@@ -1,10 +1,10 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.819.0-alpha.12889-vcst-593-1965a335",
+  "PlatformVersion": "3.820.0-alpha.12895-vcst-822-8bd2360f",
   "StorefrontVersion": "6.43.0-alpha.1043-vcst-905-login-is-admin-0550785e",
   "ThemeB2BVue": "https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-1.55.0-pr-1007-1871-1871b1ee.zip",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.819.0-alpha.12889-vcst-593-1965a335",
+  "PlatformImageTag": "3.820.0-alpha.12895-vcst-822-8bd2360f",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -54,10 +54,6 @@
           "Version": "3.800.0"
         },
         {
-          "Id": "VirtoCommerce.GDPR",
-          "Version": "3.800.0"
-        },
-        {
           "Id": "VirtoCommerce.Pricing",
           "Version": "3.800.0"
         },
@@ -88,10 +84,6 @@
         {
           "Id": "VirtoCommerce.NativePaymentMethods",
           "Version": "3.800.0"
-        },
-        {
-          "Id": "VirtoCommerce.PushMessages",
-          "Version": "3.801.0"
         }
       ]
     },
@@ -102,7 +94,7 @@
       "Modules": [
         {
           "Id": "VirtoCommerce.Notifications",
-          "BlobName": "VirtoCommerce.Notifications_3.802.0-pr-154-3cd9.zip"
+          "BlobName": "VirtoCommerce.Notifications_3.805.0-pr-158-7e0d.zip"
         },
         {
           "Id": "VirtoCommerce.Customer",
@@ -114,7 +106,7 @@
         },
         {
           "Id": "VirtoCommerce.Store",
-          "BlobName": "VirtoCommerce.Store_3.801.0-pr-130-8992.zip"
+          "BlobName": "VirtoCommerce.Store_3.802.0-pr-132-2ebe.zip"
         },
         {
           "Id": "VirtoCommerce.Inventory",
@@ -134,7 +126,7 @@
         },
         {
           "Id": "VirtoCommerce.PageBuilderModule",
-          "BlobName": "VirtoCommerce.PageBuilderModule_3.802.0-pr-62-5196.zip"
+          "BlobName": "VirtoCommerce.PageBuilderModule_3.802.0-pr-62-6fec.zip"
         },
         {
           "Id": "VirtoCommerce.DynamicAssociationsModule",
@@ -142,11 +134,7 @@
         },
         {
           "Id": "VirtoCommerce.WebHooks",
-          "BlobName": "VirtoCommerce.WebHooks_3.802.0-pr-76-72a2.zip"
-        },
-        {
-          "Id": "VirtoCommerce.ImageTools",
-          "BlobName": "VirtoCommerce.ImageTools_3.802.0-pr-106-9ad1.zip"
+          "BlobName": "VirtoCommerce.WebHooks_3.803.0.zip"
         },
         {
           "Id": "VirtoCommerce.AzureBlobAssets",
@@ -154,7 +142,7 @@
         },
         {
           "Id": "VirtoCommerce.Marketing",
-          "BlobName": "VirtoCommerce.Marketing_3.806.0-pr-226-6d70.zip"
+          "BlobName": "VirtoCommerce.Marketing_3.806.0-pr-227-a1fa.zip"
         },
         {
           "Id": "VirtoCommerce.ElasticSearch8",
@@ -213,12 +201,8 @@
           "BlobName": "VirtoCommerce.AuditLog_3.802.0-pr-3-654f.zip"
         },
         {
-          "Id": "VirtoCommerce.Orders",
-          "BlobName": "VirtoCommerce.Orders_3.812.0-pr-414-102c.zip"
-        },
-        {
           "Id": "VirtoCommerce.ExperienceApi",
-          "BlobName": "VirtoCommerce.ExperienceApi_3.821.0-pr-544-3389.zip"
+          "BlobName": "VirtoCommerce.ExperienceApi_3.823.0-pr-547-bd8c.zip"
         },
         {
           "Id": "VirtoCommerce.Content",
@@ -239,6 +223,25 @@
         {
           "Id": "VirtoCommerce.EventBus",
           "BlobName": "VirtoCommerce.EventBus_3.802.0.zip"
+        },
+          "Id": "VirtoCommerce.GDPR",
+          "BlobName": "VirtoCommerce.GDPR_3.800.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.PushMessages",
+          "BlobName": "VirtoCommerce.PushMessages_3.802.0-pr-3-0a51.zip"
+        },
+        {
+          "Id": "VirtoCommerce.TaskManagement",
+          "BlobName": "VirtoCommerce.TaskManagement_3.801.0-pr-13-b288.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ImageTools",
+          "BlobName": "VirtoCommerce.ImageTools_3.802.0.zip"          
+        },
+        {
+          "Id": "VirtoCommerce.Orders",
+          "BlobName": "VirtoCommerce.Orders_3.813.0.zip"
         }
       ]
     }
