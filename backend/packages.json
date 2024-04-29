@@ -199,11 +199,7 @@
         {
           "Id": "VirtoCommerce.AuditLog",
           "BlobName": "VirtoCommerce.AuditLog_3.802.0-pr-3-654f.zip"
-        },
-        {
-          "Id": "VirtoCommerce.ExperienceApi",
-          "BlobName": "VirtoCommerce.ExperienceApi_3.823.0-pr-547-bd8c.zip"
-        },
+        },    
         {
           "Id": "VirtoCommerce.Content",
           "BlobName": "VirtoCommerce.Content_3.805.0-pr-171-89a5.zip"
@@ -235,6 +231,10 @@
         {
           "Id": "VirtoCommerce.TaskManagement",
           "BlobName": "VirtoCommerce.TaskManagement_3.801.0-pr-13-b288.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ExperienceApi",
+          "BlobName": "VirtoCommerce.ExperienceApi_3.823.0.zip"
         },
         {
           "Id": "VirtoCommerce.ImageTools",
