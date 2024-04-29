@@ -141,10 +141,6 @@
           "BlobName": "VirtoCommerce.AzureBlobAssets_3.803.0.zip"
         },
         {
-          "Id": "VirtoCommerce.EventBus",
-          "BlobName": "VirtoCommerce.EventBus_3.802.0.zip"
-        },
-        {
           "Id": "VirtoCommerce.Marketing",
           "BlobName": "VirtoCommerce.Marketing_3.806.0-pr-227-a1fa.zip"
         },
@@ -225,6 +221,9 @@
           "BlobName": "VirtoCommerce.Payment_3.801.0.zip"
         },
         {
+          "Id": "VirtoCommerce.EventBus",
+          "BlobName": "VirtoCommerce.EventBus_3.802.0.zip"
+        },
           "Id": "VirtoCommerce.GDPR",
           "BlobName": "VirtoCommerce.GDPR_3.800.0.zip"
         },
