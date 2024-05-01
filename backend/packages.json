@@ -5,7 +5,10 @@
       "Modules": [
         {
           "BlobName": "VirtoCommerce.PageBuilderModule_3.801.0.zip"
-        }       
+        },
+        {
+          "BlobName": "VirtoCommerce.ExperienceApi_3.824.0-pr-549-9d31.zip"
+        }
       ],
       "Container": "packages",
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net"
@@ -109,10 +112,6 @@
           "Version": "3.801.0"
         },
         {
-          "Id": "VirtoCommerce.ExperienceApi",
-          "Version": "3.823.0"
-        },
-        {
           "Id": "VirtoCommerce.FileSystemAssets",
           "Version": "3.801.0"
         },
@@ -183,7 +182,7 @@
         {
           "Id": "VirtoCommerce.Return",
           "Version": "3.801.0"
-        },          
+        },
         {
           "Id": "VirtoCommerce.Search",
           "Version": "3.800.0"
