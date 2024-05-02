@@ -18,7 +18,12 @@
       Notifications__Smtp__Login: apikey
       Notifications__Smtp__Port: 587
       Reload: 10
-      Search__ElasticSearch__EnableCompatibilityMode: true
+      #Search__ElasticSearch__EnableCompatibilityMode: true
+      Search__Provider: AzureSearch
+      Search__AzureSearch__SearchServiceName: qa-demovc-3-search
+      Search__AzureSearch__Key: 6BE1143312E89C26C227E6BBAE24DD47
+      Search__AzureSearch__QueryParserType: Full
+      Search__AzureSearch__Endpoint: https://qa-demovc-3-search.search.windows.net
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
       ASPNETCORE_ENVIRONMENT: Development
       AppInsights__EnableDependencyTrackingTelemetryModule: false
@@ -57,7 +62,7 @@
       VirtoCommerce__SampleDataUrl: https://vc3prerelease.blob.core.windows.net/packages/clothing-and-electronics_3_0_2.zip
     secretConfig:
       Notifications__SendGrid__ApiKey: sendkey
-      Search__ElasticAppSearch__PrivateApiKey: elasticappsearch
+      #Search__ElasticAppSearch__PrivateApiKey: elasticappsearch
   storefront:
     enabled: false
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/storefront
