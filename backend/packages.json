@@ -149,10 +149,6 @@
           "BlobName": "VirtoCommerce.AzureBlobAssets_3.803.0.zip"
         },
         {
-          "Id": "VirtoCommerce.Marketing",
-          "BlobName": "VirtoCommerce.Marketing_3.808.0-pr-229-3ea2.zip"
-        },
-        {
           "Id": "VirtoCommerce.ElasticSearch8",
           "BlobName": "VirtoCommerce.ElasticSearch8_3.802.0-pr-11-135a.zip"
         },
@@ -209,10 +205,6 @@
           "BlobName": "VirtoCommerce.AuditLog_3.802.0-pr-3-654f.zip"
         },
         {
-          "Id": "VirtoCommerce.Content",
-          "BlobName": "VirtoCommerce.Content_3.806.0-pr-171-a9f5.zip"
-        },
-        {
           "Id": "VirtoCommerce.Hotjar",
           "BlobName": "VirtoCommerce.Hotjar_3.801.0-pr-3-7c4a.zip"
         },
@@ -246,7 +238,15 @@
         },
         {
           "Id": "VirtoCommerce.Orders",
-          "BlobName": "VirtoCommerce.Orders_3.814.0.zip"
+          "BlobName": "VirtoCommerce.Orders_3.814.0.zip"         
+        },
+        {
+          "Id": "VirtoCommerce.Content",
+          "BlobName": "VirtoCommerce.Content_3.806.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Marketing",
+          "BlobName": "VirtoCommerce.Marketing_3.808.0.zip"
         }
       ]
     }
