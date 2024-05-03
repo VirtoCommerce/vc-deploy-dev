@@ -207,10 +207,6 @@
         {
           "Id": "VirtoCommerce.AuditLog",
           "BlobName": "VirtoCommerce.AuditLog_3.802.0-pr-3-654f.zip"
-        },    
-        {
-          "Id": "VirtoCommerce.Content",
-          "BlobName": "VirtoCommerce.Content_3.806.0-pr-171-a9f5.zip"
         },
         {
           "Id": "VirtoCommerce.Hotjar",
@@ -242,11 +238,15 @@
         },
         {
           "Id": "VirtoCommerce.ImageTools",
-          "BlobName": "VirtoCommerce.ImageTools_3.802.0.zip"          
+          "BlobName": "VirtoCommerce.ImageTools_3.802.0.zip"
         },
         {
           "Id": "VirtoCommerce.Orders",
           "BlobName": "VirtoCommerce.Orders_3.814.0-pr-416-d21a.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Content",
+          "BlobName": "VirtoCommerce.Content_3.806.0.zip"
         }
       ]
     }
