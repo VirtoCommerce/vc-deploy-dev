@@ -161,10 +161,6 @@
           "BlobName": "VirtoCommerce.Catalog_3.807.0-pr-726-c4a0.zip"
         },
         {
-          "Id": "VirtoCommerce.CustomerExportImport",
-          "BlobName": "VirtoCommerce.CustomerExportImport_3.803.0.zip"
-        },
-        {
           "Id": "VirtoCommerce.FileExperienceApi",
           "BlobName": "VirtoCommerce.FileExperienceApi_3.801.0-pr-3-2829.zip"
         },
@@ -238,7 +234,7 @@
         },
         {
           "Id": "VirtoCommerce.Orders",
-          "BlobName": "VirtoCommerce.Orders_3.814.0.zip"         
+          "BlobName": "VirtoCommerce.Orders_3.814.0.zip"
         },
         {
           "Id": "VirtoCommerce.Content",
@@ -247,6 +243,10 @@
         {
           "Id": "VirtoCommerce.Marketing",
           "BlobName": "VirtoCommerce.Marketing_3.808.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.CustomerExportImport",
+          "BlobName": "VirtoCommerce.CustomerExportImport_3.804.0.zip"
         }
       ]
     }
