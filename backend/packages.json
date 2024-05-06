@@ -76,10 +76,6 @@
           "Version": "3.801.0"
         },
         {
-          "Id": "VirtoCommerce.CustomerExportImport",
-          "Version": "3.803.0"
-        },
-        {
           "Id": "VirtoCommerce.AzureSearch",
           "Version": "3.801.0"
         },
@@ -222,6 +218,10 @@
         {
           "Id": "VirtoCommerce.ExperienceApi",
           "Version": "3.824.0"
+        },
+        {
+          "Id": "VirtoCommerce.CustomerExportImport",
+          "Version": "3.804.0"
         }
       ]
     },
