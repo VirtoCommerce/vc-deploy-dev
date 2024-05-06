@@ -109,10 +109,6 @@
           "BlobName": "VirtoCommerce.Customer_3.805.0-alpha.821.zip"
         },
         {
-          "Id": "VirtoCommerce.ElasticAppSearch",
-          "BlobName": "VirtoCommerce.ElasticAppSearch_3.801.0.zip"
-        },
-        {
           "Id": "VirtoCommerce.Store",
           "BlobName": "VirtoCommerce.Store_3.802.0-pr-132-2ebe.zip"
         },
@@ -238,7 +234,7 @@
         },
         {
           "Id": "VirtoCommerce.Orders",
-          "BlobName": "VirtoCommerce.Orders_3.814.0.zip"         
+          "BlobName": "VirtoCommerce.Orders_3.814.0.zip"
         },
         {
           "Id": "VirtoCommerce.Content",
@@ -247,6 +243,10 @@
         {
           "Id": "VirtoCommerce.Marketing",
           "BlobName": "VirtoCommerce.Marketing_3.808.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ElasticAppSearch",
+          "BlobName": "VirtoCommerce.ElasticAppSearch_3.803.0.zip"
         }
       ]
     }
