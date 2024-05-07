@@ -84,11 +84,7 @@
         {
           "Id": "VirtoCommerce.NativePaymentMethods",
           "Version": "3.800.0"
-        },
-        {
-          "Id": "VirtoCommerce.PushMessages",
-          "Version": "3.804.0"
-        },
+        },  
         {
           "Id": "VirtoCommerce.WhiteLabeling",
           "Version": "3.800.0"
@@ -199,6 +195,10 @@
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.804.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.PushMessages",
+          "BlobName": "VirtoCommerce.PushMessages_3.805.0-pr-4-580b.zip"
         },
         {
           "Id": "VirtoCommerce.AuditLog",
