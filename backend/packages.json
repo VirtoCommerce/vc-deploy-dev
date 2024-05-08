@@ -88,6 +88,10 @@
         {
           "Id": "VirtoCommerce.WhiteLabeling",
           "Version": "3.800.0"
+        },
+        {
+          "Id": "VirtoCommerce.ElasticSearch8",
+          "Version": "3.805.0"
         }
       ]
     },
@@ -143,10 +147,6 @@
         {
           "Id": "VirtoCommerce.AzureBlobAssets",
           "BlobName": "VirtoCommerce.AzureBlobAssets_3.803.0.zip"
-        },
-        {
-          "Id": "VirtoCommerce.ElasticSearch8",
-          "BlobName": "VirtoCommerce.ElasticSearch8_3.802.0-pr-11-135a.zip"
         },
         {
           "Id": "VirtoCommerce.Sitemaps",
