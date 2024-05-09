@@ -62,10 +62,6 @@
           "Version": "4.801.0"
         },
         {
-          "Id": "VirtoCommerce.ElasticSearch",
-          "Version": "3.800.0"
-        },
-        {
           "Id": "VirtoCommerce.CustomerReviews",
           "Version": "3.800.0"
         },
@@ -247,8 +243,11 @@
         {
           "Id": "VirtoCommerce.Marketing",
           "BlobName": "VirtoCommerce.Marketing_3.808.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ElasticSearch",
+          "BlobName": "VirtoCommerce.ElasticSearch_3.801.0-pr-59-dc89.zip"
         }
-      ]
     }
   ]
 }
