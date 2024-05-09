@@ -20,9 +20,6 @@
           "BlobName": "VirtoCommerce.PowerBiReports_3.800.0-alpha.31.zip"
         },
         {
-          "BlobName": "VirtoCommerce.PushMessages_3.805.0-pr-4-c808.zip"
-        },
-        {
           "BlobName": "VirtoCommerce.ExperienceApi_3.826.0-pr-549-1181.zip"
         }      
       ]
@@ -185,6 +182,10 @@
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "Version": "3.804.0"
         },
+        {
+          "Id": "VirtoCommerce.PushMessages",
+          "Version": "3.805.0"
+        },        
         {
           "Id": "VirtoCommerce.Quote",
           "Version": "3.811.0"
