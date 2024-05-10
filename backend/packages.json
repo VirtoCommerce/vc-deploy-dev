@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.822.0",
+  "PlatformVersion": "3.825.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.822.0",
+  "PlatformImageTag": "3.825.0",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -36,7 +36,7 @@
         },
         {
           "Id": "VirtoCommerce.Assets",
-          "Version": "3.804.0"
+          "Version": "3.805.0"
         },
         {
           "Id": "VirtoCommerce.AuthorizeNetPayment",
@@ -59,12 +59,16 @@
           "Version": "3.801.0"
         },
         {
+          "Id": "VirtoCommerce.BuilderIO",
+          "Version": "3.803.0"
+        },
+        {
           "Id": "VirtoCommerce.Cart",
           "Version": "3.803.0"
         },
         {
           "Id": "VirtoCommerce.Catalog",
-          "Version": "3.808.0"
+          "Version": "3.809.0"
         },
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
@@ -80,7 +84,7 @@
         },
         {
           "Id": "VirtoCommerce.Content",
-          "Version": "3.805.0"
+          "Version": "3.807.0"
         },
         {
           "Id": "VirtoCommerce.Contracts",
@@ -92,7 +96,7 @@
         },
         {
           "Id": "VirtoCommerce.Customer",
-          "Version": "3.805.0"
+          "Version": "3.806.0"
         },
         {
           "Id": "VirtoCommerce.CustomerReviews",
@@ -104,7 +108,7 @@
         },
         {
           "Id": "VirtoCommerce.ElasticAppSearch",
-          "Version": "3.802.0"
+          "Version": "3.803.0"
         },
         {
           "Id": "VirtoCommerce.ElasticSearch",
@@ -120,7 +124,7 @@
         },      
         {
           "Id": "VirtoCommerce.Export",
-          "Version": "3.801.0"
+          "Version": "3.802.0"
         },
         {
           "Id": "VirtoCommerce.FileSystemAssets",
@@ -144,7 +148,7 @@
         },    
         {
           "Id": "VirtoCommerce.Inventory",
-          "Version": "3.801.0"
+          "Version": "3.802.0"
         },
         {
           "Id": "VirtoCommerce.ImageTools",
@@ -152,7 +156,7 @@
         },
         {
           "Id": "VirtoCommerce.Marketing",
-          "Version": "3.807.0"
+          "Version": "3.808.0"
         },
         {
           "Id": "VirtoCommerce.MarketingExperienceApi",
@@ -164,15 +168,15 @@
         },
         {
           "Id": "VirtoCommerce.Orders",
-          "Version": "3.813.0"
+          "Version": "3.814.0"
         },
         {
           "Id": "VirtoCommerce.Payment",
-          "Version": "3.801.0"
+          "Version": "3.802.0"
         },
         {
           "Id": "VirtoCommerce.Pricing",
-          "Version": "3.801.0"
+          "Version": "3.803.0"
         },
         {
           "Id": "VirtoCommerce.PriceExportImport",
@@ -192,7 +196,7 @@
         },
         {
           "Id": "VirtoCommerce.Return",
-          "Version": "3.801.0"
+          "Version": "3.802.0"
         },          
         {
           "Id": "VirtoCommerce.Search",
@@ -212,7 +216,7 @@
         },
         {
           "Id": "VirtoCommerce.Store",
-          "Version": "3.802.0"
+          "Version": "3.803.0"
         },
         {
           "Id": "VirtoCommerce.Subscription",
