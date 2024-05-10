@@ -125,6 +125,7 @@
       APPINSIGHTS_INSTRUMENTATIONKEY: dfe0b99d-faa5-4452-83c9-86e98e592465
       VirtoCommerce__ApplicationInsights__RoleName: This is QA role
       VirtoCommerce__ApplicationInsights__RoleInstance: This is instance of QA
+      VirtoCommerce__Stores__DefaultStore: B2B-store
       Videos__GoogleApiKey: AIzaSyD5A4oFeSgaMQnMo3OiaqUSJ23SQGELiA4
       Caching__CacheEnabled: true
       DefaultMainMenuState__items__0__path: browse/catalog
