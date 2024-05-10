@@ -80,6 +80,10 @@
         {
           "Id": "VirtoCommerce.ElasticSearch8",
           "Version": "3.805.0"
+        },
+        {
+          "Id": "VirtoCommerce.BuilderIO",
+          "Version": "3.803.0"
         }
       ]
     },
