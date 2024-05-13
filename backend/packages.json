@@ -24,10 +24,6 @@
           "Version": "3.800.0"
         },
         {
-          "Id": "VirtoCommerce.LuceneSearch",
-          "Version": "3.800.0"
-        },
-        {
           "Id": "VirtoCommerce.Tax",
           "Version": "3.800.0"
         },
@@ -222,6 +218,10 @@
         {
           "Id": "VirtoCommerce.ExperienceApi",
           "Version": "3.827.0"
+        },
+        {
+          "Id": "VirtoCommerce.LuceneSearch",
+          "Version": "3.801.0"
         }
       ]
     },
