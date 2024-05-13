@@ -46,10 +46,6 @@
           "BlobName": "VirtoCommerce.Shipping_3.801.0-alpha.178.zip"
         },
         {
-          "Id": "VirtoCommerce.LuceneSearch",
-          "BlobName": "VirtoCommerce.LuceneSearch_3.801.0-alpha.188.zip"
-        },
-        {
           "Id": "VirtoCommerce.Tax",
           "BlobName": "VirtoCommerce.Tax_3.801.0-alpha.170.zip"
         },
@@ -240,6 +236,10 @@
         {
           "Id": "VirtoCommerce.ExperienceApi",
           "BlobName": "VirtoCommerce.ExperienceApi_3.828.0-alpha.1398.zip"
+        },
+        {
+          "Id": "VirtoCommerce.LuceneSearch",
+          "BlobName": "VirtoCommerce.LuceneSearch_3.801.0-alpha.197.zip"
         }
       ]
     }
