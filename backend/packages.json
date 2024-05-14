@@ -200,10 +200,6 @@
           "Version": "3.803.0"
         },
         {
-          "Id": "VirtoCommerce.Catalog",
-          "Version": "3.809.0"
-        },
-        {
           "Id": "VirtoCommerce.Store",
           "Version": "3.803.0"
         },
@@ -222,6 +218,10 @@
         {
           "Id": "VirtoCommerce.Marketing",
           "Version": "3.809.0"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "Version": "3.810.0"
         }
       ]
     },
