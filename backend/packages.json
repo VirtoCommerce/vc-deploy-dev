@@ -216,12 +216,12 @@
           "Version": "3.804.0"
         },
         {
-          "Id": "VirtoCommerce.ExperienceApi",
-          "Version": "3.827.0"
-        },
-        {
           "Id": "VirtoCommerce.LuceneSearch",
           "Version": "3.801.0"
+        },
+        {
+          "Id": "VirtoCommerce.ExperienceApi",
+          "Version": "3.828.0"
         }
       ]
     },
