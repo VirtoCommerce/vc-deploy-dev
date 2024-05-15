@@ -102,10 +102,6 @@
           "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.805.0-alpha.207.zip"
         },
         {
-          "Id": "VirtoCommerce.Core",
-          "BlobName": "VirtoCommerce.Core_3.806.0-alpha.1614.zip"
-        },
-        {
           "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
           "BlobName": "VirtoCommerce.GoogleEcommerceAnalytics_4.802.0-alpha.184.zip"
         },
@@ -240,6 +236,10 @@
         {
           "Id": "VirtoCommerce.Contracts",
           "BlobName": "VirtoCommerce.Contracts_3.803.0-alpha.97.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Core",
+          "BlobName": "VirtoCommerce.Core_3.806.0-alpha.1617.zip"
         }
       ]
     }
