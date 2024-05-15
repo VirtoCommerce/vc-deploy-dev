@@ -54,10 +54,6 @@
           "Version": "4.801.0"
         },
         {
-          "Id": "VirtoCommerce.CustomerReviews",
-          "Version": "3.800.0"
-        },
-        {
           "Id": "VirtoCommerce.AuthorizeNetPayment",
           "Version": "3.800.0"
         },
@@ -72,7 +68,7 @@
         {
           "Id": "VirtoCommerce.NativePaymentMethods",
           "Version": "3.800.0"
-        },  
+        },
         {
           "Id": "VirtoCommerce.WhiteLabeling",
           "Version": "3.800.0"
@@ -226,7 +222,7 @@
         },
         {
           "Id": "VirtoCommerce.Orders",
-          "BlobName": "VirtoCommerce.Orders_3.814.0.zip"         
+          "BlobName": "VirtoCommerce.Orders_3.814.0.zip"
         },
         {
           "Id": "VirtoCommerce.Content",
@@ -244,9 +240,13 @@
           "Id": "VirtoCommerce.Pricing",
           "BlobName": "VirtoCommerce.Pricing_3.802.0-pr-207-9180.zip"
         },
-        { 
+        {
           "Id": "VirtoCommerce.Export",
           "BlobName": "VirtoCommerce.Export_3.802.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.CustomerReviews",
+          "BlobName": "VirtoCommerce.CustomerReviews_3.803.0.zip"
         }
       ]
     }
