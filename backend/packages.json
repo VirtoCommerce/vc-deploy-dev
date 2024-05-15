@@ -70,10 +70,6 @@
           "BlobName": "VirtoCommerce.CatalogPublishing_3.801.0-alpha.336.zip"
         },
         {
-          "Id": "VirtoCommerce.CatalogPersonalization",
-          "BlobName": "VirtoCommerce.CatalogPersonalization_3.801.0-alpha.240.zip"
-        },
-        {
           "Id": "VirtoCommerce.TaskManagement",
           "BlobName": "VirtoCommerce.TaskManagement_3.800.0-alpha.67.zip"
         },
@@ -240,6 +236,10 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "BlobName": "VirtoCommerce.Catalog_3.812.0-alpha.2219.zip"
+        },
+        {
+          "Id": "VirtoCommerce.CatalogPersonalization",
+          "BlobName": "VirtoCommerce.CatalogPersonalization_3.801.0-alpha.249.zip"
         }
       ]
     }
