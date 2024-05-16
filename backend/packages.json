@@ -72,7 +72,7 @@
         {
           "Id": "VirtoCommerce.NativePaymentMethods",
           "Version": "3.800.0"
-        },  
+        },
         {
           "Id": "VirtoCommerce.WhiteLabeling",
           "Version": "3.800.0"
@@ -111,10 +111,6 @@
         {
           "Id": "VirtoCommerce.Store",
           "BlobName": "VirtoCommerce.Store_3.803.0-pr-133-b3d7.zip"
-        },
-        {
-          "Id": "VirtoCommerce.Inventory",
-          "BlobName": "VirtoCommerce.Inventory_3.801.0-pr-139-f3cd.zip"
         },
         {
           "Id": "VirtoCommerce.Core",
@@ -226,7 +222,7 @@
         },
         {
           "Id": "VirtoCommerce.Orders",
-          "BlobName": "VirtoCommerce.Orders_3.814.0.zip"         
+          "BlobName": "VirtoCommerce.Orders_3.814.0.zip"
         },
         {
           "Id": "VirtoCommerce.Content",
@@ -244,9 +240,13 @@
           "Id": "VirtoCommerce.Pricing",
           "BlobName": "VirtoCommerce.Pricing_3.802.0-pr-207-9180.zip"
         },
-        { 
+        {
           "Id": "VirtoCommerce.Export",
           "BlobName": "VirtoCommerce.Export_3.802.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Inventory",
+          "BlobName": "VirtoCommerce.Inventory_3.803.0.zip"
         }
       ]
     }
