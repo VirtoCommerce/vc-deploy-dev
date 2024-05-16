@@ -1,10 +1,10 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.826.0-alpha.12907-vcst-1213-da1bdd72",
+  "PlatformVersion": "3.827.0",
   "StorefrontVersion": "6.43.0-alpha.1043-vcst-905-login-is-admin-0550785e",
   "ThemeB2BVue": "https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-1.55.0-pr-1007-1871-1871b1ee.zip",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.826.0-alpha.12907-vcst-1213-da1bdd72",
+  "PlatformImageTag": "3.827.0",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -72,7 +72,7 @@
         {
           "Id": "VirtoCommerce.NativePaymentMethods",
           "Version": "3.800.0"
-        },  
+        },
         {
           "Id": "VirtoCommerce.WhiteLabeling",
           "Version": "3.800.0"
@@ -226,7 +226,7 @@
         },
         {
           "Id": "VirtoCommerce.Orders",
-          "BlobName": "VirtoCommerce.Orders_3.814.0.zip"         
+          "BlobName": "VirtoCommerce.Orders_3.814.0.zip"
         },
         {
           "Id": "VirtoCommerce.Content",
@@ -244,7 +244,7 @@
           "Id": "VirtoCommerce.Pricing",
           "BlobName": "VirtoCommerce.Pricing_3.802.0-pr-207-9180.zip"
         },
-        { 
+        {
           "Id": "VirtoCommerce.Export",
           "BlobName": "VirtoCommerce.Export_3.802.0.zip"
         }
