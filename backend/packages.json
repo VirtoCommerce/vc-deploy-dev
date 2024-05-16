@@ -122,10 +122,6 @@
           "BlobName": "VirtoCommerce.Return_3.803.0-alpha.94.zip"
         },
         {
-          "Id": "VirtoCommerce.Notifications",
-          "BlobName": "VirtoCommerce.Notifications_3.806.0-alpha.371.zip"
-        },
-        {
           "Id": "VirtoCommerce.Skyflow",
           "BlobName": "VirtoCommerce.Skyflow_3.804.0-alpha.20.zip"
         },
@@ -240,6 +236,10 @@
         {
           "Id": "VirtoCommerce.NativePaymentMethods",
           "BlobName": "VirtoCommerce.NativePaymentMethods_3.801.0-alpha.85.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Notifications",
+          "BlobName": "VirtoCommerce.Notifications_3.806.0-alpha.373.zip"
         }
       ]
     }
