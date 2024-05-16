@@ -118,10 +118,6 @@
           "BlobName": "VirtoCommerce.WebHooks_3.804.0-alpha.296.zip"
         },
         {
-          "Id": "VirtoCommerce.Return",
-          "BlobName": "VirtoCommerce.Return_3.803.0-alpha.94.zip"
-        },
-        {
           "Id": "VirtoCommerce.Skyflow",
           "BlobName": "VirtoCommerce.Skyflow_3.804.0-alpha.20.zip"
         },
@@ -240,6 +236,10 @@
         {
           "Id": "VirtoCommerce.Quote",
           "BlobName": "VirtoCommerce.Quote_3.813.0-alpha.412.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Return",
+          "BlobName": "VirtoCommerce.Return_3.803.0-alpha.97.zip"
         }
       ]
     }
