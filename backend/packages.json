@@ -230,16 +230,16 @@
           "BlobName": "VirtoCommerce.DynamicAssociationsModule_3.803.0-alpha.149.zip"
         },
         {
-          "Id": "VirtoCommerce.ImageTools",
-          "BlobName": "VirtoCommerce.ImageTools_3.803.0-alpha.344.zip"
-        },
-        {
           "Id": "VirtoCommerce.Inventory",
           "BlobName": "VirtoCommerce.Inventory_3.803.0-alpha.456.zip"
         },
         {
           "Id": "VirtoCommerce.EventBus",
           "BlobName": "VirtoCommerce.EventBus_3.804.0-alpha.132.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ImageTools",
+          "BlobName": "VirtoCommerce.ImageTools_3.804.0-alpha.345.zip"
         }
       ]
     }
