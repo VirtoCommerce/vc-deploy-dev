@@ -142,10 +142,6 @@
           "BlobName": "VirtoCommerce.GDPR_3.803.0-alpha.121.zip"
         },
         {
-          "Id": "VirtoCommerce.Quote",
-          "BlobName": "VirtoCommerce.Quote_3.813.0-alpha.411.zip"
-        },
-        {
           "Id": "VirtoCommerce.Store",
           "BlobName": "VirtoCommerce.Store_3.804.0-alpha.691.zip"
         },
@@ -240,6 +236,10 @@
         {
           "Id": "VirtoCommerce.Pricing",
           "BlobName": "VirtoCommerce.Pricing_3.804.0-alpha.728.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Quote",
+          "BlobName": "VirtoCommerce.Quote_3.813.0-alpha.412.zip"
         }
       ]
     }
