@@ -116,10 +116,6 @@
           "Version": "3.814.0"
         },
         {
-          "Id": "VirtoCommerce.Customer",
-          "Version": "3.806.0"
-        },
-        {
           "Id": "VirtoCommerce.ElasticAppSearch",
           "Version": "3.803.0"
         },
@@ -222,6 +218,10 @@
         {
           "Id": "VirtoCommerce.NativePaymentMethods",
           "Version": "3.801.0"
+        },
+        {
+          "Id": "VirtoCommerce.Customer",
+          "Version": "3.807.0"
         }
       ]
     },
