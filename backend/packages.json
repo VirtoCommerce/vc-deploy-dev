@@ -160,10 +160,6 @@
           "Version": "3.828.0"
         },
         {
-          "Id": "VirtoCommerce.Marketing",
-          "Version": "3.809.0"
-        },
-        {
           "Id": "VirtoCommerce.Assets",
           "Version": "3.806.0"
         },
@@ -222,6 +218,10 @@
         {
           "Id": "VirtoCommerce.CustomerExportImport",
           "Version": "3.805.0"
+        },
+        {
+          "Id": "VirtoCommerce.Marketing",
+          "Version": "3.810.0"
         }
       ]
     },
