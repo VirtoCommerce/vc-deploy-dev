@@ -32,10 +32,6 @@
           "Version": "3.800.0"
         },
         {
-          "Id": "VirtoCommerce.TaskManagement",
-          "Version": "3.800.0"
-        },
-        {
           "Id": "VirtoCommerce.ShipStation",
           "Version": "3.800.0"
         },
@@ -222,6 +218,10 @@
         {
           "Id": "VirtoCommerce.Orders",
           "Version": "3.815.0"
+        },
+        {
+          "Id": "VirtoCommerce.TaskManagement",
+          "Version": "3.801.0"
         }
       ]
     },
