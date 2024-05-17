@@ -16,6 +16,8 @@
       AzureAd__ApplicationId: 8227d950-975c-4c28-b7d4-ea440a59dcbb
       AzureAd__Enabled: true
       AzureAd__TenantId: bc03e660-5e3a-45c4-bf5c-b75489f78923
+      #Default Store
+      VirtoCommerce__Stores__DefaultStore: B2B-store
       # Allows to see theme in Content menu in platform UI
       Content__FileSystem__RootPath: /opt/virtocommerce/platform/wwwroot/cms-content
       Content__PathMappings__pages__0: Themes
@@ -72,7 +74,7 @@
       VirtoCommerce__SampleDataUrl: https://vc3prerelease.blob.core.windows.net/packages/clothing-and-electronics_3_0_2.zip
       # Temporary settings below
       Authorization__AccessTokenLifeTime: 00:30:00
-      Authorization__RefreshTokenLifeTime: 0:30:00
+      #Authorization__RefreshTokenLifeTime: 0:30:00
     secretConfig:
       Notifications__SendGrid__ApiKey: sendgrid-apikey
       Payments__AuthorizeNet__TxnKey: authorizenet-txnkey
