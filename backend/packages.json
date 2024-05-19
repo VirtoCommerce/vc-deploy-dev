@@ -222,13 +222,13 @@
         {
           "Id": "VirtoCommerce.Subscription",
           "Version": "3.802.0"
-        },
+        }, 
         {
-          "Id": "VirtoCommerce.TaskManagement",
+          "Id": "VirtoCommerce.Tax",
           "Version": "3.800.0"
         },
         {
-          "Id": "VirtoCommerce.Tax",
+          "Id": "VirtoCommerce.TaskManagement",
           "Version": "3.800.0"
         },
         {
