@@ -18,10 +18,6 @@
           "Version": "3.800.0"
         },
         {
-          "Id": "VirtoCommerce.Search",
-          "Version": "3.800.0"
-        },
-        {
           "Id": "VirtoCommerce.AzureAD",
           "Version": "3.800.0"
         },
@@ -247,6 +243,10 @@
         { 
           "Id": "VirtoCommerce.Export",
           "BlobName": "VirtoCommerce.Export_3.802.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Search",
+          "BlobName": "VirtoCommerce.Search_3.801.0-pr-105-476e.zip"
         }
       ]
     }
