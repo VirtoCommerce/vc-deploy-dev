@@ -18,10 +18,7 @@
         },
         {
           "BlobName": "VirtoCommerce.PowerBiReports_3.800.0-alpha.31.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.ExperienceApi_3.828.0-pr-549-ac80.zip"
-        }
+        }    
       ]
     },
     {
@@ -64,7 +61,7 @@
         },
         {
           "Id": "VirtoCommerce.Cart",
-          "Version": "3.803.0"
+          "Version": "3.804.0"
         },
         {
           "Id": "VirtoCommerce.Catalog",
@@ -125,6 +122,10 @@
         {
           "Id": "VirtoCommerce.Export",
           "Version": "3.802.0"
+        },
+        {
+         "Id": "VirtoCommerce.ExperienceApi",
+          "Version": "3.828.0"
         },
         {
           "Id": "VirtoCommerce.FileSystemAssets",
@@ -221,13 +222,13 @@
         {
           "Id": "VirtoCommerce.Subscription",
           "Version": "3.802.0"
-        },
+        }, 
         {
-          "Id": "VirtoCommerce.TaskManagement",
+          "Id": "VirtoCommerce.Tax",
           "Version": "3.800.0"
         },
         {
-          "Id": "VirtoCommerce.Tax",
+          "Id": "VirtoCommerce.TaskManagement",
           "Version": "3.800.0"
         },
         {
