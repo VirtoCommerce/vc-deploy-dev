@@ -18,7 +18,10 @@
         },
         {
           "BlobName": "VirtoCommerce.PowerBiReports_3.800.0-alpha.31.zip"
-        }    
+        },
+        {
+          "BlobName": "VirtoCommerce.ExperienceApi_3.829.0-pr-553-77e9.zip"
+        } 
       ]
     },
     {
@@ -122,10 +125,6 @@
         {
           "Id": "VirtoCommerce.Export",
           "Version": "3.802.0"
-        },
-        {
-         "Id": "VirtoCommerce.ExperienceApi",
-          "Version": "3.828.0"
         },
         {
           "Id": "VirtoCommerce.FileSystemAssets",
