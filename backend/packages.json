@@ -218,10 +218,6 @@
         {
           "Id": "VirtoCommerce.LuceneSearch",
           "Version": "3.801.0"
-        },
-        {
-          "Id": "VirtoCommerce.ExperienceApi",
-          "Version": "3.828.0"
         }
       ]
     },
@@ -229,7 +225,12 @@
       "Name": "AzureBlob",
       "Container": "packages",
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
-      "Modules": []
+      "Modules": [
+        { 
+          "Id": "VirtoCommerce.ExperienceApi",
+          "BlobName": "VirtoCommerce.ExperienceApi_3.829.0-pr-555-a9e1.zip"
+        }
+      ]
     }
   ]
 }
