@@ -14,6 +14,10 @@
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
         {
+          "Id": "VirtoCommerce.ExperienceApi",
+          "BlobName": "VirtoCommerce.ExperienceApi_3.831.0-pr-553-fead.zip"
+        },
+        {
          "BlobName": "VirtoCommerce.PageBuilderModule_3.804.0-alpha.554-dev.zip"
         },
         {
@@ -118,10 +122,6 @@
         {
           "Id": "VirtoCommerce.EventBus",
           "Version": "3.802.0"
-        },
-        {
-          "Id": "VirtoCommerce.ExperienceApi",
-          "Version": "3.830.0"
         },
         {
           "Id": "VirtoCommerce.Export",
