@@ -12,7 +12,10 @@
       "Name": "AzureBlob",
       "Container": "packages",
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
-      "Modules": [   
+      "Modules": [
+        {
+         "BlobName": "VirtoCommerce.PageBuilderModule_3.804.0-alpha.554-dev.zip"
+        },
         {
           "BlobName": "VirtoCommerce.PowerBiReports_3.800.0-alpha.31.zip"
         },
@@ -166,10 +169,6 @@
         {
           "Id": "VirtoCommerce.Orders",
           "Version": "3.814.0"
-        },
-        {
-          "Id": "VirtoCommerce.PageBuilderModule",
-          "Version": "3.803.0"
         },
         {
           "Id": "VirtoCommerce.Payment",
