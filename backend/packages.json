@@ -216,10 +216,6 @@
           "Version": "3.806.0"
         },
         {
-          "Id": "VirtoCommerce.Subscription",
-          "Version": "3.804.0"
-        },
-        {
           "Id": "VirtoCommerce.Search",
           "Version": "3.802.0"
         },
@@ -230,6 +226,10 @@
         {
           "Id": "VirtoCommerce.ExperienceApi",
           "Version": "3.832.0"
+        },
+        {
+          "Id": "VirtoCommerce.Subscription",
+          "Version": "3.805.0"
         }
       ]
     },
