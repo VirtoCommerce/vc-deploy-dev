@@ -5,6 +5,9 @@
       "Modules": [
         {
           "BlobName": "VirtoCommerce.PageBuilderModule_3.804.0-alpha.554-dev.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.PushMessages_3.807.0-alpha.51-vcst-1334.zip"
         }
       ],
       "Container": "packages",
@@ -215,10 +218,6 @@
         {
           "Id": "VirtoCommerce.WhiteLabeling",
           "Version": "3.801.0"
-        },
-        {
-          "Id": "VirtoCommerce.PushMessages",
-          "Version": "3.806.0"
         },
         {
           "Id": "VirtoCommerce.Subscription",
