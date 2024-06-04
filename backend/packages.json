@@ -152,10 +152,6 @@
           "Version": "3.804.0"
         },
         {
-          "Id": "VirtoCommerce.Quote",
-          "Version": "3.813.0"
-        },
-        {
           "Id": "VirtoCommerce.Return",
           "Version": "3.803.0"
         },
@@ -230,6 +226,10 @@
         {
           "Id": "VirtoCommerce.Notifications",
           "Version": "3.807.0"
+        },
+        {
+          "Id": "VirtoCommerce.Quote",
+          "Version": "3.814.0"
         }
       ]
     },
