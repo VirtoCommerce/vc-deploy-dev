@@ -234,10 +234,6 @@
           "BlobName": "VirtoCommerce.Notifications_3.808.0-alpha.376.zip"
         },
         {
-          "Id": "VirtoCommerce.Orders",
-          "BlobName": "VirtoCommerce.Orders_3.816.0-alpha.1254.zip"
-        },
-        {
           "Id": "VirtoCommerce.Customer",
           "BlobName": "VirtoCommerce.Customer_3.809.0-alpha.832.zip"
         },
@@ -248,6 +244,10 @@
         {
           "Id": "VirtoCommerce.Cart",
           "BlobName": "VirtoCommerce.Cart_3.809.0-alpha.681.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Orders",
+          "BlobName": "VirtoCommerce.Orders_3.817.0-alpha.1255.zip"
         }
       ]
     }
