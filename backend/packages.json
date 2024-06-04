@@ -162,10 +162,6 @@
           "BlobName": "VirtoCommerce.Customer_3.808.0-alpha.828.zip"
         },
         {
-          "Id": "VirtoCommerce.Notifications",
-          "BlobName": "VirtoCommerce.Notifications_3.807.0-alpha.374.zip"
-        },
-        {
           "Id": "VirtoCommerce.Payment",
           "BlobName": "VirtoCommerce.Payment_3.804.0-alpha.227.zip"
         },
@@ -248,6 +244,10 @@
         {
           "Id": "VirtoCommerce.PushMessages",
           "BlobName": "VirtoCommerce.PushMessages_3.808.0-alpha.34.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Notifications",
+          "BlobName": "VirtoCommerce.Notifications_3.807.0-alpha.375.zip"
         }
       ]
     }
