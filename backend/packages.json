@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.829.0",
+  "PlatformVersion": "3.831.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.829.0",
+  "PlatformImageTag": "3.831.0",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -17,7 +17,7 @@
          "BlobName": "VirtoCommerce.PageBuilderModule_3.804.0-alpha.554-dev.zip"
         },
         {
-         "BlobName": "VirtoCommerce.Cart_3.807.0-pr-146-36e2.zip"
+          "BlobName": "VirtoCommerce.Notifications_3.807.0-pr-160-5627.zip"
         }
       ]
     },
@@ -152,14 +152,6 @@
           "Version": "3.803.0"
         },
         {
-          "Id": "VirtoCommerce.Inventory",
-          "Version": "3.803.0"
-        },
-        {
-          "Id": "VirtoCommerce.Hotjar",
-          "Version": "3.803.0"
-        },        
-        {
           "Id": "VirtoCommerce.CustomerExportImport",
           "Version": "3.805.0"
         },
@@ -174,10 +166,6 @@
         {
           "Id": "VirtoCommerce.Customer",
           "Version": "3.807.0"
-        },
-        {
-          "Id": "VirtoCommerce.Notifications",
-          "Version": "3.806.0"
         },
         {
           "Id": "VirtoCommerce.Payment",
@@ -220,20 +208,12 @@
           "Version": "3.815.0"
         },
         {
-          "Id": "VirtoCommerce.TaskManagement",
-          "Version": "3.801.0"
-        },
-        {
           "Id": "VirtoCommerce.WhiteLabeling",
           "Version": "3.801.0"
         },
         {
           "Id": "VirtoCommerce.PushMessages",
           "Version": "3.806.0"
-        },
-        {
-          "Id": "VirtoCommerce.Subscription",
-          "Version": "3.804.0"
         },
         {
           "Id": "VirtoCommerce.Search",
@@ -245,7 +225,19 @@
         },
         {
           "Id": "VirtoCommerce.ExperienceApi",
-          "Version": "3.832.0"
+          "Version": "3.833.0"
+        },
+        {
+          "Id": "VirtoCommerce.Subscription",
+          "Version": "3.805.0"
+        },
+        {
+          "Id": "VirtoCommerce.Cart",
+          "Version": "3.807.0"
+        },
+        {
+          "Id": "VirtoCommerce.Inventory",
+          "Version": "3.804.0"
         }
       ]
     }
