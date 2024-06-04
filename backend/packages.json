@@ -202,10 +202,6 @@
           "BlobName": "VirtoCommerce.Orders_3.816.0-alpha.1248.zip"
         },
         {
-          "Id": "VirtoCommerce.TaskManagement",
-          "BlobName": "VirtoCommerce.TaskManagement_3.802.0-alpha.71.zip"
-        },
-        {
           "Id": "VirtoCommerce.WhiteLabeling",
           "BlobName": "VirtoCommerce.WhiteLabeling_3.802.0-alpha.14.zip"
         },
@@ -248,6 +244,10 @@
         {
           "Id": "VirtoCommerce.Notifications",
           "BlobName": "VirtoCommerce.Notifications_3.807.0-alpha.375.zip"
+        },
+        {
+          "Id": "VirtoCommerce.TaskManagement",
+          "BlobName": "VirtoCommerce.TaskManagement_3.802.0-alpha.99.zip"
         }
       ]
     }
