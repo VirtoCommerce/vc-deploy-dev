@@ -18,6 +18,9 @@
         },
         {
           "BlobName": "VirtoCommerce.Notifications_3.807.0-pr-160-5627.zip"
+        },
+          {
+          "BlobName": "VirtoCommerce.Content_3.812.0-pr-180-d2d2.zip"
         }
       ]
     },
@@ -218,10 +221,6 @@
         {
           "Id": "VirtoCommerce.Search",
           "Version": "3.802.0"
-        },
-        {
-          "Id": "VirtoCommerce.Content",
-          "Version": "3.811.0"
         },
         {
           "Id": "VirtoCommerce.ExperienceApi",
