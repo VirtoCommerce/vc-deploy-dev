@@ -242,12 +242,12 @@
           "BlobName": "VirtoCommerce.PushMessages_3.808.0-alpha.34.zip"
         },
         {
-          "Id": "VirtoCommerce.Notifications",
-          "BlobName": "VirtoCommerce.Notifications_3.807.0-alpha.375.zip"
-        },
-        {
           "Id": "VirtoCommerce.TaskManagement",
           "BlobName": "VirtoCommerce.TaskManagement_3.803.0-alpha.100.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Notifications",
+          "BlobName": "VirtoCommerce.Notifications_3.808.0-alpha.376.zip"
         }
       ]
     }
