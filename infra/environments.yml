@@ -95,7 +95,7 @@
       Notifications__SendGrid__ApiKey: sendkey
       Notifications__Smtp__Password: smtppasswordyandex
   storefront:
-    enabled: true
+    enabled: false
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/storefront
     servicePlan: S1
     imageTag: 6.37.0-master-628b3528
@@ -108,16 +108,32 @@
       VirtoCommerce__DefaultStore: B2B-store
       VirtoCommerce__Endpoint__Password: store
     themes:
-      B2B-store: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.49.0/vc-theme-b2b-vue-1.49.0.zip
+      B2B-store: https://vc3prerelease.blob.core.windows.net/packages/b2b-webservice.zip
   ingress: {}
   customApps:
     app1:
       enabled: false
     app2:
       enabled: false
+  routes:
+  - host: vcptcore-dev-storefront.govirto.com
+    root: B2B-store
+    paths:
+    - path: /xapi
+      route: platform
+    - path: /files
+      route: platform
+    - path: /connect/token
+      route: platform
+    - path: /graphql
+      route: platform
+    - path: /revoke/token
+      route: platform
+    - path: /api/files
+      route: platform
   protectedParameters:
    - platform.image.tag
    - storefront.image.tag
-   - themes.B2B-store
+   #- themes.B2B-store
    #- custom.app1.image.tag
   version: 3.208
