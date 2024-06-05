@@ -69,6 +69,25 @@
       VirtoCommerce__LocalUploadFolderPath: wwwroot/cms-content
       # Sample data used if db is empty
       VirtoCommerce__SampleDataUrl: https://vc3prerelease.blob.core.windows.net/packages/clothing-and-electronics_3_0_2.zip
+      # Push messages settings
+      PushMessages__UseFirebaseCloudMessaging: true       
+      PushMessages__FcmSenderOptions__Type: service_account
+      PushMessages__FcmSenderOptions__ProjectId: test-97e05
+      PushMessages__FcmSenderOptions__PrivateKeyId: c97aff16d81e599cd48bdb63d5f7700a4daa1e99
+      PushMessages__FcmSenderOptions__ClientEmail: firebase-adminsdk-ekgb8@test-97e05.iam.gserviceaccount.com
+      PushMessages__FcmSenderOptions__ClientId: 117937666492085292599
+      PushMessages__FcmSenderOptions__AuthUri: https://accounts.google.com/o/oauth2/auth
+      PushMessages__FcmSenderOptions__TokenUri: https://oauth2.googleapis.com/token
+      PushMessages__FcmSenderOptions__AuthProviderX509CertUrl: https://www.googleapis.com/oauth2/v1/certs
+      PushMessages__FcmSenderOptions__ClientX509CertUrl: https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-ekgb8%40test-97e05.iam.gserviceaccount.com
+      PushMessages__FcmSenderOptions__UniverseDomain: googleapis.com
+      PushMessages__FcmReceiverOptions__ApiKey: AIzaSyAh1GH8SFIx4ULiaZUNZRnxNNM2jFLGdaE
+      PushMessages__FcmReceiverOptions__AuthDomain: test-97e05.firebaseapp.com
+      PushMessages__FcmReceiverOptions__ProjectId: test-97e05
+      PushMessages__FcmReceiverOptions__StorageBucket: test-97e05.appspot.com
+      PushMessages__FcmReceiverOptions__MessagingSenderId: 518395609520
+      PushMessages__FcmReceiverOptions__AppId: 1:518395609520:web:53952423cba605aa771675
+      PushMessages__FcmReceiverOptions__VapidKey: BE1iGYmRsbdI1FB-qTiIUvGrWvC91GCfnXSHtfzcPLgXfQ28fbpKFlD8YlbI7w-aHVepW3Ih17oRB53ceYNaM6k
       # Temporary settings below
     secretConfig:
       Notifications__SendGrid__ApiKey: sendgrid-apikey
@@ -80,6 +99,7 @@
       Payments__Skyflow__Connections__Default__keyID: skyflow-server-keyid
       Payments__Skyflow__Connections__Default__privateKey: skyflow-server-privatekey
       Payments__Skyflow__DefaultConnection__transactionKey: authorizenet-txnkey
+      PushMessages__FcmSenderOptions__PrivateKey: fcm-private-key
   storefront:
     enabled: true
     imageRepository: virtopaasregistrymain.azurecr.io/vcst/storefront
