@@ -70,7 +70,7 @@
       # Sample data used if db is empty
       VirtoCommerce__SampleDataUrl: https://vc3prerelease.blob.core.windows.net/packages/clothing-and-electronics_3_0_2.zip
       # Push messages settings
-      PushMessages__UseFirebaseCloudMessaging: true       
+      PushMessages__UseFirebaseCloudMessaging: true
       PushMessages__FcmSenderOptions__Type: service_account
       PushMessages__FcmSenderOptions__ProjectId: test-97e05
       PushMessages__FcmSenderOptions__PrivateKeyId: c97aff16d81e599cd48bdb63d5f7700a4daa1e99
