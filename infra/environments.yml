@@ -204,7 +204,7 @@
       Serilog__WriteTo__1__Args__connectionString: connectionstringaiqa
       EventBus__Connections__0__ConnectionOptionsSerialized: eventbusconnection
       #Assets__AzureBlobStorage__ConnectionString: azureblobconnectionstring
-      PushMessages__FcmSenderOptions__PrivateKey: firebase-private-key
+      PushMessages__FcmSenderOptions__PrivateKey: firebase-privatekey
 
   storefront:
     enabled: true
