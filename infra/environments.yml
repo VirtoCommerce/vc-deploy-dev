@@ -108,7 +108,7 @@
       VirtoCommerce__DefaultStore: B2B-store
       VirtoCommerce__Endpoint__Password: store
     themes:
-      B2B-store: https://vc3prerelease.blob.core.windows.net/packages/b2b-webservice.zip
+      B2B-store: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-2.0.0-pr-1136-3443-34434fd8.zip
   ingress: {}
   customApps:
     app1:
