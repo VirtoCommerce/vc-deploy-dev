@@ -8,12 +8,6 @@
         },
         {
           "BlobName": "VirtoCommerce.PushMessages_3.808.0-pr-6-aa0c.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.Customer_3.808.0-pr-242-cf25.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.805.0-pr-75-ca67.zip"
         }
       ],
       "Container": "packages",
@@ -236,6 +230,14 @@
         {
           "Id": "VirtoCommerce.Hotjar",
           "Version": "3.803.0"
+        },
+        {
+          "Id": "VirtoCommerce.Customer",
+          "Version": "3.809.0"
+        },
+        {
+          "Id": "VirtoCommerce.ProfileExperienceApiModule",
+          "Version": "3.806.0"
         }
       ]
     }
