@@ -232,6 +232,10 @@
         {
           "Id": "VirtoCommerce.ExperienceApi",
           "Version": "3.832.0"
+        },
+        {
+          "Id": "VirtoCommerce.Hotjar",
+          "Version": "3.803.0"
         }
       ]
     }
