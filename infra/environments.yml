@@ -43,6 +43,30 @@
       Notifications__DefaultSender: azure_25da07ed75daacae20578a7a7dc58541@azure.com
       Notifications__Gateway: SendGrid
       Notifications__SmsDefaultSender: +17012510519
+      # Sync push notifications between platform instances
+      PushNotifications__ForceWebSockets: true
+      PushNotifications__ScalabilityMode: RedisBackplane
+      PushNotifications__HubUrl: https://vcst-qa.govirto.com/pushNotificationHub?api_key=458ab7f7-df17-4aed-9f21-092f8b611efa
+      PushNotifications__RedisBackplane__ChannelName: vcst-qa-chanel
+      # Firebase settings
+      PushMessages__UseFirebaseCloudMessaging: true
+      PushMessages__FcmSenderOptions__Type: service_account
+      PushMessages__FcmSenderOptions__ProjectId: vcst-qa
+      PushMessages__FcmSenderOptions__PrivateKeyId: 46979e20ed5db1673ae83b83d01b24ad142c68ab
+      PushMessages__FcmSenderOptions__ClientEmail: firebase-adminsdk-fb4ea@vcptcore-qa.iam.gserviceaccount.com
+      PushMessages__FcmSenderOptions__ClientId: 110684419668943183491
+      PushMessages__FcmSenderOptions__AuthUri: https://accounts.google.com/o/oauth2/auth
+      PushMessages__FcmSenderOptions__TokenUri: https://oauth2.googleapis.com/token
+      PushMessages__FcmSenderOptions__AuthProviderX509CertUrl: https://www.googleapis.com/oauth2/v1/certs
+      PushMessages__FcmSenderOptions__ClientX509CertUrl: https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-fb4ea%40vcptcore-qa.iam.gserviceaccount.com
+      PushMessages__FcmSenderOptions__UniverseDomain: googleapis.com
+      PushMessages__FcmReceiverOptions__ApiKey: AIzaSyD4YXs4pSO11Gb95ecyd7oRl8wV6SUM_jU
+      PushMessages__FcmReceiverOptions__AuthDomain: vcst-qa.firebaseapp.com
+      PushMessages__FcmReceiverOptions__ProjectId: vcst-qa
+      PushMessages__FcmReceiverOptions__StorageBucket: vcst-qa.appspot.com
+      PushMessages__FcmReceiverOptions__MessagingSenderId: 995027985115
+      PushMessages__FcmReceiverOptions__AppId: 1:995027985115:web:324f963313f91886e5e2fe
+      PushMessages__FcmReceiverOptions__VapidKey: BC8WwWRnCNgs_slIACjwBrNu_iQSiY7xlq48NBSobEITxzye9L_K_aEmMdB1LWPn7dMX2G8zm4LcLrklHgW-4iY
       # Return detailed error information if login failed
       PasswordLogin__DetailedErrors: true
       IdentityOptions__Lockout__MaxFailedAccessAttempts: 5
