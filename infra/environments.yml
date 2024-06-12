@@ -52,7 +52,7 @@
       PushMessages__UseFirebaseCloudMessaging: true
       PushMessages__FcmSenderOptions__Type: service_account
       PushMessages__FcmSenderOptions__ProjectId: vcst-qa
-      PushMessages__FcmSenderOptions__PrivateKeyId: 86df15823be434b9cc8d188ef2a34cd47e186065  
+      PushMessages__FcmSenderOptions__PrivateKeyId: 2d6bed5b992d4f7d52ec9e432e929083bb0d86fa 
       PushMessages__FcmSenderOptions__ClientEmail: firebase-adminsdk-1vh96@vcst-qa.iam.gserviceaccount.com
       PushMessages__FcmSenderOptions__ClientId: 111108068739348332191
       PushMessages__FcmSenderOptions__AuthUri: https://accounts.google.com/o/oauth2/auth
@@ -100,7 +100,7 @@
       Authorization__AccessTokenLifeTime: 00:30:00
       #Authorization__RefreshTokenLifeTime: 0:30:00
     secretConfig:
-      PushMessages__FcmSenderOptions__PrivateKey: fcm-private-key
+      PushMessages__FcmSenderOptions__PrivateKey: firebase-privateKey
       Notifications__SendGrid__ApiKey: sendgrid-apikey
       Payments__AuthorizeNet__TxnKey: authorizenet-txnkey
       Payments__Skyflow__ClientSDK__clientID: skyflow-client-clientid
