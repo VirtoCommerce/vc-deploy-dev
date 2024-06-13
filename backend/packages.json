@@ -76,6 +76,14 @@
         {
           "Id": "VirtoCommerce.BuilderIO",
           "Version": "3.803.0"
+        },
+        {
+          "Id": "VirtoCommerce.ProfileExperienceApiModule",
+          "Version": "3.806.0"
+        },
+        {
+          "Id": "VirtoCommerce.Customer",
+          "Version": "3.809.0"
         }
       ]
     },
@@ -87,10 +95,6 @@
         {
           "Id": "VirtoCommerce.Notifications",
           "BlobName": "VirtoCommerce.Notifications_3.807.0-pr-160-5627.zip"
-        },
-        {
-          "Id": "VirtoCommerce.Customer",
-          "BlobName": "VirtoCommerce.Customer_3.808.0-pr-243-c21f.zip"
         },
         {
           "Id": "VirtoCommerce.ElasticAppSearch",
@@ -167,10 +171,6 @@
         {
           "Id": "VirtoCommerce.Return",
           "BlobName": "VirtoCommerce.Return_3.801.0.zip"
-        },
-        {
-          "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.805.0-pr-77-793d.zip"
         },
         {
           "Id": "VirtoCommerce.PushMessages",
