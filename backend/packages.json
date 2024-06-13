@@ -214,10 +214,6 @@
           "BlobName": "VirtoCommerce.AzureSearch_3.804.0-alpha.237.zip"
         },
         {
-          "Id": "VirtoCommerce.PushMessages",
-          "BlobName": "VirtoCommerce.PushMessages_3.808.0-alpha.34.zip"
-        },
-        {
           "Id": "VirtoCommerce.TaskManagement",
           "BlobName": "VirtoCommerce.TaskManagement_3.803.0-alpha.100.zip"
         },
@@ -248,6 +244,10 @@
         {
           "Id": "VirtoCommerce.Cart",
           "BlobName": "VirtoCommerce.Cart_3.810.0-alpha.688.zip"
+        },
+        {
+          "Id": "VirtoCommerce.PushMessages",
+          "BlobName": "VirtoCommerce.PushMessages_3.808.0-alpha.35.zip"
         }
       ]
     }
