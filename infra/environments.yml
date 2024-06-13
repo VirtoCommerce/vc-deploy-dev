@@ -114,7 +114,7 @@
     enabled: true
     imageRepository: virtopaasregistrymain.azurecr.io/vcst/storefront
     servicePlan: B1
-    probePath: /storefrontapi/health
+    probePath: /
     config:
       APPINSIGHTS_INSTRUMENTATIONKEY: 48cca1d8-ea02-433e-bfa6-7aa21acb88d9
       CookieAuthenticationOptions__LoginPath: /sign-in
