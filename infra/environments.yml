@@ -100,7 +100,7 @@
       Authorization__AccessTokenLifeTime: 00:30:00
       #Authorization__RefreshTokenLifeTime: 0:30:00
     secretConfig:
-      PushMessages__FcmSenderOptions__PrivateKey: firebase-private-key-new
+      PushMessages__FcmSenderOptions__PrivateKey: fcm-private-key-new
       Notifications__SendGrid__ApiKey: sendgrid-apikey
       Payments__AuthorizeNet__TxnKey: authorizenet-txnkey
       Payments__Skyflow__ClientSDK__clientID: skyflow-client-clientid
