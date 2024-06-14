@@ -1,10 +1,10 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.833.0-alpha.12922-vcst-1392-085afb74",
+  "PlatformVersion": "3.833.0-alpha.12922-vcst-1364-4f36e985",
   "StorefrontVersion": "6.43.0-alpha.1043-vcst-905-login-is-admin-0550785e",
   "ThemeB2BVue": "https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-1.55.0-pr-1007-1871-1871b1ee.zip",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.833.0-alpha.12922-vcst-1392-085afb74",
+  "PlatformImageTag": "3.833.0-alpha.12922-vcst-1364-4f36e985",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -182,7 +182,7 @@
         },
         {
           "Id": "VirtoCommerce.Hotjar",
-          "BlobName": "VirtoCommerce.Hotjar_3.801.0-pr-3-7c4a.zip"
+          "BlobName": "VirtoCommerce.Hotjar_3.803.0.zip"
         },
         {
           "Id": "VirtoCommerce.Quote",
