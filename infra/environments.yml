@@ -28,6 +28,7 @@
       Search__AzureSearch__SearchServiceName: qa-demovc-3-search
       Search__AzureSearch__Key: 6BE1143312E89C26C227E6BBAE24DD47
       Search__AzureSearch__QueryParserType: Full
+      Search__AzureSearch__Endpoint: https://qa-demovc-3-search.search.windows.net
       Content__FileSystem__PublicUrl: https://vcptcore-regression.govirto.com/cms-content/
       Assets__FileSystem__PublicUrl: https://vcptcore-regression.govirto.com/cms-content/assets/
       Assets__Provider: FileSystem
