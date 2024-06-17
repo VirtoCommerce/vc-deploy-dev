@@ -52,7 +52,7 @@
       PushMessages__UseFirebaseCloudMessaging: true
       PushMessages__FcmSenderOptions__Type: service_account
       PushMessages__FcmSenderOptions__ProjectId: vcst-qa
-      PushMessages__FcmSenderOptions__PrivateKeyId: 86df15823be434b9cc8d188ef2a34cd47e186065  
+      PushMessages__FcmSenderOptions__PrivateKeyId: 2d6bed5b992d4f7d52ec9e432e929083bb0d86fa 
       PushMessages__FcmSenderOptions__ClientEmail: firebase-adminsdk-1vh96@vcst-qa.iam.gserviceaccount.com
       PushMessages__FcmSenderOptions__ClientId: 111108068739348332191
       PushMessages__FcmSenderOptions__AuthUri: https://accounts.google.com/o/oauth2/auth
@@ -100,21 +100,21 @@
       Authorization__AccessTokenLifeTime: 00:30:00
       #Authorization__RefreshTokenLifeTime: 0:30:00
     secretConfig:
-      PushMessages__FcmSenderOptions__PrivateKey: fcm-private-key
+      PushMessages__FcmSenderOptions__PrivateKey: fcm-private-key-new
       Notifications__SendGrid__ApiKey: sendgrid-apikey
       Payments__AuthorizeNet__TxnKey: authorizenet-txnkey
-      Payments__Skyflow__ClientSDK__clientID: skyflow-client-clientid
-      Payments__Skyflow__ClientSDK__keyID: skyflow-client-keyid
-      Payments__Skyflow__ClientSDK__privateKey: skyflow-client-privatekey
-      Payments__Skyflow__Connections__Default__clientID: skyflow-server-clientid
-      Payments__Skyflow__Connections__Default__keyID: skyflow-server-keyid
-      Payments__Skyflow__Connections__Default__privateKey: skyflow-server-privatekey
+      Payments__Skyflow__ClientSDK__clientID: skyflow-client-clientid-vs
+      Payments__Skyflow__ClientSDK__keyID: skyflow-client-keyid-vs
+      Payments__Skyflow__ClientSDK__privateKey: skyflow-client-privatekey-vs
+      Payments__Skyflow__Connections__Default__clientID: skyflow-server-clientid-vs
+      Payments__Skyflow__Connections__Default__keyID: skyflow-server-keyid-vs
+      Payments__Skyflow__Connections__Default__privateKey: skyflow-server-privatekey-vs
       Payments__Skyflow__DefaultConnection__transactionKey: authorizenet-txnkey
   storefront:
     enabled: true
     imageRepository: virtopaasregistrymain.azurecr.io/vcst/storefront
     servicePlan: B1
-    probePath: /storefrontapi/health
+    probePath: /
     config:
       APPINSIGHTS_INSTRUMENTATIONKEY: 48cca1d8-ea02-433e-bfa6-7aa21acb88d9
       CookieAuthenticationOptions__LoginPath: /sign-in
