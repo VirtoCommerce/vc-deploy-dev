@@ -105,10 +105,10 @@
       Payments__AuthorizeNet__TxnKey: authorizenet-txnkey
       Payments__Skyflow__ClientSDK__clientID: skyflow-client-clientid
       Payments__Skyflow__ClientSDK__keyID: skyflow-client-keyid
-      Payments__Skyflow__ClientSDK__privateKey: skyflow-client-privatekey
+      Payments__Skyflow__ClientSDK__privateKey: skyflow-client-privatekey-new
       Payments__Skyflow__Connections__Default__clientID: skyflow-server-clientid
       Payments__Skyflow__Connections__Default__keyID: skyflow-server-keyid
-      Payments__Skyflow__Connections__Default__privateKey: skyflow-server-privatekey
+      Payments__Skyflow__Connections__Default__privateKey: skyflow-server-privatekey-new
       Payments__Skyflow__DefaultConnection__transactionKey: authorizenet-txnkey
   storefront:
     enabled: true
