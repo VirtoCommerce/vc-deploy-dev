@@ -102,14 +102,14 @@
     secretConfig:
       PushMessages__FcmSenderOptions__PrivateKey: fcm-private-key-new
       Notifications__SendGrid__ApiKey: sendgrid-apikey
-      Payments__AuthorizeNet__TxnKey: authorizenet-txnkey
+      Payments__AuthorizeNet__TxnKey: authorizenet-txnkey-vs
       Payments__Skyflow__ClientSDK__clientID: skyflow-client-clientid-vs
       Payments__Skyflow__ClientSDK__keyID: skyflow-client-keyid-vs
       Payments__Skyflow__ClientSDK__privateKey: skyflow-client-privatekey-vs
       Payments__Skyflow__Connections__Default__clientID: skyflow-server-clientid-vs
       Payments__Skyflow__Connections__Default__keyID: skyflow-server-keyid-vs
       Payments__Skyflow__Connections__Default__privateKey: skyflow-server-privatekey-vs
-      Payments__Skyflow__DefaultConnection__transactionKey: authorizenet-txnkey
+      Payments__Skyflow__DefaultConnection__transactionKey: authorizenet-txnkey-vs
   storefront:
     enabled: true
     imageRepository: virtopaasregistrymain.azurecr.io/vcst/storefront
