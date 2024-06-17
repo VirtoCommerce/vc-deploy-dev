@@ -15,10 +15,7 @@
       "Modules": [
         {
          "BlobName": "VirtoCommerce.PageBuilderModule_3.804.0-alpha.554-dev.zip"
-        },
-        {
-         "BlobName": "VirtoCommerce.PushMessages_3.808.0-pr-6-aa0c.zip"
-        }
+        } 
       ]
     },
     {
@@ -242,7 +239,11 @@
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "Version": "3.806.0"
-        }
+        },
+        {
+          "Id": "VirtoCommerce.PushMessages",
+          "Version": "3.808.0"
+        }        
       ]
     }
   ]
