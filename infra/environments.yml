@@ -52,8 +52,7 @@
       PushMessages__UseFirebaseCloudMessaging: true
       PushMessages__FcmSenderOptions__Type: service_account
       PushMessages__FcmSenderOptions__ProjectId: vcst-qa
-      PushMessages__FcmSenderOptions__PrivateKeyId: 86df15823be434b9cc8d188ef2a34cd47e186065
-      PushMessages__FcmSenderOptions__PrivateKey: MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCFxsDK1vUYpo2wIHwuXL1Xq/IRLPTwuVTFcyf6wtOQe65DPHDwL5rvediw4df7IAvQMWh8PwicUFsyp2h653SRPWRWNihitsogPFWGfbdjmP4UzxiaS4u9hK9/2Tt8GvhCwCj+jwvgyd4FmiC9YIbWEwAeIYulB64ohrQRvSvHEFo5dDIxfitZeL91FTnHiuqsYj3YOfBe1cLfu+pZM1Tu8SQtgUq/8V4s5RlMpBKovh/oJBD7GuWUZC3V6J9hSEdIpZSFUwwHuaSl1GNTe6RPAVMzxqLDQ+6qUvuKEiUbszt1Wajvms1P5M+Y9LrT2PztbUIieArbt9ngEufXyVYPAgMBAAECggEAM2cBYW9jUgt9WfXBgZcE8hERvGPH4k90MUJkVEhUPqondZJd2wyPvgDVsHG3KblQkLjLayJVTqrZwAbvcHpLIhuy2CWLMxMFa4mDW2Am/VAmIRzKWU857KJ1ROzVnIRIbG2l0tpoOAGZHBHzDpFufgdi/jDplYnz84J+4moLzjr+GAs4fNWQ7sTRjx/aQeNZMpKsdiAcHapfh7pRHKrNi0X/UCBYZiCqmS1CogkHd4sCkYWJtniQY2flGxft5dvGVqYtsxnwLDe2lGOAQCWnNjucRAVFOqVlSHeGrWlRu/qo4PBzKzz2i7pi9xo31Hh+zwtNuy61C/zGKtjF8MCpYQKBgQC6LdGK8OU8nIuPHQOPisdNcHHkwnQnYruhIopQ7alMGIJODtVXgRMw4BjwoE6GFumxKbhA+hIUnXtNB6imCY8IUSELQocp2vkfsFF5vDwhYd8hUeqSBJH7PxM+GjlAk0S3FYfsFV6SbTm4pIyNDdg01qMTW2Rt+nvQIWx5rjkpuQKBgQC38gDymiOO81uWkuU5vj4Ab0dG66OQXMvHz0U7QK4kWJUn/tXUJzYA9SCer+qBmto0q5e3kJ24DuDSTIV1aRxcxO0ubMkgL48aw5h1NtCBXKVpk0f+xbQLt5Eob0H07XpH1GjicxHHbvMUAwN8P3aIDEbpW/vNPheu0u6PaPPCBwKBgQCq9Huey0iTeWOkzA2C9vm/H+tVFUE3ETAc6+x6F2EHYNH1/yTjLsCCdqQv/+NauRto9FgeQgHsMBcSSmAP5mMSTfy7rCEUy99Ju8t0ruW/+XC71c5AujWZsPdoZQgBRbkpLHoczBqE9gq0g1QUCYxoKFah5Z+4ZPLf0HEc4l/W8QKBgQCgNLcclKD5pPyU9RWOKCIqEMEchKitWBTnzp82jwvcfgZSkkG8B/ah+NzTONXe0XbQvs5hwyOKpfKrVpg5/TUFm0IT2A2H6cQShF5pYDdTI9SxUeQ3ggtg1R0pAVWJs7d3jglXiO7oKrqtKD7F3SQoM8EjB8kUJctMqUu7PaZnywKBgGNHFxWMO03XLoE0YiOoJi87j1kiyuW6C8vFvume4IEuSVOTA16JJ0PQPt7WcqS2JL0MgaPskT1qfDFfcwq8ySiCk/EH3JmbI+Ly93UnXKtOTNLT9NVuXOOUnBH/mclu0OSRVVWsEncyhPhp1yyTqclnQgM0/bBOdJdf7X9/E0RF
+      PushMessages__FcmSenderOptions__PrivateKeyId: 2d6bed5b992d4f7d52ec9e432e929083bb0d86fa 
       PushMessages__FcmSenderOptions__ClientEmail: firebase-adminsdk-1vh96@vcst-qa.iam.gserviceaccount.com
       PushMessages__FcmSenderOptions__ClientId: 111108068739348332191
       PushMessages__FcmSenderOptions__AuthUri: https://accounts.google.com/o/oauth2/auth
@@ -101,21 +100,21 @@
       Authorization__AccessTokenLifeTime: 00:30:00
       #Authorization__RefreshTokenLifeTime: 0:30:00
     secretConfig:
-      PushMessages__FcmSenderOptions__PrivateKey: fcm-private-key
+      PushMessages__FcmSenderOptions__PrivateKey: fcm-private-key-new
       Notifications__SendGrid__ApiKey: sendgrid-apikey
       Payments__AuthorizeNet__TxnKey: authorizenet-txnkey
-      Payments__Skyflow__ClientSDK__clientID: skyflow-client-clientid
-      Payments__Skyflow__ClientSDK__keyID: skyflow-client-keyid
-      Payments__Skyflow__ClientSDK__privateKey: skyflow-client-privatekey
-      Payments__Skyflow__Connections__Default__clientID: skyflow-server-clientid
-      Payments__Skyflow__Connections__Default__keyID: skyflow-server-keyid
-      Payments__Skyflow__Connections__Default__privateKey: skyflow-server-privatekey
+      Payments__Skyflow__ClientSDK__clientID: skyflow-client-clientid-vs
+      Payments__Skyflow__ClientSDK__keyID: skyflow-client-keyid-vs
+      Payments__Skyflow__ClientSDK__privateKey: skyflow-client-privatekey-vs
+      Payments__Skyflow__Connections__Default__clientID: skyflow-server-clientid-vs
+      Payments__Skyflow__Connections__Default__keyID: skyflow-server-keyid-vs
+      Payments__Skyflow__Connections__Default__privateKey: skyflow-server-privatekey-vs
       Payments__Skyflow__DefaultConnection__transactionKey: authorizenet-txnkey
   storefront:
     enabled: true
     imageRepository: virtopaasregistrymain.azurecr.io/vcst/storefront
     servicePlan: B1
-    probePath: /storefrontapi/health
+    probePath: /
     config:
       APPINSIGHTS_INSTRUMENTATIONKEY: 48cca1d8-ea02-433e-bfa6-7aa21acb88d9
       CookieAuthenticationOptions__LoginPath: /sign-in
