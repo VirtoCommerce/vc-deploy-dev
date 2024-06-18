@@ -192,13 +192,14 @@
       AuditLogOptions__EntityOptions__4__TypeFullName: VirtoCommerce.CatalogModule.Core.Model.Property
       AuditLogOptions__EntityOptions__4__NameProperty: Name
     secretConfig:
-      Payments__Skyflow__Connections__Default__clientID: skyflow-server-clientid
-      Payments__Skyflow__Connections__Default__keyID: skyflow-server-keyid
-      Payments__Skyflow__Connections__Default__privateKey: skyflow-server-privatekey
-      Payments__Skyflow__DefaultConnection__transactionKey: authorizenet-txnkey
-      Payments__Skyflow__ClientSDK__clientID: skyflow-client-clientid
-      Payments__Skyflow__ClientSDK__keyID: skyflow-client-keyid
-      Payments__Skyflow__ClientSDK__privateKey: skyflow-client-privatekey
+      Payments__AuthorizeNet__TxnKey: authorizenet-txnkey-vs
+      Payments__Skyflow__ClientSDK__clientID: skyflow-client-clientid-vs
+      Payments__Skyflow__ClientSDK__keyID: skyflow-client-keyid-vs
+      Payments__Skyflow__ClientSDK__privateKey: skyflow-client-privatekey-vs
+      Payments__Skyflow__Connections__Default__clientID: skyflow-server-clientid-vs
+      Payments__Skyflow__Connections__Default__keyID: skyflow-server-keyid-vs
+      Payments__Skyflow__Connections__Default__privateKey: skyflow-server-privatekey-vs
+      Payments__Skyflow__DefaultConnection__transactionKey: authorizenet-txnkey-vs
       Notifications__SendGrid__ApiKey: sendkey
       Notifications__Smtp__Password: smtppasswordyandex
       Search__ElasticAppSearch__PrivateApiKey: elasticappsearch
