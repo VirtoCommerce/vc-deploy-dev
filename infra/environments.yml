@@ -5,7 +5,7 @@
   platform:
     #dbProvider: Azure Database for PostgreSQL
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.812.0-6988fae
+    imageTag: 3.832.0-70251d1
     sqlReplica: false
     config:
       Serilog__Using__0: Serilog.Sinks.Console
@@ -108,7 +108,7 @@
       VirtoCommerce__DefaultStore: B2B-store
       VirtoCommerce__Endpoint__Password: store
     themes:
-      B2B-store: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.46.0/vc-theme-b2b-vue-1.46.0.zip
+      B2B-store: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.60.0/vc-theme-b2b-vue-1.60.0.zip
   ingress: {}
   customApps:
     app1:
