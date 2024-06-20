@@ -73,7 +73,7 @@
       # Authorize.Net settings
       Payments__AuthorizeNet__ApiLogin: 52B9X7vb4
       # Skyflow settings
-      Payments__Skyflow__tokenURI: https://manage.skyflowapis-preview.com/v1/auth/sa/oauth/token
+      Payments__Skyflow__tokenURI: https://manage.skyflowapis.com/v1/auth/sa/oauth/token
       Payments__Skyflow__vaultURI: https://a370a9658141.vault.skyflowapis-preview.com
       Payments__Skyflow__gatewayURI: https://a370a9658141.gateway.skyflowapis-preview.com
       Payments__Skyflow__vaultId: ff9fc275bec848318361cc8928e094d1
