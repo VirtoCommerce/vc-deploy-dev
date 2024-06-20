@@ -78,8 +78,8 @@
       Payments__Skyflow__gatewayURI: https://a370a9658141.gateway.skyflowapis-preview.com
       Payments__Skyflow__vaultId: ff9fc275bec848318361cc8928e094d1
       Payments__Skyflow__tableName: credit_cards
-      Payments__Skyflow__DefaultPaymentMethod: AuthorizeNetPaymentMethod
-      Payments__Skyflow__DefaultConnectionRoute: b47bea9c61c74cf4aac3b26d09aaf825/xml
+      Payments__Skyflow__TargetPaymentMethod: AuthorizeNetPaymentMethod
+      Payments__Skyflow__TargetConnectionRoute: b47bea9c61c74cf4aac3b26d09aaf825/xml/v1/request.api
       # Sync push notifications between platform instances
       PushNotifications__ForceWebSockets: true
       PushNotifications__ScalabilityMode: RedisBackplane
