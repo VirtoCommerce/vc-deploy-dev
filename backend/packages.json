@@ -21,6 +21,9 @@
         },
         {
          "BlobName": "VirtoCommerce.AuthorizeNetPayment_3.801.0-pr-5-c1ce.zip"
+        },
+        {
+         "BlobName": "VirtoCommerce.ExperienceApi_3.834.0-pr-559-d31f.zip"
         }
       ]
     },
@@ -197,10 +200,6 @@
         {
           "Id": "VirtoCommerce.Inventory",
           "Version": "3.804.0"
-        },
-        {
-          "Id": "VirtoCommerce.ExperienceApi",
-          "Version": "3.833.0"
         },
         {
           "Id": "VirtoCommerce.AzureSearch",
