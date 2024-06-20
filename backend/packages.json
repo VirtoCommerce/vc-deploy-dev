@@ -15,7 +15,13 @@
       "Modules": [
         {
          "BlobName": "VirtoCommerce.PageBuilderModule_3.804.0-alpha.554-dev.zip"
-        } 
+        },
+        {
+         "BlobName": "VirtoCommerce.Skyflow_3.804.0-pr-7-6126.zip"
+        },
+        {
+         "BlobName": "VirtoCommerce.AuthorizeNetPayment_3.801.0-pr-5-c1ce.zip"
+        }
       ]
     },
     {
@@ -30,10 +36,6 @@
         },
         {
           "Id": "VirtoCommerce.AvalaraTax",
-          "Version": "3.800.0"
-        },
-        {
-          "Id": "VirtoCommerce.AuthorizeNetPayment",
           "Version": "3.800.0"
         },
         {
@@ -67,10 +69,6 @@
         {
           "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
           "Version": "4.801.0"
-        },
-        {
-          "Id": "VirtoCommerce.Skyflow",
-          "Version": "3.803.0"
         },
         {
           "Id": "VirtoCommerce.FileExperienceApi",
