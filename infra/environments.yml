@@ -74,12 +74,12 @@
       Payments__AuthorizeNet__ApiLogin: 52B9X7vb4
       # Skyflow settings
       Payments__Skyflow__tokenURI: https://manage.skyflowapis.com/v1/auth/sa/oauth/token
-      Payments__Skyflow__vaultURI: https://a370a9658141.vault.skyflowapis-preview.com
-      Payments__Skyflow__gatewayURI: https://a370a9658141.gateway.skyflowapis-preview.com
-      Payments__Skyflow__vaultId: ff9fc275bec848318361cc8928e094d1
+      Payments__Skyflow__vaultURI: https://ebfc9bee4242.vault.skyflowapis.com
+      Payments__Skyflow__gatewayURI: https://ebfc9bee4242.gateway.skyflowapis.com
+      Payments__Skyflow__vaultId: c1aeec61ad7c46c2b724f004a7658b2f
       Payments__Skyflow__tableName: credit_cards
       Payments__Skyflow__TargetPaymentMethod: AuthorizeNetPaymentMethod
-      Payments__Skyflow__TargetConnectionRoute: b47bea9c61c74cf4aac3b26d09aaf825/xml/v1/request.api
+      Payments__Skyflow__TargetConnectionRoute: gfb5ce07e91340efac348a2df035c513/xml/v1/request.api
       # Sync push notifications between platform instances
       PushNotifications__ForceWebSockets: true
       PushNotifications__ScalabilityMode: RedisBackplane
