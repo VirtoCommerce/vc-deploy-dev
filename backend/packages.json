@@ -68,7 +68,7 @@
         {
           "Id": "VirtoCommerce.NativePaymentMethods",
           "Version": "3.800.0"
-        },  
+        },
         {
           "Id": "VirtoCommerce.WhiteLabeling",
           "Version": "3.800.0"
@@ -95,7 +95,7 @@
         {
           "Id": "VirtoCommerce.ElasticAppSearch",
           "BlobName": "VirtoCommerce.ElasticAppSearch_3.801.0.zip"
-        }, 
+        },
         {
           "Id": "VirtoCommerce.Store",
           "BlobName": "VirtoCommerce.Store_3.803.0-pr-133-b3d7.zip"
@@ -206,11 +206,7 @@
         },
         {
           "Id": "VirtoCommerce.Orders",
-          "BlobName": "VirtoCommerce.Orders_3.820.0-pr-422-0c9a.zip"         
-        },
-        {
-          "Id": "VirtoCommerce.Content",
-          "BlobName": "VirtoCommerce.Content_3.815.0-pr-183-af41.zip"
+          "BlobName": "VirtoCommerce.Orders_3.820.0-pr-422-0c9a.zip"
         },
         {
           "Id": "VirtoCommerce.Marketing",
@@ -224,11 +220,11 @@
           "Id": "VirtoCommerce.Pricing",
           "BlobName": "VirtoCommerce.Pricing_3.802.0-pr-207-9180.zip"
         },
-        { 
+        {
           "Id": "VirtoCommerce.Export",
           "BlobName": "VirtoCommerce.Export_3.802.0.zip"
         },
-        { 
+        {
           "Id": "VirtoCommerce.ExperienceApi",
           "BlobName": "VirtoCommerce.ExperienceApi_3.834.0-pr-559-d31f.zip"
         },
@@ -245,8 +241,12 @@
           "BlobName": "VirtoCommerce.ElasticSearch8_3.806.0-pr-17-e4b9.zip"
         },
         {
-         "Id": "VirtoCommerce.ProfileExperienceApiModule",
-         "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.807.0-pr-78-8329.zip"
+          "Id": "VirtoCommerce.ProfileExperienceApiModule",
+          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.807.0-pr-78-8329.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Content",
+          "BlobName": "VirtoCommerce.Content_3.815.0.zip"
         }
       ]
     }
