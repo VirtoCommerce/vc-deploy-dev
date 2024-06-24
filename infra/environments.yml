@@ -7,7 +7,7 @@
     sqlReplica: false
     config:
       # Increment to force environment reload
-      reload: 4
+      reload: 5
       # Application Insights settings
       APPINSIGHTS_INSTRUMENTATIONKEY: b64da477-188b-4154-969b-3cb1310400f0
       # Forward headers to Nginx
@@ -133,5 +133,4 @@
     - storefront.image.tag
     - themes.B2B-store
     - custom.app1.image.tag
-  version: 3.211
-
+  version: 3.218
