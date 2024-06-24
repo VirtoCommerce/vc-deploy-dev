@@ -1,6 +1,6 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.832.0",
+  "PlatformVersion": "3.836.0",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -12,7 +12,7 @@
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
         {
-          "BlobName": "VirtoCommerce.PageBuilderModule_3.804.0-alpha.557.zip"
+          "BlobName": "VirtoCommerce.PageBuilderModule_3.805.0-alpha.561.zip"
         },
         {
           "BlobName": "VirtoCommerce.PowerBiReports_3.800.0-alpha.31.zip"
@@ -47,7 +47,7 @@
         },
         {
           "Id": "VirtoCommerce.AzureBlobAssets",
-          "Version": "3.803.0"
+          "Version": "3.804.0"
         },
         {
           "Id": "VirtoCommerce.BulkActionsModule",
@@ -59,7 +59,7 @@
         },
         {
           "Id": "VirtoCommerce.Cart",
-          "Version": "3.808.0"
+          "Version": "3.809.0"
         },
         {
           "Id": "VirtoCommerce.Catalog",
@@ -79,7 +79,7 @@
         },
         {
           "Id": "VirtoCommerce.Content",
-          "Version": "3.814.0"
+          "Version": "3.815.0"
         },
         {
           "Id": "VirtoCommerce.Contracts",
@@ -87,7 +87,7 @@
         },
         {
           "Id": "VirtoCommerce.Core",
-          "Version": "3.806.0"
+          "Version": "3.807.0"
         },
         {
           "Id": "VirtoCommerce.Customer",
@@ -99,7 +99,7 @@
         },
         {
           "Id": "VirtoCommerce.DynamicAssociationsModule",
-          "Version": "3.802.0"
+          "Version": "3.803.0"
         },
         {
           "Id": "VirtoCommerce.ElasticAppSearch",
@@ -119,7 +119,7 @@
         },
         {
           "Id": "VirtoCommerce.ExperienceApi",
-          "Version": "3.833.0"
+          "Version": "3.835.0"
         },
         {
           "Id": "VirtoCommerce.Export",
@@ -167,7 +167,7 @@
         },
         {
           "Id": "VirtoCommerce.Orders",
-          "Version": "3.819.0"
+          "Version": "3.820.0"
         },
         {
           "Id": "VirtoCommerce.Payment",
@@ -183,15 +183,15 @@
         },
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.806.0"
-        },
-        {
-          "Id": "VirtoCommerce.PushMessages",
           "Version": "3.807.0"
         },
         {
+          "Id": "VirtoCommerce.PushMessages",
+          "Version": "3.808.0"
+        },
+        {
           "Id": "VirtoCommerce.Quote",
-          "Version": "3.814.0"
+          "Version": "3.815.0"
         },
         {
           "Id": "VirtoCommerce.Return",
