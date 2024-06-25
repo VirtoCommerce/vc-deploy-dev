@@ -224,12 +224,12 @@
           "Version": "3.836.0"
         },
         {
-          "Id": "VirtoCommerce.AuthorizeNetPayment",
-          "Version": "3.801.0"
-        },
-        {
           "Id": "VirtoCommerce.Skyflow",
           "Version": "3.804.0"
+        },
+        {
+          "Id": "VirtoCommerce.AuthorizeNetPayment",
+          "Version": "3.801.0"
         }
       ]
     },
