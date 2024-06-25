@@ -1,17 +1,22 @@
 {
+  "ManifestVersion": "2.0",
+  "PlatformVersion": "3.836.0",
+  "PlatformImage": "ghcr.io/virtocommerce/platform",
+  "PlatformImageTag": "3.836.0",
+  "PlatformAssetUrl": "",
+  "ModuleSources": [
+    "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
+  ],
   "Sources": [
     {
       "Name": "AzureBlob",
+      "Container": "packages",
+      "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
         {
-          "BlobName": "VirtoCommerce.PageBuilderModule_3.804.0-alpha.554-dev.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.PushMessages_3.808.0-pr-6-aa0c.zip"
+         "BlobName": "VirtoCommerce.PageBuilderModule_3.805.0-alpha.561.zip"
         }
-      ],
-      "Container": "packages",
-      "ServiceUri": "https://vc3prerelease.blob.core.windows.net"
+      ]
     },
     {
       "Name": "GithubReleases",
@@ -25,10 +30,6 @@
         },
         {
           "Id": "VirtoCommerce.AvalaraTax",
-          "Version": "3.800.0"
-        },
-        {
-          "Id": "VirtoCommerce.AuthorizeNetPayment",
           "Version": "3.800.0"
         },
         {
@@ -60,12 +61,12 @@
           "Version": "3.800.0"
         },
         {
-          "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
-          "Version": "4.801.0"
+          "Id": "VirtoCommerce.AuthorizeNetPayment",
+          "Version": "3.801.0"
         },
         {
-          "Id": "VirtoCommerce.Skyflow",
-          "Version": "3.803.0"
+          "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
+          "Version": "4.801.0"
         },
         {
           "Id": "VirtoCommerce.FileExperienceApi",
@@ -117,7 +118,7 @@
         },
         {
           "Id": "VirtoCommerce.Core",
-          "Version": "3.806.0"
+          "Version": "3.807.0"
         },
         {
           "Id": "VirtoCommerce.DynamicAssociationsModule",
@@ -130,6 +131,10 @@
         {
           "Id": "VirtoCommerce.EventBus",
           "Version": "3.803.0"
+        },
+        {
+          "Id": "VirtoCommerce.ExperienceApi",
+          "Version": "3.836.0"
         },
         {
           "Id": "VirtoCommerce.ImageTools",
@@ -164,6 +169,10 @@
           "Version": "3.806.0"
         },
         {
+          "Id": "VirtoCommerce.Skyflow",
+          "Version": "3.804.0"
+        },
+        {
           "Id": "VirtoCommerce.Store",
           "Version": "3.804.0"
         },
@@ -196,10 +205,6 @@
           "Version": "3.804.0"
         },
         {
-          "Id": "VirtoCommerce.ExperienceApi",
-          "Version": "3.833.0"
-        },
-        {
           "Id": "VirtoCommerce.AzureSearch",
           "Version": "3.803.0"
         },
@@ -213,11 +218,11 @@
         },
         {
           "Id": "VirtoCommerce.Quote",
-          "Version": "3.814.0"
+          "Version": "3.815.0"
         },
         {
           "Id": "VirtoCommerce.Cart",
-          "Version": "3.808.0"
+          "Version": "3.809.0"
         },
         {
           "Id": "VirtoCommerce.Orders",
@@ -225,7 +230,7 @@
         },
         {
           "Id": "VirtoCommerce.Content",
-          "Version": "3.814.0"
+          "Version": "3.815.0"
         },
         {
           "Id": "VirtoCommerce.Customer",
@@ -233,7 +238,11 @@
         },
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.806.0"
+          "Version": "3.807.0"
+        },
+        {
+          "Id": "VirtoCommerce.PushMessages",
+          "Version": "3.808.0"
         },
         {
           "Id": "VirtoCommerce.Hotjar",
@@ -241,9 +250,5 @@
         }
       ]
     }
-  ],
-  "ManifestVersion": "2.0",
-  "PlatformVersion": "3.832.0",
-  "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.832.0"
+  ]
 }
