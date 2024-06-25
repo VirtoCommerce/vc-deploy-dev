@@ -15,12 +15,6 @@
       "Modules": [
         {
          "BlobName": "VirtoCommerce.PageBuilderModule_3.804.0-alpha.554-dev.zip"
-        },
-        {
-         "BlobName": "VirtoCommerce.Skyflow_3.804.0-pr-7-6126.zip"
-        },
-        {
-         "BlobName": "VirtoCommerce.AuthorizeNetPayment_3.801.0-pr-5-c1ce.zip"
         }
       ]
     },
@@ -65,6 +59,10 @@
         {
           "Id": "VirtoCommerce.ApplicationInsights",
           "Version": "3.800.0"
+        },
+        {
+          "Id": "VirtoCommerce.AuthorizeNetPayment",
+          "Version": "3.801.0"
         },
         {
           "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
@@ -169,6 +167,10 @@
         {
           "Id": "VirtoCommerce.Sitemaps",
           "Version": "3.806.0"
+        },
+        {
+          "Id": "VirtoCommerce.Skyflow",
+          "Version": "3.804.0"
         },
         {
           "Id": "VirtoCommerce.Store",
