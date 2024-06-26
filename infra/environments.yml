@@ -63,22 +63,26 @@
       # Firebase settings
       PushMessages__UseFirebaseCloudMessaging: true
       PushMessages__FcmSenderOptions__Type: service_account
-      PushMessages__FcmSenderOptions__ProjectId: vcst-qa
-      PushMessages__FcmSenderOptions__PrivateKeyId: 2d6bed5b992d4f7d52ec9e432e929083bb0d86fa 
-      PushMessages__FcmSenderOptions__ClientEmail: firebase-adminsdk-1vh96@vcst-qa.iam.gserviceaccount.com
-      PushMessages__FcmSenderOptions__ClientId: 111108068739348332191
-      PushMessages__FcmSenderOptions__AuthUri: https://accounts.google.com/o/oauth2/auth
-      PushMessages__FcmSenderOptions__TokenUri: https://oauth2.googleapis.com/token
-      PushMessages__FcmSenderOptions__AuthProviderX509CertUrl: https://www.googleapis.com/oauth2/v1/certs
-      PushMessages__FcmSenderOptions__ClientX509CertUrl: https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-1vh96%40vcst-qa.iam.gserviceaccount.com
+      PushMessages__FcmSenderOptions__ProjectId: virto-start
+      PushMessages__FcmSenderOptions__PrivateKeyId: 489fa58336f29dd62103179969e9f336066b706b 
+      PushMessages__FcmSenderOptions__ClientEmail: firebase-adminsdk-zyqdm@virto-start.iam.gserviceaccount.com
+      PushMessages__FcmSenderOptions__ClientId: 109623620724725484090
+      PushMessages__FcmSenderOptions__AuthUri:
+      https://accounts.google.com/o/oauth2/auth
+      PushMessages__FcmSenderOptions__TokenUri:
+      https://oauth2.googleapis.com/token
+      PushMessages__FcmSenderOptions__AuthProviderX509CertUrl:
+      https://www.googleapis.com/oauth2/v1/certs
+      PushMessages__FcmSenderOptions__ClientX509CertUrl:
+      https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-zyqdm%40virto-start.iam.gserviceaccount.com
       PushMessages__FcmSenderOptions__UniverseDomain: googleapis.com
-      PushMessages__FcmReceiverOptions__ApiKey: AIzaSyAJLCGjYkqbbv8n8dvuXazURr8kz0GsuVo
-      PushMessages__FcmReceiverOptions__AuthDomain: vcst-qa.firebaseapp.com
-      PushMessages__FcmReceiverOptions__ProjectId: vcst-qa
-      PushMessages__FcmReceiverOptions__StorageBucket: vcst-qa.appspot.com
-      PushMessages__FcmReceiverOptions__MessagingSenderId: 1021404404978
-      PushMessages__FcmReceiverOptions__AppId: 1:1021404404978:web:89ab011d054397a04d046b
-      PushMessages__FcmReceiverOptions__VapidKey: BB1Pzs7sBeDkuQWO_cNzo3OhCEruXypVhFsKZaTN4FBL1JhC4fgsgsQSM-vusa99uYVpMcroJzhydyRfMkCQLHc
+      PushMessages__FcmReceiverOptions__ApiKey: AIzaSyCepXqq6j8dT4_KsbDuQDb9Etgs3LZxeEc
+      PushMessages__FcmReceiverOptions__AuthDomain: virto-start.firebaseapp.com
+      PushMessages__FcmReceiverOptions__ProjectId: virto-start
+      PushMessages__FcmReceiverOptions__StorageBucket: virto-start.appspot.com
+      PushMessages__FcmReceiverOptions__MessagingSenderId: 691497305246
+      PushMessages__FcmReceiverOptions__AppId: 1:691497305246:web:d7a9cfead5daac661d678f
+      PushMessages__FcmReceiverOptions__VapidKey: BBZaEhlEb6fcpLMxGC2ylQH2eQWTx4n6kZDWcrGebQjJiMr8w_3nF5U8zspbE_eeCV6YoFNyv7IrNLspmToBcjE
       Reload: 2024-03-21
     secretConfig:
       Notifications__SendGrid__ApiKey: sendkey
