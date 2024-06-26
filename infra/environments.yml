@@ -67,14 +67,10 @@
       PushMessages__FcmSenderOptions__PrivateKeyId: 489fa58336f29dd62103179969e9f336066b706b 
       PushMessages__FcmSenderOptions__ClientEmail: firebase-adminsdk-zyqdm@virto-start.iam.gserviceaccount.com
       PushMessages__FcmSenderOptions__ClientId: 109623620724725484090
-      PushMessages__FcmSenderOptions__AuthUri:
-      https://accounts.google.com/o/oauth2/auth
-      PushMessages__FcmSenderOptions__TokenUri:
-      https://oauth2.googleapis.com/token
-      PushMessages__FcmSenderOptions__AuthProviderX509CertUrl:
-      https://www.googleapis.com/oauth2/v1/certs
-      PushMessages__FcmSenderOptions__ClientX509CertUrl:
-      https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-zyqdm%40virto-start.iam.gserviceaccount.com
+      PushMessages__FcmSenderOptions__AuthUri: https://accounts.google.com/o/oauth2/auth
+      PushMessages__FcmSenderOptions__TokenUri: https://oauth2.googleapis.com/token
+      PushMessages__FcmSenderOptions__AuthProviderX509CertUrl: https://www.googleapis.com/oauth2/v1/certs
+      PushMessages__FcmSenderOptions__ClientX509CertUrl: https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-zyqdm%40virto-start.iam.gserviceaccount.com
       PushMessages__FcmSenderOptions__UniverseDomain: googleapis.com
       PushMessages__FcmReceiverOptions__ApiKey: AIzaSyCepXqq6j8dT4_KsbDuQDb9Etgs3LZxeEc
       PushMessages__FcmReceiverOptions__AuthDomain: virto-start.firebaseapp.com
