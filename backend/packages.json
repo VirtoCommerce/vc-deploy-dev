@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.836.0",
+  "PlatformVersion": "3.838.0-alpha.12932-vcst-1353-e00fcea5",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.836.0",
+  "PlatformImageTag": "3.838.0-alpha.12932-vcst-1353-e00fcea5",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -15,6 +15,15 @@
       "Modules": [
         {
          "BlobName": "VirtoCommerce.PageBuilderModule_3.805.0-alpha.561.zip"
+        },
+        {
+         "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.808.0-pr-80-c014.zip"
+        },
+        {
+         "BlobName": "VirtoCommerce.ExperienceApi_3.837.0-pr-561-4be2.zip"
+        },
+        {
+         "BlobName": "SampleModule.Web-sample-VirtoCommerce.CustomerModule.3.811.0-pr-247-6758.zip"
         }
       ]
     },
@@ -133,10 +142,6 @@
           "Version": "3.803.0"
         },
         {
-          "Id": "VirtoCommerce.ExperienceApi",
-          "Version": "3.836.0"
-        },
-        {
           "Id": "VirtoCommerce.ImageTools",
           "Version": "3.803.0"
         },
@@ -231,14 +236,6 @@
         {
           "Id": "VirtoCommerce.Content",
           "Version": "3.815.0"
-        },
-        {
-          "Id": "VirtoCommerce.Customer",
-          "Version": "3.809.0"
-        },
-        {
-          "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.807.0"
         },
         {
           "Id": "VirtoCommerce.PushMessages",
