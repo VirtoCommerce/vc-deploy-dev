@@ -91,7 +91,7 @@ jobs:
         host: ${{ secrets.VM_HOST }}
         username: vcadmin
         password: ${{ secrets.VM_PASSWORD }}
-        command_timeout: 45m
+        command_timeout: 2h
         script: |
           cd  /home/vcadmin
           export RELEASE_TAG='${{ env.PLATFORM_IMAGE_TAG }}-${{ github.run_id }}'
