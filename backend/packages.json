@@ -226,10 +226,6 @@
           "BlobName": "VirtoCommerce.AuthorizeNetPayment_3.802.0-alpha.71.zip"
         },
         {
-          "Id": "VirtoCommerce.Customer",
-          "BlobName": "VirtoCommerce.Customer_3.811.0-alpha.836.zip"
-        },
-        {
           "Id": "VirtoCommerce.Store",
           "BlobName": "VirtoCommerce.Store_3.806.0-alpha.695.zip"
         },
@@ -248,6 +244,10 @@
         {
           "Id": "VirtoCommerce.FileSystemAssets",
           "BlobName": "VirtoCommerce.FileSystemAssets_3.803.0-alpha.94.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Customer",
+          "BlobName": "VirtoCommerce.Customer_3.811.0-alpha.837.zip"
         }
       ]
     }
