@@ -79,7 +79,7 @@
         {
           "Id": "VirtoCommerce.ElasticAppSearch",
           "BlobName": "VirtoCommerce.ElasticAppSearch_3.801.0.zip"
-        }, 
+        },
         {
           "Id": "VirtoCommerce.Store",
           "BlobName": "VirtoCommerce.Store_3.805.0-pr-134-3f19.zip"
@@ -137,10 +137,6 @@
           "BlobName": "VirtoCommerce.CatalogCsvImportModule_3.801.0.zip"
         },
         {
-          "Id": "VirtoCommerce.FileSystemAssets",
-          "BlobName": "VirtoCommerce.FileSystemAssets_3.801.0.zip"
-        },
-        {
           "Id": "VirtoCommerce.Assets",
           "BlobName": "VirtoCommerce.Assets_3.805.0-pr-23-eeb4.zip"
         },
@@ -186,7 +182,7 @@
         },
         {
           "Id": "VirtoCommerce.Orders",
-          "BlobName": "VirtoCommerce.Orders_3.818.0-pr-420-91f8.zip"         
+          "BlobName": "VirtoCommerce.Orders_3.818.0-pr-420-91f8.zip"
         },
         {
           "Id": "VirtoCommerce.Content",
@@ -204,7 +200,7 @@
           "Id": "VirtoCommerce.Pricing",
           "BlobName": "VirtoCommerce.Pricing_3.802.0-pr-207-9180.zip"
         },
-        { 
+        {
           "Id": "VirtoCommerce.Export",
           "BlobName": "VirtoCommerce.Export_3.802.0.zip"
         },
@@ -221,8 +217,8 @@
           "BlobName": "VirtoCommerce.ElasticSearch8_3.806.0-pr-17-e4b9.zip"
         },
         {
-         "Id": "VirtoCommerce.ProfileExperienceApiModule",
-         "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.808.0-pr-79-e4f9.zip"
+          "Id": "VirtoCommerce.ProfileExperienceApiModule",
+          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.808.0-pr-79-e4f9.zip"
         },
         {
           "Id": "VirtoCommerce.Contracts",
@@ -247,7 +243,7 @@
         {
           "Id": "VirtoCommerce.XCart",
           "BlobName": "VirtoCommerce.XCart_3.800.0-pr-1-eb8c.zip"
-        }, 
+        },
         {
           "Id": "VirtoCommerce.XCatalog",
           "BlobName": "VirtoCommerce.XCatalog_3.800.0-pr-1-24c7.zip"
@@ -263,10 +259,14 @@
         {
           "Id": "VirtoCommerce.Skyflow",
           "BlobName": "VirtoCommerce.Skyflow_3.804.0-pr-8-94b5.zip"
-        }, 
+        },
         {
           "Id": "VirtoCommerce.ExperienceApi",
           "BlobName": "VirtoCommerce.ExperienceApi_3.836.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.FileSystemAssets",
+          "BlobName": "VirtoCommerce.FileSystemAssets_3.802.0.zip"
         }
       ]
     }
