@@ -27,6 +27,15 @@
         },
         {
           "BlobName": "VirtoCommerce.PushMessages_3.809.0-pr-8-33b0.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.FileSystemAssets_3.801.0.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.AzureBlobAssets_3.803.0.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Catalog_3.812.0-pr-732-1b93.zip"
         }
       ]
     },
@@ -59,14 +68,6 @@
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
           "Version": "3.801.0"
-        },
-        {
-          "Id": "VirtoCommerce.FileSystemAssets",
-          "Version": "3.801.0"
-        },
-        {
-          "Id": "VirtoCommerce.AzureBlobAssets",
-          "Version": "3.803.0"
         },
         {
           "Id": "VirtoCommerce.ApplicationInsights",
@@ -111,10 +112,6 @@
         {
           "Id": "VirtoCommerce.Assets",
           "Version": "3.806.0"
-        },
-        {
-          "Id": "VirtoCommerce.Catalog",
-          "Version": "3.811.0"
         },
         {
           "Id": "VirtoCommerce.CatalogPersonalization",
