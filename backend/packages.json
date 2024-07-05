@@ -168,10 +168,6 @@
           "Version": "3.809.0"
         },
         {
-          "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.807.0"
-        },
-        {
           "Id": "VirtoCommerce.CustomerExportImport",
           "Version": "3.806.0"
         },
@@ -230,6 +226,10 @@
         {
           "Id": "VirtoCommerce.ExperienceApi",
           "Version": "3.837.0"
+        },
+        {
+          "Id": "VirtoCommerce.ProfileExperienceApiModule",
+          "Version": "3.808.0"
         }
       ]
     },
