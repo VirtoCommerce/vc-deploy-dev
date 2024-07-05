@@ -196,10 +196,6 @@
           "Version": "3.804.0"
         },
         {
-          "Id": "VirtoCommerce.ExperienceApi",
-          "Version": "3.836.0"
-        },
-        {
           "Id": "VirtoCommerce.Skyflow",
           "Version": "3.804.0"
         },
@@ -230,6 +226,10 @@
         {
           "Id": "VirtoCommerce.Orders",
           "Version": "3.821.0"
+        },
+        {
+          "Id": "VirtoCommerce.ExperienceApi",
+          "Version": "3.837.0"
         }
       ]
     },
