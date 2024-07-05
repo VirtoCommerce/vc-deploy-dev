@@ -220,16 +220,16 @@
           "Version": "3.821.0"
         },
         {
-          "Id": "VirtoCommerce.ExperienceApi",
-          "Version": "3.837.0"
-        },
-        {
           "Id": "VirtoCommerce.FileSystemAssets",
           "Version": "3.803.0"
         },
         {
           "Id": "VirtoCommerce.Customer",
           "Version": "3.811.0"
+        },
+        {
+          "Id": "VirtoCommerce.ExperienceApi",
+          "Version": "3.837.0"
         }
       ]
     },
