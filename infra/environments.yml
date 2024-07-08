@@ -72,6 +72,7 @@
       IdentityOptions__Lockout__MaxFailedAccessAttempts: 5
       # Authorize.Net settings
       Payments__AuthorizeNet__ApiLogin: 52B9X7vb4
+      Payments__AuthorizeNet__SHA2Hash: sha2hash
       # Skyflow settings
       Payments__Skyflow__tokenURI: https://manage.skyflowapis.com/v1/auth/sa/oauth/token
       Payments__Skyflow__vaultURI: https://ebfc9bee4242.vault.skyflowapis.com
