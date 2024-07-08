@@ -273,7 +273,7 @@
         Notifications__Smtp__Password: smtppassword
         Search__ElasticAppSearch__PrivateApiKey: elasticappsearch
   routes:
-  - host: vcptcore-dev-storefront.govirto.com
+  - host: vcptcore-qa-storefront.govirto.com
     root: B2B-store
     paths:
     - path: /xapi
