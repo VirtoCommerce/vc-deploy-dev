@@ -209,7 +209,7 @@
       PushMessages__FcmSenderOptions__PrivateKey: firebase-privatekey
 
   storefront:
-    enabled: true
+    enabled: false
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/storefront
     imageTag: 6.43.0-alpha.1043-vcst-905-login-is-admin-0550785e
     servicePlan: S1
@@ -223,7 +223,7 @@
       Swagger__UI__Enable: true
       #ConnectionStrings__ContentConnectionString: provider=AzureBlobStorage;rootPath=cms;DefaultEndpointsProtocol=https;AccountName=qademovc3;AccountKey=qPIpM63MI2P3ei6B1xIL4/DlKDqdsRj54z2GUtgCAeXPcMe8+mZiUvrvI5fjdyrovk331XmBlMFfAEFAjCnvtw==;EndpointSuffix=core.windows.net
     themes:
-      B2B-store: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-1.51.0-alpha.1098-vcst-334-card-payment-via-skyflow.zip
+      B2B-store: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-2.0.0-pr-1136-1be8-1be89467.zip
   ingress: {}
   customApps:
     app1:
@@ -272,8 +272,24 @@
         Notifications__SendGrid__ApiKey: sendkey
         Notifications__Smtp__Password: smtppassword
         Search__ElasticAppSearch__PrivateApiKey: elasticappsearch
+  routes:
+  - host: vcptcore-dev-storefront.govirto.com
+    root: B2B-store
+    paths:
+    - path: /xapi
+      route: platform
+    - path: /files
+      route: platform
+    - path: /connect/token
+      route: platform
+    - path: /graphql
+      route: platform
+    - path: /revoke/token
+      route: platform
+    - path: /api/files
+      route: platform
   protectedParameters:
-   - themes.B2B-store
+   #- themes.B2B-store
    - storefront.image.tag
    - platform.image.tag
   version: 3.210
