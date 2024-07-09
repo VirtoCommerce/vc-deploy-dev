@@ -71,7 +71,7 @@
       PasswordLogin__DetailedErrors: true
       IdentityOptions__Lockout__MaxFailedAccessAttempts: 5
       # Authorize.Net settings
-      Payments__AuthorizeNet__ApiLogin: 52B9X7vb4
+      Payments__AuthorizeNet__ApiLogin: 52B9X7vb4  
       # Skyflow settings
       Payments__Skyflow__tokenURI: https://manage.skyflowapis.com/v1/auth/sa/oauth/token
       Payments__Skyflow__vaultURI: https://ebfc9bee4242.vault.skyflowapis.com
@@ -106,7 +106,8 @@
     secretConfig:
       PushMessages__FcmSenderOptions__PrivateKey: fcm-private-key-new
       Notifications__SendGrid__ApiKey: sendgrid-apikey
-      Payments__AuthorizeNet__TxnKey: authorizenet-txnkey-vs
+      Payments__AuthorizeNet__TxnKey: authorizenet-txnkey
+      Payments__AuthorizeNet__SHA2Hash: authorizenet-sha2hash
       Payments__Skyflow__PaymentFormAccount__clientID: skyflow-paymentformaccount-clientid
       Payments__Skyflow__PaymentFormAccount__keyID: skyflow-paymentformaccount-keyid
       Payments__Skyflow__PaymentFormAccount__privateKey: skyflow-paymentformaccount-privatekey
