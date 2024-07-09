@@ -115,6 +115,8 @@
       SYSTEM_RESTART: 26.04.2024
       VirtoCommerce__Endpoint__Password: Store12345
       VirtoCommerce__CacheSlidingExpiration: 0:0:5
+    themes:
+      B2B-store: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-2.0.0-pr-1136-1be8-1be89467.zip
   ingress:
     storefrontHostnames:
       name1: vcst-dev-b2c-store.govirto.com
