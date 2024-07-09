@@ -69,6 +69,8 @@
       VirtoCommerce__LocalUploadFolderPath: wwwroot/cms-content
       # Sample data used if db is empty
       VirtoCommerce__SampleDataUrl: https://vc3prerelease.blob.core.windows.net/packages/clothing-and-electronics_3_0_2.zip
+      # Default Store for resolving by domain
+      VirtoCommerce__Stores__DefaultStore: B2B-store
       # Push messages settings
       PushMessages__UseFirebaseCloudMessaging: true
       PushMessages__FcmSenderOptions__Type: service_account
@@ -101,7 +103,7 @@
       Payments__Skyflow__DefaultConnection__transactionKey: authorizenet-txnkey
       PushMessages__FcmSenderOptions__PrivateKey: fcm-private-key
   storefront:
-    enabled: true
+    enabled: false
     imageRepository: virtopaasregistrymain.azurecr.io/vcst/storefront
     servicePlan: B1
     probePath: /storefrontapi/health
@@ -128,9 +130,25 @@
       ingressPath: /
     app2:
       enabled: false
+  routes:
+  - host: vcst-dev-storefront.govirto.com
+    root: B2B-store
+    paths:
+    - path: /xapi
+      route: platform
+    - path: /files
+      route: platform
+    - path: /connect/token
+      route: platform
+    - path: /graphql
+      route: platform
+    - path: /revoke/token
+      route: platform
+    - path: /api/files
+      route: platform
   protectedParameters:
     - platform.image.tag
-    - storefront.image.tag
+    #- storefront.image.tag
     - themes.B2B-store
     - custom.app1.image.tag
   version: 3.218
