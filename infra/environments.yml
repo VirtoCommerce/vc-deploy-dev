@@ -8,7 +8,6 @@
     imageTag: 3.811.0-alpha.12870-vcst-388-63cbde4f-27b60ad
     sqlReplica: false
     config:
-      IdentityOptions__DataProtection__TokenLifespan: 1.00:00:00
       Serilog__Using__0: Serilog.Sinks.Console
       Serilog__MinimumLevel__Default: "Information"
       Serilog__WriteTo__0: Console
