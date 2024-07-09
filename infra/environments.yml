@@ -8,6 +8,7 @@
     #imageTag: 3.832.0-70251d1
     sqlReplica: false
     config:
+      Authorization__AccessTokenLifeTime: 1.00:00:00
       Serilog__Using__0: Serilog.Sinks.Console
       Serilog__MinimumLevel__Default: "Information"
       Serilog__WriteTo__0: Console
