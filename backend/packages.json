@@ -44,10 +44,6 @@
           "Version": "4.801.0"
         },
         {
-          "Id": "VirtoCommerce.FileExperienceApi",
-          "Version": "3.801.0"
-        },
-        {
           "Id": "VirtoCommerce.BuilderIO",
           "Version": "3.803.0"
         },
@@ -230,6 +226,10 @@
         {
           "Id": "VirtoCommerce.ExperienceApi",
           "Version": "3.838.0"
+        },
+        {
+          "Id": "VirtoCommerce.FileExperienceApi",
+          "Version": "3.802.0"
         }
       ]
     },
