@@ -115,7 +115,7 @@
       Payments__Skyflow__IntegrationsAccount__keyID: skyflow-integrationsaccount-keyid
       Payments__Skyflow__IntegrationsAccount__privateKey: skyflow-integrationsaccount-privatekey
   storefront:
-    enabled: true
+    enabled: false
     imageRepository: virtopaasregistrymain.azurecr.io/vcst/storefront
     servicePlan: B1
     probePath: /
@@ -127,6 +127,8 @@
       SYSTEM_RESTART: 25.10.2023
       VirtoCommerce__Endpoint__Password: Store12345
       VirtoCommerce__CacheSlidingExpiration: 0:0:5
+    themes:
+      B2B-store: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-2.0.0-pr-1136-1be8-1be89467.zip
   customApps:
     app1:
       name: storybook
@@ -139,9 +141,25 @@
       ingressPath: /
     app2:
       enabled: false
+  routes:
+  - host: vcst-dev-storefront.govirto.com
+    root: B2B-store
+    paths:
+    - path: /xapi
+      route: platform
+    - path: /files
+      route: platform
+    - path: /connect/token
+      route: platform
+    - path: /graphql
+      route: platform
+    - path: /revoke/token
+      route: platform
+    - path: /api/files
+      route: platform
   protectedParameters:
     - platform.image.tag
-    - storefront.image.tag
+    #- storefront.image.tag
     - themes.B2B-store
     - custom.app1.image.tag
   version: 3.211
