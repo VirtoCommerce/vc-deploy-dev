@@ -142,7 +142,7 @@
     app2:
       enabled: false
   routes:
-  - host: vcst-dev-storefront.govirto.com
+  - host: vcst-qa-storefront.govirto.com
     root: B2B-store
     paths:
     - path: /xapi
