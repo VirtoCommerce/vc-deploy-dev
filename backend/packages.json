@@ -202,10 +202,6 @@
           "Version": "3.802.0"
         },
         {
-          "Id": "VirtoCommerce.PageBuilderModule",
-          "Version": "3.804.0"
-        },
-        {
          "Id": "VirtoCommerce.ProfileExperienceApiModule",
          "Version": "3.808.0"
         },
@@ -243,7 +239,15 @@
         {
           "Id": "VirtoCommerce.ElasticSearch8",
           "BlobName": "VirtoCommerce.ElasticSearch8_3.807.0-pr-18-8321.zip"
-        }        
+        },   
+        {
+          "Id": "VirtoCommerce.AuditLog",
+          "BlobName": "VirtoCommerce.AuditLog_3.804.0.zip"
+        },    
+        {
+          "Id": "VirtoCommerce.PageBuilderModule",
+          "BlobName": "VirtoCommerce.PageBuilderModule_3.805.0.zip"
+        }
       ]
     }
   ]
