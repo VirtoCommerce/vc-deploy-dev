@@ -79,6 +79,7 @@
       Search__ElasticSearch__EnableCompatibilityMode: true
       Search__ElasticSearch__HealthCheckTimeout: 10
       #Search__Provider: AzureSearch
+      Search__Provider: ElasticSearch8
       Search__ElasticSearch8__Server: "https://83d637a7a554402fa11af4e2348792ba.westus2.azure.elastic-cloud.com"
       Search__ElasticSearch8__User: "elastic"
       Search__ElasticSearch8__Key: "jMe30nIRYc7u3EUXIIE8sx1n"
