@@ -15,6 +15,9 @@
       "Modules": [
         {
          "BlobName": "VirtoCommerce.PageBuilderModule_3.805.0-alpha.561.zip"
+        },
+        {
+         "BlobName": "VirtoCommerce.Skyflow_3.805.0-pr-9-82e9.zip"
         }
       ]
     },
@@ -167,10 +170,6 @@
         {
           "Id": "VirtoCommerce.Sitemaps",
           "Version": "3.806.0"
-        },
-        {
-          "Id": "VirtoCommerce.Skyflow",
-          "Version": "3.804.0"
         },
         {
           "Id": "VirtoCommerce.Store",
