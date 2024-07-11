@@ -118,10 +118,6 @@
           "Version": "3.806.0"
         },
         {
-          "Id": "VirtoCommerce.FileExperienceApi",
-          "Version": "3.802.0"
-        },
-        {
           "Id": "VirtoCommerce.AzureSearch",
           "Version": "3.803.0"
         },
@@ -142,16 +138,8 @@
           "Version": "3.803.0"
         },
         {
-          "Id": "VirtoCommerce.PushMessages",
-          "Version": "3.809.0"
-        },
-        {
           "Id": "VirtoCommerce.Hotjar",
           "Version": "3.803.0"
-        },
-        {
-          "Id": "VirtoCommerce.Quote",
-          "Version": "3.815.0"
         },
         {
           "Id": "VirtoCommerce.Payment",
@@ -163,10 +151,6 @@
         },
         {
           "Id": "VirtoCommerce.GDPR",
-          "Version": "3.802.0"
-        },
-        {
-          "Id": "VirtoCommerce.TaskManagement",
           "Version": "3.802.0"
         },
         {
@@ -200,34 +184,6 @@
         {
           "Id": "VirtoCommerce.Search",
           "Version": "3.802.0"
-        },
-        {
-         "Id": "VirtoCommerce.ProfileExperienceApiModule",
-         "Version": "3.808.0"
-        },
-        {
-          "Id": "VirtoCommerce.Contracts",
-          "Version": "3.802.0"
-        },
-        {
-          "Id": "VirtoCommerce.CustomerReviews",
-          "Version": "3.803.0"
-        },
-        {
-          "Id": "VirtoCommerce.MarketingExperienceApi",
-          "Version": "3.800.0"
-        },
-        {
-          "Id": "VirtoCommerce.WhiteLabeling",
-          "Version": "3.801.0"
-        },
-        {
-          "Id": "VirtoCommerce.Skyflow",
-          "Version": "3.804.0"
-        }, 
-        {
-          "Id": "VirtoCommerce.ExperienceApi",
-          "Version": "3.840.0"
         }
       ]
     },
@@ -247,6 +203,66 @@
         {
           "Id": "VirtoCommerce.PageBuilderModule",
           "BlobName": "VirtoCommerce.PageBuilderModule_3.804.0-pr-65-c8ad.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Contracts",
+          "BlobName": "VirtoCommerce.Contracts_3.803.0-pr-21-9fdc.zip"
+        },
+        {
+          "Id": "VirtoCommerce.CustomerReviews",
+          "BlobName": "VirtoCommerce.CustomerReviews_3.804.0-pr-61-736c.zip"
+        },
+          {
+         "Id": "VirtoCommerce.ProfileExperienceApiModule",
+         "BlobName": "VirtoCommerce.FileExperienceApi_3.803.0-pr-4-ca9b.zip"
+        },
+        {
+          "Id": "VirtoCommerce.MarketingExperienceApi",
+          "BlobName": "VirtoCommerce.MarketingExperienceApi_3.801.0-pr-5-5740.zip"
+        },
+        {
+          "Id": "VirtoCommerce.PushMessages",
+          "BlobName": "VirtoCommerce.PushMessages_3.810.0-pr-7-0e19.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Quote",
+          "BlobName": "VirtoCommerce.Quote_3.816.0-pr-116-ef24.zip"
+        },
+        {
+          "Id": "VirtoCommerce.FileExperienceApi",
+          "BlobName": "VirtoCommerce.FileExperienceApi_3.803.0-pr-4-ca9b.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Skyflow",
+          "BlobName": "VirtoCommerce.Skyflow_3.804.0-pr-8-94b5.zip"
+        }, 
+        {
+          "Id": "VirtoCommerce.TaskManagement",
+          "BlobName": "VirtoCommerce.TaskManagement_3.803.0-pr-14-5e1d.zip"
+        },
+         {
+          "Id": "VirtoCommerce.WhiteLabeling",
+          "BlobName": "VirtoCommerce.WhiteLabeling_3.802.0-pr-3-2a9a.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Xapi",
+          "BlobName": "VirtoCommerce.Xapi_3.800.0-pr-1-5baf.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XCart",
+          "BlobName": "VirtoCommerce.XCart_3.800.0-pr-1-62f8.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XCatalog",
+          "BlobName": "VirtoCommerce.XCatalog_3.800.0-pr-1-8a69.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XCMS",
+          "BlobName": "VirtoCommerce.XCMS_3.800.0-pr-1-5767.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XOrder",
+          "BlobName": "VirtoCommerce.XOrder_3.800.0-pr-1-05a4.zip"
         }
       ]
     }
