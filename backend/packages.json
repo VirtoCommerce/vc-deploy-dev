@@ -15,12 +15,9 @@
       "Modules": [
         {
          "BlobName": "VirtoCommerce.PageBuilderModule_3.805.0-alpha.561.zip"
-        },
+        },    
         {
-         "BlobName": "VirtoCommerce.Cart_3.810.0-pr-149-9f40.zip"
-        },
-        {
-         "BlobName": "VirtoCommerce.ExperienceApi_3.839.0-pr-563-5e44.zip"
+         "BlobName": "VirtoCommerce.Skyflow_3.805.0-pr-9-82e9.zip"
         }  
       ]
     },
@@ -197,11 +194,7 @@
         {
           "Id": "VirtoCommerce.Content",
           "Version": "3.815.0"
-        },
-        {
-          "Id": "VirtoCommerce.Skyflow",
-          "Version": "3.804.0"
-        },
+        },   
         {
           "Id": "VirtoCommerce.AuthorizeNetPayment",
           "Version": "3.801.0"
@@ -245,6 +238,14 @@
         {
           "Id": "VirtoCommerce.Hotjar",
           "Version": "3.803.0"
+        },
+        {
+          "Id": "VirtoCommerce.Cart",
+          "Version": "3.810.0"
+        },
+        {
+          "Id": "VirtoCommerce.ExperienceApi",
+          "Version": "3.839.0"
         }
       ]
     }
