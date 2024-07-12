@@ -1,10 +1,10 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.843.0",
+  "PlatformVersion": "3.844.0",
   "StorefrontVersion": "6.43.0-alpha.1043-vcst-905-login-is-admin-0550785e",
   "ThemeB2BVue": "https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-1.62.0-pr-1158-ed7f-ed7fb6c4.zip",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.843.0",
+  "PlatformImageTag": "3.844.0",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -64,7 +64,7 @@
         {
           "Id": "VirtoCommerce.Customer",
           "Version": "3.811.0"
-        }, 
+        },
         {
           "Id": "VirtoCommerce.Notifications",
           "Version": "3.807.0"
@@ -76,7 +76,7 @@
         {
           "Id": "VirtoCommerce.Store",
           "Version": "3.805.0"
-        }, 
+        },
         {
           "Id": "VirtoCommerce.Inventory",
           "Version": "3.804.0"
@@ -145,7 +145,7 @@
           "Id": "VirtoCommerce.Payment",
           "Version": "3.803.0"
         },
-         {
+        {
           "Id": "VirtoCommerce.EventBus",
           "Version": "3.803.0"
         },
@@ -159,7 +159,7 @@
         },
         {
           "Id": "VirtoCommerce.Orders",
-          "Version": "3.822.0"         
+          "Version": "3.822.0"
         },
         {
           "Id": "VirtoCommerce.Content",
@@ -177,7 +177,7 @@
           "Id": "VirtoCommerce.Pricing",
           "Version": "3.804.0"
         },
-        { 
+        {
           "Id": "VirtoCommerce.Export",
           "Version": "3.802.0"
         },
@@ -191,15 +191,15 @@
       "Name": "AzureBlob",
       "Container": "packages",
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
-      "Modules": [     
+      "Modules": [
         {
           "Id": "VirtoCommerce.ElasticSearch8",
           "BlobName": "VirtoCommerce.ElasticSearch8_3.807.0-pr-18-8321.zip"
-        },   
+        },
         {
           "Id": "VirtoCommerce.AuditLog",
           "BlobName": "VirtoCommerce.AuditLog_3.804.0-pr-4-5ae0.zip"
-        },     
+        },
         {
           "Id": "VirtoCommerce.PageBuilderModule",
           "BlobName": "VirtoCommerce.PageBuilderModule_3.804.0-pr-65-c8ad.zip"
@@ -212,9 +212,9 @@
           "Id": "VirtoCommerce.CustomerReviews",
           "BlobName": "VirtoCommerce.CustomerReviews_3.804.0-pr-61-736c.zip"
         },
-          {
-         "Id": "VirtoCommerce.ProfileExperienceApiModule",
-         "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.807.0-alpha.219-vcst-1352.zip"
+        {
+          "Id": "VirtoCommerce.ProfileExperienceApiModule",
+          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.807.0-alpha.219-vcst-1352.zip"
         },
         {
           "Id": "VirtoCommerce.MarketingExperienceApi",
@@ -235,12 +235,12 @@
         {
           "Id": "VirtoCommerce.Skyflow",
           "BlobName": "VirtoCommerce.Skyflow_3.805.0-pr-8-46f9.zip"
-        }, 
+        },
         {
           "Id": "VirtoCommerce.TaskManagement",
           "BlobName": "VirtoCommerce.TaskManagement_3.803.0-pr-14-5e1d.zip"
         },
-         {
+        {
           "Id": "VirtoCommerce.WhiteLabeling",
           "BlobName": "VirtoCommerce.WhiteLabeling_3.802.0-pr-3-2a9a.zip"
         },
