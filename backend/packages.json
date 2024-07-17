@@ -18,7 +18,10 @@
         },    
         {
          "BlobName": "VirtoCommerce.Skyflow_3.805.0-pr-9-82e9.zip"
-        }  
+        },
+        {
+         "BlobName": "VirtoCommerce.ExperienceApi_3.841.0-pr-566-68f9.zip"
+        } 
       ]
     },
     {
@@ -242,10 +245,6 @@
         {
           "Id": "VirtoCommerce.Cart",
           "Version": "3.810.0"
-        },
-        {
-          "Id": "VirtoCommerce.ExperienceApi",
-          "Version": "3.839.0"
         }
       ]
     }
