@@ -180,7 +180,11 @@
         {
           "Id": "VirtoCommerce.Search",
           "Version": "3.802.0"
-        }
+        },
+        {
+          "Id": "VirtoCommerce.TaskManagement",
+          "Version": "3.803.0"
+        },
       ]
     },
     {
@@ -231,10 +235,6 @@
         {
           "Id": "VirtoCommerce.Skyflow",
           "BlobName": "VirtoCommerce.Skyflow_3.805.0-pr-8-46f9.zip"
-        },
-        {
-          "Id": "VirtoCommerce.TaskManagement",
-          "BlobName": "VirtoCommerce.TaskManagement_3.803.0-pr-14-5e1d.zip"
         },
         {
           "Id": "VirtoCommerce.WhiteLabeling",
