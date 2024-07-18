@@ -110,10 +110,6 @@
           "Version": "3.807.0"
         },
         {
-          "Id": "VirtoCommerce.Catalog",
-          "Version": "3.812.0"
-        },
-        {
           "Id": "VirtoCommerce.CustomerExportImport",
           "Version": "3.806.0"
         },
@@ -263,6 +259,10 @@
         {
           "Id": "VirtoCommerce.XOrder",
           "BlobName": "VirtoCommerce.XOrder_3.800.0-pr-1-05a4.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "BlobName": "VirtoCommerce.Catalog_3.813.0.zip"
         }
       ]
     }
