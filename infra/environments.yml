@@ -94,7 +94,7 @@
       Search__ElasticSearch8__Key: elasticsearch8key
     databases: {}
   storefront:
-    enabled: true
+    enabled: false
     imageRepository: virtopaasregistrymain.azurecr.io/virtostart/storefront
     servicePlan: S2
     config:
@@ -106,7 +106,7 @@
     secretConfig:
       VirtoCommerce__Endpoint__Password: virtocommercepassword
     themes:
-      B2B-store: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/1.62.0/vc-theme-b2b-vue-1.62.0.zip
+      B2B-store: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/2.0.0/vc-theme-b2b-vue-2.0.0.zip
   ingress:
     config: >-
       add_header 'Access-Control-Allow-Origin' '*';
@@ -118,6 +118,22 @@
     storefrontHostnames:
       name1: virtostart-demo-store.govirto.com
   customApps: {}
+  routes:
+  - host: virtostart-demo-store.govirto.com
+    root: B2B-store
+    paths:
+    - path: /xapi
+      route: platform
+    - path: /files
+      route: platform
+    - path: /connect/token
+      route: platform
+    - path: /graphql
+      route: platform
+    - path: /revoke/token
+      route: platform
+    - path: /api/files
+      route: platform
   protectedParameters:
    - platform.image.tag
    - storefront.image.tag
