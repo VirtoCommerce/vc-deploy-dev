@@ -218,10 +218,6 @@
           "BlobName": "VirtoCommerce.FileSystemAssets_3.804.0-alpha.96.zip"
         },
         {
-          "Id": "VirtoCommerce.Catalog",
-          "BlobName": "VirtoCommerce.Catalog_3.813.0-alpha.2221.zip"
-        },
-        {
           "Id": "VirtoCommerce.FileExperienceApi",
           "BlobName": "VirtoCommerce.FileExperienceApi_3.803.0-alpha.22.zip"
         },
@@ -248,6 +244,10 @@
         {
           "Id": "VirtoCommerce.Orders",
           "BlobName": "VirtoCommerce.Orders_3.824.0-alpha.1271.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "BlobName": "VirtoCommerce.Catalog_3.813.0-alpha.2222.zip"
         }
       ]
     }
