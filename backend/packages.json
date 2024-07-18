@@ -102,16 +102,12 @@
           "Version": "3.804.0"
         },
         {
-          "Id": "VirtoCommerce.AzureBlobAssets",
-          "Version": "3.805.0"
-        },
-        {
           "Id": "VirtoCommerce.Sitemaps",
           "Version": "3.807.0"
         },
         {
           "Id": "VirtoCommerce.Catalog",
-          "Version": "3.812.0"
+          "Version": "3.813.0"
         },
         {
           "Id": "VirtoCommerce.CustomerExportImport",
@@ -159,7 +155,7 @@
         },
         {
           "Id": "VirtoCommerce.Orders",
-          "Version": "3.822.0"
+          "Version": "3.823.0"
         },
         {
           "Id": "VirtoCommerce.Content",
@@ -184,6 +180,10 @@
         {
           "Id": "VirtoCommerce.Search",
           "Version": "3.802.0"
+        },
+        {
+          "Id": "VirtoCommerce.TaskManagement",
+          "Version": "3.803.0"
         }
       ]
     },
@@ -206,43 +206,39 @@
         },
         {
           "Id": "VirtoCommerce.Contracts",
-          "BlobName": "VirtoCommerce.Contracts_3.803.0-pr-21-9fdc.zip"
+          "BlobName": "VirtoCommerce.Contracts_3.803.0.zip"
         },
         {
           "Id": "VirtoCommerce.CustomerReviews",
-          "BlobName": "VirtoCommerce.CustomerReviews_3.804.0-pr-61-736c.zip"
+          "BlobName": "VirtoCommerce.CustomerReviews_3.804.0.zip"
         },
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.807.0-alpha.219-vcst-1352.zip"
+          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.809.0.zip"
         },
         {
           "Id": "VirtoCommerce.MarketingExperienceApi",
-          "BlobName": "VirtoCommerce.MarketingExperienceApi_3.801.0-pr-5-5740.zip"
+          "BlobName": "VirtoCommerce.MarketingExperienceApi_3.801.0-pr-6-fa5d.zip"
         },
         {
           "Id": "VirtoCommerce.PushMessages",
-          "BlobName": "VirtoCommerce.PushMessages_3.810.0-pr-7-1f2c.zip"
+          "BlobName": "VirtoCommerce.PushMessages_3.810.0.zip"
         },
         {
           "Id": "VirtoCommerce.Quote",
-          "BlobName": "VirtoCommerce.Quote_3.816.0-pr-116-d0bd.zip"
+          "BlobName": "VirtoCommerce.Quote_3.816.0.zip"
         },
         {
           "Id": "VirtoCommerce.FileExperienceApi",
-          "BlobName": "VirtoCommerce.FileExperienceApi_3.803.0-pr-4-ca9b.zip"
+          "BlobName": "VirtoCommerce.FileExperienceApi_3.803.0.zip"
         },
         {
           "Id": "VirtoCommerce.Skyflow",
-          "BlobName": "VirtoCommerce.Skyflow_3.805.0-pr-8-46f9.zip"
-        },
-        {
-          "Id": "VirtoCommerce.TaskManagement",
-          "BlobName": "VirtoCommerce.TaskManagement_3.803.0-pr-14-5e1d.zip"
+          "BlobName": "VirtoCommerce.Skyflow_3.806.0.zip"
         },
         {
           "Id": "VirtoCommerce.WhiteLabeling",
-          "BlobName": "VirtoCommerce.WhiteLabeling_3.802.0-pr-3-2a9a.zip"
+          "BlobName": "VirtoCommerce.WhiteLabeling_3.802.0.zip"
         },
         {
           "Id": "VirtoCommerce.Xapi",
@@ -263,6 +259,10 @@
         {
           "Id": "VirtoCommerce.XOrder",
           "BlobName": "VirtoCommerce.XOrder_3.800.0-pr-1-05a4.zip"
+        },
+        {
+          "Id": "VirtoCommerce.AzureBlobAssets",
+          "BlobName": "VirtoCommerce.AzureBlobAssets_3.806.0.zip"
         }
       ]
     }
