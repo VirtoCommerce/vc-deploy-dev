@@ -98,10 +98,6 @@
           "BlobName": "VirtoCommerce.CatalogPublishing_3.802.0-alpha.346.zip"
         },
         {
-          "Id": "VirtoCommerce.Contracts",
-          "BlobName": "VirtoCommerce.Contracts_3.803.0-alpha.97.zip"
-        },
-        {
           "Id": "VirtoCommerce.EventBus",
           "BlobName": "VirtoCommerce.EventBus_3.804.0-alpha.132.zip"
         },
@@ -248,6 +244,10 @@
         {
           "Id": "VirtoCommerce.WhiteLabeling",
           "BlobName": "VirtoCommerce.WhiteLabeling_3.803.0-alpha.16.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Contracts",
+          "BlobName": "VirtoCommerce.Contracts_3.803.0-alpha.98.zip"
         }
       ]
     }
