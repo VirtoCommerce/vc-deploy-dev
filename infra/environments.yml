@@ -121,7 +121,7 @@
     #   name1: virtostart-demo-store.govirto.com
   customApps: {}
   routes:
-  - host: virtostart-demo-storefront.govirto.com
+  - host: virtostart-demo-store.govirto.com
     root: B2B-store
     paths:
     - path: /xapi
