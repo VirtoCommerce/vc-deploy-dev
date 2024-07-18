@@ -158,10 +158,6 @@
           "Version": "3.803.0"
         },
         {
-          "Id": "VirtoCommerce.Orders",
-          "Version": "3.822.0"
-        },
-        {
           "Id": "VirtoCommerce.Content",
           "Version": "3.815.0"
         },
@@ -263,6 +259,10 @@
         {
           "Id": "VirtoCommerce.XOrder",
           "BlobName": "VirtoCommerce.XOrder_3.800.0-pr-1-05a4.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Orders",
+          "BlobName": "VirtoCommerce.Orders_3.823.0.zip"
         }
       ]
     }
