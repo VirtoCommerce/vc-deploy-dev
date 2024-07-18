@@ -102,10 +102,6 @@
           "Version": "3.804.0"
         },
         {
-          "Id": "VirtoCommerce.AzureBlobAssets",
-          "Version": "3.805.0"
-        },
-        {
           "Id": "VirtoCommerce.Sitemaps",
           "Version": "3.807.0"
         },
@@ -263,6 +259,10 @@
         {
           "Id": "VirtoCommerce.XOrder",
           "BlobName": "VirtoCommerce.XOrder_3.800.0-pr-1-05a4.zip"
+        },
+        {
+          "Id": "VirtoCommerce.AzureBlobAssets",
+          "BlobName": "VirtoCommerce.AzureBlobAssets_3.806.0.zip"
         }
       ]
     }
