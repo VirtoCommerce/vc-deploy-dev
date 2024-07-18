@@ -142,10 +142,6 @@
           "BlobName": "VirtoCommerce.Tax_3.802.0-alpha.180.zip"
         },
         {
-          "Id": "VirtoCommerce.WhiteLabeling",
-          "BlobName": "VirtoCommerce.WhiteLabeling_3.802.0-alpha.14.zip"
-        },
-        {
           "Id": "VirtoCommerce.Search",
           "BlobName": "VirtoCommerce.Search_3.803.0-alpha.744.zip"
         },
@@ -248,6 +244,10 @@
         {
           "Id": "VirtoCommerce.Quote",
           "BlobName": "VirtoCommerce.Quote_3.817.0-alpha.419.zip"
+        },
+        {
+          "Id": "VirtoCommerce.WhiteLabeling",
+          "BlobName": "VirtoCommerce.WhiteLabeling_3.802.0-alpha.15.zip"
         }
       ]
     }
