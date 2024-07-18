@@ -225,10 +225,6 @@
           "BlobName": "VirtoCommerce.PushMessages_3.810.0-pr-7-1f2c.zip"
         },
         {
-          "Id": "VirtoCommerce.Quote",
-          "BlobName": "VirtoCommerce.Quote_3.816.0-pr-116-d0bd.zip"
-        },
-        {
           "Id": "VirtoCommerce.FileExperienceApi",
           "BlobName": "VirtoCommerce.FileExperienceApi_3.803.0-pr-4-ca9b.zip"
         },
@@ -263,6 +259,10 @@
         {
           "Id": "VirtoCommerce.XOrder",
           "BlobName": "VirtoCommerce.XOrder_3.800.0-pr-1-05a4.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Quote",
+          "BlobName": "VirtoCommerce.Quote_3.816.0.zip"
         }
       ]
     }
