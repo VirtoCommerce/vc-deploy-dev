@@ -241,10 +241,6 @@
           "BlobName": "VirtoCommerce.TaskManagement_3.803.0-pr-14-5e1d.zip"
         },
         {
-          "Id": "VirtoCommerce.WhiteLabeling",
-          "BlobName": "VirtoCommerce.WhiteLabeling_3.802.0-pr-3-2a9a.zip"
-        },
-        {
           "Id": "VirtoCommerce.Xapi",
           "BlobName": "VirtoCommerce.Xapi_3.800.0-pr-1-5baf.zip"
         },
@@ -263,6 +259,10 @@
         {
           "Id": "VirtoCommerce.XOrder",
           "BlobName": "VirtoCommerce.XOrder_3.800.0-pr-1-05a4.zip"
+        },
+        {
+          "Id": "VirtoCommerce.WhiteLabeling",
+          "BlobName": "VirtoCommerce.WhiteLabeling_3.802.0.zip"
         }
       ]
     }
