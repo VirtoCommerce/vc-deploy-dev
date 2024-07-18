@@ -156,10 +156,6 @@
           "Version": "3.806.0"
         },
         {
-          "Id": "VirtoCommerce.Quote",
-          "Version": "3.815.0"
-        },
-        {
           "Id": "VirtoCommerce.DynamicAssociationsModule",
           "Version": "3.803.0"
         },
@@ -230,6 +226,10 @@
         {
           "Id": "VirtoCommerce.FileExperienceApi",
           "Version": "3.803.0"
+        },
+        {
+          "Id": "VirtoCommerce.Quote",
+          "Version": "3.816.0"
         }
       ]
     },
