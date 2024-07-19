@@ -15,9 +15,6 @@
       "Modules": [
         {
          "BlobName": "VirtoCommerce.PageBuilderModule_3.805.0-alpha.561.zip"
-        },    
-        {
-         "BlobName": "VirtoCommerce.MarketingExperienceApi_3.801.0-pr-6-fa5d.zip"
         }
       ]
     },
@@ -113,7 +110,7 @@
         },
         {
           "Id": "VirtoCommerce.CustomerReviews",
-          "Version": "3.803.0"
+          "Version": "3.804.0"
         },
         {
           "Id": "VirtoCommerce.EventBus",
