@@ -198,10 +198,6 @@
           "BlobName": "VirtoCommerce.Cart_3.811.0-alpha.690.zip"
         },
         {
-          "Id": "VirtoCommerce.ExperienceApi",
-          "BlobName": "VirtoCommerce.ExperienceApi_3.842.0-alpha.1430.zip"
-        },
-        {
           "Id": "VirtoCommerce.AzureBlobAssets",
           "BlobName": "VirtoCommerce.AzureBlobAssets_3.807.0-alpha.125.zip"
         },
@@ -248,6 +244,10 @@
         {
           "Id": "VirtoCommerce.TaskManagement",
           "BlobName": "VirtoCommerce.TaskManagement_3.804.0-alpha.102.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ExperienceApi",
+          "BlobName": "VirtoCommerce.ExperienceApi_3.842.0-alpha.1435.zip"
         }
       ]
     }
