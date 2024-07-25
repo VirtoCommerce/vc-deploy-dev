@@ -246,14 +246,6 @@
           "Version": "3.801.0"
         },
         {
-          "Id": "VirtoCommerce.XCart",
-          "Version": "3.800.0"
-        },
-        {
-          "Id": "VirtoCommerce.XOrder",
-          "Version": "3.800.0"
-        },
-        {
           "Id": "VirtoCommerce.XCMS",
           "Version": "3.800.0"
         }
@@ -271,6 +263,14 @@
         {
           "Id": "VirtoCommerce.PowerBiReports",
           "BlobName": "VirtoCommerce.PowerBiReports_3.800.0-alpha.31.zip"
+        },
+          {
+          "Id": "VirtoCommerce.XCart",
+          "BlobName": "VirtoCommerce.XCart_3.801.0-pr-3-5284.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XOrder",
+          "BlobName": "VirtoCommerce.XOrder_3.801.0-pr-2-cab1.zip"
         }
       ]
     }
