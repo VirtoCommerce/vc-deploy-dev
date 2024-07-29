@@ -176,10 +176,18 @@
       EventBus__Subscriptions__0__Events__0__EventId: VirtoCommerce.Platform.Core.Security.Events.UserChangedEvent
       AzureAd__Priority: 1
       PasswordLogin__Priority: 0
-      #skyflow
+      #skyflow deprecated settings
+      #Payments__Skyflow__tokenURI: https://manage.skyflowapis.com/v1/auth/sa/oauth/token
+      #Payments__Skyflow__DefaultConnection__name: 52B9X7vb4
+      #Payments__Skyflow__DefaultCOnnection__connectionUrl: https://ebfc9bee4242.gateway.skyflowapis.com/v1/gateway/outboundRoutes/gfb5ce07e91340efac348a2df035c513/xml/v1/request.api
+      # Skyflow settings
       Payments__Skyflow__tokenURI: https://manage.skyflowapis.com/v1/auth/sa/oauth/token
-      Payments__Skyflow__DefaultConnection__name: 52B9X7vb4
-      Payments__Skyflow__DefaultCOnnection__connectionUrl: https://ebfc9bee4242.gateway.skyflowapis.com/v1/gateway/outboundRoutes/gfb5ce07e91340efac348a2df035c513/xml/v1/request.api
+      Payments__Skyflow__vaultURI: https://ebfc9bee4242.vault.skyflowapis.com
+      Payments__Skyflow__gatewayURI: https://ebfc9bee4242.gateway.skyflowapis.com
+      Payments__Skyflow__vaultId: c1aeec61ad7c46c2b724f004a7658b2f
+      Payments__Skyflow__tableName: credit_cards
+      Payments__Skyflow__TargetPaymentMethod: AuthorizeNetPaymentMethod
+      Payments__Skyflow__TargetConnectionRoute: gfb5ce07e91340efac348a2df035c513/xml/v1/request.api
       AuditLogOptions__CanConfigureTrackingEvents: true
       AuditLogOptions__EntityOptions__0__TypeFullName: VirtoCommerce.OrdersModule.Core.Model.CustomerOrder
       AuditLogOptions__EntityOptions__0__NameProperty: Number
