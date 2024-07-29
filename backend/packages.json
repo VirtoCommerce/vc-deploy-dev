@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.844.0",
+  "PlatformVersion": "3.845.0-pr-2817-d111-vcst-1431-d1116c2a",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.844.0",
+  "PlatformImageTag": "3.845.0-pr-2817-d111-vcst-1431-d1116c2a",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -15,6 +15,18 @@
       "Modules": [
         {
          "BlobName": "VirtoCommerce.PageBuilderModule_3.805.0-alpha.561.zip"
+        },
+        {
+         "BlobName": "VirtoCommerce.AzureAD_3.801.0-pr-6-c29f.zip"
+        },
+        {
+         "BlobName": "VirtoCommerce.ExperienceApi_3.842.0-pr-567-db45.zip"
+        },
+        {
+         "BlobName": "VirtoCommerce.Store_3.806.0-pr-135-c74f.zip"
+        },
+        {
+         "BlobName": "VirtoCommerce.Xapi_3.801.0-pr-2-5d83.zip"
         }
       ]
     },
@@ -24,10 +36,6 @@
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
       "Modules": [
-        {
-          "Id": "VirtoCommerce.AzureAD",
-          "Version": "3.800.0"
-        },
         {
           "Id": "VirtoCommerce.AvalaraTax",
           "Version": "3.800.0"
@@ -211,10 +219,6 @@
         {
           "Id": "VirtoCommerce.AuthorizeNetPayment",
           "Version": "3.801.0"
-        },
-        {
-          "Id": "VirtoCommerce.Store",
-          "Version": "3.805.0"
         },
         {
           "Id": "VirtoCommerce.Sitemaps",
