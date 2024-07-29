@@ -202,13 +202,12 @@
       AuditLogOptions__EntityOptions__4__NameProperty: Name
     secretConfig:
       Payments__AuthorizeNet__TxnKey: authorizenet-txnkey-vs
-      Payments__Skyflow__ClientSDK__clientID: skyflow-client-clientid-vs
-      Payments__Skyflow__ClientSDK__keyID: skyflow-client-keyid-vs
-      Payments__Skyflow__ClientSDK__privateKey: skyflow-client-privatekey-vs
-      Payments__Skyflow__Connections__Default__clientID: skyflow-server-clientid-vs
-      Payments__Skyflow__Connections__Default__keyID: skyflow-server-keyid-vs
-      Payments__Skyflow__Connections__Default__privateKey: skyflow-server-privatekey-vs
-      Payments__Skyflow__DefaultConnection__transactionKey: authorizenet-txnkey-vs
+      Payments__Skyflow__PaymentFormAccount__clientID: skyflow-paymentformaccount-clientid
+      Payments__Skyflow__PaymentFormAccount__keyID: skyflow-paymentformaccount-keyid
+      Payments__Skyflow__PaymentFormAccount__privateKey: skyflow-paymentformaccount-privatekey
+      Payments__Skyflow__IntegrationsAccount__clientID: skyflow-integrationsaccount-clientid
+      Payments__Skyflow__IntegrationsAccount__keyID: skyflow-integrationsaccount-keyid
+      Payments__Skyflow__IntegrationsAccount__privateKey: skyflow-integrationsaccount-privatekey
       Notifications__SendGrid__ApiKey: sendkey
       Notifications__Smtp__Password: smtppasswordyandex
       Search__ElasticAppSearch__PrivateApiKey: elasticappsearch
