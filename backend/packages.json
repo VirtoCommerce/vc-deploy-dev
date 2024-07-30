@@ -234,10 +234,6 @@
           "BlobName": "VirtoCommerce.TaskManagement_3.804.0-alpha.102.zip"
         },
         {
-          "Id": "VirtoCommerce.ExperienceApi",
-          "BlobName": "VirtoCommerce.ExperienceApi_3.842.0-alpha.1437.zip"
-        },
-        {
           "Id": "VirtoCommerce.Skyflow",
           "BlobName": "VirtoCommerce.Skyflow_3.807.0-alpha.28.zip"
         },
@@ -256,6 +252,14 @@
         {
           "Id": "VirtoCommerce.XOrder",
           "BlobName": "VirtoCommerce.XOrder_3.802.0-alpha.10.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XCatalog",
+          "BlobName": "VirtoCommerce.XCatalog_3.803.0-alpha.10.zip"
+        },
+                {
+          "Id": "VirtoCommerce.XCMS",
+          "BlobName": "VirtoCommerce.XCMS_3.801.0-alpha.5.zip"
         },
         {
           "Id": "VirtoCommerce.Customer",
