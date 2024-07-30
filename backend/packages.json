@@ -176,10 +176,6 @@
           "Version": "3.810.0"
         },
         {
-          "Id": "VirtoCommerce.ExperienceApi",
-          "Version": "3.841.0"
-        },
-        {
           "Id": "VirtoCommerce.AzureBlobAssets",
           "Version": "3.806.0"
         },
@@ -230,6 +226,14 @@
         {
           "Id": "VirtoCommerce.XCart",
           "Version": "3.801.0"
+        },
+        {
+          "Id": "VirtoCommerce.XCatalog",
+          "Version": "3.801.0"
+        },
+        {
+          "Id": "VirtoCommerce.XCMS",
+          "Version": "3.800.0"
         },
         {
           "Id": "VirtoCommerce.XOrder",
