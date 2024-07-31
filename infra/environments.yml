@@ -6,8 +6,6 @@
     imageRepository: virtopaasregistrymain.azurecr.io/vcst/platform
     sqlReplica: false
     config:
-      # enable development mode
-      ASPNETCORE_ENVIRONMENT: Development
       # Increment to force environment reload
       reload: 5
       # Application Insights settings
