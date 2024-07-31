@@ -34,6 +34,10 @@
       ],
       "Modules": [
         {
+          "Id": "VirtoCommerce.ApplicationInsights",
+          "Version": "3.801.0"
+        },
+        {
           "Id": "VirtoCommerce.AvalaraTax",
           "Version": "3.800.0"
         },
