@@ -74,10 +74,6 @@
           "Version": "3.805.0"
         },
         {
-          "Id": "VirtoCommerce.Inventory",
-          "Version": "3.804.0"
-        },
-        {
           "Id": "VirtoCommerce.Core",
           "Version": "3.807.0"
         },
@@ -154,16 +150,8 @@
           "Version": "3.815.0"
         },
         {
-          "Id": "VirtoCommerce.Marketing",
-          "Version": "3.809.0"
-        },
-        {
           "Id": "VirtoCommerce.ElasticSearch",
           "Version": "3.403.1"
-        },
-        {
-          "Id": "VirtoCommerce.Pricing",
-          "Version": "3.804.0"
         },
         {
           "Id": "VirtoCommerce.Export",
