@@ -105,6 +105,7 @@
       # Temporary settings below
       Authorization__AccessTokenLifeTime: 00:00:30
       #Authorization__RefreshTokenLifeTime: 0:30:00
+      Reload: 2024-07-31
     secretConfig:
       PushMessages__FcmSenderOptions__PrivateKey: fcm-private-key-new
       Notifications__SendGrid__ApiKey: sendgrid-apikey
