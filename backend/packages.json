@@ -14,7 +14,10 @@
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
         {
-         "BlobName": "VirtoCommerce.PageBuilderModule_3.805.0-alpha.561.zip"
+          "BlobName": "VirtoCommerce.PageBuilderModule_3.805.0-alpha.561.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.XCart_3.801.0-pr-2-985b.zip"
         } 
       ]
     },
@@ -255,10 +258,6 @@
         {
           "Id": "VirtoCommerce.XCatalog",
           "Version": "3.801.0"
-        },
-        {
-          "Id": "VirtoCommerce.XCart",
-          "Version": "3.800.0"
         },
         {
           "Id": "VirtoCommerce.XOrder",
