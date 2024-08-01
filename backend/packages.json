@@ -17,6 +17,9 @@
           "BlobName": "VirtoCommerce.ApplicationInsights_3.802.0-pr-5-4eb2.zip"
         },
         {
+         "BlobName": "VirtoCommerce.AzureAD_3.801.0-pr-6-c29f.zip"
+        },
+        {
          "BlobName": "VirtoCommerce.PageBuilderModule_3.805.0-alpha.561.zip"
         },
         {
@@ -33,10 +36,6 @@
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
       "Modules": [
-        {
-          "Id": "VirtoCommerce.AzureAD",
-          "Version": "3.800.0"
-        },
         {
           "Id": "VirtoCommerce.AvalaraTax",
           "Version": "3.800.0"
