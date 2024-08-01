@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.847.0-alpha.12960-vcst-1431-d953f219",
+  "PlatformVersion": "3.848.0-alpha.12963-vcst-1431-7139f5a2",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.847.0-alpha.12960-vcst-1431-d953f219",
+  "PlatformImageTag": "3.848.0-alpha.12963-vcst-1431-7139f5a2",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
