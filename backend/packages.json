@@ -230,10 +230,6 @@
           "BlobName": "VirtoCommerce.Skyflow_3.807.0-alpha.28.zip"
         },
         {
-          "Id": "VirtoCommerce.Xapi",
-          "BlobName": "VirtoCommerce.Xapi_3.801.0-alpha.22.zip"
-        },
-        {
           "Id": "VirtoCommerce.XCart",
           "BlobName": "VirtoCommerce.XCart_3.802.0-alpha.10.zip"
         },
@@ -264,6 +260,10 @@
         {
           "Id": "VirtoCommerce.WhiteLabeling",
           "BlobName": "VirtoCommerce.WhiteLabeling_3.803.0-alpha.16.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Xapi",
+          "BlobName": "VirtoCommerce.Xapi_3.801.0-alpha.23.zip"
         }
       ]
     }
