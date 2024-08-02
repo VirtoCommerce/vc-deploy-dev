@@ -1,6 +1,6 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.844.0",
+  "PlatformVersion": "3.847.0",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -12,7 +12,7 @@
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
         {
-          "BlobName": "VirtoCommerce.PageBuilderModule_3.805.0-alpha.561.zip"
+          "BlobName": "VirtoCommerce.PageBuilderModule_3.806.0-alpha.564.zip"
         },
         {
           "BlobName": "VirtoCommerce.PowerBiReports_3.800.0-alpha.31.zip"
@@ -139,7 +139,7 @@
         },
         {
           "Id": "VirtoCommerce.ImageTools",
-          "Version": "3.803.0"
+          "Version": "3.804.0"
         },
         {
           "Id": "VirtoCommerce.CustomerExportImport",
@@ -235,11 +235,11 @@
         },
         {
           "Id": "VirtoCommerce.Customer",
-          "Version": "3.811.0"
+          "Version": "3.812.0"
         },
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.809.0"
+          "Version": "3.811.0"
         },
         {
           "Id": "VirtoCommerce.PushMessages",
@@ -251,19 +251,19 @@
         },
         {
           "Id": "VirtoCommerce.Xapi",
-          "Version": "3.800.0"
-        },
-        {
-          "Id": "VirtoCommerce.XCatalog",
           "Version": "3.801.0"
         },
         {
+          "Id": "VirtoCommerce.XCatalog",
+          "Version": "3.803.0"
+        },
+        {
           "Id": "VirtoCommerce.XCart",
-          "Version": "3.800.0"
+          "Version": "3.801.0"
         },
         {
           "Id": "VirtoCommerce.XOrder",
-          "Version": "3.800.0"
+          "Version": "3.801.0"
         },
         {
           "Id": "VirtoCommerce.XCMS",
