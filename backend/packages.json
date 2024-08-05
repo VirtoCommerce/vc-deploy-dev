@@ -235,7 +235,7 @@
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.811.0-pr-82-6803.zip"
-        },  
+        },
         {
           "Id": "VirtoCommerce.Customer",
           "BlobName": "VirtoCommerce.Customer_3.812.0-pr-248-f112.zip"
@@ -245,16 +245,16 @@
           "BlobName": "VirtoCommerce.ImageTools_3.804.0-pr-111-a7e7.zip"
         },
         {
+          "Id": "VirtoCommerce.Store",
+          "BlobName": "VirtoCommerce.Store_3.805.0.zip "
+        },
+        {
+          "Id": "VirtoCommerce.AzureAD",
+          "BlobName": "VirtoCommerce.AzureAD_3.801.0-pr-6-c29f.zip"
+        },
+        {
           "Id": "VirtoCommerce.Pricing",
-          "BlobName": "VirtoCommerce.Pricing_3.805.0-pr-209-2ab0.zip"
-        },
-        {
-         "Id": "VirtoCommerce.Store",
-         "BlobName": "VirtoCommerce.Store_3.805.0.zip "
-        },
-        {
-         "Id": "VirtoCommerce.AzureAD",
-         "BlobName": "VirtoCommerce.AzureAD_3.801.0-pr-6-c29f.zip"
+          "BlobName": "VirtoCommerce.Pricing_3.805.0.zip"
         }
       ]
     }
