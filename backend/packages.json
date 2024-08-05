@@ -1,10 +1,10 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.845.0-alpha.12952-vcps-user-manager-4fad68d9",
+  "PlatformVersion": "3.848.0-alpha.12963-vcst-1431-7139f5a2",
   "StorefrontVersion": "6.43.0-alpha.1043-vcst-905-login-is-admin-0550785e",
-  "ThemeB2BVue": "https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-1.62.0-pr-1158-ed7f-ed7fb6c4.zip",
+  "ThemeB2BVue": "https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-2.2.0-pr-1203-074b-074b0441.zip",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.845.0-alpha.12952-vcps-user-manager-4fad68d9",
+  "PlatformImageTag": "3.848.0-alpha.12963-vcst-1431-7139f5a2",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -16,10 +16,6 @@
         {
           "Id": "VirtoCommerce.LuceneSearch",
           "Version": "3.801.0"
-        },
-        {
-          "Id": "VirtoCommerce.AzureAD",
-          "Version": "3.800.0"
         },
         {
           "Id": "VirtoCommerce.Tax",
@@ -50,10 +46,6 @@
           "Version": "3.801.0"
         },
         {
-          "Id": "VirtoCommerce.ApplicationInsights",
-          "Version": "3.801.0"
-        },
-        {
           "Id": "VirtoCommerce.NativePaymentMethods",
           "Version": "3.801.0"
         },
@@ -68,10 +60,6 @@
         {
           "Id": "VirtoCommerce.ElasticAppSearch",
           "Version": "3.803.0"
-        },
-        {
-          "Id": "VirtoCommerce.Store",
-          "Version": "3.805.0"
         },
         {
           "Id": "VirtoCommerce.Inventory",
@@ -226,7 +214,7 @@
         },
         {
           "Id": "VirtoCommerce.Xapi",
-          "BlobName": "VirtoCommerce.Xapi_3.801.0-pr-5-3f0c.zip"
+          "BlobName": "VirtoCommerce.Xapi_3.801.0-pr-2-5d83.zip"
         },
         {
           "Id": "VirtoCommerce.XCart",
@@ -263,6 +251,15 @@
         {
           "Id": "VirtoCommerce.Pricing",
           "BlobName": "VirtoCommerce.Pricing_3.805.0-pr-209-2ab0.zip"
+        },
+        {
+         "BlobName": "VirtoCommerce.Store_3.806.0-pr-135-c74f.zip"
+        },
+        {
+         "BlobName": "VirtoCommerce.AzureAD_3.801.0-pr-6-c29f.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.ApplicationInsights_3.802.0-pr-5-4eb2.zip"
         }
       ]
     }
