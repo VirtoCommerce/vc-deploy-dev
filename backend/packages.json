@@ -134,10 +134,6 @@
           "Version": "3.802.0"
         },
         {
-          "Id": "VirtoCommerce.Content",
-          "Version": "3.815.0"
-        },
-        {
           "Id": "VirtoCommerce.Marketing",
           "Version": "3.809.0"
         },
@@ -170,7 +166,7 @@
         },
         {
           "Id": "VirtoCommerce.PageBuilderModule",
-          "BlobName": "VirtoCommerce.PageBuilderModule_3.805.0-pr-66-baf3.zip"
+          "BlobName": "VirtoCommerce.PageBuilderModule_3.806.0-pr-67-c750.zip"
         },
         {
           "Id": "VirtoCommerce.Contracts",
@@ -255,6 +251,10 @@
         {
           "Id": "VirtoCommerce.Orders",
           "BlobName": "VirtoCommerce.Orders_3.824.0-pr-427-3572.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Content",
+          "BlobName": "VirtoCommerce.Content_3.816.0-pr-184-18b7.zip"
         }
       ]
     }
