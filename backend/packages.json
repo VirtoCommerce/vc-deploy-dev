@@ -16,6 +16,9 @@
         },
         {
           "BlobName": "VirtoCommerce.PowerBiReports_3.800.0-alpha.31.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.ElasticAppSearch_3.804.0-pr-37-8de6.zip"
         }
       ]
     },
@@ -80,10 +83,6 @@
         {
           "Id": "VirtoCommerce.Export",
           "Version": "3.802.0"
-        },
-        {
-          "Id": "VirtoCommerce.ElasticAppSearch",
-          "Version": "3.803.0"
         },
         {
           "Id": "VirtoCommerce.ElasticSearch",
