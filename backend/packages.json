@@ -152,6 +152,11 @@
         {
           "Id": "VirtoCommerce.TaskManagement",
           "Version": "3.803.0"
+        },
+        {
+          "Id": "VirtoCommerce.ApplicationInsights",
+          "Version": "3.801.0"
+"
         }
       ]
     },
