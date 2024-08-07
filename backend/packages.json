@@ -152,10 +152,6 @@
         {
           "Id": "VirtoCommerce.TaskManagement",
           "Version": "3.803.0"
-        },
-        {
-          "Id": "VirtoCommerce.ExperienceApi",
-          "Version": "3.842.0"
         }
       ]
     },
@@ -259,6 +255,10 @@
         {
           "Id": "VirtoCommerce.Content",
           "BlobName": "VirtoCommerce.Content_3.816.0-pr-184-18b7.zip"
+        },
+        {
+          "Id": "VirtoCommerce.AuditLog",
+          "BlobName": "VirtoCommerce.AuditLog_3.806.0-pr-6-57cf.zip"
         }
       ]
     }
