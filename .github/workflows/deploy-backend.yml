@@ -5,8 +5,7 @@ on:
   push:
     paths:
       - 'backend/**'
-    branches: 
-      - 'vcst-*'
+    branches: [ ai ]
 
 jobs:
   gitops:
