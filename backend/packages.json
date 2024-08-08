@@ -1,10 +1,10 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.848.0-pr-2824-1381-vcst-1619-1381f386",
+  "PlatformVersion": "3.848.0-alpha.12965-vcst-1550-843aee26",
   "StorefrontVersion": "6.43.0-alpha.1043-vcst-905-login-is-admin-0550785e",
   "ThemeB2BVue": "https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-2.2.0-pr-1203-074b-074b0441.zip",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.848.0-pr-2824-1381-vcst-1619-1381f386",
+  "PlatformImageTag": "3.848.0-alpha.12965-vcst-1550-843aee26",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -52,10 +52,6 @@
         {
           "Id": "VirtoCommerce.BuilderIO",
           "Version": "3.803.0"
-        },
-        {
-          "Id": "VirtoCommerce.Notifications",
-          "Version": "3.807.0"
         },
         {
           "Id": "VirtoCommerce.ElasticAppSearch",
@@ -263,6 +259,10 @@
         {
           "Id": "VirtoCommerce.AuditLog",
           "BlobName": "VirtoCommerce.AuditLog_3.806.0-pr-6-57cf.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Notifications",
+          "BlobName": "VirtoCommerce.Notifications_3.808.0-pr-161-18d6.zip"
         }
       ]
     }
