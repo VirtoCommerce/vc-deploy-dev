@@ -69,6 +69,7 @@
       VirtoCommerce__Stores__DefaultStore: B2B-store
       # Temporary settings below
     secretConfig:
+      AI__OpenAI__ApiKey: vcst-ai-openai-api-key
       Notifications__SendGrid__ApiKey: sendgrid-apikey
       PushNotifications__HubUrl: vcst-ai-push-notifications-hub
     databases: {}
