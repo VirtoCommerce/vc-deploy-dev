@@ -196,10 +196,6 @@
           "Version": "3.806.0"
         },
         {
-          "Id": "VirtoCommerce.Catalog",
-          "Version": "3.813.0"
-        },
-        {
           "Id": "VirtoCommerce.PushMessages",
           "Version": "3.810.0"
         },
@@ -246,6 +242,10 @@
         {
           "Id": "VirtoCommerce.ElasticAppSearch",
           "Version": "3.804.0"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "Version": "3.814.0"
         }
       ]
     },
