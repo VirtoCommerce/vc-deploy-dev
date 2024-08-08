@@ -1,4 +1,8 @@
 {
+  "ManifestVersion": "2.0",
+  "PlatformVersion": "3.847.0",
+  "PlatformImage": "ghcr.io/virtocommerce/platform",
+  "PlatformImageTag": "3.847.0",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -18,19 +22,15 @@
       ],
       "Modules": [
         {
+          "Id": "VirtoCommerce.AzureAD",
+          "Version": "3.800.0"
+        },
+        {
           "Id": "VirtoCommerce.ApplicationInsights",
           "Version": "3.801.0"
         },
         {
           "Id": "VirtoCommerce.Assets",
-          "Version": "3.806.0"
-        },
-        {
-          "Id": "VirtoCommerce.AzureAD",
-          "Version": "3.800.0"
-        },
-        {
-          "Id": "VirtoCommerce.AzureBlobAssets",
           "Version": "3.806.0"
         },
         {
@@ -171,7 +171,5 @@
         }
       ]
     }
-  ],
-  "ManifestVersion": "2.0",
-  "PlatformVersion": "3.847.0"
+  ]
 }
