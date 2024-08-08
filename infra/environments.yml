@@ -75,8 +75,6 @@
     databases: {}
   storefront:
     enabled: false
-    themes:
-      B2B-store: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/2.2.0/vc-theme-b2b-vue-2.2.0.zip
   customApps: {}
   routes:
   - host: vcst-ai-storefront.govirto.com
