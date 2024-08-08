@@ -7,7 +7,7 @@
     sqlReplica: false
     config:
       # Application Insights settings
-      #APPINSIGHTS_INSTRUMENTATIONKEY: b64da477-188b-4154-969b-3cb1310400f0
+      APPINSIGHTS_INSTRUMENTATIONKEY: e8fecf67-f941-44c3-9bcf-271aaea8933b
       # Forward headers to Nginx
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
       # Enable Azure Active Directory login in platform UI
@@ -48,10 +48,9 @@
       # Return detailed error information if login failed
       PasswordLogin__DetailedErrors: true
       # Sync push notifications between platform instances
-      #PushNotifications__ForceWebSockets: true
-      #PushNotifications__ScalabilityMode: RedisBackplane
-      #PushNotifications__HubUrl: https://vcst-ai.govirto.com/pushNotificationHub?api_key=458ab7f7-df17-4aed-9f21-092f8b611efa
-      #PushNotifications__RedisBackplane__ChannelName: vcst-ai-chanel
+      PushNotifications__ForceWebSockets: true
+      PushNotifications__ScalabilityMode: RedisBackplane
+      PushNotifications__RedisBackplane__ChannelName: vcst-ai-chanel
       # Push messages settings
       PushMessages__UseFirebaseCloudMessaging: false
       # Elastic Search settings
@@ -71,6 +70,7 @@
       # Temporary settings below
     secretConfig:
       Notifications__SendGrid__ApiKey: sendgrid-apikey
+      PushNotifications__HubUrl: vcst-ai-push-notifications-hub
     databases: {}
   storefront:
     enabled: false
