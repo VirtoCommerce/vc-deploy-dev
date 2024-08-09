@@ -5,7 +5,8 @@ on:
   push:
     paths:
       - 'theme/**'
-    branches: [ ai ]
+    branches:
+      - 'vcst-*'
 
 jobs:
   gitops:
@@ -14,7 +15,7 @@ jobs:
         store: [B2B-store]
     runs-on: ubuntu-latest
     env:
-      ARGO_APP_NAME: vcst-ai
+      ARGO_APP_NAME: ${{ github.ref_name }}
       ARTIFACT_URL: ''
 
     steps:

@@ -5,7 +5,8 @@ on:
   push:
     paths:
       - 'infra/**'
-    branches: [ ai ]
+    branches:
+      - 'vcst-*'
 
 jobs:
   gitops:

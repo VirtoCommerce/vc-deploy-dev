@@ -5,7 +5,8 @@ on:
   push:
     paths:
       - 'backend/**'
-    branches: [ ai ]
+    branches:
+      - 'vcst-*'
 
 jobs:
   gitops:
@@ -18,7 +19,7 @@ jobs:
       CONTAINER_REGISTRY: virtopaasregistrymain.azurecr.io
       IMAGE_REPOSITORY: virtopaasregistrymain.azurecr.io/vcst/platform
       PLATFORM_IMAGE_NAME: vcst-platform
-      ARGO_APP_NAME: vcst-ai
+      ARGO_APP_NAME: ${{ github.ref_name }}
       PLATFORM_IMAGE: ''
       PLATFORM_TAG: ''
 
