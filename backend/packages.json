@@ -86,10 +86,6 @@
           "Version": "3.807.0"
         },
         {
-          "Id": "VirtoCommerce.Catalog",
-          "Version": "3.813.0"
-        },
-        {
           "Id": "VirtoCommerce.CustomerExportImport",
           "Version": "3.806.0"
         },
@@ -210,7 +206,7 @@
         },
         {
           "Id": "VirtoCommerce.XCatalog",
-          "BlobName": "VirtoCommerce.XCatalog_3.803.0.zip"
+          "BlobName": "VirtoCommerce.XCatalog_3.803.0-pr-5-169e.zip"
         },
         {
           "Id": "VirtoCommerce.XCMS",
@@ -250,7 +246,7 @@
         },
         {
           "Id": "VirtoCommerce.Orders",
-          "BlobName": "VirtoCommerce.Orders_3.824.0-pr-427-3572.zip"
+          "BlobName": "VirtoCommerce.Orders_3.824.0-pr-428-2d87.zip"
         },
         {
           "Id": "VirtoCommerce.Content",
@@ -263,6 +259,10 @@
         {
           "Id": "VirtoCommerce.Notifications",
           "BlobName": "VirtoCommerce.Notifications_3.808.0-pr-161-18d6.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "BlobName": "VirtoCommerce.Catalog_3.814.0-pr-735-a230.zip"
         }
       ]
     }
