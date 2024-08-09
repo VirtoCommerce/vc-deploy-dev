@@ -210,10 +210,6 @@
           "BlobName": "VirtoCommerce.Skyflow_3.807.0-alpha.28.zip"
         },
         {
-          "Id": "VirtoCommerce.XCart",
-          "BlobName": "VirtoCommerce.XCart_3.802.0-alpha.10.zip"
-        },
-        {
           "Id": "VirtoCommerce.XOrder",
           "BlobName": "VirtoCommerce.XOrder_3.802.0-alpha.10.zip"
         },
@@ -264,6 +260,10 @@
         {
           "Id": "VirtoCommerce.Notifications",
           "BlobName": "VirtoCommerce.Notifications_3.808.0-alpha.377.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XCart",
+          "BlobName": "VirtoCommerce.XCart_3.802.0-alpha.11.zip"
         }
       ]
     }
