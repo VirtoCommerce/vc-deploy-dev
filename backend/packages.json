@@ -29,11 +29,17 @@
          "BlobName": "VirtoCommerce.Xapi_3.802.0-pr-2-0e42.zip"
         },
         {
-         "BlobName": "VirtoCommerce.XCart_3.802.0-pr-2-d765.zip"
+         "BlobName": "VirtoCommerce.XCart_3.802.0-pr-7-c2da.zip"
         },
         {
          "BlobName": "VirtoCommerce.Content_3.816.0-pr-184-2b33.zip"
-        }
+        },
+        {
+         "BlobName": "VirtoCommerce.XOrder_3.802.0-pr-5-a240.zip"
+        },
+        {
+         "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.813.0-pr-85-92f4.zip"
+        }        
       ]
     },
     {
@@ -223,10 +229,6 @@
           "Version": "3.812.0"
         },
         {
-          "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.811.0"
-        },
-        {
           "Id": "VirtoCommerce.FileSystemAssets",
           "Version": "3.803.0"
         },
@@ -257,10 +259,6 @@
         {
           "Id": "VirtoCommerce.XCatalog",
           "Version": "3.803.0"
-        },
-        {
-          "Id": "VirtoCommerce.XOrder",
-          "Version": "3.800.0"
         },
         {
           "Id": "VirtoCommerce.XCMS",
