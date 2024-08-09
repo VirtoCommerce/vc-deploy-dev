@@ -7,7 +7,7 @@
     sqlReplica: false
     config:
       # Application Insights settings
-      APPINSIGHTS_INSTRUMENTATIONKEY: e8fecf67-f941-44c3-9bcf-271aaea8933b
+      #APPINSIGHTS_INSTRUMENTATIONKEY: e8fecf67-f941-44c3-9bcf-271aaea8933b
       # Forward headers to Nginx
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
       # Enable Azure Active Directory login in platform UI
