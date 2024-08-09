@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.848.0-alpha.12963-vcst-1431-7139f5a2",
+  "PlatformVersion": "3.848.0-pr-2817-af92-vcst-1431-af921619",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.848.0-alpha.12963-vcst-1431-7139f5a2",
+  "PlatformImageTag": "3.848.0-pr-2817-af92-vcst-1431-af921619",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -26,16 +26,13 @@
          "BlobName": "VirtoCommerce.Store_3.806.0-pr-135-c74f.zip"
         },
         {
-         "BlobName": "VirtoCommerce.Xapi_3.801.0-pr-2-5d83.zip"
+         "BlobName": "VirtoCommerce.Xapi_3.802.0-pr-2-0e42.zip"
         },
         {
          "BlobName": "VirtoCommerce.XCart_3.802.0-pr-2-d765.zip"
         },
         {
          "BlobName": "VirtoCommerce.Content_3.816.0-pr-184-2b33.zip"
-        },
-        {
-         "BlobName": "VirtoCommerce.Catalog_3.814.0-pr-736-657b.zip"
         }
       ]
     },
@@ -252,6 +249,10 @@
         {
           "Id": "VirtoCommerce.Cart",
           "Version": "3.810.0"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "Version": "3.814.0"
         },
         {
           "Id": "VirtoCommerce.XCatalog",
