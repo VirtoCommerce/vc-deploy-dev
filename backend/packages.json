@@ -158,10 +158,6 @@
           "BlobName": "VirtoCommerce.AuthorizeNetPayment_3.802.0-alpha.71.zip"
         },
         {
-          "Id": "VirtoCommerce.Store",
-          "BlobName": "VirtoCommerce.Store_3.806.0-alpha.695.zip"
-        },
-        {
           "Id": "VirtoCommerce.Sitemaps",
           "BlobName": "VirtoCommerce.Sitemaps_3.808.0-alpha.353.zip"
         },
@@ -264,6 +260,10 @@
         {
           "Id": "VirtoCommerce.Orders",
           "BlobName": "VirtoCommerce.Orders_3.824.0-alpha.1272.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Store",
+          "BlobName": "VirtoCommerce.Store_3.806.0-alpha.696.zip"
         }
       ]
     }
