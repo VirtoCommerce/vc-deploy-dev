@@ -94,5 +94,6 @@
       route: platform
   protectedParameters:
    - platform.image.tag
+   - storefront.themes.B2B-store
   version: 3.218
 
