@@ -140,10 +140,6 @@
           "Version": "3.807.0"
         },
         {
-          "Id": "VirtoCommerce.Content",
-          "Version": "3.815.0"
-        },
-        {
           "Id": "VirtoCommerce.AuthorizeNetPayment",
           "Version": "3.801.0"
         },
@@ -246,6 +242,10 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "Version": "3.814.0"
+        },
+        {
+          "Id": "VirtoCommerce.Content",
+          "Version": "3.816.0"
         }
       ]
     },
