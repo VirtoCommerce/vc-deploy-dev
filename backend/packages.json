@@ -34,10 +34,6 @@
           "BlobName": "VirtoCommerce.PageBuilderModule_3.800.0.zip"
         },
         {
-          "Id": "VirtoCommerce.AzureAD",
-          "BlobName": "VirtoCommerce.AzureAD_3.801.0-alpha.25.zip"
-        },
-        {
           "Id": "VirtoCommerce.AvalaraTax",
           "BlobName": "VirtoCommerce.AvalaraTax_3.801.0-alpha.298.zip"
         },
@@ -264,6 +260,10 @@
         {
           "Id": "VirtoCommerce.Orders",
           "BlobName": "VirtoCommerce.Orders_3.825.0-alpha.1273.zip"
+        },
+        {
+          "Id": "VirtoCommerce.AzureAD",
+          "BlobName": "VirtoCommerce.AzureAD_3.801.0-alpha.34.zip"
         }
       ]
     }
