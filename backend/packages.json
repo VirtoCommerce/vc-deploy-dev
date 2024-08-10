@@ -12,10 +12,6 @@
       ],
       "Modules": [
         {
-          "Id": "VirtoCommerce.AzureAD",
-          "Version": "3.800.0"
-        },
-        {
           "Id": "VirtoCommerce.AvalaraTax",
           "Version": "3.800.0"
         },
@@ -246,6 +242,10 @@
         {
           "Id": "VirtoCommerce.Orders",
           "Version": "3.824.0"
+        },
+        {
+          "Id": "VirtoCommerce.AzureAD",
+          "Version": "3.801.0"
         }
       ]
     },
