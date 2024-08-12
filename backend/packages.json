@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.842.0",
+  "PlatformVersion": "3.848.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.842.0",
+  "PlatformImageTag": "3.848.0",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -16,9 +16,6 @@
         {
           "BlobName": "VirtoCommerce.PageBuilderModule_3.805.0-alpha.561.zip"
         },
-        {
-          "BlobName": "VirtoCommerce.XCart_3.802.0-pr-2-34d6.zip"
-        } 
       ]
     },
     {
@@ -29,7 +26,7 @@
       "Modules": [
         {
           "Id": "VirtoCommerce.AzureAD",
-          "Version": "3.800.0"
+          "Version": "3.801.0"
         },
         {
           "Id": "VirtoCommerce.AvalaraTax",
@@ -177,7 +174,7 @@
         },
         {
           "Id": "VirtoCommerce.Store",
-          "Version": "3.805.0"
+          "Version": "3.806.0"
         },
         {
           "Id": "VirtoCommerce.Shipping",
@@ -241,7 +238,7 @@
         },
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.809.0"
+          "Version": "3.813.0"
         },
         {
           "Id": "VirtoCommerce.PushMessages",
@@ -253,7 +250,7 @@
         },
         {
           "Id": "VirtoCommerce.Xapi",
-          "Version": "3.801.0"
+          "Version": "3.802.0"
         },
         {
           "Id": "VirtoCommerce.XCatalog",
@@ -261,11 +258,15 @@
         },
         {
           "Id": "VirtoCommerce.XOrder",
-          "Version": "3.800.0"
+          "Version": "3.802.0"
         },
         {
           "Id": "VirtoCommerce.XCMS",
           "Version": "3.800.0"
+        },
+        {
+          "Id": "VirtoCommerce.XCart",
+          "Version": "3.803.0"
         }
       ]
     }
