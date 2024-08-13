@@ -15,7 +15,7 @@
       #APPINSIGHTS_INSTRUMENTATIONKEY: eb2fbd36-8ffa-4e9d-bf64-5ec908e7fc74
       PushNotifications__ForceWebSockets: true
       PushNotifications__ScalabilityMode: RedisBackplane
-      PushNotifications__HubUrl: https://vcptcore-loadtest.govirto.com/pushNotificationHub?api_key=62607bcc-d321-4e2b-bdfe-e3839e76ac6c
+      PushNotifications__HubUrl: https://vcptcore-loadtest.govirto.com/pushNotificationHub?api_key=d76a7037-cc17-4db2-9ac2-c032ea2fc94e
       PushNotifications__RedisBackplane__ChannelName: vcptcore-loadtest-chanel
       Notifications__DefaultSender: azure_25da07ed75daacae20578a7a7dc58541@azure.com
       Notifications__Gateway: SendGrid
