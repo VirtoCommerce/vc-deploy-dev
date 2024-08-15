@@ -120,10 +120,6 @@
           "Version": "3.803.0"
         },
         {
-          "Id": "VirtoCommerce.CustomerExportImport",
-          "Version": "3.806.0"
-        },
-        {
           "Id": "VirtoCommerce.DynamicAssociationsModule",
           "Version": "3.803.0"
         },
@@ -246,6 +242,10 @@
         {
           "Id": "VirtoCommerce.Orders",
           "Version": "3.825.0"
+        },
+        {
+          "Id": "VirtoCommerce.CustomerExportImport",
+          "Version": "3.807.0"
         }
       ]
     },
