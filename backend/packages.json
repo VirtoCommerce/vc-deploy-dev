@@ -15,7 +15,10 @@
       "Modules": [
         {
          "BlobName": "VirtoCommerce.PageBuilderModule_3.806.0-pr-67-c750.zip"
-        }    
+        },
+        {
+         "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.815.0-pr-87-bf87.zip"
+        }
       ]
     },
     {
@@ -234,15 +237,11 @@
         },
         {
           "Id": "VirtoCommerce.Orders",
-          "Version": "3.824.0"
+          "Version": "3.825.0"
         },
         {
           "Id": "VirtoCommerce.AzureAD",
           "Version": "3.801.0"
-        },
-        {
-          "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.814.0"
         },
         {
           "Id": "VirtoCommerce.XCatalog",
