@@ -14,20 +14,24 @@
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
         {
-         "BlobName": "VirtoCommerce.PageBuilderModule_3.806.0-pr-67-c750.zip"
+          "BlobName": "VirtoCommerce.PageBuilderModule_3.806.0-pr-67-c750.zip"
         },
         {
-         "BlobName": "VirtoCommerce.XCart_3.804.0-pr-2-350e.zip"
+          "BlobName": "VirtoCommerce.XCart_3.804.0-pr-2-350e.zip"
         },
         {
-         "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.814.0-pr-86-b786.zip"
+          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.814.0-pr-86-b786.zip"
         },
         {
           "BlobName": "VirtoCommerce.Catalog_3.814.0-pr-735-a230.zip"
         },
         {
           "BlobName": "VirtoCommerce.Store_3.807.0-pr-136-2ec3.zip"
-        } 
+        },
+        {
+          "Id": "VirtoCommerce.Orders",
+          "BlobName": "VirtoCommerce.Orders_3.825.0.zip"
+        }
       ]
     },
     {
@@ -247,10 +251,6 @@
         {
           "Id": "VirtoCommerce.XOrder",
           "Version": "3.802.0"
-        },
-        {
-          "Id": "VirtoCommerce.Orders",
-          "Version": "3.824.0"
         },
         {
           "Id": "VirtoCommerce.AzureAD",
