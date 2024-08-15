@@ -138,10 +138,6 @@
           "BlobName": "VirtoCommerce.AzureSearch_3.804.0-alpha.237.zip"
         },
         {
-          "Id": "VirtoCommerce.CustomerExportImport",
-          "BlobName": "VirtoCommerce.CustomerExportImport_3.807.0-alpha.166.zip"
-        },
-        {
           "Id": "VirtoCommerce.DynamicAssociationsModule",
           "BlobName": "VirtoCommerce.DynamicAssociationsModule_3.804.0-alpha.151.zip"
         },
@@ -264,6 +260,10 @@
         {
           "Id": "VirtoCommerce.Orders",
           "BlobName": "VirtoCommerce.Orders_3.826.0-alpha.1275.zip"
+        },
+        {
+          "Id": "VirtoCommerce.CustomerExportImport",
+          "BlobName": "VirtoCommerce.CustomerExportImport_3.807.0-alpha.167.zip"
         }
       ]
     }
