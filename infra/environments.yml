@@ -135,7 +135,11 @@
     - path: /revoke/token
       route: platform
     - path: /api/files
-      route: platform 
+      route: platform
+    - path: /externalsignin
+      route: platform
+    - path: /signin-oidc
+      route: platform
      protectedParameters:
    - platform.image.tag
    #- storefront.image.tag
