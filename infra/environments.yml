@@ -108,7 +108,7 @@
     secretConfig:
       VirtoCommerce__Endpoint__Password: virtocommercepassword
     themes:
-      B2B-store: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/2.2.0/vc-theme-b2b-vue-2.2.0.zip
+      B2B-store: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/2.3.0/vc-theme-b2b-vue-2.3.0.zip
   ingress:
     config: >-
       add_header 'Access-Control-Allow-Origin' '*';
@@ -135,6 +135,10 @@
     - path: /revoke/token
       route: platform
     - path: /api/files
+      route: platform    
+    - path: /externalsignin
+      route: platform
+    - path: /signin-oidc
       route: platform
   protectedParameters:
    - platform.image.tag
