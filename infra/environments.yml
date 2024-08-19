@@ -140,7 +140,7 @@
       route: platform
     - path: /signin-oidc
       route: platform
-     protectedParameters:
+  protectedParameters:
    - platform.image.tag
    #- storefront.image.tag
   version: 3.207
