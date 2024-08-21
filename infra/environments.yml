@@ -178,6 +178,8 @@
       route: platform
     - path: /signin-oidc
       route: platform
+    - path: /signin-google
+      route: platform
   protectedParameters:
     - platform.image.tag
     #- storefront.image.tag
