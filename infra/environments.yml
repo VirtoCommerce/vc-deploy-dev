@@ -96,8 +96,11 @@
       # Elastic Search settings
       Search__ElasticSearch__Server: https://elasticsearch-vc03.govirto.com
       Search__ElasticSearch__EnableCompatibilityMode: true
+      # Elastic Search 8
+      Search__ElasticSearch8__Server: https://effca36770fb48e7af2475d5e1ca9890.europe-west1.gcp.cloud.es.io:443
+      Search__ElasticSearch8__User: elastic 
       # VirtoCommerce Search settings
-      Search__Provider: ElasticSearch
+      Search__Provider: ElasticSearch8      
       # Prevent Hangfire duplication key error
       VirtoCommerce__Hangfire__SqlServerStorageOptions__TryAutoDetectSchemaDependentOptions: true
       VirtoCommerce__Hangfire__SqlServerStorageOptions__UseIgnoreDupKeyOption: true
@@ -120,6 +123,7 @@
       Payments__Skyflow__IntegrationsAccount__clientID: skyflow-integrationsaccount-clientid
       Payments__Skyflow__IntegrationsAccount__keyID: skyflow-integrationsaccount-keyid
       Payments__Skyflow__IntegrationsAccount__privateKey: skyflow-integrationsaccount-privatekey
+      Search__ElasticSearch8__Key: elasticsearch8key
   storefront:
     enabled: false
     imageRepository: virtopaasregistrymain.azurecr.io/vcst/storefront
