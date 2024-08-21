@@ -29,6 +29,10 @@
           "BlobName": "VirtoCommerce.Store_3.807.0-pr-136-2ec3.zip"
         },
         {
+          "Id": "VirtoCommerce.Orders",
+          "BlobName": "VirtoCommerce.Orders_3.825.0.zip"
+        },
+        {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.815.0.zip"
         }
@@ -251,10 +255,6 @@
         {
           "Id": "VirtoCommerce.XOrder",
           "Version": "3.802.0"
-        },
-        {
-          "Id": "VirtoCommerce.Orders",
-          "Version": "3.824.0"
         },
         {
           "Id": "VirtoCommerce.AzureAD",
