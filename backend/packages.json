@@ -230,10 +230,6 @@
           "BlobName": "VirtoCommerce.Xapi_3.803.0-alpha.27.zip"
         },
         {
-          "Id": "VirtoCommerce.XOrder",
-          "BlobName": "VirtoCommerce.XOrder_3.803.0-alpha.12.zip"
-        },
-        {
           "Id": "VirtoCommerce.AzureAD",
           "BlobName": "VirtoCommerce.AzureAD_3.802.0-alpha.35.zip"
         },
@@ -264,6 +260,10 @@
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.816.0-alpha.234.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XOrder",
+          "BlobName": "VirtoCommerce.XOrder_3.803.0-alpha.13.zip"
         }
       ]
     }
