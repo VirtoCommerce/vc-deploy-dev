@@ -19,6 +19,11 @@
       AzureAd__TenantId: bc03e660-5e3a-45c4-bf5c-b75489f78923
       AzureAd__ValidateIssuer: MultitenantAzureAD
       AzureAd__DefaultUserType: Customer
+      GoogleSSO__Enabled: true
+      GoogleSSO__AuthenticationType: GoogleSSO
+      GoogleSSO__AuthenticationCaption: Google sign-in
+      GoogleSSO__DefaultUserType: Customer
+      GoogleSSO__UsePreferredUsername: false
       #Default Store
       VirtoCommerce__Stores__DefaultStore: B2B-store
       # Allows to see theme in Content menu in platform UI
@@ -124,6 +129,8 @@
       Payments__Skyflow__IntegrationsAccount__keyID: skyflow-integrationsaccount-keyid
       Payments__Skyflow__IntegrationsAccount__privateKey: skyflow-integrationsaccount-privatekey
       Search__ElasticSearch8__Key: elasticsearch8key
+      GoogleSSO__ApplicationId: googlesso-aplicationid
+      GoogleSSO__Secret: googlesso-secret      
   storefront:
     enabled: false
     imageRepository: virtopaasregistrymain.azurecr.io/vcst/storefront
