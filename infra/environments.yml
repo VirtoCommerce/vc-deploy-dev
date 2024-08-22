@@ -99,6 +99,10 @@
       route: platform
     - path: /api/files
       route: platform
+    # - path: /externalsignin
+    #   route: platform
+    # - path: /signin-oidc
+    #   route: platform
   protectedParameters:
    - platform.image.tag
   version: 3.218
