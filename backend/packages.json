@@ -210,10 +210,6 @@
           "BlobName": "VirtoCommerce.WhiteLabeling_3.803.0-alpha.16.zip"
         },
         {
-          "Id": "VirtoCommerce.Pricing",
-          "BlobName": "VirtoCommerce.Pricing_3.806.0-alpha.731.zip"
-        },
-        {
           "Id": "VirtoCommerce.ElasticAppSearch",
           "BlobName": "VirtoCommerce.ElasticAppSearch_3.805.0-alpha.125.zip"
         },
@@ -264,6 +260,10 @@
         {
           "Id": "VirtoCommerce.XCatalog",
           "BlobName": "VirtoCommerce.XCatalog_3.806.0-alpha.20.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Pricing",
+          "BlobName": "VirtoCommerce.Pricing_3.806.0-alpha.732.zip"
         }
       ]
     }
