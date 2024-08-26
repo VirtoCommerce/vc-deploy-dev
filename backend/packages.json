@@ -246,6 +246,10 @@
         {
           "Id": "VirtoCommerce.Xapi",
           "Version": "3.803.0"
+        },
+        {
+          "Id": "VirtoCommerce.GoogleSSO",
+          "Version": "3.800.0"
         }
       ]
     },
