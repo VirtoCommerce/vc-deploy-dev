@@ -24,6 +24,10 @@
         },
         {
           "BlobName": "VirtoCommerce.WhiteLabeling_3.803.0-pr-4-94a2.zip"
+        },
+        {
+          "Id": "VirtoCommerce.GoogleSSO",
+          "BlobName": "VirtoCommerce.GoogleSSO_3.800.0.zip"
         }
       ]
     },
@@ -33,7 +37,7 @@
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
       "Modules": [
-         {
+        {
           "Id": "VirtoCommerce.AvalaraTax",
           "Version": "3.800.0"
         },
