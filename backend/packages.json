@@ -264,6 +264,10 @@
         {
           "Id": "VirtoCommerce.Xapi",
           "BlobName": "VirtoCommerce.Xapi_3.804.0-alpha.29.zip"
+        },
+        {
+          "Id": "VirtoCommerce.GoogleSSO",
+          "BlobName": "VirtoCommerce.GoogleSSO_3.800.0-alpha.5.zip"
         }
       ]
     }
