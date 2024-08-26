@@ -21,6 +21,9 @@
         },
         {
           "BlobName": "VirtoCommerce.XCatalog_3.806.0-pr-9-ffbf.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.WhiteLabeling_3.803.0-pr-4-94a2.zip"
         }
       ]
     },
@@ -177,10 +180,6 @@
         {
           "Id": "VirtoCommerce.Quote",
           "Version": "3.816.0"
-        },
-        {
-          "Id": "VirtoCommerce.WhiteLabeling",
-          "Version": "3.802.0"
         },
         {
           "Id": "VirtoCommerce.Contracts",
