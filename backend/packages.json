@@ -24,6 +24,9 @@
         },
         {
           "BlobName": "VirtoCommerce.WhiteLabeling_3.803.0-pr-4-94a2.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Xapi_3.803.0-pr-7-6df3.zip"
         }
       ]
     },
@@ -248,10 +251,6 @@
         {
           "Id": "VirtoCommerce.WebHooks",
           "Version": "3.804.0"
-        },
-        {
-          "Id": "VirtoCommerce.Xapi",
-          "Version": "3.802.0"
         },
         {
           "Id": "VirtoCommerce.XCart",
