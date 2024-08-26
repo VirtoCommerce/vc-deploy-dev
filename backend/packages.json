@@ -21,6 +21,9 @@
         },
         {
           "BlobName": "VirtoCommerce.GoogleSSO_3.800.0-pr-1-b382.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.WhiteLabeling_3.803.0-pr-4-94a2.zip"
         }
       ]
     },
@@ -245,10 +248,6 @@
         {
           "Id": "VirtoCommerce.WebHooks",
           "Version": "3.804.0"
-        },
-        {
-          "Id": "VirtoCommerce.WhiteLabeling",
-          "Version": "3.802.0"
         },
         {
           "Id": "VirtoCommerce.Xapi",
