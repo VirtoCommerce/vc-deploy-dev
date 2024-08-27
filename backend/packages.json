@@ -24,7 +24,10 @@
         },
         {
           "BlobName": "VirtoCommerce.WhiteLabeling_3.803.0-pr-4-94a2.zip"
-        }
+        },
+        {
+          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.816.0-pr-88-f349.zip"
+        },
       ]
     },
     {
@@ -248,10 +251,6 @@
         {
           "Id": "VirtoCommerce.CustomerExportImport",
           "Version": "3.807.0"
-        },
-        {
-          "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.815.0"
         },
         {
           "Id": "VirtoCommerce.XOrder",
