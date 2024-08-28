@@ -206,10 +206,6 @@
           "BlobName": "VirtoCommerce.ImageTools_3.805.0-alpha.347.zip"
         },
         {
-          "Id": "VirtoCommerce.WhiteLabeling",
-          "BlobName": "VirtoCommerce.WhiteLabeling_3.803.0-alpha.16.zip"
-        },
-        {
           "Id": "VirtoCommerce.ElasticAppSearch",
           "BlobName": "VirtoCommerce.ElasticAppSearch_3.805.0-alpha.125.zip"
         },
@@ -268,6 +264,10 @@
         {
           "Id": "VirtoCommerce.GoogleSSO",
           "BlobName": "VirtoCommerce.GoogleSSO_3.801.0-alpha.9.zip"
+        },
+        {
+          "Id": "VirtoCommerce.WhiteLabeling",
+          "BlobName": "VirtoCommerce.WhiteLabeling_3.803.0-alpha.17.zip"
         }
       ]
     }
