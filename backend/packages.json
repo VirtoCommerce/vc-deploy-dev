@@ -160,10 +160,6 @@
           "Version": "3.816.0"
         },
         {
-          "Id": "VirtoCommerce.WhiteLabeling",
-          "Version": "3.802.0"
-        },
-        {
           "Id": "VirtoCommerce.Contracts",
           "Version": "3.803.0"
         },
@@ -250,6 +246,10 @@
         {
           "Id": "VirtoCommerce.GoogleSSO",
           "Version": "3.800.0"
+        },
+        {
+          "Id": "VirtoCommerce.WhiteLabeling",
+          "Version": "3.803.0"
         }
       ]
     },
