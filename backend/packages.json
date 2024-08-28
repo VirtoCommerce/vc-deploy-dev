@@ -27,6 +27,10 @@
         },
         {
           "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.816.0-pr-88-f349.zip"
+        },
+        {
+          "Id": "VirtoCommerce.WhiteLabeling",
+          "BlobName": "VirtoCommerce.WhiteLabeling_3.803.0.zip"
         }
       ]
     },
@@ -36,7 +40,7 @@
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
       "Modules": [
-         {
+        {
           "Id": "VirtoCommerce.AvalaraTax",
           "Version": "3.800.0"
         },
