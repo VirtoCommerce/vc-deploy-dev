@@ -15,9 +15,6 @@
       "Modules": [
         {
           "BlobName": "VirtoCommerce.PageBuilderModule_3.806.0-pr-67-c750.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.WhiteLabeling_3.803.0-pr-4-94a2.zip"
         }
       ]
     },
@@ -270,6 +267,10 @@
         {
           "Id": "VirtoCommerce.GoogleSSO",
           "Version": "3.800.0"
+        },        
+        {
+          "Id": "VirtoCommerce.WhiteLabeling",
+          "Version": "3.803.0"
         }
       ]
     }
