@@ -33,6 +33,10 @@
         },
         {
           "BlobName": "VirtoCommerce.Customer_3.813.0-pr-249-aeca.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XCatalog",
+          "BlobName": "VirtoCommerce.XCatalog_3.807.0.zip"
         }
       ]
     },
@@ -42,7 +46,7 @@
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
       "Modules": [
-         {
+        {
           "Id": "VirtoCommerce.AvalaraTax",
           "Version": "3.800.0"
         },
