@@ -188,10 +188,6 @@
           "Version": "3.804.0"
         },
         {
-          "Id": "VirtoCommerce.Pricing",
-          "Version": "3.805.0"
-        },
-        {
           "Id": "VirtoCommerce.ElasticAppSearch",
           "Version": "3.804.0"
         },
@@ -250,6 +246,10 @@
         {
           "Id": "VirtoCommerce.WhiteLabeling",
           "Version": "3.803.0"
+        },
+        {
+          "Id": "VirtoCommerce.Pricing",
+          "Version": "3.806.0"
         }
       ]
     },
