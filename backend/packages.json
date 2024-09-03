@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.849.0",
+  "PlatformVersion": "3.850.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.849.0",
+  "PlatformImageTag": "3.850.0",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -20,23 +20,7 @@
           "BlobName": "VirtoCommerce.Pricing_3.807.0-pr-211-e320.zip"
         },
         {
-          "BlobName": "VirtoCommerce.XCatalog_3.806.0-pr-10-9754.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.WhiteLabeling_3.803.0-pr-4-94a2.zip"
-        },
-        {
           "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.816.0-pr-88-f349.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.Catalog_3.816.0-pr-737-a636.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.Customer_3.813.0-pr-249-aeca.zip"
-        },
-        {
-          "Id": "VirtoCommerce.Customer",
-          "BlobName": "VirtoCommerce.Customer_3.813.0.zip"
         }
       ]
     },
@@ -46,7 +30,7 @@
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
       "Modules": [
-        {
+         {
           "Id": "VirtoCommerce.AvalaraTax",
           "Version": "3.800.0"
         },
@@ -69,6 +53,10 @@
         {
           "Id": "VirtoCommerce.ApplicationInsights",
           "Version": "3.800.0"
+        },
+        {
+          "Id": "VirtoCommerce.WhiteLabeling",
+          "Version": "3.803.0"
         },
         {
           "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
@@ -257,6 +245,22 @@
         {
           "Id": "VirtoCommerce.XOrder",
           "Version": "3.803.0"
+        },
+        {
+          "Id": "VirtoCommerce.XCatalog"
+          "Version": "3.807.0"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "Version": "3.816.0"
+        },
+        {
+          "Id": "VirtoCommerce.XRecommend",
+          "BlobName": "VirtoCommerce.XRecommend_3.800.0.zip"
+        }, 
+        {
+          "Id": "VirtoCommerce.Customer",
+          "Version": "3.813.0"
         }
       ]
     }
