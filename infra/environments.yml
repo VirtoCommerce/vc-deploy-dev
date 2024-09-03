@@ -100,7 +100,7 @@
       PushMessages__FcmSenderOptions__PrivateKey: fcm-private-key-new
       Search__ElasticAppSearch__PrivateApiKey: elasticappsearchprivateapikey
       Search__ElasticSearch8__Key: elasticsearch8key
-      GoogleSSO__ApplicationId: googlesso-aplicationid
+      GoogleSSO__ApplicationId: googlesso-applicationid
       GoogleSSO__Secret: googlesso-secret     
     databases: {}
   storefront:
