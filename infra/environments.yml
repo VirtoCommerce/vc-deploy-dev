@@ -14,6 +14,12 @@
       AzureAd__TenantId: bc03e660-5e3a-45c4-bf5c-b75489f78923
       AzureAd__Priority: 0
       PasswordLogin__Priority: 1
+      #Google SSO
+      GoogleSSO__Enabled: true
+      GoogleSSO__AuthenticationType: GoogleSSO
+      GoogleSSO__AuthenticationCaption: Google sign-in
+      GoogleSSO__DefaultUserType: Customer
+      GoogleSSO__UsePreferredUsername: false
       #Default Store
       VirtoCommerce__Stores__DefaultStore: B2B-store
       # Return detailed error information if login failed
@@ -94,6 +100,8 @@
       PushMessages__FcmSenderOptions__PrivateKey: fcm-private-key-new
       Search__ElasticAppSearch__PrivateApiKey: elasticappsearchprivateapikey
       Search__ElasticSearch8__Key: elasticsearch8key
+      GoogleSSO__ApplicationId: googlesso-aplicationid
+      GoogleSSO__Secret: googlesso-secret     
     databases: {}
   storefront:
     enabled: false
@@ -139,6 +147,8 @@
     - path: /externalsignin
       route: platform
     - path: /signin-oidc
+      route: platform
+    - path: /signin-google
       route: platform
   protectedParameters:
    - platform.image.tag
