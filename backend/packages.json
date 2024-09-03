@@ -21,6 +21,10 @@
         },
         {
           "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.816.0-pr-88-f349.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Pricing",
+          "BlobName": "VirtoCommerce.Pricing_3.807.0.zip"
         }
       ]
     },
@@ -30,7 +34,7 @@
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
       "Modules": [
-         {
+        {
           "Id": "VirtoCommerce.AvalaraTax",
           "Version": "3.800.0"
         },
@@ -257,7 +261,7 @@
         {
           "Id": "VirtoCommerce.XRecommend",
           "Version": "3.800.0"
-        }, 
+        },
         {
           "Id": "VirtoCommerce.Customer",
           "Version": "3.813.0"
