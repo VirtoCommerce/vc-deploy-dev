@@ -236,10 +236,6 @@
           "Version": "3.803.0"
         },
         {
-          "Id": "VirtoCommerce.Pricing",
-          "Version": "3.806.0"
-        },
-        {
           "Id": "VirtoCommerce.XRecommend",
           "Version": "3.800.0"
         },
@@ -254,6 +250,10 @@
         {
           "Id": "VirtoCommerce.Customer",
           "Version": "3.813.0"
+        },
+        {
+          "Id": "VirtoCommerce.Pricing",
+          "Version": "3.807.0"
         }
       ]
     },
