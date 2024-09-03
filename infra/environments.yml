@@ -108,7 +108,7 @@
     secretConfig:
       VirtoCommerce__Endpoint__Password: virtocommercepassword
     themes:
-      B2B-store: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-2.4.0-alpha.1346.zip
+      B2B-store: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/2.4.0/vc-theme-b2b-vue-2.4.0.zip
   ingress:
     config: >-
       add_header 'Access-Control-Allow-Origin' '*';
