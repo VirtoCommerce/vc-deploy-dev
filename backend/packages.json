@@ -21,6 +21,9 @@
         },
         {
           "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.816.0-pr-88-f349.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.AzureBlobAssets_3.807.0-pr-25-9ad8.zip"
         }
       ]
     },
@@ -165,10 +168,6 @@
         {
           "Id": "VirtoCommerce.Cart",
           "Version": "3.810.0"
-        },
-        {
-          "Id": "VirtoCommerce.AzureBlobAssets",
-          "Version": "3.806.0"
         },
         {
           "Id": "VirtoCommerce.CustomerReviews",
