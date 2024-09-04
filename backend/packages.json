@@ -24,6 +24,10 @@
         },
         {
           "BlobName": "VirtoCommerce.AzureBlobAssets_3.807.0-pr-25-9ad8.zip"
+        },
+        {
+          "Id": "VirtoCommerce.AzureBlobAssets",
+          "BlobName": "VirtoCommerce.AzureBlobAssets_3.807.0.zip"
         }
       ]
     },
@@ -33,7 +37,7 @@
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
       "Modules": [
-         {
+        {
           "Id": "VirtoCommerce.AvalaraTax",
           "Version": "3.800.0"
         },
@@ -256,7 +260,7 @@
         {
           "Id": "VirtoCommerce.XRecommend",
           "Version": "3.800.0"
-        }, 
+        },
         {
           "Id": "VirtoCommerce.Customer",
           "Version": "3.813.0"
