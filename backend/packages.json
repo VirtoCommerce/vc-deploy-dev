@@ -259,6 +259,10 @@
         {
           "Id": "VirtoCommerce.XOrder",
           "Version": "3.802.0"
+        },
+        {
+          "Id": "VirtoCommerce.XRecommend",
+          "Version": "3.800.0"
         }
       ]
     }
