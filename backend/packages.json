@@ -15,9 +15,6 @@
       "Modules": [
         {
           "BlobName": "VirtoCommerce.PageBuilderModule_3.806.0-pr-67-c750.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.816.0-pr-89-3dbf.zip"
         }
       ]
     },
@@ -182,6 +179,10 @@
         {
           "Id": "VirtoCommerce.Pricing",
           "Version": "3.805.0"
+        },
+        {
+          "Id": "VirtoCommerce.ProfileExperienceApiModule",
+          "Version": "3.815.0"
         },
         {
           "Id": "VirtoCommerce.PushMessages",
