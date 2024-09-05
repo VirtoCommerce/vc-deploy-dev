@@ -92,7 +92,7 @@
       PushMessages__FcmReceiverOptions__VapidKey: BE1iGYmRsbdI1FB-qTiIUvGrWvC91GCfnXSHtfzcPLgXfQ28fbpKFlD8YlbI7w-aHVepW3Ih17oRB53ceYNaM6k
       # Temporary settings below
     secretConfig:
-      Notifications__SendGrid__ApiKey: sendgrid-apikey
+      Notifications__SendGrid__ApiKey: sendkey
       Payments__AuthorizeNet__TxnKey: authorizenet-txnkey
       Payments__Skyflow__ClientSDK__clientID: skyflow-client-clientid
       Payments__Skyflow__ClientSDK__keyID: skyflow-client-keyid
