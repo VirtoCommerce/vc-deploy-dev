@@ -117,6 +117,9 @@
       VirtoCommerce__Endpoint__Password: virtocommercepassword
     themes:
       B2B-store: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/2.4.0/vc-theme-b2b-vue-2.4.0.zip
+  frontend:
+     - name: B2B-store
+       prerender: true
   ingress:
     config: >-
       add_header 'Access-Control-Allow-Origin' '*';
