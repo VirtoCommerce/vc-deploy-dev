@@ -176,10 +176,6 @@
           "Version": "3.800.0"
         },
         {
-          "Id": "VirtoCommerce.ImageTools",
-          "Version": "3.804.0"
-        },
-        {
           "Id": "VirtoCommerce.ElasticAppSearch",
           "Version": "3.804.0"
         },
@@ -254,6 +250,10 @@
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "Version": "3.816.0"
+        },
+        {
+          "Id": "VirtoCommerce.ImageTools",
+          "Version": "3.805.0"
         }
       ]
     },
