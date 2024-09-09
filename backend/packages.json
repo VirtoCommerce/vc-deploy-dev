@@ -30,6 +30,9 @@
         },
         {
           "BlobName": "VirtoCommerce.XRecommend_3.801.0-pr-4-0fc6.zip"
+        }, 
+        {
+          "BlobName": "VirtoCommerce.ImageTools_3.805.0-pr-112-539b.zip"
         }
       ]
     },
@@ -206,10 +209,6 @@
         {
           "Id": "VirtoCommerce.XCMS",
           "Version": "3.800.0"
-        },
-        {
-          "Id": "VirtoCommerce.ImageTools",
-          "Version": "3.804.0"
         },
         {
           "Id": "VirtoCommerce.ElasticAppSearch",
