@@ -190,10 +190,6 @@
           "BlobName": "VirtoCommerce.XCMS_3.801.0-alpha.5.zip"
         },
         {
-          "Id": "VirtoCommerce.ImageTools",
-          "BlobName": "VirtoCommerce.ImageTools_3.805.0-alpha.347.zip"
-        },
-        {
           "Id": "VirtoCommerce.ElasticAppSearch",
           "BlobName": "VirtoCommerce.ElasticAppSearch_3.805.0-alpha.125.zip"
         },
@@ -272,6 +268,10 @@
         {
           "Id": "VirtoCommerce.Content",
           "BlobName": "VirtoCommerce.Content_3.818.0-alpha.975.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ImageTools",
+          "BlobName": "VirtoCommerce.ImageTools_3.805.0-alpha.349.zip"
         }
       ]
     }
