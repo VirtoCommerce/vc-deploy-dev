@@ -180,10 +180,6 @@
           "Version": "3.804.0"
         },
         {
-          "Id": "VirtoCommerce.Content",
-          "Version": "3.817.0"
-        },
-        {
           "Id": "VirtoCommerce.Notifications",
           "Version": "3.808.0"
         },
@@ -254,6 +250,10 @@
         {
           "Id": "VirtoCommerce.ImageTools",
           "Version": "3.805.0"
+        },
+        {
+          "Id": "VirtoCommerce.Content",
+          "Version": "3.818.0"
         }
       ]
     },
