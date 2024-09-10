@@ -33,6 +33,12 @@
         }, 
         {
           "BlobName": "VirtoCommerce.ImageTools_3.805.0-pr-112-539b.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.XCart_3.805.0-pr-9-9cec.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.XOrder_3.804.0-pr-7-359b.zip"
         }
       ]
     },
@@ -231,20 +237,12 @@
           "Version": "3.807.0"
         },
         {
-          "Id": "VirtoCommerce.XCart",
-          "Version": "3.804.0"
-        },
-        {
           "Id": "VirtoCommerce.Orders",
           "Version": "3.825.0"
         },
         {
           "Id": "VirtoCommerce.CustomerExportImport",
           "Version": "3.807.0"
-        },
-        {
-          "Id": "VirtoCommerce.XOrder",
-          "Version": "3.803.0"
         },
         {
           "Id": "VirtoCommerce.XCatalog",
