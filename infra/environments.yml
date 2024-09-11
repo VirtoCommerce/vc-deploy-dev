@@ -128,7 +128,7 @@
       Payments__Skyflow__IntegrationsAccount__clientID: skyflow-integrationsaccount-clientid
       Payments__Skyflow__IntegrationsAccount__keyID: skyflow-integrationsaccount-keyid
       Payments__Skyflow__IntegrationsAccount__privateKey: skyflow-integrationsaccount-privatekey
-      Search__ElasticSearch8__Key: elasticsearch8key
+      Search__ElasticSearch8__Key: elasticsearch8
       GoogleSSO__ApplicationId: googlesso-aplicationid
       GoogleSSO__Secret: googlesso-secret      
   storefront:
