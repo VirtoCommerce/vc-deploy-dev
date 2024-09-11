@@ -102,7 +102,7 @@
       Search__ElasticSearch__Server: https://elasticsearch-vc03.govirto.com
       Search__ElasticSearch__EnableCompatibilityMode: true
       # Elastic Search 8
-      Search__ElasticSearch8__Server: https://6a10eeaefcc248a4880060a586d1687d.us-central1.gcp.cloud.es.io
+      Search__ElasticSearch8__Server: https://6a10eeaefcc248a4880060a586d1687d.us-central1.gcp.cloud.es.io:443
       Search__ElasticSearch8__User: elastic 
       # VirtoCommerce Search settings
       Search__Provider: ElasticSearch8     
