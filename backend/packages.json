@@ -21,6 +21,9 @@
         },
         {
           "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.816.0-pr-89-3dbf.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.XRecommend_3.801.0-pr-4-0fc6.zip"
         }
       ]
     },
@@ -52,7 +55,7 @@
         },
         {
           "Id": "VirtoCommerce.ApplicationInsights",
-          "Version": "3.800.0"
+          "Version": "3.801.0"
         },
         {
           "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
@@ -249,10 +252,6 @@
         {
           "Id": "VirtoCommerce.Pricing",
           "Version": "3.806.0"
-        },
-        {
-          "Id": "VirtoCommerce.XRecommend",
-          "Version": "3.800.0"
         },
         {
           "Id": "VirtoCommerce.Catalog",
