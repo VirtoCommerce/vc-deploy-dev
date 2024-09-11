@@ -7,7 +7,7 @@
     sqlReplica: false
     config:
       # Increment to force environment reload
-      reload: 5
+      reload: 6
       # Application Insights settings
       APPINSIGHTS_INSTRUMENTATIONKEY: ef0125aa-1c8e-42d3-964f-d0a11256309d
       # Forward headers to Nginx
@@ -116,9 +116,9 @@
       # Temporary settings below
       Authorization__AccessTokenLifeTime: 00:30:00
       #Authorization__RefreshTokenLifeTime: 0:30:00
-      Reload: 2024-07-31
+      Reload: 2024-09-11
     secretConfig:
-      Search__ElasticSearch8__Key: key-elastic-search8
+      Search__ElasticSearch8__Key: new-elastic-key
       PushMessages__FcmSenderOptions__PrivateKey: fcm-private-key-new
       Notifications__SendGrid__ApiKey: sendgrid-apikey
       Payments__AuthorizeNet__TxnKey: authorizenet-txnkey
