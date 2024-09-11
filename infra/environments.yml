@@ -118,6 +118,7 @@
       #Authorization__RefreshTokenLifeTime: 0:30:00
       Reload: 2024-07-31
     secretConfig:
+      Search__ElasticSearch8__Key: key-elastic-search8
       PushMessages__FcmSenderOptions__PrivateKey: fcm-private-key-new
       Notifications__SendGrid__ApiKey: sendgrid-apikey
       Payments__AuthorizeNet__TxnKey: authorizenet-txnkey
@@ -127,8 +128,7 @@
       Payments__Skyflow__PaymentFormAccount__privateKey: skyflow-paymentformaccount-privatekey
       Payments__Skyflow__IntegrationsAccount__clientID: skyflow-integrationsaccount-clientid
       Payments__Skyflow__IntegrationsAccount__keyID: skyflow-integrationsaccount-keyid
-      Payments__Skyflow__IntegrationsAccount__privateKey: skyflow-integrationsaccount-privatekey
-      Search__ElasticSearch8__Key: key-elastic-search8
+      Payments__Skyflow__IntegrationsAccount__privateKey: skyflow-integrationsaccount-privatekey     
       GoogleSSO__ApplicationId: googlesso-aplicationid
       GoogleSSO__Secret: googlesso-secret      
   storefront:
