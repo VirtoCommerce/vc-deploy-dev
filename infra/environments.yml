@@ -4,7 +4,7 @@
   servicePlan: S2
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.812.0-alpha.12873-vcst-567-counter-2c3cae8c-3c6554d
+    #imageTag: 3.812.0-alpha.12873-vcst-567-counter-2c3cae8c-3c6554d
     sqlReplica: false
     config:
       FileUpload__RootPath: attachments
