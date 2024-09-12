@@ -8,6 +8,16 @@
   "PlatformAssetUrl": "",
   "Sources": [
     {
+      "Name": "AzureBlob",
+      "Container": "packages",
+      "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
+      "Modules": [
+        {
+         "BlobName": "VirtoCommerce.PageBuilderModule_3.805.0-alpha.561.zip"
+        }     
+      ]
+    },
+    {
       "Name": "GithubReleases",
       "ModuleSources": [
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
