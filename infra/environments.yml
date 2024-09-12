@@ -82,11 +82,11 @@
       Search__Provider: ElasticSearch8
       #Search__ElasticSearch8__Server: https://1714126b27f941cb82f2c0e0d242d6b4.eastus2.azure.elastic-cloud.com
       #Search__ElasticSearch8__User: elastic
-      FixedSettings__Settings__0__Name: Order.RefundNewNumberTemplate
-      FixedSettings__Settings__0__ValueType: ShortText,
-      FixedSettings__Settings__0__Value: fixed
-      FixedSettings__Settings__0__DefaultValue: fixed
-      FixedSettings__Settings__0__GroupName: Orders|Orders
+      PlatformSettings__Settings__0__Name: Order.RefundNewNumberTemplate
+      PlatformSettings__Settings__0__ValueType: ShortText,
+      PlatformSettings__Settings__0__Value: fixed
+      PlatformSettings__Settings__0__DefaultValue: fixed
+      PlatformSettings__Settings__0__GroupName: Orders|Orders
       Search__ElasticAppSearch__EnableHttpCompression: true
       Search__ElasticAppSearch__Endpoint: https://enterprise-search-vc03.govirto.com
       Search__AzureSearch__SearchServiceName: qa-demovc-3-search
