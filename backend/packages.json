@@ -17,33 +17,6 @@
           "BlobName": "VirtoCommerce.PageBuilderModule_3.806.0-pr-67-c750.zip"
         },
         {
-          "BlobName": "VirtoCommerce.Pricing_3.807.0-pr-211-e320.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.816.0-pr-89-3dbf.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.AzureBlobAssets_3.807.0-pr-25-9ad8.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.Xapi_3.804.0-pr-8-35d3.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.XRecommend_3.801.0-pr-4-0fc6.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.ImageTools_3.805.0-pr-112-539b.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.XCart_3.805.0-pr-9-9cec.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.XOrder_3.804.0-pr-7-359b.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.ElasticSearch8_3.808.0-pr-19-0c90.zip"
-        },
-        {
           "Id": "VirtoCommerce.Catalog",
           "BlobName": "VirtoCommerce.Catalog_3.817.0.zip"
         }
@@ -189,7 +162,7 @@
         },
         {
           "Id": "VirtoCommerce.Cart",
-          "Version": "3.810.0"
+          "Version": "3.811.0"
         },
         {
           "Id": "VirtoCommerce.CustomerReviews",
@@ -229,7 +202,7 @@
         },
         {
           "Id": "VirtoCommerce.Content",
-          "Version": "3.817.0"
+          "Version": "3.818.0"
         },
         {
           "Id": "VirtoCommerce.Notifications",
@@ -258,6 +231,42 @@
         {
           "Id": "VirtoCommerce.Customer",
           "Version": "3.813.0"
+        },
+        {
+          "Id": "VirtoCommerce.XOrder"
+          "Version": "3.804.0"
+        }, 
+        {
+          "Id": "VirtoCommerce.XCart"
+          "Version": "3.805.0"
+        },
+        {
+          "Id": "VirtoCommerce.ElasticSearch8"
+          "Version": "3.808.0"
+        },
+        {
+          "Id": "VirtoCommerce.XRecommend",
+          "Version": "3.802.0"
+        },
+        {
+          "Id": "VirtoCommerce.ImageTools",
+          "Version": "3.805.0"
+        },
+        {
+          "Id": "VirtoCommerce.ProfileExperienceApiModule",
+          "Version": "3.816.0"
+        },
+        {
+          "Id": "VirtoCommerce.Xapi",
+          "Version": "3.804.0"
+        },
+        {
+          "Id": "VirtoCommerce.AzureBlobAssets",
+          "Version": "3.807.0"
+        },
+        {
+         "Id": "VirtoCommerce.Pricing",
+          "Version": "3.807.0"
         }
       ]
     }
