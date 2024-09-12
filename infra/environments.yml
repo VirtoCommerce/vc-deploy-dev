@@ -102,9 +102,8 @@
       Search__ElasticSearch__Server: https://elasticsearch-vc03.govirto.com
       Search__ElasticSearch__EnableCompatibilityMode: true
       # Elastic Search 8
-      Search__ElasticSearch8__Server: https://6a10eeaefcc248a4880060a586d1687d.us-central1.gcp.cloud.es.io:443
+      Search__ElasticSearch8__Server: https://1714126b27f941cb82f2c0e0d242d6b4.eastus2.azure.elastic-cloud.com
       Search__ElasticSearch8__User: elastic
-      Search__ElasticSearch8__Key: Ukd6VjVaRUJ1N0RVRElPeGxObWc6bVpxX1NCT3hRVjZsYzloc2RSdFpIZw==
       # VirtoCommerce Search settings
       Search__Provider: ElasticSearch8     
       # Prevent Hangfire duplication key error
@@ -119,7 +118,7 @@
       #Authorization__RefreshTokenLifeTime: 0:30:00
       Reload: 2024-09-11
     secretConfig:
-      #Search__ElasticSearch8__Key: new-elastic-key
+      Search__ElasticSearch8__Key: elastic8
       PushMessages__FcmSenderOptions__PrivateKey: fcm-private-key-new
       Notifications__SendGrid__ApiKey: sendgrid-apikey
       Payments__AuthorizeNet__TxnKey: authorizenet-txnkey
