@@ -80,9 +80,9 @@
       Search__ElasticSearch__HealthCheckTimeout: 10
       #Search__Provider: AzureSearch
       Search__Provider: ElasticSearch8
-      Search__ElasticSearch8__Server: "https://1714126b27f941cb82f2c0e0d242d6b4.eastus2.azure.elastic-cloud.com:443"
-      Search__ElasticSearch8__User: "elastic"
-      Search__ElasticSearch8__Key: "RZK2HQwX2Y54I4E4UeyKZF6u"
+      Search__ElasticSearch8__Server: https://1714126b27f941cb82f2c0e0d242d6b4.eastus2.azure.elastic-cloud.com
+      Search__ElasticSearch8__User: elastic
+      Search__ElasticSearch8__Key: RZK2HQwX2Y54I4E4UeyKZF6u
       Search__ElasticAppSearch__EnableHttpCompression: true
       Search__ElasticAppSearch__Endpoint: https://enterprise-search-vc03.govirto.com
       Search__AzureSearch__SearchServiceName: qa-demovc-3-search
