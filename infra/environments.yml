@@ -103,9 +103,10 @@
       Search__ElasticSearch__EnableCompatibilityMode: true
       # Elastic Search 8
       Search__ElasticSearch8__Server: https://6a10eeaefcc248a4880060a586d1687d.us-central1.gcp.cloud.es.io:443
-      Search__ElasticSearch8__User: elastic 
+      Search__ElasticSearch8__User: elastic
+      Search__ElasticSearch8__Key: WlFYSjVaRUJXN1MyTUZOaGk2VzQ6T1BpNXM2OWhSaDZIckdLRGxjMm9DUQ==
       # VirtoCommerce Search settings
-      Search__Provider: ElasticSearch     
+      Search__Provider: ElasticSearch8     
       # Prevent Hangfire duplication key error
       VirtoCommerce__Hangfire__SqlServerStorageOptions__TryAutoDetectSchemaDependentOptions: true
       VirtoCommerce__Hangfire__SqlServerStorageOptions__UseIgnoreDupKeyOption: true
