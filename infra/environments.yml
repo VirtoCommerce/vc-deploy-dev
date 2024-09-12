@@ -80,9 +80,9 @@
       Search__ElasticSearch__HealthCheckTimeout: 10
       #Search__Provider: AzureSearch
       Search__Provider: ElasticSearch8
-      Search__ElasticSearch8__Server: "https://6a10eeaefcc248a4880060a586d1687d.us-central1.gcp.cloud.es.io:443"
-      Search__ElasticSearch8__User: "elastic"
-      Search__ElasticSearch8__Key: "WlFYSjVaRUJXN1MyTUZOaGk2VzQ6T1BpNXM2OWhSaDZIckdLRGxjMm9DUQ=="
+      #Search__ElasticSearch8__Server: "https://6a10eeaefcc248a4880060a586d1687d.us-central1.gcp.cloud.es.io:443"
+      #Search__ElasticSearch8__User: "elastic"
+      #Search__ElasticSearch8__Key: "WlFYSjVaRUJXN1MyTUZOaGk2VzQ6T1BpNXM2OWhSaDZIckdLRGxjMm9DUQ=="
       Search__ElasticAppSearch__EnableHttpCompression: true
       Search__ElasticAppSearch__Endpoint: https://enterprise-search-vc03.govirto.com
       Search__AzureSearch__SearchServiceName: qa-demovc-3-search
