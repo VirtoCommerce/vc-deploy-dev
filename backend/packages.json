@@ -19,6 +19,10 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "BlobName": "VirtoCommerce.Catalog_3.817.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Content",
+          "BlobName": "VirtoCommerce.Content_3.819.0-pr-188-1391.zip"
         }
       ]
     },
@@ -199,10 +203,6 @@
         {
           "Id": "VirtoCommerce.ElasticAppSearch",
           "Version": "3.804.0"
-        },
-        {
-          "Id": "VirtoCommerce.Content",
-          "Version": "3.818.0"
         },
         {
           "Id": "VirtoCommerce.Notifications",
