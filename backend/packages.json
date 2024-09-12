@@ -24,13 +24,13 @@
         },
         {
           "BlobName": "VirtoCommerce.AzureBlobAssets_3.807.0-pr-25-9ad8.zip"
-        }, 
+        },
         {
           "BlobName": "VirtoCommerce.Xapi_3.804.0-pr-8-35d3.zip"
         },
         {
           "BlobName": "VirtoCommerce.XRecommend_3.801.0-pr-4-0fc6.zip"
-        }, 
+        },
         {
           "BlobName": "VirtoCommerce.ImageTools_3.805.0-pr-112-539b.zip"
         },
@@ -40,8 +40,12 @@
         {
           "BlobName": "VirtoCommerce.XOrder_3.804.0-pr-7-359b.zip"
         },
-         {
+        {
           "BlobName": "VirtoCommerce.ElasticSearch8_3.808.0-pr-19-0c90.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XRecommend",
+          "BlobName": "VirtoCommerce.XRecommend_3.802.0.zip"
         }
       ]
     },
@@ -51,7 +55,7 @@
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
       "Modules": [
-         {
+        {
           "Id": "VirtoCommerce.AvalaraTax",
           "Version": "3.800.0"
         },
