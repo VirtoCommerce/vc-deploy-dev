@@ -13,7 +13,7 @@
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
         {
-         "BlobName": "VirtoCommerce.PageBuilderModule_3.805.0-alpha.561.zip"
+         "BlobName": "VirtoCommerce.PageBuilderModule_3.804.0-alpha.554-dev.zip"
         }     
       ]
     },
@@ -97,7 +97,7 @@
         },
         {
           "Id": "VirtoCommerce.Core",
-          "Version": "3.807.0"
+          "Version": "3.806.0"
         },
         {
           "Id": "VirtoCommerce.BulkActionsModule",
@@ -133,7 +133,7 @@
         },
         {
           "Id": "VirtoCommerce.ExperienceApi",
-          "Version": "3.837.0"
+          "Version": "3.833.3"
         },
         {
           "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
@@ -165,7 +165,7 @@
         },
         {
           "Id": "VirtoCommerce.Content",
-          "Version": "3.815.0"
+          "Version": "3.814.1"
         },
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
