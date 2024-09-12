@@ -104,7 +104,7 @@
       # Elastic Search 8
       Search__ElasticSearch8__Server: https://6a10eeaefcc248a4880060a586d1687d.us-central1.gcp.cloud.es.io:443
       Search__ElasticSearch8__User: elastic
-      Search__ElasticSearch8__Key: WlFYSjVaRUJXN1MyTUZOaGk2VzQ6T1BpNXM2OWhSaDZIckdLRGxjMm9DUQ==
+      Search__ElasticSearch8__Key: Ukd6VjVaRUJ1N0RVRElPeGxObWc6bVpxX1NCT3hRVjZsYzloc2RSdFpIZw==
       # VirtoCommerce Search settings
       Search__Provider: ElasticSearch8     
       # Prevent Hangfire duplication key error
