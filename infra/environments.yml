@@ -3,7 +3,7 @@
   production: false
   servicePlan: B2
   platform:
-    imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
+    #imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
     #imageTag: 3.832.1-b878099
     sqlReplica: false
     config:
