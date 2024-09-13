@@ -226,10 +226,6 @@
           "BlobName": "VirtoCommerce.ImageTools_3.806.0-alpha.350.zip"
         },
         {
-          "Id": "VirtoCommerce.XRecommend",
-          "BlobName": "VirtoCommerce.XRecommend_3.803.0-alpha.11.zip"
-        },
-        {
           "Id": "VirtoCommerce.ElasticSearch8",
           "BlobName": "VirtoCommerce.ElasticSearch8_3.809.0-alpha.96.zip"
         },
@@ -276,6 +272,10 @@
         {
           "Id": "VirtoCommerce.Pricing",
           "BlobName": "VirtoCommerce.Pricing_3.809.0-alpha.738.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XRecommend",
+          "BlobName": "VirtoCommerce.XRecommend_3.803.0-alpha.12.zip"
         }
       ]
     }
