@@ -94,10 +94,6 @@
           "BlobName": "VirtoCommerce.EventBus_3.804.0-alpha.132.zip"
         },
         {
-          "Id": "VirtoCommerce.Marketing",
-          "BlobName": "VirtoCommerce.Marketing_3.811.0-alpha.850.zip"
-        },
-        {
           "Id": "VirtoCommerce.NativePaymentMethods",
           "BlobName": "VirtoCommerce.NativePaymentMethods_3.802.0-alpha.86.zip"
         },
@@ -276,6 +272,10 @@
         {
           "Id": "VirtoCommerce.XCart",
           "BlobName": "VirtoCommerce.XCart_3.807.0-alpha.22.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Marketing",
+          "BlobName": "VirtoCommerce.Marketing_3.811.0-alpha.852.zip"
         }
       ]
     }
