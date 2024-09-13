@@ -21,12 +21,16 @@
         },
         {
           "BlobName": "VirtoCommerce.Content_3.819.0-pr-188-1391.zip"
-        }, 
+        },
         {
           "BlobName": "VirtoCommerce.AzureBlobAssets_3.808.0-pr-26-dfb4.zip"
-        }, 
+        },
         {
           "BlobName": "VirtoCommerce.FileSystemAssets_3.804.0-pr-11-b298.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Pricing",
+          "BlobName": "VirtoCommerce.Pricing_3.808.0.zip"
         }
       ]
     },
@@ -235,7 +239,7 @@
         {
           "Id": "VirtoCommerce.XOrder",
           "Version": "3.804.0"
-        }, 
+        },
         {
           "Id": "VirtoCommerce.XCart",
           "Version": "3.805.0"
@@ -259,10 +263,6 @@
         {
           "Id": "VirtoCommerce.Xapi",
           "Version": "3.804.0"
-        },
-        {
-         "Id": "VirtoCommerce.Pricing",
-          "Version": "3.807.0"
         }
       ]
     }
