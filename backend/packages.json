@@ -180,10 +180,6 @@
           "Version": "3.807.0"
         },
         {
-          "Id": "VirtoCommerce.Orders",
-          "Version": "3.825.0"
-        },
-        {
           "Id": "VirtoCommerce.CustomerExportImport",
           "Version": "3.807.0"
         },
@@ -258,6 +254,10 @@
         {
           "Id": "VirtoCommerce.FileSystemAssets",
           "Version": "3.804.0"
+        },
+        {
+          "Id": "VirtoCommerce.Orders",
+          "Version": "3.826.0"
         }
       ]
     },
