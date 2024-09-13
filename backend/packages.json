@@ -196,10 +196,6 @@
           "Version": "3.807.0"
         },
         {
-          "Id": "VirtoCommerce.Pricing",
-          "Version": "3.807.0"
-        },
-        {
           "Id": "VirtoCommerce.Xapi",
           "Version": "3.804.0"
         },
@@ -258,6 +254,10 @@
         {
           "Id": "VirtoCommerce.Orders",
           "Version": "3.826.0"
+        },
+        {
+          "Id": "VirtoCommerce.Pricing",
+          "Version": "3.808.0"
         }
       ]
     },
