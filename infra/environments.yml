@@ -48,7 +48,7 @@
       FileUpload__Scopes__0__AllowedExtensions__5: .txt
       FileUpload__Scopes__0__AllowedExtensions__6: .xlsx
       # Send notifications via email
-      Notifications__DefaultSender: azure_25da07ed75daacae20578a7a7dc58541@azure.com
+      Notifications__DefaultSender: virto.start@virtoway.com
       Notifications__Gateway: SendGrid
       Notifications__SmsDefaultSender: +17012510519
       # Sync push notifications between platform instances
