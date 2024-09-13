@@ -30,7 +30,7 @@
       VirtoCommerce__SampleDataUrl: "https://virtocommerce.azureedge.net/sample-data/b2b-sample-store.zip"
       #VirtoCommerce__PlatformUI__Enable: false
       TaxModule__FixedRateTaxProvider__Enabled: true
-      Notifications__DefaultSender: azure_25da07ed75daacae20578a7a7dc58541@azure.com
+      Notifications__DefaultSender: virto.start@virtoway.com
       Notifications__Gateway: SendGrid
       Notifications__SmsDefaultSender: +17012510519
       Notifications__Smtp__EnableSsl: False
