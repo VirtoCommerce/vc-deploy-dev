@@ -7,7 +7,7 @@
     sqlReplica: false
     config:
       # Increment to force environment reload
-      reload: 5
+      reload: 6
       # Application Insights settings
       APPINSIGHTS_INSTRUMENTATIONKEY: ef0125aa-1c8e-42d3-964f-d0a11256309d      
       # Forward headers to Nginx
