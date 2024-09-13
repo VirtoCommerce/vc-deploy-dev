@@ -208,10 +208,6 @@
           "Version": "3.805.0"
         },
         {
-          "Id": "VirtoCommerce.XRecommend",
-          "Version": "3.802.0"
-        },
-        {
           "Id": "VirtoCommerce.ElasticSearch8",
           "Version": "3.808.0"
         },
@@ -258,6 +254,10 @@
         {
           "Id": "VirtoCommerce.Pricing",
           "Version": "3.808.0"
+        },
+        {
+          "Id": "VirtoCommerce.XRecommend",
+          "Version": "3.803.0"
         }
       ]
     },
