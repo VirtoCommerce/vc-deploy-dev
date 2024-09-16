@@ -9,7 +9,7 @@
       # Increment to force environment reload
       reload: 6
       # Application Insights settings
-      APPINSIGHTS_INSTRUMENTATIONKEY: ef0125aa-1c8e-42d3-964f-d0a11256309d
+      APPINSIGHTS_INSTRUMENTATIONKEY: ef0125aa-1c8e-42d3-964f-d0a11256309d      
       # Forward headers to Nginx
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
       # Enable Azure Active Directory login in platform UI
@@ -48,7 +48,7 @@
       FileUpload__Scopes__0__AllowedExtensions__5: .txt
       FileUpload__Scopes__0__AllowedExtensions__6: .xlsx
       # Send notifications via email
-      Notifications__DefaultSender: azure_25da07ed75daacae20578a7a7dc58541@azure.com
+      Notifications__DefaultSender: virto.start@virtoway.com
       Notifications__Gateway: SendGrid
       Notifications__SmsDefaultSender: +17012510519
       # Sync push notifications between platform instances
@@ -102,10 +102,10 @@
       Search__ElasticSearch__Server: https://elasticsearch-vc03.govirto.com
       Search__ElasticSearch__EnableCompatibilityMode: true
       # Elastic Search 8
-      Search__ElasticSearch8__Server: https://effca36770fb48e7af2475d5e1ca9890.europe-west1.gcp.cloud.es.io:443
-      Search__ElasticSearch8__User: elastic 
+      Search__ElasticSearch8__Server: https://1714126b27f941cb82f2c0e0d242d6b4.eastus2.azure.elastic-cloud.com
+      Search__ElasticSearch8__User: elastic
       # VirtoCommerce Search settings
-      Search__Provider: ElasticSearch     
+      Search__Provider: ElasticSearch8     
       # Prevent Hangfire duplication key error
       VirtoCommerce__Hangfire__SqlServerStorageOptions__TryAutoDetectSchemaDependentOptions: true
       VirtoCommerce__Hangfire__SqlServerStorageOptions__UseIgnoreDupKeyOption: true
@@ -116,8 +116,9 @@
       # Temporary settings below
       Authorization__AccessTokenLifeTime: 00:30:00
       #Authorization__RefreshTokenLifeTime: 0:30:00
-      Reload: 2024-07-31
+      Reload: 2024-09-12
     secretConfig:
+      Search__ElasticSearch8__Key: elastic8
       PushMessages__FcmSenderOptions__PrivateKey: fcm-private-key-new
       Notifications__SendGrid__ApiKey: sendgrid-apikey
       Payments__AuthorizeNet__TxnKey: authorizenet-txnkey
@@ -127,8 +128,7 @@
       Payments__Skyflow__PaymentFormAccount__privateKey: skyflow-paymentformaccount-privatekey
       Payments__Skyflow__IntegrationsAccount__clientID: skyflow-integrationsaccount-clientid
       Payments__Skyflow__IntegrationsAccount__keyID: skyflow-integrationsaccount-keyid
-      Payments__Skyflow__IntegrationsAccount__privateKey: skyflow-integrationsaccount-privatekey
-      Search__ElasticSearch8__Key: elasticsearch8key
+      Payments__Skyflow__IntegrationsAccount__privateKey: skyflow-integrationsaccount-privatekey     
       GoogleSSO__ApplicationId: googlesso-aplicationid
       GoogleSSO__Secret: googlesso-secret      
   storefront:
@@ -137,7 +137,7 @@
     servicePlan: B1
     probePath: /
     config:
-      APPINSIGHTS_INSTRUMENTATIONKEY: 48cca1d8-ea02-433e-bfa6-7aa21acb88d9
+      #APPINSIGHTS_INSTRUMENTATIONKEY: 48cca1d8-ea02-433e-bfa6-7aa21acb88d9
       CookieAuthenticationOptions__LoginPath: /sign-in
       DOTNET_USE_POLLING_FILE_WATCHER: true
       SnapshotCollectorConfiguration__IsEnabled: false
