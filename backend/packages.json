@@ -206,10 +206,6 @@
           "BlobName": "VirtoCommerce.WhiteLabeling_3.804.0-alpha.18.zip"
         },
         {
-          "Id": "VirtoCommerce.XCatalog",
-          "BlobName": "VirtoCommerce.XCatalog_3.808.0-alpha.23.zip"
-        },
-        {
           "Id": "VirtoCommerce.FileExperienceApi",
           "BlobName": "VirtoCommerce.FileExperienceApi_3.804.0-alpha.27.zip"
         },
@@ -276,6 +272,10 @@
         {
           "Id": "VirtoCommerce.FileSystemAssets",
           "BlobName": "VirtoCommerce.FileSystemAssets_3.804.0-alpha.98.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XCatalog",
+          "BlobName": "VirtoCommerce.XCatalog_3.808.0-alpha.25.zip"
         }
       ]
     }
