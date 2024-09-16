@@ -31,6 +31,10 @@
         {
           "Id": "VirtoCommerce.XRecommend",
           "BlobName": "VirtoCommerce.XRecommend_3.803.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XOrder",
+          "BlobName": "VirtoCommerce.XOrder_3.805.0-pr-8-cfb9.zip"
         }
       ]
     },
@@ -235,10 +239,6 @@
         {
           "Id": "VirtoCommerce.Customer",
           "Version": "3.814.0"
-        },
-        {
-          "Id": "VirtoCommerce.XOrder",
-          "Version": "3.804.0"
         },
         {
           "Id": "VirtoCommerce.XCart",
