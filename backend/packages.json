@@ -35,6 +35,10 @@
         {
           "Id": "VirtoCommerce.XOrder",
           "BlobName": "VirtoCommerce.XOrder_3.805.0-pr-8-cfb9.zip"
+        }, 
+        {
+          "Id": "VirtoCommerce.Assets",
+          "BlobName": "VirtoCommerce.Assets_3.807.0-pr-24-e59f.zip"
         }
       ]
     },
@@ -95,10 +99,6 @@
         {
           "Id": "VirtoCommerce.LuceneSearch",
           "Version": "3.801.0"
-        },
-        {
-          "Id": "VirtoCommerce.Assets",
-          "Version": "3.806.0"
         },
         {
           "Id": "VirtoCommerce.CatalogPersonalization",
