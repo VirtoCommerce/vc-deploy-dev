@@ -30,10 +30,6 @@
           "BlobName": "VirtoCommerce.SeqLog_3.800.0.zip"
         },
         {
-          "Id": "VirtoCommerce.PageBuilderModule",
-          "BlobName": "VirtoCommerce.PageBuilderModule_3.800.0.zip"
-        },
-        {
           "Id": "VirtoCommerce.AvalaraTax",
           "BlobName": "VirtoCommerce.AvalaraTax_3.801.0-alpha.298.zip"
         },
@@ -276,6 +272,10 @@
         {
           "Id": "VirtoCommerce.Content",
           "BlobName": "VirtoCommerce.Content_3.821.0-alpha.980.zip"
+        },
+        {
+          "Id": "VirtoCommerce.PageBuilderModule",
+          "BlobName": "VirtoCommerce.PageBuilderModule_3.808.0-alpha.578.zip"
         }
       ]
     }
