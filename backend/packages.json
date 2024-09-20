@@ -35,7 +35,7 @@
         {
           "Id": "VirtoCommerce.XOrder",
           "BlobName": "VirtoCommerce.XOrder_3.805.0-pr-8-cfb9.zip"
-        }, 
+        },
         {
           "Id": "VirtoCommerce.Assets",
           "BlobName": "VirtoCommerce.Assets_3.807.0.zip"
@@ -45,12 +45,12 @@
           "BlobName": "VirtoCommerce.Orders_3.827.0-pr-431-1793.zip"
         },
         {
-          "Id": "VirtoCommerce.XCatalog",
-          "BlobName": "VirtoCommerce.XCatalog_3.808.0-pr-12-e59b.zip"
-        },
-        {
           "Id": "VirtoCommerce.XCart",
           "BlobName": "VirtoCommerce.XCart_3.807.0-pr-11-ce38.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XCatalog",
+          "BlobName": "VirtoCommerce.XCatalog_3.808.0.zip"
         }
       ]
     },
