@@ -18,6 +18,12 @@
         },
         {
           "BlobName": "VirtoCommerce.XRecommend_3.804.0-pr-7-7bdf.zip"
+        },        
+        {
+          "BlobName": "VirtoCommerce.XCatalog_3.810.0-pr-13-b119.zip"
+        },    
+        {
+          "BlobName": "VirtoCommerce.CustomerReviews_3.805.0-pr-62-0fad.zip"
         }
       ]
     },
@@ -206,10 +212,6 @@
         {
           "Id": "VirtoCommerce.WhiteLabeling",
           "Version": "3.803.0"
-        },
-        {
-          "Id": "VirtoCommerce.XCatalog",
-          "Version": "3.807.0"
         },
         {
           "Id": "VirtoCommerce.Xapi",
