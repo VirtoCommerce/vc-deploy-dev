@@ -7,7 +7,7 @@
     sqlReplica: false
     config:
       # Increment to force environment reload
-      reload: 6
+      reload: 5
       # Application Insights settings
       APPINSIGHTS_INSTRUMENTATIONKEY: ef0125aa-1c8e-42d3-964f-d0a11256309d      
       # Forward headers to Nginx
@@ -18,7 +18,7 @@
       AzureAd__ApplicationId: 86d04c35-143d-4d3c-aea2-8608e2186282
       AzureAd__TenantId: bc03e660-5e3a-45c4-bf5c-b75489f78923
       AzureAd__ValidateIssuer: MultitenantAzureAD
-      AzureAd__DefaultUserType: Customer
+      AzureAd__DefaultUserType: Manager
       GoogleSSO__Enabled: true
       GoogleSSO__AuthenticationType: GoogleSSO
       GoogleSSO__AuthenticationCaption: Google sign-in

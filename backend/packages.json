@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.851.0",
+  "PlatformVersion": "3.852.0-pr-2839-2e13-vcst-1628-2e13e98e",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.851.0",
+  "PlatformImageTag": "3.852.0-pr-2839-2e13-vcst-1628-2e13e98e",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -17,7 +17,13 @@
           "BlobName": "VirtoCommerce.PageBuilderModule_3.807.0-pr-68-4cb6.zip"
         },
         {
-          "BlobName": "VirtoCommerce.XRecommend_3.804.0-pr-7-93b7.zip"
+          "BlobName": "VirtoCommerce.XRecommend_3.804.0-pr-7-7bdf.zip"
+        },        
+        {
+          "BlobName": "VirtoCommerce.XCatalog_3.810.0-pr-13-b119.zip"
+        },    
+        {
+          "BlobName": "VirtoCommerce.CustomerReviews_3.805.0-pr-62-0fad.zip"
         }
       ]
     },
@@ -148,10 +154,6 @@
           "Version": "3.807.0"
         },
         {
-          "Id": "VirtoCommerce.CustomerReviews",
-          "Version": "3.804.0"
-        },
-        {
           "Id": "VirtoCommerce.FileExperienceApi",
           "Version": "3.803.0"
         },
@@ -208,10 +210,6 @@
           "Version": "3.803.0"
         },
         {
-          "Id": "VirtoCommerce.XCatalog",
-          "Version": "3.807.0"
-        },
-        {
           "Id": "VirtoCommerce.Xapi",
           "Version": "3.804.0"
         },
@@ -237,7 +235,7 @@
         },
         {
           "Id": "VirtoCommerce.Catalog",
-          "Version": "3.817.0"
+          "Version": "3.820.0"
         },
         {
           "Id": "VirtoCommerce.Content",
