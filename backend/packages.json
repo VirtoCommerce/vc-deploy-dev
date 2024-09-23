@@ -24,6 +24,9 @@
         },
         {
           "BlobName": "VirtoCommerce.CustomerReviews_3.805.0-pr-62-0fad.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Xapi_3.805.0-pr-10-b4bc"
         }
       ]
     },
@@ -208,10 +211,6 @@
         {
           "Id": "VirtoCommerce.WhiteLabeling",
           "Version": "3.803.0"
-        },
-        {
-          "Id": "VirtoCommerce.Xapi",
-          "Version": "3.804.0"
         },
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
