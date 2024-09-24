@@ -55,6 +55,10 @@
         {
           "Id": "VirtoCommerce.Customer",
           "BlobName": "VirtoCommerce.Customer_3.815.0-pr-252-a103.zip"
+        },
+        {
+          "Id": "VirtoCommerce.AuditLog",
+          "BlobName": "VirtoCommerce.AuditLog_3.807.0.zip"
         }
       ]
     },
@@ -263,10 +267,6 @@
         {
           "Id": "VirtoCommerce.Pricing",
           "Version": "3.808.0"
-        },
-        {
-          "Id": "VirtoCommerce.AuditLog",
-          "Version": "3.807.0"
         }
       ]
     }
