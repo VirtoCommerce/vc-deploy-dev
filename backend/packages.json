@@ -41,10 +41,6 @@
           "BlobName": "VirtoCommerce.Assets_3.807.0.zip"
         },
         {
-          "Id": "VirtoCommerce.Orders",
-          "BlobName": "VirtoCommerce.Orders_3.828.0-pr-432-6a04.zip"
-        },
-        {
           "Id": "VirtoCommerce.XCart",
           "BlobName": "VirtoCommerce.XCart_3.807.0.zip"
         },
@@ -59,6 +55,10 @@
         {
           "Id": "VirtoCommerce.AuditLog",
           "BlobName": "VirtoCommerce.AuditLog_3.807.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Orders",
+          "BlobName": "VirtoCommerce.Orders_3.828.0.zip"
         }
       ]
     },
