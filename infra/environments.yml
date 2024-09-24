@@ -222,6 +222,7 @@
       #Assets__AzureBlobStorage__ConnectionString: azureblobconnectionstring
       PushMessages__FcmSenderOptions__PrivateKey: firebase-privatekey
       #Search__ElasticSearch8__Key: elasticsearch8
+      VirtoCommerce__ModuleSequenceBoost__0: AuditLog
 
   storefront:
     enabled: false
