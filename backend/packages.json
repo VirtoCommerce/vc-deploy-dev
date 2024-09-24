@@ -55,6 +55,10 @@
         {
           "Id": "VirtoCommerce.Customer",
           "BlobName": "VirtoCommerce.Customer_3.815.0-pr-252-a103.zip"
+        },
+        {
+          "Id": "VirtoCommerce.CustomerReviews",
+          "BlobName": "VirtoCommerce.CustomerReviews_3.805.0.zip"
         }
       ]
     },
@@ -191,10 +195,6 @@
         {
           "Id": "VirtoCommerce.Cart",
           "Version": "3.811.0"
-        },
-        {
-          "Id": "VirtoCommerce.CustomerReviews",
-          "Version": "3.804.0"
         },
         {
           "Id": "VirtoCommerce.FileExperienceApi",
