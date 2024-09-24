@@ -263,6 +263,10 @@
         {
           "Id": "VirtoCommerce.Pricing",
           "Version": "3.808.0"
+        },
+        {
+          "Id": "VirtoCommerce.AuditLog",
+          "Version": "3.807.0"
         }
       ]
     }
