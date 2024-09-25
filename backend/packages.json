@@ -222,10 +222,6 @@
           "BlobName": "VirtoCommerce.Pricing_3.809.0-alpha.738.zip"
         },
         {
-          "Id": "VirtoCommerce.XRecommend",
-          "BlobName": "VirtoCommerce.XRecommend_3.804.0-alpha.13.zip"
-        },
-        {
           "Id": "VirtoCommerce.FileSystemAssets",
           "BlobName": "VirtoCommerce.FileSystemAssets_3.804.0-alpha.98.zip"
         },
@@ -280,6 +276,10 @@
         {
           "Id": "VirtoCommerce.LuceneSearch",
           "BlobName": "VirtoCommerce.LuceneSearch_3.803.0-alpha.202.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XRecommend",
+          "BlobName": "VirtoCommerce.XRecommend_3.804.0-alpha.14.zip"
         }
       ]
     }
