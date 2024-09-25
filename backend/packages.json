@@ -70,10 +70,6 @@
           "BlobName": "VirtoCommerce.GDPR_3.803.0-alpha.121.zip"
         },
         {
-          "Id": "VirtoCommerce.LuceneSearch",
-          "BlobName": "VirtoCommerce.LuceneSearch_3.802.0-alpha.198.zip"
-        },
-        {
           "Id": "VirtoCommerce.CatalogPersonalization",
           "BlobName": "VirtoCommerce.CatalogPersonalization_3.802.0-alpha.250.zip"
         },
@@ -280,6 +276,10 @@
         {
           "Id": "VirtoCommerce.Orders",
           "BlobName": "VirtoCommerce.Orders_3.829.0-alpha.1282.zip"
+        },
+        {
+          "Id": "VirtoCommerce.LuceneSearch",
+          "BlobName": "VirtoCommerce.LuceneSearch_3.802.0-alpha.200.zip"
         }
       ]
     }
