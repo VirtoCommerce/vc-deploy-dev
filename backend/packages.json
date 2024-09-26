@@ -13,11 +13,31 @@
       "Container": "packages",
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
+         {
+          "Id": "VirtoCommerce.Search",
+          "BlobName": "VirtoCommerce.Search_3.803.0-pr-107-c664.zip"
+         },
+         {
+          "Id": "VirtoCommerce.ElasticSearch8",
+          "BlobName": "VirtoCommerce.ElasticSearch8_3.809.0-pr-20-a3fa.zip"
+         },
+        {
+          "Id": "VirtoCommerce.ElasticSearch",
+          "BlobName": "VirtoCommerce.ElasticSearch_3.802.0-pr-60-4286.zip"
+        },
+         {
+          "Id": "VirtoCommerce.AzureSearch",
+          "BlobName": "VirtoCommerce.AzureSearch_3.804.0-pr-46-27b2.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ElasticAppSearch",
+          "BlobName": "VirtoCommerce.ElasticAppSearch_3.805.0-pr-38-3d6e.zip"
+        },
         {
           "BlobName": "VirtoCommerce.PageBuilderModule_3.810.0-pr-71-27e3.zip"
         },
         {
-          "BlobName": "VirtoCommerce.Catalog_3.820.0.zip"
+          "BlobName": "VirtoCommerce.Catalog_3.821.0-pr-745-5223.zip"
         },
         {
           "BlobName": "VirtoCommerce.Content_3.822.0.zip"
@@ -42,7 +62,7 @@
         },
         {
           "Id": "VirtoCommerce.Orders",
-          "BlobName": "VirtoCommerce.Orders_3.828.0-pr-432-6a04.zip"
+          "BlobName": "VirtoCommerce.Orders_3.829.0-pr-433-574f.zip"
         },
         {
           "Id": "VirtoCommerce.XCart",
@@ -50,11 +70,11 @@
         },
         {
           "Id": "VirtoCommerce.XCatalog",
-          "BlobName": "VirtoCommerce.XCatalog_3.811.0-pr-14-3402.zip"
+          "BlobName": "VirtoCommerce.XCatalog_3.812.0-pr-15-c69d.zip"
         },
         {
           "Id": "VirtoCommerce.Customer",
-          "BlobName": "VirtoCommerce.Customer_3.815.0-pr-252-a103.zip"
+          "BlobName": "VirtoCommerce.Customer_3.816.0-pr-253-1154.zip"
         },
         {
           "Id": "VirtoCommerce.AuditLog",
@@ -62,7 +82,7 @@
         },
         {
           "Id": "VirtoCommerce.LuceneSearch",
-          "BlobName": "VirtoCommerce.LuceneSearch_3.802.0-pr-32-ab96.zip"
+          "BlobName": "VirtoCommerce.LuceneSearch_3.802.0-pr-33-dd02.zip"
         },
         {
           "Id": "VirtoCommerce.Cart",
@@ -125,10 +145,6 @@
           "Version": "3.802.0"
         },
         {
-          "Id": "VirtoCommerce.ElasticSearch",
-          "Version": "3.801.0"
-        },
-        {
           "Id": "VirtoCommerce.GDPR",
           "Version": "3.802.0"
         },
@@ -173,20 +189,12 @@
           "Version": "3.804.0"
         },
         {
-          "Id": "VirtoCommerce.Search",
-          "Version": "3.802.0"
-        },
-        {
           "Id": "VirtoCommerce.Subscription",
           "Version": "3.805.0"
         },
         {
           "Id": "VirtoCommerce.Inventory",
           "Version": "3.804.0"
-        },
-        {
-          "Id": "VirtoCommerce.AzureSearch",
-          "Version": "3.803.0"
         },
         {
           "Id": "VirtoCommerce.DynamicAssociationsModule",
@@ -237,10 +245,6 @@
           "Version": "3.800.0"
         },
         {
-          "Id": "VirtoCommerce.ElasticAppSearch",
-          "Version": "3.804.0"
-        },
-        {
           "Id": "VirtoCommerce.Notifications",
           "Version": "3.808.0"
         },
@@ -251,10 +255,6 @@
         {
           "Id": "VirtoCommerce.CustomerExportImport",
           "Version": "3.807.0"
-        },
-        {
-          "Id": "VirtoCommerce.ElasticSearch8",
-          "Version": "3.808.0"
         },
         {
           "Id": "VirtoCommerce.ImageTools",
