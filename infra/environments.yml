@@ -78,11 +78,11 @@
       Search__DocumentScopes__5__Scope: vcptcore-qa-platformvcptcore-scope66
       Search__ElasticSearch__EnableCompatibilityMode: true
       Search__ElasticSearch__HealthCheckTimeout: 10
-      #Search__Provider: AzureSearch
+      Search__Provider: AzureSearch
       #Search__Provider: ElasticSearch8
-      Search__Provider: Lucene
-      Search__Scope: default
-      Search__Lucene__Path: /path/to/lucene/indexes
+      #Search__Provider: Lucene
+      #Search__Scope: default
+      #Search__Lucene__Path: /path/to/lucene/indexes
       #Search__ElasticSearch8__Server: https://1714126b27f941cb82f2c0e0d242d6b4.eastus2.azure.elastic-cloud.com
       #Search__ElasticSearch8__User: elastic
       PlatformSettings__Settings__0__Name: Order.RefundNewNumberTemplate
