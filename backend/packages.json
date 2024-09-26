@@ -240,10 +240,6 @@
           "Version": "3.828.0"
         },
         {
-          "Id": "VirtoCommerce.Xapi",
-          "Version": "3.805.0"
-        },
-        {
           "Id": "VirtoCommerce.XRecommend",
           "Version": "3.804.0"
         },
@@ -262,6 +258,10 @@
         {
           "Id": "VirtoCommerce.Store",
           "Version": "3.808.0"
+        },
+        {
+          "Id": "VirtoCommerce.Xapi",
+          "Version": "3.806.0"
         }
       ]
     },
