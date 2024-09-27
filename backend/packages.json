@@ -212,10 +212,6 @@
           "Version": "3.805.0"
         },
         {
-          "Id": "VirtoCommerce.Customer",
-          "Version": "3.815.0"
-        },
-        {
           "Id": "VirtoCommerce.Orders",
           "Version": "3.828.0"
         },
@@ -262,6 +258,10 @@
         {
           "Id": "VirtoCommerce.ElasticSearch",
           "Version": "3.802.0"
+        },
+        {
+          "Id": "VirtoCommerce.Customer",
+          "Version": "3.816.0"
         }
       ]
     },
