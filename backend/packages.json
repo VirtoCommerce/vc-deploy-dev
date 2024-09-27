@@ -96,10 +96,6 @@
           "Version": "3.804.0"
         },
         {
-          "Id": "VirtoCommerce.AzureSearch",
-          "Version": "3.803.0"
-        },
-        {
           "Id": "VirtoCommerce.DynamicAssociationsModule",
           "Version": "3.803.0"
         },
@@ -262,6 +258,10 @@
         {
           "Id": "VirtoCommerce.Orders",
           "Version": "3.829.0"
+        },
+        {
+          "Id": "VirtoCommerce.AzureSearch",
+          "Version": "3.804.0"
         }
       ]
     },
