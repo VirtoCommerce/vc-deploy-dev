@@ -208,10 +208,6 @@
           "Version": "3.809.0"
         },
         {
-          "Id": "VirtoCommerce.Catalog",
-          "Version": "3.820.0"
-        },
-        {
           "Id": "VirtoCommerce.XCart",
           "Version": "3.807.0"
         },
@@ -262,6 +258,10 @@
         {
           "Id": "VirtoCommerce.LuceneSearch",
           "Version": "3.804.0"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "Version": "3.821.0"
         }
       ]
     },
