@@ -106,10 +106,6 @@
           "BlobName": "VirtoCommerce.Tax_3.802.0-alpha.180.zip"
         },
         {
-          "Id": "VirtoCommerce.Search",
-          "BlobName": "VirtoCommerce.Search_3.803.0-alpha.744.zip"
-        },
-        {
           "Id": "VirtoCommerce.Subscription",
           "BlobName": "VirtoCommerce.Subscription_3.806.0-alpha.333.zip"
         },
@@ -280,6 +276,10 @@
         {
           "Id": "VirtoCommerce.Xapi",
           "BlobName": "VirtoCommerce.Xapi_3.807.0-alpha.36.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Search",
+          "BlobName": "VirtoCommerce.Search_3.803.0-alpha.746.zip"
         }
       ]
     }
