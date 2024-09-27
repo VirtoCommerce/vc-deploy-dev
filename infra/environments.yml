@@ -79,8 +79,8 @@
       Search__ElasticSearch__EnableCompatibilityMode: true
       Search__ElasticSearch__HealthCheckTimeout: 10
       #Search__Provider: ElasticSearch
-      #Search__Provider: ElasticSearch8
-      Search__Provider: ElasticAppSearch
+      Search__Provider: ElasticSearch8
+      #Search__Provider: ElasticAppSearch
       #Search__Provider: Lucene
       #Search__Scope: default
       #Search__Lucene__Path: /path/to/lucene/indexes
