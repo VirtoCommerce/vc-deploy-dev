@@ -252,16 +252,16 @@
           "Version": "3.808.0"
         },
         {
-          "Id": "VirtoCommerce.Xapi",
-          "Version": "3.806.0"
-        },
-        {
           "Id": "VirtoCommerce.Search",
           "Version": "3.803.0"
         },
         {
           "Id": "VirtoCommerce.ElasticSearch8",
           "Version": "3.809.0"
+        },
+        {
+          "Id": "VirtoCommerce.Xapi",
+          "Version": "3.807.0"
         }
       ]
     },
