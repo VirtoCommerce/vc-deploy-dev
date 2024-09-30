@@ -124,10 +124,6 @@
           "Version": "3.803.0"
         },
         {
-          "Id": "VirtoCommerce.XCMS",
-          "Version": "3.800.0"
-        },
-        {
           "Id": "VirtoCommerce.Notifications",
           "Version": "3.808.0"
         },
@@ -262,6 +258,10 @@
         {
           "Id": "VirtoCommerce.ElasticSearch",
           "Version": "3.803.0"
+        },
+        {
+          "Id": "VirtoCommerce.XCMS",
+          "Version": "3.801.0"
         }
       ]
     },
