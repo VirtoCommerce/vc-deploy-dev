@@ -254,10 +254,6 @@
           "BlobName": "VirtoCommerce.AzureSearch_3.806.0-alpha.242.zip"
         },
         {
-          "Id": "VirtoCommerce.Export",
-          "BlobName": "VirtoCommerce.Export_3.803.0-alpha.236.zip"
-        },
-        {
           "Id": "VirtoCommerce.BulkActionsModule",
           "BlobName": "VirtoCommerce.BulkActionsModule_3.803.0-alpha.213.zip"
         },
@@ -280,6 +276,10 @@
         {
           "Id": "VirtoCommerce.XCMS",
           "BlobName": "VirtoCommerce.XCMS_3.802.0-alpha.9.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Export",
+          "BlobName": "VirtoCommerce.Export_3.804.0-alpha.237.zip"
         }
       ]
     }
