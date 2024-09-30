@@ -114,10 +114,6 @@
           "BlobName": "VirtoCommerce.DynamicAssociationsModule_3.804.0-alpha.151.zip"
         },
         {
-          "Id": "VirtoCommerce.Core",
-          "BlobName": "VirtoCommerce.Core_3.808.0-alpha.1620.zip"
-        },
-        {
           "Id": "VirtoCommerce.AuthorizeNetPayment",
           "BlobName": "VirtoCommerce.AuthorizeNetPayment_3.802.0-alpha.71.zip"
         },
@@ -280,6 +276,10 @@
         {
           "Id": "VirtoCommerce.AzureAD",
           "BlobName": "VirtoCommerce.AzureAD_3.802.0-alpha.37.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Core",
+          "BlobName": "VirtoCommerce.Core_3.808.0-alpha.1623.zip"
         }
       ]
     }
