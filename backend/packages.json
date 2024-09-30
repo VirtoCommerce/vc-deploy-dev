@@ -103,6 +103,10 @@
         {
           "Id": "VirtoCommerce.XCMS",
           "BlobName": "VirtoCommerce.XCMS_3.801.0-pr-3-c601.zip"
+        },
+        {
+          "Id": "VirtoCommerce.EventBus",
+          "BlobName": "VirtoCommerce.EventBus_3.804.0.zip"
         }
       ]
     },
@@ -163,10 +167,6 @@
         {
           "Id": "VirtoCommerce.CatalogPublishing",
           "Version": "3.801.0"
-        },
-        {
-          "Id": "VirtoCommerce.EventBus",
-          "Version": "3.803.0"
         },
         {
           "Id": "VirtoCommerce.Marketing",
