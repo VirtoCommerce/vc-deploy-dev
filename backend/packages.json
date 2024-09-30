@@ -154,10 +154,6 @@
           "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.817.0-alpha.237.zip"
         },
         {
-          "Id": "VirtoCommerce.ImageTools",
-          "BlobName": "VirtoCommerce.ImageTools_3.806.0-alpha.350.zip"
-        },
-        {
           "Id": "VirtoCommerce.Marketing",
           "BlobName": "VirtoCommerce.Marketing_3.812.0-alpha.853.zip"
         },
@@ -280,6 +276,10 @@
         {
           "Id": "VirtoCommerce.XCMS",
           "BlobName": "VirtoCommerce.XCMS_3.801.0-alpha.8.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ImageTools",
+          "BlobName": "VirtoCommerce.ImageTools_3.806.0-alpha.351.zip"
         }
       ]
     }
