@@ -130,10 +130,6 @@
           "BlobName": "VirtoCommerce.Skyflow_3.807.0-alpha.28.zip"
         },
         {
-          "Id": "VirtoCommerce.XCMS",
-          "BlobName": "VirtoCommerce.XCMS_3.801.0-alpha.5.zip"
-        },
-        {
           "Id": "VirtoCommerce.Notifications",
           "BlobName": "VirtoCommerce.Notifications_3.809.0-alpha.378.zip"
         },
@@ -280,6 +276,10 @@
         {
           "Id": "VirtoCommerce.FileSystemAssets",
           "BlobName": "VirtoCommerce.FileSystemAssets_3.805.0-alpha.100.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XCMS",
+          "BlobName": "VirtoCommerce.XCMS_3.801.0-alpha.8.zip"
         }
       ]
     }
