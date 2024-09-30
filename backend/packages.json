@@ -54,10 +54,6 @@
           "BlobName": "VirtoCommerce.BuilderIO_3.804.0-alpha.33.zip"
         },
         {
-          "Id": "VirtoCommerce.Export",
-          "BlobName": "VirtoCommerce.Export_3.803.0-alpha.232.zip"
-        },
-        {
           "Id": "VirtoCommerce.GDPR",
           "BlobName": "VirtoCommerce.GDPR_3.803.0-alpha.121.zip"
         },
@@ -280,6 +276,10 @@
         {
           "Id": "VirtoCommerce.ElasticSearch",
           "BlobName": "VirtoCommerce.ElasticSearch_3.803.0-alpha.253.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Export",
+          "BlobName": "VirtoCommerce.Export_3.803.0-alpha.236.zip"
         }
       ]
     }
