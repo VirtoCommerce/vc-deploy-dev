@@ -118,7 +118,7 @@
       #Authorization__RefreshTokenLifeTime: 0:30:00
       Reload: 2024-09-12
     secretConfig:
-      Search__ElasticSearch8__Key: elastic8
+      #Search__ElasticSearch8__Key: elastic8
       PushMessages__FcmSenderOptions__PrivateKey: fcm-private-key-new
       Notifications__SendGrid__ApiKey: sendgrid-apikey
       Payments__AuthorizeNet__TxnKey: authorizenet-txnkey
