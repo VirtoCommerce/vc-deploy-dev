@@ -274,12 +274,12 @@
           "BlobName": "VirtoCommerce.Search_3.805.0-alpha.749.zip"
         },
         {
-          "Id": "VirtoCommerce.EventBus",
-          "BlobName": "VirtoCommerce.EventBus_3.804.0-alpha.134.zip"
-        },
-        {
           "Id": "VirtoCommerce.AzureAD",
           "BlobName": "VirtoCommerce.AzureAD_3.803.0-alpha.38.zip"
+        },
+        {
+          "Id": "VirtoCommerce.EventBus",
+          "BlobName": "VirtoCommerce.EventBus_3.804.0-alpha.136.zip"
         }
       ]
     }
