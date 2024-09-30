@@ -60,10 +60,6 @@
           "Version": "3.801.0"
         },
         {
-          "Id": "VirtoCommerce.EventBus",
-          "Version": "3.803.0"
-        },
-        {
           "Id": "VirtoCommerce.NativePaymentMethods",
           "Version": "3.801.0"
         },
@@ -262,6 +258,10 @@
         {
           "Id": "VirtoCommerce.AzureAD",
           "Version": "3.803.0"
+        },
+        {
+          "Id": "VirtoCommerce.EventBus",
+          "Version": "3.804.0"
         }
       ]
     },
