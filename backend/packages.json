@@ -70,10 +70,6 @@
           "BlobName": "VirtoCommerce.Subscription_3.806.0-alpha.333.zip"
         },
         {
-          "Id": "VirtoCommerce.Inventory",
-          "BlobName": "VirtoCommerce.Inventory_3.805.0-alpha.459.zip"
-        },
-        {
           "Id": "VirtoCommerce.DynamicAssociationsModule",
           "BlobName": "VirtoCommerce.DynamicAssociationsModule_3.804.0-alpha.151.zip"
         },
@@ -280,6 +276,10 @@
         {
           "Id": "VirtoCommerce.CatalogPersonalization",
           "BlobName": "VirtoCommerce.CatalogPersonalization_3.803.0-alpha.253.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Inventory",
+          "BlobName": "VirtoCommerce.Inventory_3.805.0-alpha.461.zip"
         }
       ]
     }
