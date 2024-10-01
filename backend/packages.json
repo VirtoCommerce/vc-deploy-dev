@@ -74,10 +74,6 @@
           "BlobName": "VirtoCommerce.Quote_3.817.0-alpha.419.zip"
         },
         {
-          "Id": "VirtoCommerce.PushMessages",
-          "BlobName": "VirtoCommerce.PushMessages_3.811.0-alpha.40.zip"
-        },
-        {
           "Id": "VirtoCommerce.TaskManagement",
           "BlobName": "VirtoCommerce.TaskManagement_3.804.0-alpha.102.zip"
         },
@@ -280,6 +276,10 @@
         {
           "Id": "VirtoCommerce.Orders",
           "BlobName": "VirtoCommerce.Orders_3.831.0-alpha.1286.zip"
+        },
+        {
+          "Id": "VirtoCommerce.PushMessages",
+          "BlobName": "VirtoCommerce.PushMessages_3.811.0-alpha.42.zip"
         }
       ]
     }
