@@ -81,10 +81,6 @@
           "BlobName": "VirtoCommerce.LuceneSearch_3.804.0.zip"
         },
         {
-          "Id": "VirtoCommerce.Cart",
-          "BlobName": "VirtoCommerce.Cart_3.812.0.zip"
-        },
-        {
           "Id": "VirtoCommerce.Xapi",
           "BlobName": "VirtoCommerce.Xapi_3.808.0-pr-12-3744.zip"
         },
@@ -103,6 +99,10 @@
         {
           "Id": "VirtoCommerce.XCMS",
           "BlobName": "VirtoCommerce.XCMS_3.801.0-pr-3-c601.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Cart",
+          "BlobName": "VirtoCommerce.Cart_3.813.0.zip"
         }
       ]
     },
