@@ -103,6 +103,10 @@
         {
           "Id": "VirtoCommerce.XCMS",
           "BlobName": "VirtoCommerce.XCMS_3.801.0-pr-3-c601.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Notifications",
+          "BlobName": "VirtoCommerce.Notifications_3.809.0.zip"
         }
       ]
     },
@@ -243,10 +247,6 @@
         {
           "Id": "VirtoCommerce.TaskManagement",
           "Version": "3.803.0"
-        },
-        {
-          "Id": "VirtoCommerce.Notifications",
-          "Version": "3.808.0"
         },
         {
           "Id": "VirtoCommerce.AzureAD",
