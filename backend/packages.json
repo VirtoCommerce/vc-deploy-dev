@@ -103,6 +103,10 @@
         {
           "Id": "VirtoCommerce.XCMS",
           "BlobName": "VirtoCommerce.XCMS_3.801.0-pr-3-c601.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Sitemaps",
+          "BlobName": "VirtoCommerce.Sitemaps_3.808.0.zip"
         }
       ]
     },
@@ -211,10 +215,6 @@
         {
           "Id": "VirtoCommerce.AuthorizeNetPayment",
           "Version": "3.801.0"
-        },
-        {
-          "Id": "VirtoCommerce.Sitemaps",
-          "Version": "3.807.0"
         },
         {
           "Id": "VirtoCommerce.CustomerReviews",
