@@ -112,10 +112,6 @@
           "Version": "3.811.0"
         },
         {
-          "Id": "VirtoCommerce.Pricing",
-          "Version": "3.808.0"
-        },
-        {
           "Id": "VirtoCommerce.XOrder",
           "Version": "3.805.0"
         },
@@ -262,6 +258,10 @@
         {
           "Id": "VirtoCommerce.Inventory",
           "Version": "3.805.0"
+        },
+        {
+          "Id": "VirtoCommerce.Pricing",
+          "Version": "3.809.0"
         }
       ]
     },
