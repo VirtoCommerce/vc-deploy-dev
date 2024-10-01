@@ -103,6 +103,10 @@
         {
           "Id": "VirtoCommerce.XCMS",
           "BlobName": "VirtoCommerce.XCMS_3.801.0-pr-3-c601.zip"
+        },
+        {
+          "Id": "VirtoCommerce.AvalaraTax",
+          "BlobName": "VirtoCommerce.AvalaraTax_3.801.0.zip"
         }
       ]
     },
@@ -112,10 +116,6 @@
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
       "Modules": [
-        {
-          "Id": "VirtoCommerce.AvalaraTax",
-          "Version": "3.800.0"
-        },
         {
           "Id": "VirtoCommerce.PriceExportImport",
           "Version": "3.800.0"
