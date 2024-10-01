@@ -80,10 +80,6 @@
           "Version": "3.816.0"
         },
         {
-          "Id": "VirtoCommerce.Marketing",
-          "Version": "3.811.0"
-        },
-        {
           "Id": "VirtoCommerce.XOrder",
           "Version": "3.805.0"
         },
@@ -262,6 +258,10 @@
         {
           "Id": "VirtoCommerce.GDPR",
           "Version": "3.803.0"
+        },
+        {
+          "Id": "VirtoCommerce.Marketing",
+          "Version": "3.812.0"
         }
       ]
     },
