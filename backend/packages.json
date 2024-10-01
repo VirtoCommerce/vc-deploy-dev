@@ -46,10 +46,6 @@
           "BlobName": "VirtoCommerce.CatalogCsvImportModule_3.802.0-alpha.303.zip"
         },
         {
-          "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
-          "BlobName": "VirtoCommerce.GoogleEcommerceAnalytics_4.802.0-alpha.184.zip"
-        },
-        {
           "Id": "VirtoCommerce.BuilderIO",
           "BlobName": "VirtoCommerce.BuilderIO_3.804.0-alpha.33.zip"
         },
@@ -280,6 +276,10 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "BlobName": "VirtoCommerce.Catalog_3.823.0-alpha.2244.zip"
+        },
+        {
+          "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
+          "BlobName": "VirtoCommerce.GoogleEcommerceAnalytics_4.802.0-alpha.188.zip"
         }
       ]
     }
