@@ -254,10 +254,6 @@
           "BlobName": "VirtoCommerce.Export_3.804.0-alpha.237.zip"
         },
         {
-          "Id": "VirtoCommerce.LuceneSearch",
-          "BlobName": "VirtoCommerce.LuceneSearch_3.805.0-alpha.206.zip"
-        },
-        {
           "Id": "VirtoCommerce.XCMS",
           "BlobName": "VirtoCommerce.XCMS_3.801.0-alpha.8.zip"
         },
@@ -280,6 +276,10 @@
         {
           "Id": "VirtoCommerce.ImageTools",
           "BlobName": "VirtoCommerce.ImageTools_3.807.0-alpha.352.zip"
+        },
+        {
+          "Id": "VirtoCommerce.LuceneSearch",
+          "BlobName": "VirtoCommerce.LuceneSearch_3.805.0-alpha.206.zip"
         }
       ]
     }
