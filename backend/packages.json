@@ -54,10 +54,6 @@
           "BlobName": "VirtoCommerce.GDPR_3.803.0-alpha.121.zip"
         },
         {
-          "Id": "VirtoCommerce.CatalogPersonalization",
-          "BlobName": "VirtoCommerce.CatalogPersonalization_3.802.0-alpha.250.zip"
-        },
-        {
           "Id": "VirtoCommerce.CatalogPublishing",
           "BlobName": "VirtoCommerce.CatalogPublishing_3.802.0-alpha.346.zip"
         },
@@ -280,6 +276,10 @@
         {
           "Id": "VirtoCommerce.Cart",
           "BlobName": "VirtoCommerce.Cart_3.814.0-alpha.697.zip"
+        },
+        {
+          "Id": "VirtoCommerce.CatalogPersonalization",
+          "BlobName": "VirtoCommerce.CatalogPersonalization_3.802.0-alpha.252.zip"
         }
       ]
     }
