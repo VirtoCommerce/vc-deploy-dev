@@ -50,10 +50,6 @@
           "BlobName": "VirtoCommerce.GDPR_3.803.0-alpha.121.zip"
         },
         {
-          "Id": "VirtoCommerce.CatalogPublishing",
-          "BlobName": "VirtoCommerce.CatalogPublishing_3.802.0-alpha.346.zip"
-        },
-        {
           "Id": "VirtoCommerce.NativePaymentMethods",
           "BlobName": "VirtoCommerce.NativePaymentMethods_3.802.0-alpha.86.zip"
         },
@@ -280,6 +276,10 @@
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
           "BlobName": "VirtoCommerce.CatalogCsvImportModule_3.803.0-alpha.310.zip"
+        },
+        {
+          "Id": "VirtoCommerce.CatalogPublishing",
+          "BlobName": "VirtoCommerce.CatalogPublishing_3.802.0-alpha.348.zip"
         }
       ]
     }
