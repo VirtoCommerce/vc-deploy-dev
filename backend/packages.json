@@ -144,10 +144,6 @@
           "Version": "3.805.0"
         },
         {
-          "Id": "VirtoCommerce.Content",
-          "Version": "3.822.0"
-        },
-        {
           "Id": "VirtoCommerce.PageBuilderModule",
           "Version": "3.809.0"
         },
@@ -262,6 +258,10 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "Version": "3.822.0"
+        },
+        {
+          "Id": "VirtoCommerce.Content",
+          "Version": "3.823.0"
         }
       ]
     },
