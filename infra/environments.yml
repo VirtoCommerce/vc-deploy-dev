@@ -1,129 +1,30 @@
-- name: virtostart-main
-  production: false
+- name: TODO_YOUR_ENVIRONMENT_NAME
   gitops: true
-  servicePlan: S2
+  production: false
+  servicePlan: B1
   platform:
+    dbProvider: AzureSQL Database
     imageRepository: virtopaasregistrymain.azurecr.io/virtostart/platform
+    imageTag: 3.851.0-379f819a1
     sqlReplica: false
     config:
-      VirtoCommerce__LocalUploadFolderPath: wwwroot/cms-content
-      VirtoCommerce__SampleDataUrl: https://vc3prerelease.blob.core.windows.net/packages/clothing-and-electronics_3_0_2.zip
-      APPINSIGHTS_INSTRUMENTATIONKEY: 9fde4353-9a4a-4fe3-9a03-a0c80b4220ff
-      # Assets__FileSystem__PublicUrl: https://virtostart-demo-store.govirto.com/cms-content/assets/
-      AzureAd__ApplicationId: 54cefda5-2d23-4518-ac12-f55a0e1225d4
-      AzureAd__TenantId: bc03e660-5e3a-45c4-bf5c-b75489f78923
-      AzureAd__Priority: 0
-      PasswordLogin__Priority: 1
-      #Google SSO
-      GoogleSSO__Enabled: true
-      GoogleSSO__AuthenticationType: GoogleSSO
-      GoogleSSO__AuthenticationCaption: Google sign-in
-      GoogleSSO__DefaultUserType: Customer
-      GoogleSSO__UsePreferredUsername: false
-      #Default Store
-      VirtoCommerce__Stores__DefaultStore: B2B-store
-      # Return detailed error information if login failed
-      PasswordLogin__DetailedErrors: true
-      IdentityOptions__Lockout__MaxFailedAccessAttempts: 5
-      Search__Provider: ElasticAppSearch
-      Search__Scope: virtostart
-      Search__ElasticAppSearch__Endpoint: "http://enterprise-search-ent-http.elastic-system.svc.cluster.local:3002"
-      Search__ElasticAppSearch__EnableHttpCompression: "true"
-      Search__ElasticAppSearch__KibanaBaseUrl: "https://kibana-vc-02.govirto.com/"
-      Search__ElasticSearch8__Server: https://12c4e146940b4cf89bbab1a02f2cf11b.us-central1.gcp.cloud.es.io
-      Search__ElasticSearch8__User: elastic 
-      Notifications__DefaultSender: virto.start@virtoway.com
-      ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
-      Notifications__Gateway: SendGrid
-      Notifications__SmsDefaultSender: +17012510519
-      Notifications__Smtp__EnableSsl: False
-      Notifications__Smtp__Host: smtp.sendgrid.net
-      Notifications__Smtp__Login: apikey
-      Notifications__Smtp__Port: 587
-      PushNotifications__HubUrl: "http://virtostart-main-platform.virtostart.svc.cluster.local/pushNotificationHub?api_key=d4ab2590-0d7e-4a38-92ee-db425275c670"
-      Content__PathMappings__pages__0: "Themes"
-      Content__PathMappings__pages__1: "_storeId"
-      Content__PathMappings__pages__2: "_theme"
-      Content__PathMappings__pages__3: "content/pages"
-      Content__PathMappings__themes__0: "Themes"
-      Content__PathMappings__themes__1: "_storeId"
-      FileUpload__RootPath: attachments
-      FileUpload__Scopes__0__Scope: quote-attachments
-      FileUpload__Scopes__0__MaxFileSize: 10485760
-      FileUpload__Scopes__0__AllowedExtensions__0: .csv
-      FileUpload__Scopes__0__AllowedExtensions__1: .docx
-      FileUpload__Scopes__0__AllowedExtensions__2: .jpg
-      FileUpload__Scopes__0__AllowedExtensions__3: .pdf
-      FileUpload__Scopes__0__AllowedExtensions__4: .png
-      FileUpload__Scopes__0__AllowedExtensions__5: .txt
-      FileUpload__Scopes__0__AllowedExtensions__6: .xlsx
-      # Authorize.Net settings
-      Payments__AuthorizeNet__ApiLogin: 52B9X7vb4      
-      Payments__AuthorizeNet__SHA2Hash: sha2hash
-      # Skyflow settings
-      Payments__Skyflow__tokenURI: https://manage.skyflowapis.com/v1/auth/sa/oauth/token
-      Payments__Skyflow__vaultURI: https://ebfc9bee4242.vault.skyflowapis.com
-      Payments__Skyflow__gatewayURI: https://ebfc9bee4242.gateway.skyflowapis.com
-      Payments__Skyflow__vaultId: c1aeec61ad7c46c2b724f004a7658b2f
-      Payments__Skyflow__tableName: credit_cards
-      Payments__Skyflow__TargetPaymentMethod: AuthorizeNetPaymentMethod
-      Payments__Skyflow__TargetConnectionRoute: gfb5ce07e91340efac348a2df035c513/xml/v1/request.api
-      # Firebase settings
-      PushMessages__UseFirebaseCloudMessaging: true
-      PushMessages__FcmSenderOptions__Type: service_account
-      PushMessages__FcmSenderOptions__ProjectId: virto-start
-      PushMessages__FcmSenderOptions__PrivateKeyId: 489fa58336f29dd62103179969e9f336066b706b 
-      PushMessages__FcmSenderOptions__ClientEmail: firebase-adminsdk-zyqdm@virto-start.iam.gserviceaccount.com
-      PushMessages__FcmSenderOptions__ClientId: 109623620724725484090
-      PushMessages__FcmSenderOptions__AuthUri: https://accounts.google.com/o/oauth2/auth
-      PushMessages__FcmSenderOptions__TokenUri: https://oauth2.googleapis.com/token
-      PushMessages__FcmSenderOptions__AuthProviderX509CertUrl: https://www.googleapis.com/oauth2/v1/certs
-      PushMessages__FcmSenderOptions__ClientX509CertUrl: https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-zyqdm%40virto-start.iam.gserviceaccount.com
-      PushMessages__FcmSenderOptions__UniverseDomain: googleapis.com
-      PushMessages__FcmReceiverOptions__ApiKey: AIzaSyCepXqq6j8dT4_KsbDuQDb9Etgs3LZxeEc
-      PushMessages__FcmReceiverOptions__AuthDomain: virto-start.firebaseapp.com
-      PushMessages__FcmReceiverOptions__ProjectId: virto-start
-      PushMessages__FcmReceiverOptions__StorageBucket: virto-start.appspot.com
-      PushMessages__FcmReceiverOptions__MessagingSenderId: 691497305246
-      PushMessages__FcmReceiverOptions__AppId: 1:691497305246:web:d7a9cfead5daac661d678f
-      PushMessages__FcmReceiverOptions__VapidKey: BBZaEhlEb6fcpLMxGC2ylQH2eQWTx4n6kZDWcrGebQjJiMr8w_3nF5U8zspbE_eeCV6YoFNyv7IrNLspmToBcjE
-      Reload: 2024-09-03
-    secretConfig:
-      Notifications__SendGrid__ApiKey: sendkey
-      Payments__AuthorizeNet__TxnKey: authorizenet-txnkey-vs
-      Payments__Skyflow__PaymentFormAccount__clientID: skyflow-paymentformaccount-clientid
-      Payments__Skyflow__PaymentFormAccount__keyID: skyflow-paymentformaccount-keyid
-      Payments__Skyflow__PaymentFormAccount__privateKey: skyflow-paymentformaccount-privatekey
-      Payments__Skyflow__IntegrationsAccount__clientID: skyflow-integrationsaccount-clientid
-      Payments__Skyflow__IntegrationsAccount__keyID: skyflow-integrationsaccount-keyid
-      Payments__Skyflow__IntegrationsAccount__privateKey: skyflow-integrationsaccount-privatekey
-      PushMessages__FcmSenderOptions__PrivateKey: fcm-private-key-new
-      Search__ElasticAppSearch__PrivateApiKey: elasticappsearchprivateapikey
-      Search__ElasticSearch8__Key: elasticsearch8key
-      GoogleSSO__ApplicationId: googlesso-applicationid
-      GoogleSSO__Secret: googlesso-secret     
-    databases: {}
+      APPINSIGHTS_INSTRUMENTATIONKEY: 26f3faa1-f3fb-4bd4-aff4-89d7241cf249
+      reboot: 3
   storefront:
     enabled: false
+    imageRepository: virtopaasregistrymain.azurecr.io/virtostart/storefront
+    imageTag: 6.0
     themes:
-      B2B-store: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/2.5.0/vc-theme-b2b-vue-2.5.0.zip
-  frontend:
-     - name: B2B-store
-       prerender: true
-  ingress:
-    config: >-
-      add_header 'Access-Control-Allow-Origin' '*';
-      add_header 'Access-Control-Allow-Headers' 'Content-Type';
-      add_header 'Access-Control-Allow-Methods' 'GET,POST,PUT,DELETE,OPTIONS';
-      add_header 'Access-Control-Allow-Credentials' 'true';
-    hostnames:
-      name1: virtostart-demo-admin.govirto.com
-    # storefrontHostnames:
-    #   name1: virtostart-demo-store.govirto.com
-  customApps: {}
+      TODO_YOUR_STORE_ID: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/2.5.0/vc-theme-b2b-vue-2.5.0.zip
+  ingress: {}
+  customApps:
+    app1:
+      enabled: false
+    app2:
+      enabled: false
   routes:
-  - host: virtostart-demo-store.govirto.com
-    root: B2B-store
+  - host: TODO_YOUR_FRONTEND_HOSTNAME
+    root: TODO_YOUR_STORE_ID
     paths:
     - path: /xapi
       route: platform
@@ -143,7 +44,4 @@
       route: platform
     - path: /signin-google
       route: platform
-  protectedParameters:
-   - platform.image.tag
-  version: 3.207
-
+  version: 3.219
