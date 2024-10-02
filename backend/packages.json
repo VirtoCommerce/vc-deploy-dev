@@ -32,10 +32,6 @@
           "Version": "3.801.0"
         },
         {
-          "Id": "VirtoCommerce.Return",
-          "Version": "3.803.0"
-        },
-        {
           "Id": "VirtoCommerce.Subscription",
           "Version": "3.805.0"
         },
@@ -262,6 +258,10 @@
         {
           "Id": "VirtoCommerce.Marketing",
           "Version": "3.812.0"
+        },
+        {
+          "Id": "VirtoCommerce.Return",
+          "Version": "3.804.0"
         }
       ]
     },
