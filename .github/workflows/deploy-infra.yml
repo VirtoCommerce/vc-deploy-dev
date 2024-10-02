@@ -24,4 +24,4 @@ jobs:
       run: |
         vc-build CloudEnvUpdate -Manifest $ENV_FILE -CloudToken ${{ secrets.VIRTOSTART_PLATFORM_TOKEN }}
       env:
-        ENV_FILE: './infra/environments.yml'
+        ENV_FILE: './infra/environment.yml'

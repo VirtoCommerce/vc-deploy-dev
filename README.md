@@ -13,7 +13,7 @@ Initial GitOps template for Virto Cloud.
 	* **packages.json** - defines version of Virto Commerce Platform and modules.
 	* **Dockerfile** - Dockerfile for Virto Commerce Platform deployment.
 * **infra** - declarative description of Virto Cloud infrastructure deployment.
-	* environments.yml
+	* environment.yml
 	
 
 ## How to use
@@ -36,9 +36,9 @@ Initial GitOps template for Virto Cloud.
 1. Download environment manifest from Virto Cloud and put it to the **infra** folder.
 
 If you use environment.yml from this repository, you need to replace the following placeholders:
-1. Replace TODO_YOUR_ENVIRONMENT_NAME with your environment name in the **environments.yml** file.
-1. Replace TODO_YOUR_FRONTEND_HOSTNAME with your frontend hostname in the **environments.yml** file.
-1. Replace TODO_YOUR_STORE_ID with your store id in the **environments.yml** file.
+1. Replace TODO_YOUR_ENVIRONMENT_NAME with your environment name in the **environment.yml** file.
+1. Replace TODO_YOUR_FRONTEND_HOSTNAME with your frontend hostname in the **environment.yml** file.
+1. Replace TODO_YOUR_STORE_ID with your store id in the **environment.yml** file.
 
 ### Virto Commerce Platform deployment
 1. Update **packages.json** file with the required version of Virto Commerce Platform and modules.
