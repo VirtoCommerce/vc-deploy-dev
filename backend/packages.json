@@ -274,12 +274,12 @@
           "BlobName": "VirtoCommerce.XCatalog_3.814.0-alpha.36.zip"
         },
         {
-          "Id": "VirtoCommerce.XCart",
-          "BlobName": "VirtoCommerce.XCart_3.808.0-alpha.25.zip"
-        },
-        {
           "Id": "VirtoCommerce.AuthorizeNetPayment",
           "BlobName": "VirtoCommerce.AuthorizeNetPayment_3.803.0-alpha.74.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XCart",
+          "BlobName": "VirtoCommerce.XCart_3.809.0-alpha.26.zip"
         }
       ]
     }
