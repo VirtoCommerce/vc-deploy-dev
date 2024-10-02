@@ -103,6 +103,10 @@
         {
           "Id": "VirtoCommerce.XCMS",
           "BlobName": "VirtoCommerce.XCMS_3.801.0-pr-3-c601.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Subscription",
+          "BlobName": "VirtoCommerce.Subscription_3.806.0.zip"
         }
       ]
     },
@@ -195,10 +199,6 @@
         {
           "Id": "VirtoCommerce.WebHooks",
           "Version": "3.804.0"
-        },
-        {
-          "Id": "VirtoCommerce.Subscription",
-          "Version": "3.805.0"
         },
         {
           "Id": "VirtoCommerce.Inventory",
