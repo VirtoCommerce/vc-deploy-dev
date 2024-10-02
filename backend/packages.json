@@ -78,10 +78,6 @@
           "BlobName": "VirtoCommerce.PageBuilderModule_3.810.0-alpha.586.zip"
         },
         {
-          "Id": "VirtoCommerce.XCart",
-          "BlobName": "VirtoCommerce.XCart_3.808.0-alpha.24.zip"
-        },
-        {
           "Id": "VirtoCommerce.OpenIdConnectModule",
           "BlobName": "VirtoCommerce.OpenIdConnectModule_3.800.0-alpha.11.zip"
         },
@@ -280,6 +276,10 @@
         {
           "Id": "VirtoCommerce.XCatalog",
           "BlobName": "VirtoCommerce.XCatalog_3.814.0-alpha.36.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XCart",
+          "BlobName": "VirtoCommerce.XCart_3.808.0-alpha.25.zip"
         }
       ]
     }
