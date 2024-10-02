@@ -107,6 +107,10 @@
         {
           "Id": "VirtoCommerce.CustomerReviews",
           "BlobName": "VirtoCommerce.CustomerReviews_3.806.0-pr-63-5469.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ProfileExperienceApiModule",
+          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.817.0.zip"
         }
       ]
     },
@@ -259,10 +263,6 @@
         {
           "Id": "VirtoCommerce.ImageTools",
           "Version": "3.805.0"
-        },
-        {
-          "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.816.0"
         },
         {
           "Id": "VirtoCommerce.Pricing",
