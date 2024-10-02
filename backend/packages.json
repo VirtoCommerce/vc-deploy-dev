@@ -118,10 +118,6 @@
           "BlobName": "VirtoCommerce.BulkActionsModule_3.803.0-alpha.213.zip"
         },
         {
-          "Id": "VirtoCommerce.ElasticSearch",
-          "BlobName": "VirtoCommerce.ElasticSearch_3.804.0-alpha.254.zip"
-        },
-        {
           "Id": "VirtoCommerce.Export",
           "BlobName": "VirtoCommerce.Export_3.804.0-alpha.237.zip"
         },
@@ -280,6 +276,10 @@
         {
           "Id": "VirtoCommerce.ApplicationInsights",
           "BlobName": "VirtoCommerce.ApplicationInsights_3.802.0-alpha.14.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ElasticSearch",
+          "BlobName": "VirtoCommerce.ElasticSearch_3.804.0-alpha.254.zip"
         }
       ]
     }
