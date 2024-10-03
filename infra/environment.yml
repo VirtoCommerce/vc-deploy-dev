@@ -5,15 +5,12 @@
   platform:
     dbProvider: AzureSQL Database
     imageRepository: virtopaasregistrymain.azurecr.io/virtostart/platform
-    imageTag: 3.851.0-379f819a1
     sqlReplica: false
     config:
       APPINSIGHTS_INSTRUMENTATIONKEY: 26f3faa1-f3fb-4bd4-aff4-89d7241cf249
       reboot: 3
   storefront:
     enabled: false
-    imageRepository: virtopaasregistrymain.azurecr.io/virtostart/storefront
-    imageTag: 6.0
     themes:
       TODO_YOUR_STORE_ID: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/2.5.0/vc-theme-b2b-vue-2.5.0.zip
   ingress: {}
@@ -44,4 +41,6 @@
       route: platform
     - path: /signin-google
       route: platform
+  protectedParameters:
+   - platform.image.tag      
   version: 3.219
