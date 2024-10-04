@@ -95,7 +95,7 @@
       Search__ElasticAppSearch__PrivateApiKey: elasticappsearch
       Notifications__Smtp__Password: smtppasswordyandex
   storefront:
-    enabled: true
+    enabled: false
     servicePlan: B1
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/storefront
     imageTag: 8.2.0-master-5d02a6de
@@ -116,4 +116,31 @@
       enabled: false
     app2:
       enabled: false
-  version: 3.208
+  routes:
+  - host: vcptcore-regression-storefront.govirto.com
+    root: B2B-store
+    paths:
+    - path: /xapi
+      route: platform
+    - path: /files
+      route: platform
+    - path: /connect/token
+      route: platform
+    - path: /graphql
+      route: platform
+    - path: /revoke/token
+      route: platform
+    - path: /api/files
+      route: platform
+    - path: /externalsignin
+      route: platform
+    - path: /signin-oidc
+      route: platform
+    - path: /signin-google
+      route: platform
+  protectedParameters:
+    - platform.image.tag
+    #- storefront.image.tag
+    - themes.B2B-store
+    - custom.app1.image.tag
+  version: 3.211
