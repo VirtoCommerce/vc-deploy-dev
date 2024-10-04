@@ -182,10 +182,6 @@
           "BlobName": "VirtoCommerce.Sitemaps_3.809.0-alpha.356.zip"
         },
         {
-          "Id": "VirtoCommerce.Xapi",
-          "BlobName": "VirtoCommerce.Xapi_3.810.0-alpha.42.zip"
-        },
-        {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
           "BlobName": "VirtoCommerce.CatalogCsvImportModule_3.803.0-alpha.310.zip"
         },
@@ -280,6 +276,10 @@
         {
           "Id": "VirtoCommerce.XCatalog",
           "BlobName": "VirtoCommerce.XCatalog_3.815.0-alpha.38.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Xapi",
+          "BlobName": "VirtoCommerce.Xapi_3.810.0-alpha.43.zip"
         }
       ]
     }
