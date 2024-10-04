@@ -3,6 +3,7 @@
   production: false
   servicePlan: P2
   platform:
+    dbName: vcptcore-regress
     #dbProvider: Azure Database for PostgreSQL
     #imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
     #imageTag: 3.832.0-70251d1
