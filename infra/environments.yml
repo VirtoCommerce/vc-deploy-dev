@@ -31,9 +31,9 @@
       Search__AzureSearch__Key: 6BE1143312E89C26C227E6BBAE24DD47
       Search__AzureSearch__QueryParserType: Full
       Search__AzureSearch__Endpoint: https://qa-demovc-3-search.search.windows.net
-      Search__ElasticSearch8__Server: "https://9ee71e924ebd4bf7808b9a239417301f.westus2.azure.elastic-cloud.com:443"
-      Search__ElasticSearch8__User: "elastic"
-      Search__ElasticSearch8__Key: "4dy4GASkk72r8MEYA9f2Y85U"
+      #Search__ElasticSearch8__Server: "https://9ee71e924ebd4bf7808b9a239417301f.westus2.azure.elastic-cloud.com:443"
+      #Search__ElasticSearch8__User: "elastic"
+      #Search__ElasticSearch8__Key: "4dy4GASkk72r8MEYA9f2Y85U"
       Content__FileSystem__PublicUrl: https://vcptcore-regression.govirto.com/cms-content/
       Assets__FileSystem__PublicUrl: https://vcptcore-regression.govirto.com/cms-content/assets/
       Assets__Provider: FileSystem
@@ -96,7 +96,7 @@
       Notifications__Smtp__Password: smtppasswordyandex
   storefront:
     enabled: true
-    servicePlan: F1
+    servicePlan: B1
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/storefront
     imageTag: 8.2.0-master-5d02a6de
     config:
