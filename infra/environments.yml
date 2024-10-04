@@ -35,7 +35,7 @@
       Content__PathMappings__blogs__1: _storeId
       Content__PathMappings__blogs__2: blogs
       DOTNET_USE_POLLING_FILE_WATCHER: true
-      Search__Provider: ElasticSearch8
+      Search__Provider: ElasticSearch
       #Search__Scope: default
       Search__Lucene__Path: /path/to/lucene/indexes
       Search__AzureSearch__SearchServiceName: qa-demovc-3-search
