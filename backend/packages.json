@@ -236,10 +236,6 @@
           "Version": "3.802.0"
         },
         {
-          "Id": "VirtoCommerce.XCatalog",
-          "Version": "3.813.0"
-        },
-        {
           "Id": "VirtoCommerce.AuthorizeNetPayment",
           "Version": "3.802.0"
         },
@@ -266,6 +262,10 @@
         {
           "Id": "VirtoCommerce.GoogleSSO",
           "Version": "3.801.0"
+        },
+        {
+          "Id": "VirtoCommerce.XCatalog",
+          "Version": "3.814.0"
         }
       ]
     },
