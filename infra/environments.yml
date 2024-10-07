@@ -1,7 +1,7 @@
 - name: vcptcore-stable
   gitops: true
   production: false
-  servicePlan: S2
+  servicePlan: B1
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
     imageTag: 3.293.34-b364d89
