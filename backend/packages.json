@@ -111,6 +111,10 @@
         {
           "Id": "VirtoCommerce.GoogleSSO",
           "BlobName": "VirtoCommerce.GoogleSSO_3.801.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Notifications",
+          "BlobName": "VirtoCommerce.Notifications_3.810.0-pr-163-31b5.zip"
         }
       ]
     },
@@ -247,10 +251,6 @@
         {
           "Id": "VirtoCommerce.TaskManagement",
           "Version": "3.803.0"
-        },
-        {
-          "Id": "VirtoCommerce.Notifications",
-          "Version": "3.809.0"
         },
         {
           "Id": "VirtoCommerce.AzureAD",
