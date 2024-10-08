@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.851.0",
+  "PlatformVersion": "3.854.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.851.0",
+  "PlatformImageTag": "3.854.0",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -20,13 +20,7 @@
           "BlobName": "VirtoCommerce.XRecommend_3.804.0-pr-7-7bdf.zip"
         },
         {
-          "BlobName": "VirtoCommerce.XCatalog_3.808.0-pr-13-f4f2.zip"
-        },
-        {
           "BlobName": "VirtoCommerce.CustomerReviews_3.807.0-pr-64-90df.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.Xapi_3.805.0-pr-10-b4bc.zip"
         }
       ]
     },
@@ -190,7 +184,7 @@
         },
         {
           "Id": "VirtoCommerce.Notifications",
-          "Version": "3.808.0"
+          "Version": "3.809.0"
         },
         {
           "Id": "VirtoCommerce.AzureAD",
@@ -198,7 +192,7 @@
         },
         {
           "Id": "VirtoCommerce.Store",
-          "Version": "3.807.0"
+          "Version": "3.809.0"
         },
         {
           "Id": "VirtoCommerce.CustomerExportImport",
@@ -214,7 +208,7 @@
         },
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.816.0"
+          "Version": "3.817.0"
         },
         {
           "Id": "VirtoCommerce.ImageTools",
@@ -234,7 +228,7 @@
         },
         {
           "Id": "VirtoCommerce.Catalog",
-          "Version": "3.817.0"
+          "Version": "3.822.0"
         },
         {
           "Id": "VirtoCommerce.Content",
@@ -242,7 +236,7 @@
         },
         {
           "Id": "VirtoCommerce.Customer",
-          "Version": "3.814.0"
+          "Version": "3.817.0"
         },
         {
           "Id": "VirtoCommerce.XCart",
@@ -262,11 +256,19 @@
         },
         {
           "Id": "VirtoCommerce.Orders",
-          "Version": "3.826.0"
+          "Version": "3.830.0"
         },
         {
           "Id": "VirtoCommerce.Pricing",
           "Version": "3.808.0"
+        },
+        {
+          "Id": "VirtoCommerce.Xapi",
+          "Version": "3.809.0"
+        },
+        {
+          "Id": "VirtoCommerce.XCatalog",
+          "Version": "3.813.0"
         }
       ]
     }
