@@ -115,6 +115,10 @@
         {
           "Id": "VirtoCommerce.Notifications",
           "BlobName": "VirtoCommerce.Notifications_3.810.0-pr-163-020d.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Pricing",
+          "BlobName": "VirtoCommerce.Pricing_3.810.0-pr-213-3a8a.zip"
         }
       ]
     },
@@ -267,10 +271,6 @@
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "Version": "3.817.0"
-        },
-        {
-          "Id": "VirtoCommerce.Pricing",
-          "Version": "3.809.0"
         },
         {
           "Id": "VirtoCommerce.MarketingExperienceApi",
