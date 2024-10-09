@@ -46,10 +46,6 @@
           "BlobName": "VirtoCommerce.TaskManagement_3.804.0-alpha.102.zip"
         },
         {
-          "Id": "VirtoCommerce.Skyflow",
-          "BlobName": "VirtoCommerce.Skyflow_3.807.0-alpha.28.zip"
-        },
-        {
           "Id": "VirtoCommerce.CustomerExportImport",
           "BlobName": "VirtoCommerce.CustomerExportImport_3.808.0-alpha.168.zip"
         },
@@ -280,6 +276,10 @@
         {
           "Id": "VirtoCommerce.Inventory",
           "BlobName": "VirtoCommerce.Inventory_3.807.0-alpha.464.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Skyflow",
+          "BlobName": "VirtoCommerce.Skyflow_3.807.0-alpha.30.zip"
         }
       ]
     }
