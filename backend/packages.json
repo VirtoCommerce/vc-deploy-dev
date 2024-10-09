@@ -250,10 +250,6 @@
           "BlobName": "VirtoCommerce.Export_3.804.0-alpha.237.zip"
         },
         {
-          "Id": "VirtoCommerce.ElasticSearch8",
-          "BlobName": "VirtoCommerce.ElasticSearch8_3.811.0-alpha.100.zip"
-        },
-        {
           "Id": "VirtoCommerce.GoogleSSO",
           "BlobName": "VirtoCommerce.GoogleSSO_3.802.0-alpha.14.zip"
         },
@@ -280,6 +276,10 @@
         {
           "Id": "VirtoCommerce.Skyflow",
           "BlobName": "VirtoCommerce.Skyflow_3.808.0-alpha.31.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ElasticSearch8",
+          "BlobName": "VirtoCommerce.ElasticSearch8_3.811.0-alpha.101.zip"
         }
       ]
     }
