@@ -113,16 +113,16 @@
           "BlobName": "VirtoCommerce.GoogleSSO_3.801.0.zip"
         },
         {
-          "Id": "VirtoCommerce.Notifications",
-          "BlobName": "VirtoCommerce.Notifications_3.810.0-pr-162-c09e.zip"
-        },
-        {
           "Id": "VirtoCommerce.Pricing",
           "BlobName": "VirtoCommerce.Pricing_3.810.0-pr-213-8aa3.zip"
         },
         {
           "Id": "VirtoCommerce.Inventory",
           "BlobName": "VirtoCommerce.Inventory_3.806.0-pr-142-39a7.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Notifications",
+          "BlobName": "VirtoCommerce.Notifications_3.810.0.zip"
         }
       ]
     },
