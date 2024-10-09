@@ -123,6 +123,10 @@
         {
           "Id": "VirtoCommerce.Inventory",
           "BlobName": "VirtoCommerce.Inventory_3.806.0-pr-142-39a7.zip"
+        },
+        {
+          "Id": "VirtoCommerce.CustomerExportImport",
+          "BlobName": "VirtoCommerce.CustomerExportImport_3.808.0-pr-97-1245.zip"
         }
       ]
     },
@@ -259,10 +263,6 @@
         {
           "Id": "VirtoCommerce.AzureAD",
           "Version": "3.803.0"
-        },
-        {
-          "Id": "VirtoCommerce.CustomerExportImport",
-          "Version": "3.807.0"
         },
         {
           "Id": "VirtoCommerce.ImageTools",
