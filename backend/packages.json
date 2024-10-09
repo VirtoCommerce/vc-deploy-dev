@@ -119,6 +119,10 @@
         {
           "Id": "VirtoCommerce.Pricing",
           "BlobName": "VirtoCommerce.Pricing_3.810.0-pr-213-3a8a.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Inventory",
+          "Version": "VirtoCommerce.Inventory_3.806.0-pr-142-39a7.zip"
         }
       ]
     },
@@ -215,10 +219,6 @@
         {
           "Id": "VirtoCommerce.Subscription",
           "Version": "3.806.0"
-        },
-        {
-          "Id": "VirtoCommerce.Inventory",
-          "Version": "3.805.0"
         },
         {
           "Id": "VirtoCommerce.DynamicAssociationsModule",
