@@ -56,10 +56,6 @@
           "Version": "3.803.0"
         },
         {
-          "Id": "VirtoCommerce.PageBuilderModule",
-          "Version": "3.809.0"
-        },
-        {
           "Id": "VirtoCommerce.XRecommend",
           "Version": "3.804.0"
         },
@@ -273,7 +269,12 @@
       "Name": "AzureBlob",
       "Container": "packages",
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
-      "Modules": []
+      "Modules": [
+        {
+          "Id": "VirtoCommerce.PageBuilderModule",
+          "BlobName": "VirtoCommerce.PageBuilderModule_3.809.0.zip"
+        }
+]
     }
   ]
 }
