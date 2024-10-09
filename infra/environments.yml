@@ -7,7 +7,7 @@
     sqlReplica: false
     config:
       # Increment to force environment reload
-      reload: 4
+      reload: 7
       # Application Insights settings
       APPINSIGHTS_INSTRUMENTATIONKEY: ef0125aa-1c8e-42d3-964f-d0a11256309d      
       # Forward headers to Nginx
@@ -81,7 +81,7 @@
       IdentityOptions__User__MaxPasswordAge: 90
       IdentityOptions__User__RemindPasswordExpiryInDay: 7      
       # Authorize.Net settings
-      Payments__AuthorizeNet__ApiLogin: 52B9X7vb4  
+      Payments__AuthorizeNet__ApiLogin: 52B9X7vb4
       # Skyflow settings
       Payments__Skyflow__tokenURI: https://manage.skyflowapis.com/v1/auth/sa/oauth/token
       Payments__Skyflow__vaultURI: https://ebfc9bee4242.vault.skyflowapis.com
@@ -102,8 +102,8 @@
       Search__ElasticSearch__Server: https://elasticsearch-vc03.govirto.com
       Search__ElasticSearch__EnableCompatibilityMode: true
       # Elastic Search 8
-      Search__ElasticSearch8__Server: https://1714126b27f941cb82f2c0e0d242d6b4.eastus2.azure.elastic-cloud.com
-      Search__ElasticSearch8__User: elastic
+      #Search__ElasticSearch8__Server: https://1714126b27f941cb82f2c0e0d242d6b4.eastus2.azure.elastic-cloud.com
+      #Search__ElasticSearch8__User: elastic
       # VirtoCommerce Search settings
       Search__Provider: ElasticSearch8     
       # Prevent Hangfire duplication key error
@@ -116,9 +116,12 @@
       # Temporary settings below
       Authorization__AccessTokenLifeTime: 00:30:00
       #Authorization__RefreshTokenLifeTime: 0:30:00
+      # Avalara Tax
+      Tax__Avalara__AccountNumber: 2000188799
+      Tax__Avalara__LicenseKey: 16BC3F87E836E15C
       Reload: 2024-09-12
     secretConfig:
-      Search__ElasticSearch8__Key: elastic8
+      #Search__ElasticSearch8__Key: elastic8
       PushMessages__FcmSenderOptions__PrivateKey: fcm-private-key-new
       Notifications__SendGrid__ApiKey: sendgrid-apikey
       Payments__AuthorizeNet__TxnKey: authorizenet-txnkey
