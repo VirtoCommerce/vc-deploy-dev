@@ -40,10 +40,6 @@
           "Version": "3.816.0"
         },
         {
-          "Id": "VirtoCommerce.Skyflow",
-          "Version": "3.806.0"
-        },
-        {
           "Id": "VirtoCommerce.TaskManagement",
           "Version": "3.803.0"
         },
@@ -262,6 +258,10 @@
         {
           "Id": "VirtoCommerce.Inventory",
           "Version": "3.806.0"
+        },
+        {
+          "Id": "VirtoCommerce.Skyflow",
+          "Version": "3.807.0"
         }
       ]
     },
@@ -274,7 +274,7 @@
           "Id": "VirtoCommerce.PageBuilderModule",
           "BlobName": "VirtoCommerce.PageBuilderModule_3.809.0.zip"
         }
-]
+      ]
     }
   ]
 }
