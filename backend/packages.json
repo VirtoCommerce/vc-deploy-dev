@@ -69,10 +69,6 @@
           "BlobName": "VirtoCommerce.XCart_3.809.0-pr-12-5a32.zip"
         },
         {
-          "Id": "VirtoCommerce.Customer",
-          "BlobName": "VirtoCommerce.Customer_3.818.0-pr-254-fcb4.zip"
-        },
-        {
           "Id": "VirtoCommerce.AuditLog",
           "BlobName": "VirtoCommerce.AuditLog_3.808.0-pr-8-d70c.zip"
         },
@@ -127,6 +123,10 @@
         {
           "Id": "VirtoCommerce.CustomerExportImport",
           "BlobName": "VirtoCommerce.CustomerExportImport_3.808.0-pr-97-1245.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Customer",
+          "BlobName": "VirtoCommerce.Customer_3.818.0.zip"
         }
       ]
     },
