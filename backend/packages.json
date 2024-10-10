@@ -17,7 +17,10 @@
           "BlobName": "VirtoCommerce.PageBuilderModule_3.811.0-alpha.596.zip"
         },
         {
-          "BlobName": "VirtoCommerce.CustomerReviews_3.807.0-pr-64-90df.zip"
+          "BlobName": "VirtoCommerce.CustomerReviews_3.807.0-pr-64-98d1.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Orders_3.831.0-pr-434-2b4e.zip"
         }
       ]
     },
@@ -206,10 +209,6 @@
         {
           "Id": "VirtoCommerce.Contracts",
           "Version": "3.804.0"
-        },
-        {
-          "Id": "VirtoCommerce.Orders",
-          "Version": "3.830.0"
         },
         {
           "Id": "VirtoCommerce.PushMessages",
