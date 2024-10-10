@@ -46,10 +46,6 @@
           "BlobName": "VirtoCommerce.TaskManagement_3.804.0-alpha.102.zip"
         },
         {
-          "Id": "VirtoCommerce.CustomerExportImport",
-          "BlobName": "VirtoCommerce.CustomerExportImport_3.808.0-alpha.168.zip"
-        },
-        {
           "Id": "VirtoCommerce.WhiteLabeling",
           "BlobName": "VirtoCommerce.WhiteLabeling_3.804.0-alpha.18.zip"
         },
@@ -280,6 +276,10 @@
         {
           "Id": "VirtoCommerce.Customer",
           "BlobName": "VirtoCommerce.Customer_3.819.0-alpha.856.zip"
+        },
+        {
+          "Id": "VirtoCommerce.CustomerExportImport",
+          "BlobName": "VirtoCommerce.CustomerExportImport_3.808.0-alpha.170.zip"
         }
       ]
     }
