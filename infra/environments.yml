@@ -100,11 +100,11 @@
       Google__Enabled: true
       Google__AuthenticationType: Google
       Google__AuthenticationCaption: Google
-      Google__ClientId: 995027985115-qijocrsde8stfmf0d56dv2vjb4lkgfjc.apps.googleusercontent.com
-      Google__ClientSecret: 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
-      Google__DefaultUserType: Manager
-      GoogleSSO__ApplicationId: googlesso-aplicationid
-      GoogleSSO__Secret: googlesso-secret 
+
+      GoogleSSO__Enabled: true
+      GoogleSSO__ApplicationId:  995027985115-qijocrsde8stfmf0d56dv2vjb4lkgfjc.apps.googleusercontent.com
+      GoogleSSO__Secret: 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 
+      GoogleSSO__Priority: 2
       AzureAd__Enabled: true
       AzureAd__Priority: 1
       AzureAd__ApplicationId: 86d04c35-143d-4d3c-aea2-8608e2186282
