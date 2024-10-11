@@ -65,10 +65,6 @@
           "BlobName": "VirtoCommerce.Orders_3.830.0.zip"
         },
         {
-          "Id": "VirtoCommerce.XCart",
-          "BlobName": "VirtoCommerce.XCart_3.809.0-pr-12-5a32.zip"
-        },
-        {
           "Id": "VirtoCommerce.Customer",
           "BlobName": "VirtoCommerce.Customer_3.819.0-pr-255-14c7.zip"
         },
@@ -131,6 +127,10 @@
         {
           "Id": "VirtoCommerce.AzureAD",
           "BlobName": "VirtoCommerce.AzureAD_3.804.0-pr-7-5d0a.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XCart",
+          "BlobName": "VirtoCommerce.XCart_3.809.0.zip"
         }
       ]
     },
