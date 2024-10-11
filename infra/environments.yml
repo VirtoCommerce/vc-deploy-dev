@@ -100,8 +100,8 @@
       Google__Enabled: true
       Google__AuthenticationType: Google
       Google__AuthenticationCaption: Google
-      Google__ClientId: abc
-      Google__ClientSecret: abc
+      Google__ClientId: 995027985115-qijocrsde8stfmf0d56dv2vjb4lkgfjc.apps.googleusercontent.com
+      Google__ClientSecret: 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
       Google__DefaultUserType: Manager
       AzureAd__Enabled: true
       AzureAd__Priority: 1
