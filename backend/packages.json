@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.853.0",
+  "PlatformVersion": "3.854.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.853.0",
+  "PlatformImageTag": "3.854.0",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -30,7 +30,7 @@
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
       "Modules": [
-        {
+   {
           "Id": "VirtoCommerce.PriceExportImport",
           "Version": "3.800.0"
         },
@@ -57,6 +57,10 @@
         {
           "Id": "VirtoCommerce.Quote",
           "Version": "3.816.0"
+        },
+        {
+          "Id": "VirtoCommerce.Skyflow",
+          "Version": "3.806.0"
         },
         {
           "Id": "VirtoCommerce.TaskManagement",
@@ -88,7 +92,7 @@
         },
         {
           "Id": "VirtoCommerce.AzureAD",
-          "Version": "3.801.0"
+          "Version": "3.803.0"
         },
         {
           "Id": "VirtoCommerce.EventBus",
@@ -139,6 +143,10 @@
           "Version": "3.805.0"
         },
         {
+          "Id": "VirtoCommerce.Notifications",
+          "Version": "3.809.0"
+        },
+        {
           "Id": "VirtoCommerce.Store",
           "Version": "3.809.0"
         },
@@ -177,6 +185,10 @@
         {
           "Id": "VirtoCommerce.CatalogPersonalization",
           "Version": "3.802.0"
+        },
+        {
+          "Id": "VirtoCommerce.Inventory",
+          "Version": "3.805.0"
         },
         {
           "Id": "VirtoCommerce.Pricing",
@@ -247,8 +259,12 @@
           "Version": "3.817.0"
         },
         {
+          "Id": "VirtoCommerce.ElasticSearch8",
+          "Version": "3.810.0"
+        },
+        {
           "Id": "VirtoCommerce.GoogleSSO",
-          "Version": "3.800.0"
+          "Version": "3.801.0"
         },
         {
           "Id": "VirtoCommerce.XCatalog",
@@ -256,23 +272,7 @@
         },
         {
           "Id": "VirtoCommerce.Xapi",
-          "Version": "3.810.0"
-        },
-        {
-          "Id": "VirtoCommerce.Inventory",
-          "Version": "3.806.0"
-        },
-        {
-          "Id": "VirtoCommerce.Skyflow",
-          "Version": "3.807.0"
-        },
-        {
-          "Id": "VirtoCommerce.ElasticSearch8",
-          "Version": "3.811.0"
-        },
-        {
-          "Id": "VirtoCommerce.Notifications",
-          "Version": "3.811.0"
+          "Version": "3.809.0"
         }
       ]
     }
