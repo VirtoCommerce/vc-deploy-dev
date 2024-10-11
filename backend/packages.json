@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.855.0-pr-2842-adf2-vcst-1592-adf2df25",
+  "PlatformVersion": "3.856.0-pr-2843-f16a-vcst-1592-f16ad276",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.855.0-pr-2842-adf2-vcst-1592-adf2df25",
+  "PlatformImageTag": "3.856.0-pr-2843-f16a-vcst-1592-f16ad276",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -110,7 +110,7 @@
         },
         {
           "Id": "VirtoCommerce.GoogleSSO",
-          "BlobName": "VirtoCommerce.GoogleSSO_3.801.0.zip"
+          "BlobName": "VirtoCommerce.GoogleSSO_3.802.0-pr-2-03aa.zip"
         },
         {
           "Id": "VirtoCommerce.Notifications",
@@ -127,6 +127,10 @@
         {
           "Id": "VirtoCommerce.CustomerExportImport",
           "BlobName": "VirtoCommerce.CustomerExportImport_3.808.0-pr-97-1245.zip"
+        },
+        {
+          "Id": "VirtoCommerce.AzureAD",
+          "BlobName": "VirtoCommerce.AzureAD_3.804.0-pr-7-5d0a.zip"
         }
       ]
     },
@@ -258,10 +262,6 @@
         },
         {
           "Id": "VirtoCommerce.TaskManagement",
-          "Version": "3.803.0"
-        },
-        {
-          "Id": "VirtoCommerce.AzureAD",
           "Version": "3.803.0"
         },
         {
