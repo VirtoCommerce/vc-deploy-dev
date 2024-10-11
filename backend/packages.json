@@ -252,16 +252,16 @@
           "Version": "3.810.0"
         },
         {
-          "Id": "VirtoCommerce.Customer",
-          "Version": "3.818.0"
-        },
-        {
           "Id": "VirtoCommerce.CustomerExportImport",
           "Version": "3.808.0"
         },
         {
           "Id": "VirtoCommerce.Catalog",
           "Version": "3.823.0"
+        },
+        {
+          "Id": "VirtoCommerce.Customer",
+          "Version": "3.819.0"
         }
       ]
     },
