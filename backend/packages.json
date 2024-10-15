@@ -14,6 +14,10 @@
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
         {
+          "Id": "VirtoCommerce.BackInStockModule",
+          "BlobName": "VirtoCommerce.BackInStockModule_3.800.0-pr-1-881a.zip"
+        },
+        {
           "Id": "VirtoCommerce.Search",
           "BlobName": "VirtoCommerce.Search_3.804.0.zip"
         },
