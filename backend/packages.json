@@ -135,6 +135,10 @@
         {
           "Id": "VirtoCommerce.AzureAD",
           "BlobName": "VirtoCommerce.AzureAD_3.804.0-pr-7-5d0a.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Skyflow",
+          "BlobName": "VirtoCommerce.Skyflow_3.808.0.zip"
         }
       ]
     },
@@ -255,10 +259,6 @@
         {
           "Id": "VirtoCommerce.Contracts",
           "Version": "3.804.0"
-        },
-        {
-          "Id": "VirtoCommerce.Skyflow",
-          "Version": "3.806.0"
         },
         {
           "Id": "VirtoCommerce.PushMessages",
