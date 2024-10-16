@@ -112,7 +112,7 @@
       SnapshotCollectorConfiguration__IsEnabled: false
       Swagger__UI__Enable: true
       VirtoCommerce__DefaultStore: B2B-store
-      VirtoCommerce__Endpoint__Password: store
+      VirtoCommerce__Endpoint__Password: Password1!
     themes:
       B2B-store: https://github.com/VirtoCommerce/vc-frontend/releases/download/1.60.0/vc-theme-b2b-vue-1.60.0.zip
   ingress: {}
