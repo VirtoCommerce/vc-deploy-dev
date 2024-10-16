@@ -101,7 +101,7 @@
       Notifications__SendGrid__ApiKey: sendkey
       Notifications__Smtp__Password: smtppasswordyandex
   storefront:
-    enabled: false
+    enabled: true
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/storefront
     servicePlan: S1
     imageTag: 8.2.0-master-5d02a6de
