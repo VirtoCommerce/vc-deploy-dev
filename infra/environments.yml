@@ -121,22 +121,8 @@
       enabled: false
     app2:
       enabled: false
-  routes:
-  - host: vcptcore-loadtest-storefront.govirto.com
-    root: B2B-store
-    paths:
-    - path: /xapi
-      route: platform
-    - path: /files
-      route: platform
-    - path: /connect/token
-      route: platform
-    - path: /graphql
-      route: platform
-    - path: /revoke/token
-      route: platform
-    - path: /api/files
-      route: platform
   protectedParameters:
    - platform.image.tag
+   - storefront.image.tag
+   - themes.B2B-store
   version: 3.208
