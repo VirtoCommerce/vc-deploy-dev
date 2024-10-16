@@ -21,9 +21,6 @@
         },
         {
           "BlobName": "VirtoCommerce.Orders_3.831.0-pr-434-2b4e.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.Skyflow_3.808.0-pr-12-3172.zip"
         }
       ]
     },
@@ -232,6 +229,10 @@
         {
           "Id": "VirtoCommerce.Subscription",
           "Version": "3.806.0"
+        },
+        {
+          "Id": "VirtoCommerce.Skyflow",
+          "Version": "3.808.0"
         },
         {
           "Id": "VirtoCommerce.DynamicAssociationsModule",
