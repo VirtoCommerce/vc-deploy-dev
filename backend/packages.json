@@ -232,10 +232,6 @@
           "Version": "3.806.0"
         },
         {
-          "Id": "VirtoCommerce.Skyflow",
-          "Version": "3.807.0"
-        },
-        {
           "Id": "VirtoCommerce.ElasticSearch8",
           "Version": "3.811.0"
         },
@@ -262,6 +258,10 @@
         {
           "Id": "VirtoCommerce.XCart",
           "Version": "3.809.0"
+        },
+        {
+          "Id": "VirtoCommerce.Skyflow",
+          "Version": "3.808.0"
         }
       ]
     },
