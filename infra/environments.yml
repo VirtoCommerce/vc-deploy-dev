@@ -81,7 +81,7 @@
   storefront:
     enabled: false
     themes:
-      B2B-store: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-2.4.0-alpha.1357-ai-document-processing.zip
+      B2B-store: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-2.4.0-alpha.1368-ai-document-processing.zip
   customApps: {}
   routes:
   - host: vcst-ai-storefront.govirto.com
