@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.855.0",
+  "PlatformVersion": "3.856.0-pr-2843-f16a-vcst-1592-f16ad276",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.855.0",
+  "PlatformImageTag": "3.856.0-pr-2843-f16a-vcst-1592-f16ad276",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -21,7 +21,7 @@
         },
         {
           "BlobName": "VirtoCommerce.Orders_3.831.0-pr-434-2b4e.zip"
-        }  
+        }
       ]
     },
     {
@@ -30,7 +30,7 @@
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
       "Modules": [
-        {
+   {
           "Id": "VirtoCommerce.PriceExportImport",
           "Version": "3.800.0"
         },
@@ -139,12 +139,16 @@
           "Version": "3.805.0"
         },
         {
+          "Id": "VirtoCommerce.Notifications",
+          "Version": "3.811.0"
+        },
+        {
           "Id": "VirtoCommerce.Store",
           "Version": "3.809.0"
         },
         {
           "Id": "VirtoCommerce.Catalog",
-          "Version": "3.822.0"
+          "Version": "3.823.0"
         },
         {
           "Id": "VirtoCommerce.Content",
@@ -152,7 +156,7 @@
         },
         {
           "Id": "VirtoCommerce.Customer",
-          "Version": "3.817.0"
+          "Version": "3.819.0"
         },
         {
           "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
@@ -179,8 +183,12 @@
           "Version": "3.802.0"
         },
         {
+          "Id": "VirtoCommerce.Inventory",
+          "Version": "3.805.0"
+        },
+        {
           "Id": "VirtoCommerce.Pricing",
-          "Version": "3.809.0"
+          "Version": "3.810.0"
         },
         {
           "Id": "VirtoCommerce.Sitemaps",
@@ -223,6 +231,10 @@
           "Version": "3.806.0"
         },
         {
+          "Id": "VirtoCommerce.Skyflow",
+          "Version": "3.808.0"
+        },
+        {
           "Id": "VirtoCommerce.DynamicAssociationsModule",
           "Version": "3.804.0"
         },
@@ -236,7 +248,7 @@
         },
         {
           "Id": "VirtoCommerce.XCart",
-          "Version": "3.808.0"
+          "Version": "3.809.0"
         },
         {
           "Id": "VirtoCommerce.XOrder",
@@ -245,6 +257,10 @@
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "Version": "3.817.0"
+        },
+        {
+          "Id": "VirtoCommerce.ElasticSearch8",
+          "Version": "3.811.0"
         },
         {
           "Id": "VirtoCommerce.GoogleSSO",
@@ -256,23 +272,7 @@
         },
         {
           "Id": "VirtoCommerce.Xapi",
-          "Version": "3.810.0"
-        },
-        {
-          "Id": "VirtoCommerce.Inventory",
-          "Version": "3.806.0"
-        },
-        {
-          "Id": "VirtoCommerce.Skyflow",
-          "Version": "3.807.0"
-        },
-        {
-          "Id": "VirtoCommerce.ElasticSearch8",
-          "Version": "3.811.0"
-        },
-        {
-          "Id": "VirtoCommerce.Notifications",
-          "Version": "3.811.0"
+          "Version": "3.809.0"
         }
       ]
     }
