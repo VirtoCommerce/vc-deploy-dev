@@ -97,11 +97,9 @@
       Search__AzureSearch__Key: 6BE1143312E89C26C227E6BBAE24DD47
       Search__AzureSearch__QueryParserType: Full
       Search__AzureSearch__Endpoint: https://qa-demovc-3-search.search.windows.net
-      Google__Enabled: true
-      Google__AuthenticationType: Google
-      Google__AuthenticationCaption: Google
-
       GoogleSSO__Enabled: true
+      GoogleSSO__AuthenticationType: GoogleSSO
+      GoogleSSO__AuthenticationCaption: Google
       GoogleSSO__ApplicationId:  995027985115-qijocrsde8stfmf0d56dv2vjb4lkgfjc.apps.googleusercontent.com
       GoogleSSO__Secret: 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 
       GoogleSSO__Priority: 2
