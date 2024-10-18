@@ -4,8 +4,8 @@
   servicePlan: P2
   platform:
     #dbProvider: Azure Database for PostgreSQL
-    imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.856.0-pr-2843-6993-vcst-1592-6993587d
+    #imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
+    #imageTag: 3.856.0-pr-2843-6993-vcst-1592-6993587d
     sqlReplica: false
     config:
       Serilog__Using__0: Serilog.Sinks.Console
