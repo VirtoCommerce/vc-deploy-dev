@@ -138,6 +138,8 @@
       route: platform
     - path: /api/files
       route: platform
+    - path: /externalsignin
+      route: platform
     - path: /signin-oidc
       route: platform
     - path: /signin-google
