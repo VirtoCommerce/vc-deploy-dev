@@ -141,4 +141,6 @@
       route: platform
     - path: /signin-google
       route: platform
+  protectedParameters:
+  - platform.image.tag
   version: 3.208
