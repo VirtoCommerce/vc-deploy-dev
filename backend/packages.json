@@ -133,16 +133,16 @@
           "BlobName": "VirtoCommerce.CustomerExportImport_3.808.0-pr-97-1245.zip"
         },
         {
-          "Id": "VirtoCommerce.AzureAD",
-          "BlobName": "VirtoCommerce.AzureAD_3.803.0.zip"
-        },
-        {
           "Id": "VirtoCommerce.Contentful",
           "BlobName": "VirtoCommerce.Contentful_3.802.0-pr-11-6080.zip"
-        }, 
+        },
         {
           "Id": "VirtoCommerce.Sitemaps",
           "BlobName": "VirtoCommerce.Sitemaps_3.809.0-pr-76-5f02.zip"
+        },
+        {
+          "Id": "VirtoCommerce.AzureAD",
+          "BlobName": "VirtoCommerce.AzureAD_3.804.0.zip"
         }
       ]
     },
