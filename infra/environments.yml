@@ -4,7 +4,8 @@
   servicePlan: P2
   platform:
     #dbProvider: Azure Database for PostgreSQL
-    imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
+    # imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
+    imageRepository: ghcr.io/virtocommerce/platform
     imageTag: 3.856.0-pr-2843-6993-vcst-1592-6993587d
     sqlReplica: false
     config:
