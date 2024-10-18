@@ -15,7 +15,7 @@
       VirtoCommerce__Stores__DefaultStore: B2B-store
       PushNotifications__ForceWebSockets: true
       PushNotifications__ScalabilityMode: RedisBackplane
-      PushNotifications__HubUrl: https://vcptcore-demo.govirto.com/pushNotificationHub?api_key=458ab7f7-df17-4aed-9f21-092f8b611efa
+      PushNotifications__HubUrl: https://vcptcore-demo.govirto.com/pushNotificationHub?api_key=7125fd95-9f6d-44a0-8466-238003ace6fd
       PushNotifications__RedisBackplane__ChannelName: vcptcore-demo-chanel
       Notifications__DefaultSender: azure_25da07ed75daacae20578a7a7dc58541@azure.com
       Notifications__Gateway: SendGrid
