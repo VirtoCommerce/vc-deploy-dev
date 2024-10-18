@@ -63,6 +63,8 @@
       GoogleSSO__AuthenticationCaption: Google sign-in
       GoogleSSO__DefaultUserType: Customer
       GoogleSSO__UsePreferredUsername: false
+      GoogleSSO__ApplicationId:  995027985115-qijocrsde8stfmf0d56dv2vjb4lkgfjc.apps.googleusercontent.com
+      GoogleSSO__Secret: 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 
       Content__Provider: FileSystem
       Assets__Provider: FileSystem
       Assets__AzureBlobStorage__ConnectionString: DefaultEndpointsProtocol=https;AccountName=qademovc3;AccountKey=qPIpM63MI2P3ei6B1xIL4/DlKDqdsRj54z2GUtgCAeXPcMe8+mZiUvrvI5fjdyrovk331XmBlMFfAEFAjCnvtw==;EndpointSuffix=core.windows.net
