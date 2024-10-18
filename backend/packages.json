@@ -21,6 +21,9 @@
         },
         {
           "BlobName": "VirtoCommerce.Orders_3.831.0-pr-434-2b4e.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.XCatalog_3.815.0-pr-19-e034.zip"
         }
       ]
     },
@@ -265,10 +268,6 @@
         {
           "Id": "VirtoCommerce.GoogleSSO",
           "Version": "3.801.0"
-        },
-        {
-          "Id": "VirtoCommerce.XCatalog",
-          "Version": "3.814.0"
         },
         {
           "Id": "VirtoCommerce.Xapi",
