@@ -60,10 +60,6 @@
           "Version": "3.808.0"
         },
         {
-          "Id": "VirtoCommerce.Search",
-          "Version": "3.804.0"
-        },
-        {
           "Id": "VirtoCommerce.EventBus",
           "Version": "3.804.0"
         },
@@ -262,6 +258,10 @@
         {
           "Id": "VirtoCommerce.Content",
           "Version": "3.824.0"
+        },
+        {
+          "Id": "VirtoCommerce.Search",
+          "Version": "3.805.0"
         }
       ]
     },
