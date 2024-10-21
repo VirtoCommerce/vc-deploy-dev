@@ -116,10 +116,6 @@
           "Version": "3.809.0"
         },
         {
-          "Id": "VirtoCommerce.Content",
-          "Version": "3.823.0"
-        },
-        {
           "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
           "Version": "4.802.0"
         },
@@ -262,6 +258,10 @@
         {
           "Id": "VirtoCommerce.Sitemaps",
           "Version": "3.809.0"
+        },
+        {
+          "Id": "VirtoCommerce.Content",
+          "Version": "3.824.0"
         }
       ]
     },
