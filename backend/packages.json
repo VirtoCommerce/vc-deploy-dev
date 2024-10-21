@@ -144,10 +144,6 @@
           "Version": "3.802.0"
         },
         {
-          "Id": "VirtoCommerce.Sitemaps",
-          "Version": "3.808.0"
-        },
-        {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
           "Version": "3.802.0"
         },
@@ -262,6 +258,10 @@
         {
           "Id": "VirtoCommerce.XCatalog",
           "Version": "3.815.0"
+        },
+        {
+          "Id": "VirtoCommerce.Sitemaps",
+          "Version": "3.809.0"
         }
       ]
     },
