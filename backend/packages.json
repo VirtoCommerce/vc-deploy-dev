@@ -94,10 +94,6 @@
           "BlobName": "VirtoCommerce.Cart_3.813.0.zip"
         },
         {
-          "Id": "VirtoCommerce.Xapi",
-          "BlobName": "VirtoCommerce.Xapi_3.811.0-pr-14-3d3a.zip"
-        },
-        {
           "Id": "VirtoCommerce.Store",
           "BlobName": "VirtoCommerce.Store_3.810.0-pr-142-3b0f.zip"
         },
@@ -153,9 +149,13 @@
           "Id": "VirtoCommerce.Tax",
           "BlobName": "VirtoCommerce.Tax_3.803.0-pr-49-49f0.zip"
         },
-                {
+        {
           "Id": "VirtoCommerce.ImageTools",
           "BlobName": "VirtoCommerce.ImageTools_3.807.0-pr-113-0202.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Xapi",
+          "BlobName": "VirtoCommerce.Xapi_3.811.0.zip"
         }
       ]
     },
