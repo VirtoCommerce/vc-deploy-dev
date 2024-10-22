@@ -1,5 +1,9 @@
 {
-  "PlatformAssetUrl": "",
+  "ManifestVersion": "2.0",
+  "PlatformVersion": "3.857.0",
+  "PlatformImage": "ghcr.io/virtocommerce/platform",
+  "PlatformImageTag": "3.857.0-alpha.12989-upgrade-azure-core-1.44.1-2d55e643",
+  "PlatformAssetUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Platform.3.857.0-alpha.12989-upgrade-azure-core-1.44.1.zip",
   "Sources": [
     {
       "Name": "AzureBlob",
@@ -167,7 +171,5 @@
         }
       ]
     }
-  ],
-  "ManifestVersion": "2.0",
-  "PlatformVersion": "3.854.0"
+  ]
 }
