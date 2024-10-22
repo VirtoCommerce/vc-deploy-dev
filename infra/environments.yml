@@ -56,10 +56,9 @@
       # Push messages settings
       PushMessages__UseFirebaseCloudMessaging: false
       # Elastic Search settings
-      Search__ElasticSearch__Server: https://elasticsearch-vc03.govirto.com
-      Search__ElasticSearch__EnableCompatibilityMode: true
+      Search__ElasticSearch8__Server: https://elasticsearch-vc03.govirto.com
       # VirtoCommerce Search settings
-      Search__Provider: ElasticSearch
+      Search__Provider: ElasticSearch8
       # Prevent Hangfire duplication key error
       VirtoCommerce__Hangfire__SqlServerStorageOptions__TryAutoDetectSchemaDependentOptions: true
       VirtoCommerce__Hangfire__SqlServerStorageOptions__UseIgnoreDupKeyOption: true
