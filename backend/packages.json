@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.857.0-pr-2852-4fe5-maria-volkova-tula-patch-6-4fe5df3d",
+  "PlatformVersion": "3.857.0-pr-2848-abbf-vcst-1855-abbf3dc4",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.857.0-pr-2852-4fe5-maria-volkova-tula-patch-6-4fe5df3d",
+  "PlatformImageTag": "3.857.0-pr-2848-abbf-vcst-1855-abbf3dc4",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
