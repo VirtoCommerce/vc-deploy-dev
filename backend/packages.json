@@ -146,10 +146,6 @@
           "BlobName": "VirtoCommerce.Contracts_3.805.0-alpha.102.zip"
         },
         {
-          "Id": "VirtoCommerce.Orders",
-          "BlobName": "VirtoCommerce.Orders_3.831.0-alpha.1286.zip"
-        },
-        {
           "Id": "VirtoCommerce.PushMessages",
           "BlobName": "VirtoCommerce.PushMessages_3.812.0-alpha.43.zip"
         },
@@ -280,6 +276,10 @@
         {
           "Id": "VirtoCommerce.XCatalog",
           "BlobName": "VirtoCommerce.XCatalog_3.817.0-alpha.42.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Orders",
+          "BlobName": "VirtoCommerce.Orders_3.831.0-alpha.1287.zip"
         }
       ]
     }
