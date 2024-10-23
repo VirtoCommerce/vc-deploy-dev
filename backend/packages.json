@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.857.0-pr-2848-abbf-vcst-1855-abbf3dc4",
+  "PlatformVersion": "3.857.0-pr-2854-2d55-upgrade-azure-core-1.44.1-2d55e643",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.857.0-pr-2848-abbf-vcst-1855-abbf3dc4",
+  "PlatformImageTag": "3.857.0-pr-2854-2d55-upgrade-azure-core-1.44.1-2d55e643",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
