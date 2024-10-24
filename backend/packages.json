@@ -18,10 +18,6 @@
           "BlobName": "VirtoCommerce.BackInStockModule_3.800.0-pr-1-881a.zip"
         },
         {
-          "Id": "VirtoCommerce.Payment",
-          "BlobName": "VirtoCommerce.Payment_3.805.0-pr-61-ef3c.zip"
-        },
-        {
           "Id": "VirtoCommerce.Shipping",
           "BlobName": "VirtoCommerce.Shipping_3.803.0-pr-50-1b35.zip"
         },
@@ -153,9 +149,13 @@
           "Id": "VirtoCommerce.Tax",
           "BlobName": "VirtoCommerce.Tax_3.803.0-pr-49-49f0.zip"
         },
-                {
+        {
           "Id": "VirtoCommerce.ImageTools",
           "BlobName": "VirtoCommerce.ImageTools_3.807.0-pr-113-0202.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Payment",
+          "BlobName": "VirtoCommerce.Payment_3.805.0.zip"
         }
       ]
     },
