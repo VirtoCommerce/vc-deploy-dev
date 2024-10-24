@@ -153,9 +153,13 @@
           "Id": "VirtoCommerce.Tax",
           "BlobName": "VirtoCommerce.Tax_3.803.0-pr-49-49f0.zip"
         },
-                {
+        {
           "Id": "VirtoCommerce.ImageTools",
           "BlobName": "VirtoCommerce.ImageTools_3.807.0-pr-113-0202.zip"
+        },
+        {
+          "Id": "VirtoCommerce.DynamicAssociationsModule",
+          "BlobName": "VirtoCommerce.DynamicAssociationsModule_3.805.0.zip"
         }
       ]
     },
@@ -240,10 +244,6 @@
         {
           "Id": "VirtoCommerce.Subscription",
           "Version": "3.806.0"
-        },
-        {
-          "Id": "VirtoCommerce.DynamicAssociationsModule",
-          "Version": "3.804.0"
         },
         {
           "Id": "VirtoCommerce.AuthorizeNetPayment",
