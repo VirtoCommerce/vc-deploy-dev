@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.857.0-pr-2854-2d55-upgrade-azure-core-1.44.1-2d55e643",
+  "PlatformVersion": "3.858.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.857.0-pr-2854-2d55-upgrade-azure-core-1.44.1-2d55e643",
+  "PlatformImageTag": "3.858.0",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -153,7 +153,7 @@
           "Id": "VirtoCommerce.Tax",
           "BlobName": "VirtoCommerce.Tax_3.803.0-pr-49-49f0.zip"
         },
-                {
+        {
           "Id": "VirtoCommerce.ImageTools",
           "BlobName": "VirtoCommerce.ImageTools_3.807.0-pr-113-0202.zip"
         }
