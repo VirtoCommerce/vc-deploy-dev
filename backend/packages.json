@@ -106,10 +106,6 @@
           "BlobName": "VirtoCommerce.LuceneSearch_3.806.0-alpha.207.zip"
         },
         {
-          "Id": "VirtoCommerce.Store",
-          "BlobName": "VirtoCommerce.Store_3.810.0-alpha.706.zip"
-        },
-        {
           "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
           "BlobName": "VirtoCommerce.GoogleEcommerceAnalytics_4.803.0-alpha.189.zip"
         },
@@ -280,6 +276,10 @@
         {
           "Id": "VirtoCommerce.Customer",
           "BlobName": "VirtoCommerce.Customer_3.821.0-alpha.860.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Store",
+          "BlobName": "VirtoCommerce.Store_3.810.0-alpha.707.zip"
         }
       ]
     }
