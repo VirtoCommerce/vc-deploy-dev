@@ -274,12 +274,12 @@
           "BlobName": "VirtoCommerce.WebHooks_3.807.0-alpha.305.zip"
         },
         {
-          "Id": "VirtoCommerce.Export",
-          "BlobName": "VirtoCommerce.Export_3.804.0-alpha.239.zip"
-        },
-        {
           "Id": "VirtoCommerce.Core",
           "BlobName": "VirtoCommerce.Core_3.810.0-alpha.1628.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Export",
+          "BlobName": "VirtoCommerce.Export_3.805.0-alpha.240.zip"
         }
       ]
     }
