@@ -36,10 +36,6 @@
           "Version": "3.803.0"
         },
         {
-          "Id": "VirtoCommerce.Quote",
-          "Version": "3.816.0"
-        },
-        {
           "Id": "VirtoCommerce.TaskManagement",
           "Version": "3.803.0"
         },
@@ -262,6 +258,10 @@
         {
           "Id": "VirtoCommerce.Return",
           "Version": "3.805.0"
+        },
+        {
+          "Id": "VirtoCommerce.Quote",
+          "Version": "3.817.0"
         }
       ]
     },
