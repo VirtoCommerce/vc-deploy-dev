@@ -274,12 +274,12 @@
           "BlobName": "VirtoCommerce.Export_3.804.0-alpha.238.zip"
         },
         {
-          "Id": "VirtoCommerce.Quote",
-          "BlobName": "VirtoCommerce.Quote_3.817.0-alpha.423.zip"
-        },
-        {
           "Id": "VirtoCommerce.GDPR",
           "BlobName": "VirtoCommerce.GDPR_3.804.0-alpha.125.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Quote",
+          "BlobName": "VirtoCommerce.Quote_3.818.0-alpha.424.zip"
         }
       ]
     }
