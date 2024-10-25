@@ -36,10 +36,6 @@
           "Version": "3.803.0"
         },
         {
-          "Id": "VirtoCommerce.TaskManagement",
-          "Version": "3.803.0"
-        },
-        {
           "Id": "VirtoCommerce.XRecommend",
           "Version": "3.804.0"
         },
@@ -261,6 +257,10 @@
         },
         {
           "Id": "VirtoCommerce.WhiteLabeling",
+          "Version": "3.804.0"
+        },
+        {
+          "Id": "VirtoCommerce.TaskManagement",
           "Version": "3.804.0"
         }
       ]
