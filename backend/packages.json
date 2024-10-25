@@ -202,10 +202,6 @@
           "BlobName": "VirtoCommerce.Xapi_3.812.0-alpha.46.zip"
         },
         {
-          "Id": "VirtoCommerce.ImageTools",
-          "BlobName": "VirtoCommerce.ImageTools_3.808.0-alpha.354.zip"
-        },
-        {
           "Id": "VirtoCommerce.XCatalog",
           "BlobName": "VirtoCommerce.XCatalog_3.817.0-alpha.42.zip"
         },
@@ -280,6 +276,10 @@
         {
           "Id": "VirtoCommerce.TaskManagement",
           "BlobName": "VirtoCommerce.TaskManagement_3.805.0-alpha.106.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ImageTools",
+          "BlobName": "VirtoCommerce.ImageTools_3.808.0-alpha.355.zip"
         }
       ]
     }
