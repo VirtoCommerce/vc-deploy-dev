@@ -18,7 +18,7 @@
       DOTNET_USE_POLLING_FILE_WATCHER: true
       #Authorization__AllowApiAccessForCustomers: true
       VirtoCommerce__FileExtensionsBlackList__0: .pdf
-      Reload: 19
+      Reload: 20
       Notifications__DefaultSender: virto.start@virtoway.com
       Notifications__Gateway: SendGrid
       Notifications__SmsDefaultSender: +17012510519
