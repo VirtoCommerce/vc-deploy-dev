@@ -26,6 +26,25 @@
       Notifications__Smtp__Host: smtp.sendgrid.net
       Notifications__Smtp__Login: apikey
       Notifications__Smtp__Port: 587
+      # Firebase settings
+      PushMessages__UseFirebaseCloudMessaging: true
+      PushMessages__FcmSenderOptions__Type: service_account
+      PushMessages__FcmSenderOptions__ProjectId: vcptcore-regression
+      PushMessages__FcmSenderOptions__PrivateKeyId: 6c840a109694b0079895383d48fa691c8a22a0bc 
+      PushMessages__FcmSenderOptions__ClientEmail: firebase-adminsdk-bm1d1@vcptcore-regression.iam.gserviceaccount.com
+      PushMessages__FcmSenderOptions__ClientId: 106306822411154397590
+      PushMessages__FcmSenderOptions__AuthUri: https://accounts.google.com/o/oauth2/auth
+      PushMessages__FcmSenderOptions__TokenUri: https://oauth2.googleapis.com/token
+      PushMessages__FcmSenderOptions__AuthProviderX509CertUrl: https://www.googleapis.com/oauth2/v1/certs
+      PushMessages__FcmSenderOptions__ClientX509CertUrl: https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-bm1d1%40vcptcore-regression.iam.gserviceaccount.com
+      PushMessages__FcmReceiverOptions__ApiKey: AIzaSyCGb1uTvTz_wehZkFZVulSttlZiBP6XFUY
+      PushMessages__FcmReceiverOptions__AuthDomain: vcptcore-regression.firebaseapp.com
+      PushMessages__FcmReceiverOptions__ProjectId: vcptcore-regression
+      PushMessages__FcmReceiverOptions__StorageBucket: vcptcore-regression.appspot.com
+      PushMessages__FcmReceiverOptions__MessagingSenderId: 379069655005
+      PushMessages__FcmReceiverOptions__AppId: 1:379069655005:web:5c9a2ac08af1ce3abdf834
+      PushMessages__FcmReceiverOptions__VapidKey: BE3yPNuSnvEyqQjRWr79YMYEImQjPrk-L7I7vl8nkmf7lEU8POS1vYUmWKVlmIXBJ-PZWrbN4hOUAqmvnDoZsBU
+      # Search
       Search__Provider: ElasticSearch8
       #Search__Provider: ElasticSearch
       #Search__Provider: AzureSearch
@@ -101,6 +120,7 @@
       Notifications__SendGrid__ApiKey: sendkey
       Search__ElasticAppSearch__PrivateApiKey: elasticappsearch
       Notifications__Smtp__Password: smtppasswordyandex
+      PushMessages__FcmSenderOptions__PrivateKey: fcm-private-key-regress
   storefront:
     enabled: false
     servicePlan: B1
