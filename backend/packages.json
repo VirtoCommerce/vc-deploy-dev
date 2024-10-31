@@ -140,10 +140,6 @@
           "Version": "3.808.0"
         },
         {
-          "Id": "VirtoCommerce.XCart",
-          "Version": "3.809.0"
-        },
-        {
           "Id": "VirtoCommerce.Skyflow",
           "Version": "3.808.0"
         },
@@ -262,6 +258,10 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "Version": "3.826.0"
+        },
+        {
+          "Id": "VirtoCommerce.XCart",
+          "Version": "3.810.0"
         }
       ]
     },
