@@ -158,10 +158,6 @@
           "BlobName": "VirtoCommerce.CustomerExportImport_3.809.0-alpha.171.zip"
         },
         {
-          "Id": "VirtoCommerce.XCart",
-          "BlobName": "VirtoCommerce.XCart_3.810.0-alpha.28.zip"
-        },
-        {
           "Id": "VirtoCommerce.Skyflow",
           "BlobName": "VirtoCommerce.Skyflow_3.809.0-alpha.33.zip"
         },
@@ -280,6 +276,10 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "BlobName": "VirtoCommerce.Catalog_3.827.0-alpha.2252.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XCart",
+          "BlobName": "VirtoCommerce.XCart_3.810.0-alpha.29.zip"
         }
       ]
     }
