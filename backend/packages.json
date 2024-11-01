@@ -266,7 +266,11 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "Version": "3.826.0"
-        }        
+        },
+        {
+          "Id": "VirtoCommerce.XRecommend",
+          "Version": "3.804.0"
+        }
       ]
     }
   ]
