@@ -47,17 +47,17 @@
       # Search
       #Search__Provider: ElasticSearch8
       #Search__Provider: ElasticSearch
-      #Search__Provider: Lucene
-      Search__Provider: AzureSearch
+      Search__Provider: Lucene
+      #Search__Provider: AzureSearch
       Search__ElasticSearch__Server: https://elasticsearch-vc03.govirto.com/
       Search__ElasticSearch__EnableCompatibilityMode: true
       Search__ElasticAppSearch__EnableHttpCompression: true
       Search__ElasticAppSearch__Endpoint: https://enterprise-search-vc03.govirto.com
       Search__ElasticAppSearch__KibanaBaseUrl: "https://kibana-vc-02.govirto.com/"
-      Search__AzureSearch__SearchServiceName: qa-demovc-3-search
-      Search__AzureSearch__Key: 6BE1143312E89C26C227E6BBAE24DD47
-      Search__AzureSearch__QueryParserType: Full
-      Search__AzureSearch__Endpoint: https://qa-demovc-3-search.search.windows.net
+      #Search__AzureSearch__SearchServiceName: qa-demovc-3-search
+      #Search__AzureSearch__Key: 6BE1143312E89C26C227E6BBAE24DD47
+      #Search__AzureSearch__QueryParserType: Full
+      #Search__AzureSearch__Endpoint: https://qa-demovc-3-search.search.windows.net
       #Search__ElasticSearch8__Server: "https://9ee71e924ebd4bf7808b9a239417301f.westus2.azure.elastic-cloud.com:443"
       #Search__ElasticSearch8__User: "elastic"
       #Search__ElasticSearch8__Key: "4dy4GASkk72r8MEYA9f2Y85U"
