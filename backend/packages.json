@@ -99,7 +99,7 @@
         },
         {
           "Id": "VirtoCommerce.Notifications",
-          "BlobName": "VirtoCommerce.Notifications_3.812.0.zip"
+          "BlobName": "VirtoCommerce.Notifications_3.813.0-pr-167-2a61.zip"
         },
         {
           "Id": "VirtoCommerce.Pricing",
@@ -152,7 +152,27 @@
         {
           "Id": " VirtoCommerce.Orders",
           "BlobName": "VirtoCommerce.Orders_3.833.0-pr-437-14ad.zip"
-        }     
+        },
+        {
+          "Id": "VirtoCommerce.Return",
+          "BlobName": "VirtoCommerce.Return_3.806.0-pr-18-9d3f.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Marketing",
+          "BlobName": "VirtoCommerce.Marketing_3.814.0-pr-238-7b24.zip"
+        },
+        {
+          "Id": "VirtoCommerce.GDPR",
+          "BlobName": "VirtoCommerce.GDPR_3.805.0-pr-18-7828.zip"
+        },
+        {
+          "Id": "VirtoCommerce.DynamicAssociationsModule",
+          "BlobName": "VirtoCommerce.DynamicAssociationsModule_3.806.0-pr-48-dff1.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Contracts",
+          "BlobName": "VirtoCommerce.Contracts_3.806.0-pr-23-4afd.zip"
+        }
       ]
     },
     {
@@ -202,10 +222,6 @@
           "Version": "3.803.0"
         },
         {
-          "Id": "VirtoCommerce.GDPR",
-          "Version": "3.804.0"
-        },
-        {
           "Id": "VirtoCommerce.CatalogPersonalization",
           "Version": "3.802.0"
         },
@@ -214,16 +230,8 @@
           "Version": "3.802.0"
         },
         {
-          "Id": "VirtoCommerce.Marketing",
-          "Version": "3.813.0"
-        },
-        {
           "Id": "VirtoCommerce.NativePaymentMethods",
           "Version": "3.801.0"
-        },
-        {
-          "Id": "VirtoCommerce.Return",
-          "Version": "3.805.0"
         },
         {
           "Id": "VirtoCommerce.WebHooks",
@@ -232,10 +240,6 @@
         {
           "Id": "VirtoCommerce.Subscription",
           "Version": "3.806.0"
-        },
-        {
-          "Id": "VirtoCommerce.DynamicAssociationsModule",
-          "Version": "3.805.0"
         },
         {
           "Id": "VirtoCommerce.AuthorizeNetPayment",
@@ -248,10 +252,6 @@
         {
           "Id": "VirtoCommerce.Quote",
           "Version": "3.817.0"
-        },
-        {
-          "Id": "VirtoCommerce.Contracts",
-          "Version": "3.805.0"
         },
         {
           "Id": "VirtoCommerce.Skyflow",
