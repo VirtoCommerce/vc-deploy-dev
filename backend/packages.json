@@ -196,10 +196,6 @@
           "Version": "3.803.0"
         },
         {
-          "Id": "VirtoCommerce.Contracts",
-          "Version": "3.805.0"
-        },
-        {
           "Id": "VirtoCommerce.DynamicAssociationsModule",
           "Version": "3.805.0"
         },
@@ -262,6 +258,10 @@
         {
           "Id": "VirtoCommerce.CustomerReviews",
           "Version": "3.808.0"
+        },
+        {
+          "Id": "VirtoCommerce.Contracts",
+          "Version": "3.806.0"
         }
       ]
     },
