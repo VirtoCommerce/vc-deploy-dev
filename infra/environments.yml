@@ -76,6 +76,25 @@
       PushNotifications__ScalabilityMode: RedisBackplane
       PushNotifications__HubUrl: https://vcst-qa.govirto.com/pushNotificationHub?api_key=458ab7f7-df17-4aed-9f21-092f8b611efa
       PushNotifications__RedisBackplane__ChannelName: vcst-qa-chanel
+      # Firebase settings
+      PushMessages__UseFirebaseCloudMessaging: true
+      PushMessages__FcmSenderOptions__Type: service_account
+      PushMessages__FcmSenderOptions__ProjectId: vcst-qa
+      PushMessages__FcmSenderOptions__PrivateKeyId: 2d6bed5b992d4f7d52ec9e432e929083bb0d86fa 
+      PushMessages__FcmSenderOptions__ClientEmail: firebase-adminsdk-1vh96@vcst-qa.iam.gserviceaccount.com
+      PushMessages__FcmSenderOptions__ClientId: 111108068739348332191
+      PushMessages__FcmSenderOptions__AuthUri: https://accounts.google.com/o/oauth2/auth
+      PushMessages__FcmSenderOptions__TokenUri: https://oauth2.googleapis.com/token
+      PushMessages__FcmSenderOptions__AuthProviderX509CertUrl: https://www.googleapis.com/oauth2/v1/certs
+      PushMessages__FcmSenderOptions__ClientX509CertUrl: https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-1vh96%40vcst-qa.iam.gserviceaccount.com
+      PushMessages__FcmSenderOptions__UniverseDomain: googleapis.com
+      PushMessages__FcmReceiverOptions__ApiKey: AIzaSyAJLCGjYkqbbv8n8dvuXazURr8kz0GsuVo
+      PushMessages__FcmReceiverOptions__AuthDomain: vcst-qa.firebaseapp.com
+      PushMessages__FcmReceiverOptions__ProjectId: vcst-qa
+      PushMessages__FcmReceiverOptions__StorageBucket: vcst-qa.appspot.com
+      PushMessages__FcmReceiverOptions__MessagingSenderId: 1021404404978
+      PushMessages__FcmReceiverOptions__AppId: 1:1021404404978:web:89ab011d054397a04d046b
+      PushMessages__FcmReceiverOptions__VapidKey: BB1Pzs7sBeDkuQWO_cNzo3OhCEruXypVhFsKZaTN4FBL1JhC4fgsgsQSM-vusa99uYVpMcroJzhydyRfMkCQLHc
       # Elastic App Search settings
       Search__ElasticAppSearch__Endpoint: https://enterprise-search-test.govirto.com
       Search__ElasticAppSearch__EnableHttpCompression: true
