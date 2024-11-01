@@ -146,13 +146,13 @@
           "BlobName": "VirtoCommerce.XOrder_3.807.0-pr-9-62b6.zip"
         },
         {
-          "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.818.0-pr-90-0576.zip"
-        }, 
-        {
           "Id": " VirtoCommerce.Orders",
           "BlobName": "VirtoCommerce.Orders_3.833.0-pr-437-14ad.zip"
-        }     
+        },
+        {
+          "Id": "VirtoCommerce.ProfileExperienceApiModule",
+          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.818.0.zip"
+        }
       ]
     },
     {
@@ -280,7 +280,7 @@
         {
           "Id": "VirtoCommerce.XCMS",
           "Version": "3.801.0"
-        }     
+        }
       ]
     }
   ]
