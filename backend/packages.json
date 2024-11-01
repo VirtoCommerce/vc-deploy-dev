@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.860.0",
+  "PlatformVersion": "3.861.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.860.0",
+  "PlatformImageTag": "3.861.0",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -280,7 +280,7 @@
         {
           "Id": "VirtoCommerce.XOrder",
           "Version": "3.806.0"
-        }        
+        }
       ]
     }
   ]
