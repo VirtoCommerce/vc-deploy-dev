@@ -24,6 +24,9 @@
         },
         {
           "BlobName": "VirtoCommerce.PushMessages_3.812.0-pr-9-cece.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Catalog_3.827.0-pr-753-b480.zip"
         }
       ]
     },
@@ -160,10 +163,6 @@
         {
           "Id": "VirtoCommerce.Store",
           "Version": "3.810.0"
-        },
-        {
-          "Id": "VirtoCommerce.Catalog",
-          "Version": "3.825.0"
         },
         {
           "Id": "VirtoCommerce.Content",
