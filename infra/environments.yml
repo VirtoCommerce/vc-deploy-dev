@@ -46,7 +46,8 @@
       PushMessages__FcmReceiverOptions__VapidKey: BE3yPNuSnvEyqQjRWr79YMYEImQjPrk-L7I7vl8nkmf7lEU8POS1vYUmWKVlmIXBJ-PZWrbN4hOUAqmvnDoZsBU
       # Search
       #Search__Provider: ElasticSearch8
-      Search__Provider: ElasticSearch
+      #Search__Provider: ElasticSearch
+      Search__Provider: ElasticAppSearch
       #Search__Provider: Lucene
       #Search__Provider: AzureSearch
       Search__ElasticSearch__Server: https://elasticsearch-vc03.govirto.com/
