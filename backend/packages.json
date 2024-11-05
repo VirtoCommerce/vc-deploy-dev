@@ -246,10 +246,6 @@
           "BlobName": "VirtoCommerce.CustomerReviews_3.809.0-alpha.221.zip"
         },
         {
-          "Id": "VirtoCommerce.Contracts",
-          "BlobName": "VirtoCommerce.Contracts_3.807.0-alpha.106.zip"
-        },
-        {
           "Id": "VirtoCommerce.Orders",
           "BlobName": "VirtoCommerce.Orders_3.834.0-alpha.1292.zip"
         },
@@ -280,6 +276,10 @@
         {
           "Id": "VirtoCommerce.DynamicAssociationsModule",
           "BlobName": "VirtoCommerce.DynamicAssociationsModule_3.807.0-alpha.158.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Contracts",
+          "BlobName": "VirtoCommerce.Contracts_3.807.0-alpha.107.zip"
         }
       ]
     }
