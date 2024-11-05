@@ -186,10 +186,6 @@
           "BlobName": "VirtoCommerce.Tax_3.804.0-alpha.185.zip"
         },
         {
-          "Id": "VirtoCommerce.DynamicAssociationsModule",
-          "BlobName": "VirtoCommerce.DynamicAssociationsModule_3.806.0-alpha.156.zip"
-        },
-        {
           "Id": "VirtoCommerce.Marketing",
           "BlobName": "VirtoCommerce.Marketing_3.814.0-alpha.859.zip"
         },
@@ -280,6 +276,10 @@
         {
           "Id": "VirtoCommerce.PushMessages",
           "BlobName": "VirtoCommerce.PushMessages_3.813.0-alpha.45.zip"
+        },
+        {
+          "Id": "VirtoCommerce.DynamicAssociationsModule",
+          "BlobName": "VirtoCommerce.DynamicAssociationsModule_3.806.0-alpha.157.zip"
         }
       ]
     }
