@@ -14,6 +14,10 @@
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
         {
+          "Id": "VirtoCommerce.Quote",
+          "Version": "VirtoCommerce.Quote_3.819.0-pr-121-b395.zip"
+        },
+        {
           "Id": "VirtoCommerce.BackInStockModule",
           "BlobName": "VirtoCommerce.BackInStockModule_3.800.0-pr-1-881a.zip"
         },
@@ -248,10 +252,6 @@
         {
           "Id": "VirtoCommerce.FileExperienceApi",
           "Version": "3.804.0"
-        },
-        {
-          "Id": "VirtoCommerce.Quote",
-          "Version": "3.818.0"
         },
         {
           "Id": "VirtoCommerce.Skyflow",
