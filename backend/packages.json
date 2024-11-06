@@ -15,6 +15,9 @@
       "Modules": [
         {
           "BlobName": "VirtoCommerce.PageBuilderModule_3.813.0-alpha.608.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Core_3.810.0-pr-230-1cf4.zip"
         }
       ]
     },
@@ -191,10 +194,6 @@
         {
           "Id": "VirtoCommerce.WebHooks",
           "Version": "3.806.0"
-        },
-        {
-          "Id": "VirtoCommerce.Core",
-          "Version": "3.809.0"
         },
         {
           "Id": "VirtoCommerce.Export",
