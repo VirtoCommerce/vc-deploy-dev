@@ -122,10 +122,6 @@
           "BlobName": "VirtoCommerce.Contentful_3.802.0-pr-11-6080.zip"
         },
         {
-          "Id": "VirtoCommerce.Sitemaps",
-          "BlobName": "VirtoCommerce.Sitemaps_3.810.0-pr-77-15ec.zip"
-        },
-        {
           "Id": "VirtoCommerce.Tax",
           "BlobName": "VirtoCommerce.Tax_3.803.0.zip"
         },
@@ -148,7 +144,7 @@
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.818.0-pr-90-0576.zip"
-        }, 
+        },
         {
           "Id": " VirtoCommerce.Orders",
           "BlobName": "VirtoCommerce.Orders_3.833.0-pr-437-14ad.zip"
@@ -172,6 +168,10 @@
         {
           "Id": "VirtoCommerce.Contracts",
           "BlobName": "VirtoCommerce.Contracts_3.806.0-pr-23-4afd.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Sitemaps",
+          "BlobName": "VirtoCommerce.Sitemaps_3.810.0.zip"
         }
       ]
     },
@@ -280,7 +280,7 @@
         {
           "Id": "VirtoCommerce.XCMS",
           "Version": "3.801.0"
-        }     
+        }
       ]
     }
   ]
