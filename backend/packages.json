@@ -15,9 +15,6 @@
       "Modules": [
         {
           "BlobName": "VirtoCommerce.PageBuilderModule_3.813.0-alpha.608.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.Core_3.810.0-pr-230-1cf4.zip"
         }
       ]
     },
@@ -37,7 +34,7 @@
         },
         {
           "Id": "VirtoCommerce.ApplicationInsights",
-          "Version": "3.802.0"
+          "Version": "3.800.0"
         },
         {
           "Id": "VirtoCommerce.BuilderIO",
@@ -273,6 +270,10 @@
         },
         {
           "Id": "VirtoCommerce.Sitemaps",
+          "Version": "3.810.0"
+        },
+        {
+          "Id": "VirtoCommerce.Core",
           "Version": "3.810.0"
         }
       ]
