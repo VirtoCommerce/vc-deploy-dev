@@ -238,10 +238,6 @@
           "BlobName": "VirtoCommerce.MarketingExperienceApi_3.804.0-alpha.55.zip"
         },
         {
-          "Id": "VirtoCommerce.Cart",
-          "BlobName": "VirtoCommerce.Cart_3.815.0-alpha.699.zip"
-        },
-        {
           "Id": "VirtoCommerce.PushMessages",
           "BlobName": "VirtoCommerce.PushMessages_3.813.0-alpha.45.zip"
         },
@@ -280,6 +276,10 @@
         {
           "Id": "VirtoCommerce.Orders",
           "BlobName": "VirtoCommerce.Orders_3.834.0-alpha.1294.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Cart",
+          "BlobName": "VirtoCommerce.Cart_3.815.0-alpha.701.zip"
         }
       ]
     }
