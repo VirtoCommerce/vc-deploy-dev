@@ -15,6 +15,9 @@
       "Modules": [
         {
           "BlobName": "VirtoCommerce.PageBuilderModule_3.813.0-alpha.608.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.XOrder_3.808.0-pr-11-6ba4.zip"
         }
       ]
     },
@@ -219,10 +222,6 @@
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "Version": "3.818.0"
-        },
-        {
-          "Id": "VirtoCommerce.XOrder",
-          "Version": "3.807.0"
         },
         {
           "Id": "VirtoCommerce.FileExperienceApi",
