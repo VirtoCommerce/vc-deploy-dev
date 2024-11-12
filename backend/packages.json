@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.863.0-pr-2857-6349-vcst-2164-63493a41",
+  "PlatformVersion": "3.864.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.863.0-pr-2857-6349-vcst-2164-63493a41",
+  "PlatformImageTag": "3.864.0",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -152,7 +152,7 @@
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.818.0.zip"
-        }, 
+        },
         {
           "Id": " VirtoCommerce.Orders",
           "BlobName": "VirtoCommerce.Orders_3.834.0-pr-438-7067.zip"
@@ -280,7 +280,7 @@
         {
           "Id": "VirtoCommerce.XCMS",
           "Version": "3.801.0"
-        }     
+        }
       ]
     }
   ]
