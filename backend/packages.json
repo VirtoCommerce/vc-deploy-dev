@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.862.0",
+  "PlatformVersion": "3.864.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.862.0",
+  "PlatformImageTag": "3.864.0",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -15,9 +15,6 @@
       "Modules": [
         {
           "BlobName": "VirtoCommerce.PageBuilderModule_3.813.0-alpha.608.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.XOrder_3.808.0-pr-11-6ba4.zip"
         }
       ]
     },
@@ -37,7 +34,7 @@
         },
         {
           "Id": "VirtoCommerce.ApplicationInsights",
-          "Version": "3.802.0"
+          "Version": "3.800.0"
         },
         {
           "Id": "VirtoCommerce.BuilderIO",
@@ -274,6 +271,10 @@
         {
           "Id": "VirtoCommerce.Orders",
           "Version": "3.834.0"
+        },
+        {
+          "Id": "VirtoCommerce.XOrder",
+          "Version": "3.808.0"
         }
       ]
     }
