@@ -97,12 +97,30 @@
       Search__AzureSearch__Key: 6BE1143312E89C26C227E6BBAE24DD47
       Search__AzureSearch__QueryParserType: Full
       Search__AzureSearch__Endpoint: https://qa-demovc-3-search.search.windows.net
+
+      #GoogleSSO_settings
+      
       GoogleSSO__Enabled: true
       GoogleSSO__AuthenticationType: GoogleSSO
       GoogleSSO__AuthenticationCaption: Google
       GoogleSSO__ApplicationId:  995027985115-qijocrsde8stfmf0d56dv2vjb4lkgfjc.apps.googleusercontent.com
       GoogleSSO__Secret: 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 
       GoogleSSO__Priority: 2
+
+      #OpenId_settings
+
+      oidc__0__Enabled: true
+      oidc__0__AuthenticationType: virto
+      oidc__0__AuthenticationCaption: Virto
+      oidc__0__Authority: https://vcst-qa.govirto.com
+      oidc__0__ClientId: 0c73f782-97d2-4f5d-8345-9209198fe179
+      oidc__0__ClientSecret: 100ee8c1-ad30-4aab-af02-eefff78a4777
+      oidc__0__ResponseMode: query
+      oidc__0__ResponseType: code
+      oidc__0__GetClaimsFromUserInfoEndpoint: true
+      oidc__0__CallbackPath: /signin-virto
+      oidc__0__SignedOutCallbackPath: /signout-virto
+      
       AzureAd__Enabled: true
       AzureAd__Priority: 1
       AzureAd__ApplicationId: 86d04c35-143d-4d3c-aea2-8608e2186282
