@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.863.0-pr-2857-6349-vcst-2164-63493a41",
+  "PlatformVersion": "3.865.0-pr-2809-1ba3-sso2-1ba3677c",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.863.0-pr-2857-6349-vcst-2164-63493a41",
+  "PlatformImageTag": "3.865.0-pr-2809-1ba3-sso2-1ba3677c",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -13,6 +13,14 @@
       "Container": "packages",
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
+        {
+          "Id": "VirtoCommerce.OpenIdConnectModule",
+          "BlobName": "VirtoCommerce.OpenIdConnectModule_3.800.0-pr-2-9241.zip"
+        },
+        {
+          "Id": "VirtoCommerce.PushMessages",
+          "BlobName": "VirtoCommerce.PushMessages_3.813.0-pr-10-32f7.zip"
+        },
         {
           "Id": "VirtoCommerce.Quote",
           "BlobName": "VirtoCommerce.Quote_3.820.0-pr-125-18c5.zip"
@@ -256,10 +264,6 @@
         {
           "Id": "VirtoCommerce.Skyflow",
           "Version": "3.808.0"
-        },
-        {
-          "Id": "VirtoCommerce.PushMessages",
-          "Version": "3.812.0"
         },
         {
           "Id": "VirtoCommerce.TaskManagement",
