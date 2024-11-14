@@ -154,10 +154,6 @@
           "BlobName": "VirtoCommerce.EventBus_3.805.0.zip"
         },
         {
-          "Id": "VirtoCommerce.XCart",
-          "BlobName": "VirtoCommerce.XCart_3.813.0-pr-18-58d7.zip"
-        },
-        {
           "Id": "VirtoCommerce.XOrder",
           "BlobName": "VirtoCommerce.XOrder_3.807.0.zip"
         },
@@ -192,6 +188,10 @@
         {
           "Id": "VirtoCommerce.Cart",
           "BlobName": "VirtoCommerce.Cart_3.816.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XCart",
+          "BlobName": "VirtoCommerce.XCart_3.814.0.zip"
         }
       ]
     },
