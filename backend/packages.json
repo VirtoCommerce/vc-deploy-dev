@@ -244,10 +244,6 @@
           "Version": "3.834.0"
         },
         {
-          "Id": "VirtoCommerce.Catalog",
-          "Version": "3.827.0"
-        },
-        {
           "Id": "VirtoCommerce.Quote",
           "Version": "3.820.0"
         },
@@ -266,6 +262,10 @@
         {
           "Id": "VirtoCommerce.OpenIdConnectModule",
           "Version": "3.800.0"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "Version": "3.828.0"
         }
       ]
     },
