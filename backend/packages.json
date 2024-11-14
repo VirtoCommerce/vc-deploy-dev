@@ -42,10 +42,6 @@
           "BlobName": "VirtoCommerce.PageBuilderModule_3.812.0.zip"
         },
         {
-          "Id": "VirtoCommerce.OpenIdConnectModule",
-          "BlobName": "VirtoCommerce.OpenIdConnectModule_3.800.0-alpha.11.zip"
-        },
-        {
           "Id": "VirtoCommerce.XRecommend",
           "BlobName": "VirtoCommerce.XRecommend_3.805.0-alpha.15.zip"
         },
@@ -280,6 +276,10 @@
         {
           "Id": "VirtoCommerce.XOrder",
           "BlobName": "VirtoCommerce.XOrder_3.809.0-alpha.29.zip"
+        },
+        {
+          "Id": "VirtoCommerce.OpenIdConnectModule",
+          "BlobName": "VirtoCommerce.OpenIdConnectModule_3.800.0-alpha.13.zip"
         }
       ]
     }
