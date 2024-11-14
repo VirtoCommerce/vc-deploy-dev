@@ -22,10 +22,6 @@
           "BlobName": "VirtoCommerce.PageBuilderModule_3.813.0-pr-73-ce3d.zip"
         },
         {
-          "Id": "VirtoCommerce.OpenIdConnectModule",
-          "BlobName": "VirtoCommerce.OpenIdConnectModule_3.800.0-pr-2-9241.zip"
-        },
-        {
           "Id": "VirtoCommerce.PushMessages",
           "BlobName": "VirtoCommerce.PushMessages_3.813.0-pr-10-32f7.zip"
         },
@@ -192,6 +188,10 @@
         {
           "Id": "VirtoCommerce.Cart",
           "BlobName": "VirtoCommerce.Cart_3.816.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.OpenIdConnectModule",
+          "BlobName": "VirtoCommerce.OpenIdConnectModule_3.800.0.zip"
         }
       ]
     },
