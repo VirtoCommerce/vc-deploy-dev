@@ -11,7 +11,6 @@
       Serilog__Using__0: Serilog.Sinks.Console
       Serilog__MinimumLevel__Default: "Information"
       Serilog__WriteTo__0: Console
-      #APPINSIGHTS_INSTRUMENTATIONKEY: eb2fbd36-8ffa-4e9d-bf64-5ec908e7fc74
       VirtoCommerce__Stores__DefaultStore: B2B-store
       PushNotifications__ForceWebSockets: true
       PushNotifications__ScalabilityMode: RedisBackplane
@@ -84,7 +83,7 @@
       DefaultMainMenuState__items__0__path: browse/marketing
       DefaultMainMenuState__items__0__isFavorite: true
       DefaultMainMenuState__items__0__order: 1
-      APPINSIGHTS_INSTRUMENTATIONKEY: cada4cf7-305b-4827-a03a-ca9aac67fb9e
+      APPINSIGHTS_INSTRUMENTATIONKEY: 4cf3a85e-6c3b-48b3-bc81-d37d8267017e
       FrontendSecurity__OrganizationMaintainerRole: Organization maintainer
       IdentityOptions__Password__RequiredLength: 3
       IdentityOptions__Password__RequireDigit: false
