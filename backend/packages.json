@@ -230,10 +230,6 @@
           "BlobName": "VirtoCommerce.GDPR_3.806.0-alpha.128.zip"
         },
         {
-          "Id": "VirtoCommerce.Marketing",
-          "BlobName": "VirtoCommerce.Marketing_3.815.0-alpha.863.zip"
-        },
-        {
           "Id": "VirtoCommerce.Return",
           "BlobName": "VirtoCommerce.Return_3.807.0-alpha.106.zip"
         },
@@ -280,6 +276,10 @@
         {
           "Id": "VirtoCommerce.PushMessages",
           "BlobName": "VirtoCommerce.PushMessages_3.814.0-alpha.48.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Marketing",
+          "BlobName": "VirtoCommerce.Marketing_3.815.0-alpha.864.zip"
         }
       ]
     }
