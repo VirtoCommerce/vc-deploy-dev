@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.866.0-pr-2860-64bb-vcst-2271-64bb86f3",
+  "PlatformVersion": "3.866.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.866.0-pr-2860-64bb-vcst-2271-64bb86f3",
+  "PlatformImageTag": "3.866.0",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -13,11 +13,11 @@
       "Container": "packages",
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
-          {
+        {
           "Id": "VirtoCommerce.XCMS",
           "BlobName": "VirtoCommerce.XCMS_3.802.0-pr-5-7593.zip"
-         },
-         {
+        },
+        {
           "Id": "VirtoCommerce.Xapi",
           "BlobName": "VirtoCommerce.Xapi_3.813.0-pr-15-079a.zip"
         },
