@@ -19,13 +19,24 @@
       #Authorization__AllowApiAccessForCustomers: true
       VirtoCommerce__FileExtensionsBlackList__0: .pdf
       Reload: 10
+
+      #Notifications
+
       Notifications__DefaultSender: virto.start@virtoway.com
+      #Sendgridserver
       Notifications__Gateway: SendGrid
       Notifications__SmsDefaultSender: +17012510519
       Notifications__Smtp__EnableSsl: False
       Notifications__Smtp__Host: smtp.sendgrid.net
       Notifications__Smtp__Login: apikey
       Notifications__Smtp__Port: 587
+      #Smtpserver
+      #Notifications__Gateway: Smtp
+      #Notifications__Smtp__SmtpServer: http://smtp.gmail.com
+      #Notifications__Smtp__Login: "" //Your full Gmail address (e.g. you@gmail.com)
+      #Notifications__Smtp__Password: "" //The password that you use to log in to Gmail
+      #Notifications__Smtp__Port: 587 //TLS port
+      
       # Firebase settings
       PushMessages__UseFirebaseCloudMessaging: true
       PushMessages__FcmSenderOptions__Type: service_account
