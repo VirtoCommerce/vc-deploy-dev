@@ -274,16 +274,16 @@
           "BlobName": "VirtoCommerce.Marketing_3.815.0-alpha.864.zip"
         },
         {
-          "Id": "VirtoCommerce.BuilderIO",
-          "BlobName": "VirtoCommerce.BuilderIO_3.805.0-alpha.57.zip"
-        },
-        {
           "Id": "VirtoCommerce.Pages",
           "BlobName": "VirtoCommerce.Pages_3.804.0-alpha.14.zip"
         },
         {
           "Id": "VirtoCommerce.Core",
           "BlobName": "VirtoCommerce.Core_3.813.0-alpha.1635.zip"
+        },
+        {
+          "Id": "VirtoCommerce.BuilderIO",
+          "BlobName": "VirtoCommerce.BuilderIO_3.805.0-alpha.59.zip"
         }
       ]
     }
