@@ -238,10 +238,6 @@
           "BlobName": "VirtoCommerce.Sitemaps_3.811.0-alpha.361.zip"
         },
         {
-          "Id": "VirtoCommerce.Orders",
-          "BlobName": "VirtoCommerce.Orders_3.835.0-alpha.1295.zip"
-        },
-        {
           "Id": "VirtoCommerce.Quote",
           "BlobName": "VirtoCommerce.Quote_3.821.0-alpha.431.zip"
         },
@@ -284,6 +280,10 @@
         {
           "Id": "VirtoCommerce.XCart",
           "BlobName": "VirtoCommerce.XCart_3.816.0-alpha.41.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Orders",
+          "BlobName": "VirtoCommerce.Orders_3.835.0-alpha.1296.zip"
         }
       ]
     }
