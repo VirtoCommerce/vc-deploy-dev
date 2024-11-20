@@ -228,10 +228,6 @@
           "Version": "3.810.0"
         },
         {
-          "Id": "VirtoCommerce.XOrder",
-          "Version": "3.809.0"
-        },
-        {
           "Id": "VirtoCommerce.OpenIdConnectModule",
           "Version": "3.800.0"
         },
@@ -270,6 +266,10 @@
         {
           "Id": "VirtoCommerce.Quote",
           "Version": "3.821.0"
+        },
+        {
+          "Id": "VirtoCommerce.XOrder",
+          "Version": "3.810.0"
         }
       ]
     },
