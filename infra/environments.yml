@@ -46,7 +46,7 @@
       #Notifications__Smtp__Host: smtp.sendgrid.net
       #Notifications__Smtp__Login: apikey
       #Notifications__Smtp__Port: 587
-      Notifications__DefaultReplyTo: kutasina.elena@gmail.com
+      Notifications__DefaultReplyTo: zhukoo@gmail.com
 
       ASPNETCORE_ENVIRONMENT: Development
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
