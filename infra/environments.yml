@@ -1,4 +1,4 @@
-- name: vcst-dev
+- name: vcst-qa
   gitops: true
   production: false
   servicePlan: B1
@@ -9,13 +9,23 @@
       # Increment to force environment reload
       reload: 7
       # Application Insights settings
-      APPINSIGHTS_INSTRUMENTATIONKEY: b64da477-188b-4154-969b-3cb1310400f0
+      APPINSIGHTS_INSTRUMENTATIONKEY: ef0125aa-1c8e-42d3-964f-d0a11256309d      
       # Forward headers to Nginx
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
       # Enable Azure Active Directory login in platform UI
-      AzureAd__ApplicationId: 8227d950-975c-4c28-b7d4-ea440a59dcbb
+      Authorization__AllowApiAccessForCustomers: true
       AzureAd__Enabled: true
+      AzureAd__ApplicationId: 86d04c35-143d-4d3c-aea2-8608e2186282
       AzureAd__TenantId: bc03e660-5e3a-45c4-bf5c-b75489f78923
+      AzureAd__ValidateIssuer: MultitenantAzureAD
+      AzureAd__DefaultUserType: Manager
+      GoogleSSO__Enabled: true
+      GoogleSSO__AuthenticationType: GoogleSSO
+      GoogleSSO__AuthenticationCaption: Google sign-in
+      GoogleSSO__DefaultUserType: Customer
+      GoogleSSO__UsePreferredUsername: false
+      #Default Store
+      VirtoCommerce__Stores__DefaultStore: B2B-store
       # Allows to see theme in Content menu in platform UI
       Content__FileSystem__RootPath: /opt/virtocommerce/platform/wwwroot/cms-content
       Content__PathMappings__pages__0: Themes
@@ -29,7 +39,6 @@
       # File Uploader settings
       FileUpload__RootPath: attachments
       FileUpload__Scopes__0__Scope: quote-attachments
-      FileUpload__Scopes__0__MaxFileSize: 1000000
       FileUpload__Scopes__0__AllowedExtensions__0: .csv
       FileUpload__Scopes__0__AllowedExtensions__1: .docx
       FileUpload__Scopes__0__AllowedExtensions__2: .jpg
@@ -41,27 +50,61 @@
       Notifications__DefaultSender: virto.start@virtoway.com
       Notifications__Gateway: SendGrid
       Notifications__SmsDefaultSender: +17012510519
+      # Sync push notifications between platform instances
+      PushNotifications__ForceWebSockets: true
+      PushNotifications__ScalabilityMode: RedisBackplane
+      PushNotifications__HubUrl: https://vcst-qa.govirto.com/pushNotificationHub?api_key=458ab7f7-df17-4aed-9f21-092f8b611efa
+      PushNotifications__RedisBackplane__ChannelName: vcst-qa-chanel
       # Return detailed error information if login failed
       PasswordLogin__DetailedErrors: true
+      IdentityOptions__Lockout__MaxFailedAccessAttempts: 5
+      IdentityOptions__User__MaxPasswordAge: 90
+      IdentityOptions__User__RemindPasswordExpiryInDay: 7      
       # Authorize.Net settings
       Payments__AuthorizeNet__ApiLogin: 52B9X7vb4
       # Skyflow settings
       Payments__Skyflow__tokenURI: https://manage.skyflowapis.com/v1/auth/sa/oauth/token
-      Payments__Skyflow__DefaultConnection__name: 8hPT4p99R
-      Payments__Skyflow__DefaultCOnnection__connectionUrl: https://ebfc9bee4242.gateway.skyflowapis.com/v1/gateway/outboundRoutes/gfb5ce07e91340efac348a2df035c513/xml/v1/request.api
+      Payments__Skyflow__vaultURI: https://ebfc9bee4242.vault.skyflowapis.com
+      Payments__Skyflow__gatewayURI: https://ebfc9bee4242.gateway.skyflowapis.com
+      Payments__Skyflow__vaultId: c1aeec61ad7c46c2b724f004a7658b2f
+      Payments__Skyflow__tableName: credit_cards
+      Payments__Skyflow__TargetPaymentMethod: AuthorizeNetPaymentMethod
+      Payments__Skyflow__TargetConnectionRoute: gfb5ce07e91340efac348a2df035c513/xml/v1/request.api
       # Sync push notifications between platform instances
       PushNotifications__ForceWebSockets: true
       PushNotifications__ScalabilityMode: RedisBackplane
-      PushNotifications__HubUrl: https://vcst-dev.govirto.com/pushNotificationHub?api_key=458ab7f7-df17-4aed-9f21-092f8b611efa
-      PushNotifications__RedisBackplane__ChannelName: vcst-dev-chanel
+      PushNotifications__HubUrl: https://vcst-qa.govirto.com/pushNotificationHub?api_key=458ab7f7-df17-4aed-9f21-092f8b611efa
+      PushNotifications__RedisBackplane__ChannelName: vcst-qa-chanel
+      # Firebase settings
+      PushMessages__UseFirebaseCloudMessaging: true
+      PushMessages__FcmSenderOptions__Type: service_account
+      PushMessages__FcmSenderOptions__ProjectId: vcst-qa
+      PushMessages__FcmSenderOptions__PrivateKeyId: 2d6bed5b992d4f7d52ec9e432e929083bb0d86fa 
+      PushMessages__FcmSenderOptions__ClientEmail: firebase-adminsdk-1vh96@vcst-qa.iam.gserviceaccount.com
+      PushMessages__FcmSenderOptions__ClientId: 111108068739348332191
+      PushMessages__FcmSenderOptions__AuthUri: https://accounts.google.com/o/oauth2/auth
+      PushMessages__FcmSenderOptions__TokenUri: https://oauth2.googleapis.com/token
+      PushMessages__FcmSenderOptions__AuthProviderX509CertUrl: https://www.googleapis.com/oauth2/v1/certs
+      PushMessages__FcmSenderOptions__ClientX509CertUrl: https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-1vh96%40vcst-qa.iam.gserviceaccount.com
+      PushMessages__FcmSenderOptions__UniverseDomain: googleapis.com
+      PushMessages__FcmReceiverOptions__ApiKey: AIzaSyAJLCGjYkqbbv8n8dvuXazURr8kz0GsuVo
+      PushMessages__FcmReceiverOptions__AuthDomain: vcst-qa.firebaseapp.com
+      PushMessages__FcmReceiverOptions__ProjectId: vcst-qa
+      PushMessages__FcmReceiverOptions__StorageBucket: vcst-qa.appspot.com
+      PushMessages__FcmReceiverOptions__MessagingSenderId: 1021404404978
+      PushMessages__FcmReceiverOptions__AppId: 1:1021404404978:web:89ab011d054397a04d046b
+      PushMessages__FcmReceiverOptions__VapidKey: BB1Pzs7sBeDkuQWO_cNzo3OhCEruXypVhFsKZaTN4FBL1JhC4fgsgsQSM-vusa99uYVpMcroJzhydyRfMkCQLHc
       # Elastic App Search settings
       Search__ElasticAppSearch__Endpoint: https://enterprise-search-test.govirto.com
       Search__ElasticAppSearch__EnableHttpCompression: true
       # Elastic Search settings
       Search__ElasticSearch__Server: https://elasticsearch-vc03.govirto.com
       Search__ElasticSearch__EnableCompatibilityMode: true
+      # Elastic Search 8
+      #Search__ElasticSearch8__Server: https://1714126b27f941cb82f2c0e0d242d6b4.eastus2.azure.elastic-cloud.com
+      #Search__ElasticSearch8__User: elastic
       # VirtoCommerce Search settings
-      Search__Provider: ElasticSearch
+      Search__Provider: ElasticSearch     
       # Prevent Hangfire duplication key error
       VirtoCommerce__Hangfire__SqlServerStorageOptions__TryAutoDetectSchemaDependentOptions: true
       VirtoCommerce__Hangfire__SqlServerStorageOptions__UseIgnoreDupKeyOption: true
@@ -91,35 +134,41 @@
       PushMessages__FcmReceiverOptions__AppId: 1:518395609520:web:53952423cba605aa771675
       PushMessages__FcmReceiverOptions__VapidKey: BE1iGYmRsbdI1FB-qTiIUvGrWvC91GCfnXSHtfzcPLgXfQ28fbpKFlD8YlbI7w-aHVepW3Ih17oRB53ceYNaM6k
       # Temporary settings below
+      Authorization__AccessTokenLifeTime: 00:30:00
+      #Authorization__RefreshTokenLifeTime: 0:30:00
+      # Avalara Tax
+      Tax__Avalara__AccountNumber: 2000188799
+      Tax__Avalara__LicenseKey: 16BC3F87E836E15C
+      Reload: 2024-09-12
     secretConfig:
+      #Search__ElasticSearch8__Key: elastic8
+      PushMessages__FcmSenderOptions__PrivateKey: fcm-private-key-new
       Notifications__SendGrid__ApiKey: sendgrid-apikey
       Payments__AuthorizeNet__TxnKey: authorizenet-txnkey
-      Payments__Skyflow__ClientSDK__clientID: skyflow-client-clientid
-      Payments__Skyflow__ClientSDK__keyID: skyflow-client-keyid
-      Payments__Skyflow__ClientSDK__privateKey: skyflow-client-privatekey
-      Payments__Skyflow__Connections__Default__clientID: skyflow-server-clientid
-      Payments__Skyflow__Connections__Default__keyID: skyflow-server-keyid
-      Payments__Skyflow__Connections__Default__privateKey: skyflow-server-privatekey
-      Payments__Skyflow__DefaultConnection__transactionKey: authorizenet-txnkey
-      PushMessages__FcmSenderOptions__PrivateKey: fcm-private-key
+      Payments__AuthorizeNet__SHA2Hash: authorizenet-sha2hash
+      Payments__Skyflow__PaymentFormAccount__clientID: skyflow-paymentformaccount-clientid
+      Payments__Skyflow__PaymentFormAccount__keyID: skyflow-paymentformaccount-keyid
+      Payments__Skyflow__PaymentFormAccount__privateKey: skyflow-paymentformaccount-privatekey
+      Payments__Skyflow__IntegrationsAccount__clientID: skyflow-integrationsaccount-clientid
+      Payments__Skyflow__IntegrationsAccount__keyID: skyflow-integrationsaccount-keyid
+      Payments__Skyflow__IntegrationsAccount__privateKey: skyflow-integrationsaccount-privatekey     
+      GoogleSSO__ApplicationId: googlesso-aplicationid
+      GoogleSSO__Secret: googlesso-secret     
   storefront:
     enabled: false
     imageRepository: virtopaasregistrymain.azurecr.io/vcst/storefront
     servicePlan: B1
-    probePath: /storefrontapi/health
+    probePath: /
     config:
-      APPINSIGHTS_INSTRUMENTATIONKEY: e71d9642-3996-4fae-872e-74b3f8244779
+      #APPINSIGHTS_INSTRUMENTATIONKEY: 48cca1d8-ea02-433e-bfa6-7aa21acb88d9
       CookieAuthenticationOptions__LoginPath: /sign-in
       DOTNET_USE_POLLING_FILE_WATCHER: true
       SnapshotCollectorConfiguration__IsEnabled: false
-      SYSTEM_RESTART: 05.09.2024
+      SYSTEM_RESTART: 25.10.2023
       VirtoCommerce__Endpoint__Password: Store12345
       VirtoCommerce__CacheSlidingExpiration: 0:0:5
     themes:
       B2B-store: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-2.0.0-pr-1136-1be8-1be89467.zip
-  ingress:
-    storefrontHostnames:
-      name1: vcst-dev-b2c-store.govirto.com
   customApps:
     app1:
       name: storybook
@@ -127,13 +176,13 @@
       imageRepository: ghcr.io/virtocommerce/vc-theme-b2b-vue-storybook
       servicePlan: F1
       type: standalone
-      hostname: vcst-dev-storybook.govirto.com
+      hostname: vcst-qa-storybook.govirto.com
       probePath: /
       ingressPath: /
     app2:
       enabled: false
   routes:
-  - host: vcst-dev-storefront.govirto.com
+  - host: vcst-qa-storefront.govirto.com
     root: B2B-store
     paths:
     - path: /xapi
