@@ -297,7 +297,7 @@
         VirtoCommerce__ApplicationInsights__RoleInstance: This is instance of QA2
       secretConfig:
         Notifications__SendGrid__ApiKey: sendkey
-        Notifications__Smtp__Password: smtppassword
+        #Notifications__Smtp__Password: smtppassword
         Search__ElasticAppSearch__PrivateApiKey: elasticappsearch
         Search__AzureSearch__Key: azureseearchkey
     app2:
