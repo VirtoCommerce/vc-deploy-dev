@@ -320,7 +320,7 @@
         VirtoCommerce__ApplicationInsights__RoleInstance: This is instance of QA1
       secretConfig:
         Notifications__SendGrid__ApiKey: sendkey
-        Notifications__Smtp__Password: smtppassword
+        #Notifications__Smtp__Password: smtppassword
         Search__ElasticAppSearch__PrivateApiKey: elasticappsearch
   routes:
   - host: vcptcore-qa-storefront.govirto.com
