@@ -180,10 +180,6 @@
           "Version": "3.804.0"
         },
         {
-          "Id": "VirtoCommerce.Xapi",
-          "Version": "3.812.0"
-        },
-        {
           "Id": "VirtoCommerce.CustomerReviews",
           "Version": "3.808.0"
         },
@@ -270,6 +266,10 @@
         {
           "Id": "VirtoCommerce.Notifications",
           "Version": "3.814.0"
+        },
+        {
+          "Id": "VirtoCommerce.Xapi",
+          "Version": "3.813.0"
         }
       ]
     },
