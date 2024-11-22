@@ -160,10 +160,6 @@
           "Version": "3.804.0"
         },
         {
-          "Id": "VirtoCommerce.EventBus",
-          "Version": "3.805.0"
-        },
-        {
           "Id": "VirtoCommerce.ImageTools",
           "Version": "3.808.0"
         },
@@ -270,6 +266,10 @@
         {
           "Id": "VirtoCommerce.XCMS",
           "Version": "3.802.0"
+        },
+        {
+          "Id": "VirtoCommerce.EventBus",
+          "Version": "3.806.0"
         }
       ]
     },
