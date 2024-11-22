@@ -56,10 +56,6 @@
           "Version": "3.803.0"
         },
         {
-          "Id": "VirtoCommerce.XCMS",
-          "Version": "3.801.0"
-        },
-        {
           "Id": "VirtoCommerce.FileSystemAssets",
           "Version": "3.805.0"
         },
@@ -270,6 +266,10 @@
         {
           "Id": "VirtoCommerce.Xapi",
           "Version": "3.813.0"
+        },
+        {
+          "Id": "VirtoCommerce.XCMS",
+          "Version": "3.802.0"
         }
       ]
     },
