@@ -201,6 +201,10 @@
           "Id": "VirtoCommerce.Contracts",
           "BlobName": "VirtoCommerce.Contracts_3.807.0.zip"
         },
+          {
+          "Id": "VirtoCommerce.AuthorizeNetPayment",
+          "Version": "VirtoCommerce.AuthorizeNetPayment_3.803.0-pr-6-248f.zip"
+        },
         {
           "Id": "VirtoCommerce.Cart",
           "BlobName": "VirtoCommerce.Cart_3.820.0.zip"
@@ -268,10 +272,6 @@
         {
           "Id": "VirtoCommerce.Subscription",
           "Version": "3.806.0"
-        },
-        {
-          "Id": "VirtoCommerce.AuthorizeNetPayment",
-          "Version": "3.802.0"
         },
         {
           "Id": "VirtoCommerce.FileExperienceApi",
