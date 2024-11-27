@@ -32,22 +32,18 @@
       TaxModule__FixedRateTaxProvider__Enabled: true
 
       #notifications_settings
-      #Notifications__DefaultSender: virto.start@virtoway.com
+      
       #Notifications__Gateway: SendGrid
-      Notifications__DefaultSender: zhukoo@gmail.com
       Notifications__Gateway: Smtp
       Notifications__Smtp__ForceSslTls: false
-      Notifications__Smtp__SmtpServer: smtp.gmail.com
-      Notifications__Smtp__Login: zhukoo@gmail.com
-      Notifications__Smtp__Password: "mmud ivin veyi pnmz"
+      Notifications__Smtp__SmtpServer: smtp.sendgrid.net
+      Notifications__Smtp__Login: YXBpa2V5
       Notifications__Smtp__Port: 587
       Notifications__SmsDefaultSender: +17012510519
       Notifications__DefaultReplyTo: kutasina.elena@gmail.com
-
+      Notifications__DefaultSender: virto.start@virtoway.com
       #Notifications__Smtp__EnableSsl: False
-      #Notifications__Smtp__Host: smtp.sendgrid.net
-      #Notifications__Smtp__Login: apikey
-      #Notifications__Smtp__Port: 587
+    
       
 
       ASPNETCORE_ENVIRONMENT: Development
@@ -251,7 +247,7 @@
       Payments__Skyflow__IntegrationsAccount__keyID: skyflow-integrationsaccount-keyid
       Payments__Skyflow__IntegrationsAccount__privateKey: skyflow-integrationsaccount-privatekey
       Notifications__SendGrid__ApiKey: sendkey
-      #Notifications__Smtp__Password: smtppasswordyandex
+      Notifications__Smtp__Password: smtppassword-sendgrid
       Search__ElasticAppSearch__PrivateApiKey: elasticappsearch
       Serilog__WriteTo__1__Args__connectionString: connectionstringaiqa
       EventBus__Connections__0__ConnectionOptionsSerialized: eventbusconnection
