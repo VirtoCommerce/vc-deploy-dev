@@ -6,6 +6,9 @@
     imageRepository: virtopaasregistrymain.azurecr.io/vcst/platform
     sqlReplica: false
     config:
+      # AI
+      AI__Service: "OpenAI"
+      AI__OpenAI__ModelId: "gpt-4o"
       # Application Insights settings
       #APPINSIGHTS_INSTRUMENTATIONKEY: e8fecf67-f941-44c3-9bcf-271aaea8933b
       # Forward headers to Nginx
