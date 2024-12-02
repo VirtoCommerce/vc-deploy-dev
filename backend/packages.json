@@ -32,10 +32,6 @@
           "Version": "3.804.0"
         },
         {
-          "Id": "VirtoCommerce.Assets",
-          "Version": "3.808.0"
-        },
-        {
           "Id": "VirtoCommerce.AzureBlobAssets",
           "Version": "3.809.0"
         },
@@ -270,6 +266,10 @@
         {
           "Id": "VirtoCommerce.Cart",
           "Version": "3.821.0"
+        },
+        {
+          "Id": "VirtoCommerce.Assets",
+          "Version": "3.809.0"
         }
       ]
     },
