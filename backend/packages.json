@@ -14,6 +14,10 @@
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
           {
+          "Id": "VirtoCommerce.CatalogCsvImportModule",
+          "BlobName": "VirtoCommerce.CatalogCsvImportModule_3.803.0-pr-109-6b53.zip"
+          },
+          {
           "Id": "VirtoCommerce.XCMS",
           "BlobName": "VirtoCommerce.XCMS_3.802.0.zip"
          },
@@ -131,7 +135,7 @@
         },
         {
           "Id": "VirtoCommerce.Pricing",
-          "BlobName": "VirtoCommerce.Pricing_3.810.0.zip"
+          "BlobName": "VirtoCommerce.Pricing_3.811.0-pr-214-f034.zip"
         },
         {
           "Id": "VirtoCommerce.Inventory",
@@ -199,7 +203,7 @@
         },
         {
           "Id": "VirtoCommerce.Contracts",
-          "BlobName": "VirtoCommerce.Contracts_3.807.0.zip"
+          "BlobName": "VirtoCommerce.Contracts_3.808.0-pr-25-83d8.zip"
         },
          {
           "Id": "VirtoCommerce.Skyflow",
@@ -228,6 +232,7 @@
       "ModuleSources": [
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
+      
       "Modules": [
         {
           "Id": "VirtoCommerce.ApplicationInsights",
@@ -239,10 +244,6 @@
         },
         {
           "Id": "VirtoCommerce.BulkActionsModule",
-          "Version": "3.802.0"
-        },
-        {
-          "Id": "VirtoCommerce.CatalogCsvImportModule",
           "Version": "3.802.0"
         },
         {
