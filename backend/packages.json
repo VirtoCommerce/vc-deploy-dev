@@ -55,10 +55,6 @@
           "Version": "3.805.0"
         },
         {
-          "Id": "VirtoCommerce.Assets",
-          "Version": "3.808.0"
-        },
-        {
           "Id": "VirtoCommerce.CatalogPersonalization",
           "Version": "3.802.0"
         },
@@ -225,6 +221,10 @@
       "Container": "packages",
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
+        {
+          "Id": "VirtoCommerce.Assets",
+          "BlobName": "VirtoCommerce.Assets_3.809.0-pr-25-b08d.zip"
+        }
       ]
     }
   ]
