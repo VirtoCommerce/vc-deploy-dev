@@ -21,6 +21,9 @@
         },
         {
           "BlobName": "VirtoCommerce.XCart_3.817.0-pr-22-e70d.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Xapi_3.814.0-pr-18-f45b.zip"
         }
       ]
     },
@@ -249,10 +252,6 @@
         {
           "Id": "VirtoCommerce.Notifications",
           "Version": "3.814.0"
-        },
-        {
-          "Id": "VirtoCommerce.Xapi",
-          "Version": "3.813.0"
         },
         {
           "Id": "VirtoCommerce.XCMS",
