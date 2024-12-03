@@ -27,7 +27,7 @@
         },
         {
           "Id": "VirtoCommerce.BuilderIO",
-          "BlobName": "VirtoCommerce.BuilderIO_3.805.0-alpha.60.zip"
+          "BlobName": "VirtoCommerce.BuilderIO_3.805.0-pr-3-7c07.zip"
         },
         {
           "Id": "VirtoCommerce.Pages",
@@ -221,6 +221,18 @@
           "Id": "VirtoCommerce.AvalaraTax",
           "BlobName": "VirtoCommerce.AvalaraTax_3.802.0-pr-61-0434.zip"
         },
+          {
+          "Id": "VirtoCommerce.ApplicationInsights",
+          "BlobName": "VirtoCommerce.ApplicationInsights_3.803.0-pr-6-4818.zip"
+        },
+         {
+          "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
+          "Version": "VirtoCommerce.GoogleEcommerceAnalytics_4.803.0-pr-49-0115.zip"
+        },
+         {
+          "Id": "VirtoCommerce.PowerBiReports",
+          "BlobName": "VirtoCommerce.PowerBiReports_3.800.0-pr-5-3363.zip"
+          },
         {
           "Id": "VirtoCommerce.Cart",
           "BlobName": "VirtoCommerce.Cart_3.820.0.zip"
@@ -235,10 +247,6 @@
       
       "Modules": [
         {
-          "Id": "VirtoCommerce.ApplicationInsights",
-          "Version": "3.802.0"
-        },
-        {
           "Id": "VirtoCommerce.PriceExportImport",
           "Version": "3.800.0"
         },
@@ -249,10 +257,6 @@
         {
           "Id": "VirtoCommerce.WhiteLabeling",
           "Version": "3.804.0"
-        },
-        {
-          "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
-          "Version": "4.802.0"
         },
         {
           "Id": "VirtoCommerce.Export",
