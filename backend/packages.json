@@ -30,6 +30,9 @@
         },
         {
           "BlobName": "VirtoCommerce.PushMessages_3.814.0-pr-11-efc3.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.CustomerReviews_3.809.0-pr-66-eb6f.zip"
         }
       ]
     },
@@ -194,10 +197,6 @@
         {
           "Id": "VirtoCommerce.Export",
           "Version": "3.804.0"
-        },
-        {
-          "Id": "VirtoCommerce.CustomerReviews",
-          "Version": "3.808.0"
         },
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
