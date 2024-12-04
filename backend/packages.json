@@ -179,7 +179,7 @@
         },
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "BlobName": "VirtoCommerce.FileExperienceApi_3.805.0-pr-7-2609.zip"
+          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.818.0.zip"
         },
         {
           "Id": " VirtoCommerce.Orders",
@@ -237,6 +237,10 @@
           "Id": "VirtoCommerce.XCatalog",
           "BlobName": "VirtoCommerce.XCatalog_3.817.0-pr-21-1d57.zip"
         },
+         {
+          "Id": "VirtoCommerce.FileExperienceApi",
+          "BlobName": "VirtoCommerce.FileExperienceApi_3.805.0-pr-7-2609.zip"
+        },
         {
           "Id": "VirtoCommerce.Cart",
           "BlobName": "VirtoCommerce.Cart_3.821.0.zip"
@@ -285,10 +289,6 @@
         {
           "Id": "VirtoCommerce.Subscription",
           "Version": "3.806.0"
-        },
-        {
-          "Id": "VirtoCommerce.FileExperienceApi",
-          "Version": "3.804.0"
         },
         {
           "Id": "VirtoCommerce.TaskManagement",
