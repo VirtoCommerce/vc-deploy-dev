@@ -27,6 +27,9 @@
         },
         {
           "BlobName": "VirtoCommerce.Quote_3.822.0-pr-128-059f.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.PushMessages_3.814.0-pr-11-efc3.zip"
         }
       ]
     },
@@ -235,10 +238,6 @@
         {
           "Id": "VirtoCommerce.OpenIdConnectModule",
           "Version": "3.800.0"
-        },
-        {
-          "Id": "VirtoCommerce.PushMessages",
-          "Version": "3.813.0"
         },
         {
           "Id": "VirtoCommerce.BuilderIO",
