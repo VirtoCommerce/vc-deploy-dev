@@ -12,24 +12,24 @@
       "Name": "AzureBlob",
       "Container": "packages",
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
-      "Modules": [        
-          {
+      "Modules": [
+        {
           "Id": "VirtoCommerce.XCatalog",
           "BlobName": "VirtoCommerce.XCatalog_3.819.0-pr-22-4765.zip"
-          },
-          {
+        },
+        {
           "Id": "VirtoCommerce.XCart",
           "BlobName": "VirtoCommerce.XCart_3.818.0-pr-21-9528.zip"
-          },
-          {
+        },
+        {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
           "BlobName": "VirtoCommerce.CatalogCsvImportModule_3.803.0-pr-109-6b53.zip"
-          },
-          {
+        },
+        {
           "Id": "VirtoCommerce.XCMS",
           "BlobName": "VirtoCommerce.XCMS_3.803.0.zip"
-         },
-         {
+        },
+        {
           "Id": "VirtoCommerce.Xapi",
           "BlobName": "VirtoCommerce.Xapi_3.814.0.zip"
         },
@@ -206,37 +206,41 @@
           "Id": "VirtoCommerce.Contracts",
           "BlobName": "VirtoCommerce.Contracts_3.808.0-pr-25-b450.zip"
         },
-         {
+        {
           "Id": "VirtoCommerce.Skyflow",
           "BlobName": "VirtoCommerce.Skyflow_3.809.0-pr-13-fa0c.zip"
         },
-         {
+        {
           "Id": "VirtoCommerce.ShipStation",
           "BlobName": "VirtoCommerce.ShipStation_3.801.0-pr-9-f365.zip"
         },
-         {
+        {
           "Id": "VirtoCommerce.AuthorizeNetPayment",
           "BlobName": "VirtoCommerce.AuthorizeNetPayment_3.803.0-pr-6-248f.zip"
         },
-          {
+        {
           "Id": "VirtoCommerce.AvalaraTax",
           "BlobName": "VirtoCommerce.AvalaraTax_3.802.0-pr-61-0434.zip"
         },
-          {
+        {
           "Id": "VirtoCommerce.ApplicationInsights",
           "BlobName": "VirtoCommerce.ApplicationInsights_3.803.0-pr-6-4818.zip"
         },
-         {
+        {
           "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
           "BlobName": "VirtoCommerce.GoogleEcommerceAnalytics_4.803.0-pr-49-0115.zip"
         },
-         {
+        {
           "Id": "VirtoCommerce.PowerBiReports",
           "BlobName": "VirtoCommerce.PowerBiReports_3.800.0-pr-5-3363.zip"
-          },
-         {
+        },
+        {
           "Id": "VirtoCommerce.FileExperienceApi",
           "BlobName": "VirtoCommerce.FileExperienceApi_3.805.0-pr-7-2609.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Cart",
+          "BlobName": "VirtoCommerce.Cart_3.822.0.zip"
         }
       ]
     },
@@ -245,7 +249,6 @@
       "ModuleSources": [
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
-      
       "Modules": [
         {
           "Id": "VirtoCommerce.PriceExportImport",
@@ -287,13 +290,9 @@
           "Id": "VirtoCommerce.TaskManagement",
           "Version": "3.804.0"
         },
-          {
+        {
           "Id": "VirtoCommerce.Catalog",
           "Version": "3.830.0"
-        },
-        {
-          "Id": "VirtoCommerce.Cart",
-          "Version": "3.821.0"
         },
         {
           "Id": "VirtoCommerce.MarketingExperienceApi",
