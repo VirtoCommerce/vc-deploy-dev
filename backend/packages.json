@@ -21,18 +21,6 @@
         },
         {
           "BlobName": "VirtoCommerce.XCart_3.817.0-pr-22-e70d.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.Xapi_3.814.0-pr-18-f45b.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.Quote_3.822.0-pr-128-059f.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.PushMessages_3.814.0-pr-11-efc3.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.CustomerReviews_3.809.0-pr-66-eb6f.zip"
         }
       ]
     },
@@ -77,6 +65,10 @@
         {
           "Id": "VirtoCommerce.BulkActionsModule",
           "Version": "3.802.0"
+        },
+        {
+          "Id": "VirtoCommerce.CustomerReviews",
+          "Version": "3.809.0"
         },
         {
           "Id": "VirtoCommerce.ElasticAppSearch",
@@ -135,6 +127,10 @@
           "Version": "3.810.0"
         },
         {
+          "Id": "VirtoCommerce.PushMessages",
+          "Version": "3.814.0"
+        },
+        {
           "Id": "VirtoCommerce.CustomerExportImport",
           "Version": "3.808.0"
         },
@@ -161,6 +157,10 @@
         {
           "Id": "VirtoCommerce.Customer",
           "Version": "3.820.0"
+        },
+        {
+          "Id": "VirtoCommerce.Quote",
+          "Version": "3.822.0"
         },
         {
           "Id": "VirtoCommerce.Store",
@@ -248,6 +248,10 @@
         },
         {
           "Id": "VirtoCommerce.Notifications",
+          "Version": "3.814.0"
+        },
+        {
+          "Id": "VirtoCommerce.Xapi",
           "Version": "3.814.0"
         },
         {
