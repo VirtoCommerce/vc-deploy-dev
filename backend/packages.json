@@ -168,10 +168,6 @@
           "Version": "3.806.0"
         },
         {
-          "Id": "VirtoCommerce.Contracts",
-          "Version": "3.807.0"
-        },
-        {
           "Id": "VirtoCommerce.GDPR",
           "Version": "3.805.0"
         },
@@ -270,6 +266,10 @@
         {
           "Id": "VirtoCommerce.Pricing",
           "Version": "3.811.0"
+        },
+        {
+          "Id": "VirtoCommerce.Contracts",
+          "Version": "3.808.0"
         }
       ]
     },
