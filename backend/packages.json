@@ -82,9 +82,6 @@
           "BlobName": "VirtoCommerce.ElasticAppSearch_3.806.0.zip"
         },
         {
-          "BlobName": "VirtoCommerce.Catalog_3.829.0.zip"
-        },
-        {
           "BlobName": "VirtoCommerce.Content_3.824.0.zip"
         },
         {
@@ -170,10 +167,6 @@
           "BlobName": "VirtoCommerce.EventBus_3.807.0-pr-24-46a1.zip"
         },
         {
-          "Id": "VirtoCommerce.XCart",
-          "BlobName": "VirtoCommerce.XCart_3.816.0-pr-20-eba0.zip"
-        },
-        {
           "Id": "VirtoCommerce.XOrder",
           "BlobName": "VirtoCommerce.XOrder_3.811.0-pr-14-3717.zip"
         },
@@ -233,17 +226,9 @@
           "Id": "VirtoCommerce.PowerBiReports",
           "BlobName": "VirtoCommerce.PowerBiReports_3.800.0-pr-5-3363.zip"
           },
-        {
-          "Id": "VirtoCommerce.XCatalog",
-          "BlobName": "VirtoCommerce.XCatalog_3.817.0-pr-21-1d57.zip"
-        },
          {
           "Id": "VirtoCommerce.FileExperienceApi",
           "BlobName": "VirtoCommerce.FileExperienceApi_3.805.0-pr-7-2609.zip"
-        },
-        {
-          "Id": "VirtoCommerce.Cart",
-          "BlobName": "VirtoCommerce.Cart_3.821.0.zip"
         }
       ]
     },
@@ -293,6 +278,22 @@
         {
           "Id": "VirtoCommerce.TaskManagement",
           "Version": "3.804.0"
+        },
+          {
+          "Id": "VirtoCommerce.Catalog",
+          "Version": "3.830.0"
+        },
+        {
+          "Id": "VirtoCommerce.XCatalog",
+          "Version": "3.818.0"
+        },
+        {
+          "Id": "VirtoCommerce.Cart",
+          "Version": "3.821.0"
+        } ,
+        {
+          "Id": "VirtoCommerce.XCart",
+          "Version": "3.816.0"
         },
         {
           "Id": "VirtoCommerce.MarketingExperienceApi",
