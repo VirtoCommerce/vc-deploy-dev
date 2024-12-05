@@ -160,10 +160,6 @@
           "Version": "3.804.0"
         },
         {
-          "Id": "VirtoCommerce.CustomerReviews",
-          "Version": "3.808.0"
-        },
-        {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "Version": "3.818.0"
         },
@@ -270,6 +266,10 @@
         {
           "Id": "VirtoCommerce.PushMessages",
           "Version": "3.814.0"
+        },
+        {
+          "Id": "VirtoCommerce.CustomerReviews",
+          "Version": "3.809.0"
         }
       ]
     },
