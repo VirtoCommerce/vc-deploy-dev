@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.868.0-pr-2864-3084-vcst-2405-30846fcc",
+  "PlatformVersion": "3.869.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.868.0-pr-2864-3084-vcst-2405-30846fcc",
+  "PlatformImageTag": "3.869.0",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -19,11 +19,11 @@
           },
           {
           "Id": "VirtoCommerce.XCMS",
-          "BlobName": "VirtoCommerce.XCMS_3.802.0-pr-6-e334.zip"
+          "BlobName": "VirtoCommerce.XCMS_3.803.0.zip"
          },
          {
           "Id": "VirtoCommerce.Xapi",
-          "BlobName": "VirtoCommerce.Xapi_3.813.0.zip"
+          "BlobName": "VirtoCommerce.Xapi_3.814.0.zip"
         },
         {
           "Id": "VirtoCommerce.BuilderIO",
@@ -43,11 +43,11 @@
         },
         {
           "Id": "VirtoCommerce.PushMessages",
-          "BlobName": "VirtoCommerce.PushMessages_3.813.0.zip"
+          "BlobName": "VirtoCommerce.PushMessages_3.814.0.zip"
         },
         {
           "Id": "VirtoCommerce.Quote",
-          "BlobName": "VirtoCommerce.Quote_3.821.0.zip"
+          "BlobName": "VirtoCommerce.Quote_3.822.0.zip"
         },
         {
           "Id": "VirtoCommerce.BackInStockModule",
@@ -96,7 +96,7 @@
         },
         {
           "Id": "VirtoCommerce.Assets",
-          "BlobName": "VirtoCommerce.Assets_3.809.0-pr-25-b08d.zip"
+          "BlobName": "VirtoCommerce.Assets_3.809.0.zip"
         },
         {
           "Id": "VirtoCommerce.Customer",
@@ -112,7 +112,7 @@
         },
         {
           "Id": "VirtoCommerce.Store",
-          "BlobName": "VirtoCommerce.Store_3.811.0-pr-143-e701.zip"
+          "BlobName": "VirtoCommerce.Store_3.811.0.zip"
         },
         {
           "Id": "VirtoCommerce.Core",
@@ -120,7 +120,7 @@
         },
         {
           "Id": "VirtoCommerce.CustomerReviews",
-          "BlobName": "VirtoCommerce.CustomerReviews_3.808.0.zip"
+          "BlobName": "VirtoCommerce.CustomerReviews_3.809.0.zip"
         },
         {
           "Id": "VirtoCommerce.GoogleSSO",
@@ -164,11 +164,11 @@
         },
         {
           "Id": "VirtoCommerce.EventBus",
-          "BlobName": "VirtoCommerce.EventBus_3.807.0-pr-24-46a1.zip"
+          "BlobName": "VirtoCommerce.EventBus_3.807.0.zip"
         },
         {
           "Id": "VirtoCommerce.XOrder",
-          "BlobName": "VirtoCommerce.XOrder_3.811.0-pr-14-3717.zip"
+          "BlobName": "VirtoCommerce.XOrder_3.811.0.zip"
         },
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
@@ -293,7 +293,7 @@
         } ,
         {
           "Id": "VirtoCommerce.XCart",
-          "Version": "3.816.0"
+          "Version": "3.817.0"
         },
         {
           "Id": "VirtoCommerce.MarketingExperienceApi",
