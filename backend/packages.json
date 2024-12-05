@@ -186,10 +186,6 @@
           "BlobName": "VirtoCommerce.DynamicAssociationsModule_3.807.0-alpha.158.zip"
         },
         {
-          "Id": "VirtoCommerce.Contracts",
-          "BlobName": "VirtoCommerce.Contracts_3.808.0-alpha.108.zip"
-        },
-        {
           "Id": "VirtoCommerce.GDPR",
           "BlobName": "VirtoCommerce.GDPR_3.806.0-alpha.128.zip"
         },
@@ -284,6 +280,10 @@
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
           "BlobName": "VirtoCommerce.CatalogCsvImportModule_3.803.0-alpha.312.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Contracts",
+          "BlobName": "VirtoCommerce.Contracts_3.808.0-alpha.110.zip"
         }
       ]
     }
