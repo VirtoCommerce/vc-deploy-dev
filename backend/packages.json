@@ -236,10 +236,6 @@
           "Version": "3.818.0"
         },
         {
-          "Id": "VirtoCommerce.XCart",
-          "Version": "3.817.0"
-        },
-        {
           "Id": "VirtoCommerce.Xapi",
           "Version": "3.814.0"
         },
@@ -270,6 +266,10 @@
         {
           "Id": "VirtoCommerce.Cart",
           "Version": "3.822.0"
+        },
+        {
+          "Id": "VirtoCommerce.XCart",
+          "Version": "3.818.0"
         }
       ]
     },
