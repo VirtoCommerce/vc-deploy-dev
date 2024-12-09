@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.870.0-pr-2865-c4f9-vcst-2406-c4f9a92f",
+  "PlatformVersion": "3.870.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.870.0-pr-2865-c4f9-vcst-2406-c4f9a92f",
+  "PlatformImageTag": "3.870.0",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -19,11 +19,11 @@
           },
           {
           "Id": "VirtoCommerce.XCart",
-          "BlobName": "VirtoCommerce.XCart_3.818.0-pr-21-9528.zip"
+          "BlobName": "VirtoCommerce.XCart_3.818.0.zip"
           },
           {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
-          "BlobName": "VirtoCommerce.CatalogCsvImportModule_3.803.0-pr-109-6b53.zip"
+          "BlobName": "VirtoCommerce.CatalogCsvImportModule_3.803.0.zip"
           },
           {
           "Id": "VirtoCommerce.XCMS",
@@ -140,7 +140,7 @@
         },
         {
           "Id": "VirtoCommerce.Pricing",
-          "BlobName": "VirtoCommerce.Pricing_3.811.0-pr-214-f034.zip"
+          "BlobName": "VirtoCommerce.Pricing_3.811.0.zip"
         },
         {
           "Id": "VirtoCommerce.Inventory",
@@ -204,7 +204,7 @@
         },
         {
           "Id": "VirtoCommerce.Contracts",
-          "BlobName": "VirtoCommerce.Contracts_3.808.0-pr-25-b450.zip"
+          "BlobName": "VirtoCommerce.Contracts_3.808.0.zip"
         },
          {
           "Id": "VirtoCommerce.Skyflow",
@@ -293,7 +293,7 @@
         },
         {
           "Id": "VirtoCommerce.Cart",
-          "Version": "3.821.0"
+          "Version": "3.822.0"
         },
         {
           "Id": "VirtoCommerce.MarketingExperienceApi",
