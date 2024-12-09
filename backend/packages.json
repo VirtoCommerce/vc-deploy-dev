@@ -270,6 +270,10 @@
         {
           "Id": "VirtoCommerce.XOrder",
           "Version": "3.812.0"
+        },
+        {
+          "Id": "VirtoCommerce.Contentful",
+          "Version": "3.804.0"
         }
       ]
     },
