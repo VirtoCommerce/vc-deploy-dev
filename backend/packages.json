@@ -164,10 +164,7 @@
           "Id": "VirtoCommerce.Export",
           "Version": "3.804.0"
         },
-        {
-          "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.818.0"
-        },
+        
         {
           "Id": "VirtoCommerce.FileExperienceApi",
           "Version": "3.804.0"
@@ -222,7 +219,7 @@
         },
         {
           "Id": "VirtoCommerce.XOrder",
-          "Version": "3.811.0"
+          "Version": "3.812.0"
         },
         {
           "Id": "VirtoCommerce.Store",
@@ -243,14 +240,6 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "Version": "3.830.0"
-        },
-        {
-          "Id": "VirtoCommerce.XCatalog",
-          "Version": "3.818.0"
-        },
-        {
-          "Id": "VirtoCommerce.Xapi",
-          "Version": "3.814.0"
         },
         {
           "Id": "VirtoCommerce.Quote",
@@ -277,12 +266,24 @@
           "Version": "3.808.0"
         },
         {
-          "Id": "VirtoCommerce.Cart",
-          "Version": "3.822.0"
+          "Id": "VirtoCommerce.Xapi",
+          "Version": "3.815.0"
+        },
+        {
+          "Id": "VirtoCommerce.XCatalog",
+          "Version": "3.819.0"
         },
         {
           "Id": "VirtoCommerce.XCart",
-          "Version": "3.818.0"
+          "Version": "3.819.0"
+        },
+        {
+          "Id": "VirtoCommerce.ProfileExperienceApiModule",
+          "Version": "3.819.0"
+        },
+        {
+          "Id": "VirtoCommerce.Contentful",
+          "Version": "3.804.0"
         }
       ]
     }
