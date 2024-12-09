@@ -246,10 +246,6 @@
           "BlobName": "VirtoCommerce.XCatalog_3.819.0-alpha.47.zip"
         },
         {
-          "Id": "VirtoCommerce.Xapi",
-          "BlobName": "VirtoCommerce.Xapi_3.815.0-alpha.53.zip"
-        },
-        {
           "Id": "VirtoCommerce.Quote",
           "BlobName": "VirtoCommerce.Quote_3.823.0-alpha.435.zip"
         },
@@ -284,6 +280,10 @@
         {
           "Id": "VirtoCommerce.OpenIdConnectModule",
           "BlobName": "VirtoCommerce.OpenIdConnectModule_3.801.0-alpha.15.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Xapi",
+          "BlobName": "VirtoCommerce.Xapi_3.815.0-alpha.54.zip"
         }
       ]
     }
