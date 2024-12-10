@@ -237,6 +237,10 @@
          {
           "Id": "VirtoCommerce.FileExperienceApi",
           "BlobName": "VirtoCommerce.FileExperienceApi_3.805.0-pr-7-2609.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "Version": "VirtoCommerce.Catalog_3.831.0-pr-761-dab7.zip"
         }
       ]
     },
@@ -286,10 +290,6 @@
         {
           "Id": "VirtoCommerce.TaskManagement",
           "Version": "3.804.0"
-        },
-          {
-          "Id": "VirtoCommerce.Catalog",
-          "Version": "3.830.0"
         },
         {
           "Id": "VirtoCommerce.Cart",
