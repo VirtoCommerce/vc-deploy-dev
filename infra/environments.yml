@@ -61,6 +61,12 @@
       FileUpload__Scopes__0__AllowedExtensions__4: .png
       FileUpload__Scopes__0__AllowedExtensions__5: .txt
       FileUpload__Scopes__0__AllowedExtensions__6: .xlsx
+      FileUpload__Scopes__1__MaxFileSize: 20971520
+      FileUpload__Scopes__1__AllowedExtensions__0: .gif
+      FileUpload__Scopes__1__AllowedExtensions__1: .jpeg
+      FileUpload__Scopes__1__AllowedExtensions__2: .jpg
+      FileUpload__Scopes__1__AllowedExtensions__3: .png
+      FileUpload__Scopes__1__AllowedExtensions__4: .webp
       # Authorize.Net settings
       Payments__AuthorizeNet__ApiLogin: 52B9X7vb4      
       Payments__AuthorizeNet__SHA2Hash: sha2hash
