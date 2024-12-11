@@ -31,6 +31,9 @@
       #VirtoCommerce__PlatformUI__Enable: false
       TaxModule__FixedRateTaxProvider__Enabled: true
 
+      VirtoCommerce__RefreshProbingFolderOnStart: true
+  
+      
       #notifications_settings
       
       #Notifications__Gateway: SendGrid
