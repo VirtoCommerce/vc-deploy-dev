@@ -32,7 +32,8 @@
       TaxModule__FixedRateTaxProvider__Enabled: true
 
       VirtoCommerce__RefreshProbingFolderOnStart: true
-  
+      #one order template for all stores
+      VirtoCommerce__SequenceNumberGenerator__UseGlobalTenantId: true
       
       #notifications_settings
       
