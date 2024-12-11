@@ -19,7 +19,9 @@
       #Authorization__AllowApiAccessForCustomers: true
       VirtoCommerce__FileExtensionsBlackList__0: .pdf
       Reload: 10
-
+      
+      VirtoCommerce__RefreshProbingFolderOnStart: true
+      
       #Notifications
 
       Notifications__DefaultSender: virto.start@virtoway.com
