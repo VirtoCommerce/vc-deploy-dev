@@ -8,6 +8,10 @@
     config:
       VirtoCommerce__LocalUploadFolderPath: wwwroot/cms-content
       VirtoCommerce__SampleDataUrl: https://vc3prerelease.blob.core.windows.net/packages/clothing-and-electronics_3_0_2.zip
+      # AI
+      AI__Service: "OpenAI"
+      AI__OpenAI__ModelId: "gpt-4o"
+      # Application Insights settings
       APPINSIGHTS_INSTRUMENTATIONKEY: 9fde4353-9a4a-4fe3-9a03-a0c80b4220ff
       # Assets__FileSystem__PublicUrl: https://virtostart-demo-store.govirto.com/cms-content/assets/
       AzureAd__ApplicationId: 54cefda5-2d23-4518-ac12-f55a0e1225d4
@@ -57,6 +61,13 @@
       FileUpload__Scopes__0__AllowedExtensions__4: .png
       FileUpload__Scopes__0__AllowedExtensions__5: .txt
       FileUpload__Scopes__0__AllowedExtensions__6: .xlsx
+      FileUpload__Scopes__1__Scope: purchase-request-sources
+      FileUpload__Scopes__1__MaxFileSize: 20971520
+      FileUpload__Scopes__1__AllowedExtensions__0: .gif
+      FileUpload__Scopes__1__AllowedExtensions__1: .jpeg
+      FileUpload__Scopes__1__AllowedExtensions__2: .jpg
+      FileUpload__Scopes__1__AllowedExtensions__3: .png
+      FileUpload__Scopes__1__AllowedExtensions__4: .webp
       # Authorize.Net settings
       Payments__AuthorizeNet__ApiLogin: 52B9X7vb4      
       Payments__AuthorizeNet__SHA2Hash: sha2hash
@@ -89,6 +100,7 @@
       PushMessages__FcmReceiverOptions__VapidKey: BBZaEhlEb6fcpLMxGC2ylQH2eQWTx4n6kZDWcrGebQjJiMr8w_3nF5U8zspbE_eeCV6YoFNyv7IrNLspmToBcjE
       Reload: 2024-11-27
     secretConfig:
+      AI__OpenAI__ApiKey: openai-api-key
       Notifications__SendGrid__ApiKey: sendkey
       Payments__AuthorizeNet__TxnKey: authorizenet-txnkey-vs
       Payments__Skyflow__PaymentFormAccount__clientID: skyflow-paymentformaccount-clientid
@@ -106,7 +118,7 @@
   storefront:
     enabled: false
     themes:
-      B2B-store: https://github.com/VirtoCommerce/vc-frontend/releases/download/2.11.0/vc-theme-b2b-vue-2.11.0.zip
+      B2B-store: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-2.12.0-alpha.1575.zip
   frontend:
      - name: B2B-store
        prerender: true
