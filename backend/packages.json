@@ -23,7 +23,7 @@
           },
           {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
-          "BlobName": "VirtoCommerce.CatalogCsvImportModule_3.803.0.zip"
+          "BlobName": "VirtoCommerce.CatalogCsvImportModule_3.804.0-pr-110-3bd8.zip"
           },
           {
           "Id": "VirtoCommerce.XCMS",
@@ -51,7 +51,7 @@
         },
         {
           "Id": "VirtoCommerce.PushMessages",
-          "BlobName": "VirtoCommerce.PushMessages_3.814.0.zip"
+          "BlobName": "VirtoCommerce.PushMessages_3.815.0-pr-12-e43d.zip"
         },
         {
           "Id": "VirtoCommerce.Quote",
@@ -128,7 +128,7 @@
         },
         {
           "Id": "VirtoCommerce.CustomerReviews",
-          "BlobName": "VirtoCommerce.CustomerReviews_3.809.0.zip"
+          "BlobName": "VirtoCommerce.CustomerReviews_3.810.0-pr-67-05d4.zip"
         },
         {
           "Id": "VirtoCommerce.GoogleSSO",
@@ -148,7 +148,7 @@
         },
         {
           "Id": "VirtoCommerce.CustomerExportImport",
-          "BlobName": "VirtoCommerce.CustomerExportImport_3.808.0.zip"
+          "BlobName": "VirtoCommerce.CustomerExportImport_3.809.0-pr-99-7549.zip"
         },
         {
           "Id": "VirtoCommerce.AzureAD",
@@ -160,7 +160,7 @@
         },
         {
           "Id": "VirtoCommerce.Sitemaps",
-          "BlobName": "VirtoCommerce.Sitemaps_3.810.0.zip"
+          "BlobName": "VirtoCommerce.Sitemaps_3.811.0-pr-78-bce9.zip"
         },
         {
           "Id": "VirtoCommerce.Tax",
@@ -239,6 +239,30 @@
           "BlobName": "VirtoCommerce.FileExperienceApi_3.805.0-pr-7-2609.zip"
         },
         {
+          "Id": "VirtoCommerce.BulkActionsModule",
+          "BlobName": "VirtoCommerce.BulkActionsModule_3.803.0-pr-34-2ae9.zip"
+        },
+         {
+          "Id": "VirtoCommerce.CatalogPersonalization",
+          "BlobName": "VirtoCommerce.CatalogPersonalization_3.803.0-pr-75-8973.zip"
+        },
+         {
+          "Id": "VirtoCommerce.PriceExportImport",
+          "BlobName": "VirtoCommerce.PriceExportImport_3.801.0-pr-86-eb30.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Subscription",
+          "BlobName": "VirtoCommerce.Subscription_3.807.0-pr-100-626e.zip"
+        },
+        {
+          "Id": "VirtoCommerce.NativePaymentMethods",
+          "BlobName": "VirtoCommerce.NativePaymentMethods_3.802.0-pr-15-24d5.zip"
+        },
+        {
+          "Id": "VirtoCommerce.CatalogPublishing",
+          "BlobName": "VirtoCommerce.CatalogPublishing_3.803.0-pr-60-b9c2.zip"
+        },
+        {
           "Id": "VirtoCommerce.Catalog",
           "BlobName": "VirtoCommerce.Catalog_3.831.0-pr-761-dab7.zip"
         }
@@ -252,14 +276,6 @@
       
       "Modules": [
         {
-          "Id": "VirtoCommerce.PriceExportImport",
-          "Version": "3.800.0"
-        },
-        {
-          "Id": "VirtoCommerce.BulkActionsModule",
-          "Version": "3.802.0"
-        },
-        {
           "Id": "VirtoCommerce.WhiteLabeling",
           "Version": "3.804.0"
         },
@@ -268,23 +284,7 @@
           "Version": "3.804.0"
         },
         {
-          "Id": "VirtoCommerce.CatalogPersonalization",
-          "Version": "3.802.0"
-        },
-        {
-          "Id": "VirtoCommerce.CatalogPublishing",
-          "Version": "3.802.0"
-        },
-        {
-          "Id": "VirtoCommerce.NativePaymentMethods",
-          "Version": "3.801.0"
-        },
-        {
           "Id": "VirtoCommerce.WebHooks",
-          "Version": "3.806.0"
-        },
-        {
-          "Id": "VirtoCommerce.Subscription",
           "Version": "3.806.0"
         },
         {
