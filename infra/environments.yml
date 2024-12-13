@@ -41,13 +41,12 @@
       Notifications__Gateway: Smtp
       Notifications__Smtp__ForceSslTls: false
       Notifications__Smtp__SmtpServer: smtp.sendgrid.net
-      Notifications__Smtp__Login: YXBpa2V5
+      Notifications__Smtp__Login: apikey
       Notifications__Smtp__Port: 587
       Notifications__SmsDefaultSender: +17012510519
       Notifications__DefaultReplyTo: kutasina.elena@gmail.com
       Notifications__DefaultSender: virto.start@virtoway.com
       #Notifications__Smtp__EnableSsl: False
-    
       
 
       ASPNETCORE_ENVIRONMENT: Development
