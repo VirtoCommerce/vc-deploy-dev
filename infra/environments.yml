@@ -10,7 +10,7 @@
       AI__Service: "OpenAI"
       AI__OpenAI__ModelId: "gpt-4o"
       # Application Insights settings
-      #APPINSIGHTS_INSTRUMENTATIONKEY: e8fecf67-f941-44c3-9bcf-271aaea8933b
+      APPINSIGHTS_INSTRUMENTATIONKEY: e8fecf67-f941-44c3-9bcf-271aaea8933b
       # Forward headers to Nginx
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
       # Enable Azure Active Directory login in platform UI
@@ -82,6 +82,8 @@
     databases: {}
   storefront:
     enabled: false
+    config:
+      APPINSIGHTS_INSTRUMENTATIONKEY: 0734e66c-ef37-413f-a5d5-2a3cdbeedbff
     themes:
       B2B-store: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-2.12.0-alpha.1575.zip
   customApps: {}
