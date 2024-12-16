@@ -73,6 +73,7 @@
       VirtoCommerce__Stores__DefaultStore: B2B-store
       # Temporary settings below
       Serilog__MinimumLevel__Default: Verbose
+      VirtoCommerce__ModuleSequenceBoost__0: VirtoCommerce.ApplicationInsights
     secretConfig:
       AI__OpenAI__ApiKey: vcst-ai-openai-api-key
       Notifications__SendGrid__ApiKey: sendgrid-apikey
