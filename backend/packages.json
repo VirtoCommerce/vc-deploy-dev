@@ -17,7 +17,7 @@
           "BlobName": "VirtoCommerce.PageBuilderModule_3.816.0-alpha.622.zip"
         },
         {
-          "BlobName": "VirtoCommerce.XCart_3.819.0-pr-24-6db5.zip"
+          "BlobName": "VirtoCommerce.XCart_3.820.0-pr-24-ed3b.zip"
         }
       ]
     },
@@ -215,11 +215,7 @@
         {
           "Id": "VirtoCommerce.Core",
           "Version": "3.813.0"
-        },
-        {
-          "Id": "VirtoCommerce.Orders",
-          "Version": "3.836.0"
-        },
+        }, 
         {
           "Id": "VirtoCommerce.XOrder",
           "Version": "3.812.0"
@@ -283,6 +279,10 @@
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "Version": "3.819.0"
+        },
+        {
+          "Id": "VirtoCommerce.Orders",
+          "Version": "3.837.0"
         }
       ]
     }
