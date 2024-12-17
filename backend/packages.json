@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.871.0-pr-2868-db67-vcst-1735-db676d76",
+  "PlatformVersion": "3.871.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.871.0-pr-2868-db67-vcst-1735-db676d76",
+  "PlatformImageTag": "3.871.0",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -27,11 +27,11 @@
           },
           {
           "Id": "VirtoCommerce.XCMS",
-          "BlobName": "VirtoCommerce.XCMS_3.803.0.zip"
+          "BlobName": "VirtoCommerce.XCMS_3.804.0.zip"
          },
          {
           "Id": "VirtoCommerce.Xapi",
-          "BlobName": "VirtoCommerce.Xapi_3.814.0.zip"
+          "BlobName": "VirtoCommerce.Xapi_3.815.0.zip"
         },
         {
           "Id": "VirtoCommerce.BuilderIO",
@@ -104,7 +104,7 @@
         },
         {
           "Id": "VirtoCommerce.Customer",
-          "BlobName": "VirtoCommerce.Customer_3.821.0-pr-259-2a30.zip"
+          "BlobName": "VirtoCommerce.Customer_3.821.0.zip"
         },
         {
           "Id": "VirtoCommerce.AuditLog",
@@ -120,7 +120,7 @@
         },
         {
           "Id": "VirtoCommerce.Core",
-          "BlobName": "VirtoCommerce.Core_3.814.0-pr-233-7878.zip"
+          "BlobName": "VirtoCommerce.Core_3.815.0-pr-233-510d.zip"
         },
         {
           "Id": "VirtoCommerce.CustomerReviews",
@@ -152,7 +152,7 @@
         },
         {
           "Id": "VirtoCommerce.Contentful",
-          "BlobName": "VirtoCommerce.Contentful_3.804.0-pr-12-b28b.zip"
+          "BlobName": "VirtoCommerce.Contentful_3.805.0.zip"
         },
         {
           "Id": "VirtoCommerce.Sitemaps",
@@ -176,11 +176,11 @@
         },
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.819.0-pr-91-b063.zip"
+          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.819.0.zip"
         },
         {
           "Id": " VirtoCommerce.Orders",
-          "BlobName": "VirtoCommerce.Orders_3.837.0-pr-442-0f19.zip"
+          "BlobName": "VirtoCommerce.Orders_3.838.0-pr-442-c4fe.zip"
         },
         {
           "Id": "VirtoCommerce.Return",
@@ -260,7 +260,7 @@
         },
         {
           "Id": "VirtoCommerce.Catalog",
-          "BlobName": "VirtoCommerce.Catalog_3.831.0-pr-761-dab7.zip"
+          "BlobName": "VirtoCommerce.Catalog_3.831.0.zip"
         },
         {
           "Id": "VirtoCommerce.Cart",
