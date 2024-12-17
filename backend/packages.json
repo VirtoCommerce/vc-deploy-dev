@@ -19,6 +19,9 @@
         },
         {
           "BlobName": "VirtoCommerce.PowerBiReports_3.800.0-alpha.31.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.PriceExportImport_3.801.0-pr-87-7215.zip"
         }
       ]
     },
@@ -195,10 +198,6 @@
         {
           "Id": "VirtoCommerce.Payment",
           "Version": "3.805.0"
-        },
-        {
-          "Id": "VirtoCommerce.PriceExportImport",
-          "Version": "3.800.0"
         },
         {
           "Id": "VirtoCommerce.Pricing",
