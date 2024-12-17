@@ -214,10 +214,6 @@
           "BlobName": "VirtoCommerce.Assets_3.810.0-alpha.142.zip"
         },
         {
-          "Id": "VirtoCommerce.Quote",
-          "BlobName": "VirtoCommerce.Quote_3.823.0-alpha.435.zip"
-        },
-        {
           "Id": "VirtoCommerce.PushMessages",
           "BlobName": "VirtoCommerce.PushMessages_3.815.0-alpha.50.zip"
         },
@@ -288,6 +284,10 @@
         {
           "Id": "VirtoCommerce.Contentful",
           "BlobName": "VirtoCommerce.Contentful_3.806.0-alpha.86.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Quote",
+          "BlobName": "VirtoCommerce.Quote_3.823.0-alpha.436.zip"
         }
       ]
     }
