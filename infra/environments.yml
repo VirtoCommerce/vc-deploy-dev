@@ -38,7 +38,7 @@
       #notifications_settings
       
       #Notifications__Gateway: SendGrid
-      Notifications__Gateway: Smtp
+      #Notifications__Gateway: Smtp
       Notifications__Smtp__ForceSslTls: false
       Notifications__Smtp__SmtpServer: smtp.sendgrid.net
       Notifications__Smtp__Login: apikey
@@ -46,6 +46,10 @@
       Notifications__SmsDefaultSender: +17012510519
       Notifications__DefaultReplyTo: kutasina.elena@gmail.com
       Notifications__DefaultSender: virto.start@virtoway.com
+      Notifications__Gateway: MicrosoftGraph
+      Notifications__MicrosoftGraph__ApplicationId: 24ffedfb-a93a-4fea-a078-dcdcf233d995
+      Notifications__MicrosoftGraph__TenantId: 70697aab-b16c-4648-ad2b-5cc5b193e9a5
+      Notifications__MicrosoftGraph__SecretValue: Ua58Q~3lrsu2MXDTXFMBdkSE8hOIR8KXsYwjNcin
       #Notifications__Smtp__EnableSsl: False
       
 
