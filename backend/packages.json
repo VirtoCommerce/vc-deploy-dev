@@ -274,10 +274,6 @@
           "BlobName": "VirtoCommerce.Skyflow_3.810.0-alpha.36.zip"
         },
         {
-          "Id": "VirtoCommerce.AzureSearch",
-          "BlobName": "VirtoCommerce.AzureSearch_3.806.0-alpha.244.zip"
-        },
-        {
           "Id": "VirtoCommerce.ElasticAppSearch",
           "BlobName": "VirtoCommerce.ElasticAppSearch_3.807.0-alpha.132.zip"
         },
@@ -288,6 +284,10 @@
         {
           "Id": "VirtoCommerce.Search",
           "BlobName": "VirtoCommerce.Search_3.806.0-alpha.756.zip"
+        },
+        {
+          "Id": "VirtoCommerce.AzureSearch",
+          "BlobName": "VirtoCommerce.AzureSearch_3.807.0-alpha.245.zip"
         }
       ]
     }
