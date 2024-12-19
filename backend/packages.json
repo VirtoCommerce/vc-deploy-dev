@@ -258,10 +258,6 @@
           "BlobName": "VirtoCommerce.Contentful_3.806.0-alpha.86.zip"
         },
         {
-          "Id": "VirtoCommerce.Catalog",
-          "BlobName": "VirtoCommerce.Catalog_3.833.0-alpha.2265.zip"
-        },
-        {
           "Id": "VirtoCommerce.ApplicationInsights",
           "BlobName": "VirtoCommerce.ApplicationInsights_3.804.0-alpha.19.zip"
         },
@@ -288,6 +284,10 @@
         {
           "Id": "VirtoCommerce.Notifications",
           "BlobName": "VirtoCommerce.Notifications_3.815.0-alpha.394.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "BlobName": "VirtoCommerce.Catalog_3.833.0-alpha.2266.zip"
         }
       ]
     }
