@@ -262,10 +262,6 @@
           "BlobName": "VirtoCommerce.XCMS_3.806.0-alpha.18.zip"
         },
         {
-          "Id": "VirtoCommerce.XOrder",
-          "BlobName": "VirtoCommerce.XOrder_3.814.0-alpha.38.zip"
-        },
-        {
           "Id": "VirtoCommerce.ApplicationInsights",
           "BlobName": "VirtoCommerce.ApplicationInsights_3.804.0-alpha.20.zip"
         },
@@ -288,6 +284,10 @@
         {
           "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
           "BlobName": "VirtoCommerce.GoogleEcommerceAnalytics_4.804.0-alpha.192.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XOrder",
+          "BlobName": "VirtoCommerce.XOrder_3.814.0-alpha.39.zip"
         }
       ]
     }
