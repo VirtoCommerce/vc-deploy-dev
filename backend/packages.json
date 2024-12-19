@@ -282,12 +282,12 @@
           "BlobName": "VirtoCommerce.GoogleEcommerceAnalytics_4.804.0-alpha.192.zip"
         },
         {
-          "Id": "VirtoCommerce.XOrder",
-          "BlobName": "VirtoCommerce.XOrder_3.814.0-alpha.39.zip"
-        },
-        {
           "Id": "VirtoCommerce.ApplicationInsights",
           "BlobName": "VirtoCommerce.ApplicationInsights_3.805.0-alpha.21.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XOrder",
+          "BlobName": "VirtoCommerce.XOrder_3.815.0-alpha.40.zip"
         }
       ]
     }
