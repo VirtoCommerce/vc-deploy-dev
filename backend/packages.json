@@ -230,10 +230,6 @@
           "BlobName": "VirtoCommerce.Contentful_3.806.0-alpha.86.zip"
         },
         {
-          "Id": "VirtoCommerce.ApplicationInsights",
-          "BlobName": "VirtoCommerce.ApplicationInsights_3.804.0-alpha.19.zip"
-        },
-        {
           "Id": "VirtoCommerce.Core",
           "BlobName": "VirtoCommerce.Core_3.816.0-alpha.1641.zip"
         },
@@ -288,6 +284,10 @@
         {
           "Id": "VirtoCommerce.XOrder",
           "BlobName": "VirtoCommerce.XOrder_3.814.0-alpha.38.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ApplicationInsights",
+          "BlobName": "VirtoCommerce.ApplicationInsights_3.804.0-alpha.20.zip"
         }
       ]
     }
