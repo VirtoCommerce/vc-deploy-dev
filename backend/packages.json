@@ -24,10 +24,6 @@
           "Version": "3.809.0"
         },
         {
-          "Id": "VirtoCommerce.BulkActionsModule",
-          "Version": "3.802.0"
-        },
-        {
           "Id": "VirtoCommerce.FileSystemAssets",
           "Version": "3.805.0"
         },
@@ -273,6 +269,10 @@
         },
         {
           "Id": "VirtoCommerce.CatalogPersonalization",
+          "Version": "3.803.0"
+        },
+        {
+          "Id": "VirtoCommerce.BulkActionsModule",
           "Version": "3.803.0"
         }
       ]
