@@ -262,10 +262,6 @@
           "BlobName": "VirtoCommerce.XCMS_3.806.0-alpha.18.zip"
         },
         {
-          "Id": "VirtoCommerce.ApplicationInsights",
-          "BlobName": "VirtoCommerce.ApplicationInsights_3.804.0-alpha.20.zip"
-        },
-        {
           "Id": "VirtoCommerce.AuthorizeNetPayment",
           "BlobName": "VirtoCommerce.AuthorizeNetPayment_3.803.0-alpha.76.zip"
         },
@@ -288,6 +284,10 @@
         {
           "Id": "VirtoCommerce.XOrder",
           "BlobName": "VirtoCommerce.XOrder_3.814.0-alpha.39.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ApplicationInsights",
+          "BlobName": "VirtoCommerce.ApplicationInsights_3.805.0-alpha.21.zip"
         }
       ]
     }
