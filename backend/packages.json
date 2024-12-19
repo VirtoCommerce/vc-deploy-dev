@@ -50,10 +50,6 @@
           "BlobName": "VirtoCommerce.CatalogPublishing_3.803.0-alpha.349.zip"
         },
         {
-          "Id": "VirtoCommerce.Subscription",
-          "BlobName": "VirtoCommerce.Subscription_3.807.0-alpha.336.zip"
-        },
-        {
           "Id": "VirtoCommerce.Inventory",
           "BlobName": "VirtoCommerce.Inventory_3.807.0-alpha.464.zip"
         },
@@ -288,6 +284,10 @@
         {
           "Id": "VirtoCommerce.PushMessages",
           "BlobName": "VirtoCommerce.PushMessages_3.815.0-alpha.51.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Subscription",
+          "BlobName": "VirtoCommerce.Subscription_3.807.0-alpha.339.zip"
         }
       ]
     }
