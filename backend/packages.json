@@ -274,10 +274,6 @@
           "BlobName": "VirtoCommerce.AuthorizeNetPayment_3.803.0-alpha.76.zip"
         },
         {
-          "Id": "VirtoCommerce.BuilderIO",
-          "BlobName": "VirtoCommerce.BuilderIO_3.805.0-alpha.62.zip"
-        },
-        {
           "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
           "BlobName": "VirtoCommerce.GoogleEcommerceAnalytics_4.803.0-alpha.191.zip"
         },
@@ -288,6 +284,10 @@
         {
           "Id": "VirtoCommerce.AvalaraTax",
           "BlobName": "VirtoCommerce.AvalaraTax_3.803.0-alpha.313.zip"
+        },
+        {
+          "Id": "VirtoCommerce.BuilderIO",
+          "BlobName": "VirtoCommerce.BuilderIO_3.806.0-alpha.63.zip"
         }
       ]
     }
