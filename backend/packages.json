@@ -156,10 +156,6 @@
           "Version": "3.800.0"
         },
         {
-          "Id": "VirtoCommerce.BuilderIO",
-          "Version": "3.804.0"
-        },
-        {
           "Id": "VirtoCommerce.Pages",
           "Version": "3.804.0"
         },
@@ -274,6 +270,10 @@
         {
           "Id": "VirtoCommerce.AvalaraTax",
           "Version": "3.802.0"
+        },
+        {
+          "Id": "VirtoCommerce.BuilderIO",
+          "Version": "3.805.0"
         }
       ]
     },
