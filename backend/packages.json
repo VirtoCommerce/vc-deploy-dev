@@ -222,10 +222,6 @@
           "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.820.0-alpha.244.zip"
         },
         {
-          "Id": "VirtoCommerce.XOrder",
-          "BlobName": "VirtoCommerce.XOrder_3.813.0-alpha.36.zip"
-        },
-        {
           "Id": "VirtoCommerce.Customer",
           "BlobName": "VirtoCommerce.Customer_3.822.0-alpha.863.zip"
         },
@@ -288,6 +284,10 @@
         {
           "Id": "VirtoCommerce.XCMS",
           "BlobName": "VirtoCommerce.XCMS_3.806.0-alpha.18.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XOrder",
+          "BlobName": "VirtoCommerce.XOrder_3.814.0-alpha.38.zip"
         }
       ]
     }
