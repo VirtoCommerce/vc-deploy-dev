@@ -38,10 +38,6 @@
           "BlobName": "VirtoCommerce.AzureBlobAssets_3.810.0-alpha.132.zip"
         },
         {
-          "Id": "VirtoCommerce.AzureSearch",
-          "BlobName": "VirtoCommerce.AzureSearch_3.806.0-alpha.242.zip"
-        },
-        {
           "Id": "VirtoCommerce.BulkActionsModule",
           "BlobName": "VirtoCommerce.BulkActionsModule_3.803.0-alpha.213.zip"
         },
@@ -288,6 +284,10 @@
         {
           "Id": "VirtoCommerce.Skyflow",
           "BlobName": "VirtoCommerce.Skyflow_3.810.0-alpha.36.zip"
+        },
+        {
+          "Id": "VirtoCommerce.AzureSearch",
+          "BlobName": "VirtoCommerce.AzureSearch_3.806.0-alpha.244.zip"
         }
       ]
     }
