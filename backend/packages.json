@@ -248,10 +248,6 @@
           "Version": "3.804.0"
         },
         {
-          "Id": "VirtoCommerce.Core",
-          "Version": "3.814.0"
-        },
-        {
           "Id": "VirtoCommerce.Orders",
           "Version": "3.837.0"
         },
@@ -274,6 +270,10 @@
         {
           "Id": "VirtoCommerce.ApplicationInsights",
           "Version": "3.803.0"
+        },
+        {
+          "Id": "VirtoCommerce.Core",
+          "Version": "3.815.0"
         }
       ]
     },
