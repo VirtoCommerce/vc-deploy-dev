@@ -262,10 +262,6 @@
           "BlobName": "VirtoCommerce.XCMS_3.806.0-alpha.18.zip"
         },
         {
-          "Id": "VirtoCommerce.Skyflow",
-          "BlobName": "VirtoCommerce.Skyflow_3.809.0-alpha.35.zip"
-        },
-        {
           "Id": "VirtoCommerce.AvalaraTax",
           "BlobName": "VirtoCommerce.AvalaraTax_3.803.0-alpha.313.zip"
         },
@@ -288,6 +284,10 @@
         {
           "Id": "VirtoCommerce.AuthorizeNetPayment",
           "BlobName": "VirtoCommerce.AuthorizeNetPayment_3.804.0-alpha.77.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Skyflow",
+          "BlobName": "VirtoCommerce.Skyflow_3.810.0-alpha.36.zip"
         }
       ]
     }
