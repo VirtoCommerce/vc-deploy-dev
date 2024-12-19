@@ -62,10 +62,6 @@
           "BlobName": "VirtoCommerce.Inventory_3.807.0-alpha.464.zip"
         },
         {
-          "Id": "VirtoCommerce.CustomerExportImport",
-          "BlobName": "VirtoCommerce.CustomerExportImport_3.809.0-alpha.171.zip"
-        },
-        {
           "Id": "VirtoCommerce.AzureAD",
           "BlobName": "VirtoCommerce.AzureAD_3.805.0-alpha.41.zip"
         },
@@ -288,6 +284,10 @@
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
           "BlobName": "VirtoCommerce.CatalogCsvImportModule_3.804.0-alpha.314.zip"
+        },
+        {
+          "Id": "VirtoCommerce.CustomerExportImport",
+          "BlobName": "VirtoCommerce.CustomerExportImport_3.809.0-alpha.173.zip"
         }
       ]
     }
