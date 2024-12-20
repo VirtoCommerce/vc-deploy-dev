@@ -15,21 +15,6 @@
       "Modules": [
         {
           "BlobName": "VirtoCommerce.PageBuilderModule_3.816.0-alpha.622.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.Cart_3.823.0-pr-161-1ca4.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.Orders_3.837.0-pr-442-0f19.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.Marketing_3.815.0-pr-240-4602.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.XCatalog_3.820.0-pr-24-5a00.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.XOrder_3.813.0-pr-16-426b.zip"
         }
       ]
     },
@@ -278,6 +263,26 @@
         {
           "Id": "VirtoCommerce.Core",
           "Version": "3.815.0"
+        },
+        {
+          "Id": "VirtoCommerce.Cart",
+          "Version": "3.823.0"
+        },
+        {
+          "Id": "VirtoCommerce.Orders",
+          "Version": "3.838.0"
+        },
+        {
+          "Id": "VirtoCommerce.Marketing",
+          "Version": "3.815.0"
+        },
+        {
+          "Id": "VirtoCommerce.XCatalog",
+          "Version": "3.821.0"
+        },
+        {
+          "Id": "VirtoCommerce.XOrder",
+          "Version": "3.814.0"
         }
       ]
     }
