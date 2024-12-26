@@ -42,10 +42,6 @@
           "BlobName": "VirtoCommerce.CatalogPublishing_3.803.0-alpha.349.zip"
         },
         {
-          "Id": "VirtoCommerce.Inventory",
-          "BlobName": "VirtoCommerce.Inventory_3.807.0-alpha.464.zip"
-        },
-        {
           "Id": "VirtoCommerce.AzureAD",
           "BlobName": "VirtoCommerce.AzureAD_3.805.0-alpha.41.zip"
         },
@@ -288,6 +284,10 @@
         {
           "Id": "VirtoCommerce.Pricing",
           "BlobName": "VirtoCommerce.Pricing_3.813.0-alpha.747.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Inventory",
+          "BlobName": "VirtoCommerce.Inventory_3.807.0-alpha.466.zip"
         }
       ]
     }
