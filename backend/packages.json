@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.875.0-pr-2869-9601-vcst-2464-960195ce",
+  "PlatformVersion": "3.875.0-pr-2873-3351-vcst-1985-33513284",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.875.0-pr-2869-9601-vcst-2464-960195ce",
+  "PlatformImageTag": "3.875.0-pr-2873-3351-vcst-1985-33513284",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -32,6 +32,10 @@
         {
           "Id": "VirtoCommerce.Pricing",
           "BlobName": "VirtoCommerce.Pricing_3.812.0-pr-215-28fd.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Xapi",
+          "BlobName": "VirtoCommerce.Xapi_3.816.0-pr-20-4ab2.zip"
         }
       ]
     },
@@ -145,10 +149,6 @@
         {
           "Id": "VirtoCommerce.Contracts",
           "Version": "3.808.0"
-        },
-        {
-          "Id": "VirtoCommerce.Xapi",
-          "Version": "3.815.0"
         },
         {
           "Id": "VirtoCommerce.Customer",
