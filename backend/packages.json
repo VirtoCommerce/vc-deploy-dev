@@ -36,6 +36,10 @@
         {
           "Id": "VirtoCommerce.Xapi",
           "BlobName": "VirtoCommerce.Xapi_3.816.0-pr-20-4ab2.zip"
+        },
+        {
+          "Id": "VirtoCommerce.CustomerReviews",
+          "BlobName": "VirtoCommerce.CustomerReviews_3.811.0-pr-68-7e04.zip"
         }
       ]
     },
@@ -261,10 +265,6 @@
         {
           "Id": "VirtoCommerce.CustomerExportImport",
           "Version": "3.809.0"
-        },
-        {
-          "Id": "VirtoCommerce.CustomerReviews",
-          "Version": "3.810.0"
         },
         {
           "Id": "VirtoCommerce.NativePaymentMethods",
