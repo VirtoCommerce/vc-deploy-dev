@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.873.0",
+  "PlatformVersion": "3.875.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.873.0",
+  "PlatformImageTag": "3.875.0",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -15,6 +15,12 @@
       "Modules": [
         {
           "BlobName": "VirtoCommerce.PageBuilderModule_3.816.0-alpha.622.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Catalog_3.835.0-pr-764-1a02.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.XCart_3.823.0-pr-28-7bd9.zip"
         }
       ]
     },
@@ -279,14 +285,6 @@
         {
           "Id": "VirtoCommerce.Notifications",
           "Version": "3.815.0"
-        },
-        {
-          "Id": "VirtoCommerce.Catalog",
-          "Version": "3.833.0"
-        },
-        {
-          "Id": "VirtoCommerce.XCart",
-          "Version": "3.822.0"
         }
       ]
     }
