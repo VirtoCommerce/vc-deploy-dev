@@ -19,11 +19,20 @@
   ingress:
     hostnames:
       name1: license.virtocommerce.org
+    app1Hostnames:
+      docs_virtocommerce_org: docs.virtocommerce.org
   customApps:
     app1:
-      enabled: false
+      enabled: true
+      servicePlan: B1
+      type: standalone
+      probePath: /
+      name: docs
+      imageRepository: virtopaasregistrymain.azurecr.io/vcpt/docs
+      imageTag: 1439
     app2:
       enabled: false
   protectedParameters:
    - platform.image.tag
-  version: 3.215
+   - custom.app1.image.tag
+  version: 3.224
