@@ -15,6 +15,9 @@
       "Modules": [
         {
           "BlobName": "VirtoCommerce.PageBuilderModule_3.817.0-alpha.625.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Customer_3.823.0-pr-261-b98e.zip"
         }
       ]
     },
@@ -267,10 +270,6 @@
         {
           "Id": "VirtoCommerce.Inventory",
           "Version": "3.807.0"
-        },
-        {
-          "Id": "VirtoCommerce.Customer",
-          "Version": "3.822.0"
         },
         {
           "Id": "VirtoCommerce.CustomerReviews",
