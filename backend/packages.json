@@ -96,6 +96,10 @@
         {
           "Id": "VirtoCommerce.Quote",
           "BlobName": "VirtoCommerce.Quote_3.825.0-pr-130-d061.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "Version": "VirtoCommerce.Catalog_3.835.0-pr-765-ef3d.zip"
         }
       ]
     },
@@ -289,10 +293,6 @@
         {
           "Id": "VirtoCommerce.Sitemaps",
           "Version": "3.811.0"
-        },
-        {
-          "Id": "VirtoCommerce.Catalog",
-          "Version": "3.834.0"
         },
         {
           "Id": "VirtoCommerce.Notifications",
