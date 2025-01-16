@@ -100,6 +100,10 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "BlobName": "VirtoCommerce.Catalog_3.835.0-pr-765-ef3d.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Marketing",
+          "BlobName": "VirtoCommerce.Marketing_3.816.0-pr-241-1a2c.zip"
         }
       ]
     },
@@ -217,10 +221,6 @@
         {
           "Id": "VirtoCommerce.Orders",
           "Version": "3.838.0"
-        },
-        {
-          "Id": "VirtoCommerce.Marketing",
-          "Version": "3.815.0"
         },
         {
           "Id": "VirtoCommerce.ShipStation",
