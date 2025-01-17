@@ -124,10 +124,6 @@
           "Version": "3.824.0"
         },
         {
-          "Id": "VirtoCommerce.Marketing",
-          "Version": "3.815.0"
-        },
-        {
           "Id": "VirtoCommerce.FileExperienceApi",
           "Version": "3.805.0"
         },
@@ -274,6 +270,10 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "Version": "3.835.0"
+        },
+        {
+          "Id": "VirtoCommerce.Marketing",
+          "Version": "3.816.0"
         }
       ]
     },
