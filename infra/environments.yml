@@ -19,8 +19,8 @@
       FileUpload__Scopes__0__AllowedExtensions__6: .xlsx
       FileUpload__Scopes__1__Scope: review-images
       FileUpload__Scopes__1__MaxFileSize: 10000000
-      FileUpload__Scopes__1__AllowedExtensions__0: jpg
-      FileUpload__Scopes__1__AllowedExtensions__1: png
+      FileUpload__Scopes__1__AllowedExtensions__0: .jpg
+      FileUpload__Scopes__1__AllowedExtensions__1: .png
       FileUpload__Scopes__1__AllowAnonymousUpload: true
       DOTNET_USE_POLLING_FILE_WATCHER: true
       Reload: 30
