@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.875.0",
+  "PlatformVersion": "3.876.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.875.0",
+  "PlatformImageTag": "3.876.0",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -17,16 +17,7 @@
           "BlobName": "VirtoCommerce.PageBuilderModule_3.817.0-alpha.625.zip"
         },
         {
-          "BlobName": "VirtoCommerce.Customer_3.823.0-pr-261-b98e.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.Catalog_3.836.0-pr-766-8135.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.XCatalog_3.822.0-pr-27-67da.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.XCart_3.824.0-pr-29-0a80.zip"
+          "BlobName": "VirtoCommerce.BackInStock_3.800.0-pr-1-fca0.zip"
         }
       ]
     },
@@ -36,7 +27,7 @@
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
       "Modules": [
-   {
+        {
           "Id": "VirtoCommerce.AzureBlobAssets",
           "Version": "3.809.0"
         },
@@ -149,10 +140,6 @@
           "Version": "3.824.0"
         },
         {
-          "Id": "VirtoCommerce.Marketing",
-          "Version": "3.815.0"
-        },
-        {
           "Id": "VirtoCommerce.FileExperienceApi",
           "Version": "3.805.0"
         },
@@ -217,10 +204,6 @@
           "Version": "3.806.0"
         },
         {
-          "Id": "VirtoCommerce.CatalogCsvImportModule",
-          "Version": "3.804.0"
-        },
-        {
           "Id": "VirtoCommerce.CatalogPersonalization",
           "Version": "3.803.0"
         },
@@ -283,6 +266,30 @@
         {
           "Id": "VirtoCommerce.Pricing",
           "Version": "3.813.0"
+        },
+        {
+          "Id": "VirtoCommerce.XCart",
+          "Version": "3.823.0"
+        },
+        {
+          "Id": "VirtoCommerce.Customer",
+          "Version": "3.823.0"
+        },
+        {
+          "Id": "VirtoCommerce.Marketing",
+          "Version": "3.816.0"
+        },
+        {
+          "Id": "VirtoCommerce.CatalogCsvImportModule",
+          "Version": "3.805.0"
+        },
+        {
+          "Id": "VirtoCommerce.XCatalog",
+          "Version": "3.822.0"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "Version": "3.836.0"
         }
       ]
     }
