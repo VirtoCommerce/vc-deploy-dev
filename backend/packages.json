@@ -1,6 +1,6 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.809.0",
+  "PlatformVersion": "3.876.0",
   "Sources": [
     {
       "Name": "AzureBlob",
@@ -20,7 +20,7 @@
       "Modules": [
         {
           "Id": "VirtoCommerce.AzureAD",
-          "Version": "3.800.0"
+          "Version": "3.804.0"
         }
       ]
     }
