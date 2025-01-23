@@ -15,7 +15,7 @@
       AzureAd__Priority: 0
       PasswordLogin__Priority: 1
     secretConfig:
-      PushNotifications__HubUrl: pushNotifications-huburl
+      PushNotifications__HubUrl: pushnotifications-huburl
   storefront:
     enabled: false
   ingress:
