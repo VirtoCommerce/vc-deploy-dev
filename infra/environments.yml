@@ -4,7 +4,7 @@
   servicePlan: B1
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/vcpt/license
-    imageTag: 3.808.0-753df518
+    imageTag: 3.876.0-7d13ac9e3
     sqlReplica: false
     config:
       VirtoCommerce__Licensing__LicensePrivateKeyPath: app_data/license.key

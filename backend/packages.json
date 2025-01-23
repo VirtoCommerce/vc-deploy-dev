@@ -21,7 +21,12 @@
         {
           "Id": "VirtoCommerce.AzureAD",
           "Version": "3.804.0"
+        },
+        {
+          "Id": "VirtoCommerce.ApplicationInsights",
+          "Version": "3.804.0"
         }
+
       ]
     }
   ]
