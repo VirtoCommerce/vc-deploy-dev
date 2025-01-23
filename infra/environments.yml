@@ -21,7 +21,7 @@
       FileUpload__Scopes__1__MaxFileSize: 10000000
       FileUpload__Scopes__1__AllowedExtensions__0: jpg
       FileUpload__Scopes__1__AllowedExtensions__1: png
-      FileUpload__Scopes__1__AllowAnonymousUpload: false
+      FileUpload__Scopes__1__AllowAnonymousUpload: true
       DOTNET_USE_POLLING_FILE_WATCHER: true
       Reload: 30
       #ConnectionStrings__AzureAppConfigurationConnectionString: "Endpoint=https://qa-vc-app-config.azconfig.io;Id=BvwK;Secret=nbF7kOXCU14+qCF5OtP4LR63zfbSyDx6th46bIWkUHQ="
