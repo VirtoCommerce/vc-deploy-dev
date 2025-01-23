@@ -268,12 +268,12 @@
           "Version": "3.816.0"
         },
         {
-          "Id": "VirtoCommerce.XCatalog",
-          "Version": "3.822.0"
-        },
-        {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
           "Version": "3.805.0"
+        },
+        {
+          "Id": "VirtoCommerce.XCatalog",
+          "Version": "3.822.0"
         }
       ]
     },
