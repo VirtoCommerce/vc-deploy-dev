@@ -39,6 +39,9 @@
         },
         {
           "BlobName": "VirtoCommerce.Quote_3.825.0-pr-130-bd41.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.821.0-pr-93-6b3a.zip"
         }
       ]
     },
@@ -211,10 +214,6 @@
         {
           "Id": "VirtoCommerce.Export",
           "Version": "3.804.0"
-        },
-        {
-          "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.818.0"
         },
         {
           "Id": "VirtoCommerce.FileExperienceApi",
