@@ -101,9 +101,9 @@
       Payments__Skyflow__Connections__Default__keyID: skyflow-server-keyid
       Payments__Skyflow__Connections__Default__privateKey: skyflow-server-privatekey
       Payments__Skyflow__DefaultConnection__transactionKey: authorizenet-txnkey
-      #Payments__CyberSource__MerchantId: cybersource-merchantid
-      #Payments__CyberSource__MerchantKeyId: cybersource-merchantkeyid
-      #Payments__CyberSource__MerchantSecretKey: cybersource-merchantsecretkey
+      Payments__CyberSource__MerchantId: cybersource-merchantid
+      Payments__CyberSource__MerchantKeyId: cybersource-merchantkeyid
+      Payments__CyberSource__MerchantSecretKey: cybersource-merchantsecretkey
       PushMessages__FcmSenderOptions__PrivateKey: fcm-private-key
   storefront:
     enabled: false
