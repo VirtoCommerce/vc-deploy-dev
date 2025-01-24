@@ -54,6 +54,9 @@
         },
         {
           "BlobName": "VirtoCommerce.WhiteLabeling_3.805.0-pr-6-a496.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.PushMessages_3.816.0-pr-13-b4b5.zip"
         }
       ]
     },
@@ -158,10 +161,6 @@
         {
           "Id": "VirtoCommerce.Pricing",
           "Version": "3.810.0"
-        },
-        {
-          "Id": "VirtoCommerce.PushMessages",
-          "Version": "3.814.0"
         },
         {
           "Id": "VirtoCommerce.CustomerExportImport",
