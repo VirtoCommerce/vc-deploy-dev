@@ -42,6 +42,9 @@
         },
         {
           "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.821.0-pr-93-6b3a.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.XCMS_3.806.0-pr-8-e62b.zip"
         }
       ]
     },
@@ -258,10 +261,6 @@
         {
           "Id": "VirtoCommerce.Notifications",
           "Version": "3.816.0"
-        },
-        {
-          "Id": "VirtoCommerce.XCMS",
-          "Version": "3.802.0"
         },
         {
           "Id": "VirtoCommerce.EventBus",
