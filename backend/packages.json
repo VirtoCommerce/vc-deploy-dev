@@ -45,6 +45,12 @@
         },
         {
           "BlobName": "VirtoCommerce.XCMS_3.806.0-pr-8-e62b.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.FileExperienceApi_3.806.0-pr-8-6815.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.MarketingExperienceApi_3.804.0-pr-8-3a62.zip"
         }
       ]
     },
@@ -217,14 +223,6 @@
         {
           "Id": "VirtoCommerce.Export",
           "Version": "3.804.0"
-        },
-        {
-          "Id": "VirtoCommerce.FileExperienceApi",
-          "Version": "3.804.0"
-        },
-        {
-          "Id": "VirtoCommerce.MarketingExperienceApi",
-          "Version": "3.803.0"
         },
         {
           "Id": "VirtoCommerce.DynamicAssociationsModule",
