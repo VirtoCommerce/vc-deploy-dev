@@ -70,10 +70,6 @@
           "BlobName": "VirtoCommerce.WhiteLabeling_3.805.0-alpha.21.zip"
         },
         {
-          "Id": "VirtoCommerce.TaskManagement",
-          "BlobName": "VirtoCommerce.TaskManagement_3.805.0-alpha.106.zip"
-        },
-        {
           "Id": "VirtoCommerce.ImageTools",
           "BlobName": "VirtoCommerce.ImageTools_3.809.0-alpha.356.zip"
         },
@@ -288,6 +284,10 @@
         {
           "Id": "VirtoCommerce.MarketingExperienceApi",
           "BlobName": "VirtoCommerce.MarketingExperienceApi_3.900.0-alpha.57.zip"
+        },
+        {
+          "Id": "VirtoCommerce.TaskManagement",
+          "BlobName": "VirtoCommerce.TaskManagement_3.900.0-alpha.107.zip"
         }
       ]
     }
