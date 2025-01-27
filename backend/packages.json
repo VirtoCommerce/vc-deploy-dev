@@ -56,10 +56,6 @@
           "Version": "3.804.0"
         },
         {
-          "Id": "VirtoCommerce.TaskManagement",
-          "Version": "3.804.0"
-        },
-        {
           "Id": "VirtoCommerce.ImageTools",
           "Version": "3.808.0"
         },
@@ -273,6 +269,10 @@
         },
         {
           "Id": "VirtoCommerce.FileExperienceApi",
+          "Version": "3.900.0"
+        },
+        {
+          "Id": "VirtoCommerce.TaskManagement",
           "Version": "3.900.0"
         }
       ]
