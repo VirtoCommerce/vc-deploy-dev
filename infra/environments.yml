@@ -243,6 +243,9 @@
       Payments__Skyflow__tableName: credit_cards
       Payments__Skyflow__TargetPaymentMethod: AuthorizeNetPaymentMethod
       Payments__Skyflow__TargetConnectionRoute: gfb5ce07e91340efac348a2df035c513/xml/v1/request.api
+      Payments__CyberSource__MerchantId: cybersource-merchantid
+      Payments__CyberSource__MerchantKeyId: cybersource-merchantkeyid
+      Payments__CyberSource__MerchantSecretKey: cybersource-merchantsecretkey
       AuditLogOptions__CanConfigureTrackingEvents: true
       AuditLogOptions__EntityOptions__0__TypeFullName: VirtoCommerce.OrdersModule.Core.Model.CustomerOrder
       AuditLogOptions__EntityOptions__0__NameProperty: Number
