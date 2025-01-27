@@ -14,6 +14,10 @@
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [        
         {
+          "Id": "VirtoCommerce.CyberSourcePayment",
+          "BlobName": "VirtoCommerce.CyberSourcePayment_3.800.0-pr-1-743a.zip"
+        },
+        {
           "Id": "VirtoCommerce.PageBuilderModule",
           "BlobName": "VirtoCommerce.PageBuilderModule_3.815.0-pr-74-1379.zip"
         },
