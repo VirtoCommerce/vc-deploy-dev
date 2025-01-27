@@ -278,16 +278,16 @@
           "BlobName": "VirtoCommerce.MarketingExperienceApi_3.900.0-alpha.57.zip"
         },
         {
-          "Id": "VirtoCommerce.TaskManagement",
-          "BlobName": "VirtoCommerce.TaskManagement_3.900.0-alpha.107.zip"
-        },
-        {
           "Id": "VirtoCommerce.FileExperienceApi",
           "BlobName": "VirtoCommerce.FileExperienceApi_3.901.0-alpha.34.zip"
         },
         {
           "Id": "VirtoCommerce.CustomerReviews",
           "BlobName": "VirtoCommerce.CustomerReviews_3.900.0-alpha.231.zip"
+        },
+        {
+          "Id": "VirtoCommerce.TaskManagement",
+          "BlobName": "VirtoCommerce.TaskManagement_3.901.0-alpha.108.zip"
         }
       ]
     }
