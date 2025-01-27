@@ -146,10 +146,6 @@
           "BlobName": "VirtoCommerce.ShipStation_3.802.0-alpha.119.zip"
         },
         {
-          "Id": "VirtoCommerce.XCMS",
-          "BlobName": "VirtoCommerce.XCMS_3.806.0-alpha.18.zip"
-        },
-        {
           "Id": "VirtoCommerce.AvalaraTax",
           "BlobName": "VirtoCommerce.AvalaraTax_3.803.0-alpha.313.zip"
         },
@@ -288,6 +284,10 @@
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.901.0-alpha.248.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XCMS",
+          "BlobName": "VirtoCommerce.XCMS_3.901.0-alpha.20.zip"
         }
       ]
     }
