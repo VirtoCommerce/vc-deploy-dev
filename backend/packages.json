@@ -150,10 +150,6 @@
           "BlobName": "VirtoCommerce.AuthorizeNetPayment_3.804.0-alpha.77.zip"
         },
         {
-          "Id": "VirtoCommerce.Skyflow",
-          "BlobName": "VirtoCommerce.Skyflow_3.810.0-alpha.36.zip"
-        },
-        {
           "Id": "VirtoCommerce.AzureSearch",
           "BlobName": "VirtoCommerce.AzureSearch_3.807.0-alpha.245.zip"
         },
@@ -288,6 +284,10 @@
         {
           "Id": "VirtoCommerce.PushMessages",
           "BlobName": "VirtoCommerce.PushMessages_3.901.0-alpha.54.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Skyflow",
+          "BlobName": "VirtoCommerce.Skyflow_3.900.0-alpha.37.zip"
         }
       ]
     }
