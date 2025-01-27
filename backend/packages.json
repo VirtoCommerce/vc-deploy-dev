@@ -1,6 +1,6 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.875.0",
+  "PlatformVersion": "3.876.0",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -70,11 +70,11 @@
         },
         {
           "Id": "VirtoCommerce.Catalog",
-          "Version": "3.834.0"
+          "Version": "3.837.0"
         },
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
-          "Version": "3.804.0"
+          "Version": "3.805.0"
         },
         {
           "Id": "VirtoCommerce.CatalogPersonalization",
@@ -106,7 +106,7 @@
         },
         {
           "Id": "VirtoCommerce.CustomerReviews",
-          "Version": "3.811.0"
+          "Version": "3.812.0"
         },
         {
           "Id": "VirtoCommerce.DynamicAssociationsModule",
@@ -166,7 +166,7 @@
         },
         {
           "Id": "VirtoCommerce.Marketing",
-          "Version": "3.815.0"
+          "Version": "3.816.0"
         },
         {
           "Id": "VirtoCommerce.MarketingExperienceApi",
@@ -270,11 +270,11 @@
         },
         {
           "Id": "VirtoCommerce.XCart",
-          "Version": "3.823.0"
+          "Version": "3.824.0"
         },
         {
           "Id": "VirtoCommerce.XCatalog",
-          "Version": "3.821.0"
+          "Version": "3.823.0"
         },
         {
           "Id": "VirtoCommerce.XCMS",
