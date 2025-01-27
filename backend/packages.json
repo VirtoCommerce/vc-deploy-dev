@@ -232,10 +232,6 @@
           "Version": "3.837.0"
         },
         {
-          "Id": "VirtoCommerce.CustomerReviews",
-          "Version": "3.812.0"
-        },
-        {
           "Id": "VirtoCommerce.XRecommend",
           "Version": "3.806.0"
         },
@@ -273,6 +269,10 @@
         },
         {
           "Id": "VirtoCommerce.TaskManagement",
+          "Version": "3.900.0"
+        },
+        {
+          "Id": "VirtoCommerce.CustomerReviews",
           "Version": "3.900.0"
         }
       ]
