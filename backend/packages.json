@@ -120,10 +120,6 @@
           "Version": "3.824.0"
         },
         {
-          "Id": "VirtoCommerce.FileExperienceApi",
-          "Version": "3.805.0"
-        },
-        {
           "Id": "VirtoCommerce.ShipStation",
           "Version": "3.801.0"
         },
@@ -273,6 +269,10 @@
         },
         {
           "Id": "VirtoCommerce.MarketingExperienceApi",
+          "Version": "3.900.0"
+        },
+        {
+          "Id": "VirtoCommerce.FileExperienceApi",
           "Version": "3.900.0"
         }
       ]
