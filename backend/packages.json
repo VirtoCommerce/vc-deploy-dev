@@ -102,10 +102,6 @@
           "BlobName": "VirtoCommerce.Assets_3.810.0-alpha.142.zip"
         },
         {
-          "Id": "VirtoCommerce.Contracts",
-          "BlobName": "VirtoCommerce.Contracts_3.809.0-alpha.111.zip"
-        },
-        {
           "Id": "VirtoCommerce.OpenIdConnectModule",
           "BlobName": "VirtoCommerce.OpenIdConnectModule_3.801.0-alpha.15.zip"
         },
@@ -288,6 +284,10 @@
         {
           "Id": "VirtoCommerce.Skyflow",
           "BlobName": "VirtoCommerce.Skyflow_3.900.0-alpha.37.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Contracts",
+          "BlobName": "VirtoCommerce.Contracts_3.900.0-alpha.112.zip"
         }
       ]
     }
