@@ -96,10 +96,6 @@
           "Version": "3.809.0"
         },
         {
-          "Id": "VirtoCommerce.Contracts",
-          "Version": "3.808.0"
-        },
-        {
           "Id": "VirtoCommerce.Contentful",
           "Version": "3.805.0"
         },
@@ -273,6 +269,10 @@
         },
         {
           "Id": "VirtoCommerce.Skyflow",
+          "Version": "3.900.0"
+        },
+        {
+          "Id": "VirtoCommerce.Contracts",
           "Version": "3.900.0"
         }
       ]
