@@ -72,10 +72,6 @@
           "Version": "3.804.0"
         },
         {
-          "Id": "VirtoCommerce.MarketingExperienceApi",
-          "Version": "3.803.0"
-        },
-        {
           "Id": "VirtoCommerce.DynamicAssociationsModule",
           "Version": "3.806.0"
         },
@@ -273,6 +269,10 @@
         },
         {
           "Id": "VirtoCommerce.XCMS",
+          "Version": "3.900.0"
+        },
+        {
+          "Id": "VirtoCommerce.MarketingExperienceApi",
           "Version": "3.900.0"
         }
       ]
