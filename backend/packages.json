@@ -12,7 +12,7 @@
       "Name": "AzureBlob",
       "Container": "packages",
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
-      "Modules": [        
+      "Modules": [
         {
           "Id": "VirtoCommerce.CyberSourcePayment",
           "BlobName": "VirtoCommerce.CyberSourcePayment_3.800.0-pr-1-9511.zip"
@@ -82,10 +82,6 @@
           "BlobName": "VirtoCommerce.Skyflow_3.809.0.zip"
         },
         {
-          "Id": "VirtoCommerce.Contracts",
-          "BlobName": "VirtoCommerce.Contracts_3.808.0.zip"
-        },
-        {
           "Id": "VirtoCommerce.PushMessages",
           "BlobName": "VirtoCommerce.PushMessages_3.815.0.zip"
         },
@@ -112,6 +108,10 @@
         {
           "Id": "VirtoCommerce.Marketing",
           "BlobName": "VirtoCommerce.Marketing_3.816.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Contracts",
+          "BlobName": "VirtoCommerce.Contracts_3.900.0.zip"
         }
       ]
     },
@@ -120,9 +120,8 @@
       "ModuleSources": [
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
-      
       "Modules": [
-         {
+        {
           "Id": "VirtoCommerce.AzureBlobAssets",
           "Version": "3.809.0"
         },
