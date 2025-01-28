@@ -52,10 +52,6 @@
           "Version": "3.803.0"
         },
         {
-          "Id": "VirtoCommerce.WhiteLabeling",
-          "Version": "3.804.0"
-        },
-        {
           "Id": "VirtoCommerce.ImageTools",
           "Version": "3.808.0"
         },
@@ -274,6 +270,10 @@
         {
           "Id": "VirtoCommerce.Quote",
           "Version": "3.900.0"
+        },
+        {
+          "Id": "VirtoCommerce.WhiteLabeling",
+          "Version": "3.805.0"
         }
       ]
     },
