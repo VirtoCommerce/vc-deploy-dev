@@ -36,6 +36,10 @@
         {
           "Id": "VirtoCommerce.CustomerReviews",
           "BlobName": "VirtoCommerce.CustomerReviews_3.901.0-pr-71-6465.zip"
+        },
+        {
+          "Id": "VirtoCommerce.FileExperienceApi",
+          "BlobName": "VirtoCommerce.FileExperienceApi_3.901.0-pr-9-618a.zip"
         }        
       ]
     },
@@ -272,10 +276,6 @@
         },
         {
           "Id": "VirtoCommerce.MarketingExperienceApi",
-          "Version": "3.900.0"
-        },
-        {
-          "Id": "VirtoCommerce.FileExperienceApi",
           "Version": "3.900.0"
         },
         {
