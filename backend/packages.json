@@ -32,7 +32,11 @@
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
           "BlobName": "VirtoCommerce.CatalogCsvImportModule_3.806.0-pr-112-632c.zip"
-        }
+        },
+        {
+          "Id": "VirtoCommerce.CustomerReviews",
+          "BlobName": "VirtoCommerce.CustomerReviews_3.901.0-pr-71-6465.zip"
+        }        
       ]
     },
     {
@@ -276,10 +280,6 @@
         },
         {
           "Id": "VirtoCommerce.TaskManagement",
-          "Version": "3.900.0"
-        },
-        {
-          "Id": "VirtoCommerce.CustomerReviews",
           "Version": "3.900.0"
         },
         {
