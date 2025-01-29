@@ -28,6 +28,10 @@
         {
           "Id": "VirtoCommerce.PowerBiReports",
           "BlobName": "VirtoCommerce.PowerBiReports_3.800.0-pr-5-3363.zip"
+        },
+        {
+          "Id": "VirtoCommerce.CatalogCsvImportModule",
+          "BlobName": "VirtoCommerce.CatalogCsvImportModule_3.806.0-pr-112-632c.zip"
         }
       ]
     },
@@ -233,10 +237,6 @@
         {
           "Id": "VirtoCommerce.Marketing",
           "Version": "3.816.0"
-        },
-        {
-          "Id": "VirtoCommerce.CatalogCsvImportModule",
-          "Version": "3.805.0"
         },
         {
           "Id": "VirtoCommerce.Catalog",
