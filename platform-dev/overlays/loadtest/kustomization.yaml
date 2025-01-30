@@ -8,8 +8,12 @@ commonLabels:
 patchesStrategicMerge:
 - platform-secrets.yaml
 - platform-deploy.yaml
+- storefront-cm.yaml
+- storefront-deploy.yaml
+
 resources:
 - ../../resources
+- ../../../common-base/storefront
 - storage.yaml
 
 configMapGenerator:

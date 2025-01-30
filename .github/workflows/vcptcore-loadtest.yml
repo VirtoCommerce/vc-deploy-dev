@@ -1,4 +1,4 @@
-name: Run loadtest
+name: Run vcptcore-loadtest
 
 on:
   workflow_dispatch:
@@ -21,7 +21,6 @@ jobs:
         azcliversion: 2.30.0
         inlineScript: |
           az sql db create --resource-group aks-cluster-dev --server vc-dev-dbserver --name loadtest-platform_dev_separate --service-objective S2
-
   azure-vm:
     runs-on: ubuntu-latest
     steps:
@@ -36,7 +35,6 @@ jobs:
         azcliversion: 2.30.0
         inlineScript: |
           az vm start --resource-group load-test_group --name load-test
-
   loadtest:
     needs: [azure-sql, azure-vm]
     runs-on: ubuntu-latest
@@ -45,21 +43,11 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
 
-    - uses: actions/cache@v2
-      with:
-        path: ~/.cache/pip
-        key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
-        restore-keys: |
-          ${{ runner.os }}-pip- 
-   
-    - name: Install niet
+    - name: Get platfrom version
+      id: platform-version
       run: |
-          pip install -r ${{ github.workspace }}/platform-dev/overlays/loadtest/requirements.txt
-    
-    - name: Get platform image tag
-      run: |
-        echo "PLATFORM_IMAGE_TAG=$(niet ".images[0].newTag" ${{ github.workspace }}/platform-dev/resources/kustomization.yaml)" >> $GITHUB_ENV
-      
+        echo "PLATFORM_IMAGE_TAG=$(cat ./backend/packages.json | jq -r '.PlatformImageTag')" >> $GITHUB_ENV
+
     - name: App wait
       uses: VirtoCommerce/vc-github-actions/vc-argocd-cli@master # Uses an action in the root directory
       id: argocd-cli
@@ -75,7 +63,7 @@ jobs:
         host: ${{ secrets.VM_HOST }}
         username: vcadmin
         password: ${{ secrets.VM_PASSWORD }}
-        source: "./platform-dev/overlays/loadtest/scripts/loadtest.py"
+        source: "./scripts/loadtest.py"
         target: "/home/vcadmin/loadtest"
         strip_components: 5
 
@@ -124,7 +112,6 @@ jobs:
         azcliversion: 2.30.0
         inlineScript: |
           az vm stop --resource-group load-test_group --name load-test
-
     - name: Wait for environment is up
       if: ${{ matrix.envName }} == 'dev'
       uses: VirtoCommerce/vc-github-actions/vc-argocd-cli@master

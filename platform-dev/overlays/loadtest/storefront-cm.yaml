@@ -1,0 +1,12 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: storefront-cm
+data:
+    ASPNETCORE_FORWARDEDHEADERS_ENABLED: "true"
+    CookieAuthenticationOptions__ExpireTimeSpan: "12:00:00"
+    SnapshotCollectorConfiguration__IsEnabled: "false"
+    Swagger__UI__Enable: "true"
+    VirtoCommerce__DefaultStore: B2B-store
+    VirtoCommerce__Endpoint__Password: Password1
+    VirtoCommerce__Endpoint__UserName: admin

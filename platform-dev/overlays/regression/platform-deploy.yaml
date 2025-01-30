@@ -24,7 +24,7 @@ spec:
           image: mcr.microsoft.com/mssql-tools
           env:
             - name: VC_SAMPLE_DATA_DB
-              value: regression-platform_qa_source
+              value: ""
             - name: VC_DB_COPY_PARAM
               value: "AS COPY OF [$(VC_SAMPLE_DATA_DB)]"  
 
