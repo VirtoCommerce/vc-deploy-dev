@@ -270,10 +270,6 @@
           "BlobName": "VirtoCommerce.XRecommend_3.901.0-alpha.21.zip"
         },
         {
-          "Id": "VirtoCommerce.Quote",
-          "BlobName": "VirtoCommerce.Quote_3.901.0-alpha.441.zip"
-        },
-        {
           "Id": "VirtoCommerce.WhiteLabeling",
           "BlobName": "VirtoCommerce.WhiteLabeling_3.901.0-alpha.27.zip"
         },
@@ -288,6 +284,10 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "BlobName": "VirtoCommerce.Catalog_3.838.0-alpha.2277.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Quote",
+          "BlobName": "VirtoCommerce.Quote_3.901.0-alpha.443.zip"
         }
       ]
     }
