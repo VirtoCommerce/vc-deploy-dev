@@ -12,7 +12,7 @@
       "Name": "AzureBlob",
       "Container": "packages",
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
-      "Modules": [        
+      "Modules": [
         {
           "Id": "VirtoCommerce.CyberSourcePayment",
           "BlobName": "VirtoCommerce.CyberSourcePayment_3.800.0-pr-1-656d.zip"
@@ -40,7 +40,11 @@
         {
           "Id": "VirtoCommerce.FileExperienceApi",
           "BlobName": "VirtoCommerce.FileExperienceApi_3.901.0-pr-9-618a.zip"
-        }        
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "BlobName": "VirtoCommerce.Catalog_3.838.0.zip"
+        }
       ]
     },
     {
@@ -48,9 +52,8 @@
       "ModuleSources": [
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
-      
       "Modules": [
-    {
+        {
           "Id": "VirtoCommerce.AzureBlobAssets",
           "Version": "3.809.0"
         },
@@ -245,10 +248,6 @@
         {
           "Id": "VirtoCommerce.Marketing",
           "Version": "3.816.0"
-        },
-        {
-          "Id": "VirtoCommerce.Catalog",
-          "Version": "3.837.0"
         },
         {
           "Id": "VirtoCommerce.Xapi",
