@@ -222,10 +222,6 @@
           "BlobName": "VirtoCommerce.CatalogCsvImportModule_3.806.0-alpha.318.zip"
         },
         {
-          "Id": "VirtoCommerce.Catalog",
-          "BlobName": "VirtoCommerce.Catalog_3.838.0-alpha.2275.zip"
-        },
-        {
           "Id": "VirtoCommerce.XCatalog",
           "BlobName": "VirtoCommerce.XCatalog_3.901.0-alpha.59.zip"
         },
@@ -288,6 +284,10 @@
         {
           "Id": "VirtoCommerce.CustomerReviews",
           "BlobName": "VirtoCommerce.CustomerReviews_3.901.0-alpha.234.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "BlobName": "VirtoCommerce.Catalog_3.838.0-alpha.2277.zip"
         }
       ]
     }
