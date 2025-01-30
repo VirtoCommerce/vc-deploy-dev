@@ -119,7 +119,7 @@
   storefront:
     enabled: false
     themes:
-      B2B-store: https://github.com/VirtoCommerce/vc-frontend/releases/download/2.13.0/vc-theme-b2b-vue-2.13.0.zip
+      B2B-store: https://github.com/VirtoCommerce/vc-frontend/releases/download/2.14.0/vc-theme-b2b-vue-2.14.0.zip
   frontend:
      - name: B2B-store
        prerender: true
