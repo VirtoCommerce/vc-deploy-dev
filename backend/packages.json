@@ -258,10 +258,6 @@
           "BlobName": "VirtoCommerce.TaskManagement_3.901.0-alpha.108.zip"
         },
         {
-          "Id": "VirtoCommerce.CustomerReviews",
-          "BlobName": "VirtoCommerce.CustomerReviews_3.901.0-alpha.232.zip"
-        },
-        {
           "Id": "VirtoCommerce.PushMessages",
           "BlobName": "VirtoCommerce.PushMessages_3.901.0-alpha.54.zip"
         },
@@ -288,6 +284,10 @@
         {
           "Id": "VirtoCommerce.Xapi",
           "BlobName": "VirtoCommerce.Xapi_3.902.0-alpha.61.zip"
+        },
+        {
+          "Id": "VirtoCommerce.CustomerReviews",
+          "BlobName": "VirtoCommerce.CustomerReviews_3.901.0-alpha.234.zip"
         }
       ]
     }
