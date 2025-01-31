@@ -232,10 +232,6 @@
           "Version": "3.900.0"
         },
         {
-          "Id": "VirtoCommerce.FileExperienceApi",
-          "Version": "3.900.0"
-        },
-        {
           "Id": "VirtoCommerce.TaskManagement",
           "Version": "3.900.0"
         },
@@ -274,6 +270,10 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "Version": "3.838.0"
+        },
+        {
+          "Id": "VirtoCommerce.FileExperienceApi",
+          "Version": "3.901.0"
         }
       ]
     },
