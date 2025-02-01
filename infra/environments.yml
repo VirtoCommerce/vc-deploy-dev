@@ -86,7 +86,7 @@
     config:
       APPINSIGHTS_INSTRUMENTATIONKEY: 0734e66c-ef37-413f-a5d5-2a3cdbeedbff
     themes:
-      B2B-store: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-2.12.0-alpha.1575.zip
+      B2B-store: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-2.12.0-alpha.1701-vc-assistant.zip
   customApps: {}
   routes:
   - host: vcst-ai-storefront.govirto.com
