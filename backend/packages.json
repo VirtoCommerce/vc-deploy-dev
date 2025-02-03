@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.878.0-pr-2877-b5e4-vcst-2599-b5e47801",
+  "PlatformVersion": "3.878.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.878.0-pr-2877-b5e4-vcst-2599-b5e47801",
+  "PlatformImageTag": "3.878.0",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -31,27 +31,27 @@
         },
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
-          "BlobName": "VirtoCommerce.CatalogCsvImportModule_3.806.0-pr-112-632c.zip"
+          "BlobName": "VirtoCommerce.CatalogCsvImportModule_3.806.0.zip"
         },
         {
           "Id": "VirtoCommerce.CustomerReviews",
-          "BlobName": "VirtoCommerce.CustomerReviews_3.901.0-pr-71-6465.zip"
+          "BlobName": "VirtoCommerce.CustomerReviews_3.901.0.zip"
         },
         {
           "Id": "VirtoCommerce.FileExperienceApi",
-          "BlobName": "VirtoCommerce.FileExperienceApi_3.901.0-pr-9-618a.zip"
+          "BlobName": "VirtoCommerce.FileExperienceApi_3.901.0.zip"
         },
         {
           "Id": "VirtoCommerce.Catalog",
-          "BlobName": "VirtoCommerce.Catalog_3.839.0-pr-769-d605.zip"
+          "BlobName": "VirtoCommerce.Catalog_3.839.0.zip"
         },     
         {
           "Id": "VirtoCommerce.Core",
-          "BlobName": "VirtoCommerce.Core_3.816.0-pr-235-066b.zip"
+          "BlobName": "VirtoCommerce.Core_3.816.0.zip"
         },
         {
           "Id": "VirtoCommerce.XCatalog",
-          "BlobName": "VirtoCommerce.XCatalog_3.901.0-pr-29-5bb6.zip"
+          "BlobName": "VirtoCommerce.XCatalog_3.901.0.zip"
         }
       ]
     },
@@ -256,7 +256,7 @@
         },
         {
           "Id": "VirtoCommerce.Xapi",
-          "Version": "3.900.0"
+          "Version": "3.901.0"
         },
         {
           "Id": "VirtoCommerce.XCart",
@@ -300,7 +300,7 @@
         },
         {
           "Id": "VirtoCommerce.Quote",
-          "Version": "3.900.0"
+          "Version": "3.901.0"
         }
       ]
     }
