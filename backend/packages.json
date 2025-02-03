@@ -274,6 +274,10 @@
         {
           "Id": "VirtoCommerce.XCatalog",
           "Version": "3.901.0"
+        },
+        {
+          "Id": "VirtoCommerce.BackInStock",
+          "Version": "3.800.0"
         }
       ]
     },
