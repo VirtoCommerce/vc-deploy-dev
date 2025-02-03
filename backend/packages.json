@@ -18,6 +18,9 @@
         },
         {
           "BlobName": "VirtoCommerce.BackInStock_3.800.0-pr-1-7a13.zip"
+        }, 
+        {
+          "BlobName": "VirtoCommerce.XCatalog_3.902.0-pr-30-a923.zip"
         }
       ]
     },
@@ -233,10 +236,6 @@
         },
         {
           "Id": "VirtoCommerce.Xapi",
-          "Version": "3.900.0"
-        },
-        {
-          "Id": "VirtoCommerce.XCatalog",
           "Version": "3.900.0"
         },
         {
