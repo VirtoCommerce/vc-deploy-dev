@@ -17,10 +17,10 @@
           "BlobName": "VirtoCommerce.PageBuilderModule_3.817.0-alpha.625.zip"
         },
         {
-          "BlobName": "VirtoCommerce.BackInStock_3.800.0-pr-1-7a13.zip"
+          "BlobName": "VirtoCommerce.Xapi_3.902.0-pr-25-27f8.zip"
         }, 
         {
-          "BlobName": "VirtoCommerce.XCatalog_3.902.0-pr-30-a923.zip"
+          "BlobName": "VirtoCommerce.XCatalog_3.902.0-pr-30-1c6b.zip"
         }
       ]
     },
@@ -263,10 +263,6 @@
           "Version": "3.900.0"
         },
         {
-          "Id": "VirtoCommerce.Xapi",
-          "Version": "3.901.0"
-        },
-        {
           "Id": "VirtoCommerce.Quote",
           "Version": "3.901.0"
         },
@@ -289,6 +285,10 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "Version": "3.839.0"
+        },
+        {
+          "Id": "VirtoCommerce.BackInStock",
+          "Version": "3.800.0"
         }
       ]
     }
