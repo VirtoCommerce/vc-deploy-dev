@@ -71,6 +71,8 @@
       Payments__Skyflow__tableName: credit_cards
       Payments__Skyflow__TargetPaymentMethod: AuthorizeNetPaymentMethod
       Payments__Skyflow__TargetConnectionRoute: gfb5ce07e91340efac348a2df035c513/xml/v1/request.api
+      # CyberSource
+      Payments__CyberSource__ValidateSignature: false
       # Sync push notifications between platform instances
       PushNotifications__ForceWebSockets: true
       PushNotifications__ScalabilityMode: RedisBackplane
@@ -136,7 +138,7 @@
       Payments__Skyflow__IntegrationsAccount__privateKey: skyflow-integrationsaccount-privatekey
       Payments__CyberSource__MerchantId: cybersource-merchantid
       Payments__CyberSource__MerchantKeyId: cybersource-merchantkeyid
-      Payments__CyberSource__MerchantSecretKey: cybersource-merchantsecretkey
+      Payments__CyberSource__MerchantSecretKey: cybersource-merchantsecretkey      
       GoogleSSO__ApplicationId: googlesso-aplicationid
       GoogleSSO__Secret: googlesso-secret     
   storefront:
