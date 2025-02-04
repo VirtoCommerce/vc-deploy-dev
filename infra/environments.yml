@@ -137,8 +137,8 @@
       Payments__Skyflow__IntegrationsAccount__keyID: skyflow-integrationsaccount-keyid
       Payments__Skyflow__IntegrationsAccount__privateKey: skyflow-integrationsaccount-privatekey
       Payments__CyberSource__MerchantId: cybersource-merchantid
-      Payments__CyberSource__MerchantKeyId: cybersource-merchantkeyid
-      Payments__CyberSource__MerchantSecretKey: cybersource-merchantsecretkey      
+      Payments__CyberSource__MerchantKeyId: cybersource-qa-merchantkeyid
+      Payments__CyberSource__MerchantSecretKey: cybersource-qa-merchantsecretkey      
       GoogleSSO__ApplicationId: googlesso-aplicationid
       GoogleSSO__Secret: googlesso-secret     
   storefront:
