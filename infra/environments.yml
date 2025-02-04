@@ -43,7 +43,7 @@
       FileUpload__Scopes__1__AllowedExtensions__1: .png
       FileUpload__Scopes__1__AllowAnonymousUpload: false
       FileUpload__Scopes__2__Scope: review-images
-      FileUpload__Scopes__2__MaxFileSize: 10000000
+      FileUpload__Scopes__2__MaxFileSize: 1000000
       FileUpload__Scopes__2__AllowedExtensions__0: .jpg
       FileUpload__Scopes__2__AllowedExtensions__1: .png
       FileUpload__Scopes__2__AllowAnonymousUpload: false
