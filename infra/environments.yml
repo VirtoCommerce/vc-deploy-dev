@@ -133,7 +133,10 @@
       Payments__Skyflow__PaymentFormAccount__privateKey: skyflow-paymentformaccount-privatekey
       Payments__Skyflow__IntegrationsAccount__clientID: skyflow-integrationsaccount-clientid
       Payments__Skyflow__IntegrationsAccount__keyID: skyflow-integrationsaccount-keyid
-      Payments__Skyflow__IntegrationsAccount__privateKey: skyflow-integrationsaccount-privatekey     
+      Payments__Skyflow__IntegrationsAccount__privateKey: skyflow-integrationsaccount-privatekey
+      Payments__CyberSource__MerchantId: cybersource-merchantid
+      Payments__CyberSource__MerchantKeyId: cybersource-merchantkeyid
+      Payments__CyberSource__MerchantSecretKey: cybersource-merchantsecretkey
       GoogleSSO__ApplicationId: googlesso-aplicationid
       GoogleSSO__Secret: googlesso-secret     
   storefront:
