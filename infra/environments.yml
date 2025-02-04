@@ -46,7 +46,7 @@
       FileUpload__Scopes__2__MaxFileSize: 1000000
       FileUpload__Scopes__2__AllowedExtensions__0: .jpg
       FileUpload__Scopes__2__AllowedExtensions__1: .png
-      FileUpload__Scopes__2__AllowedExtensions__1: .webp
+      FileUpload__Scopes__2__AllowedExtensions__2: .webp
       FileUpload__Scopes__2__AllowAnonymousUpload: false
       # Send notifications via email
       Notifications__DefaultSender: virto.start@virtoway.com
