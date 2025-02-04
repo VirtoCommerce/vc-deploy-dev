@@ -21,6 +21,15 @@
         },
         {
           "BlobName": "VirtoCommerce.CyberSourcePayment_3.800.0-pr-1-a2a4.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Catalog_3.840.0-pr-770-baef.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.XCatalog_3.902.0-pr-31-72a8.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.XCart_3.901.0-pr-31-6260.zip"
         }
       ]
     },
@@ -231,19 +240,7 @@
           "Version": "3.805.0"
         },
         {
-          "Id": "VirtoCommerce.Catalog",
-          "Version": "3.837.0"
-        },
-        {
           "Id": "VirtoCommerce.Xapi",
-          "Version": "3.900.0"
-        },
-        {
-          "Id": "VirtoCommerce.XCatalog",
-          "Version": "3.900.0"
-        },
-        {
-          "Id": "VirtoCommerce.XCart",
           "Version": "3.900.0"
         },
         {
