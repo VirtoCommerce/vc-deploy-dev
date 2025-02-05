@@ -208,10 +208,6 @@
           "Version": "3.900.0"
         },
         {
-          "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.900.0"
-        },
-        {
           "Id": "VirtoCommerce.XCMS",
           "Version": "3.900.0"
         },
@@ -278,6 +274,10 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "Version": "3.840.0"
+        },
+        {
+          "Id": "VirtoCommerce.ProfileExperienceApiModule",
+          "Version": "3.901.0"
         }
       ]
     },
