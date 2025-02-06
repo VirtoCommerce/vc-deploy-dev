@@ -278,6 +278,10 @@
         {
           "Id": "VirtoCommerce.XCatalog",
           "Version": "3.902.0"
+        },
+        {
+          "Id": "VirtoCommerce.CyberSourcePayment",
+          "Version": "3.800.0"
         }
       ]
     },
