@@ -72,7 +72,7 @@
       Payments__Skyflow__TargetPaymentMethod: AuthorizeNetPaymentMethod
       Payments__Skyflow__TargetConnectionRoute: gfb5ce07e91340efac348a2df035c513/xml/v1/request.api
       # CyberSource
-      #Payments__CyberSource__ValidateSignature: false
+      Payments__CyberSource__ValidateSignatureRetryCount: 5
       # Sync push notifications between platform instances
       PushNotifications__ForceWebSockets: true
       PushNotifications__ScalabilityMode: RedisBackplane
