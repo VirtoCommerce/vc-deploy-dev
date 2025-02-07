@@ -47,6 +47,16 @@
       FileUpload__Scopes__0__AllowedExtensions__4: .png
       FileUpload__Scopes__0__AllowedExtensions__5: .txt
       FileUpload__Scopes__0__AllowedExtensions__6: .xlsx
+      FileUpload__Scopes__1__Scope: review-images
+      FileUpload__Scopes__1__MaxFileSize: 10000000
+      FileUpload__Scopes__1__AllowedExtensions__0: .jpg
+      FileUpload__Scopes__1__AllowedExtensions__1: .png
+      FileUpload__Scopes__1__AllowAnonymousUpload: false
+      FileUpload__Scopes__2__Scope: organization-logos
+      FileUpload__Scopes__2__MaxFileSize: 5000000
+      FileUpload__Scopes__2__AllowedExtensions__0: .jpg
+      FileUpload__Scopes__2__AllowedExtensions__1: .png
+      FileUpload__Scopes__2__AllowAnonymousUpload: false
       # Send notifications via email
       Notifications__DefaultSender: virto.start@virtoway.com
       Notifications__Gateway: SendGrid
