@@ -146,10 +146,6 @@
           "BlobName": "VirtoCommerce.ElasticAppSearch_3.808.0-alpha.133.zip"
         },
         {
-          "Id": "VirtoCommerce.ElasticSearch8",
-          "BlobName": "VirtoCommerce.ElasticSearch8_3.813.0-alpha.107.zip"
-        },
-        {
           "Id": "VirtoCommerce.ElasticSearch",
           "BlobName": "VirtoCommerce.ElasticSearch_3.805.0-alpha.259.zip"
         },
@@ -296,6 +292,10 @@
         {
           "Id": "VirtoCommerce.CyberSourcePayment",
           "BlobName": "VirtoCommerce.CyberSourcePayment_3.801.0-alpha.29.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ElasticSearch8",
+          "BlobName": "VirtoCommerce.ElasticSearch8_3.813.0-alpha.109.zip"
         }
       ]
     }
