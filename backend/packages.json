@@ -15,7 +15,7 @@
       "Modules": [        
         {
           "Id": "VirtoCommerce.CyberSourcePayment",
-          "BlobName": "VirtoCommerce.CyberSourcePayment_3.800.0-pr-1-656d.zip"
+          "BlobName": "VirtoCommerce.CyberSourcePayment_3.800.0.zip"
         },
         {
           "Id": "VirtoCommerce.PageBuilderModule",
@@ -43,23 +43,23 @@
         },
         {
           "Id": "VirtoCommerce.Catalog",
-          "BlobName": "VirtoCommerce.Catalog_3.842.0-pr-773-5b5c.zip"
+          "BlobName": "VirtoCommerce.Catalog_3.841.0.zip"
         },     
         {
           "Id": "VirtoCommerce.Core",
-          "BlobName": "VirtoCommerce.Core_3.817.0-alpha.1645.zip"
+          "BlobName": "VirtoCommerce.Core_3.817.0.zip"
         },
         {
           "Id": "VirtoCommerce.XCatalog",
-          "BlobName": "VirtoCommerce.XCatalog_3.902.0-pr-28-3868.zip"
+          "BlobName": "VirtoCommerce.XCatalog_3.902.0.zip"
         }, 
         {
           "Id": "VirtoCommerce.XCart",
-          "BlobName": "VirtoCommerce.XCart_3.901.0-pr-30-af02.zip"
+          "BlobName": "VirtoCommerce.XCart_3.901.0.zip"
         },
         {
           "Id": "VirtoCommerce.ElasticSearch8",
-          "BlobName": "VirtoCommerce.ElasticSearch8_3.814.0-pr-24-c0cf.zip"
+          "BlobName": "VirtoCommerce.ElasticSearch8_3.813.0.zip"
         },
         {
           "Id": "VirtoCommerce.Search",
@@ -74,6 +74,10 @@
       ],
       
       "Modules": [
+        {
+          "Id": "VirtoCommerce.BackInStock",
+          "Version": "VirtoCommerce.BackInStock_3.800.0.zip"
+        },
     {
           "Id": "VirtoCommerce.AzureBlobAssets",
           "Version": "3.809.0"
@@ -260,7 +264,7 @@
         },
         {
           "Id": "VirtoCommerce.Xapi",
-          "Version": "3.901.0"
+          "Version": "3.903.0"
         },
         {
           "Id": "VirtoCommerce.XOrder",
@@ -268,7 +272,7 @@
         },
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.900.0"
+          "Version": "3.902.0"
         },
         {
           "Id": "VirtoCommerce.XCMS",
