@@ -69,6 +69,16 @@
       FileUpload__Scopes__1__AllowedExtensions__2: .jpg
       FileUpload__Scopes__1__AllowedExtensions__3: .png
       FileUpload__Scopes__1__AllowedExtensions__4: .webp
+      FileUpload__Scopes__2__Scope: organization-logos
+      FileUpload__Scopes__2__MaxFileSize: 5000000
+      FileUpload__Scopes__2__AllowedExtensions__0: .jpg
+      FileUpload__Scopes__2__AllowedExtensions__1: .png
+      FileUpload__Scopes__2__AllowAnonymousUpload: false
+      FileUpload__Scopes__1__Scope: review-images
+      FileUpload__Scopes__3__MaxFileSize: 10000000
+      FileUpload__Scopes__3__AllowedExtensions__0: .jpg
+      FileUpload__Scopes__3__AllowedExtensions__1: .png
+      FileUpload__Scopes__3__AllowAnonymousUpload: false
       # Authorize.Net settings
       Payments__AuthorizeNet__ApiLogin: 52B9X7vb4      
       Payments__AuthorizeNet__SHA2Hash: sha2hash
@@ -80,6 +90,8 @@
       Payments__Skyflow__tableName: credit_cards
       Payments__Skyflow__TargetPaymentMethod: AuthorizeNetPaymentMethod
       Payments__Skyflow__TargetConnectionRoute: gfb5ce07e91340efac348a2df035c513/xml/v1/request.api
+      # CyberSource
+      Payments__CyberSource__ValidateSignatureRetryCount: 5
       # Firebase settings
       PushMessages__UseFirebaseCloudMessaging: true
       PushMessages__FcmSenderOptions__Type: service_account
@@ -119,7 +131,7 @@
   storefront:
     enabled: false
     themes:
-      B2B-store: https://github.com/VirtoCommerce/vc-frontend/releases/download/2.14.0/vc-theme-b2b-vue-2.14.0.zip
+      B2B-store: https://github.com/VirtoCommerce/vc-frontend/releases/download/2.15.0/vc-theme-b2b-vue-2.15.0.zip
   frontend:
      - name: B2B-store
        prerender: true
