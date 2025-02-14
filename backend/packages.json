@@ -132,10 +132,6 @@
           "Version": "3.804.0"
         },
         {
-          "Id": "VirtoCommerce.Search",
-          "Version": "3.806.0"
-        },
-        {
           "Id": "VirtoCommerce.CatalogPersonalization",
           "Version": "3.803.0"
         },
@@ -282,6 +278,10 @@
         {
           "Id": "VirtoCommerce.CatalogPublishing",
           "Version": "3.804.0"
+        },
+        {
+          "Id": "VirtoCommerce.Search",
+          "Version": "3.807.0"
         }
       ]
     },
