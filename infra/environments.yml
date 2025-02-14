@@ -113,6 +113,7 @@
       #Search__Lucene__Path: /path/to/lucene/indexes
       #Search__ElasticSearch8__Server: https://1714126b27f941cb82f2c0e0d242d6b4.eastus2.azure.elastic-cloud.com
       #Search__ElasticSearch8__User: elastic
+      Search__ElasticSearch8__EnableDebugMode: true
       PlatformSettings__Settings__0__Name: Order.RefundNewNumberTemplate
       PlatformSettings__Settings__0__ValueType: ShortText
       PlatformSettings__Settings__0__Value: fixed
