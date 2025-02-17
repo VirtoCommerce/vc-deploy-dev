@@ -270,10 +270,6 @@
           "BlobName": "VirtoCommerce.CyberSourcePayment_3.801.0-alpha.29.zip"
         },
         {
-          "Id": "VirtoCommerce.ElasticSearch8",
-          "BlobName": "VirtoCommerce.ElasticSearch8_3.814.0-alpha.110.zip"
-        },
-        {
           "Id": "VirtoCommerce.Catalog",
           "BlobName": "VirtoCommerce.Catalog_3.843.0-alpha.2288.zip"
         },
@@ -296,6 +292,10 @@
         {
           "Id": "VirtoCommerce.XCatalog",
           "BlobName": "VirtoCommerce.XCatalog_3.904.0-alpha.68.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ElasticSearch8",
+          "BlobName": "VirtoCommerce.ElasticSearch8_3.814.0-alpha.113.zip"
         }
       ]
     }
