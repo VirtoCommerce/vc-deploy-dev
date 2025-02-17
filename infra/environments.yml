@@ -104,6 +104,7 @@
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/storefront
     servicePlan: S1
     imageTag: "8.2.0-master-5d02a6de"
+    probePath: /
     config:
       DOTNET_USE_POLLING_FILE_WATCHER: true
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
@@ -115,7 +116,16 @@
       VirtoCommerce__Endpoint__UserName: admin
     themes:
       B2B-store: https://github.com/VirtoCommerce/vc-frontend/releases/download/2.15.0/vc-theme-b2b-vue-2.15.0.zip
-  ingress: {}
+  ingress:
+    config: >-
+      add_header 'Access-Control-Allow-Origin' '*';
+      add_header 'Access-Control-Allow-Headers' 'Content-Type';
+      add_header 'Access-Control-Allow-Methods' 'GET,POST,PUT,DELETE,OPTIONS';
+      add_header 'Access-Control-Allow-Credentials' 'true';
+    hostnames:
+      name1: vcptcore-loadtest.govirto.com
+    # storefrontHostnames:
+    # name1: virtostart-demo-store.govirto.com
   customApps:
     app1:
       enabled: false
