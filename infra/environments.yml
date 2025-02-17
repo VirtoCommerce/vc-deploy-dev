@@ -122,7 +122,7 @@
     app2:
       enabled: false
   routes:
-  - host: vcptcore-qa-loadtest.govirto.com
+  - host: vcptcore-loadtest-storefront.govirto.com
     root: B2B-store
     paths:
     - path: /xapi
