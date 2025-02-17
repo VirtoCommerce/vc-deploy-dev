@@ -115,17 +115,7 @@
       VirtoCommerce__Endpoint__Password: Password1!
       VirtoCommerce__Endpoint__UserName: admin
     themes:
-      B2B-store: https://github.com/VirtoCommerce/vc-frontend/releases/download/2.15.0/vc-theme-b2b-vue-2.15.0.zip
-  ingress:
-    config: >-
-      add_header 'Access-Control-Allow-Origin' '*';
-      add_header 'Access-Control-Allow-Headers' 'Content-Type';
-      add_header 'Access-Control-Allow-Methods' 'GET,POST,PUT,DELETE,OPTIONS';
-      add_header 'Access-Control-Allow-Credentials' 'true';
-    hostnames:
-      name1: vcptcore-loadtest.govirto.com
-    # storefrontHostnames:
-    # name1: virtostart-demo-store.govirto.com
+      B2B-store: https://github.com/VirtoCommerce/vc-frontend/releases/download/2.15.0/vc-theme-b2b-vue-2.15.0.zip  
   customApps:
     app1:
       enabled: false
