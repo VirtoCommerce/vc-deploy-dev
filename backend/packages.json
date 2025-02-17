@@ -64,6 +64,10 @@
         {
           "Id": "VirtoCommerce.Search",
           "BlobName": "VirtoCommerce.Search_3.807.0-pr-111-e66c.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Content",
+          "BlobName": "VirtoCommerce.Content_3.825.0-pr-193-77aa.zip"
         }
       ]
     },
@@ -101,10 +105,6 @@
         {
           "Id": "VirtoCommerce.GoogleSSO",
           "Version": "3.802.0"
-        },
-        {
-          "Id": "VirtoCommerce.Content",
-          "Version": "3.824.0"
         },
         {
           "Id": "VirtoCommerce.Shipping",
