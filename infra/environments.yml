@@ -114,7 +114,7 @@
       VirtoCommerce__Endpoint__Password: Password1!
       VirtoCommerce__Endpoint__UserName: admin
     themes:
-      B2B-store: https://github.com/VirtoCommerce/vc-frontend/releases/download/1.60.0/vc-theme-b2b-vue-1.60.0.zip
+      B2B-store: https://github.com/VirtoCommerce/vc-frontend/releases/download/2.15.0/vc-theme-b2b-vue-2.15.0.zip
   ingress: {}
   customApps:
     app1:
