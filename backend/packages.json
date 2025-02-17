@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.878.0",
+  "PlatformVersion": "3.879.0-pr-2887-f4c3-vcst-2630-f4c305ee",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.878.0",
+  "PlatformImageTag": "3.879.0-pr-2887-f4c3-vcst-2630-f4c305ee",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -36,7 +36,10 @@
         },
         {
           "BlobName": "VirtoCommerce.XOrder_3.901.0-pr-18-0de8.zip"
-        }
+        },
+        {
+          "BlobName": "VirtoCommerce.Customer_3.824.0-pr-262-57bc.zip"
+        }  
       ]
     },
     {
@@ -212,10 +215,6 @@
         {
           "Id": "VirtoCommerce.Pricing",
           "Version": "3.813.0"
-        },
-        {
-          "Id": "VirtoCommerce.Customer",
-          "Version": "3.823.0"
         },
         {
           "Id": "VirtoCommerce.Marketing",
