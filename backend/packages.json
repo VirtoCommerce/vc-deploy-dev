@@ -46,10 +46,6 @@
           "BlobName": "VirtoCommerce.GoogleSSO_3.803.0-alpha.16.zip"
         },
         {
-          "Id": "VirtoCommerce.Content",
-          "BlobName": "VirtoCommerce.Content_3.824.0-alpha.987.zip"
-        },
-        {
           "Id": "VirtoCommerce.Shipping",
           "BlobName": "VirtoCommerce.Shipping_3.804.0-alpha.193.zip"
         },
@@ -296,6 +292,10 @@
         {
           "Id": "VirtoCommerce.ElasticSearch8",
           "BlobName": "VirtoCommerce.ElasticSearch8_3.814.0-alpha.113.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Content",
+          "BlobName": "VirtoCommerce.Content_3.825.0-alpha.993.zip"
         }
       ]
     }
