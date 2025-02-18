@@ -36,6 +36,9 @@
         },
         {
           "BlobName": "VirtoCommerce.Payment_3.806.0-pr-62-df9c.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Xapi_3.904.0-pr-27-d04d.zip"
         }
       ]
     },
@@ -276,10 +279,6 @@
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "Version": "3.902.0"
-        },
-        {
-          "Id": "VirtoCommerce.Xapi",
-          "Version": "3.903.0"
         },
         {
           "Id": "VirtoCommerce.CyberSourcePayment",
