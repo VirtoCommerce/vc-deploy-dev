@@ -42,6 +42,9 @@
         },
         {
           "BlobName": "VirtoCommerce.CyberSourcePayment_3.801.0-pr-2-542a.zip"     
+        },
+         {
+          "BlobName": "VirtoCommerce.Assets_3.810.0-pr-27-b72f.zip"
         }
       ]
     },
@@ -126,10 +129,6 @@
         {
           "Id": "VirtoCommerce.EventBus",
           "Version": "3.807.0"
-        },
-        {
-          "Id": "VirtoCommerce.Assets",
-          "Version": "3.809.0"
         },
         {
           "Id": "VirtoCommerce.Contentful",
