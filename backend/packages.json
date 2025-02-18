@@ -14,7 +14,7 @@
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
         {
-          "BlobName": "VirtoCommerce.PageBuilderModule_3.817.0-alpha.625.zip"
+          "BlobName": "VirtoCommerce.PageBuilderModule_3.817.0-pr-75-e47a.zip"
         },
         {
           "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.903.0-pr-96-b5bd.zip"
@@ -77,7 +77,7 @@
         },
         {
           "Id": "VirtoCommerce.Content",
-          "Version": "3.824.0"
+          "Version": "3.825.0"
         },
         {
           "Id": "VirtoCommerce.Shipping",
