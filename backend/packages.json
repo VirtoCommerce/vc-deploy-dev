@@ -14,13 +14,13 @@
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
         {
-          "BlobName": "VirtoCommerce.PageBuilderModule_3.817.0-alpha.625.zip"
+          "BlobName": "VirtoCommerce.PageBuilderModule_3.817.0-pr-75-e47a.zip"
         },
         {
           "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.903.0-pr-96-b5bd.zip"
         },
         {
-          "BlobName": "VirtoCommerce.Catalog_3.843.0-pr-770-448b.zip"
+          "BlobName": "VirtoCommerce.Catalog_3.844.0-pr-775-5b16.zip"
         },
         {
           "BlobName": "VirtoCommerce.XCatalog_3.903.0-pr-31-7a6a.zip"
@@ -41,7 +41,10 @@
           "BlobName": "VirtoCommerce.Customer_3.824.0-pr-262-57bc.zip"
         },
         {
-          "BlobName": "VirtoCommerce.CyberSourcePayment_3.801.0-pr-2-542a.zip"     
+          "BlobName": "VirtoCommerce.CyberSourcePayment_3.801.0-pr-2-3189.zip"     
+        },
+         {
+          "BlobName": "VirtoCommerce.Assets_3.810.0-pr-27-b72f.zip"
         }
       ]
     },
@@ -77,7 +80,7 @@
         },
         {
           "Id": "VirtoCommerce.Content",
-          "Version": "3.824.0"
+          "Version": "3.825.0"
         },
         {
           "Id": "VirtoCommerce.Shipping",
@@ -126,10 +129,6 @@
         {
           "Id": "VirtoCommerce.EventBus",
           "Version": "3.807.0"
-        },
-        {
-          "Id": "VirtoCommerce.Assets",
-          "Version": "3.809.0"
         },
         {
           "Id": "VirtoCommerce.Contentful",
