@@ -26,14 +26,6 @@
           "BlobName": "VirtoCommerce.PowerBiReports_3.800.0-pr-5-3363.zip"
         },
         {
-          "Id": "VirtoCommerce.XCart",
-          "BlobName": "VirtoCommerce.XCart_3.904.0-pr-33-96e6.zip"
-        },
-        {
-          "Id": "VirtoCommerce.Xapi",
-          "BlobName": "VirtoCommerce.Xapi_3.904.0-pr-24-7b52.zip"
-        },
-        {
           "Id": "VirtoCommerce.Content",
           "BlobName": "VirtoCommerce.Content_3.825.0-pr-193-77aa.zip"
         }     
@@ -305,6 +297,14 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "Version": "3.844.0"
+        },
+        {
+          "Id": "VirtoCommerce.Xapi",
+          "Version": "3.903.0"
+        },
+        {
+          "Id": "VirtoCommerce.XCart",
+          "Version": "3.901.0"
         }
       ]
     }
