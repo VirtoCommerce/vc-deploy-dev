@@ -32,6 +32,18 @@
         {
           "Id": "VirtoCommerce.Xapi",
           "BlobName": "VirtoCommerce.Xapi_3.903.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Orders",
+          "BlobName": "VirtoCommerce.Orders_3.840.0-pr-444-368b.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Payment",
+          "BlobName": "VirtoCommerce.Payment_3.806.0-pr-62-df9c.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XOrder",
+          "BlobName": "VirtoCommerce.XOrder_3.901.0-pr-19-5c9b.zip"
         }
       ]
     },
@@ -65,10 +77,6 @@
         {
           "Id": "VirtoCommerce.Shipping",
           "Version": "3.803.0"
-        },
-        {
-          "Id": "VirtoCommerce.Payment",
-          "Version": "3.805.0"
         },
         {
           "Id": "VirtoCommerce.Tax",
@@ -291,16 +299,8 @@
           "Version": "3.824.0"
         },
         {
-          "Id": "VirtoCommerce.Orders",
-          "Version": "3.840.0"
-        },
-        {
           "Id": "VirtoCommerce.XCart",
           "Version": "3.903.0"
-        },
-        {
-          "Id": "VirtoCommerce.XOrder",
-          "Version": "3.901.0"
         },
         {
           "Id": "VirtoCommerce.Catalog",
