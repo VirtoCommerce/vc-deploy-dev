@@ -256,10 +256,6 @@
           "Version": "3.840.0"
         },
         {
-          "Id": "VirtoCommerce.XCart",
-          "Version": "3.903.0"
-        },
-        {
           "Id": "VirtoCommerce.XOrder",
           "Version": "3.901.0"
         },
@@ -282,6 +278,10 @@
         {
           "Id": "VirtoCommerce.AuthorizeNetPayment",
           "Version": "3.804.0"
+        },
+        {
+          "Id": "VirtoCommerce.XCart",
+          "Version": "3.904.0"
         }
       ]
     },
