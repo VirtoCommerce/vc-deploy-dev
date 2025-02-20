@@ -104,10 +104,6 @@
           "Version": "3.804.0"
         },
         {
-          "Id": "VirtoCommerce.AuthorizeNetPayment",
-          "Version": "3.803.0"
-        },
-        {
           "Id": "VirtoCommerce.AzureSearch",
           "Version": "3.806.0"
         },
@@ -282,6 +278,10 @@
         {
           "Id": "VirtoCommerce.CyberSourcePayment",
           "Version": "3.801.0"
+        },
+        {
+          "Id": "VirtoCommerce.AuthorizeNetPayment",
+          "Version": "3.804.0"
         }
       ]
     },
