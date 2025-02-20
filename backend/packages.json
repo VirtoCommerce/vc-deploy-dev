@@ -204,10 +204,6 @@
           "Version": "3.901.0"
         },
         {
-          "Id": "VirtoCommerce.FileExperienceApi",
-          "Version": "3.901.0"
-        },
-        {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
           "Version": "3.806.0"
         },
@@ -282,6 +278,10 @@
         {
           "Id": "VirtoCommerce.Customer",
           "Version": "3.824.0"
+        },
+        {
+          "Id": "VirtoCommerce.FileExperienceApi",
+          "Version": "3.902.0"
         }
       ]
     },
