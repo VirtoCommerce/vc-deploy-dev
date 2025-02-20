@@ -290,12 +290,12 @@
           "BlobName": "VirtoCommerce.XCart_3.905.0-alpha.75.zip"
         },
         {
-          "Id": "VirtoCommerce.Customer",
-          "BlobName": "VirtoCommerce.Customer_3.824.0-alpha.872.zip"
-        },
-        {
           "Id": "VirtoCommerce.FileExperienceApi",
           "BlobName": "VirtoCommerce.FileExperienceApi_3.903.0-alpha.41.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Customer",
+          "BlobName": "VirtoCommerce.Customer_3.825.0-alpha.873.zip"
         }
       ]
     }
