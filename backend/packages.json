@@ -254,10 +254,6 @@
           "BlobName": "VirtoCommerce.ElasticSearch8_3.815.0-alpha.114.zip"
         },
         {
-          "Id": "VirtoCommerce.AuthorizeNetPayment",
-          "BlobName": "VirtoCommerce.AuthorizeNetPayment_3.804.0-alpha.81.zip"
-        },
-        {
           "Id": "VirtoCommerce.XCatalog",
           "BlobName": "VirtoCommerce.XCatalog_3.905.0-alpha.70.zip"
         },
@@ -296,6 +292,10 @@
         {
           "Id": "VirtoCommerce.FileExperienceApi",
           "BlobName": "VirtoCommerce.FileExperienceApi_3.902.0-alpha.40.zip"
+        },
+        {
+          "Id": "VirtoCommerce.AuthorizeNetPayment",
+          "BlobName": "VirtoCommerce.AuthorizeNetPayment_3.805.0-alpha.82.zip"
         }
       ]
     }
