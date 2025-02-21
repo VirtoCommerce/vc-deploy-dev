@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.878.0",
+  "PlatformVersion": "3.879.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.878.0",
+  "PlatformImageTag": "3.879.0",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -26,24 +26,8 @@
           "BlobName": "VirtoCommerce.PowerBiReports_3.800.0-pr-5-3363.zip"
         },
         {
-          "Id": "VirtoCommerce.Content",
-          "BlobName": "VirtoCommerce.Content_3.825.0-pr-193-77aa.zip"
-        },
-        {
-          "Id": "VirtoCommerce.Xapi",
-          "BlobName": "VirtoCommerce.Xapi_3.903.0.zip"
-        },
-        {
-          "Id": "VirtoCommerce.Orders",
-          "BlobName": "VirtoCommerce.Orders_3.840.0-pr-444-368b.zip"
-        },
-        {
           "Id": "VirtoCommerce.Payment",
           "BlobName": "VirtoCommerce.Payment_3.806.0-pr-62-df9c.zip"
-        },
-        {
-          "Id": "VirtoCommerce.XOrder",
-          "BlobName": "VirtoCommerce.XOrder_3.901.0-pr-19-5c9b.zip"
         }
       ]
     },
@@ -204,7 +188,7 @@
         },
         {
           "Id": "VirtoCommerce.Customer",
-          "Version": "3.823.0"
+          "Version": "3.824.0"
         },
         {
           "Id": "VirtoCommerce.Marketing",
@@ -288,12 +272,36 @@
         },
         {
           "Id": "VirtoCommerce.XCart",
+          "Version": "3.904.0"
+        },
+        {
+          "Id": "VirtoCommerce.Xapi",
           "Version": "3.903.0"
+        },
+        {
+          "Id": "VirtoCommerce.XOrder",
+          "Version": "3.901.0"
         },
         {
           "Id": "VirtoCommerce.Catalog",
           "Version": "3.844.0"
-        } 
+        },
+        {
+          "Id": "VirtoCommerce.AuthorizeNetPayment",
+          "Version": "3.804.0"
+        },
+        {
+          "Id": "VirtoCommerce.CyberSourcePayment",
+          "Version": "3.801.0"
+        },
+        {
+          "Id": "VirtoCommerce.Content",
+          "Version": "3.826.0"
+        },
+        {
+          "Id": "VirtoCommerce.Orders",
+          "Version": "3.840.0"
+        }
       ]
     }
   ]
