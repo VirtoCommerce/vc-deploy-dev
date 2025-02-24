@@ -36,10 +36,6 @@
           "Version": "3.803.0"
         },
         {
-          "Id": "VirtoCommerce.Payment",
-          "Version": "3.805.0"
-        },
-        {
           "Id": "VirtoCommerce.Tax",
           "Version": "3.803.0"
         },
@@ -282,6 +278,10 @@
         {
           "Id": "VirtoCommerce.FileExperienceApi",
           "Version": "3.902.0"
+        },
+        {
+          "Id": "VirtoCommerce.Payment",
+          "Version": "3.806.0"
         }
       ]
     },
