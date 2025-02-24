@@ -24,10 +24,6 @@
         {
           "Id": "VirtoCommerce.PowerBiReports",
           "BlobName": "VirtoCommerce.PowerBiReports_3.800.0-pr-5-3363.zip"
-        },
-        {
-          "Id": "VirtoCommerce.Payment",
-          "BlobName": "VirtoCommerce.Payment_3.806.0-pr-62-df9c.zip"
         }
       ]
     },
@@ -280,7 +276,7 @@
         },
         {
           "Id": "VirtoCommerce.XOrder",
-          "Version": "3.901.0"
+          "Version": "3.902.0"
         },
         {
           "Id": "VirtoCommerce.Catalog",
@@ -295,12 +291,16 @@
           "Version": "3.801.0"
         },
         {
+          "Id": "VirtoCommerce.Payment",
+          "Version": "3.806.0"
+        }
+        {
           "Id": "VirtoCommerce.Content",
           "Version": "3.826.0"
         },
         {
           "Id": "VirtoCommerce.Orders",
-          "Version": "3.840.0"
+          "Version": "3.841.0"
         }
       ]
     }
