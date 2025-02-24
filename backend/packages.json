@@ -1,6 +1,6 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.878.0",
+  "PlatformVersion": "3.879.0",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -15,7 +15,7 @@
           "BlobName": "VirtoCommerce.AIDocumentProcessing_3.900.0.zip"
         },
         {
-          "BlobName": "VirtoCommerce.PageBuilderModule_3.817.0-alpha.625.zip"
+          "BlobName": "VirtoCommerce.PageBuilderModule_3.818.0-alpha.628.zip"
         },
         {
           "BlobName": "VirtoCommerce.PowerBiReports_3.801.0-alpha.43.zip"
@@ -34,11 +34,11 @@
         },
         {
           "Id": "VirtoCommerce.Assets",
-          "Version": "3.809.0"
+          "Version": "3.810.0"
         },
         {
           "Id": "VirtoCommerce.AuthorizeNetPayment",
-          "Version": "3.803.0"
+          "Version": "3.804.0"
         },
         {
           "Id": "VirtoCommerce.AvalaraTax",
@@ -70,11 +70,11 @@
         },
         {
           "Id": "VirtoCommerce.Cart",
-          "Version": "3.823.0"
+          "Version": "3.824.0"
         },
         {
           "Id": "VirtoCommerce.Catalog",
-          "Version": "3.841.0"
+          "Version": "3.844.0"
         },
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
@@ -82,7 +82,7 @@
         },
         {
           "Id": "VirtoCommerce.CatalogPersonalization",
-          "Version": "3.803.0"
+          "Version": "3.804.0"
         },
         {
           "Id": "VirtoCommerce.CatalogPublishing",
@@ -90,7 +90,7 @@
         },
         {
           "Id": "VirtoCommerce.Content",
-          "Version": "3.824.0"
+          "Version": "3.826.0"
         },
         {
           "Id": "VirtoCommerce.Contracts",
@@ -102,7 +102,7 @@
         },
         {
           "Id": "VirtoCommerce.Customer",
-          "Version": "3.823.0"
+          "Version": "3.824.0"
         },
         {
           "Id": "VirtoCommerce.CustomerExportImport",
@@ -126,7 +126,7 @@
         },
         {
           "Id": "VirtoCommerce.ElasticSearch8",
-          "Version": "3.813.0"
+          "Version": "3.814.0"
         },
         {
           "Id": "VirtoCommerce.EventBus",
@@ -138,7 +138,7 @@
         },
         {
           "Id": "VirtoCommerce.FileExperienceApi",
-          "Version": "3.901.0"
+          "Version": "3.902.0"
         },
         {
           "Id": "VirtoCommerce.FileSystemAssets",
@@ -190,7 +190,7 @@
         },
         {
           "Id": "VirtoCommerce.Orders",
-          "Version": "3.839.0"
+          "Version": "3.840.0"
         },
         {
           "Id": "VirtoCommerce.Pages",
@@ -210,7 +210,7 @@
         },
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.902.0"
+          "Version": "3.903.0"
         },
         {
           "Id": "VirtoCommerce.PushMessages",
@@ -226,7 +226,7 @@
         },
         {
           "Id": "VirtoCommerce.Search",
-          "Version": "3.806.0"
+          "Version": "3.807.0"
         },
         {
           "Id": "VirtoCommerce.Shipping",
@@ -274,7 +274,7 @@
         },
         {
           "Id": "VirtoCommerce.XCart",
-          "Version": "3.901.0"
+          "Version": "3.904.0"
         },
         {
           "Id": "VirtoCommerce.XCatalog",
@@ -286,7 +286,7 @@
         },
         {
           "Id": "VirtoCommerce.XOrder",
-          "Version": "3.900.0"
+          "Version": "3.901.0"
         },
         {
           "Id": "VirtoCommerce.XRecommend",
