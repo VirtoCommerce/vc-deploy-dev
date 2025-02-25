@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.879.0",
+  "PlatformVersion": "3.880.0-pr-2893-5003-vcst-2785-500391be",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.879.0",
+  "PlatformImageTag": "3.880.0-pr-2893-5003-vcst-2785-500391be",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -32,6 +32,10 @@
         {
           "Id": "VirtoCommerce.Search",
           "BlobName": "VirtoCommerce.Search_3.808.0-pr-112-2515.zip"
+        }
+        {
+          "Id": "VirtoCommerce.SeqLog",
+          "BlobName:" "VirtoCommerce.SeqLog_3.800.0.zip"
         }
       ]
     },
