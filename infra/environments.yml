@@ -154,7 +154,7 @@
       GoogleSSO__Secret: googlesso-secret     
   storefront:
     headers:
-      Cross-Origin-Embedder-Policy: require-corp
+      Cross-Origin-Embedder-Policy: unsafe-none
     enabled: false
     imageRepository: virtopaasregistrymain.azurecr.io/vcst/storefront
     servicePlan: B1
