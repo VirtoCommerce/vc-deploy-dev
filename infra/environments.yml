@@ -153,6 +153,8 @@
       GoogleSSO__ApplicationId: googlesso-aplicationid
       GoogleSSO__Secret: googlesso-secret     
   storefront:
+    headers:
+      Cross-Origin-Embedder-Policy: require-corp
     enabled: false
     imageRepository: virtopaasregistrymain.azurecr.io/vcst/storefront
     servicePlan: B1
