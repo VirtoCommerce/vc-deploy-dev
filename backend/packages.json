@@ -178,10 +178,6 @@
           "BlobName": "VirtoCommerce.XCMS_3.901.0-alpha.20.zip"
         },
         {
-          "Id": "VirtoCommerce.MarketingExperienceApi",
-          "BlobName": "VirtoCommerce.MarketingExperienceApi_3.900.0-alpha.57.zip"
-        },
-        {
           "Id": "VirtoCommerce.TaskManagement",
           "BlobName": "VirtoCommerce.TaskManagement_3.901.0-alpha.108.zip"
         },
@@ -296,6 +292,10 @@
         {
           "Id": "VirtoCommerce.XCart",
           "BlobName": "VirtoCommerce.XCart_3.905.0-alpha.76.zip"
+        },
+        {
+          "Id": "VirtoCommerce.MarketingExperienceApi",
+          "BlobName": "VirtoCommerce.MarketingExperienceApi_3.901.0-alpha.62.zip"
         }
       ]
     }
