@@ -246,10 +246,6 @@
           "BlobName": "VirtoCommerce.BackInStock_3.801.0-alpha.20.zip"
         },
         {
-          "Id": "VirtoCommerce.PushMessages",
-          "BlobName": "VirtoCommerce.PushMessages_3.901.0-alpha.59.zip"
-        },
-        {
           "Id": "VirtoCommerce.Contracts",
           "BlobName": "VirtoCommerce.Contracts_3.901.0-alpha.118.zip"
         },
@@ -296,6 +292,10 @@
         {
           "Id": "VirtoCommerce.TaskManagement",
           "BlobName": "VirtoCommerce.TaskManagement_3.902.0-alpha.113.zip"
+        },
+        {
+          "Id": "VirtoCommerce.PushMessages",
+          "BlobName": "VirtoCommerce.PushMessages_3.902.0-alpha.60.zip"
         }
       ]
     }
