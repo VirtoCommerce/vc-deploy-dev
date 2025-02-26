@@ -238,10 +238,6 @@
           "BlobName": "VirtoCommerce.XCatalog_3.906.0-alpha.74.zip"
         },
         {
-          "Id": "VirtoCommerce.BackInStock",
-          "BlobName": "VirtoCommerce.BackInStock_3.801.0-alpha.20.zip"
-        },
-        {
           "Id": "VirtoCommerce.XCart",
           "BlobName": "VirtoCommerce.XCart_3.906.0-alpha.77.zip"
         },
@@ -296,6 +292,10 @@
         {
           "Id": "VirtoCommerce.Contracts",
           "BlobName": "VirtoCommerce.Contracts_3.902.0-alpha.119.zip"
+        },
+        {
+          "Id": "VirtoCommerce.BackInStock",
+          "BlobName": "VirtoCommerce.BackInStock_3.802.0-alpha.21.zip"
         }
       ]
     }
