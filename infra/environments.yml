@@ -284,6 +284,8 @@
       PushMessages__FcmSenderOptions__PrivateKey: firebase-privatekey
       #Search__ElasticSearch8__Key: elasticsearch8
   storefront:
+    headers:
+      cross-origin-resource-policy: cross-origin
     enabled: false
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/storefront
     imageTag: 6.43.0-alpha.1043-vcst-905-login-is-admin-0550785e
