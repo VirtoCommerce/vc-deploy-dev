@@ -178,10 +178,6 @@
           "BlobName": "VirtoCommerce.XCMS_3.901.0-alpha.20.zip"
         },
         {
-          "Id": "VirtoCommerce.XRecommend",
-          "BlobName": "VirtoCommerce.XRecommend_3.901.0-alpha.21.zip"
-        },
-        {
           "Id": "VirtoCommerce.WhiteLabeling",
           "BlobName": "VirtoCommerce.WhiteLabeling_3.901.0-alpha.27.zip"
         },
@@ -296,6 +292,10 @@
         {
           "Id": "VirtoCommerce.FileExperienceApi",
           "BlobName": "VirtoCommerce.FileExperienceApi_3.903.0-alpha.42.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XRecommend",
+          "BlobName": "VirtoCommerce.XRecommend_3.901.0-alpha.23.zip"
         }
       ]
     }
