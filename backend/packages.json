@@ -160,10 +160,6 @@
           "Version": "3.816.0"
         },
         {
-          "Id": "VirtoCommerce.MarketingExperienceApi",
-          "Version": "3.900.0"
-        },
-        {
           "Id": "VirtoCommerce.TaskManagement",
           "Version": "3.900.0"
         },
@@ -282,6 +278,10 @@
         {
           "Id": "VirtoCommerce.Quote",
           "Version": "3.902.0"
+        },
+        {
+          "Id": "VirtoCommerce.MarketingExperienceApi",
+          "Version": "3.901.0"
         }
       ]
     },
