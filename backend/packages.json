@@ -200,10 +200,6 @@
           "Version": "3.817.0"
         },
         {
-          "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.903.0"
-        },
-        {
           "Id": "VirtoCommerce.CatalogPublishing",
           "Version": "3.804.0"
         },
@@ -282,6 +278,10 @@
         {
           "Id": "VirtoCommerce.WhiteLabeling",
           "Version": "3.901.0"
+        },
+        {
+          "Id": "VirtoCommerce.ProfileExperienceApiModule",
+          "Version": "3.904.0"
         }
       ]
     },
