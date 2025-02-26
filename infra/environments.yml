@@ -155,6 +155,7 @@
   storefront:
     headers:
       Cross-Origin-Embedder-Policy: unsafe-none
+      cross-origin-resource-policy: cross-origin
     enabled: false
     imageRepository: virtopaasregistrymain.azurecr.io/vcst/storefront
     servicePlan: B1
