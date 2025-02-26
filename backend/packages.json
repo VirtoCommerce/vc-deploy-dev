@@ -242,10 +242,6 @@
           "BlobName": "VirtoCommerce.Payment_3.807.0-alpha.239.zip"
         },
         {
-          "Id": "VirtoCommerce.XOrder",
-          "BlobName": "VirtoCommerce.XOrder_3.903.0-alpha.49.zip"
-        },
-        {
           "Id": "VirtoCommerce.Orders",
           "BlobName": "VirtoCommerce.Orders_3.842.0-alpha.1314.zip"
         },
@@ -296,6 +292,10 @@
         {
           "Id": "VirtoCommerce.XCMS",
           "BlobName": "VirtoCommerce.XCMS_3.901.0-alpha.24.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XOrder",
+          "BlobName": "VirtoCommerce.XOrder_3.903.0-alpha.50.zip"
         }
       ]
     }
