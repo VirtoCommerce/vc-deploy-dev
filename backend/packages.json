@@ -180,10 +180,6 @@
           "Version": "3.900.0"
         },
         {
-          "Id": "VirtoCommerce.XRecommend",
-          "Version": "3.900.0"
-        },
-        {
           "Id": "VirtoCommerce.WhiteLabeling",
           "Version": "3.900.0"
         },
@@ -282,6 +278,10 @@
         {
           "Id": "VirtoCommerce.XOrder",
           "Version": "3.903.0"
+        },
+        {
+          "Id": "VirtoCommerce.XRecommend",
+          "Version": "3.901.0"
         }
       ]
     },
