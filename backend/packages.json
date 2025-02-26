@@ -174,10 +174,6 @@
           "BlobName": "VirtoCommerce.Marketing_3.817.0-alpha.872.zip"
         },
         {
-          "Id": "VirtoCommerce.XCMS",
-          "BlobName": "VirtoCommerce.XCMS_3.901.0-alpha.20.zip"
-        },
-        {
           "Id": "VirtoCommerce.WhiteLabeling",
           "BlobName": "VirtoCommerce.WhiteLabeling_3.901.0-alpha.27.zip"
         },
@@ -296,6 +292,10 @@
         {
           "Id": "VirtoCommerce.XRecommend",
           "BlobName": "VirtoCommerce.XRecommend_3.901.0-alpha.23.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XCMS",
+          "BlobName": "VirtoCommerce.XCMS_3.901.0-alpha.24.zip"
         }
       ]
     }
