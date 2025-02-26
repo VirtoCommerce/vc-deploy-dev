@@ -286,16 +286,16 @@
           "BlobName": "VirtoCommerce.XRecommend_3.901.0-alpha.23.zip"
         },
         {
-          "Id": "VirtoCommerce.XCMS",
-          "BlobName": "VirtoCommerce.XCMS_3.901.0-alpha.24.zip"
-        },
-        {
           "Id": "VirtoCommerce.XOrder",
           "BlobName": "VirtoCommerce.XOrder_3.903.0-alpha.50.zip"
         },
         {
           "Id": "VirtoCommerce.FileExperienceApi",
           "BlobName": "VirtoCommerce.FileExperienceApi_3.904.0-alpha.43.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XCMS",
+          "BlobName": "VirtoCommerce.XCMS_3.902.0-alpha.25.zip"
         }
       ]
     }
