@@ -7,7 +7,7 @@
     sqlReplica: false
     config:
       # Increment to force environment reload
-      reload: 7
+      reload: 8
       # Application Insights settings
       APPINSIGHTS_INSTRUMENTATIONKEY: ef0125aa-1c8e-42d3-964f-d0a11256309d      
       # Forward headers to Nginx
@@ -153,6 +153,9 @@
       GoogleSSO__ApplicationId: googlesso-aplicationid
       GoogleSSO__Secret: googlesso-secret     
   storefront:
+    headers:
+      Cross-Origin-Embedder-Policy: unsafe-none
+      cross-origin-resource-policy: cross-origin
     enabled: false
     imageRepository: virtopaasregistrymain.azurecr.io/vcst/storefront
     servicePlan: B1
