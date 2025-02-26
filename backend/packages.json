@@ -238,10 +238,6 @@
           "BlobName": "VirtoCommerce.XCatalog_3.906.0-alpha.74.zip"
         },
         {
-          "Id": "VirtoCommerce.TaskManagement",
-          "BlobName": "VirtoCommerce.TaskManagement_3.901.0-alpha.112.zip"
-        },
-        {
           "Id": "VirtoCommerce.Skyflow",
           "BlobName": "VirtoCommerce.Skyflow_3.901.0-alpha.43.zip"
         },
@@ -296,6 +292,10 @@
         {
           "Id": "VirtoCommerce.MarketingExperienceApi",
           "BlobName": "VirtoCommerce.MarketingExperienceApi_3.902.0-alpha.63.zip"
+        },
+        {
+          "Id": "VirtoCommerce.TaskManagement",
+          "BlobName": "VirtoCommerce.TaskManagement_3.902.0-alpha.113.zip"
         }
       ]
     }
