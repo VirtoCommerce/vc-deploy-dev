@@ -3,6 +3,8 @@
   production: false
   servicePlan: B1
   platform:
+    headers:
+      Cross-Origin-Resource-Policy: cross-origin
     imageRepository: virtopaasregistrymain.azurecr.io/vcst/platform
     sqlReplica: false
     config:
@@ -122,6 +124,8 @@
       Payments__CyberSource__MerchantSecretKey: cybersource-merchantsecretkey
       PushMessages__FcmSenderOptions__PrivateKey: fcm-private-key
   storefront:
+    headers:
+      Cross-Origin-Resource-Policy: cross-origin
     enabled: false
     imageRepository: virtopaasregistrymain.azurecr.io/vcst/storefront
     servicePlan: B1
