@@ -3,6 +3,8 @@
   production: false
   servicePlan: B1
   platform:
+    headers:
+      Cross-Origin-Resource-Policy: cross-origin
     imageRepository: virtopaasregistrymain.azurecr.io/vcst/platform
     sqlReplica: false
     config:
