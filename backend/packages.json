@@ -48,6 +48,10 @@
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.905.0-pr-98-6d61.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Xapi",
+          "BlobName": "VirtoCommerce.Xapi_3.904.0-pr-27-6e50.zip"
         }
       ]
     },
@@ -281,10 +285,6 @@
         {
           "Id": "VirtoCommerce.XCart",
           "Version": "3.905.0"
-        },
-        {
-          "Id": "VirtoCommerce.Xapi",
-          "Version": "3.904.0"
         },
         {
           "Id": "VirtoCommerce.XOrder",
