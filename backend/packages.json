@@ -27,7 +27,7 @@
         },
         {
           "Id": "VirtoCommerce.Catalog",
-          "BlobName": "VirtoCommerce.Catalog_3.845.0-pr-776-4832.zip"
+          "BlobName": "VirtoCommerce.Catalog_3.845.0.zip"
         },
         {
           "Id": "VirtoCommerce.Search",
@@ -39,19 +39,19 @@
         },
         {
           "Id": "VirtoCommerce.Core",
-          "BlobName": "VirtoCommerce.Core_3.818.0-pr-237-df77.zip"
+          "BlobName": "VirtoCommerce.Core_3.818.0.zip"
         },
         {
           "Id": "VirtoCommerce.Marketing",
-          "BlobName": "VirtoCommerce.Marketing_3.817.0-pr-244-840d.zip"
+          "BlobName": "VirtoCommerce.Marketing_3.818.0.zip"
         },
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.905.0-pr-98-6d61.zip"
+          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.905.0.zip"
         },
         {
           "Id": "VirtoCommerce.Xapi",
-          "BlobName": "VirtoCommerce.Xapi_3.905.0-pr-27-830a.zip"
+          "BlobName": "VirtoCommerce.Xapi_3.905.0.zip"
         }
       ]
     },
@@ -244,7 +244,7 @@
         },
         {
           "Id": "VirtoCommerce.WhiteLabeling",
-          "Version": "3.901.0"
+          "Version": "3.902.0"
         },
         {
           "Id": "VirtoCommerce.Quote",
