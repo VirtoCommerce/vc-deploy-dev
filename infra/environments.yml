@@ -3,6 +3,8 @@
   production: false
   servicePlan: B1
   platform:
+    headers:
+      Cross-Origin-Resource-Policy: cross-origin
     imageRepository: virtopaasregistrymain.azurecr.io/vcst/platform
     sqlReplica: false
     config:
@@ -69,7 +71,7 @@
       # Return detailed error information if login failed
       PasswordLogin__DetailedErrors: true
       IdentityOptions__Lockout__MaxFailedAccessAttempts: 5
-      IdentityOptions__User__MaxPasswordAge: 90
+      IdentityOptions__User__MaxPasswordAge: 100
       IdentityOptions__User__RemindPasswordExpiryInDay: 7      
       # Authorize.Net settings
       Payments__AuthorizeNet__ApiLogin: 52B9X7vb4
