@@ -228,10 +228,6 @@
           "Version": "3.901.0"
         },
         {
-          "Id": "VirtoCommerce.WhiteLabeling",
-          "Version": "3.901.0"
-        },
-        {
           "Id": "VirtoCommerce.Quote",
           "Version": "3.902.0"
         },
@@ -282,6 +278,10 @@
         {
           "Id": "VirtoCommerce.Xapi",
           "Version": "3.905.0"
+        },
+        {
+          "Id": "VirtoCommerce.WhiteLabeling",
+          "Version": "3.902.0"
         }
       ]
     },
