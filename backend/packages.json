@@ -27,11 +27,11 @@
         },
         {
           "Id": "VirtoCommerce.Catalog",
-          "BlobName": "VirtoCommerce.Catalog_3.845.0.zip"
+          "BlobName": "VirtoCommerce.Catalog_3.846.0.zip"
         },
         {
           "Id": "VirtoCommerce.Search",
-          "BlobName": "VirtoCommerce.Search_3.808.0-pr-112-476b.zip"
+          "BlobName": "VirtoCommerce.Search_3.808.0.zip"
         },
         {
           "Id": "VirtoCommerce.SeqLog",
@@ -60,6 +60,10 @@
         {
           "Id": "VirtoCommerce.GoogleSSO",
           "BlobName": "VirtoCommerce.GoogleSSO_3.803.0-pr-4-a632.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Notifications",
+          "BlobName": "VirtoCommerce.Notifications_3.817.0-pr-175-f5cd.zip"
         }
       ]
     },
@@ -193,10 +197,6 @@
         {
           "Id": "VirtoCommerce.Sitemaps",
           "Version": "3.811.0"
-        },
-        {
-          "Id": "VirtoCommerce.Notifications",
-          "Version": "3.816.0"
         },
         {
           "Id": "VirtoCommerce.Store",
