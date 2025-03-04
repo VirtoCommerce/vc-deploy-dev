@@ -282,10 +282,6 @@
           "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.906.0-alpha.261.zip"
         },
         {
-          "Id": "VirtoCommerce.Catalog",
-          "BlobName": "VirtoCommerce.Catalog_3.846.0-alpha.2297.zip"
-        },
-        {
           "Id": "VirtoCommerce.Xapi",
           "BlobName": "VirtoCommerce.Xapi_3.906.0-alpha.72.zip"
         },
@@ -296,6 +292,10 @@
         {
           "Id": "VirtoCommerce.Search",
           "BlobName": "VirtoCommerce.Search_3.809.0-alpha.765.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "BlobName": "VirtoCommerce.Catalog_3.846.0-alpha.2298.zip"
         }
       ]
     }
