@@ -50,6 +50,19 @@
       FileUpload__Scopes__2__AllowedExtensions__1: .png
       FileUpload__Scopes__2__AllowedExtensions__2: .webp
       FileUpload__Scopes__2__AllowAnonymousUpload: false
+      FileUpload__Scopes__3__Scope: configuration-files
+      FileUpload__Scopes__3__MaxFileSize: 10000000
+      FileUpload__Scopes__3__AllowedExtensions__0: .doc
+      FileUpload__Scopes__3__AllowedExtensions__1: .rtf
+      FileUpload__Scopes__3__AllowedExtensions__2: .docx
+      FileUpload__Scopes__3__AllowedExtensions__3: .txt
+      FileUpload__Scopes__3__AllowedExtensions__4: .pdf
+      FileUpload__Scopes__3__AllowedExtensions__5: .xls
+      FileUpload__Scopes__3__AllowedExtensions__6: .xlsx
+      FileUpload__Scopes__3__AllowedExtensions__7: .jpg
+      FileUpload__Scopes__3__AllowedExtensions__8: .png
+      FileUpload__Scopes__3__AllowedExtensions__9: .odt
+      FileUpload__Scopes__3__AllowAnonymousUpload: false
       # Send notifications via email
       Notifications__DefaultSender: virto.start@virtoway.com
       Notifications__Gateway: SendGrid
