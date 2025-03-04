@@ -138,18 +138,7 @@
     headers:
         Cross-Origin-Embedder-Policy: unsafe-none
         Cross-Origin-Resource-Policy: cross-origin
-        Content-Security-Policy: >
-            default-src 'self';
-            script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://js.skyflow.com https://jstest.authorize.net https://testflex.cybersource.com;
-            style-src 'self' 'unsafe-inline';
-            img-src 'self' data: https://ae01.alicdn.com;
-            font-src 'self';
-            connect-src 'self';
-            frame-ancestors 'self' https://builder.io;
-            object-src 'none';
-            base-uri 'self';
-            form-action 'self';
-            upgrade-insecure-requests;
+        Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://js.skyflow.com https://jstest.authorize.net https://testflex.cybersource.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://ae01.alicdn.com; font-src 'self'; connect-src 'self'; frame-ancestors 'self' https://builder.io; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests;
         Referrer-Policy: strict-origin-when-cross-origin
         Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
         X-Content-Type-Options: nosniff
