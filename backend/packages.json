@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.880.0",
+  "PlatformVersion": "3.879.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.880.0",
+  "PlatformImageTag": "3.879.0",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -14,28 +14,7 @@
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
         {
-          "BlobName": "VirtoCommerce.Cart_3.825.0-pr-165-f0c7.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.Catalog_3.845.0-pr-777-72ee.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.Orders_3.842.0-pr-449-5b18.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.PageBuilderModule_3.817.0-alpha.625.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.Payment_3.806.0-pr-62-df9c.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.Xapi_3.904.0-pr-27-6e50.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.XCart_3.906.0-pr-35-28ac.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.XCatalog_3.906.0-pr-34-43fb.zip"
+          "BlobName": "VirtoCommerce.PageBuilderModule_3.817.0-pr-75-e47a.zip"
         }
       ]
     },
@@ -55,7 +34,7 @@
         },
         {
           "Id": "VirtoCommerce.AuthorizeNetPayment",
-          "Version": "3.803.0"
+          "Version": "3.804.0"
         },
         {
           "Id": "VirtoCommerce.AvalaraTax",
@@ -75,7 +54,7 @@
         },
         {
           "Id": "VirtoCommerce.BackInStock",
-          "Version": "3.800.0"
+          "Version": "3.801.0"
         },
         {
           "Id": "VirtoCommerce.BuilderIO",
@@ -84,6 +63,14 @@
         {
           "Id": "VirtoCommerce.BulkActionsModule",
           "Version": "3.803.0"
+        },
+        {
+          "Id": "VirtoCommerce.Cart",
+          "Version": "3.824.0"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "Version": "3.845.0"
         },
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
@@ -95,11 +82,11 @@
         },
         {
           "Id": "VirtoCommerce.CatalogPublishing",
-          "Version": "3.802.0"
+          "Version": "3.804.0"
         },
         {
           "Id": "VirtoCommerce.Content",
-          "Version": "3.824.0"
+          "Version": "3.826.0"
         },
         {
           "Id": "VirtoCommerce.Contentful",
@@ -107,15 +94,15 @@
         },
         {
           "Id": "VirtoCommerce.Contracts",
-          "Version": "3.900.0"
+          "Version": "3.901.0"
         },
         {
           "Id": "VirtoCommerce.Core",
-          "Version": "3.818.0"
+          "Version": "3.817.0"
         },
         {
           "Id": "VirtoCommerce.Customer",
-          "Version": "3.823.0"
+          "Version": "3.824.0"
         },
         {
           "Id": "VirtoCommerce.CustomerExportImport",
@@ -123,7 +110,11 @@
         },
         {
           "Id": "VirtoCommerce.CustomerReviews",
-          "Version": "3.901.0"
+          "Version": "3.902.0"
+        },
+        {
+          "Id": "VirtoCommerce.CyberSourcePayment",
+          "Version": "3.801.0"
         },
         {
           "Id": "VirtoCommerce.DynamicAssociationsModule",
@@ -139,7 +130,7 @@
         },
         {
           "Id": "VirtoCommerce.ElasticSearch8",
-          "Version": "3.813.0"
+          "Version": "3.814.0"
         },
         {
           "Id": "VirtoCommerce.EventBus",
@@ -187,7 +178,7 @@
         },
         {
           "Id": "VirtoCommerce.MarketingExperienceApi",
-          "Version": "3.900.0"
+          "Version": "3.901.0"
         },
         {
           "Id": "VirtoCommerce.NativePaymentMethods",
@@ -202,8 +193,16 @@
           "Version": "3.800.0"
         },
         {
+          "Id": "VirtoCommerce.Orders",
+          "Version": "3.841.0"
+        },
+        {
           "Id": "VirtoCommerce.Pages",
           "Version": "3.804.0"
+        },
+        {
+          "Id": "VirtoCommerce.Payment",
+          "Version": "3.806.0"
         },
         {
           "Id": "VirtoCommerce.PriceExportImport",
@@ -215,15 +214,15 @@
         },
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.902.0"
+          "Version": "3.904.0"
         },
         {
           "Id": "VirtoCommerce.PushMessages",
-          "Version": "3.900.0"
+          "Version": "3.901.0"
         },
         {
           "Id": "VirtoCommerce.Quote",
-          "Version": "3.901.0"
+          "Version": "3.902.0"
         },
         {
           "Id": "VirtoCommerce.Return",
@@ -231,7 +230,7 @@
         },
         {
           "Id": "VirtoCommerce.Search",
-          "Version": "3.806.0"
+          "Version": "3.807.0"
         },
         {
           "Id": "VirtoCommerce.Shipping",
@@ -247,7 +246,7 @@
         },
         {
           "Id": "VirtoCommerce.Skyflow",
-          "Version": "3.900.0"
+          "Version": "3.901.0"
         },
         {
           "Id": "VirtoCommerce.Store",
@@ -259,7 +258,7 @@
         },
         {
           "Id": "VirtoCommerce.TaskManagement",
-          "Version": "3.900.0"
+          "Version": "3.901.0"
         },
         {
           "Id": "VirtoCommerce.Tax",
@@ -271,19 +270,31 @@
         },
         {
           "Id": "VirtoCommerce.WhiteLabeling",
-          "Version": "3.900.0"
+          "Version": "3.902.0"
+        },
+        {
+          "Id": "VirtoCommerce.Xapi",
+          "Version": "3.904.0"
+        },
+        {
+          "Id": "VirtoCommerce.XCart",
+          "Version": "3.905.0"
+        },
+        {
+          "Id": "VirtoCommerce.XCatalog",
+          "Version": "3.905.0"
         },
         {
           "Id": "VirtoCommerce.XCMS",
-          "Version": "3.900.0"
-        },
-        {
-          "Id": "VirtoCommerce.XOrder",
           "Version": "3.901.0"
         },
         {
+          "Id": "VirtoCommerce.XOrder",
+          "Version": "3.903.0"
+        },
+        {
           "Id": "VirtoCommerce.XRecommend",
-          "Version": "3.900.0"
+          "Version": "3.901.0"
         }
       ]
     }
