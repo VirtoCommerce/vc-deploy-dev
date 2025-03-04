@@ -60,10 +60,6 @@
           "Version": "3.806.0"
         },
         {
-          "Id": "VirtoCommerce.OpenIdConnectModule",
-          "Version": "3.800.0"
-        },
-        {
           "Id": "VirtoCommerce.Pages",
           "Version": "3.804.0"
         },
@@ -282,6 +278,10 @@
         {
           "Id": "VirtoCommerce.GoogleSSO",
           "Version": "3.803.0"
+        },
+        {
+          "Id": "VirtoCommerce.OpenIdConnectModule",
+          "Version": "3.801.0"
         }
       ]
     },
