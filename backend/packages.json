@@ -12,7 +12,7 @@
       "Name": "AzureBlob",
       "Container": "packages",
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
-      "Modules": [     
+      "Modules": [
         {
           "Id": "VirtoCommerce.PageBuilderModule",
           "BlobName": "VirtoCommerce.PageBuilderModule_3.815.0-pr-74-1379.zip"
@@ -28,10 +28,6 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "BlobName": "VirtoCommerce.Catalog_3.845.0.zip"
-        },
-        {
-          "Id": "VirtoCommerce.Search",
-          "BlobName": "VirtoCommerce.Search_3.808.0-pr-112-476b.zip"
         },
         {
           "Id": "VirtoCommerce.SeqLog",
@@ -60,6 +56,10 @@
         {
           "Id": "VirtoCommerce.GoogleSSO",
           "BlobName": "VirtoCommerce.GoogleSSO_3.803.0-pr-4-a632.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Search",
+          "BlobName": "VirtoCommerce.Search_3.808.0.zip"
         }
       ]
     },
@@ -68,7 +68,6 @@
       "ModuleSources": [
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
-      
       "Modules": [
         {
           "Id": "VirtoCommerce.Skyflow",
