@@ -116,6 +116,9 @@
       AI__OpenAI__ApiKey: openai-api-key
       Notifications__SendGrid__ApiKey: sendkey
       Payments__AuthorizeNet__TxnKey: authorizenet-txnkey-vs
+      Payments__CyberSource__MerchantId: cybersource-merchantid
+      Payments__CyberSource__MerchantKeyId: cybersource-merchantkeyid
+      Payments__CyberSource__MerchantSecretKey: cybersource-merchantsecretkey
       Payments__Skyflow__PaymentFormAccount__clientID: skyflow-paymentformaccount-clientid
       Payments__Skyflow__PaymentFormAccount__keyID: skyflow-paymentformaccount-keyid
       Payments__Skyflow__PaymentFormAccount__privateKey: skyflow-paymentformaccount-privatekey
