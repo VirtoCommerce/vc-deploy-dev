@@ -82,10 +82,6 @@
           "BlobName": "VirtoCommerce.EventBus_3.808.0-alpha.144.zip"
         },
         {
-          "Id": "VirtoCommerce.OpenIdConnectModule",
-          "BlobName": "VirtoCommerce.OpenIdConnectModule_3.801.0-alpha.15.zip"
-        },
-        {
           "Id": "VirtoCommerce.Contentful",
           "BlobName": "VirtoCommerce.Contentful_3.806.0-alpha.86.zip"
         },
@@ -296,6 +292,10 @@
         {
           "Id": "VirtoCommerce.GoogleSSO",
           "BlobName": "VirtoCommerce.GoogleSSO_3.804.0-alpha.23.zip"
+        },
+        {
+          "Id": "VirtoCommerce.OpenIdConnectModule",
+          "BlobName": "VirtoCommerce.OpenIdConnectModule_3.801.0-alpha.16.zip"
         }
       ]
     }
