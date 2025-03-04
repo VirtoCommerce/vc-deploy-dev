@@ -14,19 +14,7 @@
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
         {
-          "BlobName": "VirtoCommerce.Cart_3.825.0-pr-165-f0c7.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.Catalog_3.845.0-pr-777-72ee.zip"
-        },
-        {
           "BlobName": "VirtoCommerce.PageBuilderModule_3.817.0-pr-75-e47a.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.XCart_3.906.0-pr-35-28ac.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.XCatalog_3.906.0-pr-34-43fb.zip"
         }
       ]
     },
@@ -75,6 +63,14 @@
         {
           "Id": "VirtoCommerce.BulkActionsModule",
           "Version": "3.803.0"
+        },
+        {
+          "Id": "VirtoCommerce.Cart",
+          "Version": "3.824.0"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "Version": "3.845.0"
         },
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
@@ -279,6 +275,14 @@
         {
           "Id": "VirtoCommerce.Xapi",
           "Version": "3.904.0"
+        },
+        {
+          "Id": "VirtoCommerce.XCart",
+          "Version": "3.905.0"
+        },
+        {
+          "Id": "VirtoCommerce.XCatalog",
+          "Version": "3.905.0"
         },
         {
           "Id": "VirtoCommerce.XCMS",
