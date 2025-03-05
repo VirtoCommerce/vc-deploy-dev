@@ -98,6 +98,9 @@
       PushMessages__FcmReceiverOptions__MessagingSenderId: 995027985115
       PushMessages__FcmReceiverOptions__AppId: 1:995027985115:web:324f963313f91886e5e2fe
       PushMessages__FcmReceiverOptions__VapidKey: BC8WwWRnCNgs_slIACjwBrNu_iQSiY7xlq48NBSobEITxzye9L_K_aEmMdB1LWPn7dMX2G8zm4LcLrklHgW-4iY
+      
+      #Search__Settings
+      
       Search__OrderFullTextSearchEnabled: true
       Search__ContentFullTextSearchEnabled: true
       Search__DocumentScopes__0__DocumentType: Product
@@ -111,9 +114,9 @@
       Search__DocumentScopes__5__DocumentType: ContentFile
       Search__DocumentScopes__5__Scope: vcptcore-qa-platformvcptcore-scope66
       Search__ElasticSearch__EnableCompatibilityMode: true
-      Search__ElasticSearch__HealthCheckTimeout: 10
+      Search__ElasticSearch__HealthCheckTimeout: 10      
       #Search__Provider: ElasticSearch
-      Search__Provider: ElasticSearch8
+      #Search__Provider: ElasticSearch8
       #Search__Provider: ElasticAppSearch
       #Search__Provider: Lucene
       #Search__Scope: default
@@ -121,6 +124,10 @@
       #Search__ElasticSearch8__Server: https://1714126b27f941cb82f2c0e0d242d6b4.eastus2.azure.elastic-cloud.com
       #Search__ElasticSearch8__User: elastic
       Search__ElasticSearch8__EnableDebugMode: true
+
+      Search__Provider: AlgoliaSearch
+      Search__AlgoliaSearch__ApiKey: f3de99009f79a358485b9e11fe7e3692
+      Search__AlgoliaSearch__AppId: O1IWK3QKLW
 
       PlatformSettings__Settings__0__Name: Order.RefundNewNumberTemplate
       PlatformSettings__Settings__0__ValueType: ShortText
