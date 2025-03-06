@@ -62,7 +62,7 @@
       FileUpload__Scopes__3__AllowedExtensions__7: .jpg
       FileUpload__Scopes__3__AllowedExtensions__8: .png
       FileUpload__Scopes__3__AllowedExtensions__9: .odt
-      FileUpload__Scopes__3__AllowAnonymousUpload: false
+      FileUpload__Scopes__3__AllowAnonymousUpload: true
       # Send notifications via email
       Notifications__DefaultSender: virto.start@virtoway.com
       Notifications__Gateway: SendGrid
