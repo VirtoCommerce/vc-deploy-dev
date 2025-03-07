@@ -12,7 +12,7 @@
       "Name": "AzureBlob",
       "Container": "packages",
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
-      "Modules": [     
+      "Modules": [
         {
           "Id": "VirtoCommerce.PageBuilderModule",
           "BlobName": "VirtoCommerce.PageBuilderModule_3.815.0-pr-74-1379.zip"
@@ -66,12 +66,12 @@
           "BlobName": "VirtoCommerce.Notifications_3.818.0-pr-176-15cd.zip"
         },
         {
-          "Id": "VirtoCommerce.Sitemaps",
-          "BlobName": "VirtoCommerce.Sitemaps_3.812.0-pr-81-4e92.zip"
-        },
-        {
           "Id": "VirtoCommerce.AlgoliaSearch_3.801.0",
           "BlobName": "VirtoCommerce.AlgoliaSearch_3.801.0-pr-3-a62c.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Sitemaps",
+          "BlobName": "VirtoCommerce.Sitemaps_3.812.0.zip"
         }
       ]
     },
@@ -80,7 +80,6 @@
       "ModuleSources": [
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
-      
       "Modules": [
         {
           "Id": "VirtoCommerce.Skyflow",
