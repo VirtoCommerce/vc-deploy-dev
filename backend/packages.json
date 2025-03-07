@@ -290,12 +290,12 @@
           "BlobName": "VirtoCommerce.OpenIdConnectModule_3.802.0-alpha.17.zip"
         },
         {
-          "Id": "VirtoCommerce.Notifications",
-          "BlobName": "VirtoCommerce.Notifications_3.818.0-alpha.403.zip"
-        },
-        {
           "Id": "VirtoCommerce.Sitemaps",
           "BlobName": "VirtoCommerce.Sitemaps_3.813.0-alpha.369.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Notifications",
+          "BlobName": "VirtoCommerce.Notifications_3.818.0-alpha.404.zip"
         }
       ]
     }
