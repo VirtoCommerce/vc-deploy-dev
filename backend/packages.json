@@ -180,10 +180,6 @@
           "Version": "3.806.0"
         },
         {
-          "Id": "VirtoCommerce.Orders",
-          "Version": "3.841.0"
-        },
-        {
           "Id": "VirtoCommerce.XCatalog",
           "Version": "3.905.0"
         },
@@ -282,6 +278,10 @@
         {
           "Id": "VirtoCommerce.WhiteLabeling",
           "Version": "3.903.0"
+        },
+        {
+          "Id": "VirtoCommerce.Orders",
+          "Version": "3.842.0"
         }
       ]
     },
