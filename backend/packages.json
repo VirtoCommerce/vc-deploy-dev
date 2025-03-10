@@ -256,10 +256,6 @@
           "Version": "3.905.0"
         },
         {
-          "Id": "VirtoCommerce.WhiteLabeling",
-          "Version": "3.902.0"
-        },
-        {
           "Id": "VirtoCommerce.Search",
           "Version": "3.808.0"
         },
@@ -282,6 +278,10 @@
         {
           "Id": "VirtoCommerce.Notifications",
           "Version": "3.818.0"
+        },
+        {
+          "Id": "VirtoCommerce.WhiteLabeling",
+          "Version": "3.903.0"
         }
       ]
     },
