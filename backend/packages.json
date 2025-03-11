@@ -63,11 +63,11 @@
         },
         {
           "Id": "VirtoCommerce.Notifications",
-          "BlobName": "VirtoCommerce.Notifications_3.818.0-pr-176-15cd.zip"
+          "BlobName": "VirtoCommerce.Notifications_3.818.0.zip"
         },
         {
           "Id": "VirtoCommerce.Sitemaps",
-          "BlobName": "VirtoCommerce.Sitemaps_3.812.0-pr-81-4e92.zip"
+          "BlobName": "VirtoCommerce.Sitemaps_3.812.0.zip"
         },
         {
           "Id": "VirtoCommerce.AlgoliaSearch_3.801.0",
@@ -248,7 +248,7 @@
         },
         {
           "Id": "VirtoCommerce.WhiteLabeling",
-          "Version": "3.902.0"
+          "Version": "3.903.0"
         },
         {
           "Id": "VirtoCommerce.Quote",
@@ -312,7 +312,7 @@
         },
         {
           "Id": "VirtoCommerce.Orders",
-          "Version": "3.841.0"
+          "Version": "3.842.0"
         }
       ]
     }
