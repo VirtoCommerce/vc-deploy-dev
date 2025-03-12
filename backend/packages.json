@@ -266,10 +266,6 @@
           "BlobName": "VirtoCommerce.Xapi_3.906.0-alpha.72.zip"
         },
         {
-          "Id": "VirtoCommerce.Search",
-          "BlobName": "VirtoCommerce.Search_3.809.0-alpha.765.zip"
-        },
-        {
           "Id": "VirtoCommerce.Catalog",
           "BlobName": "VirtoCommerce.Catalog_3.847.0-alpha.2299.zip"
         },
@@ -296,6 +292,10 @@
         {
           "Id": "VirtoCommerce.WhiteLabeling",
           "BlobName": "VirtoCommerce.WhiteLabeling_3.905.0-alpha.41.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Search",
+          "BlobName": "VirtoCommerce.Search_3.809.0-alpha.766.zip"
         }
       ]
     }
