@@ -140,10 +140,10 @@
         Cross-Origin-Resource-Policy: cross-origin
         Content-Security-Policy: >
             "default-src 'self';
-            script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://js.skyflow.com https://jstest.authorize.net https://testflex.cybersource.com https://static.cloudflareinsights.com;
+            script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://js.skyflow.com https://jstest.authorize.net https://testflex.cybersource.com https://static.cloudflareinsights.com https://vcst-qa.govirto.com https://img.freepik.com;
             style-src 'self' 'unsafe-inline';
-            img-src 'self' data: https://ae01.alicdn.com https://virtostart-main.govirto.com;
-            font-src 'self' data:;
+            img-src 'self' data: https://ae01.alicdn.com https://virtostart-main.govirto.com https://cdn.builder.io https://www.thecakery.com https://google_sm.com;
+            font-src 'self' data: https://fonts.gstatic.com;
             connect-src 'self' https://cdn.builder.io;
             frame-ancestors 'self' https://builder.io;
             object-src 'none';
