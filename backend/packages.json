@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.879.0",
+  "PlatformVersion": "3.880.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.879.0",
+  "PlatformImageTag": "3.880.0",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -15,15 +15,6 @@
       "Modules": [
         {
           "BlobName": "VirtoCommerce.PageBuilderModule_3.817.0-pr-75-e47a.zip"
-        },
-        { 
-          "BlobName": "VirtoCommerce.Catalog_3.845.0-pr-778-1c05.zip" 
-        },
-        { 
-          "BlobName": "VirtoCommerce.WhiteLabeling_3.902.0-pr-11-32e4.zip" 
-        },
-          {
-          "BlobName": "VirtoCommerce.Orders_3.841.0-pr-445-8d3e.zip"
         }
       ]
     },
@@ -33,7 +24,7 @@
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
       "Modules": [
-        {
+       {
           "Id": "VirtoCommerce.AzureBlobAssets",
           "Version": "3.809.0"
         },
@@ -48,10 +39,6 @@
         {
           "Id": "VirtoCommerce.AzureAD",
           "Version": "3.804.0"
-        },
-        {
-          "Id": "VirtoCommerce.GoogleSSO",
-          "Version": "3.802.0"
         },
         {
           "Id": "VirtoCommerce.Shipping",
@@ -84,10 +71,6 @@
         {
           "Id": "VirtoCommerce.Return",
           "Version": "3.806.0"
-        },
-        {
-          "Id": "VirtoCommerce.OpenIdConnectModule",
-          "Version": "3.800.0"
         },
         {
           "Id": "VirtoCommerce.Pages",
@@ -158,10 +141,6 @@
           "Version": "3.811.0"
         },
         {
-          "Id": "VirtoCommerce.Notifications",
-          "Version": "3.816.0"
-        },
-        {
           "Id": "VirtoCommerce.Store",
           "Version": "3.812.0"
         },
@@ -178,24 +157,12 @@
           "Version": "3.813.0"
         },
         {
-          "Id": "VirtoCommerce.Marketing",
-          "Version": "3.816.0"
-        },
-        {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
           "Version": "3.806.0"
         },
         {
-          "Id": "VirtoCommerce.Core",
-          "Version": "3.817.0"
-        },
-        {
           "Id": "VirtoCommerce.CatalogPublishing",
           "Version": "3.804.0"
-        },
-        {
-          "Id": "VirtoCommerce.Search",
-          "Version": "3.807.0"
         },
         {
           "Id": "VirtoCommerce.ElasticSearch8",
@@ -230,8 +197,8 @@
           "Version": "3.806.0"
         },
         {
-          "Id": "VirtoCommerce.Xapi",
-          "Version": "3.904.0"
+          "Id": "VirtoCommerce.Orders",
+          "Version": "3.841.0"
         },
         {
           "Id": "VirtoCommerce.XCatalog",
@@ -256,10 +223,6 @@
         {
           "Id": "VirtoCommerce.XRecommend",
           "Version": "3.901.0"
-        },
-        {
-          "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.904.0"
         },
         {
           "Id": "VirtoCommerce.Quote",
@@ -292,6 +255,42 @@
         {
           "Id": "VirtoCommerce.CustomerReviews",
           "Version": "3.902.0"
+        },
+        {
+          "Id": "VirtoCommerce.Core",
+          "Version": "3.818.0"
+        },
+        {
+          "Id": "VirtoCommerce.Marketing",
+          "Version": "3.817.0"
+        },
+        {
+          "Id": "VirtoCommerce.ProfileExperienceApiModule",
+          "Version": "3.905.0"
+        },
+        {
+          "Id": "VirtoCommerce.Xapi",
+          "Version": "3.905.0"
+        },
+        {
+          "Id": "VirtoCommerce.WhiteLabeling",
+          "Version": "3.902.0"
+        },
+        {
+          "Id": "VirtoCommerce.Search",
+          "Version": "3.808.0"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "Version": "3.846.0"
+        },
+        {
+          "Id": "VirtoCommerce.GoogleSSO",
+          "Version": "3.803.0"
+        },
+        {
+          "Id": "VirtoCommerce.Notifications",
+          "Version": "3.817.0"
         }
       ]
     }
