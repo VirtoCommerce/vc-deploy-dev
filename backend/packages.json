@@ -80,6 +80,10 @@
         {
           "Id": "VirtoCommerce.Customer",
           "BlobName": "VirtoCommerce.Customer_3.825.0-pr-266-8d29.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ImageTools",
+          "BlobName": "VirtoCommerce.ImageTools_3.809.0-pr-116-3dac.zip"
         }
       ]
     },
@@ -117,10 +121,6 @@
         {
           "Id": "VirtoCommerce.Tax",
           "Version": "3.803.0"
-        },
-        {
-          "Id": "VirtoCommerce.ImageTools",
-          "Version": "3.808.0"
         },
         {
           "Id": "VirtoCommerce.WebHooks",
