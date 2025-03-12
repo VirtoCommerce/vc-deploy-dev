@@ -5,6 +5,10 @@
   platform:
     imageRepository: virtopaasregistrymain.azurecr.io/virtostart/platform
     sqlReplica: false
+    headers:
+      Cross-Origin-Resource-Policy: cross-origin
+      Cross-Origin-Opener-Policy: unsafe-none
+      Cross-Origin-Embedder-Policy: unsafe-none
     config:
       VirtoCommerce__LocalUploadFolderPath: wwwroot/cms-content
       VirtoCommerce__SampleDataUrl: https://vc3prerelease.blob.core.windows.net/packages/clothing-and-electronics_3_0_2.zip
@@ -140,13 +144,13 @@
         Cross-Origin-Resource-Policy: cross-origin
         Content-Security-Policy: >
             "default-src 'self';
-            script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://js.skyflow.com https://jstest.authorize.net https://testflex.cybersource.com https://static.cloudflareinsights.com;
+            script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://js.skyflow.com https://jstest.authorize.net https://testflex.cybersource.com https://static.cloudflareinsights.com https://cdn.builder.io;
             style-src 'self' 'unsafe-inline';
             frame-src https://testflex.cybersource.com https://js.skyflow.com;
-            img-src 'self' data: https://ae01.alicdn.com https://virtostart-main.govirto.com https://cdn.builder.io https://www.thecakery.com https://google_sm.com https://google.com https://vcst-qa.govirto.com https://img.freepik.com;
+            img-src 'self' data: https://ae01.alicdn.com https://virtostart-main.govirto.com https://cdn.builder.io https://www.thecakery.com https://google.com https://vcst-qa.govirto.com https://img.freepik.com;
             font-src 'self' data: https://fonts.gstatic.com;
             connect-src 'self' https://cdn.builder.io https://jstest.authorize.net;
-            frame-ancestors 'self' https://builder.io;
+            frame-ancestors 'self' https://builder.io https://virtostart-demo-admin.govirto.com;
             object-src 'none';
             base-uri 'self';
             form-action 'self';
