@@ -5,6 +5,8 @@
   platform:
     headers:
       Cross-Origin-Resource-Policy: cross-origin
+      Cross-Origin-Opener-Policy: unsafe-none
+      Cross-Origin-Embedder-Policy: unsafe-none
     imageRepository: virtopaasregistrymain.azurecr.io/vcst/platform
     sqlReplica: false
     config:
