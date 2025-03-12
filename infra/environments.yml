@@ -3,12 +3,12 @@
   gitops: true
   servicePlan: S2
   platform:
-    imageRepository: virtopaasregistrymain.azurecr.io/virtostart/platform
-    sqlReplica: false
     headers:
       Cross-Origin-Resource-Policy: cross-origin
       Cross-Origin-Opener-Policy: unsafe-none
       Cross-Origin-Embedder-Policy: unsafe-none
+    imageRepository: virtopaasregistrymain.azurecr.io/virtostart/platform
+    sqlReplica: false
     config:
       VirtoCommerce__LocalUploadFolderPath: wwwroot/cms-content
       VirtoCommerce__SampleDataUrl: https://vc3prerelease.blob.core.windows.net/packages/clothing-and-electronics_3_0_2.zip
@@ -115,7 +115,7 @@
       PushMessages__FcmReceiverOptions__MessagingSenderId: 691497305246
       PushMessages__FcmReceiverOptions__AppId: 1:691497305246:web:d7a9cfead5daac661d678f
       PushMessages__FcmReceiverOptions__VapidKey: BBZaEhlEb6fcpLMxGC2ylQH2eQWTx4n6kZDWcrGebQjJiMr8w_3nF5U8zspbE_eeCV6YoFNyv7IrNLspmToBcjE
-      Reload: 2025-01-09-5
+      Reload: 2025-03-12-1
     secretConfig:
       AI__OpenAI__ApiKey: openai-api-key
       Notifications__SendGrid__ApiKey: sendkey
