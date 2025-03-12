@@ -172,10 +172,6 @@
           "Version": "3.804.0"
         },
         {
-          "Id": "VirtoCommerce.Customer",
-          "Version": "3.824.0"
-        },
-        {
           "Id": "VirtoCommerce.Payment",
           "Version": "3.806.0"
         },
@@ -282,6 +278,10 @@
         {
           "Id": "VirtoCommerce.Search",
           "Version": "3.809.0"
+        },
+        {
+          "Id": "VirtoCommerce.Customer",
+          "Version": "3.825.0"
         }
       ]
     },
