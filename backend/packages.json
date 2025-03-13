@@ -36,10 +36,6 @@
           "Version": "3.803.0"
         },
         {
-          "Id": "VirtoCommerce.ImageTools",
-          "Version": "3.808.0"
-        },
-        {
           "Id": "VirtoCommerce.WebHooks",
           "Version": "3.806.0"
         },
@@ -282,6 +278,10 @@
         {
           "Id": "VirtoCommerce.Customer",
           "Version": "3.825.0"
+        },
+        {
+          "Id": "VirtoCommerce.ImageTools",
+          "Version": "3.809.0"
         }
       ]
     },
