@@ -50,10 +50,6 @@
           "BlobName": "VirtoCommerce.Tax_3.804.0-alpha.185.zip"
         },
         {
-          "Id": "VirtoCommerce.ImageTools",
-          "BlobName": "VirtoCommerce.ImageTools_3.809.0-alpha.356.zip"
-        },
-        {
           "Id": "VirtoCommerce.WebHooks",
           "BlobName": "VirtoCommerce.WebHooks_3.807.0-alpha.305.zip"
         },
@@ -296,6 +292,10 @@
         {
           "Id": "VirtoCommerce.Customer",
           "BlobName": "VirtoCommerce.Customer_3.826.0-alpha.876.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ImageTools",
+          "BlobName": "VirtoCommerce.ImageTools_3.809.0-alpha.362.zip"
         }
       ]
     }
