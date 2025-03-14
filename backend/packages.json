@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.881.0-pr-2892-72c7-ignore-case-72c7e3cc",
+  "PlatformVersion": "3.881.0-pr-2901-4f90-vcst-2898-4f90c7cf",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.881.0-pr-2892-72c7-ignore-case-72c7e3cc",
+  "PlatformImageTag": "3.881.0-pr-2901-4f90-vcst-2898-4f90c7cf",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -12,7 +12,7 @@
       "Name": "AzureBlob",
       "Container": "packages",
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
-      "Modules": [     
+      "Modules": [
         {
           "Id": "VirtoCommerce.PageBuilderModule",
           "BlobName": "VirtoCommerce.PageBuilderModule_3.815.0-pr-74-1379.zip"
@@ -96,7 +96,7 @@
       "ModuleSources": [
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
-      
+
       "Modules": [
         {
           "Id": "VirtoCommerce.Skyflow",

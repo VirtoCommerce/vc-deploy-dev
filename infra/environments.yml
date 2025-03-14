@@ -38,6 +38,7 @@
       Serilog__Using__1: Serilog.Sinks.Debug
       Serilog__Using__2: Serilog.Sinks.Seq
       Serilog__MinimumLevel__Override__VirtoCommerce__ElasticSearch8__Data__Services__ElasticSearch8Provider: "Debug"
+      Serilog__MinimumLevel__Override__VirtoCommerce__Platform__Web__Controllers__Api__LicensingController: "Information"
       #Serilog__MinimumLevel__Default: "Information"
       #Serilog__WriteTo__0: Console
       #Serilog__WriteTo__1__Name: ApplicationInsights
