@@ -182,10 +182,6 @@
           "BlobName": "VirtoCommerce.CyberSourcePayment_3.802.0-alpha.39.zip"
         },
         {
-          "Id": "VirtoCommerce.Payment",
-          "BlobName": "VirtoCommerce.Payment_3.807.0-alpha.239.zip"
-        },
-        {
           "Id": "VirtoCommerce.XCatalog",
           "BlobName": "VirtoCommerce.XCatalog_3.906.0-alpha.74.zip"
         },
@@ -296,6 +292,10 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "BlobName": "VirtoCommerce.Catalog_3.848.0-alpha.2301.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Payment",
+          "BlobName": "VirtoCommerce.Payment_3.807.0-alpha.240.zip"
         }
       ]
     }
