@@ -168,10 +168,6 @@
           "Version": "3.804.0"
         },
         {
-          "Id": "VirtoCommerce.Payment",
-          "Version": "3.806.0"
-        },
-        {
           "Id": "VirtoCommerce.XCatalog",
           "Version": "3.905.0"
         },
@@ -282,6 +278,10 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "Version": "3.847.0"
+        },
+        {
+          "Id": "VirtoCommerce.Payment",
+          "Version": "3.807.0"
         }
       ]
     },
