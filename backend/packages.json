@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.881.0-pr-2901-6894-vcst-2898-689402b9",
+  "PlatformVersion": "3.881.0-pr-2891-48dc-vcst-2698-48dcf264",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.881.0-pr-2901-6894-vcst-2898-689402b9",
+  "PlatformImageTag": "3.881.0-pr-2891-48dc-vcst-2698-48dcf264",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -79,7 +79,7 @@
         },
         {
           "Id": "VirtoCommerce.Customer",
-          "BlobName": "VirtoCommerce.Customer_3.825.0-pr-266-8d29.zip"
+          "BlobName": "VirtoCommerce.Customer_3.826.0-pr-265-97e8.zip"
         },
         {
           "Id": "VirtoCommerce.ImageTools",
