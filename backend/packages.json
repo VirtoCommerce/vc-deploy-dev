@@ -264,10 +264,6 @@
           "Version": "3.809.0"
         },
         {
-          "Id": "VirtoCommerce.Customer",
-          "Version": "3.825.0"
-        },
-        {
           "Id": "VirtoCommerce.ImageTools",
           "Version": "3.809.0"
         },
@@ -282,6 +278,10 @@
         {
           "Id": "VirtoCommerce.Payment",
           "Version": "3.807.0"
+        },
+        {
+          "Id": "VirtoCommerce.Customer",
+          "Version": "3.826.0"
         }
       ]
     },
