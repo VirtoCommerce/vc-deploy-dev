@@ -121,7 +121,7 @@
       Search__Provider: OpenSearch
       Search__OpenSearch__Server: https://opensearch-uat.govirto.com/
       Search__OpenSearch__User: admin
-      Search__OpenSearch__Key: @-mJ"ch{l/#+LXg_"w>v
+      Search__OpenSearch__Key: '@-mJ"ch{l/#+LXg_"w>v'
       Search__OpenSearch__EnableHttpCompression: true
       #Search__Provider: ElasticAppSearch
       #Search__Provider: Lucene
