@@ -117,7 +117,12 @@
       Search__ElasticSearch__EnableCompatibilityMode: true
       Search__ElasticSearch__HealthCheckTimeout: 10      
       #Search__Provider: ElasticSearch
-      Search__Provider: ElasticSearch8
+      #Search__Provider: ElasticSearch8
+      Search__Provider: OpenSearch
+      Search__OpenSearch__Server: https://opensearch-uat.govirto.com/
+      Search__OpenSearch__User: admin
+      Search__OpenSearch__Key: @-mJ"ch{l/#+LXg_"w>v
+      Search__OpenSearch__EnableHttpCompression: true
       #Search__Provider: ElasticAppSearch
       #Search__Provider: Lucene
       #Search__Scope: default
