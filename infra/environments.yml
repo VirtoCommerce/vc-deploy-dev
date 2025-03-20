@@ -298,6 +298,10 @@
       #Assets__AzureBlobStorage__ConnectionString: azureblobconnectionstring
       PushMessages__FcmSenderOptions__PrivateKey: firebase-privatekey
       #Search__ElasticSearch8__Key: elasticsearch8
+      
+      #UnitOfMeasure default settings
+      Measures__DefaultSource: https://vcptcore-qa.govirto.com/cms-content/assets/measures/VirtoCommerce.Catalog.json
+      
   storefront:
     headers:
       Cross-Origin-Resource-Policy: cross-origin
