@@ -30,7 +30,7 @@
       FileUpload__Scopes__2__AllowedExtensions__1: .png
       FileUpload__Scopes__2__AllowAnonymousUpload: false
       DOTNET_USE_POLLING_FILE_WATCHER: true
-      Reload: 20
+      Reload: 21
       #ConnectionStrings__AzureAppConfigurationConnectionString: "Endpoint=https://qa-vc-app-config.azconfig.io;Id=BvwK;Secret=nbF7kOXCU14+qCF5OtP4LR63zfbSyDx6th46bIWkUHQ="
      
       Serilog__Using__0: Serilog.Sinks.Console
