@@ -279,6 +279,10 @@
       AuditLogOptions__EntityOptions__4__TypeFullName: VirtoCommerce.CatalogModule.Core.Model.Property
       AuditLogOptions__EntityOptions__4__NameProperty: Name
       VirtoCommerce__ModuleSequenceBoost__0: VirtoCommerce.AuditLog
+
+      #UnitOfMeasure default settings
+      Measures__DefaultSource: https://vcptcore-qa.govirto.com/cms-content/assets/measures/VirtoCommerce.Catalog.json
+      
     secretConfig:
       Payments__AuthorizeNet__TxnKey: authorizenet-txnkey-vs
       Payments__Skyflow__PaymentFormAccount__clientID: skyflow-paymentformaccount-clientid
@@ -299,8 +303,7 @@
       PushMessages__FcmSenderOptions__PrivateKey: firebase-privatekey
       #Search__ElasticSearch8__Key: elasticsearch8
       
-      #UnitOfMeasure default settings
-      Measures__DefaultSource: https://vcptcore-qa.govirto.com/cms-content/assets/measures/VirtoCommerce.Catalog.json
+      
       
   storefront:
     headers:
