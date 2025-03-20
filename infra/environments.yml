@@ -5,6 +5,8 @@
   platform:
     headers:
       Cross-Origin-Resource-Policy: cross-origin
+      Cross-Origin-Opener-Policy: unsafe-none
+      Cross-Origin-Embedder-Policy: unsafe-none
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
     #imageTag: 3.812.0-alpha.12873-vcst-567-counter-2c3cae8c-3c6554d
     sqlReplica: false
