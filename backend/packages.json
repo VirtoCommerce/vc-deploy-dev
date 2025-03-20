@@ -278,10 +278,6 @@
           "BlobName": "VirtoCommerce.Core_3.820.0-alpha.1652.zip"
         },
         {
-          "Id": "VirtoCommerce.Catalog",
-          "BlobName": "VirtoCommerce.Catalog_3.848.0-alpha.2301.zip"
-        },
-        {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.906.0-alpha.264.zip"
         },
@@ -296,6 +292,10 @@
         {
           "Id": "VirtoCommerce.CyberSourcePayment",
           "BlobName": "VirtoCommerce.CyberSourcePayment_3.803.0-alpha.42.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "BlobName": "VirtoCommerce.Catalog_3.848.0-alpha.2302.zip"
         }
       ]
     }
