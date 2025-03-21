@@ -128,6 +128,10 @@
         {
          "Id": "VirtoCommerce.OpenSearch",
          "BlobName": "VirtoCommerce.OpenSearch_3.800.0-pr-1-e9d5.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Shipping",
+          "BlobName": "VirtoCommerce.Shipping_3.804.0-pr-52-d463.zip"
         }
       ]
     },
@@ -157,10 +161,6 @@
         {
           "Id": "VirtoCommerce.AzureAD",
           "Version": "3.804.0"
-        },
-        {
-          "Id": "VirtoCommerce.Shipping",
-          "Version": "3.803.0"
         },
         {
           "Id": "VirtoCommerce.Tax",
