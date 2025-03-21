@@ -148,7 +148,6 @@
             script-src 'self' 'unsafe-inline' 'unsafe-eval';
             style-src 'self' 'unsafe-inline';
             frame-src https://testflex.cybersource.com https://js.skyflow.com;
-            img-src 'self' data: https://ae01.alicdn.com https://virtostart-main.govirto.com https://cdn.builder.io https://www.thecakery.com https://google.com https://vcst-qa.govirto.com https://img.freepik.com;
             font-src 'self' data: https://fonts.gstatic.com;
             connect-src 'self' https://cdn.builder.io https://jstest.authorize.net https://apitest.authorize.net;
             frame-ancestors 'self' https://builder.io https://virtostart-demo-admin.govirto.com;
