@@ -144,8 +144,7 @@
         Cross-Origin-Resource-Policy: cross-origin
         X-Content-Type-Options: nosniff
         Content-Security-Policy: >
-            "default-src 'self';
-            script-src 'self' 'unsafe-inline' 'unsafe-eval';
+            "script-src 'self' 'unsafe-inline' 'unsafe-eval';
             style-src 'self' 'unsafe-inline';
             frame-src https://testflex.cybersource.com https://js.skyflow.com;
             font-src 'self' data: https://fonts.gstatic.com;
