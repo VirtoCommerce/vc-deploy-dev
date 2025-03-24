@@ -18,6 +18,9 @@
         },
         {
           "BlobName": "VirtoCommerce.OpenSearch_3.800.0-pr-1-e9d5.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.906.0-pr-102-a03b.zip"
         }
       ]
     },
@@ -230,10 +233,6 @@
         {
           "Id": "VirtoCommerce.Marketing",
           "Version": "3.817.0"
-        },
-        {
-          "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.905.0"
         },
         {
           "Id": "VirtoCommerce.Xapi",
