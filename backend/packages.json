@@ -42,10 +42,6 @@
           "BlobName": "VirtoCommerce.AzureAD_3.805.0-alpha.41.zip"
         },
         {
-          "Id": "VirtoCommerce.Shipping",
-          "BlobName": "VirtoCommerce.Shipping_3.804.0-alpha.193.zip"
-        },
-        {
           "Id": "VirtoCommerce.Tax",
           "BlobName": "VirtoCommerce.Tax_3.804.0-alpha.185.zip"
         },
@@ -296,6 +292,10 @@
         {
           "Id": "VirtoCommerce.XCatalog",
           "BlobName": "VirtoCommerce.XCatalog_3.907.0-alpha.78.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Shipping",
+          "BlobName": "VirtoCommerce.Shipping_3.804.0-alpha.199.zip"
         }
       ]
     }
