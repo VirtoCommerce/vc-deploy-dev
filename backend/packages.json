@@ -272,10 +272,6 @@
           "Version": "3.849.0"
         },
         {
-          "Id": "VirtoCommerce.XCatalog",
-          "Version": "3.906.0"
-        },
-        {
           "Id": "VirtoCommerce.Shipping",
           "Version": "3.804.0"
         },
@@ -286,6 +282,10 @@
         {
           "Id": "VirtoCommerce.OpenSearch",
           "Version": "3.800.0"
+        },
+        {
+          "Id": "VirtoCommerce.XCatalog",
+          "Version": "3.907.0"
         }
       ]
     },
