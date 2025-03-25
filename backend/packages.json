@@ -282,6 +282,10 @@
         {
           "Id": "VirtoCommerce.Store",
           "Version": "3.813.0"
+        },
+        {
+          "Id": "VirtoCommerce.OpenSearch",
+          "Version": "3.800.0"
         }
       ]
     },
