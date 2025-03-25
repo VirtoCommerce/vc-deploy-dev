@@ -226,10 +226,6 @@
           "BlobName": "VirtoCommerce.Marketing_3.818.0-alpha.879.zip"
         },
         {
-          "Id": "VirtoCommerce.Xapi",
-          "BlobName": "VirtoCommerce.Xapi_3.906.0-alpha.72.zip"
-        },
-        {
           "Id": "VirtoCommerce.GoogleSSO",
           "BlobName": "VirtoCommerce.GoogleSSO_3.804.0-alpha.23.zip"
         },
@@ -300,6 +296,10 @@
         {
           "Id": "VirtoCommerce.Sitemaps",
           "BlobName": "VirtoCommerce.Sitemaps_3.815.0-alpha.372.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Xapi",
+          "BlobName": "VirtoCommerce.Xapi_3.906.0-alpha.74.zip"
         }
       ]
     }
