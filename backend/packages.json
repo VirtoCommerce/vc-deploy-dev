@@ -188,10 +188,6 @@
           "Version": "3.817.0"
         },
         {
-          "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.905.0"
-        },
-        {
           "Id": "VirtoCommerce.GoogleSSO",
           "Version": "3.803.0"
         },
@@ -286,6 +282,10 @@
         {
           "Id": "VirtoCommerce.Quote",
           "Version": "3.903.0"
+        },
+        {
+          "Id": "VirtoCommerce.ProfileExperienceApiModule",
+          "Version": "3.907.0"
         }
       ]
     },
