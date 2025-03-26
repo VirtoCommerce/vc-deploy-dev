@@ -294,12 +294,12 @@
           "BlobName": "VirtoCommerce.BackInStock_3.803.0-alpha.23.zip"
         },
         {
-          "Id": "VirtoCommerce.ElasticAppSearch",
-          "BlobName": "VirtoCommerce.ElasticAppSearch_3.808.0-alpha.138.zip"
-        },
-        {
           "Id": "VirtoCommerce.XRecommend",
           "BlobName": "VirtoCommerce.XRecommend_3.903.0-alpha.28.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ElasticAppSearch",
+          "BlobName": "VirtoCommerce.ElasticAppSearch_3.809.0-alpha.139.zip"
         }
       ]
     }
