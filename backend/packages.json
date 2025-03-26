@@ -174,10 +174,6 @@
           "BlobName": "VirtoCommerce.XCMS_3.902.0-alpha.25.zip"
         },
         {
-          "Id": "VirtoCommerce.Quote",
-          "BlobName": "VirtoCommerce.Quote_3.903.0-alpha.450.zip"
-        },
-        {
           "Id": "VirtoCommerce.MarketingExperienceApi",
           "BlobName": "VirtoCommerce.MarketingExperienceApi_3.902.0-alpha.63.zip"
         },
@@ -300,6 +296,10 @@
         {
           "Id": "VirtoCommerce.XOrder",
           "BlobName": "VirtoCommerce.XOrder_3.905.0-alpha.55.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Quote",
+          "BlobName": "VirtoCommerce.Quote_3.903.0-alpha.451.zip"
         }
       ]
     }
