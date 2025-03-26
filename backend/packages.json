@@ -160,10 +160,6 @@
           "Version": "3.901.0"
         },
         {
-          "Id": "VirtoCommerce.Quote",
-          "Version": "3.902.0"
-        },
-        {
           "Id": "VirtoCommerce.MarketingExperienceApi",
           "Version": "3.901.0"
         },
@@ -286,6 +282,10 @@
         {
           "Id": "VirtoCommerce.XOrder",
           "Version": "3.904.0"
+        },
+        {
+          "Id": "VirtoCommerce.Quote",
+          "Version": "3.903.0"
         }
       ]
     },
