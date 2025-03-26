@@ -156,10 +156,6 @@
           "Version": "3.804.0"
         },
         {
-          "Id": "VirtoCommerce.XCart",
-          "Version": "3.905.0"
-        },
-        {
           "Id": "VirtoCommerce.FileExperienceApi",
           "Version": "3.903.0"
         },
@@ -286,6 +282,10 @@
         {
           "Id": "VirtoCommerce.XCatalog",
           "Version": "3.908.0"
+        },
+        {
+          "Id": "VirtoCommerce.XCart",
+          "Version": "3.906.0"
         }
       ]
     },
