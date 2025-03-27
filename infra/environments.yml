@@ -142,7 +142,7 @@
   storefront:
     headers:
       Cross-Origin-Resource-Policy: cross-origin
-      X-Response-Time: "$request_time"
+      X-Response-Time: "'$request_time'"
     enabled: false
     imageRepository: virtopaasregistrymain.azurecr.io/vcst/storefront
     servicePlan: B1
