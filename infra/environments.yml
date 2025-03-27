@@ -5,6 +5,7 @@
   platform:
     headers:
       Cross-Origin-Resource-Policy: cross-origin
+      X-Response-Time: \$\request_time
     imageRepository: virtopaasregistrymain.azurecr.io/vcst/platform
     sqlReplica: false
     config:
@@ -59,7 +60,7 @@
       FileUpload__Scopes__2__AllowedExtensions__0: .jpg
       FileUpload__Scopes__2__AllowedExtensions__1: .png
       FileUpload__Scopes__2__AllowAnonymousUpload: false
-      FileUpload__Scopes__3__Scope: configuration-files
+      FileUpload__Scopes__3__Scope: product-configuration
       FileUpload__Scopes__3__MaxFileSize: 10000000
       FileUpload__Scopes__3__AllowedExtensions__0: .doc
       FileUpload__Scopes__3__AllowedExtensions__1: .rtf
@@ -132,7 +133,12 @@
       #Search__ElasticSearch8__Server: https://1714126b27f941cb82f2c0e0d242d6b4.eastus2.azure.elastic-cloud.com
       #Search__ElasticSearch8__User: elastic
       # VirtoCommerce Search settings
-      Search__Provider: ElasticSearch    
+      Search__Provider: ElasticSearch
+      #Search__Provider: OpenSearch
+      #Search__OpenSearch__Server: https://opensearch-uat.govirto.com/
+      #Search__OpenSearch__User: admin
+      #Search__OpenSearch__Password: '@-mJ"ch{l/#+LXg_"w>v'
+      #Search__OpenSearch__EnableHttpCompression: true
       # Prevent Hangfire duplication key error
       VirtoCommerce__Hangfire__SqlServerStorageOptions__TryAutoDetectSchemaDependentOptions: true
       VirtoCommerce__Hangfire__SqlServerStorageOptions__UseIgnoreDupKeyOption: true
@@ -171,6 +177,7 @@
     headers:
       Cross-Origin-Embedder-Policy: unsafe-none
       cross-origin-resource-policy: cross-origin
+      X-Response-Time: \$\request_time
     enabled: false
     imageRepository: virtopaasregistrymain.azurecr.io/vcst/storefront
     servicePlan: B1
