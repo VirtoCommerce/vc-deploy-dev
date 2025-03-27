@@ -5,6 +5,7 @@
   platform:
     headers:
       Cross-Origin-Resource-Policy: cross-origin
+      X-Response-Time: \$\request_time
     imageRepository: virtopaasregistrymain.azurecr.io/vcst/platform
     sqlReplica: false
     config:
@@ -176,6 +177,7 @@
     headers:
       Cross-Origin-Embedder-Policy: unsafe-none
       cross-origin-resource-policy: cross-origin
+      X-Response-Time: \$\request_time
     enabled: false
     imageRepository: virtopaasregistrymain.azurecr.io/vcst/storefront
     servicePlan: B1
