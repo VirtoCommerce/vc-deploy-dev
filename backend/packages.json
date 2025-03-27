@@ -16,10 +16,6 @@
           "Version": "3.809.0"
         },
         {
-          "Id": "VirtoCommerce.AuditLog",
-          "Version": "3.808.0"
-        },
-        {
           "Id": "VirtoCommerce.FileSystemAssets",
           "Version": "3.805.0"
         },
@@ -297,6 +293,10 @@
         {
           "Id": "VirtoCommerce.PageBuilderModule",
           "BlobName": "VirtoCommerce.PageBuilderModule_3.812.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.AuditLog",
+          "BlobName": "VirtoCommerce.AuditLog_3.809.0-pr-9-f9a8.zip"
         }
       ]
     }
