@@ -27,9 +27,6 @@
         },
         {
           "BlobName": "VirtoCommerce.XCart_3.907.0-pr-41-58ec.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.XCatalog_3.906.0-pr-38-6c79.zip"
         }
       ]
     },
@@ -249,7 +246,7 @@
         },
         {
           "Id": "VirtoCommerce.Store",
-          "Version": "3.812.0"
+          "Version": "3.813.0"
         },
         {
           "Id": "VirtoCommerce.Subscription",
@@ -274,6 +271,10 @@
         {
           "Id": "VirtoCommerce.Xapi",
           "Version": "3.906.0"
+        },
+        {
+          "Id": "VirtoCommerce.XCatalog",
+          "Version": "3.908.0"
         },
         {
           "Id": "VirtoCommerce.XCMS",
