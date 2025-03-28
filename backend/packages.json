@@ -254,10 +254,6 @@
           "BlobName": "VirtoCommerce.OpenSearch_3.801.0-alpha.4.zip"
         },
         {
-          "Id": "VirtoCommerce.Catalog",
-          "BlobName": "VirtoCommerce.Catalog_3.851.0-alpha.2307.zip"
-        },
-        {
           "Id": "VirtoCommerce.Sitemaps",
           "BlobName": "VirtoCommerce.Sitemaps_3.815.0-alpha.372.zip"
         },
@@ -300,6 +296,10 @@
         {
           "Id": "VirtoCommerce.CustomerReviews",
           "BlobName": "VirtoCommerce.CustomerReviews_3.904.0-alpha.242.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "BlobName": "VirtoCommerce.Catalog_3.851.0-alpha.2308.zip"
         }
       ]
     }
