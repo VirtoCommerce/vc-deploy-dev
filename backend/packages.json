@@ -240,10 +240,6 @@
           "Version": "3.800.0"
         },
         {
-          "Id": "VirtoCommerce.Catalog",
-          "Version": "3.850.0"
-        },
-        {
           "Id": "VirtoCommerce.Sitemaps",
           "Version": "3.814.0"
         },
@@ -286,6 +282,10 @@
         {
           "Id": "VirtoCommerce.CustomerReviews",
           "Version": "3.903.0"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "Version": "3.851.0"
         }
       ]
     },
