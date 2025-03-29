@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.883.0-pr-2904-f59d-vcst-2934-backup-restore-f59dcef4",
+  "PlatformVersion": "3.882.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.883.0-pr-2904-f59d-vcst-2934-backup-restore-f59dcef4",
+  "PlatformImageTag": "3.882.0",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -27,7 +27,7 @@
         },
         {
           "Id": "VirtoCommerce.Catalog",
-          "BlobName": "VirtoCommerce.Catalog_3.850.0.zip"
+          "BlobName": "VirtoCommerce.Catalog_3.851.0.zip"
         },
         {
           "Id": "VirtoCommerce.Search",
@@ -47,7 +47,7 @@
         },
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.906.0-pr-103-053a.zip"
+          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.907.0.zip"
         },
         {
           "Id": "VirtoCommerce.Xapi",
@@ -79,7 +79,7 @@
         },
         {
           "Id": "VirtoCommerce.Customer",
-          "BlobName": "VirtoCommerce.Customer_3.826.0-pr-267-42aa.zip"
+          "BlobName": "VirtoCommerce.Customer_3.827.0.zip"
         },
         {
           "Id": "VirtoCommerce.ImageTools",
@@ -87,7 +87,7 @@
         },
         {
           "Id": "VirtoCommerce.Payment",
-          "BlobName": "VirtoCommerce.Payment_3.807.0-pr-64-b199.zip"
+          "BlobName": "VirtoCommerce.Payment_3.807.0.zip"
         },
         {
           "Id": "VirtoCommerce.CyberSourcePayment",
@@ -99,7 +99,7 @@
         },
         {
           "Id": "VirtoCommerce.CustomerReviews",
-          "BlobName": "VirtoCommerce.CustomerReviews_3.902.0.zip"
+          "BlobName": "VirtoCommerce.CustomerReviews_3.903.0.zip"
         },
         {
           "Id": "VirtoCommerce.Store",
