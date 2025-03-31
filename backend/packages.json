@@ -14,7 +14,19 @@
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
         {
+          "BlobName": "VirtoCommerce.Cart_3.825.0-pr-165-4b08.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Catalog_3.847.0-pr-777-d8eb.zip"
+        },
+        {
           "BlobName": "VirtoCommerce.Customer_3.828.0-pr-267-5937.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.FileExperienceApi_3.904.0-pr-14-7aa3.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Orders_3.843.0-pr-449-db5f.zip"
         },
         {
           "BlobName": "VirtoCommerce.PageBuilderModule_3.817.0-pr-75-e47a.zip"
@@ -26,10 +38,13 @@
           "BlobName": "VirtoCommerce.Shipping_3.805.0-pr-54-c634.zip"
         },
         {
-          "BlobName": "VirtoCommerce.XCart_3.907.0-pr-41-cbcf.zip"
+          "BlobName": "VirtoCommerce.XCart_3.906.0-pr-35-93e0.zip"
         },
         {
-          "BlobName": "VirtoCommerce.XCatalog_3.909.0-pr-38-f52c.zip"
+          "BlobName": "VirtoCommerce.XCatalog_3.906.0-pr-34-dc7e.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.XOrder_3.904.0-pr-21-af4b.zip"
         }
       ]
     },
@@ -78,14 +93,6 @@
         {
           "Id": "VirtoCommerce.BulkActionsModule",
           "Version": "3.803.0"
-        },
-        {
-          "Id": "VirtoCommerce.Cart",
-          "Version": "3.824.0"
-        },
-        {
-          "Id": "VirtoCommerce.Catalog",
-          "Version": "3.850.0"
         },
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
@@ -152,10 +159,6 @@
           "Version": "3.804.0"
         },
         {
-          "Id": "VirtoCommerce.FileExperienceApi",
-          "Version": "3.903.0"
-        },
-        {
           "Id": "VirtoCommerce.FileSystemAssets",
           "Version": "3.805.0"
         },
@@ -198,10 +201,6 @@
         {
           "Id": "VirtoCommerce.Notifications",
           "Version": "3.817.0"
-        },
-        {
-          "Id": "VirtoCommerce.Orders",
-          "Version": "3.841.0"
         },
         {
           "Id": "VirtoCommerce.Pages",
@@ -278,10 +277,6 @@
         {
           "Id": "VirtoCommerce.XCMS",
           "Version": "3.901.0"
-        },
-        {
-          "Id": "VirtoCommerce.XOrder",
-          "Version": "3.903.0"
         },
         {
           "Id": "VirtoCommerce.XRecommend",
