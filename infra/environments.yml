@@ -82,7 +82,7 @@
       VirtoCommerce__Stores__DefaultStore: B2B-store
       PushNotifications__ForceWebSockets: true
       PushNotifications__ScalabilityMode: RedisBackplane
-      PushNotifications__HubUrl: https://vcptcore-qa1.govirto.com/pushNotificationHub?api_key=40f1d4af-032a-48c4-ac6a-34cd38fe4f04
+      PushNotifications__HubUrl: https://vcptcore-qa1.govirto.com/pushNotificationHub?api_key=3a756881-cb50-421e-8c8c-006618d5bf20
       PushNotifications__RedisBackplane__ChannelName: vcptcore-qa-chanel
       PushMessages__UseFirebaseCloudMessaging: true
       PushMessages__FcmSenderOptions__Type: service_account
