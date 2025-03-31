@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.882.0",
+  "PlatformVersion": "3.883.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.882.0",
+  "PlatformImageTag": "3.883.0",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -93,7 +93,7 @@
           "Id": "VirtoCommerce.CyberSourcePayment",
           "BlobName": "VirtoCommerce.CyberSourcePayment_3.802.0-pr-5-0650.zip"
         },
-         {
+        {
           "Id": "VirtoCommerce.BackInStock",
           "BlobName": "VirtoCommerce.BackInStock_3.802.0.zip"
         },
@@ -126,8 +126,8 @@
           "BlobName": "VirtoCommerce.Quote_3.903.0.zip"
         },
         {
-         "Id": "VirtoCommerce.OpenSearch",
-         "BlobName": "VirtoCommerce.OpenSearch_3.800.0.zip"
+          "Id": "VirtoCommerce.OpenSearch",
+          "BlobName": "VirtoCommerce.OpenSearch_3.800.0.zip"
         },
         {
           "Id": "VirtoCommerce.Shipping",
@@ -144,7 +144,6 @@
       "ModuleSources": [
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
-
       "Modules": [
         {
           "Id": "VirtoCommerce.Skyflow",
