@@ -118,9 +118,9 @@
       Search__DocumentScopes__5__Scope: vcptcore-qa-platformvcptcore-scope66
       Search__ElasticSearch__EnableCompatibilityMode: true
       Search__ElasticSearch__HealthCheckTimeout: 10      
-      #Search__Provider: ElasticSearch
+      Search__Provider: ElasticSearch
       #Search__Provider: ElasticSearch8
-      Search__Provider: OpenSearch
+      #Search__Provider: OpenSearch
       Search__OpenSearch__Server: https://opensearch-uat.govirto.com/
       Search__OpenSearch__User: admin
       Search__OpenSearch__Password: '@-mJ"ch{l/#+LXg_"w>v'
