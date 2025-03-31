@@ -11,7 +11,7 @@
     imageRepository: virtopaasregistrymain.azurecr.io/saas/platform  
     sqlReplica: false
 
-  config:
+    config:
       FileUpload__RootPath: attachments
       FileUpload__Scopes__0__Scope: quote-attachments
       FileUpload__Scopes__0__MaxFileSize: 1000000
