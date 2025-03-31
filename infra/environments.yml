@@ -8,7 +8,7 @@
       Cross-Origin-Opener-Policy: unsafe-none
       Cross-Origin-Embedder-Policy: unsafe-none
     dbProvider: AzureSQL Database
-    imageRepository: virtopaasregistrymain.azurecr.io/saas/platform  
+    imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform  
     sqlReplica: false
 
     config:
