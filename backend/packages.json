@@ -93,7 +93,7 @@
           "Id": "VirtoCommerce.CyberSourcePayment",
           "BlobName": "VirtoCommerce.CyberSourcePayment_3.802.0-pr-5-0650.zip"
         },
-         {
+        {
           "Id": "VirtoCommerce.BackInStock",
           "BlobName": "VirtoCommerce.BackInStock_3.802.0.zip"
         },
@@ -110,10 +110,6 @@
           "BlobName": "VirtoCommerce.XCart_3.906.0-pr-40-f256.zip"
         },
         {
-          "Id": "VirtoCommerce.XCatalog",
-          "BlobName": "VirtoCommerce.XCatalog_3.909.0-pr-38-f52c.zip"
-        },
-        {
           "Id": "VirtoCommerce.XOrder",
           "BlobName": "VirtoCommerce.XOrder_3.904.0.zip"
         },
@@ -126,8 +122,8 @@
           "BlobName": "VirtoCommerce.Quote_3.903.0.zip"
         },
         {
-         "Id": "VirtoCommerce.OpenSearch",
-         "BlobName": "VirtoCommerce.OpenSearch_3.800.0.zip"
+          "Id": "VirtoCommerce.OpenSearch",
+          "BlobName": "VirtoCommerce.OpenSearch_3.800.0.zip"
         },
         {
           "Id": "VirtoCommerce.Shipping",
@@ -136,6 +132,10 @@
         {
           "Id": "VirtoCommerce.Pages",
           "BlobName": "VirtoCommerce.Pages_3.805.0-pr-4-f53b.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XCatalog",
+          "BlobName": "VirtoCommerce.XCatalog_3.909.0.zip"
         }
       ]
     },
@@ -144,7 +144,6 @@
       "ModuleSources": [
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
-
       "Modules": [
         {
           "Id": "VirtoCommerce.Skyflow",
