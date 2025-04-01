@@ -26,14 +26,17 @@
           "BlobName": "VirtoCommerce.XCatalog_3.909.0-pr-38-f52c.zip"
         },
         {
-          "BlobName": "VirtoCommerce.Shipping_3.805.0-pr-54-a7a7.zip"
+          "BlobName": "VirtoCommerce.Shipping_3.805.0-pr-54-a7ae.zip"
         },
         {
           "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.908.0-pr-103-0606.zip"
         },
         {
           "BlobName": "VirtoCommerce.Customer_3.828.0-pr-267-5937.zip"
-        }
+        },
+        {
+          "BlobName": "VirtoCommerce.CatalogPublishing_3.805.0-pr-64-a01c.zip"
+        }        
       ]
     },
     {
@@ -157,10 +160,6 @@
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
           "Version": "3.806.0"
-        },
-        {
-          "Id": "VirtoCommerce.CatalogPublishing",
-          "Version": "3.804.0"
         },
         {
           "Id": "VirtoCommerce.ElasticSearch8",
