@@ -240,10 +240,6 @@
           "Version": "3.906.0"
         },
         {
-          "Id": "VirtoCommerce.XCatalog",
-          "Version": "3.908.0"
-        },
-        {
           "Id": "VirtoCommerce.XCart",
           "Version": "3.906.0"
         },
@@ -286,6 +282,10 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "Version": "3.852.0"
+        },
+        {
+          "Id": "VirtoCommerce.XCatalog",
+          "Version": "3.909.0"
         }
       ]
     },
