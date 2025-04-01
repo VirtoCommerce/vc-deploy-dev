@@ -27,7 +27,7 @@
         },
         {
           "Id": "VirtoCommerce.Catalog",
-          "BlobName": "VirtoCommerce.Catalog_3.852.0-pr-784-45cf.zip"
+          "BlobName": "VirtoCommerce.Catalog_3.852.0-pr-777-6d55.zip"
         },
         {
           "Id": "VirtoCommerce.Search",
@@ -105,17 +105,29 @@
           "Id": "VirtoCommerce.Store",
           "BlobName": "VirtoCommerce.Store_3.813.0.zip"
         },
+         {
+          "Id": "VirtoCommerce.FileExperienceApi",
+          "BlobName": "VirtoCommerce.FileExperienceApi_3.904.0-pr-14-7aa3.zip"
+        },
         {
           "Id": "VirtoCommerce.XCart",
-          "BlobName": "VirtoCommerce.XCart_3.906.0-pr-40-f256.zip"
+          "BlobName": "VirtoCommerce.XCart_3.907.0-pr-35-6d8d.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Cart",
+          "BlobName": "VirtoCommerce.Cart_3.825.0-pr-165-4b08.zip"
         },
         {
           "Id": "VirtoCommerce.XCatalog",
-          "BlobName": "VirtoCommerce.XCatalog_3.909.0-pr-38-f52c.zip"
+          "BlobName": "VirtoCommerce.XCatalog_3.909.0-pr-34-a6e4.zip"
         },
         {
           "Id": "VirtoCommerce.XOrder",
-          "BlobName": "VirtoCommerce.XOrder_3.904.0.zip"
+          "BlobName": "VirtoCommerce.XOrder_3.904.0-pr-21-af4b.zip"
+        },
+         {
+          "Id": "VirtoCommerce.Orders",
+          "BlobName": "VirtoCommerce.Orders_3.843.0-pr-449-7a83.zip"
         },
         {
           "Id": "VirtoCommerce.XRecommend",
@@ -287,10 +299,6 @@
           "Version": "3.901.0"
         },
         {
-          "Id": "VirtoCommerce.FileExperienceApi",
-          "Version": "3.903.0"
-        },
-        {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
           "Version": "3.806.0"
         },
@@ -303,20 +311,12 @@
           "Version": "3.814.0"
         },
         {
-          "Id": "VirtoCommerce.Cart",
-          "Version": "3.824.0"
-        },
-        {
           "Id": "VirtoCommerce.AuthorizeNetPayment",
           "Version": "3.804.0"
         },
         {
           "Id": "VirtoCommerce.Content",
           "Version": "3.826.0"
-        },
-        {
-          "Id": "VirtoCommerce.Orders",
-          "Version": "3.842.0"
         }
       ]
     }
