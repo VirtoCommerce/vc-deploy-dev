@@ -5,11 +5,12 @@
   platform:
     headers:
       Cross-Origin-Resource-Policy: cross-origin
+      X-Response-Time: \$\request_time
     imageRepository: virtopaasregistrymain.azurecr.io/vcst/platform
     sqlReplica: false
     config:
       # Increment to force environment reload
-      reload: 8
+      reload: 9
       # Application Insights settings
       APPINSIGHTS_INSTRUMENTATIONKEY: ef0125aa-1c8e-42d3-964f-d0a11256309d      
       # Forward headers to Nginx
@@ -103,6 +104,8 @@
       PushNotifications__ScalabilityMode: RedisBackplane
       PushNotifications__HubUrl: https://vcst-qa.govirto.com/pushNotificationHub?api_key=458ab7f7-df17-4aed-9f21-092f8b611efa
       PushNotifications__RedisBackplane__ChannelName: vcst-qa-chanel
+      # Shippment
+      Shipping__IsPickupEnabled: true
       # Firebase settings
       PushMessages__UseFirebaseCloudMessaging: true
       PushMessages__FcmSenderOptions__Type: service_account
@@ -176,6 +179,7 @@
     headers:
       Cross-Origin-Embedder-Policy: unsafe-none
       cross-origin-resource-policy: cross-origin
+      X-Response-Time: \$\request_time
     enabled: false
     imageRepository: virtopaasregistrymain.azurecr.io/vcst/storefront
     servicePlan: B1
