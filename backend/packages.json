@@ -47,6 +47,10 @@
 
       "Modules": [
         {
+           "Id": "VirtoCommerce.SeqLog",
+           "Version": "3.800.0"
+        },
+        {
           "Id": "VirtoCommerce.AzureBlobAssets",
           "Version": "3.809.0"
         },
