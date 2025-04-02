@@ -290,16 +290,16 @@
           "BlobName": "VirtoCommerce.XOrder_3.906.0-alpha.57.zip"
         },
         {
-          "Id": "VirtoCommerce.Catalog",
-          "BlobName": "VirtoCommerce.Catalog_3.853.0-alpha.2312.zip"
-        },
-        {
           "Id": "VirtoCommerce.FileExperienceApi",
           "BlobName": "VirtoCommerce.FileExperienceApi_3.906.0-alpha.49.zip"
         },
         {
           "Id": "VirtoCommerce.Customer",
           "BlobName": "VirtoCommerce.Customer_3.829.0-alpha.881.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "BlobName": "VirtoCommerce.Catalog_3.854.0-alpha.2313.zip"
         }
       ]
     }
