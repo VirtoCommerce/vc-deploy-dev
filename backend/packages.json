@@ -20,7 +20,7 @@
           "BlobName": "VirtoCommerce.Orders_3.843.0-pr-449-db5f.zip"
         },
         {
-          "BlobName": "VirtoCommerce.XCart_3.907.0-pr-41-ab30.zip"
+          "BlobName": "VirtoCommerce.XCart_3.907.0-pr-40-05ca.zip"
         },
         {
           "BlobName": "VirtoCommerce.XCatalog_3.910.0-pr-38-3589.zip"
@@ -36,7 +36,10 @@
         },
         {
           "BlobName": "VirtoCommerce.CatalogPublishing_3.805.0-pr-64-42aa.zip"
-        }        
+        },
+        {
+          "BlobName": "VirtoCommerce.Xapi_3.907.0-pr-30-5589.zip"
+        }   
       ]
     },
     {
@@ -45,7 +48,7 @@
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
       "Modules": [
- {
+        {
           "Id": "VirtoCommerce.AzureBlobAssets",
           "Version": "3.809.0"
         },
@@ -252,10 +255,6 @@
         {
           "Id": "VirtoCommerce.Sitemaps",
           "Version": "3.814.0"
-        },
-        {
-          "Id": "VirtoCommerce.Xapi",
-          "Version": "3.906.0"
         },
         {
           "Id": "VirtoCommerce.BackInStock",
