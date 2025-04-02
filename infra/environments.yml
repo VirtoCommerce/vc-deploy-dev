@@ -126,7 +126,6 @@
       PushMessages__FcmReceiverOptions__AppId: 1:518395609520:web:53952423cba605aa771675
       PushMessages__FcmReceiverOptions__VapidKey: BE1iGYmRsbdI1FB-qTiIUvGrWvC91GCfnXSHtfzcPLgXfQ28fbpKFlD8YlbI7w-aHVepW3Ih17oRB53ceYNaM6k
       # Temporary settings below
-      Shipping__IsPickupEnabled: true
     secretConfig:
       Notifications__SendGrid__ApiKey: sendgrid-apikey
       Payments__AuthorizeNet__TxnKey: authorizenet-txnkey
