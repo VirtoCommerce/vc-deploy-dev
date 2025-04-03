@@ -268,20 +268,12 @@
           "Version": "3.905.0"
         },
         {
-          "Id": "VirtoCommerce.Customer",
-          "Version": "3.828.0"
-        },
-        {
           "Id": "VirtoCommerce.Catalog",
           "Version": "3.853.0"
         },
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "Version": "3.908.0"
-        },
-        {
-          "Id": "VirtoCommerce.XCatalog",
-          "Version": "3.910.0"
         },
         {
           "Id": "VirtoCommerce.Xapi",
@@ -297,6 +289,19 @@
         {
           "Id": "VirtoCommerce.PageBuilderModule",
           "BlobName": "VirtoCommerce.PageBuilderModule_3.812.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Customer",
+          "BlobName": "VirtoCommerce.Customer_3.828.0-pr-267-5937.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ProfileExperienceApiModule",
+          "BlobName": "ProfileExperienceApiModule_3.908.0-pr-103-"
+        },
+        {
+          "Id": "VirtoCommerce.XCatalog",
+          "BlobName": "VirtoCommerce.XCatalog_3.910.0-pr-38-dd90.zip"
+          
         }
       ]
     }
