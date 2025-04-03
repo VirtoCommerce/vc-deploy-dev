@@ -39,7 +39,7 @@
         },
         {
           "Id": "VirtoCommerce.XCart",
-          "BlobName": "VirtoCommerce.XCart_3.908.0-pr-43-e5ec.zip"
+          "BlobName": "VirtoCommerce.XCart_3.908.0.zip"
         }
       ]
     },
@@ -48,11 +48,10 @@
       "ModuleSources": [
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
-
       "Modules": [
         {
-           "Id": "VirtoCommerce.SeqLog",
-           "Version": "3.800.0"
+          "Id": "VirtoCommerce.SeqLog",
+          "Version": "3.800.0"
         },
         {
           "Id": "VirtoCommerce.AzureBlobAssets",
