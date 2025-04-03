@@ -125,7 +125,7 @@
     app1:
       name: storybook
       enabled: true
-      imageRepository: ghcr.io/virtocommerce/vc-theme-b2b-vue-storybook/2.18.0-alpha.1731-vcst-2696-input-a7095215
+      imageRepository: ghcr.io/virtocommerce/vc-theme-b2b-vue-storybook
       servicePlan: F1
       type: standalone
       probePath: /
