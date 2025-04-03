@@ -18,7 +18,11 @@
         },
         {
           "BlobName": "VirtoCommerce.WhiteLabeling_3.905.0-pr-15-a3c6.zip"
-        }
+        },
+        {
+          "BlobName": "VirtoCommerce.Shipping_3.806.0-pr-55-281c.zip"
+        }     
+  
       ]
     },
     {
@@ -234,11 +238,7 @@
         {
           "Id": "VirtoCommerce.Search",
           "Version": "3.809.0"
-        },
-        {
-          "Id": "VirtoCommerce.Shipping",
-          "Version": "3.805.0"
-        },
+        }, 
         {
           "Id": "VirtoCommerce.ShipStation",
           "Version": "3.801.0"
