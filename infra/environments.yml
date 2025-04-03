@@ -131,6 +131,8 @@
       type: standalone
       probePath: /
       ingressPath: /
+      config:
+        Reload: 75
     app2:
       enabled: false
   routes:
@@ -159,7 +161,7 @@
       route: platform
   protectedParameters:
    - platform.image.tag
-   # - custom.app1.image.tag
+   - custom.app1.image.tag
    #- storefront.image.tag
    #- themes.B2B-store
   version: 3.208
