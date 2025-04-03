@@ -106,19 +106,19 @@
       Notifications__Smtp__Password: smtppasswordyandex
   storefront:
     enabled: false
-    imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/storefront
-    servicePlan: S1
-    imageTag: "8.2.0-master-5d02a6de"
-    probePath: /
-    config:
-      DOTNET_USE_POLLING_FILE_WATCHER: true
-      ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
-      CookieAuthenticationOptions__ExpireTimeSpan: 12:00:00
-      SnapshotCollectorConfiguration__IsEnabled: false
-      Swagger__UI__Enable: true
-      VirtoCommerce__DefaultStore: B2B-store
-      VirtoCommerce__Endpoint__Password: Password1!
-      VirtoCommerce__Endpoint__UserName: admin
+    # imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/storefront
+    # servicePlan: S1
+    # imageTag: "8.2.0-master-5d02a6de"
+    # probePath: /
+    # config:
+    #   DOTNET_USE_POLLING_FILE_WATCHER: true
+    #   ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
+    #   CookieAuthenticationOptions__ExpireTimeSpan: 12:00:00
+    #   SnapshotCollectorConfiguration__IsEnabled: false
+    #   Swagger__UI__Enable: true
+    #   VirtoCommerce__DefaultStore: B2B-store
+    #   VirtoCommerce__Endpoint__Password: Password1!
+    #   VirtoCommerce__Endpoint__UserName: admin
     themes:
       B2B-store: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-2.19.0-pr-1664-7350-735012b4.zip
   customApps:
@@ -158,7 +158,7 @@
       route: platform
   protectedParameters:
    - platform.image.tag
-   - custom.app1.image.tag
+   # - custom.app1.image.tag
    #- storefront.image.tag
    #- themes.B2B-store
   version: 3.208
