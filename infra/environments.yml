@@ -126,6 +126,7 @@
       name: storybook
       enabled: true
       imageRepository: ghcr.io/virtocommerce/vc-theme-b2b-vue-storybook
+      imageTag: 8.2.0-master-5d02a6de
       servicePlan: F1
       type: standalone
       probePath: /
