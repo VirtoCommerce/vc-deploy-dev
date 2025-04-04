@@ -23,9 +23,6 @@
           "BlobName": "VirtoCommerce.Customer_3.828.0-pr-267-5937.zip"
         },
         {
-          "BlobName": "VirtoCommerce.CatalogPublishing_3.805.0-pr-64-7020.zip"
-        },
-        {
           "BlobName": "VirtoCommerce.Shipping_3.806.0-pr-55-bd06.zip"
         }
       ]
@@ -36,7 +33,11 @@
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
       "Modules": [
-  {
+        {
+          "Id": "VirtoCommerce.CatalogPublishing"
+          "Version": "3.805.0"
+        },
+        {
           "Id": "VirtoCommerce.AzureBlobAssets",
           "Version": "3.809.0"
         },
