@@ -1,7 +1,7 @@
-- name: vcptcore-qa
+- name: vcptcore-testenv
   gitops: true
   production: false
-  servicePlan: S2
+  servicePlan: B1
   platform:
     headers:
       Cross-Origin-Resource-Policy: cross-origin
@@ -94,7 +94,7 @@
       VirtoCommerce__Stores__DefaultStore: B2B-store
       PushNotifications__ForceWebSockets: true
       PushNotifications__ScalabilityMode: RedisBackplane
-      PushNotifications__HubUrl: https://vcptcore-qa.govirto.com/pushNotificationHub?api_key=40f1d4af-032a-48c4-ac6a-34cd38fe4f04
+      PushNotifications__HubUrl: https://vcptcore-testenv.govirto.com/pushNotificationHub?api_key=d92bad36-4eb9-4cf9-87a4-2947dc9ff245
       PushNotifications__RedisBackplane__ChannelName: vcptcore-qa-chanel
       PushMessages__UseFirebaseCloudMessaging: true
       PushMessages__FcmSenderOptions__Type: service_account
@@ -387,7 +387,7 @@
         #Notifications__Smtp__Password: smtppassword
         Search__ElasticAppSearch__PrivateApiKey: elasticappsearch
   routes:
-  - host: vcptcore-qa-storefront.govirto.com
+  - host: vcptcore-testenv-storefront.govirto.com
     root: B2B-store
     paths:
     - path: /xapi
@@ -412,4 +412,4 @@
    - themes.B2B-store
    #- storefront.image.tag
    - platform.image.tag
-  version: 3.210
+ version: 3.226
