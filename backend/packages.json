@@ -40,6 +40,10 @@
         {
           "Id": "VirtoCommerce.XCart",
           "BlobName": "VirtoCommerce.XCart_3.908.0-pr-43-e5ec.zip"
+        },
+        {
+          "Id": "VirtoCommerce.CatalogPublishing",
+          "BlobName": "VirtoCommerce.CatalogPublishing_3.805.0-pr-64-a521.zip"
         }
       ]
     },
@@ -165,10 +169,6 @@
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
           "Version": "3.806.0"
-        },
-        {
-          "Id": "VirtoCommerce.CatalogPublishing",
-          "Version": "3.804.0"
         },
         {
           "Id": "VirtoCommerce.ElasticSearch8",
