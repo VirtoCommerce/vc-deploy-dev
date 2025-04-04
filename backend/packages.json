@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.884.0-pr-2906-5ba1-vcst-2997-header-tooltip-5ba16a22",
+  "PlatformVersion": "3.884.0-pr-2907-019e-vcst-2969-019eca6b",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.884.0-pr-2906-5ba1-vcst-2997-header-tooltip-5ba16a22",
+  "PlatformImageTag": "3.884.0-pr-2907-019e-vcst-2969-019eca6b",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -44,6 +44,14 @@
         {
           "Id": "VirtoCommerce.CatalogPublishing",
           "BlobName": "VirtoCommerce.CatalogPublishing_3.805.0-pr-64-5350.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Inventory",
+          "BlobName": "VirtoCommerce.Inventory_3.808.0-pr-146-d386.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Search",
+          "BlobName": "VirtoCommerce.Search_3.810.0-pr-115-9cb9.zip"
         }
       ]
     },
@@ -159,10 +167,6 @@
           "Version": "3.802.0"
         },
         {
-          "Id": "VirtoCommerce.Inventory",
-          "Version": "3.807.0"
-        },
-        {
           "Id": "VirtoCommerce.Pricing",
           "Version": "3.813.0"
         },
@@ -229,10 +233,6 @@
         {
           "Id": "VirtoCommerce.WhiteLabeling",
           "Version": "3.904.0"
-        },
-        {
-          "Id": "VirtoCommerce.Search",
-          "Version": "3.809.0"
         },
         {
           "Id": "VirtoCommerce.ImageTools",
