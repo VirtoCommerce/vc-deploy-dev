@@ -280,12 +280,12 @@
           "Version": "3.909.0"
         },
         {
-          "Id": "VirtoCommerce.Shipping",
+          "Id": "VirtoCommerce.CatalogPublishing",
           "Version": "3.805.0"
         },
         {
-          "Id": "VirtoCommerce.CatalogPublishing",
-          "Version": "3.805.0"
+          "Id": "VirtoCommerce.Shipping",
+          "Version": "3.806.0"
         }
       ]
     },
