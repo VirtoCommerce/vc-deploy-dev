@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.883.0",
+  "PlatformVersion": "3.884.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.883.0",
+  "PlatformImageTag": "3.884.0",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -15,15 +15,6 @@
       "Modules": [
         {
           "BlobName": "VirtoCommerce.PageBuilderModule_3.817.0-pr-75-e47a.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.XCart_3.910.0-pr-41-91ef.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.Customer_3.828.0-pr-267-5937.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.Shipping_3.806.0-pr-55-9abb.zip"
         }
       ]
     },
@@ -33,10 +24,6 @@
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
       "Modules": [
-        {
-          "Id": "VirtoCommerce.CatalogPublishing",
-          "Version": "3.805.0"
-        },
         {
           "Id": "VirtoCommerce.AzureBlobAssets",
           "Version": "3.809.0"
@@ -214,10 +201,6 @@
           "Version": "3.904.0"
         },
         {
-          "Id": "VirtoCommerce.Search",
-          "Version": "3.809.0"
-        },
-        {
           "Id": "VirtoCommerce.ImageTools",
           "Version": "3.809.0"
         },
@@ -282,6 +265,10 @@
           "Version": "3.905.0"
         },
         {
+          "Id": "VirtoCommerce.Customer",
+          "Version": "3.828.0"
+        },
+        {
           "Id": "VirtoCommerce.Catalog",
           "Version": "3.853.0"
         },
@@ -296,6 +283,22 @@
         {
           "Id": "VirtoCommerce.Xapi",
           "Version": "3.908.0"
+        },
+        {
+          "Id": "VirtoCommerce.CatalogPublishing",
+          "Version": "3.805.0"
+        },
+        {
+          "Id": "VirtoCommerce.Shipping",
+          "Version": "3.806.0"
+        },
+        {
+          "Id": "VirtoCommerce.XCart",
+          "Version": "3.910.0"
+        },
+        {
+          "Id": "VirtoCommerce.Search",
+          "Version": "3.810.0"
         }
       ]
     }
