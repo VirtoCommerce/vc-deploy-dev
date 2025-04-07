@@ -120,7 +120,7 @@
     #   VirtoCommerce__Endpoint__Password: Password1!
     #   VirtoCommerce__Endpoint__UserName: admin
     themes:
-      B2B-store: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-2.19.0-pr-1664-7350-735012b4.zip
+      B2B-store: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-2.19.0-pr-1664-dc36-dc36acd3.zip
   customApps:
     app1:
       name: storybook
