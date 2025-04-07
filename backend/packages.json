@@ -46,12 +46,12 @@
           "BlobName": "VirtoCommerce.CatalogPublishing_3.805.0-pr-64-5350.zip"
         },
         {
-          "Id": "VirtoCommerce.Inventory",
-          "BlobName": "VirtoCommerce.Inventory_3.808.0-pr-146-d386.zip"
-        },
-        {
           "Id": "VirtoCommerce.Search",
           "BlobName": "VirtoCommerce.Search_3.810.0-pr-115-9cb9.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Inventory",
+          "BlobName": "VirtoCommerce.Inventory_3.808.0.zip"
         }
       ]
     },
@@ -60,11 +60,10 @@
       "ModuleSources": [
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
-
       "Modules": [
         {
-           "Id": "VirtoCommerce.SeqLog",
-           "Version": "3.800.0"
+          "Id": "VirtoCommerce.SeqLog",
+          "Version": "3.800.0"
         },
         {
           "Id": "VirtoCommerce.AzureBlobAssets",
@@ -322,4 +321,3 @@
     }
   ]
 }
-
