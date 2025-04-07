@@ -202,10 +202,6 @@
           "BlobName": "VirtoCommerce.WhiteLabeling_3.905.0-alpha.41.zip"
         },
         {
-          "Id": "VirtoCommerce.Search",
-          "BlobName": "VirtoCommerce.Search_3.810.0-alpha.767.zip"
-        },
-        {
           "Id": "VirtoCommerce.ImageTools",
           "BlobName": "VirtoCommerce.ImageTools_3.810.0-alpha.363.zip"
         },
@@ -300,6 +296,10 @@
         {
           "Id": "VirtoCommerce.XCart",
           "BlobName": "VirtoCommerce.XCart_3.911.0-alpha.89.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Search",
+          "BlobName": "VirtoCommerce.Search_3.810.0-alpha.768.zip"
         }
       ]
     }
