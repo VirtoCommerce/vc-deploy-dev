@@ -31,7 +31,7 @@ jobs:
     #     inlineScript: |
     #       az sql db create --resource-group ${{ env.DB_RESOURCE_GROUP }} --server ${{ env.DB_SERVER }} --name ${{ env.DB_NAME }} --service-objective S2
   azure-vm:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     steps:
     - name: Azure login
       uses: azure/login@v1
@@ -47,7 +47,7 @@ jobs:
   loadtest:
     #needs: [azure-sql, azure-vm]
     needs: [ azure-vm ]
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     name: loadtest
     steps:
     - name: Checkout
@@ -107,7 +107,7 @@ jobs:
     #needs: [azure-sql, azure-vm, loadtest]
     needs: [ azure-vm, loadtest]
     if: always()
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     name: Scaledown
     steps:
     # - name: Azure login SQL
