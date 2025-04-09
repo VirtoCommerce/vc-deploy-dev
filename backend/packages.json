@@ -52,6 +52,10 @@
         {
           "Id": "VirtoCommerce.Search",
           "BlobName": "VirtoCommerce.Search_3.810.0-pr-115-9cb9.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Shipping",
+          "BlobName": "VirtoCommerce.Shipping_3.807.0.zip"
         }
       ]
     },
@@ -60,11 +64,10 @@
       "ModuleSources": [
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
-
       "Modules": [
         {
-           "Id": "VirtoCommerce.SeqLog",
-           "Version": "3.800.0"
+          "Id": "VirtoCommerce.SeqLog",
+          "Version": "3.800.0"
         },
         {
           "Id": "VirtoCommerce.AzureBlobAssets",
@@ -247,10 +250,6 @@
           "Version": "3.807.0"
         },
         {
-          "Id": "VirtoCommerce.Shipping",
-          "Version": "3.804.0"
-        },
-        {
           "Id": "VirtoCommerce.Store",
           "Version": "3.813.0"
         },
@@ -322,4 +321,3 @@
     }
   ]
 }
-
