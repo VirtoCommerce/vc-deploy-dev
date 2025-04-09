@@ -105,7 +105,7 @@
       PushNotifications__HubUrl: https://vcst-qa.govirto.com/pushNotificationHub?api_key=458ab7f7-df17-4aed-9f21-092f8b611efa
       PushNotifications__RedisBackplane__ChannelName: vcst-qa-chanel
       # Shippment
-      Shipping__IsPickupEnabled: true
+      Shipping__IsPickupEnabled: false
       # Firebase settings
       PushMessages__UseFirebaseCloudMessaging: true
       PushMessages__FcmSenderOptions__Type: service_account
