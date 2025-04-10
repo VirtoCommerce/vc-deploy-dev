@@ -39,7 +39,11 @@
         },
         {
           "Id": "VirtoCommerce.XCatalog",
-          "BlobName": "VirtoCommerce.XCatalog_3.911.0-pr-41-0e5c.zip"
+          "BlobName": "VirtoCommerce.XCatalog_3.911.0-pr-42-ffe6.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "BlobName": "VirtoCommerce.Catalog_3.854.0-pr-783-b34d.zip"
         }
       ]
     },
@@ -220,7 +224,7 @@
         },
         {
           "Id": "VirtoCommerce.WhiteLabeling",
-          "Version": "3.904.0"
+          "Version": "3.905.0"
         },
         {
           "Id": "VirtoCommerce.ImageTools",
@@ -289,10 +293,6 @@
         {
           "Id": "VirtoCommerce.Customer",
           "Version": "3.828.0"
-        },
-        {
-          "Id": "VirtoCommerce.Catalog",
-          "Version": "3.853.0"
         },
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
