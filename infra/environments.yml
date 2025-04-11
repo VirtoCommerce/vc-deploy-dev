@@ -35,12 +35,12 @@
       Content__PathMappings__blogs__1: _storeId
       Content__PathMappings__blogs__2: blogs
       DOTNET_USE_POLLING_FILE_WATCHER: true
-      #Search__Provider: OpenSearch
+      Search__Provider: OpenSearch
       Search__OpenSearch__Server: https://opensearch-uat.govirto.com/
       Search__OpenSearch__User: admin
       Search__OpenSearch__Password: '@-mJ"ch{l/#+LXg_"w>v'
       Search__OpenSearch__EnableHttpCompression: true
-      Search__Provider: ElasticSearch8
+      #Search__Provider: ElasticSearch8
       #Search__Scope: default
       Search__Lucene__Path: /path/to/lucene/indexes
       Search__AzureSearch__SearchServiceName: qa-demovc-3-search
