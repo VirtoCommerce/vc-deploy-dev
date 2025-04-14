@@ -158,10 +158,6 @@
           "Version": "3.826.0"
         },
         {
-          "Id": "VirtoCommerce.AuthorizeNetPayment",
-          "Version": "3.804.0"
-        },
-        {
           "Id": "VirtoCommerce.XCMS",
           "Version": "3.901.0"
         },
@@ -288,6 +284,14 @@
         {
           "Id": "VirtoCommerce.Pages",
           "Version": "3.805.0"
+        },        
+        {
+          "Id": "VirtoCommerce.CyberSourcePayment",
+          "Version": "3.802.0"
+        },
+        {
+          "Id": "VirtoCommerce.Skyflow",
+          "Version": "3.901.0"
         }
       ]
     }
