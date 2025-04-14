@@ -39,7 +39,7 @@
         },
         {
           "Id": "VirtoCommerce.Catalog",
-          "BlobName": "VirtoCommerce.Catalog_3.854.0-pr-783-6559.zip"
+          "BlobName": "VirtoCommerce.Catalog_3.854.0-pr-786-3030.zip"
         },
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
@@ -62,6 +62,18 @@
       ],
 
       "Modules": [
+         {
+          "Id": "VirtoCommerce.Tax",
+          "Version": "3.803.0"
+         },
+         {
+          "Id": "VirtoCommerce.AvalaraTax",
+          "Version": "3.802.0"
+         },
+         {
+          "Id": "VirtoCommerce.Quote",
+          "Version": "3.903.0"
+         },
          {
           "Id": "VirtoCommerce.Pages",
           "Version": "3.805.0"
