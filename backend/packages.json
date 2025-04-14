@@ -44,6 +44,10 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "BlobName": "VirtoCommerce.Catalog_3.854.0-pr-783-6559.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Cart",
+          "BlobName": "VirtoCommerce.Cart_3.826.0.zip"
         }
       ]
     },
@@ -52,11 +56,10 @@
       "ModuleSources": [
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
-
       "Modules": [
         {
-           "Id": "VirtoCommerce.SeqLog",
-           "Version": "3.800.0"
+          "Id": "VirtoCommerce.SeqLog",
+          "Version": "3.800.0"
         },
         {
           "Id": "VirtoCommerce.AzureBlobAssets",
@@ -275,10 +278,6 @@
           "Version": "3.903.0"
         },
         {
-          "Id": "VirtoCommerce.Cart",
-          "Version": "3.825.0"
-        },
-        {
           "Id": "VirtoCommerce.Orders",
           "Version": "3.843.0"
         },
@@ -322,4 +321,3 @@
     }
   ]
 }
-
