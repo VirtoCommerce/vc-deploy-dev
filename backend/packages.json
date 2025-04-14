@@ -21,6 +21,9 @@
         },
         {
           "BlobName": "VirtoCommerce.Cart_3.826.0-pr-166-a1aa.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Shipping_3.808.0-pr-57-d513.zip"
         }
       ]
     },
@@ -247,10 +250,6 @@
           "Version": "3.903.0"
         },
         {
-          "Id": "VirtoCommerce.Cart",
-          "Version": "3.825.0"
-        },
-        {
           "Id": "VirtoCommerce.Orders",
           "Version": "3.843.0"
         },
@@ -289,10 +288,6 @@
         {
           "Id": "VirtoCommerce.Search",
           "Version": "3.810.0"
-        },
-        {
-          "Id": "VirtoCommerce.Shipping",
-          "Version": "3.807.0"
         },
         {
           "Id": "VirtoCommerce.WhiteLabeling",
