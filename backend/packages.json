@@ -232,10 +232,6 @@
           "Version": "3.843.0"
         },
         {
-          "Id": "VirtoCommerce.XOrder",
-          "Version": "3.905.0"
-        },
-        {
           "Id": "VirtoCommerce.FileExperienceApi",
           "Version": "3.905.0"
         },
@@ -286,6 +282,10 @@
         {
           "Id": "VirtoCommerce.Pages",
           "Version": "3.805.0"
+        },
+        {
+          "Id": "VirtoCommerce.XOrder",
+          "Version": "3.906.0"
         }
       ]
     },
