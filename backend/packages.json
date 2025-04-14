@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.884.0",
+  "PlatformVersion": "3.885.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.884.0",
+  "PlatformImageTag": "3.885.0",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -15,15 +15,12 @@
       "Modules": [
         {
           "BlobName": "VirtoCommerce.PageBuilderModule_3.819.0-pr-78-9e52.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.WhiteLabeling_3.905.0-pr-15-a3c6.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.Shipping_3.807.0-pr-56-466e.zip"
-        },
+        }, 
         {
           "BlobName": "VirtoCommerce.XOrder_3.906.0-pr-25-58c1.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Cart_3.826.0-pr-166-a1aa.zip"
         }
       ]
     },
@@ -72,10 +69,6 @@
         {
           "Id": "VirtoCommerce.Return",
           "Version": "3.806.0"
-        },
-        {
-          "Id": "VirtoCommerce.Pages",
-          "Version": "3.804.0"
         },
         {
           "Id": "VirtoCommerce.EventBus",
@@ -296,6 +289,18 @@
         {
           "Id": "VirtoCommerce.Search",
           "Version": "3.810.0"
+        },
+        {
+          "Id": "VirtoCommerce.Shipping",
+          "Version": "3.807.0"
+        },
+        {
+          "Id": "VirtoCommerce.WhiteLabeling",
+          "Version": "3.905.0"
+        },
+        {
+          "Id": "VirtoCommerce.Pages",
+          "Version": "3.805.0"
         }
       ]
     }
