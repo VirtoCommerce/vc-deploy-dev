@@ -272,10 +272,6 @@
           "Version": "3.808.0"
         },
         {
-          "Id": "VirtoCommerce.Shipping",
-          "Version": "3.807.0"
-        },
-        {
           "Id": "VirtoCommerce.WhiteLabeling",
           "Version": "3.905.0"
         },
@@ -286,6 +282,10 @@
         {
           "Id": "VirtoCommerce.XOrder",
           "Version": "3.906.0"
+        },
+        {
+          "Id": "VirtoCommerce.Shipping",
+          "Version": "3.808.0"
         }
       ]
     },
