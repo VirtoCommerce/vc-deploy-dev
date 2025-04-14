@@ -34,10 +34,6 @@
           "BlobName": "VirtoCommerce.CyberSourcePayment_3.802.0-pr-5-0650.zip"
         },
         {
-          "Id": "VirtoCommerce.Pages",
-          "BlobName": "VirtoCommerce.Pages_3.805.0-pr-4-80aa.zip"
-        },
-        {
           "Id": "VirtoCommerce.XCatalog",
           "BlobName": "VirtoCommerce.XCatalog_3.911.0-pr-42-ffe6.zip"
         },
@@ -54,6 +50,10 @@
       ],
 
       "Modules": [
+         {
+          "Id": "VirtoCommerce.Pages",
+          "Version": "3.805.0"
+        },
         {
            "Id": "VirtoCommerce.SeqLog",
            "Version": "3.800.0"
@@ -240,7 +240,7 @@
         },
         {
           "Id": "VirtoCommerce.Shipping",
-          "Version": "3.807.0"
+          "Version": "3.808.0"
         },
         {
           "Id": "VirtoCommerce.Store",
@@ -276,7 +276,7 @@
         },
         {
           "Id": "VirtoCommerce.Cart",
-          "Version": "3.825.0"
+          "Version": "3.826.0"
         },
         {
           "Id": "VirtoCommerce.Orders",
@@ -284,7 +284,7 @@
         },
         {
           "Id": "VirtoCommerce.XOrder",
-          "Version": "3.905.0"
+          "Version": "3.906.0"
         },
         {
           "Id": "VirtoCommerce.FileExperienceApi",
