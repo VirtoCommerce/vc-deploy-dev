@@ -294,12 +294,12 @@
           "BlobName": "VirtoCommerce.XOrder_3.907.0-alpha.59.zip"
         },
         {
-          "Id": "VirtoCommerce.Cart",
-          "BlobName": "VirtoCommerce.Cart_3.826.0-alpha.727.zip"
-        },
-        {
           "Id": "VirtoCommerce.Shipping",
           "BlobName": "VirtoCommerce.Shipping_3.809.0-alpha.208.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Cart",
+          "BlobName": "VirtoCommerce.Cart_3.827.0-alpha.728.zip"
         }
       ]
     }
