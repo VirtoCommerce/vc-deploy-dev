@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.886.0-pr-2908-06e5-pd-471-06e59b98",
+  "PlatformVersion": "3.886.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.886.0-pr-2908-06e5-pd-471-06e59b98",
+  "PlatformImageTag": "3.886.0",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -35,11 +35,11 @@
         },
         {
           "Id": "VirtoCommerce.XCatalog",
-          "BlobName": "VirtoCommerce.XCatalog_3.911.0-pr-45-a506.zip"
+          "BlobName": "VirtoCommerce.XCatalog_3.911.0-pr-42-ffe6.zip"
         },
         {
           "Id": "VirtoCommerce.Catalog",
-          "BlobName": "VirtoCommerce.Catalog_3.854.0-pr-786-3030.zip"
+          "BlobName": "VirtoCommerce.Catalog_3.855.0-pr-783-66a9.zip"
         },
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
@@ -280,7 +280,7 @@
         },
         {
           "Id": "VirtoCommerce.ElasticAppSearch",
-          "Version": "3.808.0"
+          "Version": "3.809.0"
         },
         {
           "Id": "VirtoCommerce.CustomerReviews",
