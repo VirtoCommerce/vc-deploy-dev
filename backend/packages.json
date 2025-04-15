@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.886.0-pr-2908-06e5-pd-471-06e59b98",
+  "PlatformVersion": "3.886.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.886.0-pr-2908-06e5-pd-471-06e59b98",
+  "PlatformImageTag": "3.886.0",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -60,27 +60,26 @@
       "ModuleSources": [
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
-
       "Modules": [
-         {
+        {
           "Id": "VirtoCommerce.Tax",
           "Version": "3.803.0"
-         },
-         {
+        },
+        {
           "Id": "VirtoCommerce.AvalaraTax",
           "Version": "3.802.0"
-         },
-         {
+        },
+        {
           "Id": "VirtoCommerce.Quote",
           "Version": "3.903.0"
-         },
-         {
+        },
+        {
           "Id": "VirtoCommerce.Pages",
           "Version": "3.805.0"
         },
         {
-           "Id": "VirtoCommerce.SeqLog",
-           "Version": "3.800.0"
+          "Id": "VirtoCommerce.SeqLog",
+          "Version": "3.800.0"
         },
         {
           "Id": "VirtoCommerce.AzureBlobAssets",
@@ -322,4 +321,3 @@
     }
   ]
 }
-
