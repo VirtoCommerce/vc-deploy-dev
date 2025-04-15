@@ -46,12 +46,12 @@
           "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.909.0-pr-104-78dd.zip"
         },
         {
-          "Id": "VirtoCommerce.Xapi",
-          "BlobName": "VirtoCommerce.Xapi_3.909.0-pr-35-08c1.zip"
-        },
-        {
           "Id": "VirtoCommerce.XCart",
           "BlobName": "VirtoCommerce.XCart_3.911.0-pr-44-f9ad.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Xapi",
+          "BlobName": "VirtoCommerce.Xapi_3.909.0.zip"
         }
       ]
     },
@@ -60,27 +60,26 @@
       "ModuleSources": [
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
-
       "Modules": [
-         {
+        {
           "Id": "VirtoCommerce.Tax",
           "Version": "3.803.0"
-         },
-         {
+        },
+        {
           "Id": "VirtoCommerce.AvalaraTax",
           "Version": "3.802.0"
-         },
-         {
+        },
+        {
           "Id": "VirtoCommerce.Quote",
           "Version": "3.903.0"
-         },
-         {
+        },
+        {
           "Id": "VirtoCommerce.Pages",
           "Version": "3.805.0"
         },
         {
-           "Id": "VirtoCommerce.SeqLog",
-           "Version": "3.800.0"
+          "Id": "VirtoCommerce.SeqLog",
+          "Version": "3.800.0"
         },
         {
           "Id": "VirtoCommerce.AzureBlobAssets",
@@ -322,4 +321,3 @@
     }
   ]
 }
-
