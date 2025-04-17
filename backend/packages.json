@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.886.0",
+  "PlatformVersion": "3.887.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.886.0",
+  "PlatformImageTag": "3.887.0",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -52,7 +52,7 @@
          },
          {
           "Id": "VirtoCommerce.Xapi",
-          "Version": "3.909.0"
+          "Version": "3.911.0"
         },
          {
           "Id": "VirtoCommerce.Tax",
