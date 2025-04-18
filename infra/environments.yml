@@ -281,6 +281,9 @@
       # CyberSource
       Payments__CyberSource__ValidateSignatureRetryCount: 5
 
+      # Shippment
+      Shipping__IsPickupEnabled: true
+
       AuditLogOptions__CanConfigureTrackingEvents: true
       AuditLogOptions__EntityOptions__0__TypeFullName: VirtoCommerce.OrdersModule.Core.Model.CustomerOrder
       AuditLogOptions__EntityOptions__0__NameProperty: Number
