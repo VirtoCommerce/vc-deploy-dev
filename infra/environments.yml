@@ -158,7 +158,7 @@
         Cross-Origin-Resource-Policy: cross-origin
         X-Content-Type-Options: nosniff
         Content-Security-Policy: >
-            "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://js.skyflow.com https://jstest.authorize.net https://testflex.cybersource.com https://static.cloudflareinsights.com https://cdn.builder.io https://runtime-dom.esm-bundler.js;
+            "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://js.skyflow.com https://jstest.authorize.net https://testflex.cybersource.com https://static.cloudflareinsights.com https://cdn.builder.io https://runtime-dom.esm-bundler.js https://www.gstatic.com;
             style-src 'self' 'unsafe-inline';
             frame-src https://testflex.cybersource.com https://js.skyflow.com;
             font-src 'self' data: https://fonts.gstatic.com;
