@@ -162,7 +162,7 @@
             style-src 'self' 'unsafe-inline';
             frame-src https://testflex.cybersource.com https://js.skyflow.com;
             font-src 'self' data: https://fonts.gstatic.com;
-            connect-src 'self' https://www.google-analytics.com https://cdn.builder.io https://jstest.authorize.net https://apitest.authorize.net https://fastly.jsdelivr.net;
+            connect-src 'self' https://www.google-analytics.com https://cdn.builder.io https://jstest.authorize.net https://apitest.authorize.net https://fastly.jsdelivr.net https://firebaseinstallations.googleapis.com;
             frame-ancestors 'self' https://builder.io https://virtostart-demo-admin.govirto.com;
             object-src 'none';
             base-uri 'self';
