@@ -36,6 +36,10 @@
         {
           "Id": "VirtoCommerce.CyberSourcePayment",
           "BlobName": "VirtoCommerce.CyberSourcePayment_3.802.0-pr-5-0650.zip"
+        },
+        {
+          "Id": "VirtoCommerce.CustomerExportImport",
+          "BlobName": "VirtoCommerce.CustomerExportImport_3.810.0-pr-101-7f78.zip"
         }
       ]
     },
@@ -157,10 +161,6 @@
         {
           "Id": "VirtoCommerce.BulkActionsModule",
           "Version": "3.803.0"
-        },
-        {
-          "Id": "VirtoCommerce.CustomerExportImport",
-          "Version": "3.809.0"
         },
         {
           "Id": "VirtoCommerce.NativePaymentMethods",
