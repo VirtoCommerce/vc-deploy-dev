@@ -96,10 +96,6 @@
           "Version": "3.803.0"
         },
         {
-          "Id": "VirtoCommerce.CustomerExportImport",
-          "Version": "3.809.0"
-        },
-        {
           "Id": "VirtoCommerce.NativePaymentMethods",
           "Version": "3.802.0"
         },
@@ -286,6 +282,10 @@
         {
           "Id": "VirtoCommerce.Cart",
           "Version": "3.827.0"
+        },
+        {
+          "Id": "VirtoCommerce.CustomerExportImport",
+          "Version": "3.810.0"
         }
       ]
     },
