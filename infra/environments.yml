@@ -344,29 +344,38 @@
   ingress: {}
   customApps:
     app1:
-      enabled: false
-      servicePlan: S2
-      type: platform
-      name: platform2
-      imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-      imageTag: 3.299.0-c586ce4
+      name: storybook
+      enabled: true
+      imageRepository: ghcr.io/virtocommerce/vc-theme-b2b-vue-storybook
+      servicePlan: F1
+      type: standalone
+      probePath: /
       ingressPath: /
       config:
-        Reload: 50
-        DOTNET_USE_POLLING_FILE_WATCHER: true
-        VirtoCommerce__Hangfire__Queues__items_0: default
-        VirtoCommerce__Hangfire__Queues__items_1: index_worker
-        Notifications__DefaultSender: azure_25da07ed75daacae20578a7a7dc58541@azure.com
-        Notifications__Gateway: SendGrid
-        Notifications__Smtp__Host: smtp.sendgrid.net
-        Notifications__Smtp__Login: apikey
-        VirtoCommerce__ApplicationInsights__RoleName: This is QA role platfrom2
-        VirtoCommerce__ApplicationInsights__RoleInstance: This is instance of QA2
-      secretConfig:
-        Notifications__SendGrid__ApiKey: sendkey
+        Reload: 75
+      #enabled: false
+      #servicePlan: S2
+      #type: platform
+      #name: platform2
+      #imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
+      #imageTag: 3.299.0-c586ce4
+      #ingressPath: /
+      #config:
+        #Reload: 50
+        #DOTNET_USE_POLLING_FILE_WATCHER: true
+        #VirtoCommerce__Hangfire__Queues__items_0: default
+        #VirtoCommerce__Hangfire__Queues__items_1: index_worker
+        #Notifications__DefaultSender: azure_25da07ed75daacae20578a7a7dc58541@azure.com
+        #Notifications__Gateway: SendGrid
+        #Notifications__Smtp__Host: smtp.sendgrid.net
+        #Notifications__Smtp__Login: apikey
+        #VirtoCommerce__ApplicationInsights__RoleName: This is QA role platfrom2
+        #VirtoCommerce__ApplicationInsights__RoleInstance: This is instance of QA2
+      #secretConfig:
+        #Notifications__SendGrid__ApiKey: sendkey
         #Notifications__Smtp__Password: smtppassword
-        Search__ElasticAppSearch__PrivateApiKey: elasticappsearch
-        Search__AzureSearch__Key: azureseearchkey
+        #Search__ElasticAppSearch__PrivateApiKey: elasticappsearch
+        #Search__AzureSearch__Key: azureseearchkey
     app2:
       enabled: false
       servicePlan: P1
@@ -413,6 +422,7 @@
       route: platform
   protectedParameters:
    - themes.B2B-store
+   - custom.app1.image.tag
    #- storefront.image.tag
    - platform.image.tag
   version: 3.210
