@@ -60,6 +60,10 @@
         {
           "Id": "VirtoCommerce.Sitemaps",
           "BlobName": "VirtoCommerce.Sitemaps_3.815.0-pr-83-8882.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Orders",
+          "BlobName": "VirtoCommerce.Orders_3.844.0-pr-450-e088.zip"
         }
         
       ]
@@ -294,10 +298,6 @@
         {
           "Id": "VirtoCommerce.Cart",
           "Version": "3.827.0"
-        },
-        {
-          "Id": "VirtoCommerce.Orders",
-          "Version": "3.843.0"
         },
         {
           "Id": "VirtoCommerce.XOrder",
