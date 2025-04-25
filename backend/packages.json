@@ -55,8 +55,13 @@
         },
         {
           "Id": "VirtoCommerce.Catalog",
-          "BlobName": "VirtoCommerce.Catalog_3.856.0-pr-785-d2f2.zip"
-        }
+          "BlobName": "VirtoCommerce.Catalog_3.856.0-pr-789-c1fc.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Sitemaps",
+          "BlobName": "VirtoCommerce.Sitemaps_3.815.0-pr-83-8882.zip"
+        },
+        
       ]
     },
     {
@@ -269,10 +274,6 @@
         {
           "Id": "VirtoCommerce.OpenSearch",
           "Version": "3.800.0"
-        },
-        {
-          "Id": "VirtoCommerce.Sitemaps",
-          "Version": "3.814.0"
         },
         {
           "Id": "VirtoCommerce.BackInStock",
