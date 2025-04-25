@@ -38,28 +38,12 @@
           "BlobName": "VirtoCommerce.CyberSourcePayment_3.802.0-pr-5-0650.zip"
         },
         {
-          "Id": "VirtoCommerce.CustomerExportImport",
-          "BlobName": "VirtoCommerce.CustomerExportImport_3.810.0-pr-101-7f78.zip"
-        },
-        {
-          "Id": "VirtoCommerce.Search",
-          "BlobName": "VirtoCommerce.Search_3.811.0.zip"
-        },
-        { 
-          "Id": "VirtoCommerce.Payment",
-          "BlobName": "VirtoCommerce.Payment_3.808.0.zip"
-        },
-        {
           "Id": "VirtoCommerce.XCatalog",
-          "BlobName": "VirtoCommerce.XCatalog_3.913.0-pr-41-e351.zip"
+          "BlobName": "VirtoCommerce.XCatalog_3.913.0-pr-44-3363.zip"
         },
         {
           "Id": "VirtoCommerce.Catalog",
-          "BlobName": "VirtoCommerce.Catalog_3.856.0-pr-788-d783.zip"
-        },
-        {
-          "Id": "VirtoCommerce.Sitemaps",
-          "BlobName": "VirtoCommerce.Sitemaps_3.815.0-pr-83-8882.zip"
+          "BlobName": "VirtoCommerce.Catalog_3.858.0-pr-785-e9cd.zip"
         },
         {
           "Id": "VirtoCommerce.Orders",
@@ -79,7 +63,23 @@
       ],
 
       "Modules": [
-           {
+       {
+          "Id": "VirtoCommerce.Sitemaps",
+          "Version": "3.815.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Search",
+          "Version": "3.811.0"
+        },
+        { 
+          "Id": "VirtoCommerce.Payment",
+          "Version": "3.808.0"
+        },
+        {
+          "Id": "VirtoCommerce.CustomerExportImport",
+          "Version": "3.810.0"
+        },
+        {
           "Id": "VirtoCommerce.XCart",
           "Version": "3.911.0"
          },
