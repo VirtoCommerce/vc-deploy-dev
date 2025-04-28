@@ -45,7 +45,7 @@
       FileUpload__Scopes__3__AllowedExtensions__9: .odt
       FileUpload__Scopes__3__AllowAnonymousUpload: true
       DOTNET_USE_POLLING_FILE_WATCHER: true
-      Reload: 21
+      Reload: 22
       #ConnectionStrings__AzureAppConfigurationConnectionString: "Endpoint=https://qa-vc-app-config.azconfig.io;Id=BvwK;Secret=nbF7kOXCU14+qCF5OtP4LR63zfbSyDx6th46bIWkUHQ="
      
       Serilog__Using__0: Serilog.Sinks.Console
