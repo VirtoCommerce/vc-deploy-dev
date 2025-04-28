@@ -21,6 +21,10 @@
         },
         {
           "BlobName": "VirtoCommerce.XCatalog_3.913.0-pr-44-e491.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Customer",
+          "BlobName": "VirtoCommerce.XCatalog_3.914.0-pr-44-e4a4.zip"
         }
       ]
     },
@@ -245,10 +249,6 @@
         {
           "Id": "VirtoCommerce.FileExperienceApi",
           "Version": "3.905.0"
-        },
-        {
-          "Id": "VirtoCommerce.Customer",
-          "Version": "3.828.0"
         },
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
