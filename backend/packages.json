@@ -44,8 +44,15 @@
         {
           "Id": "VirtoCommerce.OrderManagement",
           "BlobName": "VirtoCommerce.OrderManagement_3.800.0-pr-1-d870.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XCatalog",
+          "BlobName": "VirtoCommerce.XCatalog_3.914.0-pr-44-e4a4.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "BlobName": "VirtoCommerce.Catalog_3.858.0-pr-785-f374.zip"
         }
-        
       ]
     },
     {
@@ -55,15 +62,7 @@
       ],
 
       "Modules": [
-         {
-          "Id": "VirtoCommerce.XCatalog",
-          "Version": "3.913.0"
-        },
         {
-          "Id": "VirtoCommerce.Catalog",
-          "Version": "3.857.0"
-        },
-       {
           "Id": "VirtoCommerce.Sitemaps",
           "Version": "3.815.0"
         },
