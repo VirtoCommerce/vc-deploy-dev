@@ -24,6 +24,9 @@
         },
         {
           "BlobName": "VirtoCommerce.Customer_3.829.0-pr-268-61e0.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Notifications_3.819.0-pr-177-da87.zip"
         }
       ]
     },
@@ -192,10 +195,6 @@
         {
           "Id": "VirtoCommerce.OpenIdConnectModule",
           "Version": "3.801.0"
-        },
-        {
-          "Id": "VirtoCommerce.Notifications",
-          "Version": "3.818.0"
         },
         {
           "Id": "VirtoCommerce.ImageTools",
