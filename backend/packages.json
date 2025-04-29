@@ -286,6 +286,10 @@
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "Version": "3.911.0"
+        },
+        {
+          "Id": "VirtoCommerce.OrderManagement",
+          "Version": "3.801.0"
         }
       ]
     },
