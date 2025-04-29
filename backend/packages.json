@@ -300,6 +300,10 @@
         {
           "Id": "VirtoCommerce.Customer",
           "BlobName": "VirtoCommerce.Customer_3.829.0-alpha.882.zip"
+        },
+        {
+          "Id": "VirtoCommerce.OrderManagement",
+          "BlobName": "VirtoCommerce.OrderManagement_3.800.0-alpha.2.zip"
         }
       ]
     }
