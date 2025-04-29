@@ -27,7 +27,10 @@
         },
         {
           "BlobName": "VirtoCommerce.Notifications_3.819.0-pr-177-da87.zip"
-        }
+        },
+        {
+          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.911.0-pr-106-14f5.zip"
+        }        
       ]
     },
     {
@@ -247,10 +250,6 @@
         {
           "Id": "VirtoCommerce.FileExperienceApi",
           "Version": "3.905.0"
-        },
-        {
-          "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.910.0"
         },
         {
           "Id": "VirtoCommerce.Cart",
