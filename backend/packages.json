@@ -298,12 +298,12 @@
           "BlobName": "VirtoCommerce.XCart_3.912.0-alpha.92.zip"
         },
         {
-          "Id": "VirtoCommerce.OrderManagement",
-          "BlobName": "VirtoCommerce.OrderManagement_3.800.0-alpha.3.zip"
-        },
-        {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.911.0-alpha.276.zip"
+        },
+        {
+          "Id": "VirtoCommerce.OrderManagement",
+          "BlobName": "VirtoCommerce.OrderManagement_3.801.0-alpha.4.zip"
         }
       ]
     }
