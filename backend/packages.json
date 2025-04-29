@@ -39,7 +39,7 @@
         },
         {
           "Id": "VirtoCommerce.Orders",
-          "BlobName": "VirtoCommerce.Orders_3.844.0-pr-450-e088.zip"
+          "BlobName": "VirtoCommerce.Orders_3.844.0.zip"
         },
         {
           "Id": "VirtoCommerce.OrderManagement",
@@ -47,11 +47,11 @@
         },
         {
           "Id": "VirtoCommerce.XCatalog",
-          "BlobName": "VirtoCommerce.XCatalog_3.914.0-pr-44-e4a4.zip"
+          "BlobName": "VirtoCommerce.XCatalog_3.914.0.zip"
         },
         {
           "Id": "VirtoCommerce.Catalog",
-          "BlobName": "VirtoCommerce.Catalog_3.858.0-pr-785-f374.zip"
+          "BlobName": "VirtoCommerce.Catalog_3.858.0.zip"
         },
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
@@ -256,7 +256,7 @@
         },
         {
           "Id": "VirtoCommerce.Notifications",
-          "Version": "3.818.0"
+          "Version": "3.819.0"
         },
         {
           "Id": "VirtoCommerce.WhiteLabeling",
@@ -312,7 +312,7 @@
         },
         {
           "Id": "VirtoCommerce.Customer",
-          "Version": "3.828.0"
+          "Version": "3.829.0"
         },
         {
           "Id": "VirtoCommerce.CatalogPublishing",
