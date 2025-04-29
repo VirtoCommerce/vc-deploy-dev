@@ -204,10 +204,6 @@
           "Version": "3.903.0"
         },
         {
-          "Id": "VirtoCommerce.Orders",
-          "Version": "3.843.0"
-        },
-        {
           "Id": "VirtoCommerce.FileExperienceApi",
           "Version": "3.905.0"
         },
@@ -286,6 +282,10 @@
         {
           "Id": "VirtoCommerce.Customer",
           "Version": "3.829.0"
+        },
+        {
+          "Id": "VirtoCommerce.Orders",
+          "Version": "3.844.0"
         }
       ]
     },
