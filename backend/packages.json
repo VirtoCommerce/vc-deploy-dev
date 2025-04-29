@@ -16,11 +16,14 @@
         {
           "BlobName": "VirtoCommerce.PageBuilderModule_3.819.0.zip"
         },
-         {
-          "BlobName": "VirtoCommerce.Catalog_3.856.0-pr-785-940e.zip"
+        {
+          "BlobName": "VirtoCommerce.XCart_3.912.0-pr-47-d9cd.zip"
         },
         {
-          "BlobName": "VirtoCommerce.XCatalog_3.913.0-pr-44-e491.zip"
+          "BlobName": "VirtoCommerce.Customer_3.829.0-pr-268-61e0.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Notifications_3.819.0-pr-177-da87.zip"
         }
       ]
     },
@@ -191,10 +194,6 @@
           "Version": "3.801.0"
         },
         {
-          "Id": "VirtoCommerce.Notifications",
-          "Version": "3.818.0"
-        },
-        {
           "Id": "VirtoCommerce.ImageTools",
           "Version": "3.809.0"
         },
@@ -247,20 +246,12 @@
           "Version": "3.905.0"
         },
         {
-          "Id": "VirtoCommerce.Customer",
-          "Version": "3.828.0"
-        },
-        {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "Version": "3.910.0"
         },
         {
           "Id": "VirtoCommerce.Cart",
           "Version": "3.827.0"
-        },
-        {
-          "Id": "VirtoCommerce.XCart",
-          "Version": "3.911.0"
         },
         {
           "Id": "VirtoCommerce.Xapi",
@@ -297,6 +288,14 @@
         {
           "Id": "VirtoCommerce.Skyflow",
           "Version": "3.901.0"
+        },
+        {
+          "Id": "VirtoCommerce.XCatalog",
+          "Version": "3.914.0"
+        },
+         {
+          "Id": "VirtoCommerce.Catalog",
+          "Version": "3.858.0"
         }
       ]
     }
