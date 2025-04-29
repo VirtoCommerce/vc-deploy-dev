@@ -182,10 +182,6 @@
           "BlobName": "VirtoCommerce.OpenIdConnectModule_3.802.0-alpha.17.zip"
         },
         {
-          "Id": "VirtoCommerce.Notifications",
-          "BlobName": "VirtoCommerce.Notifications_3.818.0-alpha.404.zip"
-        },
-        {
           "Id": "VirtoCommerce.ImageTools",
           "BlobName": "VirtoCommerce.ImageTools_3.810.0-alpha.363.zip"
         },
@@ -300,6 +296,10 @@
         {
           "Id": "VirtoCommerce.XCatalog",
           "BlobName": "VirtoCommerce.XCatalog_3.915.0-alpha.94.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Notifications",
+          "BlobName": "VirtoCommerce.Notifications_3.819.0-alpha.406.zip"
         }
       ]
     }
