@@ -39,7 +39,7 @@
         },
         {
           "Id": "VirtoCommerce.Orders",
-          "BlobName": "VirtoCommerce.Orders_3.844.0.zip"
+          "BlobName": "VirtoCommerce.Orders_3.844.0-pr-452-456b.zip"
         },
         {
           "Id": "VirtoCommerce.OrderManagement",
@@ -47,7 +47,7 @@
         },
         {
           "Id": "VirtoCommerce.XCatalog",
-          "BlobName": "VirtoCommerce.XCatalog_3.914.0.zip"
+          "BlobName": "VirtoCommerce.XCatalog_3.913.0-pr-49-23e1.zip"
         },
         {
           "Id": "VirtoCommerce.Catalog",
@@ -60,6 +60,10 @@
         {
           "Id": "VirtoCommerce.XCart",
           "BlobName": "VirtoCommerce.XCart_3.912.0-pr-45-f960.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XOrder",
+          "BlobName": "VirtoCommerce.XOrder_3.907.0-pr-26-aed4.zip"
         }
       ]
     },
@@ -301,10 +305,6 @@
         {
           "Id": "VirtoCommerce.Cart",
           "Version": "3.827.0"
-        },
-        {
-          "Id": "VirtoCommerce.XOrder",
-          "Version": "3.906.0"
         },
         {
           "Id": "VirtoCommerce.FileExperienceApi",
