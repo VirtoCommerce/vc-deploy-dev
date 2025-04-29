@@ -16,9 +16,6 @@
         {
           "BlobName": "VirtoCommerce.PageBuilderModule_3.819.0.zip"
         },
-         {
-          "BlobName": "VirtoCommerce.Catalog_3.856.0-pr-787-8309.zip"
-        },
         {
           "BlobName": "VirtoCommerce.XCart_3.912.0-pr-47-d9cd.zip"
         },
@@ -295,6 +292,10 @@
         {
           "Id": "VirtoCommerce.XCatalog",
           "Version": "3.913.0"
+        },
+         {
+          "Id": "VirtoCommerce.Catalog",
+          "Version": "3.858.0"
         }
       ]
     }
