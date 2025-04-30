@@ -29,7 +29,7 @@
           "Id": "VirtoCommerce.AlgoliaSearch_3.801.0",
           "BlobName": "VirtoCommerce.AlgoliaSearch_3.801.0-pr-3-a62c.zip"
         },
-          {
+        {
           "Id": "VirtoCommerce.Xapi",
           "BlobName": "VirtoCommerce.Xapi_3.913.0.zip"
         },
@@ -50,10 +50,6 @@
           "BlobName": "VirtoCommerce.XCatalog_3.915.0-pr-49-0986.zip"
         },
         {
-          "Id": "VirtoCommerce.Catalog",
-          "BlobName": "VirtoCommerce.Catalog_3.859.0-pr-790-58c9.zip"
-        },
-        {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.909.0-pr-106-aab7.zip"
         },
@@ -64,6 +60,10 @@
         {
           "Id": "VirtoCommerce.XOrder",
           "BlobName": "VirtoCommerce.XOrder_3.907.0-pr-26-e70a.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "BlobName": "VirtoCommerce.Catalog_3.860.0.zip"
         }
       ]
     },
@@ -72,7 +72,6 @@
       "ModuleSources": [
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
-
       "Modules": [
         {
           "Id": "VirtoCommerce.Sitemaps",
@@ -82,7 +81,7 @@
           "Id": "VirtoCommerce.Search",
           "Version": "3.811.0"
         },
-        { 
+        {
           "Id": "VirtoCommerce.Payment",
           "Version": "3.808.0"
         },
@@ -93,22 +92,22 @@
         {
           "Id": "VirtoCommerce.Tax",
           "Version": "3.803.0"
-         },
-         {
+        },
+        {
           "Id": "VirtoCommerce.AvalaraTax",
           "Version": "3.802.0"
-         },
-         {
+        },
+        {
           "Id": "VirtoCommerce.Quote",
           "Version": "3.903.0"
-         },
-         {
+        },
+        {
           "Id": "VirtoCommerce.Pages",
           "Version": "3.805.0"
         },
         {
-           "Id": "VirtoCommerce.SeqLog",
-           "Version": "3.800.0"
+          "Id": "VirtoCommerce.SeqLog",
+          "Version": "3.800.0"
         },
         {
           "Id": "VirtoCommerce.AzureBlobAssets",
@@ -326,4 +325,3 @@
     }
   ]
 }
-
