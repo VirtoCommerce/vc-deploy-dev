@@ -294,16 +294,16 @@
           "BlobName": "VirtoCommerce.OrderManagement_3.802.0-alpha.5.zip"
         },
         {
-          "Id": "VirtoCommerce.Catalog",
-          "BlobName": "VirtoCommerce.Catalog_3.861.0-alpha.2327.zip"
-        },
-        {
           "Id": "VirtoCommerce.Orders",
           "BlobName": "VirtoCommerce.Orders_3.845.0-alpha.1321.zip"
         },
         {
           "Id": "VirtoCommerce.XCatalog",
           "BlobName": "VirtoCommerce.XCatalog_3.915.0-alpha.95.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "BlobName": "VirtoCommerce.Catalog_3.861.0-alpha.2328.zip"
         }
       ]
     }
