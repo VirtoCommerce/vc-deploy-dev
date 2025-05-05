@@ -36,35 +36,7 @@
         {
           "Id": "VirtoCommerce.CyberSourcePayment",
           "BlobName": "VirtoCommerce.CyberSourcePayment_3.802.0-pr-5-0650.zip"
-        },
-        {
-          "Id": "VirtoCommerce.Orders",
-          "BlobName": "VirtoCommerce.Orders_3.845.0-pr-452-c81a.zip"
-        },
-        {
-          "Id": "VirtoCommerce.OrderManagement",
-          "BlobName": "VirtoCommerce.OrderManagement_3.800.0-pr-1-d870.zip"
-        },
-        {
-          "Id": "VirtoCommerce.XCatalog",
-          "BlobName": "VirtoCommerce.XCatalog_3.915.0-pr-49-0986.zip"
-        },
-        {
-          "Id": "VirtoCommerce.Catalog",
-          "BlobName": "VirtoCommerce.Catalog_3.859.0-pr-790-58c9.zip"
-        },
-        {
-          "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.909.0-pr-106-aab7.zip"
-        },
-        {
-          "Id": "VirtoCommerce.XCart",
-          "BlobName": "VirtoCommerce.XCart_3.912.0-pr-45-f960.zip"
-        },
-        {
-          "Id": "VirtoCommerce.XOrder",
-          "BlobName": "VirtoCommerce.XOrder_3.907.0-pr-26-e70a.zip"
-        }
+        }     
       ]
     },
     {
@@ -73,7 +45,35 @@
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
 
-      "Modules": [
+      "Modules": [  
+          {
+          "Id": "VirtoCommerce.XOrder",
+          "Version": "3.907.0"
+         },
+         {
+          "Id": "VirtoCommerce.XCart",
+          "Version": "3.913.0"
+         },
+         {
+          "Id": "VirtoCommerce.XCatalog",
+          "Version": "3.915.0"
+         },
+         {
+          "Id": "VirtoCommerce.Orders",
+          "Version": "3.845.0"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "Version": "3.861.0"
+        },
+        {
+          "Id": "VirtoCommerce.OrderManagement",
+          "Version": "3.801.0"
+        },
+        {
+          "Id": "VirtoCommerce.ProfileExperienceApiModule",
+          "Version": "3.911.0"
+        },
         {
           "Id": "VirtoCommerce.Sitemaps",
           "Version": "3.815.0"
