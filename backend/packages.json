@@ -15,10 +15,7 @@
       "Modules": [
         {
           "BlobName": "VirtoCommerce.PageBuilderModule_3.819.0.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.XCart_3.912.0-pr-45-f960.zip"
-        }  
+        }        
       ]
     },
     {
@@ -240,12 +237,20 @@
           "Version": "3.805.0"
         },
         {
+          "Id": "VirtoCommerce.XOrder",
+          "Version": "3.906.0"
+        },
+        {
           "Id": "VirtoCommerce.Shipping",
           "Version": "3.808.0"
         },
         {
           "Id": "VirtoCommerce.ElasticAppSearch",
           "Version": "3.809.0"
+        },
+        {
+          "Id": "VirtoCommerce.XCart",
+          "Version": "3.911.0"
         },
         {
           "Id": "VirtoCommerce.Xapi",
@@ -272,12 +277,20 @@
           "Version": "3.815.0"
         },
         {
+          "Id": "VirtoCommerce.XCatalog",
+          "Version": "3.914.0"
+        },
+        {
           "Id": "VirtoCommerce.Notifications",
           "Version": "3.819.0"
         },
         {
           "Id": "VirtoCommerce.Customer",
           "Version": "3.829.0"
+        },
+        {
+          "Id": "VirtoCommerce.Orders",
+          "Version": "3.844.0"
         },
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
@@ -289,22 +302,9 @@
         },
         {
           "Id": "VirtoCommerce.Catalog",
-          "Version": "3.861.0"
-        },
-        {
-          "Id": "VirtoCommerce.Orders",
-          "Version": "3.845.0"
-        },
-        {
-          "Id": "VirtoCommerce.XCatalog",
-          "Version": "3.915.0"
-        },
-        {
-          "Id": "VirtoCommerce.XOrder",
-          "Version": "3.907.0"
+          "Version": "3.860.0"
         }
       ]
     }
   ]
 }
-
