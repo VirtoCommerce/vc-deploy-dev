@@ -15,6 +15,9 @@
       "Modules": [
         {
           "BlobName": "VirtoCommerce.PageBuilderModule_3.819.0.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.XCatalog_3.913.0-pr-48-b4be.zip"
         }
       ]
     },
@@ -271,10 +274,6 @@
         {
           "Id": "VirtoCommerce.Sitemaps",
           "Version": "3.815.0"
-        },
-        {
-          "Id": "VirtoCommerce.XCatalog",
-          "Version": "3.915.0"
         },
         {
           "Id": "VirtoCommerce.Notifications",
