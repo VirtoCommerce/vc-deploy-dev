@@ -298,12 +298,12 @@
           "BlobName": "VirtoCommerce.XCatalog_3.916.0-alpha.96.zip"
         },
         {
-          "Id": "VirtoCommerce.XOrder",
-          "BlobName": "VirtoCommerce.XOrder_3.908.0-alpha.61.zip"
-        },
-        {
           "Id": "VirtoCommerce.XCart",
           "BlobName": "VirtoCommerce.XCart_3.914.0-alpha.96.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XOrder",
+          "BlobName": "VirtoCommerce.XOrder_3.909.0-alpha.62.zip"
         }
       ]
     }
