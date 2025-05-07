@@ -186,10 +186,6 @@
           "BlobName": "VirtoCommerce.ImageTools_3.810.0-alpha.363.zip"
         },
         {
-          "Id": "VirtoCommerce.Core",
-          "BlobName": "VirtoCommerce.Core_3.820.0-alpha.1652.zip"
-        },
-        {
           "Id": "VirtoCommerce.CyberSourcePayment",
           "BlobName": "VirtoCommerce.CyberSourcePayment_3.803.0-alpha.42.zip"
         },
@@ -304,6 +300,10 @@
         {
           "Id": "VirtoCommerce.XOrder",
           "BlobName": "VirtoCommerce.XOrder_3.909.0-alpha.62.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Core",
+          "BlobName": "VirtoCommerce.Core_3.820.0-alpha.1653.zip"
         }
       ]
     }
