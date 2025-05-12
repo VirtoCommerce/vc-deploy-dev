@@ -36,10 +36,6 @@
         {
           "Id": "VirtoCommerce.CyberSourcePayment",
           "BlobName": "VirtoCommerce.CyberSourcePayment_3.802.0-pr-5-0650.zip"
-        },
-        {
-          "Id": "VirtoCommerce.Core",
-          "BlobName": "VirtoCommerce.Core_3.820.0-pr-239-813e.zip"
         }
       ]
     },
@@ -49,10 +45,14 @@
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
 
-      "Modules": [  
+      "Modules": [ 
+          {
+          "Id": "VirtoCommerce.Core",
+          "Version": "3.820.0"
+          },
           {
           "Id": "VirtoCommerce.XOrder",
-          "Version": "3.907.0"
+          "Version": "3.908.0"
          },
          {
           "Id": "VirtoCommerce.XCart",
