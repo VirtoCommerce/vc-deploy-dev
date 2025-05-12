@@ -44,6 +44,10 @@
         {
           "Id": "VirtoCommerce.OrderManagement",
           "BlobName": "VirtoCommerce.OrderManagement_3.802.0-pr-2-7081.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ProfileExperienceApiModule",
+          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.912.0-pr-107-f566.zip"
         }
       ]
     },
@@ -73,10 +77,6 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "Version": "3.861.0"
-        },
-        {
-          "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.911.0"
         },
         {
           "Id": "VirtoCommerce.Sitemaps",
