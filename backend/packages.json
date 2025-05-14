@@ -31,36 +31,24 @@
         },
           {
           "Id": "VirtoCommerce.Xapi",
-          "BlobName": "VirtoCommerce.Xapi_3.913.0.zip"
+          "BlobName": "VirtoCommerce.Xapi_3.914.0-pr-39-88ae.zip"
         },
         {
           "Id": "VirtoCommerce.CyberSourcePayment",
           "BlobName": "VirtoCommerce.CyberSourcePayment_3.802.0-pr-5-0650.zip"
         },
         {
-          "Id": "VirtoCommerce.Orders",
-          "BlobName": "VirtoCommerce.Orders_3.847.0-pr-454-4bf0.zip"
-        },
-        {
           "Id": "VirtoCommerce.OrderManagement",
-          "BlobName": "VirtoCommerce.OrderManagement_3.802.0.zip"
-        },
-        {
-          "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.912.0-pr-107-392f.zip"
+          "BlobName": "VirtoCommerce.OrderManagement_3.803.0.zip"
         },
          {
-          "Id": "VirtoCommerce.Customer",
-          "BlobName": "VirtoCommerce.Customer_3.830.0-pr-269-13fe.zip"
-        },
-        {
-          "Id": "VirtoCommerce.Quote",
-          "BlobName": "VirtoCommerce.Quote_3.904.0-pr-135-bbaf.zip"
+          "Id": "VirtoCommerce.Catalog",
+          "BlobName": "VirtoCommerce.Catalog_3.862.0-pr-796-eb23.zip"
          },
          {
-          "Id": "VirtoCommerce.Cart",
-          "BlobName": "VirtoCommerce.Cart_3.829.0-pr-169-1e74.zip"
-        }
+          "Id": "VirtoCommerce.XCatalog",
+          "BlobName": "VirtoCommerce.XCatalog_3.917.0-pr-48-3ec5.zip"
+         }
       ]
     },
     {
@@ -70,26 +58,38 @@
       ],
 
       "Modules": [ 
+           {
+          "Id": "VirtoCommerce.Cart",
+          "Version": "3.829.0"
+           },
+           {
+          "Id": "VirtoCommerce.Customer",
+          "Version": "3.830.0"
+           },
+           {
+          "Id": "VirtoCommerce.Orders",
+          "Version": "3.847.0"
+           },
+           {
+          "Id": "VirtoCommerce.Quote",
+          "Version": "3.904.0"
+          },
+          {
+          "Id": "VirtoCommerce.ProfileExperienceApiModule",
+          "Version": "3.913.0"
+          },
           {
           "Id": "VirtoCommerce.Core",
           "Version": "3.820.0"
           },
           {
           "Id": "VirtoCommerce.XOrder",
-          "Version": "3.908.0"
+          "Version": "3.909.0"
          },
          {
           "Id": "VirtoCommerce.XCart",
           "Version": "3.913.0"
          },
-         {
-          "Id": "VirtoCommerce.XCatalog",
-          "Version": "3.915.0"
-         },
-        {
-          "Id": "VirtoCommerce.Catalog",
-          "Version": "3.861.0"
-        },
         {
           "Id": "VirtoCommerce.Sitemaps",
           "Version": "3.815.0"
@@ -116,7 +116,7 @@
          },
          {
           "Id": "VirtoCommerce.Pages",
-          "Version": "3.805.0"
+          "Version": "3.806.0"
         },
         {
            "Id": "VirtoCommerce.SeqLog",
