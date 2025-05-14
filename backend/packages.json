@@ -15,7 +15,16 @@
       "Modules": [
         {
           "BlobName": "VirtoCommerce.PageBuilderModule_3.819.0.zip"
-        }        
+        },
+        {
+          "BlobName": "VirtoCommerce.XCatalog_3.916.0-pr-50-88c7.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.XOrder_3.909.0-pr-27-7c34.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Catalog_3.862.0-pr-793-57cb.zip"
+        } 
       ]
     },
     {
@@ -24,7 +33,7 @@
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
       "Modules": [
-              {
+        {
           "Id": "VirtoCommerce.AzureBlobAssets",
           "Version": "3.809.0"
         },
@@ -237,10 +246,6 @@
           "Version": "3.805.0"
         },
         {
-          "Id": "VirtoCommerce.XOrder",
-          "Version": "3.906.0"
-        },
-        {
           "Id": "VirtoCommerce.Shipping",
           "Version": "3.808.0"
         },
@@ -277,10 +282,6 @@
           "Version": "3.815.0"
         },
         {
-          "Id": "VirtoCommerce.XCatalog",
-          "Version": "3.914.0"
-        },
-        {
           "Id": "VirtoCommerce.Notifications",
           "Version": "3.819.0"
         },
@@ -290,7 +291,7 @@
         },
         {
           "Id": "VirtoCommerce.Orders",
-          "Version": "3.844.0"
+          "Version": "3.845.0"
         },
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
@@ -299,13 +300,8 @@
         {
           "Id": "VirtoCommerce.OrderManagement",
           "Version": "3.801.0"
-        },
-        {
-          "Id": "VirtoCommerce.Catalog",
-          "Version": "3.860.0"
         }
       ]
     }
   ]
 }
-
