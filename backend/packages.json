@@ -29,7 +29,7 @@
           "Id": "VirtoCommerce.AlgoliaSearch_3.801.0",
           "BlobName": "VirtoCommerce.AlgoliaSearch_3.801.0-pr-3-a62c.zip"
         },
-          {
+        {
           "Id": "VirtoCommerce.Xapi",
           "BlobName": "VirtoCommerce.Xapi_3.913.0.zip"
         },
@@ -41,14 +41,14 @@
           "Id": "VirtoCommerce.OrderManagement",
           "BlobName": "VirtoCommerce.OrderManagement_3.803.0.zip"
         },
-         {
-          "Id": "VirtoCommerce.Catalog",
-          "BlobName": "VirtoCommerce.Catalog_3.862.0-pr-796-8e6b.zip"
-         },
-         {
+        {
           "Id": "VirtoCommerce.XCatalog",
           "BlobName": "VirtoCommerce.XCatalog_3.917.0-pr-48-baee.zip"
-         }
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "BlobName": "VirtoCommerce.Catalog_3.863.0.zip"
+        }
       ]
     },
     {
@@ -56,40 +56,39 @@
       "ModuleSources": [
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
-
-      "Modules": [ 
-           {
+      "Modules": [
+        {
           "Id": "VirtoCommerce.Cart",
           "Version": "3.829.0"
-           },
-           {
+        },
+        {
           "Id": "VirtoCommerce.Customer",
           "Version": "3.830.0"
-           },
-           {
+        },
+        {
           "Id": "VirtoCommerce.Orders",
           "Version": "3.847.0"
-           },
-           {
+        },
+        {
           "Id": "VirtoCommerce.Quote",
           "Version": "3.904.0"
-          },
-          {
+        },
+        {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "Version": "3.913.0"
-          },
-          {
+        },
+        {
           "Id": "VirtoCommerce.Core",
           "Version": "3.820.0"
-          },
-          {
+        },
+        {
           "Id": "VirtoCommerce.XOrder",
           "Version": "3.909.0"
-         },
-         {
+        },
+        {
           "Id": "VirtoCommerce.XCart",
           "Version": "3.913.0"
-         },
+        },
         {
           "Id": "VirtoCommerce.Sitemaps",
           "Version": "3.815.0"
@@ -98,7 +97,7 @@
           "Id": "VirtoCommerce.Search",
           "Version": "3.811.0"
         },
-        { 
+        {
           "Id": "VirtoCommerce.Payment",
           "Version": "3.808.0"
         },
@@ -109,18 +108,18 @@
         {
           "Id": "VirtoCommerce.Tax",
           "Version": "3.803.0"
-         },
-         {
+        },
+        {
           "Id": "VirtoCommerce.AvalaraTax",
           "Version": "3.802.0"
-         },
-         {
+        },
+        {
           "Id": "VirtoCommerce.Pages",
           "Version": "3.806.0"
         },
         {
-           "Id": "VirtoCommerce.SeqLog",
-           "Version": "3.800.0"
+          "Id": "VirtoCommerce.SeqLog",
+          "Version": "3.800.0"
         },
         {
           "Id": "VirtoCommerce.AzureBlobAssets",
@@ -326,4 +325,3 @@
     }
   ]
 }
-
