@@ -15,10 +15,7 @@
       "Modules": [
         {
           "BlobName": "VirtoCommerce.PageBuilderModule_3.819.0.zip"
-        }, 
-        {
-          "BlobName": "VirtoCommerce.Catalog_3.863.0.zip"
-        } 
+        }
       ]
     },
     {
@@ -27,7 +24,7 @@
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
       "Modules": [
-        {
+       {
           "Id": "VirtoCommerce.AzureBlobAssets",
           "Version": "3.809.0"
         },
@@ -272,10 +269,6 @@
           "Version": "3.803.0"
         },
         {
-          "Id": "VirtoCommerce.XCatalog",
-          "Version": "3.917.0"
-        },
-        {
           "Id": "VirtoCommerce.Pages",
           "Version": "3.806.0"
         },
@@ -302,6 +295,14 @@
         {
           "Id": "VirtoCommerce.XOrder",
           "Version": "3.909.0"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "Version": "3.863.0"
+        },
+        {
+          "Id": "VirtoCommerce.XCatalog",
+          "Version": "3.917.0"
         }
       ]
     }
