@@ -85,7 +85,12 @@
       Notifications__MicrosoftGraph__TenantId: 70697aab-b16c-4648-ad2b-5cc5b193e9a5
       Notifications__MicrosoftGraph__SecretValue: Ua58Q~3lrsu2MXDTXFMBdkSE8hOIR8KXsYwjNcin
       #Notifications__Smtp__EnableSsl: False
-      
+
+      Seo__SeoInfoResolver__0: ContentFile
+      Seo__SeoInfoResolver__1: Pages
+      Seo__SeoInfoResolver__2: Catalog
+      Seo__SeoInfoResolver__3: Category
+      Seo__SeoInfoResolver__4: CatalogProduct
 
       ASPNETCORE_ENVIRONMENT: Development
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
