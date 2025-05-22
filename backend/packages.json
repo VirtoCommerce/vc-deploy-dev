@@ -31,7 +31,7 @@
         },
           {
           "Id": "VirtoCommerce.Xapi",
-          "BlobName": "VirtoCommerce.Xapi_3.913.0.zip"
+          "BlobName": "VirtoCommerce.Xapi_3.914.0-pr-40-270b.zip"
         },
         {
           "Id": "VirtoCommerce.CyberSourcePayment",
@@ -56,7 +56,19 @@
          {
           "Id": "VirtoCommerce.Orders",
           "BlobName": "VirtoCommerce.Orders_3.848.0-pr-455-520f.zip"
-         }
+         },
+         {
+          "Id": "VirtoCommerce.Store",
+          "BlobName": "VirtoCommerce.Store_3.814.0-pr-149-3bf4.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XCMS",
+          "BlobName": "VirtoCommerce.XCMS_3.902.0-pr-12-c9af.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Pages",
+          "BlobName": "VirtoCommerce.Pages_3.807.0-pr-6-87e6.zip"
+        }
       ]
     },
     {
@@ -114,10 +126,6 @@
           "Id": "VirtoCommerce.AvalaraTax",
           "Version": "3.802.0"
          },
-         {
-          "Id": "VirtoCommerce.Pages",
-          "Version": "3.806.0"
-        },
         {
            "Id": "VirtoCommerce.SeqLog",
            "Version": "3.800.0"
@@ -235,10 +243,6 @@
           "Version": "3.804.0"
         },
         {
-          "Id": "VirtoCommerce.XCMS",
-          "Version": "3.901.0"
-        },
-        {
           "Id": "VirtoCommerce.MarketingExperienceApi",
           "Version": "3.901.0"
         },
@@ -285,10 +289,6 @@
         {
           "Id": "VirtoCommerce.Shipping",
           "Version": "3.808.0"
-        },
-        {
-          "Id": "VirtoCommerce.Store",
-          "Version": "3.813.0"
         },
         {
           "Id": "VirtoCommerce.OpenSearch",
