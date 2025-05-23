@@ -222,10 +222,6 @@
           "BlobName": "VirtoCommerce.ElasticAppSearch_3.810.0-alpha.141.zip"
         },
         {
-          "Id": "VirtoCommerce.Xapi",
-          "BlobName": "VirtoCommerce.Xapi_3.914.0-alpha.90.zip"
-        },
-        {
           "Id": "VirtoCommerce.CustomerExportImport",
           "BlobName": "VirtoCommerce.CustomerExportImport_3.811.0-alpha.181.zip"
         },
@@ -308,6 +304,10 @@
         {
           "Id": "VirtoCommerce.XCMS",
           "BlobName": "VirtoCommerce.XCMS_3.902.0-alpha.28.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Xapi",
+          "BlobName": "VirtoCommerce.Xapi_3.914.0-alpha.91.zip"
         }
       ]
     }
