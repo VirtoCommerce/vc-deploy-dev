@@ -142,10 +142,6 @@
           "BlobName": "VirtoCommerce.AuthorizeNetPayment_3.805.0-alpha.82.zip"
         },
         {
-          "Id": "VirtoCommerce.XCMS",
-          "BlobName": "VirtoCommerce.XCMS_3.902.0-alpha.25.zip"
-        },
-        {
           "Id": "VirtoCommerce.MarketingExperienceApi",
           "BlobName": "VirtoCommerce.MarketingExperienceApi_3.902.0-alpha.63.zip"
         },
@@ -308,6 +304,10 @@
         {
           "Id": "VirtoCommerce.Store",
           "BlobName": "VirtoCommerce.Store_3.815.0-alpha.723.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XCMS",
+          "BlobName": "VirtoCommerce.XCMS_3.902.0-alpha.28.zip"
         }
       ]
     }
