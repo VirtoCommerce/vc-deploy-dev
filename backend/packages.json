@@ -14,6 +14,10 @@
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
          {
+          "Id": "VirtoCommerce.Export",
+          "BlobName": "VirtoCommerce.Export_3.805.0-pr-91-562d.zip"
+         },
+         {
           "Id": "VirtoCommerce.PageBuilderModule",
           "BlobName": "VirtoCommerce.PageBuilderModule_3.821.0.zip"
         },
@@ -149,10 +153,6 @@
         {
           "Id": "VirtoCommerce.WebHooks",
           "Version": "3.806.0"
-        },
-        {
-          "Id": "VirtoCommerce.Export",
-          "Version": "3.804.0"
         },
         {
           "Id": "VirtoCommerce.DynamicAssociationsModule",
