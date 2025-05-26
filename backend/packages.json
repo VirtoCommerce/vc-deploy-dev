@@ -20,10 +20,13 @@
           "BlobName": "VirtoCommerce.XCatalog_3.917.0-pr-48-a54e.zip"
         },
         {
-          "BlobName": "VirtoCommerce.Xapi_3.914.0-pr-39-88ae.zip"
+          "BlobName": "VirtoCommerce.Xapi_3.914.0-pr-41-54fa.zip"
         },
         {
           "BlobName": "VirtoCommerce.Catalog_3.862.0-pr-796-39a1.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.WhiteLabeling_3.906.0-pr-17-8e66.zip"
         }
       ]
     },
@@ -236,10 +239,6 @@
         {
           "Id": "VirtoCommerce.Inventory",
           "Version": "3.808.0"
-        },
-        {
-          "Id": "VirtoCommerce.WhiteLabeling",
-          "Version": "3.905.0"
         },
         {
           "Id": "VirtoCommerce.Pages",
