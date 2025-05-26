@@ -202,10 +202,6 @@
           "BlobName": "VirtoCommerce.CatalogPublishing_3.806.0-alpha.360.zip"
         },
         {
-          "Id": "VirtoCommerce.Inventory",
-          "BlobName": "VirtoCommerce.Inventory_3.809.0-alpha.474.zip"
-        },
-        {
           "Id": "VirtoCommerce.WhiteLabeling",
           "BlobName": "VirtoCommerce.WhiteLabeling_3.906.0-alpha.43.zip"
         },
@@ -308,6 +304,10 @@
         {
           "Id": "VirtoCommerce.Store",
           "BlobName": "VirtoCommerce.Store_3.816.0-alpha.725.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Inventory",
+          "BlobName": "VirtoCommerce.Inventory_3.809.0-alpha.475.zip"
         }
       ]
     }
