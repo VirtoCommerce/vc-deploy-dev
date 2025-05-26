@@ -17,13 +17,7 @@
           "BlobName": "VirtoCommerce.PageBuilderModule_3.819.0.zip"
         },
         {
-          "BlobName": "VirtoCommerce.XCatalog_3.917.0-pr-48-a54e.zip"
-        },
-        {
           "BlobName": "VirtoCommerce.Xapi_3.914.0-pr-41-54fa.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.Catalog_3.862.0-pr-796-39a1.zip"
         },
         {
           "BlobName": "VirtoCommerce.WhiteLabeling_3.906.0-pr-17-8e66.zip"
@@ -79,6 +73,10 @@
         {
           "Id": "VirtoCommerce.EventBus",
           "Version": "3.807.0"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "Version": "3.863.0"
         },
         {
           "Id": "VirtoCommerce.Contentful",
@@ -295,6 +293,10 @@
         {
           "Id": "VirtoCommerce.OrderManagement",
           "Version": "3.801.0"
+        },
+        {
+          "Id": "VirtoCommerce.XCatalog",
+          "Version": "3.917.0"
         },
         {
           "Id": "VirtoCommerce.XCart",
