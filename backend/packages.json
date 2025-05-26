@@ -13,6 +13,10 @@
       "Container": "packages",
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
+         {
+          "Id": "VirtoCommerce.PageBuilderModule",
+          "BlobName": "VirtoCommerce.PageBuilderModule_3.821.0.zip"
+        },
         {
           "Id": "VirtoCommerce.PowerBiReports",
           "BlobName": "VirtoCommerce.PowerBiReports_3.800.0-pr-5-3363.zip"
@@ -34,10 +38,6 @@
       ],
 
       "Modules": [ 
-         {
-          "Id": "VirtoCommerce.PageBuilderModule",
-          "Version": "3.821.0"
-        },
         {
           "Id": "VirtoCommerce.AuditLog",
           "Version": "3.808.0"
