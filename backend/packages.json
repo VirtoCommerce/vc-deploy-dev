@@ -13,11 +13,11 @@
       "Container": "packages",
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
-         {
+        {
           "Id": "VirtoCommerce.Export",
           "BlobName": "VirtoCommerce.Export_3.805.0-pr-91-562d.zip"
-         },
-         {
+        },
+        {
           "Id": "VirtoCommerce.PageBuilderModule",
           "BlobName": "VirtoCommerce.PageBuilderModule_3.821.0.zip"
         },
@@ -39,7 +39,7 @@
         },
         {
           "Id": "VirtoCommerce.Catalog",
-          "BlobName": "VirtoCommerce.Catalog_3.867.0-pr-804-1d9d.zip"
+          "BlobName": "VirtoCommerce.Catalog_3.867.0.zip"
         }
       ]
     },
@@ -48,8 +48,7 @@
       "ModuleSources": [
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
-
-      "Modules": [ 
+      "Modules": [
         {
           "Id": "VirtoCommerce.OrderManagement",
           "Version": "3.803.0"
@@ -57,12 +56,12 @@
         {
           "Id": "VirtoCommerce.XCatalog",
           "Version": "3.917.0"
-         },
-         {
+        },
+        {
           "Id": "VirtoCommerce.Store",
           "Version": "3.814.0"
-         },
-         {
+        },
+        {
           "Id": "VirtoCommerce.Pages",
           "Version": "3.807.0"
         },
@@ -79,7 +78,7 @@
           "Version": "3.848.0"
         },
         {
-           "Id": "VirtoCommerce.Customer",
+          "Id": "VirtoCommerce.Customer",
           "Version": "3.831.0"
         },
         {
@@ -114,7 +113,7 @@
           "Id": "VirtoCommerce.Search",
           "Version": "3.811.0"
         },
-        { 
+        {
           "Id": "VirtoCommerce.Payment",
           "Version": "3.808.0"
         },
@@ -131,8 +130,8 @@
           "Version": "3.802.0"
         },
         {
-           "Id": "VirtoCommerce.SeqLog",
-           "Version": "3.800.0"
+          "Id": "VirtoCommerce.SeqLog",
+          "Version": "3.800.0"
         },
         {
           "Id": "VirtoCommerce.AzureBlobAssets",
@@ -326,4 +325,3 @@
     }
   ]
 }
-
