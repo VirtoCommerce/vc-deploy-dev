@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.888.0-pr-2909-917b-vcst-3154-917b30a2",
+  "PlatformVersion": "3.889.0-pr-2909-9e12-vcst-3154-9e12fcd0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.888.0-pr-2909-917b-vcst-3154-917b30a2",
+  "PlatformImageTag": "3.889.0-pr-2909-9e12-vcst-3154-9e12fcd0",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -17,19 +17,19 @@
           "BlobName": "VirtoCommerce.PageBuilderModule_3.819.0.zip"
         },
         {
-          "BlobName": "VirtoCommerce.Pricing_3.814.0-pr-221-1c8f.zip"
+          "BlobName": "VirtoCommerce.Pricing_3.815.0-pr-221-a6af.zip"
         },
         {
-          "BlobName": "VirtoCommerce.Store_3.814.0-pr-150-81e1.zip"
+          "BlobName": "VirtoCommerce.Store_3.816.0-pr-150-ea41.zip"
         },
         {
-          "BlobName": "VirtoCommerce.Inventory_3.809.0-pr-149-d15e.zip"
+          "BlobName": "VirtoCommerce.Inventory_3.810.0-pr-149-6d86.zip"
         }, 
         {
-          "BlobName": "VirtoCommerce.Orders_3.849.0-pr-456-66d2.zip"
+          "BlobName": "VirtoCommerce.Orders_3.850.0-pr-456-b0f4.zip"
         },
         {
-          "BlobName": "VirtoCommerce.Catalog_3.864.0-pr-795-1f84.zip"
+          "BlobName": "VirtoCommerce.Catalog_3.867.0-pr-795-eee5.zip"
         } 
       ]
     },
