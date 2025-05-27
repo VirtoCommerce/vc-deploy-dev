@@ -8,6 +8,7 @@
       X-Response-Time: \$\request_time
     imageRepository: virtopaasregistrymain.azurecr.io/vcst/platform
     sqlReplica: false
+    dbName: vcst-qa-platform_restored
     config:
       # Increment to force environment reload
       reload: 9
@@ -155,7 +156,6 @@
       Tax__Avalara__AccountNumber: 2000188799
       Tax__Avalara__LicenseKey: 16BC3F87E836E15C
       Videos__GoogleApiKey: AIzaSyD5A4oFeSgaMQnMo3OiaqUSJ23SQGELiA4
-      Reload: 2024-09-12
     secretConfig:
       #Search__ElasticSearch8__Key: elastic8
       PushMessages__FcmSenderOptions__PrivateKey: fcm-private-key-new
@@ -179,17 +179,6 @@
       cross-origin-resource-policy: cross-origin
       X-Response-Time: \$\request_time
     enabled: false
-    imageRepository: virtopaasregistrymain.azurecr.io/vcst/storefront
-    servicePlan: B1
-    probePath: /
-    config:
-      #APPINSIGHTS_INSTRUMENTATIONKEY: 48cca1d8-ea02-433e-bfa6-7aa21acb88d9
-      CookieAuthenticationOptions__LoginPath: /sign-in
-      DOTNET_USE_POLLING_FILE_WATCHER: true
-      SnapshotCollectorConfiguration__IsEnabled: false
-      SYSTEM_RESTART: 25.10.2023
-      VirtoCommerce__Endpoint__Password: Store12345
-      VirtoCommerce__CacheSlidingExpiration: 0:0:5
     themes:
       B2B-store: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-2.0.0-pr-1136-1be8-1be89467.zip
   customApps:
@@ -227,7 +216,6 @@
       route: platform
   protectedParameters:
     - platform.image.tag
-    #- storefront.image.tag
     - themes.B2B-store
     - custom.app1.image.tag
-  version: 3.218
+  version: 3.231
