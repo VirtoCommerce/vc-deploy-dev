@@ -40,6 +40,10 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "BlobName": "VirtoCommerce.Catalog_3.866.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.CatalogCsvImportModule",
+          "BlobName": "VirtoCommerce.CatalogCsvImportModule_3.807.0-pr-115-0943.zip"
         }
       ]
     },
@@ -221,10 +225,6 @@
         {
           "Id": "VirtoCommerce.Pricing",
           "Version": "3.813.0"
-        },
-        {
-          "Id": "VirtoCommerce.CatalogCsvImportModule",
-          "Version": "3.806.0"
         },
         {
           "Id": "VirtoCommerce.ElasticSearch8",
