@@ -1,9 +1,9 @@
 
 {
 "ManifestVersion": "2.0",
-  "PlatformVersion": "3.887",
+  "PlatformVersion": "3.887.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.887",
+  "PlatformImageTag": "3.887.0",
   "PlatformAssetUrl": "",
 
   "ModuleSources": [
