@@ -101,7 +101,7 @@ jobs:
           echo $RELEASE_TAG
           export AUTH_TOKEN=${{ secrets.REPO_TOKEN }}
           ls -la
-          cd /home/vcadmin/loadtest-vcptcore
+          cd /home/vcadmin/loadtest-vcptcore/scripts
           ls -la
           python3.8 loadtest.py && rm loadtest.py
 #test
