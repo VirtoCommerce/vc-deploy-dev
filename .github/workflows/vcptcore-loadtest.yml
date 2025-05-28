@@ -79,8 +79,8 @@ jobs:
         host: ${{ secrets.VM_HOST }}
         username: vcadmin
         password: ${{ secrets.VM_PASSWORD }}
-        source: "${{ github.workspace }}/scripts/loadtest.py"
-        target: "/home/vcadmin/loadtest-vcptcore"
+        source: "scripts/loadtest.py"
+        target: "/home/vcadmin/loadtest-vcptcore/"
         rm: true
         overwrite: true
         # strip_components: 5
