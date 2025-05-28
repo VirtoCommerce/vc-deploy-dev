@@ -12,10 +12,6 @@
       ],
       "Modules": [
         {
-          "Id": "VirtoCommerce.AzureBlobAssets",
-          "Version": "3.809.0"
-        },
-        {
           "Id": "VirtoCommerce.FileSystemAssets",
           "Version": "3.805.0"
         },
@@ -290,6 +286,10 @@
         {
           "Id": "VirtoCommerce.Orders",
           "Version": "3.850.0"
+        },
+        {
+          "Id": "VirtoCommerce.AzureBlobAssets",
+          "Version": "3.810.0"
         }
       ]
     },
