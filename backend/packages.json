@@ -60,6 +60,10 @@
          {
           "Id": "VirtoCommerce.XOrder",
           "BlobName": "VirtoCommerce.XOrder_3.910.0-pr-28-ab4c.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Store",
+          "BlobName": "VirtoCommerce.Store_3.817.0-pr-152-0033.zip"
         }
       ]
     },
@@ -77,10 +81,6 @@
         {
           "Id": "VirtoCommerce.XCatalog",
           "Version": "3.917.0"
-         },
-         {
-          "Id": "VirtoCommerce.Store",
-          "Version": "3.814.0"
          },
          {
           "Id": "VirtoCommerce.Pages",
