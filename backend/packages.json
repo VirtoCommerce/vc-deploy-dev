@@ -44,6 +44,22 @@
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
           "BlobName": "VirtoCommerce.CatalogCsvImportModule_3.806.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Contracts",
+          "BlobName": "VirtoCommerce.Contracts_3.902.0-pr-29-97a1.zip"
+        },
+         {
+          "Id": "VirtoCommerce.ProfileExperienceApiModule",
+          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.914.0-pr-109-629b.zip"
+        },
+         {
+          "Id": "VirtoCommerce.Quote",
+          "BlobName": "VirtoCommerce.Quote_3.905.0-pr-136-ac3a.zip"
+        },
+         {
+          "Id": "VirtoCommerce.XOrder",
+          "BlobName": "VirtoCommerce.XOrder_3.910.0-pr-28-ab4c.zip"
         }
       ]
     },
@@ -91,20 +107,8 @@
           "Version": "3.829.0"
         },
         {
-          "Id": "VirtoCommerce.Quote",
-          "Version": "3.904.0"
-        },
-        {
-          "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.913.0"
-        },
-        {
           "Id": "VirtoCommerce.Core",
           "Version": "3.820.0"
-        },
-        {
-          "Id": "VirtoCommerce.XOrder",
-          "Version": "3.909.0"
         },
         {
           "Id": "VirtoCommerce.XCart",
@@ -256,10 +260,6 @@
         },
         {
           "Id": "VirtoCommerce.Skyflow",
-          "Version": "3.901.0"
-        },
-        {
-          "Id": "VirtoCommerce.Contracts",
           "Version": "3.901.0"
         },
         {
