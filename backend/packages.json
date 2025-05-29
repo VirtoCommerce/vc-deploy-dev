@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.887.0",
+  "PlatformVersion": "3.889.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.887.0",
+  "PlatformImageTag": "3.889.0",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -38,20 +38,8 @@
           "BlobName": "VirtoCommerce.CyberSourcePayment_3.802.0-pr-5-0650.zip"
         },
         {
-          "Id": "VirtoCommerce.Catalog",
-          "BlobName": "VirtoCommerce.Catalog_3.866.0.zip"
-        },
-        {
-          "Id": "VirtoCommerce.CatalogCsvImportModule",
-          "BlobName": "VirtoCommerce.CatalogCsvImportModule_3.806.0.zip"
-        },
-        {
           "Id": "VirtoCommerce.Contracts",
           "BlobName": "VirtoCommerce.Contracts_3.902.0-pr-29-97a1.zip"
-        },
-         {
-          "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.914.0-pr-109-629b.zip"
         },
          {
           "Id": "VirtoCommerce.Quote",
@@ -75,6 +63,18 @@
 
       "Modules": [ 
         {
+          "Id": "VirtoCommerce.Catalog",
+          "Version": "3.867.0"
+        },
+        {
+          "Id": "VirtoCommerce.ProfileExperienceApiModule",
+          "Version": "3.914.0"
+        },
+        {
+          "Id": "VirtoCommerce.CatalogCsvImportModule",
+          "Version": "3.807.0"
+        },
+        {
           "Id": "VirtoCommerce.OrderManagement",
           "Version": "3.803.0"
         },
@@ -96,7 +96,7 @@
         },
         {
           "Id": "VirtoCommerce.Orders",
-          "Version": "3.848.0"
+          "Version": "3.850.0"
         },
         {
            "Id": "VirtoCommerce.Customer",
@@ -104,7 +104,7 @@
         },
         {
           "Id": "VirtoCommerce.Cart",
-          "Version": "3.829.0"
+          "Version": "3.830.0"
         },
         {
           "Id": "VirtoCommerce.Core",
@@ -144,7 +144,7 @@
         },
         {
           "Id": "VirtoCommerce.AzureBlobAssets",
-          "Version": "3.809.0"
+          "Version": "3.810.0"
         },
         {
           "Id": "VirtoCommerce.FileSystemAssets",
@@ -228,7 +228,7 @@
         },
         {
           "Id": "VirtoCommerce.Pricing",
-          "Version": "3.813.0"
+          "Version": "3.815.0"
         },
         {
           "Id": "VirtoCommerce.ElasticSearch8",
@@ -304,7 +304,7 @@
         },
         {
           "Id": "VirtoCommerce.ElasticAppSearch",
-          "Version": "3.809.0"
+          "Version": "3.810.0"
         },
         {
           "Id": "VirtoCommerce.CustomerReviews",
@@ -320,7 +320,7 @@
         },
         {
           "Id": "VirtoCommerce.Inventory",
-          "Version": "3.808.0"
+          "Version": "3.810.0"
         }
       ]
     }
