@@ -153,6 +153,7 @@
     enabled: false
     themes:
       B2B-store: https://github.com/VirtoCommerce/vc-frontend/releases/download/2.22.0/vc-theme-b2b-vue-2.22.0.zip
+      B2B-loyalty: https://github.com/VirtoCommerce/vc-frontend/releases/download/2.22.0/vc-theme-b2b-vue-2.22.0.zip
     headers:
         Cross-Origin-Embedder-Policy: unsafe-none
         Cross-Origin-Resource-Policy: cross-origin
@@ -171,6 +172,8 @@
   frontend:
      - name: B2B-store
        prerender: true
+     - name: B2B-loyalty
+       prerender: true
   ingress:
     # config: >-
     #   add_header 'Access-Control-Allow-Origin' '*';
@@ -185,6 +188,27 @@
   routes:
   - host: virtostart-demo-store.govirto.com
     root: B2B-store
+    paths:
+    - path: /xapi
+      route: platform
+    - path: /files
+      route: platform
+    - path: /connect/token
+      route: platform
+    - path: /graphql
+      route: platform
+    - path: /revoke/token
+      route: platform
+    - path: /api/files
+      route: platform
+    - path: /externalsignin
+      route: platform
+    - path: /signin-oidc
+      route: platform
+    - path: /signin-google
+      route: platform
+  - host: virtostart-loyalty-store.govirto.com
+    root: B2B-loyalty
     paths:
     - path: /xapi
       route: platform
