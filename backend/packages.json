@@ -52,7 +52,11 @@
         {
           "Id": "VirtoCommerce.Store",
           "BlobName": "VirtoCommerce.Store_3.817.0-pr-152-0033.zip"
-        }
+        },
+        {
+          "Id": "VirtoCommerce.XCatalog",
+          "Version": "VirtoCommerce.XCatalog_3.918.0-pr-51-69ec.zip"
+         }
       ]
     },
     {
@@ -78,10 +82,6 @@
           "Id": "VirtoCommerce.OrderManagement",
           "Version": "3.803.0"
         },
-        {
-          "Id": "VirtoCommerce.XCatalog",
-          "Version": "3.917.0"
-         },
          {
           "Id": "VirtoCommerce.Pages",
           "Version": "3.807.0"
