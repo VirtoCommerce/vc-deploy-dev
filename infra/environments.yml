@@ -16,6 +16,7 @@
       APPINSIGHTS_INSTRUMENTATIONKEY: ef0125aa-1c8e-42d3-964f-d0a11256309d      
       # Forward headers to Nginx
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
+      SqlServer__CompatibilityLevel: 120
       # Enable Azure Active Directory login in platform UI
       Authorization__AllowApiAccessForCustomers: true
       AzureAd__Enabled: true
