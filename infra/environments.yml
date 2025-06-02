@@ -132,7 +132,7 @@
       Search__ElasticSearch__Server: https://elasticsearch-vc03.govirto.com
       Search__ElasticSearch__EnableCompatibilityMode: true
       # ElasticSearch8
-      Search__ElasticSearch8__Server: https://13319bebe0eb452eb49c9f33ebb65400.eastus2.azure.elastic-cloud.com:443
+      Search__ElasticSearch8__Server: https://c8f1b4afcf244fffbf101368e10315ad.eastus2.azure.elastic-cloud.com:443
       Search__ElasticSearch8__User: elastic
       # VirtoCommerce Search settings
       Search__Provider: ElasticSearch8
@@ -158,7 +158,7 @@
       Tax__Avalara__LicenseKey: 16BC3F87E836E15C
       Videos__GoogleApiKey: AIzaSyD5A4oFeSgaMQnMo3OiaqUSJ23SQGELiA4
     secretConfig:
-      Search__ElasticSearch8__Key: elastic8-new
+      Search__ElasticSearch8__Key: elastic-8
       PushMessages__FcmSenderOptions__PrivateKey: fcm-private-key-new
       Notifications__SendGrid__ApiKey: sendgrid-apikey
       Payments__AuthorizeNet__TxnKey: authorizenet-txnkey
