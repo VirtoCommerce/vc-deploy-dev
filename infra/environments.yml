@@ -16,6 +16,7 @@
       APPINSIGHTS_INSTRUMENTATIONKEY: ef0125aa-1c8e-42d3-964f-d0a11256309d      
       # Forward headers to Nginx
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
+      SqlServer__CompatibilityLevel: 120
       # Enable Azure Active Directory login in platform UI
       Authorization__AllowApiAccessForCustomers: true
       AzureAd__Enabled: true
@@ -130,11 +131,11 @@
       # Elastic Search settings
       Search__ElasticSearch__Server: https://elasticsearch-vc03.govirto.com
       Search__ElasticSearch__EnableCompatibilityMode: true
-      # Elastic Search 8
-      #Search__ElasticSearch8__Server: https://1714126b27f941cb82f2c0e0d242d6b4.eastus2.azure.elastic-cloud.com
-      #Search__ElasticSearch8__User: elastic
+      # ElasticSearch8
+      Search__ElasticSearch8__Server: https://13319bebe0eb452eb49c9f33ebb65400.eastus2.azure.elastic-cloud.com:443
+      Search__ElasticSearch8__User: elastic
       # VirtoCommerce Search settings
-      Search__Provider: ElasticSearch
+      Search__Provider: ElasticSearch8
       #Search__Provider: OpenSearch
       #Search__OpenSearch__Server: https://opensearch-uat.govirto.com/
       #Search__OpenSearch__User: admin
@@ -157,7 +158,7 @@
       Tax__Avalara__LicenseKey: 16BC3F87E836E15C
       Videos__GoogleApiKey: AIzaSyD5A4oFeSgaMQnMo3OiaqUSJ23SQGELiA4
     secretConfig:
-      #Search__ElasticSearch8__Key: elastic8
+      Search__ElasticSearch8__Key: elastic8-new
       PushMessages__FcmSenderOptions__PrivateKey: fcm-private-key-new
       Notifications__SendGrid__ApiKey: sendgrid-apikey
       Payments__AuthorizeNet__TxnKey: authorizenet-txnkey
