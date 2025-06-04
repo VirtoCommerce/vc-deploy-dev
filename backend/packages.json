@@ -15,13 +15,7 @@
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
         {
-          "BlobName": "VirtoCommerce.AIDocumentProcessing_3.901.0-pr-6-5f80.zip"
-        },
-        {
           "BlobName": "VirtoCommerce.PageBuilderModule_3.819.0.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.ElasticSearch8_3.815.0-pr-28-d370.zip"
         }
       ]
     },
@@ -306,6 +300,10 @@
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "Version": "3.915.0"
+        },
+        {
+          "Id": "VirtoCommerce.ElasticSearch8",
+          "Version": "3.814.0"
         }
       ]
     }
