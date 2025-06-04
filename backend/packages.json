@@ -21,6 +21,9 @@
         },
         {
           "BlobName": "VirtoCommerce.WhiteLabeling_3.906.0-pr-17-8e66.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Shipping_3.810.0-pr-58-6183.zip"
         }
       ]
     },
@@ -245,10 +248,6 @@
         {
           "Id": "VirtoCommerce.XOrder",
           "Version": "3.907.0"
-        },
-        {
-          "Id": "VirtoCommerce.Shipping",
-          "Version": "3.808.0"
         },
         {
           "Id": "VirtoCommerce.ElasticAppSearch",
