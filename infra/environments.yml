@@ -152,8 +152,8 @@
   storefront:
     enabled: false
     themes:
-      B2B-store: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-2.23.0-pr-1757-9bc1-9bc1e4f3.zip
-      B2B-loyalty: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-2.23.0-pr-1757-9bc1-9bc1e4f3.zip
+      B2B-store: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-2.24.0-pr-1757-324d-324dad87.zip
+      B2B-loyalty: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-2.24.0-pr-1757-324d-324dad87.zip
     headers:
         Cross-Origin-Embedder-Policy: unsafe-none
         Cross-Origin-Resource-Policy: cross-origin
