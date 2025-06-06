@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.882.0",
+  "PlatformVersion": "3.887.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.882.0",
+  "PlatformImageTag": "3.887.0",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -136,6 +136,14 @@
         {
           "Id": "VirtoCommerce.Pages",
           "BlobName": "VirtoCommerce.Pages_3.805.0-pr-4-f53b.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Cart",
+          "BlobName": "VirtoCommerce.Cart_3.831.0-pr-172-e985.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Orders",
+          "BlobName": "VirtoCommerce.Orders_3.851.0-pr-458-7009.zip"
         }
       ]
     },
@@ -303,20 +311,12 @@
           "Version": "3.814.0"
         },
         {
-          "Id": "VirtoCommerce.Cart",
-          "Version": "3.824.0"
-        },
-        {
           "Id": "VirtoCommerce.AuthorizeNetPayment",
           "Version": "3.804.0"
         },
         {
           "Id": "VirtoCommerce.Content",
           "Version": "3.826.0"
-        },
-        {
-          "Id": "VirtoCommerce.Orders",
-          "Version": "3.842.0"
         }
       ]
     }
