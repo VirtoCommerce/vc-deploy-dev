@@ -61,6 +61,9 @@
         },
         {
           "BlobName": "VirtoCommerce.XCatalog_3.918.0-pr-52-96cf.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Quote_3.906.0-pr-138-03c8.zip"
         }
       ]
     },
@@ -277,10 +280,6 @@
         {
           "Id": "VirtoCommerce.Contracts",
           "Version": "3.902.0"
-        },
-        {
-          "Id": "VirtoCommerce.Quote",
-          "Version": "3.905.0"
         },
         {
           "Id": "VirtoCommerce.XOrder",
