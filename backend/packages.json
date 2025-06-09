@@ -44,7 +44,11 @@
          {
            "Id": "VirtoCommerce.Customer",
           "BlobName": "VirtoCommerce.Customer_3.832.0-pr-273-4655.zip"
-         }
+         },
+        {
+          "Id": "VirtoCommerce.Orders",
+          "BlobName": "VirtoCommerce.Orders_3.851.0-pr-457-1cd3.zip"
+        }
       ]
     },
     {
@@ -105,10 +109,6 @@
         {
           "Id": "VirtoCommerce.Xapi",
           "Version": "3.914.0"
-        },
-        {
-          "Id": "VirtoCommerce.Orders",
-          "Version": "3.850.0"
         },
         {
           "Id": "VirtoCommerce.Cart",
