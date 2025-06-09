@@ -8,13 +8,14 @@
       X-Response-Time: \$\request_time
     imageRepository: virtopaasregistrymain.azurecr.io/vcst/platform
     sqlReplica: false
+    dbName: vcst-qa-platform_restored
     config:
       # Increment to force environment reload
       reload: 9
       # Application Insights settings
       APPINSIGHTS_INSTRUMENTATIONKEY: ef0125aa-1c8e-42d3-964f-d0a11256309d      
       # Forward headers to Nginx
-      ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
+      ASPNETCORE_FORWARDEDHEADERS_ENABLED: true      
       # Enable Azure Active Directory login in platform UI
       Authorization__AllowApiAccessForCustomers: true
       AzureAd__Enabled: true
@@ -129,11 +130,11 @@
       # Elastic Search settings
       Search__ElasticSearch__Server: https://elasticsearch-vc03.govirto.com
       Search__ElasticSearch__EnableCompatibilityMode: true
-      # Elastic Search 8
-      #Search__ElasticSearch8__Server: https://1714126b27f941cb82f2c0e0d242d6b4.eastus2.azure.elastic-cloud.com
-      #Search__ElasticSearch8__User: elastic
+      # ElasticSearch8
+      Search__ElasticSearch8__Server: https://c8f1b4afcf244fffbf101368e10315ad.eastus2.azure.elastic-cloud.com:443
+      Search__ElasticSearch8__User: elastic
       # VirtoCommerce Search settings
-      Search__Provider: ElasticSearch
+      Search__Provider: ElasticSearch8
       #Search__Provider: OpenSearch
       #Search__OpenSearch__Server: https://opensearch-uat.govirto.com/
       #Search__OpenSearch__User: admin
@@ -155,9 +156,8 @@
       Tax__Avalara__AccountNumber: 2000188799
       Tax__Avalara__LicenseKey: 16BC3F87E836E15C
       Videos__GoogleApiKey: AIzaSyD5A4oFeSgaMQnMo3OiaqUSJ23SQGELiA4
-      Reload: 2024-09-12
     secretConfig:
-      #Search__ElasticSearch8__Key: elastic8
+      Search__ElasticSearch8__Key: elastic-8
       PushMessages__FcmSenderOptions__PrivateKey: fcm-private-key-new
       Notifications__SendGrid__ApiKey: sendgrid-apikey
       Payments__AuthorizeNet__TxnKey: authorizenet-txnkey
@@ -179,17 +179,6 @@
       cross-origin-resource-policy: cross-origin
       X-Response-Time: \$\request_time
     enabled: false
-    imageRepository: virtopaasregistrymain.azurecr.io/vcst/storefront
-    servicePlan: B1
-    probePath: /
-    config:
-      #APPINSIGHTS_INSTRUMENTATIONKEY: 48cca1d8-ea02-433e-bfa6-7aa21acb88d9
-      CookieAuthenticationOptions__LoginPath: /sign-in
-      DOTNET_USE_POLLING_FILE_WATCHER: true
-      SnapshotCollectorConfiguration__IsEnabled: false
-      SYSTEM_RESTART: 25.10.2023
-      VirtoCommerce__Endpoint__Password: Store12345
-      VirtoCommerce__CacheSlidingExpiration: 0:0:5
     themes:
       B2B-store: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-2.0.0-pr-1136-1be8-1be89467.zip
   customApps:
@@ -227,7 +216,6 @@
       route: platform
   protectedParameters:
     - platform.image.tag
-    #- storefront.image.tag
     - themes.B2B-store
     - custom.app1.image.tag
-  version: 3.218
+  version: 3.231
