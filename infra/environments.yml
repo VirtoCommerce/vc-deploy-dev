@@ -44,6 +44,13 @@
       FileUpload__Scopes__3__AllowedExtensions__8: .png
       FileUpload__Scopes__3__AllowedExtensions__9: .odt
       FileUpload__Scopes__3__AllowAnonymousUpload: true
+      FileUpload__Scopes__4__Scope: purchase-request-sources
+      FileUpload__Scopes__4__MaxFileSize: 20971520
+      FileUpload__Scopes__4__AllowedExtensions__0: .gif
+      FileUpload__Scopes__4__AllowedExtensions__1: .jpeg
+      FileUpload__Scopes__4__AllowedExtensions__2: .jpg
+      FileUpload__Scopes__4__AllowedExtensions__3: .png
+      FileUpload__Scopes__4__AllowedExtensions__4: .webp
       DOTNET_USE_POLLING_FILE_WATCHER: true
       Reload: 22
       #ConnectionStrings__AzureAppConfigurationConnectionString: "Endpoint=https://qa-vc-app-config.azconfig.io;Id=BvwK;Secret=nbF7kOXCU14+qCF5OtP4LR63zfbSyDx6th46bIWkUHQ="
