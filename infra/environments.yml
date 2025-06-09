@@ -17,7 +17,7 @@
       Notifications__Smtp__Host: smtp.sendgrid.net
       Notifications__Smtp__Login: apikey
       Notifications__Smtp__Port: 587
-      Reload: 10
+      Reload: 11
 
       VirtoCommerce__RefreshProbingFolderOnStart: true
       
