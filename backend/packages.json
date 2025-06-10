@@ -80,10 +80,6 @@
           "Version": "3.804.0"
         },
         {
-          "Id": "VirtoCommerce.CatalogPersonalization",
-          "Version": "3.803.0"
-        },
-        {
           "Id": "VirtoCommerce.BulkActionsModule",
           "Version": "3.803.0"
         },
@@ -294,6 +290,10 @@
         {
           "Id": "VirtoCommerce.ElasticSearch8",
           "Version": "3.815.0"
+        },
+        {
+          "Id": "VirtoCommerce.CatalogPersonalization",
+          "Version": "3.804.0"
         }
       ]
     },
