@@ -290,6 +290,10 @@
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "Version": "3.916.0"
+        },
+        {
+          "Id": "VirtoCommerce.Seo",
+          "Version": "3.800.0"
         }
       ]
     },
