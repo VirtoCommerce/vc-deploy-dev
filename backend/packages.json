@@ -234,10 +234,6 @@
           "BlobName": "VirtoCommerce.XOrder_3.911.0-alpha.66.zip"
         },
         {
-          "Id": "VirtoCommerce.XCatalog",
-          "BlobName": "VirtoCommerce.XCatalog_3.919.0-alpha.103.zip"
-        },
-        {
           "Id": "VirtoCommerce.XRecommend",
           "BlobName": "VirtoCommerce.XRecommend_3.904.0-alpha.31.zip"
         },
@@ -308,6 +304,10 @@
         {
           "Id": "VirtoCommerce.CatalogPersonalization",
           "BlobName": "VirtoCommerce.CatalogPersonalization_3.805.0-alpha.263.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XCatalog",
+          "BlobName": "VirtoCommerce.XCatalog_3.919.0-alpha.105.zip"
         }
       ]
     }
