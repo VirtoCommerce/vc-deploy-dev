@@ -107,32 +107,32 @@
       
       Search__OrderFullTextSearchEnabled: true
       Search__ContentFullTextSearchEnabled: true
-      Search__DocumentScopes__0__DocumentType: Product
-      Search__DocumentScopes__0__Scope: vcptcore-qa-platformvcptcore-scope11
-      Search__DocumentScopes__2__DocumentType: Category
-      Search__DocumentScopes__2__Scope: vcptcore-qa-platformvcptcore-scope55
-      Search__DocumentScopes__3__DocumentType: Member
-      Search__DocumentScopes__3__Scope: vcptcore-qa-platformvcptcore-scope33
-      Search__DocumentScopes__4__DocumentType: CustomerOrder
-      Search__DocumentScopes__4__Scope: vcptcore-qa-platformvcptcore-scope44
-      Search__DocumentScopes__5__DocumentType: ContentFile
-      Search__DocumentScopes__5__Scope: vcptcore-qa-platformvcptcore-scope66
-      Search__ElasticSearch__EnableCompatibilityMode: true
-      Search__ElasticSearch__HealthCheckTimeout: 10      
+      #Search__DocumentScopes__0__DocumentType: Product
+      #Search__DocumentScopes__0__Scope: vcptcore-qa-platformvcptcore-scope11
+      #Search__DocumentScopes__2__DocumentType: Category
+      #Search__DocumentScopes__2__Scope: vcptcore-qa-platformvcptcore-scope55
+      #Search__DocumentScopes__3__DocumentType: Member
+      #Search__DocumentScopes__3__Scope: vcptcore-qa-platformvcptcore-scope33
+      #Search__DocumentScopes__4__DocumentType: CustomerOrder
+      #Search__DocumentScopes__4__Scope: vcptcore-qa-platformvcptcore-scope44
+      #Search__DocumentScopes__5__DocumentType: ContentFile
+      #Search__DocumentScopes__5__Scope: vcptcore-qa-platformvcptcore-scope66
+      #Search__ElasticSearch__EnableCompatibilityMode: true
+      #Search__ElasticSearch__HealthCheckTimeout: 10      
       #Search__Provider: ElasticSearch
       Search__Provider: ElasticSearch8
       #Search__Provider: OpenSearch
-      Search__OpenSearch__Server: https://opensearch-uat.govirto.com/
-      Search__OpenSearch__User: admin
+      #Search__OpenSearch__Server: https://opensearch-uat.govirto.com/
+      #Search__OpenSearch__User: admin
       Search__OpenSearch__Password: '@-mJ"ch{l/#+LXg_"w>v'
       Search__OpenSearch__EnableHttpCompression: true
       #Search__Provider: ElasticAppSearch
       #Search__Provider: Lucene
       #Search__Scope: default
       #Search__Lucene__Path: /path/to/lucene/indexes
-      Search__ElasticSearch8__Server: https://1714126b27f941cb82f2c0e0d242d6b4.eastus2.azure.elastic-cloud.com
-      Search__ElasticSearch8__User: elastic
-      Search__ElasticSearch8__EnableDebugMode: true
+      #Search__ElasticSearch8__Server: https://1714126b27f941cb82f2c0e0d242d6b4.eastus2.azure.elastic-cloud.com
+      #Search__ElasticSearch8__User: elastic
+      #Search__ElasticSearch8__EnableDebugMode: true
 
       #Search__Provider: AlgoliaSearch
       Search__AlgoliaSearch__ApiKey: f3de99009f79a358485b9e11fe7e3692
