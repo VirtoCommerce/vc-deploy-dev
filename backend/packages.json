@@ -192,10 +192,6 @@
           "Version": "3.819.0"
         },
         {
-          "Id": "VirtoCommerce.Core",
-          "Version": "3.820.0"
-        },
-        {
           "Id": "VirtoCommerce.OrderManagement",
           "Version": "3.803.0"
         },
@@ -294,6 +290,10 @@
         {
           "Id": "VirtoCommerce.Seo",
           "Version": "3.800.0"
+        },
+        {
+          "Id": "VirtoCommerce.Core",
+          "Version": "3.821.0"
         }
       ]
     },
