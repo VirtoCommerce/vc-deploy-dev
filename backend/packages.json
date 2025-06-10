@@ -164,10 +164,6 @@
           "Version": "3.905.0"
         },
         {
-          "Id": "VirtoCommerce.CatalogPublishing",
-          "Version": "3.805.0"
-        },
-        {
           "Id": "VirtoCommerce.WhiteLabeling",
           "Version": "3.905.0"
         },
@@ -294,6 +290,10 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "Version": "3.868.0"
+        },
+        {
+          "Id": "VirtoCommerce.CatalogPublishing",
+          "Version": "3.806.0"
         }
       ]
     },
