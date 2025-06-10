@@ -230,10 +230,6 @@
           "BlobName": "VirtoCommerce.XRecommend_3.904.0-alpha.31.zip"
         },
         {
-          "Id": "VirtoCommerce.XCart",
-          "BlobName": "VirtoCommerce.XCart_3.917.0-alpha.104.zip"
-        },
-        {
           "Id": "VirtoCommerce.Search",
           "BlobName": "VirtoCommerce.Search_3.813.0-alpha.774.zip"
         },
@@ -308,6 +304,10 @@
         {
           "Id": "VirtoCommerce.Sitemaps",
           "BlobName": "VirtoCommerce.Sitemaps_3.817.0-alpha.378.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XCart",
+          "BlobName": "VirtoCommerce.XCart_3.918.0-alpha.105.zip"
         }
       ]
     }
