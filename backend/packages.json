@@ -206,10 +206,6 @@
           "BlobName": "VirtoCommerce.AzureBlobAssets_3.811.0-alpha.139.zip"
         },
         {
-          "Id": "VirtoCommerce.Sitemaps",
-          "BlobName": "VirtoCommerce.Sitemaps_3.816.0-alpha.375.zip"
-        },
-        {
           "Id": "VirtoCommerce.ElasticAppSearch",
           "BlobName": "VirtoCommerce.ElasticAppSearch_3.811.0-alpha.143.zip"
         },
@@ -308,6 +304,10 @@
         {
           "Id": "VirtoCommerce.DynamicAssociationsModule",
           "BlobName": "VirtoCommerce.DynamicAssociationsModule_3.807.0-alpha.165.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Sitemaps",
+          "BlobName": "VirtoCommerce.Sitemaps_3.816.0-alpha.377.zip"
         }
       ]
     }
