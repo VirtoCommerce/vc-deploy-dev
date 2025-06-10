@@ -32,10 +32,6 @@
           "Version": "3.806.0"
         },
         {
-          "Id": "VirtoCommerce.DynamicAssociationsModule",
-          "Version": "3.806.0"
-        },
-        {
           "Id": "VirtoCommerce.GDPR",
           "Version": "3.805.0"
         },
@@ -294,6 +290,10 @@
         {
           "Id": "VirtoCommerce.Sitemaps",
           "Version": "3.816.0"
+        },
+        {
+          "Id": "VirtoCommerce.DynamicAssociationsModule",
+          "Version": "3.807.0"
         }
       ]
     },
