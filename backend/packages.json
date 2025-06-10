@@ -302,12 +302,12 @@
           "BlobName": "VirtoCommerce.ElasticSearch8_3.815.0-alpha.117.zip"
         },
         {
-          "Id": "VirtoCommerce.Seo",
-          "BlobName": "VirtoCommerce.Seo_3.801.0-alpha.26.zip"
-        },
-        {
           "Id": "VirtoCommerce.Core",
           "BlobName": "VirtoCommerce.Core_3.822.0-alpha.1658.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Seo",
+          "BlobName": "VirtoCommerce.Seo_3.801.0-alpha.27.zip"
         }
       ]
     }
