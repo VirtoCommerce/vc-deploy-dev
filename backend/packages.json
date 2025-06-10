@@ -13,7 +13,7 @@
       "Container": "packages",
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
-         {
+        {
           "Id": "VirtoCommerce.PageBuilderModule",
           "BlobName": "VirtoCommerce.PageBuilderModule_3.821.0.zip"
         },
@@ -33,18 +33,14 @@
           "Id": "VirtoCommerce.CyberSourcePayment",
           "BlobName": "VirtoCommerce.CyberSourcePayment_3.802.0-pr-5-0650.zip"
         },
-         {
+        {
           "Id": "VirtoCommerce.AIDocumentProcessing",
           "BlobName": "VirtoCommerce.AIDocumentProcessing_3.901.0-pr-6-5f80.zip"
         },
         {
-          "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.916.0-pr-113-caeb.zip"
-        },
-         {
-           "Id": "VirtoCommerce.Customer",
+          "Id": "VirtoCommerce.Customer",
           "BlobName": "VirtoCommerce.Customer_3.832.0-pr-273-4655.zip"
-         },
+        },
         {
           "Id": "VirtoCommerce.Orders",
           "BlobName": "VirtoCommerce.Orders_3.851.0-pr-457-1cd3.zip"
@@ -52,6 +48,10 @@
         {
           "Id": "VirtoCommerce.Shipping",
           "BlobName": "VirtoCommerce.Shipping_3.810.0-pr-58-6183.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ProfileExperienceApiModule",
+          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.917.0.zip"
         }
       ]
     },
@@ -60,20 +60,19 @@
       "ModuleSources": [
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
-
-      "Modules": [ 
-          {
+      "Modules": [
+        {
           "Id": "VirtoCommerce.Store",
           "Version": "3.817.0"
-         },
-         {
+        },
+        {
           "Id": "VirtoCommerce.XOrder",
           "Version": "3.910.0"
         },
         {
           "Id": "VirtoCommerce.XCatalog",
           "Version": "3.918.0"
-         },
+        },
         {
           "Id": "VirtoCommerce.Quote",
           "Version": "3.905.0"
@@ -89,7 +88,7 @@
         {
           "Id": "VirtoCommerce.Export",
           "Version": "3.805.0"
-         },
+        },
         {
           "Id": "VirtoCommerce.Catalog",
           "Version": "3.867.0"
@@ -102,7 +101,7 @@
           "Id": "VirtoCommerce.OrderManagement",
           "Version": "3.803.0"
         },
-         {
+        {
           "Id": "VirtoCommerce.Pages",
           "Version": "3.807.0"
         },
@@ -130,7 +129,7 @@
           "Id": "VirtoCommerce.Sitemaps",
           "Version": "3.815.0"
         },
-        { 
+        {
           "Id": "VirtoCommerce.Payment",
           "Version": "3.808.0"
         },
@@ -147,8 +146,8 @@
           "Version": "3.802.0"
         },
         {
-           "Id": "VirtoCommerce.SeqLog",
-           "Version": "3.800.0"
+          "Id": "VirtoCommerce.SeqLog",
+          "Version": "3.800.0"
         },
         {
           "Id": "VirtoCommerce.AzureBlobAssets",
@@ -330,4 +329,3 @@
     }
   ]
 }
-
