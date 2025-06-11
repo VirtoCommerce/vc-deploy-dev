@@ -1,8 +1,8 @@
 {
 "ManifestVersion": "2.0",
-  "PlatformVersion": "3.890.0-alpha.13086-dev-d4820db8",
+  "PlatformVersion": "3.890.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.890.0-alpha.13086-dev-d4820db8",
+  "PlatformImageTag": "3.890.0",
   "PlatformAssetUrl": "",
 
   "ModuleSources": [
@@ -16,55 +16,7 @@
       "Modules": [
         {
           "BlobName": "VirtoCommerce.PageBuilderModule_3.819.0.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.Catalog_3.868.0-pr-803-7eb9.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.CatalogPersonalization_3.804.0-pr-79-7c4b.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.CatalogPublishing_3.806.0-pr-65-c269.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.Content_3.827.0-pr-199-d882.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.Core_3.821.0-pr-240-a19c.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.Customer_3.832.0-pr-271-2fed.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.DynamicAssociationsModule_3.807.0-pr-50-0e1a.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.Pages_3.808.0-pr-7-b454.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.916.0-pr-112-c1b4.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.Seo_3.800.0-pr-1-ea63.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.Sitemaps_3.816.0-pr-84-b1c0.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.Store_3.818.0-pr-151-59b7.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.Xapi_3.915.0-pr-42-4bbb.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.XCart_3.916.0-pr-52-7715.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.XCatalog_3.918.0-pr-52-96cf.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.Quote_3.906.0-pr-137-6525.zip"
-        }
+        }   
       ]
     },
     {
@@ -92,10 +44,6 @@
         {
           "Id": "VirtoCommerce.WebHooks",
           "Version": "3.806.0"
-        },
-        {
-          "Id": "VirtoCommerce.Export",
-          "Version": "3.804.0"
         },
         {
           "Id": "VirtoCommerce.GDPR",
@@ -156,7 +104,7 @@
         {
           "Id": "VirtoCommerce.PriceExportImport",
           "Version": "3.802.0"
-        }, 
+        },
         {
           "Id": "VirtoCommerce.Assets",
           "Version": "3.810.0"
@@ -208,7 +156,7 @@
         {
           "Id": "VirtoCommerce.BackInStock",
           "Version": "3.802.0"
-        }, 
+        },
         {
           "Id": "VirtoCommerce.CustomerReviews",
           "Version": "3.903.0"
@@ -228,10 +176,6 @@
         {
           "Id": "VirtoCommerce.Payment",
           "Version": "3.808.0"
-        },
-        {
-          "Id": "VirtoCommerce.Search",
-          "Version": "3.811.0"
         },
         {
           "Id": "VirtoCommerce.Notifications",
@@ -258,10 +202,6 @@
           "Version": "3.815.0"
         },
         {
-          "Id": "VirtoCommerce.Orders",
-          "Version": "3.850.0"
-        },
-        {
           "Id": "VirtoCommerce.AzureBlobAssets",
           "Version": "3.810.0"
         },
@@ -286,12 +226,88 @@
           "Version": "3.910.0"
         },
         {
-          "Id": "VirtoCommerce.ElasticSearch8",
-          "Version": "3.814.0"
-        },
-        {
           "Id": "VirtoCommerce.XRecommend",
           "Version": "3.903.0"
+        },
+        {
+          "Id": "VirtoCommerce.Search",
+          "Version": "3.812.0"
+        },
+        {
+          "Id": "VirtoCommerce.Export",
+          "Version": "3.805.0"
+        },
+        {
+          "Id": "VirtoCommerce.Orders",
+          "Version": "3.851.0"
+        },
+        {
+          "Id": "VirtoCommerce.Core",
+          "Version": "3.821.0"
+        },
+        {
+          "Id": "VirtoCommerce.Seo",
+          "Version": "3.801.0"
+        },
+        {
+          "Id": "VirtoCommerce.Store",
+          "Version": "3.818.0"
+        },
+        {
+          "Id": "VirtoCommerce.Content",
+          "Version": "3.827.0"
+        },
+        {
+          "Id": "VirtoCommerce.Customer",
+          "Version": "3.833.0"
+        },
+        {
+          "Id": "VirtoCommerce.Pages",
+          "Version": "3.808.0"
+        },
+        {
+          "Id": "VirtoCommerce.Quote",
+          "Version": "3.906.0"
+        },
+        {
+          "Id": "VirtoCommerce.Xapi",
+          "Version": "3.915.0"
+        },
+        {
+          "Id": "VirtoCommerce.ProfileExperienceApiModule",
+          "Version": "3.917.0"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "Version": "3.868.0"
+        },
+        {
+          "Id": "VirtoCommerce.CatalogPublishing",
+          "Version": "3.806.0"
+        },
+        {
+          "Id": "VirtoCommerce.ElasticSearch8",
+          "Version": "3.815.0"
+        },
+        {
+          "Id": "VirtoCommerce.CatalogPersonalization",
+          "Version": "3.804.0"
+        },
+        {
+          "Id": "VirtoCommerce.XCatalog",
+          "Version": "3.919.0"
+        },
+        {
+          "Id": "VirtoCommerce.Sitemaps",
+          "Version": "3.816.0"
+        },
+        {
+          "Id": "VirtoCommerce.DynamicAssociationsModule",
+          "Version": "3.807.0"
+        },
+        {
+          "Id": "VirtoCommerce.XCart",
+          "Version": "3.917.0"
         }
       ]
     }
