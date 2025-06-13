@@ -52,7 +52,7 @@
       #VirtoCommerce__PlatformUI__Enable: false
       TaxModule__FixedRateTaxProvider__Enabled: true
 
-      VirtoCommerce__RefreshProbingFolderOnStart: true
+      VirtoCommerce__RefreshProbingFolderOnStart: false
       #one order template for all stores
       VirtoCommerce__SequenceNumberGenerator__UseGlobalTenantId: true
       
