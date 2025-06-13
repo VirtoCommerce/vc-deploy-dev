@@ -82,8 +82,8 @@
       VirtoCommerce__Stores__DefaultStore: B2B-store
       PushNotifications__ForceWebSockets: true
       PushNotifications__ScalabilityMode: RedisBackplane
-      PushNotifications__HubUrl: https://vcptcore-qa1.govirto.com/pushNotificationHub?api_key=3a756881-cb50-421e-8c8c-006618d5bf20
-      PushNotifications__RedisBackplane__ChannelName: vcptcore-qa-chanel
+      PushNotifications__HubUrl: https://vcptcore-qa1.govirto.com/pushNotificationHub?api_key=17489aa2-34d6-4447-a437-285457f4f72d
+      PushNotifications__RedisBackplane__ChannelName: vcptcore-qa1-chanel      
       PushMessages__UseFirebaseCloudMessaging: true
       PushMessages__FcmSenderOptions__Type: service_account
       PushMessages__FcmSenderOptions__ProjectId: vcptcore-qa
@@ -184,8 +184,8 @@
       AzureAd__DefaultUserRoles__1: Order manager
       PasswordLogin__Enabled: true
       PasswordLogin__Priority: 0
-      Content__FileSystem__PublicUrl: https://vcptcore-qa.govirto.com/cms-content/
-      Assets__FileSystem__PublicUrl: https://vcptcore-qa.govirto.com/cms-content/assets/
+      Content__FileSystem__PublicUrl: https://vcptcore-qa1.govirto.com/cms-content/
+      Assets__FileSystem__PublicUrl: https://vcptcore-qa1.govirto.com/cms-content/assets/
       Assets__Provider: FileSystem
       #Assets__Provider: AzureBlobStorage
       Assets__AzureBlobStorage__ConnectionString: DefaultEndpointsProtocol=https;AccountName=qademovc3;AccountKey=qPIpM63MI2P3ei6B1xIL4/DlKDqdsRj54z2GUtgCAeXPcMe8+mZiUvrvI5fjdyrovk331XmBlMFfAEFAjCnvtw==;EndpointSuffix=core.windows.net
@@ -284,7 +284,7 @@
       VirtoCommerce__ModuleSequenceBoost__0: VirtoCommerce.AuditLog
 
       #UnitOfMeasure default settings
-      Measures__DefaultSource: https://vcptcore-qa.govirto.com/cms-content/assets/measures/VirtoCommerce.Catalog.json
+      Measures__DefaultSource: https://vcptcore-qa1.govirto.com/cms-content/assets/measures/VirtoCommerce.Catalog.json
       
     secretConfig:
       Payments__AuthorizeNet__TxnKey: authorizenet-txnkey-vs
