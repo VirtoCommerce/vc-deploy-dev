@@ -24,7 +24,13 @@
         },
         {
           "BlobName": "VirtoCommerce.Shipping_3.810.0-pr-58-6183.zip"
-        }
+        },
+        {
+           "BlobName": "VirtoCommerce.XCart_3.917.0-pr-51-610d.zip"
+         },
+         {
+           "BlobName": "VirtoCommerce.Payment_3.809.0-pr-67-fe12.zip"
+         },
       ]
     },
     {
@@ -260,10 +266,6 @@
         {
           "Id": "VirtoCommerce.CustomerExportImport",
           "Version": "3.810.0"
-        },
-        {
-          "Id": "VirtoCommerce.Payment",
-          "Version": "3.808.0"
         },
         {
           "Id": "VirtoCommerce.Search",
