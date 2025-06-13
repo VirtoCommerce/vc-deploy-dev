@@ -24,6 +24,9 @@
         },
         {
           "BlobName": "VirtoCommerce.Shipping_3.810.0-pr-58-6183.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.XCart_3.917.0-pr-51-610d.zip"
         }
       ]
     },
@@ -296,10 +299,6 @@
         {
           "Id": "VirtoCommerce.XCatalog",
           "Version": "3.917.0"
-        },
-        {
-          "Id": "VirtoCommerce.XCart",
-          "Version": "3.912.0"
         }
       ]
     }
