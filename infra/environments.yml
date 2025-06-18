@@ -12,7 +12,7 @@
     sqlReplica: false
     config:
       # Increment to force environment reload
-      reload: 10
+      reload: 8
       # Application Insights settings
       APPINSIGHTS_INSTRUMENTATIONKEY: b64da477-188b-4154-969b-3cb1310400f0
       # Forward headers to Nginx
@@ -132,7 +132,7 @@
       Payments__AuthorizeNet__TxnKey: authorizenet-txnkey
       Payments__Skyflow__PaymentFormAccount__clientID: skyflow-paymentformaccount-clientid
       Payments__Skyflow__PaymentFormAccount__keyID: skyflow-paymentformaccount-keyid
-      Payments__Skyflow__PaymentFormAccount__privateKey: skyflow-paymentformaccount-privatekey
+      Payments__Skyflow__PaymentFormAccount__privateKey: skyflow-paymentform-privatekey
       Payments__Skyflow__IntegrationsAccount__clientID: skyflow-integrationsaccount-clientid
       Payments__Skyflow__IntegrationsAccount__keyID: skyflow-integrationsaccount-keyid
       Payments__Skyflow__IntegrationsAccount__privateKey: skyflow-integrationsaccount-privatekey
