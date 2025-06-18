@@ -171,7 +171,7 @@
       Payments__AuthorizeNet__SHA2Hash: authorizenet-sha2hash
       Payments__Skyflow__PaymentFormAccount__clientID: skyflow-paymentformaccount-clientid
       Payments__Skyflow__PaymentFormAccount__keyID: skyflow-paymentformaccount-keyid
-      Payments__Skyflow__PaymentFormAccount__privateKey: skyflow-paymentformaccount-privatekey
+      Payments__Skyflow__PaymentFormAccount__privateKey: skyflow-paymentform-privatekey
       Payments__Skyflow__IntegrationsAccount__clientID: skyflow-integrationsaccount-clientid
       Payments__Skyflow__IntegrationsAccount__keyID: skyflow-integrationsaccount-keyid
       Payments__Skyflow__IntegrationsAccount__privateKey: skyflow-integrationsaccount-privatekey
