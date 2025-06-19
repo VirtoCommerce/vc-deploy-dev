@@ -284,16 +284,16 @@
           "Version": "3.809.0"
         },
         {
-          "Id": "VirtoCommerce.Catalog",
-          "Version": "3.869.0"
-        },
-        {
           "Id": "VirtoCommerce.Search",
           "Version": "3.814.0"
         },
         {
           "Id": "VirtoCommerce.XCart",
           "Version": "3.920.0"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "Version": "3.870.0"
         }
       ]
     },
