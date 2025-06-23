@@ -18,10 +18,6 @@
           "BlobName": "VirtoCommerce.PageBuilderModule_3.819.0.zip"
         },
         {
-          "Id": "VirtoCommerce.WhiteLabeling",
-          "BlobName": "VirtoCommerce.WhiteLabeling_3.906.0-pr-17-4551.zip"
-        },
-        {
           "Id": "VirtoCommerce.Xapi",
           "BlobName": "VirtoCommerce.Xapi_3.916.0-pr-43-9309.zip"
         },
@@ -308,6 +304,10 @@
         {
           "Id": "VirtoCommerce.Payment",
           "Version": "3.809.0"
+        },
+        {
+          "Id": "VirtoCommerce.WhiteLabeling",
+          "Version": "3.905.0"
         }
       ]
     }
