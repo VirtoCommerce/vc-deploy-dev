@@ -36,6 +36,10 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "BlobName": "VirtoCommerce.Catalog_3.871.0-pr-805-8489.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XCatalog",
+          "BlobName": "VirtoCommerce.XCatalog_3.920.0-pr-54-c585.zip"
         }
       ]
     },
@@ -277,10 +281,6 @@
         {
           "Id": "VirtoCommerce.CatalogPersonalization",
           "Version": "3.804.0"
-        },
-        {
-          "Id": "VirtoCommerce.XCatalog",
-          "Version": "3.919.0"
         },
         {
           "Id": "VirtoCommerce.Sitemaps",
