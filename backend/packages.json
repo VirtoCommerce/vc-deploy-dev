@@ -18,31 +18,16 @@
           "BlobName": "VirtoCommerce.PageBuilderModule_3.819.0.zip"
         },
         {
-          "BlobName": "VirtoCommerce.XCatalog_3.920.0-pr-54-c585.zip"
-        },
-        {
-          "Id": "VirtoCommerce.XCart",
-          "BlobName": "VirtoCommerce.XCart_3.919.0-pr-51-231f.zip"
-        },
-        {
-          "Id": "VirtoCommerce.Payment",
-          "BlobName": "VirtoCommerce.Payment_3.809.0-pr-67-fe12.zip"
-        },
-        {
-          "Id": "VirtoCommerce.Catalog",
-          "BlobName": "VirtoCommerce.Catalog_3.869.0-pr-806-d487.zip"
-        },
-        {
           "Id": "VirtoCommerce.WhiteLabeling",
           "BlobName": "VirtoCommerce.WhiteLabeling_3.906.0-pr-17-4551.zip"
         },
         {
           "Id": "VirtoCommerce.Xapi",
-          "BlobName": "VirtoCommerce.Xapi_3.916.0-pr-41-e2fd.zip"
+          "BlobName": "VirtoCommerce.Xapi_3.916.0-pr-43-9309.zip"
         },
         {
-          "Id": "VirtoCommerce.Search",
-          "BlobName": "VirtoCommerce.Search_3.814.0-pr-120-bd86.zip"
+          "Id": "VirtoCommerce.Seo",
+          "BlobName": "VirtoCommerce.Seo_3.802.0-pr-3-4358.zip"
         }
       ]
     },
@@ -247,11 +232,7 @@
         {
           "Id": "VirtoCommerce.Core",
           "Version": "3.821.0"
-        },
-        {
-          "Id": "VirtoCommerce.Seo",
-          "Version": "3.801.0"
-        },
+        }, 
         {
           "Id": "VirtoCommerce.Store",
           "Version": "3.818.0"
@@ -307,6 +288,26 @@
         {
           "Id": "VirtoCommerce.Shipping",
           "Version": "3.810.0"
+        },
+        {
+          "Id": "VirtoCommerce.Search",
+          "Version": "3.814.0"
+        },
+        {
+          "Id": "VirtoCommerce.XCart",
+          "Version": "3.921.0"
+        },
+        {
+          "Id": "VirtoCommerce.XCatalog",
+          "Version": "3.919.0"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "Version": "3.871.0"
+        },
+        {
+          "Id": "VirtoCommerce.Payment",
+          "Version": "3.809.0"
         }
       ]
     }
