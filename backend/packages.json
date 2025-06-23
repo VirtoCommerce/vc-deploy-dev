@@ -18,12 +18,31 @@
           "BlobName": "VirtoCommerce.PageBuilderModule_3.819.0.zip"
         },
         {
+          "BlobName": "VirtoCommerce.XCatalog_3.920.0-pr-54-c585.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XCart",
+          "BlobName": "VirtoCommerce.XCart_3.919.0-pr-51-231f.zip"
+        },
+        {
           "Id": "VirtoCommerce.Payment",
           "BlobName": "VirtoCommerce.Payment_3.809.0-pr-67-fe12.zip"
         },
         {
-          "Id": "VirtoCommerce.XCart",
-          "BlobName": "VirtoCommerce.XCart_3.917.0-pr-51-610d.zip"
+          "Id": "VirtoCommerce.Catalog",
+          "BlobName": "VirtoCommerce.Catalog_3.869.0-pr-806-d487.zip"
+        },
+        {
+          "Id": "VirtoCommerce.WhiteLabeling",
+          "BlobName": "VirtoCommerce.WhiteLabeling_3.906.0-pr-17-4551.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Xapi",
+          "BlobName": "VirtoCommerce.Xapi_3.916.0-pr-41-e2fd.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Search",
+          "BlobName": "VirtoCommerce.Search_3.814.0-pr-120-bd86.zip"
         }
       ]
     },
@@ -170,10 +189,6 @@
           "Version": "3.905.0"
         },
         {
-          "Id": "VirtoCommerce.WhiteLabeling",
-          "Version": "3.905.0"
-        },
-        {
           "Id": "VirtoCommerce.CustomerExportImport",
           "Version": "3.810.0"
         },
@@ -250,16 +265,8 @@
           "Version": "3.906.0"
         },
         {
-          "Id": "VirtoCommerce.Xapi",
-          "Version": "3.915.0"
-        },
-        {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "Version": "3.917.0"
-        },
-        {
-          "Id": "VirtoCommerce.Catalog",
-          "Version": "3.868.0"
         },
         {
           "Id": "VirtoCommerce.CatalogPublishing",
@@ -268,10 +275,6 @@
         {
           "Id": "VirtoCommerce.CatalogPersonalization",
           "Version": "3.804.0"
-        },
-        {
-          "Id": "VirtoCommerce.XCatalog",
-          "Version": "3.919.0"
         },
         {
           "Id": "VirtoCommerce.Sitemaps",
@@ -288,10 +291,6 @@
         {
           "Id": "VirtoCommerce.Customer",
           "Version": "3.833.0"
-        },
-        {
-          "Id": "VirtoCommerce.Search",
-          "Version": "3.813.0"
         },
         {
           "Id": "VirtoCommerce.Cart",
