@@ -236,10 +236,6 @@
           "Version": "3.804.0"
         },
         {
-          "Id": "VirtoCommerce.XCatalog",
-          "Version": "3.919.0"
-        },
-        {
           "Id": "VirtoCommerce.Sitemaps",
           "Version": "3.816.0"
         },
@@ -294,6 +290,10 @@
         {
           "Id": "VirtoCommerce.ElasticAppSearch",
           "Version": "3.811.0"
+        },
+        {
+          "Id": "VirtoCommerce.XCatalog",
+          "Version": "3.920.0"
         }
       ]
     },
