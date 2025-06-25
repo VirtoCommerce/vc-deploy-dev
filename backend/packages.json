@@ -126,10 +126,6 @@
           "BlobName": "VirtoCommerce.OpenIdConnectModule_3.802.0-alpha.17.zip"
         },
         {
-          "Id": "VirtoCommerce.ImageTools",
-          "BlobName": "VirtoCommerce.ImageTools_3.810.0-alpha.363.zip"
-        },
-        {
           "Id": "VirtoCommerce.CyberSourcePayment",
           "BlobName": "VirtoCommerce.CyberSourcePayment_3.803.0-alpha.42.zip"
         },
@@ -308,6 +304,10 @@
         {
           "Id": "VirtoCommerce.Customer",
           "BlobName": "VirtoCommerce.Customer_3.835.0-alpha.895.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ImageTools",
+          "BlobName": "VirtoCommerce.ImageTools_3.810.0-alpha.365.zip"
         }
       ]
     }
