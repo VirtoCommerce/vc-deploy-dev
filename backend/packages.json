@@ -156,10 +156,6 @@
           "Version": "3.810.0"
         },
         {
-          "Id": "VirtoCommerce.Contracts",
-          "Version": "3.902.0"
-        },
-        {
           "Id": "VirtoCommerce.XOrder",
           "Version": "3.910.0"
         },
@@ -294,6 +290,10 @@
         {
           "Id": "VirtoCommerce.Export",
           "Version": "3.806.0"
+        },
+        {
+          "Id": "VirtoCommerce.Contracts",
+          "Version": "3.903.0"
         }
       ]
     },
