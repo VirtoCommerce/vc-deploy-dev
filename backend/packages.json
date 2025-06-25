@@ -58,10 +58,6 @@
           "BlobName": "VirtoCommerce.Contentful_3.806.0-alpha.86.zip"
         },
         {
-          "Id": "VirtoCommerce.AvalaraTax",
-          "BlobName": "VirtoCommerce.AvalaraTax_3.803.0-alpha.313.zip"
-        },
-        {
           "Id": "VirtoCommerce.BuilderIO",
           "BlobName": "VirtoCommerce.BuilderIO_3.806.0-alpha.63.zip"
         },
@@ -308,6 +304,10 @@
         {
           "Id": "VirtoCommerce.Xapi",
           "BlobName": "VirtoCommerce.Xapi_3.916.0-alpha.99.zip"
+        },
+        {
+          "Id": "VirtoCommerce.AvalaraTax",
+          "BlobName": "VirtoCommerce.AvalaraTax_3.803.0-alpha.319.zip"
         }
       ]
     }
