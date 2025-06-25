@@ -170,10 +170,6 @@
           "BlobName": "VirtoCommerce.AzureBlobAssets_3.811.0-alpha.139.zip"
         },
         {
-          "Id": "VirtoCommerce.Contracts",
-          "BlobName": "VirtoCommerce.Contracts_3.903.0-alpha.121.zip"
-        },
-        {
           "Id": "VirtoCommerce.XOrder",
           "BlobName": "VirtoCommerce.XOrder_3.911.0-alpha.66.zip"
         },
@@ -308,6 +304,10 @@
         {
           "Id": "VirtoCommerce.Content",
           "BlobName": "VirtoCommerce.Content_3.829.0-alpha.1005.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Contracts",
+          "BlobName": "VirtoCommerce.Contracts_3.903.0-alpha.123.zip"
         }
       ]
     }
