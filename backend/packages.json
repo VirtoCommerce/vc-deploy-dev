@@ -302,12 +302,12 @@
           "BlobName": "VirtoCommerce.ElasticAppSearch_3.812.0-alpha.146.zip"
         },
         {
-          "Id": "VirtoCommerce.XCatalog",
-          "BlobName": "VirtoCommerce.XCatalog_3.921.0-alpha.108.zip"
-        },
-        {
           "Id": "VirtoCommerce.CustomerExportImport",
           "BlobName": "VirtoCommerce.CustomerExportImport_3.812.0-alpha.184.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XCatalog",
+          "BlobName": "VirtoCommerce.XCatalog_3.921.0-alpha.109.zip"
         }
       ]
     }
