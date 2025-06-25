@@ -120,7 +120,8 @@
       #Search__ElasticSearch__EnableCompatibilityMode: true
       #Search__ElasticSearch__HealthCheckTimeout: 10      
       #Search__Provider: ElasticSearch
-      Search__Provider: ElasticSearch8
+      Search__Provider: ElasticSearch9
+      #Search__Provider: ElasticSearch8
       #Search__Provider: OpenSearch
       #Search__OpenSearch__Server: https://opensearch-uat.govirto.com/
       #Search__OpenSearch__User: admin
@@ -133,6 +134,8 @@
       #Search__ElasticSearch8__Server: https://1714126b27f941cb82f2c0e0d242d6b4.eastus2.azure.elastic-cloud.com
       #Search__ElasticSearch8__User: elastic
       #Search__ElasticSearch8__EnableDebugMode: true
+      Search__ElasticSearch9__Server: https://alex9.es.us-central1.gcp.cloud.es.io
+      Search__ElasticSearc9__User: elastic
 
       #Search__Provider: AlgoliaSearch
       Search__AlgoliaSearch__ApiKey: f3de99009f79a358485b9e11fe7e3692
@@ -305,6 +308,7 @@
       #Assets__AzureBlobStorage__ConnectionString: azureblobconnectionstring
       PushMessages__FcmSenderOptions__PrivateKey: firebase-privatekey
       #Search__ElasticSearch8__Key: elasticsearch8
+      Search__ElasticSearch9__Key: elastic-9
       
       
       
