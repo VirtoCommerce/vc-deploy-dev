@@ -302,12 +302,12 @@
           "BlobName": "VirtoCommerce.Xapi_3.916.0-alpha.99.zip"
         },
         {
-          "Id": "VirtoCommerce.CatalogCsvImportModule",
-          "BlobName": "VirtoCommerce.CatalogCsvImportModule_3.809.0-alpha.334.zip"
-        },
-        {
           "Id": "VirtoCommerce.AvalaraTax",
           "BlobName": "VirtoCommerce.AvalaraTax_3.804.0-alpha.320.zip"
+        },
+        {
+          "Id": "VirtoCommerce.CatalogCsvImportModule",
+          "BlobName": "VirtoCommerce.CatalogCsvImportModule_3.810.0-alpha.335.zip"
         }
       ]
     }
