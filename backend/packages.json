@@ -106,10 +106,6 @@
           "BlobName": "VirtoCommerce.FileExperienceApi_3.906.0-alpha.49.zip"
         },
         {
-          "Id": "VirtoCommerce.WhiteLabeling",
-          "BlobName": "VirtoCommerce.WhiteLabeling_3.906.0-alpha.43.zip"
-        },
-        {
           "Id": "VirtoCommerce.ShipStation",
           "BlobName": "VirtoCommerce.ShipStation_3.802.0-alpha.124.zip"
         },
@@ -308,6 +304,10 @@
         {
           "Id": "VirtoCommerce.WebHooks",
           "BlobName": "VirtoCommerce.WebHooks_3.808.0-alpha.313.zip"
+        },
+        {
+          "Id": "VirtoCommerce.WhiteLabeling",
+          "BlobName": "VirtoCommerce.WhiteLabeling_3.906.0-alpha.45.zip"
         }
       ]
     }
