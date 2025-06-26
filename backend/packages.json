@@ -126,10 +126,6 @@
           "BlobName": "VirtoCommerce.WhiteLabeling_3.906.0-alpha.43.zip"
         },
         {
-          "Id": "VirtoCommerce.OrderManagement",
-          "BlobName": "VirtoCommerce.OrderManagement_3.804.0-alpha.8.zip"
-        },
-        {
           "Id": "VirtoCommerce.ShipStation",
           "BlobName": "VirtoCommerce.ShipStation_3.802.0-alpha.124.zip"
         },
@@ -308,6 +304,10 @@
         {
           "Id": "VirtoCommerce.Notifications",
           "BlobName": "VirtoCommerce.Notifications_3.821.0-alpha.410.zip"
+        },
+        {
+          "Id": "VirtoCommerce.OrderManagement",
+          "BlobName": "VirtoCommerce.OrderManagement_3.804.0-alpha.10.zip"
         }
       ]
     }
