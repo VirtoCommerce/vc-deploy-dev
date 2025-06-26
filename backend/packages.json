@@ -92,10 +92,6 @@
           "Version": "3.901.0"
         },
         {
-          "Id": "VirtoCommerce.Marketing",
-          "Version": "3.817.0"
-        },
-        {
           "Id": "VirtoCommerce.GoogleSSO",
           "Version": "3.803.0"
         },
@@ -294,6 +290,10 @@
         {
           "Id": "VirtoCommerce.DynamicAssociationsModule",
           "Version": "3.808.0"
+        },
+        {
+          "Id": "VirtoCommerce.Marketing",
+          "Version": "3.818.0"
         }
       ]
     },
