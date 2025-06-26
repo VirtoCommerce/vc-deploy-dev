@@ -96,10 +96,6 @@
           "Version": "3.905.0"
         },
         {
-          "Id": "VirtoCommerce.WhiteLabeling",
-          "Version": "3.905.0"
-        },
-        {
           "Id": "VirtoCommerce.Notifications",
           "Version": "3.819.0"
         },
@@ -294,6 +290,10 @@
         {
           "Id": "VirtoCommerce.WebHooks",
           "Version": "3.807.0"
+        },
+        {
+          "Id": "VirtoCommerce.WhiteLabeling",
+          "Version": "3.906.0"
         }
       ]
     },
