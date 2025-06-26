@@ -260,10 +260,6 @@
           "Version": "3.818.0"
         },
         {
-          "Id": "VirtoCommerce.WhiteLabeling",
-          "Version": "3.906.0"
-        },
-        {
           "Id": "VirtoCommerce.Pricing",
           "Version": "3.817.0"
         },
@@ -294,6 +290,10 @@
         {
           "Id": "VirtoCommerce.Return",
           "Version": "3.808.0"
+        },
+        {
+          "Id": "VirtoCommerce.WhiteLabeling",
+          "Version": "3.907.0"
         }
       ]
     },
