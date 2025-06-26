@@ -174,10 +174,6 @@
           "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.918.0-alpha.290.zip"
         },
         {
-          "Id": "VirtoCommerce.DynamicAssociationsModule",
-          "BlobName": "VirtoCommerce.DynamicAssociationsModule_3.808.0-alpha.166.zip"
-        },
-        {
           "Id": "VirtoCommerce.Sitemaps",
           "BlobName": "VirtoCommerce.Sitemaps_3.817.0-alpha.378.zip"
         },
@@ -308,6 +304,10 @@
         {
           "Id": "VirtoCommerce.CustomerReviews",
           "BlobName": "VirtoCommerce.CustomerReviews_3.905.0-alpha.245.zip"
+        },
+        {
+          "Id": "VirtoCommerce.DynamicAssociationsModule",
+          "BlobName": "VirtoCommerce.DynamicAssociationsModule_3.808.0-alpha.167.zip"
         }
       ]
     }
