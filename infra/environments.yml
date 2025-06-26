@@ -11,7 +11,7 @@
     dbName: vcst-qa-platform_restored
     config:
       # Increment to force environment reload
-      reload: 9
+      reload: 14
       # Application Insights settings
       APPINSIGHTS_INSTRUMENTATIONKEY: ef0125aa-1c8e-42d3-964f-d0a11256309d      
       # Forward headers to Nginx
@@ -124,6 +124,13 @@
       PushMessages__FcmReceiverOptions__MessagingSenderId: 1021404404978
       PushMessages__FcmReceiverOptions__AppId: 1:1021404404978:web:89ab011d054397a04d046b
       PushMessages__FcmReceiverOptions__VapidKey: BB1Pzs7sBeDkuQWO_cNzo3OhCEruXypVhFsKZaTN4FBL1JhC4fgsgsQSM-vusa99uYVpMcroJzhydyRfMkCQLHc
+
+      Seo__SeoInfoResolver__0: ContentFile
+      Seo__SeoInfoResolver__1: Pages
+      Seo__SeoInfoResolver__2: Catalog
+      Seo__SeoInfoResolver__3: Category
+      Seo__SeoInfoResolver__4: CatalogProduct
+
       # Elastic App Search settings
       Search__ElasticAppSearch__Endpoint: https://enterprise-search-test.govirto.com
       Search__ElasticAppSearch__EnableHttpCompression: true
@@ -134,7 +141,8 @@
       Search__ElasticSearch8__Server: https://c8f1b4afcf244fffbf101368e10315ad.eastus2.azure.elastic-cloud.com:443
       Search__ElasticSearch8__User: elastic
       # VirtoCommerce Search settings
-      Search__Provider: ElasticSearch8
+      Search__Provider: ElasticSearch
+      #Search__Provider: ElasticSearch8
       #Search__Provider: OpenSearch
       #Search__OpenSearch__Server: https://opensearch-uat.govirto.com/
       #Search__OpenSearch__User: admin
@@ -164,7 +172,7 @@
       Payments__AuthorizeNet__SHA2Hash: authorizenet-sha2hash
       Payments__Skyflow__PaymentFormAccount__clientID: skyflow-paymentformaccount-clientid
       Payments__Skyflow__PaymentFormAccount__keyID: skyflow-paymentformaccount-keyid
-      Payments__Skyflow__PaymentFormAccount__privateKey: skyflow-paymentformaccount-privatekey
+      Payments__Skyflow__PaymentFormAccount__privateKey: skyflow-paymentform-privatekey
       Payments__Skyflow__IntegrationsAccount__clientID: skyflow-integrationsaccount-clientid
       Payments__Skyflow__IntegrationsAccount__keyID: skyflow-integrationsaccount-keyid
       Payments__Skyflow__IntegrationsAccount__privateKey: skyflow-integrationsaccount-privatekey
