@@ -290,10 +290,6 @@
           "BlobName": "VirtoCommerce.Quote_3.908.0-alpha.463.zip"
         },
         {
-          "Id": "VirtoCommerce.PriceExportImport",
-          "BlobName": "VirtoCommerce.PriceExportImport_3.804.0-alpha.159.zip"
-        },
-        {
           "Id": "VirtoCommerce.Return",
           "BlobName": "VirtoCommerce.Return_3.808.0-alpha.114.zip"
         },
@@ -308,6 +304,10 @@
         {
           "Id": "VirtoCommerce.Sitemaps",
           "BlobName": "VirtoCommerce.Sitemaps_3.819.0-alpha.382.zip"
+        },
+        {
+          "Id": "VirtoCommerce.PriceExportImport",
+          "BlobName": "VirtoCommerce.PriceExportImport_3.805.0-alpha.160.zip"
         }
       ]
     }
