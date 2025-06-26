@@ -13,7 +13,7 @@
       "Container": "packages",
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
-         {
+        {
           "Id": "VirtoCommerce.PageBuilderModule",
           "BlobName": "VirtoCommerce.PageBuilderModule_3.821.0.zip"
         },
@@ -29,7 +29,7 @@
           "Id": "VirtoCommerce.AlgoliaSearch_3.801.0",
           "BlobName": "VirtoCommerce.AlgoliaSearch_3.801.0-pr-3-a62c.zip"
         },
-         {
+        {
           "Id": "VirtoCommerce.AIDocumentProcessing",
           "BlobName": "VirtoCommerce.AIDocumentProcessing_3.901.0-pr-6-5f80.zip"
         },
@@ -51,6 +51,10 @@
         },
         {
           "BlobName": "VirtoCommerce.ElasticSearch9_3.800.0-pr-1-f78f.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Core",
+          "BlobName": "VirtoCommerce.Core_3.822.0.zip"
         }
       ]
     },
@@ -59,11 +63,10 @@
       "ModuleSources": [
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
-
-      "Modules": [ 
-         {
-           "Id": "VirtoCommerce.SeqLog",
-           "Version": "3.800.0"
+      "Modules": [
+        {
+          "Id": "VirtoCommerce.SeqLog",
+          "Version": "3.800.0"
         },
         {
           "Id": "VirtoCommerce.FileSystemAssets",
@@ -250,10 +253,6 @@
           "Version": "3.851.0"
         },
         {
-          "Id": "VirtoCommerce.Core",
-          "Version": "3.821.0"
-        },
-        {
           "Id": "VirtoCommerce.Seo",
           "Version": "3.801.0"
         },
@@ -337,4 +336,3 @@
     }
   ]
 }
-
