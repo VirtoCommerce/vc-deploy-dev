@@ -302,12 +302,12 @@
           "BlobName": "VirtoCommerce.CatalogPublishing_3.807.0-alpha.364.zip"
         },
         {
-          "Id": "VirtoCommerce.CatalogPersonalization",
-          "BlobName": "VirtoCommerce.CatalogPersonalization_3.805.0-alpha.264.zip"
-        },
-        {
           "Id": "VirtoCommerce.Core",
           "BlobName": "VirtoCommerce.Core_3.822.0-alpha.1659.zip"
+        },
+        {
+          "Id": "VirtoCommerce.CatalogPersonalization",
+          "BlobName": "VirtoCommerce.CatalogPersonalization_3.806.0-alpha.265.zip"
         }
       ]
     }
