@@ -286,10 +286,6 @@
           "BlobName": "VirtoCommerce.Return_3.808.0-alpha.113.zip"
         },
         {
-          "Id": "VirtoCommerce.Sitemaps",
-          "BlobName": "VirtoCommerce.Sitemaps_3.818.0-alpha.380.zip"
-        },
-        {
           "Id": "VirtoCommerce.WhiteLabeling",
           "BlobName": "VirtoCommerce.WhiteLabeling_3.907.0-alpha.46.zip"
         },
@@ -308,6 +304,10 @@
         {
           "Id": "VirtoCommerce.OrderManagement",
           "BlobName": "VirtoCommerce.OrderManagement_3.806.0-alpha.13.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Sitemaps",
+          "BlobName": "VirtoCommerce.Sitemaps_3.818.0-alpha.381.zip"
         }
       ]
     }
