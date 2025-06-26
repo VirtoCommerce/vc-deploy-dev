@@ -280,10 +280,6 @@
           "Version": "3.906.0"
         },
         {
-          "Id": "VirtoCommerce.OrderManagement",
-          "Version": "3.805.0"
-        },
-        {
           "Id": "VirtoCommerce.Pricing",
           "Version": "3.817.0"
         },
@@ -294,6 +290,10 @@
         {
           "Id": "VirtoCommerce.WebHooks",
           "Version": "3.808.0"
+        },
+        {
+          "Id": "VirtoCommerce.OrderManagement",
+          "Version": "3.806.0"
         }
       ]
     },
