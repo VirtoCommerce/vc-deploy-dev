@@ -136,10 +136,6 @@
           "Version": "3.808.0"
         },
         {
-          "Id": "VirtoCommerce.Quote",
-          "Version": "3.906.0"
-        },
-        {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "Version": "3.917.0"
         },
@@ -294,6 +290,10 @@
         {
           "Id": "VirtoCommerce.Pricing",
           "Version": "3.816.0"
+        },
+        {
+          "Id": "VirtoCommerce.Quote",
+          "Version": "3.907.0"
         }
       ]
     },
