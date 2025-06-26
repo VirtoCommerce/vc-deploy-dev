@@ -102,10 +102,6 @@
           "BlobName": "VirtoCommerce.Skyflow_3.902.0-alpha.44.zip"
         },
         {
-          "Id": "VirtoCommerce.Marketing",
-          "BlobName": "VirtoCommerce.Marketing_3.818.0-alpha.879.zip"
-        },
-        {
           "Id": "VirtoCommerce.GoogleSSO",
           "BlobName": "VirtoCommerce.GoogleSSO_3.804.0-alpha.23.zip"
         },
@@ -308,6 +304,10 @@
         {
           "Id": "VirtoCommerce.DynamicAssociationsModule",
           "BlobName": "VirtoCommerce.DynamicAssociationsModule_3.809.0-alpha.168.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Marketing",
+          "BlobName": "VirtoCommerce.Marketing_3.818.0-alpha.882.zip"
         }
       ]
     }
