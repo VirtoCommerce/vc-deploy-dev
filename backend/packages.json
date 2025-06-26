@@ -286,10 +286,6 @@
           "BlobName": "VirtoCommerce.WebHooks_3.809.0-alpha.315.zip"
         },
         {
-          "Id": "VirtoCommerce.Quote",
-          "BlobName": "VirtoCommerce.Quote_3.908.0-alpha.463.zip"
-        },
-        {
           "Id": "VirtoCommerce.WhiteLabeling",
           "BlobName": "VirtoCommerce.WhiteLabeling_3.907.0-alpha.47.zip"
         },
@@ -308,6 +304,10 @@
         {
           "Id": "VirtoCommerce.Return",
           "BlobName": "VirtoCommerce.Return_3.809.0-alpha.115.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Quote",
+          "BlobName": "VirtoCommerce.Quote_3.909.0-alpha.464.zip"
         }
       ]
     }
