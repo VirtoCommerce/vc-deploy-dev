@@ -68,10 +68,6 @@
           "Version": "3.802.0"
         },
         {
-          "Id": "VirtoCommerce.PriceExportImport",
-          "Version": "3.802.0"
-        },
-        {
           "Id": "VirtoCommerce.AuthorizeNetPayment",
           "Version": "3.804.0"
         },
@@ -294,6 +290,10 @@
         {
           "Id": "VirtoCommerce.OrderManagement",
           "Version": "3.804.0"
+        },
+        {
+          "Id": "VirtoCommerce.PriceExportImport",
+          "Version": "3.803.0"
         }
       ]
     },
