@@ -128,8 +128,9 @@
       Seo__SeoInfoResolver__0: ContentFile
       Seo__SeoInfoResolver__1: Pages
       Seo__SeoInfoResolver__2: Catalog
-      Seo__SeoInfoResolver__3: Category
-      Seo__SeoInfoResolver__4: CatalogProduct
+      Seo__SeoInfoResolver__3: Brand
+      Seo__SeoInfoResolver__4: Category
+      Seo__SeoInfoResolver__5: CatalogProduct
 
       # Elastic App Search settings
       Search__ElasticAppSearch__Endpoint: https://enterprise-search-test.govirto.com
