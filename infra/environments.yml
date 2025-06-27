@@ -107,23 +107,25 @@
       
       Search__OrderFullTextSearchEnabled: true
       Search__ContentFullTextSearchEnabled: true
-      #Search__DocumentScopes__0__DocumentType: Product
-      #Search__DocumentScopes__0__Scope: vcptcore-qa-platformvcptcore-scope11
-      #Search__DocumentScopes__2__DocumentType: Category
-      #Search__DocumentScopes__2__Scope: vcptcore-qa-platformvcptcore-scope55
-      #Search__DocumentScopes__3__DocumentType: Member
-      #Search__DocumentScopes__3__Scope: vcptcore-qa-platformvcptcore-scope33
-      #Search__DocumentScopes__4__DocumentType: CustomerOrder
-      #Search__DocumentScopes__4__Scope: vcptcore-qa-platformvcptcore-scope44
-      #Search__DocumentScopes__5__DocumentType: ContentFile
-      #Search__DocumentScopes__5__Scope: vcptcore-qa-platformvcptcore-scope66
-      Search__ElasticSearch__EnableCompatibilityMode: true
-      Search__ElasticSearch__HealthCheckTimeout: 10   
-      Search__ElasticSearch__Server: https://elasticsearch-vc03.govirto.com
-      Search__ElasticSearch__EnableCompatibilityMode: true
-      Search__Provider: ElasticSearch
+      Search__DocumentScopes__0__DocumentType: Product
+      Search__DocumentScopes__0__Scope: vcptcore-qa1-platformvcptcore-scope11
+      Search__DocumentScopes__2__DocumentType: Category
+      Search__DocumentScopes__2__Scope: vcptcore-qa1-platformvcptcore-scope55
+      Search__DocumentScopes__3__DocumentType: Member
+      Search__DocumentScopes__3__Scope: vcptcore-qa1-platformvcptcore-scope33
+      Search__DocumentScopes__4__DocumentType: CustomerOrder
+      Search__DocumentScopes__4__Scope: vcptcore-qa1-platformvcptcore-scope44
+      Search__DocumentScopes__5__DocumentType: ContentFile
+      Search__DocumentScopes__5__Scope: vcptcore-qa1-platformvcptcore-scope66
+      
+      #Search__ElasticSearch__EnableCompatibilityMode: true
+      #Search__ElasticSearch__HealthCheckTimeout: 10   
+      #Search__ElasticSearch__Server: https://elasticsearch-vc03.govirto.com
+      #Search__ElasticSearch__EnableCompatibilityMode: true
+      #Search__Provider: ElasticSearch
+      
       #Search__Provider: ElasticSearch9
-      #Search__Provider: ElasticSearch8
+      Search__Provider: ElasticSearch8
       #Search__Provider: OpenSearch
       #Search__OpenSearch__Server: https://opensearch-uat.govirto.com/
       #Search__OpenSearch__User: admin
@@ -309,7 +311,7 @@
       EventBus__Connections__0__ConnectionOptionsSerialized: eventbusconnection
       #Assets__AzureBlobStorage__ConnectionString: azureblobconnectionstring
       PushMessages__FcmSenderOptions__PrivateKey: firebase-privatekey
-      #Search__ElasticSearch8__Key: elasticsearch8
+      Search__ElasticSearch8__Key: elasticsearch8
       #Search__ElasticSearch9__Key: elastic-new9
       
       
