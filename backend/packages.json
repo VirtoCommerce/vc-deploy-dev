@@ -222,10 +222,6 @@
           "BlobName": "VirtoCommerce.XCart_3.923.0-alpha.115.zip"
         },
         {
-          "Id": "VirtoCommerce.Contracts",
-          "BlobName": "VirtoCommerce.Contracts_3.905.0-alpha.126.zip"
-        },
-        {
           "Id": "VirtoCommerce.Pages",
           "BlobName": "VirtoCommerce.Pages_3.810.0-alpha.33.zip"
         },
@@ -308,6 +304,10 @@
         {
           "Id": "VirtoCommerce.Assets",
           "BlobName": "VirtoCommerce.Assets_3.813.0-alpha.153.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Contracts",
+          "BlobName": "VirtoCommerce.Contracts_3.905.0-alpha.127.zip"
         }
       ]
     }
