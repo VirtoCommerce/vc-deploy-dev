@@ -120,8 +120,8 @@
       #Search__ElasticSearch__EnableCompatibilityMode: true
       #Search__ElasticSearch__HealthCheckTimeout: 10      
       #Search__Provider: ElasticSearch
-      Search__Provider: ElasticSearch9
-      #Search__Provider: ElasticSearch8
+      #Search__Provider: ElasticSearch9
+      Search__Provider: ElasticSearch8
       #Search__Provider: OpenSearch
       #Search__OpenSearch__Server: https://opensearch-uat.govirto.com/
       #Search__OpenSearch__User: admin
@@ -131,11 +131,11 @@
       #Search__Provider: Lucene
       #Search__Scope: default
       #Search__Lucene__Path: /path/to/lucene/indexes
-      #Search__ElasticSearch8__Server: https://1714126b27f941cb82f2c0e0d242d6b4.eastus2.azure.elastic-cloud.com
-      #Search__ElasticSearch8__User: elastic
-      #Search__ElasticSearch8__EnableDebugMode: true
-      Search__ElasticSearch9__Server: https://240c68b310e04b229a76aa150fbde38d.uksouth.azure.elastic-cloud.com:443
-      Search__ElasticSearch9__User: elastic
+      Search__ElasticSearch8__Server: https://1714126b27f941cb82f2c0e0d242d6b4.eastus2.azure.elastic-cloud.com
+      Search__ElasticSearch8__User: elastic
+      Search__ElasticSearch8__EnableDebugMode: true
+      #Search__ElasticSearch9__Server: https://240c68b310e04b229a76aa150fbde38d.uksouth.azure.elastic-cloud.com:443
+      #Search__ElasticSearch9__User: elastic
 
       #Search__Provider: AlgoliaSearch
       Search__AlgoliaSearch__ApiKey: f3de99009f79a358485b9e11fe7e3692
@@ -307,8 +307,8 @@
       EventBus__Connections__0__ConnectionOptionsSerialized: eventbusconnection
       #Assets__AzureBlobStorage__ConnectionString: azureblobconnectionstring
       PushMessages__FcmSenderOptions__PrivateKey: firebase-privatekey
-      #Search__ElasticSearch8__Key: elasticsearch8
-      Search__ElasticSearch9__Key: elastic-new9
+      Search__ElasticSearch8__Key: elasticsearch8
+      #Search__ElasticSearch9__Key: elastic-new9
       
       
       
