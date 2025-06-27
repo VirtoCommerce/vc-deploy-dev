@@ -125,8 +125,8 @@
       PushMessages__FcmReceiverOptions__AppId: 1:1021404404978:web:89ab011d054397a04d046b
       PushMessages__FcmReceiverOptions__VapidKey: BB1Pzs7sBeDkuQWO_cNzo3OhCEruXypVhFsKZaTN4FBL1JhC4fgsgsQSM-vusa99uYVpMcroJzhydyRfMkCQLHc
 
-      Seo__SeoInfoResolver__0: ContentFile
-      Seo__SeoInfoResolver__1: Pages
+      Seo__SeoInfoResolver__0: Pages
+      Seo__SeoInfoResolver__1: ContentFile      
       Seo__SeoInfoResolver__2: Catalog
       Seo__SeoInfoResolver__3: Brand
       Seo__SeoInfoResolver__4: Category
