@@ -150,10 +150,6 @@
           "BlobName": "VirtoCommerce.XCatalog_3.922.0-alpha.110.zip"
         },
         {
-          "Id": "VirtoCommerce.GDPR",
-          "BlobName": "VirtoCommerce.GDPR_3.807.0-alpha.137.zip"
-        },
-        {
           "Id": "VirtoCommerce.Xapi",
           "BlobName": "VirtoCommerce.Xapi_3.916.0-alpha.99.zip"
         },
@@ -308,6 +304,10 @@
         {
           "Id": "VirtoCommerce.CatalogPublishing",
           "BlobName": "VirtoCommerce.CatalogPublishing_3.808.0-alpha.366.zip"
+        },
+        {
+          "Id": "VirtoCommerce.GDPR",
+          "BlobName": "VirtoCommerce.GDPR_3.807.0-alpha.138.zip"
         }
       ]
     }
