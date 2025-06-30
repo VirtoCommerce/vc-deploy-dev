@@ -146,10 +146,6 @@
           "BlobName": "VirtoCommerce.ElasticAppSearch_3.812.0-alpha.146.zip"
         },
         {
-          "Id": "VirtoCommerce.XCatalog",
-          "BlobName": "VirtoCommerce.XCatalog_3.922.0-alpha.110.zip"
-        },
-        {
           "Id": "VirtoCommerce.Xapi",
           "BlobName": "VirtoCommerce.Xapi_3.916.0-alpha.99.zip"
         },
@@ -308,6 +304,10 @@
         {
           "Id": "VirtoCommerce.GDPR",
           "BlobName": "VirtoCommerce.GDPR_3.807.0-alpha.138.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XCatalog",
+          "BlobName": "VirtoCommerce.XCatalog_3.922.0-alpha.111.zip"
         }
       ]
     }
