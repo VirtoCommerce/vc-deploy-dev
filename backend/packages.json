@@ -268,10 +268,6 @@
           "Version": "3.808.0"
         },
         {
-          "Id": "VirtoCommerce.WhiteLabeling",
-          "Version": "3.907.0"
-        },
-        {
           "Id": "VirtoCommerce.WebHooks",
           "Version": "3.809.0"
         },
@@ -294,6 +290,10 @@
         {
           "Id": "VirtoCommerce.XCatalog",
           "Version": "3.922.0"
+        },
+        {
+          "Id": "VirtoCommerce.WhiteLabeling",
+          "Version": "3.908.0"
         }
       ]
     },
