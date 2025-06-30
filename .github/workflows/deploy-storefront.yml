@@ -10,7 +10,7 @@ on:
 
 jobs:
   gitops-publish-storefront:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     env:
       DOCKER_LOGIN: vcptcore-token
       DOCKER_PASSWORD: ${{ secrets.VCPTCORE_ACR_DOCKER_PASSWORD }}
