@@ -190,10 +190,6 @@
           "BlobName": "VirtoCommerce.WebHooks_3.810.0-alpha.317.zip"
         },
         {
-          "Id": "VirtoCommerce.XCart",
-          "BlobName": "VirtoCommerce.XCart_3.923.0-alpha.115.zip"
-        },
-        {
           "Id": "VirtoCommerce.Pages",
           "BlobName": "VirtoCommerce.Pages_3.810.0-alpha.33.zip"
         },
@@ -308,6 +304,10 @@
         {
           "Id": "VirtoCommerce.WhiteLabeling",
           "BlobName": "VirtoCommerce.WhiteLabeling_3.909.0-alpha.50.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XCart",
+          "BlobName": "VirtoCommerce.XCart_3.923.0-alpha.116.zip"
         }
       ]
     }
