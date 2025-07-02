@@ -51,6 +51,10 @@
          {
           "Id": "VirtoCommerce.Seo",
           "BlobName": "VirtoCommerce.Seo_3.804.0-pr-6-8918.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "BlobName": "VirtoCommerce.Catalog_3.873.0-pr-808-446a.zip"
         }
       ]
     },
@@ -256,10 +260,6 @@
         {
           "Id": "VirtoCommerce.Payment",
           "Version": "3.810.0"
-        },
-        {
-          "Id": "VirtoCommerce.Catalog",
-          "Version": "3.872.0"
         },
         {
           "Id": "VirtoCommerce.Xapi",
