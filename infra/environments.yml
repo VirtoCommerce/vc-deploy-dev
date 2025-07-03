@@ -139,8 +139,8 @@
       Search__ElasticSearch__Server: https://elasticsearch-vc03.govirto.com
       Search__ElasticSearch__EnableCompatibilityMode: true
       # ElasticSearch8
-      Search__ElasticSearch8__Server: https://c8f1b4afcf244fffbf101368e10315ad.eastus2.azure.elastic-cloud.com:443
-      Search__ElasticSearch8__User: elastic
+      #Search__ElasticSearch8__Server: https://c8f1b4afcf244fffbf101368e10315ad.eastus2.azure.elastic-cloud.com:443
+      #Search__ElasticSearch8__User: elastic
       # VirtoCommerce Search settings
       #Search__Provider: ElasticSearch
       Search__Provider: ElasticSearch8
