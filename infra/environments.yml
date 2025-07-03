@@ -152,8 +152,8 @@
   storefront:
     enabled: false
     themes:
-      B2B-store: https://github.com/VirtoCommerce/vc-frontend/releases/download/2.24.0/vc-theme-b2b-vue-2.24.0.zip
-      B2B-loyalty: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-2.24.0-pr-1757-324d-324dad87.zip
+      B2B-store: https://github.com/VirtoCommerce/vc-frontend/releases/download/2.25.0/vc-theme-b2b-vue-2.25.0.zip
+      B2B-loyalty: https://github.com/VirtoCommerce/vc-frontend/releases/download/2.25.0/vc-theme-b2b-vue-2.25.0.zip
     headers:
         Cross-Origin-Embedder-Policy: unsafe-none
         Cross-Origin-Resource-Policy: cross-origin
