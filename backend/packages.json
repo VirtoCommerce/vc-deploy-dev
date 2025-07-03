@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.892.0-pr-2921-6c5e-password-reset-models-6c5eb08a",
+  "PlatformVersion": "3.892.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.892.0-pr-2921-6c5e-password-reset-models-6c5eb08a",
+  "PlatformImageTag": "3.892.0",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -44,6 +44,10 @@
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
                        ],
       "Modules": [ 
+         {
+           "Id": "VirtoCommerce.SeqLog",
+           "Version": "3.800.0"
+         },
          {
           "Id": "VirtoCommerce.FileSystemAssets",
           "Version": "3.805.0"
