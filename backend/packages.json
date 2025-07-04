@@ -32,6 +32,10 @@
          {
           "Id": "VirtoCommerce.AIDocumentProcessing",
           "BlobName": "VirtoCommerce.AIDocumentProcessing_3.901.0-pr-6-5f80.zip"
+        },
+        {
+          "Id": "VirtoCommerce.CatalogCsvImportModule",
+          "BlobName": "VirtoCommerce.CatalogCsvImportModule_3.810.0-pr-119-a441.zip"
         }
       ]
     },
@@ -224,10 +228,6 @@
         {
           "Id": "VirtoCommerce.Xapi",
           "Version": "3.916.0"
-        },
-        {
-          "Id": "VirtoCommerce.CatalogCsvImportModule",
-          "Version": "3.809.0"
         },
         {
           "Id": "VirtoCommerce.CatalogPublishing",
