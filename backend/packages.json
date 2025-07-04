@@ -96,10 +96,6 @@
           "Version": "3.905.0"
         },
         {
-          "Id": "VirtoCommerce.Notifications",
-          "Version": "3.819.0"
-        },
-        {
           "Id": "VirtoCommerce.XCMS",
           "Version": "3.902.0"
         },
@@ -294,6 +290,10 @@
         {
           "Id": "VirtoCommerce.XCatalog",
           "Version": "3.924.0"
+        },
+        {
+          "Id": "VirtoCommerce.Notifications",
+          "Version": "3.821.0"
         }
       ]
     },
