@@ -11,7 +11,7 @@
     dbName: vcst-qa-platform_restored
     config:
       # Increment to force environment reload
-      reload: 14
+      reload: 20
       # Application Insights settings
       APPINSIGHTS_INSTRUMENTATIONKEY: ef0125aa-1c8e-42d3-964f-d0a11256309d      
       # Forward headers to Nginx
@@ -139,11 +139,11 @@
       Search__ElasticSearch__Server: https://elasticsearch-vc03.govirto.com
       Search__ElasticSearch__EnableCompatibilityMode: true
       # ElasticSearch8
-      Search__ElasticSearch8__Server: https://c8f1b4afcf244fffbf101368e10315ad.eastus2.azure.elastic-cloud.com:443
-      Search__ElasticSearch8__User: elastic
+      #Search__ElasticSearch8__Server: https://c8f1b4afcf244fffbf101368e10315ad.eastus2.azure.elastic-cloud.com:443
+      #Search__ElasticSearch8__User: elastic
       # VirtoCommerce Search settings
-      Search__Provider: ElasticSearch
-      #Search__Provider: ElasticSearch8
+      #Search__Provider: ElasticSearch
+      Search__Provider: ElasticSearch8
       #Search__Provider: OpenSearch
       #Search__OpenSearch__Server: https://opensearch-uat.govirto.com/
       #Search__OpenSearch__User: admin
@@ -166,7 +166,7 @@
       Tax__Avalara__LicenseKey: 16BC3F87E836E15C
       Videos__GoogleApiKey: AIzaSyD5A4oFeSgaMQnMo3OiaqUSJ23SQGELiA4
     secretConfig:
-      Search__ElasticSearch8__Key: elastic-8
+      Search__ElasticSearch8__Key: elastic8
       PushMessages__FcmSenderOptions__PrivateKey: fcm-private-key-new
       Notifications__SendGrid__ApiKey: sendgrid-apikey
       Payments__AuthorizeNet__TxnKey: authorizenet-txnkey
