@@ -45,6 +45,10 @@
         {
           "Id": "VirtoCommerce.XRecommend",
           "BlobName": "VirtoCommerce.XRecommend_3.904.0-pr-18-0564.zip"
+        },
+        {
+          "Id": "VirtoCommerce.PushMessages",
+          "BlobName": "VirtoCommerce.PushMessages_3.902.0-pr-16-74c9.zip"
         }
       ]
     },
@@ -112,10 +116,6 @@
         },
         {
           "Id": "VirtoCommerce.TaskManagement",
-          "Version": "3.901.0"
-        },
-        {
-          "Id": "VirtoCommerce.PushMessages",
           "Version": "3.901.0"
         },
         {
