@@ -18,6 +18,9 @@
         },
         {
           "BlobName": "VirtoCommerce.XRecommend_3.904.0-pr-18-35c1.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.XCart_3.925.0-pr-62-53cd.zip"
         }
       ]
     },
@@ -298,10 +301,6 @@
         {
           "Id": "VirtoCommerce.WebHooks",
           "Version": "3.809.0"
-        },
-        {
-          "Id": "VirtoCommerce.XCart",
-          "Version": "3.922.0"
         },
         {
           "Id": "VirtoCommerce.Contracts",
