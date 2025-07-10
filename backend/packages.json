@@ -68,10 +68,6 @@
           "Version": "3.901.0"
         },
         {
-          "Id": "VirtoCommerce.PushMessages",
-          "Version": "3.901.0"
-        },
-        {
           "Id": "VirtoCommerce.Skyflow",
           "Version": "3.901.0"
         },
@@ -294,6 +290,10 @@
         {
           "Id": "VirtoCommerce.XOrder",
           "Version": "3.911.0"
+        },
+        {
+          "Id": "VirtoCommerce.PushMessages",
+          "Version": "3.902.0"
         }
       ]
     },
