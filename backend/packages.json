@@ -60,6 +60,10 @@
         {
           "Id": "VirtoCommerce.XOrder",
           "BlobName": "VirtoCommerce.XOrder_3.912.0-pr-29-c0e7.zip"
+        },
+         {
+          "Id": "VirtoCommerce.TaskManagement",
+          "BlobName": "VirtoCommerce.TaskManagement_3.902.0-pr-21-c503.zip"
         }
       ]
     },
@@ -123,10 +127,6 @@
         },
         {
           "Id": "VirtoCommerce.MarketingExperienceApi",
-          "Version": "3.901.0"
-        },
-        {
-          "Id": "VirtoCommerce.TaskManagement",
           "Version": "3.901.0"
         },
         {
