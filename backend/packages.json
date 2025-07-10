@@ -204,10 +204,6 @@
           "Version": "3.808.0"
         },
         {
-          "Id": "VirtoCommerce.Pricing",
-          "Version": "3.817.0"
-        },
-        {
           "Id": "VirtoCommerce.Tax",
           "Version": "3.805.0"
         },
@@ -294,6 +290,10 @@
         {
           "Id": "VirtoCommerce.XCart",
           "Version": "3.925.0"
+        },
+        {
+          "Id": "VirtoCommerce.Pricing",
+          "Version": "3.818.0"
         }
       ]
     },
