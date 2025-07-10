@@ -57,6 +57,10 @@
         {
           "Id": "VirtoCommerce.XOrder",
           "BlobName": "VirtoCommerce.XOrder_3.911.0-pr-30-5c31.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Pricing",
+          "BlobName": "VirtoCommerce.Pricing_3.818.0-pr-223-67b7.zip"
         }
       ]
     },
@@ -265,10 +269,6 @@
         {
           "Id": "VirtoCommerce.DynamicAssociationsModule",
           "Version": "3.808.0"
-        },
-        {
-          "Id": "VirtoCommerce.Pricing",
-          "Version": "3.817.0"
         },
         {
           "Id": "VirtoCommerce.Tax",
