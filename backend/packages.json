@@ -302,12 +302,12 @@
           "BlobName": "VirtoCommerce.XCart_3.925.0-alpha.121.zip"
         },
         {
-          "Id": "VirtoCommerce.PushMessages",
-          "BlobName": "VirtoCommerce.PushMessages_3.902.0-alpha.63.zip"
-        },
-        {
           "Id": "VirtoCommerce.XOrder",
           "BlobName": "VirtoCommerce.XOrder_3.912.0-alpha.70.zip"
+        },
+        {
+          "Id": "VirtoCommerce.PushMessages",
+          "BlobName": "VirtoCommerce.PushMessages_3.903.0-alpha.64.zip"
         }
       ]
     }
