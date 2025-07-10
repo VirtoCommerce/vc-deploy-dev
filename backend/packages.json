@@ -13,7 +13,7 @@
       "Container": "packages",
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
-         {
+        {
           "Id": "VirtoCommerce.PageBuilderModule",
           "BlobName": "VirtoCommerce.PageBuilderModule_3.821.0.zip"
         },
@@ -29,7 +29,7 @@
           "Id": "VirtoCommerce.AlgoliaSearch_3.801.0",
           "BlobName": "VirtoCommerce.AlgoliaSearch_3.801.0-pr-3-a62c.zip"
         },
-         {
+        {
           "Id": "VirtoCommerce.AIDocumentProcessing",
           "BlobName": "VirtoCommerce.AIDocumentProcessing_3.901.0-pr-6-5f80.zip"
         },
@@ -37,11 +37,10 @@
           "Id": "VirtoCommerce.CatalogCsvImportModule",
           "BlobName": "VirtoCommerce.CatalogCsvImportModule_3.810.0-pr-119-a441.zip"
         },
-         {
+        {
           "Id": "VirtoCommerce.XCart",
           "BlobName": "VirtoCommerce.XCart_3.925.0-pr-56-1842.zip"
         },
-        
         {
           "Id": "VirtoCommerce.XRecommend",
           "BlobName": "VirtoCommerce.XRecommend_3.904.0-pr-18-0564.zip"
@@ -50,13 +49,13 @@
           "Id": "VirtoCommerce.PushMessages",
           "BlobName": "VirtoCommerce.PushMessages_3.902.0-pr-16-a4a9.zip"
         },
-         {
+        {
           "Id": "VirtoCommerce.News",
           "BlobName": "VirtoCommerce.News_3.800.0-pr-2-8cb3.zip"
         },
         {
           "Id": "VirtoCommerce.XOrder",
-          "BlobName": "VirtoCommerce.XOrder_3.911.0-pr-30-5c31.zip"
+          "BlobName": "VirtoCommerce.XOrder_3.911.0.zip"
         }
       ]
     },
@@ -64,13 +63,13 @@
       "Name": "GithubReleases",
       "ModuleSources": [
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
-                       ],
-      "Modules": [ 
-         {
-           "Id": "VirtoCommerce.SeqLog",
-           "Version": "3.800.0"
-         },
-         {
+      ],
+      "Modules": [
+        {
+          "Id": "VirtoCommerce.SeqLog",
+          "Version": "3.800.0"
+        },
+        {
           "Id": "VirtoCommerce.FileSystemAssets",
           "Version": "3.805.0"
         },
@@ -338,4 +337,3 @@
     }
   ]
 }
-
