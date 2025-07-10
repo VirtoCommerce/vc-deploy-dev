@@ -114,10 +114,6 @@
           "BlobName": "VirtoCommerce.AzureBlobAssets_3.811.0-alpha.139.zip"
         },
         {
-          "Id": "VirtoCommerce.XOrder",
-          "BlobName": "VirtoCommerce.XOrder_3.911.0-alpha.66.zip"
-        },
-        {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.918.0-alpha.290.zip"
         },
@@ -308,6 +304,10 @@
         {
           "Id": "VirtoCommerce.PushMessages",
           "BlobName": "VirtoCommerce.PushMessages_3.902.0-alpha.63.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XOrder",
+          "BlobName": "VirtoCommerce.XOrder_3.911.0-alpha.69.zip"
         }
       ]
     }
