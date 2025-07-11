@@ -34,10 +34,6 @@
           "BlobName": "VirtoCommerce.AIDocumentProcessing_3.901.0-pr-6-5f80.zip"
         },
          {
-          "Id": "VirtoCommerce.XCart",
-          "BlobName": "VirtoCommerce.XCart_3.922.0-pr-57-8829.zip"
-        },
-         {
           "Id": "VirtoCommerce.News",
           "BlobName": "VirtoCommerce.News_3.800.0-pr-2-87e2.zip"
         },
@@ -73,6 +69,10 @@
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
                        ],
       "Modules": [ 
+         {
+          "Id": "VirtoCommerce.XCart",
+          "BlobName": "3.925.0"
+        },
          {
            "Id": "VirtoCommerce.SeqLog",
            "Version": "3.800.0"
