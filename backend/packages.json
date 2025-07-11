@@ -70,10 +70,6 @@
                        ],
       "Modules": [ 
          {
-          "Id": "VirtoCommerce.XCart",
-          "BlobName": "3.925.0"
-        },
-         {
            "Id": "VirtoCommerce.SeqLog",
            "Version": "3.800.0"
          },
@@ -328,6 +324,10 @@
         {
           "Id": "VirtoCommerce.XRecommend",
           "Version": "3.904.0"
+        },
+          {
+          "Id": "VirtoCommerce.XCart",
+          "Version": "3.925.0"
         },
         {
           "Id": "VirtoCommerce.PushMessages",
