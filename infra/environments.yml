@@ -35,8 +35,7 @@
       PasswordLogin__DetailedErrors: true
       IdentityOptions__Lockout__MaxFailedAccessAttempts: 5
       Search__Provider: ElasticAppSearch
-      Search__Scope: virtostart
-      #Search__ElasticAppSearch__Endpoint: "http://ent-search-ent.elastic-system.svc.cluster.local:3002"
+      Search__Scope: virtostart  
       Search__ElasticAppSearch__EnableHttpCompression: "true"
       Search__ElasticAppSearch__KibanaBaseUrl: "https://kibana-vc-02.govirto.com/"
       Search__ElasticSearch8__Server: https://12c4e146940b4cf89bbab1a02f2cf11b.us-central1.gcp.cloud.es.io
