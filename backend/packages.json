@@ -16,7 +16,10 @@
       "Modules": [
         {
           "BlobName": "VirtoCommerce.PageBuilderModule_3.819.0.zip"
-        }
+        },
+        {
+          "BlobName": "VirtoCommerce.XOrder_3.912.0-pr-31-ba0c.zip"
+        }        
       ]
     },
     {
@@ -292,10 +295,6 @@
         {
           "Id": "VirtoCommerce.XRecommend",
           "Version": "3.904.0"
-        },
-        {
-          "Id": "VirtoCommerce.XOrder",
-          "Version": "3.911.0"
         },
         {
           "Id": "VirtoCommerce.PushMessages",
