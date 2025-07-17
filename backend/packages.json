@@ -128,10 +128,6 @@
           "Version": "3.852.0"
         },
         {
-          "Id": "VirtoCommerce.Customer",
-          "Version": "3.834.0"
-        },
-        {
           "Id": "VirtoCommerce.Subscription",
           "Version": "3.808.0"
         },
@@ -294,6 +290,10 @@
         {
           "Id": "VirtoCommerce.XOrder",
           "Version": "3.912.0"
+        },
+        {
+          "Id": "VirtoCommerce.Customer",
+          "Version": "3.835.0"
         }
       ]
     },
