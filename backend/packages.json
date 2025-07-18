@@ -33,6 +33,21 @@
         },
         {
           "BlobName": "VirtoCommerce.XOrder_3.911.0-pr-29-4f9c.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Search_3.816.0-pr-121-6ea9.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.ElasticSearch8_3.817.0-pr-29-133a.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Catalog_3.874.0-pr-814-675a.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Xapi_3.917.0-pr-45-3b8b.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.XCatalog_3.925.0-pr-59-ca71.zip"
         }
       ]
     },
@@ -147,20 +162,12 @@
           "Version": "3.917.0"
         },
         {
-          "Id": "VirtoCommerce.ElasticSearch8",
-          "Version": "3.816.0"
-        },
-        {
           "Id": "VirtoCommerce.ElasticSearch",
           "Version": "3.805.0"
         },
         {
           "Id": "VirtoCommerce.ElasticAppSearch",
           "Version": "3.811.0"
-        },
-        {
-          "Id": "VirtoCommerce.XCatalog",
-          "Version": "3.921.0"
         },
         {
           "Id": "VirtoCommerce.Assets",
@@ -207,24 +214,12 @@
           "Version": "3.802.0"
         },
         {
-          "Id": "VirtoCommerce.Search",
-          "Version": "3.815.0"
-        },
-        {
           "Id": "VirtoCommerce.Store",
           "Version": "3.819.0"
         },
         {
           "Id": "VirtoCommerce.Payment",
           "Version": "3.810.0"
-        },
-        {
-          "Id": "VirtoCommerce.Catalog",
-          "Version": "3.872.0"
-        },
-        {
-          "Id": "VirtoCommerce.Xapi",
-          "Version": "3.916.0"
         },
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
