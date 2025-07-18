@@ -15,6 +15,10 @@
       "Modules": [
         {
           "BlobName": "VirtoCommerce.PageBuilderModule_3.823.0-pr-83-0bf6.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Subscription",
+          "BlobName": "VirtoCommerce.Subscription_3.809.0-pr-102-e33e.zip"
         }
       ]
     },
@@ -139,10 +143,6 @@
         {
           "Id": "VirtoCommerce.Orders",
           "Version": "3.852.0"
-        },
-        {
-          "Id": "VirtoCommerce.Subscription",
-          "Version": "3.808.0"
         },
         {
           "Id": "VirtoCommerce.ImageTools",
