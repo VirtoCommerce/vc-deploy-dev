@@ -19,6 +19,10 @@
         {
           "Id": "VirtoCommerce.Subscription",
           "BlobName": "VirtoCommerce.Subscription_3.809.0-pr-102-e33e.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Pricing",
+          "BlobName": "VirtoCommerce.Pricing_3.819.0-pr-224-8b60.zip"
         }
       ]
     },
@@ -295,10 +299,6 @@
         {
           "Id": "VirtoCommerce.XCart",
           "Version": "3.925.0"
-        },
-        {
-          "Id": "VirtoCommerce.Pricing",
-          "Version": "3.818.0"
         },
         {
           "Id": "VirtoCommerce.XOrder",
