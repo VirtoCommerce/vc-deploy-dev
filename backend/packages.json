@@ -308,6 +308,10 @@
         {
           "Id": "VirtoCommerce.PushMessages",
           "BlobName": "VirtoCommerce.PushMessages_3.903.0-alpha.64.zip"
+        },
+        {
+          "Id": "VirtoCommerce.SqlQueries",
+          "BlobName": "VirtoCommerce.SqlQueries_3.800.0-alpha.3.zip"
         }
       ]
     }
