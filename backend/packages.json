@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.893.0",
+  "PlatformVersion": "3.897.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.893.0",
+  "PlatformImageTag": "3.897.0",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -41,10 +41,6 @@
           "Id": "VirtoCommerce.News",
           "BlobName": "VirtoCommerce.News_3.800.0-pr-2-5b7d.zip"
         },
-        {
-          "Id": "VirtoCommerce.Pricing",
-          "BlobName": "VirtoCommerce.Pricing_3.818.0-pr-223-67b7.zip"
-        },
           {
           "Id": "VirtoCommerce.Cart",
           "BlobName": "VirtoCommerce.Cart_3.832.0-pr-173-7937.zip"
@@ -56,10 +52,6 @@
         {
           "Id": "VirtoCommerce.Shipping",
           "BlobName": "VirtoCommerce.Shipping_3.811.0-pr-59-eb71.zip"
-        },
-        {
-          "Id": "VirtoCommerce.XOrder",
-          "BlobName": "VirtoCommerce.XOrder_3.912.0-pr-29-4858.zip"
         },
           {
           "Id": "VirtoCommerce.XCart",
@@ -81,7 +73,7 @@
            "Id": "VirtoCommerce.SeqLog",
            "Version": "3.800.0"
          },
-         {
+          {
           "Id": "VirtoCommerce.FileSystemAssets",
           "Version": "3.805.0"
         },
@@ -298,10 +290,6 @@
           "Version": "3.819.0"
         },
         {
-          "Id": "VirtoCommerce.Catalog",
-          "Version": "3.873.0"
-        },
-        {
           "Id": "VirtoCommerce.Store",
           "Version": "3.820.0"
         },
@@ -332,6 +320,18 @@
         {
           "Id": "VirtoCommerce.PushMessages",
           "Version": "3.902.0"
+        },
+        {
+          "Id": "VirtoCommerce.XOrder",
+          "Version": "3.912.0"
+        },
+        {
+          "Id": "VirtoCommerce.Pricing",
+          "Version": "3.819.0"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "Version": "3.874.0"
         }
       ]
     }
