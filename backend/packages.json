@@ -23,6 +23,26 @@
         {
           "Id": "VirtoCommerce.Pricing",
           "BlobName": "VirtoCommerce.Pricing_3.819.0-pr-224-8b60.zip"
+        }, 
+         {
+          "Id": "VirtoCommerce.Cart",
+          "BlobName": "VirtoCommerce.Cart_3.832.0-pr-173-7937.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Orders",
+          "BlobName": "VirtoCommerce.Orders_3.853.0-pr-460-1bf6.zip"
+        },
+         {
+          "Id": "VirtoCommerce.Shipping",
+          "BlobName": "VirtoCommerce.Shipping_3.811.0-pr-59-eb71.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XCart",
+          "BlobName": "VirtoCommerce.XCart_3.926.0-pr-59-e995.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XOrder",
+          "BlobName": "VirtoCommerce.XOrder_3.913.0-pr-29-a218.zip"
         }
       ]
     },
@@ -125,10 +145,6 @@
           "Version": "3.917.0"
         },
         {
-          "Id": "VirtoCommerce.Cart",
-          "Version": "3.831.0"
-        },
-        {
           "Id": "VirtoCommerce.ElasticSearch8",
           "Version": "3.816.0"
         },
@@ -137,16 +153,8 @@
           "Version": "3.805.0"
         },
         {
-          "Id": "VirtoCommerce.Shipping",
-          "Version": "3.810.0"
-        },
-        {
           "Id": "VirtoCommerce.Assets",
           "Version": "3.811.0"
-        },
-        {
-          "Id": "VirtoCommerce.Orders",
-          "Version": "3.852.0"
         },
         {
           "Id": "VirtoCommerce.ImageTools",
@@ -295,14 +303,6 @@
         {
           "Id": "VirtoCommerce.PushMessages",
           "Version": "3.902.0"
-        },
-        {
-          "Id": "VirtoCommerce.XCart",
-          "Version": "3.925.0"
-        },
-        {
-          "Id": "VirtoCommerce.XOrder",
-          "Version": "3.912.0"
         },
         {
           "Id": "VirtoCommerce.Customer",
