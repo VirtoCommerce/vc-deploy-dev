@@ -83,9 +83,12 @@
       PushNotifications__ScalabilityMode: RedisBackplane
       PushNotifications__HubUrl: https://vcst-qa.govirto.com/pushNotificationHub?api_key=458ab7f7-df17-4aed-9f21-092f8b611efa
       PushNotifications__RedisBackplane__ChannelName: vcst-qa-chanel
+      
       # Return detailed error information if login failed
       PasswordLogin__DetailedErrors: true
-      IdentityOptions__Lockout__MaxFailedAccessAttempts: 5  
+      Lockout__DefaultLockoutTimeSpan: 0:15:0
+      Lockout__MaxFailedAccessAttempts: 5
+      
       # Authorize.Net settings
       Payments__AuthorizeNet__ApiLogin: 52B9X7vb4
       # Skyflow settings
