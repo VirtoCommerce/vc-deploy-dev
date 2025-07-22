@@ -128,10 +128,6 @@
           "Version": "3.852.0"
         },
         {
-          "Id": "VirtoCommerce.Subscription",
-          "Version": "3.808.0"
-        },
-        {
           "Id": "VirtoCommerce.ImageTools",
           "Version": "3.810.0"
         },
@@ -294,6 +290,10 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "Version": "3.874.0"
+        },
+        {
+          "Id": "VirtoCommerce.Subscription",
+          "Version": "3.809.0"
         }
       ]
     },
