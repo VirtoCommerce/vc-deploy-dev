@@ -127,6 +127,8 @@
       PushMessages__FcmReceiverOptions__VapidKey: BE1iGYmRsbdI1FB-qTiIUvGrWvC91GCfnXSHtfzcPLgXfQ28fbpKFlD8YlbI7w-aHVepW3Ih17oRB53ceYNaM6k
       # Temporary settings below
       Shipping__IsPickupEnabled: true
+      product_filters_sorting: false
+      product_filters_sorting_direction": "asc"
     secretConfig:
       Notifications__SendGrid__ApiKey: sendgrid-apikey
       Payments__AuthorizeNet__TxnKey: authorizenet-txnkey
