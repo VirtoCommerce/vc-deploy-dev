@@ -12,7 +12,7 @@
     sqlReplica: false
     config:
       # Increment to force environment reload
-      reload: 10
+      reload: 12
       # Application Insights settings
       APPINSIGHTS_INSTRUMENTATIONKEY: b64da477-188b-4154-969b-3cb1310400f0
       # Forward headers to Nginx
@@ -126,9 +126,7 @@
       PushMessages__FcmReceiverOptions__AppId: 1:518395609520:web:53952423cba605aa771675
       PushMessages__FcmReceiverOptions__VapidKey: BE1iGYmRsbdI1FB-qTiIUvGrWvC91GCfnXSHtfzcPLgXfQ28fbpKFlD8YlbI7w-aHVepW3Ih17oRB53ceYNaM6k
       # Temporary settings below
-      Shipping__IsPickupEnabled: true
-      product_filters_sorting: false
-      product_filters_sorting_direction": "asc"
+      Shipping__IsPickupEnabled: true      
     secretConfig:
       Notifications__SendGrid__ApiKey: sendgrid-apikey
       Payments__AuthorizeNet__TxnKey: authorizenet-txnkey
