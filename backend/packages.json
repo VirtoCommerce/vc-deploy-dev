@@ -116,10 +116,6 @@
           "Version": "3.811.0"
         },
         {
-          "Id": "VirtoCommerce.Orders",
-          "Version": "3.852.0"
-        },
-        {
           "Id": "VirtoCommerce.ImageTools",
           "Version": "3.810.0"
         },
@@ -294,6 +290,10 @@
         {
           "Id": "VirtoCommerce.Cart",
           "Version": "3.832.0"
+        },
+        {
+          "Id": "VirtoCommerce.Orders",
+          "Version": "3.853.0"
         }
       ]
     },
