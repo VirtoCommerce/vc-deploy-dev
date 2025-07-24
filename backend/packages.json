@@ -1,8 +1,8 @@
 { 
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.898.0-pr-2923-621c-vcst-3430-621cfb67", 
+  "PlatformVersion": "3.900.0-pr-2929-d805-vcst-3648-d8055bcb", 
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.898.0-pr-2923-621c-vcst-3430-621cfb67",
+  "PlatformImageTag": "3.900.0-pr-2929-d805-vcst-3648-d8055bcb",
   "PlatformAssetUrl": "",  
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -47,7 +47,12 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "BlobName": "VirtoCommerce.Catalog_3.876.0-pr-811-0daf.zip"
-        }
+        },
+        {
+          "Id": "VirtoCommerce.PushMessages",
+          "BlobName": "VirtoCommerce.PushMessages_3.903.0-pr-17-16fe.zip"
+        },
+        
       ]
     },
     {
@@ -299,10 +304,6 @@
         {
           "Id": "VirtoCommerce.XRecommend",
           "Version": "3.904.0"
-        },
-        {
-          "Id": "VirtoCommerce.PushMessages",
-          "Version": "3.902.0"
         },
         {
           "Id": "VirtoCommerce.Customer",
