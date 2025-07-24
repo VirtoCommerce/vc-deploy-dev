@@ -101,7 +101,7 @@
             frame-src https://testflex.cybersource.com https://js.skyflow.com;
             font-src 'self' data: https://fonts.gstatic.com;
             connect-src 'self' https://www.google-analytics.com https://cdn.builder.io https://jstest.authorize.net https://apitest.authorize.net https://fastly.jsdelivr.net https://firebaseinstallations.googleapis.com https://fcmregistrations.googleapis.com https://maps.googleapis.com;
-            frame-ancestors 'self' https://builder.io http://vcst-ai.govirto.com/;
+            frame-ancestors 'self' https://builder.io http://vcst-ai.govirto.com/ https://virtooz.vcst-ai-storefront.govirto.com;
             object-src 'none';
             base-uri 'self';
             form-action 'self';
