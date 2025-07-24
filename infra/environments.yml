@@ -108,27 +108,27 @@
             upgrade-insecure-requests;"
   customApps: {}
   routes:
-  - host: vcst-ai-storefront.govirto.com
-    root: B2B-store
-    ppaths:
-    - path: /xapi
-      route: platform
-    - path: /files
-      route: platform
-    - path: /connect/token
-      route: platform
-    - path: /graphql
-      route: platform
-    - path: /revoke/token
-      route: platform
-    - path: /api/files
-      route: platform
-    - path: /externalsignin
-      route: platform
-    - path: /signin-oidc
-      route: platform
-    - path: /signin-google
-      route: platform
+    - host: vcst-ai-storefront.govirto.com
+      root: B2B-store
+      ppaths:
+      - path: /xapi
+        route: platform
+      - path: /files
+        route: platform
+      - path: /connect/token
+        route: platform
+      - path: /graphql
+        route: platform
+      - path: /revoke/token
+        route: platform
+      - path: /api/files
+        route: platform
+      - path: /externalsignin
+        route: platform
+      - path: /signin-oidc
+        route: platform
+      - path: /signin-google
+        route: platform
   protectedParameters:
    - platform.image.tag
   version: 3.224
