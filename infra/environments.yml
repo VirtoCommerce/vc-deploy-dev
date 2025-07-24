@@ -106,9 +106,6 @@
             base-uri 'self';
             form-action 'self';
             upgrade-insecure-requests;"
-  ingress:
-    hostnames:
-      name1: http://vcst-ai.govirto.com/
   customApps: {}
   routes:
   - host: vcst-ai-storefront.govirto.com
