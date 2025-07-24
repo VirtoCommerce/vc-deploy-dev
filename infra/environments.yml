@@ -3,6 +3,10 @@
   production: false
   servicePlan: B1
   platform:
+    headers:
+        Cross-Origin-Resource-Policy: cross-origin
+        Cross-Origin-Opener-Policy: unsafe-none
+        Cross-Origin-Embedder-Policy: unsafe-none
     imageRepository: virtopaasregistrymain.azurecr.io/vcst/platform
     sqlReplica: false
     config:
@@ -86,12 +90,30 @@
     config:
       APPINSIGHTS_INSTRUMENTATIONKEY: 0734e66c-ef37-413f-a5d5-2a3cdbeedbff
     themes:
-      B2B-store: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-2.14.0-alpha.1629-vc-assistant.zip
+      B2B-store: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-2.26.0-alpha.1878-vc-ai-assistant.zip
+    headers:
+        Cross-Origin-Embedder-Policy: unsafe-none
+        Cross-Origin-Resource-Policy: cross-origin
+        X-Content-Type-Options: nosniff
+        Content-Security-Policy: >
+            "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://js.skyflow.com https://jstest.authorize.net https://testflex.cybersource.com https://static.cloudflareinsights.com https://cdn.builder.io https://runtime-dom.esm-bundler.js https://www.gstatic.com https://maps.googleapis.com;
+            style-src 'self' 'unsafe-inline';
+            frame-src https://testflex.cybersource.com https://js.skyflow.com;
+            font-src 'self' data: https://fonts.gstatic.com;
+            connect-src 'self' https://www.google-analytics.com https://cdn.builder.io https://jstest.authorize.net https://apitest.authorize.net https://fastly.jsdelivr.net https://firebaseinstallations.googleapis.com https://fcmregistrations.googleapis.com https://maps.googleapis.com;
+            frame-ancestors 'self' https://builder.io http://vcst-ai.govirto.com/;
+            object-src 'none';
+            base-uri 'self';
+            form-action 'self';
+            upgrade-insecure-requests;"
+  ingress:
+    hostnames:
+      name1: http://vcst-ai.govirto.com/
   customApps: {}
   routes:
   - host: vcst-ai-storefront.govirto.com
     root: B2B-store
-    paths:
+    ppaths:
     - path: /xapi
       route: platform
     - path: /files
@@ -104,11 +126,13 @@
       route: platform
     - path: /api/files
       route: platform
-    # - path: /externalsignin
-    #   route: platform
-    # - path: /signin-oidc
-    #   route: platform
+    - path: /externalsignin
+      route: platform
+    - path: /signin-oidc
+      route: platform
+    - path: /signin-google
+      route: platform
   protectedParameters:
    - platform.image.tag
-  version: 3.218
+  version: 3.224
 
