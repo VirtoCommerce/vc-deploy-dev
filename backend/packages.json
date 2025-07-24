@@ -20,21 +20,6 @@
           "BlobName": "VirtoCommerce.XRecommend_3.904.0-pr-18-35c1.zip"
         },
         {
-          "BlobName": "VirtoCommerce.Cart_3.832.0-pr-173-3d26.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.Orders_3.853.0-pr-460-28f9.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.Shipping_3.811.0-pr-59-137a.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.XCart_3.925.0-pr-59-53c8.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.XOrder_3.911.0-pr-29-4f9c.zip"
-        },
-        {
           "BlobName": "VirtoCommerce.Search_3.816.0-pr-121-6ea9.zip"
         },
         {
@@ -296,6 +281,26 @@
         {
           "Id": "VirtoCommerce.Contracts",
           "Version": "3.904.0"
+        },
+        {
+          "Id": "VirtoCommerce.Shipping",
+          "Version": "3.811.0"
+        },
+        {
+          "Id": "VirtoCommerce.XCart",
+          "Version": "3.926.0"
+        },
+        {
+          "Id": "VirtoCommerce.XOrder",
+          "Version": "3.913.0"
+        },
+        {
+          "Id": "VirtoCommerce.Orders",
+          "Version": "3.853.0"
+        },
+        {
+          "Id": "VirtoCommerce.Cart",
+          "Version": "3.832.0"
         }
       ]
     }
