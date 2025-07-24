@@ -278,10 +278,6 @@
           "BlobName": "VirtoCommerce.Pricing_3.820.0-alpha.769.zip"
         },
         {
-          "Id": "VirtoCommerce.PushMessages",
-          "BlobName": "VirtoCommerce.PushMessages_3.903.0-alpha.64.zip"
-        },
-        {
           "Id": "VirtoCommerce.SqlQueries",
           "BlobName": "VirtoCommerce.SqlQueries_3.800.0-alpha.3.zip"
         },
@@ -312,6 +308,10 @@
         {
           "Id": "VirtoCommerce.XOrder",
           "BlobName": "VirtoCommerce.XOrder_3.914.0-alpha.74.zip"
+        },
+        {
+          "Id": "VirtoCommerce.PushMessages",
+          "BlobName": "VirtoCommerce.PushMessages_3.903.0-alpha.65.zip"
         }
       ]
     }
