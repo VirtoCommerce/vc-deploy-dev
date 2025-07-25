@@ -22,6 +22,16 @@
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net"
     },
     {
+      "Name": "AzureBlob",
+      "Modules": [
+        {
+          "BlobName": "VirtoCommerce.AIAssistedPromotions_3.800.0.zip"
+        }
+      ],
+      "Container": "modules",
+      "ServiceUri": "https://avvirtowaytemporary.blob.core.windows.net"
+    },
+    {
       "Name": "GithubReleases",
       "ModuleSources": [
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
