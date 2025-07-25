@@ -1,7 +1,7 @@
 - name: vcptcore-qa1
   gitops: true
   production: false
-  servicePlan: B1
+  servicePlan: P1
   platform:
     headers:
       Cross-Origin-Resource-Policy: cross-origin
