@@ -13,10 +13,6 @@
       "Container": "packages",
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
-          {
-          "Id": "VirtoCommerce.Customer",
-          "BlobName": "VirtoCommerce.Customer_3.836.0-pr-275-a832.zip"
-         },
          {
           "Id": "VirtoCommerce.PageBuilderModule",
           "BlobName": "VirtoCommerce.PageBuilderModule_3.823.0-pr-83-e39a.zip"
@@ -292,6 +288,10 @@
         {
           "Id": "VirtoCommerce.XRecommend",
           "Version": "3.904.0"
+        },
+        {
+          "Id": "VirtoCommerce.Customer",
+          "Version": "3.835.0"
         },
         {
           "Id": "VirtoCommerce.Pricing",
