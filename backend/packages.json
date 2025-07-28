@@ -40,6 +40,10 @@
          {
           "Id": "VirtoCommerce.TaskManagement",
           "BlobName": "VirtoCommerce.TaskManagement_3.902.0-pr-21-c503.zip"
+        },
+          {
+          "Id": "VirtoCommerce.PushMessages",
+          "BlobName": "VirtoCommerce.PushMessages_3.904.0-pr-18-f2e7.zip"
         }
       ]
     },
@@ -316,10 +320,6 @@
         {
           "Id": "VirtoCommerce.XOrder",
           "Version": "3.913.0"
-        },
-        {
-          "Id": "VirtoCommerce.PushMessages",
-          "Version": "3.902.0"
         },
         {
           "Id": "VirtoCommerce.Marketing",
