@@ -13,6 +13,14 @@
       "Container": "packages",
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
+        {
+          "Id": "VirtoCommerce.XCatalog",
+          "BlobName": "VirtoCommerce.XCatalog_3.925.0-pr-62-0921.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Xapi",
+          "BlobName": "VirtoCommerce.Xapi_3.917.0-pr-47-0aab.zip"
+        },
          {
           "Id": "VirtoCommerce.PageBuilderModule",
           "BlobName": "VirtoCommerce.PageBuilderModule_3.823.0-pr-83-e39a.zip"
@@ -194,10 +202,6 @@
           "Version": "3.810.0"
         },
         {
-          "Id": "VirtoCommerce.Xapi",
-          "Version": "3.916.0"
-        },
-        {
           "Id": "VirtoCommerce.CatalogPublishing",
           "Version": "3.807.0"
         },
@@ -272,10 +276,6 @@
         {
           "Id": "VirtoCommerce.ElasticAppSearch",
           "Version": "3.812.0"
-        },
-        {
-          "Id": "VirtoCommerce.XCatalog",
-          "Version": "3.924.0"
         },
         {
           "Id": "VirtoCommerce.Notifications",
