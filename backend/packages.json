@@ -28,6 +28,9 @@
         },
         {
           "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.918.0-pr-115-eb41.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Customer_3.836.0-pr-275-a832.zip"
         }
       ]
     },
@@ -268,11 +271,7 @@
         {
           "Id": "VirtoCommerce.XRecommend",
           "Version": "3.904.0"
-        },
-        {
-          "Id": "VirtoCommerce.Customer",
-          "Version": "3.835.0"
-        },
+        }, 
         {
           "Id": "VirtoCommerce.Pricing",
           "Version": "3.819.0"
