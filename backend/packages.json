@@ -122,10 +122,6 @@
           "BlobName": "VirtoCommerce.ElasticSearch_3.806.0-alpha.267.zip"
         },
         {
-          "Id": "VirtoCommerce.Xapi",
-          "BlobName": "VirtoCommerce.Xapi_3.916.0-alpha.99.zip"
-        },
-        {
           "Id": "VirtoCommerce.Tax",
           "BlobName": "VirtoCommerce.Tax_3.806.0-alpha.195.zip"
         },
@@ -312,6 +308,10 @@
         {
           "Id": "VirtoCommerce.PushMessages",
           "BlobName": "VirtoCommerce.PushMessages_3.905.0-alpha.68.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Xapi",
+          "BlobName": "VirtoCommerce.Xapi_3.917.0-alpha.102.zip"
         }
       ]
     }
