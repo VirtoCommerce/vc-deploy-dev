@@ -18,7 +18,15 @@
         },
         {
           "BlobName": "VirtoCommerce.PageBuilderModule_3.823.0-pr-83-0bf6.zip"
-        }        
+        },
+        {
+          "Id": "VirtoCommerce.Xapi",
+          "BlobName": "VirtoCommerce.Xapi_3.917.0-pr-47-0aab.zip"
+        },   
+        {
+          "Id": "VirtoCommerce.XCatalog",
+          "BlobName": "VirtoCommerce.XCatalog_3.925.0-pr-62-0921.zip"
+        }   
       ]
     },
     {
@@ -27,6 +35,10 @@
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
       "Modules": [
+        {
+          "Id": "VirtoCommerce.XCart",
+          "Version": "3.927.0"
+        }, 
          {
           "Id": "VirtoCommerce.FileSystemAssets",
           "Version": "3.805.0"
@@ -244,10 +256,6 @@
           "Version": "3.812.0"
         },
         {
-          "Id": "VirtoCommerce.XCatalog",
-          "Version": "3.924.0"
-        },
-        {
           "Id": "VirtoCommerce.Notifications",
           "Version": "3.821.0"
         },
@@ -300,12 +308,8 @@
           "Version": "3.820.0"
         },
         {
-          "Id": "VirtoCommerce.XCart",
-          "Version": "3.927.0"
-        },
-        {
           "Id": "VirtoCommerce.Catalog",
-          "Version": "3.876.0"
+          "Version": "3.877.0"
         },
         {
           "Id": "VirtoCommerce.AzureBlobAssets",
