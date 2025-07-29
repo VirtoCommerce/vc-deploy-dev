@@ -26,7 +26,11 @@
         {
           "Id": "VirtoCommerce.XCatalog",
           "BlobName": "VirtoCommerce.XCatalog_3.925.0-pr-62-0921.zip"
-        }   
+        },
+         {
+          "Id": "VirtoCommerce.TaskManagement",
+          "BlobName": "VirtoCommerce.TaskManagement_3.902.0-pr-21-a3d8.zip"
+        }
       ]
     },
     {
@@ -89,10 +93,6 @@
         },
         {
           "Id": "VirtoCommerce.MarketingExperienceApi",
-          "Version": "3.901.0"
-        },
-        {
-          "Id": "VirtoCommerce.TaskManagement",
           "Version": "3.901.0"
         },
         {
