@@ -294,6 +294,10 @@
         {
           "Id": "VirtoCommerce.Customer",
           "Version": "3.836.0"
+        },
+        {
+          "Id": "VirtoCommerce.SqlQueries",
+          "Version": "3.800.0"
         }
       ]
     },
