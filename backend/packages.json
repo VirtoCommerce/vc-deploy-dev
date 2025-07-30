@@ -86,10 +86,6 @@
           "BlobName": "VirtoCommerce.GoogleSSO_3.804.0-alpha.23.zip"
         },
         {
-          "Id": "VirtoCommerce.OpenIdConnectModule",
-          "BlobName": "VirtoCommerce.OpenIdConnectModule_3.802.0-alpha.17.zip"
-        },
-        {
           "Id": "VirtoCommerce.CyberSourcePayment",
           "BlobName": "VirtoCommerce.CyberSourcePayment_3.803.0-alpha.42.zip"
         },
@@ -312,6 +308,10 @@
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.919.0-alpha.293.zip"
+        },
+        {
+          "Id": "VirtoCommerce.OpenIdConnectModule",
+          "BlobName": "VirtoCommerce.OpenIdConnectModule_3.803.0-alpha.21.zip"
         }
       ]
     }
