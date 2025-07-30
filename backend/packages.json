@@ -29,9 +29,6 @@
           "BlobName": "VirtoCommerce.Catalog_3.874.0-pr-814-675a.zip"
         },
         {
-          "BlobName": "VirtoCommerce.Xapi_3.917.0-pr-45-3b8b.zip"
-        },
-        {
           "BlobName": "VirtoCommerce.XCatalog_3.925.0-pr-59-538e.zip"
         },
         {
@@ -300,6 +297,10 @@
         {
           "Id": "VirtoCommerce.PushMessages",
           "Version": "3.903.0"
+        },
+        {
+          "Id": "VirtoCommerce.Xapi",
+          "Version": "3.918.0"
         }
       ]
     }
