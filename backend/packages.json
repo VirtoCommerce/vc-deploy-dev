@@ -30,6 +30,9 @@
         },
         {
           "BlobName": "VirtoCommerce.XCatalog_3.925.0-pr-59-538e.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.919.0-pr-117-4a9f.zip"
         }
       ]
     },
@@ -134,10 +137,6 @@
         {
           "Id": "VirtoCommerce.Pages",
           "Version": "3.808.0"
-        },
-        {
-          "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.917.0"
         },
         {
           "Id": "VirtoCommerce.ElasticSearch",
