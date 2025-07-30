@@ -302,16 +302,16 @@
           "BlobName": "VirtoCommerce.Customer_3.837.0-alpha.902.zip"
         },
         {
-          "Id": "VirtoCommerce.SqlQueries",
-          "BlobName": "VirtoCommerce.SqlQueries_3.801.0-alpha.7.zip"
-        },
-        {
           "Id": "VirtoCommerce.Xapi",
           "BlobName": "VirtoCommerce.Xapi_3.919.0-alpha.105.zip"
         },
         {
           "Id": "VirtoCommerce.XCart",
           "BlobName": "VirtoCommerce.XCart_3.929.0-alpha.129.zip"
+        },
+        {
+          "Id": "VirtoCommerce.SqlQueries",
+          "BlobName": "VirtoCommerce.SqlQueries_3.802.0-alpha.8.zip"
         }
       ]
     }
