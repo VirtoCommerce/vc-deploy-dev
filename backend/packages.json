@@ -29,10 +29,10 @@
           "BlobName": "VirtoCommerce.Catalog_3.874.0-pr-814-675a.zip"
         },
         {
-          "BlobName": "VirtoCommerce.XCatalog_3.925.0-pr-59-538e.zip"
+          "BlobName": "VirtoCommerce.Xapi_3.917.0-pr-45-3b8b.zip"
         },
         {
-          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.919.0-pr-117-1329.zip"
+          "BlobName": "VirtoCommerce.XCatalog_3.925.0-pr-59-538e.zip"
         }
       ]
     },
@@ -139,6 +139,10 @@
           "Version": "3.808.0"
         },
         {
+          "Id": "VirtoCommerce.ProfileExperienceApiModule",
+          "Version": "3.917.0"
+        },
+        {
           "Id": "VirtoCommerce.ElasticSearch",
           "Version": "3.805.0"
         },
@@ -232,7 +236,7 @@
         },
         {
           "Id": "VirtoCommerce.Marketing",
-          "Version": "3.820.0"
+          "Version": "3.819.0"
         },
         {
           "Id": "VirtoCommerce.Pricing",
@@ -297,10 +301,6 @@
         {
           "Id": "VirtoCommerce.PushMessages",
           "Version": "3.903.0"
-        },
-        {
-          "Id": "VirtoCommerce.Xapi",
-          "Version": "3.918.0"
         }
       ]
     }
