@@ -262,10 +262,6 @@
           "BlobName": "VirtoCommerce.Marketing_3.821.0-alpha.888.zip"
         },
         {
-          "Id": "VirtoCommerce.Catalog",
-          "BlobName": "VirtoCommerce.Catalog_3.878.0-alpha.2368.zip"
-        },
-        {
           "Id": "VirtoCommerce.AzureBlobAssets",
           "BlobName": "VirtoCommerce.AzureBlobAssets_3.812.0-alpha.143.zip"
         },
@@ -312,6 +308,10 @@
         {
           "Id": "VirtoCommerce.TaskManagement",
           "BlobName": "VirtoCommerce.TaskManagement_3.903.0-alpha.139.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "BlobName": "VirtoCommerce.Catalog_3.878.0-alpha.2369.zip"
         }
       ]
     }
