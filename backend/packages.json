@@ -14,6 +14,12 @@
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
         {
+          "BlobName": "VirtoCommerce.Import_3.808.0-pr-29-032d.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.IntentSearch_3.800.0-pr-4-0b69.zip"
+        },
+        {
           "BlobName": "VirtoCommerce.PageBuilderModule_3.819.0.zip"
         },
         {
@@ -42,6 +48,10 @@
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
       "Modules": [
+        {
+          "Id": "VirtoCommerce.Export",
+          "Version": "3.804.0"
+        },
         {
           "Id": "VirtoCommerce.FileSystemAssets",
           "Version": "3.805.0"
