@@ -26,6 +26,10 @@
         {
           "Id": "VirtoCommerce.XCart",
           "BlobName": "VirtoCommerce.XCart_3.930.0-pr-63-430b.zip"
+        },
+         {
+          "Id": "VirtoCommerce.Catalog",
+          "BlobName": "VirtoCommerce.Catalog_3.879.0-pr-817-ae82.zip"
         }
       ]
     },
@@ -274,10 +278,6 @@
         {
           "Id": "VirtoCommerce.Marketing",
           "Version": "3.820.0"
-        },
-        {
-          "Id": "VirtoCommerce.Catalog",
-          "Version": "3.877.0"
         },
         {
           "Id": "VirtoCommerce.AzureBlobAssets",
