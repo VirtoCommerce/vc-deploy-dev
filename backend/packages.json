@@ -40,6 +40,10 @@
          {
           "Id": "VirtoCommerce.News",
           "BlobName": "VirtoCommerce.News_3.802.0-pr-4-5f15.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Seo",
+          "BlobName": "VirtoCommerce.Seo_3.806.0-pr-7-49d7.zip"
         }
       ]
     },
@@ -244,10 +248,6 @@
         {
           "Id": "VirtoCommerce.Notifications",
           "Version": "3.821.0"
-        },
-        {
-          "Id": "VirtoCommerce.Seo",
-          "Version": "3.805.0"
         },
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
