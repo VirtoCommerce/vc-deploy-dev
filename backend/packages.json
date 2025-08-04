@@ -200,10 +200,6 @@
           "Version": "3.908.0"
         },
         {
-          "Id": "VirtoCommerce.ElasticAppSearch",
-          "Version": "3.812.0"
-        },
-        {
           "Id": "VirtoCommerce.Notifications",
           "Version": "3.821.0"
         },
@@ -298,6 +294,10 @@
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "Version": "3.920.0"
+        },
+        {
+          "Id": "VirtoCommerce.ElasticAppSearch",
+          "Version": "3.813.0"
         }
       ]
     },
