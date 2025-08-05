@@ -311,6 +311,10 @@
         {
           "Id": "VirtoCommerce.PushMessages",
           "Version": "3.903.0"
+        },
+        {
+          "Id": "VirtoCommerce.Hotjar",
+          "Version": "3.803.0"
         }
       ]
     }
