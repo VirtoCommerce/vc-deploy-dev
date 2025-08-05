@@ -290,10 +290,6 @@
           "BlobName": "VirtoCommerce.OpenIdConnectModule_3.803.0-alpha.21.zip"
         },
         {
-          "Id": "VirtoCommerce.XCart",
-          "BlobName": "VirtoCommerce.XCart_3.930.0-alpha.131.zip"
-        },
-        {
           "Id": "VirtoCommerce.Store",
           "BlobName": "VirtoCommerce.Store_3.822.0-alpha.740.zip"
         },
@@ -312,6 +308,10 @@
         {
           "Id": "VirtoCommerce.ElasticAppSearch",
           "BlobName": "VirtoCommerce.ElasticAppSearch_3.814.0-alpha.152.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XCart",
+          "BlobName": "VirtoCommerce.XCart_3.930.0-alpha.132.zip"
         }
       ]
     }
