@@ -60,6 +60,10 @@
         {
           "Id": "VirtoCommerce.Seo",
           "BlobName": "VirtoCommerce.Seo_3.806.0-pr-7-49d7.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XCart",
+          "BlobName": "VirtoCommerce.XCart_3.930.0-pr-61-5c79.zip"
         }
       ]
     },
@@ -316,10 +320,6 @@
         {
           "Id": "VirtoCommerce.OpenIdConnectModule",
           "Version": "3.802.0"
-        },
-        {
-          "Id": "VirtoCommerce.XCart",
-          "Version": "3.929.0"
         },
         {
           "Id": "VirtoCommerce.Store",
