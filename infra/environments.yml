@@ -141,6 +141,9 @@
       Search__DocumentScopes__4__Scope: vcptcore-qa-platformvcptcore-scope44
       Search__DocumentScopes__5__DocumentType: ContentFile
       Search__DocumentScopes__5__Scope: vcptcore-qa-platformvcptcore-scope66
+      
+      # Elastic Search settings
+      Search__ElasticSearch__Server: https://elasticsearch-vc03.govirto.com
       Search__ElasticSearch__EnableCompatibilityMode: true
       Search__ElasticSearch__HealthCheckTimeout: 10      
       Search__Provider: ElasticSearch
