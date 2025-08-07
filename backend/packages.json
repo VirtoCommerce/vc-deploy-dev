@@ -14,31 +14,16 @@
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
         {
-          "BlobName": "VirtoCommerce.Import_3.808.0-pr-29-032d.zip"
+          "BlobName": "VirtoCommerce.Import_3.808.0-pr-29-05d7.zip"
         },
         {
-          "BlobName": "VirtoCommerce.IntentSearch_3.800.0-pr-4-0b69.zip"
+          "BlobName": "VirtoCommerce.IntentSearch_3.800.0-pr-4-1272.zip"
         },
         {
           "BlobName": "VirtoCommerce.PageBuilderModule_3.819.0.zip"
         },
         {
           "BlobName": "VirtoCommerce.XRecommend_3.904.0-pr-18-35c1.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.Search_3.816.0-pr-121-f216.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.ElasticSearch8_3.817.0-pr-29-5b82.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.Catalog_3.878.0-pr-814-a2e9.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.Xapi_3.919.0-pr-45-afa6.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.XCatalog_3.927.0-pr-59-8efd.zip"
         }
       ]
     },
@@ -48,6 +33,26 @@
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
       "Modules": [
+        {
+          "Id": "VirtoCommerce.Search",
+          "Version": "3.816.0"
+        },
+        {
+          "Id": "VirtoCommerce.ElasticSearch8",
+          "Version": "3.817.0"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "Version": "3.881.0"
+        },
+        {
+          "Id": "VirtoCommerce.Xapi",
+          "Version": "3.919.0"
+        },
+        {
+          "Id": "VirtoCommerce.XCatalog",
+          "Version": "3.927.0"
+        },
         {
           "Id": "VirtoCommerce.Export",
           "Version": "3.804.0"
