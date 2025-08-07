@@ -18,6 +18,10 @@
         },
         {
           "BlobName": "VirtoCommerce.PageBuilderModule_3.823.0-pr-83-0bf6.zip"
+        },
+        {
+          "Id": "VirtoCommerce.CatalogPersonalization",
+          "BlobName": "VirtoCommerce.CatalogPersonalization_3.806.0-pr-81-42c1.zip"
         }
       ]
     },
@@ -142,10 +146,6 @@
         {
           "Id": "VirtoCommerce.CatalogPublishing",
           "Version": "3.807.0"
-        },
-        {
-          "Id": "VirtoCommerce.CatalogPersonalization",
-          "Version": "3.805.0"
         },
         {
           "Id": "VirtoCommerce.Core",
