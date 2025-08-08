@@ -10,6 +10,7 @@
     imageRepository: virtopaasregistrymain.azurecr.io/virtostart/platform
     sqlReplica: false
     config:
+      Serilog__MinimumLevel__Override__Microsoft__ApplicationInsight__Profiler: Debug
       VirtoCommerce__LocalUploadFolderPath: wwwroot/cms-content
       VirtoCommerce__SampleDataUrl: https://vc3prerelease.blob.core.windows.net/packages/clothing-and-electronics_3_0_2.zip
       VirtoCommerce__ModuleSequenceBoost__0: VirtoCommerce.ApplicationInsights
