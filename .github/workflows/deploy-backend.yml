@@ -27,6 +27,10 @@ jobs:
     - name: Pack
       run: |
         vc-build install -PackageManifestPath ./backend/packages.json -ProbingPath ./backend/platform/app_data/modules -DiscoveryPath ./backend/platform/modules --root ./backend/platform -SkipDependencySolving
+
+    - name: Copy TraceUpload.zip to app_data modules
+      run: |
+        cp ./backend/platform/modules/VirtoCommerce.ApplicationInsights/bin/TraceUpload.zip ./backend/platform/app_data/modules/
   
     - name: Get platfrom version
       id: platform-version
