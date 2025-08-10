@@ -30,7 +30,7 @@ jobs:
 
     - name: Copy TraceUpload.zip to app_data modules
       run: |
-        cp ./backend/platform/modules/VirtoCommerce.ApplicationInsights/bin/TraceUpload.zip ./backend/platform/app_data/modules/
+        cp ./backend/platform/modules/VirtoCommerce.ApplicationInsights_3.805.0-pr-9-5ba4/bin/TraceUpload.zip ./backend/platform/app_data/modules/
   
     - name: Get platfrom version
       id: platform-version
