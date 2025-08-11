@@ -44,10 +44,6 @@
           "Version": "4.803.0"
         },
         {
-          "Id": "VirtoCommerce.ApplicationInsights",
-          "Version": "3.804.0"
-        },
-        {
           "Id": "VirtoCommerce.AzureSearch",
           "Version": "3.806.0"
         },
@@ -298,6 +294,10 @@
         {
           "Id": "VirtoCommerce.XCart",
           "Version": "3.931.0"
+        },
+        {
+          "Id": "VirtoCommerce.ApplicationInsights",
+          "Version": "3.805.0"
         }
       ]
     },
