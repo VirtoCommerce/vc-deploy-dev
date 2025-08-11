@@ -24,6 +24,12 @@
         },
         {
           "BlobName": "VirtoCommerce.XRecommend_3.904.0-pr-18-35c1.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Catalog_3.882.0-pr-820-904f.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.XCatalog_3.928.0-pr-64-177e.zip"
         }
       ]
     },
@@ -42,16 +48,8 @@
           "Version": "3.817.0"
         },
         {
-          "Id": "VirtoCommerce.Catalog",
-          "Version": "3.881.0"
-        },
-        {
           "Id": "VirtoCommerce.Xapi",
           "Version": "3.919.0"
-        },
-        {
-          "Id": "VirtoCommerce.XCatalog",
-          "Version": "3.927.0"
         },
         {
           "Id": "VirtoCommerce.Export",
