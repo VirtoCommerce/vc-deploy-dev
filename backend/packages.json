@@ -18,6 +18,10 @@
         },
         {
           "BlobName": "VirtoCommerce.PageBuilderModule_3.823.0-pr-83-0bf6.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ProfileExperienceApiModule",
+          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.918.0-pr-114-7302.zip"
         }
       ]
     },
@@ -274,10 +278,6 @@
         {
           "Id": "VirtoCommerce.TaskManagement",
           "Version": "3.902.0"
-        },
-        {
-          "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.920.0"
         },
         {
           "Id": "VirtoCommerce.ElasticAppSearch",
