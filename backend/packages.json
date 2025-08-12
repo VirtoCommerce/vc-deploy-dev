@@ -18,10 +18,7 @@
           "BlobName": "VirtoCommerce.PageBuilderModule_3.823.0-pr-83-e39a.zip"
         },
         {
-          "BlobName": "VirtoCommerce.Cart_3.833.0-pr-174-c270.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.Orders_3.854.0-pr-461-26aa.zip"
+          "BlobName": "VirtoCommerce.XCart_3.932.0-pr-71-1a48.zip"
         }
       ]
     },
@@ -300,16 +297,20 @@
           "Version": "3.919.0"
         },
         {
+          "Id": "VirtoCommerce.Cart",
+          "Version": "3.833.0"
+        },
+        {
           "Id": "VirtoCommerce.XCatalog",
           "Version": "3.927.0"
+        },
+         {
+          "Id": "VirtoCommerce.Orders",
+          "Version": "3.854.0"
         },
         {
           "Id": "VirtoCommerce.CatalogPersonalization",
           "Version": "3.806.0"
-        },
-        {
-          "Id": "VirtoCommerce.XCart",
-          "Version": "3.931.0"
         }
       ]
     }
