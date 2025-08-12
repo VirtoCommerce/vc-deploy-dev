@@ -19,13 +19,7 @@
         },
         {
           "BlobName": "VirtoCommerce.PowerBiReports_3.801.0-alpha.43.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.Cart_3.833.0-pr-174-5800.zip"
         }
-        //{
-        //  "BlobName": "VirtoCommerce.XCart_3.932.0-pr-69-3dd8.zip"
-        //}
       ]
     },
     {
@@ -74,10 +68,10 @@
           "Id": "VirtoCommerce.BulkActionsModule",
           "Version": "3.804.0"
         },
-        //{
-        //  "Id": "VirtoCommerce.Cart",
-        //  "Version": "3.832.0"
-        //},
+        {
+          "Id": "VirtoCommerce.Cart",
+          "Version": "3.833.0"
+        },
         {
           "Id": "VirtoCommerce.Catalog",
           "Version": "3.881.0"
@@ -196,7 +190,7 @@
         },
         {
           "Id": "VirtoCommerce.Orders",
-          "Version": "3.853.0"
+          "Version": "3.854.0"
         },
         {
           "Id": "VirtoCommerce.OrderManagement",
