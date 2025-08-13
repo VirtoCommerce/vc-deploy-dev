@@ -276,10 +276,6 @@
           "Version": "3.806.0"
         },
         {
-          "Id": "VirtoCommerce.XCart",
-          "Version": "3.931.0"
-        },
-        {
           "Id": "VirtoCommerce.ApplicationInsights",
           "Version": "3.805.0"
         },
@@ -298,6 +294,10 @@
         {
           "Id": "VirtoCommerce.Orders",
           "Version": "3.854.0"
+        },
+        {
+          "Id": "VirtoCommerce.XCart",
+          "Version": "3.932.0"
         }
       ]
     },
