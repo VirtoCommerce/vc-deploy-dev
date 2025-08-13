@@ -26,6 +26,10 @@
       ],
       "Modules": [
         {
+          "Id": "VirtoCommerce.News",
+          "Version": "3.805.0" 
+        },
+        {
           "Id": "VirtoCommerce.XCart",
           "Version": "3.932.0" 
         },
