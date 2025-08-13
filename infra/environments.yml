@@ -187,7 +187,17 @@
       name1: virtostart-demo-admin.govirto.com
     # storefrontHostnames:
     #   name1: virtostart-demo-store.govirto.com
-  customApps: {}
+  customApps:
+    app1:
+      name: storybook
+      enabled: true
+      imageRepository: ghcr.io/virtocommerce/vc-theme-b2b-vue-storybook
+      servicePlan: B1
+      type: standalone
+      probePath: /
+      ingressPath: /
+    app2:
+      enabled: false
   routes:
   - host: virtostart-demo-store.govirto.com
     root: B2B-store
@@ -233,4 +243,5 @@
       route: platform
   protectedParameters:
    - platform.image.tag
+   - custom.app1.image.tag
   version: 3.224
