@@ -12,7 +12,7 @@ jobs:
   gitops:
     runs-on: ubuntu-latest
     env:
-      ARGO_APP_NAME: ${{ github.ref_name }}
+      ARGO_APP_NAME: 'virtostart-main' #${{ github.ref_name }}
       STORYBOOK_TAG: ''
 
     steps:
