@@ -186,7 +186,7 @@
     hostnames:
       name1: virtostart-demo-admin.govirto.com
     app1Hostnames:
-      virtostart_storybook_govirto_com:  virtostart-storybook.govirto.com
+      virtostart_storybook_govirto_com: virtostart-storybook.govirto.com
     # storefrontHostnames:
     #   name1: virtostart-demo-store.govirto.com
   customApps:
