@@ -19,9 +19,6 @@
         },
         {
           "BlobName": "VirtoCommerce.PowerBiReports_3.801.0-alpha.43.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.XCart_3.932.0-pr-71-a04c.zip"
         }
       ]
     },
@@ -283,10 +280,10 @@
           "Id": "VirtoCommerce.Xapi",
           "Version": "3.919.0"
         },
-        //{
-        //  "Id": "VirtoCommerce.XCart",
-        //  "Version": "3.931.0"
-        //},
+        {
+          "Id": "VirtoCommerce.XCart",
+          "Version": "3.932.0"
+        },
         {
           "Id": "VirtoCommerce.XCatalog",
           "Version": "3.927.0"
