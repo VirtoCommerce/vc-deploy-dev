@@ -132,7 +132,7 @@
       PushMessages__FcmReceiverOptions__MessagingSenderId: 691497305246
       PushMessages__FcmReceiverOptions__AppId: 1:691497305246:web:d7a9cfead5daac661d678f
       PushMessages__FcmReceiverOptions__VapidKey: BBZaEhlEb6fcpLMxGC2ylQH2eQWTx4n6kZDWcrGebQjJiMr8w_3nF5U8zspbE_eeCV6YoFNyv7IrNLspmToBcjE
-      Reload: 2025-08-08
+      Reload: 2025-08-14
     secretConfig:
       AI__OpenAI__ApiKey: openai-api-key
       Notifications__SendGrid__ApiKey: sendkey
@@ -185,9 +185,22 @@
     #   add_header 'Access-Control-Allow-Credentials' 'true';
     hostnames:
       name1: virtostart-demo-admin.govirto.com
+    app1Hostnames:
+      virtostart_storybook_govirto_com: virtostart-storybook.govirto.com
     # storefrontHostnames:
     #   name1: virtostart-demo-store.govirto.com
-  customApps: {}
+  customApps:
+    app1:
+      name: storybook
+      enabled: true
+      imageRepository: ghcr.io/virtocommerce/vc-theme-b2b-vue-storybook
+      imageTag: 2.28.0-alpha.1912-vcst-3132-radius-37fb549a
+      servicePlan: B1
+      type: standalone
+      probePath: /
+      ingressPath: /
+    app2:
+      enabled: false
   routes:
   - host: virtostart-demo-store.govirto.com
     root: B2B-store
@@ -233,4 +246,5 @@
       route: platform
   protectedParameters:
    - platform.image.tag
+   - custom.app1.image.tag
   version: 3.224
