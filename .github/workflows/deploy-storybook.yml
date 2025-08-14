@@ -12,7 +12,6 @@ jobs:
   gitops:
     runs-on: ubuntu-latest
     env:
-      ARGO_APP_NAME: 'virtostart-main' #${{ github.ref_name }}
       STORYBOOK_TAG: ''
 
     steps:
@@ -31,4 +30,4 @@ jobs:
         run: |
             export PARAMETER_NAME=$(echo "custom.app1.image.tag" | xargs)
             export PARAMETER_VALUE=$(echo "${{ env.STORYBOOK_TAG }}" | xargs)
-            vc-build CloudEnvSetParameter -EnvironmentName ${{ env.ARGO_APP_NAME }} -CloudToken ${{ secrets.VCST_PLATFORM_TOKEN }} -HelmParameters $PARAMETER_NAME=$PARAMETER_VALUE
+            vc-build CloudEnvSetParameter -EnvironmentName virtostart-main -CloudToken ${{ secrets.VIRTOSTART_PLATFORM_TOKEN }} -HelmParameters $PARAMETER_NAME=$PARAMETER_VALUE
