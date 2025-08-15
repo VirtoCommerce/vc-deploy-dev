@@ -24,6 +24,10 @@
         {
           "Id": "VirtoCommerce.Search",
           "BlobName": "VirtoCommerce.Search_3.817.0-pr-122-69d2.zip"
+        },
+        {
+          "Id": "VirtoCommerce.News",
+          "BlobName": "VirtoCommerce.News_3.806.0-pr-10-1a3c.zip"
         }
       ]
     },
@@ -33,11 +37,7 @@
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
       "Modules": [
-        {
-          "Id": "VirtoCommerce.News",
-          "Version": "3.805.0"
-        },
-        {
+         {
           "Id": "VirtoCommerce.FileSystemAssets",
           "Version": "3.805.0"
         },
