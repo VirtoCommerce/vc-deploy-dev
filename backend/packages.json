@@ -24,10 +24,6 @@
         {
           "Id": "VirtoCommerce.Search",
           "BlobName": "VirtoCommerce.Search_3.817.0-pr-122-69d2.zip"
-        },
-        {
-          "Id": "VirtoCommerce.News",
-          "BlobName": "VirtoCommerce.News_3.807.0-pr-10-7a56.zip"
         }
       ]
     },
@@ -218,6 +214,10 @@
           "Version": "3.810.0"
         },
         {
+          "Id": "VirtoCommerce.XRecommend",
+          "Version": "3.904.0"
+        },
+        {
           "Id": "VirtoCommerce.Pricing",
           "Version": "3.819.0"
         },
@@ -312,6 +312,10 @@
         {
           "Id": "VirtoCommerce.XCart",
           "Version": "3.932.0"
+        },
+        {
+          "Id": "VirtoCommerce.News",
+          "Version": "3.806.0"
         }
       ]
     }
