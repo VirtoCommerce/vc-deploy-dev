@@ -1,8 +1,8 @@
 {
 "ManifestVersion": "2.0",
-  "PlatformVersion": "3.903.0-pr-2930-3888-vcst-3393-3888ed6b",
+  "PlatformVersion": "3.903.0-alpha.13121-dev-27c38375",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.903.0-pr-2930-3888-vcst-3393-3888ed6b",
+  "PlatformImageTag": "3.903.0-alpha.13121-dev-27c38375",
   "PlatformAssetUrl": "",
 
   "ModuleSources": [
@@ -26,8 +26,8 @@
           "BlobName": "VirtoCommerce.Search_3.817.0-pr-122-69d2.zip"
         },
         {
-          "Id": "VirtoCommerce.News",
-          "BlobName": "VirtoCommerce.News_3.806.0-pr-5-580a.zip"
+          "Id": "VirtoCommerce.XCart",
+          "BlobName": "VirtoCommerce.XCart_3.934.0-pr-73-2a68.zip"
         }
       ]
     },
@@ -218,6 +218,10 @@
           "Version": "3.810.0"
         },
         {
+          "Id": "VirtoCommerce.XRecommend",
+          "Version": "3.904.0"
+        },
+        {
           "Id": "VirtoCommerce.Pricing",
           "Version": "3.819.0"
         },
@@ -310,8 +314,8 @@
           "Version": "3.854.0"
         },
         {
-          "Id": "VirtoCommerce.XCart",
-          "Version": "3.932.0"
+          "Id": "VirtoCommerce.News",
+          "Version": "3.806.0"
         }
       ]
     }
