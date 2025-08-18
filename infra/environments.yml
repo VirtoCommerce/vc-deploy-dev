@@ -90,8 +90,8 @@
       Lockout__DefaultLockoutTimeSpan: 0:15:0
       Lockout__MaxFailedAccessAttempts: 5
       
-      User_MaxPasswordAge: 2
-      User_RemindPasswordExpiryInDay: 1
+      User__MaxPasswordAge: 2
+      User__RemindPasswordExpiryInDay: 1
       
       # Authorize.Net settings
       Payments__AuthorizeNet__ApiLogin: 52B9X7vb4
