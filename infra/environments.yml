@@ -164,7 +164,7 @@
         Content-Security-Policy: >
             "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://js.skyflow.com https://jstest.authorize.net https://testflex.cybersource.com https://static.cloudflareinsights.com https://cdn.builder.io https://runtime-dom.esm-bundler.js https://www.gstatic.com https://maps.googleapis.com;
             style-src 'self' 'unsafe-inline';
-            frame-src https://testflex.cybersource.com https://js.skyflow.com;
+            frame-src https://www.youtube.com https://testflex.cybersource.com https://js.skyflow.com;
             font-src 'self' data: https://fonts.gstatic.com;
             connect-src 'self' https://www.google-analytics.com https://cdn.builder.io https://jstest.authorize.net https://apitest.authorize.net https://fastly.jsdelivr.net https://firebaseinstallations.googleapis.com https://fcmregistrations.googleapis.com https://maps.googleapis.com;
             frame-ancestors 'self' https://builder.io https://virtostart-demo-admin.govirto.com;
