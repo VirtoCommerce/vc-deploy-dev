@@ -37,7 +37,10 @@
       VirtoCommerce__Stores__DefaultStore: B2B-store
       # Return detailed error information if login failed
       PasswordLogin__DetailedErrors: true
-      IdentityOptions__Lockout__MaxFailedAccessAttempts: 5
+      IdentityOptions__Lockout__MaxFailedAccessAttempts: 5      
+      Authorization__AccessTokenLifeTime: 00:30:00
+      Authorization__RefreshTokenLifeTime: 0:30:00
+      #Search
       Search__Provider: ElasticAppSearch
       Search__Scope: virtostart  
       Search__ElasticAppSearch__EnableHttpCompression: "true"
