@@ -18,6 +18,10 @@
         },
         {
           "BlobName": "VirtoCommerce.PageBuilderModule_3.823.0-pr-83-0bf6.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "BlobName": "VirtoCommerce.Catalog_3.882.0-pr-821-3b10.zip"
         }
       ]
     },
@@ -278,10 +282,6 @@
         {
           "Id": "VirtoCommerce.ElasticSearch8",
           "Version": "3.817.0"
-        },
-        {
-          "Id": "VirtoCommerce.Catalog",
-          "Version": "3.881.0"
         },
         {
           "Id": "VirtoCommerce.XCatalog",
