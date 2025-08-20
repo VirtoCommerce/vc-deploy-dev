@@ -26,13 +26,19 @@
           "BlobName": "VirtoCommerce.XRecommend_3.904.0-pr-18-35c1.zip"
         },
         {
-          "BlobName": "VirtoCommerce.Catalog_3.882.0-pr-820-904f.zip"
+          "BlobName": "VirtoCommerce.Catalog_3.882.0-pr-823-d6f3.zip"
         },
         {
-          "BlobName": "VirtoCommerce.XCatalog_3.928.0-pr-64-177e.zip"
+          "BlobName": "VirtoCommerce.XCatalog_3.928.0-pr-65-e6b9.zip"
         },
         {
           "BlobName": "VirtoCommerce.XCart_3.934.0-pr-73-2a68.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Seo_3.807.0-pr-8-31ad.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Xapi_3.921.0-pr-51-68a0.zip"
         }
       ]
     },
@@ -49,10 +55,6 @@
         {
           "Id": "VirtoCommerce.ElasticSearch8",
           "Version": "3.817.0"
-        },
-        {
-          "Id": "VirtoCommerce.Xapi",
-          "Version": "3.919.0"
         },
         {
           "Id": "VirtoCommerce.Export",
@@ -205,10 +207,6 @@
         {
           "Id": "VirtoCommerce.Inventory",
           "Version": "3.811.0"
-        },
-        {
-          "Id": "VirtoCommerce.Seo",
-          "Version": "3.805.0"
         },
         {
           "Id": "VirtoCommerce.Store",
