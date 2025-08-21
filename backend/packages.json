@@ -25,7 +25,11 @@
         },
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.921.0-pr-114-76f8.zip"
+          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.921.0-pr-119-606a.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Xapi",
+          "BlobName": "VirtoCommerce.Xapi_3.921.0-pr-49-c580.zip"
         }
       ]
     },
@@ -298,10 +302,6 @@
         {
           "Id": "VirtoCommerce.Seo",
           "Version": "3.806.0"
-        },
-        {
-          "Id": "VirtoCommerce.Xapi",
-          "Version": "3.920.0"
         },
         {
           "Id": "VirtoCommerce.Cart",
