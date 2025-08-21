@@ -288,10 +288,6 @@
           "Version": "3.933.0"
         },
         {
-          "Id": "VirtoCommerce.News",
-          "Version": "3.808.0"
-        },
-        {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "Version": "3.921.0"
         },
@@ -302,6 +298,10 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "Version": "3.882.0"
+        },
+        {
+          "Id": "VirtoCommerce.News",
+          "Version": "3.809.0"
         }
       ]
     },
