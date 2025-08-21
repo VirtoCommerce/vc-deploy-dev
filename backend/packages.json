@@ -36,6 +36,14 @@
          {
           "Id": "VirtoCommerce.News",
           "BlobName": "VirtoCommerce.News_3.809.0-pr-9-26f2.zip"
+        },
+         {
+          "Id": "VirtoCommerce.Xapi",
+          "BlobName": "VirtoCommerce.Xapi_3.921.0-pr-48-3359.zip"
+        },
+          {
+          "Id": "VirtoCommerce.XCatalog",
+          "BlobName": "VirtoCommerce.XCatalog_3.928.0-pr-63-1520.zip"
         }
       ]
     },
@@ -306,10 +314,6 @@
           "Version": "3.881.0"
         },
         {
-          "Id": "VirtoCommerce.XCatalog",
-          "Version": "3.927.0"
-        },
-        {
           "Id": "VirtoCommerce.CatalogPersonalization",
           "Version": "3.806.0"
         },
@@ -320,10 +324,6 @@
         {
           "Id": "VirtoCommerce.Seo",
           "Version": "3.806.0"
-        },
-        {
-          "Id": "VirtoCommerce.Xapi",
-          "Version": "3.920.0"
         },
         {
           "Id": "VirtoCommerce.Cart",
