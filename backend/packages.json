@@ -310,12 +310,12 @@
           "BlobName": "VirtoCommerce.Xapi_3.923.0-alpha.113.zip"
         },
         {
-          "Id": "VirtoCommerce.XCart",
-          "BlobName": "VirtoCommerce.XCart_3.935.0-alpha.142.zip"
-        },
-        {
           "Id": "VirtoCommerce.XCatalog",
           "BlobName": "VirtoCommerce.XCatalog_3.930.0-alpha.127.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XCart",
+          "BlobName": "VirtoCommerce.XCart_3.936.0-alpha.143.zip"
         }
       ]
     }
