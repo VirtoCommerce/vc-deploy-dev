@@ -86,8 +86,12 @@
       
       # Return detailed error information if login failed
       PasswordLogin__DetailedErrors: true
-      Lockout__DefaultLockoutTimeSpan: 0:15:0
-      Lockout__MaxFailedAccessAttempts: 5
+      
+      IdentityOptions__Lockout__DefaultLockoutTimeSpan: 0:15:0
+      IdentityOptions__Lockout__MaxFailedAccessAttempts: 5
+      
+      IdentityOptions__User__MaxPasswordAge: 100
+      IdentityOptions__User__RemindPasswordExpiryInDay: 7
       
       # Authorize.Net settings
       Payments__AuthorizeNet__ApiLogin: 52B9X7vb4
@@ -163,7 +167,7 @@
       VirtoCommerce__Stores__DefaultStore: B2B-store    
       # Temporary settings below
       Authorization__AccessTokenLifeTime: 00:30:00
-      #Authorization__RefreshTokenLifeTime: 0:30:00
+      Authorization__RefreshTokenLifeTime: 0:30:00
       # Avalara Tax
       Tax__Avalara__AccountNumber: 2000188799
       Tax__Avalara__LicenseKey: 16BC3F87E836E15C
