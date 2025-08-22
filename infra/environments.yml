@@ -148,7 +148,7 @@
       Search__ElasticSearch__HealthCheckTimeout: 10      
       # Search__Provider: ElasticSearch
       Search__ElasticSearch__User: vcptcore-qa-vcptcore
-      Search__Provider: ElasticSearch8
+      # Search__Provider: ElasticSearch8
       
       #Search__Provider: OpenSearch
       Search__OpenSearch__Server: https://opensearch-uat.govirto.com/
@@ -164,7 +164,7 @@
       #Search__ElasticSearch8__User: elastic
       #Search__ElasticSearch8__EnableDebugMode: true
 
-      #Search__Provider: ElasticSearch9
+      Search__Provider: ElasticSearch9
       Search__ElasticSearch9__Server: https://240c68b310e04b229a76aa150fbde38d.uksouth.azure.elastic-cloud.com:443
       Search__ElasticSearch9__User: elastic
 
