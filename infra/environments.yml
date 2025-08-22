@@ -165,7 +165,7 @@
       #Search__ElasticSearch8__EnableDebugMode: true
 
       Search__Provider: ElasticSearch9
-      Search__ElasticSearch9__Server: https://240c68b310e04b229a76aa150fbde38d.uksouth.azure.elastic-cloud.com:443
+      Search__ElasticSearch9__Server: https://838d3afebc9c421f9340028a34f84d30.us-east4.gcp.elastic-cloud.com:443
       Search__ElasticSearch9__User: elastic
 
       #Search__Provider: AlgoliaSearch
