@@ -264,10 +264,6 @@
           "Version": "3.805.0"
         },
         {
-          "Id": "VirtoCommerce.Seo",
-          "Version": "3.806.0"
-        },
-        {
           "Id": "VirtoCommerce.Cart",
           "Version": "3.833.0"
         },
@@ -302,6 +298,10 @@
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "Version": "3.922.0"
+        },
+        {
+          "Id": "VirtoCommerce.Seo",
+          "Version": "3.807.0"
         }
       ]
     },
