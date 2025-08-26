@@ -147,7 +147,7 @@
       Search__ElasticSearch__EnableCompatibilityMode: true
       Search__ElasticSearch__HealthCheckTimeout: 10      
       # Search__Provider: ElasticSearch
-      Search__ElasticSearch__User: vcptcore-qa-vcptcore
+      # Search__ElasticSearch__User: vcptcore-qa-vcptcore
       # Search__Provider: ElasticSearch8
       
       #Search__Provider: OpenSearch
