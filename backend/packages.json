@@ -13,7 +13,7 @@
       "Container": "packages",
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
-         {
+        {
           "Id": "VirtoCommerce.PageBuilderModule",
           "BlobName": "VirtoCommerce.PageBuilderModule_3.824.0-pr-84-4364.zip"
         },
@@ -33,21 +33,25 @@
           "Id": "VirtoCommerce.AIDocumentProcessing",
           "BlobName": "VirtoCommerce.AIDocumentProcessing_3.901.0-pr-6-5f80.zip"
         },
-         {
+        {
           "Id": "VirtoCommerce.News",
           "BlobName": "VirtoCommerce.News_3.809.0-pr-9-26f2.zip"
         },
-         {
+        {
           "Id": "VirtoCommerce.Xapi",
           "BlobName": "VirtoCommerce.Xapi_3.921.0-pr-48-3359.zip"
         },
-          {
+        {
           "Id": "VirtoCommerce.XCatalog",
           "BlobName": "VirtoCommerce.XCatalog_3.928.0-pr-63-1520.zip"
         },
-           {
+        {
           "Id": "VirtoCommerce.ElasticSearch9",
           "BlobName": "VirtoCommerce.ElasticSearch9_3.801.0-pr-2-96fc.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Seo",
+          "BlobName": "VirtoCommerce.Seo_3.807.0.zip"
         }
       ]
     },
@@ -55,13 +59,13 @@
       "Name": "GithubReleases",
       "ModuleSources": [
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
-                       ],
-      "Modules": [ 
-         {
-           "Id": "VirtoCommerce.SeqLog",
-           "Version": "3.800.0"
-         },
-         {
+      ],
+      "Modules": [
+        {
+          "Id": "VirtoCommerce.SeqLog",
+          "Version": "3.800.0"
+        },
+        {
           "Id": "VirtoCommerce.FileSystemAssets",
           "Version": "3.805.0"
         },
@@ -322,10 +326,6 @@
           "Version": "3.805.0"
         },
         {
-          "Id": "VirtoCommerce.Seo",
-          "Version": "3.806.0"
-        },
-        {
           "Id": "VirtoCommerce.Cart",
           "Version": "3.833.0"
         },
@@ -341,4 +341,3 @@
     }
   ]
 }
-
