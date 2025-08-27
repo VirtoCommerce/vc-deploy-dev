@@ -139,8 +139,8 @@ jobs:
                   else {
                       Write-Host "⚠️ Remote branch '$branch' does not exist" -ForegroundColor Red
                   }
-                  
               }
           }
           Write-Host "🏁 Done deleting stale branches" -ForegroundColor Green
+          exit 0
         }
