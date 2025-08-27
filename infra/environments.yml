@@ -11,7 +11,7 @@
     dbName: vcst-qa-platform_restored
     config:
       # Increment to force environment reload
-      reload: 20
+      reload: 21
       # Application Insights settings
       APPINSIGHTS_INSTRUMENTATIONKEY: ef0125aa-1c8e-42d3-964f-d0a11256309d      
       # Forward headers to Nginx
@@ -166,7 +166,7 @@
       # Default Store for resolving by domain
       VirtoCommerce__Stores__DefaultStore: B2B-store    
       # Temporary settings below
-      Authorization__AccessTokenLifeTime: 00:30:00
+      #Authorization__AccessTokenLifeTime: 00:30:00
       #Authorization__RefreshTokenLifeTime: 0:30:00
       # Avalara Tax
       Tax__Avalara__AccountNumber: 2000188799
