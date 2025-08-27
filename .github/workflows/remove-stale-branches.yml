@@ -1,0 +1,138 @@
+
+name: Remove stale branches
+on:
+  workflow_dispatch:
+    inputs:
+      dryRun:
+        description: 'Skip closing PRs and removing branches, just print what would be done'
+        required: true
+        type: choice
+        options:
+          - true
+          - false
+        default: 'true'
+      targetBranch:
+        description: 'Target branch for PRs'
+        required: true
+        type: string
+        default: 'vcptcore-qa'
+      retentionDays:
+        description: 'Retention days for PRs'
+        required: true
+        type: number
+        default: 15
+      authorForRemove:
+        description: 'Processed PRs author'
+        required: true
+        type: string
+        default: 'vc-ci'
+      removeStaleBranches:
+        description: 'Remove branches for already closed PRs'
+        required: true
+        type: choice
+        options:
+          - true
+          - false
+        default: 'true'
+
+jobs:
+  branch-cleanup:
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write
+      pull-requests: read
+    env: 
+      GITHUB_TOKEN: ${{ secrets.REPO_TOKEN }}
+
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+        ref: "${{ github.event.inputs.targetBranch }}"
+
+    - name: Remove stale branches
+      shell: pwsh
+      run: |
+        $repo = "${{ github.repository }}"
+        $dryRun = "${{ github.event.inputs.dryRun }}"
+        $excludeBranches = @("main", "master", "dev")
+        $authorForRemove = "${{ github.event.inputs.authorForRemove }}"
+        $retentionDays = ${{ github.event.inputs.retentionDays }}
+        $targetBranch = "${{ github.event.inputs.targetBranch }}"
+        $removeStaleBranches = "${{ github.event.inputs.removeStaleBranches }}"
+
+        # Close stale PRs and remove corresponding branches
+        Write-Host "`n▶️ Closing stale PRs in $repo, removing corresponding branches. Target branch: $targetBranch, retention days: $retentionDays, author for remove: $authorForRemove" -ForegroundColor Blue
+        $openPrsJson = gh pr list --repo $repo --base $targetBranch --state open --json "number,headRefName,createdAt,author,baseRefName,headRefName"
+        $openPrs = $openPrsJson | ConvertFrom-Json
+
+        foreach ($pr in $openPrs) {
+            $branch = $pr.headRefName
+            $author = $pr.author.name
+            $date = [datetime]$pr.createdAt
+            $daysSinceCreation = $((Get-Date) - $date).Days
+            if ($daysSinceCreation -ge $retentionDays -and $author -eq $authorForRemove) {
+                Write-Host "Closing PR #$($pr.number) for '$branch' branch (created $daysSinceCreation days ago)" -ForegroundColor Blue
+                if ($dryRun -eq 'false') {
+                    # gh pr comment $($pr.number) --repo $repo --body "Closed by stale branch cleanup [workflow](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})"
+                    # gh pr close $($pr.number) --repo $repo
+                    Write-Host "✅ PR $($pr.number) closed" -ForegroundColor Green
+                    # git push origin --delete $branch 
+                    Write-Host "✅ Remote branch '$branch' deleted" -ForegroundColor Green
+                }
+                else {
+                    Write-Host "📊 DRY RUN: gh pr comment $($pr.number) --repo $repo --body 'Closed by stale branch cleanup [workflow](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})'" -ForegroundColor Yellow
+                    Write-Host "📊 DRY RUN: gh pr close $($pr.number) --repo $repo" -ForegroundColor Yellow
+                    Write-Host "📊 DRY RUN: git push origin --delete $branch" -ForegroundColor Yellow
+                }
+            }
+        }
+        Write-Host "🏁 Done closing stale PRs and removing corresponding branches" -ForegroundColor Green
+
+        if ($removeStaleBranches -eq 'true') {
+          # Delete stale branches
+          Write-Host "`n▶️ Scanning closed pull requests in $repo to find and delete stale branches. Target branch: $targetBranch, author for remove: $authorForRemove" -ForegroundColor Blue
+
+          # Get closed PRs using gh
+          $closedPrsJson = gh pr list --repo $repo --state closed --base $targetBranch --json "number,headRefName,mergedAt,author"
+          $closedPrs = $closedPrsJson | ConvertFrom-Json
+
+          foreach ($pr in $closedPrs) {
+              $branch = $pr.headRefName
+              $merged = $pr.mergedAt
+              $author = $pr.author.name
+              # Skip if merged (only clean closed/unmerged PRs):
+              if ($null -ne $merged) {
+                  continue
+              }
+
+              # Skip excluded branches
+              if ($excludeBranches -contains $branch) {
+                  Write-Host "⚠️ Skipping '$branch' branch (in exclude list)" -ForegroundColor Yellow
+                  continue
+              }
+
+              # Skip if author is not vc-ci
+              if ($author -ne $authorForRemove) {
+                  Write-Host "⚠️ Skipping '$branch' branch (not by $authorForRemove)" -ForegroundColor Yellow
+                  continue
+              }
+
+              Write-Host "Deleting closed PR branch: '$branch'" -ForegroundColor Blue
+              
+              # delete remote branch
+              if ($dryRun -eq 'false') {
+                  git ls-remote --exit-code --heads origin $branch *>$null
+                  if ($LASTEXITCODE -eq 0) {
+                      # git push origin --delete $branch
+                      Write-Host "✅ Remote branch '$branch' deleted" -ForegroundColor Green
+                  } else {
+                      Write-Host "⚠️ Remote branch '$branch' does not exist" -ForegroundColor Red
+                  }
+              }
+              else {
+                  Write-Host "📊 DRY RUN: git push origin --delete $branch" -ForegroundColor Blue
+              }
+          }
+          Write-Host "🏁 Done deleting stale branches" -ForegroundColor Green
+        }
