@@ -131,7 +131,15 @@ jobs:
                   }
               }
               else {
-                  Write-Host "📊 DRY RUN: git push origin --delete $branch" -ForegroundColor Blue
+                  git ls-remote --exit-code --heads origin $branch *>$null
+                  if ($LASTEXITCODE -eq 0) {
+                      Write-Host "📊 DRY RUN: git push origin --delete $branch" -ForegroundColor Blue
+                      Write-Host "✅ Remote branch '$branch' deleted" -ForegroundColor Green
+                  }
+                  else {
+                      Write-Host "⚠️ Remote branch '$branch' does not exist" -ForegroundColor Red
+                  }
+                  
               }
           }
           Write-Host "🏁 Done deleting stale branches" -ForegroundColor Green
