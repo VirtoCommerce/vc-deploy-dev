@@ -72,7 +72,7 @@ jobs:
             $date = [datetime]$pr.createdAt
             $daysSinceCreation = $((Get-Date) - $date).Days
             if ($daysSinceCreation -ge $retentionDays -and $author -eq $authorForRemove) {
-                Write-Host "Closing PR #$($pr.number) for '$branch' branch (created $daysSinceCreation days ago)" -ForegroundColor Blue
+                Write-Host "Closing PR #$($pr.number) for '$branch' branch (created $daysSinceCreation days ago by $author)" -ForegroundColor Blue
                 if ($dryRun -eq 'false') {
                     # gh pr comment $($pr.number) --repo $repo --body "Closed by stale branch cleanup [workflow](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})"
                     # gh pr close $($pr.number) --repo $repo
