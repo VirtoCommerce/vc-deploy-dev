@@ -22,7 +22,7 @@ on:
         type: number
         default: 15
       authorForRemove:
-        description: 'Processed PRs author'
+        description: 'Processed PRs author login'
         required: true
         type: string
         default: 'vc-ci'
@@ -68,7 +68,7 @@ jobs:
 
         foreach ($pr in $openPrs) {
             $branch = $pr.headRefName
-            $author = $pr.author.name
+            $author = $pr.author.login
             $date = [datetime]$pr.createdAt
             $daysSinceCreation = $((Get-Date) - $date).Days
             if ($daysSinceCreation -ge $retentionDays -and $author -eq $authorForRemove) {
@@ -100,7 +100,7 @@ jobs:
           foreach ($pr in $closedPrs) {
               $branch = $pr.headRefName
               $merged = $pr.mergedAt
-              $author = $pr.author.name
+              $author = $pr.author.login
               # Skip if merged (only clean closed/unmerged PRs):
               if ($null -ne $merged) {
                   continue
