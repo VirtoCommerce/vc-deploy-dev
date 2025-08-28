@@ -32,6 +32,10 @@
         {
           "Id": "VirtoCommerce.XCatalog",
           "BlobName": "VirtoCommerce.XCatalog_3.930.0-pr-65-92f7.zip"
+        },
+        {
+          "Id": "VirtoCommerce.CatalogPersonalization",
+          "BlobName": "VirtoCommerce.CatalogPersonalization_3.807.0-pr-83-e43f.zip"
         }
       ]
     },
@@ -284,10 +288,6 @@
         {
           "Id": "VirtoCommerce.ElasticSearch8",
           "Version": "3.817.0"
-        },
-        {
-          "Id": "VirtoCommerce.CatalogPersonalization",
-          "Version": "3.806.0"
         },
         {
           "Id": "VirtoCommerce.ApplicationInsights",
