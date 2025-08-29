@@ -91,7 +91,7 @@ jobs:
 
         if ($removeStaleBranches -eq 'true') {
           # Delete stale branches
-          Write-Host "`n▶️ Scanning closed pull requests in $repo to find and delete stale branches. Target branch: $targetBranch, author for remove: $authorForRemove" -ForegroundColor Blue
+          Write-Host "`n::group::▶️ Scanning closed pull requests in $repo to find and delete stale branches. Target branch: $targetBranch, author for remove: $authorForRemove" -ForegroundColor Blue
 
           # Get closed PRs using gh
           $closedPrsJson = gh pr list --repo $repo --state closed --base $targetBranch --json "number,headRefName,mergedAt,author"
@@ -118,7 +118,7 @@ jobs:
                   continue
               }
 
-              Write-Host "::group::Deleting closed PR branch: '$branch'" -ForegroundColor Blue
+              Write-Host "Deleting closed PR branch: '$branch'" -ForegroundColor Blue
               
               # delete remote branch
               if ($dryRun -eq 'false') {
