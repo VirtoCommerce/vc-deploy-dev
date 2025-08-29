@@ -74,10 +74,10 @@ jobs:
             if ($daysSinceCreation -ge $retentionDays -and $author -eq $authorForRemove) {
                 Write-Host "Closing PR #$($pr.number) for '$branch' branch (created $daysSinceCreation days ago by $author)" -ForegroundColor Blue
                 if ($dryRun -eq 'false') {
-                    # gh pr comment $($pr.number) --repo $repo --body "Closed by stale branch cleanup [workflow](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})"
-                    # gh pr close $($pr.number) --repo $repo
+                    gh pr comment $($pr.number) --repo $repo --body "Closed by stale branch cleanup [workflow](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})"
+                    gh pr close $($pr.number) --repo $repo
                     Write-Host "✅ PR $($pr.number) closed" -ForegroundColor Green
-                    # git push origin --delete $branch 
+                    git push origin --delete $branch 
                     Write-Host "✅ Remote branch '$branch' deleted" -ForegroundColor Green
                 }
                 else {
@@ -118,13 +118,13 @@ jobs:
                   continue
               }
 
-              Write-Host "Deleting closed PR branch: '$branch'" -ForegroundColor Blue
+              Write-Host "::group::Deleting closed PR branch: '$branch'" -ForegroundColor Blue
               
               # delete remote branch
               if ($dryRun -eq 'false') {
                   git ls-remote --exit-code --heads origin $branch *>$null
                   if ($LASTEXITCODE -eq 0) {
-                      # git push origin --delete $branch
+                      git push origin --delete $branch
                       Write-Host "✅ Remote branch '$branch' deleted" -ForegroundColor Green
                   } else {
                       Write-Host "⚠️ Remote branch '$branch' does not exist" -ForegroundColor Red
@@ -141,6 +141,6 @@ jobs:
                   }
               }
           }
-          Write-Host "🏁 Done deleting stale branches" -ForegroundColor Green
+          Write-Host "::endgroup::🏁 Done deleting stale branches" -ForegroundColor Green
           exit 0
         }
