@@ -18,6 +18,12 @@
         },
         {
           "BlobName": "VirtoCommerce.Loyalty_3.800.0-pr-4-5e55.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Catalog_3.885.0-pr-820-c987.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.XCatalog_3.932.0-pr-64-f830.zip"
         }
       ]
     },
@@ -310,14 +316,6 @@
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "Version": "3.922.0"
-        },
-        {
-          "Id": "VirtoCommerce.Catalog",
-          "Version": "3.884.0"
-        },
-        {
-          "Id": "VirtoCommerce.XCatalog",
-          "Version": "3.931.0"
         }
       ]
     }
