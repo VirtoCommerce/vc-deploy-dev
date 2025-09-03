@@ -20,6 +20,10 @@
         {
           "Id": "VirtoCommerce.Loyalty",
           "BlobName": "VirtoCommerce.Loyalty_3.800.0-pr-3-4da9.zip"
+        },
+         {
+          "Id": "VirtoCommerce.Customer",
+          "BlobName": "VirtoCommerce.Customer_3.837.0-pr-277-bc8d.zip"
         }
       ]
     },
@@ -240,10 +244,6 @@
         {
           "Id": "VirtoCommerce.PushMessages",
           "Version": "3.904.0"
-        },
-        {
-          "Id": "VirtoCommerce.Customer",
-          "Version": "3.836.0"
         },
         {
           "Id": "VirtoCommerce.SqlQueries",
