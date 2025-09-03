@@ -1,8 +1,8 @@
 { 
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.904.0-pr-2936-ab80-vcst-3752-ab802a5b", 
+  "PlatformVersion": "3.903.0", 
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.904.0-pr-2936-ab80-vcst-3752-ab802a5b",
+  "PlatformImageTag": "3.903.0",
   "PlatformAssetUrl": "",  
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -16,26 +16,6 @@
       
         {
           "BlobName": "VirtoCommerce.PageBuilderModule_3.823.0-pr-83-0bf6.zip"
-        },
-        {
-          "Id": "VirtoCommerce.Catalog",
-          "BlobName": "VirtoCommerce.Catalog_3.884.0-pr-823-949f.zip"
-        },
-        {
-          "Id": "VirtoCommerce.Xapi",
-          "BlobName": "VirtoCommerce.Xapi_3.923.0-pr-51-76a7.zip"
-        },
-         {
-          "Id": "VirtoCommerce.Seo",
-          "BlobName": "VirtoCommerce.Seo_3.807.0-pr-8-31ad.zip"
-        },
-        {
-          "Id": "VirtoCommerce.XCatalog",
-          "BlobName": "VirtoCommerce.XCatalog_3.930.0-pr-65-92f7.zip"
-        },
-        {
-          "Id": "VirtoCommerce.CatalogPersonalization",
-          "BlobName": "VirtoCommerce.CatalogPersonalization_3.807.0-pr-83-e43f.zip"
         },
         {
           "Id": "VirtoCommerce.Loyalty",
@@ -290,10 +270,6 @@
           "Version": "3.813.0"
         },
         {
-          "Id": "VirtoCommerce.ElasticSearch8",
-          "Version": "3.817.0"
-        },
-        {
           "Id": "VirtoCommerce.ApplicationInsights",
           "Version": "3.805.0"
         },
@@ -314,12 +290,36 @@
           "Version": "3.809.0"
         },
         {
-          "Id": "VirtoCommerce.XCart",
-          "Version": "3.935.0"
-        },
-        {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "Version": "3.922.0"
+        },
+        {
+          "Id": "VirtoCommerce.Seo",
+          "Version": "3.807.0"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "Version": "3.884.0"
+        },
+        {
+          "Id": "VirtoCommerce.Xapi",
+          "Version": "3.923.0"
+        },
+        {
+          "Id": "VirtoCommerce.XCatalog",
+          "Version": "3.931.0"
+        },
+        {
+          "Id": "VirtoCommerce.CatalogPersonalization",
+          "Version": "3.807.0"
+        },
+        {
+          "Id": "VirtoCommerce.XCart",
+          "Version": "3.937.0"
+        },
+        {
+          "Id": "VirtoCommerce.ElasticSearch8",
+          "Version": "3.818.0"
         }
       ]
     }
