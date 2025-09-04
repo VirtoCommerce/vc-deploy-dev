@@ -1,7 +1,7 @@
 {
   "ManifestVersion": "2.0",
   "PlatformVersion": "3.854.15",
-  "PlatformImage": "ghcr.io/virtocommerce/platform",
+  "PlatformImage": "ghcr.io/virtocommerce/platform",ca
   "PlatformImageTag": "3.854.15",
   "PlatformAssetUrl": "",
   "Sources": [
@@ -189,7 +189,7 @@
         },
         {
           "Id": "VirtoCommerce.Catalog",
-          "Version": "3.822.10"
+          "Version": "3.822.11"
         },
         {
           "Id": "VirtoCommerce.Store",
