@@ -32,6 +32,10 @@
          {
           "Id": "VirtoCommerce.Catalog",
           "BlobName": "VirtoCommerce.Catalog_3.886.0-pr-825-ca8b.zip"
+        }, 
+        {
+          "Id": "VirtoCommerce.ElasticAppSearch",
+          "BlobName": "VirtoCommerce.ElasticAppSearch_3.814.0-pr-47-f979.zip"
         }
       ]
     },
@@ -272,10 +276,6 @@
         {
           "Id": "VirtoCommerce.TaskManagement",
           "Version": "3.902.0"
-        },
-        {
-          "Id": "VirtoCommerce.ElasticAppSearch",
-          "Version": "3.813.0"
         },
         {
           "Id": "VirtoCommerce.ApplicationInsights",
