@@ -16,7 +16,10 @@
       "Modules": [
         {
           "BlobName": "VirtoCommerce.PageBuilderModule_3.823.0-pr-83-e39a.zip"
-        }  
+        },
+        {
+          "BlobName": "VirtoCommerce.Pricing_3.820.0-pr-226-e59e.zip"
+        } 
       ]
     },
     {
@@ -208,11 +211,7 @@
         {
           "Id": "VirtoCommerce.XRecommend",
           "Version": "3.904.0"
-        },
-        {
-          "Id": "VirtoCommerce.Pricing",
-          "Version": "3.819.0"
-        },
+        },  
         {
           "Id": "VirtoCommerce.Subscription",
           "Version": "3.809.0"
