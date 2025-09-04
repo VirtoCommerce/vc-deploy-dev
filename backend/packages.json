@@ -224,10 +224,6 @@
           "Version": "3.904.0"
         },
         {
-          "Id": "VirtoCommerce.Customer",
-          "Version": "3.836.0"
-        },
-        {
           "Id": "VirtoCommerce.SqlQueries",
           "Version": "3.801.0"
         },
@@ -302,6 +298,10 @@
         {
           "Id": "VirtoCommerce.Orders",
           "Version": "3.856.0"
+        },
+        {
+          "Id": "VirtoCommerce.Customer",
+          "Version": "3.837.0"
         }
       ]
     },
