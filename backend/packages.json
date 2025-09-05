@@ -258,10 +258,6 @@
           "BlobName": "VirtoCommerce.TaskManagement_3.903.0-alpha.139.zip"
         },
         {
-          "Id": "VirtoCommerce.ElasticAppSearch",
-          "BlobName": "VirtoCommerce.ElasticAppSearch_3.814.0-alpha.152.zip"
-        },
-        {
           "Id": "VirtoCommerce.ApplicationInsights",
           "BlobName": "VirtoCommerce.ApplicationInsights_3.806.0-alpha.29.zip"
         },
@@ -316,6 +312,10 @@
         {
           "Id": "VirtoCommerce.XCart",
           "BlobName": "VirtoCommerce.XCart_3.939.0-alpha.149.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ElasticAppSearch",
+          "BlobName": "VirtoCommerce.ElasticAppSearch_3.814.0-alpha.154.zip"
         }
       ]
     }
