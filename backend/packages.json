@@ -19,7 +19,10 @@
         },
         {
           "BlobName": "VirtoCommerce.Pricing_3.820.0-pr-226-e59e.zip"
-        } 
+        },
+        {
+          "BlobName": "VirtoCommerce.XCatalog_3.933.0-pr-68-0432.zip"
+        }        
       ]
     },
     {
@@ -295,11 +298,7 @@
         {
           "Id": "VirtoCommerce.ElasticSearch8",
           "Version": "3.818.0"
-        },
-        {
-          "Id": "VirtoCommerce.XCatalog",
-          "Version": "3.932.0"
-        },
+        },   
         {
           "Id": "VirtoCommerce.Orders",
           "Version": "3.856.0"
