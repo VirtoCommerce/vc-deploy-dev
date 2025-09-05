@@ -21,18 +21,6 @@
           "Id": "VirtoCommerce.Loyalty",
           "BlobName": "VirtoCommerce.Loyalty_3.800.0-pr-3-4da9.zip"
         },
-         {
-          "Id": "VirtoCommerce.Customer",
-          "BlobName": "VirtoCommerce.Customer_3.837.0-pr-277-bc8d.zip"
-        },
-        {
-          "Id": "VirtoCommerce.Orders",
-          "BlobName": "VirtoCommerce.Orders_3.855.0-pr-463-3ac9.zip"
-        },
-         {
-          "Id": "VirtoCommerce.Catalog",
-          "BlobName": "VirtoCommerce.Catalog_3.886.0-pr-825-ca8b.zip"
-        }, 
         {
           "Id": "VirtoCommerce.ElasticAppSearch",
           "BlobName": "VirtoCommerce.ElasticAppSearch_3.814.0-pr-47-f979.zip"
@@ -278,6 +266,10 @@
           "Version": "3.902.0"
         },
         {
+          "Id": "VirtoCommerce.ElasticAppSearch",
+          "Version": "3.813.0"
+        },
+        {
           "Id": "VirtoCommerce.ApplicationInsights",
           "Version": "3.805.0"
         },
@@ -306,10 +298,6 @@
           "Version": "3.923.0"
         },
         {
-          "Id": "VirtoCommerce.XCatalog",
-          "Version": "3.931.0"
-        },
-        {
           "Id": "VirtoCommerce.CatalogPersonalization",
           "Version": "3.807.0"
         },
@@ -320,6 +308,22 @@
         {
           "Id": "VirtoCommerce.ElasticSearch8",
           "Version": "3.818.0"
+        },
+        {
+          "Id": "VirtoCommerce.XCatalog",
+          "Version": "3.932.0"
+        },
+        {
+          "Id": "VirtoCommerce.Orders",
+          "Version": "3.856.0"
+        },
+        {
+          "Id": "VirtoCommerce.Customer",
+          "Version": "3.837.0"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "Version": "3.886.0"
         }
       ]
     }
