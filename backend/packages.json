@@ -1,6 +1,6 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.903.0",
+  "PlatformVersion": "3.905.0",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -242,7 +242,7 @@
         },
         {
           "Id": "VirtoCommerce.Customer",
-          "Version": "3.836.0"
+          "Version": "3.837.0"
         },
         {
           "Id": "VirtoCommerce.SqlQueries",
@@ -270,11 +270,11 @@
         },
         {
           "Id": "VirtoCommerce.ElasticSearch8",
-          "Version": "3.817.0"
+          "Version": "3.818.0"
         },
         {
           "Id": "VirtoCommerce.CatalogPersonalization",
-          "Version": "3.806.0"
+          "Version": "3.807.0"
         },
         {
           "Id": "VirtoCommerce.ApplicationInsights",
@@ -290,7 +290,7 @@
         },
         {
           "Id": "VirtoCommerce.Orders",
-          "Version": "3.854.0"
+          "Version": "3.856.0"
         },
         {
           "Id": "VirtoCommerce.Search",
@@ -302,7 +302,7 @@
         },
         {
           "Id": "VirtoCommerce.Catalog",
-          "Version": "3.884.0"
+          "Version": "3.886.0"
         },
         {
           "Id": "VirtoCommerce.Xapi",
@@ -310,11 +310,11 @@
         },
         {
           "Id": "VirtoCommerce.XCatalog",
-          "Version": "3.931.0"
+          "Version": "3.933.0"
         },
         {
           "Id": "VirtoCommerce.XCart",
-          "Version": "3.935.0"
+          "Version": "3.938.0"
         },
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
