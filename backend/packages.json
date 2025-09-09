@@ -16,19 +16,7 @@
       "Modules": [
         {
           "BlobName": "VirtoCommerce.PageBuilderModule_3.823.0-pr-83-e39a.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.Pricing_3.820.0-pr-226-e59e.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.XCatalog_3.933.0-pr-68-0432.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.XCart_3.939.0-pr-78-bb16.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.Cart_3.834.0-alpha.751-vcst-3834-saved-for-later-list-type.zip"
-        }  
+        }
       ]
     },
     {
@@ -37,7 +25,7 @@
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
       "Modules": [
-        {
+         {
           "Id": "VirtoCommerce.FileSystemAssets",
           "Version": "3.805.0"
         },
@@ -220,7 +208,11 @@
         {
           "Id": "VirtoCommerce.XRecommend",
           "Version": "3.904.0"
-        }, 
+        },
+        {
+          "Id": "VirtoCommerce.Pricing",
+          "Version": "3.819.0"
+        },
         {
           "Id": "VirtoCommerce.Subscription",
           "Version": "3.809.0"
@@ -266,12 +258,12 @@
           "Version": "3.902.0"
         },
         {
-          "Id": "VirtoCommerce.ElasticAppSearch",
-          "Version": "3.813.0"
-        },
-        {
           "Id": "VirtoCommerce.ApplicationInsights",
           "Version": "3.805.0"
+        },
+        {
+          "Id": "VirtoCommerce.Cart",
+          "Version": "3.833.0"
         },
         {
           "Id": "VirtoCommerce.Search",
@@ -300,7 +292,7 @@
         {
           "Id": "VirtoCommerce.ElasticSearch8",
           "Version": "3.818.0"
-        },   
+        },
         {
           "Id": "VirtoCommerce.Orders",
           "Version": "3.856.0"
@@ -312,6 +304,18 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "Version": "3.886.0"
+        },
+        {
+          "Id": "VirtoCommerce.XCart",
+          "Version": "3.938.0"
+        },
+        {
+          "Id": "VirtoCommerce.XCatalog",
+          "Version": "3.933.0"
+        },
+        {
+          "Id": "VirtoCommerce.ElasticAppSearch",
+          "Version": "3.814.0"
         }
       ]
     }
