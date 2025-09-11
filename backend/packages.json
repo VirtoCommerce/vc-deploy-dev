@@ -248,10 +248,6 @@
           "Version": "3.805.0"
         },
         {
-          "Id": "VirtoCommerce.Cart",
-          "Version": "3.833.0"
-        },
-        {
           "Id": "VirtoCommerce.Search",
           "Version": "3.817.0"
         },
@@ -302,6 +298,10 @@
         {
           "Id": "VirtoCommerce.ElasticAppSearch",
           "Version": "3.814.0"
+        },
+        {
+          "Id": "VirtoCommerce.Cart",
+          "Version": "3.834.0"
         }
       ]
     },
