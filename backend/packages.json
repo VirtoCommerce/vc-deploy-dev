@@ -22,7 +22,10 @@
         },
         {
           "BlobName": "VirtoCommerce.Cart_3.834.0-alpha.751-vcst-3834-saved-for-later-list-type.zip"
-        }
+        },
+        {
+          "BlobName": "VirtoCommerce.Pricing_3.820.0-pr-226-21ad.zip"
+        }        
       ]
     },
     {
@@ -214,11 +217,7 @@
         {
           "Id": "VirtoCommerce.XRecommend",
           "Version": "3.904.0"
-        },
-        {
-          "Id": "VirtoCommerce.Pricing",
-          "Version": "3.819.0"
-        },
+        },    
         {
           "Id": "VirtoCommerce.Subscription",
           "Version": "3.809.0"
