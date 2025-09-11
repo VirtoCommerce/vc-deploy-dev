@@ -34,10 +34,9 @@
           "BlobName": "VirtoCommerce.AIDocumentProcessing_3.901.0-pr-6-5f80.zip"
         },
         {
-          "Id": "VirtoCommerce.Orders",
-          "Blobname": "VirtoCommerce.Orders_3.855.0-pr-462-1342.zip"
+          "Id": "VirtoCommerce.XCatalog",
+          "Blobname": "VirtoCommerce.XCatalog_3.934.0-pr-69-28b4.zip"
         }
-        
       ]
     },
     {
@@ -331,12 +330,12 @@
           "Version": "3.885.0"
         },
         {
-          "Id": "VirtoCommerce.Xapi",
-          "Version": "3.923.0"
+          "Id": "VirtoCommerce.Orders",
+          "Version": "3.856.0"
         },
         {
-          "Id": "VirtoCommerce.XCatalog",
-          "Version": "3.932.0"
+          "Id": "VirtoCommerce.Xapi",
+          "Version": "3.923.0"
         }
       ]
     }
