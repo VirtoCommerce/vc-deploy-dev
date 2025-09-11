@@ -262,10 +262,6 @@
           "BlobName": "VirtoCommerce.ApplicationInsights_3.806.0-alpha.29.zip"
         },
         {
-          "Id": "VirtoCommerce.Cart",
-          "BlobName": "VirtoCommerce.Cart_3.834.0-alpha.744.zip"
-        },
-        {
           "Id": "VirtoCommerce.Search",
           "BlobName": "VirtoCommerce.Search_3.818.0-alpha.787.zip"
         },
@@ -316,6 +312,10 @@
         {
           "Id": "VirtoCommerce.ElasticAppSearch",
           "BlobName": "VirtoCommerce.ElasticAppSearch_3.815.0-alpha.155.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Cart",
+          "BlobName": "VirtoCommerce.Cart_3.834.0-alpha.746.zip"
         }
       ]
     }
