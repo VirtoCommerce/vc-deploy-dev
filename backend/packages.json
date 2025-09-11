@@ -28,6 +28,9 @@
         },
         {
           "BlobName": "VirtoCommerce.ElasticSearch8_3.819.0-pr-31-8e4a.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Xapi_3.924.0-pr-50-14e6.zip"
         }
       ]
     },
@@ -304,10 +307,6 @@
         {
           "Id": "VirtoCommerce.News",
           "Version": "3.809.0"
-        },
-        {
-          "Id": "VirtoCommerce.Xapi",
-          "Version": "3.923.0"
         },
         {
           "Id": "VirtoCommerce.XCatalog",
