@@ -24,8 +24,11 @@
           "BlobName": "VirtoCommerce.Cart_3.834.0-alpha.751-vcst-3834-saved-for-later-list-type.zip"
         },
         {
-          "BlobName": "VirtoCommerce.Pricing_3.820.0-alpha.778-vcst-3667-min-variation-price.zip"
-        }        
+          "BlobName": "VirtoCommerce.Pricing_3.820.0-pr-226-77a3.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.XCatalog_3.934.0-pr-72-57a6.zip"
+        } 
       ]
     },
     {
@@ -305,11 +308,7 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "Version": "3.886.0"
-        },
-        {
-          "Id": "VirtoCommerce.XCatalog",
-          "Version": "3.933.0"
-        },
+        }, 
         {
           "Id": "VirtoCommerce.ElasticAppSearch",
           "Version": "3.814.0"
