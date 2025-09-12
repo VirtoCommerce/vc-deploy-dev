@@ -310,12 +310,12 @@
           "BlobName": "VirtoCommerce.Catalog_3.889.0-alpha.2392.zip"
         },
         {
-          "Id": "VirtoCommerce.XCart",
-          "BlobName": "VirtoCommerce.XCart_3.939.0-alpha.151.zip"
-        },
-        {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
           "BlobName": "VirtoCommerce.CatalogCsvImportModule_3.811.0-alpha.341.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XCart",
+          "BlobName": "VirtoCommerce.XCart_3.940.0-alpha.152.zip"
         }
       ]
     }
