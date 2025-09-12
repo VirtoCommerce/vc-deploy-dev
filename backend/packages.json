@@ -28,6 +28,9 @@
         },
         {
           "BlobName": "VirtoCommerce.XCatalog_3.934.0-pr-72-57a6.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Catalog_3.889.0-pr-828-c647.zip"
         } 
       ]
     },
@@ -300,11 +303,7 @@
         {
           "Id": "VirtoCommerce.Customer",
           "Version": "3.837.0"
-        },
-        {
-          "Id": "VirtoCommerce.Catalog",
-          "Version": "3.886.0"
-        }, 
+        },  
         {
           "Id": "VirtoCommerce.ElasticAppSearch",
           "Version": "3.814.0"
