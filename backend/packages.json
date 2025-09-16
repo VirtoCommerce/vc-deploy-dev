@@ -22,21 +22,6 @@
         },
         {
           "BlobName": "VirtoCommerce.PowerBiReports_3.801.0-alpha.43.zip"
-        },
-          {
-          "BlobName": "VirtoCommerce.Catalog_3.891.0-pr-831-ef9e.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.ElasticSearch8_3.819.0-pr-31-8e4a.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.Xapi_3.924.0-pr-50-14e6.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.CatalogCsvImportModule_3.811.0-pr-122-6d7d.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.Sitemaps_3.819.0-pr-86-6ad8.zip"
         }
       ]
     },
@@ -187,6 +172,10 @@
           "Version": "3.806.0"
         },
         {
+          "Id": "VirtoCommerce.Sitemaps",
+          "Version": "3.818.0"
+        },
+        {
           "Id": "VirtoCommerce.PriceExportImport",
           "Version": "3.804.0"
         },
@@ -217,6 +206,10 @@
         {
           "Id": "VirtoCommerce.Notifications",
           "Version": "3.821.0"
+        },
+        {
+          "Id": "VirtoCommerce.CatalogCsvImportModule",
+          "Version": "3.810.0"
         },
         {
           "Id": "VirtoCommerce.XRecommend",
@@ -251,10 +244,6 @@
           "Version": "3.904.0"
         },
         {
-          "Id": "VirtoCommerce.Customer",
-          "Version": "3.837.0"
-        },
-        {
           "Id": "VirtoCommerce.SqlQueries",
           "Version": "3.801.0"
         },
@@ -275,28 +264,8 @@
           "Version": "3.902.0"
         },
         {
-          "Id": "VirtoCommerce.ElasticAppSearch",
-          "Version": "3.814.0"
-        },
-        {
-          "Id": "VirtoCommerce.CatalogPersonalization",
-          "Version": "3.807.0"
-        },
-        {
           "Id": "VirtoCommerce.ApplicationInsights",
           "Version": "3.805.0"
-        },
-        {
-          "Id": "VirtoCommerce.Seo",
-          "Version": "3.807.0"
-        },
-        {
-          "Id": "VirtoCommerce.Cart",
-          "Version": "3.833.0"
-        },
-        {
-          "Id": "VirtoCommerce.Orders",
-          "Version": "3.856.0"
         },
         {
           "Id": "VirtoCommerce.Search",
@@ -307,16 +276,52 @@
           "Version": "3.809.0"
         },
         {
-          "Id": "VirtoCommerce.XCatalog",
-          "Version": "3.933.0"
+          "Id": "VirtoCommerce.ProfileExperienceApiModule",
+          "Version": "3.922.0"
+        },
+        {
+          "Id": "VirtoCommerce.Seo",
+          "Version": "3.807.0"
+        },
+        {
+          "Id": "VirtoCommerce.CatalogPersonalization",
+          "Version": "3.807.0"
+        },
+        {
+          "Id": "VirtoCommerce.Orders",
+          "Version": "3.856.0"
+        },
+        {
+          "Id": "VirtoCommerce.Customer",
+          "Version": "3.837.0"
+        },
+        {
+          "Id": "VirtoCommerce.ElasticAppSearch",
+          "Version": "3.814.0"
+        },
+        {
+          "Id": "VirtoCommerce.Cart",
+          "Version": "3.834.0"
+        },
+        {
+          "Id": "VirtoCommerce.ElasticSearch8",
+          "Version": "3.819.0"
         },
         {
           "Id": "VirtoCommerce.XCart",
-          "Version": "3.938.0"
+          "Version": "3.939.0"
         },
         {
-          "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.922.0"
+          "Id": "VirtoCommerce.XCatalog",
+          "Version": "3.935.0"
+        },
+        {
+          "Id": "VirtoCommerce.Xapi",
+          "Version": "3.924.0"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "Version": "3.891.0"
         }
       ]
     }
