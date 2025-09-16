@@ -18,20 +18,11 @@
           "BlobName": "VirtoCommerce.PageBuilderModule_3.823.0-pr-83-e39a.zip"
         },
         {
-          "BlobName": "VirtoCommerce.XCart_3.939.0-pr-78-870f.zip"
+          "BlobName": "VirtoCommerce.XCatalog_3.936.0-pr-71-2b41.zip"
         },
         {
-          "BlobName": "VirtoCommerce.Cart_3.834.0-alpha.751-vcst-3834-saved-for-later-list-type.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.Pricing_3.820.0-pr-226-77a3.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.XCatalog_3.935.0-pr-72-1975.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.Catalog_3.889.0-alpha.2395-vcst-3415.zip"
-        } 
+          "BlobName": "VirtoCommerce.XCart_3.940.0-pr-82-5a41.zip"
+        }
       ]
     },
     {
@@ -40,7 +31,7 @@
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
       "Modules": [
-         {
+ {
           "Id": "VirtoCommerce.FileSystemAssets",
           "Version": "3.805.0"
         },
@@ -209,6 +200,10 @@
           "Version": "3.809.0"
         },
         {
+          "Id": "VirtoCommerce.WhiteLabeling",
+          "Version": "3.908.0"
+        },
+        {
           "Id": "VirtoCommerce.Notifications",
           "Version": "3.821.0"
         },
@@ -219,7 +214,11 @@
         {
           "Id": "VirtoCommerce.XRecommend",
           "Version": "3.904.0"
-        },    
+        },
+        {
+          "Id": "VirtoCommerce.Pricing",
+          "Version": "3.819.0"
+        },
         {
           "Id": "VirtoCommerce.Subscription",
           "Version": "3.809.0"
@@ -293,25 +292,29 @@
           "Version": "3.807.0"
         },
         {
-          "Id": "VirtoCommerce.ElasticSearch8",
-          "Version": "3.818.0"
-        },
-        {
           "Id": "VirtoCommerce.Orders",
           "Version": "3.856.0"
         },
         {
           "Id": "VirtoCommerce.Customer",
           "Version": "3.837.0"
-        },  
+        },
         {
           "Id": "VirtoCommerce.ElasticAppSearch",
           "Version": "3.814.0"
         },
         {
-          "Id": "VirtoCommerce.WhiteLabeling",
-          "Version": "3.908.0"
-        }        
+          "Id": "VirtoCommerce.Cart",
+          "Version": "3.834.0"
+        },
+        {
+          "Id": "VirtoCommerce.ElasticSearch8",
+          "Version": "3.819.0"
+        }, 
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "Version": "3.890.0"
+        }    
       ]
     }
   ]
