@@ -288,10 +288,6 @@
           "Version": "3.834.0"
         },
         {
-          "Id": "VirtoCommerce.XCatalog",
-          "Version": "3.934.0"
-        },
-        {
           "Id": "VirtoCommerce.ElasticSearch8",
           "Version": "3.819.0"
         },
@@ -302,6 +298,10 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "Version": "3.890.0"
+        },
+        {
+          "Id": "VirtoCommerce.XCatalog",
+          "Version": "3.935.0"
         }
       ]
     },
