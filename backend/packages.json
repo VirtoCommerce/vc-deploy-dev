@@ -22,6 +22,9 @@
         },
         {
           "BlobName": "VirtoCommerce.PowerBiReports_3.801.0-alpha.43.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Sitemaps_3.819.0-pr-86-6ad8.zip"
         }
       ]
     },
@@ -170,10 +173,6 @@
         {
           "Id": "VirtoCommerce.OrderManagement",
           "Version": "3.806.0"
-        },
-        {
-          "Id": "VirtoCommerce.Sitemaps",
-          "Version": "3.818.0"
         },
         {
           "Id": "VirtoCommerce.PriceExportImport",
