@@ -38,6 +38,10 @@
           "BlobName": "VirtoCommerce.News_3.810.0-pr-8-6934.zip"
         },
         {
+          "Id": "VirtoCommerce.Orders",
+          "BlobName": "VirtoCommerce.Orders_3.857.0-pr-465-1feb.zip"
+        },
+        {
           "Id": "VirtoCommerce.XCatalog",
           "Blobname": "VirtoCommerce.XCatalog_3.934.0-pr-69-28b4.zip"
         }
@@ -328,10 +332,6 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "Version": "3.885.0"
-        },
-        {
-          "Id": "VirtoCommerce.Orders",
-          "Version": "3.856.0"
         },
         {
           "Id": "VirtoCommerce.Xapi",
