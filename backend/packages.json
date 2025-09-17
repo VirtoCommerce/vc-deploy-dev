@@ -18,10 +18,13 @@
           "BlobName": "VirtoCommerce.PageBuilderModule_3.823.0-pr-83-e39a.zip"
         },
         {
-          "BlobName": "VirtoCommerce.XCart_3.939.0-pr-78-bb16.zip"
+          "BlobName": "VirtoCommerce.XCatalog_3.936.0-pr-71-2b41.zip"
         },
         {
-          "BlobName": "VirtoCommerce.Cart_3.834.0-alpha.751-vcst-3834-saved-for-later-list-type.zip"
+          "BlobName": "VirtoCommerce.XCart_3.940.0-pr-76-be12.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Cart_3.835.0-alpha.761-vcst-3772-shopping-list-sharing.zip"
         }
       ]
     },
@@ -31,7 +34,7 @@
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
       "Modules": [
-         {
+ {
           "Id": "VirtoCommerce.FileSystemAssets",
           "Version": "3.805.0"
         },
@@ -292,10 +295,6 @@
           "Version": "3.807.0"
         },
         {
-          "Id": "VirtoCommerce.ElasticSearch8",
-          "Version": "3.818.0"
-        },
-        {
           "Id": "VirtoCommerce.Orders",
           "Version": "3.856.0"
         },
@@ -304,17 +303,21 @@
           "Version": "3.837.0"
         },
         {
-          "Id": "VirtoCommerce.Catalog",
-          "Version": "3.886.0"
-        },
-        {
-          "Id": "VirtoCommerce.XCatalog",
-          "Version": "3.933.0"
-        },
-        {
           "Id": "VirtoCommerce.ElasticAppSearch",
           "Version": "3.814.0"
-        }
+        },
+        {
+          "Id": "VirtoCommerce.Cart",
+          "Version": "3.834.0"
+        },
+        {
+          "Id": "VirtoCommerce.ElasticSearch8",
+          "Version": "3.819.0"
+        }, 
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "Version": "3.890.0"
+        }    
       ]
     }
   ]
