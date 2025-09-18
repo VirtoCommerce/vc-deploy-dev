@@ -93,18 +93,30 @@
       
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
       Swagger__UI__Enabled: false
+  
+      #Search__Settings      
       Search__OrderFullTextSearchEnabled: true
       Search__ContentFullTextSearchEnabled: true
+      Search__DocumentScopes__0__DocumentType: Product
+      Search__DocumentScopes__0__Scope: vcptcore-demo-platformvcptcore-scope11
+      Search__DocumentScopes__2__DocumentType: Category
+      Search__DocumentScopes__2__Scope: vcptcore-demo-platformvcptcore-scope55
+      Search__DocumentScopes__3__DocumentType: Member
+      Search__DocumentScopes__3__Scope: vcptcore-demo-platformvcptcore-scope33
+      Search__DocumentScopes__4__DocumentType: CustomerOrder
+      Search__DocumentScopes__4__Scope: vcptcore-demo-platformvcptcore-scope44
+      Search__DocumentScopes__5__DocumentType: ContentFile
+      Search__DocumentScopes__5__Scope: vcptcore-demo-platformvcptcore-scope66
       
       #Search__ElasticAppSearch__EnableHttpCompression: true
       #Search__ElasticAppSearch__Endpoint: https://enterprise-search-vc03.govirto.com
       
       # Elastic Search settings
-      Search__ElasticSearch__Server: https://elasticsearch-vc03.govirto.com
-      Search__ElasticSearch__EnableCompatibilityMode: true
+      #Search__ElasticSearch__Server: https://elasticsearch-vc03.govirto.com
+      #Search__ElasticSearch__EnableCompatibilityMode: true
       Search__ElasticSearch8__EnableDebugMode: true    
       Search__ElasticSearch8__User: elastic
-      Search__Provider: ElasticSearch
+      Search__Provider: ElasticSearch8
        
       AzureAd__Enabled: true
       AzureAd__ApplicationId: 86d04c35-143d-4d3c-aea2-8608e2186282
