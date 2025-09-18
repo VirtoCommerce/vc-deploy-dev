@@ -18,7 +18,7 @@
           "BlobName": "VirtoCommerce.PageBuilderModule_3.823.0-pr-83-e39a.zip"
         },
         {
-          "BlobName": "VirtoCommerce.XCatalog_3.936.0-pr-71-2b41.zip"
+          "BlobName": "VirtoCommerce.Notifications_3.822.0-pr-179-6490.zip"
         },
         {
           "BlobName": "VirtoCommerce.XCart_3.940.0-pr-76-be12.zip"
@@ -205,11 +205,7 @@
         {
           "Id": "VirtoCommerce.WhiteLabeling",
           "Version": "3.908.0"
-        },
-        {
-          "Id": "VirtoCommerce.Notifications",
-          "Version": "3.821.0"
-        },
+        },  
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
           "Version": "3.810.0"
@@ -313,7 +309,11 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "Version": "3.890.0"
-        }    
+        },
+        {
+          "Id": "VirtoCommerce.XCatalog",
+          "Version": "3.936.0"
+        }
       ]
     }
   ]
