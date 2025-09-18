@@ -20,13 +20,14 @@
       PushNotifications__ScalabilityMode: RedisBackplane
       PushNotifications__HubUrl: https://vcptcore-demo.govirto.com/pushNotificationHub?api_key=7125fd95-9f6d-44a0-8466-238003ace6fd
       PushNotifications__RedisBackplane__ChannelName: vcptcore-demo-chanel
-      Notifications__DefaultSender: azure_25da07ed75daacae20578a7a7dc58541@azure.com
-      Notifications__Gateway: SendGrid
-      Notifications__SmsDefaultSender: +17012510519
       Notifications__Smtp__EnableSsl: False
       Notifications__Smtp__Host: smtp.sendgrid.net
       Notifications__Smtp__Login: apikey
       Notifications__Smtp__Port: 587
+      # Send notifications via email
+      Notifications__DefaultSender: virto.start@virtoway.com
+      Notifications__Gateway: SendGrid
+      Notifications__SmsDefaultSender: +17012510519
       Orders__PaymentDistributionLockOptions__LockTimeout: "00:00:30"
       Orders__PaymentDistributionLockOptions__TryLockTimeout: "00:00:00"
       Orders__PaymentDistributionLockOptions__RetryInterval: "00:00:00.000"
@@ -135,18 +136,18 @@
       DefaultMainMenuState__items__0__order: 1
       APPINSIGHTS_INSTRUMENTATIONKEY: 4cf3a85e-6c3b-48b3-bc81-d37d8267017e
       FrontendSecurity__OrganizationMaintainerRole: Organization maintainer
-      IdentityOptions__Password__RequiredLength: 3
-      IdentityOptions__Password__RequireDigit: false
+      IdentityOptions__Password__RequiredLength: 8
+      IdentityOptions__Password__RequireDigit: true
       IdentityOptions__Password__RequireNonAlphanumeric: false
-      IdentityOptions__Password__RequireUppercase: false
-      IdentityOptions__Password__RequireLowercase: false
+      IdentityOptions__Password__RequireUppercase: true
+      IdentityOptions__Password__RequireLowercase: true
       EventBus__Connections__0__Name: "AzureEventGridApps"
       EventBus__Connections__0__ProviderName: "AzureEventGrid"
       EventBus__Connections__0__ConnectionOptionsSerialized: "{\"ConnectionString\": \"https://test-event-grid-dont-delete.westus-1.eventgrid.azure.net/api/events\", \"AccessKey\": \"kvpXOgw5MiNjBeBKdroX1r45UvZloXMwlM7i1TyqoiI=\"}"
       EventBus__Subscriptions__0__ConnectionName: "AzureEventGridApps"
       EventBus__Subscriptions__0__Name: "TestSubscriptionAppS"
       EventBus__Subscriptions__0__Events__0__EventId: "VirtoCommerce.Platform.Core.Security.Events.UserChangedEvent"
-      PasswordLogin__DetailedErrors: true
+      PasswordLogin__DetailedErrors: true  
 
       Seo__SeoInfoResolver__0: Pages
       Seo__SeoInfoResolver__1: ContentFile      
