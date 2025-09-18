@@ -4,8 +4,12 @@
   servicePlan: P2
   platform:
     #dbProvider: Azure Database for PostgreSQL
+    headers:
+      Cross-Origin-Resource-Policy: cross-origin
+      Cross-Origin-Opener-Policy: unsafe-none
+      Cross-Origin-Embedder-Policy: unsafe-none
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.856.0-pr-2843-6993-vcst-1592-6993587d
+    #imageTag: 3.856.0-pr-2843-6993-vcst-1592-6993587d
     sqlReplica: false
     config:
       Serilog__Using__0: Serilog.Sinks.Console
@@ -43,7 +47,7 @@
       Reload: 7
       Tax__Avalara__AccountNumber: 2000188799
       Tax__Avalara__LicenseKey: 16BC3F87E836E15C
-      Search__Provider: Lucene
+      Search__Provider: ElasticSearch8
       VirtoCommerce__SampleDataUrl: https://virtocommerce.azureedge.net/sample-data/b2b-sample-store.zip
       #VirtoCommerce__SampleDataUrl: ""
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
@@ -100,6 +104,7 @@
       Search__ElasticAppSearch__PrivateApiKey: elasticappsearch
       Notifications__SendGrid__ApiKey: sendkey
       Notifications__Smtp__Password: smtppasswordyandex
+      Search__ElasticSearch8__Key: elastic-search-8
   storefront:
     enabled: false
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/storefront
@@ -145,4 +150,5 @@
       route: platform
   protectedParameters:
   - platform.image.tag
-  version: 3.208
+  - themes.B2B-store
+  version: 3.231
