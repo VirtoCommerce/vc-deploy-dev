@@ -236,5 +236,6 @@
     - path: /signin-google
       route: platform
   protectedParameters:
-  - platform.image.tag  
+  - platform.image.tag
+  # - themes.B2B-store
   version: 3.231
