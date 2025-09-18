@@ -46,10 +46,9 @@
       PasswordLogin__Priority: 0
       Reload: 7
       Tax__Avalara__AccountNumber: 2000188799
-      Tax__Avalara__LicenseKey: 16BC3F87E836E15C
-      Search__Provider: ElasticSearch8
+      Tax__Avalara__LicenseKey: 16BC3F87E836E15C     
       VirtoCommerce__SampleDataUrl: https://virtocommerce.azureedge.net/sample-data/b2b-sample-store.zip
-      #VirtoCommerce__SampleDataUrl: ""
+      
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
       Swagger__UI__Enabled: false
       Search__OrderFullTextSearchEnabled: true
@@ -57,6 +56,8 @@
       Search__ElasticSearch__EnableCompatibilityMode: true
       Search__ElasticAppSearch__EnableHttpCompression: true
       Search__ElasticAppSearch__Endpoint: https://enterprise-search-vc03.govirto.com
+      Search__Provider: ElasticSearch8
+       
       AzureAd__Enabled: true
       AzureAd__ApplicationId: 86d04c35-143d-4d3c-aea2-8608e2186282
       AzureAd__TenantId: common
@@ -80,9 +81,7 @@
       VirtoCommerce__Licensing__LicensePrivateKeyPath: /opt/virtocommerce/platform/license/VirtoCommerce.lic
       VirtoCommerce__Hangfire__JobStorageType: SqlServer
       Logging__LogLevel__Default: Information
-      Payments__AuthorizeNet__ApiLogin: 8hPT4p99R
-      Payments__AuthorizeNet__SHA2Hash: FA6D2B37A7E9105942D2D184F1B2DBD8D9CA85611DE55B2267A6F7E0D7E49ACD9A6BC238CE068E75CA14ACFAD734F700FD94DCAB20353DD4D32D9BABE72DBBE4
-      Payments__AuthorizeNet__TxnKey: 63c54EWq5d2XnGAR
+
       ASPNETCORE_ENVIRONMENT: Production
       DefaultMainMenuState__items__0__path: browse/marketing
       DefaultMainMenuState__items__0__isFavorite: true
@@ -100,11 +99,40 @@
       EventBus__Subscriptions__0__ConnectionName: "AzureEventGridApps"
       EventBus__Subscriptions__0__Name: "TestSubscriptionAppS"
       EventBus__Subscriptions__0__Events__0__EventId: "VirtoCommerce.Platform.Core.Security.Events.UserChangedEvent"
+      PasswordLogin__DetailedErrors: true
+      
+      Payments__AuthorizeNet__ApiLogin: 52B9X7vb4
+      #Payments__AuthorizeNet__SHA2Hash: FA6D2B37A7E9105942D2D184F1B2DBD8D9CA85611DE55B2267A6F7E0D7E49ACD9A6BC238CE068E75CA14ACFAD734F700FD94DCAB20353DD4D32D9BABE72DBBE4      
+
+      # Skyflow settings
+      Payments__Skyflow__tokenURI: https://manage.skyflowapis.com/v1/auth/sa/oauth/token
+      Payments__Skyflow__vaultURI: https://ebfc9bee4242.vault.skyflowapis.com
+      Payments__Skyflow__gatewayURI: https://ebfc9bee4242.gateway.skyflowapis.com
+      Payments__Skyflow__vaultId: c1aeec61ad7c46c2b724f004a7658b2f
+      Payments__Skyflow__tableName: credit_cards
+      Payments__Skyflow__TargetPaymentMethod: AuthorizeNetPaymentMethod
+      Payments__Skyflow__TargetConnectionRoute: gfb5ce07e91340efac348a2df035c513/xml/v1/request.api
+
+      # CyberSource
+      Payments__CyberSource__ValidateSignatureRetryCount: 5
+
+      # Shippment
+      Shipping__IsPickupEnabled: true
     secretConfig:
       Search__ElasticAppSearch__PrivateApiKey: elasticappsearch
       Notifications__SendGrid__ApiKey: sendkey
       Notifications__Smtp__Password: smtppasswordyandex
       Search__ElasticSearch8__Key: elastic-search-8
+      Payments__AuthorizeNet__TxnKey: authorizenet-txnkey-vs
+      Payments__Skyflow__PaymentFormAccount__clientID: skyflow-paymentformaccount-clientid
+      Payments__Skyflow__PaymentFormAccount__keyID: skyflow-paymentformaccount-keyid
+      Payments__Skyflow__PaymentFormAccount__privateKey: skyflow-paymentformaccount-privatekey
+      Payments__Skyflow__IntegrationsAccount__clientID: skyflow-integrationsaccount-clientid
+      Payments__Skyflow__IntegrationsAccount__keyID: skyflow-integrationsaccount-keyid
+      Payments__Skyflow__IntegrationsAccount__privateKey: skyflow-integrationsaccount-privatekey
+      Payments__CyberSource__MerchantId: cybersource-merchantid
+      Payments__CyberSource__MerchantKeyId: cybersource-merchantkeyid
+      Payments__CyberSource__MerchantSecretKey: cybersource-merchantsecretkey
   storefront:
     enabled: false
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/storefront
