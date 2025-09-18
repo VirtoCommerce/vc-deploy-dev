@@ -94,13 +94,14 @@
       Swagger__UI__Enabled: false
       Search__OrderFullTextSearchEnabled: true
       Search__ContentFullTextSearchEnabled: true
-      Search__ElasticSearch__EnableCompatibilityMode: true
-      Search__ElasticAppSearch__EnableHttpCompression: true
-      Search__ElasticAppSearch__Endpoint: https://enterprise-search-vc03.govirto.com
+      
+      #Search__ElasticAppSearch__EnableHttpCompression: true
+      #Search__ElasticAppSearch__Endpoint: https://enterprise-search-vc03.govirto.com
       
       # Elastic Search settings
-      Search__ElasticSearch__Server: https://elasticsearch-vc03.govirto.com
+      #Search__ElasticSearch__Server: https://elasticsearch-vc03.govirto.com
       Search__ElasticSearch__EnableCompatibilityMode: true
+      Search__ElasticSearch8__EnableDebugMode: true
       Search__Provider: ElasticSearch8
        
       AzureAd__Enabled: true
@@ -174,7 +175,7 @@
       # Shippment
       Shipping__IsPickupEnabled: true
     secretConfig:
-      Search__ElasticAppSearch__PrivateApiKey: elasticappsearch
+      #Search__ElasticAppSearch__PrivateApiKey: elasticappsearch
       Notifications__SendGrid__ApiKey: sendkey
       Notifications__Smtp__Password: smtppasswordyandex
       Search__ElasticSearch8__Key: elastic-search-8
