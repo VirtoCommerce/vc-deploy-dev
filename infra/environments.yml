@@ -178,5 +178,5 @@
       route: platform
   protectedParameters:
   - platform.image.tag
-  - themes.B2B-store
+  # - themes.B2B-store
   version: 3.231
