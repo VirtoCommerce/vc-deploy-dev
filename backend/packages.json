@@ -23,9 +23,6 @@
         {
           "BlobName": "VirtoCommerce.PowerBiReports_3.801.0-alpha.43.zip"
         },
-        {
-          "BlobName": "VirtoCommerce.Sitemaps_3.819.0-pr-86-6ad8.zip"
-        },
         { 
         "BlobName": "VirtoCommerce.Loyalty_3.800.0-pr-5-c684.zip"
         }
@@ -37,7 +34,7 @@
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
       "Modules": [
-        {
+         {
           "Id": "VirtoCommerce.FileSystemAssets",
           "Version": "3.805.0"
         },
@@ -210,10 +207,6 @@
           "Version": "3.821.0"
         },
         {
-          "Id": "VirtoCommerce.CatalogCsvImportModule",
-          "Version": "3.810.0"
-        },
-        {
           "Id": "VirtoCommerce.XRecommend",
           "Version": "3.904.0"
         },
@@ -274,10 +267,6 @@
           "Version": "3.817.0"
         },
         {
-          "Id": "VirtoCommerce.News",
-          "Version": "3.809.0"
-        },
-        {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "Version": "3.922.0"
         },
@@ -288,10 +277,6 @@
         {
           "Id": "VirtoCommerce.CatalogPersonalization",
           "Version": "3.807.0"
-        },
-        {
-          "Id": "VirtoCommerce.Orders",
-          "Version": "3.856.0"
         },
         {
           "Id": "VirtoCommerce.Customer",
@@ -310,20 +295,36 @@
           "Version": "3.819.0"
         },
         {
-          "Id": "VirtoCommerce.XCart",
-          "Version": "3.939.0"
-        },
-        {
-          "Id": "VirtoCommerce.XCatalog",
-          "Version": "3.935.0"
-        },
-        {
           "Id": "VirtoCommerce.Xapi",
           "Version": "3.924.0"
         },
         {
           "Id": "VirtoCommerce.Catalog",
           "Version": "3.891.0"
+        },
+        {
+          "Id": "VirtoCommerce.CatalogCsvImportModule",
+          "Version": "3.811.0"
+        },
+        {
+          "Id": "VirtoCommerce.XCatalog",
+          "Version": "3.936.0"
+        },
+        {
+          "Id": "VirtoCommerce.News",
+          "Version": "3.810.0"
+        },
+        {
+          "Id": "VirtoCommerce.XCart",
+          "Version": "3.940.0"
+        },
+        {
+          "Id": "VirtoCommerce.Sitemaps",
+          "Version": "3.819.0"
+        },
+        {
+          "Id": "VirtoCommerce.Orders",
+          "Version": "3.857.0"
         }
       ]
     }
