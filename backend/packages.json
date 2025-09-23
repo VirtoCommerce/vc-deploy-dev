@@ -316,6 +316,10 @@
         {
           "Id": "VirtoCommerce.Orders",
           "Version": "3.857.0"
+        },
+        {
+          "Id": "VirtoCommerce.Loyalty",
+          "Version": "3.800.0"
         }
       ]
     }
