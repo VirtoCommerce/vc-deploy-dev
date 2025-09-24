@@ -176,10 +176,6 @@
           "Version": "3.908.0"
         },
         {
-          "Id": "VirtoCommerce.Notifications",
-          "Version": "3.821.0"
-        },
-        {
           "Id": "VirtoCommerce.XRecommend",
           "Version": "3.904.0"
         },
@@ -302,6 +298,10 @@
         {
           "Id": "VirtoCommerce.Assets",
           "Version": "3.813.0"
+        },
+        {
+          "Id": "VirtoCommerce.Notifications",
+          "Version": "3.823.0"
         }
       ]
     },
