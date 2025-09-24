@@ -18,8 +18,11 @@
           "BlobName": "VirtoCommerce.PageBuilderModule_3.823.0-pr-83-e39a.zip"
         },
         {
-          "BlobName": "VirtoCommerce.Notifications_3.822.0-pr-179-6490.zip"
-        } 
+          "BlobName": "VirtoCommerce.XCart_3.941.0-pr-76-48f6.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Cart_3.835.0-alpha.761-vcst-3772-shopping-list-sharing.zip"
+        }      
       ]
     },
     {
@@ -277,10 +280,6 @@
           "Version": "3.814.0"
         },
         {
-          "Id": "VirtoCommerce.Cart",
-          "Version": "3.834.0"
-        },
-        {
           "Id": "VirtoCommerce.ElasticSearch8",
           "Version": "3.819.0"
         },
@@ -298,15 +297,11 @@
         },
         {
           "Id": "VirtoCommerce.XCatalog",
-          "Version": "3.936.0"
+          "Version": "3.937.0"
         },
         {
           "Id": "VirtoCommerce.News",
           "Version": "3.810.0"
-        },
-        {
-          "Id": "VirtoCommerce.XCart",
-          "Version": "3.940.0"
         },
         {
           "Id": "VirtoCommerce.Sitemaps",
@@ -319,6 +314,10 @@
         {
           "Id": "VirtoCommerce.Loyalty",
           "Version": "3.800.0"
+        },
+        {
+          "Id": "VirtoCommerce.Notifications",
+          "Version": "3.822.0"
         }
       ]
     }
