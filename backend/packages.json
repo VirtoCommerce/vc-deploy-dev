@@ -194,10 +194,6 @@
           "BlobName": "VirtoCommerce.WhiteLabeling_3.909.0-alpha.50.zip"
         },
         {
-          "Id": "VirtoCommerce.Notifications",
-          "BlobName": "VirtoCommerce.Notifications_3.822.0-alpha.413.zip"
-        },
-        {
           "Id": "VirtoCommerce.XRecommend",
           "BlobName": "VirtoCommerce.XRecommend_3.905.0-alpha.34.zip"
         },
@@ -316,6 +312,10 @@
         {
           "Id": "VirtoCommerce.XCatalog",
           "BlobName": "VirtoCommerce.XCatalog_3.938.0-alpha.143.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Notifications",
+          "BlobName": "VirtoCommerce.Notifications_3.822.0-alpha.415.zip"
         }
       ]
     }
