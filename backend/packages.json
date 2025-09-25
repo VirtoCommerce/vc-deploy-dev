@@ -22,7 +22,10 @@
         },
         {
           "BlobName": "VirtoCommerce.Cart_3.835.0-alpha.761-vcst-3772-shopping-list-sharing.zip"
-        }      
+        },
+        {
+          "BlobName": "VirtoCommerce.Orders_3.858.0-pr-466-bf09.zip"
+        }
       ]
     },
     {
@@ -306,10 +309,6 @@
         {
           "Id": "VirtoCommerce.Sitemaps",
           "Version": "3.819.0"
-        },
-        {
-          "Id": "VirtoCommerce.Orders",
-          "Version": "3.857.0"
         },
         {
           "Id": "VirtoCommerce.Loyalty",
