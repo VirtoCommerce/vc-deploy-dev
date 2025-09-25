@@ -28,6 +28,9 @@
         },
         {
           "BlobName": "VirtoCommerce.Assets_3.813.0-pr-29-e357.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.ElasticSearch8_3.820.0-pr-32-2072.zip"
         }
       ]
     },
@@ -288,10 +291,6 @@
         {
           "Id": "VirtoCommerce.Cart",
           "Version": "3.834.0"
-        },
-        {
-          "Id": "VirtoCommerce.ElasticSearch8",
-          "Version": "3.819.0"
         },
         {
           "Id": "VirtoCommerce.Xapi",
