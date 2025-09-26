@@ -24,7 +24,16 @@
           "BlobName": "VirtoCommerce.Cart_3.835.0-alpha.761-vcst-3772-shopping-list-sharing.zip"
         },
         {
-          "BlobName": "VirtoCommerce.Orders_3.858.0-pr-466-bf09.zip"
+          "BlobName": "VirtoCommerce.Catalog_3.892.0-pr-835-7c77.zip"
+        }, 
+        {
+          "BlobName": "VirtoCommerce.Customer_3.838.0-pr-278-cd8e.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Orders_3.858.0-pr-468-c10f.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Pricing_3.820.0-pr-227-60f0.zip"
         }
       ]
     },
@@ -207,10 +216,6 @@
           "Version": "3.904.0"
         },
         {
-          "Id": "VirtoCommerce.Pricing",
-          "Version": "3.819.0"
-        },
-        {
           "Id": "VirtoCommerce.Subscription",
           "Version": "3.809.0"
         },
@@ -273,11 +278,7 @@
         {
           "Id": "VirtoCommerce.CatalogPersonalization",
           "Version": "3.807.0"
-        },
-        {
-          "Id": "VirtoCommerce.Customer",
-          "Version": "3.837.0"
-        },
+        }, 
         {
           "Id": "VirtoCommerce.ElasticAppSearch",
           "Version": "3.814.0"
@@ -289,11 +290,7 @@
         {
           "Id": "VirtoCommerce.Xapi",
           "Version": "3.924.0"
-        },
-        {
-          "Id": "VirtoCommerce.Catalog",
-          "Version": "3.891.0"
-        },
+        },   
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
           "Version": "3.811.0"
