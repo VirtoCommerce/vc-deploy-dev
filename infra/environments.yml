@@ -108,14 +108,6 @@
       Search__DocumentScopes__5__DocumentType: ContentFile
       Search__DocumentScopes__5__Scope: vcptcore-demo-platformvcptcore-scope66
       
-      #Search__ElasticAppSearch__EnableHttpCompression: true
-      #Search__ElasticAppSearch__Endpoint: https://enterprise-search-vc03.govirto.com
-      
-      # Elastic Search settings
-      Search__ElasticSearch__Server: https://elasticsearch-vc03.govirto.com
-      Search__ElasticSearch__EnableCompatibilityMode: true
-      Search__ElasticSearch8__EnableDebugMode: true    
-      Search__ElasticSearch8__User: elastic
       Search__Provider: ElasticSearch8
       #Search__Provider: Lucene
        
@@ -193,7 +185,7 @@
       #Search__ElasticAppSearch__PrivateApiKey: elasticappsearch
       Notifications__SendGrid__ApiKey: sendkey
       Notifications__Smtp__Password: smtppasswordyandex
-      Search__ElasticSearch8__Key: elastic-search-8
+      #Search__ElasticSearch8__Key: elastic-search-8
       Payments__AuthorizeNet__TxnKey: authorizenet-txnkey-vs
       Payments__Skyflow__PaymentFormAccount__clientID: skyflow-paymentformaccount-clientid
       Payments__Skyflow__PaymentFormAccount__keyID: skyflow-paymentformaccount-keyid
