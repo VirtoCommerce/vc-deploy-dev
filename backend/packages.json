@@ -234,10 +234,6 @@
           "BlobName": "VirtoCommerce.Store_3.822.0-alpha.740.zip"
         },
         {
-          "Id": "VirtoCommerce.TaskManagement",
-          "BlobName": "VirtoCommerce.TaskManagement_3.903.0-alpha.139.zip"
-        },
-        {
           "Id": "VirtoCommerce.ApplicationInsights",
           "BlobName": "VirtoCommerce.ApplicationInsights_3.806.0-alpha.29.zip"
         },
@@ -316,6 +312,10 @@
         {
           "Id": "VirtoCommerce.Seo",
           "BlobName": "VirtoCommerce.Seo_3.808.0-alpha.46.zip"
+        },
+        {
+          "Id": "VirtoCommerce.TaskManagement",
+          "BlobName": "VirtoCommerce.TaskManagement_3.904.0-alpha.149.zip"
         }
       ]
     }
