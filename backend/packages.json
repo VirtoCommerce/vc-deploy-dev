@@ -34,6 +34,9 @@
         },
         {
           "BlobName": "VirtoCommerce.TaskManagement_3.903.0-pr-23-8ea6.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Catalog_3.893.0-pr-831-bfa0.zip"
         }
       ]
     },
@@ -294,10 +297,6 @@
         {
           "Id": "VirtoCommerce.Xapi",
           "Version": "3.924.0"
-        },
-        {
-          "Id": "VirtoCommerce.Catalog",
-          "Version": "3.891.0"
         },
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
