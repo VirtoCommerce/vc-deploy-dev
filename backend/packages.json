@@ -35,11 +35,15 @@
         },
         {
           "Id": "VirtoCommerce.Catalog",
-          "BlobName": "VirtoCommerce.Catalog_3.893.0-pr-833-96ab.zip"
+          "BlobName": "VirtoCommerce.Catalog_3.893.0-pr-832-315d.zip"
         },
         {
           "Id": "VirtoCommerce.Content",
-          "BlobName": "VirtoCommerce.Content_3.829.0-pr-200-6521.zip"
+          "BlobName": "VirtoCommerce.Content_3.829.0-pr-200-6dd0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XCatalog",
+          "BlobName": "VirtoCommerce.XCatalog_3.938.0-pr-76-95af.zip"
         },
          {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
@@ -324,10 +328,6 @@
         {
           "Id": "VirtoCommerce.XCart",
           "Version": "3.940.0"
-        },
-        {
-          "Id": "VirtoCommerce.XCatalog",
-          "Version": "3.936.0"
         },
         {
           "Id": "VirtoCommerce.XCMS",
