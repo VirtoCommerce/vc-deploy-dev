@@ -11,7 +11,7 @@
       Serilog__Using__0: Serilog.Sinks.Console
       Serilog__MinimumLevel__Default: "Information"
       Serilog__WriteTo__0: Console
-      #APPINSIGHTS_INSTRUMENTATIONKEY: eb2fbd36-8ffa-4e9d-bf64-5ec908e7fc74
+      APPINSIGHTS_INSTRUMENTATIONKEY: 85936324-4fc0-4d35-aa2f-164c4800ba3b
       PushNotifications__ForceWebSockets: true
       PushNotifications__ScalabilityMode: RedisBackplane
       PushNotifications__HubUrl: https://vcptcore-dev.govirto.com/pushNotificationHub?api_key=458ab7f7-df17-4aed-9f21-092f8b611efa
