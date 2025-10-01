@@ -306,16 +306,16 @@
           "BlobName": "VirtoCommerce.XCart_3.942.0-alpha.157.zip"
         },
         {
-          "Id": "VirtoCommerce.ElasticSearch8",
-          "BlobName": "VirtoCommerce.ElasticSearch8_3.821.0-alpha.131.zip"
-        },
-        {
           "Id": "VirtoCommerce.Seo",
           "BlobName": "VirtoCommerce.Seo_3.808.0-alpha.46.zip"
         },
         {
           "Id": "VirtoCommerce.TaskManagement",
           "BlobName": "VirtoCommerce.TaskManagement_3.904.0-alpha.149.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ElasticSearch8",
+          "BlobName": "VirtoCommerce.ElasticSearch8_3.821.0-alpha.132.zip"
         }
       ]
     }
