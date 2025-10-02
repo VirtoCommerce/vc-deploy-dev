@@ -19,6 +19,9 @@
         },
         {
           "BlobName": "VirtoCommerce.Notifications_3.824.0-pr-180-b326.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Catalog_3.894.0-pr-836-408c.zip"
         }
       ]
     },
@@ -287,10 +290,6 @@
         {
           "Id": "VirtoCommerce.Pricing",
           "Version": "3.820.0"
-        },
-        {
-          "Id": "VirtoCommerce.Catalog",
-          "Version": "3.892.0"
         },
         {
           "Id": "VirtoCommerce.Orders",
