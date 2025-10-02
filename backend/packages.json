@@ -15,10 +15,16 @@
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
         {
-          "BlobName": "VirtoCommerce.PageBuilderModule_3.823.0-pr-83-e39a.zip"
+          "BlobName": "VirtoCommerce.PageBuilderModule_3.826.0-pr-87-bdcf.zip"
         },
         {
           "BlobName": "VirtoCommerce.Notifications_3.824.0-pr-180-b326.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Content_3.829.0-pr-201-e5a4.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.CatalogCsvImportModule_3.813.0-pr-125-43a8.zip"
         },
         {
           "BlobName": "VirtoCommerce.Catalog_3.894.0-pr-836-408c.zip"
@@ -114,10 +120,6 @@
         {
           "Id": "VirtoCommerce.BulkActionsModule",
           "Version": "3.804.0"
-        },
-        {
-          "Id": "VirtoCommerce.Content",
-          "Version": "3.828.0"
         },
         {
           "Id": "VirtoCommerce.Export",
@@ -283,10 +285,6 @@
           "Id": "VirtoCommerce.Assets",
           "Version": "3.813.0"
         }, 
-        {
-          "Id": "VirtoCommerce.CatalogCsvImportModule",
-          "Version": "3.812.0"
-        },
         {
           "Id": "VirtoCommerce.Pricing",
           "Version": "3.820.0"
