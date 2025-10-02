@@ -28,7 +28,10 @@
         },
         {
           "BlobName": "VirtoCommerce.Customer_3.839.0-pr-280-0249.zip"
-        } 
+        },
+        {
+          "BlobName": "VirtoCommerce.AzureSearch_3.807.0-pr-49-990e.zip"
+        }
       ]
     },
     {
@@ -68,10 +71,6 @@
         {
           "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
           "Version": "4.803.0"
-        },
-        {
-          "Id": "VirtoCommerce.AzureSearch",
-          "Version": "3.806.0"
         },
         {
           "Id": "VirtoCommerce.NativePaymentMethods",
