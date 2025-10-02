@@ -310,12 +310,12 @@
           "BlobName": "VirtoCommerce.CatalogCsvImportModule_3.814.0-alpha.350.zip"
         },
         {
-          "Id": "VirtoCommerce.Catalog",
-          "BlobName": "VirtoCommerce.Catalog_3.896.0-alpha.2408.zip"
-        },
-        {
           "Id": "VirtoCommerce.AzureSearch",
           "BlobName": "VirtoCommerce.AzureSearch_3.808.0-alpha.256.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "BlobName": "VirtoCommerce.Catalog_3.897.0-alpha.2409.zip"
         }
       ]
     }
