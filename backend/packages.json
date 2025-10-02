@@ -1,8 +1,8 @@
 { 
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.908.0-pr-2943-69dc-vcst-3636-69dc3b98", 
+  "PlatformVersion": "3.908.0-pr-2942-c164-vcst-3737-c164e26f", 
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.908.0-pr-2943-69dc-vcst-3636-69dc3b98",
+  "PlatformImageTag": "3.908.0-pr-2942-c164-vcst-3737-c164e26f",
   "PlatformAssetUrl": "",  
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -25,7 +25,10 @@
         },
         { 
           "BlobName": "VirtoCommerce.Loyalty_3.800.0-pr-5-c684.zip"
-        }
+        },
+        {
+          "BlobName": "VirtoCommerce.Customer_3.839.0-pr-280-0249.zip"
+        } 
       ]
     },
     {
@@ -301,10 +304,6 @@
         {
           "Id": "VirtoCommerce.Orders",
           "Version": "3.859.0"
-        },
-        {
-          "Id": "VirtoCommerce.Customer",
-          "Version": "3.838.0"
         },
         {
           "Id": "VirtoCommerce.Cart",
