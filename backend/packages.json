@@ -1,8 +1,8 @@
 {
 "ManifestVersion": "2.0",
-  "PlatformVersion": "3.908.0",
+  "PlatformVersion": "3.909.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.908.0",
+  "PlatformImageTag": "3.909.0",
   "PlatformAssetUrl": "",
 
   "ModuleSources": [
@@ -16,19 +16,7 @@
       "Modules": [
         {
           "BlobName": "VirtoCommerce.PageBuilderModule_3.826.0-pr-87-bdcf.zip"
-        },   
-        {
-          "BlobName": "VirtoCommerce.XCart_3.942.0-pr-84-1408.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.XCatalog_3.939.0-pr-74-3469.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.XPickup_3.800.0-pr-1-8be6.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.Inventory_3.812.0-alpha.487-vcst-3984-multi-product-search.zip"
-        }        
+        }
       ]
     },
     {
@@ -37,7 +25,7 @@
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
       "Modules": [
-        {
+            {
           "Id": "VirtoCommerce.FileSystemAssets",
           "Version": "3.805.0"
         },
@@ -282,13 +270,13 @@
           "Version": "3.859.0"
         },
         {
-          "Id": "VirtoCommerce.Customer",
-          "Version": "3.838.0"
-        },
-        {
           "Id": "VirtoCommerce.Cart",
           "Version": "3.835.0"
-        }, 
+        },
+        {
+          "Id": "VirtoCommerce.XCart",
+          "Version": "3.941.0"
+        },
         {
           "Id": "VirtoCommerce.TaskManagement",
           "Version": "3.903.0"
@@ -304,7 +292,11 @@
         {
           "Id": "VirtoCommerce.Content",
           "Version": "3.829.0"
-        },  
+        },
+        {
+          "Id": "VirtoCommerce.XCatalog",
+          "Version": "3.938.0"
+        },
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
           "Version": "3.813.0"
@@ -314,8 +306,16 @@
           "Version": "3.807.0"
         },
         {
+          "Id": "VirtoCommerce.Inventory",
+          "Version": "3.812.0"
+        },
+        {
           "Id": "VirtoCommerce.Catalog",
-          "Version": "3.896.0"
+          "Version": "3.897.0"
+        },
+        {
+          "Id": "VirtoCommerce.Customer",
+          "Version": "3.839.0"
         }
       ]
     }
