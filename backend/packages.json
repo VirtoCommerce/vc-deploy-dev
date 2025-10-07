@@ -25,6 +25,9 @@
         },
         { 
           "BlobName": "VirtoCommerce.Loyalty_3.800.0-pr-5-c684.zip"
+        }, 
+        {
+          "BlobName": "VirtoCommerce.Orders_3.860.0-pr-470-1475.zip"
         }
       ]
     },
@@ -273,10 +276,6 @@
         {
           "Id": "VirtoCommerce.Pricing",
           "Version": "3.820.0"
-        },
-        {
-          "Id": "VirtoCommerce.Orders",
-          "Version": "3.859.0"
         },
         {
           "Id": "VirtoCommerce.Cart",
