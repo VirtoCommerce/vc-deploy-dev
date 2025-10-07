@@ -1,8 +1,8 @@
 { 
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.909.0-pr-2942-adea-vcst-3737-adea4269", 
+  "PlatformVersion": "3.909.0", 
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.909.0-pr-2942-adea-vcst-3737-adea4269",
+  "PlatformImageTag": "3.909.0",
   "PlatformAssetUrl": "",  
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -25,15 +25,6 @@
         },
         { 
           "BlobName": "VirtoCommerce.Loyalty_3.800.0-pr-5-c684.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.Customer_3.839.0-pr-280-0249.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.AzureSearch_3.807.0-pr-49-990e.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.Catalog_3.897.0-pr-837-84f5.zip"
         }
       ]
     },
@@ -124,20 +115,12 @@
           "Version": "3.804.0"
         },
         {
-          "Id": "VirtoCommerce.Content",
-          "Version": "3.828.0"
-        },
-        {
           "Id": "VirtoCommerce.Export",
           "Version": "3.806.0"
         },
         {
           "Id": "VirtoCommerce.GDPR",
           "Version": "3.806.0"
-        },
-        {
-          "Id": "VirtoCommerce.Inventory",
-          "Version": "3.811.0"
         },
         {
           "Id": "VirtoCommerce.Payment",
@@ -284,20 +267,8 @@
           "Version": "3.819.0"
         },
         {
-          "Id": "VirtoCommerce.XCatalog",
-          "Version": "3.937.0"
-        },
-        {
           "Id": "VirtoCommerce.Assets",
           "Version": "3.813.0"
-        },
-        {
-          "Id": "VirtoCommerce.Notifications",
-          "Version": "3.823.0"
-        },
-        {
-          "Id": "VirtoCommerce.CatalogCsvImportModule",
-          "Version": "3.812.0"
         },
         {
           "Id": "VirtoCommerce.Pricing",
@@ -322,6 +293,38 @@
         {
           "Id": "VirtoCommerce.ElasticSearch8",
           "Version": "3.821.0"
+        },
+        {
+          "Id": "VirtoCommerce.Notifications",
+          "Version": "3.824.0"
+        },
+        {
+          "Id": "VirtoCommerce.Content",
+          "Version": "3.829.0"
+        },
+        {
+          "Id": "VirtoCommerce.XCatalog",
+          "Version": "3.938.0"
+        },
+        {
+          "Id": "VirtoCommerce.CatalogCsvImportModule",
+          "Version": "3.813.0"
+        },
+        {
+          "Id": "VirtoCommerce.AzureSearch",
+          "Version": "3.807.0"
+        },
+        {
+          "Id": "VirtoCommerce.Inventory",
+          "Version": "3.812.0"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "Version": "3.897.0"
+        },
+        {
+          "Id": "VirtoCommerce.Customer",
+          "Version": "3.839.0"
         }
       ]
     }
