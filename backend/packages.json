@@ -256,10 +256,6 @@
           "Version": "3.941.0"
         },
         {
-          "Id": "VirtoCommerce.TaskManagement",
-          "Version": "3.903.0"
-        },
-        {
           "Id": "VirtoCommerce.ElasticSearch8",
           "Version": "3.821.0"
         },
@@ -302,6 +298,10 @@
         {
           "Id": "VirtoCommerce.Customer",
           "Version": "3.840.0"
+        },
+        {
+          "Id": "VirtoCommerce.TaskManagement",
+          "Version": "3.904.0"
         }
       ]
     },
