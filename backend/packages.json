@@ -292,16 +292,16 @@
           "Version": "3.897.0"
         },
         {
-          "Id": "VirtoCommerce.Customer",
-          "Version": "3.839.0"
-        },
-        {
           "Id": "VirtoCommerce.Seo",
           "Version": "3.808.0"
         },
         {
           "Id": "VirtoCommerce.Orders",
           "Version": "3.860.0"
+        },
+        {
+          "Id": "VirtoCommerce.Customer",
+          "Version": "3.840.0"
         }
       ]
     },
