@@ -31,6 +31,9 @@
         },
         {
           "BlobName": "VirtoCommerce.TaskManagement_3.904.0-pr-24-6ac1.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.News_3.811.0-pr-12-26d4.zip"
         }
       ]
     },
@@ -263,10 +266,6 @@
         {
           "Id": "VirtoCommerce.Xapi",
           "Version": "3.924.0"
-        },
-        {
-          "Id": "VirtoCommerce.News",
-          "Version": "3.810.0"
         },
         {
           "Id": "VirtoCommerce.Sitemaps",
