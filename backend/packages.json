@@ -274,10 +274,6 @@
           "BlobName": "VirtoCommerce.XCart_3.942.0-pr-85-e2df.zip"
         },
         {
-          "Id": "VirtoCommerce.Seo",
-          "BlobName": "VirtoCommerce.Seo_3.808.0-alpha.46.zip"
-        },
-        {
           "Id": "VirtoCommerce.TaskManagement",
           "BlobName": "VirtoCommerce.TaskManagement_3.904.0-alpha.149.zip"
         },
@@ -316,6 +312,10 @@
         {
           "Id": "VirtoCommerce.Customer",
           "BlobName": "VirtoCommerce.Customer_3.840.0-alpha.909.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Seo",
+          "BlobName": "VirtoCommerce.Seo_3.808.0-alpha.47.zip"
         }
       ]
     }
