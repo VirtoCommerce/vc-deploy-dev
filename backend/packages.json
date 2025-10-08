@@ -28,6 +28,9 @@
         }, 
         {
           "BlobName": "VirtoCommerce.Orders_3.860.0-pr-469-ff5c.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.TaskManagement_3.904.0-pr-24-6ac1.zip"
         }
       ]
     },
@@ -284,10 +287,6 @@
         {
           "Id": "VirtoCommerce.XCart",
           "Version": "3.941.0"
-        },
-        {
-          "Id": "VirtoCommerce.TaskManagement",
-          "Version": "3.903.0"
         },
         {
           "Id": "VirtoCommerce.ElasticSearch8",
