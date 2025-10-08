@@ -270,10 +270,6 @@
           "BlobName": "VirtoCommerce.XCart_3.942.0-pr-85-08b7.zip"
         },
         {
-          "Id": "VirtoCommerce.TaskManagement",
-          "BlobName": "VirtoCommerce.TaskManagement_3.904.0-alpha.149.zip"
-        },
-        {
           "Id": "VirtoCommerce.ElasticSearch8",
           "BlobName": "VirtoCommerce.ElasticSearch8_3.822.0-alpha.133.zip"
         },
@@ -316,6 +312,10 @@
         {
           "Id": "VirtoCommerce.Orders",
           "BlobName": "VirtoCommerce.Orders_3.862.0-alpha.1363.zip"
+        },
+        {
+          "Id": "VirtoCommerce.TaskManagement",
+          "BlobName": "VirtoCommerce.TaskManagement_3.904.0-alpha.154.zip"
         }
       ]
     }
