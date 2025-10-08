@@ -232,10 +232,6 @@
           "Version": "3.924.0"
         },
         {
-          "Id": "VirtoCommerce.News",
-          "Version": "3.810.0"
-        },
-        {
           "Id": "VirtoCommerce.Sitemaps",
           "Version": "3.819.0"
         },
@@ -302,6 +298,10 @@
         {
           "Id": "VirtoCommerce.TaskManagement",
           "Version": "3.904.0"
+        },
+        {
+          "Id": "VirtoCommerce.News",
+          "Version": "3.811.0"
         }
       ]
     },
