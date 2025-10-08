@@ -310,12 +310,12 @@
           "BlobName": "VirtoCommerce.Orders_3.862.0-alpha.1363.zip"
         },
         {
-          "Id": "VirtoCommerce.TaskManagement",
-          "BlobName": "VirtoCommerce.TaskManagement_3.904.0-alpha.154.zip"
-        },
-        {
           "Id": "VirtoCommerce.News",
           "BlobName": "VirtoCommerce.News_3.811.0-alpha.32.zip"
+        },
+        {
+          "Id": "VirtoCommerce.TaskManagement",
+          "BlobName": "VirtoCommerce.TaskManagement_3.905.0-alpha.155.zip"
         }
       ]
     }
