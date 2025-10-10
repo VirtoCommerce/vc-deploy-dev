@@ -310,12 +310,12 @@
           "BlobName": "VirtoCommerce.Seo_3.809.0-alpha.49.zip"
         },
         {
-          "Id": "VirtoCommerce.Shipping",
-          "BlobName": "VirtoCommerce.Shipping_3.812.0-alpha.220.zip"
-        },
-        {
           "Id": "VirtoCommerce.Catalog",
           "BlobName": "VirtoCommerce.Catalog_3.899.0-alpha.2413.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Shipping",
+          "BlobName": "VirtoCommerce.Shipping_3.813.0-alpha.221.zip"
         }
       ]
     }
