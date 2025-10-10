@@ -13,10 +13,7 @@
       "Name": "AzureBlob",
       "Container": "packages",
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
-      "Modules": [  
-        {
-          "BlobName": "VirtoCommerce.XPickup_3.800.0-pr-1-7f83.zip"
-        },
+      "Modules": [
         {
           "BlobName": "VirtoCommerce.Shipping_3.812.0-pr-60-c391.zip"
         }
