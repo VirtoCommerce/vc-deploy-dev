@@ -18,7 +18,10 @@
           "BlobName": "VirtoCommerce.PageBuilderModule_3.826.0-pr-87-bdcf.zip"
        },
        {
-          "BlobName": "VirtoCommerce.XCart_3.943.0-pr-87-2193.zip"
+          "BlobName": "VirtoCommerce.XCart_3.944.0-pr-88-345e.zip"
+       },
+       {
+          "BlobName": "VirtoCommerce.Cart_3.836.0-alpha.752-vcst-4044.zip"
        }
       ]
     },
@@ -255,10 +258,6 @@
         {
           "Id": "VirtoCommerce.Pricing",
           "Version": "3.820.0"
-        },
-        {
-          "Id": "VirtoCommerce.Cart",
-          "Version": "3.835.0"
         },
         {
           "Id": "VirtoCommerce.ElasticSearch8",
