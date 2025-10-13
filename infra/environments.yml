@@ -95,9 +95,11 @@
 
       Seo__SeoInfoResolver__0: Pages
       Seo__SeoInfoResolver__1: ContentFile
-      Seo__SeoInfoResolver__2: Catalog
-      Seo__SeoInfoResolver__3: Category
-      Seo__SeoInfoResolver__4: CatalogProduct
+      Seo__SeoInfoResolver__2: Brands
+      Seo__SeoInfoResolver__3: Brand
+      Seo__SeoInfoResolver__4: Catalog
+      Seo__SeoInfoResolver__5: Category
+      Seo__SeoInfoResolver__6: CatalogProduct
 
       ASPNETCORE_ENVIRONMENT: Development
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
