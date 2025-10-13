@@ -298,10 +298,6 @@
           "BlobName": "VirtoCommerce.News_3.812.0-alpha.33.zip"
         },
         {
-          "Id": "VirtoCommerce.XCart",
-          "BlobName": "VirtoCommerce.XCart_3.943.0-pr-85-b1ac.zip"
-        },
-        {
           "Id": "VirtoCommerce.Seo",
           "BlobName": "VirtoCommerce.Seo_3.809.0-alpha.49.zip"
         },
@@ -320,6 +316,10 @@
         {
           "Id": "VirtoCommerce.XCatalog",
           "BlobName": "VirtoCommerce.XCatalog_3.939.0-alpha.147.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XCart",
+          "BlobName": "VirtoCommerce.XCart_3.943.0-alpha.161.zip"
         }
       ]
     }
