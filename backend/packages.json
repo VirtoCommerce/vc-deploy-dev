@@ -262,10 +262,6 @@
           "BlobName": "VirtoCommerce.Content_3.830.0-alpha.1011.zip"
         },
         {
-          "Id": "VirtoCommerce.CatalogCsvImportModule",
-          "BlobName": "VirtoCommerce.CatalogCsvImportModule_3.814.0-alpha.350.zip"
-        },
-        {
           "Id": "VirtoCommerce.AzureSearch",
           "BlobName": "VirtoCommerce.AzureSearch_3.808.0-alpha.256.zip"
         },
@@ -320,6 +316,10 @@
         {
           "Id": "VirtoCommerce.ImageTools",
           "BlobName": "VirtoCommerce.ImageTools_3.811.0-alpha.372.zip"
+        },
+        {
+          "Id": "VirtoCommerce.CatalogCsvImportModule",
+          "BlobName": "VirtoCommerce.CatalogCsvImportModule_3.814.0-alpha.352.zip"
         }
       ]
     }
