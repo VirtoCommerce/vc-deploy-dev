@@ -53,6 +53,10 @@
           "Id": "VirtoCommerce.Seo",
           "BlobName": "VirtoCommerce.Seo_3.809.0-pr-12-1248.zip"
         },
+        {
+          "Id": "VirtoCommerce.XCart",
+          "BlobName": "VirtoCommerce.XCart_3.945.0-pr-89-12c5.zip"
+        },
          {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
           "BlobName": "VirtoCommerce.CatalogCsvImportModule_3.814.0-pr-127-2b1e.zip"
@@ -324,10 +328,6 @@
         {
           "Id": "VirtoCommerce.Xapi",
           "Version": "3.924.0"
-        },
-        {
-          "Id": "VirtoCommerce.XCart",
-          "Version": "3.940.0"
         },
         {
           "Id": "VirtoCommerce.XCMS",
