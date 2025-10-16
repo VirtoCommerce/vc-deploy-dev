@@ -254,10 +254,6 @@
           "BlobName": "VirtoCommerce.AzureSearch_3.808.0-alpha.256.zip"
         },
         {
-          "Id": "VirtoCommerce.Inventory",
-          "BlobName": "VirtoCommerce.Inventory_3.813.0-alpha.487.zip"
-        },
-        {
           "Id": "VirtoCommerce.TaskManagement",
           "BlobName": "VirtoCommerce.TaskManagement_3.905.0-alpha.155.zip"
         },
@@ -320,6 +316,10 @@
         {
           "Id": "VirtoCommerce.Cart",
           "BlobName": "VirtoCommerce.Cart_3.837.0-alpha.754.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Inventory",
+          "BlobName": "VirtoCommerce.Inventory_3.813.0-alpha.489.zip"
         }
       ]
     }
