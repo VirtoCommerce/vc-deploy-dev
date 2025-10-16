@@ -34,6 +34,10 @@
           "BlobName": "VirtoCommerce.AIDocumentProcessing_3.901.0-pr-6-5f80.zip"
         },
         {
+          "Id": "VirtoCommerce.Orders",
+          "BlobName": "VirtoCommerce.Orders_3.862.0-pr-471-e735.zip"
+        },
+        {
           "Id": "VirtoCommerce.XCart",
           "BlobName": "VirtoCommerce.XCart_3.945.0-pr-89-12c5.zip"
         }
@@ -288,10 +292,6 @@
         {
           "Id": "VirtoCommerce.Seo",
           "Version": "3.808.0"
-        },
-        {
-          "Id": "VirtoCommerce.Orders",
-          "Version": "3.860.0"
         },
         {
           "Id": "VirtoCommerce.Customer",
