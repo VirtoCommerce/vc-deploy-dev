@@ -28,7 +28,10 @@
        },
        {
           "BlobName": "VirtoCommerce.Customer_3.841.0-pr-281-3ad0.zip"
-       }
+       },
+       {
+          "BlobName": "VirtoCommerce.CatalogCsvImportModule_3.816.0-pr-128-f6e9.zip"
+       }        
       ]
     },
     {
@@ -296,10 +299,6 @@
         {
           "Id": "VirtoCommerce.ImageTools",
           "Version": "3.811.0"
-        },
-        {
-          "Id": "VirtoCommerce.CatalogCsvImportModule",
-          "Version": "3.815.0"
         },
         {
           "Id": "VirtoCommerce.CatalogPublishing",
