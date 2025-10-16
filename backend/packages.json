@@ -1,8 +1,8 @@
 {
 "ManifestVersion": "2.0",
-  "PlatformVersion": "3.909.0",
+  "PlatformVersion": "3.910.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.909.0",
+  "PlatformImageTag": "3.910.0",
   "PlatformAssetUrl": "",
 
   "ModuleSources": [
@@ -18,11 +18,20 @@
           "BlobName": "VirtoCommerce.PageBuilderModule_3.828.0-alpha.745-dev.zip"
        },
        {
-          "BlobName": "VirtoCommerce.XCart_3.944.0-pr-88-345e.zip"
+          "BlobName": "VirtoCommerce.Inventory_3.813.0-pr-155-4ecd.zip"
        },
        {
-          "BlobName": "VirtoCommerce.Cart_3.836.0-alpha.752-vcst-4044.zip"
-       }
+          "BlobName": "VirtoCommerce.Cart_3.837.0-pr-178-8871.zip"
+       },
+       {
+          "BlobName": "VirtoCommerce.XCart_3.945.0-pr-85-99db.zip"
+       },
+       {
+          "BlobName": "VirtoCommerce.Customer_3.841.0-pr-281-3ad0.zip"
+       },
+       {
+          "BlobName": "VirtoCommerce.CatalogCsvImportModule_3.816.0-pr-128-f6e9.zip"
+       }        
       ]
     },
     {
@@ -31,7 +40,7 @@
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
       "Modules": [
-        {
+     {
           "Id": "VirtoCommerce.FileSystemAssets",
           "Version": "3.805.0"
         },
@@ -100,10 +109,6 @@
           "Version": "3.805.0"
         },
         {
-          "Id": "VirtoCommerce.ImageTools",
-          "Version": "3.810.0"
-        },
-        {
           "Id": "VirtoCommerce.BackInStock",
           "Version": "3.803.0"
         },
@@ -112,20 +117,12 @@
           "Version": "3.804.0"
         },
         {
-          "Id": "VirtoCommerce.Export",
-          "Version": "3.806.0"
-        },
-        {
           "Id": "VirtoCommerce.GDPR",
           "Version": "3.806.0"
         },
         {
           "Id": "VirtoCommerce.Payment",
           "Version": "3.810.0"
-        },
-        {
-          "Id": "VirtoCommerce.CatalogPublishing",
-          "Version": "3.807.0"
         },
         {
           "Id": "VirtoCommerce.Core",
@@ -194,10 +191,6 @@
         {
           "Id": "VirtoCommerce.XOrder",
           "Version": "3.913.0"
-        },
-        {
-          "Id": "VirtoCommerce.Marketing",
-          "Version": "3.820.0"
         },
         {
           "Id": "VirtoCommerce.AzureBlobAssets",
@@ -272,20 +265,8 @@
           "Version": "3.829.0"
         },
         {
-          "Id": "VirtoCommerce.XCatalog",
-          "Version": "3.938.0"
-        },
-        {
-          "Id": "VirtoCommerce.CatalogCsvImportModule",
-          "Version": "3.813.0"
-        },
-        {
           "Id": "VirtoCommerce.AzureSearch",
           "Version": "3.807.0"
-        },
-        {
-          "Id": "VirtoCommerce.Inventory",
-          "Version": "3.812.0"
         },
         {
           "Id": "VirtoCommerce.Seo",
@@ -294,11 +275,7 @@
         {
           "Id": "VirtoCommerce.Orders",
           "Version": "3.860.0"
-        },
-        {
-          "Id": "VirtoCommerce.Customer",
-          "Version": "3.840.0"
-        },
+        }, 
         {
           "Id": "VirtoCommerce.TaskManagement",
           "Version": "3.904.0"
@@ -318,6 +295,26 @@
         {
           "Id": "VirtoCommerce.XPickup",
           "Version": "3.800.0"
+        },
+        {
+          "Id": "VirtoCommerce.ImageTools",
+          "Version": "3.811.0"
+        },
+        {
+          "Id": "VirtoCommerce.CatalogPublishing",
+          "Version": "3.808.0"
+        },
+        {
+          "Id": "VirtoCommerce.Export",
+          "Version": "3.807.0"
+        },
+        {
+          "Id": "VirtoCommerce.Marketing",
+          "Version": "3.821.0"
+        },
+        {
+          "Id": "VirtoCommerce.XCatalog",
+          "Version": "3.940.0"
         },
         {
           "Id": "VirtoCommerce.Loyalty",
