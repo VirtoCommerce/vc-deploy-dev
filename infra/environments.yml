@@ -304,7 +304,11 @@
 
       # CyberSource
       Payments__CyberSource__ValidateSignatureRetryCount: 5
-
+ 
+      # Datatrans
+      Payments__Datatrans__MerchantId: 1110020617
+      Payments__Datatrans__Secret: eVZ5bq237EUzbpOF
+      
       # Shippment
       Shipping__IsPickupEnabled: true
 
