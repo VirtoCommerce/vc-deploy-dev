@@ -296,16 +296,16 @@
           "Version": "3.837.0"
         },
         {
-          "Id": "VirtoCommerce.XCart",
-          "Version": "3.945.0"
-        },
-        {
           "Id": "VirtoCommerce.Inventory",
           "Version": "3.813.0"
         },
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
           "Version": "3.816.0"
+        },
+        {
+          "Id": "VirtoCommerce.XCart",
+          "Version": "3.946.0"
         }
       ]
     },
