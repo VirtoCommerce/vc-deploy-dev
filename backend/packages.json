@@ -46,6 +46,10 @@
           "BlobName": "VirtoCommerce.XCatalog_3.941.0-pr-79-4396.zip"
         },
         {
+          "Id": "VirtoCommerce.Notifications",
+          "BlobName": "VirtoCommerce.Notifications_3.825.0-pr-181-7e8c.zip"
+        },
+        {
           "Id": "VirtoCommerce.XCart",
           "BlobName": "VirtoCommerce.XCart_3.945.0-pr-89-12c5.zip"
         }
@@ -280,10 +284,6 @@
         {
           "Id": "VirtoCommerce.ElasticSearch8",
           "Version": "3.821.0"
-        },
-        {
-          "Id": "VirtoCommerce.Notifications",
-          "Version": "3.824.0"
         },
         {
           "Id": "VirtoCommerce.Content",
