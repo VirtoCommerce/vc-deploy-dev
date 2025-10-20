@@ -314,12 +314,12 @@
           "BlobName": "VirtoCommerce.XCart_3.947.0-alpha.168.zip"
         },
         {
-          "Id": "VirtoCommerce.CustomerExportImport",
-          "BlobName": "VirtoCommerce.CustomerExportImport_3.813.0-alpha.193.zip"
-        },
-        {
           "Id": "VirtoCommerce.Customer",
           "BlobName": "VirtoCommerce.Customer_3.843.0-alpha.917.zip"
+        },
+        {
+          "Id": "VirtoCommerce.CustomerExportImport",
+          "BlobName": "VirtoCommerce.CustomerExportImport_3.814.0-alpha.194.zip"
         }
       ]
     }
