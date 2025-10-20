@@ -250,10 +250,6 @@
           "BlobName": "VirtoCommerce.TaskManagement_3.905.0-alpha.155.zip"
         },
         {
-          "Id": "VirtoCommerce.News",
-          "BlobName": "VirtoCommerce.News_3.812.0-alpha.33.zip"
-        },
-        {
           "Id": "VirtoCommerce.Shipping",
           "BlobName": "VirtoCommerce.Shipping_3.813.0-alpha.221.zip"
         },
@@ -320,6 +316,10 @@
         {
           "Id": "VirtoCommerce.Cart",
           "BlobName": "VirtoCommerce.Cart_3.838.0-alpha.757.zip"
+        },
+        {
+          "Id": "VirtoCommerce.News",
+          "BlobName": "VirtoCommerce.News_3.812.0-alpha.35.zip"
         }
       ]
     }
