@@ -1,8 +1,8 @@
 {
 "ManifestVersion": "2.0",
-  "PlatformVersion": "3.910.0",
+  "PlatformVersion": "3.912.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.910.0",
+  "PlatformImageTag": "3.912.0",
   "PlatformAssetUrl": "",
 
   "ModuleSources": [
@@ -112,10 +112,6 @@
         {
           "Id": "VirtoCommerce.Core",
           "Version": "3.822.0"
-        },
-        {
-          "Id": "VirtoCommerce.CustomerExportImport",
-          "Version": "3.812.0"
         },
         {
           "Id": "VirtoCommerce.AvalaraTax",
@@ -302,24 +298,28 @@
           "Version": "3.862.0"
         },
         {
-          "Id": "VirtoCommerce.Customer",
-          "Version": "3.841.0"
-        },
-        {
-          "Id": "VirtoCommerce.Cart",
-          "Version": "3.837.0"
-        },
-        {
-          "Id": "VirtoCommerce.XCart",
-          "Version": "3.945.0"
-        },
-        {
           "Id": "VirtoCommerce.Inventory",
           "Version": "3.813.0"
         },
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
           "Version": "3.816.0"
+        },
+        {
+          "Id": "VirtoCommerce.XCart",
+          "Version": "3.946.0"
+        },
+        {
+          "Id": "VirtoCommerce.CustomerExportImport",
+          "Version": "3.813.0"
+        },
+        {
+          "Id": "VirtoCommerce.Customer",
+          "Version": "3.842.0"
+        },
+        {
+          "Id": "VirtoCommerce.Cart",
+          "Version": "3.838.0"
         },
         {
           "Id": "VirtoCommerce.Loyalty",
