@@ -282,10 +282,6 @@
           "BlobName": "VirtoCommerce.Marketing_3.822.0-alpha.893.zip"
         },
         {
-          "Id": "VirtoCommerce.XCatalog",
-          "BlobName": "VirtoCommerce.XCatalog_3.941.0-alpha.151.zip"
-        },
-        {
           "Id": "VirtoCommerce.Seo",
           "BlobName": "VirtoCommerce.Seo_3.810.0-alpha.52.zip"
         },
@@ -320,6 +316,10 @@
         {
           "Id": "VirtoCommerce.CustomerExportImport",
           "BlobName": "VirtoCommerce.CustomerExportImport_3.814.0-alpha.194.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XCatalog",
+          "BlobName": "VirtoCommerce.XCatalog_3.941.0-alpha.152.zip"
         }
       ]
     }
