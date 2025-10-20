@@ -199,7 +199,7 @@
   storefront:
     enabled: false
     themes:
-      B2B-store: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-2.33.0-alpha.2054.zip
+      B2B-store: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-2.33.0-pr-2010-d503-d503a093.zip
     headers:
         Cross-Origin-Embedder-Policy: unsafe-none
         Cross-Origin-Resource-Policy: cross-origin
