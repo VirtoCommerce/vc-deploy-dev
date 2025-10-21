@@ -268,10 +268,6 @@
           "Version": "3.946.0"
         },
         {
-          "Id": "VirtoCommerce.CustomerExportImport",
-          "Version": "3.813.0"
-        },
-        {
           "Id": "VirtoCommerce.Customer",
           "Version": "3.842.0"
         },
@@ -306,6 +302,10 @@
         {
           "Id": "VirtoCommerce.EventBus",
           "Version": "3.808.0"
+        },
+        {
+          "Id": "VirtoCommerce.CustomerExportImport",
+          "Version": "3.814.0"
         }
       ]
     },
