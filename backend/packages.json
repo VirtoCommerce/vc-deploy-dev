@@ -232,10 +232,6 @@
           "Version": "3.821.0"
         },
         {
-          "Id": "VirtoCommerce.XCatalog",
-          "Version": "3.940.0"
-        },
-        {
           "Id": "VirtoCommerce.Seo",
           "Version": "3.809.0"
         },
@@ -306,6 +302,10 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "Version": "3.902.0"
+        },
+        {
+          "Id": "VirtoCommerce.XCatalog",
+          "Version": "3.941.0"
         }
       ]
     },
