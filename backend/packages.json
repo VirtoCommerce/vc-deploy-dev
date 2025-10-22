@@ -13,7 +13,7 @@
       "Container": "packages",
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
-         {
+        {
           "Id": "VirtoCommerce.PageBuilderModule",
           "BlobName": "VirtoCommerce.PageBuilderModule_3.828.0-pr-88-561a.zip"
         },
@@ -36,6 +36,10 @@
         {
           "Id": "VirtoCommerce.Datatrans",
           "BlobName": "VirtoCommerce.Datatrans_3.800.0-pr-24-840d.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Pricing",
+          "BlobName": "VirtoCommerce.Pricing_3.821.0.zip"
         }
       ]
     },
@@ -43,13 +47,13 @@
       "Name": "GithubReleases",
       "ModuleSources": [
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
-                       ],
-      "Modules": [ 
-         {
-           "Id": "VirtoCommerce.SeqLog",
-           "Version": "3.800.0"
-         },
-         {
+      ],
+      "Modules": [
+        {
+          "Id": "VirtoCommerce.SeqLog",
+          "Version": "3.800.0"
+        },
+        {
           "Id": "VirtoCommerce.FileSystemAssets",
           "Version": "3.805.0"
         },
@@ -238,10 +242,6 @@
           "Version": "3.813.0"
         },
         {
-          "Id": "VirtoCommerce.Pricing",
-          "Version": "3.820.0"
-        },
-        {
           "Id": "VirtoCommerce.ElasticSearch8",
           "Version": "3.821.0"
         },
@@ -348,9 +348,8 @@
         {
           "Id": "VirtoCommerce.Loyalty",
           "Version": "3.800.0"
-        } 
+        }
       ]
     }
   ]
 }
-
