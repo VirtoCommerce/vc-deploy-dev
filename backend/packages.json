@@ -126,10 +126,6 @@
           "BlobName": "VirtoCommerce.CustomerReviews_3.905.0-alpha.246.zip"
         },
         {
-          "Id": "VirtoCommerce.DynamicAssociationsModule",
-          "BlobName": "VirtoCommerce.DynamicAssociationsModule_3.809.0-alpha.169.zip"
-        },
-        {
           "Id": "VirtoCommerce.AvalaraTax",
           "BlobName": "VirtoCommerce.AvalaraTax_3.805.0-alpha.322.zip"
         },
@@ -320,6 +316,10 @@
         {
           "Id": "VirtoCommerce.Pricing",
           "BlobName": "VirtoCommerce.Pricing_3.822.0-alpha.776.zip"
+        },
+        {
+          "Id": "VirtoCommerce.DynamicAssociationsModule",
+          "BlobName": "VirtoCommerce.DynamicAssociationsModule_3.810.0-alpha.176.zip"
         }
       ]
     }
