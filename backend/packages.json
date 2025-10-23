@@ -13,7 +13,7 @@
       "Container": "packages",
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
-         {
+        {
           "Id": "VirtoCommerce.PageBuilderModule",
           "BlobName": "VirtoCommerce.PageBuilderModule_3.828.0-pr-88-561a.zip"
         },
@@ -36,6 +36,10 @@
         {
           "Id": "VirtoCommerce.Datatrans",
           "BlobName": "VirtoCommerce.Datatrans_3.800.0-pr-24-840d.zip"
+        },
+        {
+          "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
+          "BlobName": "VirtoCommerce.GoogleEcommerceAnalytics_4.804.0.zip"
         }
       ]
     },
@@ -43,13 +47,13 @@
       "Name": "GithubReleases",
       "ModuleSources": [
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
-                       ],
-      "Modules": [ 
-         {
-           "Id": "VirtoCommerce.SeqLog",
-           "Version": "3.800.0"
-         },
-         {
+      ],
+      "Modules": [
+        {
+          "Id": "VirtoCommerce.SeqLog",
+          "Version": "3.800.0"
+        },
+        {
           "Id": "VirtoCommerce.FileSystemAssets",
           "Version": "3.805.0"
         },
@@ -72,10 +76,6 @@
         {
           "Id": "VirtoCommerce.BuilderIO",
           "Version": "3.805.0"
-        },
-        {
-          "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
-          "Version": "4.803.0"
         },
         {
           "Id": "VirtoCommerce.NativePaymentMethods",
@@ -348,9 +348,8 @@
         {
           "Id": "VirtoCommerce.Loyalty",
           "Version": "3.800.0"
-        } 
+        }
       ]
     }
   ]
 }
-
