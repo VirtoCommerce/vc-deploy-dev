@@ -262,10 +262,6 @@
           "BlobName": "VirtoCommerce.Quote_3.911.0-alpha.473.zip"
         },
         {
-          "Id": "VirtoCommerce.Pricing",
-          "BlobName": "VirtoCommerce.Pricing_3.822.0-alpha.776.zip"
-        },
-        {
           "Id": "VirtoCommerce.DynamicAssociationsModule",
           "BlobName": "VirtoCommerce.DynamicAssociationsModule_3.811.0-alpha.177.zip"
         },
@@ -320,6 +316,10 @@
         {
           "Id": "VirtoCommerce.Return",
           "BlobName": "VirtoCommerce.Return_3.812.0-alpha.123.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Pricing",
+          "BlobName": "VirtoCommerce.Pricing_3.822.0-alpha.777.zip"
         }
       ]
     }
