@@ -180,10 +180,6 @@
           "Version": "3.904.0"
         },
         {
-          "Id": "VirtoCommerce.Shipping",
-          "Version": "3.812.0"
-        },
-        {
           "Id": "VirtoCommerce.XPickup",
           "Version": "3.800.0"
         },
@@ -306,6 +302,10 @@
         {
           "Id": "VirtoCommerce.CustomerReviews",
           "Version": "3.905.0"
+        },
+        {
+          "Id": "VirtoCommerce.Shipping",
+          "Version": "3.813.0"
         }
       ]
     },
