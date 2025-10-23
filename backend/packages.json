@@ -100,10 +100,6 @@
           "Version": "3.805.0"
         },
         {
-          "Id": "VirtoCommerce.OrderManagement",
-          "Version": "3.806.0"
-        },
-        {
           "Id": "VirtoCommerce.Return",
           "Version": "3.808.0"
         },
@@ -306,6 +302,10 @@
         {
           "Id": "VirtoCommerce.BackInStock",
           "Version": "3.804.0"
+        },
+        {
+          "Id": "VirtoCommerce.OrderManagement",
+          "Version": "3.807.0"
         }
       ]
     },
