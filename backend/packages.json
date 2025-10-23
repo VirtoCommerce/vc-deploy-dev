@@ -306,10 +306,6 @@
           "BlobName": "VirtoCommerce.GoogleEcommerceAnalytics_4.804.0-alpha.203.zip"
         },
         {
-          "Id": "VirtoCommerce.CustomerReviews",
-          "BlobName": "VirtoCommerce.CustomerReviews_3.905.0-alpha.251.zip"
-        },
-        {
           "Id": "VirtoCommerce.Shipping",
           "BlobName": "VirtoCommerce.Shipping_3.813.0-alpha.223.zip"
         },
@@ -320,6 +316,10 @@
         {
           "Id": "VirtoCommerce.Return",
           "BlobName": "VirtoCommerce.Return_3.811.0-alpha.122.zip"
+        },
+        {
+          "Id": "VirtoCommerce.CustomerReviews",
+          "BlobName": "VirtoCommerce.CustomerReviews_3.906.0-alpha.252.zip"
         }
       ]
     }
