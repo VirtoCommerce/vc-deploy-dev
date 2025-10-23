@@ -76,10 +76,6 @@
           "Version": "3.805.0"
         },
         {
-          "Id": "VirtoCommerce.BackInStock",
-          "Version": "3.803.0"
-        },
-        {
           "Id": "VirtoCommerce.BulkActionsModule",
           "Version": "3.804.0"
         },
@@ -306,6 +302,10 @@
         {
           "Id": "VirtoCommerce.Contracts",
           "Version": "3.905.0"
+        },
+        {
+          "Id": "VirtoCommerce.BackInStock",
+          "Version": "3.804.0"
         }
       ]
     },
