@@ -16,7 +16,10 @@
       "Modules": [
        {
           "BlobName": "VirtoCommerce.PageBuilderModule_3.828.0-alpha.745-dev.zip"
-       } 
+       },
+        {
+          "BlobName": "VirtoCommerce.Marketing_3.823.0-pr-250-e219.zip"
+        }
       ]
     },
     {
@@ -252,10 +255,6 @@
         {
           "Id": "VirtoCommerce.Export",
           "Version": "3.807.0"
-        },
-        {
-          "Id": "VirtoCommerce.Marketing",
-          "Version": "3.821.0"
         },
         {
           "Id": "VirtoCommerce.XCatalog",
