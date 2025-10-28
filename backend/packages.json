@@ -23,7 +23,10 @@
           "BlobName": "VirtoCommerce.XCart_3.942.0-pr-85-08b7.zip"
         },
         {
-          "BlobName": "VirtoCommerce.XFrontend_3.800.0-pr-1-ba14.zip"
+          "BlobName": "VirtoCommerce.Xapi_3.925.0-alpha.124-vcst-4174.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.XFrontend_3.800.0-pr-1-9635.zip"
         }
       ]
     },
@@ -304,10 +307,6 @@
         {
           "Id": "VirtoCommerce.News",
           "Version": "3.809.0"
-        },
-        {
-          "Id": "VirtoCommerce.Xapi",
-          "Version": "3.924.0"
         },
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
