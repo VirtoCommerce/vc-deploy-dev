@@ -1,8 +1,8 @@
 {
 "ManifestVersion": "2.0",
-  "PlatformVersion": "3.913.0-pr-2950-bcd8-vcst-4161-grid-auto-width-bcd84240",
+  "PlatformVersion": "3.913.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.913.0-pr-2950-bcd8-vcst-4161-grid-auto-width-bcd84240",
+  "PlatformImageTag": "3.913.0",
   "PlatformAssetUrl": "",
 
   "ModuleSources": [
@@ -17,9 +17,18 @@
        {
           "BlobName": "VirtoCommerce.PageBuilderModule_3.828.0-alpha.745-dev.zip"
        },
-        {
-          "BlobName": "VirtoCommerce.Marketing_3.823.0-pr-250-e219.zip"
-        }
+       {
+          "BlobName": "VirtoCommerce.Search_3.818.0-pr-123-9ac1.zip"
+       },
+       {
+          "BlobName": "VirtoCommerce.Shipping_3.814.0-alpha.247-vcst-3865-pickup-locations-index.zip"
+       },
+       {
+          "BlobName": "VirtoCommerce.Xapi_3.925.0-alpha.124-vcst-3865-extracted-reusable-code.zip"
+       },
+       {
+          "BlobName": "VirtoCommerce.XPickup_3.801.0-pr-2-202a.zip"
+       }
       ]
     },
     {
@@ -187,11 +196,7 @@
         {
           "Id": "VirtoCommerce.ApplicationInsights",
           "Version": "3.805.0"
-        },
-        {
-          "Id": "VirtoCommerce.Search",
-          "Version": "3.817.0"
-        },
+        }, 
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "Version": "3.922.0"
@@ -203,10 +208,6 @@
         {
           "Id": "VirtoCommerce.ElasticAppSearch",
           "Version": "3.814.0"
-        },
-        {
-          "Id": "VirtoCommerce.Xapi",
-          "Version": "3.924.0"
         },
         {
           "Id": "VirtoCommerce.Sitemaps",
@@ -235,14 +236,6 @@
         {
           "Id": "VirtoCommerce.TaskManagement",
           "Version": "3.904.0"
-        },
-        {
-          "Id": "VirtoCommerce.Shipping",
-          "Version": "3.812.0"
-        },
-        {
-          "Id": "VirtoCommerce.XPickup",
-          "Version": "3.800.0"
         },
         {
           "Id": "VirtoCommerce.ImageTools",
@@ -319,6 +312,10 @@
         {
           "Id": "VirtoCommerce.CustomerExportImport",
           "Version": "3.814.0"
+        },
+        {
+          "Id": "VirtoCommerce.Marketing",
+          "Version": "3.822.0"
         },
         {
           "Id": "VirtoCommerce.Loyalty",
