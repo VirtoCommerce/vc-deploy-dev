@@ -284,10 +284,6 @@
           "Version": "3.810.0"
         },
         {
-          "Id": "VirtoCommerce.Marketing",
-          "Version": "3.822.0"
-        },
-        {
           "Id": "VirtoCommerce.CustomerReviews",
           "Version": "3.905.0"
         },
@@ -306,6 +302,10 @@
         {
           "Id": "VirtoCommerce.Notifications",
           "Version": "3.825.0"
+        },
+        {
+          "Id": "VirtoCommerce.Marketing",
+          "Version": "3.823.0"
         }
       ]
     },
