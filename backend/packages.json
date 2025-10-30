@@ -24,6 +24,9 @@
         },
         { 
           "BlobName": "VirtoCommerce.Loyalty_3.800.0-pr-5-c684.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.GDPR_3.808.0-pr-22-ae15.zip"
         }
       ]
     },
@@ -244,10 +247,6 @@
         {
           "Id": "VirtoCommerce.Content",
           "Version": "3.830.0"
-        },
-        {
-          "Id": "VirtoCommerce.GDPR",
-          "Version": "3.807.0"
         },
         {
           "Id": "VirtoCommerce.EventBus",
