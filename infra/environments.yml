@@ -156,6 +156,9 @@
       #Search__OpenSearch__User: admin
       #Search__OpenSearch__Password: '@-mJ"ch{l/#+LXg_"w>v'
       #Search__OpenSearch__EnableHttpCompression: true
+
+      Search__PickupLocationFullTextSearchEnabled: true
+      
       # Prevent Hangfire duplication key error
       VirtoCommerce__Hangfire__SqlServerStorageOptions__TryAutoDetectSchemaDependentOptions: true
       VirtoCommerce__Hangfire__SqlServerStorageOptions__UseIgnoreDupKeyOption: true
