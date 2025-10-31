@@ -234,10 +234,6 @@
           "BlobName": "VirtoCommerce.Content_3.831.0-alpha.1014.zip"
         },
         {
-          "Id": "VirtoCommerce.GDPR",
-          "BlobName": "VirtoCommerce.GDPR_3.808.0-alpha.144.zip"
-        },
-        {
           "Id": "VirtoCommerce.EventBus",
           "BlobName": "VirtoCommerce.EventBus_3.809.0-alpha.155.zip"
         },
@@ -324,6 +320,10 @@
         {
           "Id": "VirtoCommerce.Datatrans",
           "BlobName": "VirtoCommerce.Datatrans_3.800.0-alpha.86.zip"
+        },
+        {
+          "Id": "VirtoCommerce.GDPR",
+          "BlobName": "VirtoCommerce.GDPR_3.808.0-alpha.145.zip"
         }
       ]
     }
