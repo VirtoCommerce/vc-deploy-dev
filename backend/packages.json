@@ -31,7 +31,10 @@
        },
        {
           "BlobName": "VirtoCommerce.Datatrans_3.800.0-pr-24-60cd.zip"
-       }       
+       },
+       {
+          "BlobName": "VirtoCommerce.XCart_3.948.0-pr-92-25d7.zip"
+       } 
       ]
     },
     {
@@ -271,11 +274,7 @@
         {
           "Id": "VirtoCommerce.XCatalog",
           "Version": "3.941.0"
-        },
-        {
-          "Id": "VirtoCommerce.XCart",
-          "Version": "3.947.0"
-        },
+        },    
         {
           "Id": "VirtoCommerce.Contracts",
           "Version": "3.905.0"
