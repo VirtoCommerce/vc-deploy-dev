@@ -105,6 +105,8 @@
       Payments__Skyflow__TargetConnectionRoute: gfb5ce07e91340efac348a2df035c513/xml/v1/request.api
       # CyberSource
       Payments__CyberSource__ValidateSignatureRetryCount: 5
+      #DataTrance
+      Payments__Datatrans__MerchantId: 1110020617      
       # Sync push notifications between platform instances
       PushNotifications__ForceWebSockets: true
       PushNotifications__ScalabilityMode: RedisBackplane
@@ -189,7 +191,8 @@
       Payments__Skyflow__IntegrationsAccount__privateKey: skyflow-integrationsaccount-privatekey
       Payments__CyberSource__MerchantId: cybersource-merchantid
       Payments__CyberSource__MerchantKeyId: cybersource-qa-merchantkeyid
-      Payments__CyberSource__MerchantSecretKey: cybersource-qa-merchantsecretkey      
+      Payments__CyberSource__MerchantSecretKey: cybersource-qa-merchantsecretkey  
+      Payments__Datatrans__Secret: datatrance-secret
       GoogleSSO__ApplicationId: googlesso-aplicationid
       GoogleSSO__Secret: googlesso-secret     
   storefront:
