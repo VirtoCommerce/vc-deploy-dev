@@ -88,6 +88,11 @@
       
       # Return detailed error information if login failed
       PasswordLogin__DetailedErrors: true
+      IdentityOptions__Password__RequiredLength: 8
+      IdentityOptions__Password__RequireDigit: true
+      IdentityOptions__Password__RequireNonAlphanumeric: true
+      IdentityOptions__Password__RequireUppercase: true
+      IdentityOptions__Password__RequireLowercase: true
       
       IdentityOptions__Lockout__DefaultLockoutTimeSpan: 0:15:0
       IdentityOptions__Lockout__MaxFailedAccessAttempts: 5
