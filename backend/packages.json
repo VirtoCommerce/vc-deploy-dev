@@ -24,6 +24,9 @@
         },
         { 
           "BlobName": "VirtoCommerce.Loyalty_3.800.0-pr-5-c684.zip"
+        },
+         {
+          "BlobName": "VirtoCommerce.Notifications_3.826.0-pr-182-3ad8.zip"
         }
       ]
     },
@@ -312,10 +315,6 @@
         {
           "Id": "VirtoCommerce.Return",
           "Version": "3.811.0"
-        },
-        {
-          "Id": "VirtoCommerce.Notifications",
-          "Version": "3.825.0"
         },
         {
           "Id": "VirtoCommerce.Marketing",
