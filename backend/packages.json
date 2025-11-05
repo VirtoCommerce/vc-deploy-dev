@@ -34,6 +34,10 @@
           "BlobName": "VirtoCommerce.AIDocumentProcessing_3.901.0-pr-6-5f80.zip"
         },
         {
+          "Id": "VirtoCommerce.Xapi",
+          "BlobName": "VirtoCommerce.Xapi_3.925.0-pr-55-081a.zip"
+        },
+        {
           "Id": "VirtoCommerce.Datatrans",
           "BlobName": "VirtoCommerce.Datatrans_3.800.0-pr-24-01c7.zip"
         }
@@ -224,10 +228,6 @@
         {
           "Id": "VirtoCommerce.ElasticAppSearch",
           "Version": "3.814.0"
-        },
-        {
-          "Id": "VirtoCommerce.Xapi",
-          "Version": "3.924.0"
         },
         {
           "Id": "VirtoCommerce.Sitemaps",
