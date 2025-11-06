@@ -5,6 +5,8 @@
   platform:
     headers:
       Cross-Origin-Resource-Policy: cross-origin
+      Cross-Origin-Opener-Policy: unsafe-none
+      Cross-Origin-Embedder-Policy: unsafe-none
       X-Response-Time: \$\request_time
     imageRepository: virtopaasregistrymain.azurecr.io/vcst/platform
     sqlReplica: false
@@ -86,6 +88,11 @@
       
       # Return detailed error information if login failed
       PasswordLogin__DetailedErrors: true
+      IdentityOptions__Password__RequiredLength: 8
+      IdentityOptions__Password__RequireDigit: true
+      IdentityOptions__Password__RequireNonAlphanumeric: true
+      IdentityOptions__Password__RequireUppercase: true
+      IdentityOptions__Password__RequireLowercase: true
       
       IdentityOptions__Lockout__DefaultLockoutTimeSpan: 0:15:0
       IdentityOptions__Lockout__MaxFailedAccessAttempts: 5
@@ -105,6 +112,8 @@
       Payments__Skyflow__TargetConnectionRoute: gfb5ce07e91340efac348a2df035c513/xml/v1/request.api
       # CyberSource
       Payments__CyberSource__ValidateSignatureRetryCount: 5
+      #DataTrance
+      Payments__Datatrans__MerchantId: 1110020617      
       # Sync push notifications between platform instances
       PushNotifications__ForceWebSockets: true
       PushNotifications__ScalabilityMode: RedisBackplane
@@ -189,7 +198,8 @@
       Payments__Skyflow__IntegrationsAccount__privateKey: skyflow-integrationsaccount-privatekey
       Payments__CyberSource__MerchantId: cybersource-merchantid
       Payments__CyberSource__MerchantKeyId: cybersource-qa-merchantkeyid
-      Payments__CyberSource__MerchantSecretKey: cybersource-qa-merchantsecretkey      
+      Payments__CyberSource__MerchantSecretKey: cybersource-qa-merchantsecretkey  
+      Payments__Datatrans__Secret: datatrance-secret
       GoogleSSO__ApplicationId: googlesso-aplicationid
       GoogleSSO__Secret: googlesso-secret     
   storefront:
@@ -199,7 +209,7 @@
       X-Response-Time: \$\request_time
     enabled: false
     themes:
-      B2B-store: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-2.0.0-pr-1136-1be8-1be89467.zip
+      B2B-store: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-2.34.0-pr-1998-6195-619595f2.zip
   customApps:
     app1:
       name: storybook
