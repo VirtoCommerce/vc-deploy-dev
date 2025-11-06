@@ -38,6 +38,10 @@
           "BlobName": "VirtoCommerce.Xapi_3.925.0-pr-55-081a.zip"
         },
         {
+          "Id": "VirtoCommerce.Quote",
+          "BlobName": "VirtoCommerce.Quote_3.911.0-pr-142-8f07.zip"
+        },
+        {
           "Id": "VirtoCommerce.Datatrans",
           "BlobName": "VirtoCommerce.Datatrans_3.800.0-pr-24-01c7.zip"
         }
@@ -152,10 +156,6 @@
         {
           "Id": "VirtoCommerce.OrderManagement",
           "Version": "3.806.0"
-        },
-        {
-          "Id": "VirtoCommerce.Quote",
-          "Version": "3.908.0"
         },
         {
           "Id": "VirtoCommerce.Return",
