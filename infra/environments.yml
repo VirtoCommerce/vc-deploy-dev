@@ -88,6 +88,11 @@
       
       # Return detailed error information if login failed
       PasswordLogin__DetailedErrors: true
+      IdentityOptions__Password__RequiredLength: 8
+      IdentityOptions__Password__RequireDigit: true
+      IdentityOptions__Password__RequireNonAlphanumeric: true
+      IdentityOptions__Password__RequireUppercase: true
+      IdentityOptions__Password__RequireLowercase: true
       
       IdentityOptions__Lockout__DefaultLockoutTimeSpan: 0:15:0
       IdentityOptions__Lockout__MaxFailedAccessAttempts: 5
@@ -204,7 +209,7 @@
       X-Response-Time: \$\request_time
     enabled: false
     themes:
-      B2B-store: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-2.0.0-pr-1136-1be8-1be89467.zip
+      B2B-store: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-2.34.0-pr-1998-6195-619595f2.zip
   customApps:
     app1:
       name: storybook
