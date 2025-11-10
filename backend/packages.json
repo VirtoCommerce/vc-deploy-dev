@@ -140,10 +140,6 @@
           "Version": "3.814.0"
         },
         {
-          "Id": "VirtoCommerce.Xapi",
-          "Version": "3.924.0"
-        },
-        {
           "Id": "VirtoCommerce.Sitemaps",
           "Version": "3.819.0"
         },
@@ -310,6 +306,10 @@
         {
           "Id": "VirtoCommerce.AuthorizeNetPayment",
           "Version": "3.805.0"
+        },
+        {
+          "Id": "VirtoCommerce.Xapi",
+          "Version": "3.925.0"
         }
       ]
     },
