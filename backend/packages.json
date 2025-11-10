@@ -300,16 +300,16 @@
           "Version": "3.911.0"
         },
         {
-          "Id": "VirtoCommerce.Notifications",
-          "Version": "3.826.0"
-        },
-        {
           "Id": "VirtoCommerce.AuthorizeNetPayment",
           "Version": "3.805.0"
         },
         {
           "Id": "VirtoCommerce.Xapi",
           "Version": "3.925.0"
+        },
+        {
+          "Id": "VirtoCommerce.Notifications",
+          "Version": "3.827.0"
         }
       ]
     },
