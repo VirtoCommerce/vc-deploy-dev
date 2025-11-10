@@ -154,10 +154,6 @@
           "BlobName": "VirtoCommerce.ElasticAppSearch_3.815.0-alpha.155.zip"
         },
         {
-          "Id": "VirtoCommerce.Xapi",
-          "BlobName": "VirtoCommerce.Xapi_3.925.0-alpha.118.zip"
-        },
-        {
           "Id": "VirtoCommerce.Sitemaps",
           "BlobName": "VirtoCommerce.Sitemaps_3.820.0-alpha.386.zip"
         },
@@ -324,6 +320,10 @@
         {
           "Id": "VirtoCommerce.AuthorizeNetPayment",
           "BlobName": "VirtoCommerce.AuthorizeNetPayment_3.806.0-alpha.90.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Xapi",
+          "BlobName": "VirtoCommerce.Xapi_3.925.0-alpha.121.zip"
         }
       ]
     }
