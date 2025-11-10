@@ -1,8 +1,8 @@
 { 
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.915.0-pr-2954-7ca3-vcst-4012-cache-key-7ca3a7a3", 
+  "PlatformVersion": "3.914.0", 
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.915.0-pr-2954-7ca3-vcst-4012-cache-key-7ca3a7a3",
+  "PlatformImageTag": "3.914.0",
   "PlatformAssetUrl": "",  
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -24,9 +24,6 @@
         },
         { 
           "BlobName": "VirtoCommerce.Loyalty_3.800.0-pr-5-c684.zip"
-        },
-         {
-          "BlobName": "VirtoCommerce.Notifications_3.826.0-pr-182-3ad8.zip"
         },
         {
           "BlobName": "VirtoCommerce.GoogleEcommerceAnalytics_4.805.0-pr-53-6191.zip"
@@ -66,10 +63,6 @@
         {
           "Id": "VirtoCommerce.NativePaymentMethods",
           "Version": "3.802.0"
-        },
-        {
-          "Id": "VirtoCommerce.AuthorizeNetPayment",
-          "Version": "3.804.0"
         },
         {
           "Id": "VirtoCommerce.MarketingExperienceApi",
@@ -256,10 +249,6 @@
           "Version": "3.814.0"
         },
         {
-          "Id": "VirtoCommerce.Quote",
-          "Version": "3.910.0"
-        },
-        {
           "Id": "VirtoCommerce.Pricing",
           "Version": "3.821.0"
         },
@@ -330,6 +319,18 @@
         {
           "Id": "VirtoCommerce.Datatrans",
           "Version": "3.800.0"
+        },
+        {
+          "Id": "VirtoCommerce.Quote",
+          "Version": "3.911.0"
+        },
+        {
+          "Id": "VirtoCommerce.Notifications",
+          "Version": "3.826.0"
+        },
+        {
+          "Id": "VirtoCommerce.AuthorizeNetPayment",
+          "Version": "3.805.0"
         }
       ]
     }
