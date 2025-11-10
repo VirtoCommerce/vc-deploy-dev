@@ -27,6 +27,9 @@
         },
          {
           "BlobName": "VirtoCommerce.Notifications_3.826.0-pr-182-3ad8.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.GoogleEcommerceAnalytics_4.805.0-pr-53-6191.zip"
         }
       ]
     },
@@ -307,10 +310,6 @@
         {
           "Id": "VirtoCommerce.Shipping",
           "Version": "3.813.0"
-        },
-        {
-          "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
-          "Version": "4.804.0"
         },
         {
           "Id": "VirtoCommerce.Return",
