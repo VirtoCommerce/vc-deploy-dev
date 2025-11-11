@@ -142,10 +142,6 @@
           "BlobName": "VirtoCommerce.OpenIdConnectModule_3.803.0-alpha.21.zip"
         },
         {
-          "Id": "VirtoCommerce.Search",
-          "BlobName": "VirtoCommerce.Search_3.818.0-alpha.787.zip"
-        },
-        {
           "Id": "VirtoCommerce.CatalogPersonalization",
           "BlobName": "VirtoCommerce.CatalogPersonalization_3.808.0-alpha.272.zip"
         },
@@ -324,6 +320,10 @@
         {
           "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
           "BlobName": "VirtoCommerce.GoogleEcommerceAnalytics_4.806.0-alpha.206.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Search",
+          "BlobName": "VirtoCommerce.Search_3.818.0-alpha.791.zip"
         }
       ]
     }
