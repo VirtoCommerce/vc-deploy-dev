@@ -154,10 +154,6 @@
           "BlobName": "VirtoCommerce.Assets_3.814.0-alpha.157.zip"
         },
         {
-          "Id": "VirtoCommerce.ElasticSearch8",
-          "BlobName": "VirtoCommerce.ElasticSearch8_3.822.0-alpha.133.zip"
-        },
-        {
           "Id": "VirtoCommerce.TaskManagement",
           "BlobName": "VirtoCommerce.TaskManagement_3.905.0-alpha.155.zip"
         },
@@ -324,6 +320,10 @@
         {
           "Id": "VirtoCommerce.ElasticAppSearch",
           "BlobName": "VirtoCommerce.ElasticAppSearch_3.816.0-alpha.159.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ElasticSearch8",
+          "BlobName": "VirtoCommerce.ElasticSearch8_3.822.0-alpha.135.zip"
         }
       ]
     }
