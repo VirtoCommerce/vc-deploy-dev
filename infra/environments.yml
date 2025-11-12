@@ -97,6 +97,12 @@
       Search__ElasticSearch__EnableCompatibilityMode: true
       # VirtoCommerce Search settings
       Search__Provider: ElasticSearch8
+
+      #Search__Settings      
+      Search__OrderFullTextSearchEnabled: true
+      Search__ContentFullTextSearchEnabled: true
+      Search__PickupLocationFullTextSearchEnabled: true
+      
       # Prevent Hangfire duplication key error
       VirtoCommerce__Hangfire__SqlServerStorageOptions__TryAutoDetectSchemaDependentOptions: true
       VirtoCommerce__Hangfire__SqlServerStorageOptions__UseIgnoreDupKeyOption: true
