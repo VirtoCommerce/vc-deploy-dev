@@ -276,10 +276,6 @@
           "Version": "3.800.0"
         },
         {
-          "Id": "VirtoCommerce.Quote",
-          "Version": "3.911.0"
-        },
-        {
           "Id": "VirtoCommerce.AuthorizeNetPayment",
           "Version": "3.805.0"
         },
@@ -310,6 +306,10 @@
         {
           "Id": "VirtoCommerce.AzureSearch",
           "Version": "3.808.0"
+        },
+        {
+          "Id": "VirtoCommerce.Quote",
+          "Version": "3.912.0"
         }
       ]
     },
