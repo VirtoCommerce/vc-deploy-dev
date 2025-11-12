@@ -64,10 +64,6 @@
           "Version": "3.902.0"
         },
         {
-          "Id": "VirtoCommerce.ElasticSearch",
-          "Version": "3.805.0"
-        },
-        {
           "Id": "VirtoCommerce.BulkActionsModule",
           "Version": "3.804.0"
         },
@@ -310,6 +306,10 @@
         {
           "Id": "VirtoCommerce.ElasticSearch8",
           "Version": "3.822.0"
+        },
+        {
+          "Id": "VirtoCommerce.ElasticSearch",
+          "Version": "3.806.0"
         }
       ]
     },
