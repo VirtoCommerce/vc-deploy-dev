@@ -97,6 +97,8 @@
       #Search__Settings      
       Search__OrderFullTextSearchEnabled: true
       Search__ContentFullTextSearchEnabled: true
+      Search__PickupLocationFullTextSearchEnabled: true
+      
       Search__DocumentScopes__0__DocumentType: Product
       Search__DocumentScopes__0__Scope: vcptcore-demo-platformvcptcore-scope11
       Search__DocumentScopes__2__DocumentType: Category
