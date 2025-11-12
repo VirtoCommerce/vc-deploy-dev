@@ -318,12 +318,12 @@
           "BlobName": "VirtoCommerce.XPickup_3.803.0-alpha.13.zip"
         },
         {
-          "Id": "VirtoCommerce.Quote",
-          "BlobName": "VirtoCommerce.Quote_3.912.0-alpha.476.zip"
-        },
-        {
           "Id": "VirtoCommerce.AzureSearch",
           "BlobName": "VirtoCommerce.AzureSearch_3.809.0-alpha.259.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Quote",
+          "BlobName": "VirtoCommerce.Quote_3.913.0-alpha.477.zip"
         }
       ]
     }
