@@ -40,7 +40,7 @@
       #Serilog__Using__1: Serilog.Sinks.ApplicationInsights
       #Serilog__Using__1: Serilog.Sinks.Debug
       #Serilog__Using__2: Serilog.Sinks.Seq
-      #Serilog__MinimumLevel__Override__VirtoCommerce__ElasticSearch8__Data__Services__ElasticSearch8Provider: "Debug"
+      #Serilog__MinimumLevel__Override__VirtoCommerce__Elastic8__Data__Services__ElasticSearch8Provider: "Debug"
       #Serilog__MinimumLevel__Override__VirtoCommerce__Platform__Web__Controllers__Api__LicensingController: "Information"
       #Serilog__MinimumLevel__Default: "Information"
       #Serilog__WriteTo__0: Console
@@ -107,6 +107,8 @@
       
       Search__OrderFullTextSearchEnabled: true
       Search__ContentFullTextSearchEnabled: true
+      Search__PickupLocationFullTextSearchEnabled: true
+      
       Search__DocumentScopes__0__DocumentType: Product
       Search__DocumentScopes__0__Scope: vcptcore-qa1-platformvcptcore-scope11
       Search__DocumentScopes__2__DocumentType: Category
