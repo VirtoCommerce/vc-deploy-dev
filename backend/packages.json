@@ -196,10 +196,6 @@
           "Version": "3.810.0"
         },
         {
-          "Id": "VirtoCommerce.Customer",
-          "Version": "3.843.0"
-        },
-        {
           "Id": "VirtoCommerce.Catalog",
           "Version": "3.902.0"
         },
@@ -310,6 +306,10 @@
         {
           "Id": "VirtoCommerce.PushMessages",
           "Version": "3.905.0"
+        },
+        {
+          "Id": "VirtoCommerce.Customer",
+          "Version": "3.844.0"
         }
       ]
     },
