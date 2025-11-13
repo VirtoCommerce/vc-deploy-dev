@@ -33,6 +33,9 @@
         },
         {
           "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.924.0-pr-121-0aca.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Catalog_3.903.0-pr-843-1b2b.zip"
         }
       ]
     },
@@ -261,10 +264,6 @@
         {
           "Id": "VirtoCommerce.DynamicAssociationsModule",
           "Version": "3.810.0"
-        },
-        {
-          "Id": "VirtoCommerce.Catalog",
-          "Version": "3.902.0"
         },
         {
           "Id": "VirtoCommerce.XCatalog",
