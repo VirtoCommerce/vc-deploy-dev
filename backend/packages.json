@@ -304,12 +304,12 @@
           "Version": "3.905.0"
         },
         {
-          "Id": "VirtoCommerce.Customer",
-          "Version": "3.844.0"
-        },
-        {
           "Id": "VirtoCommerce.Return",
           "Version": "3.812.0"
+        },
+        {
+          "Id": "VirtoCommerce.Customer",
+          "Version": "3.845.0"
         }
       ]
     },
