@@ -30,6 +30,9 @@
         },
         {
           "BlobName": "VirtoCommerce.Customer_3.844.0-pr-284-5e18.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.924.0-pr-121-0aca.zip"
         }
       ]
     },
@@ -306,10 +309,6 @@
         {
           "Id": "VirtoCommerce.Marketing",
           "Version": "3.823.0"
-        },
-        {
-          "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.923.0"
         },
         {
           "Id": "VirtoCommerce.GDPR",
