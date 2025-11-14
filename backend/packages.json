@@ -270,10 +270,6 @@
           "BlobName": "VirtoCommerce.GoogleEcommerceAnalytics_4.806.0-alpha.206.zip"
         },
         {
-          "Id": "VirtoCommerce.Search",
-          "BlobName": "VirtoCommerce.Search_3.819.0-alpha.792.zip"
-        },
-        {
           "Id": "VirtoCommerce.Xapi",
           "BlobName": "VirtoCommerce.Xapi_3.927.0-alpha.124.zip"
         },
@@ -324,6 +320,10 @@
         {
           "Id": "VirtoCommerce.Customer",
           "BlobName": "VirtoCommerce.Customer_3.846.0-alpha.923.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Search",
+          "BlobName": "VirtoCommerce.Search_3.819.0-alpha.793.zip"
         }
       ]
     }
