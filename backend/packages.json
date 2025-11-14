@@ -76,10 +76,6 @@
           "Version": "3.804.0"
         },
         {
-          "Id": "VirtoCommerce.Pages",
-          "Version": "3.809.0"
-        },
-        {
           "Id": "VirtoCommerce.WhiteLabeling",
           "Version": "3.908.0"
         },
@@ -310,6 +306,10 @@
         {
           "Id": "VirtoCommerce.Xapi",
           "Version": "3.927.0"
+        },
+        {
+          "Id": "VirtoCommerce.Pages",
+          "Version": "3.810.0"
         }
       ]
     },
