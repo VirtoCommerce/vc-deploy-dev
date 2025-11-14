@@ -66,10 +66,6 @@
           "BlobName": "VirtoCommerce.FileExperienceApi_3.906.0-alpha.49.zip"
         },
         {
-          "Id": "VirtoCommerce.XCMS",
-          "BlobName": "VirtoCommerce.XCMS_3.903.0-alpha.29.zip"
-        },
-        {
           "Id": "VirtoCommerce.Payment",
           "BlobName": "VirtoCommerce.Payment_3.811.0-alpha.249.zip"
         },
@@ -324,6 +320,10 @@
         {
           "Id": "VirtoCommerce.BuilderIO",
           "BlobName": "VirtoCommerce.BuilderIO_3.806.0-alpha.82.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XCMS",
+          "BlobName": "VirtoCommerce.XCMS_3.903.0-alpha.35.zip"
         }
       ]
     }
