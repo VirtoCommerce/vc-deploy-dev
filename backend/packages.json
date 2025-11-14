@@ -74,10 +74,6 @@
           "BlobName": "VirtoCommerce.XCMS_3.903.0-alpha.29.zip"
         },
         {
-          "Id": "VirtoCommerce.Tax",
-          "BlobName": "VirtoCommerce.Tax_3.806.0-alpha.195.zip"
-        },
-        {
           "Id": "VirtoCommerce.WebHooks",
           "BlobName": "VirtoCommerce.WebHooks_3.810.0-alpha.317.zip"
         },
@@ -324,6 +320,10 @@
         {
           "Id": "VirtoCommerce.Notifications",
           "BlobName": "VirtoCommerce.Notifications_3.828.0-alpha.428.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Tax",
+          "BlobName": "VirtoCommerce.Tax_3.806.0-alpha.200.zip"
         }
       ]
     }
