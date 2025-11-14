@@ -222,10 +222,6 @@
           "BlobName": "VirtoCommerce.ApplicationInsights_3.807.0-alpha.36.zip"
         },
         {
-          "Id": "VirtoCommerce.Subscription",
-          "BlobName": "VirtoCommerce.Subscription_3.811.0-alpha.356.zip"
-        },
-        {
           "Id": "VirtoCommerce.Pricing",
           "BlobName": "VirtoCommerce.Pricing_3.822.0-alpha.777.zip"
         },
@@ -324,6 +320,10 @@
         {
           "Id": "VirtoCommerce.Tax",
           "BlobName": "VirtoCommerce.Tax_3.807.0-alpha.201.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Subscription",
+          "BlobName": "VirtoCommerce.Subscription_3.811.0-alpha.357.zip"
         }
       ]
     }
