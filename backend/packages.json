@@ -32,6 +32,9 @@
         {
           "Id": "VirtoCommerce.AIDocumentProcessing",
           "BlobName": "VirtoCommerce.AIDocumentProcessing_3.901.0-pr-6-5f80.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Store_3.823.0-pr-159-ac21.zip"
         }
       ]
     },
@@ -168,10 +171,6 @@
         {
           "Id": "VirtoCommerce.Cart",
           "Version": "3.839.0"
-        },
-        {
-          "Id": "VirtoCommerce.Store",
-          "Version": "3.822.0"
         },
         {
           "Id": "VirtoCommerce.EventBus",
