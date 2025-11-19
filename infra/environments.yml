@@ -45,6 +45,9 @@
       Search__ElasticAppSearch__KibanaBaseUrl: "https://kibana-vc-02.govirto.com/"
       Search__ElasticSearch8__Server: https://12c4e146940b4cf89bbab1a02f2cf11b.us-central1.gcp.cloud.es.io
       Search__ElasticSearch8__User: elastic 
+
+      Search__PickupLocationFullTextSearchEnabled: true
+      
       Notifications__DefaultSender: virto.start@virtoway.com
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
       Notifications__Gateway: SendGrid
@@ -119,9 +122,8 @@
       Payments__Skyflow__TargetPaymentMethod: AuthorizeNetPaymentMethod
       Payments__Skyflow__TargetConnectionRoute: gfb5ce07e91340efac348a2df035c513/xml/v1/request.api
       # CyberSource
-      Payments__CyberSource__ValidateSignatureRetryCount: 5
-      # Shippment
-      Shipping__IsPickupEnabled: true
+      Payments__CyberSource__ValidateSignatureRetryCount: 5 
+      
       # Firebase settings
       PushMessages__UseFirebaseCloudMessaging: true
       PushMessages__FcmSenderOptions__Type: service_account
