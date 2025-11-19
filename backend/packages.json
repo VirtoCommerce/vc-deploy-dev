@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.916.0-alpha.13164-vcst-4203-cleanup",
+  "PlatformVersion": "3.915.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.916.0-alpha.13164-vcst-4203-cleanup",
+  "PlatformImageTag": "3.915.0",
   "PlatformAssetUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Platform.3.916.0-alpha.13164-vcst-4203-cleanup.zip",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
