@@ -167,6 +167,7 @@
       #Search__OpenSearch__EnableHttpCompression: true
 
       Search__PickupLocationFullTextSearchEnabled: true
+      Search__ContentFullTextSearchEnabled: true
       
       # Prevent Hangfire duplication key error
       VirtoCommerce__Hangfire__SqlServerStorageOptions__TryAutoDetectSchemaDependentOptions: true
