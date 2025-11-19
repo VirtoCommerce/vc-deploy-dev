@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.915.0",
+  "PlatformVersion": "3.916.0-alpha.13164-vcst-4203-cleanup",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.915.0",
+  "PlatformImageTag": "3.916.0-alpha.13164-vcst-4203-cleanup",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -35,6 +35,18 @@
         },
         {
           "BlobName": "VirtoCommerce.Store_3.823.0-pr-159-ac21.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Core",
+          "BlobName": "VirtoCommerce.Core_3.823.0-alpha.1666-vcst-4203-cleanup"
+        },
+        {
+          "Id": "VirtoCommerce.Notifications",
+          "BlobName": "VirtoCommerce.Notifications_3.828.0-alpha.429-cleanup"
+        },
+        {
+          "Id": "VirtoCommerce.Seo",
+          "BlobName": "VirtoCommerce.Seo_3.811.0-alpha.56-vcst-4203-cleanup"
         }
       ]
     },
@@ -95,10 +107,6 @@
         {
           "Id": "VirtoCommerce.Payment",
           "Version": "3.810.0"
-        },
-        {
-          "Id": "VirtoCommerce.Core",
-          "Version": "3.822.0"
         },
         {
           "Id": "VirtoCommerce.AvalaraTax",
@@ -229,10 +237,6 @@
           "Version": "3.805.0"
         },
         {
-          "Id": "VirtoCommerce.Notifications",
-          "Version": "3.827.0"
-        },
-        {
           "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
           "Version": "4.805.0"
         },
@@ -320,10 +324,7 @@
           "Id": "VirtoCommerce.Content",
           "Version": "3.831.0"
         },
-        {
-          "Id": "VirtoCommerce.Seo",
-          "Version": "3.810.0"
-        },
+       
         {
           "Id": "VirtoCommerce.Xapi",
           "Version": "3.927.0"
