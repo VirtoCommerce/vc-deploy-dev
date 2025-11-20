@@ -31,6 +31,10 @@
         {
           "Id": "VirtoCommerce.AIDocumentProcessing",
           "BlobName": "VirtoCommerce.AIDocumentProcessing_3.901.0-pr-6-5f80.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Search",
+          "BlobName": "VirtoCommerce.Search_3.820.0-pr-126-75a0.zip"
         }
       ]
     },
@@ -279,10 +283,6 @@
         {
           "Id": "VirtoCommerce.Customer",
           "Version": "3.845.0"
-        },
-        {
-          "Id": "VirtoCommerce.Search",
-          "Version": "3.819.0"
         },
         {
           "Id": "VirtoCommerce.Shipping",
