@@ -226,6 +226,11 @@
       VirtoCommerce__Hangfire__Queues__items_0: default
       VirtoCommerce__Hangfire__Queues__items_1: index_worker
       VirtoCommerce__Licensing__LicensePrivateKeyPath: /opt/virtocommerce/platform/license/VirtoCommerce.lic
+
+      VirtoCommerce__PlatformUI__EnvironmentBanner__Enable: true
+      VirtoCommerce__PlatformUI__EnvironmentBanner__Name: "UAT EU"
+      VirtoCommerce__PlatformUI__EnvironmentBanner__ThemePreset: "staging"
+      
       Logging__LogLevel__Default: Information
       PasswordLogin__DetailedErrors: true
       Payments__AuthorizeNet__ApiLogin: 52B9X7vb4
