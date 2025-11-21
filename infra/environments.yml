@@ -78,7 +78,7 @@
       #notifications_settings
       
       #Notifications__Gateway: SendGrid
-      #Notifications__Gateway: Smtp
+      Notifications__Gateway: Smtp
       Notifications__Smtp__ForceSslTls: false
       Notifications__Smtp__SmtpServer: smtp.sendgrid.net
       Notifications__Smtp__Login: apikey
