@@ -270,10 +270,6 @@
           "BlobName": "VirtoCommerce.Sitemaps_3.821.0-alpha.390.zip"
         },
         {
-          "Id": "VirtoCommerce.Notifications",
-          "BlobName": "VirtoCommerce.Notifications_3.828.0-alpha.428.zip"
-        },
-        {
           "Id": "VirtoCommerce.Tax",
           "BlobName": "VirtoCommerce.Tax_3.807.0-alpha.201.zip"
         },
@@ -324,6 +320,10 @@
         {
           "Id": "VirtoCommerce.Search",
           "BlobName": "VirtoCommerce.Search_3.821.0-alpha.799.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Notifications",
+          "BlobName": "VirtoCommerce.Notifications_3.828.0-alpha.432.zip"
         }
       ]
     }
