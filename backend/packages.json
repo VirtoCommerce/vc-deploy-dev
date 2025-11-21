@@ -192,10 +192,6 @@
           "Version": "3.805.0"
         },
         {
-          "Id": "VirtoCommerce.Notifications",
-          "Version": "3.827.0"
-        },
-        {
           "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
           "Version": "4.805.0"
         },
@@ -310,6 +306,10 @@
         {
           "Id": "VirtoCommerce.Search",
           "Version": "3.820.0"
+        },
+        {
+          "Id": "VirtoCommerce.Notifications",
+          "Version": "3.828.0"
         }
       ]
     },
