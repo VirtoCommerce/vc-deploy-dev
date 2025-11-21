@@ -16,6 +16,12 @@
       "Modules": [
        {
           "BlobName": "VirtoCommerce.PageBuilderModule_3.830.0-pr-90-ddb3.zip"
+       },
+       {
+          "BlobName": "VirtoCommerce.XFrontend_3.800.0-pr-1-34c4.zip"
+       },
+       {
+          "BlobName": "VirtoCommerce.Xapi_3.928.0-pr-54-c535.zip"
        } 
       ]
     },
@@ -304,10 +310,6 @@
         {
           "Id": "VirtoCommerce.Seo",
           "Version": "3.810.0"
-        },
-        {
-          "Id": "VirtoCommerce.Xapi",
-          "Version": "3.927.0"
         },
         {
           "Id": "VirtoCommerce.Pages",
