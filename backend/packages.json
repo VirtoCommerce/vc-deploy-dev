@@ -25,7 +25,11 @@
        },
        {
           "BlobName": "VirtoCommerce.XPickup_3.803.0-pr-3-764b.zip"
-       }   
+       },
+       {
+          "Id": "VirtoCommerce.ElasticSearch8",
+          "BlobName": "VirtoCommerce.ElasticSearch8_3.823.0-pr-34-68ac.zip"
+        }
       ]
     },
     {
@@ -241,10 +245,6 @@
         {
           "Id": "VirtoCommerce.ElasticAppSearch",
           "Version": "3.815.0"
-        },
-        {
-          "Id": "VirtoCommerce.ElasticSearch8",
-          "Version": "3.822.0"
         },
         {
           "Id": "VirtoCommerce.ElasticSearch",
