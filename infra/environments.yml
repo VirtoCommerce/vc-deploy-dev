@@ -9,6 +9,7 @@
       Cross-Origin-Embedder-Policy: unsafe-none
       X-Response-Time: \$\request_time
     imageRepository: virtopaasregistrymain.azurecr.io/vcst/platform
+    imageTag: 3.915.0-70e5e92
     sqlReplica: false
     config:
       # Increment to force environment reload
