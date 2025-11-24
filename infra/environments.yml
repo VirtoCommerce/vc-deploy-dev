@@ -125,10 +125,10 @@
       #Search__ElasticSearch__Server: https://elasticsearch-vc03.govirto.com
       #Search__ElasticSearch__EnableCompatibilityMode: true
       #Search__Provider: ElasticSearch
-      Search__Provider: AzureSearch
+      #Search__Provider: AzureSearch
       
       #Search__Provider: ElasticSearch9
-      #Search__Provider: ElasticSearch8
+      Search__Provider: ElasticSearch8
       #Search__Provider: OpenSearch
       #Search__OpenSearch__Server: https://opensearch-uat.govirto.com/
       #Search__OpenSearch__User: admin
