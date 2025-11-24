@@ -1,7 +1,7 @@
-- name: vcst-qa
+- name: vcst-devtraining
   gitops: true
   production: false
-  servicePlan: B1
+  servicePlan: B2
   platform:
     headers:
       Cross-Origin-Resource-Policy: cross-origin
@@ -10,7 +10,6 @@
       X-Response-Time: \$\request_time
     imageRepository: virtopaasregistrymain.azurecr.io/vcst/platform
     sqlReplica: false
-    dbName: vcst-qa-platform_restored
     config:
       # Increment to force environment reload
       reload: 22
@@ -83,8 +82,8 @@
       # Sync push notifications between platform instances
       PushNotifications__ForceWebSockets: true
       PushNotifications__ScalabilityMode: RedisBackplane
-      PushNotifications__HubUrl: https://vcst-qa.govirto.com/pushNotificationHub?api_key=458ab7f7-df17-4aed-9f21-092f8b611efa
-      PushNotifications__RedisBackplane__ChannelName: vcst-qa-chanel
+      PushNotifications__HubUrl: https://vcst-devtraining.govirto.com/pushNotificationHub?api_key=458ab7f7-df17-4aed-9f21-092f8b611efa
+      PushNotifications__RedisBackplane__ChannelName: vcst-devtraining-chanel
       
       # Return detailed error information if login failed
       PasswordLogin__DetailedErrors: true
@@ -117,29 +116,29 @@
       # Sync push notifications between platform instances
       PushNotifications__ForceWebSockets: true
       PushNotifications__ScalabilityMode: RedisBackplane
-      PushNotifications__HubUrl: https://vcst-qa.govirto.com/pushNotificationHub?api_key=458ab7f7-df17-4aed-9f21-092f8b611efa
-      PushNotifications__RedisBackplane__ChannelName: vcst-qa-chanel
+      PushNotifications__HubUrl: https://vcst-devtraining.govirto.com/pushNotificationHub?api_key=458ab7f7-df17-4aed-9f21-092f8b611efa
+      PushNotifications__RedisBackplane__ChannelName: vcst-devtraining-chanel
       # Shippment
       #Shipping__IsPickupEnabled: true
       # Firebase settings
-      PushMessages__UseFirebaseCloudMessaging: true
-      PushMessages__FcmSenderOptions__Type: service_account
-      PushMessages__FcmSenderOptions__ProjectId: vcst-qa
-      PushMessages__FcmSenderOptions__PrivateKeyId: 2d6bed5b992d4f7d52ec9e432e929083bb0d86fa 
-      PushMessages__FcmSenderOptions__ClientEmail: firebase-adminsdk-1vh96@vcst-qa.iam.gserviceaccount.com
-      PushMessages__FcmSenderOptions__ClientId: 111108068739348332191
-      PushMessages__FcmSenderOptions__AuthUri: https://accounts.google.com/o/oauth2/auth
-      PushMessages__FcmSenderOptions__TokenUri: https://oauth2.googleapis.com/token
-      PushMessages__FcmSenderOptions__AuthProviderX509CertUrl: https://www.googleapis.com/oauth2/v1/certs
-      PushMessages__FcmSenderOptions__ClientX509CertUrl: https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-1vh96%40vcst-qa.iam.gserviceaccount.com
-      PushMessages__FcmSenderOptions__UniverseDomain: googleapis.com
-      PushMessages__FcmReceiverOptions__ApiKey: AIzaSyAJLCGjYkqbbv8n8dvuXazURr8kz0GsuVo
-      PushMessages__FcmReceiverOptions__AuthDomain: vcst-qa.firebaseapp.com
-      PushMessages__FcmReceiverOptions__ProjectId: vcst-qa
-      PushMessages__FcmReceiverOptions__StorageBucket: vcst-qa.appspot.com
-      PushMessages__FcmReceiverOptions__MessagingSenderId: 1021404404978
-      PushMessages__FcmReceiverOptions__AppId: 1:1021404404978:web:89ab011d054397a04d046b
-      PushMessages__FcmReceiverOptions__VapidKey: BB1Pzs7sBeDkuQWO_cNzo3OhCEruXypVhFsKZaTN4FBL1JhC4fgsgsQSM-vusa99uYVpMcroJzhydyRfMkCQLHc
+      # PushMessages__UseFirebaseCloudMessaging: false
+      # PushMessages__FcmSenderOptions__Type: service_account
+      # PushMessages__FcmSenderOptions__ProjectId: vcst-devtraining
+      # PushMessages__FcmSenderOptions__PrivateKeyId: 2d6bed5b992d4f7d52ec9e432e929083bb0d86fa 
+      # PushMessages__FcmSenderOptions__ClientEmail: firebase-adminsdk-1vh96@vcst-qa.iam.gserviceaccount.com
+      # PushMessages__FcmSenderOptions__ClientId: 111108068739348332191
+      # PushMessages__FcmSenderOptions__AuthUri: https://accounts.google.com/o/oauth2/auth
+      # PushMessages__FcmSenderOptions__TokenUri: https://oauth2.googleapis.com/token
+      # PushMessages__FcmSenderOptions__AuthProviderX509CertUrl: https://www.googleapis.com/oauth2/v1/certs
+      # PushMessages__FcmSenderOptions__ClientX509CertUrl: https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-1vh96%40vcst-qa.iam.gserviceaccount.com
+      # PushMessages__FcmSenderOptions__UniverseDomain: googleapis.com
+      # PushMessages__FcmReceiverOptions__ApiKey: AIzaSyAJLCGjYkqbbv8n8dvuXazURr8kz0GsuVo
+      # PushMessages__FcmReceiverOptions__AuthDomain: vcst-qa.firebaseapp.com
+      # PushMessages__FcmReceiverOptions__ProjectId: vcst-qa
+      # PushMessages__FcmReceiverOptions__StorageBucket: vcst-qa.appspot.com
+      # PushMessages__FcmReceiverOptions__MessagingSenderId: 1021404404978
+      # PushMessages__FcmReceiverOptions__AppId: 1:1021404404978:web:89ab011d054397a04d046b
+      # PushMessages__FcmReceiverOptions__VapidKey: BB1Pzs7sBeDkuQWO_cNzo3OhCEruXypVhFsKZaTN4FBL1JhC4fgsgsQSM-vusa99uYVpMcroJzhydyRfMkCQLHc
 
       Seo__SeoInfoResolver__0: Pages
       Seo__SeoInfoResolver__1: ContentFile      
@@ -149,16 +148,16 @@
       Seo__SeoInfoResolver__5: CatalogProduct
 
       # Elastic App Search settings
-      Search__ElasticAppSearch__Endpoint: https://enterprise-search-test.govirto.com
-      Search__ElasticAppSearch__EnableHttpCompression: true
+      # Search__ElasticAppSearch__Endpoint: https://enterprise-search-test.govirto.com
+      # Search__ElasticAppSearch__EnableHttpCompression: true
       # Elastic Search settings
-      Search__ElasticSearch__Server: https://elasticsearch-vc03.govirto.com
-      Search__ElasticSearch__EnableCompatibilityMode: true
+      # Search__ElasticSearch__Server: https://elasticsearch-vc03.govirto.com
+      # Search__ElasticSearch__EnableCompatibilityMode: true
       # ElasticSearch8
       #Search__ElasticSearch8__Server: https://c8f1b4afcf244fffbf101368e10315ad.eastus2.azure.elastic-cloud.com:443
       #Search__ElasticSearch8__User: elastic
       # VirtoCommerce Search settings    
-      Search__Provider: ElasticSearch8
+      #Search__Provider: ElasticSearch8
       #Search__Provider: ElasticAppSearch
       
       #Search__Provider: OpenSearch
@@ -211,7 +210,7 @@
       X-Response-Time: \$\request_time
     enabled: false
     themes:
-      B2B-store: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-2.34.0-pr-1998-6195-619595f2.zip
+      B2B-store: https://github.com/VirtoCommerce/vc-frontend/releases/download/2.35.0/vc-theme-b2b-vue-2.35.0.zip
   customApps:
     app1:
       name: storybook
@@ -224,7 +223,7 @@
     app2:
       enabled: false
   routes:
-  - host: vcst-qa-storefront.govirto.com
+  - host: vcst-devtraining-store.govirto.com
     root: B2B-store
     paths:
     - path: /xapi
