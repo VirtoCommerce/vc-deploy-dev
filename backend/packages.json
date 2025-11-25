@@ -60,10 +60,6 @@
           "Version": "3.810.0"
         },
         {
-          "Id": "VirtoCommerce.Core",
-          "Version": "3.822.0"
-        },
-        {
           "Id": "VirtoCommerce.AvalaraTax",
           "Version": "3.804.0"
         },
@@ -310,6 +306,10 @@
         {
           "Id": "VirtoCommerce.XPickup",
           "Version": "3.803.0"
+        },
+        {
+          "Id": "VirtoCommerce.Core",
+          "Version": "3.823.0"
         }
       ]
     },
