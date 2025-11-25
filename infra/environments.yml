@@ -21,6 +21,11 @@
       AzureAd__ApplicationId: 8227d950-975c-4c28-b7d4-ea440a59dcbb
       AzureAd__Enabled: true
       AzureAd__TenantId: bc03e660-5e3a-45c4-bf5c-b75489f78923
+      GoogleSSO__Enabled: true
+      GoogleSSO__AuthenticationType: GoogleSSO
+      GoogleSSO__AuthenticationCaption: Google sign-in
+      GoogleSSO__DefaultUserType: Customer
+      GoogleSSO__UsePreferredUsername: false
       # Allows to see theme in Content menu in platform UI
       Content__FileSystem__RootPath: /opt/virtocommerce/platform/wwwroot/cms-content
       Content__PathMappings__pages__0: Themes
@@ -149,6 +154,8 @@
       PushMessages__FcmSenderOptions__PrivateKey: fcm-private-key
       Weaviate__ApiKey: intent-search-weaviate-api-key
       Weaviate__HuggingFaceToken: intent-search-huggingface-token
+      GoogleSSO__ApplicationId: googlesso-aplicationid
+      GoogleSSO__Secret: googlesso-secret
   storefront:
     headers:
       Cross-Origin-Resource-Policy: cross-origin
