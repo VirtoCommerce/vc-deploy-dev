@@ -314,16 +314,16 @@
           "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.926.0-alpha.314.zip"
         },
         {
-          "Id": "VirtoCommerce.XPickup",
-          "BlobName": "VirtoCommerce.XPickup_3.804.0-alpha.18.zip"
-        },
-        {
           "Id": "VirtoCommerce.Core",
           "BlobName": "VirtoCommerce.Core_3.824.0-alpha.1670.zip"
         },
         {
           "Id": "VirtoCommerce.ElasticSearch8",
           "BlobName": "VirtoCommerce.ElasticSearch8_3.823.0-alpha.140.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XPickup",
+          "BlobName": "VirtoCommerce.XPickup_3.804.0-alpha.19.zip"
         }
       ]
     }
