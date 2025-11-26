@@ -174,10 +174,6 @@
           "BlobName": "VirtoCommerce.OrderManagement_3.808.0-alpha.20.zip"
         },
         {
-          "Id": "VirtoCommerce.ApplicationInsights",
-          "BlobName": "VirtoCommerce.ApplicationInsights_3.807.0-alpha.36.zip"
-        },
-        {
           "Id": "VirtoCommerce.Pricing",
           "BlobName": "VirtoCommerce.Pricing_3.822.0-alpha.777.zip"
         },
@@ -324,6 +320,10 @@
         {
           "Id": "VirtoCommerce.ElasticSearch8",
           "BlobName": "VirtoCommerce.ElasticSearch8_3.824.0-alpha.141.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ApplicationInsights",
+          "BlobName": "VirtoCommerce.ApplicationInsights_3.807.0-alpha.40.zip"
         }
       ]
     }
