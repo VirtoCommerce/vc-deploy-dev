@@ -96,10 +96,6 @@
           "Version": "3.807.0"
         },
         {
-          "Id": "VirtoCommerce.Assets",
-          "Version": "3.813.0"
-        },
-        {
           "Id": "VirtoCommerce.CatalogPublishing",
           "Version": "3.808.0"
         },
@@ -310,6 +306,10 @@
         {
           "Id": "VirtoCommerce.ApplicationInsights",
           "Version": "3.807.0"
+        },
+        {
+          "Id": "VirtoCommerce.Assets",
+          "Version": "3.814.0"
         }
       ]
     },
