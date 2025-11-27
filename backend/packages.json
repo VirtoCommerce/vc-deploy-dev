@@ -20,10 +20,6 @@
           "Version": "3.805.0"
         },
         {
-          "Id": "VirtoCommerce.AzureAD",
-          "Version": "3.804.0"
-        },
-        {
           "Id": "VirtoCommerce.Contentful",
           "Version": "3.805.0"
         },
@@ -310,6 +306,10 @@
         {
           "Id": "VirtoCommerce.Assets",
           "Version": "3.815.0"
+        },
+        {
+          "Id": "VirtoCommerce.AzureAD",
+          "Version": "3.805.0"
         }
       ]
     },
