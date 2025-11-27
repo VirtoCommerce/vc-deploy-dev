@@ -12,10 +12,6 @@
       ],
       "Modules": [
         {
-          "Id": "VirtoCommerce.LuceneSearch",
-          "Version": "3.805.0"
-        },
-        {
           "Id": "VirtoCommerce.Contentful",
           "Version": "3.805.0"
         },
@@ -310,6 +306,10 @@
         {
           "Id": "VirtoCommerce.ImageTools",
           "Version": "3.813.0"
+        },
+        {
+          "Id": "VirtoCommerce.LuceneSearch",
+          "Version": "3.806.0"
         }
       ]
     },
