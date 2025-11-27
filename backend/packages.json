@@ -302,10 +302,6 @@
           "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.926.0-alpha.314.zip"
         },
         {
-          "Id": "VirtoCommerce.Core",
-          "BlobName": "VirtoCommerce.Core_3.824.0-alpha.1670.zip"
-        },
-        {
           "Id": "VirtoCommerce.XPickup",
           "BlobName": "VirtoCommerce.XPickup_3.805.0-alpha.20.zip"
         },
@@ -324,6 +320,10 @@
         {
           "Id": "VirtoCommerce.AzureAD",
           "BlobName": "VirtoCommerce.AzureAD_3.806.0-alpha.56.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Core",
+          "BlobName": "VirtoCommerce.Core_3.824.0-alpha.1671.zip"
         }
       ]
     }
