@@ -260,10 +260,6 @@
           "Version": "3.903.0"
         },
         {
-          "Id": "VirtoCommerce.Search",
-          "Version": "3.820.0"
-        },
-        {
           "Id": "VirtoCommerce.Content",
           "Version": "3.832.0"
         },
@@ -310,6 +306,10 @@
         {
           "Id": "VirtoCommerce.GoogleSSO",
           "Version": "3.804.0"
+        },
+        {
+          "Id": "VirtoCommerce.Search",
+          "Version": "3.821.0"
         }
       ]
     },
