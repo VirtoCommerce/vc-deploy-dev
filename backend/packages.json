@@ -28,7 +28,15 @@
         {
           "Id": "VirtoCommerce.Xapi",
           "BlobName": "VirtoCommerce.Xapi_3.928.0-pr-57-ea6a.zip"
+        },
+         {
+          "Id": "VirtoCommerce.Store",
+          "BlobName": "VirtoCommerce.Store_3.823.0-pr-158-bf02.zip"
+        },
+          { 
+          "BlobName": "VirtoCommerce.EnvironmentsCompare_3.800.0-alpha.56-vcst-3900-environments-compare-initial.zip"
         }
+        
       ]
     },
     {
@@ -152,10 +160,6 @@
         {
           "Id": "VirtoCommerce.Cart",
           "Version": "3.839.0"
-        },
-        {
-          "Id": "VirtoCommerce.Store",
-          "Version": "3.822.0"
         },
         {
           "Id": "VirtoCommerce.EventBus",
