@@ -178,10 +178,6 @@
           "BlobName": "VirtoCommerce.ElasticSearch_3.807.0-alpha.274.zip"
         },
         {
-          "Id": "VirtoCommerce.ImageTools",
-          "BlobName": "VirtoCommerce.ImageTools_3.813.0-alpha.375.zip"
-        },
-        {
           "Id": "VirtoCommerce.PushMessages",
           "BlobName": "VirtoCommerce.PushMessages_3.906.0-alpha.73.zip"
         },
@@ -324,6 +320,10 @@
         {
           "Id": "VirtoCommerce.FileSystemAssets",
           "BlobName": "VirtoCommerce.FileSystemAssets_3.806.0-alpha.116.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ImageTools",
+          "BlobName": "VirtoCommerce.ImageTools_3.813.0-alpha.379.zip"
         }
       ]
     }
