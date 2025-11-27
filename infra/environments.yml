@@ -58,9 +58,9 @@
       
       #notifications_settings
 
-      EnvironmentsCompare__ComparableEnvironments__1__Name: vcptcore-qa.govirto.com
-      EnvironmentsCompare__ComparableEnvironments__1__Url: https://vcptcore-qa.govirto.com/
-      EnvironmentsCompare__ComparableEnvironments__1__ApiKey: 456poi111
+      EnvironmentsCompare__ComparableEnvironments__0__Name: vcptcore-qa.govirto.com
+      EnvironmentsCompare__ComparableEnvironments__0__Url: https://vcptcore-qa.govirto.com
+      EnvironmentsCompare__ComparableEnvironments__0__ApiKey: 456poi111
       
       #Notifications__Gateway: SendGrid
       Notifications__Gateway: Smtp
