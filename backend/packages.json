@@ -236,10 +236,6 @@
           "Version": "3.905.0"
         },
         {
-          "Id": "VirtoCommerce.Seo",
-          "Version": "3.810.0"
-        },
-        {
           "Id": "VirtoCommerce.Xapi",
           "Version": "3.927.0"
         },
@@ -310,6 +306,10 @@
         {
           "Id": "VirtoCommerce.Search",
           "Version": "3.821.0"
+        },
+        {
+          "Id": "VirtoCommerce.Seo",
+          "Version": "3.811.0"
         }
       ]
     },
