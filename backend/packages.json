@@ -234,10 +234,6 @@
           "BlobName": "VirtoCommerce.Content_3.833.0-alpha.1021.zip"
         },
         {
-          "Id": "VirtoCommerce.Notifications",
-          "BlobName": "VirtoCommerce.Notifications_3.830.0-alpha.435.zip"
-        },
-        {
           "Id": "VirtoCommerce.Store",
           "BlobName": "VirtoCommerce.Store_3.823.0-alpha.750.zip"
         },
@@ -324,6 +320,10 @@
         {
           "Id": "VirtoCommerce.LuceneSearch",
           "BlobName": "VirtoCommerce.LuceneSearch_3.806.0-alpha.221.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Notifications",
+          "BlobName": "VirtoCommerce.Notifications_3.830.0-alpha.436.zip"
         }
       ]
     }
