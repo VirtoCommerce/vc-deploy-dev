@@ -158,10 +158,6 @@
           "BlobName": "VirtoCommerce.AuthorizeNetPayment_3.806.0-alpha.90.zip"
         },
         {
-          "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
-          "BlobName": "VirtoCommerce.GoogleEcommerceAnalytics_4.806.0-alpha.206.zip"
-        },
-        {
           "Id": "VirtoCommerce.Quote",
           "BlobName": "VirtoCommerce.Quote_3.913.0-alpha.477.zip"
         },
@@ -324,6 +320,10 @@
         {
           "Id": "VirtoCommerce.Customer",
           "BlobName": "VirtoCommerce.Customer_3.846.0-alpha.927.zip"
+        },
+        {
+          "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
+          "BlobName": "VirtoCommerce.GoogleEcommerceAnalytics_4.806.0-alpha.210.zip"
         }
       ]
     }
