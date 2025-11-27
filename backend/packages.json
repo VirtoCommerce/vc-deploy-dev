@@ -144,10 +144,6 @@
           "Version": "3.805.0"
         },
         {
-          "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
-          "Version": "4.805.0"
-        },
-        {
           "Id": "VirtoCommerce.Quote",
           "Version": "3.912.0"
         },
@@ -310,6 +306,10 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "Version": "3.904.0"
+        },
+        {
+          "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
+          "Version": "4.806.0"
         }
       ]
     },
