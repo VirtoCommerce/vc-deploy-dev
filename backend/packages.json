@@ -106,10 +106,6 @@
           "BlobName": "VirtoCommerce.News_3.813.0-alpha.37.zip"
         },
         {
-          "Id": "VirtoCommerce.Cart",
-          "BlobName": "VirtoCommerce.Cart_3.840.0-alpha.760.zip"
-        },
-        {
           "Id": "VirtoCommerce.CustomerExportImport",
           "BlobName": "VirtoCommerce.CustomerExportImport_3.815.0-alpha.196.zip"
         },
@@ -324,6 +320,10 @@
         {
           "Id": "VirtoCommerce.Xapi",
           "BlobName": "VirtoCommerce.Xapi_3.928.0-alpha.130.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Cart",
+          "BlobName": "VirtoCommerce.Cart_3.840.0-alpha.764.zip"
         }
       ]
     }
