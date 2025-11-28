@@ -92,10 +92,6 @@
           "Version": "3.812.0"
         },
         {
-          "Id": "VirtoCommerce.Cart",
-          "Version": "3.839.0"
-        },
-        {
           "Id": "VirtoCommerce.CustomerExportImport",
           "Version": "3.814.0"
         },
@@ -310,6 +306,10 @@
         {
           "Id": "VirtoCommerce.Tax",
           "Version": "3.807.0"
+        },
+        {
+          "Id": "VirtoCommerce.Cart",
+          "Version": "3.840.0"
         }
       ]
     },
