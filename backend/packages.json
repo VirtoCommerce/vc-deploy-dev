@@ -162,10 +162,6 @@
           "BlobName": "VirtoCommerce.ShipStation_3.803.0-alpha.131.zip"
         },
         {
-          "Id": "VirtoCommerce.Sitemaps",
-          "BlobName": "VirtoCommerce.Sitemaps_3.821.0-alpha.390.zip"
-        },
-        {
           "Id": "VirtoCommerce.Subscription",
           "BlobName": "VirtoCommerce.Subscription_3.812.0-alpha.358.zip"
         },
@@ -324,6 +320,10 @@
         {
           "Id": "VirtoCommerce.Inventory",
           "BlobName": "VirtoCommerce.Inventory_3.816.0-alpha.499.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Sitemaps",
+          "BlobName": "VirtoCommerce.Sitemaps_3.821.0-alpha.394.zip"
         }
       ]
     }
