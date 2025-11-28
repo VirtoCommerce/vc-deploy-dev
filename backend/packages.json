@@ -236,10 +236,6 @@
           "Version": "3.808.0"
         },
         {
-          "Id": "VirtoCommerce.FileSystemAssets",
-          "Version": "3.806.0"
-        },
-        {
           "Id": "VirtoCommerce.ImageTools",
           "Version": "3.813.0"
         },
@@ -310,6 +306,10 @@
         {
           "Id": "VirtoCommerce.AzureBlobAssets",
           "Version": "3.813.0"
+        },
+        {
+          "Id": "VirtoCommerce.FileSystemAssets",
+          "Version": "3.807.0"
         }
       ]
     },
