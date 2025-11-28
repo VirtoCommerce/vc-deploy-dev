@@ -246,10 +246,6 @@
           "BlobName": "VirtoCommerce.Export_3.809.0-alpha.262.zip"
         },
         {
-          "Id": "VirtoCommerce.FileSystemAssets",
-          "BlobName": "VirtoCommerce.FileSystemAssets_3.807.0-alpha.117.zip"
-        },
-        {
           "Id": "VirtoCommerce.ImageTools",
           "BlobName": "VirtoCommerce.ImageTools_3.814.0-alpha.380.zip"
         },
@@ -324,6 +320,10 @@
         {
           "Id": "VirtoCommerce.AzureBlobAssets",
           "BlobName": "VirtoCommerce.AzureBlobAssets_3.813.0-alpha.152.zip"
+        },
+        {
+          "Id": "VirtoCommerce.FileSystemAssets",
+          "BlobName": "VirtoCommerce.FileSystemAssets_3.807.0-alpha.118.zip"
         }
       ]
     }
