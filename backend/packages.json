@@ -298,10 +298,6 @@
           "BlobName": "VirtoCommerce.Tax_3.808.0-alpha.206.zip"
         },
         {
-          "Id": "VirtoCommerce.CatalogPersonalization",
-          "BlobName": "VirtoCommerce.CatalogPersonalization_3.808.0-alpha.279.zip"
-        },
-        {
           "Id": "VirtoCommerce.Cart",
           "BlobName": "VirtoCommerce.Cart_3.841.0-alpha.765.zip"
         },
@@ -324,6 +320,10 @@
         {
           "Id": "VirtoCommerce.Sitemaps",
           "BlobName": "VirtoCommerce.Sitemaps_3.822.0-alpha.395.zip"
+        },
+        {
+          "Id": "VirtoCommerce.CatalogPersonalization",
+          "BlobName": "VirtoCommerce.CatalogPersonalization_3.809.0-alpha.280.zip"
         }
       ]
     }
