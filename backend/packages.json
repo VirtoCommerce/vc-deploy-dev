@@ -78,10 +78,6 @@
           "BlobName": "VirtoCommerce.OpenIdConnectModule_3.803.0-alpha.21.zip"
         },
         {
-          "Id": "VirtoCommerce.CatalogPublishing",
-          "BlobName": "VirtoCommerce.CatalogPublishing_3.809.0-alpha.372.zip"
-        },
-        {
           "Id": "VirtoCommerce.Orders",
           "BlobName": "VirtoCommerce.Orders_3.863.0-alpha.1366.zip"
         },
@@ -324,6 +320,10 @@
         {
           "Id": "VirtoCommerce.Sitemaps",
           "BlobName": "VirtoCommerce.Sitemaps_3.823.0-alpha.397.zip"
+        },
+        {
+          "Id": "VirtoCommerce.CatalogPublishing",
+          "BlobName": "VirtoCommerce.CatalogPublishing_3.809.0-alpha.376.zip"
         }
       ]
     }
