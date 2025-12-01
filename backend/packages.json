@@ -118,10 +118,6 @@
           "BlobName": "VirtoCommerce.ShipStation_3.803.0-alpha.131.zip"
         },
         {
-          "Id": "VirtoCommerce.Subscription",
-          "BlobName": "VirtoCommerce.Subscription_3.812.0-alpha.358.zip"
-        },
-        {
           "Id": "VirtoCommerce.TaskManagement",
           "BlobName": "VirtoCommerce.TaskManagement_3.906.0-alpha.160.zip"
         },
@@ -324,6 +320,10 @@
         {
           "Id": "VirtoCommerce.Return",
           "BlobName": "VirtoCommerce.Return_3.813.0-alpha.129.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Subscription",
+          "BlobName": "VirtoCommerce.Subscription_3.812.0-alpha.362.zip"
         }
       ]
     }
