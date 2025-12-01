@@ -130,10 +130,6 @@
           "BlobName": "VirtoCommerce.ElasticSearch_3.807.0-alpha.274.zip"
         },
         {
-          "Id": "VirtoCommerce.PushMessages",
-          "BlobName": "VirtoCommerce.PushMessages_3.906.0-alpha.73.zip"
-        },
-        {
           "Id": "VirtoCommerce.Return",
           "BlobName": "VirtoCommerce.Return_3.813.0-alpha.125.zip"
         },
@@ -324,6 +320,10 @@
         {
           "Id": "VirtoCommerce.Contracts",
           "BlobName": "VirtoCommerce.Contracts_3.907.0-alpha.141.zip"
+        },
+        {
+          "Id": "VirtoCommerce.PushMessages",
+          "BlobName": "VirtoCommerce.PushMessages_3.906.0-alpha.77.zip"
         }
       ]
     }
