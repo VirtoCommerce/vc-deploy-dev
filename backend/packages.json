@@ -114,10 +114,6 @@
           "BlobName": "VirtoCommerce.ElasticSearch_3.807.0-alpha.274.zip"
         },
         {
-          "Id": "VirtoCommerce.Return",
-          "BlobName": "VirtoCommerce.Return_3.813.0-alpha.125.zip"
-        },
-        {
           "Id": "VirtoCommerce.ShipStation",
           "BlobName": "VirtoCommerce.ShipStation_3.803.0-alpha.131.zip"
         },
@@ -324,6 +320,10 @@
         {
           "Id": "VirtoCommerce.GDPR",
           "BlobName": "VirtoCommerce.GDPR_3.810.0-alpha.151.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Return",
+          "BlobName": "VirtoCommerce.Return_3.813.0-alpha.129.zip"
         }
       ]
     }
