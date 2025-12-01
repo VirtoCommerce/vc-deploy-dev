@@ -310,10 +310,6 @@
           "BlobName": "VirtoCommerce.Sitemaps_3.823.0-alpha.397.zip"
         },
         {
-          "Id": "VirtoCommerce.CatalogCsvImportModule",
-          "BlobName": "VirtoCommerce.CatalogCsvImportModule_3.817.0-alpha.361.zip"
-        },
-        {
           "Id": "VirtoCommerce.Contracts",
           "BlobName": "VirtoCommerce.Contracts_3.906.0-alpha.140.zip"
         },
@@ -324,6 +320,10 @@
         {
           "Id": "VirtoCommerce.FileExperienceApi",
           "BlobName": "VirtoCommerce.FileExperienceApi_3.906.0-alpha.58.zip"
+        },
+        {
+          "Id": "VirtoCommerce.CatalogCsvImportModule",
+          "BlobName": "VirtoCommerce.CatalogCsvImportModule_3.818.0-alpha.362.zip"
         }
       ]
     }
