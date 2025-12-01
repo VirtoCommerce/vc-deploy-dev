@@ -100,10 +100,6 @@
           "Version": "3.830.0"
         },
         {
-          "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.925.0"
-        },
-        {
           "Id": "VirtoCommerce.XPickup",
           "Version": "3.804.0"
         },
@@ -310,6 +306,10 @@
         {
           "Id": "VirtoCommerce.XOrder",
           "Version": "3.914.0"
+        },
+        {
+          "Id": "VirtoCommerce.ProfileExperienceApiModule",
+          "Version": "3.926.0"
         }
       ]
     },
