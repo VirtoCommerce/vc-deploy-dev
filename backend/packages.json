@@ -32,10 +32,6 @@
           "Version": "3.802.0"
         },
         {
-          "Id": "VirtoCommerce.FileExperienceApi",
-          "Version": "3.905.0"
-        },
-        {
           "Id": "VirtoCommerce.AvalaraTax",
           "Version": "3.804.0"
         },
@@ -310,6 +306,10 @@
         {
           "Id": "VirtoCommerce.Orders",
           "Version": "3.863.0"
+        },
+        {
+          "Id": "VirtoCommerce.FileExperienceApi",
+          "Version": "3.906.0"
         }
       ]
     },
