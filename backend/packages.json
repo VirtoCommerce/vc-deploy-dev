@@ -32,10 +32,6 @@
           "Version": "3.802.0"
         },
         {
-          "Id": "VirtoCommerce.AvalaraTax",
-          "Version": "3.804.0"
-        },
-        {
           "Id": "VirtoCommerce.WhiteLabeling",
           "Version": "3.908.0"
         },
@@ -310,6 +306,10 @@
         {
           "Id": "VirtoCommerce.Marketing",
           "Version": "3.824.0"
+        },
+        {
+          "Id": "VirtoCommerce.AvalaraTax",
+          "Version": "3.805.0"
         }
       ]
     },
