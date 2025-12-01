@@ -76,10 +76,6 @@
           "Version": "3.800.0"
         },
         {
-          "Id": "VirtoCommerce.CustomerReviews",
-          "Version": "3.906.0"
-        },
-        {
           "Id": "VirtoCommerce.ElasticSearch",
           "Version": "3.806.0"
         },
@@ -310,6 +306,10 @@
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "Version": "3.926.0"
+        },
+        {
+          "Id": "VirtoCommerce.CustomerReviews",
+          "Version": "3.907.0"
         }
       ]
     },
