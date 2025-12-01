@@ -114,10 +114,6 @@
           "BlobName": "VirtoCommerce.Datatrans_3.801.0-alpha.87.zip"
         },
         {
-          "Id": "VirtoCommerce.AuthorizeNetPayment",
-          "BlobName": "VirtoCommerce.AuthorizeNetPayment_3.806.0-alpha.90.zip"
-        },
-        {
           "Id": "VirtoCommerce.Quote",
           "BlobName": "VirtoCommerce.Quote_3.913.0-alpha.477.zip"
         },
@@ -324,6 +320,10 @@
         {
           "Id": "VirtoCommerce.PushMessages",
           "BlobName": "VirtoCommerce.PushMessages_3.907.0-alpha.78.zip"
+        },
+        {
+          "Id": "VirtoCommerce.AuthorizeNetPayment",
+          "BlobName": "VirtoCommerce.AuthorizeNetPayment_3.806.0-alpha.94.zip"
         }
       ]
     }
