@@ -12,7 +12,7 @@
       "Container": "packages",
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
-         {
+        {
           "Id": "VirtoCommerce.PageBuilderModule",
           "BlobName": "VirtoCommerce.PageBuilderModule_3.829.0-pr-89-0c6d.zip"
         },
@@ -40,23 +40,27 @@
           "Id": "VirtoCommerce.Notifications",
           "BlobName": "VirtoCommerce.Notifications_3.828.0-pr-186-de4a.zip"
         },
-        { 
-           "Id": "VirtoCommerce.EnvironmentsCompare",
+        {
+          "Id": "VirtoCommerce.EnvironmentsCompare",
           "BlobName": "VirtoCommerce.EnvironmentsCompare_3.800.0-pr-1-9dde.zip"
-         }
+        },
+        {
+          "Id": "VirtoCommerce.AvalaraTax",
+          "BlobName": "VirtoCommerce.AvalaraTax_3.805.0.zip"
+        }
       ]
     },
     {
       "Name": "GithubReleases",
       "ModuleSources": [
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
-                       ],
-      "Modules": [ 
-         {
-           "Id": "VirtoCommerce.SeqLog",
-           "Version": "3.800.0"
-         },
-          {
+      ],
+      "Modules": [
+        {
+          "Id": "VirtoCommerce.SeqLog",
+          "Version": "3.800.0"
+        },
+        {
           "Id": "VirtoCommerce.FileSystemAssets",
           "Version": "3.805.0"
         },
@@ -107,10 +111,6 @@
         {
           "Id": "VirtoCommerce.Core",
           "Version": "3.822.0"
-        },
-        {
-          "Id": "VirtoCommerce.AvalaraTax",
-          "Version": "3.804.0"
         },
         {
           "Id": "VirtoCommerce.WhiteLabeling",
@@ -348,4 +348,3 @@
     }
   ]
 }
-
