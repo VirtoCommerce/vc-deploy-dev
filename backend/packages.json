@@ -314,16 +314,16 @@
           "BlobName": "VirtoCommerce.AvalaraTax_3.805.0-alpha.330.zip"
         },
         {
-          "Id": "VirtoCommerce.GDPR",
-          "BlobName": "VirtoCommerce.GDPR_3.809.0-alpha.150.zip"
-        },
-        {
           "Id": "VirtoCommerce.AuthorizeNetPayment",
           "BlobName": "VirtoCommerce.AuthorizeNetPayment_3.807.0-alpha.95.zip"
         },
         {
           "Id": "VirtoCommerce.Marketing",
           "BlobName": "VirtoCommerce.Marketing_3.824.0-alpha.901.zip"
+        },
+        {
+          "Id": "VirtoCommerce.GDPR",
+          "BlobName": "VirtoCommerce.GDPR_3.810.0-alpha.151.zip"
         }
       ]
     }
