@@ -314,16 +314,16 @@
           "BlobName": "VirtoCommerce.CatalogCsvImportModule_3.818.0-alpha.362.zip"
         },
         {
-          "Id": "VirtoCommerce.Orders",
-          "BlobName": "VirtoCommerce.Orders_3.863.0-alpha.1370.zip"
-        },
-        {
           "Id": "VirtoCommerce.Contracts",
           "BlobName": "VirtoCommerce.Contracts_3.907.0-alpha.141.zip"
         },
         {
           "Id": "VirtoCommerce.PushMessages",
           "BlobName": "VirtoCommerce.PushMessages_3.906.0-alpha.77.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Orders",
+          "BlobName": "VirtoCommerce.Orders_3.864.0-alpha.1371.zip"
         }
       ]
     }
