@@ -314,16 +314,16 @@
           "BlobName": "VirtoCommerce.Sitemaps_3.823.0-alpha.397.zip"
         },
         {
-          "Id": "VirtoCommerce.CatalogPublishing",
-          "BlobName": "VirtoCommerce.CatalogPublishing_3.809.0-alpha.376.zip"
-        },
-        {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
           "BlobName": "VirtoCommerce.CatalogCsvImportModule_3.817.0-alpha.361.zip"
         },
         {
           "Id": "VirtoCommerce.Contracts",
           "BlobName": "VirtoCommerce.Contracts_3.906.0-alpha.140.zip"
+        },
+        {
+          "Id": "VirtoCommerce.CatalogPublishing",
+          "BlobName": "VirtoCommerce.CatalogPublishing_3.810.0-alpha.377.zip"
         }
       ]
     }
