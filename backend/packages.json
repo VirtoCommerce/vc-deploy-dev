@@ -324,6 +324,10 @@
         {
           "Id": "VirtoCommerce.CustomerReviews",
           "Version": "3.907.0"
+        },
+        {
+          "Id": "VirtoCommerce.Notifications",
+          "Version": "3.830.0"
         }
       ]
     }
