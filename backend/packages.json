@@ -310,6 +310,10 @@
         {
           "Id": "VirtoCommerce.CustomerReviews",
           "Version": "3.907.0"
+        },
+        {
+        "Id": "VirtoCommerce.XFrontend",
+          "Version": "3.800.0"
         }
       ]
     },
