@@ -328,7 +328,11 @@
         {
           "Id": "VirtoCommerce.Notifications",
           "Version": "3.830.0"
-        }
+        },
+        {
+          "Id": "VirtoCommerce.Loyalty",
+          "Version": "3.800.0"
+        } 
       ]
     }
   ]
