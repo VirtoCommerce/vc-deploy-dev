@@ -310,6 +310,10 @@
         {
         "Id": "VirtoCommerce.XFrontend",
           "Version": "3.800.0"
+        },
+        {
+          "Id": "VirtoCommerce.Notifications",
+          "Version": "3.830.0"
         }
       ]
     },
