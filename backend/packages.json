@@ -164,10 +164,6 @@
           "Version": "3.823.0"
         },
         {
-          "Id": "VirtoCommerce.Catalog",
-          "Version": "3.904.0"
-        },
-        {
           "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
           "Version": "4.806.0"
         },
@@ -308,12 +304,16 @@
           "Version": "3.907.0"
         },
         {
-        "Id": "VirtoCommerce.XFrontend",
+          "Id": "VirtoCommerce.XFrontend",
           "Version": "3.800.0"
         },
         {
           "Id": "VirtoCommerce.Notifications",
           "Version": "3.830.0"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "Version": "3.905.0"
         }
       ]
     },
