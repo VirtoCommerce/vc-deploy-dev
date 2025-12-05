@@ -16,6 +16,9 @@
       "Modules": [
        {
           "BlobName": "VirtoCommerce.PageBuilderModule_3.830.0-pr-90-ddb3.zip"
+       },
+       {
+          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.927.0-alpha.317-vcst-4395.zip"
        }
       ]
     },
@@ -27,7 +30,7 @@
       "Modules": [
         {
         "Id": "VirtoCommerce.XFrontend",
-          "Version": "3.800.0"
+          "Version": "3.801.0"
         },
         {
           "Id": "VirtoCommerce.Contentful",
@@ -316,10 +319,6 @@
         {
           "Id": "VirtoCommerce.XOrder",
           "Version": "3.914.0"
-        },
-        {
-          "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.926.0"
         },
         {
           "Id": "VirtoCommerce.CustomerReviews",
