@@ -102,10 +102,6 @@
           "BlobName": "VirtoCommerce.TaskManagement_3.906.0-alpha.160.zip"
         },
         {
-          "Id": "VirtoCommerce.BuilderIO",
-          "BlobName": "VirtoCommerce.BuilderIO_3.807.0-alpha.83.zip"
-        },
-        {
           "Id": "VirtoCommerce.XPickup",
           "BlobName": "VirtoCommerce.XPickup_3.805.0-alpha.20.zip"
         },
@@ -324,6 +320,10 @@
         {
           "Id": "VirtoCommerce.Seo",
           "BlobName": "VirtoCommerce.Seo_3.813.0-alpha.62.zip"
+        },
+        {
+          "Id": "VirtoCommerce.BuilderIO",
+          "BlobName": "VirtoCommerce.BuilderIO_3.807.0-alpha.88.zip"
         }
       ]
     }
