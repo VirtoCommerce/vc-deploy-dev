@@ -28,6 +28,9 @@
        },
        {
           "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.927.0-pr-124-10f4.zip"
+       },
+       {
+         "Blobname": "VirtoCommerce.Catalog_3.906.0-pr-846-673e.zip"
        }
       ]
     },
@@ -188,10 +191,6 @@
         {
           "Id": "VirtoCommerce.Store",
           "Version": "3.823.0"
-        },
-        {
-          "Id": "VirtoCommerce.Catalog",
-          "Version": "3.904.0"
         },
         {
           "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
