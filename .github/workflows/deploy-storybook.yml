@@ -6,7 +6,7 @@ on:
     paths:
       - 'storybook/**'
     branches: 
-      - 'vcst-*'
+      - 'vcptcore-*'
 
 jobs:
   gitops:
