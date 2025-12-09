@@ -354,6 +354,7 @@
       name: storybook
       enabled: true
       imageRepository: ghcr.io/virtocommerce/vc-theme-b2b-vue-storybook
+      imageTag: 2.37.0-alpha.2162-vcst-4355-variant-picker-e446be47
       servicePlan: F1
       type: standalone
       probePath: /
