@@ -186,6 +186,15 @@
       Tax__Avalara__AccountNumber: 2000188799
       Tax__Avalara__LicenseKey: 16BC3F87E836E15C
       Videos__GoogleApiKey: AIzaSyD5A4oFeSgaMQnMo3OiaqUSJ23SQGELiA4
+
+       EnvironmentsCompare__CurrentEnvironmentName: VCST-QA
+      EnvironmentsCompare__ComparableEnvironments__0__Name: VCPTCORE_QA
+      EnvironmentsCompare__ComparableEnvironments__0__Url: https://vcptcore-qa.govirto.com
+      EnvironmentsCompare__ComparableEnvironments__0__ApiKey: 456poi111
+      EnvironmentsCompare__ComparableEnvironments__1__Name: VCPTCORE_QA1
+      EnvironmentsCompare__ComparableEnvironments__1__Url: https://vcptcore-qa1.govirto.com
+      EnvironmentsCompare__ComparableEnvironments__1__ApiKey: 456poi111
+      
     secretConfig:
       Search__ElasticSearch8__Key: elastic8
       PushMessages__FcmSenderOptions__PrivateKey: fcm-private-key-new
