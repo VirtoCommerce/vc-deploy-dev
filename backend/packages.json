@@ -300,10 +300,6 @@
           "Version": "3.830.0"
         },
         {
-          "Id": "VirtoCommerce.Catalog",
-          "Version": "3.905.0"
-        },
-        {
           "Id": "VirtoCommerce.Search",
           "Version": "3.822.0"
         },
@@ -314,6 +310,10 @@
         {
           "Id": "VirtoCommerce.BuilderIO",
           "Version": "3.807.0"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "Version": "3.906.0"
         }
       ]
     },
