@@ -1,8 +1,8 @@
 { 
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.917.0", 
+  "PlatformVersion": "3.918.0-pr-2967-f138-add-missed-auth-to-openapi-f1380b7c", 
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.917.0",
+  "PlatformImageTag": "3.918.0-pr-2967-f138-add-missed-auth-to-openapi-f1380b7c",
   "PlatformAssetUrl": "",  
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
