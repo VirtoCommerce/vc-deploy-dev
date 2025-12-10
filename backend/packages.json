@@ -35,7 +35,11 @@
         { 
            "Id": "VirtoCommerce.EnvironmentsCompare",
           "BlobName": "VirtoCommerce.EnvironmentsCompare_3.800.0-pr-1-8297.zip"
-         }
+         },
+        {
+          "Id": "VirtoCommerce.ElasticSearch9",
+          "BlobName": "VirtoCommerce.ElasticSearch9_3.805.0-pr-8-6061.zip"
+        }
       ]
     },
     {
@@ -171,10 +175,6 @@
         {
           "Id": "VirtoCommerce.ElasticAppSearch",
           "Version": "3.816.0"
-        },
-        {
-          "Id": "VirtoCommerce.ElasticSearch9",
-          "Version": "3.804.0"
         },
         {
           "Id": "VirtoCommerce.Export",
