@@ -292,10 +292,6 @@
           "Version": "3.800.0"
         },
         {
-          "Id": "VirtoCommerce.Notifications",
-          "Version": "3.830.0"
-        },
-        {
           "Id": "VirtoCommerce.Search",
           "Version": "3.822.0"
         },
@@ -314,6 +310,10 @@
         {
           "Id": "VirtoCommerce.LuceneSearch",
           "Version": "3.807.0"
+        },
+        {
+          "Id": "VirtoCommerce.Notifications",
+          "Version": "3.831.0"
         }
       ]
     },
