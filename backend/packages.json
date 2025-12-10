@@ -31,6 +31,9 @@
        },
        {
           "BlobName": "VirtoCommerce.EnvironmentsCompare_3.800.0-pr-1-8297.zip"
+       },
+       {
+          "BlobName": "VirtoCommerce.XCMS_3.905.0-pr-16-b5f8.zip"
        }
       ]
     },
@@ -251,10 +254,6 @@
         {
           "Id": "VirtoCommerce.FileExperienceApi",
           "Version": "3.906.0"
-        },
-        {
-          "Id": "VirtoCommerce.XCMS",
-          "Version": "3.904.0"
         },
         {
           "Id": "VirtoCommerce.PushMessages",
