@@ -56,11 +56,14 @@
       #one order template for all stores
       VirtoCommerce__SequenceNumberGenerator__UseGlobalTenantId: true
       
-      #notifications_settings
-
-      EnvironmentsCompare__ComparableEnvironments__0__Name: vcptcore-qa.govirto.com
+      #EnvironmentCompareSettings
+      
+      EnvironmentsCompare__CurrentEnvironmentName: VCPTCORE-QA1
+      EnvironmentsCompare__ComparableEnvironments__0__Name: VCPTCORE-QA
       EnvironmentsCompare__ComparableEnvironments__0__Url: https://vcptcore-qa.govirto.com
-      EnvironmentsCompare__ComparableEnvironments__0__ApiKey: 456poi111
+      EnvironmentsCompare__ComparableEnvironments__0__ApiKey: 403b50c6-9078-4c77-934e-8ddc578eb919
+      
+      #Notifications_settings
       
       #Notifications__Gateway: SendGrid
       Notifications__Gateway: Smtp
