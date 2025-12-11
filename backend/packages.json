@@ -106,10 +106,6 @@
           "BlobName": "VirtoCommerce.ApplicationInsights_3.808.0-alpha.41.zip"
         },
         {
-          "Id": "VirtoCommerce.Assets",
-          "BlobName": "VirtoCommerce.Assets_3.816.0-alpha.166.zip"
-        },
-        {
           "Id": "VirtoCommerce.AzureAD",
           "BlobName": "VirtoCommerce.AzureAD_3.806.0-alpha.56.zip"
         },
@@ -328,6 +324,10 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "BlobName": "VirtoCommerce.Catalog_3.908.0-alpha.2438.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Assets",
+          "BlobName": "VirtoCommerce.Assets_3.816.0-alpha.168.zip"
         }
       ]
     }
