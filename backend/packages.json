@@ -136,10 +136,6 @@
           "Version": "3.813.0"
         },
         {
-          "Id": "VirtoCommerce.Store",
-          "Version": "3.823.0"
-        },
-        {
           "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
           "Version": "4.806.0"
         },
@@ -318,6 +314,10 @@
         {
           "Id": "VirtoCommerce.FileExperienceApi",
           "Version": "3.907.0"
+        },
+        {
+          "Id": "VirtoCommerce.Store",
+          "Version": "3.824.0"
         }
       ]
     },
