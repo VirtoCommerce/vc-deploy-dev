@@ -204,10 +204,6 @@
           "Version": "3.863.0"
         },
         {
-          "Id": "VirtoCommerce.FileExperienceApi",
-          "Version": "3.906.0"
-        },
-        {
           "Id": "VirtoCommerce.XCMS",
           "Version": "3.904.0"
         },
@@ -318,6 +314,10 @@
         {
           "Id": "VirtoCommerce.Assets",
           "Version": "3.816.0"
+        },
+        {
+          "Id": "VirtoCommerce.FileExperienceApi",
+          "Version": "3.907.0"
         }
       ]
     },
