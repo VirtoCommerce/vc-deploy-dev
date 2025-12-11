@@ -1,8 +1,8 @@
 { 
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.918.0-pr-2967-f138-add-missed-auth-to-openapi-f1380b7c", 
+  "PlatformVersion": "3.919.0-pr-2968-efa9-vcst-4353-efa90605", 
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.918.0-pr-2967-f138-add-missed-auth-to-openapi-f1380b7c",
+  "PlatformImageTag": "3.919.0-pr-2968-efa9-vcst-4353-efa90605",
   "PlatformAssetUrl": "",  
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -27,6 +27,18 @@
         }, 
         { 
           "BlobName": "VirtoCommerce.EnvironmentsCompare_3.800.0-pr-1-8297.zip"
+        },
+         {
+          "Id": "VirtoCommerce.Assets",
+          "BlobName": "VirtoCommerce.Assets_3.816.0-pr-34-899e.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Content",
+          "BlobName": "VirtoCommerce.Content_3.835.0-pr-206-ad8c.zip"
+        },
+         {
+          "Id": "VirtoCommerce.FileExperienceApi",
+          "BlobName": "VirtoCommerce.FileExperienceApi_3.907.0-pr-17-86bf.zip"
         }
       ]
     },
@@ -115,10 +127,6 @@
         {
           "Id": "VirtoCommerce.ApplicationInsights",
           "Version": "3.807.0"
-        },
-        {
-          "Id": "VirtoCommerce.Assets",
-          "Version": "3.815.0"
         },
         {
           "Id": "VirtoCommerce.AzureAD",
@@ -213,10 +221,6 @@
           "Version": "3.807.0"
         },
         {
-          "Id": "VirtoCommerce.Content",
-          "Version": "3.834.0"
-        },
-        {
           "Id": "VirtoCommerce.Sitemaps",
           "Version": "3.822.0"
         },
@@ -235,10 +239,6 @@
         {
           "Id": "VirtoCommerce.Orders",
           "Version": "3.863.0"
-        },
-        {
-          "Id": "VirtoCommerce.FileExperienceApi",
-          "Version": "3.906.0"
         },
         {
           "Id": "VirtoCommerce.XCMS",
