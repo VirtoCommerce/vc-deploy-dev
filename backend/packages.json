@@ -298,10 +298,6 @@
           "BlobName": "VirtoCommerce.BuilderIO_3.808.0-alpha.89.zip"
         },
         {
-          "Id": "VirtoCommerce.Catalog",
-          "BlobName": "VirtoCommerce.Catalog_3.907.0-alpha.2436.zip"
-        },
-        {
           "Id": "VirtoCommerce.LuceneSearch",
           "BlobName": "VirtoCommerce.LuceneSearch_3.808.0-alpha.225.zip"
         },
@@ -328,6 +324,10 @@
         {
           "Id": "VirtoCommerce.EnvironmentsCompare",
           "BlobName": "VirtoCommerce.EnvironmentsCompare_3.801.0-alpha.7.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "BlobName": "VirtoCommerce.Catalog_3.907.0-alpha.2437.zip"
         }
       ]
     }
