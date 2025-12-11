@@ -150,10 +150,6 @@
           "BlobName": "VirtoCommerce.ImageTools_3.814.0-alpha.380.zip"
         },
         {
-          "Id": "VirtoCommerce.Store",
-          "BlobName": "VirtoCommerce.Store_3.824.0-alpha.752.zip"
-        },
-        {
           "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
           "BlobName": "VirtoCommerce.GoogleEcommerceAnalytics_4.807.0-alpha.211.zip"
         },
@@ -328,6 +324,10 @@
         {
           "Id": "VirtoCommerce.XCMS",
           "BlobName": "VirtoCommerce.XCMS_3.905.0-alpha.43.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Store",
+          "BlobName": "VirtoCommerce.Store_3.824.0-alpha.754.zip"
         }
       ]
     }
