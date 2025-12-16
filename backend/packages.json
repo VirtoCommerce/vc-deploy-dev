@@ -312,12 +312,12 @@
           "Version": "3.905.0"
         },
         {
-          "Id": "VirtoCommerce.Customer",
-          "Version": "3.847.0"
-        },
-        {
           "Id": "VirtoCommerce.PushMessages",
           "Version": "3.907.0"
+        },
+        {
+          "Id": "VirtoCommerce.Customer",
+          "Version": "3.848.0"
         }
       ]
     },
