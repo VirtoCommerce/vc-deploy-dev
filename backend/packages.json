@@ -196,10 +196,6 @@
           "Version": "3.863.0"
         },
         {
-          "Id": "VirtoCommerce.PushMessages",
-          "Version": "3.906.0"
-        },
-        {
           "Id": "VirtoCommerce.AuthorizeNetPayment",
           "Version": "3.806.0"
         },
@@ -318,6 +314,10 @@
         {
           "Id": "VirtoCommerce.Customer",
           "Version": "3.847.0"
+        },
+        {
+          "Id": "VirtoCommerce.PushMessages",
+          "Version": "3.907.0"
         }
       ]
     },
