@@ -26,14 +26,6 @@
           "BlobName": "VirtoCommerce.Loyalty_3.800.0-pr-5-c684.zip"
         }, 
         {
-          "Id": "VirtoCommerce.PushMessages",
-          "BlobName": "VirtoCommerce.PushMessages_3.907.0-pr-21-8f06.zip"
-        },
-         {
-          "Id": "VirtoCommerce.Customer",
-          "BlobName": "VirtoCommerce.Customer_3.848.0-pr-289-6804.zip"
-        },
-        {
           "Id": "VirtoCommerce.Notifications",
           "BlobName": "VirtoCommerce.Notifications_3.832.0-pr-188-1be8.zip"
         }
@@ -340,6 +332,14 @@
         {
           "Id": "VirtoCommerce.XCMS",
           "Version": "3.905.0"
+        },
+        {
+          "Id": "VirtoCommerce.PushMessages",
+          "Version": "3.907.0"
+        },
+        {
+          "Id": "VirtoCommerce.Customer",
+          "Version": "3.848.0"
         }
       ]
     }
