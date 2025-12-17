@@ -28,6 +28,14 @@
         {
           "Id": "VirtoCommerce.Notifications",
           "BlobName": "VirtoCommerce.Notifications_3.832.0-pr-188-1be8.zip"
+        },
+         {
+          "Id": "VirtoCommerce.Xapi",
+          "BlobName": "VirtoCommerce.Xapi_3.930.0-pr-59-ea67.zip"
+        },
+          {
+          "Id": "VirtoCommerce.ProfileExperienceApiModule",
+          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.927.0-pr-126-89b1.zip"
         }
       ]
     },
@@ -190,10 +198,6 @@
           "Version": "3.808.0"
         },
         {
-          "Id": "VirtoCommerce.Xapi",
-          "Version": "3.929.0"
-        },
-        {
           "Id": "VirtoCommerce.AzureBlobAssets",
           "Version": "3.813.0"
         },
@@ -260,10 +264,6 @@
         {
           "Id": "VirtoCommerce.XOrder",
           "Version": "3.914.0"
-        },
-        {
-          "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.926.0"
         },
         {
           "Id": "VirtoCommerce.CustomerReviews",
