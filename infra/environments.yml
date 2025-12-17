@@ -1,7 +1,7 @@
 - name: vcst-qa
   gitops: true
   production: false
-  servicePlan: P1
+  servicePlan: B2
   platform:
     headers:
       Cross-Origin-Resource-Policy: cross-origin
