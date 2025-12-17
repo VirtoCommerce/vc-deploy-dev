@@ -141,6 +141,8 @@
       #Search__ElasticSearch__EnableCompatibilityMode: true
       #Search__Provider: ElasticSearch
       Search__Provider: AzureSearch
+
+      VirtoCommerce__Platfrom__Dashboard__Enabled: false
       
       #Search__Provider: ElasticSearch9
       #Search__Provider: ElasticSearch8
