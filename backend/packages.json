@@ -32,6 +32,10 @@
          {
           "Id": "VirtoCommerce.Customer",
           "BlobName": "VirtoCommerce.Customer_3.848.0-pr-289-6804.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Notifications",
+          "BlobName": "VirtoCommerce.Notifications_3.832.0-pr-188-1be8.zip"
         }
       ]
     },
@@ -292,10 +296,6 @@
         {
           "Id": "VirtoCommerce.LuceneSearch",
           "Version": "3.807.0"
-        },
-        {
-          "Id": "VirtoCommerce.Notifications",
-          "Version": "3.831.0"
         },
         {
           "Id": "VirtoCommerce.Inventory",
