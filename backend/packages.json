@@ -16,7 +16,10 @@
       "Modules": [
        {
           "BlobName": "VirtoCommerce.PageBuilderModule_3.830.0-pr-90-ddb3.zip"
-       }
+       },
+       {
+         "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.927.0-pr-124-907a.zip"
+       }        
       ]
     },
     {
@@ -328,11 +331,7 @@
         {
           "Id": "VirtoCommerce.Customer",
           "Version": "3.847.0"
-        },
-        {
-          "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.926.0"
-        },
+        },   
         {
           "Id": "VirtoCommerce.Loyalty",
           "Version": "3.800.0"
