@@ -40,6 +40,10 @@
         {
           "Id": "VirtoCommerce.Inventory",
           "BlobName": "VirtoCommerce.Inventory_3.817.0-pr-158-1f3a.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Orders",
+          "BlobName": "VirtoCommerce.Orders_3.864.0-pr-476-8379.zip"
         }
       ]
     },
@@ -224,10 +228,6 @@
         {
           "Id": "VirtoCommerce.Contracts",
           "Version": "3.906.0"
-        },
-        {
-          "Id": "VirtoCommerce.Orders",
-          "Version": "3.863.0"
         },
         {
           "Id": "VirtoCommerce.AuthorizeNetPayment",
