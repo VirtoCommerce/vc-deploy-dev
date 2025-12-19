@@ -36,6 +36,10 @@
           {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.927.0-pr-126-89b1.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Inventory",
+          "BlobName": "VirtoCommerce.Inventory_3.817.0-pr-158-1f3a.zip"
         }
       ]
     },
@@ -288,10 +292,6 @@
         {
           "Id": "VirtoCommerce.LuceneSearch",
           "Version": "3.807.0"
-        },
-        {
-          "Id": "VirtoCommerce.Inventory",
-          "Version": "3.816.0"
         },
         {
           "Id": "VirtoCommerce.Payment",
