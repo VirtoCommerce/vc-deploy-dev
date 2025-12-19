@@ -201,7 +201,7 @@
   storefront:
     enabled: false
     themes:
-      B2B-store: https://github.com/VirtoCommerce/vc-frontend/releases/download/2.37.0/vc-theme-b2b-vue-2.37.0.zip
+      B2B-store: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-2.38.0-pr-2092-96e1-96e1335b.zip
     headers:
         Cross-Origin-Embedder-Policy: unsafe-none
         Cross-Origin-Resource-Policy: cross-origin
