@@ -44,6 +44,10 @@
         {
           "Id": "VirtoCommerce.Orders",
           "BlobName": "VirtoCommerce.Orders_3.864.0-pr-476-8379.zip"
+        },
+          {
+          "Id": "VirtoCommerce.Catalog",
+          "BlobName": "VirtoCommerce.Catalog_3.908.0-pr-848-9c94.zip"
         }
       ]
     },
@@ -308,10 +312,6 @@
         {
           "Id": "VirtoCommerce.EnvironmentsCompare",
           "Version": "3.800.0"
-        },
-        {
-          "Id": "VirtoCommerce.Catalog",
-          "Version": "3.907.0"
         },
         {
           "Id": "VirtoCommerce.Content",
