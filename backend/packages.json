@@ -31,6 +31,10 @@
         {
           "Id": "VirtoCommerce.Orders",
           "BlobName": "VirtoCommerce.Orders_3.864.0-pr-476-8379.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Search",
+          "BlobName": "VirtoCommerce.Search_3.823.0-pr-128-80da.zip"
         }
       ]
     },
@@ -275,10 +279,6 @@
         {
           "Id": "VirtoCommerce.XFrontend",
           "Version": "3.800.0"
-        },
-        {
-          "Id": "VirtoCommerce.Search",
-          "Version": "3.822.0"
         },
         {
           "Id": "VirtoCommerce.Seo",
