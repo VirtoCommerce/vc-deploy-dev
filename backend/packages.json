@@ -236,10 +236,6 @@
           "Version": "3.800.0"
         },
         {
-          "Id": "VirtoCommerce.Search",
-          "Version": "3.822.0"
-        },
-        {
           "Id": "VirtoCommerce.Seo",
           "Version": "3.812.0"
         },
@@ -318,6 +314,10 @@
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "Version": "3.927.0"
+        },
+        {
+          "Id": "VirtoCommerce.Search",
+          "Version": "3.823.0"
         }
       ]
     },
