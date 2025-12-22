@@ -12,7 +12,7 @@
       "Container": "packages",
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
-         {
+        {
           "Id": "VirtoCommerce.PageBuilderModule",
           "BlobName": "VirtoCommerce.PageBuilderModule_3.829.0-pr-89-0c6d.zip"
         },
@@ -39,6 +39,10 @@
         {
           "Id": "VirtoCommerce.AuditLog",
           "BlobName": "VirtoCommerce.AuditLog_3.812.0-pr-9-bd47.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ProfileExperienceApiModule",
+          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.927.0.zip"
         }
       ]
     },
@@ -46,13 +50,13 @@
       "Name": "GithubReleases",
       "ModuleSources": [
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
-                       ],
-      "Modules": [ 
+      ],
+      "Modules": [
         {
-           "Id": "VirtoCommerce.SeqLog",
-           "Version": "3.800.0"
-         },
-         {
+          "Id": "VirtoCommerce.SeqLog",
+          "Version": "3.800.0"
+        },
+        {
           "Id": "VirtoCommerce.Contentful",
           "Version": "3.804.0"
         },
@@ -273,10 +277,6 @@
           "Version": "3.914.0"
         },
         {
-          "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.926.0"
-        },
-        {
           "Id": "VirtoCommerce.CustomerReviews",
           "Version": "3.907.0"
         },
@@ -351,8 +351,8 @@
         {
           "Id": "VirtoCommerce.Inventory",
           "Version": "3.817.0"
-        }      ]
+        }
+      ]
     }
   ]
 }
-
