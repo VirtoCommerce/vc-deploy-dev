@@ -164,10 +164,6 @@
           "Version": "3.808.0"
         },
         {
-          "Id": "VirtoCommerce.Xapi",
-          "Version": "3.929.0"
-        },
-        {
           "Id": "VirtoCommerce.AzureBlobAssets",
           "Version": "3.813.0"
         },
@@ -318,6 +314,10 @@
         {
           "Id": "VirtoCommerce.Orders",
           "Version": "3.864.0"
+        },
+        {
+          "Id": "VirtoCommerce.Xapi",
+          "Version": "3.930.0"
         }
       ]
     },
