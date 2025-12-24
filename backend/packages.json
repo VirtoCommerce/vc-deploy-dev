@@ -280,10 +280,6 @@
           "Version": "3.824.0"
         },
         {
-          "Id": "VirtoCommerce.XCMS",
-          "Version": "3.905.0"
-        },
-        {
           "Id": "VirtoCommerce.PushMessages",
           "Version": "3.907.0"
         },
@@ -318,6 +314,10 @@
         {
           "Id": "VirtoCommerce.Search",
           "Version": "3.823.0"
+        },
+        {
+          "Id": "VirtoCommerce.XCMS",
+          "Version": "3.906.0"
         }
       ]
     },
