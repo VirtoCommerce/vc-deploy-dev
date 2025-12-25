@@ -16,6 +16,9 @@
       "Modules": [
        {
           "BlobName": "VirtoCommerce.PageBuilderModule_3.831.0-pr-92-89f7.zip"
+       },
+       {
+          "BlobName": "VirtoCommerce.Orders_3.865.0-pr-479-cdef.zip"
        }
       ]
     },
@@ -312,10 +315,6 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "Version": "3.908.0"
-        },
-        {
-          "Id": "VirtoCommerce.Orders",
-          "Version": "3.864.0"
         },
         {
           "Id": "VirtoCommerce.Xapi",
