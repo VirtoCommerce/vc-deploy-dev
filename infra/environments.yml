@@ -97,7 +97,7 @@
       IdentityOptions__Lockout__DefaultLockoutTimeSpan: 0:15:0
       IdentityOptions__Lockout__MaxFailedAccessAttempts: 5
       
-      IdentityOptions__User__MaxPasswordAge: 30
+      IdentityOptions__User__MaxPasswordAge: 100
       IdentityOptions__User__RemindPasswordExpiryInDay: 7
       
       # Authorize.Net settings
