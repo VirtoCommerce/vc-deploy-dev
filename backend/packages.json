@@ -1,6 +1,6 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.919.0",
+  "PlatformVersion": "3.920.0",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -90,7 +90,7 @@
           },
           {
             "Id": "VirtoCommerce.Content",
-            "Version": "3.835.0"
+            "Version": "3.836.0"
           },
           {
             "Id": "VirtoCommerce.Contentful",
@@ -106,7 +106,7 @@
           },
           {
             "Id": "VirtoCommerce.Customer",
-            "Version": "3.848.0"
+            "Version": "3.849.0"
           },
           {
             "Id": "VirtoCommerce.CustomerExportImport",
@@ -314,7 +314,7 @@
           },
           {
             "Id": "VirtoCommerce.XCMS",
-            "Version": "3.906.0"
+            "Version": "3.907.0"
           },
           {
             "Id": "VirtoCommerce.XFrontend",
