@@ -1,8 +1,8 @@
 {
 "ManifestVersion": "2.0",
-  "PlatformVersion": "3.919.0",
+  "PlatformVersion": "3.920.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.919.0",
+  "PlatformImageTag": "3.920.0",
   "PlatformAssetUrl": "",
 
   "ModuleSources": [
@@ -16,16 +16,7 @@
       "Modules": [
        {
           "BlobName": "VirtoCommerce.PageBuilderModule_3.832.0-pr-91-483c.zip"
-       },
-       {
-          "BlobName": "VirtoCommerce.XCMS_3.907.0-pr-15-4061.zip"
-       },
-       {
-          "BlobName": "VirtoCommerce.Content_3.836.0-alpha.1037-vcst-4380.zip"
-       },
-       {
-          "BlobName": "VirtoCommerce.XCart_3.952.0-pr-97-39a7.zip"
-       }
+       }       
       ]
     },
     {
@@ -95,6 +86,10 @@
           "Version": "3.809.0"
         },
         {
+          "Id": "VirtoCommerce.Content",
+          "Version": "3.836.0"
+        },
+        {
           "Id": "VirtoCommerce.Contentful",
           "Version": "3.805.0"
         },
@@ -108,7 +103,7 @@
         },
         {
           "Id": "VirtoCommerce.Customer",
-          "Version": "3.848.0"
+          "Version": "3.849.0"
         },
         {
           "Id": "VirtoCommerce.CustomerExportImport",
@@ -311,9 +306,17 @@
           "Version": "3.930.0"
         },
         {
+          "Id": "VirtoCommerce.XCMS",
+          "Version": "3.907.0"
+        },
+        {
+          "Id": "VirtoCommerce.XCart",
+          "Version": "3.952.0"
+        },
+        {
           "Id": "VirtoCommerce.XCatalog",
           "Version": "3.942.0"
-        }, 
+        },
         {
           "Id": "VirtoCommerce.XFrontend",
           "Version": "3.801.0"
