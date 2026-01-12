@@ -24,6 +24,9 @@
         },
         { 
           "BlobName": "VirtoCommerce.Loyalty_3.800.0-pr-5-c684.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Catalog_3.909.0-pr-852-5ea6.zip"
         }
       ]
     },
@@ -304,10 +307,6 @@
         {
           "Id": "VirtoCommerce.Inventory",
           "Version": "3.817.0"
-        },
-        {
-          "Id": "VirtoCommerce.Catalog",
-          "Version": "3.908.0"
         },
         {
           "Id": "VirtoCommerce.Xapi",
