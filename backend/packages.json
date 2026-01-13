@@ -1,8 +1,8 @@
 { 
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.920.0", 
+  "PlatformVersion": "3.1000.0-pr-2965-812e-net10-812e168e", 
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.920.0",
+  "PlatformImageTag": "3.1000.0-pr-2965-812e-net10-812e168e",
   "PlatformAssetUrl": "",  
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -27,6 +27,12 @@
         },
         {
           "BlobName": "VirtoCommerce.Catalog_3.908.0.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Customer_3.1000.0-pr-291-271a.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Xapi_3.1000.0-pr-61-8136.zip"
         }
       ]
     },
@@ -309,10 +315,6 @@
           "Version": "3.817.0"
         },
         {
-          "Id": "VirtoCommerce.Xapi",
-          "Version": "3.930.0"
-        },
-        {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "Version": "3.927.0"
         },
@@ -323,10 +325,6 @@
         {
           "Id": "VirtoCommerce.Orders",
           "Version": "3.865.0"
-        },
-        {
-          "Id": "VirtoCommerce.Customer",
-          "Version": "3.849.0"
         },
         {
           "Id": "VirtoCommerce.Content",
