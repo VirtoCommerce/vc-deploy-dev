@@ -13,9 +13,6 @@
       "Container": "packages",
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
-       {
-          "BlobName": "VirtoCommerce.AIDocumentProcessing_3.901.0-pr-6-5f80.zip"
-        },
         {
           "BlobName": "VirtoCommerce.PageBuilderModule_3.831.0.zip"
         },
