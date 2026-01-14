@@ -35,6 +35,10 @@
         {
           "Id": "VirtoCommerce.Marketing",
           "BlobName": "VirtoCommerce.Marketing_3.825.0-pr-253-c796.zip"
+        },
+         {
+          "Id": "VirtoCommerce.Orders",
+          "BlobName": "VirtoCommerce.Orders_3.866.0-pr-478-cd4f.zip"
         }
       ]
     },
@@ -327,10 +331,6 @@
         {
           "Id": "VirtoCommerce.Search",
           "Version": "3.823.0"
-        },
-        {
-          "Id": "VirtoCommerce.Orders",
-          "Version": "3.865.0"
         },
         {
           "Id": "VirtoCommerce.Customer",
