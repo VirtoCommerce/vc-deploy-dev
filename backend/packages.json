@@ -16,7 +16,10 @@
       "Modules": [
        {
           "BlobName": "VirtoCommerce.PageBuilderModule_3.834.0-pr-91-12c4.zip"
-       }       
+       },
+       {
+          "BlobName": "VirtoCommerce.Catalog_3.908.0-pr-850-f6fb.zip"
+       }   
       ]
     },
     {
@@ -68,10 +71,6 @@
         {
           "Id": "VirtoCommerce.Cart",
           "Version": "3.840.0"
-        },
-        {
-          "Id": "VirtoCommerce.Catalog",
-          "Version": "3.908.0"
         },
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
