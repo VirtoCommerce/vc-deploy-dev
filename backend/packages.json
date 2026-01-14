@@ -31,6 +31,10 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "BlobName": "VirtoCommerce.Catalog_3.909.0-pr-852-ed24.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Marketing",
+          "BlobName": "VirtoCommerce.Marketing_3.825.0-pr-253-c796.zip"
         }
       ]
     },
@@ -227,10 +231,6 @@
         {
           "Id": "VirtoCommerce.GDPR",
           "Version": "3.809.0"
-        },
-        {
-          "Id": "VirtoCommerce.Marketing",
-          "Version": "3.824.0"
         },
         {
           "Id": "VirtoCommerce.AvalaraTax",
