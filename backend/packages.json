@@ -40,10 +40,6 @@
       ],
       "Modules": [
         {
-          "Id": "VirtoCommerce.SqlQueries",
-          "Version": "3.803.0"
-        },
-        {
           "Id": "VirtoCommerce.Contentful",
           "Version": "3.805.0"
         },
