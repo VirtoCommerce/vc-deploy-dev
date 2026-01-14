@@ -41,6 +41,10 @@
                        ],
       "Modules": [ 
          {
+           "Id": "VirtoCommerce.SeqLog",
+           "Version": "3.800.0"
+         },
+         {
           "Id": "VirtoCommerce.Contentful",
           "Version": "3.805.0"
         },
