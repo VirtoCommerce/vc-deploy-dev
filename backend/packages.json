@@ -206,10 +206,6 @@
           "BlobName": "VirtoCommerce.GDPR_3.810.0-alpha.151.zip"
         },
         {
-          "Id": "VirtoCommerce.Marketing",
-          "BlobName": "VirtoCommerce.Marketing_3.825.0-alpha.902.zip"
-        },
-        {
           "Id": "VirtoCommerce.AvalaraTax",
           "BlobName": "VirtoCommerce.AvalaraTax_3.806.0-alpha.331.zip"
         },
@@ -328,6 +324,10 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "BlobName": "VirtoCommerce.Catalog_3.911.0-alpha.2446.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Marketing",
+          "BlobName": "VirtoCommerce.Marketing_3.825.0-alpha.905.zip"
         }
       ]
     }
