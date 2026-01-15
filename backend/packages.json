@@ -39,6 +39,10 @@
          {
           "Id": "VirtoCommerce.Orders",
           "BlobName": "VirtoCommerce.Orders_3.866.0-pr-483-5c3d.zip"
+        },
+         {
+          "Id": "VirtoCommerce.XCatalog",
+          "BlobName": "VirtoCommerce.XCatalog_3.943.0-pr-83-f962.zip"
         }
       ]
     },
@@ -251,10 +255,6 @@
         {
           "Id": "VirtoCommerce.DynamicAssociationsModule",
           "Version": "3.811.0"
-        },
-        {
-          "Id": "VirtoCommerce.XCatalog",
-          "Version": "3.942.0"
         },
         {
           "Id": "VirtoCommerce.Quote",
