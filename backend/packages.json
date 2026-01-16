@@ -43,6 +43,10 @@
          {
           "Id": "VirtoCommerce.XCatalog",
           "BlobName": "VirtoCommerce.XCatalog_3.943.0-pr-83-f962.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Customer",
+          "BlobName": "VirtoCommerce.Customer_3.850.0-pr-290-5cea.zip"
         }
       ]
     },
@@ -331,10 +335,6 @@
         {
           "Id": "VirtoCommerce.Search",
           "Version": "3.823.0"
-        },
-        {
-          "Id": "VirtoCommerce.Customer",
-          "Version": "3.849.0"
         },
         {
           "Id": "VirtoCommerce.Content",
