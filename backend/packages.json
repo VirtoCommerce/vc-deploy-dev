@@ -30,23 +30,27 @@
         },
         {
           "Id": "VirtoCommerce.Catalog",
-          "BlobName": "VirtoCommerce.Catalog_3.909.0-pr-852-ed24.zip"
+          "BlobName": "VirtoCommerce.Catalog_3.911.0-pr-855-a302.zip"
         },
         {
           "Id": "VirtoCommerce.Marketing",
-          "BlobName": "VirtoCommerce.Marketing_3.825.0-pr-253-d233.zip"
-        },
-         {
-          "Id": "VirtoCommerce.Orders",
-          "BlobName": "VirtoCommerce.Orders_3.866.0-pr-483-5c3d.zip"
+          "BlobName": "VirtoCommerce.Marketing_3.826.0-pr-254-d4bf.zip"
         },
          {
           "Id": "VirtoCommerce.XCatalog",
           "BlobName": "VirtoCommerce.XCatalog_3.943.0-pr-83-f962.zip"
         },
         {
-          "Id": "VirtoCommerce.Customer",
-          "BlobName": "VirtoCommerce.Customer_3.850.0-pr-290-1786.zip"
+          "Id": "VirtoCommerce.Core",
+          "BlobName": "VirtoCommerce.Core_3.825.0-pr-244-cf98.zip"
+        },
+         {
+          "Id": "VirtoCommerce.DynamicAssociationsModule",
+          "BlobName": "VirtoCommerce.DynamicAssociationsModule_3.812.0-pr-54-ef16.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Subscription",
+          "BlobName": "VirtoCommerce.Subscription_3.813.0-pr-109-2c26.zip"
         }
       ]
     },
@@ -83,10 +87,6 @@
         {
           "Id": "VirtoCommerce.XRecommend",
           "Version": "3.904.0"
-        },
-        {
-          "Id": "VirtoCommerce.SqlQueries",
-          "Version": "3.801.0"
         },
         {
           "Id": "VirtoCommerce.OpenSearch",
@@ -143,10 +143,6 @@
         {
           "Id": "VirtoCommerce.AzureAD",
           "Version": "3.805.0"
-        },
-        {
-          "Id": "VirtoCommerce.Core",
-          "Version": "3.824.0"
         },
         {
           "Id": "VirtoCommerce.EventBus",
@@ -249,16 +245,8 @@
           "Version": "3.805.0"
         },
         {
-          "Id": "VirtoCommerce.Subscription",
-          "Version": "3.812.0"
-        },
-        {
           "Id": "VirtoCommerce.Return",
           "Version": "3.813.0"
-        },
-        {
-          "Id": "VirtoCommerce.DynamicAssociationsModule",
-          "Version": "3.811.0"
         },
         {
           "Id": "VirtoCommerce.Quote",
@@ -347,7 +335,24 @@
         {
           "Id": "VirtoCommerce.XCart",
           "Version": "3.952.0"
-        }     ]
+        },
+        {
+          "Id": "VirtoCommerce.SqlQueries",
+          "Version": "3.803.0"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "Version": "3.910.0"
+        },
+        {
+          "Id": "VirtoCommerce.Orders",
+          "Version": "3.866.0"
+        },
+        {
+          "Id": "VirtoCommerce.Customer",
+          "Version": "3.850.0"
+        }     
+      ]
     }
   ]
 }
