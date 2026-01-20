@@ -57,8 +57,11 @@
       #VirtoCommerce__SampleDataUrl: ""
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
       Swagger__UI__Enabled: false
+      
       Search__OrderFullTextSearchEnabled: true
       Search__ContentFullTextSearchEnabled: true
+      Search__PickupLocationFullTextSearchEnabled: true
+      
       Search__ElasticSearch__EnableCompatibilityMode: true
       Search__ElasticAppSearch__EnableHttpCompression: true
       Search__ElasticAppSearch__Endpoint: https://enterprise-search-vc03.govirto.com
