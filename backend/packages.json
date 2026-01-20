@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.1000.0-pr-2965-ee26-net10-ee26d1e2",
+  "PlatformVersion": "3.1000.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.1000.0-pr-2965-ee26-net10-ee26d1e2",
+  "PlatformImageTag": "3.1000.0",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -306,6 +306,18 @@
         {
           "Id": "VirtoCommerce.XCart",
           "Version": "3.952.0"
+        },
+        {
+          "Id": "VirtoCommerce.Xapi",
+          "Version": "3.1000.0"
+        },
+        {
+          "Id": "VirtoCommerce.Customer",
+          "Version": "3.1000.0"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "Version": "3.908.0"
         }
       ]
     },
@@ -314,19 +326,9 @@
       "Container": "packages",
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
-        {
-          "BlobName": "VirtoCommerce.PageBuilderModule_3.831.0.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.Catalog_3.908.0.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.Customer_3.1000.0-pr-291-271a.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.Xapi_3.1000.0-pr-61-8136.zip"
-        }
-
+         {
+            "BlobName": "VirtoCommerce.PageBuilderModule_3.831.0.zip"
+         }
       ]
     }
   ]

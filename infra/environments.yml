@@ -1,7 +1,7 @@
 - name: vcptcore-loadtest
   gitops: true
   production: false
-  servicePlan: P3
+  servicePlan: P2
   platform:
     #dbName: vcptcore-regress
     #dbProvider: Azure Database for PostgreSQL
