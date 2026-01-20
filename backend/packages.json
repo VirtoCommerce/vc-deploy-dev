@@ -302,10 +302,6 @@
           "BlobName": "VirtoCommerce.SqlQueries_3.804.0-alpha.22.zip"
         },
         {
-          "Id": "VirtoCommerce.Marketing",
-          "BlobName": "VirtoCommerce.Marketing_3.826.0-alpha.907.zip"
-        },
-        {
           "Id": "VirtoCommerce.Orders",
           "BlobName": "VirtoCommerce.Orders_3.867.0-alpha.1384.zip"
         },
@@ -328,6 +324,10 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "BlobName": "VirtoCommerce.Catalog_3.911.0-alpha.2447.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Marketing",
+          "BlobName": "VirtoCommerce.Marketing_3.826.0-alpha.908.zip"
         }
       ]
     }
