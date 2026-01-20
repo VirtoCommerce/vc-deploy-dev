@@ -160,10 +160,6 @@
           "Version": "3.813.0"
         },
         {
-          "Id": "VirtoCommerce.FileSystemAssets",
-          "Version": "3.807.0"
-        },
-        {
           "Id": "VirtoCommerce.Sitemaps",
           "Version": "3.822.0"
         },
@@ -318,6 +314,10 @@
         {
           "Id": "VirtoCommerce.Subscription",
           "Version": "3.813.0"
+        },
+        {
+          "Id": "VirtoCommerce.FileSystemAssets",
+          "Version": "3.808.0"
         }
       ]
     },
