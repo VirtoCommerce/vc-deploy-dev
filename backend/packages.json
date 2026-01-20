@@ -178,10 +178,6 @@
           "BlobName": "VirtoCommerce.AzureBlobAssets_3.814.0-alpha.153.zip"
         },
         {
-          "Id": "VirtoCommerce.FileSystemAssets",
-          "BlobName": "VirtoCommerce.FileSystemAssets_3.808.0-alpha.119.zip"
-        },
-        {
           "Id": "VirtoCommerce.Sitemaps",
           "BlobName": "VirtoCommerce.Sitemaps_3.823.0-alpha.397.zip"
         },
@@ -328,6 +324,10 @@
         {
           "Id": "VirtoCommerce.Customer",
           "BlobName": "VirtoCommerce.Customer_3.851.0-alpha.938.zip"
+        },
+        {
+          "Id": "VirtoCommerce.FileSystemAssets",
+          "BlobName": "VirtoCommerce.FileSystemAssets_3.808.0-alpha.122.zip"
         }
       ]
     }
