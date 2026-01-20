@@ -202,10 +202,6 @@
           "BlobName": "VirtoCommerce.AvalaraTax_3.806.0-alpha.331.zip"
         },
         {
-          "Id": "VirtoCommerce.Subscription",
-          "BlobName": "VirtoCommerce.Subscription_3.813.0-alpha.363.zip"
-        },
-        {
           "Id": "VirtoCommerce.Return",
           "BlobName": "VirtoCommerce.Return_3.814.0-alpha.130.zip"
         },
@@ -328,6 +324,10 @@
         {
           "Id": "VirtoCommerce.Marketing",
           "BlobName": "VirtoCommerce.Marketing_3.826.0-alpha.908.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Subscription",
+          "BlobName": "VirtoCommerce.Subscription_3.813.0-alpha.366.zip"
         }
       ]
     }
