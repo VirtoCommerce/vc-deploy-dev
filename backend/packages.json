@@ -318,16 +318,16 @@
           "BlobName": "VirtoCommerce.Subscription_3.813.0-alpha.366.zip"
         },
         {
-          "Id": "VirtoCommerce.Core",
-          "BlobName": "VirtoCommerce.Core_3.825.0-alpha.1675.zip"
-        },
-        {
           "Id": "VirtoCommerce.Catalog",
           "BlobName": "VirtoCommerce.Catalog_3.911.0-alpha.2447.zip"
         },
         {
           "Id": "VirtoCommerce.Marketing",
           "BlobName": "VirtoCommerce.Marketing_3.827.0-alpha.909.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Core",
+          "BlobName": "VirtoCommerce.Core_3.826.0-alpha.1676.zip"
         }
       ]
     }
