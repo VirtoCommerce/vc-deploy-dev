@@ -192,10 +192,6 @@
           "Version": "3.813.0"
         },
         {
-          "Id": "VirtoCommerce.XCatalog",
-          "Version": "3.942.0"
-        },
-        {
           "Id": "VirtoCommerce.Quote",
           "Version": "3.913.0"
         },
@@ -318,6 +314,10 @@
         {
           "Id": "VirtoCommerce.Xapi",
           "Version": "3.1000.0"
+        },
+        {
+          "Id": "VirtoCommerce.XCatalog",
+          "Version": "3.943.0"
         }
       ]
     },
