@@ -129,9 +129,9 @@
       PushMessages__FcmReceiverOptions__AppId: 1:995027985115:web:324f963313f91886e5e2fe
       PushMessages__FcmReceiverOptions__VapidKey: BC8WwWRnCNgs_slIACjwBrNu_iQSiY7xlq48NBSobEITxzye9L_K_aEmMdB1LWPn7dMX2G8zm4LcLrklHgW-4iY
       
-      #VirtoCommerce__Settings__Overrides__Force__Global__GoogleAnalytics4__EnableTracking: true
-      #VirtoCommerce__Settings__Overrides__Force__Global__GoogleAnalytics4__MeasurementId: MeasurementId-FromConfig
-      #VirtoCommerce__Settings__Overrides__Force__Global__GoogleAnalytics4__GtmContainerId: GtmContainerId-FromConfig
+      VirtoCommerce__Settings__Overrides__Force__Global__GoogleAnalytics4_EnableTracking: true
+      VirtoCommerce__Settings__Overrides__Force__Global__GoogleAnalytics4_MeasurementId: MeasurementId-FromConfig
+      VirtoCommerce__Settings__Overrides__Force__Global__GoogleAnalytics4_GtmContainerId: GtmContainerId-FromConfig
       VirtoCommerce__Settings__Overrides__Default__Global__GoogleAnalytics4_EnableTracking: true
       VirtoCommerce__Settings__Overrides__Default__Global__GoogleAnalytics4_MeasurementId: MeasurementId-FromConfig
       VirtoCommerce__Settings__Overrides__Default__Global__GoogleAnalytics4_GtmContainerId: GtmContainerId-FromConfig
