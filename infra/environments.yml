@@ -135,6 +135,10 @@
       VirtoCommerce__Settings__Overrides__Default__Global__GoogleAnalytics4_EnableTracking: true
       VirtoCommerce__Settings__Overrides__Default__Global__GoogleAnalytics4_MeasurementId: MeasurementId-FromConfig
       VirtoCommerce__Settings__Overrides__Default__Global__GoogleAnalytics4_GtmContainerId: GtmContainerId-FromConfig
+      VirtoCommerce__Settings__Overrides__Tenants__Store__B2B-store__GoogleAnalytics4_EnableTracking: false
+      VirtoCommerce__Settings__Overrides__Tenants__Store__B2B-store__GoogleAnalytics4_MeasurementId: MeasurementId-FromConfig-tenant
+      
+
            
       #Search__Settings
       
