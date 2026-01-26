@@ -27,14 +27,6 @@
         {
           "Id": "VirtoCommerce.AIDocumentProcessing",
           "BlobName": "VirtoCommerce.AIDocumentProcessing_3.901.0-pr-6-5f80.zip"
-        },
-        {
-          "Id": "VirtoCommerce.Content",
-          "BlobName": "VirtoCommerce.Content_3.837.0-pr-208-66a0.zip"
-        },
-         {
-          "Id": "VirtoCommerce.XCMS",
-          "BlobName": "VirtoCommerce.XCMS_3.908.0-pr-18-881c.zip"
         }
       ]
     },
@@ -48,7 +40,7 @@
            "Id": "VirtoCommerce.SeqLog",
            "Version": "3.800.0"
          },
-        {
+         {
           "Id": "VirtoCommerce.Contentful",
           "Version": "3.805.0"
         },
@@ -205,10 +197,6 @@
           "Version": "3.809.0"
         },
         {
-          "Id": "VirtoCommerce.CatalogCsvImportModule",
-          "Version": "3.817.0"
-        },
-        {
           "Id": "VirtoCommerce.Contracts",
           "Version": "3.906.0"
         },
@@ -297,8 +285,12 @@
           "Version": "3.927.0"
         },
         {
-          "Id": "VirtoCommerce.Search",
-          "Version": "3.823.0"
+          "Id": "VirtoCommerce.Content",
+          "Version": "3.836.0"
+        },
+        {
+          "Id": "VirtoCommerce.XCMS",
+          "Version": "3.907.0"
         },
         {
           "Id": "VirtoCommerce.XCart",
@@ -319,10 +311,6 @@
         {
           "Id": "VirtoCommerce.Core",
           "Version": "3.825.0"
-        },
-        {
-          "Id": "VirtoCommerce.Catalog",
-          "Version": "3.911.0"
         },
         {
           "Id": "VirtoCommerce.DynamicAssociationsModule",
@@ -347,6 +335,18 @@
         {
           "Id": "VirtoCommerce.XCatalog",
           "Version": "3.943.0"
+        },
+        {
+          "Id": "VirtoCommerce.Search",
+          "Version": "3.824.0"
+        },
+        {
+          "Id": "VirtoCommerce.CatalogCsvImportModule",
+          "Version": "3.818.0"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "Version": "3.912.0"
         }
       ]
     }
