@@ -132,9 +132,9 @@
       #VirtoCommerce__Settings__Overrides__Force__Global__GoogleAnalytics4__EnableTracking: true
       #VirtoCommerce__Settings__Overrides__Force__Global__GoogleAnalytics4__MeasurementId: MeasurementId-FromConfig
       #VirtoCommerce__Settings__Overrides__Force__Global__GoogleAnalytics4__GtmContainerId: GtmContainerId-FromConfig
-      VirtoCommerce__Settings__Overrides__Default__Global__GoogleAnalytics4__EnableTracking: true
-      VirtoCommerce__Settings__Overrides__Default__Global__GoogleAnalytics4__MeasurementId: MeasurementId-FromConfig
-      VirtoCommerce__Settings__Overrides__Default__Global__GoogleAnalytics4__GtmContainerId: GtmContainerId-FromConfig
+      VirtoCommerce__Settings__Overrides__Default__Global__GoogleAnalytics4_EnableTracking: true
+      VirtoCommerce__Settings__Overrides__Default__Global__GoogleAnalytics4_MeasurementId: MeasurementId-FromConfig
+      VirtoCommerce__Settings__Overrides__Default__Global__GoogleAnalytics4_GtmContainerId: GtmContainerId-FromConfig
            
       #Search__Settings
       
