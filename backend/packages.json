@@ -12,7 +12,7 @@
       "Container": "packages",
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
-         {
+        {
           "Id": "VirtoCommerce.PageBuilderModule",
           "BlobName": "VirtoCommerce.PageBuilderModule_3.835.0-pr-94-6d94.zip"
         },
@@ -33,7 +33,7 @@
         },
         {
           "Id": "VirtoCommerce.XCMS",
-          "BlobName": "VirtoCommerce.XCMS_3.908.0-pr-18-881c.zip"
+          "BlobName": "VirtoCommerce.XCMS_3.908.0.zip"
         }
       ]
     },
@@ -41,13 +41,13 @@
       "Name": "GithubReleases",
       "ModuleSources": [
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
-                       ],
-      "Modules": [ 
-         {
-           "Id": "VirtoCommerce.SeqLog",
-           "Version": "3.800.0"
-         },
-         {
+      ],
+      "Modules": [
+        {
+          "Id": "VirtoCommerce.SeqLog",
+          "Version": "3.800.0"
+        },
+        {
           "Id": "VirtoCommerce.Contentful",
           "Version": "3.805.0"
         },
@@ -351,4 +351,3 @@
     }
   ]
 }
-
