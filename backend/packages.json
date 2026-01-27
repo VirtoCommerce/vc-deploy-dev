@@ -256,10 +256,6 @@
           "Version": "3.927.0"
         },
         {
-          "Id": "VirtoCommerce.XCMS",
-          "Version": "3.907.0"
-        },
-        {
           "Id": "VirtoCommerce.XCart",
           "Version": "3.952.0"
         },
@@ -318,6 +314,10 @@
         {
           "Id": "VirtoCommerce.Content",
           "Version": "3.837.0"
+        },
+        {
+          "Id": "VirtoCommerce.XCMS",
+          "Version": "3.908.0"
         }
       ]
     },
