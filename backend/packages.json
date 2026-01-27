@@ -14,7 +14,7 @@
       "Modules": [
          {
           "Id": "VirtoCommerce.PageBuilderModule",
-          "BlobName": "VirtoCommerce.PageBuilderModule_3.834.0.zip"
+          "BlobName": "VirtoCommerce.PageBuilderModule_3.835.0-pr-94-6d94.zip"
         },
         {
           "Id": "VirtoCommerce.PowerBiReports",
@@ -26,6 +26,14 @@
         },
         {
           "BlobName": "VirtoCommerce.AIDocumentProcessing_3.901.0-pr-7-05c5.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Content",
+          "BlobName": "VirtoCommerce.Content_3.837.0-pr-208-66a0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XCMS",
+          "BlobName": "VirtoCommerce.XCMS_3.908.0-pr-18-881c.zip"
         }
       ]
     },
@@ -282,14 +290,6 @@
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "Version": "3.927.0"
-        },
-        {
-          "Id": "VirtoCommerce.Content",
-          "Version": "3.836.0"
-        },
-        {
-          "Id": "VirtoCommerce.XCMS",
-          "Version": "3.907.0"
         },
         {
           "Id": "VirtoCommerce.XCart",
