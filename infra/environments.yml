@@ -38,6 +38,7 @@
       # Return detailed error information if login failed
       PasswordLogin__DetailedErrors: true
       IdentityOptions__Lockout__MaxFailedAccessAttempts: 5
+      IdentityOptions__User__MaxPasswordAge: 0
       #Search
       Search__Provider: ElasticAppSearch
       Search__Scope: virtostart  
@@ -166,8 +167,8 @@
   storefront:
     enabled: false
     themes:
-      B2B-store: https://github.com/VirtoCommerce/vc-frontend/releases/download/2.39.0/vc-theme-b2b-vue-2.39.0.zip
-      B2B-loyalty: https://github.com/VirtoCommerce/vc-frontend/releases/download/2.39.0/vc-theme-b2b-vue-2.39.0.zip
+      B2B-store: https://github.com/VirtoCommerce/vc-frontend/releases/download/2.40.0/vc-theme-b2b-vue-2.40.0.zip
+      B2B-loyalty: https://github.com/VirtoCommerce/vc-frontend/releases/download/2.40.0/vc-theme-b2b-vue-2.40.0.zip
     headers:
         Cross-Origin-Embedder-Policy: unsafe-none
         Cross-Origin-Resource-Policy: cross-origin
