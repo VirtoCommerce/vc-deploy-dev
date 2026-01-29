@@ -238,10 +238,6 @@
           "BlobName": "VirtoCommerce.EnvironmentsCompare_3.801.0-alpha.7.zip"
         },
         {
-          "Id": "VirtoCommerce.FileExperienceApi",
-          "BlobName": "VirtoCommerce.FileExperienceApi_3.908.0-alpha.62.zip"
-        },
-        {
           "Id": "VirtoCommerce.Store",
           "BlobName": "VirtoCommerce.Store_3.825.0-alpha.755.zip"
         },
@@ -324,6 +320,10 @@
         {
           "Id": "VirtoCommerce.Assets",
           "BlobName": "VirtoCommerce.Assets_3.1001.0-alpha.173.zip"
+        },
+        {
+          "Id": "VirtoCommerce.FileExperienceApi",
+          "BlobName": "VirtoCommerce.FileExperienceApi_3.1000.0-alpha.64.zip"
         }
       ]
     }
