@@ -292,10 +292,6 @@
           "Version": "3.818.0"
         },
         {
-          "Id": "VirtoCommerce.Catalog",
-          "Version": "3.912.0"
-        },
-        {
           "Id": "VirtoCommerce.Content",
           "Version": "3.837.0"
         },
@@ -318,6 +314,10 @@
         {
           "Id": "VirtoCommerce.FileExperienceApi",
           "Version": "3.1000.0"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "Version": "3.913.0"
         }
       ]
     },
