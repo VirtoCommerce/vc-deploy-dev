@@ -12,7 +12,7 @@
       "Container": "packages",
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
-         {
+        {
           "Id": "VirtoCommerce.PageBuilderModule",
           "BlobName": "VirtoCommerce.PageBuilderModule_3.835.0-pr-94-6d94.zip"
         },
@@ -39,7 +39,7 @@
           "Id": "VirtoCommerce.XCatalog",
           "BlobName": "VirtoCommerce.XCatalog_3.944.0-pr-84-12a6.zip"
         },
-         {
+        {
           "Id": "VirtoCommerce.Catalog",
           "BlobName": "VirtoCommerce.Catalog_3.913.0-pr-857-b208.zip"
         },
@@ -50,6 +50,10 @@
         {
           "Id": "VirtoCommerce.XOrder",
           "BlobName": "VirtoCommerce.XOrder_3.915.0-pr-36-c8e4.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ProfileExperienceApiModule",
+          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.928.0.zip"
         }
       ]
     },
@@ -57,13 +61,13 @@
       "Name": "GithubReleases",
       "ModuleSources": [
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
-                       ],
-      "Modules": [ 
-         {
-           "Id": "VirtoCommerce.SeqLog",
-           "Version": "3.800.0"
-         },
-         {
+      ],
+      "Modules": [
+        {
+          "Id": "VirtoCommerce.SeqLog",
+          "Version": "3.800.0"
+        },
+        {
           "Id": "VirtoCommerce.Contentful",
           "Version": "3.805.0"
         },
@@ -296,10 +300,6 @@
           "Version": "3.817.0"
         },
         {
-          "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.927.0"
-        },
-        {
           "Id": "VirtoCommerce.XCart",
           "Version": "3.952.0"
         },
@@ -351,4 +351,3 @@
     }
   ]
 }
-
