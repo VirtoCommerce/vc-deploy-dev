@@ -258,10 +258,6 @@
           "BlobName": "VirtoCommerce.Marketing_3.827.0-alpha.909.zip"
         },
         {
-          "Id": "VirtoCommerce.Core",
-          "BlobName": "VirtoCommerce.Core_3.826.0-alpha.1676.zip"
-        },
-        {
           "Id": "VirtoCommerce.DynamicAssociationsModule",
           "BlobName": "VirtoCommerce.DynamicAssociationsModule_3.813.0-alpha.186.zip"
         },
@@ -324,6 +320,10 @@
         {
           "Id": "VirtoCommerce.XOrder",
           "BlobName": "VirtoCommerce.XOrder_3.916.0-alpha.87.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Core",
+          "BlobName": "VirtoCommerce.Core_3.1000.0-alpha.1677.zip"
         }
       ]
     }
