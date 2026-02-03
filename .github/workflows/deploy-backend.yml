@@ -40,6 +40,7 @@ jobs:
     - name: Download Dockerfile
       run: |
         curl -sSL -o ./backend/Dockerfile https://github.com/VirtoCommerce/vc-docker/raw/refs/heads/feat/net10/linux/platform/Dockerfile
+        curl -sSL -o ./wait-for-it.sh https://github.com/VirtoCommerce/vc-docker/raw/refs/heads/feat/net10/linux/platform/wait-for-it.sh
 
     - name: Build and Publish Docker Image to Virto container registry
       run: |
