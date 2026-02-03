@@ -40,7 +40,7 @@ jobs:
     - name: Prepare files for Docker image
       run: |
         curl -sSL -o ./backend/Dockerfile https://github.com/VirtoCommerce/vc-docker/raw/refs/heads/feat/net10/linux/platform/Dockerfile
-        curl -sSL -o ./backend/wait-for-it.sh https://github.com/VirtoCommerce/vc-docker/raw/refs/heads/feat/net10/linux/platform/wait-for-it.sh
+        curl -sSL -o ./wait-for-it.sh https://github.com/VirtoCommerce/vc-docker/raw/refs/heads/feat/net10/linux/platform/wait-for-it.sh
         mkdir ./backend/publish
         mv ./backend/platform/* ./backend/publish
 
