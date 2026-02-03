@@ -192,10 +192,6 @@
           "Version": "3.913.0"
         },
         {
-          "Id": "VirtoCommerce.XOrder",
-          "Version": "3.914.0"
-        },
-        {
           "Id": "VirtoCommerce.CustomerReviews",
           "Version": "3.907.0"
         },
@@ -318,6 +314,10 @@
         {
           "Id": "VirtoCommerce.Payment",
           "Version": "3.813.0"
+        },
+        {
+          "Id": "VirtoCommerce.XOrder",
+          "Version": "3.915.0"
         }
       ]
     },
