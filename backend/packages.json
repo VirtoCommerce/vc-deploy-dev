@@ -216,10 +216,6 @@
           "Version": "3.807.0"
         },
         {
-          "Id": "VirtoCommerce.Payment",
-          "Version": "3.812.0"
-        },
-        {
           "Id": "VirtoCommerce.CyberSourcePayment",
           "Version": "3.803.0"
         },
@@ -318,6 +314,10 @@
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "Version": "3.928.0"
+        },
+        {
+          "Id": "VirtoCommerce.Payment",
+          "Version": "3.813.0"
         }
       ]
     },
