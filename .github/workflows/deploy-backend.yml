@@ -37,6 +37,10 @@ jobs:
       id: vars
       run: echo "sha_short=$(git rev-parse --short HEAD)" >> $GITHUB_OUTPUT
 
+    - name: Download Dockerfile
+      run: |
+        curl -sSL -o ./backend/Dockerfile https://github.com/VirtoCommerce/vc-docker/raw/refs/heads/feat/net10/linux/platform/Dockerfile
+
     - name: Build and Publish Docker Image to Virto container registry
       run: |
         vc-build BuildAndPush -DockerUsername $DOCKER_LOGIN -DockerPassword $DOCKER_PASSWORD -DockerfilePath $DOCKERFILE_PATH -DockerImageName $IMAGE_REPOSITORY -DockerImageTag $TAG -DockerRegistryUrl $CONTAINER_REGISTRY
@@ -75,8 +79,8 @@ jobs:
           update_latest: 'true'
           release_branch: virtostart
 
-    - name: Update app
-      run: |
-        vc-build CloudEnvSetParameter -EnvironmentName virtostart-main -CloudToken ${{ secrets.VIRTOSTART_PLATFORM_TOKEN }} -HelmParameters platform.image.tag=$TAG
-      env:
-        TAG: ${{ env.PLATFORM_VERSION }}-${{ steps.vars.outputs.sha_short }}
+    # - name: Update app
+    #   run: |
+    #     vc-build CloudEnvSetParameter -EnvironmentName virtostart-main -CloudToken ${{ secrets.VIRTOSTART_PLATFORM_TOKEN }} -HelmParameters platform.image.tag=$TAG
+    #   env:
+    #     TAG: ${{ env.PLATFORM_VERSION }}-${{ steps.vars.outputs.sha_short }}
