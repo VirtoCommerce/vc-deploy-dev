@@ -268,10 +268,6 @@
           "Version": "3.1000.0"
         },
         {
-          "Id": "VirtoCommerce.Search",
-          "Version": "3.824.0"
-        },
-        {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
           "Version": "3.818.0"
         },
@@ -317,6 +313,10 @@
         },
         {
           "Id": "VirtoCommerce.Core",
+          "Version": "3.1000.0"
+        },
+        {
+          "Id": "VirtoCommerce.Search",
           "Version": "3.1000.0"
         }
       ]
