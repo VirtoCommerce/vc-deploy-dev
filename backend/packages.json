@@ -30,6 +30,10 @@
         {
           "Id": "VirtoCommerce.XCatalog",
           "BlobName": "VirtoCommerce.XCatalog_3.945.0-alpha.166-graphql-negation-filter-issue.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Orders",
+          "BlobName": "VirtoCommerce.Orders_3.867.0-pr-484-377e.zip"
         }
       ]
     },
@@ -274,10 +278,6 @@
         {
           "Id": "VirtoCommerce.SqlQueries",
           "Version": "3.803.0"
-        },
-        {
-          "Id": "VirtoCommerce.Orders",
-          "Version": "3.866.0"
         },
         {
           "Id": "VirtoCommerce.Marketing",
