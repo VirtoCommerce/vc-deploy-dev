@@ -26,6 +26,10 @@
         },
         {
           "BlobName": "VirtoCommerce.AIDocumentProcessing_3.901.0-pr-7-05c5.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ImageTools",
+          "BlobName": "VirtoCommerce.ImageTools_3.814.0-pr-121-e266.zip"
         }
       ]
     },
@@ -146,10 +150,6 @@
         {
           "Id": "VirtoCommerce.Export",
           "Version": "3.808.0"
-        },
-        {
-          "Id": "VirtoCommerce.ImageTools",
-          "Version": "3.813.0"
         },
         {
           "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
