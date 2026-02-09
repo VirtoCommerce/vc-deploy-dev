@@ -120,10 +120,6 @@
           "Version": "3.808.0"
         },
         {
-          "Id": "VirtoCommerce.ImageTools",
-          "Version": "3.813.0"
-        },
-        {
           "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
           "Version": "4.806.0"
         },
@@ -318,6 +314,10 @@
         {
           "Id": "VirtoCommerce.XCatalog",
           "Version": "3.945.0"
+        },
+        {
+          "Id": "VirtoCommerce.ImageTools",
+          "Version": "3.814.0"
         }
       ]
     },
