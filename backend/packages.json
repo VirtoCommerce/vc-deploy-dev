@@ -34,6 +34,10 @@
         {
           "Id": "VirtoCommerce.XOrder",
           "BlobName": "VirtoCommerce.XOrder_3.916.0-pr-37-03b8.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Orders",
+          "BlobName": "VirtoCommerce.Orders_3.869.0-pr-486-5592.zip"
         }
       ]
     },
@@ -334,10 +338,6 @@
         {
           "Id": "VirtoCommerce.ElasticSearch8",
           "Version": "3.825.0"
-        },
-        {
-          "Id": "VirtoCommerce.Orders",
-          "Version": "3.868.0"
         },
         {
           "Id": "VirtoCommerce.Contracts",
