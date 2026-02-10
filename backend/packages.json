@@ -16,6 +16,9 @@
       "Modules": [
        {
           "BlobName": "VirtoCommerce.PageBuilderModule_3.835.0-pr-94-6d94.zip"
+       },
+       {
+          "BlobName": "VirtoCommerce.Notifications_3.1001.0-pr-192-ab3e.zip"
        }
       ]
     },
@@ -196,10 +199,6 @@
         {
           "Id": "VirtoCommerce.News",
           "Version": "3.812.0"
-        },
-        {
-          "Id": "VirtoCommerce.Notifications",
-          "Version": "3.832.0"
         },
         {
           "Id": "VirtoCommerce.OpenIdConnectModule",
