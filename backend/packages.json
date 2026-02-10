@@ -184,10 +184,6 @@
           "Version": "3.800.0"
         },
         {
-          "Id": "VirtoCommerce.Seo",
-          "Version": "3.812.0"
-        },
-        {
           "Id": "VirtoCommerce.BuilderIO",
           "Version": "3.807.0"
         },
@@ -317,6 +313,10 @@
         },
         {
           "Id": "VirtoCommerce.WebHooks",
+          "Version": "3.1000.0"
+        },
+        {
+          "Id": "VirtoCommerce.Seo",
           "Version": "3.1000.0"
         }
       ]
