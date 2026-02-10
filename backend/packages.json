@@ -30,6 +30,10 @@
         {
           "Id": "VirtoCommerce.ImageTools",
           "BlobName": "VirtoCommerce.ImageTools_3.814.0-pr-121-e266.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XOrder",
+          "BlobName": "VirtoCommerce.XOrder_3.916.0-pr-37-03b8.zip"
         }
       ]
     },
@@ -314,10 +318,6 @@
         {
           "Id": "VirtoCommerce.Payment",
           "Version": "3.813.0"
-        },
-        {
-          "Id": "VirtoCommerce.XOrder",
-          "Version": "3.915.0"
         },
         {
           "Id": "VirtoCommerce.Core",
