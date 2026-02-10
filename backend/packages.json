@@ -12,7 +12,7 @@
       "Container": "packages",
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
-         {
+        {
           "Id": "VirtoCommerce.PageBuilderModule",
           "BlobName": "VirtoCommerce.PageBuilderModule_3.835.0-pr-94-6d94.zip"
         },
@@ -30,6 +30,10 @@
         {
           "Id": "VirtoCommerce.ImageTools",
           "BlobName": "VirtoCommerce.ImageTools_3.814.0-pr-121-e266.zip"
+        },
+        {
+          "Id": "VirtoCommerce.WebHooks",
+          "BlobName": "VirtoCommerce.WebHooks_3.1000.0.zip"
         }
       ]
     },
@@ -37,13 +41,13 @@
       "Name": "GithubReleases",
       "ModuleSources": [
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
-                       ],
-      "Modules": [ 
-         {
-           "Id": "VirtoCommerce.SeqLog",
-           "Version": "3.800.0"
-         },
-         {
+      ],
+      "Modules": [
+        {
+          "Id": "VirtoCommerce.SeqLog",
+          "Version": "3.800.0"
+        },
+        {
           "Id": "VirtoCommerce.Contentful",
           "Version": "3.805.0"
         },
@@ -138,10 +142,6 @@
         {
           "Id": "VirtoCommerce.BulkActionsModule",
           "Version": "3.805.0"
-        },
-        {
-          "Id": "VirtoCommerce.WebHooks",
-          "Version": "3.811.0"
         },
         {
           "Id": "VirtoCommerce.ElasticAppSearch",
@@ -351,4 +351,3 @@
     }
   ]
 }
-
