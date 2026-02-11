@@ -38,6 +38,10 @@
         {
           "Id": "VirtoCommerce.Orders",
           "BlobName": "VirtoCommerce.Orders_3.869.0-pr-486-5592.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Content",
+          "BlobName": "VirtoCommerce.Content_3.838.0-pr-210-f867.zip"
         }
       ]
     },
@@ -294,10 +298,6 @@
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
           "Version": "3.818.0"
-        },
-        {
-          "Id": "VirtoCommerce.Content",
-          "Version": "3.837.0"
         },
         {
           "Id": "VirtoCommerce.XCMS",
