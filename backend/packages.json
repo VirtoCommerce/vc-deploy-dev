@@ -106,10 +106,6 @@
           "BlobName": "VirtoCommerce.AzureAD_3.806.0-alpha.56.zip"
         },
         {
-          "Id": "VirtoCommerce.EventBus",
-          "BlobName": "VirtoCommerce.EventBus_3.810.0-alpha.160.zip"
-        },
-        {
           "Id": "VirtoCommerce.GoogleSSO",
           "BlobName": "VirtoCommerce.GoogleSSO_3.805.0-alpha.33.zip"
         },
@@ -324,6 +320,10 @@
         {
           "Id": "VirtoCommerce.Seo",
           "BlobName": "VirtoCommerce.Seo_3.1001.0-alpha.66.zip"
+        },
+        {
+          "Id": "VirtoCommerce.EventBus",
+          "BlobName": "VirtoCommerce.EventBus_3.1000.0-alpha.163.zip"
         }
       ]
     }
