@@ -206,10 +206,6 @@
           "BlobName": "VirtoCommerce.EnvironmentsCompare_3.801.0-alpha.7.zip"
         },
         {
-          "Id": "VirtoCommerce.Store",
-          "BlobName": "VirtoCommerce.Store_3.825.0-alpha.755.zip"
-        },
-        {
           "Id": "VirtoCommerce.PushMessages",
           "BlobName": "VirtoCommerce.PushMessages_3.908.0-alpha.81.zip"
         },
@@ -324,6 +320,10 @@
         {
           "Id": "VirtoCommerce.XOrder",
           "BlobName": "VirtoCommerce.XOrder_3.917.0-alpha.89.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Store",
+          "BlobName": "VirtoCommerce.Store_3.1000.0-alpha.757.zip"
         }
       ]
     }
