@@ -118,10 +118,6 @@
           "BlobName": "VirtoCommerce.ElasticAppSearch_3.817.0-alpha.164.zip"
         },
         {
-          "Id": "VirtoCommerce.Export",
-          "BlobName": "VirtoCommerce.Export_3.809.0-alpha.262.zip"
-        },
-        {
           "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
           "BlobName": "VirtoCommerce.GoogleEcommerceAnalytics_4.807.0-alpha.211.zip"
         },
@@ -324,6 +320,10 @@
         {
           "Id": "VirtoCommerce.Orders",
           "BlobName": "VirtoCommerce.Orders_3.871.0-alpha.1392.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Export",
+          "BlobName": "VirtoCommerce.Export_3.1000.0-alpha.265.zip"
         }
       ]
     }
