@@ -264,10 +264,6 @@
           "Version": "3.1000.0"
         },
         {
-          "Id": "VirtoCommerce.Catalog",
-          "Version": "3.914.0"
-        },
-        {
           "Id": "VirtoCommerce.ElasticSearch8",
           "Version": "3.825.0"
         },
@@ -317,6 +313,10 @@
         },
         {
           "Id": "VirtoCommerce.ImageTools",
+          "Version": "3.1000.0"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
           "Version": "3.1000.0"
         }
       ]
