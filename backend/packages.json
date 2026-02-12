@@ -243,10 +243,6 @@
           "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.929.0-alpha.323.zip"
         },
         {
-          "Id": "VirtoCommerce.Payment",
-          "BlobName": "VirtoCommerce.Payment_3.814.0-alpha.264.zip"
-        },
-        {
           "Id": "VirtoCommerce.Notifications",
           "BlobName": "VirtoCommerce.Notifications_3.1001.0-alpha.445.zip"
         },
@@ -325,6 +321,10 @@
         {
           "Id": "VirtoCommerce.Pricing",
           "BlobName": "VirtoCommerce.Pricing_3.1001.0-alpha.786.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Payment",
+          "BlobName": "VirtoCommerce.Payment_3.1000.0-alpha.265.zip"
         }
       ]
     }
