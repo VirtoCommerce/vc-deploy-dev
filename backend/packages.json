@@ -278,10 +278,6 @@
           "BlobName": "VirtoCommerce.XCatalog_3.946.0-alpha.166.zip"
         },
         {
-          "Id": "VirtoCommerce.ImageTools",
-          "BlobName": "VirtoCommerce.ImageTools_3.815.0-alpha.384.zip"
-        },
-        {
           "Id": "VirtoCommerce.WebHooks",
           "BlobName": "VirtoCommerce.WebHooks_3.1001.0-alpha.332.zip"
         },
@@ -324,6 +320,10 @@
         {
           "Id": "VirtoCommerce.Search",
           "BlobName": "VirtoCommerce.Search_3.1001.0-alpha.813.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ImageTools",
+          "BlobName": "VirtoCommerce.ImageTools_3.1000.0-alpha.385.zip"
         }
       ]
     }
