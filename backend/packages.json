@@ -259,10 +259,6 @@
           "BlobName": "VirtoCommerce.OpenIdConnectModule_3.1001.0-alpha.31.zip"
         },
         {
-          "Id": "VirtoCommerce.Orders",
-          "BlobName": "VirtoCommerce.Orders_3.871.0-alpha.1392.zip"
-        },
-        {
           "Id": "VirtoCommerce.Export",
           "BlobName": "VirtoCommerce.Export_3.1001.0-alpha.266.zip"
         },
@@ -325,6 +321,10 @@
         {
           "Id": "VirtoCommerce.Assets",
           "BlobName": "VirtoCommerce.Assets_3.1001.0-alpha.174.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Orders",
+          "BlobName": "VirtoCommerce.Orders_3.1000.0-alpha.1393.zip"
         }
       ]
     }
