@@ -223,7 +223,13 @@
       probePath: /
       ingressPath: /
     app2:
-      enabled: false
+      name: mcp-onx
+      enabled: true
+      imageRepository: ghcr.io/virtocommerce/vc-mcp-onx
+      servicePlan: F1
+      type: standalone
+      probePath: /
+      ingressPath: /
   routes:
   - host: vcst-qa-storefront.govirto.com
     root: B2B-store
@@ -250,4 +256,5 @@
     - platform.image.tag
     - themes.B2B-store
     - custom.app1.image.tag
+    - custom.app2.image.tag
   version: 3.231
