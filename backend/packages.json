@@ -19,6 +19,9 @@
        },
        {
           "BlobName": "VirtoCommerce.Notifications_3.1001.0-pr-192-ae68.zip"
+       },
+       {
+          "BlobName": "VirtoCommerce.XCart_3.953.0-pr-99-8759.zip"
        }
       ]
     },
@@ -307,10 +310,6 @@
         {
           "Id": "VirtoCommerce.XCatalog",
           "Version": "3.945.0"
-        },
-        {
-          "Id": "VirtoCommerce.XCart",
-          "Version": "3.952.0"
         },
         {
           "Id": "VirtoCommerce.XCMS",
