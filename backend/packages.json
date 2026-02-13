@@ -123,10 +123,6 @@
           "BlobName": "VirtoCommerce.GoogleEcommerceAnalytics_4.807.0-alpha.211.zip"
         },
         {
-          "Id": "VirtoCommerce.Shipping",
-          "BlobName": "VirtoCommerce.Shipping_3.817.0-alpha.233.zip"
-        },
-        {
           "Id": "VirtoCommerce.Tax",
           "BlobName": "VirtoCommerce.Tax_3.808.0-alpha.206.zip"
         },
@@ -325,6 +321,10 @@
         {
           "Id": "VirtoCommerce.Notifications",
           "BlobName": "VirtoCommerce.Notifications_3.1001.0-alpha.446.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Shipping",
+          "BlobName": "VirtoCommerce.Shipping_3.1000.0-alpha.236.zip"
         }
       ]
     }
