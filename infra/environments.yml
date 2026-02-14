@@ -226,7 +226,7 @@
       name: mcp-onx
       enabled: true
       imageRepository: ghcr.io/virtocommerce/vc-mcp-onx
-      tag: 1.0.0-alpha.5
+      imageTag: 1.0.0-alpha.5
       servicePlan: B1
       type: standalone
       probePath: /
