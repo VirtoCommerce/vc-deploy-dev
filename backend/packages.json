@@ -216,10 +216,6 @@
           "Version": "3.928.0"
         },
         {
-          "Id": "VirtoCommerce.Core",
-          "Version": "3.1000.0"
-        },
-        {
           "Id": "VirtoCommerce.Search",
           "Version": "3.1000.0"
         },
@@ -317,6 +313,10 @@
         },
         {
           "Id": "VirtoCommerce.Assets",
+          "Version": "3.1001.0"
+        },
+        {
+          "Id": "VirtoCommerce.Core",
           "Version": "3.1001.0"
         }
       ]
