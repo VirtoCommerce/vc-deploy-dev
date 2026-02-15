@@ -160,10 +160,6 @@
           "Version": "3.803.0"
         },
         {
-          "Id": "VirtoCommerce.EnvironmentsCompare",
-          "Version": "3.800.0"
-        },
-        {
           "Id": "VirtoCommerce.PushMessages",
           "Version": "3.907.0"
         },
@@ -317,6 +313,10 @@
         },
         {
           "Id": "VirtoCommerce.FileSystemAssets",
+          "Version": "3.1000.0"
+        },
+        {
+          "Id": "VirtoCommerce.EnvironmentsCompare",
           "Version": "3.1000.0"
         }
       ]
