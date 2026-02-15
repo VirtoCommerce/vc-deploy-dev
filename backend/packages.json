@@ -180,10 +180,6 @@
           "Version": "3.813.0"
         },
         {
-          "Id": "VirtoCommerce.FileSystemAssets",
-          "Version": "3.808.0"
-        },
-        {
           "Id": "VirtoCommerce.Customer",
           "Version": "3.1000.0"
         },
@@ -317,6 +313,10 @@
         },
         {
           "Id": "VirtoCommerce.DynamicAssociationsModule",
+          "Version": "3.1000.0"
+        },
+        {
+          "Id": "VirtoCommerce.FileSystemAssets",
           "Version": "3.1000.0"
         }
       ]
