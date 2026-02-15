@@ -183,10 +183,6 @@
           "BlobName": "VirtoCommerce.PushMessages_3.908.0-alpha.81.zip"
         },
         {
-          "Id": "VirtoCommerce.DynamicAssociationsModule",
-          "BlobName": "VirtoCommerce.DynamicAssociationsModule_3.813.0-alpha.186.zip"
-        },
-        {
           "Id": "VirtoCommerce.Subscription",
           "BlobName": "VirtoCommerce.Subscription_3.814.0-alpha.367.zip"
         },
@@ -325,6 +321,10 @@
         {
           "Id": "VirtoCommerce.Marketing",
           "BlobName": "VirtoCommerce.Marketing_3.1001.0-alpha.911.zip"
+        },
+        {
+          "Id": "VirtoCommerce.DynamicAssociationsModule",
+          "BlobName": "VirtoCommerce.DynamicAssociationsModule_3.1000.0-alpha.187.zip"
         }
       ]
     }
