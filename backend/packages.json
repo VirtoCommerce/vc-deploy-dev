@@ -47,10 +47,6 @@
           "BlobName": "VirtoCommerce.Skyflow_3.902.0-alpha.44.zip"
         },
         {
-          "Id": "VirtoCommerce.WhiteLabeling",
-          "BlobName": "VirtoCommerce.WhiteLabeling_3.909.0-alpha.50.zip"
-        },
-        {
           "Id": "VirtoCommerce.XRecommend",
           "BlobName": "VirtoCommerce.XRecommend_3.905.0-alpha.34.zip"
         },
@@ -325,6 +321,10 @@
         {
           "Id": "VirtoCommerce.XCart",
           "BlobName": "VirtoCommerce.XCart_3.954.0-alpha.187.zip"
+        },
+        {
+          "Id": "VirtoCommerce.WhiteLabeling",
+          "BlobName": "VirtoCommerce.WhiteLabeling_3.909.0-alpha.62.zip"
         }
       ]
     }
