@@ -186,6 +186,8 @@
       Tax__Avalara__AccountNumber: 2000188799
       Tax__Avalara__LicenseKey: 16BC3F87E836E15C
       Videos__GoogleApiKey: AIzaSyD5A4oFeSgaMQnMo3OiaqUSJ23SQGELiA4
+      # mcp onx adapter config
+      ADAPTER_CONFIG: {"apiUrl":"https://vcst-qa.govirto.com","workspace":"default"}
       
     secretConfig:
       Search__ElasticSearch8__Key: elastic8
@@ -205,7 +207,8 @@
       Payments__Datatrans__Secret: datatrance-secret
       GoogleSSO__ApplicationId: googlesso-aplicationid
       GoogleSSO__Secret: googlesso-secret
-      MCP__ADAPTER__VIRTOCOMMERCE__API__KEY: mcp-adapter-virtocommerce-api-key      
+      # mcp onx adapter api key
+      ADAPTER_API_KEY: mcp-adapter-virtocommerce-api-key
   storefront:
     headers:
       Cross-Origin-Embedder-Policy: unsafe-none
@@ -227,7 +230,7 @@
       name: mcp-onx
       enabled: true
       imageRepository: ghcr.io/virtocommerce/vc-mcp-onx
-      imageTag: 1.0.0-alpha.5
+      imageTag: 1.0.0-alpha.6
       servicePlan: B1
       type: standalone
       probePath: /
