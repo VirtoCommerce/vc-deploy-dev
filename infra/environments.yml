@@ -225,13 +225,14 @@
       name: mcp-onx
       enabled: true
       imageRepository: ghcr.io/virtocommerce/vc-mcp-onx
-      imageTag: 1.0.0-alpha.6
+      imageTag: 1.0.0-alpha.7
       servicePlan: B1
       type: standalone
       probePath: /
       ingressPath: /
       config:
-        ADAPTER_CONFIG: '{"apiUrl":"https://vcst-qa.govirto.com","workspace":"default"}'
+        ADAPTER_API_URL: https://vcst-qa.govirto.com
+        ADAPTER_WORKSPACE: default
       secretConfig:
         ADAPTER_API_KEY: mcp-adapter-virtocommerce-api-key
   routes:
