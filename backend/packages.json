@@ -144,10 +144,6 @@
           "Version": "3.807.0"
         },
         {
-          "Id": "VirtoCommerce.LuceneSearch",
-          "Version": "3.807.0"
-        },
-        {
           "Id": "VirtoCommerce.CyberSourcePayment",
           "Version": "3.803.0"
         },
@@ -317,6 +313,10 @@
         },
         {
           "Id": "VirtoCommerce.Contracts",
+          "Version": "3.1000.0"
+        },
+        {
+          "Id": "VirtoCommerce.LuceneSearch",
           "Version": "3.1000.0"
         }
       ]
