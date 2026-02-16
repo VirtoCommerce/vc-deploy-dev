@@ -228,9 +228,10 @@
       imageTag: 1.0.0-alpha.7
       servicePlan: B1
       type: standalone
-      probePath: /
+      probePath: /health
       ingressPath: /
       config:
+        MCP_PORT: 80
         ADAPTER_API_URL: https://vcst-qa.govirto.com
         ADAPTER_WORKSPACE: default
       secretConfig:
