@@ -231,7 +231,6 @@
       probePath: /health
       ingressPath: /
       config:
-        MCP_PORT: 80
         ADAPTER_API_URL: https://vcst-qa.govirto.com
         ADAPTER_WORKSPACE: default
       secretConfig:
