@@ -187,7 +187,7 @@
       Tax__Avalara__LicenseKey: 16BC3F87E836E15C
       Videos__GoogleApiKey: AIzaSyD5A4oFeSgaMQnMo3OiaqUSJ23SQGELiA4
       # mcp onx adapter config
-      ADAPTER_CONFIG: {"apiUrl":"https://vcst-qa.govirto.com","workspace":"default"}
+      ADAPTER_CONFIG: '{"apiUrl":"https://vcst-qa.govirto.com","workspace":"default"}'
       
     secretConfig:
       Search__ElasticSearch8__Key: elastic8
