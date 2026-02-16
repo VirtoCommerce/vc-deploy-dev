@@ -204,7 +204,8 @@
       Payments__CyberSource__MerchantSecretKey: cybersource-qa-merchantsecretkey  
       Payments__Datatrans__Secret: datatrance-secret
       GoogleSSO__ApplicationId: googlesso-aplicationid
-      GoogleSSO__Secret: googlesso-secret     
+      GoogleSSO__Secret: googlesso-secret
+      MCP__ADAPTER__VIRTOCOMMERCE__API__KEY: mcp-adapter-virtocommerce-api-key      
   storefront:
     headers:
       Cross-Origin-Embedder-Policy: unsafe-none
