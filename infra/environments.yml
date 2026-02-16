@@ -231,9 +231,10 @@
       probePath: /health
       ingressPath: /
       config:
-        ADAPTER_API_URL: http://vcst-qa-platform
+        ADAPTER_API_URL: http://vcst-qa-platform:80
         ADAPTER_WORKSPACE: default
         ADAPTER_DEBUG_MODE: true
+        NODE_TLS_REJECT_UNAUTHORIZED: 0
       secretConfig:
         ADAPTER_API_KEY: mcp-adapter-virtocommerce-api-key
   routes:
