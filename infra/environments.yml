@@ -228,6 +228,7 @@
       imageTag: 1.0.0-alpha.7
       servicePlan: B1
       type: standalone
+      containerPort: 3000
       probePath: /health
       ingressPath: /
       config:
