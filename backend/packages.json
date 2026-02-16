@@ -135,10 +135,6 @@
           "BlobName": "VirtoCommerce.Sitemaps_3.823.0-alpha.397.zip"
         },
         {
-          "Id": "VirtoCommerce.CatalogPublishing",
-          "BlobName": "VirtoCommerce.CatalogPublishing_3.810.0-alpha.377.zip"
-        },
-        {
           "Id": "VirtoCommerce.AuthorizeNetPayment",
           "BlobName": "VirtoCommerce.AuthorizeNetPayment_3.807.0-alpha.95.zip"
         },
@@ -325,6 +321,10 @@
         {
           "Id": "VirtoCommerce.Content",
           "BlobName": "VirtoCommerce.Content_3.838.0-alpha.1034.zip"
+        },
+        {
+          "Id": "VirtoCommerce.CatalogPublishing",
+          "BlobName": "VirtoCommerce.CatalogPublishing_3.1000.0-alpha.380.zip"
         }
       ]
     }
