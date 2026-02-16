@@ -180,10 +180,6 @@
           "Version": "3.1000.0"
         },
         {
-          "Id": "VirtoCommerce.Content",
-          "Version": "3.837.0"
-        },
-        {
           "Id": "VirtoCommerce.XCMS",
           "Version": "3.908.0"
         },
@@ -318,6 +314,10 @@
         {
           "Id": "VirtoCommerce.EnvironmentsCompare",
           "Version": "3.1000.0"
+        },
+        {
+          "Id": "VirtoCommerce.Content",
+          "Version": "3.838.0"
         }
       ]
     },
