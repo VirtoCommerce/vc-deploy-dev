@@ -231,7 +231,7 @@
       probePath: /health
       ingressPath: /
       config:
-        ADAPTER_API_URL: https://vcst-qa.govirto.com
+        ADAPTER_API_URL: http://vcst-qa-platform.vcst.svc.cluster.local
         ADAPTER_WORKSPACE: default
         ADAPTER_DEBUG_MODE: true
         NODE_TLS_REJECT_UNAUTHORIZED: 0
