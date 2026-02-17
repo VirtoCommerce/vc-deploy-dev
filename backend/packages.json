@@ -104,10 +104,6 @@
           "Version": "3.811.0"
         },
         {
-          "Id": "VirtoCommerce.Sitemaps",
-          "Version": "3.822.0"
-        },
-        {
           "Id": "VirtoCommerce.AuthorizeNetPayment",
           "Version": "3.806.0"
         },
@@ -317,6 +313,10 @@
         },
         {
           "Id": "VirtoCommerce.Content",
+          "Version": "3.1000.0"
+        },
+        {
+          "Id": "VirtoCommerce.Sitemaps",
           "Version": "3.1000.0"
         }
       ]
