@@ -1,6 +1,6 @@
 - name: vcptcore-qa
   gitops: true
-  production: true
+  production: false
   servicePlan: S2
   platform:
     headers:
