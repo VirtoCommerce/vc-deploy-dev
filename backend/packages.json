@@ -115,10 +115,6 @@
           "BlobName": "VirtoCommerce.Pages_3.812.0-alpha.38.zip"
         },
         {
-          "Id": "VirtoCommerce.AuthorizeNetPayment",
-          "BlobName": "VirtoCommerce.AuthorizeNetPayment_3.807.0-alpha.95.zip"
-        },
-        {
           "Id": "VirtoCommerce.GDPR",
           "BlobName": "VirtoCommerce.GDPR_3.810.0-alpha.151.zip"
         },
@@ -325,6 +321,10 @@
         {
           "Id": "VirtoCommerce.ApplicationInsights",
           "BlobName": "VirtoCommerce.ApplicationInsights_3.1002.0-alpha.48.zip"
+        },
+        {
+          "Id": "VirtoCommerce.AuthorizeNetPayment",
+          "BlobName": "VirtoCommerce.AuthorizeNetPayment_3.1000.0-alpha.98.zip"
         }
       ]
     }
