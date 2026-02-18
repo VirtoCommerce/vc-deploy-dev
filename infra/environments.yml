@@ -99,6 +99,9 @@
       
       IdentityOptions__User__MaxPasswordAge: 100
       IdentityOptions__User__RemindPasswordExpiryInDay: 7
+
+      SecurityHeaders__FrameAncestors: localhost:8080 vcst-qa.govirto.com
+      SecurityHeaders__FrameOptions: localhost:8080 vcst-qa.govirto.com
       
       # Authorize.Net settings
       Payments__AuthorizeNet__ApiLogin: 52B9X7vb4
@@ -186,7 +189,6 @@
       Tax__Avalara__AccountNumber: 2000188799
       Tax__Avalara__LicenseKey: 16BC3F87E836E15C
       Videos__GoogleApiKey: AIzaSyD5A4oFeSgaMQnMo3OiaqUSJ23SQGELiA4
-      
     secretConfig:
       Search__ElasticSearch8__Key: elastic8
       PushMessages__FcmSenderOptions__PrivateKey: fcm-private-key-new
@@ -204,7 +206,7 @@
       Payments__CyberSource__MerchantSecretKey: cybersource-qa-merchantsecretkey  
       Payments__Datatrans__Secret: datatrance-secret
       GoogleSSO__ApplicationId: googlesso-aplicationid
-      GoogleSSO__Secret: googlesso-secret     
+      GoogleSSO__Secret: googlesso-secret
   storefront:
     headers:
       Cross-Origin-Embedder-Policy: unsafe-none
@@ -223,7 +225,20 @@
       probePath: /
       ingressPath: /
     app2:
-      enabled: false
+      name: mcp-onx
+      enabled: true
+      imageRepository: ghcr.io/virtocommerce/vc-mcp-onx
+      imageTag: 1.0.0-alpha.17
+      servicePlan: B1
+      type: standalone
+      probePath: /health
+      ingressPath: /
+      config:
+        ADAPTER_API_URL: https://vcst-qa.govirto.com
+        ADAPTER_WORKSPACE: default
+        ADAPTER_DEBUG_MODE: true
+      secretConfig:
+        ADAPTER_API_KEY: mcp-adapter-vc-api-key-new
   routes:
   - host: vcst-qa-storefront.govirto.com
     root: B2B-store
