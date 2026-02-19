@@ -168,10 +168,6 @@
           "Version": "3.825.0"
         },
         {
-          "Id": "VirtoCommerce.XCatalog",
-          "Version": "3.945.0"
-        },
-        {
           "Id": "VirtoCommerce.WebHooks",
           "Version": "3.1000.0"
         },
@@ -318,6 +314,10 @@
         {
           "Id": "VirtoCommerce.AuthorizeNetPayment",
           "Version": "3.1000.0"
+        },
+        {
+          "Id": "VirtoCommerce.XCatalog",
+          "Version": "3.946.0"
         }
       ]
     },
