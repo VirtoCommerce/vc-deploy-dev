@@ -293,7 +293,7 @@
       IdentityOptions__Lockout__CronAutoAccountsLockoutJob: 0/5 * * * *
       IdentityOptions__User__RemindPasswordExpiryInDays: 10
       IdentityOptions__User__MaxPasswordAge: 90
-      IdentityOptions__User__RequireUniqueEmail: false
+      IdentityOptions__User__RequireUniqueEmail: true
       IdentityOptions__Lockout__MaxFailedAccessAttempts: 5
       IdentityOptions__Lockout__DefaultLockoutTimeSpan: 00:02:00
       #FrontendSecurity__OrganizationMaintainerRole: Organization maintainer
