@@ -140,10 +140,6 @@
           "Version": "3.1000.0"
         },
         {
-          "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.928.0"
-        },
-        {
           "Id": "VirtoCommerce.Search",
           "Version": "3.1000.0"
         },
@@ -317,6 +313,10 @@
         },
         {
           "Id": "VirtoCommerce.AvalaraTax",
+          "Version": "3.1000.0"
+        },
+        {
+          "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "Version": "3.1000.0"
         }
       ]
