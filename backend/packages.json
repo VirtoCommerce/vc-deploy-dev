@@ -314,6 +314,10 @@
         {
           "Id": "VirtoCommerce.XOrder",
           "Version": "3.1000.0"
+        },
+        {
+          "Id": "VirtoCommerce.SqlQueries",
+          "Version": "3.1000.0"
         }
       ]
     },
