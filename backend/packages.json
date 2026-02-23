@@ -318,16 +318,16 @@
           "BlobName": "VirtoCommerce.AzureAD_3.1001.0-alpha.60.zip"
         },
         {
-          "Id": "VirtoCommerce.GoogleSSO",
-          "BlobName": "VirtoCommerce.GoogleSSO_3.1001.0-alpha.37.zip"
-        },
-        {
           "Id": "VirtoCommerce.GDPR",
           "BlobName": "VirtoCommerce.GDPR_3.1001.0-alpha.155.zip"
         },
         {
           "Id": "VirtoCommerce.PushMessages",
           "BlobName": "VirtoCommerce.PushMessages_3.1000.0-alpha.83.zip"
+        },
+        {
+          "Id": "VirtoCommerce.GoogleSSO",
+          "BlobName": "VirtoCommerce.GoogleSSO_3.1001.0-alpha.37.zip"
         }
       ]
     }
