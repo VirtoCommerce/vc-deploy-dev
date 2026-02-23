@@ -34,10 +34,6 @@
           "BlobName": "VirtoCommerce.NativePaymentMethods_3.803.0-alpha.90.zip"
         },
         {
-          "Id": "VirtoCommerce.MarketingExperienceApi",
-          "BlobName": "VirtoCommerce.MarketingExperienceApi_3.902.0-alpha.63.zip"
-        },
-        {
           "Id": "VirtoCommerce.Skyflow",
           "BlobName": "VirtoCommerce.Skyflow_3.902.0-alpha.44.zip"
         },
@@ -328,6 +324,10 @@
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.1001.0-alpha.325.zip"
+        },
+        {
+          "Id": "VirtoCommerce.MarketingExperienceApi",
+          "BlobName": "VirtoCommerce.MarketingExperienceApi_3.902.0-alpha.76.zip"
         }
       ]
     }
