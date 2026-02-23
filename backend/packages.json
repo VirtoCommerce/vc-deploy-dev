@@ -20,10 +20,6 @@
           "Version": "3.802.0"
         },
         {
-          "Id": "VirtoCommerce.MarketingExperienceApi",
-          "Version": "3.901.0"
-        },
-        {
           "Id": "VirtoCommerce.Skyflow",
           "Version": "3.901.0"
         },
@@ -318,6 +314,10 @@
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "Version": "3.1000.0"
+        },
+        {
+          "Id": "VirtoCommerce.MarketingExperienceApi",
+          "Version": "3.902.0"
         }
       ]
     },
