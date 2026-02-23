@@ -94,10 +94,6 @@
           "BlobName": "VirtoCommerce.ElasticAppSearch_3.817.0-alpha.164.zip"
         },
         {
-          "Id": "VirtoCommerce.GDPR",
-          "BlobName": "VirtoCommerce.GDPR_3.810.0-alpha.151.zip"
-        },
-        {
           "Id": "VirtoCommerce.Quote",
           "BlobName": "VirtoCommerce.Quote_3.914.0-alpha.483.zip"
         },
@@ -328,6 +324,10 @@
         {
           "Id": "VirtoCommerce.GoogleSSO",
           "BlobName": "VirtoCommerce.GoogleSSO_3.1000.0-alpha.36.zip"
+        },
+        {
+          "Id": "VirtoCommerce.GDPR",
+          "BlobName": "VirtoCommerce.GDPR_3.1000.0-alpha.154.zip"
         }
       ]
     }
