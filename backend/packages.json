@@ -100,10 +100,6 @@
           "Version": "3.913.0"
         },
         {
-          "Id": "VirtoCommerce.CustomerReviews",
-          "Version": "3.907.0"
-        },
-        {
           "Id": "VirtoCommerce.XFrontend",
           "Version": "3.800.0"
         },
@@ -318,6 +314,10 @@
         {
           "Id": "VirtoCommerce.Xapi",
           "Version": "3.1003.0"
+        },
+        {
+          "Id": "VirtoCommerce.CustomerReviews",
+          "Version": "3.1000.0"
         }
       ]
     },
