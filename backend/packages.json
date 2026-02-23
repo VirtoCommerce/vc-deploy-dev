@@ -72,10 +72,6 @@
           "Version": "3.804.0"
         },
         {
-          "Id": "VirtoCommerce.GoogleSSO",
-          "Version": "3.804.0"
-        },
-        {
           "Id": "VirtoCommerce.AzureSearch",
           "Version": "3.809.0"
         },
@@ -317,6 +313,10 @@
         },
         {
           "Id": "VirtoCommerce.AzureAD",
+          "Version": "3.1000.0"
+        },
+        {
+          "Id": "VirtoCommerce.GoogleSSO",
           "Version": "3.1000.0"
         }
       ]
