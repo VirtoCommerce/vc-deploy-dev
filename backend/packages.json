@@ -236,13 +236,6 @@
           "Version": "3.914.0"
         }
       ]
-    },
-    {
-      "Name": "AzureBlob",
-      "Container": "packages",
-      "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
-      "Modules": [
-      ]
     }
   ]
 }
