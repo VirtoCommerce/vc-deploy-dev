@@ -18,7 +18,7 @@
       DOTNET_USE_POLLING_FILE_WATCHER: true
       #Authorization__AllowApiAccessForCustomers: true
       VirtoCommerce__FileExtensionsBlackList__0: .pdf
-      Reload: 12
+      Reload: 122
       
       VirtoCommerce__RefreshProbingFolderOnStart: true
       
@@ -137,10 +137,10 @@
       Notifications__Smtp__Password: smtppasswordyandex
       PushMessages__FcmSenderOptions__PrivateKey: fcm-private-key-regress
   storefront:
-  headers:
-      Cross-Origin-Embedder-Policy: unsafe-none
-      cross-origin-resource-policy: cross-origin
-      X-Response-Time: \$\request_time
+    headers:
+        Cross-Origin-Embedder-Policy: unsafe-none
+        cross-origin-resource-policy: cross-origin
+        X-Response-Time: \$\request_time
     enabled: false
     servicePlan: B1
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/storefront
