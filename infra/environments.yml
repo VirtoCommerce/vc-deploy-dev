@@ -137,6 +137,8 @@
       Notifications__Smtp__Password: smtppasswordyandex
       PushMessages__FcmSenderOptions__PrivateKey: fcm-private-key-regress
   storefront:
+    headers:
+      Cross-Origin-Resource-Policy: cross-origin
     enabled: false
     servicePlan: B1
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/storefront
