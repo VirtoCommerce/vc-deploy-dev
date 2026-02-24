@@ -137,6 +137,10 @@
       Notifications__Smtp__Password: smtppasswordyandex
       PushMessages__FcmSenderOptions__PrivateKey: fcm-private-key-regress
   storefront:
+  headers:
+      Cross-Origin-Embedder-Policy: unsafe-none
+      cross-origin-resource-policy: cross-origin
+      X-Response-Time: \$\request_time
     enabled: false
     servicePlan: B1
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/storefront
@@ -152,8 +156,6 @@
       DOTNET_USE_POLLING_FILE_WATCHER: true
     themes:
       B2B-store: https://github.com/VirtoCommerce/vc-frontend/releases/download/2.35.0/vc-theme-b2b-vue-2.35.0.zip
-      headers:
-              Cross-Origin-Resource-Policy: cross-origin 
   ingress: {}
   customApps:
     app1:
