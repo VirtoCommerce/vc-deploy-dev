@@ -90,10 +90,6 @@
           "BlobName": "VirtoCommerce.ElasticAppSearch_3.817.0-alpha.164.zip"
         },
         {
-          "Id": "VirtoCommerce.Quote",
-          "BlobName": "VirtoCommerce.Quote_3.914.0-alpha.483.zip"
-        },
-        {
           "Id": "VirtoCommerce.BuilderIO",
           "BlobName": "VirtoCommerce.BuilderIO_3.808.0-alpha.89.zip"
         },
@@ -328,6 +324,10 @@
         {
           "Id": "VirtoCommerce.XRecommend",
           "BlobName": "VirtoCommerce.XRecommend_3.1001.0-alpha.45.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Quote",
+          "BlobName": "VirtoCommerce.Quote_3.1000.0-alpha.486.zip"
         }
       ]
     }
