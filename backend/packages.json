@@ -252,10 +252,6 @@
           "Version": "3.1000.0"
         },
         {
-          "Id": "VirtoCommerce.WhiteLabeling",
-          "Version": "3.909.0"
-        },
-        {
           "Id": "VirtoCommerce.XCart",
           "Version": "3.1000.0"
         },
@@ -317,6 +313,10 @@
         },
         {
           "Id": "VirtoCommerce.XCMS",
+          "Version": "3.1000.0"
+        },
+        {
+          "Id": "VirtoCommerce.WhiteLabeling",
           "Version": "3.1000.0"
         }
       ]
