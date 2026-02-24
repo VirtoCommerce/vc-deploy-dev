@@ -138,8 +138,7 @@
       PushMessages__FcmSenderOptions__PrivateKey: fcm-private-key-regress
   storefront:
     headers:
-        Cross-Origin-Embedder-Policy: unsafe-none
-        cross-origin-resource-policy: cross-origin
+        Cross-Origin-Embedder-Policy: require-corp
         X-Response-Time: \$\request_time
     enabled: false
     servicePlan: B1
