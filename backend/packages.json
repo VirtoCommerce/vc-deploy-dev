@@ -40,10 +40,6 @@
           "Version": "3.804.0"
         },
         {
-          "Id": "VirtoCommerce.OrderManagement",
-          "Version": "3.807.0"
-        },
-        {
           "Id": "VirtoCommerce.Datatrans",
           "Version": "3.800.0"
         },
@@ -317,6 +313,10 @@
         },
         {
           "Id": "VirtoCommerce.AzureSearch",
+          "Version": "3.1000.0"
+        },
+        {
+          "Id": "VirtoCommerce.OrderManagement",
           "Version": "3.1000.0"
         }
       ]
