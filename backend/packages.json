@@ -32,10 +32,6 @@
           "Version": "3.812.0"
         },
         {
-          "Id": "VirtoCommerce.CustomerExportImport",
-          "Version": "3.814.0"
-        },
-        {
           "Id": "VirtoCommerce.BackInStock",
           "Version": "3.804.0"
         },
@@ -317,6 +313,10 @@
         },
         {
           "Id": "VirtoCommerce.OrderManagement",
+          "Version": "3.1000.0"
+        },
+        {
+          "Id": "VirtoCommerce.CustomerExportImport",
           "Version": "3.1000.0"
         }
       ]
