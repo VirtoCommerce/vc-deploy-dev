@@ -17,9 +17,12 @@
        {
           "BlobName": "VirtoCommerce.PageBuilderModule_3.835.0-pr-94-6d94.zip"
        },
-       {                
+        {
           "BlobName": "VirtoCommerce.Skyflow_3.1000.0-pr-18-9985.zip"
-       }
+        },
+        {
+          "BlobName": "VirtoCommerce.XPickup_3.805.0-pr-5-3efe.zip"
+        }
       ]
     },
     {
@@ -79,10 +82,6 @@
         {
           "Id": "VirtoCommerce.TaskManagement",
           "Version": "3.905.0"
-        },
-        {
-          "Id": "VirtoCommerce.XPickup",
-          "Version": "3.804.0"
         },
         {
           "Id": "VirtoCommerce.AzureAD",
