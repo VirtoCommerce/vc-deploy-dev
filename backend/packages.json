@@ -34,10 +34,6 @@
           "BlobName": "VirtoCommerce.NativePaymentMethods_3.803.0-alpha.90.zip"
         },
         {
-          "Id": "VirtoCommerce.Skyflow",
-          "BlobName": "VirtoCommerce.Skyflow_3.902.0-alpha.44.zip"
-        },
-        {
           "Id": "VirtoCommerce.OpenSearch",
           "BlobName": "VirtoCommerce.OpenSearch_3.802.0-alpha.8.zip"
         },
@@ -328,6 +324,10 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "BlobName": "VirtoCommerce.Catalog_3.1003.0-alpha.2462.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Skyflow",
+          "BlobName": "VirtoCommerce.Skyflow_3.1000.0-alpha.56.zip"
         }
       ]
     }
