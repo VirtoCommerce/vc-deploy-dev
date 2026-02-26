@@ -26,6 +26,10 @@
         },
         {
           "BlobName": "VirtoCommerce.AIDocumentProcessing_3.901.0-pr-7-05c5.zip"
+        },
+        {
+          "Id": "VirtoCommerce.AzureSearch",
+          "BlobName": "VirtoCommerce.AzureSearch_3.1000.0-pr-52-47a4.zip"
         }
       ]
     },
@@ -98,10 +102,6 @@
         {
           "Id": "VirtoCommerce.XPickup",
           "Version": "3.804.0"
-        },
-        {
-          "Id": "VirtoCommerce.AzureSearch",
-          "Version": "3.809.0"
         },
         {
           "Id": "VirtoCommerce.ElasticAppSearch",
