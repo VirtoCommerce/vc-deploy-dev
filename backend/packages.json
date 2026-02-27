@@ -84,10 +84,6 @@
           "Version": "3.1000.0"
         },
         {
-          "Id": "VirtoCommerce.EventBus",
-          "Version": "3.1000.0"
-        },
-        {
           "Id": "VirtoCommerce.Store",
           "Version": "3.1000.0"
         },
@@ -318,6 +314,10 @@
         {
           "Id": "VirtoCommerce.Notifications",
           "Version": "3.1003.0"
+        },
+        {
+          "Id": "VirtoCommerce.EventBus",
+          "Version": "3.1001.0"
         }
       ]
     },
