@@ -64,10 +64,6 @@
           "Version": "3.807.0"
         },
         {
-          "Id": "VirtoCommerce.Subscription",
-          "Version": "3.813.0"
-        },
-        {
           "Id": "VirtoCommerce.Customer",
           "Version": "3.1000.0"
         },
@@ -317,6 +313,10 @@
         },
         {
           "Id": "VirtoCommerce.CyberSourcePayment",
+          "Version": "3.1000.0"
+        },
+        {
+          "Id": "VirtoCommerce.Subscription",
           "Version": "3.1000.0"
         }
       ]
