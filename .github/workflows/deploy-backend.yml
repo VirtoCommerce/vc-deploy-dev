@@ -32,7 +32,7 @@ jobs:
       run: |
         vc-build InstallModules -PackageManifestPath ./backend/packages.json -ProbingPath ./backend/platform/app_data/modules -DiscoveryPath ./backend/platform/modules --root ./backend/platform -SkipDependencySolving
   
-    - name: Get platfrom version
+    - name: Get platform version
       id: platform-version
       run: |
         echo "PLATFORM_IMAGE=$(cat ./backend/packages.json | jq -r '.PlatformImage')" >> $GITHUB_ENV
@@ -41,6 +41,13 @@ jobs:
     - name: Set outputs
       id: vars
       run: echo "paas_tag=${{ env.PLATFORM_TAG }}-$(git rev-parse --short HEAD)" >> $GITHUB_OUTPUT
+
+    - name: Prepare files for Docker image
+      run: |
+        curl -sSL -o ./backend/Dockerfile https://github.com/VirtoCommerce/vc-docker/raw/refs/heads/feat/net10/linux/platform/Dockerfile
+        curl -sSL -o ./backend/wait-for-it.sh https://github.com/VirtoCommerce/vc-docker/raw/refs/heads/feat/net10/linux/platform/wait-for-it.sh
+        mkdir ./backend/publish
+        mv ./backend/platform/* ./backend/publish
 
     - name: Build platform Image
       run: |
@@ -60,12 +67,8 @@ jobs:
       env:
         TAG: ${{ steps.vars.outputs.paas_tag }}
 
-    - name: Az config
-      run: |
-        az config set extension.use_dynamic_install=yes_without_prompt
-
-    - name: Update app
-      run: |
-        vc-build CloudEnvSetParameter -EnvironmentName ${{ env.ARGO_APP_NAME }} -CloudToken ${{ secrets.VCPTCORE_PLATFORM_TOKEN }} -HelmParameters platform.image.tag=$TAG
-      env:
-        TAG: ${{ steps.vars.outputs.paas_tag }}
+    # - name: Update app
+    #   run: |
+    #     vc-build CloudEnvSetParameter -EnvironmentName ${{ env.ARGO_APP_NAME }} -CloudToken ${{ secrets.VCPTCORE_PLATFORM_TOKEN }} -HelmParameters platform.image.tag=$TAG
+    #   env:
+    #     TAG: ${{ steps.vars.outputs.paas_tag }}
