@@ -322,12 +322,12 @@
           "BlobName": "VirtoCommerce.Catalog_3.1005.0-alpha.2467.zip"
         },
         {
-          "Id": "VirtoCommerce.XCMS",
-          "BlobName": "VirtoCommerce.XCMS_3.1002.0-alpha.55.zip"
-        },
-        {
           "Id": "VirtoCommerce.News",
           "BlobName": "VirtoCommerce.News_3.813.0-alpha.44.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XCMS",
+          "BlobName": "VirtoCommerce.XCMS_3.1002.0-alpha.55.zip"
         }
       ]
     }
