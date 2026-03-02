@@ -42,10 +42,6 @@
           "BlobName": "VirtoCommerce.PriceExportImport_3.805.0-alpha.166.zip"
         },
         {
-          "Id": "VirtoCommerce.News",
-          "BlobName": "VirtoCommerce.News_3.813.0-alpha.37.zip"
-        },
-        {
           "Id": "VirtoCommerce.BackInStock",
           "BlobName": "VirtoCommerce.BackInStock_3.805.0-alpha.34.zip"
         },
@@ -328,6 +324,10 @@
         {
           "Id": "VirtoCommerce.XCMS",
           "BlobName": "VirtoCommerce.XCMS_3.1002.0-alpha.55.zip"
+        },
+        {
+          "Id": "VirtoCommerce.News",
+          "BlobName": "VirtoCommerce.News_3.813.0-alpha.43.zip"
         }
       ]
     }
