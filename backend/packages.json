@@ -26,6 +26,10 @@
         },
         {
           "BlobName": "VirtoCommerce.AIDocumentProcessing_3.901.0-pr-7-05c5.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Xapi",
+          "BlobName": "VirtoCommerce.Xapi_3.1002.0-pr-64-7ba2.zip"
         }
       ]
     },
@@ -246,10 +250,6 @@
         {
           "Id": "VirtoCommerce.MarketingExperienceApi",
           "Version": "3.902.0"
-        },
-        {
-          "Id": "VirtoCommerce.Xapi",
-          "Version": "3.1003.0"
         },
         {
           "Id": "VirtoCommerce.CustomerReviews",
