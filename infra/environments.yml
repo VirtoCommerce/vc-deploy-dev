@@ -343,8 +343,8 @@
       VirtoCommerce__ModuleSequenceBoost__0: VirtoCommerce.AuditLog
 
       VirtoCommerce__GraphQLComplexityValidation__Enable: true
-      VirtoCommerce__GraphQLComplexityValidation__IgnoreIntrospection: true
-      VirtoCommerce__GraphQLComplexityValidation__MaxComplexity: 10
+      #VirtoCommerce__GraphQLComplexityValidation__IgnoreIntrospection: true
+      #VirtoCommerce__GraphQLComplexityValidation__MaxComplexity: 1000
 
       #UnitOfMeasure default settings
       Measures__DefaultSource: https://vcptcore-qa.govirto.com/cms-content/assets/measures/VirtoCommerce.Catalog.json
