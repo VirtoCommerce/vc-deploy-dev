@@ -34,6 +34,10 @@
         {
           "Id": "VirtoCommerce.Sanity",
           "BlobName": "VirtoCommerce.Sanity_3.1000.0-pr-1-d5f7.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "BlobName": "VirtoCommerce.Catalog_3.1005.0-pr-868-745c.zip"
         }
       ]
     },
@@ -338,10 +342,6 @@
         {
           "Id": "VirtoCommerce.EventBus",
           "Version": "3.1001.0"
-        },
-        {
-          "Id": "VirtoCommerce.Catalog",
-          "Version": "3.1004.0"
         },
         {
           "Id": "VirtoCommerce.XCMS",
