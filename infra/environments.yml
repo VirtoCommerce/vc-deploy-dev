@@ -344,7 +344,7 @@
 
       VirtoCommerce__GraphQLComplexityValidation__Enable: true
       VirtoCommerce__GraphQLComplexityValidation__IgnoreIntrospection: true
-      VirtoCommerce__GraphQLComplexityValidation__MaxDepth: 2
+      VirtoCommerce__GraphQLComplexityValidation__MaxComplexity: 10
 
       #UnitOfMeasure default settings
       Measures__DefaultSource: https://vcptcore-qa.govirto.com/cms-content/assets/measures/VirtoCommerce.Catalog.json
