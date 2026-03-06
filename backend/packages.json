@@ -322,12 +322,12 @@
           "BlobName": "VirtoCommerce.WhiteLabeling_3.1002.0-alpha.69.zip"
         },
         {
-          "Id": "VirtoCommerce.Catalog",
-          "BlobName": "VirtoCommerce.Catalog_3.1005.0-alpha.2469.zip"
-        },
-        {
           "Id": "VirtoCommerce.Xapi",
           "BlobName": "VirtoCommerce.Xapi_3.1005.0-alpha.150.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "BlobName": "VirtoCommerce.Catalog_3.1006.0-alpha.2470.zip"
         }
       ]
     }
