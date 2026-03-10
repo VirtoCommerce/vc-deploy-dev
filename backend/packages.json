@@ -49,7 +49,7 @@
         },
         {
           "Id": "VirtoCommerce.XFrontend",
-          "Version": "3.800.0"
+          "Version": "3.1000.0"
         },
         {
           "Id": "VirtoCommerce.BuilderIO",
@@ -322,6 +322,10 @@
         {
           "Id": "VirtoCommerce.Orders",
           "Version": "3.1001.0"
+        },
+        {
+          "Id": "VirtoCommerce.PageBuilderModule",
+          "Version": "3.1000.0"
         }
       ]
     },
@@ -330,10 +334,6 @@
       "Container": "packages",
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
-        {
-          "Id": "VirtoCommerce.PageBuilderModule",
-          "BlobName": "VirtoCommerce.PageBuilderModule_3.1000.0.zip"
-        }
       ]
     }
   ]
