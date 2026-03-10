@@ -314,10 +314,6 @@
           "BlobName": "VirtoCommerce.Xapi_3.1005.0-alpha.150.zip"
         },
         {
-          "Id": "VirtoCommerce.Catalog",
-          "BlobName": "VirtoCommerce.Catalog_3.1006.0-alpha.2471.zip"
-        },
-        {
           "Id": "VirtoCommerce.Datatrans",
           "BlobName": "VirtoCommerce.Datatrans_3.802.0-alpha.96.zip"
         },
@@ -332,6 +328,10 @@
         {
           "Id": "VirtoCommerce.Tax",
           "BlobName": "VirtoCommerce.Tax_3.1002.0-alpha.213.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "BlobName": "VirtoCommerce.Catalog_3.1007.0-alpha.2472.zip"
         }
       ]
     }
