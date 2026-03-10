@@ -328,6 +328,10 @@
         {
           "Id": "VirtoCommerce.Payment",
           "BlobName": "VirtoCommerce.Payment_3.1002.0-alpha.269.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Sanity",
+          "BlobName": "VirtoCommerce.Sanity_3.1000.0-alpha.3.zip"
         }
       ]
     }
