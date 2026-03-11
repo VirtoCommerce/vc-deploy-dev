@@ -9,14 +9,7 @@
       "Name": "AzureBlob",
       "Container": "packages",
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
-      "Modules": [
-        {
-          "BlobName": "VirtoCommerce.Content_3.834.0-alpha.1112-3.834.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.PageBuilderModule_3.830.0-alpha.762-3.830.zip"
-        }
-      ]
+      "Modules": []
     },
     {
       "Name": "GithubReleases",
@@ -75,6 +68,10 @@
         {
           "Id": "VirtoCommerce.CatalogPublishing",
           "Version": "3.809.0"
+        },
+        {
+          "Id": "VirtoCommerce.Content",
+          "Version": "3.834.0"
         },
         {
           "Id": "VirtoCommerce.Contracts",
