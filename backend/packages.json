@@ -278,10 +278,6 @@
           "BlobName": "VirtoCommerce.Notifications_3.1004.0-alpha.451.zip"
         },
         {
-          "Id": "VirtoCommerce.EventBus",
-          "BlobName": "VirtoCommerce.EventBus_3.1002.0-alpha.166.zip"
-        },
-        {
           "Id": "VirtoCommerce.XCMS",
           "BlobName": "VirtoCommerce.XCMS_3.1002.0-alpha.55.zip"
         },
@@ -332,6 +328,10 @@
         {
           "Id": "VirtoCommerce.Xapi",
           "BlobName": "VirtoCommerce.Xapi_3.1006.0-alpha.152.zip"
+        },
+        {
+          "Id": "VirtoCommerce.EventBus",
+          "BlobName": "VirtoCommerce.EventBus_3.1002.0-alpha.168.zip"
         }
       ]
     }
