@@ -81,10 +81,37 @@
     themes:
       B2B-store: https://github.com/VirtoCommerce/vc-frontend/releases/download/2.36.0/vc-theme-b2b-vue-2.36.0.zip
       Electronics: https://github.com/VirtoCommerce/vc-theme-default/releases/download/2.1.13/vc-theme-default-2.1.13.zip
+
+  frontend:
+     - name: B2B-store
+       prerender: true
   ingress: {}
   customApps:
     app1:
       enabled: false
     app2:
       enabled: false
+
+    routes:
+  - host: vcptcore-stable-storefront.govirto.com
+    root: B2B-store
+    paths:
+    - path: /xapi
+      route: platform
+    - path: /files
+      route: platform
+    - path: /connect/token
+      route: platform
+    - path: /graphql
+      route: platform
+    - path: /revoke/token
+      route: platform
+    - path: /api/files
+      route: platform
+    - path: /externalsignin
+      route: platform
+    - path: /signin-oidc
+      route: platform
+    - path: /signin-google
+      route: platform
   version: 3.207
