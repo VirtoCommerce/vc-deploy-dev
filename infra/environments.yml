@@ -92,26 +92,26 @@
     app2:
       enabled: false
 
-    routes:
-  - host: vcptcore-stable-storefront.govirto.com
-    root: B2B-store
-    paths:
-    - path: /xapi
-      route: platform
-    - path: /files
-      route: platform
-    - path: /connect/token
-      route: platform
-    - path: /graphql
-      route: platform
-    - path: /revoke/token
-      route: platform
-    - path: /api/files
-      route: platform
-    - path: /externalsignin
-      route: platform
-    - path: /signin-oidc
-      route: platform
-    - path: /signin-google
-      route: platform
+  routes:
+    - host: vcptcore-stable-storefront.govirto.com
+      root: B2B-store
+      paths:
+      - path: /xapi
+        route: platform
+      - path: /files
+        route: platform
+      - path: /connect/token
+        route: platform
+      - path: /graphql
+        route: platform
+      - path: /revoke/token
+        route: platform
+      - path: /api/files
+        route: platform
+      - path: /externalsignin
+        route: platform
+      - path: /signin-oidc
+        route: platform
+      - path: /signin-google
+        route: platform
   version: 3.207
