@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.1008.0-pr-2986-a28c-vcst-4677-embedded-mode-a28ceb45",
+  "PlatformVersion": "3.1008.0-pr-2987-2908-vcst-4710-2908fa05",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.1008.0-pr-2986-a28c-vcst-4677-embedded-mode-a28ceb45",
+  "PlatformImageTag": "3.1008.0-pr-2987-2908-vcst-4710-2908fa05",
   "PlatformAssetUrl": "",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -24,6 +24,12 @@
         },
         {
           "BlobName": "VirtoCommerce.OneShell_3.1000.0-pr-1-feb2.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.1002.0-pr-129-3206.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Customer_3.1001.0-pr-293-ab30.zip"
         }
       ]
     },
@@ -140,10 +146,6 @@
         {
           "Id": "VirtoCommerce.Subscription",
           "Version": "3.813.0"
-        },
-        {
-          "Id": "VirtoCommerce.Customer",
-          "Version": "3.1000.0"
         },
         {
           "Id": "VirtoCommerce.XCMS",
@@ -319,10 +321,6 @@
         },
         {
           "Id": "VirtoCommerce.AvalaraTax",
-          "Version": "3.1000.0"
-        },
-        {
-          "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "Version": "3.1000.0"
         },
         {
