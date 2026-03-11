@@ -92,10 +92,6 @@
           "Version": "3.1000.0"
         },
         {
-          "Id": "VirtoCommerce.ImageTools",
-          "Version": "3.1000.0"
-        },
-        {
           "Id": "VirtoCommerce.Inventory",
           "Version": "3.1000.0"
         },
@@ -326,6 +322,10 @@
         {
           "Id": "VirtoCommerce.EventBus",
           "Version": "3.1002.0"
+        },
+        {
+          "Id": "VirtoCommerce.ImageTools",
+          "Version": "3.1001.0"
         }
       ]
     },
