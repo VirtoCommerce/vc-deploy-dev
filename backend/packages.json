@@ -170,10 +170,6 @@
           "BlobName": "VirtoCommerce.AuthorizeNetPayment_3.1001.0-alpha.99.zip"
         },
         {
-          "Id": "VirtoCommerce.XOrder",
-          "BlobName": "VirtoCommerce.XOrder_3.1001.0-alpha.91.zip"
-        },
-        {
           "Id": "VirtoCommerce.SqlQueries",
           "BlobName": "VirtoCommerce.SqlQueries_3.1001.0-alpha.26.zip"
         },
@@ -332,6 +328,10 @@
         {
           "Id": "VirtoCommerce.Orders",
           "BlobName": "VirtoCommerce.Orders_3.1003.0-alpha.1400.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XOrder",
+          "BlobName": "VirtoCommerce.XOrder_3.1001.0-alpha.94.zip"
         }
       ]
     }
