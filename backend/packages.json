@@ -216,10 +216,6 @@
           "Version": "3.1001.0"
         },
         {
-          "Id": "VirtoCommerce.News",
-          "Version": "3.813.0"
-        },
-        {
           "Id": "VirtoCommerce.Shipping",
           "Version": "3.1001.0"
         },
@@ -325,6 +321,10 @@
         },
         {
           "Id": "VirtoCommerce.OpenSearch",
+          "Version": "3.1000.0"
+        },
+        {
+          "Id": "VirtoCommerce.News",
           "Version": "3.1000.0"
         }
       ]
