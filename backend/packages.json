@@ -50,10 +50,6 @@
           "BlobName": "VirtoCommerce.ElasticAppSearch_3.817.0-alpha.164.zip"
         },
         {
-          "Id": "VirtoCommerce.BuilderIO",
-          "BlobName": "VirtoCommerce.BuilderIO_3.808.0-alpha.89.zip"
-        },
-        {
           "Id": "VirtoCommerce.FileExperienceApi",
           "BlobName": "VirtoCommerce.FileExperienceApi_3.1001.0-alpha.65.zip"
         },
@@ -332,6 +328,10 @@
         {
           "Id": "VirtoCommerce.BackInStock",
           "BlobName": "VirtoCommerce.BackInStock_3.1001.0-alpha.43.zip"
+        },
+        {
+          "Id": "VirtoCommerce.BuilderIO",
+          "BlobName": "VirtoCommerce.BuilderIO_3.1001.0-alpha.100.zip"
         }
       ]
     }
