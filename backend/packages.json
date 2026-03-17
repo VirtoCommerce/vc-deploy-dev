@@ -20,10 +20,6 @@
           "Version": "3.801.0"
         },
         {
-          "Id": "VirtoCommerce.BackInStock",
-          "Version": "3.804.0"
-        },
-        {
           "Id": "VirtoCommerce.ElasticSearch",
           "Version": "3.806.0"
         },
@@ -325,6 +321,10 @@
         },
         {
           "Id": "VirtoCommerce.NativePaymentMethods",
+          "Version": "3.1000.0"
+        },
+        {
+          "Id": "VirtoCommerce.BackInStock",
           "Version": "3.1000.0"
         }
       ]
