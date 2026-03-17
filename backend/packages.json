@@ -226,10 +226,6 @@
           "BlobName": "VirtoCommerce.XCMS_3.1002.0-alpha.55.zip"
         },
         {
-          "Id": "VirtoCommerce.News",
-          "BlobName": "VirtoCommerce.News_3.814.0-alpha.45.zip"
-        },
-        {
           "Id": "VirtoCommerce.Shipping",
           "BlobName": "VirtoCommerce.Shipping_3.1002.0-alpha.240.zip"
         },
@@ -332,6 +328,10 @@
         {
           "Id": "VirtoCommerce.OpenSearch",
           "BlobName": "VirtoCommerce.OpenSearch_3.1001.0-alpha.20.zip"
+        },
+        {
+          "Id": "VirtoCommerce.News",
+          "BlobName": "VirtoCommerce.News_3.1000.0-alpha.48.zip"
         }
       ]
     }
