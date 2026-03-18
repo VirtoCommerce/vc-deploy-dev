@@ -226,10 +226,6 @@
           "BlobName": "VirtoCommerce.WhiteLabeling_3.1002.0-alpha.69.zip"
         },
         {
-          "Id": "VirtoCommerce.Datatrans",
-          "BlobName": "VirtoCommerce.Datatrans_3.802.0-alpha.96.zip"
-        },
-        {
           "Id": "VirtoCommerce.Payment",
           "BlobName": "VirtoCommerce.Payment_3.1002.0-alpha.269.zip"
         },
@@ -332,6 +328,10 @@
         {
           "Id": "VirtoCommerce.CatalogPersonalization",
           "BlobName": "VirtoCommerce.CatalogPersonalization_3.1002.0-alpha.289.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Datatrans",
+          "BlobName": "VirtoCommerce.Datatrans_3.802.0-alpha.99.zip"
         }
       ]
     }
