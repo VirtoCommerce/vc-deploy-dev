@@ -1,6 +1,7 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.876.0",
+  "PlatformVersion": "3.1007.2",
+  "PlatformAssetUrl": "",
   "Sources": [
     {
       "Name": "AzureBlob",
@@ -8,7 +9,8 @@
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
         {
-          "BlobName": "VirtoCommerce.Licensing_3.802.0.zip"
+          "Id": "VirtoCommerce.AI",
+          "BlobName": "VirtoCommerce.AI_3.801.0-alpha.8.zip"
         }
       ]
     },
@@ -20,7 +22,7 @@
       "Modules": [
         {
           "Id": "VirtoCommerce.AzureAD",
-          "Version": "3.804.0"
+          "Version": "3.1000.0"
         }
       ]
     }

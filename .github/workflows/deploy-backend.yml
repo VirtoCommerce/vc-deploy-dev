@@ -1,11 +1,11 @@
-name: vcpt-license
+name: Cloud platform deployment
 
 on:
   workflow_dispatch:
   push:
     paths:
       - 'backend/**'
-    branches: [ license ]
+    branches: [ virtooz ]
 
 jobs:
   gitops:
@@ -15,36 +15,32 @@ jobs:
     - uses: actions/checkout@v4
       with:
         fetch-depth: 0
-  
-    - name: Az config
-      run: |
-        az config set extension.use_dynamic_install=yes_without_prompt
-    
+
     - name: Install vc-build
       run: |
         dotnet tool install --global VirtoCommerce.GlobalTool
 
     - name: Pack
       run: |
-        vc-build install -PackageManifestPath ./backend/packages.json -ProbingPath ./backend/platform/app_data/modules -DiscoveryPath ./backend/platform/modules --root ./backend/platform -SkipDependencySolving -GitHubToken ${{ secrets.PR_REPO_TOKEN }}
-  
-    - name: Copy license.key
-      run: |
-          echo "$LIC_KEY" >> ./backend/platform/app_data/license.key
-      shell: bash
-      env:
-        LIC_KEY: ${{ secrets.LIC_KEY }}
-    
-    - name: Get platfrom version
+        vc-build install -PackageManifestPath ./backend/packages.json -ProbingPath ./backend/platform/app_data/modules -DiscoveryPath ./backend/platform/modules --root ./backend/platform -SkipDependencySolving
+
+    - name: Get platform version
       id: platform-version
       run: |
         echo "PLATFORM_VERSION=$(cat ./backend/packages.json | jq -r '.PlatformVersion')" >> $GITHUB_ENV
 
     - name: Set outputs
       id: vars
-      run: echo "sha_short=$(git rev-parse --short HEAD)" >> $GITHUB_ENV
+      run: echo "sha_short=$(git rev-parse --short HEAD)" >> $GITHUB_OUTPUT
 
-    - name: Build and Publish Docker Image
+    - name: Prepare files for Docker image
+      run: |
+        curl -sSL -o ./backend/Dockerfile https://github.com/VirtoCommerce/vc-docker/raw/refs/heads/feat/net10/linux/platform/Dockerfile
+        curl -sSL -o ./wait-for-it.sh https://github.com/VirtoCommerce/vc-docker/raw/refs/heads/feat/net10/linux/platform/wait-for-it.sh
+        mkdir ./publish
+        mv ./backend/platform/* ./publish
+
+    - name: Build and Publish Docker Image to Virto container registry
       run: |
         vc-build BuildAndPush -DockerUsername $DOCKER_LOGIN -DockerPassword $DOCKER_PASSWORD -DockerfilePath $DOCKERFILE_PATH -DockerImageName $IMAGE_REPOSITORY -DockerImageTag $TAG -DockerRegistryUrl $CONTAINER_REGISTRY
       env:
@@ -52,11 +48,11 @@ jobs:
         DOCKER_PASSWORD: ${{ secrets.VCPT_ACR_DOCKER_PASSWORD }}
         DOCKERFILE_PATH: ./backend/Dockerfile
         CONTAINER_REGISTRY: virtopaasregistrymain.azurecr.io
-        IMAGE_REPOSITORY: virtopaasregistrymain.azurecr.io/vcpt/license
-        TAG: ${{ env.PLATFORM_VERSION }}-${{ env.sha_short }}
-    
+        IMAGE_REPOSITORY: virtopaasregistrymain.azurecr.io/vcpt/virtooz-platform
+        TAG: ${{ env.PLATFORM_VERSION }}-${{ steps.vars.outputs.sha_short }}
+
     - name: Update app
       run: |
-        vc-build CloudEnvSetParameter -CloudUrl https://portal.virtocommerce.cloud -EnvironmentName vcpt-license -CloudToken ${{ secrets.VCPT_PLATFORM_TOKEN }} -HelmParameters platform.image.tag=$TAG
+        vc-build CloudEnvSetParameter -EnvironmentName vcpt-virtooz -CloudToken ${{ secrets.VCPT_PLATFORM_TOKEN }} -HelmParameters platform.image.tag=$TAG
       env:
-        TAG: ${{ env.PLATFORM_VERSION }}-${{ env.sha_short }}
+        TAG: ${{ env.PLATFORM_VERSION }}-${{ steps.vars.outputs.sha_short }}
