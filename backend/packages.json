@@ -332,6 +332,10 @@
         {
           "Id": "VirtoCommerce.Marketing",
           "BlobName": "VirtoCommerce.Marketing_3.1002.0-alpha.916.zip"
+        },
+        {
+          "Id": "VirtoCommerce.OpenTelemetry",
+          "BlobName": "VirtoCommerce.OpenTelemetry_3.1000.0-alpha.3.zip"
         }
       ]
     }
