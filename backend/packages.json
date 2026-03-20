@@ -76,10 +76,6 @@
           "Version": "3.1001.0"
         },
         {
-          "Id": "VirtoCommerce.Marketing",
-          "Version": "3.1000.0"
-        },
-        {
           "Id": "VirtoCommerce.DynamicAssociationsModule",
           "Version": "3.1000.0"
         },
@@ -326,6 +322,10 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "Version": "3.1012.0"
+        },
+        {
+          "Id": "VirtoCommerce.Marketing",
+          "Version": "3.1001.0"
         }
       ]
     },
