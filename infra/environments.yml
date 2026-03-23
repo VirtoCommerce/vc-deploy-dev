@@ -22,12 +22,12 @@
       AzureAd__Priority: 0
       PasswordLogin__Priority: 1
       # Push notifications (platform core - SignalR)
-      # PushNotifications__ForceWebSockets: true
-      # PushNotifications__ScalabilityMode: RedisBackplane
-      # PushNotifications__RedisBackplane__ChannelName: vcpt-virtooz-channel
+      PushNotifications__ForceWebSockets: true
+      PushNotifications__RedisBackplane__ChannelName: vcpt-virtooz-channel
+      PushNotifications__ScalabilityMode: RedisBackplane
     secretConfig:
       APPLICATIONINSIGHTS_CONNECTION_STRING: vcpt-virtooz-appinsights-connection-string
-      #PushNotifications__HubUrl: vcpt-virtooz-push-notifications-hub
+      PushNotifications__HubUrl: vcpt-virtooz-push-notifications-hub
     databases: {}
   storefront:
     enabled: false
