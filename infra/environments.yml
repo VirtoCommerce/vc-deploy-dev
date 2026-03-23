@@ -16,11 +16,11 @@
       # Forward headers to Nginx
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
       # Azure Active Directory login
-      # AzureAd__ApplicationId: 54cefda5-2d23-4518-ac12-f55a0e1225d4
-      # AzureAd__Enabled: true
-      # AzureAd__TenantId: bc03e660-5e3a-45c4-bf5c-b75489f78923
-      # AzureAd__Priority: 0
-      # PasswordLogin__Priority: 1
+      AzureAd__ApplicationId: 54cefda5-2d23-4518-ac12-f55a0e1225d4
+      AzureAd__Enabled: true
+      AzureAd__TenantId: bc03e660-5e3a-45c4-bf5c-b75489f78923
+      AzureAd__Priority: 0
+      PasswordLogin__Priority: 1
       # Push notifications (platform core - SignalR)
       # PushNotifications__ForceWebSockets: true
       # PushNotifications__ScalabilityMode: RedisBackplane
