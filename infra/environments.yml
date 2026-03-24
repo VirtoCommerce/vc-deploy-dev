@@ -18,7 +18,6 @@
       VirtoCommerce__Stores__DefaultStore: B2B-store
       PushNotifications__ForceWebSockets: true
       PushNotifications__ScalabilityMode: RedisBackplane
-      PushNotifications__HubUrl: https://vcptcore-demo.govirto.com/pushNotificationHub?api_key=7125fd95-9f6d-44a0-8466-238003ace6fd
       PushNotifications__RedisBackplane__ChannelName: vcptcore-demo-chanel
       Notifications__Smtp__EnableSsl: False
       Notifications__Smtp__Host: smtp.sendgrid.net
@@ -198,6 +197,7 @@
       Payments__CyberSource__MerchantId: cybersource-merchantid
       Payments__CyberSource__MerchantKeyId: cybersource-merchantkeyid
       Payments__CyberSource__MerchantSecretKey: cybersource-merchantsecretkey
+      PushNotifications__HubUrl: pushnotifications-huburl-vcptcore-demo
   storefront:
     enabled: false
     themes:
