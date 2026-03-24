@@ -108,7 +108,6 @@
       VirtoCommerce__Stores__DefaultStore: B2B-store
       PushNotifications__ForceWebSockets: true
       PushNotifications__ScalabilityMode: RedisBackplane
-      PushNotifications__HubUrl: https://vcptcore-qa.govirto.com/pushNotificationHub?api_key=40f1d4af-032a-48c4-ac6a-34cd38fe4f04
       PushNotifications__RedisBackplane__ChannelName: vcptcore-qa-chanel
       PushMessages__UseFirebaseCloudMessaging: true
       PushMessages__FcmSenderOptions__Type: service_account
@@ -368,6 +367,7 @@
       #Assets__AzureBlobStorage__ConnectionString: azureblobconnectionstring
       PushMessages__FcmSenderOptions__PrivateKey: firebase-privatekey
       Search__ElasticSearch8__Key: elastic-search-8
+      PushNotifications__HubUrl: pushnotifications-huburl-vcptcore-qa
       
       
       
