@@ -92,7 +92,6 @@
       # Sync push notifications between platform instances
       PushNotifications__ForceWebSockets: true
       PushNotifications__ScalabilityMode: RedisBackplane
-      PushNotifications__HubUrl: https://vcst-dev.govirto.com/pushNotificationHub?api_key=458ab7f7-df17-4aed-9f21-092f8b611efa
       PushNotifications__RedisBackplane__ChannelName: vcst-dev-chanel
       # Elastic App Search settings
       Search__ElasticAppSearch__Endpoint: https://enterprise-search-test.govirto.com
@@ -156,6 +155,7 @@
       Weaviate__HuggingFaceToken: intent-search-huggingface-token
       GoogleSSO__ApplicationId: googlesso-aplicationid
       GoogleSSO__Secret: googlesso-secret
+      PushNotifications__HubUrl: pushnotifications-huburl-vcst-dev
   storefront:
     headers:
       Cross-Origin-Resource-Policy: cross-origin
