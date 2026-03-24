@@ -57,7 +57,6 @@
       Notifications__Smtp__Host: smtp.sendgrid.net
       Notifications__Smtp__Login: apikey
       Notifications__Smtp__Port: 587
-      PushNotifications__HubUrl: "http://virtostart-main-platform.virtostart.svc.cluster.local/pushNotificationHub?api_key=d4ab2590-0d7e-4a38-92ee-db425275c670"
       Content__PathMappings__pages__0: "Themes"
       Content__PathMappings__pages__1: "_storeId"
       Content__PathMappings__pages__2: "_theme"
@@ -162,7 +161,8 @@
       Search__ElasticAppSearch__PrivateApiKey: elasticappsearchprivateapikey
       Search__ElasticSearch8__Key: elasticsearch8key
       GoogleSSO__ApplicationId: googlesso-applicationid
-      GoogleSSO__Secret: googlesso-secret     
+      GoogleSSO__Secret: googlesso-secret  
+      PushNotifications__HubUrl: pushnotifications-huburl
     databases: {}
   storefront:
     enabled: false
