@@ -14,7 +14,6 @@
       APPINSIGHTS_INSTRUMENTATIONKEY: 85936324-4fc0-4d35-aa2f-164c4800ba3b
       PushNotifications__ForceWebSockets: true
       PushNotifications__ScalabilityMode: RedisBackplane
-      PushNotifications__HubUrl: https://vcptcore-dev.govirto.com/pushNotificationHub?api_key=458ab7f7-df17-4aed-9f21-092f8b611efa
       PushNotifications__RedisBackplane__ChannelName: vcptcore-dev-chanel
       Notifications__DefaultSender: azure_25da07ed75daacae20578a7a7dc58541@azure.com
       Notifications__Gateway: SendGrid
@@ -94,6 +93,7 @@
       Search__ElasticAppSearch__PrivateApiKey: elasticappsearch
       Notifications__SendGrid__ApiKey: sendkey
       Notifications__Smtp__Password: smtppasswordyandex
+      PushNotifications__HubUrl: pushnotifications-huburl-vcptcore-dev
   storefront:
     enabled: false
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/storefront
