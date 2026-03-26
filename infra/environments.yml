@@ -44,8 +44,8 @@
       config:
         LANGFUSE_PUBLIC_KEY: "pk-lf-0e66d160-0871-4cf6-91b8-db0fbf3b03b3"
         LANGFUSE_BASE_URL: "https://us.cloud.langfuse.com"
-        # TENANTS__DEV__PLATFORM__URL: https://vcpt-virtooz.govirto.com
-        # TENANTS__DEV__PLATFORM__AUTH__CLIENT_ID: 62f437db-98d8-4c80-b660-71e2fef900ea
+        TENANTS__VCMP_DEMO__PLATFORM__URL: https://vcmp-demo.govirto.com
+        TENANTS__VCMP_DEMO__PLATFORM__AUTH__CLIENT_ID: a1524a47-09c0-432d-aa20-87a84a29d6ef
         VIRTO_OZ_CHECKPOINTER__TYPE: postgres
         VIRTO_OZ_MCP__AUTH__BASE_URL: https://virtooz.govirto.com
         VIRTO_OZ_MCP__AUTH__STORAGE__AUTH__TYPE: password
@@ -55,7 +55,7 @@
       secretConfig:
         APPLICATIONINSIGHTS_CONNECTION_STRING: vcpt-virtooz-appinsights-connection-string
         LANGFUSE_SECRET_KEY: vcpt-virtooz-langfuse-secret-key
-        #TENANTS__DEV__PLATFORM__AUTH__CLIENT_SECRET: vcpt-virtooz-virtooz-platform-client-secret
+        TENANTS__VCMP_DEMO__PLATFORM__AUTH__CLIENT_SECRET: vcpt-virtooz-vcmp-demo-client-secret
         VIRTO_OZ_CHECKPOINTER__CONNECTION_STRING: vcpt-virtooz-checkpointer-connection-string
         VIRTO_OZ_MCP__AUTH__SIGNING_KEY: vcpt-virtooz-mcp-auth-signing-key
         VIRTO_OZ_MCP__AUTH__STORAGE__AUTH__PASSWORD: vcpt-virtooz-mcp-auth-storage-auth-password
