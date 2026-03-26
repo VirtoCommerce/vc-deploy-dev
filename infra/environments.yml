@@ -55,6 +55,8 @@
         VIRTO_OZ_MCP__AUTH__STORAGE__PORT: 10000
         VIRTO_OZ_MCP__AUTH__STORAGE__TYPE: redis
       secretConfig:
+        ANTHROPIC_API_KEY: vcpt-virtooz-vcmp-demo-anthropic-api-key
+        OPENAI_API_KEY: vcpt-virtooz-vcmp-demo-openai-api-key
         APPLICATIONINSIGHTS_CONNECTION_STRING: vcpt-virtooz-appinsights-connection-string
         LANGFUSE_SECRET_KEY: vcpt-virtooz-langfuse-secret-key
         TENANTS__VCMP_DEMO__PLATFORM__AUTH__CLIENT_SECRET: vcpt-virtooz-vcmp-demo-client-secret
