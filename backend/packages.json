@@ -286,10 +286,6 @@
           "BlobName": "VirtoCommerce.CatalogPersonalization_3.1002.0-alpha.289.zip"
         },
         {
-          "Id": "VirtoCommerce.Datatrans",
-          "BlobName": "VirtoCommerce.Datatrans_3.803.0-alpha.100.zip"
-        },
-        {
           "Id": "VirtoCommerce.Marketing",
           "BlobName": "VirtoCommerce.Marketing_3.1002.0-alpha.916.zip"
         },
@@ -336,6 +332,10 @@
         {
           "Id": "VirtoCommerce.ElasticSearch8",
           "BlobName": "VirtoCommerce.ElasticSearch8_3.1003.0-alpha.156.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Datatrans",
+          "BlobName": "VirtoCommerce.Datatrans_3.803.0-alpha.101.zip"
         }
       ]
     }
