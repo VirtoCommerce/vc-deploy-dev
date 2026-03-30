@@ -83,7 +83,6 @@
       # Sync push notifications between platform instances
       PushNotifications__ForceWebSockets: true
       PushNotifications__ScalabilityMode: RedisBackplane
-      PushNotifications__HubUrl: https://vcst-qa.govirto.com/pushNotificationHub?api_key=458ab7f7-df17-4aed-9f21-092f8b611efa
       PushNotifications__RedisBackplane__ChannelName: vcst-qa-chanel
       
       # Return detailed error information if login failed
@@ -176,6 +175,8 @@
       # Prevent Hangfire duplication key error
       VirtoCommerce__Hangfire__SqlServerStorageOptions__TryAutoDetectSchemaDependentOptions: true
       VirtoCommerce__Hangfire__SqlServerStorageOptions__UseIgnoreDupKeyOption: true
+      VirtoCommerce__Hangfire__SqlServerStorageOptions__DisableGlobalLocks: false
+      VirtoCommerce__Hangfire__AutomaticRetryAttribute__Attempts: 0
       # Network share path where to upload files
       VirtoCommerce__LocalUploadFolderPath: wwwroot/cms-content
       # Sample data used if db is empty
@@ -207,6 +208,7 @@
       Payments__Datatrans__Secret: datatrance-secret
       GoogleSSO__ApplicationId: googlesso-aplicationid
       GoogleSSO__Secret: googlesso-secret
+      PushNotifications__HubUrl: pushnotifications-huburl-vcst-qa
   storefront:
     headers:
       Cross-Origin-Embedder-Policy: unsafe-none
