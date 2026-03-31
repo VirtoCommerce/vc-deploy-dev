@@ -175,6 +175,8 @@
       # Prevent Hangfire duplication key error
       VirtoCommerce__Hangfire__SqlServerStorageOptions__TryAutoDetectSchemaDependentOptions: true
       VirtoCommerce__Hangfire__SqlServerStorageOptions__UseIgnoreDupKeyOption: true
+      VirtoCommerce__Hangfire__SqlServerStorageOptions__DisableGlobalLocks: false
+      VirtoCommerce__Hangfire__AutomaticRetryAttribute__Attempts: 0
       # Network share path where to upload files
       VirtoCommerce__LocalUploadFolderPath: wwwroot/cms-content
       # Sample data used if db is empty
