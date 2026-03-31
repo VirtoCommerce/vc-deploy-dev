@@ -320,16 +320,16 @@
           "Version": "3.1004.0"
         },
         {
-          "Id": "VirtoCommerce.ElasticSearch8",
-          "Version": "3.1002.0"
-        },
-        {
           "Id": "VirtoCommerce.Datatrans",
           "Version": "3.1000.0"
         },
         {
           "Id": "VirtoCommerce.AzureBlobAssets",
           "Version": "3.1002.0"
+        },
+        {
+          "Id": "VirtoCommerce.ElasticSearch8",
+          "Version": "3.1003.0"
         }
       ]
     },
