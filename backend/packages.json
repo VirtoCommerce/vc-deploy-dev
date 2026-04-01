@@ -300,10 +300,6 @@
           "Version": "3.1001.0"
         },
         {
-          "Id": "VirtoCommerce.XCatalog",
-          "Version": "3.1002.0"
-        },
-        {
           "Id": "VirtoCommerce.Datatrans",
           "Version": "3.1000.0"
         },
@@ -329,6 +325,10 @@
         },
         {
           "Id": "VirtoCommerce.Cart",
+          "Version": "3.1003.0"
+        },
+        {
+          "Id": "VirtoCommerce.XCatalog",
           "Version": "3.1003.0"
         }
       ]
