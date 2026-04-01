@@ -11,7 +11,7 @@
       "Name": "AzureBlob",
       "Container": "packages",
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
-      "Modules": [  
+      "Modules": [
         {
           "Id": "VirtoCommerce.PowerBiReports",
           "BlobName": "VirtoCommerce.PowerBiReports_3.800.0-pr-5-3363.zip"
@@ -40,12 +40,12 @@
           "BlobName": "VirtoCommerce.Catalog_3.1014.0-pr-874-5ec9.zip"
         },
         {
-          "Id": "VirtoCommerce.Cart",
-          "BlobName": "VirtoCommerce.Cart_3.1003.0-pr-186-2762.zip"
-        },
-         {
           "Id": "VirtoCommerce.XCart",
           "BlobName": "VirtoCommerce.XCart_3.1005.0-pr-106-ad89.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Cart",
+          "BlobName": "VirtoCommerce.Cart_3.1003.0.zip"
         }
       ]
     },
@@ -53,9 +53,9 @@
       "Name": "GithubReleases",
       "ModuleSources": [
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
-                       ],
-      "Modules": [ 
-       {
+      ],
+      "Modules": [
+        {
           "Id": "VirtoCommerce.Contentful",
           "Version": "3.805.0"
         },
@@ -363,4 +363,3 @@
     }
   ]
 }
-
