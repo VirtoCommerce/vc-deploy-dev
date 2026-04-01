@@ -368,6 +368,7 @@
       PushMessages__FcmSenderOptions__PrivateKey: firebase-privatekey
       Search__ElasticSearch8__Key: elastic-search-8
       PushNotifications__HubUrl: pushnotifications-huburl-vcptcore-qa
+      ConnectionStrings__AzureAppConfigurationConnectionString: azure-appConfiguration-connectionString
       
       
       

@@ -43,9 +43,13 @@
           "Id": "VirtoCommerce.Cart",
           "BlobName": "VirtoCommerce.Cart_3.1003.0-pr-186-2762.zip"
         },
-         {
+        {
           "Id": "VirtoCommerce.XCart",
           "BlobName": "VirtoCommerce.XCart_3.1005.0-pr-106-ad89.zip"
+        },
+        {
+          "Id": "VirtoCommerce.AzureAppConfiguration",
+          "BlobName": "VirtoCommerce.AzureAppConfiguration_3.1000.0-pr-1-9c5f.zip"
         }
       ]
     },
