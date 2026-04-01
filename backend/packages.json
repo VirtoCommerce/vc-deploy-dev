@@ -306,10 +306,6 @@
           "BlobName": "VirtoCommerce.AzureSearch_3.1002.0-alpha.273.zip"
         },
         {
-          "Id": "VirtoCommerce.XCatalog",
-          "BlobName": "VirtoCommerce.XCatalog_3.1003.0-alpha.177.zip"
-        },
-        {
           "Id": "VirtoCommerce.Datatrans",
           "BlobName": "VirtoCommerce.Datatrans_3.1001.0-alpha.104.zip"
         },
@@ -336,6 +332,10 @@
         {
           "Id": "VirtoCommerce.Cart",
           "BlobName": "VirtoCommerce.Cart_3.1004.0-alpha.778.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XCatalog",
+          "BlobName": "VirtoCommerce.XCatalog_3.1003.0-alpha.178.zip"
         }
       ]
     }
