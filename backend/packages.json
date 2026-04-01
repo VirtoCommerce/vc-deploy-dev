@@ -3,6 +3,7 @@
   "PlatformVersion": "3.1012.0-pr-2995-7680-vcst-4834-7680919b",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
   "PlatformImageTag": "3.1012.0-pr-2995-7680-vcst-4834-7680919b",
+  
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
   ],
@@ -69,7 +70,7 @@
         },
         {
           "Id": "VirtoCommerce.Notifications",
-          "BlobName": "VirtoCommerce.Notifications_3.1004.0-pr-194-8168.zip"
+          "BlobName": "VirtoCommerce.Notifications_3.1003.0.zip"
         },
         {
           "Id": "VirtoCommerce.Pricing",
