@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.1012.0-alpha.13221",
+  "PlatformVersion": "3.1012.0-pr-2989-6fb5-vcst-4696-clean-modularity-6fb534d4",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.1012.0-alpha.13221-dev-35042778",
+  "PlatformImageTag": "3.1012.0-pr-2989-6fb5-vcst-4696-clean-modularity-6fb534d4",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -17,6 +17,10 @@
       "Container": "packages",
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
+        {
+          "Id": "VirtoCommerce.AzureAppConfiguration",
+          "BlobName": "VirtoCommerce.AzureAppConfiguration_3.1000.0-pr-1-b8bd.zip"
+        },
         {
           "Id": "VirtoCommerce.SeqLog",
           "BlobName": "VirtoCommerce.SeqLog_3.800.0.zip"

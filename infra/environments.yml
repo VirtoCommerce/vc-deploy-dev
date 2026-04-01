@@ -94,6 +94,8 @@
       Notifications__SendGrid__ApiKey: sendkey
       Notifications__Smtp__Password: smtppasswordyandex
       PushNotifications__HubUrl: pushnotifications-huburl-vcptcore-dev
+      ConnectionStrings__AzureAppConfigurationConnectionString: azure-app-configuration-connection-string
+
   storefront:
     enabled: false
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/storefront
