@@ -218,10 +218,6 @@
           "BlobName": "VirtoCommerce.ImageTools_3.1002.0-alpha.389.zip"
         },
         {
-          "Id": "VirtoCommerce.WebHooks",
-          "BlobName": "VirtoCommerce.WebHooks_3.1002.0-alpha.335.zip"
-        },
-        {
           "Id": "VirtoCommerce.EventBus",
           "BlobName": "VirtoCommerce.EventBus_3.1003.0-alpha.171.zip"
         },
@@ -336,6 +332,10 @@
         {
           "Id": "VirtoCommerce.XCatalog",
           "BlobName": "VirtoCommerce.XCatalog_3.1004.0-alpha.179.zip"
+        },
+        {
+          "Id": "VirtoCommerce.WebHooks",
+          "BlobName": "VirtoCommerce.WebHooks_3.1002.0-alpha.338.zip"
         }
       ]
     }
