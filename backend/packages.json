@@ -98,10 +98,6 @@
           "BlobName": "VirtoCommerce.GoogleEcommerceAnalytics_4.1001.0-alpha.215.zip"
         },
         {
-          "Id": "VirtoCommerce.Contracts",
-          "BlobName": "VirtoCommerce.Contracts_3.1001.0-alpha.147.zip"
-        },
-        {
           "Id": "VirtoCommerce.Content",
           "BlobName": "VirtoCommerce.Content_3.1001.0-alpha.1037.zip"
         },
@@ -336,6 +332,10 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "BlobName": "VirtoCommerce.Catalog_3.1015.0-alpha.2490.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Contracts",
+          "BlobName": "VirtoCommerce.Contracts_3.1001.0-alpha.151.zip"
         }
       ]
     }
