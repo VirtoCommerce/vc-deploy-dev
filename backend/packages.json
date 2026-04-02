@@ -314,10 +314,6 @@
           "BlobName": "VirtoCommerce.ElasticSearch8_3.1004.0-alpha.158.zip"
         },
         {
-          "Id": "VirtoCommerce.Pages",
-          "BlobName": "VirtoCommerce.Pages_3.1003.0-alpha.50.zip"
-        },
-        {
           "Id": "VirtoCommerce.PageBuilderModule",
           "BlobName": "VirtoCommerce.PageBuilderModule_3.1002.0-alpha.810.zip"
         },
@@ -336,6 +332,10 @@
         {
           "Id": "VirtoCommerce.WebHooks",
           "BlobName": "VirtoCommerce.WebHooks_3.1003.0-alpha.339.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Pages",
+          "BlobName": "VirtoCommerce.Pages_3.1003.0-alpha.51.zip"
         }
       ]
     }
