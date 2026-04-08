@@ -19,6 +19,10 @@
       ],
       "Modules": [  
         {
+          "Id": "VirtoCommerce.Loyalty",
+          "Version": "3.1000.0"
+        },
+        {
           "Id": "VirtoCommerce.Contentful",
           "Version": "3.805.0"
         },
