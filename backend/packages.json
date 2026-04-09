@@ -1,9 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.1017.0-alpha.13242-vcst-4897",
+  "PlatformVersion": "3.1017.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.1017.0-pr-3002-740a-vcst-4897-740abc66",
-  
+  "PlatformImageTag": "3.1017.0",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
   ],
@@ -12,7 +11,7 @@
       "Name": "AzureBlob",
       "Container": "packages",
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
-      "Modules": [  
+      "Modules": [
         {
           "Id": "VirtoCommerce.PowerBiReports",
           "BlobName": "VirtoCommerce.PowerBiReports_3.800.0-pr-5-3363.zip"
@@ -46,9 +45,9 @@
       "Name": "GithubReleases",
       "ModuleSources": [
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
-                       ],
-      "Modules": [ 
-       {
+      ],
+      "Modules": [
+        {
           "Id": "VirtoCommerce.Contentful",
           "Version": "3.805.0"
         },
@@ -356,9 +355,7 @@
           "Id": "VirtoCommerce.Orders",
           "Version": "3.1004.0"
         }
-        
       ]
     }
   ]
 }
-
