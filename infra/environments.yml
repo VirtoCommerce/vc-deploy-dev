@@ -22,7 +22,8 @@
       VirtoCommerce__RefreshProbingFolderOnStart: true
       
       #Search__ElasticSearch__EnableCompatibilityMode: true
-      Search__Provider: AzureSearch
+      #Search__Provider: AzureSearch
+      Search__Provider: ElasticSearch8
       Search__AzureSearch__SearchServiceName: qa-demovc-3-search
       Search__AzureSearch__Key: 6BE1143312E89C26C227E6BBAE24DD47
       Search__AzureSearch__QueryParserType: Full
