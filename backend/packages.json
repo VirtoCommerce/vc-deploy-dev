@@ -11,7 +11,10 @@
     "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
     "Modules": [  
         {
-          "BlobName": "VirtoCommerce.XCart_3.1006.0-pr-107-daa4.zip"
+          "BlobName": "VirtoCommerce.XCart_3.1006.0-pr-105-e12d.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Catalog_3.1017.0-pr-871-3438.zip"
         }
       ]
     },
@@ -312,11 +315,7 @@
         {
           "Id": "VirtoCommerce.Notifications",
           "Version": "3.1005.0"
-        },
-        {
-          "Id": "VirtoCommerce.Catalog",
-          "Version": "3.1016.0"
-        },
+        }, 
         {
           "Id": "VirtoCommerce.Seo",
           "Version": "3.1001.0"
