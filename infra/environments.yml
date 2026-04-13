@@ -13,7 +13,7 @@
     dbName: vcst-qa-platform_restored
     config:
       # Increment to force environment reload
-      reload: 25
+      reload: 27
       # Application Insights settings
       APPINSIGHTS_INSTRUMENTATIONKEY: ef0125aa-1c8e-42d3-964f-d0a11256309d      
       # Forward headers to Nginx
@@ -175,6 +175,8 @@
       # Prevent Hangfire duplication key error
       VirtoCommerce__Hangfire__SqlServerStorageOptions__TryAutoDetectSchemaDependentOptions: true
       VirtoCommerce__Hangfire__SqlServerStorageOptions__UseIgnoreDupKeyOption: true
+      VirtoCommerce__Hangfire__SqlServerStorageOptions__DisableGlobalLocks: false
+      VirtoCommerce__Hangfire__AutomaticRetryAttribute__Attempts: 0
       # Network share path where to upload files
       VirtoCommerce__LocalUploadFolderPath: wwwroot/cms-content
       # Sample data used if db is empty
@@ -188,6 +190,7 @@
       Tax__Avalara__AccountNumber: 2000188799
       Tax__Avalara__LicenseKey: 16BC3F87E836E15C
       Videos__GoogleApiKey: AIzaSyD5A4oFeSgaMQnMo3OiaqUSJ23SQGELiA4
+      Videos__VimeoAccessToken: fb79d3c3db929322b9fa5c5f9f14aeff
     secretConfig:
       Search__ElasticSearch8__Key: elastic8
       PushMessages__FcmSenderOptions__PrivateKey: fcm-private-key-new
