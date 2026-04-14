@@ -154,10 +154,6 @@
           "BlobName": "VirtoCommerce.WhiteLabeling_3.1002.0-alpha.69.zip"
         },
         {
-          "Id": "VirtoCommerce.Payment",
-          "BlobName": "VirtoCommerce.Payment_3.1002.0-alpha.269.zip"
-        },
-        {
           "Id": "VirtoCommerce.Sanity",
           "BlobName": "VirtoCommerce.Sanity_3.1001.0-alpha.5.zip"
         },
@@ -336,6 +332,10 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "BlobName": "VirtoCommerce.Catalog_3.1017.0-alpha.2496.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Payment",
+          "BlobName": "VirtoCommerce.Payment_3.1002.0-alpha.273.zip"
         }
       ]
     }
