@@ -115,7 +115,8 @@
       # CyberSource
       Payments__CyberSource__ValidateSignatureRetryCount: 5
       #DataTrance
-      Payments__Datatrans__MerchantId: 1110020617      
+      Payments__Datatrans__MerchantId: 1110020617
+      Payments__Datatrans__UseSandbox: true
       # Sync push notifications between platform instances
       PushNotifications__ForceWebSockets: true
       PushNotifications__ScalabilityMode: RedisBackplane
