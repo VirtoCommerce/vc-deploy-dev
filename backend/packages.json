@@ -318,10 +318,6 @@
           "BlobName": "VirtoCommerce.PageBuilderModule_3.1003.0-alpha.812.zip"
         },
         {
-          "Id": "VirtoCommerce.Catalog",
-          "BlobName": "VirtoCommerce.Catalog_3.1017.0-alpha.2496.zip"
-        },
-        {
           "Id": "VirtoCommerce.Payment",
           "BlobName": "VirtoCommerce.Payment_3.1003.0-alpha.274.zip"
         },
@@ -336,6 +332,10 @@
         {
           "Id": "VirtoCommerce.Datatrans",
           "BlobName": "VirtoCommerce.Datatrans_3.1002.0-alpha.108.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "BlobName": "VirtoCommerce.Catalog_3.1018.0-alpha.2498.zip"
         }
       ]
     }
