@@ -330,12 +330,12 @@
           "BlobName": "VirtoCommerce.Payment_3.1003.0-alpha.274.zip"
         },
         {
-          "Id": "VirtoCommerce.XOrder",
-          "BlobName": "VirtoCommerce.XOrder_3.1002.0-alpha.99.zip"
-        },
-        {
           "Id": "VirtoCommerce.XCart",
           "BlobName": "VirtoCommerce.XCart_3.1006.0-alpha.205.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XOrder",
+          "BlobName": "VirtoCommerce.XOrder_3.1003.0-alpha.100.zip"
         }
       ]
     }
