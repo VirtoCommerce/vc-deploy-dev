@@ -11,20 +11,8 @@
     "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
     "Modules": [  
         {
-          "BlobName": "VirtoCommerce.XCart_3.1006.0-pr-108-6a4c.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.XOrder_3.1002.0-pr-41-377d.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.Payment_3.1002.0-pr-72-e596.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.Datatrans_3.1001.0-pr-32-0dfb.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.PageBuilderModule_3.1003.0-pr-116-9387.zip"
-        },
+          "BlobName": "VirtoCommerce.XCart_3.1007.0-pr-105-3ec5.zip"
+        },  
         {
           "BlobName": "VirtoCommerce.Catalog_3.1017.0-pr-871-3438.zip"
         }
@@ -40,7 +28,7 @@
           "Id": "VirtoCommerce.Loyalty",
           "Version": "3.1000.0"
        },
-       {
+      {
           "Id": "VirtoCommerce.Contentful",
           "Version": "3.805.0"
         },
@@ -175,7 +163,7 @@
         {
           "Id": "VirtoCommerce.WhiteLabeling",
           "Version": "3.1001.0"
-        },  
+        },
         {
           "Id": "VirtoCommerce.Sanity",
           "Version": "3.1000.0"
@@ -199,7 +187,7 @@
         {
           "Id": "VirtoCommerce.ImageTools",
           "Version": "3.1001.0"
-        }, 
+        },
         {
           "Id": "VirtoCommerce.PriceExportImport",
           "Version": "3.1000.0"
@@ -255,7 +243,7 @@
         {
           "Id": "VirtoCommerce.AzureSearch",
           "Version": "3.1001.0"
-        },   
+        },
         {
           "Id": "VirtoCommerce.AzureBlobAssets",
           "Version": "3.1002.0"
@@ -263,13 +251,9 @@
         {
           "Id": "VirtoCommerce.ElasticSearch8",
           "Version": "3.1003.0"
-        },     
-        {
-          "Id": "VirtoCommerce.Cart",
-          "Version": "3.1003.0"
         },
         {
-          "Id": "VirtoCommerce.XCatalog",
+          "Id": "VirtoCommerce.Cart",
           "Version": "3.1003.0"
         },
         {
@@ -305,13 +289,9 @@
           "Version": "3.1001.0"
         },
         {
-          "Id": "VirtoCommerce.Marketing",
-          "Version": "3.1002.0"
-        },
-        {
           "Id": "VirtoCommerce.Notifications",
           "Version": "3.1005.0"
-        }, 
+        },
         {
           "Id": "VirtoCommerce.Seo",
           "Version": "3.1001.0"
@@ -335,6 +315,30 @@
         {
           "Id": "VirtoCommerce.Orders",
           "Version": "3.1005.0"
+        },
+        {
+          "Id": "VirtoCommerce.Marketing",
+          "Version": "3.1003.0"
+        },
+        {
+          "Id": "VirtoCommerce.Payment",
+          "Version": "3.1002.0"
+        },
+        {
+          "Id": "VirtoCommerce.XOrder",
+          "Version": "3.1002.0"
+        },   
+        {
+          "Id": "VirtoCommerce.Datatrans",
+          "Version": "3.1001.0"
+        },      
+        {
+          "Id": "VirtoCommerce.XCatalog",
+          "Version": "3.1004.0"
+        },
+        {
+          "Id": "VirtoCommerce.PageBuilderModule",
+          "Version": "3.1003.0"
         }
        ]
     }
