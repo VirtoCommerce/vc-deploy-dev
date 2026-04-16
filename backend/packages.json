@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.1017.0",
+  "PlatformVersion": "3.1019.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.1017.0",
+  "PlatformImageTag": "3.1019.0",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -14,7 +14,7 @@
           "BlobName": "VirtoCommerce.XCart_3.1007.0-pr-105-3ec5.zip"
         },  
         {
-          "BlobName": "VirtoCommerce.Catalog_3.1017.0-pr-871-3438.zip"
+          "BlobName": "VirtoCommerce.Catalog_3.1018.0-pr-871-3340.zip"
         }
       ]
     },
