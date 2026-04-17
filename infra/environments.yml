@@ -281,7 +281,7 @@
       Caching__CacheEnabled: true
       Authorization__ReturnPasswordHash: true
       Authorization__AllowApiAccessForCustomers: false
-      Authorization__AllowOverrideProtectedUserFields: true
+      Authorization__AllowOverrideProtectedUserFields: false
       PasswordLogin__DetailedErrors: true
       IdentityOptions__Password__RequiredLength: 3
       IdentityOptions__Password__RequireDigit: false
