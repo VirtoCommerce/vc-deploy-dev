@@ -330,12 +330,12 @@
           "BlobName": "VirtoCommerce.Xapi_3.1007.0-alpha.158.zip"
         },
         {
-          "Id": "VirtoCommerce.Core",
-          "BlobName": "VirtoCommerce.Core_3.1003.0-alpha.1692.zip"
-        },
-        {
           "Id": "VirtoCommerce.Seo",
           "BlobName": "VirtoCommerce.Seo_3.1003.0-alpha.77.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Core",
+          "BlobName": "VirtoCommerce.Core_3.1004.0-alpha.1693.zip"
         }
       ]
     }
