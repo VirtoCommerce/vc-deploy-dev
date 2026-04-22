@@ -9,14 +9,7 @@
     "Name": "AzureBlob",
     "Container": "packages",
     "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
-    "Modules": [
-      {
-        "BlobName": "VirtoCommerce.Catalog_3.1020.0-pr-871-6a00.zip"      
-      },
-      {
-        "BlobName": "VirtoCommerce.XCart_3.1009.0-pr-105-fea8.zip"      
-      }
-    ]
+    "Modules": []
     },
     {
       "Name": "GithubReleases",
@@ -303,7 +296,7 @@
         {
           "Id": "VirtoCommerce.CustomerReviews",
           "Version": "3.1002.0"
-        },  
+        },
         {
           "Id": "VirtoCommerce.Xapi",
           "Version": "3.1006.0"
@@ -321,10 +314,6 @@
           "Version": "3.1001.0"
         },
         {
-          "Id": "VirtoCommerce.Customer",
-          "Version": "3.1005.0"
-        },
-        {
           "Id": "VirtoCommerce.Store",
           "Version": "3.1002.0"
         },
@@ -339,6 +328,18 @@
         {
           "Id": "VirtoCommerce.PageBuilderModule",
           "Version": "3.1007.0"
+        },
+        {
+          "Id": "VirtoCommerce.Customer",
+          "Version": "3.1006.0"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "Version": "3.1020.0"
+        },
+        {
+          "Id": "VirtoCommerce.XCart",
+          "Version": "3.1009.0"
         }
        ]
     }
