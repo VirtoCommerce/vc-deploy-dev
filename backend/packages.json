@@ -3,7 +3,6 @@
   "PlatformVersion": "3.1022.0-pr-3009-5028-vcst-4899-50283672",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
   "PlatformImageTag": "3.1022.0-pr-3009-5028-vcst-4899-50283672",
-  
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
   ],
@@ -12,10 +11,10 @@
       "Name": "AzureBlob",
       "Container": "packages",
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
-      "Modules": [  
+      "Modules": [
         {
           "Id": "VirtoCommerce.SystemOperations",
-          "BlobName": "VirtoCommerce.SystemOperations_3.1000.0-pr-1-aa99.zip"          
+          "BlobName": "VirtoCommerce.SystemOperations_3.1000.0-pr-1-aa99.zip"
         },
         {
           "Id": "VirtoCommerce.PowerBiReports",
@@ -40,11 +39,11 @@
           "Id": "VirtoCommerce.PageBuilderModule",
           "BlobName": "VirtoCommerce.PageBuilderModule_3.1004.0.zip"
         },
-         {
+        {
           "Id": "VirtoCommerce.FileExperienceApi",
           "BlobName": "VirtoCommerce.FileExperienceApi_3.1001.0-pr-19-d140.zip"
         },
-         {
+        {
           "Id": "VirtoCommerce.Xapi",
           "BlobName": "VirtoCommerce.Xapi_3.1006.0-pr-68-f60a.zip"
         },
@@ -52,7 +51,7 @@
           "Id": "VirtoCommerce.XCart",
           "BlobName": "VirtoCommerce.XCart_3.1007.0-pr-109-f1b2.zip"
         },
-         {
+        {
           "Id": "VirtoCommerce.Catalog",
           "BlobName": "VirtoCommerce.Catalog_3.1019.0-pr-878-c424.zip"
         },
@@ -68,13 +67,17 @@
           "Id": "VirtoCommerce.Customer",
           "BlobName": "VirtoCommerce.Customer_3.1006.0-pr-298-3b3d.zip"
         },
-         {
+        {
           "Id": "VirtoCommerce.Seo",
           "BlobName": "VirtoCommerce.Seo_3.1002.0-pr-19-15be.zip"
         },
         {
           "Id": "VirtoCommerce.Store",
           "BlobName": "VirtoCommerce.Store_3.1002.0-pr-167-ebb8.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XOrder",
+          "BlobName": "VirtoCommerce.XOrder_3.1003.0.zip"
         }
       ]
     },
@@ -82,9 +85,9 @@
       "Name": "GithubReleases",
       "ModuleSources": [
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
-                       ],
-      "Modules": [ 
-       {
+      ],
+      "Modules": [
+        {
           "Id": "VirtoCommerce.Contentful",
           "Version": "3.805.0"
         },
@@ -353,15 +356,10 @@
           "Version": "3.1002.0"
         },
         {
-          "Id": "VirtoCommerce.XOrder",
-          "Version": "3.1002.0"
-        },
-        {
           "Id": "VirtoCommerce.Datatrans",
           "Version": "3.1001.0"
         }
-       ]
+      ]
     }
   ]
 }
-
