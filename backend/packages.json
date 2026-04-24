@@ -334,12 +334,12 @@
           "BlobName": "VirtoCommerce.XOrder_3.1004.0-alpha.102.zip"
         },
         {
-          "Id": "VirtoCommerce.EventBus",
-          "BlobName": "VirtoCommerce.EventBus_3.1005.0-alpha.179.zip"
-        },
-        {
           "Id": "VirtoCommerce.Shipping",
           "BlobName": "VirtoCommerce.Shipping_3.1003.0-alpha.247.zip"
+        },
+        {
+          "Id": "VirtoCommerce.EventBus",
+          "BlobName": "VirtoCommerce.EventBus_3.1005.0-alpha.181.zip"
         }
       ]
     }
