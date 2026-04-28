@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.1025.0-pr-2987-eb8e-vcst-4710-eb8e622b",
+  "PlatformVersion": "3.1025.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.1025.0-pr-2987-eb8e-vcst-4710-eb8e622b",
+  "PlatformImageTag": "3.1025.0",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -11,14 +11,8 @@
     "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
     "Modules": [
       {
-        "BlobName": "VirtoCommerce.Customer_3.1007.0-pr-293-8a46.zip"
-      },
-      {
-        "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.1005.0-pr-129-2998.zip"
-      },
-      {
-        "BlobName": "VirtoCommerce.Shipping_3.1003.0-pr-67-ae8e.zip"
-      }
+        "BlobName": "VirtoCommerce.XPickup_3.1001.0-pr-8-3380.zip"
+      }      
     ]
     },
     {
@@ -132,14 +126,6 @@
           "Version": "3.1000.0"
         },
         {
-          "Id": "VirtoCommerce.XPickup",
-          "Version": "3.1000.0"
-        },
-        {
-          "Id": "VirtoCommerce.OrderManagement",
-          "Version": "3.1000.0"
-        },
-        {
           "Id": "VirtoCommerce.CustomerExportImport",
           "Version": "3.1000.0"
         },
@@ -160,16 +146,8 @@
           "Version": "3.1001.0"
         },
         {
-          "Id": "VirtoCommerce.Sanity",
-          "Version": "3.1000.0"
-        },
-        {
           "Id": "VirtoCommerce.Tax",
           "Version": "3.1001.0"
-        },
-        {
-          "Id": "VirtoCommerce.EventBus",
-          "Version": "3.1002.0"
         },
         {
           "Id": "VirtoCommerce.ImageTools",
@@ -184,19 +162,7 @@
           "Version": "3.1000.0"
         },
         {
-          "Id": "VirtoCommerce.BuilderIO",
-          "Version": "3.1000.0"
-        },
-        {
           "Id": "VirtoCommerce.OpenSearch",
-          "Version": "3.1000.0"
-        },
-        {
-          "Id": "VirtoCommerce.News",
-          "Version": "3.1000.0"
-        },
-        {
-          "Id": "VirtoCommerce.TaskManagement",
           "Version": "3.1000.0"
         },
         {
@@ -210,15 +176,11 @@
         {
           "Id": "VirtoCommerce.MarketingExperienceApi",
           "Version": "3.1001.0"
-        },
-        {
-          "Id": "VirtoCommerce.ShipStation",
-          "Version": "3.1000.0"
-        },
+        }, 
         {
           "Id": "VirtoCommerce.Sitemaps",
           "Version": "3.1001.0"
-        }, 
+        },
         {
           "Id": "VirtoCommerce.AzureSearch",
           "Version": "3.1001.0"
@@ -239,10 +201,6 @@
           "Id": "VirtoCommerce.WebHooks",
           "Version": "3.1002.0"
         },
-        {
-          "Id": "VirtoCommerce.Pages",
-          "Version": "3.1003.0"
-        },  
         {
           "Id": "VirtoCommerce.Contracts",
           "Version": "3.1001.0"
@@ -284,16 +242,8 @@
           "Version": "3.1002.0"
         },
         {
-          "Id": "VirtoCommerce.XOrder",
-          "Version": "3.1002.0"
-        },
-        {
           "Id": "VirtoCommerce.Datatrans",
           "Version": "3.1001.0"
-        },
-        {
-          "Id": "VirtoCommerce.XCatalog",
-          "Version": "3.1004.0"
         },
         {
           "Id": "VirtoCommerce.CustomerReviews",
@@ -328,16 +278,56 @@
           "Version": "3.1001.0"
         },
         {
-          "Id": "VirtoCommerce.PageBuilderModule",
-          "Version": "3.1007.0"
-        },   
-        {
           "Id": "VirtoCommerce.Catalog",
           "Version": "3.1020.0"
         },
         {
+          "Id": "VirtoCommerce.XOrder",
+          "Version": "3.1003.0"
+        },
+        {
+          "Id": "VirtoCommerce.EventBus",
+          "Version": "3.1006.0"
+        },
+        {
+          "Id": "VirtoCommerce.Shipping",
+          "Version": "3.1003.0"
+        },
+        {
+          "Id": "VirtoCommerce.OrderManagement",
+          "Version": "3.1001.0"
+        },
+        {
+          "Id": "VirtoCommerce.Pages",
+          "Version": "3.1004.0"
+        },
+        {
+          "Id": "VirtoCommerce.BuilderIO",
+          "Version": "3.1001.0"
+        },
+        {
+          "Id": "VirtoCommerce.Customer",
+          "Version": "3.1007.0"
+        },
+        {
           "Id": "VirtoCommerce.XCart",
-          "Version": "3.1009.0"
+          "Version": "3.1010.0"
+        },
+        {
+          "Id": "VirtoCommerce.ProfileExperienceApiModule",
+          "Version": "3.1005.0"
+        },
+        {
+          "Id": "VirtoCommerce.XCatalog",
+          "Version": "3.1005.0"
+        },
+        {
+          "Id": "VirtoCommerce.Sanity",
+          "Version": "3.1001.0"
+        },
+        {
+          "Id": "VirtoCommerce.PageBuilderModule",
+          "Version": "3.1008.0"
         }
        ]
     }
