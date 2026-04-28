@@ -194,10 +194,6 @@
           "BlobName": "VirtoCommerce.Sitemaps_3.1002.0-alpha.406.zip"
         },
         {
-          "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.1005.0-alpha.335.zip"
-        },
-        {
           "Id": "VirtoCommerce.AzureSearch",
           "BlobName": "VirtoCommerce.AzureSearch_3.1002.0-alpha.273.zip"
         },
@@ -340,6 +336,10 @@
         {
           "Id": "VirtoCommerce.XCart",
           "BlobName": "VirtoCommerce.XCart_3.1011.0-alpha.215.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ProfileExperienceApiModule",
+          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.1005.0-alpha.338.zip"
         }
       ]
     }
