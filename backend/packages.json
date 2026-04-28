@@ -12,10 +12,6 @@
       ],
       "Modules": [
         {
-          "Id": "VirtoCommerce.Contentful",
-          "Version": "3.805.0"
-        },
-        {
           "Id": "VirtoCommerce.ElasticSearch",
           "Version": "3.806.0"
         },
@@ -330,6 +326,10 @@
         {
           "Id": "VirtoCommerce.PageBuilderModule",
           "Version": "3.1008.0"
+        },
+        {
+          "Id": "VirtoCommerce.Contentful",
+          "Version": "3.1000.0"
         }
       ]
     },
