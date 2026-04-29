@@ -288,10 +288,6 @@
           "Version": "3.1004.0"
         },
         {
-          "Id": "VirtoCommerce.BuilderIO",
-          "Version": "3.1001.0"
-        },
-        {
           "Id": "VirtoCommerce.Customer",
           "Version": "3.1007.0"
         },
@@ -329,6 +325,10 @@
         },
         {
           "Id": "VirtoCommerce.Sanity",
+          "Version": "3.1002.0"
+        },
+        {
+          "Id": "VirtoCommerce.BuilderIO",
           "Version": "3.1002.0"
         }
       ]
