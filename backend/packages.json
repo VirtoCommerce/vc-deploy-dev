@@ -298,10 +298,6 @@
           "BlobName": "VirtoCommerce.Pages_3.1005.0-alpha.56.zip"
         },
         {
-          "Id": "VirtoCommerce.BuilderIO",
-          "BlobName": "VirtoCommerce.BuilderIO_3.1002.0-alpha.124.zip"
-        },
-        {
           "Id": "VirtoCommerce.Customer",
           "BlobName": "VirtoCommerce.Customer_3.1008.0-alpha.960.zip"
         },
@@ -340,6 +336,10 @@
         {
           "Id": "VirtoCommerce.Sanity",
           "BlobName": "VirtoCommerce.Sanity_3.1003.0-alpha.9.zip"
+        },
+        {
+          "Id": "VirtoCommerce.BuilderIO",
+          "BlobName": "VirtoCommerce.BuilderIO_3.1003.0-alpha.128.zip"
         }
       ]
     }
