@@ -314,10 +314,6 @@
           "BlobName": "VirtoCommerce.XCatalog_3.1006.0-alpha.185.zip"
         },
         {
-          "Id": "VirtoCommerce.PageBuilderModule",
-          "BlobName": "VirtoCommerce.PageBuilderModule_3.1009.0-alpha.824.zip"
-        },
-        {
           "Id": "VirtoCommerce.SqlQueries",
           "BlobName": "VirtoCommerce.SqlQueries_3.1002.0-alpha.35.zip"
         },
@@ -340,6 +336,10 @@
         {
           "Id": "VirtoCommerce.BuilderIO",
           "BlobName": "VirtoCommerce.BuilderIO_3.1003.0-alpha.128.zip"
+        },
+        {
+          "Id": "VirtoCommerce.PageBuilderModule",
+          "BlobName": "VirtoCommerce.PageBuilderModule_3.1009.0-alpha.825.zip"
         }
       ]
     }
