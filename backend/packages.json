@@ -268,10 +268,6 @@
           "Version": "3.1020.0"
         },
         {
-          "Id": "VirtoCommerce.XOrder",
-          "Version": "3.1003.0"
-        },
-        {
           "Id": "VirtoCommerce.EventBus",
           "Version": "3.1006.0"
         },
@@ -330,6 +326,10 @@
         {
           "Id": "VirtoCommerce.Orders",
           "Version": "3.1007.0"
+        },
+        {
+          "Id": "VirtoCommerce.XOrder",
+          "Version": "3.1004.0"
         }
       ]
     },
