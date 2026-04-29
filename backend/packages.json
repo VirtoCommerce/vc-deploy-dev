@@ -230,10 +230,6 @@
           "BlobName": "VirtoCommerce.NativePaymentMethods_3.1002.0-alpha.112.zip"
         },
         {
-          "Id": "VirtoCommerce.Orders",
-          "BlobName": "VirtoCommerce.Orders_3.1006.0-alpha.1407.zip"
-        },
-        {
           "Id": "VirtoCommerce.Marketing",
           "BlobName": "VirtoCommerce.Marketing_3.1004.0-alpha.920.zip"
         },
@@ -340,6 +336,10 @@
         {
           "Id": "VirtoCommerce.SqlQueries",
           "BlobName": "VirtoCommerce.SqlQueries_3.1002.0-alpha.35.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Orders",
+          "BlobName": "VirtoCommerce.Orders_3.1006.0-alpha.1411.zip"
         }
       ]
     }
