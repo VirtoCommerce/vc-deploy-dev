@@ -3,7 +3,6 @@
   "PlatformVersion": "3.1025.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
   "PlatformImageTag": "3.1025.0",
-  
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
   ],
@@ -12,10 +11,10 @@
       "Name": "AzureBlob",
       "Container": "packages",
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
-      "Modules": [  
+      "Modules": [
         {
           "Id": "VirtoCommerce.SystemOperations",
-          "BlobName": "VirtoCommerce.SystemOperations_3.1000.0-pr-1-aa99.zip"          
+          "BlobName": "VirtoCommerce.SystemOperations_3.1000.0-pr-1-aa99.zip"
         },
         {
           "Id": "VirtoCommerce.PowerBiReports",
@@ -33,25 +32,25 @@
           "BlobName": "VirtoCommerce.SeqLog_3.1000.0-pr-2-9e9c.zip"
         },
         {
-          "Id": "VirtoCommerce.Orders",
-          "BlobName": "VirtoCommerce.Orders_3.1006.0-alpha.1420-vcst-4768.zip"
-        },
-        {
           "Id": "VirtoCommerce.XOrder",
           "BlobName": "VirtoCommerce.XOrder_3.1004.0-alpha.120-vcst-4768.zip"
         },
         {
           "Id": "VirtoCommerce.ProductSnapshot",
           "BlobName": "VirtoCommerce.ProductSnapshot_3.1000.0-pr-1-d1fb.zip"
-        }        
+        },
+        {
+          "Id": "VirtoCommerce.Orders",
+          "BlobName": "VirtoCommerce.Orders_3.1007.0.zip"
+        }
       ]
     },
     {
       "Name": "GithubReleases",
       "ModuleSources": [
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
-                       ],
-      "Modules": [ 
+      ],
+      "Modules": [
         {
           "Id": "VirtoCommerce.ElasticSearch",
           "Version": "3.806.0"
@@ -364,8 +363,7 @@
           "Id": "VirtoCommerce.XPickup",
           "Version": "3.1001.0"
         }
-       ]
+      ]
     }
   ]
 }
-
