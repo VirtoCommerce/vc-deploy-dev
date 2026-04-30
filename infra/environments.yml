@@ -281,6 +281,7 @@
       Caching__CacheEnabled: true
       Authorization__ReturnPasswordHash: true
       Authorization__AllowApiAccessForCustomers: false
+      Authorization__EnablePersistentStorageTokenValidation: true
       #Authorization__AllowOverrideProtectedUserFields: false
       PasswordLogin__DetailedErrors: true
       IdentityOptions__Password__RequiredLength: 3
