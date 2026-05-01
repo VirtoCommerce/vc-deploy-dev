@@ -280,10 +280,6 @@
           "Version": "3.1007.0"
         },
         {
-          "Id": "VirtoCommerce.XCart",
-          "Version": "3.1010.0"
-        },
-        {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "Version": "3.1005.0"
         },
@@ -334,6 +330,10 @@
         {
           "Id": "VirtoCommerce.EventBus",
           "Version": "3.1007.0"
+        },
+        {
+          "Id": "VirtoCommerce.XCart",
+          "Version": "3.1011.0"
         }
       ]
     },
