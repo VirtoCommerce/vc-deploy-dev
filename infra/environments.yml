@@ -44,11 +44,15 @@
       config:
         LANGFUSE_PUBLIC_KEY: "pk-lf-0e66d160-0871-4cf6-91b8-db0fbf3b03b3"
         LANGFUSE_BASE_URL: "https://us.cloud.langfuse.com"
-        OTEL_EXPERIMENTAL_RESOURCE_DETECTORS: otel
+        OTEL_EXPERIMENTAL_RESOURCE_DETECTORS: otel        
         TENANTS__VCMP_DEMO__ID: "vcmp_demo"
         TENANTS__VCMP_DEMO__NAME: "Marketplace Demo"
         TENANTS__VCMP_DEMO__PLATFORM__URL: https://vcmp-demo.govirto.com
         TENANTS__VCMP_DEMO__PLATFORM__AUTH__CLIENT_ID: a1524a47-09c0-432d-aa20-87a84a29d6ef
+        TENANTS__VCPTCORE_QA__ID: "vcptcore_qa"
+        TENANTS__VCPTCORE_QA__NAME: "Platform QA"
+        TENANTS__VCPTCORE_QA__PLATFORM__URL: https://vcptcore-qa.govirto.com
+        TENANTS__VCPTCORE_QA__PLATFORM__AUTH__CLIENT_ID: b75a178a-fe5d-48ce-bf06-cc679247ccb5
         VIRTO_OZ_CHECKPOINTER__TYPE: postgres
         VIRTO_OZ_MCP__AUTH__BASE_URL: https://virtooz.govirto.com
         VIRTO_OZ_MCP__AUTH__STORAGE__AUTH__TYPE: password
@@ -60,7 +64,8 @@
         OPENAI_API_KEY: vcpt-virtooz-vcmp-demo-openai-api-key
         APPLICATIONINSIGHTS_CONNECTION_STRING: vcpt-virtooz-appinsights-connection-string
         LANGFUSE_SECRET_KEY: vcpt-virtooz-langfuse-secret-key
-        TENANTS__VCMP_DEMO__PLATFORM__AUTH__CLIENT_SECRET: vcpt-virtooz-vcmp-demo-client-secret
+        TENANTS__VCMP_DEMO__PLATFORM__AUTH__CLIENT_SECRET: vcpt-virtooz-vcmp-demo-client-secret        
+        TENANTS__VCPTCORE_QA__PLATFORM__AUTH__CLIENT_SECRET: vcpt-virtooz-vcptcore-qa-client-secret
         VIRTO_OZ_CHECKPOINTER__CONNECTION_STRING: vcpt-virtooz-checkpointer-connection-string
         VIRTO_OZ_MCP__AUTH__SIGNING_KEY: vcpt-virtooz-mcp-auth-signing-key
         VIRTO_OZ_MCP__AUTH__STORAGE__AUTH__PASSWORD: vcpt-virtooz-mcp-auth-storage-auth-password
