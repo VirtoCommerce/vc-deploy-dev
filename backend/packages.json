@@ -47,6 +47,10 @@
           {
           "Id": "VirtoCommerce.Catalog",
           "BlobName": "VirtoCommerce.Catalog_3.1021.0-pr-876-b7dd.zip"
+        },
+        {
+          "Id": "VirtoCommerce.PageBuilderModule",
+          "BlobName": "VirtoCommerce.PageBuilderModule_3.1010.0-pr-130-c57d.zip"
         }
       ]
     },
@@ -327,10 +331,6 @@
         {
           "Id": "VirtoCommerce.BuilderIO",
           "Version": "3.1002.0"
-        },
-        {
-          "Id": "VirtoCommerce.PageBuilderModule",
-          "Version": "3.1009.0"
         },
         {
           "Id": "VirtoCommerce.Contentful",
