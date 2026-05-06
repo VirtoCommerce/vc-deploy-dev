@@ -250,10 +250,6 @@
           "BlobName": "VirtoCommerce.Skyflow_3.1002.0-alpha.64.zip"
         },
         {
-          "Id": "VirtoCommerce.Catalog",
-          "BlobName": "VirtoCommerce.Catalog_3.1021.0-alpha.2503.zip"
-        },
-        {
           "Id": "VirtoCommerce.SystemOperations",
           "BlobName": "VirtoCommerce.SystemOperations_3.1001.0-alpha.5.zip"
         },
@@ -344,6 +340,10 @@
         {
           "Id": "VirtoCommerce.AvalaraTax",
           "BlobName": "VirtoCommerce.AvalaraTax_3.1002.0-alpha.346.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "BlobName": "VirtoCommerce.Catalog_3.1021.0-alpha.2505.zip"
         }
       ]
     }
