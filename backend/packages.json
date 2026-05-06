@@ -51,6 +51,10 @@
         {
           "Id": "VirtoCommerce.PageBuilderModule",
           "BlobName": "VirtoCommerce.PageBuilderModule_3.1010.0-pr-130-c57d.zip"
+        },
+         {
+          "Id": "VirtoCommerce.AI",
+          "BlobName": "VirtoCommerce.AI_3.1000.0.zip"
         }
       ]
     },
@@ -59,11 +63,7 @@
       "ModuleSources": [
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
                        ],
-      "Modules": [ 
-         {
-          "Id": "VirtoCommerce.AI",
-          "Version": "3.1000.0"
-        },
+      "Modules": [
         {
           "Id": "VirtoCommerce.ElasticSearch",
           "Version": "3.806.0"
