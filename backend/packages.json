@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.1025.0-pr-2987-eb8e-vcst-4710-eb8e622b",
+  "PlatformVersion": "3.1025.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.1025.0-pr-2987-eb8e-vcst-4710-eb8e622b",
+  "PlatformImageTag": "3.1025.0",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -11,13 +11,7 @@
     "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
     "Modules": [
       {
-        "BlobName": "VirtoCommerce.Customer_3.1007.0-pr-293-8ddd.zip"
-      },
-      {
-        "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.1005.0-pr-129-2998.zip"
-      },
-      {
-        "BlobName": "VirtoCommerce.Shipping_3.1003.0-pr-67-ae8e.zip"
+        "BlobName": "VirtoCommerce.XCart_3.1013.0-pr-114-8518.zip"
       }
     ]
     },
@@ -31,17 +25,9 @@
           "Id": "VirtoCommerce.Loyalty",
           "Version": "3.1000.0"
        },
-       {
-          "Id": "VirtoCommerce.Contentful",
-          "Version": "3.805.0"
-        },
-        {
+              {
           "Id": "VirtoCommerce.ElasticSearch",
           "Version": "3.806.0"
-        },
-        {
-          "Id": "VirtoCommerce.ElasticAppSearch",
-          "Version": "3.816.0"
         },
         {
           "Id": "VirtoCommerce.XFrontend",
@@ -84,10 +70,6 @@
           "Version": "4.1000.0"
         },
         {
-          "Id": "VirtoCommerce.Content",
-          "Version": "3.1000.0"
-        },
-        {
           "Id": "VirtoCommerce.Return",
           "Version": "3.1000.0"
         },
@@ -97,10 +79,6 @@
         },
         {
           "Id": "VirtoCommerce.AuthorizeNetPayment",
-          "Version": "3.1000.0"
-        },
-        {
-          "Id": "VirtoCommerce.SqlQueries",
           "Version": "3.1000.0"
         },
         {
@@ -132,14 +110,6 @@
           "Version": "3.1000.0"
         },
         {
-          "Id": "VirtoCommerce.XPickup",
-          "Version": "3.1000.0"
-        },
-        {
-          "Id": "VirtoCommerce.OrderManagement",
-          "Version": "3.1000.0"
-        },
-        {
           "Id": "VirtoCommerce.CustomerExportImport",
           "Version": "3.1000.0"
         },
@@ -160,16 +130,8 @@
           "Version": "3.1001.0"
         },
         {
-          "Id": "VirtoCommerce.Sanity",
-          "Version": "3.1000.0"
-        },
-        {
           "Id": "VirtoCommerce.Tax",
           "Version": "3.1001.0"
-        },
-        {
-          "Id": "VirtoCommerce.EventBus",
-          "Version": "3.1002.0"
         },
         {
           "Id": "VirtoCommerce.ImageTools",
@@ -181,10 +143,6 @@
         },
         {
           "Id": "VirtoCommerce.BackInStock",
-          "Version": "3.1000.0"
-        },
-        {
-          "Id": "VirtoCommerce.BuilderIO",
           "Version": "3.1000.0"
         },
         {
@@ -218,7 +176,7 @@
         {
           "Id": "VirtoCommerce.Sitemaps",
           "Version": "3.1001.0"
-        }, 
+        },
         {
           "Id": "VirtoCommerce.AzureSearch",
           "Version": "3.1001.0"
@@ -239,10 +197,6 @@
           "Id": "VirtoCommerce.WebHooks",
           "Version": "3.1002.0"
         },
-        {
-          "Id": "VirtoCommerce.Pages",
-          "Version": "3.1003.0"
-        },  
         {
           "Id": "VirtoCommerce.Contracts",
           "Version": "3.1001.0"
@@ -272,10 +226,6 @@
           "Version": "3.1001.0"
         },
         {
-          "Id": "VirtoCommerce.Orders",
-          "Version": "3.1005.0"
-        },
-        {
           "Id": "VirtoCommerce.Marketing",
           "Version": "3.1003.0"
         },
@@ -284,16 +234,8 @@
           "Version": "3.1002.0"
         },
         {
-          "Id": "VirtoCommerce.XOrder",
-          "Version": "3.1002.0"
-        },
-        {
           "Id": "VirtoCommerce.Datatrans",
           "Version": "3.1001.0"
-        },
-        {
-          "Id": "VirtoCommerce.XCatalog",
-          "Version": "3.1004.0"
         },
         {
           "Id": "VirtoCommerce.CustomerReviews",
@@ -328,16 +270,80 @@
           "Version": "3.1001.0"
         },
         {
-          "Id": "VirtoCommerce.PageBuilderModule",
-          "Version": "3.1007.0"
-        },   
-        {
           "Id": "VirtoCommerce.Catalog",
           "Version": "3.1020.0"
         },
         {
-          "Id": "VirtoCommerce.XCart",
+          "Id": "VirtoCommerce.Shipping",
+          "Version": "3.1003.0"
+        },
+        {
+          "Id": "VirtoCommerce.OrderManagement",
+          "Version": "3.1001.0"
+        },
+        {
+          "Id": "VirtoCommerce.Pages",
+          "Version": "3.1004.0"
+        },
+        {
+          "Id": "VirtoCommerce.Customer",
+          "Version": "3.1007.0"
+        },
+        {
+          "Id": "VirtoCommerce.ProfileExperienceApiModule",
+          "Version": "3.1005.0"
+        },
+        {
+          "Id": "VirtoCommerce.XCatalog",
+          "Version": "3.1005.0"
+        },
+        {
+          "Id": "VirtoCommerce.SqlQueries",
+          "Version": "3.1001.0"
+        },
+        {
+          "Id": "VirtoCommerce.XPickup",
+          "Version": "3.1001.0"
+        },
+        {
+          "Id": "VirtoCommerce.Sanity",
+          "Version": "3.1002.0"
+        },
+        {
+          "Id": "VirtoCommerce.BuilderIO",
+          "Version": "3.1002.0"
+        },
+        {
+          "Id": "VirtoCommerce.PageBuilderModule",
           "Version": "3.1009.0"
+        },
+        {
+          "Id": "VirtoCommerce.Contentful",
+          "Version": "3.1001.0"
+        },
+        {
+          "Id": "VirtoCommerce.Orders",
+          "Version": "3.1007.0"
+        },
+        {
+          "Id": "VirtoCommerce.XOrder",
+          "Version": "3.1004.0"
+        },
+        {
+          "Id": "VirtoCommerce.ProductSnapshot",
+          "Version": "3.1000.0"
+        },
+        {
+          "Id": "VirtoCommerce.Content",
+          "Version": "3.1001.0"
+        },
+        {
+          "Id": "VirtoCommerce.EventBus",
+          "Version": "3.1007.0"
+        },  
+        {
+          "Id": "VirtoCommerce.ElasticAppSearch",
+          "Version": "3.1000.0"
         }
        ]
     }
