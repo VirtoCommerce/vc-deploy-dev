@@ -1,9 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.1026.0-pr-3006-f654-vcst-4576-f6547b8e",
+  "PlatformVersion": "3.1026.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.1026.0-pr-3006-f654-vcst-4576-f6547b8e",
-  
+  "PlatformImageTag": "3.1026.0",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
   ],
@@ -12,10 +11,10 @@
       "Name": "AzureBlob",
       "Container": "packages",
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
-      "Modules": [  
+      "Modules": [
         {
           "Id": "VirtoCommerce.SystemOperations",
-          "BlobName": "VirtoCommerce.SystemOperations_3.1000.0-pr-1-aa99.zip"          
+          "BlobName": "VirtoCommerce.SystemOperations_3.1000.0-pr-1-aa99.zip"
         },
         {
           "Id": "VirtoCommerce.PowerBiReports",
@@ -32,7 +31,7 @@
           "Id": "VirtoCommerce.SeqLog",
           "BlobName": "VirtoCommerce.SeqLog_3.1000.0-pr-2-9e9c.zip"
         },
-         {
+        {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.1006.0-pr-133-aeba.zip"
         },
@@ -44,7 +43,7 @@
           "Id": "VirtoCommerce.News",
           "BlobName": "VirtoCommerce.News_3.1001.0-pr-18-e057.zip"
         },
-          {
+        {
           "Id": "VirtoCommerce.Catalog",
           "BlobName": "VirtoCommerce.Catalog_3.1021.0-pr-881-6d56.zip"
         },
@@ -52,7 +51,7 @@
           "Id": "VirtoCommerce.PageBuilderModule",
           "BlobName": "VirtoCommerce.PageBuilderModule_3.1010.0-pr-133-bc9e.zip"
         },
-         {
+        {
           "Id": "VirtoCommerce.AI",
           "BlobName": "VirtoCommerce.AI_3.1000.0.zip"
         },
@@ -60,7 +59,7 @@
           "Id": "VirtoCommerce.BuilderIO",
           "BlobName": "VirtoCommerce.BuilderIO_3.1003.0-pr-11-e975.zip"
         },
-         {
+        {
           "Id": "VirtoCommerce.Pages",
           "BlobName": "VirtoCommerce.Pages_3.1005.0-pr-17-aeab.zip"
         }
@@ -70,7 +69,7 @@
       "Name": "GithubReleases",
       "ModuleSources": [
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
-                       ],
+      ],
       "Modules": [
         {
           "Id": "VirtoCommerce.ElasticSearch",
@@ -368,8 +367,7 @@
           "Id": "VirtoCommerce.ElasticAppSearch",
           "Version": "3.1000.0"
         }
-        ]
+      ]
     }
   ]
 }
-
