@@ -334,16 +334,16 @@
           "BlobName": "VirtoCommerce.AvalaraTax_3.1002.0-alpha.346.zip"
         },
         {
-          "Id": "VirtoCommerce.Catalog",
-          "BlobName": "VirtoCommerce.Catalog_3.1021.0-alpha.2505.zip"
-        },
-        {
           "Id": "VirtoCommerce.XCart",
           "BlobName": "VirtoCommerce.XCart_3.1014.0-alpha.223.zip"
         },
         {
           "Id": "VirtoCommerce.Core",
           "BlobName": "VirtoCommerce.Core_3.1005.0-alpha.1696.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "BlobName": "VirtoCommerce.Catalog_3.1022.0-alpha.2507.zip"
         }
       ]
     }
