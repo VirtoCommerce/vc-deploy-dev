@@ -222,10 +222,6 @@
           "BlobName": "VirtoCommerce.CustomerReviews_3.1003.0-alpha.272.zip"
         },
         {
-          "Id": "VirtoCommerce.Xapi",
-          "BlobName": "VirtoCommerce.Xapi_3.1007.0-alpha.158.zip"
-        },
-        {
           "Id": "VirtoCommerce.Seo",
           "BlobName": "VirtoCommerce.Seo_3.1003.0-alpha.77.zip"
         },
@@ -344,6 +340,10 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "BlobName": "VirtoCommerce.Catalog_3.1022.0-alpha.2507.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Xapi",
+          "BlobName": "VirtoCommerce.Xapi_3.1007.0-alpha.160.zip"
         }
       ]
     }
