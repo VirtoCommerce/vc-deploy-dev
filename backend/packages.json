@@ -134,10 +134,6 @@
           "BlobName": "VirtoCommerce.OpenSearch_3.1001.0-alpha.20.zip"
         },
         {
-          "Id": "VirtoCommerce.TaskManagement",
-          "BlobName": "VirtoCommerce.TaskManagement_3.1001.0-alpha.172.zip"
-        },
-        {
           "Id": "VirtoCommerce.CatalogPersonalization",
           "BlobName": "VirtoCommerce.CatalogPersonalization_3.1002.0-alpha.289.zip"
         },
@@ -348,6 +344,10 @@
         {
           "Id": "VirtoCommerce.Loyalty",
           "BlobName": "VirtoCommerce.Loyalty_3.1002.0-pr-8-8e77.zip"
+        },
+        {
+          "Id": "VirtoCommerce.TaskManagement",
+          "BlobName": "VirtoCommerce.TaskManagement_3.1001.0-alpha.177.zip"
         }
       ]
     }
