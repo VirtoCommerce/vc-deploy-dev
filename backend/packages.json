@@ -266,10 +266,6 @@
           "BlobName": "VirtoCommerce.XCatalog_3.1006.0-alpha.185.zip"
         },
         {
-          "Id": "VirtoCommerce.SqlQueries",
-          "BlobName": "VirtoCommerce.SqlQueries_3.1002.0-alpha.35.zip"
-        },
-        {
           "Id": "VirtoCommerce.XPickup",
           "BlobName": "VirtoCommerce.XPickup_3.1002.0-alpha.35.zip"
         },
@@ -348,6 +344,10 @@
         {
           "Id": "VirtoCommerce.TaskManagement",
           "BlobName": "VirtoCommerce.TaskManagement_3.1002.0-alpha.180.zip"
+        },
+        {
+          "Id": "VirtoCommerce.SqlQueries",
+          "BlobName": "VirtoCommerce.SqlQueries_3.1002.0-alpha.37.zip"
         }
       ]
     }
