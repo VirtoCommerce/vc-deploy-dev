@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.1007.9",
+  "PlatformVersion": "3.1023.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.1007.9",
+  "PlatformImageTag": "3.1023.0",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -11,7 +11,7 @@
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
         {
-          "BlobName": "VirtoCommerce.AI_3.1000.0-alpha.25.zip"
+          "BlobName": "VirtoCommerce.AI_3.1000.0-pr-5-eeb4.zip"
         },
         {
           "BlobName": "VirtoCommerce.AIDocumentProcessing_3.902.0-alpha.77.zip"
