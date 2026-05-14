@@ -71,6 +71,10 @@
         {
           "Id": "VirtoCommerce.Orders",
           "BlobName": "VirtoCommerce.Orders_3.1008.0-pr-495-04a9.zip"
+        },
+        {
+          "Id": "VirtoCommerce.AzureBlobAssets",
+          "BlobName": "VirtoCommerce.AzureBlobAssets_3.1003.0-pr-36-f47e.zip"
         }
       ]
     },
@@ -227,10 +231,6 @@
         {
           "Id": "VirtoCommerce.AzureSearch",
           "Version": "3.1001.0"
-        },
-        {
-          "Id": "VirtoCommerce.AzureBlobAssets",
-          "Version": "3.1002.0"
         },
         {
           "Id": "VirtoCommerce.ElasticSearch8",
