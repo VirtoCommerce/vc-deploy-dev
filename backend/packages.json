@@ -256,10 +256,6 @@
           "Version": "3.1005.0"
         },
         {
-          "Id": "VirtoCommerce.SqlQueries",
-          "Version": "3.1001.0"
-        },
-        {
           "Id": "VirtoCommerce.XPickup",
           "Version": "3.1001.0"
         },
@@ -334,6 +330,10 @@
         {
           "Id": "VirtoCommerce.Search",
           "Version": "3.1001.0"
+        },
+        {
+          "Id": "VirtoCommerce.SqlQueries",
+          "Version": "3.1002.0"
         }
       ]
     },
