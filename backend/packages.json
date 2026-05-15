@@ -158,10 +158,6 @@
           "BlobName": "VirtoCommerce.AzureSearch_3.1002.0-alpha.273.zip"
         },
         {
-          "Id": "VirtoCommerce.AzureBlobAssets",
-          "BlobName": "VirtoCommerce.AzureBlobAssets_3.1003.0-alpha.164.zip"
-        },
-        {
           "Id": "VirtoCommerce.ElasticSearch8",
           "BlobName": "VirtoCommerce.ElasticSearch8_3.1004.0-alpha.158.zip"
         },
@@ -352,6 +348,10 @@
         {
           "Id": "VirtoCommerce.PageBuilderModule",
           "BlobName": "VirtoCommerce.PageBuilderModule_3.1011.0-alpha.828.zip"
+        },
+        {
+          "Id": "VirtoCommerce.AzureBlobAssets",
+          "BlobName": "VirtoCommerce.AzureBlobAssets_3.1003.0-alpha.169.zip"
         }
       ]
     }
