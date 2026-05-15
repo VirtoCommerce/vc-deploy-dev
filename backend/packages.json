@@ -260,10 +260,6 @@
           "Version": "3.1002.0"
         },
         {
-          "Id": "VirtoCommerce.BuilderIO",
-          "Version": "3.1002.0"
-        },
-        {
           "Id": "VirtoCommerce.PageBuilderModule",
           "Version": "3.1009.0"
         },
@@ -334,6 +330,10 @@
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "Version": "3.1006.0"
+        },
+        {
+          "Id": "VirtoCommerce.BuilderIO",
+          "Version": "3.1003.0"
         }
       ]
     },
