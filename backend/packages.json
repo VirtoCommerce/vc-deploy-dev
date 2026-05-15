@@ -334,6 +334,10 @@
         {
           "Id": "VirtoCommerce.AzureBlobAssets",
           "Version": "3.1003.0"
+        },
+        {
+          "Id": "VirtoCommerce.SystemOperations",
+          "Version": "3.1001.0"
         }
       ]
     },
