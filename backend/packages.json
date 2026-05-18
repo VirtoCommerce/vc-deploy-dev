@@ -186,10 +186,6 @@
           "BlobName": "VirtoCommerce.Pricing_3.1002.0-alpha.791.zip"
         },
         {
-          "Id": "VirtoCommerce.Notifications",
-          "BlobName": "VirtoCommerce.Notifications_3.1006.0-alpha.459.zip"
-        },
-        {
           "Id": "VirtoCommerce.LuceneSearch",
           "BlobName": "VirtoCommerce.LuceneSearch_3.1003.0-alpha.236.zip"
         },
@@ -352,6 +348,10 @@
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.1008.0-alpha.346.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Notifications",
+          "BlobName": "VirtoCommerce.Notifications_3.1006.0-alpha.465.zip"
         }
       ]
     }
