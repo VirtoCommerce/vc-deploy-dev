@@ -3,7 +3,6 @@
   "PlatformVersion": "3.1027.0-pr-3019-3806-vcst-5005-backoffice-modularity-380602dd",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
   "PlatformImageTag": "3.1027.0-pr-3019-3806-vcst-5005-backoffice-modularity-380602dd",
-  
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
   ],
@@ -12,14 +11,14 @@
       "Name": "AzureBlob",
       "Container": "packages",
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
-      "Modules": [  
+      "Modules": [
         {
           "Id": "VirtoCommerce.SystemOperations",
-          "BlobName": "VirtoCommerce.SystemOperations_3.1001.0-pr-2-cc35.zip"          
+          "BlobName": "VirtoCommerce.SystemOperations_3.1001.0-pr-2-cc35.zip"
         },
         {
           "Id": "VirtoCommerce.SystemOperations.SampleExtension",
-          "BlobName": "VirtoCommerce.SystemOperations_3.1000.0-alpha.01.zip"          
+          "BlobName": "VirtoCommerce.SystemOperations_3.1000.0-alpha.01.zip"
         },
         {
           "Id": "VirtoCommerce.PowerBiReports",
@@ -36,10 +35,6 @@
           "Id": "VirtoCommerce.SeqLog",
           "BlobName": "VirtoCommerce.SeqLog_3.1000.0-pr-2-9e9c.zip"
         },
-         {
-          "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.1006.0-pr-134-3740.zip"
-        },
         {
           "Id": "VirtoCommerce.Xapi",
           "BlobName": "VirtoCommerce.Xapi_3.1007.0-pr-69-0be2.zip"
@@ -48,7 +43,7 @@
           "Id": "VirtoCommerce.News",
           "BlobName": "VirtoCommerce.News_3.1001.0-pr-18-e057.zip"
         },
-          {
+        {
           "Id": "VirtoCommerce.Catalog",
           "BlobName": "VirtoCommerce.Catalog_3.1021.0-pr-881-6d56.zip"
         },
@@ -56,7 +51,7 @@
           "Id": "VirtoCommerce.PageBuilderModule",
           "BlobName": "VirtoCommerce.PageBuilderModule_3.1010.0-pr-133-3155.zip"
         },
-         {
+        {
           "Id": "VirtoCommerce.AI",
           "BlobName": "VirtoCommerce.AI_3.1000.0.zip"
         },
@@ -64,7 +59,7 @@
           "Id": "VirtoCommerce.BuilderIO",
           "BlobName": "VirtoCommerce.BuilderIO_3.1003.0-pr-11-e975.zip"
         },
-         {
+        {
           "Id": "VirtoCommerce.Pages",
           "BlobName": "VirtoCommerce.Pages_3.1005.0-pr-17-aeab.zip"
         },
@@ -79,6 +74,10 @@
         {
           "Id": "VirtoCommerce.AzureBlobAssets",
           "BlobName": "VirtoCommerce.AzureBlobAssets_3.1003.0-pr-36-ed61.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ProfileExperienceApiModule",
+          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.1007.0.zip"
         }
       ]
     },
@@ -86,7 +85,7 @@
       "Name": "GithubReleases",
       "ModuleSources": [
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
-                       ],
+      ],
       "Modules": [
         {
           "Id": "VirtoCommerce.ElasticSearch",
@@ -372,8 +371,7 @@
           "Id": "VirtoCommerce.ElasticAppSearch",
           "Version": "3.1000.0"
         }
-        ]
+      ]
     }
   ]
 }
-
