@@ -32,9 +32,13 @@
           "Id": "VirtoCommerce.SeqLog",
           "BlobName": "VirtoCommerce.SeqLog_3.1000.0-pr-2-9e9c.zip"
         },
-         {
+        {
           "Id": "VirtoCommerce.AI",
           "BlobName": "VirtoCommerce.AI_3.1000.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.PageBuilderModule",
+          "BlobName": "VirtoCommerce.PageBuilderModule_3.1011.0-pr-130-f46e.zip"
         }
       ]
     },
@@ -347,10 +351,6 @@
         {
           "Id": "VirtoCommerce.Pages",
           "Version": "3.1005.0"
-        },
-        {
-          "Id": "VirtoCommerce.PageBuilderModule",
-          "Version": "3.1010.0"
         },
         {
           "Id": "VirtoCommerce.AzureBlobAssets",
