@@ -18,6 +18,10 @@
       ],
       "Modules": [
         {
+          "Id": "VirtoCommerce.EventBus",
+          "Version": "3.1002.1"
+        },
+        {
           "Id": "VirtoCommerce.ApplicationInsights",
           "Version": "3.1001.0"
         },
