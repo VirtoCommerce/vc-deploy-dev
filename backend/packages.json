@@ -11,7 +11,7 @@
     "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
     "Modules": [
       {
-        "BlobName": "VirtoCommerce.XCart_3.1015.0-pr-119-6a09.zip"
+        "BlobName": "VirtoCommerce.Xapi_3.1009.0-pr-66-020b.zip"
       }
     ]
     },
@@ -336,11 +336,7 @@
         {
           "Id": "VirtoCommerce.SystemOperations",
           "Version": "3.1001.0"
-        },
-        {
-          "Id": "VirtoCommerce.Xapi",
-          "Version": "3.1008.0"
-        },
+        }, 
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "Version": "3.1007.0"
@@ -348,6 +344,10 @@
         {
           "Id": "VirtoCommerce.Notifications",
           "Version": "3.1006.0"
+        },
+        {
+          "Id": "VirtoCommerce.XCart",
+          "Version": "3.1015.0"
         }
        ]
     }
