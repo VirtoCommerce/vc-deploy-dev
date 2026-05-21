@@ -90,18 +90,6 @@
           "Version": "3.1000.0"
         },
         {
-          "Id": "VirtoCommerce.PushMessages",
-          "Version": "3.1000.0"
-        },
-        {
-          "Id": "VirtoCommerce.XRecommend",
-          "Version": "3.1000.0"
-        },
-        {
-          "Id": "VirtoCommerce.Quote",
-          "Version": "3.1000.0"
-        },
-        {
           "Id": "VirtoCommerce.CustomerExportImport",
           "Version": "3.1000.0"
         },
@@ -148,10 +136,6 @@
         {
           "Id": "VirtoCommerce.OpenTelemetry",
           "Version": "3.1000.0"
-        },
-        {
-          "Id": "VirtoCommerce.MarketingExperienceApi",
-          "Version": "3.1001.0"
         },
         {
           "Id": "VirtoCommerce.ShipStation",
