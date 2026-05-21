@@ -264,10 +264,6 @@
           "Version": "3.1001.0"
         },
         {
-          "Id": "VirtoCommerce.EventBus",
-          "Version": "3.1007.0"
-        },
-        {
           "Id": "VirtoCommerce.ElasticAppSearch",
           "Version": "3.1000.0"
         },
@@ -338,6 +334,10 @@
         {
           "Id": "VirtoCommerce.XCart",
           "Version": "3.1015.0"
+        },
+        {
+          "Id": "VirtoCommerce.EventBus",
+          "Version": "3.1008.0"
         }
       ]
     },
