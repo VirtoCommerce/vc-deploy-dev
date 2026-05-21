@@ -298,7 +298,7 @@
       IdentityOptions__Lockout__AutoAccountsLockoutJobEnabled: true
       IdentityOptions__Lockout__LockoutMaximumDaysFromLastLogin: 3
       IdentityOptions__Lockout__CronAutoAccountsLockoutJob: 0/5 * * * *
-      IdentityOptions__Lockout__AutoAccountsLockoutJobBatchSize: 0
+      IdentityOptions__Lockout__AutoAccountsLockoutJobBatchSize: 18
       IdentityOptions__User__RemindPasswordExpiryInDays: 10
       IdentityOptions__User__MaxPasswordAge: 90
       IdentityOptions__User__RequireUniqueEmail: true
