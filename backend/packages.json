@@ -1,9 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.1029.0-pr-3038-a307-vcst-5074-a3078a56",
+  "PlatformVersion": "3.1030.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.1029.0-pr-3038-a307-vcst-5074-a3078a56",
-  
+  "PlatformImageTag": "3.1030.0",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
   ],
@@ -12,10 +11,10 @@
       "Name": "AzureBlob",
       "Container": "packages",
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
-      "Modules": [  
+      "Modules": [
         {
           "Id": "VirtoCommerce.SystemOperations.SampleExtension",
-          "BlobName": "VirtoCommerce.SystemOperations_3.1000.0-alpha.01.zip"          
+          "BlobName": "VirtoCommerce.SystemOperations_3.1000.0-alpha.01.zip"
         },
         {
           "Id": "VirtoCommerce.PowerBiReports",
@@ -43,14 +42,14 @@
         {
           "Id": "VirtoCommerce.Loyalty",
           "BlobName": "VirtoCommerce.Loyalty_3.1002.0-pr-8-271d.zip"
-        }        
+        }
       ]
     },
     {
       "Name": "GithubReleases",
       "ModuleSources": [
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
-                       ],
+      ],
       "Modules": [
         {
           "Id": "VirtoCommerce.ElasticSearch",
@@ -376,8 +375,7 @@
           "Id": "VirtoCommerce.Notifications",
           "Version": "3.1006.0"
         }
-        ]
+      ]
     }
   ]
 }
-
