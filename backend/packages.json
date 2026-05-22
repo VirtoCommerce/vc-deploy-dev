@@ -1,15 +1,19 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.1026.0",
+  "PlatformVersion": "3.1028.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.1026.0",
+  "PlatformImageTag": "3.1028.0",
   "PlatformAssetUrl": "",
   "Sources": [
     {
     "Name": "AzureBlob",
     "Container": "packages",
     "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
-    "Modules": []
+    "Modules": [
+      {
+        "BlobName": "VirtoCommerce.Xapi_3.1009.0-pr-66-020b.zip"
+      }
+    ]
     },
     {
       "Name": "GithubReleases",
@@ -27,10 +31,6 @@
         },
         {
           "Id": "VirtoCommerce.XFrontend",
-          "Version": "3.1000.0"
-        },
-        {
-          "Id": "VirtoCommerce.Search",
           "Version": "3.1000.0"
         },
         {
@@ -90,18 +90,6 @@
           "Version": "3.1000.0"
         },
         {
-          "Id": "VirtoCommerce.PushMessages",
-          "Version": "3.1000.0"
-        },
-        {
-          "Id": "VirtoCommerce.XRecommend",
-          "Version": "3.1000.0"
-        },
-        {
-          "Id": "VirtoCommerce.Quote",
-          "Version": "3.1000.0"
-        },
-        {
           "Id": "VirtoCommerce.CustomerExportImport",
           "Version": "3.1000.0"
         },
@@ -115,10 +103,6 @@
         },
         {
           "Id": "VirtoCommerce.CyberSourcePayment",
-          "Version": "3.1001.0"
-        },
-        {
-          "Id": "VirtoCommerce.WhiteLabeling",
           "Version": "3.1001.0"
         },
         {
@@ -150,10 +134,6 @@
           "Version": "3.1000.0"
         },
         {
-          "Id": "VirtoCommerce.MarketingExperienceApi",
-          "Version": "3.1001.0"
-        },
-        {
           "Id": "VirtoCommerce.ShipStation",
           "Version": "3.1000.0"
         },
@@ -164,10 +144,6 @@
         {
           "Id": "VirtoCommerce.AzureSearch",
           "Version": "3.1001.0"
-        },
-        {
-          "Id": "VirtoCommerce.AzureBlobAssets",
-          "Version": "3.1002.0"
         },
         {
           "Id": "VirtoCommerce.ElasticSearch8",
@@ -196,10 +172,6 @@
         {
           "Id": "VirtoCommerce.Pricing",
           "Version": "3.1001.0"
-        },
-        {
-          "Id": "VirtoCommerce.Notifications",
-          "Version": "3.1005.0"
         },
         {
           "Id": "VirtoCommerce.LuceneSearch",
@@ -254,24 +226,12 @@
           "Version": "3.1001.0"
         },
         {
-          "Id": "VirtoCommerce.Pages",
-          "Version": "3.1004.0"
-        },
-        {
           "Id": "VirtoCommerce.Customer",
           "Version": "3.1007.0"
         },
         {
-          "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.1005.0"
-        },
-        {
           "Id": "VirtoCommerce.XCatalog",
           "Version": "3.1005.0"
-        },
-        {
-          "Id": "VirtoCommerce.SqlQueries",
-          "Version": "3.1001.0"
         },
         {
           "Id": "VirtoCommerce.XPickup",
@@ -282,20 +242,8 @@
           "Version": "3.1002.0"
         },
         {
-          "Id": "VirtoCommerce.BuilderIO",
-          "Version": "3.1002.0"
-        },
-        {
-          "Id": "VirtoCommerce.PageBuilderModule",
-          "Version": "3.1009.0"
-        },
-        {
           "Id": "VirtoCommerce.Contentful",
           "Version": "3.1001.0"
-        },
-        {
-          "Id": "VirtoCommerce.Orders",
-          "Version": "3.1007.0"
         },
         {
           "Id": "VirtoCommerce.XOrder",
@@ -326,16 +274,8 @@
           "Version": "3.1001.0"
         },
         {
-          "Id": "VirtoCommerce.XCart",
-          "Version": "3.1013.0"
-        },
-        {
           "Id": "VirtoCommerce.Core",
           "Version": "3.1004.0"
-        },
-        {
-          "Id": "VirtoCommerce.Xapi",
-          "Version": "3.1007.0"
         },
         {
           "Id": "VirtoCommerce.Catalog",
@@ -344,6 +284,70 @@
         {
           "Id": "VirtoCommerce.TaskManagement",
           "Version": "3.1001.0"
+        },
+        {
+          "Id": "VirtoCommerce.Orders",
+          "Version": "3.1008.0"
+        },
+        {
+          "Id": "VirtoCommerce.Search",
+          "Version": "3.1001.0"
+        },
+        {
+          "Id": "VirtoCommerce.SqlQueries",
+          "Version": "3.1002.0"
+        },
+        {
+          "Id": "VirtoCommerce.BuilderIO",
+          "Version": "3.1003.0"
+        },
+        {
+          "Id": "VirtoCommerce.Pages",
+          "Version": "3.1005.0"
+        },
+        {
+          "Id": "VirtoCommerce.PageBuilderModule",
+          "Version": "3.1010.0"
+        },
+        {
+          "Id": "VirtoCommerce.AzureBlobAssets",
+          "Version": "3.1003.0"
+        },
+        {
+          "Id": "VirtoCommerce.SystemOperations",
+          "Version": "3.1001.0"
+        }, 
+        {
+          "Id": "VirtoCommerce.ProfileExperienceApiModule",
+          "Version": "3.1007.0"
+        },
+        {
+          "Id": "VirtoCommerce.Notifications",
+          "Version": "3.1006.0"
+        },
+        {
+          "Id": "VirtoCommerce.XCart",
+          "Version": "3.1015.0"
+        },
+        {
+          "Id": "VirtoCommerce.MarketingExperienceApi",
+          "Version": "3.1001.0"
+        },
+        {
+          "Id": "VirtoCommerce.CustomerReviews",
+          "Version": "3.1002.0"
+        },    
+        {
+          "Id": "VirtoCommerce.PushMessages",
+          "Version": "3.1000.0"
+        },
+        {
+          "Id": "VirtoCommerce.XRecommend",
+          "Version": "3.1000.0"
+        },
+        {
+          "Id": "VirtoCommerce.Quote",
+          "Version": "3.1000.0"
         }
        ]
     }
