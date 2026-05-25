@@ -27,7 +27,11 @@
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
       "Modules": [
-       {
+        {
+          "Id": "VirtoCommerce.MarketingExperienceApi",
+          "Version": "3.1001.0"
+        },
+        {
           "Id": "VirtoCommerce.ElasticSearch",
           "Version": "3.806.0"
         },
