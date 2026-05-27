@@ -12,6 +12,12 @@
     "Modules": [
       {
         "BlobName": "VirtoCommerce.Loyalty_3.1002.0-pr-9-9fc4.zip"
+      },
+      {
+        "BlobName": "VirtoCommerce.Catalog_3.1025.0-pr-880-3c00.zip"
+      },
+      {
+        "BlobName": "VirtoCommerce.XCart_3.1016.0-pr-115-fb9e.zip"
       }
     ]
     },
@@ -330,10 +336,6 @@
           "Version": "3.1007.0"
         },
         {
-          "Id": "VirtoCommerce.XCart",
-          "Version": "3.1015.0"
-        },
-        {
           "Id": "VirtoCommerce.EventBus",
           "Version": "3.1008.0"
         },
@@ -344,10 +346,6 @@
         {
           "Id": "VirtoCommerce.Xapi",
           "Version": "3.1009.0"
-        },
-        {
-          "Id": "VirtoCommerce.Catalog",
-          "Version": "3.1023.0"
         }
        ]
     }
