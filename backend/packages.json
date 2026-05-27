@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.1026.0",
+  "PlatformVersion": "3.1030.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.1026.0",
+  "PlatformImageTag": "3.1030.0",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -11,7 +11,7 @@
     "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
     "Modules": [
       {
-        "BlobName": "VirtoCommerce.XCart_3.1014.0-pr-118-1be7.zip"
+        "BlobName": "VirtoCommerce.Loyalty_3.1002.0-pr-9-9fc4.zip"
       }
     ]
     },
@@ -20,12 +20,8 @@
       "ModuleSources": [
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
-      "Modules": [  
+      "Modules": [
         {
-          "Id": "VirtoCommerce.Loyalty",
-          "Version": "3.1000.0"
-       },
-       {
           "Id": "VirtoCommerce.ElasticSearch",
           "Version": "3.806.0"
         },
@@ -166,10 +162,6 @@
           "Version": "3.1001.0"
         },
         {
-          "Id": "VirtoCommerce.AzureBlobAssets",
-          "Version": "3.1002.0"
-        },
-        {
           "Id": "VirtoCommerce.ElasticSearch8",
           "Version": "3.1003.0"
         },
@@ -196,10 +188,6 @@
         {
           "Id": "VirtoCommerce.Pricing",
           "Version": "3.1001.0"
-        },
-        {
-          "Id": "VirtoCommerce.Notifications",
-          "Version": "3.1005.0"
         },
         {
           "Id": "VirtoCommerce.LuceneSearch",
@@ -286,10 +274,6 @@
           "Version": "3.1001.0"
         },
         {
-          "Id": "VirtoCommerce.EventBus",
-          "Version": "3.1007.0"
-        },
-        {
           "Id": "VirtoCommerce.ElasticAppSearch",
           "Version": "3.1000.0"
         },
@@ -300,18 +284,10 @@
         {
           "Id": "VirtoCommerce.AvalaraTax",
           "Version": "3.1001.0"
-        },   
+        },
         {
           "Id": "VirtoCommerce.Core",
           "Version": "3.1004.0"
-        },
-        {
-          "Id": "VirtoCommerce.Xapi",
-          "Version": "3.1007.0"
-        },
-        {
-          "Id": "VirtoCommerce.Catalog",
-          "Version": "3.1022.0"
         },
         {
           "Id": "VirtoCommerce.TaskManagement",
@@ -330,10 +306,6 @@
           "Version": "3.1002.0"
         },
         {
-          "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.1006.0"
-        },
-        {
           "Id": "VirtoCommerce.BuilderIO",
           "Version": "3.1003.0"
         },
@@ -344,6 +316,38 @@
         {
           "Id": "VirtoCommerce.PageBuilderModule",
           "Version": "3.1010.0"
+        },
+        {
+          "Id": "VirtoCommerce.AzureBlobAssets",
+          "Version": "3.1003.0"
+        },
+        {
+          "Id": "VirtoCommerce.SystemOperations",
+          "Version": "3.1001.0"
+        },
+        {
+          "Id": "VirtoCommerce.ProfileExperienceApiModule",
+          "Version": "3.1007.0"
+        },
+        {
+          "Id": "VirtoCommerce.XCart",
+          "Version": "3.1015.0"
+        },
+        {
+          "Id": "VirtoCommerce.EventBus",
+          "Version": "3.1008.0"
+        },
+        {
+          "Id": "VirtoCommerce.Notifications",
+          "Version": "3.1007.0"
+        },
+        {
+          "Id": "VirtoCommerce.Xapi",
+          "Version": "3.1009.0"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "Version": "3.1023.0"
         }
        ]
     }
