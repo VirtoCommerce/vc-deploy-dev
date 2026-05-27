@@ -125,7 +125,7 @@
     #   VirtoCommerce__Endpoint__Password: Password1!
     #   VirtoCommerce__Endpoint__UserName: admin
     themes:
-      B2B-store:  https://github.com/VirtoCommerce/vc-frontend/releases/download/2.45.0/vc-theme-b2b-vue-2.45.0.zip
+      B2B-store:  https://github.com/VirtoCommerce/vc-frontend/releases/download/2.47.0/vc-theme-b2b-vue-2.47.0.zip
   customApps:
     app1:
       name: storybook
