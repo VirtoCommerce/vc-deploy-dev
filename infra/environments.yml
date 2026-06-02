@@ -219,6 +219,9 @@
     enabled: false
     themes:
       B2B-store: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-2.34.0-pr-1998-6195-619595f2.zip
+  frontend:
+     - name: B2B-store
+       prerender: true
   customApps:
     app1:
       name: storybook
