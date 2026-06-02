@@ -6,17 +6,17 @@
   "PlatformAssetUrl": "",
   "Sources": [
     {
-    "Name": "AzureBlob",
-    "Container": "packages",
-    "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
-    "Modules": [
-      {
-        "BlobName": "VirtoCommerce.XCart_3.1017.0-pr-120-96e3.zip"
-      },
-      {
-        "BlobName": "VirtoCommerce.Cart_3.1004.0-pr-188-bade.zip"
-      }
-    ]
+      "Name": "AzureBlob",
+      "Container": "packages",
+      "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
+      "Modules": [
+        {
+          "BlobName": "VirtoCommerce.XCart_3.1017.0-pr-120-96e3.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Cart_3.1004.0-pr-188-bade.zip"
+        }
+      ]
     },
     {
       "Name": "GithubReleases",
@@ -347,7 +347,7 @@
         {
           "Id": "VirtoCommerce.ElasticSearch8",
           "Version": "3.1004.0"
-        },
+        }
       ]
     }
   ]
