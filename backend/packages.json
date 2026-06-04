@@ -9,7 +9,11 @@
     "Name": "AzureBlob",
     "Container": "packages",
     "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
-    "Modules": []
+    "Modules": [
+      {
+        "BlobName": "VirtoCommerce.MarketingExperienceApi_3.1002.0-pr-16-3e3b.zip"
+      }
+    ]
     },
     {
       "Name": "GithubReleases",
@@ -144,10 +148,6 @@
         {
           "Id": "VirtoCommerce.OpenTelemetry",
           "Version": "3.1000.0"
-        },
-        {
-          "Id": "VirtoCommerce.MarketingExperienceApi",
-          "Version": "3.1001.0"
         },
         {
           "Id": "VirtoCommerce.ShipStation",
