@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.1032.0",
+  "PlatformVersion": "3.1033.0-pr-3039-35f3-vcst-5044-35f32108",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.1032.0",
+  "PlatformImageTag": "3.1033.0-pr-3039-35f3-vcst-5044-35f32108",
   
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -50,7 +50,15 @@
         },
         {
           "Id": "VirtoCommerce.Catalog",
-          "BlobName": "VirtoCommerce.Catalog_3.1026.0-pr-888-980d.zip"
+          "BlobName": "VirtoCommerce.Catalog_3.1026.0-pr-884-b576.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Core",
+          "BlobName": "VirtoCommerce.Core_3.1005.0-pr-252-5460.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Store",
+          "BlobName": "VirtoCommerce.Store_3.1003.0-pr-169-872a.zip"
         }
       ]
     },
@@ -257,10 +265,6 @@
           "Version": "3.1001.0"
         },
         {
-          "Id": "VirtoCommerce.Store",
-          "Version": "3.1002.0"
-        },
-        {
           "Id": "VirtoCommerce.CatalogPublishing",
           "Version": "3.1003.0"
         },
@@ -315,10 +319,6 @@
         {
           "Id": "VirtoCommerce.AvalaraTax",
           "Version": "3.1001.0"
-        },
-        {
-          "Id": "VirtoCommerce.Core",
-          "Version": "3.1004.0"
         },
         {
           "Id": "VirtoCommerce.TaskManagement",
