@@ -163,7 +163,7 @@
       Search__ElasticSearch__HealthCheckTimeout: 10      
       # Search__Provider: ElasticSearch
       # Search__ElasticSearch__User: vcptcore-qa-vcptcore
-      Search__Provider: ElasticSearch8
+      # Search__Provider: ElasticSearch8
       
       #Search__Provider: OpenSearch
       Search__OpenSearch__Server: https://opensearch-uat.govirto.com/
@@ -196,7 +196,7 @@
       Search__ElasticAppSearch__EnableHttpCompression: true
       Search__ElasticAppSearch__Endpoint: https://enterprise-search-vc03.govirto.com
 
-      #Search__Provider: AzureSearch
+      Search__Provider: AzureSearch
       Search__AzureSearch__SearchServiceName: qa-demovc-3-search
       Search__AzureSearch__Key: 6BE1143312E89C26C227E6BBAE24DD47
       Search__AzureSearch__QueryParserType: Full
