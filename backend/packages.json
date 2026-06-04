@@ -11,7 +11,7 @@
     "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
     "Modules": [
       {
-        "BlobName": "VirtoCommerce.MarketingExperienceApi_3.1002.0-pr-16-3e3b.zip"
+        "BlobName": "VirtoCommerce.Skyflow_3.1002.0-pr-23-5a1b.zip"
       }
     ]
     },
@@ -224,11 +224,7 @@
         {
           "Id": "VirtoCommerce.CatalogPublishing",
           "Version": "3.1003.0"
-        },
-        {
-          "Id": "VirtoCommerce.Skyflow",
-          "Version": "3.1001.0"
-        },
+        }, 
         {
           "Id": "VirtoCommerce.Shipping",
           "Version": "3.1003.0"
@@ -348,6 +344,10 @@
         {
           "Id": "VirtoCommerce.XCart",
           "Version": "3.1016.0"
+        },
+        {
+          "Id": "VirtoCommerce.MarketingExperienceApi",
+          "Version": "3.1002.0"
         }
        ]
     }
