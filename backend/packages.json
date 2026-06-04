@@ -154,10 +154,6 @@
           "BlobName": "VirtoCommerce.AzureSearch_3.1002.0-alpha.273.zip"
         },
         {
-          "Id": "VirtoCommerce.Cart",
-          "BlobName": "VirtoCommerce.Cart_3.1004.0-alpha.778.zip"
-        },
-        {
           "Id": "VirtoCommerce.WebHooks",
           "BlobName": "VirtoCommerce.WebHooks_3.1003.0-alpha.339.zip"
         },
@@ -352,6 +348,10 @@
         {
           "Id": "VirtoCommerce.MarketingExperienceApi",
           "BlobName": "VirtoCommerce.MarketingExperienceApi_3.1003.0-alpha.95.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Cart",
+          "BlobName": "VirtoCommerce.Cart_3.1004.0-alpha.788.zip"
         }
       ]
     }
