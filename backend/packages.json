@@ -142,10 +142,6 @@
           "BlobName": "VirtoCommerce.OpenTelemetry_3.1001.0-alpha.4.zip"
         },
         {
-          "Id": "VirtoCommerce.MarketingExperienceApi",
-          "BlobName": "VirtoCommerce.MarketingExperienceApi_3.1002.0-alpha.84.zip"
-        },
-        {
           "Id": "VirtoCommerce.ShipStation",
           "BlobName": "VirtoCommerce.ShipStation_3.1001.0-alpha.141.zip"
         },
@@ -352,6 +348,10 @@
         {
           "Id": "VirtoCommerce.XCart",
           "BlobName": "VirtoCommerce.XCart_3.1018.0-alpha.237.zip"
+        },
+        {
+          "Id": "VirtoCommerce.MarketingExperienceApi",
+          "BlobName": "VirtoCommerce.MarketingExperienceApi_3.1002.0-alpha.94.zip"
         }
       ]
     }
