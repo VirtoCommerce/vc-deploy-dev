@@ -326,10 +326,6 @@
           "BlobName": "VirtoCommerce.Notifications_3.1008.0-alpha.470.zip"
         },
         {
-          "Id": "VirtoCommerce.ElasticSearch8",
-          "BlobName": "VirtoCommerce.ElasticSearch8_3.1005.0-alpha.169.zip"
-        },
-        {
           "Id": "VirtoCommerce.Xapi",
           "BlobName": "VirtoCommerce.Xapi_3.1010.0-alpha.172.zip"
         },
@@ -352,6 +348,10 @@
         {
           "Id": "VirtoCommerce.Cart",
           "BlobName": "VirtoCommerce.Cart_3.1005.0-alpha.790.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ElasticSearch8",
+          "BlobName": "VirtoCommerce.ElasticSearch8_3.1005.0-alpha.170.zip"
         }
       ]
     }
