@@ -13,7 +13,7 @@
     dbName: vcst-qa-platform_restored
     config:
       # Increment to force environment reload
-      reload: 27
+      reload: 28
       # Application Insights settings
       APPINSIGHTS_INSTRUMENTATIONKEY: ef0125aa-1c8e-42d3-964f-d0a11256309d      
       # Forward headers to Nginx
@@ -243,6 +243,9 @@
         ADAPTER_DEBUG_MODE: true
       secretConfig:
         ADAPTER_API_KEY: mcp-adapter-vc-api-key-new
+  frontend:
+  - name: B2B-store
+    prerender: true
   routes:
   - host: vcst-qa-storefront.govirto.com
     root: B2B-store
