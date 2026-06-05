@@ -206,10 +206,6 @@
           "BlobName": "VirtoCommerce.FileExperienceApi_3.1002.0-alpha.72.zip"
         },
         {
-          "Id": "VirtoCommerce.Store",
-          "BlobName": "VirtoCommerce.Store_3.1003.0-alpha.767.zip"
-        },
-        {
           "Id": "VirtoCommerce.CatalogPublishing",
           "BlobName": "VirtoCommerce.CatalogPublishing_3.1004.0-alpha.392.zip"
         },
@@ -352,6 +348,10 @@
         {
           "Id": "VirtoCommerce.Skyflow",
           "BlobName": "VirtoCommerce.Skyflow_3.1003.0-alpha.73.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Store",
+          "BlobName": "VirtoCommerce.Store_3.1003.0-alpha.775.zip"
         }
       ]
     }
