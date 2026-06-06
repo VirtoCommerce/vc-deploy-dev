@@ -278,10 +278,6 @@
           "BlobName": "VirtoCommerce.XFrontend_3.1000.0.zip"
         },
         {
-          "Id": "VirtoCommerce.SqlQueries",
-          "BlobName": "VirtoCommerce.SqlQueries_3.1003.0-alpha.39.zip"
-        },
-        {
           "Id": "VirtoCommerce.BuilderIO",
           "BlobName": "VirtoCommerce.BuilderIO_3.1004.0-alpha.133.zip"
         },
@@ -352,6 +348,10 @@
         {
           "Id": "VirtoCommerce.Store",
           "BlobName": "VirtoCommerce.Store_3.1004.0-alpha.776.zip"
+        },
+        {
+          "Id": "VirtoCommerce.SqlQueries",
+          "BlobName": "VirtoCommerce.SqlQueries_3.1003.0-alpha.45.zip"
         }
       ]
     }
