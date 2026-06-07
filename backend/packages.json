@@ -326,10 +326,6 @@
           "BlobName": "VirtoCommerce.MarketingExperienceApi_3.1003.0-alpha.95.zip"
         },
         {
-          "Id": "VirtoCommerce.Cart",
-          "BlobName": "VirtoCommerce.Cart_3.1005.0-alpha.790.zip"
-        },
-        {
           "Id": "VirtoCommerce.ElasticSearch8",
           "BlobName": "VirtoCommerce.ElasticSearch8_3.1006.0-alpha.171.zip"
         },
@@ -352,6 +348,10 @@
         {
           "Id": "VirtoCommerce.SqlQueries",
           "BlobName": "VirtoCommerce.SqlQueries_3.1004.0-alpha.47.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Cart",
+          "BlobName": "VirtoCommerce.Cart_3.1005.0-alpha.791.zip"
         }
       ]
     }
