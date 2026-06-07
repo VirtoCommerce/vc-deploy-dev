@@ -330,10 +330,6 @@
           "BlobName": "VirtoCommerce.Orders_3.1009.0-alpha.1423.zip"
         },
         {
-          "Id": "VirtoCommerce.Payment",
-          "BlobName": "VirtoCommerce.Payment_3.1003.0-alpha.284.zip"
-        },
-        {
           "Id": "VirtoCommerce.Store",
           "BlobName": "VirtoCommerce.Store_3.1004.0-alpha.777.zip"
         },
@@ -352,6 +348,10 @@
         {
           "Id": "VirtoCommerce.Subscription",
           "BlobName": "VirtoCommerce.Subscription_3.1002.0-alpha.384.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Payment",
+          "BlobName": "VirtoCommerce.Payment_3.1004.0-alpha.285.zip"
         }
       ]
     }
