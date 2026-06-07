@@ -3,7 +3,6 @@
   "PlatformVersion": "3.1033.0-pr-3039-35f3-vcst-5044-35f32108",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
   "PlatformImageTag": "3.1033.0-pr-3039-35f3-vcst-5044-35f32108",
-  
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
   ],
@@ -12,10 +11,10 @@
       "Name": "AzureBlob",
       "Container": "packages",
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
-      "Modules": [  
+      "Modules": [
         {
           "Id": "VirtoCommerce.SystemOperations.SampleExtension",
-          "BlobName": "VirtoCommerce.SystemOperations_3.1000.0-alpha.01.zip"          
+          "BlobName": "VirtoCommerce.SystemOperations_3.1000.0-alpha.01.zip"
         },
         {
           "Id": "VirtoCommerce.PowerBiReports",
@@ -75,6 +74,10 @@
         {
           "Id": "VirtoCommerce.TaskManagement",
           "BlobName": "VirtoCommerce.TaskManagement_3.1002.0-pr-28-697d.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Notifications",
+          "BlobName": "VirtoCommerce.Notifications_3.1008.0.zip"
         }
       ]
     },
@@ -82,7 +85,7 @@
       "Name": "GithubReleases",
       "ModuleSources": [
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
-                       ],
+      ],
       "Modules": [
         {
           "Id": "VirtoCommerce.ElasticSearch",
@@ -361,10 +364,6 @@
           "Version": "3.1008.0"
         },
         {
-          "Id": "VirtoCommerce.Notifications",
-          "Version": "3.1007.0"
-        },
-        {
           "Id": "VirtoCommerce.Xapi",
           "Version": "3.1009.0"
         },
@@ -380,4 +379,3 @@
     }
   ]
 }
-
