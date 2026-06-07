@@ -174,10 +174,6 @@
           "BlobName": "VirtoCommerce.NativePaymentMethods_3.1002.0-alpha.112.zip"
         },
         {
-          "Id": "VirtoCommerce.Payment",
-          "BlobName": "VirtoCommerce.Payment_3.1003.0-alpha.274.zip"
-        },
-        {
           "Id": "VirtoCommerce.Datatrans",
           "BlobName": "VirtoCommerce.Datatrans_3.1002.0-alpha.108.zip"
         },
@@ -352,6 +348,10 @@
         {
           "Id": "VirtoCommerce.Orders",
           "BlobName": "VirtoCommerce.Orders_3.1009.0-alpha.1423.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Payment",
+          "BlobName": "VirtoCommerce.Payment_3.1003.0-alpha.284.zip"
         }
       ]
     }
