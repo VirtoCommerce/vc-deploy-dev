@@ -198,10 +198,6 @@
           "BlobName": "VirtoCommerce.CatalogPublishing_3.1004.0-alpha.392.zip"
         },
         {
-          "Id": "VirtoCommerce.Shipping",
-          "BlobName": "VirtoCommerce.Shipping_3.1004.0-alpha.248.zip"
-        },
-        {
           "Id": "VirtoCommerce.OrderManagement",
           "BlobName": "VirtoCommerce.OrderManagement_3.1002.0-alpha.34.zip"
         },
@@ -352,6 +348,10 @@
         {
           "Id": "VirtoCommerce.Marketing",
           "BlobName": "VirtoCommerce.Marketing_3.1004.0-alpha.930.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Shipping",
+          "BlobName": "VirtoCommerce.Shipping_3.1004.0-alpha.256.zip"
         }
       ]
     }
