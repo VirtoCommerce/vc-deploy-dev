@@ -310,10 +310,6 @@
           "BlobName": "VirtoCommerce.ElasticSearch8_3.1006.0-alpha.171.zip"
         },
         {
-          "Id": "VirtoCommerce.Core",
-          "BlobName": "VirtoCommerce.Core_3.1006.0-alpha.1704.zip"
-        },
-        {
           "Id": "VirtoCommerce.Skyflow",
           "BlobName": "VirtoCommerce.Skyflow_3.1003.0-alpha.73.zip"
         },
@@ -352,6 +348,10 @@
         {
           "Id": "VirtoCommerce.Pricing",
           "BlobName": "VirtoCommerce.Pricing_3.1003.0-alpha.803.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Core",
+          "BlobName": "VirtoCommerce.Core_3.1006.0-alpha.1705.zip"
         }
       ]
     }
