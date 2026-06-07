@@ -110,10 +110,6 @@
           "BlobName": "VirtoCommerce.WhiteLabeling_3.1002.0-alpha.69.zip"
         },
         {
-          "Id": "VirtoCommerce.Tax",
-          "BlobName": "VirtoCommerce.Tax_3.1002.0-alpha.213.zip"
-        },
-        {
           "Id": "VirtoCommerce.ImageTools",
           "BlobName": "VirtoCommerce.ImageTools_3.1002.0-alpha.389.zip"
         },
@@ -352,6 +348,10 @@
         {
           "Id": "VirtoCommerce.Subscription",
           "BlobName": "VirtoCommerce.Subscription_3.1001.0-alpha.383.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Tax",
+          "BlobName": "VirtoCommerce.Tax_3.1002.0-alpha.226.zip"
         }
       ]
     }
