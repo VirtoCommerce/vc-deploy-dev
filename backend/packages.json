@@ -30,10 +30,6 @@
           "BlobName": "VirtoCommerce.CatalogCsvImportModule_3.1001.0-alpha.368.zip"
         },
         {
-          "Id": "VirtoCommerce.FileSystemAssets",
-          "BlobName": "VirtoCommerce.FileSystemAssets_3.1001.0-alpha.125.zip"
-        },
-        {
           "Id": "VirtoCommerce.EnvironmentsCompare",
           "BlobName": "VirtoCommerce.EnvironmentsCompare_3.1001.0-alpha.9.zip"
         },
@@ -352,6 +348,10 @@
         {
           "Id": "VirtoCommerce.AzureBlobAssets",
           "BlobName": "VirtoCommerce.AzureBlobAssets_3.1004.0-alpha.176.zip"
+        },
+        {
+          "Id": "VirtoCommerce.FileSystemAssets",
+          "BlobName": "VirtoCommerce.FileSystemAssets_3.1001.0-alpha.138.zip"
         }
       ]
     }
