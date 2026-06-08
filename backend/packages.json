@@ -322,10 +322,6 @@
           "BlobName": "VirtoCommerce.WebHooks_3.1004.0-alpha.351.zip"
         },
         {
-          "Id": "VirtoCommerce.FileSystemAssets",
-          "BlobName": "VirtoCommerce.FileSystemAssets_3.1001.0-alpha.138.zip"
-        },
-        {
           "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
           "BlobName": "VirtoCommerce.GoogleEcommerceAnalytics_4.1002.0-alpha.230.zip"
         },
@@ -352,6 +348,10 @@
         {
           "Id": "VirtoCommerce.AzureBlobAssets",
           "BlobName": "VirtoCommerce.AzureBlobAssets_3.1005.0-alpha.177.zip"
+        },
+        {
+          "Id": "VirtoCommerce.FileSystemAssets",
+          "BlobName": "VirtoCommerce.FileSystemAssets_3.1002.0-alpha.139.zip"
         }
       ]
     }
