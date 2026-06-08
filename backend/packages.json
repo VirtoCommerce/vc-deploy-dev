@@ -338,10 +338,6 @@
           "BlobName": "VirtoCommerce.BulkActionsModule_3.1002.0-alpha.251.zip"
         },
         {
-          "Id": "VirtoCommerce.Quote",
-          "BlobName": "VirtoCommerce.Quote_3.1001.0-alpha.501.zip"
-        },
-        {
           "Id": "VirtoCommerce.AuthorizeNetPayment",
           "BlobName": "VirtoCommerce.AuthorizeNetPayment_3.1002.0-alpha.113.zip"
         },
@@ -352,6 +348,10 @@
         {
           "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
           "BlobName": "VirtoCommerce.GoogleEcommerceAnalytics_4.1001.0-alpha.228.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Quote",
+          "BlobName": "VirtoCommerce.Quote_3.1002.0-alpha.502.zip"
         }
       ]
     }
