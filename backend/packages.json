@@ -174,10 +174,6 @@
           "BlobName": "VirtoCommerce.PageBuilderModule_3.1011.0-alpha.828.zip"
         },
         {
-          "Id": "VirtoCommerce.AzureBlobAssets",
-          "BlobName": "VirtoCommerce.AzureBlobAssets_3.1004.0-alpha.170.zip"
-        },
-        {
           "Id": "VirtoCommerce.SystemOperations",
           "BlobName": "VirtoCommerce.SystemOperations_3.1002.0-alpha.9.zip"
         },
@@ -352,6 +348,10 @@
         {
           "Id": "VirtoCommerce.WebHooks",
           "BlobName": "VirtoCommerce.WebHooks_3.1004.0-alpha.351.zip"
+        },
+        {
+          "Id": "VirtoCommerce.AzureBlobAssets",
+          "BlobName": "VirtoCommerce.AzureBlobAssets_3.1004.0-alpha.176.zip"
         }
       ]
     }
