@@ -124,10 +124,6 @@
           "Version": "3.1000.0"
         },
         {
-          "Id": "VirtoCommerce.ElasticAppSearch",
-          "Version": "3.1000.0"
-        },
-        {
           "Id": "VirtoCommerce.News",
           "Version": "3.1001.0"
         },
@@ -338,6 +334,10 @@
         {
           "Id": "VirtoCommerce.AuthorizeNetPayment",
           "Version": "3.1002.0"
+        },
+        {
+          "Id": "VirtoCommerce.ElasticAppSearch",
+          "Version": "3.1001.0"
         }
       ]
     },
