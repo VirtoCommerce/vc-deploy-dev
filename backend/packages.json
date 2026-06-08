@@ -38,10 +38,6 @@
           "BlobName": "VirtoCommerce.EnvironmentsCompare_3.1001.0-alpha.9.zip"
         },
         {
-          "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
-          "BlobName": "VirtoCommerce.GoogleEcommerceAnalytics_4.1001.0-alpha.215.zip"
-        },
-        {
           "Id": "VirtoCommerce.Return",
           "BlobName": "VirtoCommerce.Return_3.1001.0-alpha.134.zip"
         },
@@ -352,6 +348,10 @@
         {
           "Id": "VirtoCommerce.DynamicAssociationsModule",
           "BlobName": "VirtoCommerce.DynamicAssociationsModule_3.1001.0-alpha.202.zip"
+        },
+        {
+          "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
+          "BlobName": "VirtoCommerce.GoogleEcommerceAnalytics_4.1001.0-alpha.228.zip"
         }
       ]
     }
