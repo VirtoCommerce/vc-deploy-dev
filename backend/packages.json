@@ -198,10 +198,6 @@
           "BlobName": "VirtoCommerce.News_3.1002.0-alpha.55.zip"
         },
         {
-          "Id": "VirtoCommerce.AvalaraTax",
-          "BlobName": "VirtoCommerce.AvalaraTax_3.1002.0-alpha.346.zip"
-        },
-        {
           "Id": "VirtoCommerce.Loyalty",
           "BlobName": "VirtoCommerce.Loyalty_3.1002.0-pr-8-a8ec.zip"
         },
@@ -352,6 +348,10 @@
         {
           "Id": "VirtoCommerce.Search",
           "BlobName": "VirtoCommerce.Search_3.1002.0-alpha.829.zip"
+        },
+        {
+          "Id": "VirtoCommerce.AvalaraTax",
+          "BlobName": "VirtoCommerce.AvalaraTax_3.1002.0-alpha.353.zip"
         }
       ]
     }
