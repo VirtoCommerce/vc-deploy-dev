@@ -146,10 +146,6 @@
           "BlobName": "VirtoCommerce.Datatrans_3.1002.0-alpha.108.zip"
         },
         {
-          "Id": "VirtoCommerce.CustomerReviews",
-          "BlobName": "VirtoCommerce.CustomerReviews_3.1003.0-alpha.272.zip"
-        },
-        {
           "Id": "VirtoCommerce.Seo",
           "BlobName": "VirtoCommerce.Seo_3.1003.0-alpha.77.zip"
         },
@@ -352,6 +348,10 @@
         {
           "Id": "VirtoCommerce.AvalaraTax",
           "BlobName": "VirtoCommerce.AvalaraTax_3.1002.0-alpha.353.zip"
+        },
+        {
+          "Id": "VirtoCommerce.CustomerReviews",
+          "BlobName": "VirtoCommerce.CustomerReviews_3.1003.0-alpha.280.zip"
         }
       ]
     }
