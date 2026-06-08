@@ -24,10 +24,6 @@
           "Version": "3.1000.0"
         },
         {
-          "Id": "VirtoCommerce.BulkActionsModule",
-          "Version": "3.1000.0"
-        },
-        {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
           "Version": "3.1000.0"
         },
@@ -338,6 +334,10 @@
         {
           "Id": "VirtoCommerce.Search",
           "Version": "3.1002.0"
+        },
+        {
+          "Id": "VirtoCommerce.BulkActionsModule",
+          "Version": "3.1001.0"
         }
       ]
     },
