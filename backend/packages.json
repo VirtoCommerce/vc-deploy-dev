@@ -118,10 +118,6 @@
           "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.1008.0-alpha.346.zip"
         },
         {
-          "Id": "VirtoCommerce.Skyflow",
-          "BlobName": "VirtoCommerce.Skyflow_3.1003.0-alpha.73.zip"
-        },
-        {
           "Id": "VirtoCommerce.SqlQueries",
           "BlobName": "VirtoCommerce.SqlQueries_3.1004.0-alpha.47.zip"
         },
@@ -352,6 +348,10 @@
         {
           "Id": "VirtoCommerce.XOrder",
           "BlobName": "VirtoCommerce.XOrder_3.1005.0-alpha.112.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Skyflow",
+          "BlobName": "VirtoCommerce.Skyflow_3.1003.0-alpha.74.zip"
         }
       ]
     }
