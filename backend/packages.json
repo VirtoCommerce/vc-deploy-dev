@@ -298,10 +298,6 @@
           "BlobName": "VirtoCommerce.BulkActionsModule_3.1002.0-alpha.251.zip"
         },
         {
-          "Id": "VirtoCommerce.DynamicAssociationsModule",
-          "BlobName": "VirtoCommerce.DynamicAssociationsModule_3.1001.0-alpha.202.zip"
-        },
-        {
           "Id": "VirtoCommerce.Quote",
           "BlobName": "VirtoCommerce.Quote_3.1002.0-alpha.502.zip"
         },
@@ -352,6 +348,10 @@
         {
           "Id": "VirtoCommerce.NativePaymentMethods",
           "BlobName": "VirtoCommerce.NativePaymentMethods_3.1002.0-alpha.122.zip"
+        },
+        {
+          "Id": "VirtoCommerce.DynamicAssociationsModule",
+          "BlobName": "VirtoCommerce.DynamicAssociationsModule_3.1002.0-alpha.203.zip"
         }
       ]
     }
