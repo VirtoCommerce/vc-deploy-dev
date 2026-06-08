@@ -82,10 +82,6 @@
           "BlobName": "VirtoCommerce.PageBuilderModule_3.1011.0-alpha.828.zip"
         },
         {
-          "Id": "VirtoCommerce.SystemOperations",
-          "BlobName": "VirtoCommerce.SystemOperations_3.1002.0-alpha.9.zip"
-        },
-        {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.1008.0-alpha.346.zip"
         },
@@ -352,6 +348,10 @@
         {
           "Id": "VirtoCommerce.Datatrans",
           "BlobName": "VirtoCommerce.Datatrans_3.1002.0-alpha.116.zip"
+        },
+        {
+          "Id": "VirtoCommerce.SystemOperations",
+          "BlobName": "VirtoCommerce.SystemOperations_3.1002.0-alpha.15.zip"
         }
       ]
     }
