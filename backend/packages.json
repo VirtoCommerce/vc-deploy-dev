@@ -102,10 +102,6 @@
           "BlobName": "VirtoCommerce.Contracts_3.1002.0-alpha.152.zip"
         },
         {
-          "Id": "VirtoCommerce.Assets",
-          "BlobName": "VirtoCommerce.Assets_3.1003.0-alpha.181.zip"
-        },
-        {
           "Id": "VirtoCommerce.NativePaymentMethods",
           "BlobName": "VirtoCommerce.NativePaymentMethods_3.1002.0-alpha.112.zip"
         },
@@ -352,6 +348,10 @@
         {
           "Id": "VirtoCommerce.WebHooks",
           "BlobName": "VirtoCommerce.WebHooks_3.1003.0-alpha.350.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Assets",
+          "BlobName": "VirtoCommerce.Assets_3.1003.0-alpha.192.zip"
         }
       ]
     }
