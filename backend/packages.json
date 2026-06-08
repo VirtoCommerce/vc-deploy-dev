@@ -126,10 +126,6 @@
           "BlobName": "VirtoCommerce.XFrontend_3.1000.0.zip"
         },
         {
-          "Id": "VirtoCommerce.BuilderIO",
-          "BlobName": "VirtoCommerce.BuilderIO_3.1004.0-alpha.133.zip"
-        },
-        {
           "Id": "VirtoCommerce.Pages",
           "BlobName": "VirtoCommerce.Pages_3.1006.0-alpha.60.zip"
         },
@@ -352,6 +348,10 @@
         {
           "Id": "VirtoCommerce.FileExperienceApi",
           "BlobName": "VirtoCommerce.FileExperienceApi_3.1002.0-alpha.80.zip"
+        },
+        {
+          "Id": "VirtoCommerce.BuilderIO",
+          "BlobName": "VirtoCommerce.BuilderIO_3.1004.0-alpha.139.zip"
         }
       ]
     }
