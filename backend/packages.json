@@ -210,10 +210,6 @@
           "BlobName": "VirtoCommerce.TaskManagement_3.1002.0-alpha.180.zip"
         },
         {
-          "Id": "VirtoCommerce.Search",
-          "BlobName": "VirtoCommerce.Search_3.1002.0-alpha.823.zip"
-        },
-        {
           "Id": "VirtoCommerce.XFrontend",
           "BlobName": "VirtoCommerce.XFrontend_3.1000.0.zip"
         },
@@ -352,6 +348,10 @@
         {
           "Id": "VirtoCommerce.LuceneSearch",
           "BlobName": "VirtoCommerce.LuceneSearch_3.1003.0-alpha.248.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Search",
+          "BlobName": "VirtoCommerce.Search_3.1002.0-alpha.829.zip"
         }
       ]
     }
