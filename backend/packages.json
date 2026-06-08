@@ -302,10 +302,6 @@
           "BlobName": "VirtoCommerce.BulkActionsModule_3.1002.0-alpha.251.zip"
         },
         {
-          "Id": "VirtoCommerce.AuthorizeNetPayment",
-          "BlobName": "VirtoCommerce.AuthorizeNetPayment_3.1002.0-alpha.113.zip"
-        },
-        {
           "Id": "VirtoCommerce.DynamicAssociationsModule",
           "BlobName": "VirtoCommerce.DynamicAssociationsModule_3.1001.0-alpha.202.zip"
         },
@@ -352,6 +348,10 @@
         {
           "Id": "VirtoCommerce.Contracts",
           "BlobName": "VirtoCommerce.Contracts_3.1002.0-alpha.163.zip"
+        },
+        {
+          "Id": "VirtoCommerce.AuthorizeNetPayment",
+          "BlobName": "VirtoCommerce.AuthorizeNetPayment_3.1002.0-alpha.114.zip"
         }
       ]
     }
