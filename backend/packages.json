@@ -138,10 +138,6 @@
           "BlobName": "VirtoCommerce.Assets_3.1003.0-alpha.181.zip"
         },
         {
-          "Id": "VirtoCommerce.LuceneSearch",
-          "BlobName": "VirtoCommerce.LuceneSearch_3.1003.0-alpha.236.zip"
-        },
-        {
           "Id": "VirtoCommerce.NativePaymentMethods",
           "BlobName": "VirtoCommerce.NativePaymentMethods_3.1002.0-alpha.112.zip"
         },
@@ -352,6 +348,10 @@
         {
           "Id": "VirtoCommerce.ImageTools",
           "BlobName": "VirtoCommerce.ImageTools_3.1002.0-alpha.402.zip"
+        },
+        {
+          "Id": "VirtoCommerce.LuceneSearch",
+          "BlobName": "VirtoCommerce.LuceneSearch_3.1003.0-alpha.248.zip"
         }
       ]
     }
