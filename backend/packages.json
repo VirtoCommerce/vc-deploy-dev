@@ -202,10 +202,6 @@
           "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.1008.0-alpha.346.zip"
         },
         {
-          "Id": "VirtoCommerce.EventBus",
-          "BlobName": "VirtoCommerce.EventBus_3.1009.0-alpha.194.zip"
-        },
-        {
           "Id": "VirtoCommerce.Xapi",
           "BlobName": "VirtoCommerce.Xapi_3.1010.0-alpha.172.zip"
         },
@@ -352,6 +348,10 @@
         {
           "Id": "VirtoCommerce.Quote",
           "BlobName": "VirtoCommerce.Quote_3.1002.0-alpha.502.zip"
+        },
+        {
+          "Id": "VirtoCommerce.EventBus",
+          "BlobName": "VirtoCommerce.EventBus_3.1009.0-alpha.197.zip"
         }
       ]
     }
