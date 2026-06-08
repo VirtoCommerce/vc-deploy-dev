@@ -82,10 +82,6 @@
           "BlobName": "VirtoCommerce.WhiteLabeling_3.1002.0-alpha.69.zip"
         },
         {
-          "Id": "VirtoCommerce.PriceExportImport",
-          "BlobName": "VirtoCommerce.PriceExportImport_3.1001.0-alpha.176.zip"
-        },
-        {
           "Id": "VirtoCommerce.BackInStock",
           "BlobName": "VirtoCommerce.BackInStock_3.1001.0-alpha.43.zip"
         },
@@ -352,6 +348,10 @@
         {
           "Id": "VirtoCommerce.EventBus",
           "BlobName": "VirtoCommerce.EventBus_3.1009.0-alpha.197.zip"
+        },
+        {
+          "Id": "VirtoCommerce.PriceExportImport",
+          "BlobName": "VirtoCommerce.PriceExportImport_3.1001.0-alpha.187.zip"
         }
       ]
     }
