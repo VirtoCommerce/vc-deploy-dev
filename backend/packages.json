@@ -296,10 +296,6 @@
           "Version": "3.1002.0"
         },
         {
-          "Id": "VirtoCommerce.Store",
-          "Version": "3.1003.0"
-        },
-        {
           "Id": "VirtoCommerce.SqlQueries",
           "Version": "3.1003.0"
         },
@@ -338,6 +334,10 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "Version": "3.1028.0"
+        },
+        {
+          "Id": "VirtoCommerce.Store",
+          "Version": "3.1004.0"
         }
       ]
     },
