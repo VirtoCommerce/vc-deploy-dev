@@ -78,10 +78,6 @@
           "BlobName": "VirtoCommerce.Contentful_3.1002.0-alpha.130.zip"
         },
         {
-          "Id": "VirtoCommerce.ProductSnapshot",
-          "BlobName": "VirtoCommerce.ProductSnapshot_3.1001.0-alpha.7.zip"
-        },
-        {
           "Id": "VirtoCommerce.Loyalty",
           "BlobName": "VirtoCommerce.Loyalty_3.1002.0-pr-8-a8ec.zip"
         },
@@ -352,6 +348,10 @@
         {
           "Id": "VirtoCommerce.News",
           "BlobName": "VirtoCommerce.News_3.1002.0-alpha.62.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ProductSnapshot",
+          "BlobName": "VirtoCommerce.ProductSnapshot_3.1001.0-alpha.14.zip"
         }
       ]
     }
