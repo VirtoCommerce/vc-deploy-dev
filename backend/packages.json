@@ -86,10 +86,6 @@
           "BlobName": "VirtoCommerce.OpenTelemetry_3.1001.0-alpha.4.zip"
         },
         {
-          "Id": "VirtoCommerce.ShipStation",
-          "BlobName": "VirtoCommerce.ShipStation_3.1001.0-alpha.141.zip"
-        },
-        {
           "Id": "VirtoCommerce.Contracts",
           "BlobName": "VirtoCommerce.Contracts_3.1002.0-alpha.152.zip"
         },
@@ -352,6 +348,10 @@
         {
           "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
           "BlobName": "VirtoCommerce.GoogleEcommerceAnalytics_4.1002.0-alpha.230.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ShipStation",
+          "BlobName": "VirtoCommerce.ShipStation_3.1001.0-alpha.151.zip"
         }
       ]
     }
