@@ -54,10 +54,6 @@
           "BlobName": "VirtoCommerce.OpenTelemetry_3.1001.0-alpha.4.zip"
         },
         {
-          "Id": "VirtoCommerce.Datatrans",
-          "BlobName": "VirtoCommerce.Datatrans_3.1002.0-alpha.108.zip"
-        },
-        {
           "Id": "VirtoCommerce.Seo",
           "BlobName": "VirtoCommerce.Seo_3.1003.0-alpha.77.zip"
         },
@@ -352,6 +348,10 @@
         {
           "Id": "VirtoCommerce.Sanity",
           "BlobName": "VirtoCommerce.Sanity_3.1003.0-alpha.10.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Datatrans",
+          "BlobName": "VirtoCommerce.Datatrans_3.1002.0-alpha.116.zip"
         }
       ]
     }
