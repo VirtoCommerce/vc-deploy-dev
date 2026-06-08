@@ -54,10 +54,6 @@
           "BlobName": "VirtoCommerce.ApplicationInsights_3.1002.0-alpha.48.zip"
         },
         {
-          "Id": "VirtoCommerce.AuthorizeNetPayment",
-          "BlobName": "VirtoCommerce.AuthorizeNetPayment_3.1001.0-alpha.99.zip"
-        },
-        {
           "Id": "VirtoCommerce.AzureAD",
           "BlobName": "VirtoCommerce.AzureAD_3.1001.0-alpha.60.zip"
         },
@@ -352,6 +348,10 @@
         {
           "Id": "VirtoCommerce.BulkActionsModule",
           "BlobName": "VirtoCommerce.BulkActionsModule_3.1002.0-alpha.251.zip"
+        },
+        {
+          "Id": "VirtoCommerce.AuthorizeNetPayment",
+          "BlobName": "VirtoCommerce.AuthorizeNetPayment_3.1001.0-alpha.112.zip"
         }
       ]
     }
