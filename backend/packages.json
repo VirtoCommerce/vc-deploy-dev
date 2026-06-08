@@ -74,10 +74,6 @@
           "BlobName": "VirtoCommerce.OrderManagement_3.1002.0-alpha.34.zip"
         },
         {
-          "Id": "VirtoCommerce.XCatalog",
-          "BlobName": "VirtoCommerce.XCatalog_3.1006.0-alpha.185.zip"
-        },
-        {
           "Id": "VirtoCommerce.XPickup",
           "BlobName": "VirtoCommerce.XPickup_3.1002.0-alpha.35.zip"
         },
@@ -352,6 +348,10 @@
         {
           "Id": "VirtoCommerce.Skyflow",
           "BlobName": "VirtoCommerce.Skyflow_3.1003.0-alpha.74.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XCatalog",
+          "BlobName": "VirtoCommerce.XCatalog_3.1006.0-alpha.193.zip"
         }
       ]
     }
