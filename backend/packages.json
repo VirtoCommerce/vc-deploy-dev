@@ -22,10 +22,6 @@
           "BlobName": "VirtoCommerce.SeqLog_3.800.0.zip"
         },
         {
-          "Id": "VirtoCommerce.ElasticSearch",
-          "BlobName": "VirtoCommerce.ElasticSearch_3.807.0-alpha.274.zip"
-        },
-        {
           "Id": "VirtoCommerce.OpenIdConnectModule",
           "BlobName": "VirtoCommerce.OpenIdConnectModule_3.1001.0-alpha.31.zip"
         },
@@ -352,6 +348,10 @@
         {
           "Id": "VirtoCommerce.AzureSearch",
           "BlobName": "VirtoCommerce.AzureSearch_3.1002.0-alpha.284.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ElasticSearch",
+          "BlobName": "VirtoCommerce.ElasticSearch_3.807.0-alpha.292.zip"
         }
       ]
     }
