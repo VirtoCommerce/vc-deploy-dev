@@ -334,10 +334,6 @@
           "BlobName": "VirtoCommerce.Quote_3.1002.0-alpha.502.zip"
         },
         {
-          "Id": "VirtoCommerce.EventBus",
-          "BlobName": "VirtoCommerce.EventBus_3.1009.0-alpha.197.zip"
-        },
-        {
           "Id": "VirtoCommerce.PriceExportImport",
           "BlobName": "VirtoCommerce.PriceExportImport_3.1001.0-alpha.187.zip"
         },
@@ -352,6 +348,10 @@
         {
           "Id": "VirtoCommerce.CustomerExportImport",
           "BlobName": "VirtoCommerce.CustomerExportImport_3.1002.0-alpha.217.zip"
+        },
+        {
+          "Id": "VirtoCommerce.EventBus",
+          "BlobName": "VirtoCommerce.EventBus_3.1010.0-alpha.198.zip"
         }
       ]
     }
