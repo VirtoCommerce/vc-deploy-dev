@@ -86,10 +86,6 @@
           "BlobName": "VirtoCommerce.Seo_3.1003.0-alpha.77.zip"
         },
         {
-          "Id": "VirtoCommerce.FileExperienceApi",
-          "BlobName": "VirtoCommerce.FileExperienceApi_3.1002.0-alpha.72.zip"
-        },
-        {
           "Id": "VirtoCommerce.OrderManagement",
           "BlobName": "VirtoCommerce.OrderManagement_3.1002.0-alpha.34.zip"
         },
@@ -352,6 +348,10 @@
         {
           "Id": "VirtoCommerce.Contracts",
           "BlobName": "VirtoCommerce.Contracts_3.1003.0-alpha.164.zip"
+        },
+        {
+          "Id": "VirtoCommerce.FileExperienceApi",
+          "BlobName": "VirtoCommerce.FileExperienceApi_3.1002.0-alpha.80.zip"
         }
       ]
     }
