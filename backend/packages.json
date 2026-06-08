@@ -314,10 +314,6 @@
           "BlobName": "VirtoCommerce.Search_3.1002.0-alpha.829.zip"
         },
         {
-          "Id": "VirtoCommerce.CatalogPublishing",
-          "BlobName": "VirtoCommerce.CatalogPublishing_3.1004.0-alpha.400.zip"
-        },
-        {
           "Id": "VirtoCommerce.Content",
           "BlobName": "VirtoCommerce.Content_3.1003.0-alpha.1053.zip"
         },
@@ -352,6 +348,10 @@
         {
           "Id": "VirtoCommerce.AvalaraTax",
           "BlobName": "VirtoCommerce.AvalaraTax_3.1003.0-alpha.354.zip"
+        },
+        {
+          "Id": "VirtoCommerce.CatalogPublishing",
+          "BlobName": "VirtoCommerce.CatalogPublishing_3.1005.0-alpha.401.zip"
         }
       ]
     }
