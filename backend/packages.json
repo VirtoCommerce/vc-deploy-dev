@@ -150,10 +150,6 @@
           "BlobName": "VirtoCommerce.FileExperienceApi_3.1002.0-alpha.72.zip"
         },
         {
-          "Id": "VirtoCommerce.CatalogPublishing",
-          "BlobName": "VirtoCommerce.CatalogPublishing_3.1004.0-alpha.392.zip"
-        },
-        {
           "Id": "VirtoCommerce.OrderManagement",
           "BlobName": "VirtoCommerce.OrderManagement_3.1002.0-alpha.34.zip"
         },
@@ -352,6 +348,10 @@
         {
           "Id": "VirtoCommerce.CatalogPersonalization",
           "BlobName": "VirtoCommerce.CatalogPersonalization_3.1002.0-alpha.300.zip"
+        },
+        {
+          "Id": "VirtoCommerce.CatalogPublishing",
+          "BlobName": "VirtoCommerce.CatalogPublishing_3.1004.0-alpha.400.zip"
         }
       ]
     }
