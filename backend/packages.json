@@ -238,10 +238,6 @@
           "BlobName": "VirtoCommerce.XOrder_3.1005.0-alpha.112.zip"
         },
         {
-          "Id": "VirtoCommerce.CyberSourcePayment",
-          "BlobName": "VirtoCommerce.CyberSourcePayment_3.1002.0-alpha.74.zip"
-        },
-        {
           "Id": "VirtoCommerce.SystemOperations",
           "BlobName": "VirtoCommerce.SystemOperations_3.1002.0-alpha.15.zip"
         },
@@ -352,6 +348,10 @@
         {
           "Id": "VirtoCommerce.ProductSnapshot",
           "BlobName": "VirtoCommerce.ProductSnapshot_3.1002.0-alpha.15.zip"
+        },
+        {
+          "Id": "VirtoCommerce.CyberSourcePayment",
+          "BlobName": "VirtoCommerce.CyberSourcePayment_3.1003.0-alpha.75.zip"
         }
       ]
     }
