@@ -270,10 +270,6 @@
           "BlobName": "VirtoCommerce.Skyflow_3.1003.0-alpha.74.zip"
         },
         {
-          "Id": "VirtoCommerce.XCatalog",
-          "BlobName": "VirtoCommerce.XCatalog_3.1006.0-alpha.193.zip"
-        },
-        {
           "Id": "VirtoCommerce.CyberSourcePayment",
           "BlobName": "VirtoCommerce.CyberSourcePayment_3.1002.0-alpha.74.zip"
         },
@@ -352,6 +348,10 @@
         {
           "Id": "VirtoCommerce.OpenIdConnectModule",
           "BlobName": "VirtoCommerce.OpenIdConnectModule_3.1001.0-alpha.44.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XCatalog",
+          "BlobName": "VirtoCommerce.XCatalog_3.1007.0-alpha.194.zip"
         }
       ]
     }
