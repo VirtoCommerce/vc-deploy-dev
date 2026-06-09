@@ -254,10 +254,6 @@
           "BlobName": "VirtoCommerce.XCart_3.1018.0-alpha.238.zip"
         },
         {
-          "Id": "VirtoCommerce.XCMS",
-          "BlobName": "VirtoCommerce.XCMS_3.1002.0-alpha.69.zip"
-        },
-        {
           "Id": "VirtoCommerce.XRecommend",
           "BlobName": "VirtoCommerce.XRecommend_3.1001.0-alpha.59.zip"
         },
@@ -352,6 +348,10 @@
         {
           "Id": "VirtoCommerce.XCatalog",
           "BlobName": "VirtoCommerce.XCatalog_3.1007.0-alpha.194.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XCMS",
+          "BlobName": "VirtoCommerce.XCMS_3.1003.0-alpha.70.zip"
         }
       ]
     }
