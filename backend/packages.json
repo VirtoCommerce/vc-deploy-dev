@@ -22,10 +22,6 @@
           "BlobName": "VirtoCommerce.SeqLog_3.800.0.zip"
         },
         {
-          "Id": "VirtoCommerce.OpenIdConnectModule",
-          "BlobName": "VirtoCommerce.OpenIdConnectModule_3.1001.0-alpha.31.zip"
-        },
-        {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
           "BlobName": "VirtoCommerce.CatalogCsvImportModule_3.1001.0-alpha.368.zip"
         },
@@ -352,6 +348,10 @@
         {
           "Id": "VirtoCommerce.GoogleSSO",
           "BlobName": "VirtoCommerce.GoogleSSO_3.1001.0-alpha.50.zip"
+        },
+        {
+          "Id": "VirtoCommerce.OpenIdConnectModule",
+          "BlobName": "VirtoCommerce.OpenIdConnectModule_3.1001.0-alpha.44.zip"
         }
       ]
     }
