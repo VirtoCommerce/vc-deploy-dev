@@ -42,10 +42,6 @@
           "BlobName": "VirtoCommerce.OpenTelemetry_3.1001.0-alpha.4.zip"
         },
         {
-          "Id": "VirtoCommerce.Seo",
-          "BlobName": "VirtoCommerce.Seo_3.1003.0-alpha.77.zip"
-        },
-        {
           "Id": "VirtoCommerce.Contentful",
           "BlobName": "VirtoCommerce.Contentful_3.1002.0-alpha.130.zip"
         },
@@ -352,6 +348,10 @@
         {
           "Id": "VirtoCommerce.AzureBlobAssets",
           "BlobName": "VirtoCommerce.AzureBlobAssets_3.1006.0-alpha.179.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Seo",
+          "BlobName": "VirtoCommerce.Seo_3.1003.0-alpha.85.zip"
         }
       ]
     }
