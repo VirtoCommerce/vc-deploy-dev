@@ -3,7 +3,6 @@
   "PlatformVersion": "3.1035.0-pr-3048-c981-vcst-5197-c981416a",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
   "PlatformImageTag": "3.1035.0-pr-3048-c981-vcst-5197-c981416a",
-  
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
   ],
@@ -12,10 +11,10 @@
       "Name": "AzureBlob",
       "Container": "packages",
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
-      "Modules": [  
+      "Modules": [
         {
           "Id": "VirtoCommerce.SystemOperations.SampleExtension",
-          "BlobName": "VirtoCommerce.SystemOperations_3.1000.0-alpha.01.zip"          
+          "BlobName": "VirtoCommerce.SystemOperations_3.1000.0-alpha.01.zip"
         },
         {
           "Id": "VirtoCommerce.PowerBiReports",
@@ -75,6 +74,10 @@
         {
           "Id": "VirtoCommerce.TaskManagement",
           "BlobName": "VirtoCommerce.TaskManagement_3.1002.0-pr-28-697d.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XPickup",
+          "BlobName": "VirtoCommerce.XPickup_3.1002.0.zip"
         }
       ]
     },
@@ -82,7 +85,7 @@
       "Name": "GithubReleases",
       "ModuleSources": [
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
-                       ],
+      ],
       "Modules": [
         {
           "Id": "VirtoCommerce.ElasticSearch",
@@ -293,10 +296,6 @@
           "Version": "3.1005.0"
         },
         {
-          "Id": "VirtoCommerce.XPickup",
-          "Version": "3.1001.0"
-        },
-        {
           "Id": "VirtoCommerce.Sanity",
           "Version": "3.1002.0"
         },
@@ -380,4 +379,3 @@
     }
   ]
 }
-
