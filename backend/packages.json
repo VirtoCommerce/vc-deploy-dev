@@ -46,10 +46,6 @@
           "BlobName": "VirtoCommerce.Seo_3.1003.0-alpha.77.zip"
         },
         {
-          "Id": "VirtoCommerce.XPickup",
-          "BlobName": "VirtoCommerce.XPickup_3.1002.0-alpha.35.zip"
-        },
-        {
           "Id": "VirtoCommerce.Contentful",
           "BlobName": "VirtoCommerce.Contentful_3.1002.0-alpha.130.zip"
         },
@@ -352,6 +348,10 @@
         {
           "Id": "VirtoCommerce.OrderManagement",
           "BlobName": "VirtoCommerce.OrderManagement_3.1003.0-alpha.43.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XPickup",
+          "BlobName": "VirtoCommerce.XPickup_3.1002.0-alpha.42.zip"
         }
       ]
     }
