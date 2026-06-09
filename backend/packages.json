@@ -36,10 +36,6 @@
           "Version": "3.1000.0"
         },
         {
-          "Id": "VirtoCommerce.ApplicationInsights",
-          "Version": "3.1001.0"
-        },
-        {
           "Id": "VirtoCommerce.GoogleSSO",
           "Version": "3.1000.0"
         },
@@ -338,6 +334,10 @@
         {
           "Id": "VirtoCommerce.AzureAD",
           "Version": "3.1001.0"
+        },
+        {
+          "Id": "VirtoCommerce.ApplicationInsights",
+          "Version": "3.1002.0"
         }
       ]
     },
