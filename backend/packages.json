@@ -258,10 +258,6 @@
           "BlobName": "VirtoCommerce.FileExperienceApi_3.1003.0-alpha.81.zip"
         },
         {
-          "Id": "VirtoCommerce.ApplicationInsights",
-          "BlobName": "VirtoCommerce.ApplicationInsights_3.1003.0-alpha.62.zip"
-        },
-        {
           "Id": "VirtoCommerce.ElasticSearch8",
           "BlobName": "VirtoCommerce.ElasticSearch8_3.1007.0-alpha.173.zip"
         },
@@ -352,6 +348,10 @@
         {
           "Id": "VirtoCommerce.Assets",
           "BlobName": "VirtoCommerce.Assets_3.1005.0-alpha.195.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ApplicationInsights",
+          "BlobName": "VirtoCommerce.ApplicationInsights_3.1003.0-alpha.63.zip"
         }
       ]
     }
