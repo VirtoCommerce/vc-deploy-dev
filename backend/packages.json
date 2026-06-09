@@ -60,10 +60,6 @@
           "Version": "3.1001.0"
         },
         {
-          "Id": "VirtoCommerce.WhiteLabeling",
-          "Version": "3.1001.0"
-        },
-        {
           "Id": "VirtoCommerce.BackInStock",
           "Version": "3.1000.0"
         },
@@ -338,6 +334,10 @@
         {
           "Id": "VirtoCommerce.ElasticSearch8",
           "Version": "3.1006.0"
+        },
+        {
+          "Id": "VirtoCommerce.WhiteLabeling",
+          "Version": "3.1002.0"
         }
       ]
     },
