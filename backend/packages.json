@@ -230,10 +230,6 @@
           "BlobName": "VirtoCommerce.ShipStation_3.1002.0-alpha.152.zip"
         },
         {
-          "Id": "VirtoCommerce.Pages",
-          "BlobName": "VirtoCommerce.Pages_3.1006.0-alpha.66.zip"
-        },
-        {
           "Id": "VirtoCommerce.PushMessages",
           "BlobName": "VirtoCommerce.PushMessages_3.1001.0-alpha.98.zip"
         },
@@ -352,6 +348,10 @@
         {
           "Id": "VirtoCommerce.OpenSearch",
           "BlobName": "VirtoCommerce.OpenSearch_3.1001.0-alpha.31.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Pages",
+          "BlobName": "VirtoCommerce.Pages_3.1007.0-alpha.67.zip"
         }
       ]
     }
