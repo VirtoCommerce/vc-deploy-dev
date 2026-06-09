@@ -258,10 +258,6 @@
           "BlobName": "VirtoCommerce.XOrder_3.1005.0-alpha.112.zip"
         },
         {
-          "Id": "VirtoCommerce.Skyflow",
-          "BlobName": "VirtoCommerce.Skyflow_3.1003.0-alpha.74.zip"
-        },
-        {
           "Id": "VirtoCommerce.CyberSourcePayment",
           "BlobName": "VirtoCommerce.CyberSourcePayment_3.1002.0-alpha.74.zip"
         },
@@ -352,6 +348,10 @@
         {
           "Id": "VirtoCommerce.XRecommend",
           "BlobName": "VirtoCommerce.XRecommend_3.1002.0-alpha.60.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Skyflow",
+          "BlobName": "VirtoCommerce.Skyflow_3.1004.0-alpha.75.zip"
         }
       ]
     }
