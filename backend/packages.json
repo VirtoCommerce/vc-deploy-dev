@@ -230,10 +230,6 @@
           "BlobName": "VirtoCommerce.FileSystemAssets_3.1002.0-alpha.139.zip"
         },
         {
-          "Id": "VirtoCommerce.AzureAD",
-          "BlobName": "VirtoCommerce.AzureAD_3.1001.0-alpha.73.zip"
-        },
-        {
           "Id": "VirtoCommerce.TaskManagement",
           "BlobName": "VirtoCommerce.TaskManagement_3.1002.0-alpha.186.zip"
         },
@@ -352,6 +348,10 @@
         {
           "Id": "VirtoCommerce.MarketingExperienceApi",
           "BlobName": "VirtoCommerce.MarketingExperienceApi_3.1004.0-alpha.97.zip"
+        },
+        {
+          "Id": "VirtoCommerce.AzureAD",
+          "BlobName": "VirtoCommerce.AzureAD_3.1002.0-alpha.74.zip"
         }
       ]
     }
