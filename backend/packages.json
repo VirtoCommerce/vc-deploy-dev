@@ -334,10 +334,6 @@
           "BlobName": "VirtoCommerce.AzureBlobAssets_3.1006.0-alpha.179.zip"
         },
         {
-          "Id": "VirtoCommerce.Seo",
-          "BlobName": "VirtoCommerce.Seo_3.1003.0-alpha.85.zip"
-        },
-        {
           "Id": "VirtoCommerce.Core",
           "BlobName": "VirtoCommerce.Core_3.1007.0-alpha.1706.zip"
         },
@@ -352,6 +348,10 @@
         {
           "Id": "VirtoCommerce.PageBuilderModule",
           "BlobName": "VirtoCommerce.PageBuilderModule_3.1012.0-alpha.830.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Seo",
+          "BlobName": "VirtoCommerce.Seo_3.1004.0-alpha.86.zip"
         }
       ]
     }
