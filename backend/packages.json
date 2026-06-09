@@ -66,10 +66,6 @@
           "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.1008.0-alpha.346.zip"
         },
         {
-          "Id": "VirtoCommerce.SqlQueries",
-          "BlobName": "VirtoCommerce.SqlQueries_3.1004.0-alpha.47.zip"
-        },
-        {
           "Id": "VirtoCommerce.Cart",
           "BlobName": "VirtoCommerce.Cart_3.1005.0-alpha.791.zip"
         },
@@ -352,6 +348,10 @@
         {
           "Id": "VirtoCommerce.XPickup",
           "BlobName": "VirtoCommerce.XPickup_3.1002.0-alpha.42.zip"
+        },
+        {
+          "Id": "VirtoCommerce.SqlQueries",
+          "BlobName": "VirtoCommerce.SqlQueries_3.1004.0-alpha.48.zip"
         }
       ]
     }
