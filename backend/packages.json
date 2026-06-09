@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.1033.0-pr-3039-35f3-vcst-5044-35f32108",
+  "PlatformVersion": "3.1035.0-pr-3048-c981-vcst-5197-c981416a",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.1033.0-pr-3039-35f3-vcst-5044-35f32108",
+  "PlatformImageTag": "3.1035.0-pr-3048-c981-vcst-5197-c981416a",
   
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -66,7 +66,7 @@
         },
         {
           "Id": "VirtoCommerce.News",
-          "BlobName": "VirtoCommerce.News_3.1002.0-pr-19-c7e4.zip"
+          "BlobName": "VirtoCommerce.News_3.1002.0-pr-19-0d48.zip"
         },
         {
           "Id": "VirtoCommerce.PushMessages",
