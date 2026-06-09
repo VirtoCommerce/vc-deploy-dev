@@ -270,10 +270,6 @@
           "BlobName": "VirtoCommerce.SystemOperations_3.1002.0-alpha.15.zip"
         },
         {
-          "Id": "VirtoCommerce.OrderManagement",
-          "BlobName": "VirtoCommerce.OrderManagement_3.1002.0-alpha.42.zip"
-        },
-        {
           "Id": "VirtoCommerce.AuthorizeNetPayment",
           "BlobName": "VirtoCommerce.AuthorizeNetPayment_3.1003.0-alpha.115.zip"
         },
@@ -352,6 +348,10 @@
         {
           "Id": "VirtoCommerce.BackInStock",
           "BlobName": "VirtoCommerce.BackInStock_3.1002.0-alpha.56.zip"
+        },
+        {
+          "Id": "VirtoCommerce.OrderManagement",
+          "BlobName": "VirtoCommerce.OrderManagement_3.1003.0-alpha.43.zip"
         }
       ]
     }
