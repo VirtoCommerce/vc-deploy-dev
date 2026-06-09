@@ -234,10 +234,6 @@
           "BlobName": "VirtoCommerce.TaskManagement_3.1002.0-alpha.186.zip"
         },
         {
-          "Id": "VirtoCommerce.ApplicationInsights",
-          "BlobName": "VirtoCommerce.ApplicationInsights_3.1002.0-alpha.61.zip"
-        },
-        {
           "Id": "VirtoCommerce.ElasticSearch8",
           "BlobName": "VirtoCommerce.ElasticSearch8_3.1006.0-alpha.172.zip"
         },
@@ -352,6 +348,10 @@
         {
           "Id": "VirtoCommerce.FileExperienceApi",
           "BlobName": "VirtoCommerce.FileExperienceApi_3.1003.0-alpha.81.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ApplicationInsights",
+          "BlobName": "VirtoCommerce.ApplicationInsights_3.1003.0-alpha.62.zip"
         }
       ]
     }
