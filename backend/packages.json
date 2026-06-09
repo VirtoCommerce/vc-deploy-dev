@@ -68,10 +68,6 @@
           "Version": "3.1001.0"
         },
         {
-          "Id": "VirtoCommerce.Sanity",
-          "Version": "3.1002.0"
-        },
-        {
           "Id": "VirtoCommerce.Contentful",
           "Version": "3.1001.0"
         },
@@ -338,6 +334,10 @@
         {
           "Id": "VirtoCommerce.News",
           "Version": "3.1002.0"
+        },
+        {
+          "Id": "VirtoCommerce.Sanity",
+          "Version": "3.1003.0"
         }
       ]
     },
