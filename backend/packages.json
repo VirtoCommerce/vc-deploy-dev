@@ -124,10 +124,6 @@
           "Version": "3.1007.0"
         },
         {
-          "Id": "VirtoCommerce.Xapi",
-          "Version": "3.1009.0"
-        },
-        {
           "Id": "VirtoCommerce.Customer",
           "Version": "3.1008.0"
         },
@@ -338,6 +334,10 @@
         {
           "Id": "VirtoCommerce.Skyflow",
           "Version": "3.1003.0"
+        },
+        {
+          "Id": "VirtoCommerce.Xapi",
+          "Version": "3.1010.0"
         }
       ]
     },
