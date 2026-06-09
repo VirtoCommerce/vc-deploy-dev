@@ -38,10 +38,6 @@
           "BlobName": "VirtoCommerce.GDPR_3.1000.0-alpha.154.zip"
         },
         {
-          "Id": "VirtoCommerce.OpenSearch",
-          "BlobName": "VirtoCommerce.OpenSearch_3.1001.0-alpha.20.zip"
-        },
-        {
           "Id": "VirtoCommerce.OpenTelemetry",
           "BlobName": "VirtoCommerce.OpenTelemetry_3.1001.0-alpha.4.zip"
         },
@@ -352,6 +348,10 @@
         {
           "Id": "VirtoCommerce.Search",
           "BlobName": "VirtoCommerce.Search_3.1004.0-alpha.832.zip"
+        },
+        {
+          "Id": "VirtoCommerce.OpenSearch",
+          "BlobName": "VirtoCommerce.OpenSearch_3.1001.0-alpha.31.zip"
         }
       ]
     }
