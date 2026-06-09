@@ -48,10 +48,6 @@
           "Version": "3.1002.0"
         },
         {
-          "Id": "VirtoCommerce.XPickup",
-          "Version": "3.1001.0"
-        },
-        {
           "Id": "VirtoCommerce.Contentful",
           "Version": "3.1001.0"
         },
@@ -337,6 +333,10 @@
         },
         {
           "Id": "VirtoCommerce.CyberSourcePayment",
+          "Version": "3.1002.0"
+        },
+        {
+          "Id": "VirtoCommerce.XPickup",
           "Version": "3.1002.0"
         }
       ]
