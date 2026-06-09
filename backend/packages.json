@@ -326,10 +326,6 @@
           "BlobName": "VirtoCommerce.XPickup_3.1002.0-alpha.42.zip"
         },
         {
-          "Id": "VirtoCommerce.SqlQueries",
-          "BlobName": "VirtoCommerce.SqlQueries_3.1004.0-alpha.48.zip"
-        },
-        {
           "Id": "VirtoCommerce.Sanity",
           "BlobName": "VirtoCommerce.Sanity_3.1004.0-alpha.11.zip"
         },
@@ -352,6 +348,10 @@
         {
           "Id": "VirtoCommerce.OpenSearch",
           "BlobName": "VirtoCommerce.OpenSearch_3.1002.0-alpha.32.zip"
+        },
+        {
+          "Id": "VirtoCommerce.SqlQueries",
+          "BlobName": "VirtoCommerce.SqlQueries_3.1005.0-alpha.49.zip"
         }
       ]
     }
