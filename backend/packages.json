@@ -230,10 +230,6 @@
           "BlobName": "VirtoCommerce.Contracts_3.1003.0-alpha.164.zip"
         },
         {
-          "Id": "VirtoCommerce.Xapi",
-          "BlobName": "VirtoCommerce.Xapi_3.1010.0-alpha.173.zip"
-        },
-        {
           "Id": "VirtoCommerce.ShipStation",
           "BlobName": "VirtoCommerce.ShipStation_3.1002.0-alpha.152.zip"
         },
@@ -352,6 +348,10 @@
         {
           "Id": "VirtoCommerce.Skyflow",
           "BlobName": "VirtoCommerce.Skyflow_3.1004.0-alpha.75.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Xapi",
+          "BlobName": "VirtoCommerce.Xapi_3.1011.0-alpha.174.zip"
         }
       ]
     }
