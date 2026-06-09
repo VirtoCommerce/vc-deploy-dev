@@ -246,10 +246,6 @@
           "BlobName": "VirtoCommerce.ProductSnapshot_3.1001.0-alpha.14.zip"
         },
         {
-          "Id": "VirtoCommerce.Datatrans",
-          "BlobName": "VirtoCommerce.Datatrans_3.1002.0-alpha.116.zip"
-        },
-        {
           "Id": "VirtoCommerce.SystemOperations",
           "BlobName": "VirtoCommerce.SystemOperations_3.1002.0-alpha.15.zip"
         },
@@ -352,6 +348,10 @@
         {
           "Id": "VirtoCommerce.News",
           "BlobName": "VirtoCommerce.News_3.1003.0-alpha.63.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Datatrans",
+          "BlobName": "VirtoCommerce.Datatrans_3.1003.0-alpha.117.zip"
         }
       ]
     }
