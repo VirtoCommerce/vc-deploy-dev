@@ -352,6 +352,10 @@
         {
           "Id": "VirtoCommerce.Cart",
           "BlobName": "VirtoCommerce.Cart_3.1006.0-alpha.794.zip"
+        },
+        {
+          "Id": "VirtoCommerce.BackupRestore",
+          "BlobName": "VirtoCommerce.BackupRestore_3.1000.0-alpha.3.zip"
         }
       ]
     }
