@@ -334,10 +334,6 @@
           "BlobName": "VirtoCommerce.FileSystemAssets_3.1003.0-alpha.141.zip"
         },
         {
-          "Id": "VirtoCommerce.PageBuilderModule",
-          "BlobName": "VirtoCommerce.PageBuilderModule_3.1012.0-alpha.830.zip"
-        },
-        {
           "Id": "VirtoCommerce.Seo",
           "BlobName": "VirtoCommerce.Seo_3.1004.0-alpha.86.zip"
         },
@@ -352,6 +348,10 @@
         {
           "Id": "VirtoCommerce.TaskManagement",
           "BlobName": "VirtoCommerce.TaskManagement_3.1003.0-alpha.193.zip"
+        },
+        {
+          "Id": "VirtoCommerce.PageBuilderModule",
+          "BlobName": "VirtoCommerce.PageBuilderModule_3.1012.0-alpha.831.zip"
         }
       ]
     }
