@@ -290,10 +290,6 @@
           "BlobName": "VirtoCommerce.Sanity_3.1004.0-alpha.11.zip"
         },
         {
-          "Id": "VirtoCommerce.News",
-          "BlobName": "VirtoCommerce.News_3.1003.0-alpha.63.zip"
-        },
-        {
           "Id": "VirtoCommerce.Datatrans",
           "BlobName": "VirtoCommerce.Datatrans_3.1003.0-alpha.117.zip"
         },
@@ -352,6 +348,10 @@
         {
           "Id": "VirtoCommerce.PushMessages",
           "BlobName": "VirtoCommerce.PushMessages_3.1002.0-alpha.102.zip"
+        },
+        {
+          "Id": "VirtoCommerce.News",
+          "BlobName": "VirtoCommerce.News_3.1003.0-alpha.65.zip"
         }
       ]
     }
