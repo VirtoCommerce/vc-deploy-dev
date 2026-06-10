@@ -18,7 +18,13 @@
       },
       {
         "BlobName": "VirtoCommerce.Customer_3.1010.0-pr-300-fa2a.zip"
-      }
+      },
+      {
+        "BlobName": "VirtoCommerce.XCart_3.1018.0-pr-120-0311.zip"
+      },
+      {
+        "BlobName": "VirtoCommerce.Cart_3.1005.0-pr-188-6e8f.zip"
+      }  
     ]
     },
     {
@@ -338,14 +344,6 @@
         {
           "Id": "VirtoCommerce.News",
           "Version": "3.1003.0"
-        },
-        {
-          "Id": "VirtoCommerce.XCart",
-          "Version": "3.1017.0"
-        },
-        {
-          "Id": "VirtoCommerce.Cart",
-          "Version": "3.1004.0"
         }
        ]
     }
