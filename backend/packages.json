@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.1038.0-alpha.13302",
+  "PlatformVersion": "3.1038.0-alpha.13304-vcst-5245",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.1038.0-alpha.13302-dev-f30a3124",
+  "PlatformImageTag": "3.1038.0-alpha.13304-vcst-5245",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -17,6 +17,10 @@
       "Container": "packages",
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
+        {
+          "Id": "VirtoCommerce.BackgroundJobs",
+          "BlobName": "VirtoCommerce.BackgroundJobs_3.1000.0-pr-2-b51c.zip"
+        },
         {
           "Id": "VirtoCommerce.SeqLog",
           "BlobName": "VirtoCommerce.SeqLog_3.800.0.zip"
