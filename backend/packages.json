@@ -6,23 +6,35 @@
   "PlatformAssetUrl": "",
   "Sources": [
     {
-    "Name": "AzureBlob",
-    "Container": "packages",
-    "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
-    "Modules": [
-      {
-          "BlobName": "VirtoCommerce.XCart_3.1018.0-pr-122-e1a8.zip"
-      },
-      {
-        "BlobName": "VirtoCommerce.Marketing_3.1005.0-pr-268-f9dd.zip"
-      },
-      {
-        "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.1008.0-pr-135-b57f.zip"
-      },
-      {
-        "BlobName": "VirtoCommerce.Customer_3.1010.0-pr-300-fa2a.zip"
-      }
-    ]
+      "Name": "AzureBlob",
+      "Container": "packages",
+      "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
+      "Modules": [
+        {
+          "BlobName": "VirtoCommerce.Marketing_3.1005.0-pr-268-8256.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.1008.0-pr-135-b57f.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Customer_3.1010.0-pr-300-fa2a.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.XCart_3.1020.0-pr-123-f160.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Cart_3.1005.0-pr-188-6e8f.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.XOrder_3.1005.0-pr-43-e052.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Orders_3.1009.0-pr-497-9f15.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Loyalty_3.1004.0-pr-10-6c1d.zip"
+        }
+      ]
     },
     {
       "Name": "GithubReleases",
@@ -31,10 +43,6 @@
       ],
       "Modules": [
         {
-          "Id": "VirtoCommerce.Loyalty",
-          "Version": "3.1003.0"
-       },
-       {
           "Id": "VirtoCommerce.ElasticSearch",
           "Version": "3.806.0"
         },
@@ -67,24 +75,12 @@
           "Version": "3.1001.0"
         },
         {
-          "Id": "VirtoCommerce.XOrder",
-          "Version": "3.1004.0"
-        },
-        {
           "Id": "VirtoCommerce.TaskManagement",
           "Version": "3.1001.0"
         },
         {
-          "Id": "VirtoCommerce.Orders",
-          "Version": "3.1008.0"
-        },
-        {
           "Id": "VirtoCommerce.SystemOperations",
           "Version": "3.1001.0"
-        },
-        {
-          "Id": "VirtoCommerce.Cart",
-          "Version": "3.1004.0"
         },
         {
           "Id": "VirtoCommerce.Pricing",
@@ -109,7 +105,7 @@
         {
           "Id": "VirtoCommerce.Tax",
           "Version": "3.1002.0"
-        }, 
+        },
         {
           "Id": "VirtoCommerce.Subscription",
           "Version": "3.1001.0"
@@ -346,7 +342,7 @@
           "Id": "VirtoCommerce.News",
           "Version": "3.1003.0"
         }
-       ]
+      ]
     }
   ]
 }
