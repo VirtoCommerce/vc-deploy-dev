@@ -308,10 +308,6 @@
           "Version": "3.1003.0"
         },
         {
-          "Id": "VirtoCommerce.PushMessages",
-          "Version": "3.1002.0"
-        },
-        {
           "Id": "VirtoCommerce.News",
           "Version": "3.1003.0"
         },
@@ -342,6 +338,10 @@
         {
           "Id": "VirtoCommerce.SqlQueries",
           "Version": "3.1005.0"
+        },
+        {
+          "Id": "VirtoCommerce.PushMessages",
+          "Version": "3.1003.0"
         }
       ]
     },
