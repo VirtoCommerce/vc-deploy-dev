@@ -80,6 +80,7 @@
       VirtoCommerce__LicensePrivateKeyPath: app_data/private.key
       VirtoCommerce__Licensing__LicensePrivateKeyPath: /opt/virtocommerce/platform/license/VirtoCommerce.lic
       VirtoCommerce__Hangfire__JobStorageType: SqlServer
+      VirtoCommerce__Hangfire__UseHangfireServer: false
       #SqlServer__CompatibilityLevel: 120
       SqlServer__ParameterTranslationMode: Constant
       #Logging__LogLevel__Default: Information
