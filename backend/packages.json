@@ -17,6 +17,10 @@
         },
         {
           "BlobName": "VirtoCommerce.ProductSnapshot_3.1002.0-pr-2-c9e7.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XCart",
+          "BlobName": "VirtoCommerce.XCart_3.1021.0-pr-126-ba5d.zip"
         }
       ],
       "Container": "packages",
@@ -311,10 +315,6 @@
         {
           "Id": "VirtoCommerce.Xapi",
           "Version": "3.1010.0"
-        },
-        {
-          "Id": "VirtoCommerce.XCart",
-          "Version": "3.1019.0"
         },
         {
           "Id": "VirtoCommerce.XCatalog",
