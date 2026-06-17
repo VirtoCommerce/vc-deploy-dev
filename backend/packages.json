@@ -59,6 +59,10 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "BlobName": "VirtoCommerce.Catalog_3.1029.0-pr-890-ac05.zip"
+        },
+        {
+          "Id": "VirtoCommerce.PageBuilderModule",
+          "BlobName": "VirtoCommerce.PageBuilderModule_3.1012.0-pr-144-1e35.zip"
         }
       ]
     },
@@ -351,10 +355,6 @@
         {
           "Id": "VirtoCommerce.FileSystemAssets",
           "Version": "3.1002.0"
-        },
-        {
-          "Id": "VirtoCommerce.PageBuilderModule",
-          "Version": "3.1011.0"
         },
         {
           "Id": "VirtoCommerce.Seo",
