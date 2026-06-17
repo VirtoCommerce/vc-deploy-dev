@@ -55,6 +55,10 @@
         {
           "Id": "VirtoCommerce.Export",
           "BlobName": "VirtoCommerce.Export_3.1002.0-pr-101-c035.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "BlobName": "VirtoCommerce.Catalog_3.1029.0-pr-890-458e.zip"
         }
       ]
     },
@@ -139,10 +143,6 @@
         {
           "Id": "VirtoCommerce.Subscription",
           "Version": "3.1001.0"
-        },
-        {
-          "Id": "VirtoCommerce.Catalog",
-          "Version": "3.1028.0"
         },
         {
           "Id": "VirtoCommerce.Store",
