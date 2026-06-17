@@ -238,10 +238,6 @@
           "BlobName": "VirtoCommerce.Skyflow_3.1004.0-alpha.75.zip"
         },
         {
-          "Id": "VirtoCommerce.Xapi",
-          "BlobName": "VirtoCommerce.Xapi_3.1011.0-alpha.174.zip"
-        },
-        {
           "Id": "VirtoCommerce.GoogleSSO",
           "BlobName": "VirtoCommerce.GoogleSSO_3.1002.0-alpha.51.zip"
         },
@@ -356,6 +352,10 @@
         {
           "Id": "VirtoCommerce.PushMessages",
           "BlobName": "VirtoCommerce.PushMessages_3.1004.0-alpha.105.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Xapi",
+          "BlobName": "VirtoCommerce.Xapi_3.1011.0-alpha.176.zip"
         }
       ]
     }
