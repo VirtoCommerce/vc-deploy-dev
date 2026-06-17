@@ -51,6 +51,10 @@
         {
           "Id": "VirtoCommerce.PushMessages",
           "BlobName": "VirtoCommerce.PushMessages_3.1003.0-pr-25-7b41.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Export",
+          "BlobName": "VirtoCommerce.Export_3.1002.0-pr-101-c035.zip"
         }
       ]
     },
@@ -155,10 +159,6 @@
         {
           "Id": "VirtoCommerce.Sitemaps",
           "Version": "3.1002.0"
-        },
-        {
-          "Id": "VirtoCommerce.Export",
-          "Version": "3.1001.0"
         },
         {
           "Id": "VirtoCommerce.ImageTools",
