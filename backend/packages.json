@@ -3,7 +3,6 @@
   "PlatformVersion": "3.1037.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
   "PlatformImageTag": "3.1037.0",
-  
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
   ],
@@ -12,10 +11,10 @@
       "Name": "AzureBlob",
       "Container": "packages",
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
-      "Modules": [  
+      "Modules": [
         {
           "Id": "VirtoCommerce.SystemOperations.SampleExtension",
-          "BlobName": "VirtoCommerce.SystemOperations_3.1000.0-alpha.01.zip"          
+          "BlobName": "VirtoCommerce.SystemOperations_3.1000.0-alpha.01.zip"
         },
         {
           "Id": "VirtoCommerce.PowerBiReports",
@@ -51,6 +50,10 @@
         {
           "Id": "VirtoCommerce.PushMessages",
           "BlobName": "VirtoCommerce.PushMessages_3.1003.0-pr-25-7b41.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Xapi",
+          "BlobName": "VirtoCommerce.Xapi_3.1011.0.zip"
         }
       ]
     },
@@ -58,9 +61,9 @@
       "Name": "GithubReleases",
       "ModuleSources": [
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
-                       ],
+      ],
       "Modules": [
-         {
+        {
           "Id": "VirtoCommerce.ElasticSearch",
           "Version": "3.806.0"
         },
@@ -275,10 +278,6 @@
         {
           "Id": "VirtoCommerce.Skyflow",
           "Version": "3.1003.0"
-        },
-        {
-          "Id": "VirtoCommerce.Xapi",
-          "Version": "3.1010.0"
         },
         {
           "Id": "VirtoCommerce.GoogleSSO",
