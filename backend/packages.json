@@ -18,10 +18,6 @@
         {
           "Id": "VirtoCommerce.XCart",
           "BlobName": "VirtoCommerce.XCart_3.1019.0.zip"
-        },
-        {
-          "Id": "VirtoCommerce.Export",
-          "BlobName": "VirtoCommerce.Export_3.1002.0-pr-101-c035.zip"
         }
       ],
       "Container": "packages",
@@ -144,6 +140,10 @@
         {
           "Id": "VirtoCommerce.EventBus",
           "Version": "3.1009.0"
+        },
+        {
+          "Id": "VirtoCommerce.Export",
+          "Version": "3.1001.0"
         },
         {
           "Id": "VirtoCommerce.FileExperienceApi",
