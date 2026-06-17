@@ -224,10 +224,6 @@
           "Version": "3.1003.0"
         },
         {
-          "Id": "VirtoCommerce.Xapi",
-          "Version": "3.1010.0"
-        },
-        {
           "Id": "VirtoCommerce.GoogleSSO",
           "Version": "3.1001.0"
         },
@@ -342,6 +338,10 @@
         {
           "Id": "VirtoCommerce.PushMessages",
           "Version": "3.1003.0"
+        },
+        {
+          "Id": "VirtoCommerce.Xapi",
+          "Version": "3.1011.0"
         }
       ]
     },
