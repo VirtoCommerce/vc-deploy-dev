@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.1037.0",
+  "PlatformVersion": "3.1038.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.1037.0",
+  "PlatformImageTag": "3.1038.0",
   
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -37,30 +37,6 @@
           "BlobName": "VirtoCommerce.AI_3.1000.0.zip"
         },
         {
-          "Id": "VirtoCommerce.TaskManagement",
-          "BlobName": "VirtoCommerce.TaskManagement_3.1002.0-pr-28-697d.zip"
-        },
-        {
-          "Id": "VirtoCommerce.ProductSnapshot",
-          "BlobName": "VirtoCommerce.ProductSnapshot_3.1002.0-pr-2-c9e7.zip"
-        },
-        {
-          "Id": "VirtoCommerce.CatalogCsvImportModule",
-          "BlobName": "VirtoCommerce.CatalogCsvImportModule_3.1001.0-pr-137-6516.zip"
-        },
-        {
-          "Id": "VirtoCommerce.PushMessages",
-          "BlobName": "VirtoCommerce.PushMessages_3.1003.0-pr-25-7b41.zip"
-        },
-        {
-          "Id": "VirtoCommerce.Export",
-          "BlobName": "VirtoCommerce.Export_3.1002.0-pr-101-7700.zip"
-        },
-        {
-          "Id": "VirtoCommerce.Catalog",
-          "BlobName": "VirtoCommerce.Catalog_3.1029.0-pr-890-ac05.zip"
-        },
-        {
           "Id": "VirtoCommerce.PageBuilderModule",
           "BlobName": "VirtoCommerce.PageBuilderModule_3.1012.0-pr-144-1e35.zip"
         }
@@ -72,16 +48,12 @@
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
                        ],
       "Modules": [
-         {
+       {
           "Id": "VirtoCommerce.ElasticSearch",
           "Version": "3.806.0"
         },
         {
           "Id": "VirtoCommerce.XFrontend",
-          "Version": "3.1000.0"
-        },
-        {
-          "Id": "VirtoCommerce.EnvironmentsCompare",
           "Version": "3.1000.0"
         },
         {
@@ -149,6 +121,10 @@
           "Version": "3.1001.0"
         },
         {
+          "Id": "VirtoCommerce.Catalog",
+          "Version": "3.1028.0"
+        },
+        {
           "Id": "VirtoCommerce.Store",
           "Version": "3.1004.0"
         },
@@ -163,6 +139,10 @@
         {
           "Id": "VirtoCommerce.Sitemaps",
           "Version": "3.1002.0"
+        },
+        {
+          "Id": "VirtoCommerce.Export",
+          "Version": "3.1001.0"
         },
         {
           "Id": "VirtoCommerce.ImageTools",
@@ -281,10 +261,6 @@
           "Version": "3.1003.0"
         },
         {
-          "Id": "VirtoCommerce.Xapi",
-          "Version": "3.1010.0"
-        },
-        {
           "Id": "VirtoCommerce.GoogleSSO",
           "Version": "3.1001.0"
         },
@@ -319,10 +295,6 @@
         {
           "Id": "VirtoCommerce.OpenSearch",
           "Version": "3.1001.0"
-        },
-        {
-          "Id": "VirtoCommerce.SqlQueries",
-          "Version": "3.1004.0"
         },
         {
           "Id": "VirtoCommerce.CyberSourcePayment",
@@ -374,7 +346,35 @@
         },
         {
           "Id": "VirtoCommerce.XCart",
-          "Version": "3.1019.0"
+          "Version": "3.1020.0"
+        },
+        {
+          "Id": "VirtoCommerce.EnvironmentsCompare",
+          "Version": "3.1001.0"
+        },
+        {
+          "Id": "VirtoCommerce.TaskManagement",
+          "Version": "3.1003.0"
+        },
+        {
+          "Id": "VirtoCommerce.CatalogCsvImportModule",
+          "Version": "3.1001.0"
+        },
+        {
+          "Id": "VirtoCommerce.SqlQueries",
+          "Version": "3.1005.0"
+        },
+        {
+          "Id": "VirtoCommerce.PushMessages",
+          "Version": "3.1003.0"
+        },
+        {
+          "Id": "VirtoCommerce.Xapi",
+          "Version": "3.1011.0"
+        },
+        {
+          "Id": "VirtoCommerce.ProductSnapshot",
+          "Version": "3.1002.0"
         }
       ]
     }
