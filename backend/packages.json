@@ -346,12 +346,12 @@
           "BlobName": "VirtoCommerce.ElasticSearch8_3.1008.0-alpha.176.zip"
         },
         {
-          "Id": "VirtoCommerce.BulkActionsModule",
-          "BlobName": "VirtoCommerce.BulkActionsModule_3.1002.0-alpha.253.zip"
-        },
-        {
           "Id": "VirtoCommerce.ImageTools",
           "BlobName": "VirtoCommerce.ImageTools_3.1003.0-alpha.405.zip"
+        },
+        {
+          "Id": "VirtoCommerce.BulkActionsModule",
+          "BlobName": "VirtoCommerce.BulkActionsModule_3.1003.0-alpha.254.zip"
         }
       ]
     }
