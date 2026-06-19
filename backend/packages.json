@@ -350,12 +350,12 @@
           "BlobName": "VirtoCommerce.Search_3.1004.0-alpha.835.zip"
         },
         {
-          "Id": "VirtoCommerce.Seo",
-          "BlobName": "VirtoCommerce.Seo_3.1004.0-alpha.88.zip"
-        },
-        {
           "Id": "VirtoCommerce.WebHooks",
           "BlobName": "VirtoCommerce.WebHooks_3.1005.0-alpha.354.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Seo",
+          "BlobName": "VirtoCommerce.Seo_3.1005.0-alpha.89.zip"
         }
       ]
     }
