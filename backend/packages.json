@@ -142,10 +142,6 @@
           "BlobName": "VirtoCommerce.PriceExportImport_3.1002.0-alpha.188.zip"
         },
         {
-          "Id": "VirtoCommerce.WebHooks",
-          "BlobName": "VirtoCommerce.WebHooks_3.1004.0-alpha.351.zip"
-        },
-        {
           "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
           "BlobName": "VirtoCommerce.GoogleEcommerceAnalytics_4.1002.0-alpha.230.zip"
         },
@@ -356,6 +352,10 @@
         {
           "Id": "VirtoCommerce.GoogleSSO",
           "BlobName": "VirtoCommerce.GoogleSSO_3.1002.0-alpha.53.zip"
+        },
+        {
+          "Id": "VirtoCommerce.WebHooks",
+          "BlobName": "VirtoCommerce.WebHooks_3.1004.0-alpha.353.zip"
         }
       ]
     }
