@@ -258,10 +258,6 @@
           "BlobName": "VirtoCommerce.FileSystemAssets_3.1003.0-alpha.141.zip"
         },
         {
-          "Id": "VirtoCommerce.Seo",
-          "BlobName": "VirtoCommerce.Seo_3.1004.0-alpha.86.zip"
-        },
-        {
           "Id": "VirtoCommerce.News",
           "BlobName": "VirtoCommerce.News_3.1004.0-alpha.66.zip"
         },
@@ -356,6 +352,10 @@
         {
           "Id": "VirtoCommerce.Search",
           "BlobName": "VirtoCommerce.Search_3.1004.0-alpha.835.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Seo",
+          "BlobName": "VirtoCommerce.Seo_3.1004.0-alpha.88.zip"
         }
       ]
     }
