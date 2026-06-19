@@ -218,10 +218,6 @@
           "BlobName": "VirtoCommerce.Skyflow_3.1004.0-alpha.75.zip"
         },
         {
-          "Id": "VirtoCommerce.GoogleSSO",
-          "BlobName": "VirtoCommerce.GoogleSSO_3.1002.0-alpha.51.zip"
-        },
-        {
           "Id": "VirtoCommerce.OpenIdConnectModule",
           "BlobName": "VirtoCommerce.OpenIdConnectModule_3.1002.0-alpha.45.zip"
         },
@@ -356,6 +352,10 @@
         {
           "Id": "VirtoCommerce.AzureAD",
           "BlobName": "VirtoCommerce.AzureAD_3.1002.0-alpha.76.zip"
+        },
+        {
+          "Id": "VirtoCommerce.GoogleSSO",
+          "BlobName": "VirtoCommerce.GoogleSSO_3.1002.0-alpha.53.zip"
         }
       ]
     }
