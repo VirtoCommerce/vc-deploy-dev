@@ -186,10 +186,6 @@
           "BlobName": "VirtoCommerce.MarketingExperienceApi_3.1004.0-alpha.97.zip"
         },
         {
-          "Id": "VirtoCommerce.AzureAD",
-          "BlobName": "VirtoCommerce.AzureAD_3.1002.0-alpha.74.zip"
-        },
-        {
           "Id": "VirtoCommerce.FileExperienceApi",
           "BlobName": "VirtoCommerce.FileExperienceApi_3.1003.0-alpha.81.zip"
         },
@@ -356,6 +352,10 @@
         {
           "Id": "VirtoCommerce.Core",
           "BlobName": "VirtoCommerce.Core_3.1008.0-alpha.1709.zip"
+        },
+        {
+          "Id": "VirtoCommerce.AzureAD",
+          "BlobName": "VirtoCommerce.AzureAD_3.1002.0-alpha.76.zip"
         }
       ]
     }
