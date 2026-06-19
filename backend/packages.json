@@ -264,10 +264,6 @@
           "Version": "3.1011.0"
         },
         {
-          "Id": "VirtoCommerce.Seo",
-          "Version": "3.1003.0"
-        },
-        {
           "Id": "VirtoCommerce.News",
           "Version": "3.1003.0"
         },
@@ -342,6 +338,10 @@
         {
           "Id": "VirtoCommerce.GoogleSSO",
           "Version": "3.1002.0"
+        },
+        {
+          "Id": "VirtoCommerce.Seo",
+          "Version": "3.1004.0"
         }
       ]
     },
