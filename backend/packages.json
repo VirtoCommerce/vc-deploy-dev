@@ -104,10 +104,6 @@
           "Version": "3.1002.0"
         },
         {
-          "Id": "VirtoCommerce.Export",
-          "Version": "3.1001.0"
-        },
-        {
           "Id": "VirtoCommerce.ImageTools",
           "Version": "3.1002.0"
         },
@@ -341,6 +337,10 @@
         },
         {
           "Id": "VirtoCommerce.ProductSnapshot",
+          "Version": "3.1002.0"
+        },
+        {
+          "Id": "VirtoCommerce.Export",
           "Version": "3.1002.0"
         }
       ]
