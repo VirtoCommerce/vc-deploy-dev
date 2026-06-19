@@ -334,10 +334,6 @@
           "BlobName": "VirtoCommerce.FileSystemAssets_3.1004.0-alpha.144.zip"
         },
         {
-          "Id": "VirtoCommerce.Notifications",
-          "BlobName": "VirtoCommerce.Notifications_3.1009.0-alpha.476.zip"
-        },
-        {
           "Id": "VirtoCommerce.ElasticSearch8",
           "BlobName": "VirtoCommerce.ElasticSearch8_3.1008.0-alpha.176.zip"
         },
@@ -352,6 +348,10 @@
         {
           "Id": "VirtoCommerce.BackupRestore",
           "BlobName": "VirtoCommerce.BackupRestore_3.1001.0-alpha.5.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Notifications",
+          "BlobName": "VirtoCommerce.Notifications_3.1010.0-alpha.477.zip"
         }
       ]
     }
