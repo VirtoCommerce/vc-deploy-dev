@@ -346,16 +346,16 @@
           "BlobName": "VirtoCommerce.Core_3.1008.0-alpha.1709.zip"
         },
         {
-          "Id": "VirtoCommerce.AzureAD",
-          "BlobName": "VirtoCommerce.AzureAD_3.1002.0-alpha.76.zip"
-        },
-        {
           "Id": "VirtoCommerce.GoogleSSO",
           "BlobName": "VirtoCommerce.GoogleSSO_3.1002.0-alpha.53.zip"
         },
         {
           "Id": "VirtoCommerce.WebHooks",
           "BlobName": "VirtoCommerce.WebHooks_3.1004.0-alpha.353.zip"
+        },
+        {
+          "Id": "VirtoCommerce.AzureAD",
+          "BlobName": "VirtoCommerce.AzureAD_3.1003.0-alpha.77.zip"
         }
       ]
     }
