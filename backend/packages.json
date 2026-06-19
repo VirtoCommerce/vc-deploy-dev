@@ -234,10 +234,6 @@
           "BlobName": "VirtoCommerce.XPickup_3.1003.0-alpha.43.zip"
         },
         {
-          "Id": "VirtoCommerce.AzureBlobAssets",
-          "BlobName": "VirtoCommerce.AzureBlobAssets_3.1006.0-alpha.179.zip"
-        },
-        {
           "Id": "VirtoCommerce.News",
           "BlobName": "VirtoCommerce.News_3.1004.0-alpha.66.zip"
         },
@@ -352,6 +348,10 @@
         {
           "Id": "VirtoCommerce.AzureSearch",
           "BlobName": "VirtoCommerce.AzureSearch_3.1004.0-alpha.288.zip"
+        },
+        {
+          "Id": "VirtoCommerce.AzureBlobAssets",
+          "BlobName": "VirtoCommerce.AzureBlobAssets_3.1006.0-alpha.181.zip"
         }
       ]
     }
