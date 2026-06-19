@@ -106,10 +106,6 @@
           "BlobName": "VirtoCommerce.CatalogPublishing_3.1005.0-alpha.401.zip"
         },
         {
-          "Id": "VirtoCommerce.BulkActionsModule",
-          "BlobName": "VirtoCommerce.BulkActionsModule_3.1002.0-alpha.251.zip"
-        },
-        {
           "Id": "VirtoCommerce.Quote",
           "BlobName": "VirtoCommerce.Quote_3.1002.0-alpha.502.zip"
         },
@@ -352,6 +348,10 @@
         {
           "Id": "VirtoCommerce.ElasticSearch8",
           "BlobName": "VirtoCommerce.ElasticSearch8_3.1008.0-alpha.176.zip"
+        },
+        {
+          "Id": "VirtoCommerce.BulkActionsModule",
+          "BlobName": "VirtoCommerce.BulkActionsModule_3.1002.0-alpha.253.zip"
         }
       ]
     }
