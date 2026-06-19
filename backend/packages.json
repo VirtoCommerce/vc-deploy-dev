@@ -346,12 +346,12 @@
           "BlobName": "VirtoCommerce.BulkActionsModule_3.1003.0-alpha.254.zip"
         },
         {
-          "Id": "VirtoCommerce.BackupRestore",
-          "BlobName": "VirtoCommerce.BackupRestore_3.1001.0-alpha.5.zip"
-        },
-        {
           "Id": "VirtoCommerce.Notifications",
           "BlobName": "VirtoCommerce.Notifications_3.1010.0-alpha.477.zip"
+        },
+        {
+          "Id": "VirtoCommerce.BackupRestore",
+          "BlobName": "VirtoCommerce.BackupRestore_3.1002.0-alpha.6.zip"
         }
       ]
     }
