@@ -86,10 +86,6 @@
           "BlobName": "VirtoCommerce.Sitemaps_3.1003.0-alpha.418.zip"
         },
         {
-          "Id": "VirtoCommerce.ImageTools",
-          "BlobName": "VirtoCommerce.ImageTools_3.1003.0-alpha.403.zip"
-        },
-        {
           "Id": "VirtoCommerce.CustomerReviews",
           "BlobName": "VirtoCommerce.CustomerReviews_3.1004.0-alpha.281.zip"
         },
@@ -352,6 +348,10 @@
         {
           "Id": "VirtoCommerce.BulkActionsModule",
           "BlobName": "VirtoCommerce.BulkActionsModule_3.1002.0-alpha.253.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ImageTools",
+          "BlobName": "VirtoCommerce.ImageTools_3.1003.0-alpha.405.zip"
         }
       ]
     }
