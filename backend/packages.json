@@ -43,6 +43,10 @@
         {
           "Id": "VirtoCommerce.Export",
           "BlobName": "VirtoCommerce.Export_3.1002.0-pr-101-416c.zip"
+        },
+        {
+          "Id": "VirtoCommerce.News",
+          "BlobName": "VirtoCommerce.News_3.1004.0-pr-20-d973.zip"
         }
       ]
     },
@@ -330,10 +334,6 @@
         },
         {
           "Id": "VirtoCommerce.Seo",
-          "Version": "3.1003.0"
-        },
-        {
-          "Id": "VirtoCommerce.News",
           "Version": "3.1003.0"
         },
         {
