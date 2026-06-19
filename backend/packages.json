@@ -90,10 +90,6 @@
           "BlobName": "VirtoCommerce.Sitemaps_3.1003.0-alpha.418.zip"
         },
         {
-          "Id": "VirtoCommerce.LuceneSearch",
-          "BlobName": "VirtoCommerce.LuceneSearch_3.1004.0-alpha.249.zip"
-        },
-        {
           "Id": "VirtoCommerce.ImageTools",
           "BlobName": "VirtoCommerce.ImageTools_3.1003.0-alpha.403.zip"
         },
@@ -352,6 +348,10 @@
         {
           "Id": "VirtoCommerce.Export",
           "BlobName": "VirtoCommerce.Export_3.1003.0-alpha.284.zip"
+        },
+        {
+          "Id": "VirtoCommerce.LuceneSearch",
+          "BlobName": "VirtoCommerce.LuceneSearch_3.1004.0-alpha.251.zip"
         }
       ]
     }
