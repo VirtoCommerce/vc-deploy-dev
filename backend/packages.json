@@ -64,10 +64,6 @@
           "Version": "3.1003.0"
         },
         {
-          "Id": "VirtoCommerce.Notifications",
-          "Version": "3.1008.0"
-        },
-        {
           "Id": "VirtoCommerce.Tax",
           "Version": "3.1002.0"
         },
@@ -342,6 +338,10 @@
         {
           "Id": "VirtoCommerce.ImageTools",
           "Version": "3.1003.0"
+        },
+        {
+          "Id": "VirtoCommerce.Notifications",
+          "Version": "3.1009.0"
         }
       ]
     },
