@@ -346,16 +346,16 @@
           "BlobName": "VirtoCommerce.GoogleSSO_3.1003.0-alpha.54.zip"
         },
         {
-          "Id": "VirtoCommerce.Search",
-          "BlobName": "VirtoCommerce.Search_3.1005.0-alpha.836.zip"
-        },
-        {
           "Id": "VirtoCommerce.ApplicationInsights",
           "BlobName": "VirtoCommerce.ApplicationInsights_3.1005.0-alpha.67.zip"
         },
         {
           "Id": "VirtoCommerce.Assets",
           "BlobName": "VirtoCommerce.Assets_3.1006.0-alpha.198.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Search",
+          "BlobName": "VirtoCommerce.Search_3.1004.0-alpha.835.zip"
         }
       ]
     }
