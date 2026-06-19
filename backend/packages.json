@@ -84,10 +84,6 @@
           "Version": "3.1004.0"
         },
         {
-          "Id": "VirtoCommerce.AzureSearch",
-          "Version": "3.1002.0"
-        },
-        {
           "Id": "VirtoCommerce.Content",
           "Version": "3.1002.0"
         },
@@ -342,6 +338,10 @@
         {
           "Id": "VirtoCommerce.Notifications",
           "Version": "3.1009.0"
+        },
+        {
+          "Id": "VirtoCommerce.AzureSearch",
+          "Version": "3.1003.0"
         }
       ]
     },
