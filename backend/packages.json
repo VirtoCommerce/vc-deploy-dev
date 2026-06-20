@@ -118,10 +118,6 @@
           "BlobName": "VirtoCommerce.MarketingExperienceApi_3.1004.0-alpha.97.zip"
         },
         {
-          "Id": "VirtoCommerce.FileExperienceApi",
-          "BlobName": "VirtoCommerce.FileExperienceApi_3.1003.0-alpha.81.zip"
-        },
-        {
           "Id": "VirtoCommerce.WhiteLabeling",
           "BlobName": "VirtoCommerce.WhiteLabeling_3.1003.0-alpha.83.zip"
         },
@@ -352,6 +348,10 @@
         {
           "Id": "VirtoCommerce.CatalogPublishing",
           "BlobName": "VirtoCommerce.CatalogPublishing_3.1005.0-alpha.403.zip"
+        },
+        {
+          "Id": "VirtoCommerce.FileExperienceApi",
+          "BlobName": "VirtoCommerce.FileExperienceApi_3.1003.0-alpha.83.zip"
         }
       ]
     }
