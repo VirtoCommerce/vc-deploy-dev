@@ -342,16 +342,16 @@
           "BlobName": "VirtoCommerce.GoogleEcommerceAnalytics_4.1002.0-alpha.232.zip"
         },
         {
-          "Id": "VirtoCommerce.Tax",
-          "BlobName": "VirtoCommerce.Tax_3.1003.0-alpha.230.zip"
-        },
-        {
           "Id": "VirtoCommerce.Shipping",
           "BlobName": "VirtoCommerce.Shipping_3.1006.0-alpha.260.zip"
         },
         {
           "Id": "VirtoCommerce.Payment",
           "BlobName": "VirtoCommerce.Payment_3.1004.0-alpha.287.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Tax",
+          "BlobName": "VirtoCommerce.Tax_3.1004.0-alpha.231.zip"
         }
       ]
     }
