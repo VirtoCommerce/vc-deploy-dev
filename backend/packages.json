@@ -170,10 +170,6 @@
           "BlobName": "VirtoCommerce.News_3.1004.0-alpha.66.zip"
         },
         {
-          "Id": "VirtoCommerce.PageBuilderModule",
-          "BlobName": "VirtoCommerce.PageBuilderModule_3.1012.0-alpha.831.zip"
-        },
-        {
           "Id": "VirtoCommerce.XCart",
           "BlobName": "VirtoCommerce.XCart_3.1021.0-alpha.245.zip"
         },
@@ -352,6 +348,10 @@
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
           "BlobName": "VirtoCommerce.CatalogCsvImportModule_3.1003.0-alpha.386.zip"
+        },
+        {
+          "Id": "VirtoCommerce.PageBuilderModule",
+          "BlobName": "VirtoCommerce.PageBuilderModule_3.1012.0-alpha.832.zip"
         }
       ]
     }
