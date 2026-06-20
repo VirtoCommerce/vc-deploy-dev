@@ -246,10 +246,6 @@
           "BlobName": "VirtoCommerce.ProductSnapshot_3.1003.0-alpha.18.zip"
         },
         {
-          "Id": "VirtoCommerce.Customer",
-          "BlobName": "VirtoCommerce.Customer_3.1011.0-alpha.974.zip"
-        },
-        {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.1009.0-alpha.353.zip"
         },
@@ -352,6 +348,10 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "BlobName": "VirtoCommerce.Catalog_3.1029.0-alpha.2529.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Customer",
+          "BlobName": "VirtoCommerce.Customer_3.1011.0-alpha.975.zip"
         }
       ]
     }
