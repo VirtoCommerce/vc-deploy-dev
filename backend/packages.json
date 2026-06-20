@@ -198,10 +198,6 @@
           "BlobName": "VirtoCommerce.SqlQueries_3.1006.0-alpha.52.zip"
         },
         {
-          "Id": "VirtoCommerce.PushMessages",
-          "BlobName": "VirtoCommerce.PushMessages_3.1004.0-alpha.105.zip"
-        },
-        {
           "Id": "VirtoCommerce.ProductSnapshot",
           "BlobName": "VirtoCommerce.ProductSnapshot_3.1003.0-alpha.18.zip"
         },
@@ -352,6 +348,10 @@
         {
           "Id": "VirtoCommerce.Contracts",
           "BlobName": "VirtoCommerce.Contracts_3.1003.0-alpha.166.zip"
+        },
+        {
+          "Id": "VirtoCommerce.PushMessages",
+          "BlobName": "VirtoCommerce.PushMessages_3.1004.0-alpha.106.zip"
         }
       ]
     }
