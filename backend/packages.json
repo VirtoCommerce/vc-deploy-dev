@@ -154,10 +154,6 @@
           "BlobName": "VirtoCommerce.OpenIdConnectModule_3.1002.0-alpha.45.zip"
         },
         {
-          "Id": "VirtoCommerce.Pages",
-          "BlobName": "VirtoCommerce.Pages_3.1007.0-alpha.67.zip"
-        },
-        {
           "Id": "VirtoCommerce.BackInStock",
           "BlobName": "VirtoCommerce.BackInStock_3.1002.0-alpha.56.zip"
         },
@@ -352,6 +348,10 @@
         {
           "Id": "VirtoCommerce.Pricing",
           "BlobName": "VirtoCommerce.Pricing_3.1003.0-alpha.805.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Pages",
+          "BlobName": "VirtoCommerce.Pages_3.1007.0-alpha.69.zip"
         }
       ]
     }
