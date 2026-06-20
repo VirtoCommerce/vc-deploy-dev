@@ -346,12 +346,12 @@
           "BlobName": "VirtoCommerce.GDPR_3.1002.0-alpha.170.zip"
         },
         {
-          "Id": "VirtoCommerce.XCatalog",
-          "BlobName": "VirtoCommerce.XCatalog_3.1007.0-alpha.196.zip"
-        },
-        {
           "Id": "VirtoCommerce.DynamicAssociationsModule",
           "BlobName": "VirtoCommerce.DynamicAssociationsModule_3.1003.0-alpha.206.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XCatalog",
+          "BlobName": "VirtoCommerce.XCatalog_3.1008.0-alpha.197.zip"
         }
       ]
     }
