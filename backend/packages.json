@@ -186,10 +186,6 @@
           "BlobName": "VirtoCommerce.TaskManagement_3.1004.0-alpha.195.zip"
         },
         {
-          "Id": "VirtoCommerce.CatalogCsvImportModule",
-          "BlobName": "VirtoCommerce.CatalogCsvImportModule_3.1002.0-alpha.384.zip"
-        },
-        {
           "Id": "VirtoCommerce.SqlQueries",
           "BlobName": "VirtoCommerce.SqlQueries_3.1006.0-alpha.52.zip"
         },
@@ -352,6 +348,10 @@
         {
           "Id": "VirtoCommerce.Orders",
           "BlobName": "VirtoCommerce.Orders_3.1009.0-alpha.1425.zip"
+        },
+        {
+          "Id": "VirtoCommerce.CatalogCsvImportModule",
+          "BlobName": "VirtoCommerce.CatalogCsvImportModule_3.1002.0-alpha.385.zip"
         }
       ]
     }
