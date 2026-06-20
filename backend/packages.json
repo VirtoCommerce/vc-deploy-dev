@@ -262,10 +262,6 @@
           "BlobName": "VirtoCommerce.ProductSnapshot_3.1003.0-alpha.18.zip"
         },
         {
-          "Id": "VirtoCommerce.Tax",
-          "BlobName": "VirtoCommerce.Tax_3.1003.0-alpha.229.zip"
-        },
-        {
           "Id": "VirtoCommerce.Customer",
           "BlobName": "VirtoCommerce.Customer_3.1011.0-alpha.974.zip"
         },
@@ -352,6 +348,10 @@
         {
           "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
           "BlobName": "VirtoCommerce.GoogleEcommerceAnalytics_4.1002.0-alpha.232.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Tax",
+          "BlobName": "VirtoCommerce.Tax_3.1003.0-alpha.230.zip"
         }
       ]
     }
