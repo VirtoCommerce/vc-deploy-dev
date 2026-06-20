@@ -86,10 +86,6 @@
           "BlobName": "VirtoCommerce.DynamicAssociationsModule_3.1002.0-alpha.203.zip"
         },
         {
-          "Id": "VirtoCommerce.Contracts",
-          "BlobName": "VirtoCommerce.Contracts_3.1003.0-alpha.164.zip"
-        },
-        {
           "Id": "VirtoCommerce.ShipStation",
           "BlobName": "VirtoCommerce.ShipStation_3.1002.0-alpha.152.zip"
         },
@@ -352,6 +348,10 @@
         {
           "Id": "VirtoCommerce.CatalogPublishing",
           "BlobName": "VirtoCommerce.CatalogPublishing_3.1006.0-alpha.404.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Contracts",
+          "BlobName": "VirtoCommerce.Contracts_3.1003.0-alpha.166.zip"
         }
       ]
     }
