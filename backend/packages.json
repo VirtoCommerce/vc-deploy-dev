@@ -86,10 +86,6 @@
           "BlobName": "VirtoCommerce.SystemOperations_3.1002.0-alpha.15.zip"
         },
         {
-          "Id": "VirtoCommerce.AuthorizeNetPayment",
-          "BlobName": "VirtoCommerce.AuthorizeNetPayment_3.1003.0-alpha.115.zip"
-        },
-        {
           "Id": "VirtoCommerce.ElasticAppSearch",
           "BlobName": "VirtoCommerce.ElasticAppSearch_3.1002.0-alpha.182.zip"
         },
@@ -352,6 +348,10 @@
         {
           "Id": "VirtoCommerce.Subscription",
           "BlobName": "VirtoCommerce.Subscription_3.1002.0-alpha.386.zip"
+        },
+        {
+          "Id": "VirtoCommerce.AuthorizeNetPayment",
+          "BlobName": "VirtoCommerce.AuthorizeNetPayment_3.1003.0-alpha.117.zip"
         }
       ]
     }
