@@ -40,10 +40,6 @@
           "Version": "3.1001.0"
         },
         {
-          "Id": "VirtoCommerce.Marketing",
-          "Version": "3.1004.0"
-        },
-        {
           "Id": "VirtoCommerce.CustomerReviews",
           "Version": "3.1003.0"
         },
@@ -342,6 +338,10 @@
         {
           "Id": "VirtoCommerce.GDPR",
           "Version": "3.1001.0"
+        },
+        {
+          "Id": "VirtoCommerce.Marketing",
+          "Version": "3.1005.0"
         }
       ]
     },
