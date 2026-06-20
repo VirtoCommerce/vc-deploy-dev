@@ -112,10 +112,6 @@
           "Version": "3.1003.0"
         },
         {
-          "Id": "VirtoCommerce.FileExperienceApi",
-          "Version": "3.1002.0"
-        },
-        {
           "Id": "VirtoCommerce.WhiteLabeling",
           "Version": "3.1002.0"
         },
@@ -341,6 +337,10 @@
         },
         {
           "Id": "VirtoCommerce.Pricing",
+          "Version": "3.1003.0"
+        },
+        {
+          "Id": "VirtoCommerce.FileExperienceApi",
           "Version": "3.1003.0"
         }
       ]
