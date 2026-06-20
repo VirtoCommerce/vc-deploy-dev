@@ -46,10 +46,6 @@
           "BlobName": "VirtoCommerce.CustomerReviews_3.1004.0-alpha.281.zip"
         },
         {
-          "Id": "VirtoCommerce.AvalaraTax",
-          "BlobName": "VirtoCommerce.AvalaraTax_3.1003.0-alpha.354.zip"
-        },
-        {
           "Id": "VirtoCommerce.Quote",
           "BlobName": "VirtoCommerce.Quote_3.1002.0-alpha.502.zip"
         },
@@ -352,6 +348,10 @@
         {
           "Id": "VirtoCommerce.AuthorizeNetPayment",
           "BlobName": "VirtoCommerce.AuthorizeNetPayment_3.1003.0-alpha.117.zip"
+        },
+        {
+          "Id": "VirtoCommerce.AvalaraTax",
+          "BlobName": "VirtoCommerce.AvalaraTax_3.1003.0-alpha.356.zip"
         }
       ]
     }
