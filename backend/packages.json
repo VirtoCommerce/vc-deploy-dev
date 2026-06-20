@@ -26,10 +26,6 @@
           "BlobName": "VirtoCommerce.Return_3.1001.0-alpha.134.zip"
         },
         {
-          "Id": "VirtoCommerce.GDPR",
-          "BlobName": "VirtoCommerce.GDPR_3.1000.0-alpha.154.zip"
-        },
-        {
           "Id": "VirtoCommerce.Contentful",
           "BlobName": "VirtoCommerce.Contentful_3.1002.0-alpha.130.zip"
         },
@@ -352,6 +348,10 @@
         {
           "Id": "VirtoCommerce.XCMS",
           "BlobName": "VirtoCommerce.XCMS_3.1003.0-alpha.72.zip"
+        },
+        {
+          "Id": "VirtoCommerce.GDPR",
+          "BlobName": "VirtoCommerce.GDPR_3.1001.0-alpha.169.zip"
         }
       ]
     }
