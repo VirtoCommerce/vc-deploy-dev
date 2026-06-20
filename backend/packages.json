@@ -64,10 +64,6 @@
           "Version": "3.1001.0"
         },
         {
-          "Id": "VirtoCommerce.Sitemaps",
-          "Version": "3.1002.0"
-        },
-        {
           "Id": "VirtoCommerce.CustomerReviews",
           "Version": "3.1003.0"
         },
@@ -342,6 +338,10 @@
         {
           "Id": "VirtoCommerce.Xapi",
           "Version": "3.1012.0"
+        },
+        {
+          "Id": "VirtoCommerce.Sitemaps",
+          "Version": "3.1003.0"
         }
       ]
     },
