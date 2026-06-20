@@ -66,10 +66,6 @@
           "BlobName": "VirtoCommerce.NativePaymentMethods_3.1003.0-alpha.123.zip"
         },
         {
-          "Id": "VirtoCommerce.XOrder",
-          "BlobName": "VirtoCommerce.XOrder_3.1005.0-alpha.112.zip"
-        },
-        {
           "Id": "VirtoCommerce.SystemOperations",
           "BlobName": "VirtoCommerce.SystemOperations_3.1002.0-alpha.15.zip"
         },
@@ -352,6 +348,10 @@
         {
           "Id": "VirtoCommerce.XCart",
           "BlobName": "VirtoCommerce.XCart_3.1022.0-alpha.247.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XOrder",
+          "BlobName": "VirtoCommerce.XOrder_3.1005.0-alpha.114.zip"
         }
       ]
     }
