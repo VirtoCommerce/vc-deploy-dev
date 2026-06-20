@@ -220,10 +220,6 @@
           "Version": "3.1003.0"
         },
         {
-          "Id": "VirtoCommerce.Xapi",
-          "Version": "3.1011.0"
-        },
-        {
           "Id": "VirtoCommerce.ProductSnapshot",
           "Version": "3.1002.0"
         },
@@ -342,6 +338,10 @@
         {
           "Id": "VirtoCommerce.Pages",
           "Version": "3.1007.0"
+        },
+        {
+          "Id": "VirtoCommerce.Xapi",
+          "Version": "3.1012.0"
         }
       ]
     },
