@@ -156,10 +156,6 @@
           "Version": "3.1002.0"
         },
         {
-          "Id": "VirtoCommerce.PageBuilderModule",
-          "Version": "3.1011.0"
-        },
-        {
           "Id": "VirtoCommerce.News",
           "Version": "3.1003.0"
         },
@@ -342,6 +338,10 @@
         {
           "Id": "VirtoCommerce.Contracts",
           "Version": "3.1003.0"
+        },
+        {
+          "Id": "VirtoCommerce.PageBuilderModule",
+          "Version": "3.1012.0"
         }
       ]
     },
