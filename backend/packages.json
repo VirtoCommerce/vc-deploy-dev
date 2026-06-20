@@ -114,10 +114,6 @@
           "BlobName": "VirtoCommerce.PriceExportImport_3.1002.0-alpha.188.zip"
         },
         {
-          "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
-          "BlobName": "VirtoCommerce.GoogleEcommerceAnalytics_4.1002.0-alpha.230.zip"
-        },
-        {
           "Id": "VirtoCommerce.DynamicAssociationsModule",
           "BlobName": "VirtoCommerce.DynamicAssociationsModule_3.1002.0-alpha.203.zip"
         },
@@ -352,6 +348,10 @@
         {
           "Id": "VirtoCommerce.Store",
           "BlobName": "VirtoCommerce.Store_3.1005.0-alpha.781.zip"
+        },
+        {
+          "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
+          "BlobName": "VirtoCommerce.GoogleEcommerceAnalytics_4.1002.0-alpha.232.zip"
         }
       ]
     }
