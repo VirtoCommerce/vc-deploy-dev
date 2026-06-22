@@ -47,6 +47,10 @@
         {
           "Id": "VirtoCommerce.News",
           "BlobName": "VirtoCommerce.News_3.1004.0-pr-20-d973.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Inventory",
+          "BlobName": "VirtoCommerce.Inventory_3.1004.0-pr-162-4709.zip"
         }
       ]
     },
@@ -98,10 +102,6 @@
         },
         {
           "Id": "VirtoCommerce.Pricing",
-          "Version": "3.1002.0"
-        },
-        {
-          "Id": "VirtoCommerce.Inventory",
           "Version": "3.1002.0"
         },
         {
