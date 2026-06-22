@@ -18,6 +18,9 @@
       },
       {
         "BlobName": "VirtoCommerce.XOrder_3.1006.0-pr-43-a67a.zip"
+      },
+      {
+        "BlobName": "VirtoCommerce.XCart_3.1022.0-pr-125-45bf.zip"
       }
     ]
     },
@@ -334,11 +337,7 @@
         {
           "Id": "VirtoCommerce.DynamicAssociationsModule",
           "Version": "3.1002.0"
-        },
-        {
-          "Id": "VirtoCommerce.XCart",
-          "Version": "3.1021.0"
-        },   
+        },    
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "Version": "3.1009.0"
