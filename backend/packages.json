@@ -18,6 +18,10 @@
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
         {
+          "Id": "VirtoCommerce.UCP",
+          "BlobName": "Virtocommerce.UCP_3.1000.0-pr-1-e333.zip"
+        },
+        {
           "Id": "VirtoCommerce.SeqLog",
           "BlobName": "VirtoCommerce.SeqLog_3.800.0.zip"
         },
