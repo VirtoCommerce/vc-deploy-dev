@@ -55,11 +55,11 @@
         },
         {
           "Id": "VirtoCommerce.Cart",
-          "Version": "3.1000.0"
+          "Version": "3.1000.1"
         },
         {
           "Id": "VirtoCommerce.Catalog",
-          "Version": "3.1002.3"
+          "Version": "3.1002.5"
         },
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
@@ -71,7 +71,7 @@
         },
         {
           "Id": "VirtoCommerce.CatalogPublishing",
-          "Version": "3.1000.1"
+          "Version": "3.1000.2"
         },
         {
           "Id": "VirtoCommerce.Content",
@@ -131,7 +131,7 @@
         },
         {
           "Id": "VirtoCommerce.Inventory",
-          "Version": "3.1000.2"
+          "Version": "3.1000.3"
         },
         {
           "Id": "VirtoCommerce.LuceneSearch",
@@ -183,7 +183,7 @@
         },
         {
           "Id": "VirtoCommerce.Seo",
-          "Version": "3.1000.0"
+          "Version": "3.1000.1"
         },
         {
           "Id": "VirtoCommerce.Shipping",
