@@ -11,13 +11,7 @@
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
         {
-          "BlobName": "VirtoCommerce.Content_3.834.0-alpha.1112-3.834.zip"
-        },
-        {
           "BlobName": "VirtoCommerce.PageBuilderModule_3.830.0-alpha.763-3.830.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.XCMS_3.904.0-alpha.41-3.904.zip"
         }
       ]
     },
@@ -78,6 +72,10 @@
         {
           "Id": "VirtoCommerce.CatalogPublishing",
           "Version": "3.809.1"
+        },
+        {
+          "Id": "VirtoCommerce.Content",
+          "Version": "3.834.2"
         },
         {
           "Id": "VirtoCommerce.Contracts",
@@ -222,6 +220,10 @@
         {
           "Id": "VirtoCommerce.XCatalog",
           "Version": "3.942.5"
+        },
+        {
+          "Id": "VirtoCommerce.XCMS",
+          "Version": "3.904.1"
         },
         {
           "Id": "VirtoCommerce.XFrontend",
