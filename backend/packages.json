@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.917.14",
+  "PlatformVersion": "3.917.15",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.917.14",
+  "PlatformImageTag": "3.917.15",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -55,11 +55,11 @@
         },
         {
           "Id": "VirtoCommerce.Cart",
-          "Version": "3.840.0"
+          "Version": "3.840.1"
         },
         {
           "Id": "VirtoCommerce.Catalog",
-          "Version": "3.904.8"
+          "Version": "3.904.11"
         },
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
@@ -135,7 +135,7 @@
         },
         {
           "Id": "VirtoCommerce.Inventory",
-          "Version": "3.815.3"
+          "Version": "3.815.4"
         },
         {
           "Id": "VirtoCommerce.LuceneSearch",
@@ -211,7 +211,7 @@
         },
         {
           "Id": "VirtoCommerce.Xapi",
-          "Version": "3.929.1"
+          "Version": "3.929.2"
         },
         {
           "Id": "VirtoCommerce.XCart",
