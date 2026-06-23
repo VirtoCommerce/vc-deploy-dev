@@ -43,10 +43,6 @@
       ],
       "Modules": [
         {
-          "Id": "VirtoCommerce.Loyalty",
-          "Version": "3.1003.0"
-        },
-        {
           "Id": "VirtoCommerce.ElasticSearch",
           "Version": "3.806.0"
         },
