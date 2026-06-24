@@ -216,10 +216,6 @@
           "Version": "3.1003.0"
         },
         {
-          "Id": "VirtoCommerce.Customer",
-          "Version": "3.1011.0"
-        },
-        {
           "Id": "VirtoCommerce.Content",
           "Version": "3.1003.0"
         },
@@ -342,6 +338,10 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "Version": "3.1030.0"
+        },
+        {
+          "Id": "VirtoCommerce.Customer",
+          "Version": "3.1012.0"
         }
       ]
     },
