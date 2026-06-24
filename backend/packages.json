@@ -140,10 +140,6 @@
           "Version": "3.1002.0"
         },
         {
-          "Id": "VirtoCommerce.Search",
-          "Version": "3.1004.0"
-        },
-        {
           "Id": "VirtoCommerce.Assets",
           "Version": "3.1005.0"
         },
@@ -342,6 +338,10 @@
         {
           "Id": "VirtoCommerce.PageBuilderModule",
           "Version": "3.1013.0"
+        },
+        {
+          "Id": "VirtoCommerce.Search",
+          "Version": "3.1005.0"
         }
       ]
     },
