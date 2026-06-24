@@ -11,9 +11,6 @@
     "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
     "Modules": [
       {
-        "BlobName": "VirtoCommerce.Loyalty_3.1004.0-pr-10-63c4.zip"
-      },
-      {
         "BlobName": "VirtoCommerce.Orders_3.1010.0-alpha.1429-vcst-5104.zip"
       },
       {
@@ -29,7 +26,11 @@
       "ModuleSources": [
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
-      "Modules": [  
+      "Modules": [
+        {
+          "Id": "VirtoCommerce.Loyalty",
+          "Version": "3.1003.0"
+        },
         {
           "Id": "VirtoCommerce.ElasticSearch",
           "Version": "3.806.0"
