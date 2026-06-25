@@ -314,10 +314,6 @@
           "BlobName": "VirtoCommerce.DynamicAssociationsModule_3.1003.0-alpha.206.zip"
         },
         {
-          "Id": "VirtoCommerce.XCart",
-          "BlobName": "VirtoCommerce.XCart_3.1022.0-alpha.247.zip"
-        },
-        {
           "Id": "VirtoCommerce.XOrder",
           "BlobName": "VirtoCommerce.XOrder_3.1006.0-alpha.115.zip"
         },
@@ -356,6 +352,10 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "BlobName": "VirtoCommerce.Catalog_3.1032.0-alpha.2534.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XCart",
+          "BlobName": "VirtoCommerce.XCart_3.1022.0-alpha.249.zip"
         }
       ]
     }
