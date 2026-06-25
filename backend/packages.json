@@ -50,7 +50,11 @@
         },
         {
           "Id": "VirtoCommerce.XCatalog",
-          "BlobName": "VirtoCommerce.XCatalog_3.1008.0-pr-96-b620.zip"
+          "BlobName": "VirtoCommerce.XCatalog_3.1009.0-alpha.213-vcst-5177-configurable-products-sorting.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "BlobName": "VirtoCommerce.Catalog_3.1032.0-alpha.2554-vcst-5177-configurable-products-sorting.zip"
         },
         {
           "Id": "VirtoCommerce.Customer",
@@ -271,10 +275,6 @@
         {
           "Id": "VirtoCommerce.Content",
           "Version": "3.1003.0"
-        },
-        {
-          "Id": "VirtoCommerce.Catalog",
-          "Version": "3.1029.0"
         },
         {
           "Id": "VirtoCommerce.Shipping",
