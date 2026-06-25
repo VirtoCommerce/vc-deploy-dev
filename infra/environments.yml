@@ -13,7 +13,7 @@
     dbName: vcst-qa-platform_restored
     config:
       # Increment to force environment reload
-      reload: 28
+      reload: 25
       # Application Insights settings
       APPINSIGHTS_INSTRUMENTATIONKEY: ef0125aa-1c8e-42d3-964f-d0a11256309d      
       # Forward headers to Nginx
@@ -82,7 +82,7 @@
       Notifications__SmsDefaultSender: +17012510519
       # Sync push notifications between platform instances
       PushNotifications__ForceWebSockets: true
-      PushNotifications__ScalabilityMode: RedisBackplane
+      #PushNotifications__ScalabilityMode: RedisBackplane
       PushNotifications__RedisBackplane__ChannelName: vcst-qa-chanel
       
       # Return detailed error information if login failed
@@ -119,7 +119,7 @@
       Payments__Datatrans__UseSandbox: true
       # Sync push notifications between platform instances
       PushNotifications__ForceWebSockets: true
-      PushNotifications__ScalabilityMode: RedisBackplane
+      #PushNotifications__ScalabilityMode: RedisBackplane
       PushNotifications__HubUrl: https://vcst-qa.govirto.com/pushNotificationHub?api_key=458ab7f7-df17-4aed-9f21-092f8b611efa
       PushNotifications__RedisBackplane__ChannelName: vcst-qa-chanel
       # Shippment
