@@ -267,6 +267,10 @@
     - path: /signin-oidc
       route: platform
     - path: /signin-google
+      route: platform 
+    - path: /ucp
+      route: platform
+    - path: /.well-known/ucp
       route: platform
   protectedParameters:
     - platform.image.tag
