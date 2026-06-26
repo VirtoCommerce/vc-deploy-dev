@@ -24,7 +24,10 @@
       },
       {
         "BlobName": "Virtocommerce.UCP_3.1000.0-pr-1-3af2.zip"
-      }  
+      },
+      {
+        "BlobName": "VirtoCommerce.Customer_3.1013.0-pr-303-fe3b.zip"
+      } 
     ]
     },
     {
@@ -240,11 +243,7 @@
         {
           "Id": "VirtoCommerce.Tax",
           "Version": "3.1003.0"
-        },
-        {
-          "Id": "VirtoCommerce.Customer",
-          "Version": "3.1011.0"
-        },
+        },  
         {
           "Id": "VirtoCommerce.Content",
           "Version": "3.1003.0"
