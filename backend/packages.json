@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.1041.0-pr-3064-0cb9-vcst-5232-0cb9324a",
+  "PlatformVersion": "3.1041.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.1041.0-pr-3064-0cb9-vcst-5232-0cb9324a",
+  "PlatformImageTag": "3.1041.0",
   
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
@@ -47,14 +47,6 @@
         {
           "Id": "VirtoCommerce.TaskManagement",
           "BlobName": "VirtoCommerce.TaskManagement_3.1004.0-pr-29-4f9d.zip"
-        },
-        {
-          "Id": "VirtoCommerce.XCatalog",
-          "BlobName": "VirtoCommerce.XCatalog_3.1008.0-pr-96-b620.zip"
-        },
-        {
-          "Id": "VirtoCommerce.Customer",
-          "BlobName": "VirtoCommerce.Customer_3.1012.0-pr-301-a14f.zip"
         }
       ]
     },
@@ -270,7 +262,11 @@
         },
         {
           "Id": "VirtoCommerce.Catalog",
-          "Version": "3.1029.0"
+          "Version": "3.1032.0"
+        },
+        {
+          "Id": "VirtoCommerce.XCatalog",
+          "Version": "3.1009.0"
         },
         {
           "Id": "VirtoCommerce.Shipping",
@@ -346,7 +342,7 @@
         },
         {
           "Id": "VirtoCommerce.Marketing",
-          "Version": "3.1005.0"
+          "Version": "3.1006.0"
         },
         {
           "Id": "VirtoCommerce.XCMS",
@@ -362,11 +358,15 @@
         },
         {
           "Id": "VirtoCommerce.XCart",
-          "Version": "3.1021.0"
+          "Version": "3.1022.0"
         },
         {
           "Id": "VirtoCommerce.XOrder",
-          "Version": "3.1005.0"
+          "Version": "3.1006.0"
+        },
+       {
+          "Id": "VirtoCommerce.Customer",
+          "Version": "3.1013.0"
         },
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
