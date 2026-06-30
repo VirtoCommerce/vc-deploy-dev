@@ -122,10 +122,6 @@
           "BlobName": "VirtoCommerce.XPickup_3.1003.0-alpha.43.zip"
         },
         {
-          "Id": "VirtoCommerce.News",
-          "BlobName": "VirtoCommerce.News_3.1004.0-alpha.66.zip"
-        },
-        {
           "Id": "VirtoCommerce.EnvironmentsCompare",
           "BlobName": "VirtoCommerce.EnvironmentsCompare_3.1002.0-alpha.14.zip"
         },
@@ -356,6 +352,10 @@
         {
           "Id": "VirtoCommerce.CustomerExportImport",
           "BlobName": "VirtoCommerce.CustomerExportImport_3.1002.0-alpha.220.zip"
+        },
+        {
+          "Id": "VirtoCommerce.News",
+          "BlobName": "VirtoCommerce.News_3.1004.0-alpha.68.zip"
         }
       ]
     }
