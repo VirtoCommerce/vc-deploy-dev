@@ -108,10 +108,6 @@
           "Version": "3.1002.0"
         },
         {
-          "Id": "VirtoCommerce.News",
-          "Version": "3.1003.0"
-        },
-        {
           "Id": "VirtoCommerce.EnvironmentsCompare",
           "Version": "3.1001.0"
         },
@@ -342,6 +338,10 @@
         {
           "Id": "VirtoCommerce.CustomerExportImport",
           "Version": "3.1002.0"
+        },
+        {
+          "Id": "VirtoCommerce.News",
+          "Version": "3.1004.0"
         }
       ]
     },
