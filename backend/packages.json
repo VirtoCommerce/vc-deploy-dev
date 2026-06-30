@@ -126,10 +126,6 @@
           "BlobName": "VirtoCommerce.EnvironmentsCompare_3.1002.0-alpha.14.zip"
         },
         {
-          "Id": "VirtoCommerce.TaskManagement",
-          "BlobName": "VirtoCommerce.TaskManagement_3.1004.0-alpha.195.zip"
-        },
-        {
           "Id": "VirtoCommerce.SqlQueries",
           "BlobName": "VirtoCommerce.SqlQueries_3.1006.0-alpha.52.zip"
         },
@@ -356,6 +352,10 @@
         {
           "Id": "VirtoCommerce.News",
           "BlobName": "VirtoCommerce.News_3.1004.0-alpha.68.zip"
+        },
+        {
+          "Id": "VirtoCommerce.TaskManagement",
+          "BlobName": "VirtoCommerce.TaskManagement_3.1004.0-alpha.203.zip"
         }
       ]
     }
