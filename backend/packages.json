@@ -350,12 +350,12 @@
           "BlobName": "VirtoCommerce.CustomerExportImport_3.1002.0-alpha.220.zip"
         },
         {
-          "Id": "VirtoCommerce.TaskManagement",
-          "BlobName": "VirtoCommerce.TaskManagement_3.1004.0-alpha.203.zip"
-        },
-        {
           "Id": "VirtoCommerce.News",
           "BlobName": "VirtoCommerce.News_3.1005.0-alpha.69.zip"
+        },
+        {
+          "Id": "VirtoCommerce.TaskManagement",
+          "BlobName": "VirtoCommerce.TaskManagement_3.1005.0-alpha.204.zip"
         }
       ]
     }
