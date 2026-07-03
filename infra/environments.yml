@@ -154,7 +154,7 @@
       VirtoCommerce__Endpoint__Password: store
       DOTNET_USE_POLLING_FILE_WATCHER: true
     themes:
-      B2B-store: https://github.com/VirtoCommerce/vc-frontend/releases/download/2.51.0/vc-theme-b2b-vue-2.51.0.zip
+      B2B-store: https://github.com/VirtoCommerce/vc-frontend/releases/download/2.52.0/vc-theme-b2b-vue-2.52.0.zip
   ingress: {}
   customApps:
     app1:
