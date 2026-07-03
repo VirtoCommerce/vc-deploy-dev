@@ -158,24 +158,7 @@
       PushNotifications__HubUrl: pushnotifications-huburl-vcst-dev
   storefront:
     headers:
-      # Minimal enforcing CSP: having any CSP present clears ZAP 10038, and
-      # frame-ancestors clears the clickjacking finding (10020) while still
-      # letting Builder.io iframe the storefront for the CMS editor (X-Frame-Options
-      # can't express an allowlist, so it is intentionally NOT used). No default-src,
-      # so scripts/styles/xhr/fonts/maps/Skyflow are left unrestricted for now;
-      # tighten later via a Content-Security-Policy-Report-Only pass.
-      Content-Security-Policy: "frame-ancestors 'self' https://builder.io https://*.builder.io; object-src 'none'; base-uri 'self'"
-      X-Content-Type-Options: nosniff
-      Strict-Transport-Security: max-age=31536000; includeSubDomains
-      Referrer-Policy: strict-origin-when-cross-origin
-      # Restrict to self where the app actually uses the feature (camera=barcode
-      # scanning, geolocation=BOPIS pickup), deny the rest.
-      Permissions-Policy: "camera=(self), microphone=(), geolocation=(self), browsing-topics=()"
       Cross-Origin-Resource-Policy: cross-origin
-      # same-origin-allow-popups (not same-origin) so Google SSO popup flows keep
-      # their window.opener; still clears the unsafe-none finding.
-      Cross-Origin-Opener-Policy: same-origin-allow-popups
-      Cross-Origin-Embedder-Policy: unsafe-none
       X-Response-Time: \$\request_time
     enabled: false
     imageRepository: virtopaasregistrymain.azurecr.io/vcst/storefront
