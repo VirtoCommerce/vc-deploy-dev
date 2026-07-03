@@ -45,6 +45,10 @@
           "BlobName": "VirtoCommerce.TaskManagement_3.1004.0-pr-29-db7e.zip"
         },
         {
+          "Id": "VirtoCommerce.PageBuilderModule",
+          "BlobName": "VirtoCommerce.PageBuilderModule_3.1014.0-pr-149-3129.zip"
+        },
+        {
           "Id": "VirtoCommerce.BackupRestore",
           "BlobName": "VirtoCommerce.BackupRestore_3.1002.0-pr-3-193d.zip"
         }
@@ -319,10 +323,6 @@
         {
           "Id": "VirtoCommerce.Contracts",
           "Version": "3.1003.0"
-        },
-        {
-          "Id": "VirtoCommerce.PageBuilderModule",
-          "Version": "3.1013.0"
         },
         {
           "Id": "VirtoCommerce.AuthorizeNetPayment",
