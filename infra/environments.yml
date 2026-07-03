@@ -150,7 +150,7 @@
       Payments__CyberSource__MerchantId: cybersource-merchantid
       Payments__CyberSource__MerchantKeyId: cybersource-merchantkeyid
       Payments__CyberSource__MerchantSecretKey: cybersource-merchantsecretkey
-      PushMessages__FcmSenderOptions__PrivateKey: fcm-private-key
+      PushMessages__FcmSenderOptions__PrivateKey: fcm-private-key-new
       Weaviate__ApiKey: intent-search-weaviate-api-key
       Weaviate__HuggingFaceToken: intent-search-huggingface-token
       GoogleSSO__ApplicationId: googlesso-aplicationid
