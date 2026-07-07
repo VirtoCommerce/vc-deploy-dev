@@ -12,7 +12,13 @@
     "Modules": [
       {
         "BlobName": "Virtocommerce.UCP_3.1000.0-pr-1-bf37.zip"
-      }
+      },
+      {
+        "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.1010.0-pr-137-5f46.zip"
+      },
+      {
+        "BlobName": "VirtoCommerce.Customer_3.1014.0-alpha.1002-vcst-5239.zip"
+      }   
     ]
     },
     {
@@ -308,11 +314,7 @@
         {
           "Id": "VirtoCommerce.DynamicAssociationsModule",
           "Version": "3.1002.0"
-        },
-        {
-          "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.1009.0"
-        },
+        },     
         {
           "Id": "VirtoCommerce.CustomerReviews",
           "Version": "3.1004.0"
@@ -332,10 +334,6 @@
         {
           "Id": "VirtoCommerce.Marketing",
           "Version": "3.1006.0"
-        },
-        {
-          "Id": "VirtoCommerce.Customer",
-          "Version": "3.1013.0"
         },
         {
           "Id": "VirtoCommerce.Catalog",
