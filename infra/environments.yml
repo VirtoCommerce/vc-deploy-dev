@@ -44,7 +44,8 @@
       config:
         LANGFUSE_PUBLIC_KEY: "pk-lf-0e66d160-0871-4cf6-91b8-db0fbf3b03b3"
         LANGFUSE_BASE_URL: "https://us.cloud.langfuse.com"
-        OTEL_EXPERIMENTAL_RESOURCE_DETECTORS: otel        
+        OTEL_EXPERIMENTAL_RESOURCE_DETECTORS: otel
+        RESTARTED_AT: 2026-07-08T01:30
         TENANTS__VCMP_DEMO__ID: "vcmp_demo"
         TENANTS__VCMP_DEMO__NAME: "Marketplace Demo"
         TENANTS__VCMP_DEMO__PLATFORM__URL: https://vcmp-demo.govirto.com
