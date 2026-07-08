@@ -296,10 +296,6 @@
           "Version": "3.1004.0"
         },
         {
-          "Id": "VirtoCommerce.PageBuilderModule",
-          "Version": "3.1013.0"
-        },
-        {
           "Id": "VirtoCommerce.Search",
           "Version": "3.1005.0"
         },
@@ -342,6 +338,10 @@
         {
           "Id": "VirtoCommerce.TaskManagement",
           "Version": "3.1004.0"
+        },
+        {
+          "Id": "VirtoCommerce.PageBuilderModule",
+          "Version": "3.1014.0"
         }
       ]
     },
