@@ -5,7 +5,7 @@ on:
   push:
     paths:
       - 'backend/**'
-    branches: [ virtooz ]
+    branches: [ virtoozdev ]
 
 jobs:
   gitops:
@@ -48,11 +48,11 @@ jobs:
         DOCKER_PASSWORD: ${{ secrets.VCPT_ACR_DOCKER_PASSWORD }}
         DOCKERFILE_PATH: ./backend/Dockerfile
         CONTAINER_REGISTRY: virtopaasregistrymain.azurecr.io
-        IMAGE_REPOSITORY: virtopaasregistrymain.azurecr.io/vcpt/virtooz-platform
+        IMAGE_REPOSITORY: virtopaasregistrymain.azurecr.io/vcpt/virtoozdev-platform
         TAG: ${{ env.PLATFORM_VERSION }}-${{ steps.vars.outputs.sha_short }}
 
     - name: Update app
       run: |
-        vc-build CloudEnvSetParameter -EnvironmentName vcpt-virtooz -CloudToken ${{ secrets.VCPT_PLATFORM_TOKEN }} -HelmParameters platform.image.tag=$TAG
+        vc-build CloudEnvSetParameter -EnvironmentName vcpt-virtoozdev -CloudToken ${{ secrets.VCPT_PLATFORM_TOKEN }} -HelmParameters platform.image.tag=$TAG
       env:
         TAG: ${{ env.PLATFORM_VERSION }}-${{ steps.vars.outputs.sha_short }}
