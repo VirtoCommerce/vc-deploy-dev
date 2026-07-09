@@ -1,4 +1,4 @@
-- name: vcpt-virtoozdev
+- name: vcpt-virtoozqa
   production: false
   gitops: true
   servicePlan: B1
@@ -8,7 +8,7 @@
       Cross-Origin-Resource-Policy: cross-origin
       Cross-Origin-Opener-Policy: unsafe-none
       Cross-Origin-Embedder-Policy: unsafe-none
-    imageRepository: virtopaasregistrymain.azurecr.io/vcpt/virtoozdev-platform
+    imageRepository: virtopaasregistrymain.azurecr.io/vcpt/virtoozqa-platform
     sqlReplica: false
     redis:
       service: redis-prod-vc02-redis-cluster.redis-cluster:6379
@@ -48,13 +48,13 @@
         VIRTO_OZ_MCP__AUTH__STORAGE__PORT: 10000
         VIRTO_OZ_MCP__AUTH__STORAGE__TYPE: redis
       secretConfig:
-        ANTHROPIC_API_KEY: vcpt-virtoozdev-anthropic-api-key
-        OPENAI_API_KEY: vcpt-virtoozdev-openai-api-key
-        APPLICATIONINSIGHTS_CONNECTION_STRING: vcpt-virtoozdev-appinsights-connection-string
-        LANGFUSE_SECRET_KEY: vcpt-virtoozdev-langfuse-secret-key
-        VIRTO_OZ_CHECKPOINTER__CONNECTION_STRING: vcpt-virtoozdev-checkpointer-connection-string
-        VIRTO_OZ_MCP__AUTH__SIGNING_KEY: vcpt-virtoozdev-mcp-auth-signing-key
-        VIRTO_OZ_MCP__AUTH__STORAGE__ENCRYPTION_KEY: vcpt-virtoozdev-mcp-auth-storage-encryption-key
+        ANTHROPIC_API_KEY: vcpt-virtoozqa-anthropic-api-key
+        OPENAI_API_KEY: vcpt-virtoozqa-openai-api-key
+        APPLICATIONINSIGHTS_CONNECTION_STRING: vcpt-virtoozqa-appinsights-connection-string
+        LANGFUSE_SECRET_KEY: vcpt-virtoozqa-langfuse-secret-key
+        VIRTO_OZ_CHECKPOINTER__CONNECTION_STRING: vcpt-virtoozqa-checkpointer-connection-string
+        VIRTO_OZ_MCP__AUTH__SIGNING_KEY: vcpt-virtoozqa-mcp-auth-signing-key
+        VIRTO_OZ_MCP__AUTH__STORAGE__ENCRYPTION_KEY: vcpt-virtoozqa-mcp-auth-storage-encryption-key
     app2:
       enabled: false
   protectedParameters:
