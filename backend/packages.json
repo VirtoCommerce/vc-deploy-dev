@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.1042.0-alpha.13320",
+  "PlatformVersion": "3.1044.0-alpha.13324",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.1042.0-alpha.13320-dev-e764748d",
+  "PlatformImageTag": "3.1044.0-alpha.13324-dev-be704701",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -186,10 +186,6 @@
           "BlobName": "VirtoCommerce.Notifications_3.1010.0-alpha.477.zip"
         },
         {
-          "Id": "VirtoCommerce.BackupRestore",
-          "BlobName": "VirtoCommerce.BackupRestore_3.1002.0-alpha.6.zip"
-        },
-        {
           "Id": "VirtoCommerce.ImageTools",
           "BlobName": "VirtoCommerce.ImageTools_3.1004.0-alpha.406.zip"
         },
@@ -240,10 +236,6 @@
         {
           "Id": "VirtoCommerce.Pricing",
           "BlobName": "VirtoCommerce.Pricing_3.1003.0-alpha.805.zip"
-        },
-        {
-          "Id": "VirtoCommerce.Xapi",
-          "BlobName": "VirtoCommerce.Xapi_3.1012.0-alpha.178.zip"
         },
         {
           "Id": "VirtoCommerce.Pages",
@@ -310,10 +302,6 @@
           "BlobName": "VirtoCommerce.Inventory_3.1005.0-alpha.529.zip"
         },
         {
-          "Id": "VirtoCommerce.PageBuilderModule",
-          "BlobName": "VirtoCommerce.PageBuilderModule_3.1014.0-alpha.835.zip"
-        },
-        {
           "Id": "VirtoCommerce.Search",
           "BlobName": "VirtoCommerce.Search_3.1006.0-alpha.838.zip"
         },
@@ -326,24 +314,12 @@
           "BlobName": "VirtoCommerce.Customer_3.1014.0-alpha.1002-vcst-5239.zip"
         },
         {
-          "Id": "VirtoCommerce.Catalog",
-          "BlobName": "VirtoCommerce.Catalog_3.1033.0-alpha.2537.zip"
-        },
-        {
-          "Id": "VirtoCommerce.XCatalog",
-          "BlobName": "VirtoCommerce.XCatalog_3.1010.0-alpha.202.zip"
-        },
-        {
           "Id": "VirtoCommerce.Orders",
           "BlobName": "VirtoCommerce.Orders_3.1011.0-alpha.1429.zip"
         },
         {
           "Id": "VirtoCommerce.XOrder",
           "BlobName": "VirtoCommerce.XOrder_3.1007.0-alpha.118.zip"
-        },
-        {
-          "Id": "VirtoCommerce.XCart",
-          "BlobName": "VirtoCommerce.XCart_3.1024.0-alpha.252.zip"
         },
         {
           "Id": "VirtoCommerce.CustomerExportImport",
@@ -360,6 +336,34 @@
         {
           "Id": "VirtoCommerce.SalesRep",
           "BlobName": "VirtoCommerce.SalesRep_3.1000.0-pr-2-f8b7.zip"
+        },
+        {
+          "Id": "VirtoCommerce.PageBuilderModule",
+          "BlobName": "VirtoCommerce.PageBuilderModule_3.1015.0-alpha.837.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XCatalog",
+          "BlobName": "VirtoCommerce.XCatalog_3.1010.0-alpha.205.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Xapi",
+          "BlobName": "VirtoCommerce.Xapi_3.1013.0-alpha.183.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XCart",
+          "BlobName": "VirtoCommerce.XCart_3.1024.0-alpha.255.zip"
+        },
+        {
+          "Id": "Virtocommerce.UCP",
+          "BlobName": "Virtocommerce.UCP_3.1000.0-alpha.5.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "BlobName": "VirtoCommerce.Catalog_3.1034.0-alpha.2542.zip"
+        },
+        {
+          "Id": "VirtoCommerce.BackupRestore",
+          "BlobName": "VirtoCommerce.BackupRestore_3.1002.0-alpha.10.zip"
         }
       ]
     }
