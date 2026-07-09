@@ -186,10 +186,6 @@
           "BlobName": "VirtoCommerce.Notifications_3.1010.0-alpha.477.zip"
         },
         {
-          "Id": "VirtoCommerce.BackupRestore",
-          "BlobName": "VirtoCommerce.BackupRestore_3.1002.0-alpha.6.zip"
-        },
-        {
           "Id": "VirtoCommerce.ImageTools",
           "BlobName": "VirtoCommerce.ImageTools_3.1004.0-alpha.406.zip"
         },
@@ -364,6 +360,10 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "BlobName": "VirtoCommerce.Catalog_3.1034.0-alpha.2542.zip"
+        },
+        {
+          "Id": "VirtoCommerce.BackupRestore",
+          "BlobName": "VirtoCommerce.BackupRestore_3.1002.0-alpha.10.zip"
         }
       ]
     }
