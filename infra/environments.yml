@@ -1,14 +1,14 @@
-- name: vcpt-virtooz
-  production: true
+- name: vcpt-virtoozdev
+  production: false
   gitops: true
-  servicePlan: S1
+  servicePlan: B1
   platform:
-    dbProvider: Azure Database for PostgreSQL
+    dbProvider: AzureSQL Database
     headers:
       Cross-Origin-Resource-Policy: cross-origin
       Cross-Origin-Opener-Policy: unsafe-none
       Cross-Origin-Embedder-Policy: unsafe-none
-    imageRepository: virtopaasregistrymain.azurecr.io/vcpt/virtooz-platform
+    imageRepository: virtopaasregistrymain.azurecr.io/vcpt/virtoozdev-platform
     sqlReplica: false
     redis:
       service: redis-prod-vc02-redis-cluster.redis-cluster:6379
@@ -21,14 +21,8 @@
       AzureAd__TenantId: bc03e660-5e3a-45c4-bf5c-b75489f78923
       AzureAd__Priority: 0
       PasswordLogin__Priority: 1
-      # Push notifications (platform core - SignalR)
-      PushNotifications__ForceWebSockets: true
-      PushNotifications__RedisBackplane__ChannelName: vcpt-virtooz-channel
-      PushNotifications__ScalabilityMode: RedisBackplane
     secretConfig:
       APPLICATIONINSIGHTS_CONNECTION_STRING: vcpt-virtooz-appinsights-connection-string
-      PushNotifications__HubUrl: vcpt-virtooz-push-notifications-hub
-    databases: {}
   storefront:
     enabled: false
   customApps:
@@ -36,47 +30,31 @@
       name: virtooz
       enabled: true
       imageRepository: virtopaasregistrymain.azurecr.io/vcpt/virtooz-app
-      servicePlan: S1
+      servicePlan: B1
       type: standalone
-      hostname: virtooz.govirto.com
+      hostname: virtooz-dev.govirto.com
       probePath: /
       ingressPath: /
       config:
-        LANGFUSE_PUBLIC_KEY: "pk-lf-0e66d160-0871-4cf6-91b8-db0fbf3b03b3"
+        LANGFUSE_PUBLIC_KEY: "pk-lf-359acc90-2825-4974-97b2-e0065322b973"
         LANGFUSE_BASE_URL: "https://us.cloud.langfuse.com"
         OTEL_EXPERIMENTAL_RESOURCE_DETECTORS: otel
         RESTARTED_AT: 2026-07-08T01:30
-        TENANTS__VCMP_DEMO__ID: "vcmp_demo"
-        TENANTS__VCMP_DEMO__NAME: "Marketplace Demo"
-        TENANTS__VCMP_DEMO__PLATFORM__URL: https://vcmp-demo.govirto.com
-        TENANTS__VCMP_DEMO__PLATFORM__AUTH__CLIENT_ID: a1524a47-09c0-432d-aa20-87a84a29d6ef
-        TENANTS__VCPTCORE_QA__ID: "vcptcore_qa"
-        TENANTS__VCPTCORE_QA__NAME: "Platform QA"
-        TENANTS__VCPTCORE_QA__PLATFORM__URL: https://vcptcore-qa.govirto.com
-        TENANTS__VCPTCORE_QA__PLATFORM__AUTH__CLIENT_ID: b75a178a-fe5d-48ce-bf06-cc679247ccb5
-        TENANTS__VCCOM_DEV__ID: "vccom-dev"
-        TENANTS__VCCOM_DEV__NAME: "VirtoCommerce.com Dev"
-        TENANTS__VCCOM_DEV__PLATFORM__URL: https://vccom-dev.govirto.com
-        TENANTS__VCCOM_DEV__PLATFORM__AUTH__CLIENT_ID: e66ab452-1250-4515-95f0-b971b146d534
         VIRTO_OZ_CHECKPOINTER__TYPE: postgres
         VIRTO_OZ_LLM__SUBAGENT__TIMEOUT: 300
-        VIRTO_OZ_MCP__AUTH__BASE_URL: https://virtooz.govirto.com
-        VIRTO_OZ_MCP__AUTH__STORAGE__AUTH__TYPE: password
+        VIRTO_OZ_MCP__AUTH__BASE_URL: https://virtooz-dev.govirto.com
+        VIRTO_OZ_MCP__AUTH__STORAGE__AUTH__TYPE: entra_id
         VIRTO_OZ_MCP__AUTH__STORAGE__HOST: virtooz.eastus.redis.azure.net
         VIRTO_OZ_MCP__AUTH__STORAGE__PORT: 10000
         VIRTO_OZ_MCP__AUTH__STORAGE__TYPE: redis
       secretConfig:
-        ANTHROPIC_API_KEY: vcpt-virtooz-vcmp-demo-anthropic-api-key
-        OPENAI_API_KEY: vcpt-virtooz-vcmp-demo-openai-api-key
-        APPLICATIONINSIGHTS_CONNECTION_STRING: vcpt-virtooz-appinsights-connection-string
-        LANGFUSE_SECRET_KEY: vcpt-virtooz-langfuse-secret-key
-        TENANTS__VCMP_DEMO__PLATFORM__AUTH__CLIENT_SECRET: vcpt-virtooz-vcmp-demo-client-secret        
-        TENANTS__VCPTCORE_QA__PLATFORM__AUTH__CLIENT_SECRET: vcpt-virtooz-vcptcore-qa-client-secret
-        TENANTS__VCCOM_DEV__PLATFORM__AUTH__CLIENT_SECRET: vcpt-virtooz-vccom-dev-client-secret
-        VIRTO_OZ_CHECKPOINTER__CONNECTION_STRING: vcpt-virtooz-checkpointer-connection-string
-        VIRTO_OZ_MCP__AUTH__SIGNING_KEY: vcpt-virtooz-mcp-auth-signing-key
-        VIRTO_OZ_MCP__AUTH__STORAGE__AUTH__PASSWORD: vcpt-virtooz-mcp-auth-storage-auth-password
-        VIRTO_OZ_MCP__AUTH__STORAGE__ENCRYPTION_KEY: vcpt-virtooz-mcp-auth-storage-encryption-key
+        ANTHROPIC_API_KEY: vcpt-virtoozdev-anthropic-api-key
+        OPENAI_API_KEY: vcpt-virtoozdev-openai-api-key
+        APPLICATIONINSIGHTS_CONNECTION_STRING: vcpt-virtoozdev-appinsights-connection-string
+        LANGFUSE_SECRET_KEY: vcpt-virtoozdev-langfuse-secret-key
+        VIRTO_OZ_CHECKPOINTER__CONNECTION_STRING: vcpt-virtoozdev-checkpointer-connection-string
+        VIRTO_OZ_MCP__AUTH__SIGNING_KEY: vcpt-virtoozdev-mcp-auth-signing-key
+        VIRTO_OZ_MCP__AUTH__STORAGE__ENCRYPTION_KEY: vcpt-virtoozdev-mcp-auth-storage-encryption-key
     app2:
       enabled: false
   protectedParameters:
