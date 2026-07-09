@@ -45,6 +45,22 @@
           "BlobName": "VirtoCommerce.PageBuilderModule_3.1015.0-pr-154-fc39.zip"
         },
          {
+          "Id": "VirtoCommerce.Cart",
+          "BlobName": "VirtoCommerce.Cart_3.1007.0-pr-190-4226.zip"
+        },
+       {
+          "Id": "VirtoCommerce.Orders",
+          "BlobName": "VirtoCommerce.Orders_3.1011.0-pr-498-068d.zip"
+        },
+       {
+          "Id": "VirtoCommerce.XCart",
+          "BlobName": "VirtoCommerce.XCart_3.1024.0-pr-127-3909.zip"
+        },
+       {
+          "Id": "VirtoCommerce.XOrder",
+          "BlobName": "VirtoCommerce.XOrder_3.1007.0-pr-44-950b.zip"
+        },
+         {
           "Id": "VirtoCommerce.XCatalog",
           "BlobName": "VirtoCommerce.XCatalog_3.1011.0-pr-99-f039.zip"
         }
@@ -265,10 +281,6 @@
           "Version": "3.1003.0"
         },
         {
-          "Id": "VirtoCommerce.Cart",
-          "Version": "3.1006.0"
-        },
-        {
           "Id": "VirtoCommerce.Pricing",
           "Version": "3.1003.0"
         },
@@ -345,14 +357,6 @@
           "Version": "3.1013.0"
         },
         {
-          "Id": "VirtoCommerce.Orders",
-          "Version": "3.1010.0"
-        },
-        {
-          "Id": "VirtoCommerce.XOrder",
-          "Version": "3.1006.0"
-        },
-        {
           "Id": "VirtoCommerce.CustomerExportImport",
           "Version": "3.1002.0"
         },
@@ -371,10 +375,6 @@
         {
           "Id": "VirtoCommerce.Xapi",
           "Version": "3.1013.0"
-        },
-        {
-          "Id": "VirtoCommerce.XCart",
-          "Version": "3.1024.0"
         }
       ]
     }
