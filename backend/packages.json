@@ -39,6 +39,10 @@
         {
           "Id": "VirtoCommerce.BackupRestore",
           "BlobName": "VirtoCommerce.BackupRestore_3.1002.0-pr-3-c973.zip"
+        },
+        {
+          "Id": "VirtoCommerce.PageBuilderModule",
+          "BlobName": "VirtoCommerce.PageBuilderModule_3.1015.0-pr-144-b674.zip"
         }
       ]
     },
@@ -355,10 +359,6 @@
         {
           "Id": "VirtoCommerce.TaskManagement",
           "Version": "3.1004.0"
-        },
-        {
-          "Id": "VirtoCommerce.PageBuilderModule",
-          "Version": "3.1014.0"
         },
         {
           "Id": "VirtoCommerce.XCatalog",
