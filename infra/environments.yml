@@ -60,5 +60,5 @@
       enabled: false
   protectedParameters:
     - platform.image.tag
-    - custom.app1.image.tag
+    #- custom.app1.image.tag
   version: 3.240
