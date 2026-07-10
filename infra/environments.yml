@@ -40,7 +40,7 @@
         LANGFUSE_PUBLIC_KEY: "pk-lf-359acc90-2825-4974-97b2-e0065322b973"
         LANGFUSE_BASE_URL: "https://us.cloud.langfuse.com"
         OTEL_EXPERIMENTAL_RESOURCE_DETECTORS: otel
-        RESTARTED_AT: 2026-07-08T01:30
+        RESTARTED_AT: 2026-07-10T14:03
         VIRTO_OZ_CHECKPOINTER__TYPE: postgres
         VIRTO_OZ_LLM__SUBAGENT__TIMEOUT: 300
         VIRTO_OZ_MCP__AUTH__BASE_URL: https://virtooz-dev.govirto.com
