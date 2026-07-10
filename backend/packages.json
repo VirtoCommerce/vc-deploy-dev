@@ -40,10 +40,6 @@
           "Version": "3.1001.0"
         },
         {
-          "Id": "VirtoCommerce.EventBus",
-          "Version": "3.1009.0"
-        },
-        {
           "Id": "VirtoCommerce.NativePaymentMethods",
           "Version": "3.1002.0"
         },
@@ -350,6 +346,10 @@
         {
           "Id": "VirtoCommerce.UCP",
           "Version": "3.1001.0"
+        },
+        {
+          "Id": "VirtoCommerce.EventBus",
+          "Version": "3.1010.0"
         }
       ]
     },
