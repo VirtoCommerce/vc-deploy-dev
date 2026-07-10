@@ -142,10 +142,6 @@
           "BlobName": "VirtoCommerce.ApplicationInsights_3.1005.0-alpha.67.zip"
         },
         {
-          "Id": "VirtoCommerce.Assets",
-          "BlobName": "VirtoCommerce.Assets_3.1006.0-alpha.198.zip"
-        },
-        {
           "Id": "VirtoCommerce.WebHooks",
           "BlobName": "VirtoCommerce.WebHooks_3.1005.0-alpha.354.zip"
         },
@@ -364,6 +360,10 @@
         {
           "Id": "VirtoCommerce.XOrder",
           "BlobName": "VirtoCommerce.XOrder_3.1007.0-alpha.121.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Assets",
+          "BlobName": "VirtoCommerce.Assets_3.1006.0-alpha.202.zip"
         }
       ]
     }
