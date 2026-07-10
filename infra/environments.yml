@@ -9,7 +9,6 @@
       Cross-Origin-Opener-Policy: unsafe-none
       Cross-Origin-Embedder-Policy: unsafe-none
     imageRepository: virtopaasregistrymain.azurecr.io/vcpt/virtooz-platform
-    imageTag: 3.1039.2
     sqlReplica: false
     redis:
       service: redis-prod-vc02-redis-cluster.redis-cluster:6379
