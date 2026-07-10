@@ -18,10 +18,6 @@
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
         {
-          "Id": "VirtoCommerce.UCP",
-          "BlobName": "Virtocommerce.UCP_3.1000.0-pr-1-3af2.zip"
-        },
-        {
           "Id": "VirtoCommerce.SeqLog",
           "BlobName": "VirtoCommerce.SeqLog_3.800.0.zip"
         },
@@ -364,6 +360,10 @@
         {
           "Id": "VirtoCommerce.Customer",
           "BlobName": "VirtoCommerce.Customer_3.1014.0-alpha.984.zip"
+        },
+        {
+          "Id": "VirtoCommerce.UCP",
+          "BlobName": "VirtoCommerce.UCP_3.1001.0-alpha.7.zip"
         }
       ]
     }
