@@ -10,11 +10,20 @@ on:
 jobs:
   gitops:
     runs-on: ubuntu-latest
+    
+    env:
+      DOCKER_LOGIN: ${{ secrets.VIRTOOZ_ACR_DOCKER_LOGIN }}
+      DOCKER_PASSWORD: ${{ secrets.VIRTOOZ_ACR_DOCKER_PASSWORD }}
+      DOCKERFILE_PATH: ./backend
+      CONTAINER_REGISTRY: virtopaasregistrymain.azurecr.io
+      IMAGE_REPOSITORY: virtopaasregistrymain.azurecr.io/vcpt/virtooz-platform
+      PLATFORM_IMAGE_NAME: virtooz-platform
+      ARGO_APP_NAME: vcpt-${{ github.ref_name }}
+      PLATFORM_IMAGE: ''
+      PLATFORM_TAG: ''
 
     steps:
     - uses: actions/checkout@v6
-      with:
-        fetch-depth: 0
 
     - name: Install vc-build
       run: |
@@ -22,37 +31,43 @@ jobs:
 
     - name: Pack
       run: |
-        vc-build install -PackageManifestPath ./backend/packages.json -ProbingPath ./backend/platform/app_data/modules -DiscoveryPath ./backend/platform/modules --root ./backend/platform -SkipDependencySolving
+        vc-build InstallModules -PackageManifestPath ./backend/packages.json -ProbingPath ./backend/platform/app_data/modules -DiscoveryPath ./backend/platform/modules --root ./backend/platform -SkipDependencySolving
 
     - name: Get platform version
       id: platform-version
       run: |
-        echo "PLATFORM_VERSION=$(cat ./backend/packages.json | jq -r '.PlatformVersion')" >> $GITHUB_ENV
+        run: |
+        echo "PLATFORM_IMAGE=$(cat ./backend/packages.json | jq -r '.PlatformImage')" >> $GITHUB_ENV
+        echo "PLATFORM_TAG=$(cat ./backend/packages.json | jq -r '.PlatformImageTag')" >> $GITHUB_ENV
 
     - name: Set outputs
       id: vars
-      run: echo "sha_short=$(git rev-parse --short HEAD)" >> $GITHUB_OUTPUT
+      run: echo "paas_tag=${{ env.PLATFORM_TAG }}-$(git rev-parse --short HEAD)" >> $GITHUB_OUTPUT
 
-    - name: Prepare files for Docker image
+    - name: Build platform Image
       run: |
-        curl -sSL -o ./backend/Dockerfile https://github.com/VirtoCommerce/vc-docker/raw/refs/heads/feat/net10/linux/platform/Dockerfile
-        curl -sSL -o ./wait-for-it.sh https://github.com/VirtoCommerce/vc-docker/raw/refs/heads/feat/net10/linux/platform/wait-for-it.sh
-        mkdir ./publish
-        mv ./backend/platform/* ./publish
+        docker build --build-arg PLATFORM_IMAGE=${{ env.PLATFORM_IMAGE }} --build-arg PLATFORM_TAG=${{ env.PLATFORM_TAG }} -t ${{env.PLATFORM_IMAGE_NAME}} ${{env.DOCKERFILE_PATH}}
 
-    - name: Build and Publish Docker Image to Virto container registry
+    - name: Docker Login
+      uses: docker/login-action@v3
+      with:
+        registry: ${{ env.CONTAINER_REGISTRY }}
+        username: ${{ env.DOCKER_LOGIN }}
+        password: ${{ env.DOCKER_PASSWORD }}
+
+    - name: Publish platform image to the Virto Cloud
       run: |
-        vc-build BuildAndPush -DockerUsername $DOCKER_LOGIN -DockerPassword $DOCKER_PASSWORD -DockerfilePath $DOCKERFILE_PATH -DockerImageName $IMAGE_REPOSITORY -DockerImageTag $TAG -DockerRegistryUrl $CONTAINER_REGISTRY
+        docker tag ${{env.PLATFORM_IMAGE_NAME}} ${{ env.IMAGE_REPOSITORY }}:${{ env.TAG }}
+        docker push ${{ env.IMAGE_REPOSITORY }}:${{ env.TAG }}
       env:
-        DOCKER_LOGIN: vcpt-repo-saccess
-        DOCKER_PASSWORD: ${{ secrets.VCPT_ACR_DOCKER_PASSWORD }}
-        DOCKERFILE_PATH: ./backend/Dockerfile
-        CONTAINER_REGISTRY: virtopaasregistrymain.azurecr.io
-        IMAGE_REPOSITORY: virtopaasregistrymain.azurecr.io/vcpt/virtoozqa-platform
-        TAG: ${{ env.PLATFORM_VERSION }}-${{ steps.vars.outputs.sha_short }}
+        TAG: ${{ steps.vars.outputs.paas_tag }}
+
+    - name: Az config
+      run: |
+        az config set extension.use_dynamic_install=yes_without_prompt
 
     - name: Update app
       run: |
-        vc-build CloudEnvSetParameter -EnvironmentName vcpt-virtoozqa -CloudToken ${{ secrets.VCPT_PLATFORM_TOKEN }} -HelmParameters platform.image.tag=$TAG
+        vc-build CloudEnvSetParameter -EnvironmentName ${{ env.ARGO_APP_NAME }} -CloudToken ${{ secrets.VCPT_PLATFORM_TOKEN }} -HelmParameters platform.image.tag=$TAG
       env:
-        TAG: ${{ env.PLATFORM_VERSION }}-${{ steps.vars.outputs.sha_short }}
+        TAG: ${{ steps.vars.outputs.paas_tag }}

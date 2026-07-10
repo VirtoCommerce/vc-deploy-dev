@@ -8,7 +8,7 @@
       Cross-Origin-Resource-Policy: cross-origin
       Cross-Origin-Opener-Policy: unsafe-none
       Cross-Origin-Embedder-Policy: unsafe-none
-    imageRepository: virtopaasregistrymain.azurecr.io/vcpt/virtoozqa-platform
+    imageRepository: virtopaasregistrymain.azurecr.io/vcpt/virtooz-platform
     sqlReplica: false
     redis:
       service: redis-prod-vc02-redis-cluster.redis-cluster:6379
@@ -30,6 +30,7 @@
       name: virtooz
       enabled: true
       imageRepository: virtopaasregistrymain.azurecr.io/vcpt/virtooz-app
+      imageTag: 1.3.2
       servicePlan: B1
       type: standalone
       hostname: virtooz-dev.govirto.com
