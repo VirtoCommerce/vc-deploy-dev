@@ -5,7 +5,7 @@ on:
   push:
     paths:
       - 'backend/**'
-    branches: [ virtooz ]
+    branches: [ virtoozdev ]
 
 jobs:
   gitops:
