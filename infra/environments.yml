@@ -30,6 +30,7 @@
       name: virtooz
       enabled: true
       imageRepository: virtopaasregistrymain.azurecr.io/vcpt/virtooz-app
+      imageTag: 1.3.2
       servicePlan: B1
       type: standalone
       hostname: virtooz-dev.govirto.com
