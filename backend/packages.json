@@ -174,10 +174,6 @@
           "BlobName": "VirtoCommerce.BulkActionsModule_3.1003.0-alpha.254.zip"
         },
         {
-          "Id": "VirtoCommerce.Notifications",
-          "BlobName": "VirtoCommerce.Notifications_3.1010.0-alpha.477.zip"
-        },
-        {
           "Id": "VirtoCommerce.ImageTools",
           "BlobName": "VirtoCommerce.ImageTools_3.1004.0-alpha.406.zip"
         },
@@ -364,6 +360,10 @@
         {
           "Id": "VirtoCommerce.EventBus",
           "BlobName": "VirtoCommerce.EventBus_3.1010.0-alpha.203.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Notifications",
+          "BlobName": "VirtoCommerce.Notifications_3.1010.0-alpha.481.zip"
         }
       ]
     }
