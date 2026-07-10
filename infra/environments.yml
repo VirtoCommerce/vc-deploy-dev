@@ -8,7 +8,7 @@
       Cross-Origin-Resource-Policy: cross-origin
       Cross-Origin-Opener-Policy: unsafe-none
       Cross-Origin-Embedder-Policy: unsafe-none
-    imageRepository: virtopaasregistrymain.azurecr.io/vcpt/virtoozdev-platform
+    imageRepository: virtopaasregistrymain.azurecr.io/vcpt/virtooz-platform
     sqlReplica: false
     redis:
       service: redis-prod-vc02-redis-cluster.redis-cluster:6379
