@@ -142,10 +142,6 @@
           "BlobName": "VirtoCommerce.ApplicationInsights_3.1005.0-alpha.67.zip"
         },
         {
-          "Id": "VirtoCommerce.Assets",
-          "BlobName": "VirtoCommerce.Assets_3.1006.0-alpha.198.zip"
-        },
-        {
           "Id": "VirtoCommerce.WebHooks",
           "BlobName": "VirtoCommerce.WebHooks_3.1005.0-alpha.354.zip"
         },
@@ -290,14 +286,6 @@
           "BlobName": "VirtoCommerce.Marketing_3.1007.0-alpha.937.zip"
         },
         {
-          "Id": "VirtoCommerce.Orders",
-          "BlobName": "VirtoCommerce.Orders_3.1011.0-alpha.1429.zip"
-        },
-        {
-          "Id": "VirtoCommerce.XOrder",
-          "BlobName": "VirtoCommerce.XOrder_3.1007.0-alpha.118.zip"
-        },
-        {
           "Id": "VirtoCommerce.CustomerExportImport",
           "BlobName": "VirtoCommerce.CustomerExportImport_3.1002.0-alpha.220.zip"
         },
@@ -316,10 +304,6 @@
         {
           "Id": "VirtoCommerce.Xapi",
           "BlobName": "VirtoCommerce.Xapi_3.1013.0-alpha.183.zip"
-        },
-        {
-          "Id": "VirtoCommerce.XCart",
-          "BlobName": "VirtoCommerce.XCart_3.1024.0-alpha.255.zip"
         },
         {
           "Id": "Virtocommerce.UCP",
@@ -364,6 +348,22 @@
         {
           "Id": "VirtoCommerce.Cart",
           "BlobName": "VirtoCommerce.Cart_3.1007.0-alpha.800.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Orders",
+          "BlobName": "VirtoCommerce.Orders_3.1011.0-alpha.1432.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XCart",
+          "BlobName": "VirtoCommerce.XCart_3.1025.0-alpha.257.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XOrder",
+          "BlobName": "VirtoCommerce.XOrder_3.1007.0-alpha.121.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Assets",
+          "BlobName": "VirtoCommerce.Assets_3.1006.0-alpha.202.zip"
         }
       ]
     }
