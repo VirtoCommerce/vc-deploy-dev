@@ -338,10 +338,6 @@
           "BlobName": "VirtoCommerce.SalesRep_3.1000.0-pr-2-afef.zip"
         },
         {
-          "Id": "VirtoCommerce.XCatalog",
-          "BlobName": "VirtoCommerce.XCatalog_3.1010.0-alpha.205.zip"
-        },
-        {
           "Id": "VirtoCommerce.Xapi",
           "BlobName": "VirtoCommerce.Xapi_3.1013.0-alpha.183.zip"
         },
@@ -364,6 +360,10 @@
         {
           "Id": "VirtoCommerce.PageBuilderModule",
           "BlobName": "VirtoCommerce.PageBuilderModule_3.1016.0-alpha.839.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XCatalog",
+          "BlobName": "VirtoCommerce.XCatalog_3.1011.0-alpha.207.zip"
         }
       ]
     }
