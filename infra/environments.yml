@@ -33,7 +33,7 @@
       imageTag: 1.3.2
       servicePlan: B1
       type: standalone
-      hostname: virtooz-dev.govirto.com
+      hostname: virtooz-qa.govirto.com
       probePath: /
       ingressPath: /
       config:
@@ -43,7 +43,7 @@
         RESTARTED_AT: 2026-07-08T01:30
         VIRTO_OZ_CHECKPOINTER__TYPE: postgres
         VIRTO_OZ_LLM__SUBAGENT__TIMEOUT: 300
-        VIRTO_OZ_MCP__AUTH__BASE_URL: https://virtooz-dev.govirto.com
+        VIRTO_OZ_MCP__AUTH__BASE_URL: https://virtooz-qa.govirto.com
         VIRTO_OZ_MCP__AUTH__STORAGE__AUTH__TYPE: entra_id
         VIRTO_OZ_MCP__AUTH__STORAGE__HOST: virtooz.eastus.redis.azure.net
         VIRTO_OZ_MCP__AUTH__STORAGE__PORT: 10000
