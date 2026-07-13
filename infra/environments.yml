@@ -143,7 +143,7 @@
       PushMessages__FcmReceiverOptions__MessagingSenderId: 691497305246
       PushMessages__FcmReceiverOptions__AppId: 1:691497305246:web:d7a9cfead5daac661d678f
       PushMessages__FcmReceiverOptions__VapidKey: BBZaEhlEb6fcpLMxGC2ylQH2eQWTx4n6kZDWcrGebQjJiMr8w_3nF5U8zspbE_eeCV6YoFNyv7IrNLspmToBcjE
-      Reload: 2026-06-18
+      Reload: 2026-07-02
     secretConfig:
       AI__OpenAI__ApiKey: openai-api-key
       Notifications__SendGrid__ApiKey: sendkey
@@ -167,8 +167,8 @@
   storefront:
     enabled: false
     themes:
-      B2B-store: https://github.com/VirtoCommerce/vc-frontend/releases/download/2.51.0/vc-theme-b2b-vue-2.51.0.zip
-      B2B-loyalty: https://github.com/VirtoCommerce/vc-frontend/releases/download/2.51.0/vc-theme-b2b-vue-2.51.0.zip
+      B2B-store: https://github.com/VirtoCommerce/vc-frontend/releases/download/2.52.0/vc-theme-b2b-vue-2.52.0.zip
+      B2B-loyalty: https://github.com/VirtoCommerce/vc-frontend/releases/download/2.52.0/vc-theme-b2b-vue-2.52.0.zip
     headers:
         Cross-Origin-Embedder-Policy: unsafe-none
         Cross-Origin-Resource-Policy: cross-origin
