@@ -332,10 +332,6 @@
           "Version": "3.1007.0"
         },
         {
-          "Id": "VirtoCommerce.XCart",
-          "Version": "3.1025.0"
-        },
-        {
           "Id": "VirtoCommerce.XOrder",
           "Version": "3.1007.0"
         },
@@ -350,6 +346,10 @@
         {
           "Id": "VirtoCommerce.PageBuilderModule",
           "Version": "3.1016.0"
+        },
+        {
+          "Id": "VirtoCommerce.XCart",
+          "Version": "3.1026.0"
         }
       ]
     },
