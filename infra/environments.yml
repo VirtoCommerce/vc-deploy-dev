@@ -296,8 +296,8 @@
       IdentityOptions__Password__requiredUniqueChars: 2
       IdentityOptions__Password__PasswordChangeByAdminEnabled: true
       IdentityOptions__Lockout__AutoAccountsLockoutJobEnabled: true
-      IdentityOptions__Lockout__LockoutMaximumDaysFromLastLogin: 3
-      IdentityOptions__Lockout__CronAutoAccountsLockoutJob: 0/5 * * * *
+      IdentityOptions__Lockout__LockoutMaximumDaysFromLastLogin: 365
+      IdentityOptions__Lockout__CronAutoAccountsLockoutJob: 0 0 4 * * *
       IdentityOptions__Lockout__AutoAccountsLockoutJobBatchSize: 18
       IdentityOptions__User__RemindPasswordExpiryInDays: 10
       IdentityOptions__User__MaxPasswordAge: 90
