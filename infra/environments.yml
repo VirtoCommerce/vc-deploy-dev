@@ -108,7 +108,7 @@
       Search__PickupLocationFullTextSearchEnabled: true
 
       # Background jobs settings
-      VirtoCommerce__BackgroundJobs__Provider: RabbitMQ
+      VirtoCommerce__BackgroundJobs__Provider: Hangfire
       
       # Prevent Hangfire duplication key error
       VirtoCommerce__Hangfire__SqlServerStorageOptions__TryAutoDetectSchemaDependentOptions: true
@@ -139,7 +139,6 @@
       PushMessages__FcmReceiverOptions__AppId: 1:518395609520:web:53952423cba605aa771675
       PushMessages__FcmReceiverOptions__VapidKey: BE1iGYmRsbdI1FB-qTiIUvGrWvC91GCfnXSHtfzcPLgXfQ28fbpKFlD8YlbI7w-aHVepW3Ih17oRB53ceYNaM6k
       Weaviate__Url: https://7eartzd1rmkxr9ytfle8aw.c0.us-west3.gcp.weaviate.cloud
-      VirtoCommerce__RabbitMQ__Uri: amqps://wadqdkya:8Sy8KOhaSg0VjQd6KYc49pm0IzhXamx_@fly.rmq.cloudamqp.com/wadqdkya
       # Temporary settings below
       Shipping__IsPickupEnabled: true      
     secretConfig:
@@ -160,7 +159,7 @@
       GoogleSSO__ApplicationId: googlesso-aplicationid
       GoogleSSO__Secret: googlesso-secret
       PushNotifications__HubUrl: pushnotifications-huburl-vcst-dev
-      #VirtoCommerce__RabbitMQ__Uri: rabbitmq-uri-dev
+      VirtoCommerce__RabbitMQ__Uri: rabbitmq-uri-dev
   storefront:
     headers:
       Cross-Origin-Resource-Policy: cross-origin
