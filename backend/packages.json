@@ -11,9 +11,6 @@
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
         {
-          "BlobName": "VirtoCommerce.AIDocumentProcessing_3.902.0-pr-8-2047.zip"
-        },
-        {
           "BlobName": "VirtoCommerce.PowerBiReports_3.802.0-alpha.60.zip"
         }
       ]
