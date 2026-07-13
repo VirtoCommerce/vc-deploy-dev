@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.1043.0",
+  "PlatformVersion": "3.1044.0-alpha.13351-vcst-5245",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.1043.0",
+  "PlatformImageTag": "3.1044.0-pr-3056-f389-vcst-5245-f3893990",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -10,6 +10,12 @@
       "Container": "packages",
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
+        {
+          "BlobName": "VirtoCommerce.BackgroundJobs_3.1000.0-pr-2-b81c.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.BackgroundJobs.SampleModule_20260712_01.zip"
+        },
         {
           "BlobName": "VirtoCommerce.Customer_3.1014.0-pr-304-aa70.zip"
         },

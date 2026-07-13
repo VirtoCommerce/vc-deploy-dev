@@ -106,6 +106,9 @@
       Search__OrderFullTextSearchEnabled: true
       Search__ContentFullTextSearchEnabled: true
       Search__PickupLocationFullTextSearchEnabled: true
+
+      # Background jobs settings
+      VirtoCommerce__BackgroundJobs__Provider: RabbitMQ
       
       # Prevent Hangfire duplication key error
       VirtoCommerce__Hangfire__SqlServerStorageOptions__TryAutoDetectSchemaDependentOptions: true
@@ -156,6 +159,7 @@
       GoogleSSO__ApplicationId: googlesso-aplicationid
       GoogleSSO__Secret: googlesso-secret
       PushNotifications__HubUrl: pushnotifications-huburl-vcst-dev
+      VirtoCommerce__BackgroundJobs__RabbitMQ__Uri: rabbitmq-uri-dev
   storefront:
     headers:
       Cross-Origin-Resource-Policy: cross-origin
