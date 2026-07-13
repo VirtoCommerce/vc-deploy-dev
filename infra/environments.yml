@@ -159,7 +159,7 @@
       GoogleSSO__ApplicationId: googlesso-aplicationid
       GoogleSSO__Secret: googlesso-secret
       PushNotifications__HubUrl: pushnotifications-huburl-vcst-dev
-      VirtoCommerce__BackgroundJobs__RabbitMQ__Uri: rabbitmq-uri-dev
+      VirtoCommerce__RabbitMQ__Uri: rabbitmq-uri-dev
   storefront:
     headers:
       Cross-Origin-Resource-Policy: cross-origin
