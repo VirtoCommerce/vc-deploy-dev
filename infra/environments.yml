@@ -61,7 +61,7 @@
         VIRTO_OZ_CHECKPOINTER__TYPE: postgres
         VIRTO_OZ_LLM__SUBAGENT__TIMEOUT: 300
         VIRTO_OZ_MCP__AUTH__BASE_URL: https://virtooz.govirto.com
-        VIRTO_OZ_MCP__AUTH__STORAGE__AUTH__TYPE: password
+        VIRTO_OZ_MCP__AUTH__STORAGE__AUTH__TYPE: entra_id
         VIRTO_OZ_MCP__AUTH__STORAGE__HOST: virtooz.eastus.redis.azure.net
         VIRTO_OZ_MCP__AUTH__STORAGE__PORT: 10000
         VIRTO_OZ_MCP__AUTH__STORAGE__TYPE: redis
@@ -75,7 +75,7 @@
         TENANTS__VCCOM_DEV__PLATFORM__AUTH__CLIENT_SECRET: vcpt-virtooz-vccom-dev-client-secret
         VIRTO_OZ_CHECKPOINTER__CONNECTION_STRING: vcpt-virtooz-checkpointer-connection-string
         VIRTO_OZ_MCP__AUTH__SIGNING_KEY: vcpt-virtooz-mcp-auth-signing-key
-        VIRTO_OZ_MCP__AUTH__STORAGE__AUTH__PASSWORD: vcpt-virtooz-mcp-auth-storage-auth-password
+        #VIRTO_OZ_MCP__AUTH__STORAGE__AUTH__PASSWORD: vcpt-virtooz-mcp-auth-storage-auth-password
         VIRTO_OZ_MCP__AUTH__STORAGE__ENCRYPTION_KEY: vcpt-virtooz-mcp-auth-storage-encryption-key
     app2:
       enabled: false
