@@ -40,13 +40,21 @@
           "BlobName": "VirtoCommerce.SystemOperations_3.1000.0-alpha.01.zip"
         },
         {
-          "Id": "VirtoCommerce.Search",
-          "BlobName": "VirtoCommerce.Search_3.1006.0-pr-142-28ca.zip"
-        },
-        {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.1012.0-pr-138-3176.zip"
-        }
+        },
+        {
+          "Id": "VirtoCommerce.Store",
+          "BlobName": "VirtoCommerce.Store_3.1006.0-alpha.786-vcst-5089.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Xapi",
+          "BlobName": "VirtoCommerce.Xapi_3.1014.0-pr-77-97f8.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XCatalog",
+          "BlobName": "VirtoCommerce.XCatalog_3.1013.0-pr-104-fb57.zip"
+        }        
       ]
     },
     {
@@ -299,6 +307,10 @@
           "Id": "VirtoCommerce.Seo",
           "Version": "3.1004.0"
         },
+         {
+          "Id": "VirtoCommerce.Search",
+          "Version": "3.1006.0"
+        },
         {
           "Id": "VirtoCommerce.Shipping",
           "Version": "3.1005.0"
@@ -317,10 +329,6 @@
         },
         {
           "Id": "VirtoCommerce.SqlQueries",
-          "Version": "3.1005.0"
-        },
-        {
-          "Id": "VirtoCommerce.Store",
           "Version": "3.1005.0"
         },
         {
@@ -352,16 +360,8 @@
           "Version": "3.1002.0"
         },
         {
-          "Id": "VirtoCommerce.Xapi",
-          "Version": "3.1013.0"
-        },
-        {
           "Id": "VirtoCommerce.XCart",
           "Version": "3.1026.0"
-        },
-        {
-          "Id": "VirtoCommerce.XCatalog",
-          "Version": "3.1011.0"
         },
         {
           "Id": "VirtoCommerce.XCMS",
