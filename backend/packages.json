@@ -316,10 +316,6 @@
           "Version": "3.1010.0"
         },
         {
-          "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.1011.0"
-        },
-        {
           "Id": "VirtoCommerce.Cart",
           "Version": "3.1007.0"
         },
@@ -346,6 +342,10 @@
         {
           "Id": "VirtoCommerce.Search",
           "Version": "3.1006.0"
+        },
+        {
+          "Id": "VirtoCommerce.ProfileExperienceApiModule",
+          "Version": "3.1012.0"
         }
       ]
     },
