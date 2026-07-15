@@ -80,7 +80,7 @@
       VirtoCommerce__DefaultStore: B2B-store
       VirtoCommerce__Endpoint__Password: store
     themes:
-      B2B-store: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-2.36.0-alpha.2135-2.36.zip
+      B2B-store: https://github.com/VirtoCommerce/vc-frontend/releases/download/2.39.0/vc-theme-b2b-vue-2.39.0.zip
       Electronics: https://github.com/VirtoCommerce/vc-theme-default/releases/download/2.1.13/vc-theme-default-2.1.13.zip
     headers:
         Cross-Origin-Embedder-Policy: unsafe-none
