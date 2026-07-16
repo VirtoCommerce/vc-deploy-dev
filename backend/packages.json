@@ -54,7 +54,11 @@
         {
           "Id": "VirtoCommerce.XCatalog",
           "BlobName": "VirtoCommerce.XCatalog_3.1013.0-pr-104-7ba4.zip"
-        }        
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "BlobName": "VirtoCommerce.Catalog_3.1036.0-pr-898-9a0e.zip"
+        }
       ]
     },
     {
@@ -110,10 +114,6 @@
         {
           "Id": "VirtoCommerce.Cart",
           "Version": "3.1007.0"
-        },
-        {
-          "Id": "VirtoCommerce.Catalog",
-          "Version": "3.1034.0"
         },
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
