@@ -24,6 +24,10 @@
           "BlobName": "VirtoCommerce.SalesRep_3.1000.0-pr-2-b4d6.zip"
         },
         {
+          "Id": "VirtoCommerce.Customer",
+          "BlobName": "VirtoCommerce.Customer_3.1015.0-pr-308-8cd7.zip"
+        },
+        {
           "Id": "VirtoCommerce.AlgoliaSearch_3.801.0",
           "BlobName": "VirtoCommerce.AlgoliaSearch_3.801.0-pr-3-a62c.zip"
         },
@@ -142,10 +146,6 @@
         {
           "Id": "VirtoCommerce.Core",
           "Version": "3.1007.0"
-        },
-        {
-          "Id": "VirtoCommerce.Customer",
-          "Version": "3.1014.0"
         },
         {
           "Id": "VirtoCommerce.CustomerExportImport",
