@@ -24,10 +24,6 @@
           "BlobName": "VirtoCommerce.SalesRep_3.1000.0-pr-2-6d2f.zip"
         },
         {
-          "Id": "VirtoCommerce.Customer",
-          "BlobName": "VirtoCommerce.Customer_3.1015.0-pr-309-0000.zip"
-        },
-        {
           "Id": "VirtoCommerce.AlgoliaSearch_3.801.0",
           "BlobName": "VirtoCommerce.AlgoliaSearch_3.801.0-pr-3-a62c.zip"
         },
@@ -62,6 +58,10 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "BlobName": "VirtoCommerce.Catalog_3.1036.0-pr-898-9a0e.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Customer",
+          "BlobName": "VirtoCommerce.Customer_3.1016.0.zip"
         }
       ]
     },
@@ -307,7 +307,7 @@
           "Id": "VirtoCommerce.Seo",
           "Version": "3.1004.0"
         },
-         {
+        {
           "Id": "VirtoCommerce.Search",
           "Version": "3.1006.0"
         },
