@@ -12,7 +12,9 @@ jobs:
   gitops:
     strategy:
       matrix:
-        store: [B2B-store]
+        # The storefront resolves its theme by ROUTE ROOT, which is "FE" on this env
+        # (not the platform store id "B2B-store"). Target the key the storefront actually reads.
+        store: [FE]
     runs-on: ubuntu-latest
     env:
       ARGO_APP_NAME: ${{ github.ref_name }}
