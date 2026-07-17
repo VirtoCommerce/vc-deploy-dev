@@ -336,16 +336,16 @@
           "Version": "3.1012.0"
         },
         {
-          "Id": "VirtoCommerce.Customer",
-          "Version": "3.1015.0"
-        },
-        {
           "Id": "VirtoCommerce.Notifications",
           "Version": "3.1011.0"
         },
         {
           "Id": "VirtoCommerce.UCP",
           "Version": "3.1002.0"
+        },
+        {
+          "Id": "VirtoCommerce.Customer",
+          "Version": "3.1016.0"
         }
       ]
     },
