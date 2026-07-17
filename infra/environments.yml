@@ -143,6 +143,16 @@
       PushMessages__FcmReceiverOptions__MessagingSenderId: 691497305246
       PushMessages__FcmReceiverOptions__AppId: 1:691497305246:web:d7a9cfead5daac661d678f
       PushMessages__FcmReceiverOptions__VapidKey: BBZaEhlEb6fcpLMxGC2ylQH2eQWTx4n6kZDWcrGebQjJiMr8w_3nF5U8zspbE_eeCV6YoFNyv7IrNLspmToBcjE
+
+      #UCP
+      UCP__DefaultStoreId: B2B-store
+      UCP__DefaultCurrency: USD
+      UCP__DefaultCultureName: en-US
+      UCP__StorefrontOrigin: "https://virtostart-demo-store.govirto.com"
+      UCP__UcpBaseUrl: "https://virtostart-demo-store.govirto.com/ucp/v1"
+      UCP__HandoffUrlTemplate: "https://virtostart-demo-store.govirto.com/checkout?ucp_session={token}"
+      UCP__HandoffTokenTtlMinutes: 15
+
       Reload: 2026-07-02
     secretConfig:
       AI__OpenAI__ApiKey: openai-api-key
@@ -234,6 +244,10 @@
     - path: /signin-oidc
       route: platform
     - path: /signin-google
+      route: platform
+    - path: /ucp
+      route: platform
+    - path: /.well-known/ucp
       route: platform
   - host: virtostart-loyalty-store.govirto.com
     root: B2B-loyalty
