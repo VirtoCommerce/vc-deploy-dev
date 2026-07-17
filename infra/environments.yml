@@ -15,6 +15,22 @@
       service: redis-uat-vc03-redis-cluster.redis-cluster:6379
     config:
       APPINSIGHTS_INSTRUMENTATIONKEY: 2c32e0ab-0e97-4937-b03c-b2b1c7573454
+      # --- Page Builder / CMS slug resolution (added 2026-07-17) ---
+      # Published Page Builder pages resolved right after publish but decayed (storefront fell
+      # back to default home.vue) once a scheduled full reindex ran. Two config keys keep them
+      # resolvable durably, matching the vcptcore-demo env. NOTE: intentionally NOT copying demo's
+      # search server / DocumentScopes / blob / secrets — aidemo already has a working ElasticSearch8
+      # backend on its own scope (vcptcore-aidemo-platformvcptcore); only these two keys are added.
+      #
+      # SEO resolver order — Pages first so a published page at a permalink wins slug resolution.
+      Seo__SeoInfoResolver__0: Pages
+      Seo__SeoInfoResolver__1: ContentFile
+      Seo__SeoInfoResolver__2: Catalog
+      Seo__SeoInfoResolver__3: Brand
+      Seo__SeoInfoResolver__4: Category
+      Seo__SeoInfoResolver__5: CatalogProduct
+      # Include content/pages in the full (scheduled) reindex so they aren't dropped between publishes.
+      Search__ContentFullTextSearchEnabled: true
   storefront:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/storefront
     imageTag: 6.0
