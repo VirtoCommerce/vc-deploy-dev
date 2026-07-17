@@ -318,10 +318,6 @@
           "BlobName": "VirtoCommerce.XCatalog_3.1011.0-alpha.207.zip"
         },
         {
-          "Id": "VirtoCommerce.UCP",
-          "BlobName": "VirtoCommerce.UCP_3.1001.0-alpha.7.zip"
-        },
-        {
           "Id": "VirtoCommerce.EventBus",
           "BlobName": "VirtoCommerce.EventBus_3.1010.0-alpha.203.zip"
         },
@@ -364,6 +360,10 @@
         {
           "Id": "VirtoCommerce.Notifications",
           "BlobName": "VirtoCommerce.Notifications_3.1011.0-alpha.484.zip"
+        },
+        {
+          "Id": "VirtoCommerce.UCP",
+          "BlobName": "VirtoCommerce.UCP_3.1002.0-alpha.10.zip"
         }
       ]
     }
