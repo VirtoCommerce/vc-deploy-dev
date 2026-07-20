@@ -490,7 +490,7 @@
     - path: /signin-google
       route: platform
 
-    - host: vcptcore-qa-loyalty.govirto.com
+  - host: vcptcore-qa-loyalty.govirto.com
     root: B2B-loyalty
     paths:
     - path: /xapi
