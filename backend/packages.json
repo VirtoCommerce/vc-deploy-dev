@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.1045.0-pr-3079-7db6-vcst-5495-7db6828e",
+  "PlatformVersion": "3.1045.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.1045.0-pr-3079-7db6-vcst-5495-7db6828e",
+  "PlatformImageTag": "3.1045.0",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
   ],
@@ -24,10 +24,6 @@
           "BlobName": "VirtoCommerce.SalesRep_3.1000.0-pr-2-6d2f.zip"
         },
         {
-          "Id": "VirtoCommerce.Customer",
-          "BlobName": "VirtoCommerce.Customer_3.1015.0-pr-309-0000.zip"
-        },
-        {
           "Id": "VirtoCommerce.AlgoliaSearch_3.801.0",
           "BlobName": "VirtoCommerce.AlgoliaSearch_3.801.0-pr-3-a62c.zip"
         },
@@ -42,26 +38,6 @@
         {
           "Id": "VirtoCommerce.SystemOperations.SampleExtension",
           "BlobName": "VirtoCommerce.SystemOperations_3.1000.0-alpha.01.zip"
-        },
-        {
-          "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.1012.0-pr-138-3176.zip"
-        },
-        {
-          "Id": "VirtoCommerce.Store",
-          "BlobName": "VirtoCommerce.Store_3.1006.0-pr-171-e5e1.zip"
-        },
-        {
-          "Id": "VirtoCommerce.Xapi",
-          "BlobName": "VirtoCommerce.Xapi_3.1014.0-pr-77-4518.zip"
-        },
-        {
-          "Id": "VirtoCommerce.XCatalog",
-          "BlobName": "VirtoCommerce.XCatalog_3.1013.0-pr-104-7ba4.zip"
-        },
-        {
-          "Id": "VirtoCommerce.Catalog",
-          "BlobName": "VirtoCommerce.Catalog_3.1036.0-pr-898-9a0e.zip"
         }
       ]
     },
@@ -120,6 +96,10 @@
           "Version": "3.1007.0"
         },
         {
+          "Id": "VirtoCommerce.Catalog",
+          "Version": "3.1034.0"
+        },
+        {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
           "Version": "3.1002.0"
         },
@@ -146,6 +126,10 @@
         {
           "Id": "VirtoCommerce.Core",
           "Version": "3.1007.0"
+        },
+        {
+          "Id": "VirtoCommerce.Customer",
+          "Version": "3.1016.0"
         },
         {
           "Id": "VirtoCommerce.CustomerExportImport",
@@ -241,7 +225,7 @@
         },
         {
           "Id": "VirtoCommerce.Notifications",
-          "Version": "3.1010.0"
+          "Version": "3.1011.0"
         },
         {
           "Id": "VirtoCommerce.OpenIdConnectModule",
@@ -288,6 +272,10 @@
           "Version": "3.1002.0"
         },
         {
+          "Id": "VirtoCommerce.ProfileExperienceApiModule",
+          "Version": "3.1012.0"
+        },
+        {
           "Id": "VirtoCommerce.PushMessages",
           "Version": "3.1004.0"
         },
@@ -304,12 +292,12 @@
           "Version": "3.1003.0"
         },
         {
-          "Id": "VirtoCommerce.Seo",
-          "Version": "3.1004.0"
-        },
-         {
           "Id": "VirtoCommerce.Search",
           "Version": "3.1006.0"
+        },
+        {
+          "Id": "VirtoCommerce.Seo",
+          "Version": "3.1004.0"
         },
         {
           "Id": "VirtoCommerce.Shipping",
@@ -332,6 +320,10 @@
           "Version": "3.1005.0"
         },
         {
+          "Id": "VirtoCommerce.Store",
+          "Version": "3.1005.0"
+        },
+        {
           "Id": "VirtoCommerce.Subscription",
           "Version": "3.1002.0"
         },
@@ -349,7 +341,7 @@
         },
         {
           "Id": "VirtoCommerce.UCP",
-          "Version": "3.1001.0"
+          "Version": "3.1002.0"
         },
         {
           "Id": "VirtoCommerce.WebHooks",
@@ -360,8 +352,16 @@
           "Version": "3.1002.0"
         },
         {
+          "Id": "VirtoCommerce.Xapi",
+          "Version": "3.1013.0"
+        },
+        {
           "Id": "VirtoCommerce.XCart",
           "Version": "3.1026.0"
+        },
+        {
+          "Id": "VirtoCommerce.XCatalog",
+          "Version": "3.1011.0"
         },
         {
           "Id": "VirtoCommerce.XCMS",
