@@ -81,6 +81,10 @@
       ],
       "Modules": [
         {
+          "Id": "VirtoCommerce.Loyalty",
+          "Version": "3.1004.0"
+        },
+        {
           "Id": "VirtoCommerce.ApplicationInsights",
           "Version": "3.1004.0"
         },
