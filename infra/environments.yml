@@ -262,9 +262,6 @@
       #Content__AzureBlobStorage__ConnectionString: DefaultEndpointsProtocol=https;AccountName=qademovc3;AccountKey=qPIpM63MI2P3ei6B1xIL4/DlKDqdsRj54z2GUtgCAeXPcMe8+mZiUvrvI5fjdyrovk331XmBlMFfAEFAjCnvtw==;EndpointSuffix=core.windows.net
       
       VirtoCommerce__StoreAssets__KnownAssetHosts__0: vcptcore-qa.govirto.com
-      VirtoCommerce__StoreAssets__KnownAssetHosts__1: vcst-qa.govirto.com
-      VirtoCommerce__StoreAssets__KnownAssetHosts__2: virtostart-main.govirto.com
-      VirtoCommerce__StoreAssets__KnownAssetHosts__3: vcmp-demo.govirto.com
       
       
       #VirtoCommerce__FileExtensionsWhiteList__0: ".pdf"
@@ -473,6 +470,8 @@
     paths:
     - path: /xapi
       route: platform
+    - path: /cms-content
+      route: platform
     - path: /files
       route: platform
     - path: /connect/token
@@ -494,6 +493,8 @@
     root: B2B-loyalty
     paths:
     - path: /xapi
+      route: platform
+    - path: /cms-content
       route: platform
     - path: /files
       route: platform
