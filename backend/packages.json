@@ -41,7 +41,7 @@
         },
         {
           "Id": "VirtoCommerce.Xapi",
-          "BlobName": "VirtoCommerce.Xapi_3.1014.0-alpha.194-vcst-5468.zip"
+          "BlobName": "VirtoCommerce.Xapi_3.1014.0-pr-77-4518.zip"
         },
         {
           "Id": "VirtoCommerce.XCart",
@@ -49,7 +49,7 @@
         },
         {
           "Id": "VirtoCommerce.XCatalog",
-          "BlobName": "VirtoCommerce.XCatalog_3.1013.0-pr-101-d8f0.zip"
+          "BlobName": "VirtoCommerce.XCatalog_3.1013.0-pr-104-7ba4.zip"
         },
         {
           "Id": "VirtoCommerce.Customer",
@@ -66,7 +66,12 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "BlobName": "VirtoCommerce.Catalog_3.1036.0-pr-897-9893.zip"
-        }
+        },
+        {
+          "Id": "VirtoCommerce.Store",
+          "BlobName": "VirtoCommerce.Store_3.1006.0-pr-171-e5e1.zip"
+        },
+        
       ]
     },
     {
@@ -333,10 +338,6 @@
         },
         {
           "Id": "VirtoCommerce.SqlQueries",
-          "Version": "3.1005.0"
-        },
-        {
-          "Id": "VirtoCommerce.Store",
           "Version": "3.1005.0"
         },
         {
