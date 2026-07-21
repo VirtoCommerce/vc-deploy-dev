@@ -280,10 +280,6 @@
           "Version": "3.1004.0"
         },
         {
-          "Id": "VirtoCommerce.Xapi",
-          "Version": "3.1013.0"
-        },
-        {
           "Id": "VirtoCommerce.BackupRestore",
           "Version": "3.1002.0"
         },
@@ -346,6 +342,10 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "Version": "3.1037.0"
+        },
+        {
+          "Id": "VirtoCommerce.Xapi",
+          "Version": "3.1014.0"
         }
       ]
     },
