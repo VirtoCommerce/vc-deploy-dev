@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.1046.0-pr-3056-2069-vcst-5245-20692ed1",
+  "PlatformVersion": "3.1046.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.1046.0-pr-3056-2069-vcst-5245-20692ed1",
+  "PlatformImageTag": "3.1046.0",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
   ],
@@ -75,7 +75,6 @@
           "Id": "VirtoCommerce.Store",
           "BlobName": "VirtoCommerce.Store_3.1006.0-pr-171-e5e1.zip"
         }
-        
       ]
     },
     {
