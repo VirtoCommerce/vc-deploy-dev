@@ -15,7 +15,10 @@
       },
       {
         "BlobName": "VirtoCommerce.SalesRep_3.1000.0-pr-2-8c40.zip"
-      }
+      },
+      {
+        "BlobName": "VirtoCommerce.PageBuilderModule_3.1017.0-pr-156-59d4.zip"
+      }      
     ]
     },
     {
@@ -315,11 +318,7 @@
         {
           "Id": "VirtoCommerce.BackupRestore",
           "Version": "3.1002.0"
-        },
-        {
-          "Id": "VirtoCommerce.PageBuilderModule",
-          "Version": "3.1016.0"
-        },
+        },    
         {
           "Id": "VirtoCommerce.XCatalog",
           "Version": "3.1011.0"
