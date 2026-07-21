@@ -290,10 +290,6 @@
           "BlobName": "VirtoCommerce.TaskManagement_3.1005.0-alpha.204.zip"
         },
         {
-          "Id": "VirtoCommerce.Xapi",
-          "BlobName": "VirtoCommerce.Xapi_3.1013.0-alpha.183.zip"
-        },
-        {
           "Id": "Virtocommerce.UCP",
           "BlobName": "Virtocommerce.UCP_3.1000.0-alpha.5.zip"
         },
@@ -364,6 +360,10 @@
         {
           "Id": "VirtoCommerce.Store",
           "BlobName": "VirtoCommerce.Store_3.1006.0-alpha.787.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Xapi",
+          "BlobName": "VirtoCommerce.Xapi_3.1014.0-alpha.186.zip"
         }
       ]
     }
