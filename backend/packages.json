@@ -39,6 +39,10 @@
           "Id": "VirtoCommerce.SystemOperations.SampleExtension",
           "BlobName": "VirtoCommerce.SystemOperations_3.1000.0-alpha.01.zip"
         },
+         {
+          "Id": "VirtoCommerce.BackgroundJobs.SampleModule",
+          "BlobName": "VirtoCommerce.BackgroundJobs.SampleModule_20260712_01.zip"
+        },
         {
           "Id": "VirtoCommerce.BackgroundJobs",
           "BlobName": "VirtoCommerce.BackgroundJobs_3.1000.0-pr-2-9c5f.zip"
