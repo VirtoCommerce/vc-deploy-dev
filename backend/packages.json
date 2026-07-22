@@ -304,10 +304,6 @@
           "Version": "3.1012.0"
         },
         {
-          "Id": "VirtoCommerce.PageBuilderModule",
-          "Version": "3.1016.0"
-        },
-        {
           "Id": "VirtoCommerce.XCart",
           "Version": "3.1026.0"
         },
@@ -346,6 +342,10 @@
         {
           "Id": "VirtoCommerce.XCatalog",
           "Version": "3.1013.0"
+        },
+        {
+          "Id": "VirtoCommerce.PageBuilderModule",
+          "Version": "3.1017.0"
         }
       ]
     },
