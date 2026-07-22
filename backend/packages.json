@@ -78,8 +78,11 @@
         {
           "Id": "VirtoCommerce.Store",
           "BlobName": "VirtoCommerce.Store_3.1006.0-pr-171-e5e1.zip"
+        },
+        {
+          "Id": "VirtoCommerce.UCP",
+          "BlobName": "VirtoCommerce.UCP_3.1003.0.zip"
         }
-        
       ]
     },
     {
@@ -363,10 +366,6 @@
         {
           "Id": "VirtoCommerce.TaskManagement",
           "Version": "3.1004.0"
-        },
-        {
-          "Id": "VirtoCommerce.UCP",
-          "Version": "3.1002.0"
         },
         {
           "Id": "VirtoCommerce.WebHooks",
