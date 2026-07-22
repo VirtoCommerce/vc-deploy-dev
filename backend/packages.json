@@ -6,17 +6,17 @@
   "PlatformAssetUrl": "",
   "Sources": [
     {
-    "Name": "AzureBlob",
-    "Container": "packages",
-    "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
-    "Modules": [
-      {
-        "BlobName": "VirtoCommerce.Loyalty_3.1005.0-pr-14-7177.zip"
-      },
-      {
-        "BlobName": "VirtoCommerce.SalesRep_3.1000.0-pr-2-8c40.zip"
-      },
-    ]
+      "Name": "AzureBlob",
+      "Container": "packages",
+      "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
+      "Modules": [
+        {
+          "BlobName": "VirtoCommerce.Loyalty_3.1005.0-pr-14-7177.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.SalesRep_3.1000.0-pr-2-8c40.zip"
+        }
+      ]
     },
     {
       "Name": "GithubReleases",
@@ -24,7 +24,7 @@
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
       "Modules": [  
-       {
+        {
           "Id": "VirtoCommerce.ElasticSearch",
           "Version": "3.806.0"
         },
