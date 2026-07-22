@@ -78,8 +78,11 @@
         {
           "Id": "VirtoCommerce.Store",
           "BlobName": "VirtoCommerce.Store_3.1006.0-pr-171-e5e1.zip"
+        },
+        {
+          "Id": "VirtoCommerce.PageBuilderModule",
+          "BlobName": "VirtoCommerce.PageBuilderModule_3.1017.0.zip"
         }
-        
       ]
     },
     {
@@ -283,10 +286,6 @@
         {
           "Id": "VirtoCommerce.Orders",
           "Version": "3.1012.0"
-        },
-        {
-          "Id": "VirtoCommerce.PageBuilderModule",
-          "Version": "3.1016.0"
         },
         {
           "Id": "VirtoCommerce.Pages",
