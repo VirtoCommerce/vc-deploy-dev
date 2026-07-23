@@ -182,10 +182,6 @@
           "BlobName": "VirtoCommerce.Export_3.1004.0-alpha.285.zip"
         },
         {
-          "Id": "VirtoCommerce.Tax",
-          "BlobName": "VirtoCommerce.Tax_3.1004.0-alpha.231.zip"
-        },
-        {
           "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
           "BlobName": "VirtoCommerce.GoogleEcommerceAnalytics_4.1003.0-alpha.233.zip"
         },
@@ -364,6 +360,10 @@
         {
           "Id": "VirtoCommerce.BackupRestore",
           "BlobName": "VirtoCommerce.BackupRestore_3.1003.0-alpha.13.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Tax",
+          "BlobName": "VirtoCommerce.Tax_3.1004.0-alpha.236.zip"
         }
       ]
     }
