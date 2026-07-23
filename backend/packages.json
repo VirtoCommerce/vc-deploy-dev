@@ -336,16 +336,16 @@
           "Version": "3.1038.0"
         },
         {
-          "Id": "VirtoCommerce.Customer",
-          "Version": "3.1019.0"
-        },
-        {
           "Id": "VirtoCommerce.Shipping",
           "Version": "3.1006.0"
         },
         {
           "Id": "VirtoCommerce.XCart",
           "Version": "3.1028.0"
+        },
+        {
+          "Id": "VirtoCommerce.Customer",
+          "Version": "3.1020.0"
         }
       ]
     },
