@@ -62,6 +62,10 @@
         {
           "Id": "VirtoCommerce.Tax",
           "BlobName": "VirtoCommerce.Tax_3.1003.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Xapi",
+          "BlobName": "VirtoCommerce.Xapi_3.1015.0.zip"
         }
       ]
     },
@@ -74,10 +78,6 @@
         {
           "Id": "VirtoCommerce.Loyalty",
           "Version": "3.1004.0"
-        },
-        {
-          "Id": "VirtoCommerce.Xapi",
-          "Version": "3.1014.0"
         },
         {
           "Id": "VirtoCommerce.ApplicationInsights",
