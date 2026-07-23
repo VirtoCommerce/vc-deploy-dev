@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.1043.0",
+  "PlatformVersion": "3.1046.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.1043.0",
+  "PlatformImageTag": "3.1046.0",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
   ],
@@ -93,7 +93,7 @@
         },
         {
           "Id": "VirtoCommerce.Catalog",
-          "Version": "3.1034.0"
+          "Version": "3.1037.0"
         },
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
@@ -125,7 +125,7 @@
         },
         {
           "Id": "VirtoCommerce.Customer",
-          "Version": "3.1014.0"
+          "Version": "3.1016.0"
         },
         {
           "Id": "VirtoCommerce.CustomerExportImport",
@@ -221,7 +221,7 @@
         },
         {
           "Id": "VirtoCommerce.Notifications",
-          "Version": "3.1010.0"
+          "Version": "3.1011.0"
         },
         {
           "Id": "VirtoCommerce.OpenIdConnectModule",
@@ -245,7 +245,7 @@
         },
         {
           "Id": "VirtoCommerce.PageBuilderModule",
-          "Version": "3.1016.0"
+          "Version": "3.1017.0"
         },
         {
           "Id": "VirtoCommerce.Pages",
@@ -269,7 +269,7 @@
         },
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.1011.0"
+          "Version": "3.1012.0"
         },
         {
           "Id": "VirtoCommerce.PushMessages",
@@ -289,7 +289,7 @@
         },
         {
           "Id": "VirtoCommerce.Search",
-          "Version": "3.1005.0"
+          "Version": "3.1006.0"
         },
         {
           "Id": "VirtoCommerce.Seo",
@@ -317,7 +317,7 @@
         },
         {
           "Id": "VirtoCommerce.Store",
-          "Version": "3.1005.0"
+          "Version": "3.1006.0"
         },
         {
           "Id": "VirtoCommerce.Subscription",
@@ -337,7 +337,7 @@
         },
         {
           "Id": "VirtoCommerce.UCP",
-          "Version": "3.1001.0"
+          "Version": "3.1003.0"
         },
         {
           "Id": "VirtoCommerce.WebHooks",
@@ -349,7 +349,7 @@
         },
         {
           "Id": "VirtoCommerce.Xapi",
-          "Version": "3.1013.0"
+          "Version": "3.1014.0"
         },
         {
           "Id": "VirtoCommerce.XCart",
@@ -357,7 +357,7 @@
         },
         {
           "Id": "VirtoCommerce.XCatalog",
-          "Version": "3.1011.0"
+          "Version": "3.1013.0"
         },
         {
           "Id": "VirtoCommerce.XCMS",
