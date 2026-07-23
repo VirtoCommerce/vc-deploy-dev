@@ -62,6 +62,10 @@
         {
           "Id": "VirtoCommerce.Tax",
           "BlobName": "VirtoCommerce.Tax_3.1003.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Shipping",
+          "BlobName": "VirtoCommerce.Shipping_3.1006.0.zip"
         }
       ]
     },
@@ -318,10 +322,6 @@
         {
           "Id": "VirtoCommerce.Seo",
           "Version": "3.1004.0"
-        },
-        {
-          "Id": "VirtoCommerce.Shipping",
-          "Version": "3.1005.0"
         },
         {
           "Id": "VirtoCommerce.ShipStation",
