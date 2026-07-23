@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.1046.0",
+  "PlatformVersion": "3.1046.0-pr-3056-2069-vcst-5245-20692ed1",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.1046.0",
+  "PlatformImageTag": "3.1046.0-pr-3056-2069-vcst-5245-20692ed1",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
   ],
