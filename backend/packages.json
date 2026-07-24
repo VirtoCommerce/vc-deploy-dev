@@ -54,6 +54,10 @@
         {
           "Id": "VirtoCommerce.Tax",
           "BlobName": "VirtoCommerce.Tax_3.1003.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Notifications",
+          "BlobName": "VirtoCommerce.Notifications_3.1012.0-pr-201-dde7.zip"
         }
       ]
     },
@@ -238,10 +242,6 @@
         {
           "Id": "VirtoCommerce.News",
           "Version": "3.1004.0"
-        },
-        {
-          "Id": "VirtoCommerce.Notifications",
-          "Version": "3.1011.0"
         },
         {
           "Id": "VirtoCommerce.OpenIdConnectModule",
