@@ -346,6 +346,10 @@
         {
           "Id": "VirtoCommerce.AzureSearch",
           "Version": "3.1005.0"
+        },
+        {
+          "Id": "VirtoCommerce.BackgroundJobs",
+          "Version": "3.1050.0"
         }
       ]
     },
