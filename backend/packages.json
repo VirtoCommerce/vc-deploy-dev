@@ -62,10 +62,6 @@
           "BlobName": "VirtoCommerce.OpenIdConnectModule_3.1002.0-alpha.45.zip"
         },
         {
-          "Id": "VirtoCommerce.BackInStock",
-          "BlobName": "VirtoCommerce.BackInStock_3.1002.0-alpha.56.zip"
-        },
-        {
           "Id": "VirtoCommerce.OrderManagement",
           "BlobName": "VirtoCommerce.OrderManagement_3.1003.0-alpha.43.zip"
         },
@@ -368,6 +364,10 @@
         {
           "Id": "VirtoCommerce.Skyflow",
           "BlobName": "VirtoCommerce.Skyflow_3.1004.0-alpha.81.zip"
+        },
+        {
+          "Id": "VirtoCommerce.BackInStock",
+          "BlobName": "VirtoCommerce.BackInStock_3.1002.0-alpha.62.zip"
         }
       ]
     }
