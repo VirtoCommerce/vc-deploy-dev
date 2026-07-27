@@ -58,6 +58,10 @@
         {
           "Id": "VirtoCommerce.Tax",
           "BlobName": "VirtoCommerce.Tax_3.1003.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Skyflow",
+          "BlobName": "VirtoCommerce.Skyflow_3.1004.0.zip"
         }
       ]
     },
@@ -321,10 +325,6 @@
         },
         {
           "Id": "VirtoCommerce.Sitemaps",
-          "Version": "3.1003.0"
-        },
-        {
-          "Id": "VirtoCommerce.Skyflow",
           "Version": "3.1003.0"
         },
         {
