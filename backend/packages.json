@@ -168,10 +168,6 @@
           "Version": "3.1002.0"
         },
         {
-          "Id": "VirtoCommerce.Contracts",
-          "Version": "3.1003.0"
-        },
-        {
           "Id": "VirtoCommerce.AuthorizeNetPayment",
           "Version": "3.1003.0"
         },
@@ -350,6 +346,10 @@
         {
           "Id": "VirtoCommerce.WhiteLabeling",
           "Version": "3.1003.0"
+        },
+        {
+          "Id": "VirtoCommerce.Contracts",
+          "Version": "3.1004.0"
         }
       ]
     },
