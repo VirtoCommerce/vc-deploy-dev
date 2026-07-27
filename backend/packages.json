@@ -234,10 +234,6 @@
           "BlobName": "VirtoCommerce.Return_3.1002.0-alpha.149.zip"
         },
         {
-          "Id": "VirtoCommerce.XCMS",
-          "BlobName": "VirtoCommerce.XCMS_3.1004.0-alpha.73.zip"
-        },
-        {
           "Id": "VirtoCommerce.GDPR",
           "BlobName": "VirtoCommerce.GDPR_3.1002.0-alpha.170.zip"
         },
@@ -368,6 +364,10 @@
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.1014.0-alpha.368.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XCMS",
+          "BlobName": "VirtoCommerce.XCMS_3.1004.0-alpha.78.zip"
         }
       ]
     }
