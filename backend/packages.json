@@ -118,10 +118,6 @@
           "BlobName": "VirtoCommerce.SqlQueries_3.1006.0-alpha.52.zip"
         },
         {
-          "Id": "VirtoCommerce.ProductSnapshot",
-          "BlobName": "VirtoCommerce.ProductSnapshot_3.1003.0-alpha.18.zip"
-        },
-        {
           "Id": "VirtoCommerce.Core",
           "BlobName": "VirtoCommerce.Core_3.1008.0-alpha.1709.zip"
         },
@@ -368,6 +364,10 @@
         {
           "Id": "VirtoCommerce.XOrder",
           "BlobName": "VirtoCommerce.XOrder_3.1008.0-alpha.124.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ProductSnapshot",
+          "BlobName": "VirtoCommerce.ProductSnapshot_3.1003.0-alpha.23.zip"
         }
       ]
     }
