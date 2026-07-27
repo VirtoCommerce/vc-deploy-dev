@@ -58,6 +58,10 @@
         {
           "Id": "VirtoCommerce.Tax",
           "BlobName": "VirtoCommerce.Tax_3.1003.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XOrder",
+          "BlobName": "VirtoCommerce.XOrder_3.1008.0.zip"
         }
       ]
     },
@@ -362,10 +366,6 @@
         {
           "Id": "VirtoCommerce.XFrontend",
           "Version": "3.1003.0"
-        },
-        {
-          "Id": "VirtoCommerce.XOrder",
-          "Version": "3.1007.0"
         },
         {
           "Id": "VirtoCommerce.XPickup",
