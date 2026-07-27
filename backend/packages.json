@@ -58,6 +58,10 @@
         {
           "Id": "VirtoCommerce.Tax",
           "BlobName": "VirtoCommerce.Tax_3.1003.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.UCP",
+          "BlobName": "VirtoCommerce.UCP_3.1004.0.zip"
         }
       ]
     },
@@ -342,10 +346,6 @@
         {
           "Id": "VirtoCommerce.TaskManagement",
           "Version": "3.1004.0"
-        },
-        {
-          "Id": "VirtoCommerce.UCP",
-          "Version": "3.1003.0"
         },
         {
           "Id": "VirtoCommerce.WebHooks",
