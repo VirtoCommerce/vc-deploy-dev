@@ -238,10 +238,6 @@
           "BlobName": "VirtoCommerce.DynamicAssociationsModule_3.1003.0-alpha.206.zip"
         },
         {
-          "Id": "VirtoCommerce.CustomerReviews",
-          "BlobName": "VirtoCommerce.CustomerReviews_3.1005.0-alpha.284.zip"
-        },
-        {
           "Id": "VirtoCommerce.Inventory",
           "BlobName": "VirtoCommerce.Inventory_3.1005.0-alpha.529.zip"
         },
@@ -368,6 +364,10 @@
         {
           "Id": "VirtoCommerce.ProductSnapshot",
           "BlobName": "VirtoCommerce.ProductSnapshot_3.1003.0-alpha.23.zip"
+        },
+        {
+          "Id": "VirtoCommerce.CustomerReviews",
+          "BlobName": "VirtoCommerce.CustomerReviews_3.1005.0-alpha.289.zip"
         }
       ]
     }
