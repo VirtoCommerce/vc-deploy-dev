@@ -58,6 +58,10 @@
         {
           "Id": "VirtoCommerce.Tax",
           "BlobName": "VirtoCommerce.Tax_3.1003.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ProductSnapshot",
+          "BlobName": "VirtoCommerce.ProductSnapshot_3.1003.0.zip"
         }
       ]
     },
@@ -278,10 +282,6 @@
         {
           "Id": "VirtoCommerce.PriceExportImport",
           "Version": "3.1001.0"
-        },
-        {
-          "Id": "VirtoCommerce.ProductSnapshot",
-          "Version": "3.1002.0"
         },
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
