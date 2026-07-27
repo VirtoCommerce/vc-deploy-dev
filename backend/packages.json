@@ -58,6 +58,10 @@
         {
           "Id": "VirtoCommerce.Tax",
           "BlobName": "VirtoCommerce.Tax_3.1003.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.CustomerReviews",
+          "BlobName": "VirtoCommerce.CustomerReviews_3.1005.0.zip"
         }
       ]
     },
@@ -154,10 +158,6 @@
         {
           "Id": "VirtoCommerce.CustomerExportImport",
           "Version": "3.1002.0"
-        },
-        {
-          "Id": "VirtoCommerce.CustomerReviews",
-          "Version": "3.1004.0"
         },
         {
           "Id": "VirtoCommerce.CyberSourcePayment",
