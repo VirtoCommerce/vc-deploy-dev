@@ -58,6 +58,10 @@
         {
           "Id": "VirtoCommerce.Tax",
           "BlobName": "VirtoCommerce.Tax_3.1003.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XCatalog",
+          "BlobName": "VirtoCommerce.XCatalog_3.1015.0.zip"
         }
       ]
     },
@@ -378,10 +382,6 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "Version": "3.1037.0"
-        },
-        {
-          "Id": "VirtoCommerce.XCatalog",
-          "Version": "3.1013.0"
         },
         {
           "Id": "VirtoCommerce.Store",
