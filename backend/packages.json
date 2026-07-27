@@ -178,10 +178,6 @@
           "BlobName": "VirtoCommerce.CatalogCsvImportModule_3.1003.0-alpha.386.zip"
         },
         {
-          "Id": "VirtoCommerce.Contracts",
-          "BlobName": "VirtoCommerce.Contracts_3.1004.0-alpha.167.zip"
-        },
-        {
           "Id": "VirtoCommerce.AuthorizeNetPayment",
           "BlobName": "VirtoCommerce.AuthorizeNetPayment_3.1004.0-alpha.118.zip"
         },
@@ -368,6 +364,10 @@
         {
           "Id": "VirtoCommerce.TaskManagement",
           "BlobName": "VirtoCommerce.TaskManagement_3.1005.0-alpha.208.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Contracts",
+          "BlobName": "VirtoCommerce.Contracts_3.1004.0-alpha.172.zip"
         }
       ]
     }
