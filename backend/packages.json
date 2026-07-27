@@ -244,10 +244,6 @@
           "Version": "3.1002.0"
         },
         {
-          "Id": "VirtoCommerce.News",
-          "Version": "3.1004.0"
-        },
-        {
           "Id": "VirtoCommerce.TaskManagement",
           "Version": "3.1004.0"
         },
@@ -350,6 +346,10 @@
         {
           "Id": "VirtoCommerce.BackInStock",
           "Version": "3.1002.0"
+        },
+        {
+          "Id": "VirtoCommerce.News",
+          "Version": "3.1005.0"
         }
       ]
     },
