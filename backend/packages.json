@@ -200,10 +200,6 @@
           "Version": "3.1002.0"
         },
         {
-          "Id": "VirtoCommerce.TaskManagement",
-          "Version": "3.1004.0"
-        },
-        {
           "Id": "VirtoCommerce.EventBus",
           "Version": "3.1010.0"
         },
@@ -350,6 +346,10 @@
         {
           "Id": "VirtoCommerce.XPickup",
           "Version": "3.1003.0"
+        },
+        {
+          "Id": "VirtoCommerce.TaskManagement",
+          "Version": "3.1005.0"
         }
       ]
     },
