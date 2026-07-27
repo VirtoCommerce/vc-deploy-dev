@@ -218,10 +218,6 @@
           "BlobName": "VirtoCommerce.CustomerExportImport_3.1002.0-alpha.220.zip"
         },
         {
-          "Id": "VirtoCommerce.TaskManagement",
-          "BlobName": "VirtoCommerce.TaskManagement_3.1005.0-alpha.204.zip"
-        },
-        {
           "Id": "Virtocommerce.UCP",
           "BlobName": "Virtocommerce.UCP_3.1000.0-alpha.5.zip"
         },
@@ -368,6 +364,10 @@
         {
           "Id": "VirtoCommerce.PushMessages",
           "BlobName": "VirtoCommerce.PushMessages_3.1005.0-alpha.112.zip"
+        },
+        {
+          "Id": "VirtoCommerce.TaskManagement",
+          "BlobName": "VirtoCommerce.TaskManagement_3.1005.0-alpha.208.zip"
         }
       ]
     }
