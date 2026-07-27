@@ -16,10 +16,6 @@
           "Version": "3.806.0"
         },
         {
-          "Id": "VirtoCommerce.XFrontend",
-          "Version": "3.1003.0"
-        },
-        {
           "Id": "VirtoCommerce.OpenTelemetry",
           "Version": "3.1000.0"
         },
@@ -350,6 +346,10 @@
         {
           "Id": "VirtoCommerce.ProductSnapshot",
           "Version": "3.1003.0"
+        },
+        {
+          "Id": "VirtoCommerce.XFrontend",
+          "Version": "3.1004.0"
         }
       ]
     },
