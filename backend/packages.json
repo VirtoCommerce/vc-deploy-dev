@@ -58,6 +58,10 @@
         {
           "Id": "VirtoCommerce.Tax",
           "BlobName": "VirtoCommerce.Tax_3.1003.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ProfileExperienceApiModule",
+          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.1014.0.zip"
         }
       ]
     },
@@ -282,10 +286,6 @@
         {
           "Id": "VirtoCommerce.ProductSnapshot",
           "Version": "3.1002.0"
-        },
-        {
-          "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.1012.0"
         },
         {
           "Id": "VirtoCommerce.PushMessages",
