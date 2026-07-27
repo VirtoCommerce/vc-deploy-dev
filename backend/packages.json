@@ -58,6 +58,10 @@
         {
           "Id": "VirtoCommerce.Tax",
           "BlobName": "VirtoCommerce.Tax_3.1003.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XCMS",
+          "BlobName": "VirtoCommerce.XCMS_3.1004.0.zip"
         }
       ]
     },
@@ -354,10 +358,6 @@
         {
           "Id": "VirtoCommerce.WhiteLabeling",
           "Version": "3.1002.0"
-        },
-        {
-          "Id": "VirtoCommerce.XCMS",
-          "Version": "3.1003.0"
         },
         {
           "Id": "VirtoCommerce.XFrontend",
