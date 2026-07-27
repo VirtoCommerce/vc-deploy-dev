@@ -270,10 +270,6 @@
           "BlobName": "VirtoCommerce.Store_3.1006.0-alpha.787.zip"
         },
         {
-          "Id": "VirtoCommerce.UCP",
-          "BlobName": "VirtoCommerce.UCP_3.1003.0-alpha.12.zip"
-        },
-        {
           "Id": "VirtoCommerce.BackupRestore",
           "BlobName": "VirtoCommerce.BackupRestore_3.1003.0-alpha.13.zip"
         },
@@ -368,6 +364,10 @@
         {
           "Id": "VirtoCommerce.FileExperienceApi",
           "BlobName": "VirtoCommerce.FileExperienceApi_3.1004.0-alpha.89.zip"
+        },
+        {
+          "Id": "VirtoCommerce.UCP",
+          "BlobName": "VirtoCommerce.UCP_3.1004.0-alpha.14.zip"
         }
       ]
     }
