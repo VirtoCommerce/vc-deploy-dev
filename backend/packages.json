@@ -172,10 +172,6 @@
           "Version": "3.1002.0"
         },
         {
-          "Id": "VirtoCommerce.PushMessages",
-          "Version": "3.1004.0"
-        },
-        {
           "Id": "VirtoCommerce.Contracts",
           "Version": "3.1003.0"
         },
@@ -350,6 +346,10 @@
         {
           "Id": "VirtoCommerce.XRecommend",
           "Version": "3.1002.0"
+        },
+        {
+          "Id": "VirtoCommerce.PushMessages",
+          "Version": "3.1005.0"
         }
       ]
     },
