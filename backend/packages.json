@@ -230,10 +230,6 @@
           "BlobName": "VirtoCommerce.CustomerExportImport_3.1002.0-alpha.220.zip"
         },
         {
-          "Id": "VirtoCommerce.News",
-          "BlobName": "VirtoCommerce.News_3.1005.0-alpha.69.zip"
-        },
-        {
           "Id": "VirtoCommerce.TaskManagement",
           "BlobName": "VirtoCommerce.TaskManagement_3.1005.0-alpha.204.zip"
         },
@@ -368,6 +364,10 @@
         {
           "Id": "VirtoCommerce.XRecommend",
           "BlobName": "VirtoCommerce.XRecommend_3.1002.0-alpha.66.zip"
+        },
+        {
+          "Id": "VirtoCommerce.News",
+          "BlobName": "VirtoCommerce.News_3.1005.0-alpha.73.zip"
         }
       ]
     }
