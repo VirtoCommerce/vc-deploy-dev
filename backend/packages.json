@@ -58,10 +58,6 @@
           "BlobName": "VirtoCommerce.ElasticAppSearch_3.1002.0-alpha.182.zip"
         },
         {
-          "Id": "VirtoCommerce.WhiteLabeling",
-          "BlobName": "VirtoCommerce.WhiteLabeling_3.1003.0-alpha.83.zip"
-        },
-        {
           "Id": "VirtoCommerce.BuilderIO",
           "BlobName": "VirtoCommerce.BuilderIO_3.1005.0-alpha.140.zip"
         },
@@ -368,6 +364,10 @@
         {
           "Id": "VirtoCommerce.CustomerReviews",
           "BlobName": "VirtoCommerce.CustomerReviews_3.1005.0-alpha.289.zip"
+        },
+        {
+          "Id": "VirtoCommerce.WhiteLabeling",
+          "BlobName": "VirtoCommerce.WhiteLabeling_3.1003.0-alpha.89.zip"
         }
       ]
     }
