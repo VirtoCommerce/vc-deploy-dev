@@ -58,6 +58,10 @@
         {
           "Id": "VirtoCommerce.Tax",
           "BlobName": "VirtoCommerce.Tax_3.1003.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.News",
+          "BlobName": "VirtoCommerce.News_3.1005.0.zip"
         }
       ]
     },
@@ -238,10 +242,6 @@
         {
           "Id": "VirtoCommerce.NativePaymentMethods",
           "Version": "3.1002.0"
-        },
-        {
-          "Id": "VirtoCommerce.News",
-          "Version": "3.1004.0"
         },
         {
           "Id": "VirtoCommerce.OpenIdConnectModule",
