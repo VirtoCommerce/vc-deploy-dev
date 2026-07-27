@@ -38,10 +38,6 @@
           "BlobName": "VirtoCommerce.ElasticSearch_3.807.0-alpha.292.zip"
         },
         {
-          "Id": "VirtoCommerce.Quote",
-          "BlobName": "VirtoCommerce.Quote_3.1002.0-alpha.502.zip"
-        },
-        {
           "Id": "VirtoCommerce.PriceExportImport",
           "BlobName": "VirtoCommerce.PriceExportImport_3.1002.0-alpha.188.zip"
         },
@@ -368,6 +364,10 @@
         {
           "Id": "VirtoCommerce.PageBuilderModule",
           "BlobName": "VirtoCommerce.PageBuilderModule_3.1019.0-alpha.846.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Quote",
+          "BlobName": "VirtoCommerce.Quote_3.1002.0-alpha.508.zip"
         }
       ]
     }
