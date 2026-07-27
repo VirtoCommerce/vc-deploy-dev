@@ -286,10 +286,6 @@
           "BlobName": "VirtoCommerce.Notifications_3.1012.0-alpha.486.zip"
         },
         {
-          "Id": "VirtoCommerce.PageBuilderModule",
-          "BlobName": "VirtoCommerce.PageBuilderModule_3.1019.0-alpha.846.zip"
-        },
-        {
           "Id": "VirtoCommerce.Quote",
           "BlobName": "VirtoCommerce.Quote_3.1002.0-alpha.508.zip"
         },
@@ -368,6 +364,10 @@
         {
           "Id": "VirtoCommerce.XPickup",
           "BlobName": "VirtoCommerce.XPickup_3.1003.0-alpha.49.zip"
+        },
+        {
+          "Id": "VirtoCommerce.PageBuilderModule",
+          "BlobName": "VirtoCommerce.PageBuilderModule_3.1019.0-alpha.847.zip"
         }
       ]
     }
