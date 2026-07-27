@@ -58,6 +58,10 @@
         {
           "Id": "VirtoCommerce.Tax",
           "BlobName": "VirtoCommerce.Tax_3.1003.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.FileExperienceApi",
+          "BlobName": "VirtoCommerce.FileExperienceApi_3.1004.0.zip"
         }
       ]
     },
@@ -193,10 +197,6 @@
         },
         {
           "Id": "VirtoCommerce.Export",
-          "Version": "3.1003.0"
-        },
-        {
-          "Id": "VirtoCommerce.FileExperienceApi",
           "Version": "3.1003.0"
         },
         {
