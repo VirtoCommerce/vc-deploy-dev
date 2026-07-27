@@ -236,10 +236,6 @@
           "Version": "3.1007.0"
         },
         {
-          "Id": "VirtoCommerce.XOrder",
-          "Version": "3.1007.0"
-        },
-        {
           "Id": "VirtoCommerce.Assets",
           "Version": "3.1006.0"
         },
@@ -350,6 +346,10 @@
         {
           "Id": "VirtoCommerce.FileExperienceApi",
           "Version": "3.1004.0"
+        },
+        {
+          "Id": "VirtoCommerce.XOrder",
+          "Version": "3.1008.0"
         }
       ]
     },
