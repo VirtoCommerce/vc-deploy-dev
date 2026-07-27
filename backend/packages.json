@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.1048.0",
+  "PlatformVersion": "3.1051.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.1048.0",
+  "PlatformImageTag": "3.1051.0",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -25,7 +25,7 @@
           "Id": "VirtoCommerce.Loyalty",
           "Version": "3.1004.0"
        },
-       {
+        {
           "Id": "VirtoCommerce.ElasticSearch",
           "Version": "3.806.0"
         },
@@ -298,14 +298,6 @@
           "Version": "3.1006.0"
         },
         {
-          "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.1012.0"
-        },
-        {
-          "Id": "VirtoCommerce.Notifications",
-          "Version": "3.1011.0"
-        },
-        {
           "Id": "VirtoCommerce.Store",
           "Version": "3.1006.0"
         },
@@ -360,6 +352,18 @@
         {
           "Id": "VirtoCommerce.AzureSearch",
           "Version": "3.1005.0"
+        },
+        {
+          "Id": "VirtoCommerce.BackgroundJobs",
+          "Version": "3.1050.0"
+        },
+        {
+          "Id": "VirtoCommerce.Notifications",
+          "Version": "3.1012.0"
+        },
+        {
+          "Id": "VirtoCommerce.ProfileExperienceApiModule",
+          "Version": "3.1013.0"
         }
       ]
     }
