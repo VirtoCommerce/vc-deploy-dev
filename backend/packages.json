@@ -58,10 +58,6 @@
           "BlobName": "VirtoCommerce.BuilderIO_3.1005.0-alpha.140.zip"
         },
         {
-          "Id": "VirtoCommerce.XRecommend",
-          "BlobName": "VirtoCommerce.XRecommend_3.1002.0-alpha.60.zip"
-        },
-        {
           "Id": "VirtoCommerce.Skyflow",
           "BlobName": "VirtoCommerce.Skyflow_3.1004.0-alpha.75.zip"
         },
@@ -368,6 +364,10 @@
         {
           "Id": "VirtoCommerce.XFrontend",
           "BlobName": "VirtoCommerce.XFrontend_3.1004.0-alpha.46.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XRecommend",
+          "BlobName": "VirtoCommerce.XRecommend_3.1002.0-alpha.66.zip"
         }
       ]
     }
