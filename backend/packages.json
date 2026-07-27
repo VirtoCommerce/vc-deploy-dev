@@ -288,10 +288,6 @@
           "Version": "3.1012.0"
         },
         {
-          "Id": "VirtoCommerce.Notifications",
-          "Version": "3.1011.0"
-        },
-        {
           "Id": "VirtoCommerce.Store",
           "Version": "3.1006.0"
         },
@@ -350,6 +346,10 @@
         {
           "Id": "VirtoCommerce.BackgroundJobs",
           "Version": "3.1050.0"
+        },
+        {
+          "Id": "VirtoCommerce.Notifications",
+          "Version": "3.1012.0"
         }
       ]
     },
