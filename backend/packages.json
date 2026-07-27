@@ -280,10 +280,6 @@
           "Version": "3.1006.0"
         },
         {
-          "Id": "VirtoCommerce.UCP",
-          "Version": "3.1003.0"
-        },
-        {
           "Id": "VirtoCommerce.BackupRestore",
           "Version": "3.1003.0"
         },
@@ -349,6 +345,10 @@
         },
         {
           "Id": "VirtoCommerce.XFrontend",
+          "Version": "3.1004.0"
+        },
+        {
+          "Id": "VirtoCommerce.UCP",
           "Version": "3.1004.0"
         }
       ]
