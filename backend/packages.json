@@ -82,10 +82,6 @@
           "BlobName": "VirtoCommerce.OpenSearch_3.1002.0-alpha.32.zip"
         },
         {
-          "Id": "VirtoCommerce.XPickup",
-          "BlobName": "VirtoCommerce.XPickup_3.1003.0-alpha.43.zip"
-        },
-        {
           "Id": "VirtoCommerce.EnvironmentsCompare",
           "BlobName": "VirtoCommerce.EnvironmentsCompare_3.1002.0-alpha.14.zip"
         },
@@ -368,6 +364,10 @@
         {
           "Id": "VirtoCommerce.Contracts",
           "BlobName": "VirtoCommerce.Contracts_3.1004.0-alpha.172.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XPickup",
+          "BlobName": "VirtoCommerce.XPickup_3.1003.0-alpha.49.zip"
         }
       ]
     }
