@@ -58,6 +58,10 @@
         {
           "Id": "VirtoCommerce.Tax",
           "BlobName": "VirtoCommerce.Tax_3.1003.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.PageBuilderModule",
+          "BlobName": "VirtoCommerce.PageBuilderModule_3.1019.0.zip"
         }
       ]
     },
@@ -262,10 +266,6 @@
         {
           "Id": "VirtoCommerce.Orders",
           "Version": "3.1012.0"
-        },
-        {
-          "Id": "VirtoCommerce.PageBuilderModule",
-          "Version": "3.1017.0"
         },
         {
           "Id": "VirtoCommerce.Pages",
