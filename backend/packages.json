@@ -58,6 +58,10 @@
         {
           "Id": "VirtoCommerce.Tax",
           "BlobName": "VirtoCommerce.Tax_3.1003.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Contracts",
+          "BlobName": "VirtoCommerce.Contracts_3.1004.0.zip"
         }
       ]
     },
@@ -142,10 +146,6 @@
         {
           "Id": "VirtoCommerce.Contentful",
           "Version": "3.1001.0"
-        },
-        {
-          "Id": "VirtoCommerce.Contracts",
-          "Version": "3.1003.0"
         },
         {
           "Id": "VirtoCommerce.Core",
