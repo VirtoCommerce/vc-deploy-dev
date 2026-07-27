@@ -30,10 +30,6 @@
           "BlobName": "VirtoCommerce.Loyalty_3.1002.0-pr-8-a8ec.zip"
         },
         {
-          "Id": "VirtoCommerce.XFrontend",
-          "BlobName": "VirtoCommerce.XFrontend_3.1000.0.zip"
-        },
-        {
           "Id": "VirtoCommerce.ElasticSearch",
           "BlobName": "VirtoCommerce.ElasticSearch_3.807.0-alpha.292.zip"
         },
@@ -368,6 +364,10 @@
         {
           "Id": "VirtoCommerce.UCP",
           "BlobName": "VirtoCommerce.UCP_3.1004.0-alpha.14.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XFrontend",
+          "BlobName": "VirtoCommerce.XFrontend_3.1004.0-alpha.46.zip"
         }
       ]
     }
