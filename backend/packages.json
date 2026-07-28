@@ -28,6 +28,10 @@
           "BlobName": "VirtoCommerce.PowerBiReports_3.800.0-pr-5-3363.zip"
         },
         {
+          "Id": "VirtoCommerce.Catalog",
+          "BlobName": "VirtoCommerce.Catalog_3.1039.0-pr-901-a16e.zip"
+        },
+        {
           "Id": "VirtoCommerce.SeqLog",
           "BlobName": "VirtoCommerce.SeqLog_3.1000.0-pr-2-9e9c.zip"
         }
@@ -350,10 +354,6 @@
         {
           "Id": "VirtoCommerce.Orders",
           "Version": "3.1013.0"
-        },
-        {
-          "Id": "VirtoCommerce.Catalog",
-          "Version": "3.1038.0"
         },
         {
           "Id": "VirtoCommerce.Shipping",
