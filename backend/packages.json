@@ -238,10 +238,6 @@
           "BlobName": "VirtoCommerce.BackupRestore_3.1003.0-alpha.13.zip"
         },
         {
-          "Id": "VirtoCommerce.Tax",
-          "BlobName": "VirtoCommerce.Tax_3.1004.0-alpha.236.zip"
-        },
-        {
           "Id": "VirtoCommerce.Pricing",
           "BlobName": "VirtoCommerce.Pricing_3.1004.0-alpha.812.zip"
         },
@@ -368,6 +364,10 @@
         {
           "Id": "VirtoCommerce.Shipping",
           "BlobName": "VirtoCommerce.Shipping_3.1007.0-alpha.267.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Tax",
+          "BlobName": "VirtoCommerce.Tax_3.1005.0-alpha.238.zip"
         }
       ]
     }
