@@ -30,6 +30,10 @@
         {
           "Id": "VirtoCommerce.SeqLog",
           "BlobName": "VirtoCommerce.SeqLog_3.1000.0-pr-2-9e9c.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Shipping",
+          "BlobName": "VirtoCommerce.Shipping_3.1007.0.zip"
         }
       ]
     },
@@ -39,10 +43,10 @@
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
       "Modules": [
-         {
+        {
           "Id": "VirtoCommerce.Loyalty",
           "Version": "3.1004.0"
-       },
+        },
         {
           "Id": "VirtoCommerce.ElasticSearch",
           "Version": "3.806.0"
@@ -354,10 +358,6 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "Version": "3.1038.0"
-        },
-        {
-          "Id": "VirtoCommerce.Shipping",
-          "Version": "3.1006.0"
         },
         {
           "Id": "VirtoCommerce.XCart",
