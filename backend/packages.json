@@ -20,10 +20,6 @@
           "BlobName": "VirtoCommerce.AIDocumentProcessing_3.901.0-pr-7-05c5.zip"
         },
         {
-          "Id": "VirtoCommerce.SalesRep",
-          "BlobName": "VirtoCommerce.SalesRep_3.1000.0-pr-4-0d60.zip"
-        },
-        {
           "Id": "VirtoCommerce.AlgoliaSearch_3.801.0",
           "BlobName": "VirtoCommerce.AlgoliaSearch_3.801.0-pr-3-a62c.zip"
         },
@@ -386,6 +382,10 @@
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "Version": "3.1013.0"
+        },
+        {
+          "Id": "VirtoCommerce.SalesRep",
+          "Version": "3.1000.0"
         }
       ]
     }
