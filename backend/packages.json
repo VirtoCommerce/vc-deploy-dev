@@ -268,10 +268,6 @@
           "Version": "3.1012.0"
         },
         {
-          "Id": "VirtoCommerce.PageBuilderModule",
-          "Version": "3.1019.0"
-        },
-        {
           "Id": "VirtoCommerce.ProductSnapshot",
           "Version": "3.1003.0"
         },
@@ -350,6 +346,10 @@
         {
           "Id": "VirtoCommerce.TaskManagement",
           "Version": "3.1005.0"
+        },
+        {
+          "Id": "VirtoCommerce.PageBuilderModule",
+          "Version": "3.1020.0"
         }
       ]
     },
