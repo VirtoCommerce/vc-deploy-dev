@@ -240,10 +240,6 @@
           "Version": "3.1013.0"
         },
         {
-          "Id": "VirtoCommerce.Catalog",
-          "Version": "3.1038.0"
-        },
-        {
           "Id": "VirtoCommerce.Shipping",
           "Version": "3.1006.0"
         },
@@ -350,6 +346,10 @@
         {
           "Id": "VirtoCommerce.PageBuilderModule",
           "Version": "3.1020.0"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "Version": "3.1039.0"
         }
       ]
     },
