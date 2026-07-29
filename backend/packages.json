@@ -46,10 +46,6 @@
           "BlobName": "VirtoCommerce.NativePaymentMethods_3.1003.0-alpha.123.zip"
         },
         {
-          "Id": "VirtoCommerce.SystemOperations",
-          "BlobName": "VirtoCommerce.SystemOperations_3.1002.0-alpha.15.zip"
-        },
-        {
           "Id": "VirtoCommerce.ElasticAppSearch",
           "BlobName": "VirtoCommerce.ElasticAppSearch_3.1002.0-alpha.182.zip"
         },
@@ -368,6 +364,10 @@
         {
           "Id": "VirtoCommerce.Payment",
           "BlobName": "VirtoCommerce.Payment_3.1006.0-alpha.294.zip"
+        },
+        {
+          "Id": "VirtoCommerce.SystemOperations",
+          "BlobName": "VirtoCommerce.SystemOperations_3.1002.0-alpha.21.zip"
         }
       ]
     }
