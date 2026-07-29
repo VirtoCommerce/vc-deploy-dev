@@ -6,21 +6,27 @@
   "PlatformAssetUrl": "",
   "Sources": [
     {
-    "Name": "AzureBlob",
-    "Container": "packages",
-    "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
-    "Modules": []
+      "Name": "AzureBlob",
+      "Container": "packages",
+      "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
+      "Modules": [
+        {
+          "Id": "VirtoCommerce.Notifications",
+          "Version": "3.1013.0-pr-202-0b9c",
+          "BlobName": "VirtoCommerce.Notifications_3.1013.0-pr-202-0b9c.zip"
+        }
+      ]
     },
     {
       "Name": "GithubReleases",
       "ModuleSources": [
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
-      "Modules": [  
-       {
+      "Modules": [
+        {
           "Id": "VirtoCommerce.Loyalty",
           "Version": "3.1004.0"
-       },
+        },
         {
           "Id": "VirtoCommerce.ElasticSearch",
           "Version": "3.806.0"
@@ -352,10 +358,6 @@
         {
           "Id": "VirtoCommerce.BackgroundJobs",
           "Version": "3.1050.0"
-        },
-        {
-          "Id": "VirtoCommerce.Notifications",
-          "Version": "3.1012.0"
         },
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
