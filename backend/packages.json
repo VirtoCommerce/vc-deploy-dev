@@ -258,10 +258,6 @@
           "BlobName": "VirtoCommerce.BackgroundJobs_3.1050.0-alpha.7.zip"
         },
         {
-          "Id": "VirtoCommerce.Notifications",
-          "BlobName": "VirtoCommerce.Notifications_3.1012.0-alpha.486.zip"
-        },
-        {
           "Id": "VirtoCommerce.Quote",
           "BlobName": "VirtoCommerce.Quote_3.1002.0-alpha.508.zip"
         },
@@ -368,6 +364,10 @@
         {
           "Id": "VirtoCommerce.SystemOperations",
           "BlobName": "VirtoCommerce.SystemOperations_3.1002.0-alpha.21.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Notifications",
+          "BlobName": "VirtoCommerce.Notifications_3.1013.0-alpha.488.zip"
         }
       ]
     }
