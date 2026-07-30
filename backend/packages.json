@@ -1,31 +1,39 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.1048.0",
+  "PlatformVersion": "3.1051.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.1048.0",
+  "PlatformImageTag": "3.1051.0",
   "PlatformAssetUrl": "",
   "Sources": [
     {
-    "Name": "AzureBlob",
-    "Container": "packages",
-    "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
-    "Modules": [ 
-      {
-        "BlobName": "VirtoCommerce.SalesRep_3.1000.0-pr-4-6596.zip"
-      }  
-    ]
+      "Name": "AzureBlob",
+      "Container": "packages",
+      "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
+      "Modules": [
+        {
+          "Id": "VirtoCommerce.Notifications",
+          "Version": "3.1013.0-pr-202-b644",
+          "BlobName": "VirtoCommerce.Notifications_3.1013.0-pr-202-b644.zip"
+        },
+          {
+          "BlobName": "VirtoCommerce.Customer_3.1021.0-pr-312-2257.zip"
+          },
+          {
+          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.1015.0-pr-141-d7d8.zip"
+          }
+      ]
     },
     {
       "Name": "GithubReleases",
       "ModuleSources": [
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
-      "Modules": [  
-       {
+      "Modules": [
+        {
           "Id": "VirtoCommerce.Loyalty",
           "Version": "3.1004.0"
-       },
-       {
+        },
+        {
           "Id": "VirtoCommerce.ElasticSearch",
           "Version": "3.806.0"
         },
@@ -298,14 +306,6 @@
           "Version": "3.1006.0"
         },
         {
-          "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.1012.0"
-        },
-        {
-          "Id": "VirtoCommerce.Notifications",
-          "Version": "3.1011.0"
-        },
-        {
           "Id": "VirtoCommerce.Store",
           "Version": "3.1006.0"
         },
@@ -354,12 +354,16 @@
           "Version": "3.1028.0"
         },
         {
-          "Id": "VirtoCommerce.Customer",
-          "Version": "3.1020.0"
-        },
-        {
           "Id": "VirtoCommerce.AzureSearch",
           "Version": "3.1005.0"
+        },
+        {
+          "Id": "VirtoCommerce.BackgroundJobs",
+          "Version": "3.1050.0"
+        },
+        {
+          "Id": "VirtoCommerce.SalesRep",
+          "Version": "3.1000.0"
         }
       ]
     }
