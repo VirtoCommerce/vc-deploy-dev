@@ -244,10 +244,6 @@
           "Version": "3.1050.0"
         },
         {
-          "Id": "VirtoCommerce.Notifications",
-          "Version": "3.1012.0"
-        },
-        {
           "Id": "VirtoCommerce.ProductSnapshot",
           "Version": "3.1003.0"
         },
@@ -354,6 +350,10 @@
         {
           "Id": "VirtoCommerce.SystemOperations",
           "Version": "3.1002.0"
+        },
+        {
+          "Id": "VirtoCommerce.Notifications",
+          "Version": "3.1013.0"
         }
       ]
     },
