@@ -26,7 +26,7 @@
         {
           "Id": "VirtoCommerce.PowerBiReports",
           "BlobName": "VirtoCommerce.PowerBiReports_3.800.0-pr-5-3363.zip"
-        },        
+        },
         {
           "Id": "VirtoCommerce.Catalog",
           "BlobName": "VirtoCommerce.Catalog_3.1040.0-pr-901-9a41.zip"
@@ -37,6 +37,10 @@
         },
         {
           "BlobName": "VirtoCommerce.Pricing_3.1005.0-pr-236-8706.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Xapi",
+          "BlobName": "VirtoCommerce.Xapi_3.1016.0.zip"
         }
       ]
     },
@@ -46,10 +50,10 @@
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
       "Modules": [
-         {
+        {
           "Id": "VirtoCommerce.Loyalty",
           "Version": "3.1004.0"
-       },
+        },
         {
           "Id": "VirtoCommerce.ElasticSearch",
           "Version": "3.806.0"
@@ -345,10 +349,6 @@
         {
           "Id": "VirtoCommerce.Tax",
           "Version": "3.1004.0"
-        },
-        {
-          "Id": "VirtoCommerce.Xapi",
-          "Version": "3.1015.0"
         },
         {
           "Id": "VirtoCommerce.Orders",
