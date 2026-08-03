@@ -226,10 +226,6 @@
           "BlobName": "VirtoCommerce.BackupRestore_3.1003.0-alpha.13.zip"
         },
         {
-          "Id": "VirtoCommerce.Pricing",
-          "BlobName": "VirtoCommerce.Pricing_3.1004.0-alpha.812.zip"
-        },
-        {
           "Id": "VirtoCommerce.Xapi",
           "BlobName": "VirtoCommerce.Xapi_3.1015.0-alpha.188.zip"
         },
@@ -368,6 +364,10 @@
         {
           "Id": "VirtoCommerce.Pages",
           "BlobName": "VirtoCommerce.Pages_3.1008.0-alpha.75.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Pricing",
+          "BlobName": "VirtoCommerce.Pricing_3.1005.0-alpha.814.zip"
         }
       ]
     }
