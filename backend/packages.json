@@ -2,7 +2,7 @@
   "ManifestVersion": "2.0",
   "PlatformVersion": "3.1053.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.1053.0-pr-3092-cc76-vcst-5532-cc76f169",
+  "PlatformImageTag": "3.1053.0",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
   ],
@@ -26,7 +26,7 @@
         {
           "Id": "VirtoCommerce.PowerBiReports",
           "BlobName": "VirtoCommerce.PowerBiReports_3.800.0-pr-5-3363.zip"
-        },        
+        },
         {
           "Id": "VirtoCommerce.Catalog",
           "BlobName": "VirtoCommerce.Catalog_3.1040.0-pr-901-9a41.zip"
@@ -46,10 +46,10 @@
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
       "Modules": [
-         {
+        {
           "Id": "VirtoCommerce.Loyalty",
           "Version": "3.1004.0"
-       },
+        },
         {
           "Id": "VirtoCommerce.ElasticSearch",
           "Version": "3.806.0"
