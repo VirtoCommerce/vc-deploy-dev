@@ -18,7 +18,10 @@
         },
         {
           "BlobName": "VirtoCommerce.XFrontend_3.1006.0-pr-10-f92f.zip"
-        }
+        },
+        {
+          "BlobName": "VirtoCommerce.Loyalty_3.1005.0-pr-15-838b.zip"
+        }     
       ]
     },
     {
@@ -26,11 +29,7 @@
       "ModuleSources": [
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
-      "Modules": [
-        {
-          "Id": "VirtoCommerce.Loyalty",
-          "Version": "3.1004.0"
-        },
+      "Modules": [  
         {
           "Id": "VirtoCommerce.ElasticSearch",
           "Version": "3.806.0"
