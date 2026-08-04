@@ -50,6 +50,10 @@
           "Id": "VirtoCommerce.XCart",
           "BlobName": "VirtoCommerce.XCart_3.1029.0-alpha.270-vcst-5332-customer-wishlist-sharing-scope.zip"
         },
+        {
+          "Id": "VirtoCommerce.Inventory",
+          "BlobName": "VirtoCommerce.Inventory_3.1005.0-pr-163-d96c.zip"
+        },
       ]
     },
     {
@@ -292,10 +296,6 @@
         },
         {
           "Id": "VirtoCommerce.CustomerReviews",
-          "Version": "3.1004.0"
-        },
-        {
-          "Id": "VirtoCommerce.Inventory",
           "Version": "3.1004.0"
         },
         {
