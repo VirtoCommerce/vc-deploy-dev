@@ -17,9 +17,6 @@
           "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.1015.0-pr-141-d7d8.zip"
         },
         {
-          "BlobName": "VirtoCommerce.XFrontend_3.1006.0-pr-10-f92f.zip"
-        },
-        {
           "BlobName": "VirtoCommerce.Loyalty_3.1005.0-pr-15-838b.zip"
         }     
       ]
@@ -361,6 +358,10 @@
         {
           "Id": "VirtoCommerce.Xapi",
           "Version": "3.1016.0"
+        },
+        {
+          "Id": "VirtoCommerce.XFrontend",
+          "Version": "3.1005.0"
         }
       ]
     }
