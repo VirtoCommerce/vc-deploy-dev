@@ -220,10 +220,6 @@
           "Version": "3.1028.0"
         },
         {
-          "Id": "VirtoCommerce.Customer",
-          "Version": "3.1020.0"
-        },
-        {
           "Id": "VirtoCommerce.AzureSearch",
           "Version": "3.1005.0"
         },
@@ -354,6 +350,10 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "Version": "3.1040.0"
+        },
+        {
+          "Id": "VirtoCommerce.Customer",
+          "Version": "3.1021.0"
         }
       ]
     },
