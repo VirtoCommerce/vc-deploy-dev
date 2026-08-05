@@ -262,10 +262,6 @@
           "BlobName": "VirtoCommerce.MarketingExperienceApi_3.1004.0-alpha.103.zip"
         },
         {
-          "Id": "VirtoCommerce.CustomerReviews",
-          "BlobName": "VirtoCommerce.CustomerReviews_3.1005.0-alpha.289.zip"
-        },
-        {
           "Id": "VirtoCommerce.WhiteLabeling",
           "BlobName": "VirtoCommerce.WhiteLabeling_3.1003.0-alpha.89.zip"
         },
@@ -368,6 +364,10 @@
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.1015.0-alpha.370.zip"
+        },
+        {
+          "Id": "VirtoCommerce.CustomerReviews",
+          "BlobName": "VirtoCommerce.CustomerReviews_3.1006.0-alpha.291.zip"
         }
       ]
     }
