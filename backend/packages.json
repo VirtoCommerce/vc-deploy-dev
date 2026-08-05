@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.1055.0",
+  "PlatformVersion": "3.1057.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.1055.0",
+  "PlatformImageTag": "3.1057.0-pr-3095-3abb-vcst-5637-json-hash-extensions-3abbc5bb",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -21,7 +21,10 @@
         },
         {
           "BlobName": "VirtoCommerce.Loyalty_3.1005.0-pr-15-838b.zip"
-        }     
+        },
+        {
+          "BlobName": "VirtoCommerce.XCatalog_3.1016.0-pr-106-3559.zip"
+        }
       ]
     },
     {
@@ -305,10 +308,6 @@
         {
           "Id": "VirtoCommerce.CustomerReviews",
           "Version": "3.1005.0"
-        },
-        {
-          "Id": "VirtoCommerce.XCatalog",
-          "Version": "3.1015.0"
         },
         {
           "Id": "VirtoCommerce.XPickup",
