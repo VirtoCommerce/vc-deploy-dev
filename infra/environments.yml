@@ -44,7 +44,7 @@
     app2:
       enabled: false
   routes:
-  - host: front-vcptcore-aidemo.govirto.com
+  - host: vcptcore-aidemo2-front.govirto.com
     root: FE
     paths:
     - path: /xapi
