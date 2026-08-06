@@ -1,4 +1,4 @@
-- name: vcptcore-aidemo
+- name: vcptcore-aidemo2
   gitops: true
   production: false
   servicePlan: B1
@@ -37,11 +37,7 @@
     config:
       APPINSIGHTS_INSTRUMENTATIONKEY: adc98546-3f8a-4462-a0b2-7c822b5565ba
     themes:
-      # Custom Singer theme = vc-frontend 2.51.1 with default/assets/presets/singer-equipment-company-theme.json
-      # injected, self-hosted on this env's asset store. Same theme content + the preset the White-Labeling
-      # themePresetName resolves to. NOTE: the storefront reads the theme by ROUTE ROOT ("FE"), not the platform
-      # store id (B2B-store) — deploy-theme.yml targets the same key.
-      FE: https://vcptcore-aidemo.govirto.com/cms-content/assets/themes/singer-theme.zip
+      FE: https://github.com/VirtoCommerce/vc-frontend/releases/download/2.54.0/vc-theme-b2b-vue-2.54.0.zip
   customApps:
     app1:
       enabled: false
