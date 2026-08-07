@@ -26,7 +26,7 @@
         {
           "Id": "VirtoCommerce.PowerBiReports",
           "BlobName": "VirtoCommerce.PowerBiReports_3.800.0-pr-5-3363.zip"
-        },        
+        },
         {
           "Id": "VirtoCommerce.Catalog",
           "BlobName": "VirtoCommerce.Catalog_3.1040.0-pr-901-9a41.zip"
@@ -49,6 +49,10 @@
         {
           "Id": "VirtoCommerce.XCart",
           "BlobName": "VirtoCommerce.XCart_3.1029.0-alpha.270-vcst-5332-customer-wishlist-sharing-scope.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XCatalog",
+          "BlobName": "VirtoCommerce.XCatalog_3.1016.0.zip"
         }
       ]
     },
@@ -58,10 +62,10 @@
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
       "Modules": [
-         {
+        {
           "Id": "VirtoCommerce.Loyalty",
           "Version": "3.1004.0"
-       },
+        },
         {
           "Id": "VirtoCommerce.ElasticSearch",
           "Version": "3.806.0"
@@ -341,10 +345,6 @@
         {
           "Id": "VirtoCommerce.BackupRestore",
           "Version": "3.1003.0"
-        },
-        {
-          "Id": "VirtoCommerce.XCatalog",
-          "Version": "3.1014.0"
         },
         {
           "Id": "VirtoCommerce.Tax",
