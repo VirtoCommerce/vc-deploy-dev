@@ -284,10 +284,6 @@
           "Version": "3.1004.0"
         },
         {
-          "Id": "VirtoCommerce.XCatalog",
-          "Version": "3.1015.0"
-        },
-        {
           "Id": "VirtoCommerce.XPickup",
           "Version": "3.1003.0"
         },
@@ -354,6 +350,10 @@
         {
           "Id": "VirtoCommerce.CustomerReviews",
           "Version": "3.1006.0"
+        },
+        {
+          "Id": "VirtoCommerce.XCatalog",
+          "Version": "3.1016.0"
         }
       ]
     },
