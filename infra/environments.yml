@@ -11,6 +11,7 @@
     #imageTag: 3.812.0-alpha.12873-vcst-567-counter-2c3cae8c-3c6554d
     sqlReplica: false
     config:
+      VirtoCommerce_BackgroundJobs_Provider: RabbitMQ
       FileUpload__RootPath: attachments
       FileUpload__Scopes__0__Scope: quote-attachments
       FileUpload__Scopes__0__MaxFileSize: 1000000
