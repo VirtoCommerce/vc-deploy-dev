@@ -2,7 +2,7 @@
   "ManifestVersion": "2.0",
   "PlatformVersion": "3.1058.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.1058.0-pr-3077-8295-user-cache-clone-on-read-82959df2",
+  "PlatformImageTag": "3.1058.0",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -11,13 +11,15 @@
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
         {
-          "BlobName": "VirtoCommerce.SalesRep_3.1001.0-pr-6-4f32.zip"
-        },     
-        {
-          "BlobName": "VirtoCommerce.Loyalty_3.1005.0-pr-15-838b.zip"
+          "BlobName": "VirtoCommerce.SalesRep_3.1001.0-pr-8-a07e.zip"
         },
         {
-          "BlobName": "VirtoCommerce.XCatalog_3.1016.0-pr-106-3559.zip"
+          "Id": "VirtoCommerce.Cart",
+          "BlobName": "VirtoCommerce.Cart_3.1008.0-alpha.803-vcst-5332-customer-wishlist-sharing-scope.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XCart",
+          "BlobName": "VirtoCommerce.XCart_3.1029.0-alpha.270-vcst-5332-customer-wishlist-sharing-scope.zip"
         }
       ]
     },
@@ -26,7 +28,11 @@
       "ModuleSources": [
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
-      "Modules": [  
+      "Modules": [ 
+        {
+          "Id": "VirtoCommerce.Loyalty",
+          "Version": "3.1005.0"
+        },        
         {
           "Id": "VirtoCommerce.ElasticSearch",
           "Version": "3.806.0"
@@ -206,11 +212,7 @@
         {
           "Id": "VirtoCommerce.EventBus",
           "Version": "3.1010.0"
-        },
-        {
-          "Id": "VirtoCommerce.Cart",
-          "Version": "3.1007.0"
-        },
+        }, 
         {
           "Id": "VirtoCommerce.Assets",
           "Version": "3.1006.0"
@@ -230,10 +232,6 @@
         {
           "Id": "VirtoCommerce.Orders",
           "Version": "3.1013.0"
-        },
-        {
-          "Id": "VirtoCommerce.XCart",
-          "Version": "3.1028.0"
         },
         {
           "Id": "VirtoCommerce.AzureSearch",
@@ -355,6 +353,10 @@
           "Id": "VirtoCommerce.Catalog",
           "Version": "3.1040.0"
         },
+        {
+          "Id": "VirtoCommerce.XCatalog",
+          "Version": "3.1016.0"
+        },       
         {
           "Id": "VirtoCommerce.Customer",
           "Version": "3.1021.0"
