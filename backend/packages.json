@@ -336,10 +336,6 @@
           "Version": "3.1040.0"
         },
         {
-          "Id": "VirtoCommerce.Customer",
-          "Version": "3.1021.0"
-        },
-        {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "Version": "3.1015.0"
         },
@@ -354,6 +350,10 @@
         {
           "Id": "VirtoCommerce.PageBuilderModule",
           "Version": "3.1021.0"
+        },
+        {
+          "Id": "VirtoCommerce.Customer",
+          "Version": "3.1022.0"
         }
       ]
     },
