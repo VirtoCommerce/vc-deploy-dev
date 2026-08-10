@@ -206,10 +206,6 @@
           "BlobName": "VirtoCommerce.EventBus_3.1010.0-alpha.203.zip"
         },
         {
-          "Id": "VirtoCommerce.Cart",
-          "BlobName": "VirtoCommerce.Cart_3.1008.0-alpha.803-vcst-5332-customer-wishlist-sharing-scope.zip"
-        },
-        {
           "Id": "VirtoCommerce.Assets",
           "BlobName": "VirtoCommerce.Assets_3.1006.0-alpha.202.zip"
         },
@@ -368,6 +364,10 @@
         {
           "Id": "VirtoCommerce.XFrontend",
           "BlobName": "VirtoCommerce.XFrontend_3.1006.0-alpha.50.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Cart",
+          "BlobName": "VirtoCommerce.Cart_3.1008.0-alpha.803.zip"
         }
       ]
     }
