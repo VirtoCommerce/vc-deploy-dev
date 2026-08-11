@@ -12,11 +12,7 @@
       "Modules": [
         {
           "Id": "VirtoCommerce.Cart",
-          "BlobName": "VirtoCommerce.Cart_3.1008.0-alpha.803-vcst-5332-customer-wishlist-sharing-scope.zip"
-        },
-        {
-          "Id": "VirtoCommerce.XCart",
-          "BlobName": "VirtoCommerce.XCart_3.1029.0-alpha.270-vcst-5332-customer-wishlist-sharing-scope.zip"
+          "BlobName": "VirtoCommerce.Cart_3.1009.0-pr-193-1499.zip"
         }
       ]
     },
@@ -350,6 +346,10 @@
           "Id": "VirtoCommerce.Catalog",
           "Version": "3.1040.0"
         },
+        {
+          "Id": "VirtoCommerce.XCart",
+          "Version": "3.1029.0"
+        },              
         {
           "Id": "VirtoCommerce.XCatalog",
           "Version": "3.1016.0"
