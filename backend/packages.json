@@ -9,23 +9,22 @@
       "Name": "AzureBlob",
       "Container": "packages",
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
-      "Modules": [
-        {
-          "Id": "VirtoCommerce.Cart",
-          "BlobName": "VirtoCommerce.Cart_3.1009.0-pr-193-9323.zip"
-        }
-      ]
+      "Modules": []
     },
     {
       "Name": "GithubReleases",
       "ModuleSources": [
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
-      "Modules": [ 
+      "Modules": [
+        {
+          "Id": "VirtoCommerce.Cart",
+          "Version": "3.1009.0"
+        },
         {
           "Id": "VirtoCommerce.Loyalty",
           "Version": "3.1005.0"
-        },        
+        },
         {
           "Id": "VirtoCommerce.ElasticSearch",
           "Version": "3.806.0"
@@ -300,7 +299,7 @@
         },
         {
           "Id": "VirtoCommerce.PageBuilderModule",
-          "Version": "3.1020.0"
+          "Version": "3.1021.0"
         },
         {
           "Id": "VirtoCommerce.SalesRep",
@@ -340,7 +339,7 @@
         },
         {
           "Id": "VirtoCommerce.XFrontend",
-          "Version": "3.1005.0"
+          "Version": "3.1006.0"
         },
         {
           "Id": "VirtoCommerce.Catalog",
@@ -356,7 +355,7 @@
         },       
         {
           "Id": "VirtoCommerce.Customer",
-          "Version": "3.1021.0"
+          "Version": "3.1022.0"
         },
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
