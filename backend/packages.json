@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.1055.0",
+  "PlatformVersion": "3.1058.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.1055.0",
+  "PlatformImageTag": "3.1058.0",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
   ],
@@ -28,27 +28,11 @@
           "BlobName": "VirtoCommerce.PowerBiReports_3.800.0-pr-5-3363.zip"
         },        
         {
-          "Id": "VirtoCommerce.Catalog",
-          "BlobName": "VirtoCommerce.Catalog_3.1040.0-pr-901-9a41.zip"
-        },
-        {
           "Id": "VirtoCommerce.SeqLog",
           "BlobName": "VirtoCommerce.SeqLog_3.1000.0-pr-2-9e9c.zip"
         },
         {
           "BlobName": "VirtoCommerce.Pricing_3.1005.0-pr-236-8706.zip"
-        },
-        {
-          "Id": "VirtoCommerce.SalesRep",
-          "BlobName": "VirtoCommerce.SalesRep_3.1001.0-pr-8-a07e.zip"
-        },
-        {
-          "Id": "VirtoCommerce.Cart",
-          "BlobName": "VirtoCommerce.Cart_3.1008.0-alpha.803-vcst-5332-customer-wishlist-sharing-scope.zip"
-        },
-        {
-          "Id": "VirtoCommerce.XCart",
-          "BlobName": "VirtoCommerce.XCart_3.1029.0-alpha.270-vcst-5332-customer-wishlist-sharing-scope.zip"
         }
       ]
     },
@@ -344,7 +328,7 @@
         },
         {
           "Id": "VirtoCommerce.XCatalog",
-          "Version": "3.1014.0"
+          "Version": "3.1016.0"
         },
         {
           "Id": "VirtoCommerce.Tax",
@@ -352,7 +336,7 @@
         },
         {
           "Id": "VirtoCommerce.Xapi",
-          "Version": "3.1015.0"
+          "Version": "3.1016.0"
         },
         {
           "Id": "VirtoCommerce.Orders",
@@ -385,6 +369,22 @@
         {
           "Id": "VirtoCommerce.Inventory",
           "Version": "3.1004.0"
+        },    
+        {
+          "Id": "VirtoCommerce.SalesRep",
+          "Version": "3.1001.0"
+        },
+        {
+          "Id": "VirtoCommerce.Cart",
+          "Version": "3.1008.0"
+        },
+       {
+          "Id": "VirtoCommerce.Catalog",
+          "Version": "3.1040.0"
+        },
+        {
+          "Id": "VirtoCommerce.XCart",
+          "Version": "3.1029.0"
         }
       ]
     }
