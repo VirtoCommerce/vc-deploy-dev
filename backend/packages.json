@@ -9,7 +9,14 @@
       "Name": "AzureBlob",
       "Container": "packages",
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
-      "Modules": []
+      "Modules": [
+        {
+          "BlobName": "VirtoCommerce.UCP_3.1005.0-pr-6-78e2.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.OpenTelemetry_3.1001.0-alpha.6-vcst-5641-config-driven-tracing-sources.zip"
+        }
+      ]
     },
     {
       "Name": "GithubReleases",
@@ -28,10 +35,6 @@
         {
           "Id": "VirtoCommerce.ElasticSearch",
           "Version": "3.806.0"
-        },
-        {
-          "Id": "VirtoCommerce.OpenTelemetry",
-          "Version": "3.1000.0"
         },
         {
           "Id": "VirtoCommerce.Contentful",
@@ -236,10 +239,6 @@
         {
           "Id": "VirtoCommerce.ProductSnapshot",
           "Version": "3.1003.0"
-        },
-        {
-          "Id": "VirtoCommerce.UCP",
-          "Version": "3.1004.0"
         },
         {
           "Id": "VirtoCommerce.BackInStock",
