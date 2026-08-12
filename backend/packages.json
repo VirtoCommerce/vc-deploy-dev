@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.1059.0-alpha.13362",
+  "PlatformVersion": "3.1059.0-pr-3099-da0b-vcst-5387-top-level-catalog-assets-da0b53ea",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.1059.0-alpha.13362-dev-218c6d85",
+  "PlatformImageTag": "3.1059.0-pr-3099-da0b-vcst-5387-top-level-catalog-assets-da0b53ea",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -219,7 +219,7 @@
         },
         {
           "Id": "VirtoCommerce.BackupRestore",
-          "BlobName": "VirtoCommerce.BackupRestore_3.1003.0-alpha.13.zip"
+          "BlobName": "VirtoCommerce.BackupRestore_3.1004.0-pr-5-2048.zip"
         },
         {
           "Id": "VirtoCommerce.Orders",
@@ -331,7 +331,7 @@
         },
         {
           "Id": "VirtoCommerce.Catalog",
-          "BlobName": "VirtoCommerce.Catalog_3.1040.0-alpha.2554.zip"
+          "BlobName": "VirtoCommerce.Catalog_3.1041.0-pr-904-ce58.zip"
         },
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
