@@ -32,6 +32,9 @@
           "BlobName": "VirtoCommerce.Orders_3.1014.0-pr-503-4875.zip"
         },
         {
+          "BlobName": "VirtoCommerce.SalesRep_3.1004.0-pr-10-c9f8.zip"
+        },
+        {
           "BlobName": "VirtoCommerce.Catalog_3.1041.0-pr-903-e5bf.zip"
         }
       ]
@@ -301,10 +304,6 @@
         {
           "Id": "VirtoCommerce.PageBuilderModule",
           "Version": "3.1021.0"
-        },
-        {
-          "Id": "VirtoCommerce.SalesRep",
-          "Version": "3.1002.0"
         },
         {
           "Id": "VirtoCommerce.Shipping",
