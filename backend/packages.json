@@ -27,7 +27,7 @@
         },
         {
           "Id": "VirtoCommerce.Assets",
-          "Version": "3.1001.1"
+          "Version": "3.1001.2"
         },
         {
           "Id": "VirtoCommerce.AuthorizeNetPayment",
@@ -147,7 +147,7 @@
         },
         {
           "Id": "VirtoCommerce.Orders",
-          "Version": "3.1000.3"
+          "Version": "3.1000.4"
         },
         {
           "Id": "VirtoCommerce.Pages",
@@ -219,7 +219,7 @@
         },
         {
           "Id": "VirtoCommerce.Xapi",
-          "Version": "3.1003.1"
+          "Version": "3.1003.2"
         },
         {
           "Id": "VirtoCommerce.XCart",
@@ -239,7 +239,7 @@
         },
         {
           "Id": "VirtoCommerce.XOrder",
-          "Version": "3.1000.0"
+          "Version": "3.1000.1"
         }
       ]
     }
