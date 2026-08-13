@@ -264,10 +264,6 @@
           "Version": "3.1005.0"
         },
         {
-          "Id": "VirtoCommerce.WhiteLabeling",
-          "Version": "3.1003.0"
-        },
-        {
           "Id": "VirtoCommerce.Contracts",
           "Version": "3.1004.0"
         },
@@ -354,6 +350,10 @@
         {
           "Id": "VirtoCommerce.Inventory",
           "Version": "3.1005.0"
+        },
+        {
+          "Id": "VirtoCommerce.WhiteLabeling",
+          "Version": "3.1004.0"
         }
       ]
     },
