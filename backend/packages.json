@@ -30,7 +30,11 @@
         {
           "Id": "VirtoCommerce.SeqLog",
           "BlobName": "VirtoCommerce.SeqLog_3.1000.0-pr-2-9e9c.zip"
-        },       
+        },  
+        {
+          "Id": "VirtoCommerce.WhiteLabeling",
+          "BlobName": "VirtoCommerce.WhiteLabeling_3.1004.0-pr-26-fdce.zip"
+        },
         {
           "Id": "VirtoCommerce.SalesRep",
           "BlobName": "VirtoCommerce.SalesRep_3.1003.0-pr-9-cfb6.zip"
@@ -43,17 +47,17 @@
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
       "Modules": [
-                    {
+                     {
+          "Id": "VirtoCommerce.Cart",
+          "Version": "3.1009.0"
+        },
+        {
           "Id": "VirtoCommerce.Loyalty",
           "Version": "3.1005.0"
-        },        
+        },
         {
           "Id": "VirtoCommerce.ElasticSearch",
           "Version": "3.806.0"
-        },
-        {
-          "Id": "VirtoCommerce.OpenTelemetry",
-          "Version": "3.1000.0"
         },
         {
           "Id": "VirtoCommerce.Contentful",
@@ -176,10 +180,6 @@
           "Version": "3.1003.0"
         },
         {
-          "Id": "VirtoCommerce.Sitemaps",
-          "Version": "3.1003.0"
-        },
-        {
           "Id": "VirtoCommerce.CatalogPublishing",
           "Version": "3.1005.0"
         },
@@ -212,10 +212,6 @@
           "Version": "3.1002.0"
         },
         {
-          "Id": "VirtoCommerce.Inventory",
-          "Version": "3.1004.0"
-        },
-        {
           "Id": "VirtoCommerce.Marketing",
           "Version": "3.1006.0"
         },
@@ -236,16 +232,8 @@
           "Version": "3.1006.0"
         },
         {
-          "Id": "VirtoCommerce.Store",
-          "Version": "3.1006.0"
-        },
-        {
           "Id": "VirtoCommerce.BackupRestore",
           "Version": "3.1003.0"
-        },
-        {
-          "Id": "VirtoCommerce.Orders",
-          "Version": "3.1013.0"
         },
         {
           "Id": "VirtoCommerce.AzureSearch",
@@ -258,10 +246,6 @@
         {
           "Id": "VirtoCommerce.ProductSnapshot",
           "Version": "3.1003.0"
-        },
-        {
-          "Id": "VirtoCommerce.UCP",
-          "Version": "3.1004.0"
         },
         {
           "Id": "VirtoCommerce.BackInStock",
@@ -304,10 +288,6 @@
           "Version": "3.1005.0"
         },
         {
-          "Id": "VirtoCommerce.WhiteLabeling",
-          "Version": "3.1003.0"
-        },
-        {
           "Id": "VirtoCommerce.Contracts",
           "Version": "3.1004.0"
         }, 
@@ -321,7 +301,7 @@
         },
         {
           "Id": "VirtoCommerce.PageBuilderModule",
-          "Version": "3.1020.0"
+          "Version": "3.1021.0"
         },
         {
           "Id": "VirtoCommerce.Shipping",
@@ -348,28 +328,24 @@
           "Version": "3.1008.0"
         },
         {
-          "Id": "VirtoCommerce.Pricing",
-          "Version": "3.1005.0"
-        },
-        {
           "Id": "VirtoCommerce.Xapi",
           "Version": "3.1016.0"
         },
         {
           "Id": "VirtoCommerce.XFrontend",
-          "Version": "3.1005.0"
+          "Version": "3.1006.0"
         },
         {
-          "Id": "VirtoCommerce.Catalog",
-          "Version": "3.1040.0"
-        },
+          "Id": "VirtoCommerce.XCart",
+          "Version": "3.1029.0"
+        },              
         {
           "Id": "VirtoCommerce.XCatalog",
           "Version": "3.1016.0"
         },       
         {
           "Id": "VirtoCommerce.Customer",
-          "Version": "3.1021.0"
+          "Version": "3.1022.0"
         },
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
@@ -378,14 +354,6 @@
         {
           "Id": "VirtoCommerce.CustomerReviews",
           "Version": "3.1006.0"
-        },
-        {
-          "Id": "VirtoCommerce.Cart",
-          "Version": "3.1008.0"
-        },
-        {
-          "Id": "VirtoCommerce.XCart",
-          "Version": "3.1029.0"
         }
       ]
     }
