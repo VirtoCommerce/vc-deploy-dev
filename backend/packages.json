@@ -176,10 +176,6 @@
           "Version": "3.1002.0"
         },
         {
-          "Id": "VirtoCommerce.Inventory",
-          "Version": "3.1004.0"
-        },
-        {
           "Id": "VirtoCommerce.Marketing",
           "Version": "3.1006.0"
         },
@@ -354,6 +350,10 @@
         {
           "Id": "VirtoCommerce.SalesRep",
           "Version": "3.1003.0"
+        },
+        {
+          "Id": "VirtoCommerce.Inventory",
+          "Version": "3.1005.0"
         }
       ]
     },
