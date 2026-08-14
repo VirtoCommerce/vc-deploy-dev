@@ -350,10 +350,6 @@
           "BlobName": "VirtoCommerce.Inventory_3.1005.0-alpha.534.zip"
         },
         {
-          "Id": "VirtoCommerce.Xapi",
-          "BlobName": "VirtoCommerce.Xapi_3.1017.0-alpha.192.zip"
-        },
-        {
           "Id": "VirtoCommerce.WhiteLabeling",
           "BlobName": "VirtoCommerce.WhiteLabeling_3.1004.0-alpha.91.zip"
         },
@@ -368,6 +364,10 @@
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.1016.0-alpha.372.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Xapi",
+          "BlobName": "VirtoCommerce.Xapi_3.1018.0-alpha.194.zip"
         }
       ]
     }
