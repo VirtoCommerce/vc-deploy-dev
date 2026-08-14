@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.1058.0",
+  "PlatformVersion": "3.1059.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.1058.0",
+  "PlatformImageTag": "3.1059.0",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
   ],
@@ -26,11 +26,11 @@
         {
           "Id": "VirtoCommerce.PowerBiReports",
           "BlobName": "VirtoCommerce.PowerBiReports_3.800.0-pr-5-3363.zip"
-        },        
+        },
         {
           "Id": "VirtoCommerce.SeqLog",
           "BlobName": "VirtoCommerce.SeqLog_3.1000.0-pr-2-9e9c.zip"
-        },  
+        },
         {
           "Id": "VirtoCommerce.WhiteLabeling",
           "BlobName": "VirtoCommerce.WhiteLabeling_3.1004.0-pr-26-fdce.zip"
@@ -47,7 +47,7 @@
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
       "Modules": [
-             {
+        {
           "Id": "VirtoCommerce.Catalog",
           "Version": "3.1040.0"
         },
@@ -79,7 +79,7 @@
           "Id": "VirtoCommerce.OpenTelemetry",
           "Version": "3.1000.0"
         },
-                     {
+        {
           "Id": "VirtoCommerce.Cart",
           "Version": "3.1009.0"
         },
@@ -254,7 +254,7 @@
         {
           "Id": "VirtoCommerce.EventBus",
           "Version": "3.1010.0"
-        }, 
+        },
         {
           "Id": "VirtoCommerce.Assets",
           "Version": "3.1006.0"
@@ -322,7 +322,7 @@
         {
           "Id": "VirtoCommerce.Contracts",
           "Version": "3.1004.0"
-        }, 
+        },
         {
           "Id": "VirtoCommerce.XPickup",
           "Version": "3.1003.0"
@@ -370,11 +370,11 @@
         {
           "Id": "VirtoCommerce.XCart",
           "Version": "3.1029.0"
-        },              
+        },
         {
           "Id": "VirtoCommerce.XCatalog",
           "Version": "3.1016.0"
-        },       
+        },
         {
           "Id": "VirtoCommerce.Customer",
           "Version": "3.1022.0"
