@@ -36,6 +36,9 @@
         },
         {
           "BlobName": "VirtoCommerce.Catalog_3.1041.0-pr-903-e5bf.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.PageBuilderModule_3.1022.0-pr-155-8cf3.zip"
         }
       ]
     },
@@ -300,10 +303,6 @@
         {
           "Id": "VirtoCommerce.TaskManagement",
           "Version": "3.1005.0"
-        },
-        {
-          "Id": "VirtoCommerce.PageBuilderModule",
-          "Version": "3.1021.0"
         },
         {
           "Id": "VirtoCommerce.Shipping",
