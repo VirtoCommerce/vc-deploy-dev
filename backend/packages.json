@@ -296,10 +296,6 @@
           "Version": "3.1040.0"
         },
         {
-          "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.1015.0"
-        },
-        {
           "Id": "VirtoCommerce.CustomerReviews",
           "Version": "3.1006.0"
         },
@@ -354,6 +350,10 @@
         {
           "Id": "VirtoCommerce.XOrder",
           "Version": "3.1009.0"
+        },
+        {
+          "Id": "VirtoCommerce.ProfileExperienceApiModule",
+          "Version": "3.1016.0"
         }
       ]
     },
