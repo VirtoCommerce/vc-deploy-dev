@@ -340,10 +340,6 @@
           "Version": "3.1004.0"
         },
         {
-          "Id": "VirtoCommerce.Xapi",
-          "Version": "3.1017.0"
-        },
-        {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
           "Version": "3.1003.0"
         },
@@ -354,6 +350,10 @@
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "Version": "3.1016.0"
+        },
+        {
+          "Id": "VirtoCommerce.Xapi",
+          "Version": "3.1018.0"
         }
       ]
     },
