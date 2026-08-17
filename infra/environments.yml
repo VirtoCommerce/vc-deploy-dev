@@ -172,6 +172,8 @@
 
       Search__PickupLocationFullTextSearchEnabled: true
       Search__ContentFullTextSearchEnabled: true
+
+      VirtoCommerce__BackgroundJobs__Provider: RabbitMQ
       
       # Prevent Hangfire duplication key error
       VirtoCommerce__Hangfire__SqlServerStorageOptions__TryAutoDetectSchemaDependentOptions: true
