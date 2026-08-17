@@ -2,7 +2,7 @@
   "ManifestVersion": "2.0",
   "PlatformVersion": "3.1059.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.1059.0-pr-3100-1f33-vcst-5623-1f33fba0",
+  "PlatformImageTag": "3.1059.0-pr-3099-da0b-vcst-5387-top-level-catalog-assets-da0b53ea",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -35,10 +35,13 @@
           "BlobName": "VirtoCommerce.SalesRep_3.1004.0-pr-11-8a78.zip"
         },
         {
-          "BlobName": "VirtoCommerce.Catalog_3.1041.0-pr-903-e5bf.zip"
+          "BlobName": "VirtoCommerce.Catalog_3.1041.0-pr-904-ce58.zip"
         },
         {
           "BlobName": "VirtoCommerce.PageBuilderModule_3.1022.0-pr-159-86c6.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.BackupRestore_3.1004.0-pr-5-2048.zip"
         }
       ]
     },
@@ -231,10 +234,6 @@
         {
           "Id": "VirtoCommerce.Search",
           "Version": "3.1006.0"
-        },
-        {
-          "Id": "VirtoCommerce.BackupRestore",
-          "Version": "3.1003.0"
         },
         {
           "Id": "VirtoCommerce.AzureSearch",
