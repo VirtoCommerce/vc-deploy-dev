@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.1059.0",
+  "PlatformVersion": "3.1060.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.1059.0-pr-3100-1f33-vcst-5623-1f33fba0",
+  "PlatformImageTag": "3.1060.0",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -17,25 +17,7 @@
           "BlobName": "VirtoCommerce.OpenTelemetry_3.1001.0-alpha.6-vcst-5641-config-driven-tracing-sources.zip"
         },
         {
-          "BlobName": "VirtoCommerce.Pricing_3.1006.0-pr-237-c5db.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.Inventory_3.1005.0-pr-164-5966.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.Store_3.1007.0-pr-174-26e4.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.Sitemaps_3.1004.0-pr-92-2e95.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.Orders_3.1014.0-pr-503-ce6d.zip"
-        },
-        {
           "BlobName": "VirtoCommerce.SalesRep_3.1004.0-pr-11-8a78.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.Catalog_3.1041.0-pr-903-e5bf.zip"
         },
         {
           "BlobName": "VirtoCommerce.PageBuilderModule_3.1022.0-pr-159-86c6.zip"
@@ -186,7 +168,7 @@
         },
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
-          "Version": "3.1002.0"
+          "Version": "3.1003.0"
         },
         {
           "Id": "VirtoCommerce.AuthorizeNetPayment",
@@ -198,7 +180,7 @@
         },
         {
           "Id": "VirtoCommerce.Subscription",
-          "Version": "3.1002.0"
+          "Version": "3.1003.0"
         },
         {
           "Id": "VirtoCommerce.GDPR",
@@ -223,7 +205,7 @@
         {
           "Id": "VirtoCommerce.EventBus",
           "Version": "3.1010.0"
-        }, 
+        },
         {
           "Id": "VirtoCommerce.Assets",
           "Version": "3.1006.0"
@@ -278,7 +260,7 @@
         },
         {
           "Id": "VirtoCommerce.XOrder",
-          "Version": "3.1008.0"
+          "Version": "3.1009.0"
         },
         {
           "Id": "VirtoCommerce.XRecommend",
@@ -290,15 +272,15 @@
         },
         {
           "Id": "VirtoCommerce.WhiteLabeling",
-          "Version": "3.1003.0"
+          "Version": "3.1004.0"
         },
         {
           "Id": "VirtoCommerce.Contracts",
           "Version": "3.1004.0"
-        }, 
+        },
         {
           "Id": "VirtoCommerce.XPickup",
-          "Version": "3.1003.0"
+          "Version": "3.1004.0"
         },
         {
           "Id": "VirtoCommerce.TaskManagement",
@@ -330,7 +312,7 @@
         },
         {
           "Id": "VirtoCommerce.Xapi",
-          "Version": "3.1016.0"
+          "Version": "3.1019.0"
         },
         {
           "Id": "VirtoCommerce.XFrontend",
@@ -338,23 +320,47 @@
         },
         {
           "Id": "VirtoCommerce.XCart",
-          "Version": "3.1029.0"
-        },              
+          "Version": "3.1030.0"
+        },
         {
           "Id": "VirtoCommerce.XCatalog",
-          "Version": "3.1016.0"
-        },       
+          "Version": "3.1018.0"
+        },
         {
           "Id": "VirtoCommerce.Customer",
           "Version": "3.1022.0"
         },
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.1015.0"
+          "Version": "3.1016.0"
         },
         {
           "Id": "VirtoCommerce.CustomerReviews",
           "Version": "3.1006.0"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "Version": "3.1041.0"
+        },
+        {
+          "Id": "VirtoCommerce.Orders",
+          "Version": "3.1014.0"
+        },
+        {
+          "Id": "VirtoCommerce.Pricing",
+          "Version": "3.1006.0"
+        },
+        {
+          "Id": "VirtoCommerce.Store",
+          "Version": "3.1007.0"
+        },
+        {
+          "Id": "VirtoCommerce.Sitemaps",
+          "Version": "3.1004.0"
+        },
+        {
+          "Id": "VirtoCommerce.Inventory",
+          "Version": "3.1007.0"
         }
       ]
     }
