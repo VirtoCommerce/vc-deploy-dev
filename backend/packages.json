@@ -26,11 +26,11 @@
         {
           "Id": "VirtoCommerce.PowerBiReports",
           "BlobName": "VirtoCommerce.PowerBiReports_3.800.0-pr-5-3363.zip"
-        },        
+        },
         {
           "Id": "VirtoCommerce.SeqLog",
           "BlobName": "VirtoCommerce.SeqLog_3.1000.0-pr-2-9e9c.zip"
-        },  
+        },
         {
           "Id": "VirtoCommerce.WhiteLabeling",
           "BlobName": "VirtoCommerce.WhiteLabeling_3.1004.0-pr-26-fdce.zip"
@@ -56,6 +56,10 @@
         },
         {
           "BlobName": "VirtoCommerce.Catalog_3.1041.0-pr-903-e5bf.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Sitemaps",
+          "BlobName": "VirtoCommerce.Sitemaps_3.1004.0.zip"
         }
       ]
     },
@@ -73,7 +77,7 @@
           "Id": "VirtoCommerce.OpenTelemetry",
           "Version": "3.1000.0"
         },
-                     {
+        {
           "Id": "VirtoCommerce.Cart",
           "Version": "3.1009.0"
         },
@@ -248,7 +252,7 @@
         {
           "Id": "VirtoCommerce.EventBus",
           "Version": "3.1010.0"
-        }, 
+        },
         {
           "Id": "VirtoCommerce.Assets",
           "Version": "3.1006.0"
@@ -316,7 +320,7 @@
         {
           "Id": "VirtoCommerce.Contracts",
           "Version": "3.1004.0"
-        }, 
+        },
         {
           "Id": "VirtoCommerce.XPickup",
           "Version": "3.1003.0"
@@ -364,11 +368,11 @@
         {
           "Id": "VirtoCommerce.XCart",
           "Version": "3.1029.0"
-        },              
+        },
         {
           "Id": "VirtoCommerce.XCatalog",
           "Version": "3.1016.0"
-        },       
+        },
         {
           "Id": "VirtoCommerce.Customer",
           "Version": "3.1022.0"
