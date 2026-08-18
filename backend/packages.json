@@ -184,10 +184,6 @@
           "Version": "3.1006.0"
         },
         {
-          "Id": "VirtoCommerce.Store",
-          "Version": "3.1006.0"
-        },
-        {
           "Id": "VirtoCommerce.BackupRestore",
           "Version": "3.1003.0"
         },
@@ -354,6 +350,10 @@
         {
           "Id": "VirtoCommerce.Sitemaps",
           "Version": "3.1004.0"
+        },
+        {
+          "Id": "VirtoCommerce.Store",
+          "Version": "3.1007.0"
         }
       ]
     },
