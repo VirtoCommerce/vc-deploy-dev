@@ -214,10 +214,6 @@
           "BlobName": "VirtoCommerce.BackupRestore_3.1004.0-pr-5-2048.zip"
         },
         {
-          "Id": "VirtoCommerce.Orders",
-          "BlobName": "VirtoCommerce.Orders_3.1013.0-alpha.1437.zip"
-        },
-        {
           "Id": "VirtoCommerce.AzureSearch",
           "BlobName": "VirtoCommerce.AzureSearch_3.1007.0-alpha.297.zip"
         },
@@ -368,6 +364,10 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "BlobName": "VirtoCommerce.Catalog_3.1041.0-alpha.2557-test-vcst-4863.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Orders",
+          "BlobName": "VirtoCommerce.Orders_3.1014.0-alpha.1440.zip"
         }
       ]
     }
