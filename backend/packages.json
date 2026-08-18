@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.1060.0",
+  "PlatformVersion": "3.1061.0-pr-3097-dff9-vcst-5686-dff9e74a",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.1060.0",
+  "PlatformImageTag": "3.1061.0-pr-3097-dff9-vcst-5686-dff9e74a",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -21,6 +21,15 @@
         },
         {
           "BlobName": "VirtoCommerce.PageBuilderModule_3.1022.0-pr-159-86c6.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.BackgroundJobs_3.1051.0-pr-3-a18f.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.ImageTools_3.1004.0-pr-125-555c.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Search_3.1007.0-pr-145-491d.zip"
         }
       ]
     },
@@ -143,10 +152,6 @@
           "Version": "3.1002.0"
         },
         {
-          "Id": "VirtoCommerce.ImageTools",
-          "Version": "3.1003.0"
-        },
-        {
           "Id": "VirtoCommerce.LuceneSearch",
           "Version": "3.1004.0"
         },
@@ -211,20 +216,12 @@
           "Version": "3.1006.0"
         },
         {
-          "Id": "VirtoCommerce.Search",
-          "Version": "3.1006.0"
-        },
-        {
           "Id": "VirtoCommerce.BackupRestore",
           "Version": "3.1003.0"
         },
         {
           "Id": "VirtoCommerce.AzureSearch",
           "Version": "3.1005.0"
-        },
-        {
-          "Id": "VirtoCommerce.BackgroundJobs",
-          "Version": "3.1050.0"
         },
         {
           "Id": "VirtoCommerce.ProductSnapshot",
