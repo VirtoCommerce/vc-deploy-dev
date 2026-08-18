@@ -30,6 +30,9 @@
         },
         {
           "BlobName": "VirtoCommerce.Search_3.1007.0-pr-145-491d.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.CatalogCsvImportModule_3.1004.0-pr-145-d59d.zip"
         }
       ]
     },
@@ -170,10 +173,6 @@
         {
           "Id": "VirtoCommerce.CatalogPublishing",
           "Version": "3.1005.0"
-        },
-        {
-          "Id": "VirtoCommerce.CatalogCsvImportModule",
-          "Version": "3.1003.0"
         },
         {
           "Id": "VirtoCommerce.AuthorizeNetPayment",
