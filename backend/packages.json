@@ -150,10 +150,6 @@
           "BlobName": "VirtoCommerce.CatalogPersonalization_3.1004.0-alpha.304.zip"
         },
         {
-          "Id": "VirtoCommerce.Sitemaps",
-          "BlobName": "VirtoCommerce.Sitemaps_3.1004.0-alpha.421.zip"
-        },
-        {
           "Id": "VirtoCommerce.CatalogPublishing",
           "BlobName": "VirtoCommerce.CatalogPublishing_3.1006.0-alpha.404.zip"
         },
@@ -368,6 +364,10 @@
         {
           "Id": "VirtoCommerce.Store",
           "BlobName": "VirtoCommerce.Store_3.1007.0-alpha.789.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Sitemaps",
+          "BlobName": "VirtoCommerce.Sitemaps_3.1004.0-alpha.426.zip"
         }
       ]
     }
