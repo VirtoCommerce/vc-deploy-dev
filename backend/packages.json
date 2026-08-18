@@ -196,10 +196,6 @@
           "Version": "3.1003.0"
         },
         {
-          "Id": "VirtoCommerce.Orders",
-          "Version": "3.1013.0"
-        },
-        {
           "Id": "VirtoCommerce.AzureSearch",
           "Version": "3.1005.0"
         },
@@ -354,6 +350,10 @@
         {
           "Id": "VirtoCommerce.Subscription",
           "Version": "3.1003.0"
+        },
+        {
+          "Id": "VirtoCommerce.Orders",
+          "Version": "3.1014.0"
         }
       ]
     },
