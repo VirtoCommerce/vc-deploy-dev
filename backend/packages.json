@@ -368,6 +368,10 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "BlobName": "VirtoCommerce.Catalog_3.1041.0-alpha.2559-test-vcst-4863.zip"
+        },
+        {
+          "Id": "VirtoCommerce.OpenTelemetry",
+          "BlobName": "VirtoCommerce.OpenTelemetry_3.1001.0-alpha.5.zip"
         }
       ]
     }
