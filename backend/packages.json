@@ -27,6 +27,14 @@
         {
           "Id": "VirtoCommerce.BackupRestore",
           "BlobName": "VirtoCommerce.BackupRestore_3.1004.0-pr-5-2048.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Customer",
+          "BlobName": "VirtoCommerce.Customer_3.1023.0-alpha.1009-vcst-5450.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ProfileExperienceApiModule",
+          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.1017.0-pr-143-f9c0.zip"
         }
       ]
     },
@@ -353,10 +361,6 @@
           "Version": "3.1030.0"
         },
         {
-          "Id": "VirtoCommerce.Customer",
-          "Version": "3.1022.0"
-        },
-        {
           "Id": "VirtoCommerce.AzureSearch",
           "Version": "3.1005.0"
         },
@@ -367,10 +371,6 @@
         {
           "Id": "VirtoCommerce.Notifications",
           "Version": "3.1013.0"
-        },
-        {
-          "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.1016.0"
         },
         {
           "Id": "VirtoCommerce.AlgoliaSearch",
