@@ -37,7 +37,8 @@
     config:
       APPINSIGHTS_INSTRUMENTATIONKEY: adc98546-3f8a-4462-a0b2-7c822b5565ba
     themes:
-      FE: https://github.com/VirtoCommerce/vc-frontend/releases/download/2.54.0/vc-theme-b2b-vue-2.54.0.zip
+      FE: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-2.56.0-pr-2410-5212-5212ba6c.zip
+}
   customApps:
     app1:
       enabled: false
