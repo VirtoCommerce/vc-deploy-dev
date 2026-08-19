@@ -1,54 +1,501 @@
 - name: vcptcore-aidemo2
   gitops: true
   production: false
-  servicePlan: B1
+  servicePlan: S2
   platform:
-    dbProvider: AzureSQL Database
-    # Custom platform image (base platform + modules) built & pushed by deploy-backend.yml.
-    # Was saas/platform:latest-stable — switched to the per-project custom image so
-    # WhiteLabeling / PageBuilder / Pages (already listed in backend/packages.json) get installed.
+    headers:
+      Cross-Origin-Resource-Policy: cross-origin
+      Cross-Origin-Opener-Policy: unsafe-none
+      Cross-Origin-Embedder-Policy: unsafe-none
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    # imageTag is set by deploy-backend (CloudEnvSetParameter platform.image.tag=<ver>-<sha>)
-    # and preserved across infra deploys via protectedParameters below.
+    #imageTag: 3.812.0-alpha.12873-vcst-567-counter-2c3cae8c-3c6554d
     sqlReplica: false
-    redis:
-      service: redis-uat-vc03-redis-cluster.redis-cluster:6379
     config:
-      APPINSIGHTS_INSTRUMENTATIONKEY: 2c32e0ab-0e97-4937-b03c-b2b1c7573454
-      # --- Page Builder / CMS slug resolution (added 2026-07-17) ---
-      # Published Page Builder pages resolved right after publish but decayed (storefront fell
-      # back to default home.vue) once a scheduled full reindex ran. Two config keys keep them
-      # resolvable durably, matching the vcptcore-demo env. NOTE: intentionally NOT copying demo's
-      # search server / DocumentScopes / blob / secrets — aidemo already has a working ElasticSearch8
-      # backend on its own scope (vcptcore-aidemo-platformvcptcore); only these two keys are added.
-      #
-      # SEO resolver order — Pages first so a published page at a permalink wins slug resolution.
+      VirtoCommerce__BackgroundJobs__Provider: RabbitMQ
+      FileUpload__RootPath: attachments
+      FileUpload__Scopes__0__Scope: quote-attachments
+      FileUpload__Scopes__0__MaxFileSize: 1000000
+      FileUpload__Scopes__0__AllowedExtensions__0: .csv
+      FileUpload__Scopes__0__AllowedExtensions__1: .docx
+      FileUpload__Scopes__0__AllowedExtensions__2: .jpg
+      FileUpload__Scopes__0__AllowedExtensions__3: .pdf
+      FileUpload__Scopes__0__AllowedExtensions__4: .png
+      FileUpload__Scopes__0__AllowedExtensions__5: .txt
+      FileUpload__Scopes__0__AllowedExtensions__6: .xlsx
+      FileUpload__Scopes__1__Scope: review-images
+      FileUpload__Scopes__1__MaxFileSize: 10000000
+      FileUpload__Scopes__1__AllowedExtensions__0: .jpg
+      FileUpload__Scopes__1__AllowedExtensions__1: .png
+      FileUpload__Scopes__1__AllowAnonymousUpload: false
+      FileUpload__Scopes__2__Scope: organization-logos
+      FileUpload__Scopes__2__MaxFileSize: 5000000
+      FileUpload__Scopes__2__AllowedExtensions__0: .jpg
+      FileUpload__Scopes__2__AllowedExtensions__1: .png
+      FileUpload__Scopes__2__AllowAnonymousUpload: false
+      FileUpload__Scopes__3__Scope: product-configuration
+      FileUpload__Scopes__3__MaxFileSize: 10000000
+      FileUpload__Scopes__3__AllowedExtensions__0: .doc
+      FileUpload__Scopes__3__AllowedExtensions__1: .rtf
+      FileUpload__Scopes__3__AllowedExtensions__2: .docx
+      FileUpload__Scopes__3__AllowedExtensions__3: .txt
+      FileUpload__Scopes__3__AllowedExtensions__4: .pdf
+      FileUpload__Scopes__3__AllowedExtensions__5: .xls
+      FileUpload__Scopes__3__AllowedExtensions__6: .xlsx
+      FileUpload__Scopes__3__AllowedExtensions__7: .jpg
+      FileUpload__Scopes__3__AllowedExtensions__8: .png
+      FileUpload__Scopes__3__AllowedExtensions__9: .odt
+      FileUpload__Scopes__3__AllowAnonymousUpload: true
+      FileUpload__Scopes__4__Scope: purchase-request-sources
+      FileUpload__Scopes__4__MaxFileSize: 20971520
+      FileUpload__Scopes__4__AllowedExtensions__0: .gif
+      FileUpload__Scopes__4__AllowedExtensions__1: .jpeg
+      FileUpload__Scopes__4__AllowedExtensions__2: .jpg
+      FileUpload__Scopes__4__AllowedExtensions__3: .png
+      FileUpload__Scopes__4__AllowedExtensions__4: .webp
+      DOTNET_USE_POLLING_FILE_WATCHER: true
+      Reload: 22
+      #ConnectionStrings__AzureAppConfigurationConnectionString: "Endpoint=https://qa-vc-app-config.azconfig.io;Id=BvwK;Secret=nbF7kOXCU14+qCF5OtP4LR63zfbSyDx6th46bIWkUHQ="
+     
+      Serilog__Using__0: Serilog.Sinks.Console
+      #Serilog__Using__1: Serilog.Sinks.ApplicationInsights
+      Serilog__Using__1: Serilog.Sinks.Debug
+      #Serilog__Using__2: Serilog.Sinks.Seq
+      Serilog__MinimumLevel__Override__VirtoCommerce__ElasticSearch8__Data__Services__ElasticSearch8Provider: "Debug"
+      Serilog__MinimumLevel__Override__VirtoCommerce__Platform__Web__Controllers__Api__LicensingController: "Information"
+      Serilog__MinimumLevel__Override__VirtoCommerce__AzureBlobAssetsModule__Core__AzureBlobProvider: "Debug"
+      #Serilog__MinimumLevel__Default: "Information"
+      #Serilog__WriteTo__0: Console
+      #Serilog__WriteTo__1__Name: ApplicationInsights
+      #Serilog__WriteTo__1__Args__telemetryConverter: Serilog.Sinks.ApplicationInsights.TelemetryConverters.TraceTelemetryConverter, Serilog.Sinks.ApplicationInsights
+      #Serilog__WriteTo__1__Args__restrictedToMinimumLevel: "Information"
+      
+      VirtoCommerce__SampleDataUrl: "https://virtocommerce.azureedge.net/sample-data/b2b-sample-store.zip"
+      #VirtoCommerce__PlatformUI__Enable: false
+      TaxModule__FixedRateTaxProvider__Enabled: true
+
+      VirtoCommerce__RefreshProbingFolderOnStart: false
+      #one order template for all stores
+      VirtoCommerce__SequenceNumberGenerator__UseGlobalTenantId: true
+      
+      #notifications_settings
+      
+      #Notifications__Gateway: SendGrid
+      Notifications__Gateway: Smtp
+      Notifications__Smtp__ForceSslTls: false
+      Notifications__Smtp__SmtpServer: smtp.sendgrid.net
+      Notifications__Smtp__Login: apikey
+      Notifications__Smtp__Port: 587
+      Notifications__SmsDefaultSender: +17012510519
+      Notifications__DefaultReplyTo: kutasina.elena@gmail.com
+      Notifications__DefaultSender: virto.start@virtoway.com
+      #Notifications__DefaultSender: website@aras.nl
+      Notifications__Gateway: MicrosoftGraph
+      Notifications__MicrosoftGraph__ApplicationId: 24ffedfb-a93a-4fea-a078-dcdcf233d995
+      Notifications__MicrosoftGraph__TenantId: 70697aab-b16c-4648-ad2b-5cc5b193e9a5
+      Notifications__MicrosoftGraph__SecretValue: Ua58Q~3lrsu2MXDTXFMBdkSE8hOIR8KXsYwjNcin
+      #Notifications__Smtp__EnableSsl: False
+
       Seo__SeoInfoResolver__0: Pages
       Seo__SeoInfoResolver__1: ContentFile
-      Seo__SeoInfoResolver__2: Catalog
+      Seo__SeoInfoResolver__2: Brands
       Seo__SeoInfoResolver__3: Brand
-      Seo__SeoInfoResolver__4: Category
-      Seo__SeoInfoResolver__5: CatalogProduct
-      # Include content/pages in the full (scheduled) reindex so they aren't dropped between publishes.
+      Seo__SeoInfoResolver__4: Catalog
+      Seo__SeoInfoResolver__5: Category
+      Seo__SeoInfoResolver__6: CatalogProduct
+
+      #ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
+      VirtoCommerce__GraphQLPlayground__Enable: true
+      VirtoCommerce__Swagger__Enable: true
+      VirtoCommerce__Stores__DefaultStore: B2B-store
+      PushNotifications__ForceWebSockets: true
+      PushNotifications__ScalabilityMode: RedisBackplane
+      PushNotifications__RedisBackplane__ChannelName: vcptcore-qa-chanel
+      PushMessages__UseFirebaseCloudMessaging: true
+      PushMessages__FcmSenderOptions__Type: service_account
+      PushMessages__FcmSenderOptions__ProjectId: vcptcore-qa
+      PushMessages__FcmSenderOptions__PrivateKeyId: 46979e20ed5db1673ae83b83d01b24ad142c68ab
+      PushMessages__FcmSenderOptions__ClientEmail: firebase-adminsdk-fb4ea@vcptcore-qa.iam.gserviceaccount.com
+      PushMessages__FcmSenderOptions__ClientId: 110684419668943183491
+      PushMessages__FcmSenderOptions__AuthUri: https://accounts.google.com/o/oauth2/auth
+      PushMessages__FcmSenderOptions__TokenUri: https://oauth2.googleapis.com/token
+      PushMessages__FcmSenderOptions__AuthProviderX509CertUrl: https://www.googleapis.com/oauth2/v1/certs
+      PushMessages__FcmSenderOptions__ClientX509CertUrl: https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-fb4ea%40vcptcore-qa.iam.gserviceaccount.com
+      PushMessages__FcmSenderOptions__UniverseDomain: googleapis.com
+      PushMessages__FcmReceiverOptions__ApiKey: AIzaSyD4YXs4pSO11Gb95ecyd7oRl8wV6SUM_jU
+      PushMessages__FcmReceiverOptions__AuthDomain: vcptcore-qa.firebaseapp.com
+      PushMessages__FcmReceiverOptions__ProjectId: vcptcore-qa
+      PushMessages__FcmReceiverOptions__StorageBucket: vcptcore-qa.appspot.com
+      PushMessages__FcmReceiverOptions__MessagingSenderId: 995027985115
+      PushMessages__FcmReceiverOptions__AppId: 1:995027985115:web:324f963313f91886e5e2fe
+      PushMessages__FcmReceiverOptions__VapidKey: BC8WwWRnCNgs_slIACjwBrNu_iQSiY7xlq48NBSobEITxzye9L_K_aEmMdB1LWPn7dMX2G8zm4LcLrklHgW-4iY
+      
+      #VirtoCommerce__Settings__Overrides__Force__Global__GoogleAnalytics4_EnableTracking: true
+      #VirtoCommerce__Settings__Overrides__Force__Global__GoogleAnalytics4_MeasurementId: MeasurementId-FromConfig-global
+      #VirtoCommerce__Settings__Overrides__Force__Global__GoogleAnalytics4_GtmContainerId: GtmContainerId-FromConfig-global
+      VirtoCommerce__Settings__Overrides__Default__Global__GoogleAnalytics4_EnableTracking: true
+      VirtoCommerce__Settings__Overrides__Default__Global__GoogleAnalytics4_MeasurementId: MeasurementId-FromConfig-default
+      VirtoCommerce__Settings__Overrides__Default__Global__GoogleAnalytics4_GtmContainerId: GtmContainerId-FromConfig-default
+      VirtoCommerce__Settings__Overrides__Default__Tenants__Store__store2__GoogleAnalytics4_EnableTracking: false
+      VirtoCommerce__Settings__Overrides__Default__Tenants__Store__store2__GoogleAnalytics4_MeasurementId: MeasurementId-FromConfig-tenant
+      
+      LoginPageUI__ShowForgotPasswordLink: true
+           
+      #Search__Settings
+      
+      Search__OrderFullTextSearchEnabled: true
       Search__ContentFullTextSearchEnabled: true
+      Search__PickupLocationFullTextSearchEnabled: true
+      
+      Search__DocumentScopes__0__DocumentType: Product
+      Search__DocumentScopes__0__Scope: vcptcore-qa-platformvcptcore-scope11
+      Search__DocumentScopes__2__DocumentType: Category
+      Search__DocumentScopes__2__Scope: vcptcore-qa-platformvcptcore-scope55
+      Search__DocumentScopes__3__DocumentType: Member
+      Search__DocumentScopes__3__Scope: vcptcore-qa-platformvcptcore-scope33
+      Search__DocumentScopes__4__DocumentType: CustomerOrder
+      Search__DocumentScopes__4__Scope: vcptcore-qa-platformvcptcore-scope44
+      Search__DocumentScopes__5__DocumentType: ContentFile
+      Search__DocumentScopes__5__Scope: vcptcore-qa-platformvcptcore-scope66
+      
+      # Elastic Search settings
+      # Search__ElasticSearch__Server: https://elasticsearch-vc03.govirto.com
+      Search__ElasticSearch__EnableCompatibilityMode: true
+      Search__ElasticSearch__HealthCheckTimeout: 10      
+      # Search__Provider: ElasticSearch
+      # Search__ElasticSearch__User: vcptcore-qa-vcptcore
+      Search__Provider: ElasticSearch8
+      
+      #Search__Provider: OpenSearch
+      Search__OpenSearch__Server: https://opensearch-uat.govirto.com/
+      Search__OpenSearch__User: admin
+      Search__OpenSearch__Password: '@-mJ"ch{l/#+LXg_"w>v'
+      Search__OpenSearch__EnableHttpCompression: true
+      
+      #Search__Provider: ElasticAppSearch
+      #Search__Provider: Lucene
+      #Search__Scope: default
+      #Search__Lucene__Path: /path/to/lucene/indexes
+      #Search__ElasticSearch8__Server: https://1714126b27f941cb82f2c0e0d242d6b4.eastus2.azure.elastic-cloud.com
+      #Search__ElasticSearch8__User: elastic
+      #Search__ElasticSearch8__EnableDebugMode: true
+
+      #Search__Provider: ElasticSearch9
+      Search__ElasticSearch9__Server: https://ff10e00819674943a714b41dab12564c.us-central1.gcp.cloud.es.io:443
+      Search__ElasticSearch9__User: elastic
+      Search__ElasticSearch9__Key: qD7sT916ltp6hhTUumJCKc1o
+
+      #Search__Provider: AlgoliaSearch
+      Search__AlgoliaSearch__ApiKey: f3de99009f79a358485b9e11fe7e3692
+      Search__AlgoliaSearch__AppId: O1IWK3QKLW
+
+      PlatformSettings__Settings__0__Name: Order.RefundNewNumberTemplate
+      PlatformSettings__Settings__0__ValueType: ShortText
+      PlatformSettings__Settings__0__Value: fixed
+      PlatformSettings__Settings__0__DefaultValue: fixed
+      PlatformSettings__Settings__0__GroupName: "Orders|Orders"
+      Search__ElasticAppSearch__EnableHttpCompression: true
+      Search__ElasticAppSearch__Endpoint: https://enterprise-search-vc03.govirto.com
+
+      #Search__Provider: AzureSearch
+      Search__AzureSearch__SearchServiceName: qa-demovc-3-search
+      Search__AzureSearch__Key: 6BE1143312E89C26C227E6BBAE24DD47
+      Search__AzureSearch__QueryParserType: Full
+      Search__AzureSearch__Endpoint: https://qa-demovc-3-search.search.windows.net
+
+      #GoogleSSO_settings
+      
+      GoogleSSO__Enabled: true
+      GoogleSSO__AuthenticationType: GoogleSSO
+      GoogleSSO__AuthenticationCaption: Google
+      GoogleSSO__ApplicationId:  995027985115-qijocrsde8stfmf0d56dv2vjb4lkgfjc.apps.googleusercontent.com
+      GoogleSSO__Secret: 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 
+      GoogleSSO__Priority: 2
+
+      #OpenId_settings
+
+      oidc__0__Enabled: true
+      oidc__0__AuthenticationType: virto
+      oidc__0__AuthenticationCaption: Virto
+      oidc__0__Authority: https://vcst-qa.govirto.com
+      oidc__0__ClientId: 0c73f782-97d2-4f5d-8345-9209198fe179
+      oidc__0__ClientSecret: 100ee8c1-ad30-4aab-af02-eefff78a4777
+      oidc__0__ResponseMode: query
+      oidc__0__ResponseType: code
+      oidc__0__GetClaimsFromUserInfoEndpoint: true
+      oidc__0__CallbackPath: /signin-virto
+      oidc__0__SignedOutCallbackPath: /signout-virto
+      
+      AzureAd__Enabled: true
+      AzureAd__Priority: 1
+      AzureAd__ApplicationId: 86d04c35-143d-4d3c-aea2-8608e2186282
+      AzureAd__TenantId: common
+      AzureAd__ValidateIssuer: MultitenantAzureAD
+      AzureAd__UseEmail: true
+      AzureAd__DefaultUserType: Manager
+      AzureAd__DefaultUserRoles__0: Purchasing agent
+      AzureAd__DefaultUserRoles__1: Order manager
+      PasswordLogin__Enabled: true
+      PasswordLogin__Priority: 0      
+      Content__FileSystem__PublicUrl: https://vcptcore-qa.govirto.com/cms-content/
+      Assets__FileSystem__PublicUrl: https://vcptcore-qa.govirto.com/cms-content/assets/
+      Assets__Provider: FileSystem
+      #Assets__Provider: AzureBlobStorage
+      #Assets__AzureBlobStorage__ConnectionString: DefaultEndpointsProtocol=https;AccountName=qademovc3;AccountKey=qPIpM63MI2P3ei6B1xIL4/DlKDqdsRj54z2GUtgCAeXPcMe8+mZiUvrvI5fjdyrovk331XmBlMFfAEFAjCnvtw==;EndpointSuffix=core.windows.net
+      Assets__AzureBlobStorage__ConnectionString: DefaultEndpointsProtocol=https;AccountName=qademovc3;AccountKey=MLHptxmwIBAWF/GzV5J16jrSRlVn13lvD56l3R5/ciRSo/sG/dg8o8VmLW0OYP4N3N+VxbfI8M48+ASt4Q2d/g==;EndpointSuffix=core.windows.net
+      #Assets__AzureBlobStorage__ConnectionString: BlobEndpoint=https://qademovc3.blob.core.windows.net/;QueueEndpoint=https://qademovc3.queue.core.windows.net/;FileEndpoint=https://qademovc3.file.core.windows.net/;TableEndpoint=https://qademovc3.table.core.windows.net/;SharedAccessSignature=sv=2022-11-02&ss=bfqt&srt=sco&sp=rwdlacupiytfx&se=2025-02-27T00:34:20Z&st=2024-02-26T16:34:20Z&spr=https&sig=QSyd83bPIqXYfQAK9AhGgdXaXYmPsSz450OGegOnZUE%3D
+      Assets__AzureBlobStorage__RootPath: catalog
+      #Assets__AzureBlobStorage__PublicUrl: https://qa-cdn-test.example.com
+      Assets__AzureBlobStorage__CdnUrl: https://qa-cdn-test.example.com/static
+      Assets__AzureBlobStorage__AllowBlobPublicAccess: true
+      Content__Provider: FileSystem
+      #Content__Provider: AzureBlobStorage
+      Content__PathMappings__pages__0: Themes
+      Content__PathMappings__pages__1: _storeId
+      Content__PathMappings__pages__2: _theme
+      Content__PathMappings__pages__3: content/pages
+      Content__PathMappings__blogs__0: Pages
+      Content__PathMappings__blogs__1: _storeId
+      Content__PathMappings__blogs__2: blogs
+      Content__AzureBlobStorage__RootPath: cms
+      Content__AzureBlobStorage__AllowBlobPublicAccess: false
+      Content__AzureBlobStorage__ConnectionString: BlobEndpoint=https://qademovc3.blob.core.windows.net/;QueueEndpoint=https://qademovc3.queue.core.windows.net/;FileEndpoint=https://qademovc3.file.core.windows.net/;TableEndpoint=https://qademovc3.table.core.windows.net/;SharedAccessSignature=sv=2022-11-02&ss=bfqt&srt=sco&sp=rwdlacupiytfx&se=2025-02-27T00:34:20Z&st=2024-02-26T16:34:20Z&spr=https&sig=QSyd83bPIqXYfQAK9AhGgdXaXYmPsSz450OGegOnZUE%3D
+      #Content__AzureBlobStorage__ConnectionString: DefaultEndpointsProtocol=https;AccountName=qademovc3;AccountKey=qPIpM63MI2P3ei6B1xIL4/DlKDqdsRj54z2GUtgCAeXPcMe8+mZiUvrvI5fjdyrovk331XmBlMFfAEFAjCnvtw==;EndpointSuffix=core.windows.net
+      
+      VirtoCommerce__StoreAssets__KnownAssetHosts__0: vcptcore-qa.govirto.com
+      
+      
+      #VirtoCommerce__FileExtensionsWhiteList__0: ".pdf"
+      VirtoCommerce__LicenseFilePath: app_data/VirtoCommerce.lic
+      VirtoCommerce__LicensePublicKeyPath: app_data/public.key
+      VirtoCommerce__LicensePrivateKeyPath: app_data/private.key
+      VirtoCommerce__LocalUploadFolderPath: app_data/uploads
+      VirtoCommerce__Hangfire__JobStorageType: SqlServer
+      VirtoCommerce__Hangfire__WorkerCount: 2
+      VirtoCommerce__Hangfire__SqlServerStorageOptions__InactiveStateExpirationTimeout: 00:01:00
+      VirtoCommerce__Hangfire__Queues__items_0: default
+      VirtoCommerce__Hangfire__Queues__items_1: index_worker
+      VirtoCommerce__Licensing__LicensePrivateKeyPath: /opt/virtocommerce/platform/license/VirtoCommerce.lic
+      Logging__LogLevel__Default: Information
+      PasswordLogin__DetailedErrors: true
+      Payments__AuthorizeNet__ApiLogin: 52B9X7vb4
+      #Payments__AuthorizeNet__SHA2Hash: FA6D2B37A7E9105942D2D184F1B2DBD8D9CA85611DE55B2267A6F7E0D7E49ACD9A6BC238CE068E75CA14ACFAD734F700FD94DCAB20353DD4D32D9BABE72DBBE4
+      Payments__AuthorizeNet__TxnKey: 6QzDf3843wVRp4vx
+      Tax__Avalara__AccountNumber: 2000188799
+      Tax__Avalara__LicenseKey: 16BC3F87E836E15C
+      APPINSIGHTS_INSTRUMENTATIONKEY: 884ea59d-88e9-46a3-9244-e530b7a47432
+      #VirtoCommerce__ApplicationInsights__RoleName: This is QA role
+      #VirtoCommerce__ApplicationInsights__RoleInstance: This is instance of QA      
+      Videos__GoogleApiKey: AIzaSyD5A4oFeSgaMQnMo3OiaqUSJ23SQGELiA4
+      Caching__CacheEnabled: true
+      Authorization__ReturnPasswordHash: true
+      Authorization__AllowApiAccessForCustomers: false
+      Authorization__EnablePersistentStorageTokenValidation: true
+      #Authorization__AllowOverrideProtectedUserFields: false
+      PasswordLogin__DetailedErrors: true
+      IdentityOptions__Password__RequiredLength: 3
+      IdentityOptions__Password__RequireDigit: false
+      IdentityOptions__Password__RequireNonAlphanumeric: false
+      IdentityOptions__Password__RequireUppercase: false
+      IdentityOptions__Password__RequireLowercase: false
+      IdentityOptions__Password__requiredUniqueChars: 2
+      IdentityOptions__Password__PasswordChangeByAdminEnabled: true
+      IdentityOptions__Lockout__AutoAccountsLockoutJobEnabled: true
+      IdentityOptions__Lockout__LockoutMaximumDaysFromLastLogin: 365
+      IdentityOptions__Lockout__CronAutoAccountsLockoutJob: 0 0 4 * * *
+      IdentityOptions__Lockout__AutoAccountsLockoutJobBatchSize: 18
+      IdentityOptions__User__RemindPasswordExpiryInDays: 10
+      IdentityOptions__User__MaxPasswordAge: 90
+      IdentityOptions__User__RequireUniqueEmail: true
+      IdentityOptions__Lockout__MaxFailedAccessAttempts: 5
+      IdentityOptions__Lockout__DefaultLockoutTimeSpan: 00:02:00
+      #FrontendSecurity__OrganizationMaintainerRole: Organization maintainer
+      EventBus__Connections__0__Name: AzureEventGridApps1
+      EventBus__Connections__0__ProviderName: AzureEventGrid
+      #EventBus__Connections__0__ConnectionOptionsSerialized: >-
+      #{'ConnectionString': 'https://test-event-grid-dont-delete.westus-1.eventgrid.azure.net/api/events', 'AccessKey': 'kvpXOgw5MiNjBeBKdroX1r45UvZloXMwlM7i1TyqoiI='}  
+      EventBus__Subscriptions__0__ConnectionName: AzureEventGridApps
+      EventBus__Subscriptions__0__Name: TestSubscriptionAppS
+      EventBus__Subscriptions__0__Events__0__EventId: VirtoCommerce.Platform.Core.Security.Events.UserChangedEvent
+      AzureAd__Priority: 1
+      PasswordLogin__Priority: 0   
+      
+      # Skyflow settings
+      Payments__Skyflow__tokenURI: https://manage.skyflowapis.com/v1/auth/sa/oauth/token
+      Payments__Skyflow__vaultURI: https://ebfc9bee4242.vault.skyflowapis.com
+      Payments__Skyflow__gatewayURI: https://ebfc9bee4242.gateway.skyflowapis.com
+      Payments__Skyflow__vaultId: c1aeec61ad7c46c2b724f004a7658b2f
+      Payments__Skyflow__tableName: credit_cards
+      Payments__Skyflow__TargetPaymentMethod: AuthorizeNetPaymentMethod
+      Payments__Skyflow__TargetConnectionRoute: gfb5ce07e91340efac348a2df035c513/xml/v1/request.api
+
+      # CyberSource
+      Payments__CyberSource__ValidateSignatureRetryCount: 5
+ 
+      # Datatrans
+      Payments__Datatrans__MerchantId: 1110020617
+      Payments__Datatrans__Secret: eVZ5bq237EUzbpOF
+      
+      # Shippment
+      Shipping__IsPickupEnabled: true
+
+      AuditLogOptions__CanConfigureTrackingEvents: true
+      AuditLogOptions__EntityOptions__0__TypeFullName: VirtoCommerce.OrdersModule.Core.Model.CustomerOrder
+      AuditLogOptions__EntityOptions__0__NameProperty: Number
+      AuditLogOptions__EntityOptions__0__UntrackedProperties__0: StoreId
+      AuditLogOptions__EntityOptions__1__TypeFullName: VirtoCommerce.Platform.Core.Settings.ObjectSettingEntry
+      AuditLogOptions__EntityOptions__1__NameProperty: Name
+      AuditLogOptions__EntityOptions__2__TypeFullName: VirtoCommerce.CatalogModule.Core.Model.PropertyValue
+      AuditLogOptions__EntityOptions__2__NameProperty: PropertyName
+      AuditLogOptions__EntityOptions__3__TypeFullName: VirtoCommerce.CatalogModule.Core.Model.CatalogProduct
+      AuditLogOptions__EntityOptions__3__NameProperty: Code
+      AuditLogOptions__EntityOptions__4__TypeFullName: VirtoCommerce.CatalogModule.Core.Model.Property
+      AuditLogOptions__EntityOptions__4__NameProperty: Name
+      VirtoCommerce__ModuleSequenceBoost__0: VirtoCommerce.AuditLog
+
+      VirtoCommerce__GraphQLComplexityValidation__Enable: true
+      #VirtoCommerce__GraphQLComplexityValidation__IgnoreIntrospection: true
+      #VirtoCommerce__GraphQLComplexityValidation__MaxComplexity: 1000
+
+      #UnitOfMeasure default settings
+      Measures__DefaultSource: https://vcptcore-qa.govirto.com/cms-content/assets/measures/VirtoCommerce.Catalog.json
+      
+    secretConfig:
+      Payments__AuthorizeNet__TxnKey: authorizenet-txnkey-vs
+      Payments__Skyflow__PaymentFormAccount__clientID: skyflow-paymentformaccount-clientid
+      Payments__Skyflow__PaymentFormAccount__keyID: skyflow-paymentformaccount-keyid
+      Payments__Skyflow__PaymentFormAccount__privateKey: skyflow-paymentformaccount-privatekey
+      Payments__Skyflow__IntegrationsAccount__clientID: skyflow-integrationsaccount-clientid
+      Payments__Skyflow__IntegrationsAccount__keyID: skyflow-integrationsaccount-keyid
+      Payments__Skyflow__IntegrationsAccount__privateKey: skyflow-integrationsaccount-privatekey
+      Payments__CyberSource__MerchantId: cybersource-merchantid
+      Payments__CyberSource__MerchantKeyId: cybersource-merchantkeyid
+      Payments__CyberSource__MerchantSecretKey: cybersource-merchantsecretkey
+      Notifications__SendGrid__ApiKey: sendkey
+      Notifications__Smtp__Password: smtppassword-sendgrid
+      Search__ElasticAppSearch__PrivateApiKey: elasticappsearch
+      Serilog__WriteTo__1__Args__connectionString: connectionstringaiqa
+      EventBus__Connections__0__ConnectionOptionsSerialized: eventbusconnection
+      #Assets__AzureBlobStorage__ConnectionString: azureblobconnectionstring
+      PushMessages__FcmSenderOptions__PrivateKey: firebase-privatekey
+      Search__ElasticSearch8__Key: elastic-search-8
+      PushNotifications__HubUrl: pushnotifications-huburl-vcptcore-qa
+      ConnectionStrings__AzureAppConfigurationConnectionString: azure-app-configuration-connection-string
+      
+      
+      
   storefront:
+    headers:
+      Cross-Origin-Resource-Policy: cross-origin
+    enabled: false
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/storefront
-    imageTag: 6.0
+    imageTag: 6.43.0-alpha.1043-vcst-905-login-is-admin-0550785e
+    servicePlan: S1
     config:
-      APPINSIGHTS_INSTRUMENTATIONKEY: adc98546-3f8a-4462-a0b2-7c822b5565ba
+      Reload: 21
+      DOTNET_USE_POLLING_FILE_WATCHER: true
+      SnapshotCollectorConfiguration__IsEnabled: false
+      VirtoCommerce__DefaultStore: B2B-store
+      VirtoCommerce__Endpoint__Password: store
+      CookieAuthenticationOptions__ExpireTimeSpan: 10:00:00
+      Swagger__UI__Enable: true
+      #ConnectionStrings__ContentConnectionString: provider=AzureBlobStorage;rootPath=cms;DefaultEndpointsProtocol=https;AccountName=qademovc3;AccountKey=qPIpM63MI2P3ei6B1xIL4/DlKDqdsRj54z2GUtgCAeXPcMe8+mZiUvrvI5fjdyrovk331XmBlMFfAEFAjCnvtw==;EndpointSuffix=core.windows.net
     themes:
-      FE: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-2.56.0-pr-2410-5212-5212ba6c.zip
-}
+      B2B-store: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/2.2.0/vc-theme-b2b-vue-2.2.0.zip
+      B2B-loyalty: https://github.com/VirtoCommerce/vc-frontend/releases/download/2.53.0/vc-theme-b2b-vue-2.53.0.zip
+  frontend:
+     - name: B2B-store
+       prerender: true
+     - name: B2B-loyalty
+       prerender: true
+  ingress: {}
   customApps:
     app1:
-      enabled: false
+      name: storybook
+      enabled: true
+      imageRepository: ghcr.io/virtocommerce/vc-theme-b2b-vue-storybook
+      servicePlan: F1
+      type: standalone
+      probePath: /
+      ingressPath: /
+      config:
+        Reload: 75
+      #enabled: false
+      #servicePlan: S2
+      #type: platform
+      #name: platform2
+      #imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
+      #imageTag: 3.299.0-c586ce4
+      #ingressPath: /
+      #config:
+        #Reload: 50
+        #DOTNET_USE_POLLING_FILE_WATCHER: true
+        #VirtoCommerce__Hangfire__Queues__items_0: default
+        #VirtoCommerce__Hangfire__Queues__items_1: index_worker
+        #Notifications__DefaultSender: azure_25da07ed75daacae20578a7a7dc58541@azure.com
+        #Notifications__Gateway: SendGrid
+        #Notifications__Smtp__Host: smtp.sendgrid.net
+        #Notifications__Smtp__Login: apikey
+        #VirtoCommerce__ApplicationInsights__RoleName: This is QA role platfrom2
+        #VirtoCommerce__ApplicationInsights__RoleInstance: This is instance of QA2
+      #secretConfig:
+        #Notifications__SendGrid__ApiKey: sendkey
+        #Notifications__Smtp__Password: smtppassword
+        #Search__ElasticAppSearch__PrivateApiKey: elasticappsearch
+        #Search__AzureSearch__Key: azureseearchkey
     app2:
       enabled: false
+      servicePlan: P1
+      type: platform
+      name: platfrom1
+      imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
+      imageTag: 3.301.0-alpha.12635-dev-9d839500-a310da3
+      ingressPath: /
+      config:
+        DOTNET_USE_POLLING_FILE_WATCHER: true
+        VirtoCommerce__Hangfire__Queues__items_0: default
+        VirtoCommerce__Hangfire__Queues__items_1: index_worker
+        #Notifications__DefaultSender: virto.start@virtoway.com
+        #Notifications__Gateway: SendGrid
+        #Notifications__Smtp__Host: smtp.sendgrid.net
+        #Notifications__Smtp__Login: apikey
+        VirtoCommerce__ApplicationInsights__RoleName: This is QA role platfrom1
+        VirtoCommerce__ApplicationInsights__RoleInstance: This is instance of QA1
+      secretConfig:
+        #Notifications__SendGrid__ApiKey: sendkey
+        #Notifications__Smtp__Password: smtppassword
+        Search__ElasticAppSearch__PrivateApiKey: elasticappsearch
   routes:
-  - host: vcptcore-aidemo2-front.govirto.com
-    root: FE
+  - host: vcptcore-qa-storefront.govirto.com
+    root: B2B-store
     paths:
     - path: /xapi
+      route: platform
+    - path: /cms-content
+      route: platform
+    - path: /files
+      route: platform
+    - path: /connect/token
+      route: platform
+    - path: /graphql
+      route: platform
+    - path: /revoke/token
+      route: platform
+    - path: /api/files
+      route: platform
+    - path: /externalsignin
+      route: platform
+    - path: /signin-oidc
+      route: platform
+    - path: /signin-google
+      route: platform
+
+  - host: vcptcore-qa-loyalty.govirto.com
+    root: B2B-loyalty
+    paths:
+    - path: /xapi
+      route: platform
+    - path: /cms-content
       route: platform
     - path: /files
       route: platform
@@ -67,5 +514,8 @@
     - path: /signin-google
       route: platform
   protectedParameters:
-    - platform.image.tag
-  version: 3.240
+   - themes.B2B-store
+   - custom.app1.image.tag
+   #- storefront.image.tag
+   - platform.image.tag
+  version: 3.210
