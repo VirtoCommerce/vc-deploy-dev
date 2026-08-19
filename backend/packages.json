@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.1060.0",
+  "PlatformVersion": "3.1061.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.1060.0",
+  "PlatformImageTag": "3.1061.0-pr-3099-829a-vcst-5387-top-level-catalog-assets-829afe69",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
   ],
@@ -19,6 +19,14 @@
         {
           "Id": "VirtoCommerce.AIDocumentProcessing",
           "BlobName": "VirtoCommerce.AIDocumentProcessing_3.901.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "BlobName": "VirtoCommerce.Catalog_3.1042.0-pr-904-2bfa.zip"
+        },
+        {
+          "Id": "VirtoCommerce.BackupRestore",
+          "BlobName": "VirtoCommerce.BackupRestore_3.1004.0-pr-5-2048.zip"
         }
       ]
     },
@@ -317,10 +325,6 @@
           "Version": "3.1004.0"
         },
         {
-          "Id": "VirtoCommerce.BackupRestore",
-          "Version": "3.1003.0"
-        },
-        {
           "Id": "VirtoCommerce.XCatalog",
           "Version": "3.1018.0"
         },
@@ -367,10 +371,6 @@
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "Version": "3.1016.0"
-        },
-        {
-          "Id": "VirtoCommerce.Catalog",
-          "Version": "3.1041.0"
         },
         {
           "Id": "VirtoCommerce.AlgoliaSearch",
