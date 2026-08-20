@@ -35,6 +35,10 @@
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.1017.0-pr-143-f9c0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Skyflow",
+          "BlobName": "VirtoCommerce.Skyflow_3.1005.0-pr-25-82f2.zip"
         }
       ]
     },
@@ -103,10 +107,6 @@
         {
           "Id": "VirtoCommerce.XRecommend",
           "Version": "3.1002.0"
-        },
-        {
-          "Id": "VirtoCommerce.Skyflow",
-          "Version": "3.1004.0"
         },
         {
           "Id": "VirtoCommerce.OpenIdConnectModule",
