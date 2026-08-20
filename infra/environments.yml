@@ -52,6 +52,24 @@
       FileUpload__Scopes__4__AllowedExtensions__2: .jpg
       FileUpload__Scopes__4__AllowedExtensions__3: .png
       FileUpload__Scopes__4__AllowedExtensions__4: .webp
+      FileUpload__Scopes__5__Scope: sales-rep-documents
+      FileUpload__Scopes__5__MaxFileSize: 52428800          # bytes; must exceed the largest document
+      FileUpload__Scopes__5__AllowAnonymousUpload: false
+      FileUpload__Scopes__5__AllowedExtensions__0: .pdf
+      FileUpload__Scopes__5__AllowedExtensions__1: .doc
+      FileUpload__Scopes__5__AllowedExtensions__2: .docx
+      FileUpload__Scopes__5__AllowedExtensions__3: .xls
+      FileUpload__Scopes__5__AllowedExtensions__4: .xlsx
+      FileUpload__Scopes__5__AllowedExtensions__5: .ppt
+      FileUpload__Scopes__5__AllowedExtensions__6: .pptx
+      FileUpload__Scopes__5__AllowedExtensions__7: .txt
+      FileUpload__Scopes__5__AllowedExtensions__8: .csv
+      FileUpload__Scopes__5__AllowedExtensions__9: .zip
+      FileUpload__Scopes__5__AllowedExtensions__10: .png
+      FileUpload__Scopes__5__AllowedExtensions__11: .jpg
+      FileUpload__Scopes__5__AllowedExtensions__12: .jpeg
+      FileUpload__Scopes__5__AllowedExtensions__13: .gif
+      FileUpload__Scopes__5__AllowedExtensions__14: .webp
       DOTNET_USE_POLLING_FILE_WATCHER: true
       Reload: 22
       #ConnectionStrings__AzureAppConfigurationConnectionString: "Endpoint=https://qa-vc-app-config.azconfig.io;Id=BvwK;Secret=nbF7kOXCU14+qCF5OtP4LR63zfbSyDx6th46bIWkUHQ="
