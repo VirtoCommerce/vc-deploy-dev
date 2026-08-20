@@ -40,7 +40,7 @@ jobs:
     runs-on: ubuntu-24.04
     permissions:
       contents: write
-      pull-requests: read
+      pull-requests: write
     env: 
       GITHUB_TOKEN: ${{ secrets.REPO_TOKEN }}
 
@@ -63,7 +63,7 @@ jobs:
 
         # Close stale PRs and remove corresponding branches
         Write-Host "`n▶️ Closing stale PRs in $repo, removing corresponding branches. Target branch: $targetBranch, retention days: $retentionDays, author for remove: $authorForRemove" -ForegroundColor Blue
-        $openPrsJson = gh pr list --repo $repo --base $targetBranch --state open --json "number,headRefName,createdAt,author,baseRefName,headRefName"
+        $openPrsJson = gh pr list --repo $repo --base $targetBranch --state open --limit 1000 --json "number,headRefName,createdAt,author,baseRefName"
         $openPrs = $openPrsJson | ConvertFrom-Json
 
         foreach ($pr in $openPrs) {
@@ -94,8 +94,14 @@ jobs:
           Write-Host "`n::group::▶️ Scanning closed pull requests in $repo to find and delete stale branches. Target branch: $targetBranch, author for remove: $authorForRemove" -ForegroundColor Blue
 
           # Get closed PRs using gh
-          $closedPrsJson = gh pr list --repo $repo --state closed --base $targetBranch --json "number,headRefName,mergedAt,author"
+          $closedPrsJson = gh pr list --repo $repo --state closed --base $targetBranch --limit 1000 --search "is:unmerged" --json "number,headRefName,mergedAt,author"
           $closedPrs = $closedPrsJson | ConvertFrom-Json
+
+          # Snapshot existing remote branches once instead of an ls-remote per PR
+          $remoteBranches = [System.Collections.Generic.HashSet[string]]::new([StringComparer]::Ordinal)
+          foreach ($line in (git ls-remote --heads origin)) {
+              $null = $remoteBranches.Add(($line -split "`trefs/heads/", 2)[1])
+          }
 
           foreach ($pr in $closedPrs) {
               $branch = $pr.headRefName
@@ -118,27 +124,21 @@ jobs:
                   continue
               }
 
+              # skip if the remote branch is already gone
+              if (-not $remoteBranches.Contains($branch)) {
+                  Write-Host "⚠️ Remote branch '$branch' does not exist" -ForegroundColor Red
+                  continue
+              }
+
               Write-Host "Deleting closed PR branch: '$branch'" -ForegroundColor Blue
-              
+
               # delete remote branch
               if ($dryRun -eq 'false') {
-                  git ls-remote --exit-code --heads origin $branch *>$null
-                  if ($LASTEXITCODE -eq 0) {
-                      git push origin --delete $branch
-                      Write-Host "✅ Remote branch '$branch' deleted" -ForegroundColor Green
-                  } else {
-                      Write-Host "⚠️ Remote branch '$branch' does not exist" -ForegroundColor Red
-                  }
+                  git push origin --delete $branch
+                  Write-Host "✅ Remote branch '$branch' deleted" -ForegroundColor Green
               }
               else {
-                  git ls-remote --exit-code --heads origin $branch *>$null
-                  if ($LASTEXITCODE -eq 0) {
-                      Write-Host "📊 DRY RUN: git push origin --delete $branch" -ForegroundColor Blue
-                      Write-Host "✅ Remote branch '$branch' deleted" -ForegroundColor Green
-                  }
-                  else {
-                      Write-Host "⚠️ Remote branch '$branch' does not exist" -ForegroundColor Red
-                  }
+                  Write-Host "📊 DRY RUN: git push origin --delete $branch" -ForegroundColor Blue
               }
           }
           Write-Host "::endgroup::🏁 Done deleting stale branches" -ForegroundColor Green
