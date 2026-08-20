@@ -242,10 +242,6 @@
           "BlobName": "VirtoCommerce.News_3.1005.0-alpha.73.zip"
         },
         {
-          "Id": "VirtoCommerce.Skyflow",
-          "BlobName": "VirtoCommerce.Skyflow_3.1004.0-alpha.81.zip"
-        },
-        {
           "Id": "VirtoCommerce.BackInStock",
           "BlobName": "VirtoCommerce.BackInStock_3.1002.0-alpha.62.zip"
         },
@@ -372,6 +368,10 @@
         {
           "Id": "VirtoCommerce.UCP",
           "BlobName": "VirtoCommerce.UCP_3.1005.0-alpha.16.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Skyflow",
+          "BlobName": "VirtoCommerce.Skyflow_3.1005.0-alpha.83.zip"
         }
       ]
     }
