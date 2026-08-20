@@ -40,7 +40,7 @@ jobs:
     runs-on: ubuntu-24.04
     permissions:
       contents: write
-      pull-requests: read
+      pull-requests: write
     env: 
       GITHUB_TOKEN: ${{ secrets.REPO_TOKEN }}
 
@@ -63,7 +63,7 @@ jobs:
 
         # Close stale PRs and remove corresponding branches
         Write-Host "`n▶️ Closing stale PRs in $repo, removing corresponding branches. Target branch: $targetBranch, retention days: $retentionDays, author for remove: $authorForRemove" -ForegroundColor Blue
-        $openPrsJson = gh pr list --repo $repo --base $targetBranch --state open --json "number,headRefName,createdAt,author,baseRefName,headRefName"
+        $openPrsJson = gh pr list --repo $repo --base $targetBranch --state open --limit 1000 --json "number,headRefName,createdAt,author,baseRefName"
         $openPrs = $openPrsJson | ConvertFrom-Json
 
         foreach ($pr in $openPrs) {
@@ -90,55 +90,62 @@ jobs:
         Write-Host "🏁 Done closing stale PRs and removing corresponding branches" -ForegroundColor Green
 
         if ($removeStaleBranches -eq 'true') {
-          # Delete stale branches
-          Write-Host "`n::group::▶️ Scanning closed pull requests in $repo to find and delete stale branches. Target branch: $targetBranch, author for remove: $authorForRemove" -ForegroundColor Blue
+          # Delete stale branches.
+          # Driven by the existing remote branches rather than by a PR listing: the branch set
+          # shrinks as branches are deleted, so this converges instead of re-scanning the same
+          # (API-capped) page of closed PRs on every run.
+          Write-Host "`n::group::▶️ Scanning remote branches in $repo to find and delete stale branches. Target branch: $targetBranch, author for remove: $authorForRemove" -ForegroundColor Blue
 
-          # Get closed PRs using gh
-          $closedPrsJson = gh pr list --repo $repo --state closed --base $targetBranch --json "number,headRefName,mergedAt,author"
-          $closedPrs = $closedPrsJson | ConvertFrom-Json
+          $remoteBranches = @(git ls-remote --heads origin | ForEach-Object { ($_ -split "`trefs/heads/", 2)[1] })
+          Write-Host "Found $($remoteBranches.Count) remote branches to check"
 
-          foreach ($pr in $closedPrs) {
-              $branch = $pr.headRefName
-              $merged = $pr.mergedAt
-              $author = $pr.author.login
-              # Skip if merged (only clean closed/unmerged PRs):
-              if ($null -ne $merged) {
-                  continue
-              }
-
+          foreach ($branch in $remoteBranches) {
               # Skip excluded branches
-              if ($excludeBranches -contains $branch) {
+              if ($excludeBranches -contains $branch -or $branch -eq $targetBranch) {
                   Write-Host "⚠️ Skipping '$branch' branch (in exclude list)" -ForegroundColor Yellow
                   continue
               }
 
+              # Find the PRs this branch was the head of, targeting $targetBranch
+              $branchPrsJson = gh pr list --repo $repo --head $branch --base $targetBranch --state all --limit 100 --json "number,state,mergedAt,author"
+              $branchPrs = @($branchPrsJson | ConvertFrom-Json)
+
+              # Skip branches with no PR against the target branch (not ours to clean up)
+              if ($branchPrs.Count -eq 0) {
+                  continue
+              }
+
+              # Skip if still open — those are handled by the retention pass above
+              if ($branchPrs | Where-Object { $_.state -eq 'OPEN' }) {
+                  Write-Host "⚠️ Skipping '$branch' branch (has an open PR)" -ForegroundColor Yellow
+                  continue
+              }
+
+              # Skip if merged (only clean closed/unmerged PRs):
+              if ($branchPrs | Where-Object { $null -ne $_.mergedAt }) {
+                  continue
+              }
+
               # Skip if author is not vc-ci
-              if ($author -ne $authorForRemove) {
+              if ($branchPrs | Where-Object { $_.author.login -ne $authorForRemove }) {
                   Write-Host "⚠️ Skipping '$branch' branch (not by $authorForRemove)" -ForegroundColor Yellow
                   continue
               }
 
-              Write-Host "Deleting closed PR branch: '$branch'" -ForegroundColor Blue
-              
+              Write-Host "Deleting closed PR branch: '$branch' (PR #$($branchPrs[0].number))" -ForegroundColor Blue
+
               # delete remote branch
               if ($dryRun -eq 'false') {
-                  git ls-remote --exit-code --heads origin $branch *>$null
+                  git push origin --delete $branch
                   if ($LASTEXITCODE -eq 0) {
-                      git push origin --delete $branch
-                      Write-Host "✅ Remote branch '$branch' deleted" -ForegroundColor Green
-                  } else {
-                      Write-Host "⚠️ Remote branch '$branch' does not exist" -ForegroundColor Red
-                  }
-              }
-              else {
-                  git ls-remote --exit-code --heads origin $branch *>$null
-                  if ($LASTEXITCODE -eq 0) {
-                      Write-Host "📊 DRY RUN: git push origin --delete $branch" -ForegroundColor Blue
                       Write-Host "✅ Remote branch '$branch' deleted" -ForegroundColor Green
                   }
                   else {
-                      Write-Host "⚠️ Remote branch '$branch' does not exist" -ForegroundColor Red
+                      Write-Host "❌ Failed to delete remote branch '$branch'" -ForegroundColor Red
                   }
+              }
+              else {
+                  Write-Host "📊 DRY RUN: git push origin --delete $branch" -ForegroundColor Blue
               }
           }
           Write-Host "::endgroup::🏁 Done deleting stale branches" -ForegroundColor Green
