@@ -60,6 +60,50 @@
         },
         {
           "BlobName": "VirtoCommerce.Catalog_3.1041.0-pr-903-e5bf.zip"
+        },
+        {
+          "Id": "VirtoCommerce.StateMachine",
+          "BlobName": "VirtoCommerce.StateMachine_3.1003.0-alpha.145.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ModuleFederation",
+          "BlobName": "VirtoCommerce.ModuleFederation_3.1000.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Communication",
+          "BlobName": "VirtoCommerce.Communication_3.1000.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Import",
+          "BlobName": "VirtoCommerce.Import_3.1002.0-alpha.312.zip"
+        },
+        {
+          "Id": "VirtoCommerce.MarketplaceVendor",
+          "BlobName": "VirtoCommerce.MarketplaceVendor_3.1002.0-alpha.1016-dev-32485504226-1.zip"
+        },
+        {
+          "Id": "VirtoCommerce.MarketplaceCommissions",
+          "BlobName": "VirtoCommerce.MarketplaceCommissions_3.1001.0-alpha.72.zip"
+        },
+        {
+          "Id": "VirtoCommerce.MarketplaceRegistration",
+          "BlobName": "VirtoCommerce.MarketplaceRegistration_3.1001.0-alpha.86.zip"
+        },
+        {
+          "Id": "VirtoCommerce.MarketplaceQuote",
+          "BlobName": "VirtoCommerce.MarketplaceQuote_3.1001.0-alpha.72.zip"
+        },
+        {
+          "Id": "VirtoCommerce.MarketplaceReviews",
+          "BlobName": "VirtoCommerce.MarketplaceReviews_3.1001.0-alpha.74.zip"
+        },
+        {
+          "Id": "VirtoCommerce.MarketplaceCommunication",
+          "BlobName": "VirtoCommerce.MarketplaceCommunication_3.1001.0-alpha.211-dev-29330495950-1.zip"
+        },
+        {
+          "Id": "VirtoCommerce.MarketplaceImport",
+          "BlobName": "VirtoCommerce.MarketplaceImport_3.1000.0-alpha.10-dev-24499162131-1.zip"
         }
       ]
     },
@@ -328,10 +372,6 @@
         {
           "Id": "VirtoCommerce.TaskManagement",
           "Version": "3.1005.0"
-        },
-        {
-          "Id": "VirtoCommerce.StateMachine",
-          "Version": "3.1002.0"
         },
         {
           "Id": "VirtoCommerce.Shipping",
