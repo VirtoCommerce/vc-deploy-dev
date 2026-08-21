@@ -42,6 +42,10 @@
         },
         {
           "BlobName": "VirtoCommerce.PageBuilderModule_3.1022.0-pr-160-df89.zip"
+        },
+        {
+          "Id": "VirtoCommerce.CatalogCsvImportModule",
+          "BlobName": "VirtoCommerce.CatalogCsvImportModule_3.1004.0-pr-145-5581.zip"
         }
       ]
     },
@@ -238,10 +242,6 @@
         {
           "Id": "VirtoCommerce.CatalogPublishing",
           "Version": "3.1005.0"
-        },
-        {
-          "Id": "VirtoCommerce.CatalogCsvImportModule",
-          "Version": "3.1003.0"
         },
         {
           "Id": "VirtoCommerce.PushMessages",
