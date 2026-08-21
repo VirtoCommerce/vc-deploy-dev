@@ -288,10 +288,6 @@
           "Version": "3.1004.0"
         },
         {
-          "Id": "VirtoCommerce.CatalogCsvImportModule",
-          "Version": "3.1003.0"
-        },
-        {
           "Id": "VirtoCommerce.XOrder",
           "Version": "3.1009.0"
         },
@@ -354,6 +350,10 @@
         {
           "Id": "VirtoCommerce.SalesRep",
           "Version": "3.1005.0"
+        },
+        {
+          "Id": "VirtoCommerce.CatalogCsvImportModule",
+          "Version": "3.1004.0"
         }
       ]
     },
