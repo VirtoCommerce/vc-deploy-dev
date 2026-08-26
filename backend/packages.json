@@ -13,6 +13,10 @@
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
         {
+          "Id": "VirtoCommerce.AI",
+          "BlobName": "VirtoCommerce.AI_3.1001.0.zip"
+        },
+        {
           "BlobName": "VirtoCommerce.AIDocumentProcessing_3.901.0-pr-7-05c5.zip"
         },
         {
@@ -357,10 +361,6 @@
         {
           "Id": "VirtoCommerce.CustomerReviews",
           "Version": "3.1006.0"
-        },
-        {
-          "Id": "VirtoCommerce.AI",
-          "Version": "3.1001.0"
         },
         {
           "Id": "VirtoCommerce.AlgoliaSearch",
