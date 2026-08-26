@@ -41,6 +41,10 @@
         },
         {
           "BlobName": "VirtoCommerce.Catalog_3.1041.0-pr-903-e5bf.zip"
+        },
+        {
+          "Id": "VirtoCommerce.SalesRep",
+          "BlobName": "VirtoCommerce.SalesRep_3.1006.0.zip"
         }
       ]
     },
@@ -365,10 +369,6 @@
         {
           "Id": "VirtoCommerce.AlgoliaSearch",
           "Version": "3.1001.0"
-        },
-        {
-          "Id": "VirtoCommerce.SalesRep",
-          "Version": "3.1005.0"
         },
         {
           "Id": "VirtoCommerce.SeqLog",
