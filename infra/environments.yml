@@ -31,6 +31,13 @@
       Seo__SeoInfoResolver__5: CatalogProduct
       # Include content/pages in the full (scheduled) reindex so they aren't dropped between publishes.
       Search__ContentFullTextSearchEnabled: true
+      # --- BOPIS dealer availability (added 2026-08-27) ---
+      # Shipping 3.1005.0 ALREADY ships the PickupLocation index (document builder, request
+      # builder, index fields) — no module upgrade is needed. PickupLocationIndexedSearchService
+      # refuses to run without this key, so productPickupLocations / cartPickupLocations returned
+      # an empty list, the checkout pickup selector had no dealers, and the Google dealer map had
+      # nothing to plot. The exception text names this exact key.
+      Search__PickupLocationFullTextSearchEnabled: true
   storefront:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/storefront
     imageTag: 6.0
