@@ -1,4 +1,4 @@
 {
-  "_comment": "Custom Bekaert Fencing theme v9: v8 plus the order-details page changes \u2014 per-shipment tracking number and carrier link (the stock page only ever read shipments[0], so a split delivery was invisible), and an order documents block that renders download links from the ConfirmationDocumentUrl / InvoiceDocumentUrl dynamic properties on the order. Rebuilt from vc-theme-b2b-vue 2.51.1 with the v8 delta (9 files + _custom.scss + preset bekaert.json) re-applied.",
-  "URL": "https://vcptcore-aidemo.govirto.com/cms-content/assets/themes/bekaert-theme-v9.zip"
+  "_comment": "Custom Bekaert Fencing theme v10: v9 plus the regenerated GraphQL document. v9 shipped the template and composable but NOT the query \u2014 the .graphql fragment is only codegen input, and codegen aborts on this platform because an unrelated 2.51.1 query (getOrganizationContacts) passes an organizationId argument the platform's Profile xAPI does not accept. The GetFullOrder document in types.ts is therefore patched directly: shipments gain id/number/status/statusDisplayValue/trackingNumber/trackingUrl/deliveryDate and the order gains dynamicProperties. Verified in the built bundle before shipping.",
+  "URL": "https://vcptcore-aidemo.govirto.com/cms-content/assets/themes/bekaert-theme-v10.zip"
 }
