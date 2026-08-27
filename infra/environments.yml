@@ -71,7 +71,7 @@
       FileUpload__Scopes__5__AllowedExtensions__13: .gif
       FileUpload__Scopes__5__AllowedExtensions__14: .webp
       DOTNET_USE_POLLING_FILE_WATCHER: true
-      Reload: 22
+      Reload: 23
       #ConnectionStrings__AzureAppConfigurationConnectionString: "Endpoint=https://qa-vc-app-config.azconfig.io;Id=BvwK;Secret=nbF7kOXCU14+qCF5OtP4LR63zfbSyDx6th46bIWkUHQ="
      
       Serilog__Using__0: Serilog.Sinks.Console
