@@ -1,4 +1,4 @@
 {
-  "_comment": "Custom Bekaert Fencing theme v8: vc-frontend 2.51.1 built from source. Barlow typeface (BekaertText is proprietary, not redistributable); preset default/assets/presets/bekaert.json (primary #01ADEF, accent #FF602C); pill buttons; light utility bar and light footer panel; full-bleed hero with copy on the content column plus a CTA; 1800px content column; clickable category card carousel with a 'Discover All' pill; footer columns grouped from the flat CMS menu list; catalog mega-menu now shows a photo per category (childCategories query asks for imgSrc, which is carried through categoryToExtendedMenuLink into catalog-menu-item).",
-  "URL": "https://vcptcore-aidemo.govirto.com/cms-content/assets/themes/bekaert-theme-v8.zip"
+  "_comment": "Custom Bekaert Fencing theme v9: v8 plus the order-details page changes \u2014 per-shipment tracking number and carrier link (the stock page only ever read shipments[0], so a split delivery was invisible), and an order documents block that renders download links from the ConfirmationDocumentUrl / InvoiceDocumentUrl dynamic properties on the order. Rebuilt from vc-theme-b2b-vue 2.51.1 with the v8 delta (9 files + _custom.scss + preset bekaert.json) re-applied.",
+  "URL": "https://vcptcore-aidemo.govirto.com/cms-content/assets/themes/bekaert-theme-v9.zip"
 }
