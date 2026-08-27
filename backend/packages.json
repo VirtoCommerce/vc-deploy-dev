@@ -36,10 +36,6 @@
           "BlobName": "VirtoCommerce.Orders_3.1014.0-pr-503-ce6d.zip"
         },
         {
-          "Id": "VirtoCommerce.PageBuilderModule",
-          "BlobName": "VirtoCommerce.PageBuilderModule_3.1022.0-pr-160-a39f.zip"
-        },
-        {
           "BlobName": "VirtoCommerce.Catalog_3.1041.0-pr-903-e5bf.zip"
         },
         {
@@ -49,6 +45,10 @@
         {
           "Id": "VirtoCommerce.Customer",
           "BlobName": "VirtoCommerce.Customer_3.1023.0-alpha.1009-vcst-5450.zip"
+        },
+        {
+          "Id": "VirtoCommerce.PageBuilderModule",
+          "BlobName": "VirtoCommerce.PageBuilderModule_3.1022.0.zip"
         }
       ]
     },
