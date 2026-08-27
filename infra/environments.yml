@@ -44,11 +44,16 @@
     config:
       APPINSIGHTS_INSTRUMENTATIONKEY: adc98546-3f8a-4462-a0b2-7c822b5565ba
     themes:
-      # Custom Singer theme = vc-frontend 2.51.1 with default/assets/presets/singer-equipment-company-theme.json
-      # injected, self-hosted on this env's asset store. Same theme content + the preset the White-Labeling
-      # themePresetName resolves to. NOTE: the storefront reads the theme by ROUTE ROOT ("FE"), not the platform
-      # store id (B2B-store) — deploy-theme.yml targets the same key.
-      FE: https://vcptcore-aidemo.govirto.com/cms-content/assets/themes/singer-theme.zip
+      # Custom Bekaert Fencing theme v8 = vc-frontend 2.51.1 with default/assets/presets/bekaert.json
+      # (primary #01ADEF, accent #FF602C, Barlow typeface), self-hosted on this env's asset store.
+      # NOTE: the storefront reads the theme by ROUTE ROOT ("FE"), not the platform store id (B2B-store) —
+      # deploy-theme.yml targets the same key.
+      #
+      # KEEP THIS IN SYNC WITH theme/artifact.json. The theme deploys (v2..v8) only ever updated
+      # artifact.json, so this line still said singer-theme.zip on 2026-08-27 — and the next infra
+      # deploy re-applied the whole storefront block and reverted the live theme to Singer. Any
+      # commit under infra/ re-applies this value, so a stale URL here is a live landmine.
+      FE: https://vcptcore-aidemo.govirto.com/cms-content/assets/themes/bekaert-theme-v8.zip
   customApps:
     app1:
       enabled: false
