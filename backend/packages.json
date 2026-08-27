@@ -49,6 +49,10 @@
         {
           "Id": "VirtoCommerce.Customer",
           "BlobName": "VirtoCommerce.Customer_3.1023.0-alpha.1009-vcst-5450.zip"
+        },
+        {
+          "Id": "VirtoCommerce.BackupRestore",
+          "BlobName": "VirtoCommerce.BackupRestore_3.1005.0.zip"
         }
       ]
     },
@@ -249,10 +253,6 @@
         {
           "Id": "VirtoCommerce.Search",
           "Version": "3.1006.0"
-        },
-        {
-          "Id": "VirtoCommerce.BackupRestore",
-          "Version": "3.1003.0"
         },
         {
           "Id": "VirtoCommerce.AzureSearch",
