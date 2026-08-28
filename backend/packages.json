@@ -26,6 +26,10 @@
         {
           "Id": "VirtoCommerce.Customer",
           "BlobName": "VirtoCommerce.Customer_3.1023.0-alpha.1009-vcst-5450.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "BlobName": "VirtoCommerce.Catalog_3.1042.0.zip"
         }
       ]
     },
@@ -362,10 +366,6 @@
         {
           "Id": "VirtoCommerce.PageBuilderModule",
           "Version": "3.1022.0"
-        },
-        {
-          "Id": "VirtoCommerce.Catalog",
-          "Version": "3.1041.0"
         },
         {
           "Id": "VirtoCommerce.Orders",
