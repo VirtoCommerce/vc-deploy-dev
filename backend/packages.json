@@ -26,6 +26,10 @@
         {
           "Id": "VirtoCommerce.Customer",
           "BlobName": "VirtoCommerce.Customer_3.1023.0-alpha.1009-vcst-5450.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XCart",
+          "BlobName": "VirtoCommerce.XCart_3.1031.0-pr-139-2f78.zip"
         }
       ]
     },
@@ -328,10 +332,6 @@
           "Version": "3.1006.0"
         },
         {
-          "Id": "VirtoCommerce.XCart",
-          "Version": "3.1030.0"
-        },
-        {
           "Id": "VirtoCommerce.XCatalog",
           "Version": "3.1018.0"
         },
@@ -365,7 +365,7 @@
         },
         {
           "Id": "VirtoCommerce.Catalog",
-          "Version": "3.1041.0"
+          "Version": "3.1042.0"
         },
         {
           "Id": "VirtoCommerce.Orders",
