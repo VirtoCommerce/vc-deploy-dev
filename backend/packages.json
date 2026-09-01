@@ -20,16 +20,16 @@
           "BlobName": "VirtoCommerce.AIDocumentProcessing_3.901.0.zip"
         },
         {
-          "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.1017.0-pr-143-58c3.zip"
-        },
-        {
           "Id": "VirtoCommerce.Customer",
           "BlobName": "VirtoCommerce.Customer_3.1023.0-alpha.1009-vcst-5450.zip"
         },
         {
           "Id": "VirtoCommerce.XCart",
           "BlobName": "VirtoCommerce.XCart_3.1031.0-pr-139-2f78.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ProfileExperienceApiModule",
+          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.1017.0.zip"
         }
       ]
     },
