@@ -298,10 +298,6 @@
           "BlobName": "VirtoCommerce.XOrder_3.1009.0-alpha.126.zip"
         },
         {
-          "Id": "VirtoCommerce.XCart",
-          "BlobName": "VirtoCommerce.XCart_3.1030.0-alpha.268.zip"
-        },
-        {
           "Id": "VirtoCommerce.XCatalog",
           "BlobName": "VirtoCommerce.XCatalog_3.1018.0-alpha.221.zip"
         },
@@ -372,6 +368,10 @@
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.1017.0-alpha.374.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XCart",
+          "BlobName": "VirtoCommerce.XCart_3.1031.0-alpha.270.zip"
         }
       ]
     }
