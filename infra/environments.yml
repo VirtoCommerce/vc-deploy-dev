@@ -1,7 +1,8 @@
 - name: vcpt-virtooz
-  production: true
+  # This IS production, but because of low demand we need this to be set to false to switch for pre-production plans
+  production: false
   gitops: true
-  servicePlan: S1
+  servicePlan: B1
   platform:
     dbProvider: Azure Database for PostgreSQL
     headers:
@@ -36,7 +37,7 @@
       name: virtooz
       enabled: true
       imageRepository: virtopaasregistrymain.azurecr.io/vcpt/virtooz-app
-      servicePlan: S1
+      servicePlan: B1
       type: standalone
       hostname: virtooz.govirto.com
       probePath: /
