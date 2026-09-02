@@ -81,11 +81,6 @@
       Serilog__MinimumLevel__Override__VirtoCommerce__ElasticSearch8__Data__Services__ElasticSearch8Provider: "Debug"
       Serilog__MinimumLevel__Override__VirtoCommerce__Platform__Web__Controllers__Api__LicensingController: "Information"
       Serilog__MinimumLevel__Override__VirtoCommerce__AzureBlobAssetsModule__Core__AzureBlobProvider: "Debug"
-      # VCST-5566 (TEMPORARY): counts RedisPlatformMemoryCache LogTrace lines to prove the dedup.
-      # Dotted key form on purpose - it maps to Serilog's "Override": { "VirtoCommerce.Platform.Redis": ... } verbatim.
-      # Positive control that the instrument is armed: "Trying to cancel token with key:" lines must appear in stdout.
-      # REVERT once the measurement is taken - this is high-volume on a shared stand.
-      Serilog__MinimumLevel__Override__VirtoCommerce.Platform.Redis: "Verbose"
       #Serilog__MinimumLevel__Default: "Information"
       #Serilog__WriteTo__0: Console
       #Serilog__WriteTo__1__Name: ApplicationInsights
