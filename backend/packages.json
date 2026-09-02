@@ -40,10 +40,6 @@
           "BlobName": "VirtoCommerce.XCatalog_3.1019.0-pr-110-83cf.zip"
         },
         {
-          "Id": "VirtoCommerce.XOrder",
-          "BlobName": "VirtoCommerce.XOrder_3.1010.0-pr-50-242d.zip"
-        },
-        {
           "Id": "VirtoCommerce.XPickup",
           "BlobName": "VirtoCommerce.XPickup_3.1005.0-pr-11-32cd.zip"
         },
@@ -53,6 +49,10 @@
         },
         {
           "BlobName": "VirtoCommerce.AuditLog_3.1003.0-pr-20-a47d.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XOrder",
+          "BlobName": "VirtoCommerce.XOrder_3.1011.0.zip"
         }
       ]
     },
