@@ -280,10 +280,6 @@
           "Version": "3.1018.0"
         },
         {
-          "Id": "VirtoCommerce.Xapi",
-          "Version": "3.1019.0"
-        },
-        {
           "Id": "VirtoCommerce.Subscription",
           "Version": "3.1003.0"
         },
@@ -354,6 +350,10 @@
         {
           "Id": "VirtoCommerce.XOrder",
           "Version": "3.1010.0"
+        },
+        {
+          "Id": "VirtoCommerce.Xapi",
+          "Version": "3.1020.0"
         }
       ]
     },
