@@ -1,5 +1,5 @@
 - name: vcpt-virtooz
-  # This IS production, but because of low demand we need this to be set to false to switch for pre-production plans
+  # This IS production, but because of low demand we need this to be set to false to switch to non-production plans
   production: false
   gitops: true
   servicePlan: B1
