@@ -1,7 +1,7 @@
 - name: vcpt-virtooz
   production: true
   gitops: true
-  servicePlan: B1
+  servicePlan: S1
   platform:
     dbProvider: Azure Database for PostgreSQL
     headers:
@@ -36,7 +36,7 @@
       name: virtooz
       enabled: true
       imageRepository: virtopaasregistrymain.azurecr.io/vcpt/virtooz-app
-      servicePlan: B1
+      servicePlan: S1
       type: standalone
       hostname: virtooz.govirto.com
       probePath: /
