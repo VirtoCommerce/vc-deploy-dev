@@ -369,6 +369,8 @@
       AuditLogOptions__EntityOptions__3__NameProperty: Code
       AuditLogOptions__EntityOptions__4__TypeFullName: VirtoCommerce.CatalogModule.Core.Model.Property
       AuditLogOptions__EntityOptions__4__NameProperty: Name
+      # VCST-5566: audit rows were ~68% of Redis backplane publishes; opt-in flag from vc-module-audit-log#20
+      AuditLogOptions__ExcludeFromLastChanges: true
       VirtoCommerce__ModuleSequenceBoost__0: VirtoCommerce.AuditLog
 
       VirtoCommerce__GraphQLComplexityValidation__Enable: true
