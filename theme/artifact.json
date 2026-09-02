@@ -1,4 +1,4 @@
 {
-  "_comment": "custom theme built from clone/bekaert-2.56.0 @ 602314ae (upstream base 379bad59, vc-frontend 2.56.0). Brand gate: passed. Fonts are self-hosted via @font-face under /static/fonts/, deliberately NOT a Google Fonts <link>: this environment serves a different index.html than the artifact carries, so a <link> never reaches the browser. sha256 d94387265d5bc229043f22cc6cbbfaa65a1957bf2e60cd95e65480d93246e67e.",
-  "URL": "https://vcptcore-aidemo.govirto.com/cms-content/assets/themes/theme-theme-2026-09-02T14-17-59Z.zip"
+  "_comment": "bekaert theme built from clone/bekaert-2.56.0 @ 6c2fc0c2 (upstream base 379bad59, vc-frontend 2.56.0). Brand gate: passed. Fonts are self-hosted via @font-face under /static/fonts/, deliberately NOT a Google Fonts <link>: this environment serves a different index.html than the artifact carries, so a <link> never reaches the browser. sha256 8df2c62756ea50cec9e45bcba71aa1549e76044104ae23d4737f3d59a9259be7.",
+  "URL": "https://vcptcore-aidemo.govirto.com/cms-content/assets/themes/bekaert-theme-2026-09-02T14-21-42Z.zip"
 }
