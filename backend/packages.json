@@ -29,27 +29,7 @@
         },
         {
           "Id": "VirtoCommerce.XCart",
-          "BlobName": "VirtoCommerce.XCart_3.1031.0-pr-138-d7b6.zip"
-        },
-        {
-          "Id": "VirtoCommerce.Xapi",
-          "BlobName": "VirtoCommerce.Xapi_3.1020.0-pr-83-32fe.zip"
-        },
-        {
-          "Id": "VirtoCommerce.XCatalog",
-          "BlobName": "VirtoCommerce.XCatalog_3.1019.0-pr-110-83cf.zip"
-        },
-        {
-          "Id": "VirtoCommerce.XOrder",
-          "BlobName": "VirtoCommerce.XOrder_3.1010.0-pr-50-242d.zip"
-        },
-        {
-          "Id": "VirtoCommerce.XPickup",
-          "BlobName": "VirtoCommerce.XPickup_3.1005.0-pr-11-32cd.zip"
-        },
-        {
-          "Id": "VirtoCommerce.CatalogCsvImportModule",
-          "BlobName": "VirtoCommerce.CatalogCsvImportModule_3.1005.0-pr-146-8990.zip"
+          "BlobName": "VirtoCommerce.XCart_3.1031.0-pr-139-2f78.zip"
         }
       ]
     },
@@ -204,6 +184,10 @@
           "Version": "3.1005.0"
         },
         {
+          "Id": "VirtoCommerce.CatalogCsvImportModule",
+          "Version": "3.1004.0"
+        },
+        {
           "Id": "VirtoCommerce.AuthorizeNetPayment",
           "Version": "3.1003.0"
         },
@@ -292,6 +276,10 @@
           "Version": "3.1004.0"
         },
         {
+          "Id": "VirtoCommerce.XOrder",
+          "Version": "3.1009.0"
+        },
+        {
           "Id": "VirtoCommerce.XRecommend",
           "Version": "3.1002.0"
         },
@@ -301,6 +289,10 @@
         },
         {
           "Id": "VirtoCommerce.Contracts",
+          "Version": "3.1004.0"
+        },
+        {
+          "Id": "VirtoCommerce.XPickup",
           "Version": "3.1004.0"
         },
         {
@@ -332,8 +324,16 @@
           "Version": "3.1008.0"
         },
         {
+          "Id": "VirtoCommerce.Xapi",
+          "Version": "3.1019.0"
+        },
+        {
           "Id": "VirtoCommerce.XFrontend",
           "Version": "3.1006.0"
+        },
+        {
+          "Id": "VirtoCommerce.XCatalog",
+          "Version": "3.1018.0"
         },
         {
           "Id": "VirtoCommerce.CustomerReviews",
