@@ -12,6 +12,12 @@
       "Modules": [
         {
           "BlobName": "VirtoCommerce.Loyalty_3.1006.0-pr-14-da8a.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.SalesRep_3.1007.0-pr-14-5569.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Xapi_3.1021.0-pr-84-0180.zip"
         }
       ]
     },
@@ -288,11 +294,7 @@
         {
           "Id": "VirtoCommerce.XCatalog",
           "Version": "3.1018.0"
-        },
-        {
-          "Id": "VirtoCommerce.Xapi",
-          "Version": "3.1019.0"
-        },
+        },     
         {
           "Id": "VirtoCommerce.Subscription",
           "Version": "3.1003.0"
@@ -332,11 +334,7 @@
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
           "Version": "3.1004.0"
-        },
-        {
-          "Id": "VirtoCommerce.SalesRep",
-          "Version": "3.1006.0"
-        },
+        }, 
         {
           "Id": "VirtoCommerce.PageBuilderModule",
           "Version": "3.1022.0"
