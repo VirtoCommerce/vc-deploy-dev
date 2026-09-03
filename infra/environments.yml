@@ -230,7 +230,7 @@
 
       #GoogleSSO_settings
       
-      GoogleSSO__Enabled: false
+      GoogleSSO__Enabled: true
       GoogleSSO__AuthenticationType: GoogleSSO
       GoogleSSO__AuthenticationCaption: Google
       GoogleSSO__ApplicationId:  995027985115-qijocrsde8stfmf0d56dv2vjb4lkgfjc.apps.googleusercontent.com
