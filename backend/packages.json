@@ -56,6 +56,10 @@
         },
         {
           "BlobName": "VirtoCommerce.Catalog_3.1043.0-pr-905-7d84.zip"
+        },
+        {
+          "Id": "VirtoCommerce.OpenSearch",
+          "BlobName": "VirtoCommerce.OpenSearch_3.1002.0.zip"
         }
       ]
     },
@@ -124,10 +128,6 @@
         {
           "Id": "VirtoCommerce.Datatrans",
           "Version": "3.1002.0"
-        },
-        {
-          "Id": "VirtoCommerce.OpenSearch",
-          "Version": "3.1001.0"
         },
         {
           "Id": "VirtoCommerce.CyberSourcePayment",
