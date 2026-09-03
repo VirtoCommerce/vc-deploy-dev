@@ -74,10 +74,6 @@
           "BlobName": "VirtoCommerce.CyberSourcePayment_3.1003.0-alpha.75.zip"
         },
         {
-          "Id": "VirtoCommerce.OpenSearch",
-          "BlobName": "VirtoCommerce.OpenSearch_3.1002.0-alpha.32.zip"
-        },
-        {
           "Id": "VirtoCommerce.EnvironmentsCompare",
           "BlobName": "VirtoCommerce.EnvironmentsCompare_3.1002.0-alpha.14.zip"
         },
@@ -372,6 +368,10 @@
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
           "BlobName": "VirtoCommerce.CatalogCsvImportModule_3.1005.0-alpha.395.zip"
+        },
+        {
+          "Id": "VirtoCommerce.OpenSearch",
+          "BlobName": "VirtoCommerce.OpenSearch_3.1002.0-alpha.38.zip"
         }
       ]
     }
