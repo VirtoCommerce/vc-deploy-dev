@@ -326,10 +326,6 @@
           "BlobName": "VirtoCommerce.Skyflow_3.1005.0-alpha.83.zip"
         },
         {
-          "Id": "VirtoCommerce.CatalogCsvImportModule",
-          "BlobName": "VirtoCommerce.CatalogCsvImportModule_3.1004.0-alpha.393.zip"
-        },
-        {
           "Id": "VirtoCommerce.SalesRep",
           "BlobName": "VirtoCommerce.SalesRep_3.1007.0-pr-16-aae0.zip"
         },
@@ -372,6 +368,10 @@
         {
           "Id": "VirtoCommerce.XCart",
           "BlobName": "VirtoCommerce.XCart_3.1033.0-alpha.274.zip"
+        },
+        {
+          "Id": "VirtoCommerce.CatalogCsvImportModule",
+          "BlobName": "VirtoCommerce.CatalogCsvImportModule_3.1005.0-alpha.395.zip"
         }
       ]
     }
