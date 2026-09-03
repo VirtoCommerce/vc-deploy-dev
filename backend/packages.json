@@ -53,6 +53,9 @@
         },
         {
           "BlobName": "VirtoCommerce.AuditLog_3.1003.0-pr-20-a47d.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Catalog_3.1043.0-pr-905-7d84.zip"
         }
       ]
     },
@@ -365,10 +368,6 @@
         {
           "Id": "VirtoCommerce.PageBuilderModule",
           "Version": "3.1022.0"
-        },
-        {
-          "Id": "VirtoCommerce.Catalog",
-          "Version": "3.1042.0"
         },
         {
           "Id": "VirtoCommerce.Orders",
