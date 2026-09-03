@@ -59,7 +59,7 @@
       # artifact.json, so this line still said singer-theme.zip on 2026-08-27 — and the next infra
       # deploy re-applied the whole storefront block and reverted the live theme to Singer. Any
       # commit under infra/ re-applies this value, so a stale URL here is a live landmine.
-      FE: https://vcptcore-aidemo.govirto.com/cms-content/assets/themes/bekaert-theme-v11.zip
+      FE: https://vcptcore-aidemo.govirto.com/cms-content/assets/themes/bekaert-theme-2026-09-03T14-07-08Z.zip
   customApps:
     app1:
       enabled: false
