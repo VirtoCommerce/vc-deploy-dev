@@ -239,7 +239,7 @@
 
       #OpenId_settings
 
-      oidc__0__Enabled: true
+      oidc__0__Enabled: false
       oidc__0__AuthenticationType: virto
       oidc__0__AuthenticationCaption: Virto
       oidc__0__Authority: https://vcst-qa.govirto.com
