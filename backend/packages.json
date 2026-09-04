@@ -60,6 +60,10 @@
         {
           "Id": "VirtoCommerce.PageBuilderModule",
           "BlobName": "VirtoCommerce.PageBuilderModule_3.1023.0-pr-162-9b02.zip"
+        },
+        {
+          "Id": "VirtoCommerce.SalesRep",
+          "BlobName": "VirtoCommerce.SalesRep_3.1007.0.zip"
         }
       ]
     },
@@ -352,10 +356,6 @@
         {
           "Id": "VirtoCommerce.AlgoliaSearch",
           "Version": "3.1001.0"
-        },
-        {
-          "Id": "VirtoCommerce.SalesRep",
-          "Version": "3.1006.0"
         },
         {
           "Id": "VirtoCommerce.SeqLog",
