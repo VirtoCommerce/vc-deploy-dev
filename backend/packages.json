@@ -60,6 +60,10 @@
         {
           "Id": "VirtoCommerce.PageBuilderModule",
           "BlobName": "VirtoCommerce.PageBuilderModule_3.1023.0-pr-161-f978.zip"
+        },
+        {
+          "Id": "VirtoCommerce.BackgroundJobs",
+          "BlobName": "VirtoCommerce.BackgroundJobs_3.1051.0.zip"
         }
       ]
     },
@@ -264,10 +268,6 @@
         {
           "Id": "VirtoCommerce.AzureSearch",
           "Version": "3.1005.0"
-        },
-        {
-          "Id": "VirtoCommerce.BackgroundJobs",
-          "Version": "3.1050.0"
         },
         {
           "Id": "VirtoCommerce.ProductSnapshot",
