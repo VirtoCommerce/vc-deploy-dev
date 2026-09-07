@@ -180,10 +180,6 @@
           "Version": "3.1005.0"
         },
         {
-          "Id": "VirtoCommerce.BackgroundJobs",
-          "Version": "3.1050.0"
-        },
-        {
           "Id": "VirtoCommerce.ProductSnapshot",
           "Version": "3.1003.0"
         },
@@ -354,6 +350,10 @@
         {
           "Id": "VirtoCommerce.Xapi",
           "Version": "3.1021.0"
+        },
+        {
+          "Id": "VirtoCommerce.BackgroundJobs",
+          "Version": "3.1051.0"
         }
       ]
     },
