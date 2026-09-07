@@ -60,6 +60,10 @@
         {
           "Id": "VirtoCommerce.PageBuilderModule",
           "BlobName": "VirtoCommerce.PageBuilderModule_3.1023.0-pr-161-f978.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Search",
+          "BlobName": "VirtoCommerce.Search_3.1007.0.zip"
         }
       ]
     },
@@ -251,10 +255,6 @@
         },
         {
           "Id": "VirtoCommerce.Assets",
-          "Version": "3.1006.0"
-        },
-        {
-          "Id": "VirtoCommerce.Search",
           "Version": "3.1006.0"
         },
         {
