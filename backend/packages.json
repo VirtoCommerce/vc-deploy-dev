@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.1064.0",
+  "PlatformVersion": "3.1065.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.1064.0",
+  "PlatformImageTag": "3.1065.0",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
   ],
@@ -31,9 +31,9 @@
       ],
       "Modules": [
         {
-          "Id": "VirtoCommerce.Loyalty",
-          "Version": "3.1006.0"
-        },
+          "Id": "VirtoCommerce.Loyalty",
+          "Version": "3.1006.0"
+        },
         {
           "Id": "VirtoCommerce.PageBuilderModule",
           "Version": "3.1022.0"
@@ -140,7 +140,7 @@
         },
         {
           "Id": "VirtoCommerce.ImageTools",
-          "Version": "3.1003.0"
+          "Version": "3.1004.0"
         },
         {
           "Id": "VirtoCommerce.LuceneSearch",
@@ -200,7 +200,7 @@
         },
         {
           "Id": "VirtoCommerce.Search",
-          "Version": "3.1006.0"
+          "Version": "3.1007.0"
         },
         {
           "Id": "VirtoCommerce.AzureSearch",
@@ -208,7 +208,7 @@
         },
         {
           "Id": "VirtoCommerce.BackgroundJobs",
-          "Version": "3.1050.0"
+          "Version": "3.1051.0"
         },
         {
           "Id": "VirtoCommerce.ProductSnapshot",
@@ -348,7 +348,7 @@
         },
         {
           "Id": "VirtoCommerce.Xapi",
-          "Version": "3.1020.0"
+          "Version": "3.1021.0"
         },
         {
           "Id": "VirtoCommerce.XCatalog",
