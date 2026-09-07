@@ -198,10 +198,6 @@
           "BlobName": "VirtoCommerce.AzureSearch_3.1007.0-alpha.297.zip"
         },
         {
-          "Id": "VirtoCommerce.BackgroundJobs",
-          "BlobName": "VirtoCommerce.BackgroundJobs_3.1050.0-alpha.7.zip"
-        },
-        {
           "Id": "VirtoCommerce.Quote",
           "BlobName": "VirtoCommerce.Quote_3.1002.0-alpha.508.zip"
         },
@@ -372,6 +368,10 @@
         {
           "Id": "VirtoCommerce.Xapi",
           "BlobName": "VirtoCommerce.Xapi_3.1021.0-alpha.200.zip"
+        },
+        {
+          "Id": "VirtoCommerce.BackgroundJobs",
+          "BlobName": "VirtoCommerce.BackgroundJobs_3.1051.0-alpha.10.zip"
         }
       ]
     }
