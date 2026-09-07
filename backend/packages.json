@@ -60,6 +60,10 @@
         {
           "Id": "VirtoCommerce.PageBuilderModule",
           "BlobName": "VirtoCommerce.PageBuilderModule_3.1023.0-pr-161-f978.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ImageTools",
+          "BlobName": "VirtoCommerce.ImageTools_3.1004.0.zip"
         }
       ]
     },
@@ -188,10 +192,6 @@
         {
           "Id": "VirtoCommerce.BulkActionsModule",
           "Version": "3.1002.0"
-        },
-        {
-          "Id": "VirtoCommerce.ImageTools",
-          "Version": "3.1003.0"
         },
         {
           "Id": "VirtoCommerce.LuceneSearch",
