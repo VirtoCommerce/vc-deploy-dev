@@ -310,10 +310,6 @@
           "BlobName": "VirtoCommerce.Skyflow_3.1005.0-alpha.83.zip"
         },
         {
-          "Id": "VirtoCommerce.PageBuilderModule",
-          "BlobName": "VirtoCommerce.PageBuilderModule_3.1023.0-alpha.854.zip"
-        },
-        {
           "Id": "VirtoCommerce.BackupRestore",
           "BlobName": "VirtoCommerce.BackupRestore_3.1005.0-alpha.17.zip"
         },
@@ -372,6 +368,10 @@
         {
           "Id": "VirtoCommerce.Search",
           "BlobName": "VirtoCommerce.Search_3.1007.0-alpha.847.zip"
+        },
+        {
+          "Id": "VirtoCommerce.PageBuilderModule",
+          "BlobName": "VirtoCommerce.PageBuilderModule_3.1023.0-alpha.855.zip"
         }
       ]
     }
