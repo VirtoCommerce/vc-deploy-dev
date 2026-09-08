@@ -332,10 +332,6 @@
           "Version": "3.1002.0"
         },
         {
-          "Id": "VirtoCommerce.SalesRep",
-          "Version": "3.1007.0"
-        },
-        {
           "Id": "VirtoCommerce.Xapi",
           "Version": "3.1021.0"
         },
@@ -354,6 +350,10 @@
         {
           "Id": "VirtoCommerce.PageBuilderModule",
           "Version": "3.1023.0"
+        },
+        {
+          "Id": "VirtoCommerce.SalesRep",
+          "Version": "3.1008.0"
         }
       ]
     },
