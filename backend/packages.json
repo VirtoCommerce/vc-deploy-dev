@@ -21,6 +21,10 @@
         },
         {
           "BlobName": "VirtoCommerce.AuditLog_3.1003.0-pr-20-a47d.zip"
+        },
+        {
+          "Id": "VirtoCommerce.SalesRep",
+          "BlobName": "VirtoCommerce.SalesRep_3.1008.0.zip"
         }
       ]
     },
@@ -373,10 +377,6 @@
         {
           "Id": "VirtoCommerce.OpenSearch",
           "Version": "3.1002.0"
-        },
-        {
-          "Id": "VirtoCommerce.SalesRep",
-          "Version": "3.1007.0"
         }
       ]
     }
