@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.1064.0",
+  "PlatformVersion": "3.1066.0-pr-3108-a5d2",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.1064.0",
+  "PlatformImageTag": "3.1066.0-pr-3108-a5d2-vcst-5378-unified-buyer-flow-a5d2c6c0",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -10,6 +10,10 @@
       "Container": "packages",
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
+        {
+          "Id": "VirtoCommerce.UCP",
+          "BlobName": "VirtoCommerce.UCP_3.1006.0-pr-7-487a.zip"
+        },
         {
           "BlobName": "VirtoCommerce.SalesRep_3.1008.0-pr-19-5e0f.zip"
         }
@@ -308,10 +312,6 @@
         {
           "Id": "VirtoCommerce.OpenTelemetry",
           "Version": "3.1001.0"
-        },
-        {
-          "Id": "VirtoCommerce.UCP",
-          "Version": "3.1005.0"
         },
         {
           "Id": "VirtoCommerce.Skyflow",
