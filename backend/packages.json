@@ -9,11 +9,7 @@
       "Name": "AzureBlob",
       "Container": "packages",
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
-      "Modules": [
-        {
-          "BlobName": "VirtoCommerce.SalesRep_3.1008.0-pr-19-5e0f.zip"
-        }
-      ]
+      "Modules": []
     },
     {
       "Name": "GithubReleases",
@@ -364,7 +360,11 @@
         {
           "Id": "VirtoCommerce.OpenSearch",
           "Version": "3.1002.0"
-        }   
+        }, 
+        {
+          "Id": "VirtoCommerce.SalesRep",
+          "Version": "3.1008.0"
+        }
       ]
     }
   ]
