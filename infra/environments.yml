@@ -1,54 +1,44 @@
-- name: vcptcore-aidemo
+- name: vcptcore-aidemo2
   gitops: true
   production: false
   servicePlan: B1
   platform:
     dbProvider: AzureSQL Database
-    # Custom platform image (base platform + modules) built & pushed by deploy-backend.yml.
-    # Was saas/platform:latest-stable — switched to the per-project custom image so
-    # WhiteLabeling / PageBuilder / Pages (already listed in backend/packages.json) get installed.
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    # imageTag is set by deploy-backend (CloudEnvSetParameter platform.image.tag=<ver>-<sha>)
-    # and preserved across infra deploys via protectedParameters below.
+    imageTag: 3.1058.0-fa5946a
     sqlReplica: false
     redis:
       service: redis-uat-vc03-redis-cluster.redis-cluster:6379
     config:
       APPINSIGHTS_INSTRUMENTATIONKEY: 2c32e0ab-0e97-4937-b03c-b2b1c7573454
-      # --- Page Builder / CMS slug resolution (added 2026-07-17) ---
-      # Published Page Builder pages resolved right after publish but decayed (storefront fell
-      # back to default home.vue) once a scheduled full reindex ran. Two config keys keep them
-      # resolvable durably, matching the vcptcore-demo env. NOTE: intentionally NOT copying demo's
-      # search server / DocumentScopes / blob / secrets — aidemo already has a working ElasticSearch8
-      # backend on its own scope (vcptcore-aidemo-platformvcptcore); only these two keys are added.
-      #
-      # SEO resolver order — Pages first so a published page at a permalink wins slug resolution.
       Seo__SeoInfoResolver__0: Pages
       Seo__SeoInfoResolver__1: ContentFile
       Seo__SeoInfoResolver__2: Catalog
       Seo__SeoInfoResolver__3: Brand
       Seo__SeoInfoResolver__4: Category
       Seo__SeoInfoResolver__5: CatalogProduct
-      # Include content/pages in the full (scheduled) reindex so they aren't dropped between publishes.
       Search__ContentFullTextSearchEnabled: true
+      # --- BOPIS dealer availability (added 2026-09-08) ---
+      # Shipping 3.1005.0 ALREADY ships the PickupLocation index (document builder, request
+      # builder, index fields) — no module upgrade is needed. PickupLocationIndexedSearchService
+      # refuses to run without this key, so productPickupLocations / cartPickupLocations return
+      # an EMPTY LIST with no error, the checkout pickup selector has no dealers, and the
+      # dealer map has nothing to plot. The exception text names this exact key.
+      Search__PickupLocationFullTextSearchEnabled: true
   storefront:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/storefront
     imageTag: 6.0
     config:
       APPINSIGHTS_INSTRUMENTATIONKEY: adc98546-3f8a-4462-a0b2-7c822b5565ba
     themes:
-      # Custom Singer theme = vc-frontend 2.51.1 with default/assets/presets/singer-equipment-company-theme.json
-      # injected, self-hosted on this env's asset store. Same theme content + the preset the White-Labeling
-      # themePresetName resolves to. NOTE: the storefront reads the theme by ROUTE ROOT ("FE"), not the platform
-      # store id (B2B-store) — deploy-theme.yml targets the same key.
-      FE: https://vcptcore-aidemo.govirto.com/cms-content/assets/themes/singer-theme.zip
+      FE: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-2.56.0-pr-2410-5212-5212ba6c.zip
   customApps:
     app1:
       enabled: false
     app2:
       enabled: false
   routes:
-  - host: front-vcptcore-aidemo.govirto.com
+  - host: vcptcore-aidemo2-front.govirto.com
     root: FE
     paths:
     - path: /xapi
