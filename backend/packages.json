@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.1064.0",
+  "PlatformVersion": "3.1067.0-pr-3108-499b",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.1064.0",
+  "PlatformImageTag": "3.1067.0-pr-3108-499b-vcst-5378-unified-buyer-flow-499bffce",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -10,6 +10,10 @@
       "Container": "packages",
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
+        {
+          "Id": "VirtoCommerce.UCP",
+          "BlobName": "VirtoCommerce.UCP_3.1006.0-pr-7-487a.zip"
+        },
         {
           "BlobName": "VirtoCommerce.SalesRep_3.1008.0-pr-19-5e0f.zip"
         }
@@ -24,7 +28,7 @@
         {
           "Id": "VirtoCommerce.Loyalty",
           "Version": "3.1006.0"
-       },        
+       },
        {
           "Id": "VirtoCommerce.ElasticSearch",
           "Version": "3.806.0"
@@ -310,10 +314,6 @@
           "Version": "3.1001.0"
         },
         {
-          "Id": "VirtoCommerce.UCP",
-          "Version": "3.1005.0"
-        },
-        {
           "Id": "VirtoCommerce.Skyflow",
           "Version": "3.1005.0"
         },
@@ -364,7 +364,7 @@
         {
           "Id": "VirtoCommerce.OpenSearch",
           "Version": "3.1002.0"
-        }   
+        }
       ]
     }
   ]

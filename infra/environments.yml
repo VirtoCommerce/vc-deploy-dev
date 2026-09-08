@@ -20,6 +20,8 @@
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: true      
       # Enable Azure Active Directory login in platform UI
       Authorization__AllowApiAccessForCustomers: true
+      Authorization__OAuthLoginPath: /oauth/authorize
+      Authorization__Resources__0: https://vcst-qa-storefront.govirto.com/ucp/mcp
       AzureAd__Enabled: true
       AzureAd__ApplicationId: 86d04c35-143d-4d3c-aea2-8608e2186282
       AzureAd__TenantId: bc03e660-5e3a-45c4-bf5c-b75489f78923
@@ -257,6 +259,18 @@
     - path: /files
       route: platform
     - path: /connect/token
+      route: platform
+    - path: /connect/authorize
+      route: platform
+    - path: /connect/session
+      route: platform
+    - path: /.well-known/openid-configuration
+      route: platform
+    - path: /.well-known/oauth-authorization-server
+      route: platform
+    - path: /.well-known/oauth-protected-resource
+      route: platform
+    - path: /.well-known/jwks
       route: platform
     - path: /graphql
       route: platform
