@@ -9,7 +9,14 @@
       "Name": "AzureBlob",
       "Container": "packages",
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
-      "Modules": []
+      "Modules": [
+        {
+          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.1018.0-pr-145-4fe6.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Customer_3.1024.0-pr-316-1ac3.zip"
+        }
+      ]
     },
     {
       "Name": "GithubReleases",
@@ -324,14 +331,6 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "Version": "3.1042.0"
-        },
-        {
-          "Id": "VirtoCommerce.Customer",
-          "Version": "3.1023.0"
-        },
-        {
-          "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.1017.0"
         },
         {
           "Id": "VirtoCommerce.Xapi",
