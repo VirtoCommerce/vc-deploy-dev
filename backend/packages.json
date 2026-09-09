@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.1066.0-pr-3111-86cf-vcst-5900-86cf6821",
+  "PlatformVersion": "3.1066.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.1066.0-pr-3111-86cf-vcst-5900-86cf6821",
+  "PlatformImageTag": "3.1066.0",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
   ],
@@ -13,7 +13,6 @@
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
         {
-          "Id": "VirtoCommerce.AI",
           "BlobName": "VirtoCommerce.AI_3.1001.0.zip"
         },
         {
@@ -25,6 +24,9 @@
         },
         {
           "BlobName": "VirtoCommerce.AuditLog_3.1003.0-pr-20-a47d.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Catalog_3.1043.0-pr-905-ffa6.zip"
         }
       ]
     },
@@ -333,10 +335,6 @@
         {
           "Id": "VirtoCommerce.BackupRestore",
           "Version": "3.1005.0"
-        },
-        {
-          "Id": "VirtoCommerce.Catalog",
-          "Version": "3.1042.0"
         },
         {
           "Id": "VirtoCommerce.Customer",
