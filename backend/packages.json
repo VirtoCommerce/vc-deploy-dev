@@ -224,10 +224,6 @@
           "Version": "3.1002.0"
         },
         {
-          "Id": "VirtoCommerce.Notifications",
-          "Version": "3.1013.0"
-        },
-        {
           "Id": "VirtoCommerce.Pages",
           "Version": "3.1008.0"
         },
@@ -354,6 +350,10 @@
         {
           "Id": "VirtoCommerce.PageBuilderModule",
           "Version": "3.1024.0"
+        },
+        {
+          "Id": "VirtoCommerce.Notifications",
+          "Version": "3.1014.0"
         }
       ]
     },
