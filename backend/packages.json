@@ -31,6 +31,10 @@
         {
           "Id": "VirtoCommerce.Orders",
           "BlobName": "VirtoCommerce.Orders_3.1015.0-pr-472-dfa3.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Notifications",
+          "BlobName": "VirtoCommerce.Notifications_3.1014.0.zip"
         }
       ]
     },
@@ -275,10 +279,6 @@
         {
           "Id": "VirtoCommerce.SystemOperations",
           "Version": "3.1002.0"
-        },
-        {
-          "Id": "VirtoCommerce.Notifications",
-          "Version": "3.1013.0"
         },
         {
           "Id": "VirtoCommerce.Pages",
