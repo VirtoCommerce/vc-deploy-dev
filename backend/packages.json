@@ -302,10 +302,6 @@
           "BlobName": "VirtoCommerce.BackupRestore_3.1005.0-alpha.17.zip"
         },
         {
-          "Id": "VirtoCommerce.Customer",
-          "BlobName": "VirtoCommerce.Customer_3.1023.0-alpha.1003.zip"
-        },
-        {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.1017.0-alpha.374.zip"
         },
@@ -372,6 +368,10 @@
         {
           "Id": "VirtoCommerce.Notifications",
           "BlobName": "VirtoCommerce.Notifications_3.1014.0-alpha.490.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Customer",
+          "BlobName": "VirtoCommerce.Customer_3.1024.0-alpha.1005.zip"
         }
       ]
     }
