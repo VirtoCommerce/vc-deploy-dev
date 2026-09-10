@@ -46,10 +46,6 @@
           "BlobName": "VirtoCommerce.NativePaymentMethods_3.1003.0-alpha.123.zip"
         },
         {
-          "Id": "VirtoCommerce.BuilderIO",
-          "BlobName": "VirtoCommerce.BuilderIO_3.1005.0-alpha.140.zip"
-        },
-        {
           "Id": "VirtoCommerce.OpenIdConnectModule",
           "BlobName": "VirtoCommerce.OpenIdConnectModule_3.1002.0-alpha.45.zip"
         },
@@ -372,6 +368,10 @@
         {
           "Id": "VirtoCommerce.ElasticAppSearch",
           "BlobName": "VirtoCommerce.ElasticAppSearch_3.1002.0-alpha.188.zip"
+        },
+        {
+          "Id": "VirtoCommerce.BuilderIO",
+          "BlobName": "VirtoCommerce.BuilderIO_3.1005.0-alpha.146.zip"
         }
       ]
     }
