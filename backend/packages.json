@@ -18,6 +18,9 @@
         },
         {
           "BlobName": "VirtoCommerce.Loyalty_3.1007.0-pr-16-cfa5.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Notifications_3.1014.0-pr-203-4ab6.zip"
         }
       ]
     },
@@ -258,10 +261,6 @@
         {
           "Id": "VirtoCommerce.SystemOperations",
           "Version": "3.1002.0"
-        },
-        {
-          "Id": "VirtoCommerce.Notifications",
-          "Version": "3.1013.0"
         },
         {
           "Id": "VirtoCommerce.Pages",
