@@ -242,10 +242,6 @@
           "BlobName": "VirtoCommerce.SystemOperations_3.1002.0-alpha.21.zip"
         },
         {
-          "Id": "VirtoCommerce.Notifications",
-          "BlobName": "VirtoCommerce.Notifications_3.1013.0-alpha.488.zip"
-        },
-        {
           "Id": "VirtoCommerce.Pages",
           "BlobName": "VirtoCommerce.Pages_3.1008.0-alpha.75.zip"
         },
@@ -372,6 +368,10 @@
         {
           "Id": "VirtoCommerce.PageBuilderModule",
           "BlobName": "VirtoCommerce.PageBuilderModule_3.1025.0-alpha.858.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Notifications",
+          "BlobName": "VirtoCommerce.Notifications_3.1014.0-alpha.490.zip"
         }
       ]
     }
