@@ -27,6 +27,10 @@
         },
         {
           "BlobName": "VirtoCommerce.Catalog_3.1043.0-pr-906-d339.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ElasticAppSearch",
+          "BlobName": "VirtoCommerce.ElasticAppSearch_3.1002.0.zip"
         }
       ]
     },
@@ -58,10 +62,6 @@
         },
         {
           "Id": "VirtoCommerce.ShipStation",
-          "Version": "3.1001.0"
-        },
-        {
-          "Id": "VirtoCommerce.ElasticAppSearch",
           "Version": "3.1001.0"
         },
         {
