@@ -76,6 +76,24 @@
       FileUpload__Scopes__3__AllowedExtensions__8: .png
       FileUpload__Scopes__3__AllowedExtensions__9: .odt
       FileUpload__Scopes__3__AllowAnonymousUpload: true
+      FileUpload__Scopes__4__Scope: sales-rep-documents
+      FileUpload__Scopes__4__MaxFileSize: 52428800          # bytes; must exceed the largest document
+      FileUpload__Scopes__4__AllowAnonymousUpload: false
+      FileUpload__Scopes__4__AllowedExtensions__0: .pdf
+      FileUpload__Scopes__4__AllowedExtensions__1: .doc
+      FileUpload__Scopes__4__AllowedExtensions__2: .docx
+      FileUpload__Scopes__4__AllowedExtensions__3: .xls
+      FileUpload__Scopes__4__AllowedExtensions__4: .xlsx
+      FileUpload__Scopes__4__AllowedExtensions__5: .ppt
+      FileUpload__Scopes__4__AllowedExtensions__6: .pptx
+      FileUpload__Scopes__4__AllowedExtensions__7: .txt
+      FileUpload__Scopes__4__AllowedExtensions__8: .csv
+      FileUpload__Scopes__4__AllowedExtensions__9: .zip
+      FileUpload__Scopes__4__AllowedExtensions__10: .png
+      FileUpload__Scopes__4__AllowedExtensions__11: .jpg
+      FileUpload__Scopes__4__AllowedExtensions__12: .jpeg
+      FileUpload__Scopes__4__AllowedExtensions__13: .gif
+      FileUpload__Scopes__4__AllowedExtensions__14: .webp
       # Send notifications via email
       Notifications__DefaultSender: virto.start@virtoway.com
       Notifications__Gateway: SendGrid
