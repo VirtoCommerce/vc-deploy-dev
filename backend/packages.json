@@ -31,6 +31,10 @@
         {
           "Id": "VirtoCommerce.Orders",
           "BlobName": "VirtoCommerce.Orders_3.1015.0-pr-472-dfa3.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ProfileExperienceApiModule",
+          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.1018.0.zip"
         }
       ]
     },
@@ -339,10 +343,6 @@
         {
           "Id": "VirtoCommerce.Customer",
           "Version": "3.1023.0"
-        },
-        {
-          "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.1017.0"
         },
         {
           "Id": "VirtoCommerce.Xapi",
