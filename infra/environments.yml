@@ -416,6 +416,9 @@
       route: platform
     - path: /signin-google
       route: platform
+    # Module Federation plugins are served by the platform from each module's plugins/vc-frontend/ (VCST-5159).
+    - path: /modules
+      route: platform
   protectedParameters:
    - themes.B2B-store
    #- storefront.image.tag
