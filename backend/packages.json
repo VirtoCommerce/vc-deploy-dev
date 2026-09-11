@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.1066.0",
+  "PlatformVersion": "3.1069.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.1066.0",
+  "PlatformImageTag": "3.1069.0",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
   ],
@@ -16,17 +16,10 @@
           "BlobName": "VirtoCommerce.AI_3.1001.0.zip"
         },
         {
-          "Id": "VirtoCommerce.PageBuilderModule",
-          "BlobName": "VirtoCommerce.PageBuilderModule_3.1024.0-pr-162-2c28.zip"
-        },
-        {
           "BlobName": "VirtoCommerce.AIDocumentProcessing_3.901.0.zip"
         },
         {
           "BlobName": "VirtoCommerce.AuditLog_3.1003.0-pr-20-a47d.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.Catalog_3.1043.0-pr-906-d339.zip"
         },
         {
           "Id": "VirtoCommerce.Orders",
@@ -66,11 +59,15 @@
         },
         {
           "Id": "VirtoCommerce.ElasticAppSearch",
-          "Version": "3.1001.0"
+          "Version": "3.1002.0"
         },
         {
           "Id": "VirtoCommerce.BuilderIO",
-          "Version": "3.1004.0"
+          "Version": "3.1005.0"
+        },
+        {
+          "Id": "VirtoCommerce.PageBuilderModule",
+          "Version": "3.1024.0"
         },
         {
           "Id": "VirtoCommerce.OpenIdConnectModule",
@@ -206,7 +203,11 @@
         },
         {
           "Id": "VirtoCommerce.Search",
-          "Version": "3.1007.0"
+          "Version": "3.1008.0"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "Version": "3.1044.0"
         },
         {
           "Id": "VirtoCommerce.AzureSearch",
@@ -278,7 +279,7 @@
         },
         {
           "Id": "VirtoCommerce.Notifications",
-          "Version": "3.1013.0"
+          "Version": "3.1014.0"
         },
         {
           "Id": "VirtoCommerce.Pages",
@@ -338,7 +339,7 @@
         },
         {
           "Id": "VirtoCommerce.Customer",
-          "Version": "3.1023.0"
+          "Version": "3.1024.0"
         },
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
