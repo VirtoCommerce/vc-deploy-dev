@@ -82,13 +82,6 @@
       Serilog__MinimumLevel__Override__VirtoCommerce__Platform__Web__Controllers__Api__LicensingController: "Information"
       Serilog__MinimumLevel__Override__VirtoCommerce__AzureBlobAssetsModule__Core__AzureBlobProvider: "Debug"
       #Serilog__MinimumLevel__Default: "Information"
-      # VCST-5566 (TEMPORARY - REVERT AFTER THE MEASUREMENT): makes RedisPlatformMemoryCache emit its
-      # LogTrace lines, so "Published token cancellation message" can be counted against the number of
-      # distinct keys they carry. A per-namespace MinimumLevel:Override cannot be used here - Serilog
-      # needs one key literally containing dots ("VirtoCommerce.Platform.Redis"), which this deployment
-      # pipeline rejects, and the nested __ form is silently dropped (child Value is null). Hence global.
-      # Positive control that it is armed: "Trying to cancel token with key:" must appear in stdout.
-      Serilog__MinimumLevel__Default: "Verbose"
       #Serilog__WriteTo__0: Console
       #Serilog__WriteTo__1__Name: ApplicationInsights
       #Serilog__WriteTo__1__Args__telemetryConverter: Serilog.Sinks.ApplicationInsights.TelemetryConverters.TraceTelemetryConverter, Serilog.Sinks.ApplicationInsights
