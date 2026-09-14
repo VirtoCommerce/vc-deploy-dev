@@ -8,7 +8,7 @@
       Cross-Origin-Opener-Policy: unsafe-none
       Cross-Origin-Embedder-Policy: unsafe-none
     dbProvider: AzureSQL Database
-    imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform  
+    imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
     sqlReplica: false
 
     config:
@@ -35,7 +35,7 @@
       DOTNET_USE_POLLING_FILE_WATCHER: true
       Reload: 29
       #ConnectionStrings__AzureAppConfigurationConnectionString: "Endpoint=https://qa-vc-app-config.azconfig.io;Id=BvwK;Secret=nbF7kOXCU14+qCF5OtP4LR63zfbSyDx6th46bIWkUHQ="
-     
+
      # Serilog__Using__0: Serilog.Sinks.Console
       #Serilog__Using__1: Serilog.Sinks.ApplicationInsights
       #Serilog__Using__1: Serilog.Sinks.Debug
@@ -47,7 +47,7 @@
       #Serilog__WriteTo__1__Name: ApplicationInsights
       #Serilog__WriteTo__1__Args__telemetryConverter: Serilog.Sinks.ApplicationInsights.TelemetryConverters.TraceTelemetryConverter, Serilog.Sinks.ApplicationInsights
       #Serilog__WriteTo__1__Args__restrictedToMinimumLevel: "Information"
-      
+
       VirtoCommerce__SampleDataUrl: "https://virtocommerce.azureedge.net/sample-data/b2b-sample-store.zip"
       #VirtoCommerce__PlatformUI__Enable: false
       TaxModule__FixedRateTaxProvider__Enabled: true
@@ -55,9 +55,9 @@
       VirtoCommerce__RefreshProbingFolderOnStart: false
       #one order template for all stores
       VirtoCommerce__SequenceNumberGenerator__UseGlobalTenantId: true
-      
+
       #EnvironmentCompareSettings
-      
+
       EnvironmentsCompare__CurrentEnvironmentName: VCPTCORE-QA1
       EnvironmentsCompare__ComparableEnvironments__0__Name: VCPTCORE-QA
       EnvironmentsCompare__ComparableEnvironments__0__Url: https://vcptcore-qa.govirto.com
@@ -68,10 +68,10 @@
       EnvironmentsCompare__ComparableEnvironments__2__Name: VCPTCORE-QA-SAME
       EnvironmentsCompare__ComparableEnvironments__2__Url: https://vcptcore-qa.govirto.com
       EnvironmentsCompare__ComparableEnvironments__2__ApiKey: 403b50c6-9078-4c77-934e-8ddc578eb919
-      
-      
+
+
       #Notifications_settings
-      
+
       #Notifications__Gateway: SendGrid
       Notifications__Gateway: Smtp
       #Notifications__Smtp__ForceSslTls: false
@@ -87,7 +87,7 @@
       Notifications__MicrosoftGraph__TenantId: 70697aab-b16c-4648-ad2b-5cc5b193e9a5
       Notifications__MicrosoftGraph__SecretValue: Ua58Q~3lrsu2MXDTXFMBdkSE8hOIR8KXsYwjNcin
       #Notifications__Smtp__EnableSsl: False
-      
+
 
       # Production: Development turns on DI ValidateOnBuild, which rejects the SalesRep module's
       # scoped-in-singleton chain at startup (VCST-5159); vcst-qa/vcst-dev run without the variable.
@@ -99,7 +99,7 @@
       PushNotifications__ForceWebSockets: true
       PushNotifications__ScalabilityMode: RedisBackplane
       PushNotifications__HubUrl: https://vcptcore-qa1.govirto.com/pushNotificationHub?api_key=17489aa2-34d6-4447-a437-285457f4f72d
-      PushNotifications__RedisBackplane__ChannelName: vcptcore-qa1-chanel      
+      PushNotifications__RedisBackplane__ChannelName: vcptcore-qa1-chanel
       PushMessages__UseFirebaseCloudMessaging: true
       PushMessages__FcmSenderOptions__Type: service_account
       PushMessages__FcmSenderOptions__ProjectId: vcptcore-qa
@@ -118,14 +118,14 @@
       PushMessages__FcmReceiverOptions__MessagingSenderId: 995027985115
       PushMessages__FcmReceiverOptions__AppId: 1:995027985115:web:324f963313f91886e5e2fe
       PushMessages__FcmReceiverOptions__VapidKey: BC8WwWRnCNgs_slIACjwBrNu_iQSiY7xlq48NBSobEITxzye9L_K_aEmMdB1LWPn7dMX2G8zm4LcLrklHgW-4iY
-      
-      
+
+
       #Search__Settings
-      
+
       Search__OrderFullTextSearchEnabled: true
       Search__ContentFullTextSearchEnabled: true
       Search__PickupLocationFullTextSearchEnabled: true
-      
+
       Search__DocumentScopes__0__DocumentType: Product
       Search__DocumentScopes__0__Scope: vcptcore-qa1-platformvcptcore-scope11
       Search__DocumentScopes__2__DocumentType: Category
@@ -136,24 +136,24 @@
       Search__DocumentScopes__4__Scope: vcptcore-qa1-platformvcptcore-scope44
       Search__DocumentScopes__5__DocumentType: ContentFile
       Search__DocumentScopes__5__Scope: vcptcore-qa1-platformvcptcore-scope66
-      
+
       #Search__ElasticSearch__EnableCompatibilityMode: true
-      #Search__ElasticSearch__HealthCheckTimeout: 10   
+      #Search__ElasticSearch__HealthCheckTimeout: 10
       #Search__ElasticSearch__Server: https://elasticsearch-vc03.govirto.com
       #Search__ElasticSearch__EnableCompatibilityMode: true
       #Search__Provider: ElasticSearch
       #Search__Provider: AzureSearch
 
       VirtoCommerce__Platfrom__Dashboard__Enabled: false
-      
+
       #Search__Provider: ElasticSearch9
-      Search__Provider: ElasticSearch8
+      #Search__Provider: ElasticSearch8
       #Search__Provider: OpenSearch
       #Search__OpenSearch__Server: https://opensearch-uat.govirto.com/
       #Search__OpenSearch__User: admin
       Search__OpenSearch__Password: '@-mJ"ch{l/#+LXg_"w>v'
       Search__OpenSearch__EnableHttpCompression: true
-      #Search__Provider: ElasticAppSearch
+      Search__Provider: ElasticAppSearch
       #Search__Provider: Lucene
       #Search__Scope: default
       #Search__Lucene__Path: /path/to/lucene/indexes
@@ -180,12 +180,12 @@
       Search__AzureSearch__Endpoint: https://qa-demovc-3-search.search.windows.net
 
       #GoogleSSO_settings
-      
+
       GoogleSSO__Enabled: true
       GoogleSSO__AuthenticationType: GoogleSSO
       GoogleSSO__AuthenticationCaption: Google
       GoogleSSO__ApplicationId:  995027985115-qijocrsde8stfmf0d56dv2vjb4lkgfjc.apps.googleusercontent.com
-      GoogleSSO__Secret: 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 
+      GoogleSSO__Secret: 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
       GoogleSSO__Priority: 2
 
       #OpenId_settings
@@ -201,7 +201,7 @@
       oidc__0__GetClaimsFromUserInfoEndpoint: true
       oidc__0__CallbackPath: /signin-virto
       oidc__0__SignedOutCallbackPath: /signout-virto
-      
+
       AzureAd__Enabled: true
       AzureAd__Priority: 1
       AzureAd__ApplicationId: 86d04c35-143d-4d3c-aea2-8608e2186282
@@ -249,7 +249,7 @@
       #VirtoCommerce__PlatformUI__EnvironmentBanner__Enable: true
       #VirtoCommerce__PlatformUI__EnvironmentBanner__Name: "Local"
       #VirtoCommerce__PlatformUI__EnvironmentBanner__ThemePreset: "localhost"
-      
+
       Logging__LogLevel__Default: Information
       PasswordLogin__DetailedErrors: true
       Payments__AuthorizeNet__ApiLogin: 52B9X7vb4
@@ -259,7 +259,7 @@
       Tax__Avalara__LicenseKey: 16BC3F87E836E15C
       APPINSIGHTS_INSTRUMENTATIONKEY: bd723c64-aa55-4ae1-9891-50244a4719f0
       #VirtoCommerce__ApplicationInsights__RoleName: This is QA role
-      #VirtoCommerce__ApplicationInsights__RoleInstance: This is instance of QA      
+      #VirtoCommerce__ApplicationInsights__RoleInstance: This is instance of QA
       Videos__GoogleApiKey: AIzaSyD5A4oFeSgaMQnMo3OiaqUSJ23SQGELiA4
       Caching__CacheEnabled: true
       Authorization__ReturnPasswordHash: true
@@ -284,13 +284,13 @@
       EventBus__Connections__0__Name: AzureEventGridApps1
       EventBus__Connections__0__ProviderName: AzureEventGrid
       #EventBus__Connections__0__ConnectionOptionsSerialized: >-
-      #{'ConnectionString': 'https://test-event-grid-dont-delete.westus-1.eventgrid.azure.net/api/events', 'AccessKey': 'kvpXOgw5MiNjBeBKdroX1r45UvZloXMwlM7i1TyqoiI='}  
+      #{'ConnectionString': 'https://test-event-grid-dont-delete.westus-1.eventgrid.azure.net/api/events', 'AccessKey': 'kvpXOgw5MiNjBeBKdroX1r45UvZloXMwlM7i1TyqoiI='}
       EventBus__Subscriptions__0__ConnectionName: AzureEventGridApps
       EventBus__Subscriptions__0__Name: TestSubscriptionAppS
       EventBus__Subscriptions__0__Events__0__EventId: VirtoCommerce.Platform.Core.Security.Events.UserChangedEvent
       AzureAd__Priority: 1
-      PasswordLogin__Priority: 0   
-      
+      PasswordLogin__Priority: 0
+
       # Skyflow settings
       Payments__Skyflow__tokenURI: https://manage.skyflowapis.com/v1/auth/sa/oauth/token
       Payments__Skyflow__vaultURI: https://ebfc9bee4242.vault.skyflowapis.com
@@ -319,7 +319,7 @@
 
       #UnitOfMeasure default settings
       Measures__DefaultSource: https://vcptcore-qa1.govirto.com/cms-content/assets/measures/VirtoCommerce.Catalog.json
-      
+
     secretConfig:
       Payments__AuthorizeNet__TxnKey: authorizenet-txnkey-vs
       Payments__Skyflow__PaymentFormAccount__clientID: skyflow-paymentformaccount-clientid
@@ -340,9 +340,9 @@
       PushMessages__FcmSenderOptions__PrivateKey: firebase-privatekey
       Search__ElasticSearch8__Key: elastic-search-8
       #Search__ElasticSearch9__Key: elastic-new9
-      
-      
-      
+
+
+
   storefront:
     headers:
       Cross-Origin-Resource-Policy: cross-origin
@@ -367,13 +367,13 @@
     app1:
       name: storybook
       enabled: true
-      imageRepository: ghcr.io/virtocommerce/vc-theme-b2b-vue-storybook     
+      imageRepository: ghcr.io/virtocommerce/vc-theme-b2b-vue-storybook
       servicePlan: F1
       type: standalone
       probePath: /
       ingressPath: /
       config:
-        Reload: 20 
+        Reload: 20
     app2:
       enabled: false
       servicePlan: P1

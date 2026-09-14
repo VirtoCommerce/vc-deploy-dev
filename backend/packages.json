@@ -27,6 +27,10 @@
         {
           "Id": "VirtoCommerce.AIDocumentProcessing",
           "BlobName": "VirtoCommerce.AIDocumentProcessing_3.901.0.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ElasticAppSearch",
+          "BlobName": "VirtoCommerce.ElasticAppSearch_3.1003.0-pr-51-b577.zip"
         }
       ]
     },
@@ -74,10 +78,6 @@
         },
         {
           "Id": "VirtoCommerce.ShipStation",
-          "Version": "3.1001.0"
-        },
-        {
-          "Id": "VirtoCommerce.ElasticAppSearch",
           "Version": "3.1001.0"
         },
         {
