@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.1070.0-pr-3115-8265-vcst-5952-82659efa",
+  "PlatformVersion": "3.1070.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.1070.0-pr-3115-8265-vcst-5952-82659efa",
+  "PlatformImageTag": "3.1070.0",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
   ],
@@ -27,7 +27,7 @@
         {
           "BlobName": "VirtoCommerce.Orders_3.1015.0-pr-472-fb82.zip"
         },
-         {
+        {
           "BlobName": "VirtoCommerce.Core_3.1008.0-pr-257-7785.zip"
         },
         {
