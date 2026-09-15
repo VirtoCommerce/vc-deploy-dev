@@ -30,6 +30,14 @@
          {
           "BlobName": "VirtoCommerce.Core_3.1008.0-pr-257-7785.zip"
         },
+       {
+          "Id": "VirtoCommerce.PageBuilderModule",
+          "BlobName": "VirtoCommerce.PageBuilderModule_3.1025.0-pr-159-7361.zip"
+        },
+       {
+          "Id": "VirtoCommerce.XCMS",
+          "BlobName": "VirtoCommerce.XCMS_3.1005.0-pr-23-7193.zip"
+        },
         {
           "BlobName": "VirtoCommerce.Customer_3.1024.0-pr-315-7c45.zip"
         }
@@ -72,10 +80,6 @@
         {
           "Id": "VirtoCommerce.BuilderIO",
           "Version": "3.1005.0"
-        },
-        {
-          "Id": "VirtoCommerce.PageBuilderModule",
-          "Version": "3.1024.0"
         },
         {
           "Id": "VirtoCommerce.OpenIdConnectModule",
@@ -228,10 +232,6 @@
         {
           "Id": "VirtoCommerce.News",
           "Version": "3.1005.0"
-        },
-        {
-          "Id": "VirtoCommerce.XCMS",
-          "Version": "3.1004.0"
         },
         {
           "Id": "VirtoCommerce.MarketingExperienceApi",
