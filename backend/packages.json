@@ -2,7 +2,7 @@
   "ManifestVersion": "2.0",
   "PlatformVersion": "3.1070.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.1070.0-pr-3108-4cf5-vcst-5378-unified-buyer-flow-4cf5af66",
+  "PlatformImageTag": "3.1070.0",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -12,10 +12,7 @@
       "Modules": [
         {
           "BlobName": "VirtoCommerce.Loyalty_3.1008.0-pr-17-116e.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.UCP_3.1006.0-pr-7-2a6d.zip"
-        }
+        }  
       ]
     },
     {
