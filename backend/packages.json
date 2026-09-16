@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.1070.0",
+  "PlatformVersion": "3.1071.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.1070.0",
+  "PlatformImageTag": "3.1071.0-pr-3108-016f-vcst-5378-unified-buyer-flow-016f4d9c",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -11,8 +11,8 @@
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
         {
-          "BlobName": "VirtoCommerce.Loyalty_3.1008.0-pr-17-116e.zip"
-        }  
+          "BlobName": "VirtoCommerce.UCP_3.1006.0-pr-7-1881.zip"
+        }
       ]
     },
     {
@@ -21,6 +21,10 @@
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
       "Modules": [
+        {
+          "Id": "VirtoCommerce.Loyalty",
+          "Version": "3.1007.0"
+        },        
         {
           "Id": "VirtoCommerce.ElasticSearch",
           "Version": "3.806.0"
@@ -276,10 +280,6 @@
         {
           "Id": "VirtoCommerce.OpenTelemetry",
           "Version": "3.1001.0"
-        },
-        {
-          "Id": "VirtoCommerce.UCP",
-          "Version": "3.1005.0"
         },
         {
           "Id": "VirtoCommerce.Skyflow",
