@@ -56,7 +56,7 @@
       # KEEP THIS IN SYNC WITH theme/artifact.json. Any commit under infra/ re-applies this value,
       # so a stale URL here is a live landmine - it reverted the live theme to Singer on 2026-08-27
       # and would have reverted this one to Bekaert.
-      FE: https://vcptcore-aidemo.govirto.com/cms-content/assets/themes/specsavers-theme-2026-09-16T14-15-10Z.zip
+      FE: https://vcptcore-aidemo.govirto.com/cms-content/assets/assets/themes/specsavers-theme-bekaert-theme-2026-09-03T13-27-46Z.zip
   customApps:
     app1:
       enabled: false

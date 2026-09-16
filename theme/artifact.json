@@ -1,4 +1,4 @@
 {
-  "_comment": "specsavers theme built from dev @ 308ff1d7 (upstream base 379bad59, vc-frontend 2.58.0). Brand gate: passed. Fonts are self-hosted via @font-face under /static/fonts/, deliberately NOT a Google Fonts <link>: this environment serves a different index.html than the artifact carries, so a <link> never reaches the browser. sha256 a05cf653407efb37b9e7e537ef08d0b4867aa30d28a5ca0d4d4b68bff6314f9f.",
-  "URL": "https://vcptcore-aidemo.govirto.com/cms-content/assets/themes/specsavers-theme-2026-09-16T14-15-10Z.zip"
+  "_comment": "ROLLBACK 2026-09-16: the vc-storefront-clone build (specsavers-theme-2026-09-16T14-15-10Z.zip) served but did not run - dynamic chunks 404'd and the SPA never mounted. Back to the last theme verified working on this env.",
+  "URL": "https://vcptcore-aidemo.govirto.com/cms-content/assets/assets/themes/specsavers-theme-bekaert-theme-2026-09-03T13-27-46Z.zip"
 }
