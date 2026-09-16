@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.1069.0",
+  "PlatformVersion": "3.1070.0-pr-3115-8265-vcst-5952-82659efa",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.1069.0-pr-3061-bf85-vcst-4717-bf8592ac",
+  "PlatformImageTag": "3.1070.0-pr-3115-8265-vcst-5952-82659efa",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
   ],
@@ -40,15 +40,6 @@
         },
         {
           "BlobName": "VirtoCommerce.Customer_3.1024.0-pr-315-7c45.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.BackgroundJobs_3.1051.0-pr-4-86f8.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.ApplicationInsights_3.1005.0-pr-17-947a.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.Xapi_3.1020.0-pr-70-d21b.zip"
         }
       ]
     },
@@ -128,6 +119,10 @@
         },
         {
           "Id": "VirtoCommerce.Seo",
+          "Version": "3.1004.0"
+        },
+        {
+          "Id": "VirtoCommerce.ApplicationInsights",
           "Version": "3.1004.0"
         },
         {
@@ -221,6 +216,10 @@
         {
           "Id": "VirtoCommerce.AzureSearch",
           "Version": "3.1005.0"
+        },
+        {
+          "Id": "VirtoCommerce.BackgroundJobs",
+          "Version": "3.1051.0"
         },
         {
           "Id": "VirtoCommerce.ProductSnapshot",
@@ -341,6 +340,10 @@
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "Version": "3.1018.0"
+        },
+        {
+          "Id": "VirtoCommerce.Xapi",
+          "Version": "3.1021.0"
         },
         {
           "Id": "VirtoCommerce.XCatalog",
