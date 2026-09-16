@@ -1,4 +1,4 @@
 {
-  "_comment": "Custom theme baked by vc-deploy-repo: bekaert-theme-2026-09-03T13-27-46Z.zip + default/assets/presets/specsavers-theme.json, self-hosted on the env asset store.",
-  "URL": "https://vcptcore-aidemo.govirto.com/cms-content/assets/assets/themes/specsavers-theme-bekaert-theme-2026-09-03T13-27-46Z.zip"
+  "_comment": "specsavers theme built from dev @ 308ff1d7 (upstream base 379bad59, vc-frontend 2.58.0). Brand gate: passed. Fonts are self-hosted via @font-face under /static/fonts/, deliberately NOT a Google Fonts <link>: this environment serves a different index.html than the artifact carries, so a <link> never reaches the browser. sha256 a05cf653407efb37b9e7e537ef08d0b4867aa30d28a5ca0d4d4b68bff6314f9f.",
+  "URL": "https://vcptcore-aidemo.govirto.com/cms-content/assets/themes/specsavers-theme-2026-09-16T14-15-10Z.zip"
 }
