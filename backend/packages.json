@@ -18,14 +18,10 @@
         {
           "BlobName": "VirtoCommerce.AIDocumentProcessing_3.901.0.zip"
         },
-         {
+        {
           "BlobName": "VirtoCommerce.Core_3.1008.0-pr-257-7785.zip"
         },
-       {
-          "Id": "VirtoCommerce.PageBuilderModule",
-          "BlobName": "VirtoCommerce.PageBuilderModule_3.1025.0-pr-159-7361.zip"
-        },
-       {
+        {
           "Id": "VirtoCommerce.XCMS",
           "BlobName": "VirtoCommerce.XCMS_3.1005.0-pr-23-7193.zip"
         },
@@ -40,6 +36,10 @@
         },
         {
           "BlobName": "VirtoCommerce.Xapi_3.1022.0-pr-70-d436.zip"
+        },
+        {
+          "Id": "VirtoCommerce.PageBuilderModule",
+          "BlobName": "VirtoCommerce.PageBuilderModule_3.1025.0.zip"
         }
       ]
     },
