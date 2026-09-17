@@ -151,7 +151,7 @@
       UCP__StorefrontOrigin: "https://virtostart-demo-store.govirto.com"
       UCP__UcpBaseUrl: "https://virtostart-demo-store.govirto.com/ucp/v1"
       UCP__HandoffUrlTemplate: "https://virtostart-demo-store.govirto.com/checkout?ucp_session={token}"
-      UCP__HandoffTokenTtlMinutes: 15
+      UCP__HandoffTokenTtlMinutes: 120
 
       Reload: 2026-07-02
     secretConfig:
