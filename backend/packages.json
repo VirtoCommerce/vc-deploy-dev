@@ -26,8 +26,12 @@
           "BlobName": "VirtoCommerce.Contentful_3.1002.0-alpha.130.zip"
         },
         {
+          "Id": "VirtoCommerce.Punchout",
+          "BlobName": "VirtoCommerce.Punchout_3.1000.0-pr-1-6a3f.zip"
+        },
+        {
           "Id": "VirtoCommerce.Loyalty",
-          "BlobName": "VirtoCommerce.Loyalty_3.1007.0-pr-17-df7a.zip"
+          "BlobName": "VirtoCommerce.Loyalty_3.1008.0.zip"
         },
         {
           "Id": "VirtoCommerce.ElasticSearch",
