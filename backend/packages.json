@@ -10,7 +10,20 @@
       "ModuleSources": [
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
-      "Modules": []
+      "Modules": [
+        {
+          "Id": "VirtoCommerce.Customer",
+          "BlobName": "3.1025.0"
+        },
+        {
+          "Id": "VirtoCommerce.Core",
+          "BlobName": "3.1008.0"
+        },
+        {
+          "Id": "VirtoCommerce.Loyalty",
+          "Version": "3.1008.0"
+        }
+      ]
     },
     {
       "Name": "AzureBlob",
@@ -28,10 +41,6 @@
         {
           "Id": "VirtoCommerce.Punchout",
           "BlobName": "VirtoCommerce.Punchout_3.1000.0-pr-1-6a3f.zip"
-        },
-        {
-          "Id": "VirtoCommerce.Loyalty",
-          "BlobName": "VirtoCommerce.Loyalty_3.1008.0.zip"
         },
         {
           "Id": "VirtoCommerce.ElasticSearch",
@@ -76,10 +85,6 @@
         {
           "Id": "VirtoCommerce.SqlQueries",
           "BlobName": "VirtoCommerce.SqlQueries_3.1006.0-alpha.52.zip"
-        },
-        {
-          "Id": "VirtoCommerce.Core",
-          "BlobName": "VirtoCommerce.Core_3.1008.0-pr-257-7785.zip"
         },
         {
           "Id": "VirtoCommerce.AzureAD",
@@ -372,10 +377,6 @@
         {
           "Id": "VirtoCommerce.PageBuilderModule",
           "BlobName": "VirtoCommerce.PageBuilderModule_3.1026.0-alpha.860.zip"
-        },
-        {
-          "Id": "VirtoCommerce.Customer",
-          "BlobName": "VirtoCommerce.Customer_3.1024.0-pr-315-7c45.zip"
         }
       ]
     }
