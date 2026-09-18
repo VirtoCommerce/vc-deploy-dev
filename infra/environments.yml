@@ -103,7 +103,7 @@
       FileUpload__Scopes__4__AllowedExtensions__9: .odt
       FileUpload__Scopes__4__AllowAnonymousUpload: false
       FileUpload__Scopes__5__Scope: sales-rep-documents
-      FileUpload__Scopes__5__MaxFileSize: 52428800          # bytes; must exceed the largest document
+      FileUpload__Scopes__5__MaxFileSize: 52428800
       FileUpload__Scopes__5__AllowAnonymousUpload: false
       FileUpload__Scopes__5__AllowedExtensions__0: .pdf
       FileUpload__Scopes__5__AllowedExtensions__1: .doc
