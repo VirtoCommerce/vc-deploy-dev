@@ -2,7 +2,7 @@
   "ManifestVersion": "2.0",
   "PlatformVersion": "3.1071.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.1071.0-pr-3061-0597-vcst-4717-0597f1e8",
+  "PlatformImageTag": "3.1071.0",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
   ],
@@ -18,14 +18,14 @@
         {
           "BlobName": "VirtoCommerce.AIDocumentProcessing_3.901.0.zip"
         },
-         {
+        {
           "BlobName": "VirtoCommerce.Core_3.1008.0-pr-257-7785.zip"
         },
-       {
+        {
           "Id": "VirtoCommerce.PageBuilderModule",
           "BlobName": "VirtoCommerce.PageBuilderModule_3.1025.0-pr-159-7361.zip"
         },
-       {
+        {
           "Id": "VirtoCommerce.XCMS",
           "BlobName": "VirtoCommerce.XCMS_3.1005.0-pr-23-7193.zip"
         },
