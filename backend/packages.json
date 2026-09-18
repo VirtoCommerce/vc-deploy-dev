@@ -13,11 +13,11 @@
       "Modules": [
         {
           "Id": "VirtoCommerce.Customer",
-          "BlobName": "3.1025.0"
-        },
+          "Version": "3.1025.0"
+        }
         {
           "Id": "VirtoCommerce.Core",
-          "BlobName": "3.1008.0"
+          "Version": "3.1008.0"
         },
         {
           "Id": "VirtoCommerce.Loyalty",
