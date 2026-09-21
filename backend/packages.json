@@ -14,10 +14,6 @@
         {
           "Id": "VirtoCommerce.Customer",
           "Version": "3.1025.0"
-        },
-        {
-          "Id": "VirtoCommerce.Core",
-          "Version": "3.1008.0"
         }
       ]
     },
@@ -377,6 +373,10 @@
         {
           "Id": "VirtoCommerce.Assets",
           "BlobName": "VirtoCommerce.Assets_3.1007.0-alpha.206.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Core",
+          "BlobName": "VirtoCommerce.Core_3.1009.0-alpha.1717.zip"
         }
       ]
     }
