@@ -327,10 +327,6 @@
           "BlobName": "VirtoCommerce.OpenSearch_3.1002.0-alpha.38.zip"
         },
         {
-          "Id": "VirtoCommerce.Xapi",
-          "BlobName": "VirtoCommerce.Xapi_3.1021.0-alpha.200.zip"
-        },
-        {
           "Id": "VirtoCommerce.BackgroundJobs",
           "BlobName": "VirtoCommerce.BackgroundJobs_3.1051.0-alpha.10.zip"
         },
@@ -377,6 +373,10 @@
         {
           "Id": "VirtoCommerce.PageBuilderModule",
           "BlobName": "VirtoCommerce.PageBuilderModule_3.1026.0-alpha.860.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Xapi",
+          "BlobName": "VirtoCommerce.Xapi_3.1022.0-alpha.203.zip"
         }
       ]
     }
