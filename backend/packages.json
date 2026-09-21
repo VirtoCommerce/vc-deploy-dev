@@ -324,10 +324,6 @@
           "Version": "3.1004.0"
         },
         {
-          "Id": "VirtoCommerce.PageBuilderModule",
-          "Version": "3.1025.0"
-        },
-        {
           "Id": "VirtoCommerce.Core",
           "Version": "3.1008.0"
         },
@@ -354,6 +350,10 @@
         {
           "Id": "VirtoCommerce.XPickup",
           "Version": "3.1006.0"
+        },
+        {
+          "Id": "VirtoCommerce.PageBuilderModule",
+          "Version": "3.1026.0"
         }
       ]
     },
