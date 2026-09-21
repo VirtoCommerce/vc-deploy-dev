@@ -280,10 +280,6 @@
           "Version": "3.1005.0"
         },
         {
-          "Id": "VirtoCommerce.XOrder",
-          "Version": "3.1011.0"
-        },
-        {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
           "Version": "3.1005.0"
         },
@@ -354,6 +350,10 @@
         {
           "Id": "VirtoCommerce.XCart",
           "Version": "3.1034.0"
+        },
+        {
+          "Id": "VirtoCommerce.XOrder",
+          "Version": "3.1012.0"
         }
       ]
     },
