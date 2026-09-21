@@ -127,10 +127,6 @@
           "BlobName": "VirtoCommerce.GoogleEcommerceAnalytics_4.1004.0-alpha.254-vcst-5337-ga-event-search.zip"
         },
         {
-          "Id": "VirtoCommerce.Content",
-          "BlobName": "VirtoCommerce.Content_3.1004.0-alpha.1056.zip"
-        },
-        {
           "Id": "VirtoCommerce.CatalogPublishing",
           "BlobName": "VirtoCommerce.CatalogPublishing_3.1006.0-alpha.404.zip"
         },
@@ -377,6 +373,10 @@
         {
           "Id": "VirtoCommerce.AzureBlobAssets",
           "BlobName": "VirtoCommerce.AzureBlobAssets_3.1007.0-alpha.188.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Content",
+          "BlobName": "VirtoCommerce.Content_3.1004.0-alpha.1062.zip"
         }
       ]
     }
