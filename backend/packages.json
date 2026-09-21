@@ -40,6 +40,18 @@
         },
         {
           "BlobName": "VirtoCommerce.ApplicationInsights_3.1005.0-alpha.85-vcst-4717.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Assets_3.1007.0-pr-38-86ca.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.FileSystemAssets_3.1004.0-pr-17-b770.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Content_3.1004.0-pr-219-018c.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.AzureBlobAssets_3.1007.0-pr-38-7ddb.zip"
         }
       ]
     },
@@ -142,14 +154,6 @@
           "Version": "3.1003.0"
         },
         {
-          "Id": "VirtoCommerce.AzureBlobAssets",
-          "Version": "3.1006.0"
-        },
-        {
-          "Id": "VirtoCommerce.FileSystemAssets",
-          "Version": "3.1003.0"
-        },
-        {
           "Id": "VirtoCommerce.BulkActionsModule",
           "Version": "3.1002.0"
         },
@@ -164,10 +168,6 @@
         {
           "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
           "Version": "4.1002.0"
-        },
-        {
-          "Id": "VirtoCommerce.Content",
-          "Version": "3.1003.0"
         },
         {
           "Id": "VirtoCommerce.CatalogPublishing",
@@ -204,10 +204,6 @@
         {
           "Id": "VirtoCommerce.EventBus",
           "Version": "3.1010.0"
-        },
-        {
-          "Id": "VirtoCommerce.Assets",
-          "Version": "3.1006.0"
         },
         {
           "Id": "VirtoCommerce.Search",
