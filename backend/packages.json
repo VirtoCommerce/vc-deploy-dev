@@ -179,10 +179,6 @@
           "BlobName": "VirtoCommerce.EventBus_3.1010.0-alpha.203.zip"
         },
         {
-          "Id": "VirtoCommerce.Assets",
-          "BlobName": "VirtoCommerce.Assets_3.1006.0-alpha.202.zip"
-        },
-        {
           "Id": "VirtoCommerce.AzureSearch",
           "BlobName": "VirtoCommerce.AzureSearch_3.1007.0-alpha.297.zip"
         },
@@ -377,6 +373,10 @@
         {
           "Id": "VirtoCommerce.Payment",
           "BlobName": "VirtoCommerce.Payment_3.1007.0-alpha.297.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Assets",
+          "BlobName": "VirtoCommerce.Assets_3.1007.0-alpha.206.zip"
         }
       ]
     }
