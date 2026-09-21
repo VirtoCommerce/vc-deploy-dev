@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.1071.0",
+  "PlatformVersion": "3.1072.0-pr-3108-b6ef-vcst-5378-unified-buyer-flow-b6ef79b0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.1071.0-pr-3108-016f-vcst-5378-unified-buyer-flow-016f4d9c",
+  "PlatformImageTag": "3.1072.0-pr-3108-b6ef-vcst-5378-unified-buyer-flow-b6ef79b0",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -11,7 +11,7 @@
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
         {
-          "BlobName": "VirtoCommerce.UCP_3.1006.0-pr-7-7f42.zip"
+          "BlobName": "VirtoCommerce.UCP_3.1006.0-pr-7-9bc9.zip"
         }
       ]
     },
