@@ -315,10 +315,6 @@
           "BlobName": "VirtoCommerce.XOrder_3.1011.0-alpha.130.zip"
         },
         {
-          "Id": "VirtoCommerce.XCart",
-          "BlobName": "VirtoCommerce.XCart_3.1036.0-alpha.287-vcst-5850-5728-multi-sharing-key-message.zip"
-        },
-        {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
           "BlobName": "VirtoCommerce.CatalogCsvImportModule_3.1005.0-alpha.395.zip"
         },
@@ -377,6 +373,10 @@
         {
           "Id": "VirtoCommerce.Xapi",
           "BlobName": "VirtoCommerce.Xapi_3.1022.0-alpha.203.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XCart",
+          "BlobName": "VirtoCommerce.XCart_3.1034.0-alpha.277.zip"
         }
       ]
     }
