@@ -303,10 +303,6 @@
           "BlobName": "VirtoCommerce.BackupRestore_3.1005.0-alpha.17.zip"
         },
         {
-          "Id": "VirtoCommerce.XPickup",
-          "BlobName": "VirtoCommerce.XPickup_3.1005.0-alpha.53.zip"
-        },
-        {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
           "BlobName": "VirtoCommerce.CatalogCsvImportModule_3.1005.0-alpha.395.zip"
         },
@@ -377,6 +373,10 @@
         {
           "Id": "VirtoCommerce.XCatalog",
           "BlobName": "VirtoCommerce.XCatalog_3.1020.0-alpha.226.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XPickup",
+          "BlobName": "VirtoCommerce.XPickup_3.1006.0-alpha.56.zip"
         }
       ]
     }
