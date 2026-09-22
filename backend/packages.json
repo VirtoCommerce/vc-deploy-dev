@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.1064.0",
+  "PlatformVersion": "3.1071.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.1064.0",
+  "PlatformImageTag": "3.1071.0",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -47,7 +47,7 @@
         },
         {
           "Id": "VirtoCommerce.ElasticAppSearch",
-          "Version": "3.1002.0"
+          "Version": "3.1003.0"
         },
         {
           "Id": "VirtoCommerce.BuilderIO",
@@ -87,7 +87,7 @@
         },
         {
           "Id": "VirtoCommerce.Core",
-          "Version": "3.1007.0"
+          "Version": "3.1008.0"
         },
         {
           "Id": "VirtoCommerce.AzureAD",
@@ -131,7 +131,7 @@
         },
         {
           "Id": "VirtoCommerce.ImageTools",
-          "Version": "3.1003.0"
+          "Version": "3.1004.0"
         },
         {
           "Id": "VirtoCommerce.LuceneSearch",
@@ -151,7 +151,7 @@
         },
         {
           "Id": "VirtoCommerce.CatalogPersonalization",
-          "Version": "3.1003.0"
+          "Version": "3.1004.0"
         },
         {
           "Id": "VirtoCommerce.Pages",
@@ -219,7 +219,7 @@
         },
         {
           "Id": "VirtoCommerce.Search",
-          "Version": "3.1006.0"
+          "Version": "3.1008.0"
         },
         {
           "Id": "VirtoCommerce.Store",
@@ -239,15 +239,15 @@
         },
         {
           "Id": "VirtoCommerce.Xapi",
-          "Version": "3.1020.0"
+          "Version": "3.1021.0"
         },
         {
           "Id": "VirtoCommerce.Orders",
-          "Version": "3.1014.0"
+          "Version": "3.1015.0"
         },
         {
           "Id": "VirtoCommerce.Catalog",
-          "Version": "3.1042.0"
+          "Version": "3.1044.0"
         },
         {
           "Id": "VirtoCommerce.Shipping",
@@ -259,7 +259,7 @@
         },
         {
           "Id": "VirtoCommerce.Customer",
-          "Version": "3.1023.0"
+          "Version": "3.1025.0"
         },
         {
           "Id": "VirtoCommerce.AzureSearch",
@@ -267,11 +267,11 @@
         },
         {
           "Id": "VirtoCommerce.BackgroundJobs",
-          "Version": "3.1050.0"
+          "Version": "3.1051.0"
         },
         {
           "Id": "VirtoCommerce.Notifications",
-          "Version": "3.1013.0"
+          "Version": "3.1014.0"
         },
         {
           "Id": "VirtoCommerce.ProductSnapshot",
@@ -327,7 +327,7 @@
         },
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.1017.0"
+          "Version": "3.1018.0"
         },
         {
           "Id": "VirtoCommerce.WhiteLabeling",
@@ -355,7 +355,7 @@
         },
         {
           "Id": "VirtoCommerce.PageBuilderModule",
-          "Version": "3.1024.0"
+          "Version": "3.1025.0"
         }
       ]
     }
