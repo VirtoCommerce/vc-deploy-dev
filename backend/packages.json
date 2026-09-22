@@ -276,10 +276,6 @@
           "Version": "3.1014.0"
         },
         {
-          "Id": "VirtoCommerce.Orders",
-          "Version": "3.1015.0"
-        },
-        {
           "Id": "VirtoCommerce.ElasticAppSearch",
           "Version": "3.1003.0"
         },
@@ -354,6 +350,10 @@
         {
           "Id": "VirtoCommerce.Xapi",
           "Version": "3.1023.0"
+        },
+        {
+          "Id": "VirtoCommerce.Orders",
+          "Version": "3.1016.0"
         }
       ]
     },
