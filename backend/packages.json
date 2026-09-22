@@ -292,10 +292,6 @@
           "Version": "3.1004.0"
         },
         {
-          "Id": "VirtoCommerce.Customer",
-          "Version": "3.1025.0"
-        },
-        {
           "Id": "VirtoCommerce.Xapi",
           "Version": "3.1022.0"
         },
@@ -354,6 +350,10 @@
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "Version": "3.1019.0"
+        },
+        {
+          "Id": "VirtoCommerce.Customer",
+          "Version": "3.1026.0"
         }
       ]
     },
