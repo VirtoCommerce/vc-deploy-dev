@@ -70,8 +70,16 @@
       FileUpload__Scopes__5__AllowedExtensions__12: .jpeg
       FileUpload__Scopes__5__AllowedExtensions__13: .gif
       FileUpload__Scopes__5__AllowedExtensions__14: .webp
+      FileUpload__Scopes__6__Scope: return-attachments
+      FileUpload__Scopes__6__MaxFileSize: 5242880
+      FileUpload__Scopes__6__AllowAnonymousUpload: false
+      FileUpload__Scopes__6__AllowedExtensions__0: .jpg
+      FileUpload__Scopes__6__AllowedExtensions__1: .jpeg
+      FileUpload__Scopes__6__AllowedExtensions__2: .png
+      FileUpload__Scopes__6__AllowedExtensions__3: .webp
+      FileUpload__Scopes__6__AllowedExtensions__4: .pdf
       DOTNET_USE_POLLING_FILE_WATCHER: true
-      Reload: 29
+      Reload: 30
       #ConnectionStrings__AzureAppConfigurationConnectionString: "Endpoint=https://qa-vc-app-config.azconfig.io;Id=BvwK;Secret=nbF7kOXCU14+qCF5OtP4LR63zfbSyDx6th46bIWkUHQ="
 
      # Serilog__Using__0: Serilog.Sinks.Console
