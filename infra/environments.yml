@@ -254,7 +254,7 @@
       name: mcp-onx
       enabled: true
       imageRepository: ghcr.io/virtocommerce/vc-mcp-onx
-      imageTag: 1.0.0-alpha.19
+      imageTag: 1.0.0-alpha.23
       servicePlan: B1
       type: standalone
       probePath: /health
@@ -263,8 +263,11 @@
         ADAPTER_API_URL: https://vcst-qa.govirto.com
         ADAPTER_WORKSPACE: B2B-store
         ADAPTER_DEBUG_MODE: true
-      secretConfig:
-        ADAPTER_API_KEY: mcp-adapter-vc-api-key-new
+        # Callers authenticate with their own platform account, so there is no
+        # service credential here: the token they present is forwarded to the
+        # platform and their own permissions apply.
+        AUTH_ISSUER: https://vcst-qa.govirto.com
+        MCP_PUBLIC_URL: https://vcst-qa-mcp-onx.govirto.com
   frontend:
   - name: B2B-store
     prerender: true
