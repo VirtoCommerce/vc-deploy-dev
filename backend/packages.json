@@ -26,9 +26,6 @@
           "BlobName": "VirtoCommerce.BackgroundJobs_3.1052.0-pr-4-10ac.zip"
         },
         {
-          "BlobName": "VirtoCommerce.ApplicationInsights_3.1005.0-alpha.85-vcst-4717.zip"
-        },
-        {
           "BlobName": "VirtoCommerce.FileSystemAssets_3.1004.0-pr-17-b770.zip"
         },
         {
@@ -368,6 +365,10 @@
         {
           "Id": "VirtoCommerce.XCMS",
           "Version": "3.1006.0"
+        },
+        {
+          "Id": "VirtoCommerce.ApplicationInsights",
+          "Version": "3.1004.0"
         }
       ]
     }
