@@ -23,7 +23,7 @@
       Authorization__OAuthLoginPath: /oauth/authorize
       Authorization__OAuthLoginPaths__vcst-qa.govirto.com: ""
       Authorization__Resources__0: https://vcst-qa-storefront.govirto.com/ucp/mcp
-      Authorization__Resources__1: https://vcst-qa-mcp-onx.govirto.com/mcp
+      Authorization__Resources__1: https://vcst-qa.govirto.com/mcp
       AzureAd__Enabled: true
       AzureAd__ApplicationId: 86d04c35-143d-4d3c-aea2-8608e2186282
       AzureAd__TenantId: bc03e660-5e3a-45c4-bf5c-b75489f78923
