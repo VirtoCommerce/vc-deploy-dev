@@ -21,7 +21,7 @@
       # Enable Azure Active Directory login in platform UI
       Authorization__AllowApiAccessForCustomers: true
       Authorization__OAuthLoginPath: /oauth/authorize
-      Authorization__OAuthLoginPaths__vcst-qa.govirto.com: ""
+      Authorization__BuiltInLoginHosts__0: vcst-qa.govirto.com
       Authorization__Resources__0: https://vcst-qa-storefront.govirto.com/ucp/mcp
       Authorization__Resources__1: https://vcst-qa.govirto.com/mcp
       AzureAd__Enabled: true
