@@ -252,10 +252,6 @@
           "Version": "3.1004.0"
         },
         {
-          "Id": "VirtoCommerce.SalesRep",
-          "Version": "3.1008.0"
-        },
-        {
           "Id": "VirtoCommerce.Search",
           "Version": "3.1008.0"
         },
@@ -354,6 +350,10 @@
         {
           "Id": "VirtoCommerce.XOrder",
           "Version": "3.1013.0"
+        },
+        {
+          "Id": "VirtoCommerce.SalesRep",
+          "Version": "3.1009.0"
         }
       ]
     },
