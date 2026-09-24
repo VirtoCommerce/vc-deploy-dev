@@ -32,6 +32,10 @@
           "BlobName": "VirtoCommerce.Content_3.1004.0-pr-219-018c.zip"
         },
         {
+          "Id": "VirtoCommerce.XCart",
+          "BlobName": "VirtoCommerce.XCart_3.1037.0-pr-144-a0ce.zip"
+        },
+        {
           "BlobName": "VirtoCommerce.AzureBlobAssets_3.1007.0-pr-38-7ddb.zip"
         }
       ]
@@ -329,10 +333,6 @@
         {
           "Id": "VirtoCommerce.XOrder",
           "Version": "3.1012.0"
-        },
-        {
-          "Id": "VirtoCommerce.XCart",
-          "Version": "3.1036.0"
         },
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
