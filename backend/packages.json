@@ -36,6 +36,10 @@
           "BlobName": "VirtoCommerce.XCart_3.1037.0-pr-144-a0ce.zip"
         },
         {
+          "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
+          "BlobName": "VirtoCommerce.GoogleEcommerceAnalytics_4.1004.0-pr-61-bd93.zip"
+        },
+        {
           "BlobName": "VirtoCommerce.AzureBlobAssets_3.1007.0-pr-38-7ddb.zip"
         }
       ]
@@ -149,10 +153,6 @@
         {
           "Id": "VirtoCommerce.LuceneSearch",
           "Version": "3.1004.0"
-        },
-        {
-          "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
-          "Version": "4.1002.0"
         },
         {
           "Id": "VirtoCommerce.CatalogPublishing",
