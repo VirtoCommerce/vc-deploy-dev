@@ -12,6 +12,9 @@
       "Modules": [
         {
           "BlobName": "VirtoCommerce.UCP_3.1006.0-pr-7-612c.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.SalesRep_3.1010.0-pr-22-2848.zip"
         }
       ]
     },
@@ -360,10 +363,6 @@
         {
           "Id": "VirtoCommerce.XOrder",
           "Version": "3.1013.0"
-        },
-        {
-          "Id": "VirtoCommerce.SalesRep",
-          "Version": "3.1009.0"
         }
       ]
     }
