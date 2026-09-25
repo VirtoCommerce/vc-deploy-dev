@@ -130,10 +130,6 @@
           "BlobName": "VirtoCommerce.AvalaraTax_3.1004.0-alpha.357.zip"
         },
         {
-          "Id": "VirtoCommerce.Return",
-          "BlobName": "VirtoCommerce.Return_3.1002.0-alpha.149.zip"
-        },
-        {
           "Id": "VirtoCommerce.GDPR",
           "BlobName": "VirtoCommerce.GDPR_3.1002.0-alpha.170.zip"
         },
@@ -376,6 +372,10 @@
         {
           "Id": "VirtoCommerce.OpenSearch",
           "BlobName": "VirtoCommerce.OpenSearch_3.1003.0-alpha.41.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Return",
+          "BlobName": "VirtoCommerce.Return_3.1002.0-alpha.155.zip"
         }
       ]
     }
