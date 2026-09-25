@@ -18,7 +18,10 @@
         },
         {
           "BlobName": "VirtoCommerce.Loyalty_3.1009.0-pr-18-4411.zip"
-        }   
+        },
+        {
+          "BlobName": "VirtoCommerce.XCatalog_3.1022.0-pr-113-f4a8.zip"
+        }
       ]
     },
     {
@@ -342,10 +345,6 @@
         {
           "Id": "VirtoCommerce.Orders",
           "Version": "3.1016.0"
-        },
-        {
-          "Id": "VirtoCommerce.XCatalog",
-          "Version": "3.1021.0"
         },
         {
           "Id": "VirtoCommerce.Quote",
