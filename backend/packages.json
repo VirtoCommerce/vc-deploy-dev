@@ -38,6 +38,10 @@
         {
           "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
           "BlobName": "VirtoCommerce.GoogleEcommerceAnalytics_4.1004.0-pr-61-bd93.zip"
+        },       
+        {
+          "Id": "VirtoCommerce.FileExperienceApi",
+          "BlobName": "VirtoCommerce.FileExperienceApi_3.1005.0-pr-22-2c0a.zip"
         },
         {
           "BlobName": "VirtoCommerce.AzureBlobAssets_3.1007.0-pr-38-7ddb.zip"
@@ -221,10 +225,6 @@
         {
           "Id": "VirtoCommerce.Quote",
           "Version": "3.1003.0"
-        },
-        {
-          "Id": "VirtoCommerce.FileExperienceApi",
-          "Version": "3.1004.0"
         },
         {
           "Id": "VirtoCommerce.XRecommend",
