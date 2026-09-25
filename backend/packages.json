@@ -18,7 +18,13 @@
         },
         {
           "BlobName": "VirtoCommerce.Loyalty_3.1009.0-pr-18-4411.zip"
-        }   
+        },
+        {
+          "BlobName": "VirtoCommerce.XCatalog_3.1022.0-pr-113-f4a8.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Catalog_3.1046.0-pr-909-2839.zip"
+        }
       ]
     },
     {
@@ -320,10 +326,6 @@
           "Version": "3.1009.0"
         },
         {
-          "Id": "VirtoCommerce.Catalog",
-          "Version": "3.1045.0"
-        },
-        {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "Version": "3.1019.0"
         },
@@ -342,10 +344,6 @@
         {
           "Id": "VirtoCommerce.Orders",
           "Version": "3.1016.0"
-        },
-        {
-          "Id": "VirtoCommerce.XCatalog",
-          "Version": "3.1021.0"
         },
         {
           "Id": "VirtoCommerce.Quote",
