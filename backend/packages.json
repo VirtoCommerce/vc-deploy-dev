@@ -344,16 +344,16 @@
           "Version": "3.1010.0"
         },
         {
-          "Id": "VirtoCommerce.PageBuilderModule",
-          "Version": "3.1027.0"
-        },
-        {
           "Id": "VirtoCommerce.OpenSearch",
           "Version": "3.1003.0"
         },
         {
           "Id": "VirtoCommerce.Return",
           "Version": "3.1002.0"
+        },
+        {
+          "Id": "VirtoCommerce.PageBuilderModule",
+          "Version": "3.1028.0"
         }
       ]
     },
