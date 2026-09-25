@@ -366,16 +366,16 @@
           "BlobName": "VirtoCommerce.SalesRep_3.1010.0-alpha.32.zip"
         },
         {
-          "Id": "VirtoCommerce.PageBuilderModule",
-          "BlobName": "VirtoCommerce.PageBuilderModule_3.1028.0-alpha.864.zip"
-        },
-        {
           "Id": "VirtoCommerce.OpenSearch",
           "BlobName": "VirtoCommerce.OpenSearch_3.1003.0-alpha.41.zip"
         },
         {
           "Id": "VirtoCommerce.Return",
           "BlobName": "VirtoCommerce.Return_3.1003.0-alpha.156.zip"
+        },
+        {
+          "Id": "VirtoCommerce.PageBuilderModule",
+          "BlobName": "VirtoCommerce.PageBuilderModule_3.1028.0-alpha.865.zip"
         }
       ]
     }
