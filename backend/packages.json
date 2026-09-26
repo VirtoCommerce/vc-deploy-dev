@@ -19,10 +19,6 @@
           "BlobName": "VirtoCommerce.AIDocumentProcessing_3.901.0.zip"
         },
         {
-          "Id": "VirtoCommerce.SalesRep",
-          "BlobName": "VirtoCommerce.SalesRep_3.1010.0-pr-15-3a28.zip"
-        },
-        {
           "BlobName": "VirtoCommerce.BackgroundJobs_3.1052.0-pr-4-10ac.zip"
         },
         {
@@ -38,13 +34,17 @@
         {
           "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
           "BlobName": "VirtoCommerce.GoogleEcommerceAnalytics_4.1004.0-pr-61-bd93.zip"
-        },       
+        },
         {
           "Id": "VirtoCommerce.FileExperienceApi",
           "BlobName": "VirtoCommerce.FileExperienceApi_3.1005.0-pr-22-2c0a.zip"
         },
         {
           "BlobName": "VirtoCommerce.AzureBlobAssets_3.1007.0-pr-38-7ddb.zip"
+        },
+        {
+          "Id": "VirtoCommerce.SalesRep",
+          "BlobName": "VirtoCommerce.SalesRep_3.1010.0.zip"
         }
       ]
     },
