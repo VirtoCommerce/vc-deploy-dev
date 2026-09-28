@@ -27,6 +27,9 @@
         {
           "Id": "VirtoCommerce.Core",
           "BlobName": "VirtoCommerce.Core_3.1011.0-pr-264-ab8e.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Return_3.1003.0-pr-27-51fc.zip"
         }
       ]
     },
@@ -39,10 +42,6 @@
         {
           "Id": "VirtoCommerce.PageBuilderModule",
           "Version": "3.1028.0"
-        },
-        {
-          "Id": "VirtoCommerce.Return",
-          "Version": "3.1002.0"
         },
         {
           "Id": "VirtoCommerce.SalesRep",
