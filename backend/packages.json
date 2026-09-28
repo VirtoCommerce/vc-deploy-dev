@@ -32,10 +32,14 @@
         {
           "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
           "BlobName": "VirtoCommerce.GoogleEcommerceAnalytics_4.1004.0-pr-61-bd93.zip"
-        },       
+        },
         {
           "Id": "VirtoCommerce.FileExperienceApi",
           "BlobName": "VirtoCommerce.FileExperienceApi_3.1005.0-pr-22-2c0a.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ElasticSearch8",
+          "BlobName": "VirtoCommerce.ElasticSearch8_3.1008.0.zip"
         }
       ]
     },
@@ -140,10 +144,6 @@
         {
           "Id": "VirtoCommerce.WebHooks",
           "Version": "3.1004.0"
-        },
-        {
-          "Id": "VirtoCommerce.ElasticSearch8",
-          "Version": "3.1007.0"
         },
         {
           "Id": "VirtoCommerce.Export",
