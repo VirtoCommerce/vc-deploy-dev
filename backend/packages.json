@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.1072.0",
+  "PlatformVersion": "3.1073.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.1072.0",
+  "PlatformImageTag": "3.1073.0",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
   ],
@@ -32,7 +32,7 @@
         {
           "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
           "BlobName": "VirtoCommerce.GoogleEcommerceAnalytics_4.1004.0-pr-61-bd93.zip"
-        },       
+        },
         {
           "Id": "VirtoCommerce.FileExperienceApi",
           "BlobName": "VirtoCommerce.FileExperienceApi_3.1005.0-pr-22-2c0a.zip"
