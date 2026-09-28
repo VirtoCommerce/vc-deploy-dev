@@ -22,7 +22,11 @@
         },
         {
           "Id": "VirtoCommerce.PushMessages",
-          "BlobName": "VirtoCommerce.PushMessages_3.1006.0-pr-28-b510.zip"
+          "BlobName": "VirtoCommerce.PushMessages_3.1006.0-pr-28-2027.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Core",
+          "BlobName": "VirtoCommerce.Core_3.1011.0-pr-264-ab8e.zip"
         }
       ]
     },
@@ -143,10 +147,6 @@
         {
           "Id": "VirtoCommerce.ProductSnapshot",
           "Version": "3.1003.0"
-        },
-        {
-          "Id": "VirtoCommerce.Core",
-          "Version": "3.1009.0"
         },
         {
           "Id": "VirtoCommerce.AzureAD",
