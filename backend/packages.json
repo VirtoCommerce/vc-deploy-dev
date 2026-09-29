@@ -332,10 +332,6 @@
           "Version": "3.1029.0"
         },
         {
-          "Id": "VirtoCommerce.ElasticSearch8",
-          "Version": "3.1008.0"
-        },
-        {
           "Id": "VirtoCommerce.SalesRep",
           "Version": "3.1011.0"
         },
@@ -354,6 +350,10 @@
         {
           "Id": "VirtoCommerce.XCart",
           "Version": "3.1037.0"
+        },
+        {
+          "Id": "VirtoCommerce.ElasticSearch8",
+          "Version": "3.1009.0"
         }
       ]
     },
