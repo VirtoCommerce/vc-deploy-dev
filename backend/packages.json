@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.1072.0",
+  "PlatformVersion": "3.1074.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.1072.0",
+  "PlatformImageTag": "3.1074.0-pr-3114-5829-vcst-5748-5829199d",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
   ],
@@ -30,6 +30,9 @@
         },
         {
           "BlobName": "VirtoCommerce.Return_3.1003.0-pr-27-51fc.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.OTP_3.1000.0-pr-1-3e73.zip"
         }
       ]
     },
