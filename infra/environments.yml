@@ -5,7 +5,7 @@
   platform:
     dbProvider: AzureSQL Database
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.1058.0-fa5946a
+    imageTag: 3.1058.0-b102350
     sqlReplica: false
     redis:
       service: redis-uat-vc03-redis-cluster.redis-cluster:6379
@@ -31,7 +31,7 @@
     config:
       APPINSIGHTS_INSTRUMENTATIONKEY: adc98546-3f8a-4462-a0b2-7c822b5565ba
     themes:
-      FE: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-2.56.0-pr-2410-5212-5212ba6c.zip
+      FE: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-2.59.0-pr-2494-935a-935ac19b.zip
   customApps:
     app1:
       enabled: false
