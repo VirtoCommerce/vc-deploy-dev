@@ -32,10 +32,14 @@
         {
           "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
           "BlobName": "VirtoCommerce.GoogleEcommerceAnalytics_4.1004.0-pr-61-bd93.zip"
-        },       
+        },
         {
           "Id": "VirtoCommerce.FileExperienceApi",
           "BlobName": "VirtoCommerce.FileExperienceApi_3.1005.0-pr-22-2c0a.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Core",
+          "BlobName": "VirtoCommerce.Core_3.1011.0.zip"
         }
       ]
     },
@@ -344,10 +348,6 @@
         {
           "Id": "VirtoCommerce.OpenSearch",
           "Version": "3.1003.0"
-        },
-        {
-          "Id": "VirtoCommerce.Core",
-          "Version": "3.1009.0"
         },
         {
           "Id": "VirtoCommerce.Customer",
