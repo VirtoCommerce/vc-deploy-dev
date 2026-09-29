@@ -18,6 +18,9 @@
         },
         {
           "BlobName": "VirtoCommerce.Catalog_3.1046.0-pr-909-2839.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.UCP_3.1007.0-pr-9-91ca.zip"
         }
       ]
     },
@@ -342,10 +345,6 @@
         {
           "Id": "VirtoCommerce.XOrder",
           "Version": "3.1013.0"
-        },
-        {
-          "Id": "VirtoCommerce.UCP",
-          "Version": "3.1006.0"
         },
         {
           "Id": "VirtoCommerce.SalesRep",
