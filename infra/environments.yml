@@ -20,6 +20,10 @@
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: true      
       # Enable Azure Active Directory login in platform UI
       Authorization__AllowApiAccessForCustomers: true
+      Authorization__OAuthLoginPath: /oauth/authorize
+      Authorization__BuiltInLoginHosts__0: vcst-qa.govirto.com
+      Authorization__Resources__0: https://vcst-qa-storefront.govirto.com/ucp/mcp
+      Authorization__Resources__1: https://vcst-qa-mcp-onx.govirto.com/mcp
       AzureAd__Enabled: true
       AzureAd__ApplicationId: 86d04c35-143d-4d3c-aea2-8608e2186282
       AzureAd__TenantId: bc03e660-5e3a-45c4-bf5c-b75489f78923
@@ -238,7 +242,7 @@
       X-Response-Time: \$\request_time
     enabled: false
     themes:
-      B2B-store: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-2.34.0-pr-1998-6195-619595f2.zip
+      B2B-store: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-2.58.0-pr-2440-3e39-3e394e24.zip
   customApps:
     app1:
       name: storybook
@@ -252,17 +256,20 @@
       name: mcp-onx
       enabled: true
       imageRepository: ghcr.io/virtocommerce/vc-mcp-onx
-      imageTag: 1.0.0-alpha.17
+      imageTag: 1.0.0-alpha.23
       servicePlan: B1
       type: standalone
       probePath: /health
       ingressPath: /
       config:
         ADAPTER_API_URL: https://vcst-qa.govirto.com
-        ADAPTER_WORKSPACE: default
+        ADAPTER_WORKSPACE: B2B-store
         ADAPTER_DEBUG_MODE: true
-      secretConfig:
-        ADAPTER_API_KEY: mcp-adapter-vc-api-key-new
+        # Callers authenticate with their own platform account, so there is no
+        # service credential here: the token they present is forwarded to the
+        # platform and their own permissions apply.
+        AUTH_ISSUER: https://vcst-qa.govirto.com
+        MCP_PUBLIC_URL: https://vcst-qa-mcp-onx.govirto.com
   frontend:
   - name: B2B-store
     prerender: true
@@ -275,6 +282,18 @@
     - path: /files
       route: platform
     - path: /connect/token
+      route: platform
+    - path: /connect/authorize
+      route: platform
+    - path: /connect/session
+      route: platform
+    - path: /.well-known/openid-configuration
+      route: platform
+    - path: /.well-known/oauth-authorization-server
+      route: platform
+    - path: /.well-known/oauth-protected-resource
+      route: platform
+    - path: /.well-known/jwks
       route: platform
     - path: /graphql
       route: platform
