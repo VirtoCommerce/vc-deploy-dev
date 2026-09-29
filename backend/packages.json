@@ -21,6 +21,9 @@
         },
         {
           "BlobName": "VirtoCommerce.UCP_3.1007.0-pr-9-91ca.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.XCart_3.1037.0-pr-141-fb27.zip"
         }
       ]
     },
@@ -333,10 +336,6 @@
         {
           "Id": "VirtoCommerce.Quote",
           "Version": "3.1003.0"
-        },
-        {
-          "Id": "VirtoCommerce.XCart",
-          "Version": "3.1036.0"
         },
         {
           "Id": "VirtoCommerce.Marketing",
