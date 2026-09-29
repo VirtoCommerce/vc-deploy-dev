@@ -61,7 +61,7 @@ jobs:
         echo "PLATFORM_IMAGE_TAG=$(cat ./backend/packages.json | jq -r '.PlatformImageTag')" >> $GITHUB_ENV
 
     - name: App wait
-      uses: VirtoCommerce/vc-github-actions/vc-argocd-cli@master # Uses an action in the root directory
+      uses: VirtoCommerce/.github/actions/vc-argocd-cli@v3.1000.1 # Uses an action in the root directory
       id: argocd-cli
       with:
         server: ${{env.ARGO_SERVER}}
