@@ -171,6 +171,12 @@
       UCP__HandoffUrlTemplate: "https://virtostart-demo-store.govirto.com/checkout?ucp_session={token}"
       UCP__HandoffTokenTtlMinutes: 120
 
+      # MCP-ONX
+      # The platform host has no /oauth/authorize page of its own: the admin UI uses the built-in form.
+      Authorization__BuiltInLoginHosts__0: https://virtostart-demo-admin.govirto.com
+      # So the client can request a token for our MCP specifically (RFC 8707).
+      Authorization__Resources__0: https://virtostart-main-mcp-onx.govirto.com
+
       Reload: 2026-07-02
     secretConfig:
       AI__OpenAI__ApiKey: openai-api-key
@@ -240,7 +246,20 @@
       probePath: /
       ingressPath: /
     app2:
-      enabled: false
+      name: mcp-onx
+      enabled: true
+      imageRepository: ghcr.io/virtocommerce/vc-mcp-onx
+      imageTag: 1.0.0-alpha.23
+      servicePlan: B1
+      type: standalone
+      probePath: /health
+      ingressPath: /
+      config:
+        ADAPTER_API_URL: https://virtostart-demo-admin.govirto.com
+        ADAPTER_WORKSPACE: B2B-store
+        ADAPTER_DEBUG_MODE: false
+        AUTH_ISSUER: https://virtostart-demo-admin.govirto.com
+        MCP_PUBLIC_URL: https://virtostart-main-mcp-onx.govirto.com
   routes:
   - host: virtostart-demo-store.govirto.com
     root: B2B-store
