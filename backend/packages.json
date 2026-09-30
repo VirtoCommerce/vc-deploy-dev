@@ -358,10 +358,6 @@
           "BlobName": "VirtoCommerce.Core_3.1011.0-alpha.1722.zip"
         },
         {
-          "Id": "VirtoCommerce.UCP",
-          "BlobName": "VirtoCommerce.UCP_3.1007.0-alpha.23.zip"
-        },
-        {
           "Id": "VirtoCommerce.Xapi",
           "BlobName": "VirtoCommerce.Xapi_3.1024.0-alpha.209.zip"
         },
@@ -376,6 +372,10 @@
         {
           "Id": "VirtoCommerce.OpenSearch",
           "BlobName": "VirtoCommerce.OpenSearch_3.1004.0-alpha.47.zip"
+        },
+        {
+          "Id": "VirtoCommerce.UCP",
+          "BlobName": "VirtoCommerce.UCP_3.1008.0-alpha.25.zip"
         }
       ]
     }
