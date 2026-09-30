@@ -320,10 +320,6 @@
           "Version": "3.1013.0"
         },
         {
-          "Id": "VirtoCommerce.Return",
-          "Version": "3.1002.0"
-        },
-        {
           "Id": "VirtoCommerce.PageBuilderModule",
           "Version": "3.1029.0"
         },
@@ -354,6 +350,10 @@
         {
           "Id": "VirtoCommerce.UCP",
           "Version": "3.1008.0"
+        },
+        {
+          "Id": "VirtoCommerce.Return",
+          "Version": "3.1003.0"
         }
       ]
     },
