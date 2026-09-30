@@ -336,10 +336,6 @@
           "Version": "3.1011.0"
         },
         {
-          "Id": "VirtoCommerce.UCP",
-          "Version": "3.1007.0"
-        },
-        {
           "Id": "VirtoCommerce.Xapi",
           "Version": "3.1024.0"
         },
@@ -354,6 +350,10 @@
         {
           "Id": "VirtoCommerce.OpenSearch",
           "Version": "3.1004.0"
+        },
+        {
+          "Id": "VirtoCommerce.UCP",
+          "Version": "3.1008.0"
         }
       ]
     },
