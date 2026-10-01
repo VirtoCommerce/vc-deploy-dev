@@ -32,6 +32,12 @@
         },
         {
           "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.1020.0-alpha.383-vcst-5886-punchoutsetuprequest.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Cart_3.1010.0-pr-195-1b82.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.XCart_3.1038.0-pr-145-9124.zip"
         }
       ]
     },
@@ -286,10 +292,6 @@
           "Version": "3.1010.0"
         },
         {
-          "Id": "VirtoCommerce.Cart",
-          "Version": "3.1009.0"
-        },
-        {
           "Id": "VirtoCommerce.XOrder",
           "Version": "3.1013.0"
         },
@@ -332,10 +334,6 @@
         {
           "Id": "VirtoCommerce.Shipping",
           "Version": "3.1007.0"
-        },
-        {
-          "Id": "VirtoCommerce.XCart",
-          "Version": "3.1037.0"
         },
         {
           "Id": "VirtoCommerce.AzureSearch",
