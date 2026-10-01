@@ -297,7 +297,7 @@
       #VirtoCommerce__PlatformUI__EnvironmentBanner__ThemePreset: "localhost"
 
       Logging__LogLevel__Default: Information
-      PasswordLogin__DetailedErrors: true
+      PasswordLogin__DetailedErrors: false
       Payments__AuthorizeNet__ApiLogin: 52B9X7vb4
       #Payments__AuthorizeNet__SHA2Hash: FA6D2B37A7E9105942D2D184F1B2DBD8D9CA85611DE55B2267A6F7E0D7E49ACD9A6BC238CE068E75CA14ACFAD734F700FD94DCAB20353DD4D32D9BABE72DBBE4
       Payments__AuthorizeNet__TxnKey: 6QzDf3843wVRp4vx
@@ -310,7 +310,7 @@
       Caching__CacheEnabled: true
       Authorization__ReturnPasswordHash: true
       Authorization__AllowApiAccessForCustomers: false
-      PasswordLogin__DetailedErrors: true
+      PasswordLogin__DetailedErrors: false
       IdentityOptions__Password__RequiredLength: 3
       IdentityOptions__Password__RequireDigit: false
       IdentityOptions__Password__RequireNonAlphanumeric: false
