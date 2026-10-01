@@ -458,6 +458,9 @@
       route: platform
     - path: /api/files
       route: platform
+    # OTP sign-in module REST endpoint (vc-module-otp, VCST-5748) — POST /api/otp/request from the storefront.
+    - path: /api/otp
+      route: platform
     - path: /externalsignin
       route: platform
     - path: /signin-oidc
