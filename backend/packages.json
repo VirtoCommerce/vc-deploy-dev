@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.1075.0",
+  "PlatformVersion": "3.1076.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.1075.0",
+  "PlatformImageTag": "3.1076.0",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
   ],
@@ -25,13 +25,6 @@
           "BlobName": "VirtoCommerce.PushMessages_3.1006.0-pr-28-90ce.zip"
         },
         {
-          "Id": "VirtoCommerce.Core",
-          "BlobName": "VirtoCommerce.Core_3.1011.0-pr-264-ab8e.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.Return_3.1003.0-pr-27-90cb.zip"
-        },
-        {
           "BlobName": "VirtoCommerce.OTP_3.1000.0-pr-1-185e.zip"
         }
       ]
@@ -44,11 +37,11 @@
       "Modules": [
         {
           "Id": "VirtoCommerce.PageBuilderModule",
-          "Version": "3.1028.0"
+          "Version": "3.1029.0"
         },
         {
           "Id": "VirtoCommerce.SalesRep",
-          "Version": "3.1010.0"
+          "Version": "3.1011.0"
         },
         {
           "Id": "VirtoCommerce.Loyalty",
@@ -128,7 +121,7 @@
         },
         {
           "Id": "VirtoCommerce.OpenSearch",
-          "Version": "3.1003.0"
+          "Version": "3.1004.0"
         },
         {
           "Id": "VirtoCommerce.CyberSourcePayment",
@@ -172,7 +165,7 @@
         },
         {
           "Id": "VirtoCommerce.ElasticSearch8",
-          "Version": "3.1007.0"
+          "Version": "3.1009.0"
         },
         {
           "Id": "VirtoCommerce.Export",
@@ -308,11 +301,11 @@
         },
         {
           "Id": "VirtoCommerce.UCP",
-          "Version": "3.1006.0"
+          "Version": "3.1008.0"
         },
         {
           "Id": "VirtoCommerce.XCatalog",
-          "Version": "3.1021.0"
+          "Version": "3.1022.0"
         },
         {
           "Id": "VirtoCommerce.Pricing",
@@ -324,7 +317,7 @@
         },
         {
           "Id": "VirtoCommerce.Xapi",
-          "Version": "3.1023.0"
+          "Version": "3.1024.0"
         },
         {
           "Id": "VirtoCommerce.Orders",
@@ -336,7 +329,7 @@
         },
         {
           "Id": "VirtoCommerce.XCart",
-          "Version": "3.1036.0"
+          "Version": "3.1037.0"
         },
         {
           "Id": "VirtoCommerce.AzureSearch",
@@ -368,7 +361,7 @@
         },
         {
           "Id": "VirtoCommerce.Catalog",
-          "Version": "3.1045.0"
+          "Version": "3.1046.0"
         },
         {
           "Id": "VirtoCommerce.BackupRestore",
@@ -388,6 +381,14 @@
         },
         {
           "Id": "VirtoCommerce.ElasticAppSearch",
+          "Version": "3.1003.0"
+        },
+        {
+          "Id": "VirtoCommerce.Core",
+          "Version": "3.1011.0"
+        },
+        {
+          "Id": "VirtoCommerce.Return",
           "Version": "3.1003.0"
         }
       ]
