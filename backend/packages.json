@@ -38,6 +38,10 @@
           "BlobName": "VirtoCommerce.Cart_3.1011.0-pr-194-8331.zip"
         },
         {
+          "Id": "VirtoCommerce.PageBuilderModule",
+          "BlobName": "VirtoCommerce.PageBuilderModule_3.1030.0-pr-165-1ab4.zip"
+        },
+        {
           "Id": "VirtoCommerce.FileExperienceApi",
           "BlobName": "VirtoCommerce.FileExperienceApi_3.1005.0-pr-22-2c0a.zip"
         }
@@ -360,10 +364,6 @@
         {
           "Id": "VirtoCommerce.Assets",
           "Version": "3.1009.0"
-        },
-        {
-          "Id": "VirtoCommerce.PageBuilderModule",
-          "Version": "3.1029.0"
         },
         {
           "Id": "VirtoCommerce.XCMS",
