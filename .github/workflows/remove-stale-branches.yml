@@ -49,6 +49,9 @@ jobs:
       with:
         fetch-depth: 0
         ref: "${{ github.event.inputs.targetBranch }}"
+        # Push branch deletions as vc-ci, which the repository rulesets let through; the
+        # default GITHUB_TOKEN (github-actions[bot]) is not on their bypass list.
+        token: ${{ secrets.REPO_TOKEN }}
 
     - name: Remove stale branches
       shell: pwsh
