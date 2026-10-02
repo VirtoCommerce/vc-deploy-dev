@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.1075.0",
+  "PlatformVersion": "3.1076.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.1075.0",
+  "PlatformImageTag": "3.1076.0",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -10,18 +10,6 @@
       "Container": "packages",
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [   
-        {
-          "BlobName": "VirtoCommerce.Loyalty_3.1009.0-pr-18-4411.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.XCatalog_3.1022.0-pr-113-f4a8.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.Catalog_3.1046.0-pr-909-2839.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.UCP_3.1007.0-pr-9-91ca.zip"
-        },
         {
           "BlobName": "VirtoCommerce.XCart_3.1037.0-pr-141-fb27.zip"
         },
@@ -39,6 +27,22 @@
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
       "Modules": [      
+        {
+          "Id": "VirtoCommerce.Loyalty",
+          "Version": "3.1009.0"
+        },
+        {
+          "Id": "VirtoCommerce.XCatalog",
+          "Version": "3.1022.0"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "Version": "3.1046.0"
+        },
+        {
+          "Id": "VirtoCommerce.UCP",
+          "Version": "3.1008.0"
+        },
               {
           "Id": "VirtoCommerce.ElasticSearch",
           "Version": "3.806.0"
