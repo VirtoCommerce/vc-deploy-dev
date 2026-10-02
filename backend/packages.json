@@ -230,10 +230,6 @@
           "BlobName": "VirtoCommerce.CatalogCsvImportModule_3.1005.0-alpha.395.zip"
         },
         {
-          "Id": "VirtoCommerce.BackgroundJobs",
-          "BlobName": "VirtoCommerce.BackgroundJobs_3.1051.0-alpha.10.zip"
-        },
-        {
           "Id": "VirtoCommerce.ImageTools",
           "BlobName": "VirtoCommerce.ImageTools_3.1004.0-alpha.411.zip"
         },
@@ -380,6 +376,10 @@
         {
           "Id": "VirtoCommerce.Search",
           "BlobName": "VirtoCommerce.Search_3.1010.0-alpha.856.zip"
+        },
+        {
+          "Id": "VirtoCommerce.BackgroundJobs",
+          "BlobName": "VirtoCommerce.BackgroundJobs_3.1052.0-alpha.14.zip"
         }
       ]
     }
