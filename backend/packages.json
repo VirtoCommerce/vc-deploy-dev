@@ -60,10 +60,6 @@
           "Version": "3.1005.0"
         },
         {
-          "Id": "VirtoCommerce.ApplicationInsights",
-          "Version": "3.1004.0"
-        },
-        {
           "Id": "VirtoCommerce.Export",
           "Version": "3.1003.0"
         },
@@ -357,6 +353,10 @@
         },
         {
           "Id": "VirtoCommerce.Seo",
+          "Version": "3.1005.0"
+        },
+        {
+          "Id": "VirtoCommerce.ApplicationInsights",
           "Version": "3.1005.0"
         }
       ]
