@@ -208,10 +208,6 @@
           "Version": "3.1005.0"
         },
         {
-          "Id": "VirtoCommerce.BackgroundJobs",
-          "Version": "3.1051.0"
-        },
-        {
           "Id": "VirtoCommerce.ImageTools",
           "Version": "3.1004.0"
         },
@@ -358,6 +354,10 @@
         {
           "Id": "VirtoCommerce.ApplicationInsights",
           "Version": "3.1005.0"
+        },
+        {
+          "Id": "VirtoCommerce.BackgroundJobs",
+          "Version": "3.1052.0"
         }
       ]
     },
