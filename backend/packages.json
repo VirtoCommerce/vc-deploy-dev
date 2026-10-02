@@ -206,10 +206,6 @@
           "BlobName": "VirtoCommerce.Skyflow_3.1005.0-alpha.83.zip"
         },
         {
-          "Id": "VirtoCommerce.BackupRestore",
-          "BlobName": "VirtoCommerce.BackupRestore_3.1005.0-alpha.17.zip"
-        },
-        {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
           "BlobName": "VirtoCommerce.CatalogCsvImportModule_3.1005.0-alpha.395.zip"
         },
@@ -380,6 +376,10 @@
         {
           "Id": "VirtoCommerce.AzureBlobAssets",
           "BlobName": "VirtoCommerce.AzureBlobAssets_3.1008.0-alpha.192.zip"
+        },
+        {
+          "Id": "VirtoCommerce.BackupRestore",
+          "BlobName": "VirtoCommerce.BackupRestore_3.1006.0-alpha.21.zip"
         }
       ]
     }
