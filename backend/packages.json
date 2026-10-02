@@ -328,10 +328,6 @@
           "Version": "3.1002.0"
         },
         {
-          "Id": "VirtoCommerce.Notifications",
-          "Version": "3.1015.0"
-        },
-        {
           "Id": "VirtoCommerce.BackupRestore",
           "Version": "3.1006.0"
         },
@@ -358,6 +354,10 @@
         {
           "Id": "VirtoCommerce.Export",
           "Version": "3.1004.0"
+        },
+        {
+          "Id": "VirtoCommerce.Notifications",
+          "Version": "3.1016.0"
         }
       ]
     },
