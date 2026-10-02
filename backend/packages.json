@@ -198,10 +198,6 @@
           "BlobName": "VirtoCommerce.Sitemaps_3.1004.0-alpha.426.zip"
         },
         {
-          "Id": "VirtoCommerce.Store",
-          "BlobName": "VirtoCommerce.Store_3.1007.0-alpha.791.zip"
-        },
-        {
           "Id": "VirtoCommerce.Skyflow",
           "BlobName": "VirtoCommerce.Skyflow_3.1005.0-alpha.83.zip"
         },
@@ -380,6 +376,10 @@
         {
           "Id": "VirtoCommerce.BackupRestore",
           "BlobName": "VirtoCommerce.BackupRestore_3.1006.0-alpha.21.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Store",
+          "BlobName": "VirtoCommerce.Store_3.1008.0-alpha.796.zip"
         }
       ]
     }
