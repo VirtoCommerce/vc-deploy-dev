@@ -86,10 +86,6 @@
           "BlobName": "VirtoCommerce.WebHooks_3.1005.0-alpha.354.zip"
         },
         {
-          "Id": "VirtoCommerce.Seo",
-          "BlobName": "VirtoCommerce.Seo_3.1005.0-alpha.89.zip"
-        },
-        {
           "Id": "VirtoCommerce.BulkActionsModule",
           "BlobName": "VirtoCommerce.BulkActionsModule_3.1003.0-alpha.254.zip"
         },
@@ -380,6 +376,10 @@
         {
           "Id": "VirtoCommerce.ApplicationInsights",
           "BlobName": "VirtoCommerce.ApplicationInsights_3.1005.0-alpha.75.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Seo",
+          "BlobName": "VirtoCommerce.Seo_3.1005.0-alpha.97.zip"
         }
       ]
     }
