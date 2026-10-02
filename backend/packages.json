@@ -374,12 +374,12 @@
           "BlobName": "VirtoCommerce.AzureAD_3.1003.0-alpha.85.zip"
         },
         {
-          "Id": "VirtoCommerce.Search",
-          "BlobName": "VirtoCommerce.Search_3.1009.0-alpha.854.zip"
-        },
-        {
           "Id": "VirtoCommerce.OpenTelemetry",
           "BlobName": "VirtoCommerce.OpenTelemetry_3.1002.0-alpha.10.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Search",
+          "BlobName": "VirtoCommerce.Search_3.1010.0-alpha.856.zip"
         }
       ]
     }
