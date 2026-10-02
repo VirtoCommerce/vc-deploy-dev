@@ -1,4 +1,4 @@
-- name: vcptcore-aidemo2
+- name: vcptcore-aidemo3
   gitops: true
   production: false
   servicePlan: B1
@@ -38,7 +38,7 @@
     app2:
       enabled: false
   routes:
-  - host: vcptcore-aidemo2-front.govirto.com
+  - host: front-vcptcore-aidemo3.govirto.com
     root: FE
     paths:
     - path: /xapi
