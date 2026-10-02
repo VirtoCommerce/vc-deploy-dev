@@ -82,10 +82,6 @@
           "BlobName": "VirtoCommerce.WebHooks_3.1005.0-alpha.354.zip"
         },
         {
-          "Id": "VirtoCommerce.LuceneSearch",
-          "BlobName": "VirtoCommerce.LuceneSearch_3.1005.0-alpha.252.zip"
-        },
-        {
           "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
           "BlobName": "VirtoCommerce.GoogleEcommerceAnalytics_4.1004.0-alpha.254-vcst-5337-ga-event-search.zip"
         },
@@ -380,6 +376,10 @@
         {
           "Id": "VirtoCommerce.FileSystemAssets",
           "BlobName": "VirtoCommerce.FileSystemAssets_3.1005.0-alpha.154.zip"
+        },
+        {
+          "Id": "VirtoCommerce.LuceneSearch",
+          "BlobName": "VirtoCommerce.LuceneSearch_3.1005.0-alpha.260.zip"
         }
       ]
     }
