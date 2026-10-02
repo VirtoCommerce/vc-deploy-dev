@@ -246,10 +246,6 @@
           "BlobName": "VirtoCommerce.Payment_3.1007.0-alpha.297.zip"
         },
         {
-          "Id": "VirtoCommerce.AzureBlobAssets",
-          "BlobName": "VirtoCommerce.AzureBlobAssets_3.1007.0-alpha.188.zip"
-        },
-        {
           "Id": "VirtoCommerce.Content",
           "BlobName": "VirtoCommerce.Content_3.1004.0-alpha.1062.zip"
         },
@@ -380,6 +376,10 @@
         {
           "Id": "VirtoCommerce.Notifications",
           "BlobName": "VirtoCommerce.Notifications_3.1016.0-alpha.497.zip"
+        },
+        {
+          "Id": "VirtoCommerce.AzureBlobAssets",
+          "BlobName": "VirtoCommerce.AzureBlobAssets_3.1008.0-alpha.192.zip"
         }
       ]
     }
