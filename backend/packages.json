@@ -196,10 +196,6 @@
           "Version": "3.1005.0"
         },
         {
-          "Id": "VirtoCommerce.BackupRestore",
-          "Version": "3.1005.0"
-        },
-        {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
           "Version": "3.1005.0"
         },
@@ -358,6 +354,10 @@
         {
           "Id": "VirtoCommerce.Notifications",
           "Version": "3.1015.0"
+        },
+        {
+          "Id": "VirtoCommerce.BackupRestore",
+          "Version": "3.1006.0"
         }
       ]
     },
