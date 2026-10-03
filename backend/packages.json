@@ -198,10 +198,6 @@
           "BlobName": "VirtoCommerce.XOrder_3.1013.0-alpha.135.zip"
         },
         {
-          "Id": "VirtoCommerce.PageBuilderModule",
-          "BlobName": "VirtoCommerce.PageBuilderModule_3.1030.0-alpha.868.zip"
-        },
-        {
           "Id": "VirtoCommerce.SalesRep",
           "BlobName": "VirtoCommerce.SalesRep_3.1011.0-alpha.35.zip"
         },
@@ -380,6 +376,10 @@
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
           "BlobName": "VirtoCommerce.CatalogCsvImportModule_3.1006.0-alpha.400.zip"
+        },
+        {
+          "Id": "VirtoCommerce.PageBuilderModule",
+          "BlobName": "VirtoCommerce.PageBuilderModule_3.1030.0-alpha.869.zip"
         }
       ]
     }
