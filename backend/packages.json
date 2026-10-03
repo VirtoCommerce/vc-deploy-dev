@@ -338,10 +338,6 @@
           "BlobName": "VirtoCommerce.LuceneSearch_3.1005.0-alpha.260.zip"
         },
         {
-          "Id": "VirtoCommerce.Notifications",
-          "BlobName": "VirtoCommerce.Notifications_3.1016.0-alpha.497.zip"
-        },
-        {
           "Id": "VirtoCommerce.AzureBlobAssets",
           "BlobName": "VirtoCommerce.AzureBlobAssets_3.1008.0-alpha.192.zip"
         },
@@ -380,6 +376,10 @@
         {
           "Id": "VirtoCommerce.Content",
           "BlobName": "VirtoCommerce.Content_3.1005.0-alpha.1066.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Notifications",
+          "BlobName": "VirtoCommerce.Notifications_3.1017.0-alpha.499.zip"
         }
       ]
     }
