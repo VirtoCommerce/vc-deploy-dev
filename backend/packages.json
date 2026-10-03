@@ -200,10 +200,6 @@
           "Version": "3.1002.0"
         },
         {
-          "Id": "VirtoCommerce.ImageTools",
-          "Version": "3.1005.0"
-        },
-        {
           "Id": "VirtoCommerce.Store",
           "Version": "3.1008.0"
         },
@@ -357,6 +353,10 @@
         },
         {
           "Id": "VirtoCommerce.LuceneSearch",
+          "Version": "3.1006.0"
+        },
+        {
+          "Id": "VirtoCommerce.ImageTools",
           "Version": "3.1006.0"
         }
       ]
