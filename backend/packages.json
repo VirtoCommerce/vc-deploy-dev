@@ -170,10 +170,6 @@
           "BlobName": "VirtoCommerce.Subscription_3.1003.0-alpha.392.zip"
         },
         {
-          "Id": "VirtoCommerce.Pricing",
-          "BlobName": "VirtoCommerce.Pricing_3.1006.0-alpha.816.zip"
-        },
-        {
           "Id": "VirtoCommerce.Skyflow",
           "BlobName": "VirtoCommerce.Skyflow_3.1005.0-alpha.83.zip"
         },
@@ -380,6 +376,10 @@
         {
           "Id": "VirtoCommerce.Xapi",
           "BlobName": "VirtoCommerce.Xapi_3.1025.0-alpha.211.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Pricing",
+          "BlobName": "VirtoCommerce.Pricing_3.1007.0-alpha.821.zip"
         }
       ]
     }
