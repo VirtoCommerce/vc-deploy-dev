@@ -234,10 +234,6 @@
           "BlobName": "VirtoCommerce.BulkActionsModule_3.1003.0-alpha.262.zip"
         },
         {
-          "Id": "VirtoCommerce.FileSystemAssets",
-          "BlobName": "VirtoCommerce.FileSystemAssets_3.1005.0-alpha.154.zip"
-        },
-        {
           "Id": "VirtoCommerce.LuceneSearch",
           "BlobName": "VirtoCommerce.LuceneSearch_3.1005.0-alpha.260.zip"
         },
@@ -380,6 +376,10 @@
         {
           "Id": "VirtoCommerce.AzureSearch",
           "BlobName": "VirtoCommerce.AzureSearch_3.1007.0-alpha.305.zip"
+        },
+        {
+          "Id": "VirtoCommerce.FileSystemAssets",
+          "BlobName": "VirtoCommerce.FileSystemAssets_3.1006.0-alpha.156.zip"
         }
       ]
     }
