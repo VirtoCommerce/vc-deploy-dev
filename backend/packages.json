@@ -200,10 +200,6 @@
           "Version": "3.1002.0"
         },
         {
-          "Id": "VirtoCommerce.BackupRestore",
-          "Version": "3.1006.0"
-        },
-        {
           "Id": "VirtoCommerce.ElasticSearch8",
           "Version": "3.1010.0"
         },
@@ -358,6 +354,10 @@
         {
           "Id": "VirtoCommerce.AzureBlobAssets",
           "Version": "3.1009.0"
+        },
+        {
+          "Id": "VirtoCommerce.BackupRestore",
+          "Version": "3.1007.0"
         }
       ]
     },
