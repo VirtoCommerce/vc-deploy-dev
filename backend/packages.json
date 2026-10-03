@@ -128,10 +128,6 @@
           "Version": "3.1002.0"
         },
         {
-          "Id": "VirtoCommerce.Pages",
-          "Version": "3.1008.0"
-        },
-        {
           "Id": "VirtoCommerce.CustomerReviews",
           "Version": "3.1006.0"
         },
@@ -357,6 +353,10 @@
         },
         {
           "Id": "VirtoCommerce.Inventory",
+          "Version": "3.1009.0"
+        },
+        {
+          "Id": "VirtoCommerce.Pages",
           "Version": "3.1009.0"
         }
       ]
