@@ -158,10 +158,6 @@
           "BlobName": "VirtoCommerce.ElasticAppSearch_3.1003.0-alpha.190.zip"
         },
         {
-          "Id": "VirtoCommerce.XCMS",
-          "BlobName": "VirtoCommerce.XCMS_3.1006.0-alpha.83.zip"
-        },
-        {
           "Id": "VirtoCommerce.Quote",
           "BlobName": "VirtoCommerce.Quote_3.1003.0-alpha.511.zip"
         },
@@ -380,6 +376,10 @@
         {
           "Id": "VirtoCommerce.Subscription",
           "BlobName": "VirtoCommerce.Subscription_3.1004.0-alpha.397.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XCMS",
+          "BlobName": "VirtoCommerce.XCMS_3.1007.0-alpha.87.zip"
         }
       ]
     }
