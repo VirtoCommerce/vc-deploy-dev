@@ -166,10 +166,6 @@
           "BlobName": "VirtoCommerce.XFrontend_3.1006.0-alpha.50.zip"
         },
         {
-          "Id": "VirtoCommerce.Cart",
-          "BlobName": "VirtoCommerce.Cart_3.1011.0-alpha.810-vcst-5850-5728-multi-sharing-key-message.zip"
-        },
-        {
           "Id": "VirtoCommerce.WhiteLabeling",
           "BlobName": "VirtoCommerce.WhiteLabeling_3.1004.0-alpha.91.zip"
         },
@@ -380,6 +376,10 @@
         {
           "Id": "VirtoCommerce.Inventory",
           "BlobName": "VirtoCommerce.Inventory_3.1009.0-alpha.544.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Cart",
+          "BlobName": "VirtoCommerce.Cart_3.1010.0-alpha.810.zip"
         }
       ]
     }
