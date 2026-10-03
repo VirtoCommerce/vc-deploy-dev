@@ -370,16 +370,16 @@
           "BlobName": "VirtoCommerce.CatalogCsvImportModule_3.1006.0-alpha.400.zip"
         },
         {
-          "Id": "VirtoCommerce.PageBuilderModule",
-          "BlobName": "VirtoCommerce.PageBuilderModule_3.1030.0-alpha.869.zip"
-        },
-        {
           "Id": "VirtoCommerce.Orders",
           "BlobName": "VirtoCommerce.Orders_3.1017.0-alpha.1449.zip"
         },
         {
           "Id": "VirtoCommerce.XPickup",
           "BlobName": "VirtoCommerce.XPickup_3.1007.0-alpha.60.zip"
+        },
+        {
+          "Id": "VirtoCommerce.PageBuilderModule",
+          "BlobName": "VirtoCommerce.PageBuilderModule_3.1031.0-alpha.870.zip"
         }
       ]
     }
