@@ -130,10 +130,6 @@
           "BlobName": "VirtoCommerce.BackInStock_3.1002.0-alpha.62.zip"
         },
         {
-          "Id": "VirtoCommerce.PushMessages",
-          "BlobName": "VirtoCommerce.PushMessages_3.1005.0-alpha.112.zip"
-        },
-        {
           "Id": "VirtoCommerce.TaskManagement",
           "BlobName": "VirtoCommerce.TaskManagement_3.1005.0-alpha.208.zip"
         },
@@ -380,6 +376,10 @@
         {
           "Id": "VirtoCommerce.CatalogPublishing",
           "BlobName": "VirtoCommerce.CatalogPublishing_3.1006.0-alpha.412.zip"
+        },
+        {
+          "Id": "VirtoCommerce.PushMessages",
+          "BlobName": "VirtoCommerce.PushMessages_3.1006.0-alpha.117.zip"
         }
       ]
     }
