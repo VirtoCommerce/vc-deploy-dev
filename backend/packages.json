@@ -232,10 +232,6 @@
           "Version": "3.1047.0"
         },
         {
-          "Id": "VirtoCommerce.Notifications",
-          "Version": "3.1017.0"
-        },
-        {
           "Id": "VirtoCommerce.Cart",
           "Version": "3.1010.0"
         },
@@ -358,6 +354,10 @@
         {
           "Id": "VirtoCommerce.ImageTools",
           "Version": "3.1006.0"
+        },
+        {
+          "Id": "VirtoCommerce.Notifications",
+          "Version": "3.1018.0"
         }
       ]
     },
