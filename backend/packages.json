@@ -230,10 +230,6 @@
           "BlobName": "VirtoCommerce.Export_3.1004.0-alpha.293.zip"
         },
         {
-          "Id": "VirtoCommerce.BulkActionsModule",
-          "BlobName": "VirtoCommerce.BulkActionsModule_3.1003.0-alpha.262.zip"
-        },
-        {
           "Id": "VirtoCommerce.Store",
           "BlobName": "VirtoCommerce.Store_3.1009.0-alpha.800.zip"
         },
@@ -380,6 +376,10 @@
         {
           "Id": "VirtoCommerce.BackupRestore",
           "BlobName": "VirtoCommerce.BackupRestore_3.1007.0-alpha.23.zip"
+        },
+        {
+          "Id": "VirtoCommerce.BulkActionsModule",
+          "BlobName": "VirtoCommerce.BulkActionsModule_3.1004.0-alpha.264.zip"
         }
       ]
     }
