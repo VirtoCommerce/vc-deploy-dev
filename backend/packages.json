@@ -174,10 +174,6 @@
           "BlobName": "VirtoCommerce.ElasticAppSearch_3.1003.0-alpha.190.zip"
         },
         {
-          "Id": "VirtoCommerce.XPickup",
-          "BlobName": "VirtoCommerce.XPickup_3.1006.0-alpha.56.zip"
-        },
-        {
           "Id": "VirtoCommerce.XCMS",
           "BlobName": "VirtoCommerce.XCMS_3.1006.0-alpha.83.zip"
         },
@@ -380,6 +376,10 @@
         {
           "Id": "VirtoCommerce.Orders",
           "BlobName": "VirtoCommerce.Orders_3.1017.0-alpha.1449.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XPickup",
+          "BlobName": "VirtoCommerce.XPickup_3.1007.0-alpha.60.zip"
         }
       ]
     }
