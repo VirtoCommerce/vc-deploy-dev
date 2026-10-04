@@ -134,10 +134,6 @@
           "BlobName": "VirtoCommerce.Skyflow_3.1005.0-alpha.83.zip"
         },
         {
-          "Id": "VirtoCommerce.ImageTools",
-          "BlobName": "VirtoCommerce.ImageTools_3.1006.0.zip"
-        },
-        {
           "Id": "VirtoCommerce.BuilderIO",
           "BlobName": "VirtoCommerce.BuilderIO_3.1005.0-alpha.146.zip"
         },
@@ -380,6 +376,10 @@
         {
           "Id": "VirtoCommerce.XCart",
           "BlobName": "VirtoCommerce.XCart_3.1038.0-alpha.287.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ImageTools",
+          "BlobName": "VirtoCommerce.ImageTools_3.1006.0-alpha.418.zip"
         }
       ]
     }
