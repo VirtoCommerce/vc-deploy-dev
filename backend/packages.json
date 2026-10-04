@@ -246,10 +246,6 @@
           "BlobName": "VirtoCommerce.Subscription_3.1004.0-alpha.397.zip"
         },
         {
-          "Id": "VirtoCommerce.XCMS",
-          "BlobName": "VirtoCommerce.XCMS_3.1007.0-alpha.87.zip"
-        },
-        {
           "Id": "VirtoCommerce.Marketing",
           "BlobName": "VirtoCommerce.Marketing_3.1008.0-alpha.947.zip"
         },
@@ -380,6 +376,10 @@
         {
           "Id": "VirtoCommerce.PushMessages",
           "BlobName": "VirtoCommerce.PushMessages_3.1007.0-alpha.119.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XCMS",
+          "BlobName": "VirtoCommerce.XCMS_3.1008.0-alpha.89.zip"
         }
       ]
     }
