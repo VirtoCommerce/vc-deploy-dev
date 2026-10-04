@@ -130,10 +130,6 @@
           "BlobName": "VirtoCommerce.XFrontend_3.1006.0-alpha.50.zip"
         },
         {
-          "Id": "VirtoCommerce.WhiteLabeling",
-          "BlobName": "VirtoCommerce.WhiteLabeling_3.1004.0-alpha.91.zip"
-        },
-        {
           "Id": "VirtoCommerce.Skyflow",
           "BlobName": "VirtoCommerce.Skyflow_3.1005.0-alpha.83.zip"
         },
@@ -380,6 +376,10 @@
         {
           "Id": "VirtoCommerce.DynamicAssociationsModule",
           "BlobName": "VirtoCommerce.DynamicAssociationsModule_3.1003.0-alpha.214.zip"
+        },
+        {
+          "Id": "VirtoCommerce.WhiteLabeling",
+          "BlobName": "VirtoCommerce.WhiteLabeling_3.1005.0-alpha.96.zip"
         }
       ]
     }
