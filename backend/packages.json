@@ -152,10 +152,6 @@
           "Version": "3.1003.0"
         },
         {
-          "Id": "VirtoCommerce.XCatalog",
-          "Version": "3.1022.0"
-        },
-        {
           "Id": "VirtoCommerce.OTP",
           "Version": "3.1000.0"
         },
@@ -358,6 +354,10 @@
         {
           "Id": "VirtoCommerce.DynamicAssociationsModule",
           "Version": "3.1003.0"
+        },
+        {
+          "Id": "VirtoCommerce.XCatalog",
+          "Version": "3.1023.0"
         }
       ]
     },
