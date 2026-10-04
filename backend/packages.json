@@ -230,10 +230,6 @@
           "BlobName": "VirtoCommerce.Tax_3.1006.0-alpha.243.zip"
         },
         {
-          "Id": "VirtoCommerce.PushMessages",
-          "BlobName": "VirtoCommerce.PushMessages_3.1006.0-alpha.117.zip"
-        },
-        {
           "Id": "VirtoCommerce.GDPR",
           "BlobName": "VirtoCommerce.GDPR_3.1002.0-alpha.178.zip"
         },
@@ -380,6 +376,10 @@
         {
           "Id": "VirtoCommerce.Orders",
           "BlobName": "VirtoCommerce.Orders_3.1018.0-alpha.1451.zip"
+        },
+        {
+          "Id": "VirtoCommerce.PushMessages",
+          "BlobName": "VirtoCommerce.PushMessages_3.1007.0-alpha.119.zip"
         }
       ]
     }
