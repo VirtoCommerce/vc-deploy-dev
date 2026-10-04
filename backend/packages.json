@@ -200,10 +200,6 @@
           "Version": "3.1002.0"
         },
         {
-          "Id": "VirtoCommerce.Content",
-          "Version": "3.1005.0"
-        },
-        {
           "Id": "VirtoCommerce.Customer",
           "Version": "3.1027.0"
         },
@@ -358,6 +354,10 @@
         {
           "Id": "VirtoCommerce.Tax",
           "Version": "3.1007.0"
+        },
+        {
+          "Id": "VirtoCommerce.Content",
+          "Version": "3.1006.0"
         }
       ]
     },
