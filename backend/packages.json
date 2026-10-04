@@ -122,10 +122,6 @@
           "BlobName": "VirtoCommerce.SystemOperations_3.1002.0-alpha.21.zip"
         },
         {
-          "Id": "VirtoCommerce.CustomerReviews",
-          "BlobName": "VirtoCommerce.CustomerReviews_3.1006.0-alpha.291.zip"
-        },
-        {
           "Id": "VirtoCommerce.Skyflow",
           "BlobName": "VirtoCommerce.Skyflow_3.1005.0-alpha.83.zip"
         },
@@ -380,6 +376,10 @@
         {
           "Id": "VirtoCommerce.XFrontend",
           "BlobName": "VirtoCommerce.XFrontend_3.1007.0-alpha.55.zip"
+        },
+        {
+          "Id": "VirtoCommerce.CustomerReviews",
+          "BlobName": "VirtoCommerce.CustomerReviews_3.1007.0-alpha.296.zip"
         }
       ]
     }
