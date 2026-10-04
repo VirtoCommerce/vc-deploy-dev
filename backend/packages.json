@@ -242,10 +242,6 @@
           "BlobName": "VirtoCommerce.PushMessages_3.1006.0-alpha.117.zip"
         },
         {
-          "Id": "VirtoCommerce.CatalogCsvImportModule",
-          "BlobName": "VirtoCommerce.CatalogCsvImportModule_3.1006.0-alpha.400.zip"
-        },
-        {
           "Id": "VirtoCommerce.Orders",
           "BlobName": "VirtoCommerce.Orders_3.1017.0-alpha.1449.zip"
         },
@@ -380,6 +376,10 @@
         {
           "Id": "VirtoCommerce.CatalogPublishing",
           "BlobName": "VirtoCommerce.CatalogPublishing_3.1007.0-alpha.414.zip"
+        },
+        {
+          "Id": "VirtoCommerce.CatalogCsvImportModule",
+          "BlobName": "VirtoCommerce.CatalogCsvImportModule_3.1007.0-alpha.402.zip"
         }
       ]
     }
