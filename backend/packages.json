@@ -216,10 +216,6 @@
           "Version": "3.1008.0"
         },
         {
-          "Id": "VirtoCommerce.Payment",
-          "Version": "3.1009.0"
-        },
-        {
           "Id": "VirtoCommerce.Catalog",
           "Version": "3.1047.0"
         },
@@ -358,6 +354,10 @@
         {
           "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
           "Version": "4.1004.0"
+        },
+        {
+          "Id": "VirtoCommerce.Payment",
+          "Version": "3.1010.0"
         }
       ]
     },
