@@ -32,10 +32,6 @@
         {
           "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
           "BlobName": "VirtoCommerce.GoogleEcommerceAnalytics_4.1004.0-pr-61-bd93.zip"
-        }, 
-        {
-          "Id": "VirtoCommerce.Cart",
-          "BlobName": "VirtoCommerce.Cart_3.1011.0-pr-194-8331.zip"
         },
         {
           "Id": "VirtoCommerce.PageBuilderModule",
@@ -44,6 +40,10 @@
         {
           "Id": "VirtoCommerce.FileExperienceApi",
           "BlobName": "VirtoCommerce.FileExperienceApi_3.1005.0-pr-22-2c0a.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Cart",
+          "BlobName": "VirtoCommerce.Cart_3.1011.0.zip"
         }
       ]
     },
