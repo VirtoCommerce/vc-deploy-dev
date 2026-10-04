@@ -238,10 +238,6 @@
           "BlobName": "VirtoCommerce.Subscription_3.1004.0-alpha.397.zip"
         },
         {
-          "Id": "VirtoCommerce.Marketing",
-          "BlobName": "VirtoCommerce.Marketing_3.1008.0-alpha.947.zip"
-        },
-        {
           "Id": "VirtoCommerce.Search",
           "BlobName": "VirtoCommerce.Search_3.1010.0-alpha.857.zip"
         },
@@ -380,6 +376,10 @@
         {
           "Id": "VirtoCommerce.AuthorizeNetPayment",
           "BlobName": "VirtoCommerce.AuthorizeNetPayment_3.1005.0-alpha.128.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Marketing",
+          "BlobName": "VirtoCommerce.Marketing_3.1009.0-alpha.949.zip"
         }
       ]
     }
