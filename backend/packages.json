@@ -366,10 +366,6 @@
           "BlobName": "VirtoCommerce.XOrder_3.1014.0-alpha.139.zip"
         },
         {
-          "Id": "VirtoCommerce.UCP",
-          "BlobName": "VirtoCommerce.UCP_3.1009.0-alpha.28.zip"
-        },
-        {
           "Id": "VirtoCommerce.Return",
           "BlobName": "VirtoCommerce.Return_3.1004.0-alpha.161.zip"
         },
@@ -380,6 +376,10 @@
         {
           "Id": "VirtoCommerce.CustomerReviews",
           "BlobName": "VirtoCommerce.CustomerReviews_3.1007.0-alpha.296.zip"
+        },
+        {
+          "Id": "VirtoCommerce.UCP",
+          "BlobName": "VirtoCommerce.UCP_3.1010.0-alpha.30.zip"
         }
       ]
     }
