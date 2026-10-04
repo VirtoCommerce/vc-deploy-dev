@@ -150,10 +150,6 @@
           "BlobName": "VirtoCommerce.Quote_3.1003.0-alpha.511.zip"
         },
         {
-          "Id": "VirtoCommerce.XOrder",
-          "BlobName": "VirtoCommerce.XOrder_3.1013.0-alpha.135.zip"
-        },
-        {
           "Id": "VirtoCommerce.SalesRep",
           "BlobName": "VirtoCommerce.SalesRep_3.1011.0-alpha.35.zip"
         },
@@ -380,6 +376,10 @@
         {
           "Id": "VirtoCommerce.ImageTools",
           "BlobName": "VirtoCommerce.ImageTools_3.1006.0-alpha.418.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XOrder",
+          "BlobName": "VirtoCommerce.XOrder_3.1014.0-alpha.139.zip"
         }
       ]
     }
