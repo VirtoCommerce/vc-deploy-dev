@@ -212,10 +212,6 @@
           "Version": "3.1006.0"
         },
         {
-          "Id": "VirtoCommerce.Orders",
-          "Version": "3.1017.0"
-        },
-        {
           "Id": "VirtoCommerce.PageBuilderModule",
           "Version": "3.1030.0"
         },
@@ -358,6 +354,10 @@
         {
           "Id": "VirtoCommerce.Contracts",
           "Version": "3.1006.0"
+        },
+        {
+          "Id": "VirtoCommerce.Orders",
+          "Version": "3.1018.0"
         }
       ]
     },
