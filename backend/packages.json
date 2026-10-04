@@ -216,10 +216,6 @@
           "Version": "3.1007.0"
         },
         {
-          "Id": "VirtoCommerce.CatalogPublishing",
-          "Version": "3.1006.0"
-        },
-        {
           "Id": "VirtoCommerce.PushMessages",
           "Version": "3.1006.0"
         },
@@ -357,6 +353,10 @@
         },
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
+          "Version": "3.1007.0"
+        },
+        {
+          "Id": "VirtoCommerce.CatalogPublishing",
           "Version": "3.1007.0"
         }
       ]
