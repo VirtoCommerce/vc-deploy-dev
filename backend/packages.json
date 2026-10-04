@@ -158,10 +158,6 @@
           "BlobName": "VirtoCommerce.OpenSearch_3.1004.0-alpha.47.zip"
         },
         {
-          "Id": "VirtoCommerce.Return",
-          "BlobName": "VirtoCommerce.Return_3.1003.0-alpha.159.zip"
-        },
-        {
           "Id": "VirtoCommerce.OTP",
           "BlobName": "VirtoCommerce.OTP_3.1000.0-alpha.5.zip"
         },
@@ -380,6 +376,10 @@
         {
           "Id": "VirtoCommerce.UCP",
           "BlobName": "VirtoCommerce.UCP_3.1009.0-alpha.28.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Return",
+          "BlobName": "VirtoCommerce.Return_3.1004.0-alpha.161.zip"
         }
       ]
     }
