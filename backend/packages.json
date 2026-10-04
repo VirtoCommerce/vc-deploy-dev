@@ -26,13 +26,9 @@
           "BlobName": "VirtoCommerce.BackgroundJobs_3.1052.0-pr-4-10ac.zip"
         },
         {
-          "Id": "VirtoCommerce.XCart",
-          "BlobName": "VirtoCommerce.XCart_3.1038.0-pr-141-3d86.zip"
-        },
-        {
           "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
           "BlobName": "VirtoCommerce.GoogleEcommerceAnalytics_4.1004.0-pr-61-bd93.zip"
-        }, 
+        },
         {
           "Id": "VirtoCommerce.Cart",
           "BlobName": "VirtoCommerce.Cart_3.1011.0-pr-194-8331.zip"
@@ -44,6 +40,10 @@
         {
           "Id": "VirtoCommerce.FileExperienceApi",
           "BlobName": "VirtoCommerce.FileExperienceApi_3.1005.0-pr-22-2c0a.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XCart",
+          "BlobName": "VirtoCommerce.XCart_3.1038.0.zip"
         }
       ]
     },
