@@ -208,10 +208,6 @@
           "Version": "3.1006.0"
         },
         {
-          "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
-          "Version": "4.1003.0"
-        },
-        {
           "Id": "VirtoCommerce.Customer",
           "Version": "3.1027.0"
         },
@@ -358,6 +354,10 @@
         {
           "Id": "VirtoCommerce.Store",
           "Version": "3.1009.0"
+        },
+        {
+          "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
+          "Version": "4.1004.0"
         }
       ]
     },
