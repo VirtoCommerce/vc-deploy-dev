@@ -302,10 +302,6 @@
           "BlobName": "VirtoCommerce.Orders_3.1018.0-alpha.1451.zip"
         },
         {
-          "Id": "VirtoCommerce.PushMessages",
-          "BlobName": "VirtoCommerce.PushMessages_3.1007.0-alpha.119.zip"
-        },
-        {
           "Id": "VirtoCommerce.XCMS",
           "BlobName": "VirtoCommerce.XCMS_3.1008.0-alpha.89.zip"
         },
@@ -380,6 +376,10 @@
         {
           "Id": "VirtoCommerce.PageBuilderModule",
           "BlobName": "VirtoCommerce.PageBuilderModule_3.1033.0-alpha.874.zip"
+        },
+        {
+          "Id": "VirtoCommerce.PushMessages",
+          "BlobName": "VirtoCommerce.PushMessages_3.1008.0-alpha.121.zip"
         }
       ]
     }
