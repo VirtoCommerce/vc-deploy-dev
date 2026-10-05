@@ -27,26 +27,25 @@
       Search__PickupLocationFullTextSearchEnabled: true
   storefront:
     # Same model as vcst-qa: no .NET storefront pod, the theme is served by the
-    # `frontend` entry below. frontend.name, themes.<key> and routes[].root must all
-    # be the platform store id (B2B-store), as on vcptcore-qa / virtostart / vcst-qa.
+    # `frontend` entry below (its name must match themes.<key> and routes[].root).
     enabled: false
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/storefront
     imageTag: 6.0
     config:
       APPINSIGHTS_INSTRUMENTATIONKEY: adc98546-3f8a-4462-a0b2-7c822b5565ba
     themes:
-      B2B-store: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-2.59.0-pr-2494-935a-935ac19b.zip
+      FE: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-2.59.0-pr-2494-935a-935ac19b.zip
   customApps:
     app1:
       enabled: false
     app2:
       enabled: false
   frontend:
-  - name: B2B-store
+  - name: FE
     prerender: true
   routes:
   - host: front-vcptcore-aidemo3.govirto.com
-    root: B2B-store
+    root: FE
     paths:
     - path: /xapi
       route: platform
@@ -80,5 +79,5 @@
       route: platform
   protectedParameters:
     - platform.image.tag
-    - themes.B2B-store
-  version: 3.240
+    - themes.FE
+  version: 3.231
