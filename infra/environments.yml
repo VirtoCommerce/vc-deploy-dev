@@ -34,7 +34,7 @@
         # It refuses to start without ENTRA_TENANT_ID and ENTRA_AUDIENCE.
         ENTRA_TENANT_ID: "bc03e660-5e3a-45c4-bf5c-b75489f78923"
         ENTRA_AUDIENCE: "api://vc-deploy-mcp"
-        MCP_RESOURCE_URL: "https://vcptcore-selfdemo.govirto.com/mcp"
+        MCP_RESOURCE_URL: "https://vcptcore-selfdemo-vc-deploy-mcp.govirto.com/mcp"
         VC_ENV_ALLOWLIST: "vcptcore-aidemo,vcptcore-aidemo2"
         # Writes stay off until Entra is configured (plan step 27).
         VC_ALLOW_WRITES: ""
