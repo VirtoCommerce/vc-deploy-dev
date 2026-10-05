@@ -38,7 +38,7 @@
         VC_ENV_ALLOWLIST: "vcptcore-aidemo,vcptcore-aidemo2"
         # Writes stay off until Entra is configured (plan step 27).
         VC_ALLOW_WRITES: ""
-        # PORT: "<port the platform routes to>"  # server default is 8787
+        PORT: "80"  # the platform routes traffic and /health probes to containerPort 80
       secretConfig:
         GITHUB_DEPLOY_APP_PRIVATE_KEY: github-deploy-app-private-key
         GITHUB_THEME_APP_PRIVATE_KEY: github-theme-app-private-key
