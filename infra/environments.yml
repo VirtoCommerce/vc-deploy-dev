@@ -26,8 +26,6 @@
       # dealer map has nothing to plot. The exception text names this exact key.
       Search__PickupLocationFullTextSearchEnabled: true
   storefront:
-    # Same as the working vcptcore-aidemo2: the .NET storefront serves theme FE.
-    # The vcptcore cloud drops a `frontend:` block, so storefront must stay enabled.
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/storefront
     imageTag: 6.0
     config:
@@ -41,41 +39,6 @@
       enabled: false
   routes:
   - host: front-vcptcore-aidemo3.govirto.com
-    root: FE
-    paths:
-    - path: /xapi
-      route: platform
-    - path: /files
-      route: platform
-    - path: /connect/token
-      route: platform
-    - path: /connect/authorize
-      route: platform
-    - path: /connect/session
-      route: platform
-    - path: /.well-known/openid-configuration
-      route: platform
-    - path: /.well-known/oauth-authorization-server
-      route: platform
-    - path: /.well-known/oauth-protected-resource
-      route: platform
-    - path: /.well-known/jwks
-      route: platform
-    - path: /graphql
-      route: platform
-    - path: /revoke/token
-      route: platform
-    - path: /api/files
-      route: platform
-    - path: /externalsignin
-      route: platform
-    - path: /signin-oidc
-      route: platform
-    - path: /signin-google
-      route: platform
-  # Experiment: same host naming (<env>-front) and the same 9 paths as the working
-  # vcptcore-aidemo2, to see whether the front-<env> host name is what breaks "/".
-  - host: vcptcore-aidemo3-front.govirto.com
     root: FE
     paths:
     - path: /xapi
@@ -98,5 +61,4 @@
       route: platform
   protectedParameters:
     - platform.image.tag
-    - themes.FE
   version: 3.240
