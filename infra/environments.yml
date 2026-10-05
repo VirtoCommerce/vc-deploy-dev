@@ -45,7 +45,7 @@
     app2:
       enabled: false
   routes:
-  - host: vcptcore-selfdemo.govirto.com
+  - host: vcptcore-selfdemo-storefront.govirto.com
     root: B2B-store
     paths:
     - path: /xapi
