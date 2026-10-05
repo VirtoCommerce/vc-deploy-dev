@@ -73,6 +73,29 @@
       route: platform
     - path: /signin-google
       route: platform
+  # Experiment: same host naming (<env>-front) and the same 9 paths as the working
+  # vcptcore-aidemo2, to see whether the front-<env> host name is what breaks "/".
+  - host: vcptcore-aidemo3-front.govirto.com
+    root: FE
+    paths:
+    - path: /xapi
+      route: platform
+    - path: /files
+      route: platform
+    - path: /connect/token
+      route: platform
+    - path: /graphql
+      route: platform
+    - path: /revoke/token
+      route: platform
+    - path: /api/files
+      route: platform
+    - path: /externalsignin
+      route: platform
+    - path: /signin-oidc
+      route: platform
+    - path: /signin-google
+      route: platform
   protectedParameters:
     - platform.image.tag
     - themes.FE
