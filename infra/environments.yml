@@ -68,5 +68,5 @@
    - platform.image.tag
    - storefront.image.tag
    #- themes.B2B-store
-   # - custom.app1.image.tag  # off for now: the vc-deploy-mcp tag is set via imageTag in this file (VCST-5970)
+   - custom.app1.image.tag
   version: 3.208
