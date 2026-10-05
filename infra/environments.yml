@@ -26,9 +26,8 @@
       # dealer map has nothing to plot. The exception text names this exact key.
       Search__PickupLocationFullTextSearchEnabled: true
   storefront:
-    # Same model as vcst-qa: no .NET storefront pod, the theme is served by the
-    # `frontend` entry below (its name must match themes.<key> and routes[].root).
-    enabled: false
+    # Same as the working vcptcore-aidemo2: the .NET storefront serves theme FE.
+    # The vcptcore cloud drops a `frontend:` block, so storefront must stay enabled.
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/storefront
     imageTag: 6.0
     config:
@@ -40,9 +39,6 @@
       enabled: false
     app2:
       enabled: false
-  frontend:
-  - name: FE
-    prerender: true
   routes:
   - host: front-vcptcore-aidemo3.govirto.com
     root: FE
@@ -80,4 +76,4 @@
   protectedParameters:
     - platform.image.tag
     - themes.FE
-  version: 3.231
+  version: 3.240
