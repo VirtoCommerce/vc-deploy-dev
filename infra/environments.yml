@@ -145,8 +145,8 @@
     - path: /.well-known/ucp
       route: platform
   protectedParameters:
+   - themes.B2B-store
+   - custom.app1.image.tag
+   #- storefront.image.tag
    - platform.image.tag
-   - storefront.image.tag
-   #- themes.B2B-store
-   #- custom.app1.image.tag
   version: 3.208
