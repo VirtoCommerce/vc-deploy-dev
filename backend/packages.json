@@ -138,10 +138,6 @@
           "BlobName": "VirtoCommerce.Quote_3.1003.0-alpha.511.zip"
         },
         {
-          "Id": "VirtoCommerce.SalesRep",
-          "BlobName": "VirtoCommerce.SalesRep_3.1011.0-alpha.35.zip"
-        },
-        {
           "Id": "VirtoCommerce.OpenSearch",
           "BlobName": "VirtoCommerce.OpenSearch_3.1004.0-alpha.47.zip"
         },
@@ -383,6 +379,10 @@
         {
           "Id": "VirtoCommerce.XCart",
           "BlobName": "VirtoCommerce.XCart_3.1039.0-alpha.289.zip"
+        },
+        {
+          "Id": "VirtoCommerce.SalesRep",
+          "BlobName": "VirtoCommerce.SalesRep_3.1012.0-alpha.37.zip"
         }
       ]
     }
