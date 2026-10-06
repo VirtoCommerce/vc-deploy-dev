@@ -224,10 +224,6 @@
           "Version": "3.1006.0"
         },
         {
-          "Id": "VirtoCommerce.Customer",
-          "Version": "3.1028.0"
-        },
-        {
           "Id": "VirtoCommerce.Shipping",
           "Version": "3.1009.0"
         },
@@ -354,6 +350,10 @@
         {
           "Id": "VirtoCommerce.PushMessages",
           "Version": "3.1008.0"
+        },
+        {
+          "Id": "VirtoCommerce.Customer",
+          "Version": "3.1029.0"
         }
       ]
     },
