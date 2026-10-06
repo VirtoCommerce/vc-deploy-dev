@@ -244,10 +244,6 @@
           "BlobName": "VirtoCommerce.GoogleEcommerceAnalytics_4.1004.0-alpha.243.zip"
         },
         {
-          "Id": "VirtoCommerce.Customer",
-          "BlobName": "VirtoCommerce.Customer_3.1028.0-alpha.1016.zip"
-        },
-        {
           "Id": "VirtoCommerce.Payment",
           "BlobName": "VirtoCommerce.Payment_3.1010.0-alpha.304.zip"
         },
@@ -382,6 +378,10 @@
         {
           "Id": "VirtoCommerce.PushMessages",
           "BlobName": "VirtoCommerce.PushMessages_3.1008.0-alpha.121.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Customer",
+          "BlobName": "VirtoCommerce.Customer_3.1029.0-alpha.1018.zip"
         }
       ]
     }
