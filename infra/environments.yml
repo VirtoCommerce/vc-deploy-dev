@@ -89,6 +89,13 @@
       EventBus__Subscriptions__0__ConnectionName: "AzureEventGridApps"
       EventBus__Subscriptions__0__Name: "TestSubscriptionAppS"
       EventBus__Subscriptions__0__Events__0__EventId: "VirtoCommerce.Platform.Core.Security.Events.UserChangedEvent"
+      Punchout__Configurations__0__Id: Main
+      Punchout__Configurations__0__StoreId: B2B-store
+      Punchout__Configurations__0__SharedSecret: qa1-02b08c7c3e6dc8da89f628c8
+      Punchout__Configurations__0__SenderDomain: NetworkId
+      Punchout__Configurations__0__AllowedReturnUrls__0: https://punchoutcommerce.com/*
+      Punchout__Configurations__0__TokenLifeTime: "00:15:00"
+      Punchout__Configurations__0__SessionLifeTime: "04:00:00"
     secretConfig:
       Search__ElasticAppSearch__PrivateApiKey: elasticappsearch
       Notifications__SendGrid__ApiKey: sendkey
