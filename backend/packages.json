@@ -108,10 +108,6 @@
           "Version": "3.1003.0"
         },
         {
-          "Id": "VirtoCommerce.SalesRep",
-          "Version": "3.1011.0"
-        },
-        {
           "Id": "VirtoCommerce.OpenSearch",
           "Version": "3.1004.0"
         },
@@ -354,6 +350,10 @@
         {
           "Id": "VirtoCommerce.XCart",
           "Version": "3.1039.0"
+        },
+        {
+          "Id": "VirtoCommerce.SalesRep",
+          "Version": "3.1012.0"
         }
       ]
     },
