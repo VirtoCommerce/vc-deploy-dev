@@ -31,6 +31,9 @@
         },
         {
           "BlobName": "VirtoCommerce.XCart_3.1039.0-pr-145-b5a8.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.PageBuilderModule_3.1033.0-pr-166-60e2.zip"
         }
       ]
     },
@@ -47,10 +50,6 @@
         {
           "Id": "VirtoCommerce.PushMessages",
           "Version": "3.1008.0"
-        },
-        {
-          "Id": "VirtoCommerce.PageBuilderModule",
-          "Version": "3.1032.0"
         },
         {
           "Id": "VirtoCommerce.SalesRep",
