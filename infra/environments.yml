@@ -73,6 +73,8 @@
       FileUpload__Scopes__0__AllowAnonymousUpload: false
       # Search
       Search__Provider: ElasticSearch8
+      # Stable 16 (VCST-6042): PickupLocation search index (XPickup keyword search)
+      Search__PickupLocationFullTextSearchEnabled: true
       #Search__Provider: ElasticSearch
       #Search__Provider: ElasticAppSearch
       #Search__Provider: Lucene
