@@ -12,9 +12,8 @@
     sqlReplica: false
 
     config:
-
-      # VCST-6093 QA (temporary): CurrentValue line only clears the stored DB row; DefaultValue is the case under test
-      VirtoCommerce__Settings__Override__CurrentValue__Global__VirtoCommerce_Platform_Security_SignInLogEnabled: "false"
+    
+      # VCST-6093 QA (temporary): DefaultValue override under test
       VirtoCommerce__Settings__Override__DefaultValue__Global__VirtoCommerce_Platform_Security_SignInLogEnabled: "false"
 
       # VCST-5886 Punchout cXML (vc-module-punchout PR #1) - test configurations, one per SharedSecret.
