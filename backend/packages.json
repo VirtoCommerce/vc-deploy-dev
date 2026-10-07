@@ -34,6 +34,12 @@
         },
         {
           "BlobName": "VirtoCommerce.PageBuilderModule_3.1033.0-pr-166-60e2.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Seo_3.1006.0-alpha.101-vcst-5989-seo-explain-issues.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Catalog_3.1049.0-pr-910-04a5.zip"
         }
       ]
     },
@@ -162,10 +168,6 @@
         {
           "Id": "VirtoCommerce.GoogleSSO",
           "Version": "3.1003.0"
-        },
-        {
-          "Id": "VirtoCommerce.Seo",
-          "Version": "3.1005.0"
         },
         {
           "Id": "VirtoCommerce.ApplicationInsights",
@@ -362,10 +364,6 @@
         {
           "Id": "VirtoCommerce.Skyflow",
           "Version": "3.1005.0"
-        },
-        {
-          "Id": "VirtoCommerce.Catalog",
-          "Version": "3.1048.0"
         },
         {
           "Id": "VirtoCommerce.BackupRestore",
