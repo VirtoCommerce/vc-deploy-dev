@@ -135,7 +135,8 @@
         },
         {
           "Id": "VirtoCommerce.Quote",
-          "BlobName": "VirtoCommerce.Quote_3.1003.0-alpha.511.zip"
+          "BlobName": "VirtoCommerce.Quote_3.1004.0-pr-158-32d7.zip",
+          "Version": "3.1004.0-pr-158-32d7"
         },
         {
           "Id": "VirtoCommerce.OpenSearch",
@@ -337,7 +338,8 @@
         },
         {
           "Id": "VirtoCommerce.XOrder",
-          "BlobName": "VirtoCommerce.XOrder_3.1014.0-alpha.139.zip"
+          "BlobName": "VirtoCommerce.XOrder_3.1015.0-pr-53-0efd.zip",
+          "Version": "3.1015.0-pr-53-0efd"
         },
         {
           "Id": "VirtoCommerce.Return",
@@ -382,7 +384,8 @@
         },
         {
           "Id": "VirtoCommerce.XCart",
-          "BlobName": "VirtoCommerce.XCart_3.1039.0-alpha.289.zip"
+          "BlobName": "VirtoCommerce.XCart_3.1040.0-alpha.294-vcst-6089-cart-aggr-refactoring.zip",
+          "Version": "3.1040.0-alpha.294-vcst-6089-cart-aggr-refactoring"
         }
       ]
     }
