@@ -57,6 +57,20 @@
       PushMessages__FcmReceiverOptions__MessagingSenderId: 379069655005
       PushMessages__FcmReceiverOptions__AppId: 1:379069655005:web:5c9a2ac08af1ce3abdf834
       PushMessages__FcmReceiverOptions__VapidKey: BE3yPNuSnvEyqQjRWr79YMYEImQjPrk-L7I7vl8nkmf7lEU8POS1vYUmWKVlmIXBJ-PZWrbN4hOUAqmvnDoZsBU
+      # Stable 16 (VCST-6042): UCP module
+      UCP__DefaultStoreId: B2B-store
+      UCP__DefaultCurrency: USD
+      UCP__DefaultCultureName: en-US
+      UCP__StorefrontOrigin: "https://vcptcore-regression-storefront.govirto.com"
+      UCP__UcpBaseUrl: "https://vcptcore-regression-storefront.govirto.com/ucp/v1"
+      UCP__HandoffUrlTemplate: "https://vcptcore-regression-storefront.govirto.com/checkout?ucp_session={token}"
+      UCP__HandoffTokenTtlMinutes: 120
+      # Stable 16 (VCST-6042): WhiteLabeling organization logo upload scope
+      FileUpload__Scopes__0__Scope: organization-logos
+      FileUpload__Scopes__0__MaxFileSize: 5000000
+      FileUpload__Scopes__0__AllowedExtensions__0: .jpg
+      FileUpload__Scopes__0__AllowedExtensions__1: .png
+      FileUpload__Scopes__0__AllowAnonymousUpload: false
       # Search
       Search__Provider: ElasticSearch8
       #Search__Provider: ElasticSearch
@@ -182,6 +196,10 @@
     - path: /signin-oidc
       route: platform
     - path: /signin-google
+      route: platform
+    - path: /ucp
+      route: platform
+    - path: /.well-known/ucp
       route: platform
   protectedParameters:
     - platform.image.tag
