@@ -25,7 +25,11 @@
         {
           "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
           "BlobName": "VirtoCommerce.GoogleEcommerceAnalytics_4.1005.0-alpha.277-vcst-5337-ga-event-search.zip"
-        } 
+        },
+        {
+          "Id": "VirtoCommerce.XCart",
+          "BlobName": "VirtoCommerce.XCart_3.1040.0.zip"
+        }
       ]
     },
     {
@@ -49,10 +53,6 @@
         {
           "Id": "VirtoCommerce.PageBuilderModule",
           "Version": "3.1032.0"
-        },
-        {
-          "Id": "VirtoCommerce.XCart",
-          "Version": "3.1039.0"
         },
         {
           "Id": "VirtoCommerce.AzureBlobAssets",
