@@ -24,6 +24,9 @@
         },
         {
           "BlobName": "VirtoCommerce.XCart_3.1040.0-pr-149-9fe0.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Return_3.1005.0-pr-28-62f9.zip"
         }
       ]
     },
@@ -353,10 +356,6 @@
           "Id": "VirtoCommerce.OpenSearch",
           "Version": "3.1004.0"
         },     
-        {
-          "Id": "VirtoCommerce.Return",
-          "Version": "3.1004.0"
-        },
         {
           "Id": "VirtoCommerce.Cart",
           "Version": "3.1012.0"
