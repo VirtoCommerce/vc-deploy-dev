@@ -268,10 +268,6 @@
           "Version": "3.1018.0"
         },
         {
-          "Id": "VirtoCommerce.FileExperienceApi",
-          "Version": "3.1006.0"
-        },
-        {
           "Id": "VirtoCommerce.AuthorizeNetPayment",
           "Version": "3.1005.0"
         },
@@ -354,6 +350,10 @@
         {
           "Id": "VirtoCommerce.PageBuilderModule",
           "Version": "3.1033.0"
+        },
+        {
+          "Id": "VirtoCommerce.FileExperienceApi",
+          "Version": "3.1007.0"
         }
       ]
     },
