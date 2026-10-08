@@ -186,7 +186,7 @@
       name: storybook
       enabled: true
       imageRepository: ghcr.io/virtocommerce/vc-theme-b2b-vue-storybook
-      servicePlan: F1
+      servicePlan: B1
       type: standalone
       probePath: /
       ingressPath: /
