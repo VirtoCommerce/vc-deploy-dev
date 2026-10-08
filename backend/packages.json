@@ -27,6 +27,9 @@
         },
         {
           "BlobName": "VirtoCommerce.Return_3.1005.0-pr-28-62f9.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.SalesRep_3.1013.0-pr-18-d367.zip"
         }
       ]
     },
@@ -358,10 +361,6 @@
         },     
         {
           "Id": "VirtoCommerce.Cart",
-          "Version": "3.1012.0"
-        },
-        {
-          "Id": "VirtoCommerce.SalesRep",
           "Version": "3.1012.0"
         }
       ]
