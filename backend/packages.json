@@ -370,11 +370,6 @@
           "BlobName": "VirtoCommerce.SalesRep_3.1012.0-alpha.37.zip"
         },
         {
-          "Id": "VirtoCommerce.XCart",
-          "BlobName": "VirtoCommerce.XCart_3.1040.0-alpha.294-vcst-6089-cart-aggr-refactoring.zip",
-          "Version": "3.1040.0-alpha.294-vcst-6089-cart-aggr-refactoring"
-        },
-        {
           "Id": "VirtoCommerce.PageBuilderModule",
           "BlobName": "VirtoCommerce.PageBuilderModule_3.1034.0-alpha.876.zip"
         },
@@ -385,6 +380,10 @@
         {
           "Id": "VirtoCommerce.Seo",
           "BlobName": "VirtoCommerce.Seo_3.1006.0-alpha.99.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XCart",
+          "BlobName": "VirtoCommerce.XCart_3.1040.0-alpha.291.zip"
         }
       ]
     }
