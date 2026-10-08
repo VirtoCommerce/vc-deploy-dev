@@ -344,16 +344,16 @@
           "Version": "3.1006.0"
         },
         {
-          "Id": "VirtoCommerce.XCart",
-          "Version": "3.1040.0"
-        },
-        {
           "Id": "VirtoCommerce.Catalog",
           "Version": "3.1049.0"
         },
         {
           "Id": "VirtoCommerce.FileExperienceApi",
           "Version": "3.1008.0"
+        },
+        {
+          "Id": "VirtoCommerce.XCart",
+          "Version": "3.1041.0"
         }
       ]
     },
