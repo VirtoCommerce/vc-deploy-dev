@@ -332,10 +332,6 @@
           "Version": "3.1010.0"
         },
         {
-          "Id": "VirtoCommerce.PageBuilderModule",
-          "Version": "3.1032.0"
-        },
-        {
           "Id": "VirtoCommerce.PushMessages",
           "Version": "3.1008.0"
         },
@@ -354,6 +350,10 @@
         {
           "Id": "VirtoCommerce.XCart",
           "Version": "3.1039.0"
+        },
+        {
+          "Id": "VirtoCommerce.PageBuilderModule",
+          "Version": "3.1033.0"
         }
       ]
     },
