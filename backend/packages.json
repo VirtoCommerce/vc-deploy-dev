@@ -25,7 +25,19 @@
         {
           "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
           "BlobName": "VirtoCommerce.GoogleEcommerceAnalytics_4.1005.0-alpha.277-vcst-5337-ga-event-search.zip"
-        } 
+        },
+        {
+          "BlobName": "VirtoCommerce.FileExperienceApi_3.1007.0-pr-25-ff70.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.XOrder_3.1015.0-pr-55-4471.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Quote_3.1004.0-pr-159-7628.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.XCart_3.1040.0-pr-149-9fe0.zip"
+        }
       ]
     },
     {
@@ -43,16 +55,8 @@
           "Version": "3.1012.0"
         },
         {
-          "Id": "VirtoCommerce.FileExperienceApi",
-          "Version": "3.1006.0"
-        },
-        {
           "Id": "VirtoCommerce.PageBuilderModule",
           "Version": "3.1032.0"
-        },
-        {
-          "Id": "VirtoCommerce.XCart",
-          "Version": "3.1039.0"
         },
         {
           "Id": "VirtoCommerce.AzureBlobAssets",
@@ -235,10 +239,6 @@
           "Version": "3.1004.0"
         },
         {
-          "Id": "VirtoCommerce.Quote",
-          "Version": "3.1003.0"
-        },
-        {
           "Id": "VirtoCommerce.XRecommend",
           "Version": "3.1002.0"
         },
@@ -337,10 +337,6 @@
         {
           "Id": "VirtoCommerce.XPickup",
           "Version": "3.1008.0"
-        },
-        {
-          "Id": "VirtoCommerce.XOrder",
-          "Version": "3.1014.0"
         },
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
