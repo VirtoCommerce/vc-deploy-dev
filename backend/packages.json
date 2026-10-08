@@ -5,6 +5,18 @@
   "PlatformImageTag": "3.1039.12",
   "PlatformAssetUrl": "",
   "Sources": [
+
+    {
+      "Name": "AzureBlob",
+      "Modules": [
+        {
+          "Id": "VirtoCommerce.AI",
+          "BlobName": "VirtoCommerce.VirtoOZManagement_3.1000.0-pr-2-133c.zip"
+        }
+      ],
+      "Container": "packages",
+      "ServiceUri": "https://vc3prerelease.blob.core.windows.net"
+    },
     {
       "Name": "GithubReleases",
       "ModuleSources": [
