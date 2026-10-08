@@ -12,6 +12,18 @@
       "Modules": [
         {
           "BlobName": "VirtoCommerce.PageBuilderModule_3.1034.0-pr-167-0ed1.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.FileExperienceApi_3.1007.0-pr-25-ff70.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.XOrder_3.1015.0-pr-55-4471.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Quote_3.1004.0-pr-159-7628.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.XCart_3.1040.0-pr-149-9fe0.zip"
         }
       ]
     },
@@ -170,10 +182,6 @@
           "Version": "3.1004.0"
         },
         {
-          "Id": "VirtoCommerce.FileExperienceApi",
-          "Version": "3.1006.0"
-        },
-        {
           "Id": "VirtoCommerce.XRecommend",
           "Version": "3.1002.0"
         },
@@ -326,16 +334,8 @@
           "Version": "3.1018.0"
         },
         {
-          "Id": "VirtoCommerce.Quote",
-          "Version": "3.1003.0"
-        },
-        {
           "Id": "VirtoCommerce.Marketing",
           "Version": "3.1009.0"
-        },
-        {
-          "Id": "VirtoCommerce.XOrder",
-          "Version": "3.1014.0"
         },
         {
           "Id": "VirtoCommerce.Core",
@@ -364,10 +364,6 @@
         {
           "Id": "VirtoCommerce.SalesRep",
           "Version": "3.1012.0"
-        },
-        {
-          "Id": "VirtoCommerce.XCart",
-          "Version": "3.1039.0"
         }
       ]
     }
