@@ -134,11 +134,6 @@
           "BlobName": "VirtoCommerce.ElasticAppSearch_3.1003.0-alpha.190.zip"
         },
         {
-          "Id": "VirtoCommerce.Quote",
-          "BlobName": "VirtoCommerce.Quote_3.1004.0-pr-158-32d7.zip",
-          "Version": "3.1004.0-pr-158-32d7"
-        },
-        {
           "Id": "VirtoCommerce.OpenSearch",
           "BlobName": "VirtoCommerce.OpenSearch_3.1004.0-alpha.47.zip"
         },
@@ -382,6 +377,10 @@
         {
           "Id": "VirtoCommerce.XOrder",
           "BlobName": "VirtoCommerce.XOrder_3.1015.0-alpha.141.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Quote",
+          "BlobName": "VirtoCommerce.Quote_3.1004.0-alpha.515.zip"
         }
       ]
     }
