@@ -104,10 +104,6 @@
           "Version": "3.1003.0"
         },
         {
-          "Id": "VirtoCommerce.Quote",
-          "Version": "3.1003.0"
-        },
-        {
           "Id": "VirtoCommerce.OpenSearch",
           "Version": "3.1004.0"
         },
@@ -354,6 +350,10 @@
         {
           "Id": "VirtoCommerce.XOrder",
           "Version": "3.1015.0"
+        },
+        {
+          "Id": "VirtoCommerce.Quote",
+          "Version": "3.1004.0"
         }
       ]
     },
