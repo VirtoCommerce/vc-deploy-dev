@@ -163,11 +163,6 @@
           "BlobName": "VirtoCommerce.ApplicationInsights_3.1005.0-alpha.75.zip"
         },
         {
-          "Id": "VirtoCommerce.Seo",
-          "BlobName": "VirtoCommerce.Seo_3.1006.0-alpha.101-vcst-5989-seo-explain-issues.zip",
-          "Version": "3.1006.0-alpha.101-vcst-5989-seo-explain-issues"
-        },
-        {
           "Id": "VirtoCommerce.AzureAD",
           "BlobName": "VirtoCommerce.AzureAD_3.1003.0-alpha.85.zip"
         },
@@ -386,6 +381,10 @@
         {
           "Id": "VirtoCommerce.FileExperienceApi",
           "BlobName": "VirtoCommerce.FileExperienceApi_3.1007.0-alpha.98.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Seo",
+          "BlobName": "VirtoCommerce.Seo_3.1006.0-alpha.99.zip"
         }
       ]
     }
