@@ -369,10 +369,6 @@
           "BlobName": "VirtoCommerce.PageBuilderModule_3.1034.0-alpha.876.zip"
         },
         {
-          "Id": "VirtoCommerce.FileExperienceApi",
-          "BlobName": "VirtoCommerce.FileExperienceApi_3.1007.0-alpha.98.zip"
-        },
-        {
           "Id": "VirtoCommerce.Seo",
           "BlobName": "VirtoCommerce.Seo_3.1006.0-alpha.99.zip"
         },
@@ -383,6 +379,10 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "BlobName": "VirtoCommerce.Catalog_3.1049.0-alpha.2575.zip"
+        },
+        {
+          "Id": "VirtoCommerce.FileExperienceApi",
+          "BlobName": "VirtoCommerce.FileExperienceApi_3.1008.0-alpha.100.zip"
         }
       ]
     }
