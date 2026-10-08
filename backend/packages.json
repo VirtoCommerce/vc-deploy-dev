@@ -277,10 +277,6 @@
           "BlobName": "VirtoCommerce.CatalogCsvImportModule_3.1007.0-alpha.402.zip"
         },
         {
-          "Id": "VirtoCommerce.FileExperienceApi",
-          "BlobName": "VirtoCommerce.FileExperienceApi_3.1006.0-alpha.96.zip"
-        },
-        {
           "Id": "VirtoCommerce.Contracts",
           "BlobName": "VirtoCommerce.Contracts_3.1006.0-alpha.179.zip"
         },
@@ -386,6 +382,10 @@
         {
           "Id": "VirtoCommerce.PageBuilderModule",
           "BlobName": "VirtoCommerce.PageBuilderModule_3.1034.0-alpha.876.zip"
+        },
+        {
+          "Id": "VirtoCommerce.FileExperienceApi",
+          "BlobName": "VirtoCommerce.FileExperienceApi_3.1007.0-alpha.98.zip"
         }
       ]
     }
