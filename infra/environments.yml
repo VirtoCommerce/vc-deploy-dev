@@ -91,6 +91,7 @@
       FileUpload__Scopes__3__AllowedExtensions__1: .png
       FileUpload__Scopes__4__Scope: product-configuration
       FileUpload__Scopes__4__MaxFileSize: 10000000
+      FileUpload__Scopes__3__MinFileSize: 1
       FileUpload__Scopes__4__AllowedExtensions__0: .doc
       FileUpload__Scopes__4__AllowedExtensions__1: .rtf
       FileUpload__Scopes__4__AllowedExtensions__2: .docx
@@ -201,8 +202,8 @@
   storefront:
     enabled: false
     themes:
-      B2B-store: https://vc3prerelease.blob.core.windows.net/packages/vc-theme-b2b-vue-2.59.0-pr-2494-67d0-67d0c980.zip
-      B2B-loyalty: https://github.com/VirtoCommerce/vc-frontend/releases/download/2.59.0/vc-theme-b2b-vue-2.59.0.zip
+      B2B-store: https://github.com/VirtoCommerce/vc-frontend-next/releases/download/3.0.0/vc-frontend-next-3.0.0.zip
+      B2B-loyalty: https://github.com/VirtoCommerce/vc-frontend-next/releases/download/3.0.0/vc-frontend-next-3.0.0.zip
     headers:
         Cross-Origin-Embedder-Policy: unsafe-none
         Cross-Origin-Resource-Policy: cross-origin
@@ -276,6 +277,8 @@
       route: platform
     - path: /api/files
       route: platform
+    - path: /api/otp
+      route: platform
     - path: /externalsignin
       route: platform
     - path: /signin-oidc
@@ -300,6 +303,8 @@
     - path: /revoke/token
       route: platform
     - path: /api/files
+      route: platform
+    - path: /api/otp
       route: platform
     - path: /externalsignin
       route: platform
