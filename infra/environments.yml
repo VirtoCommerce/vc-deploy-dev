@@ -1,7 +1,7 @@
 - name: vcptcore-demo
   gitops: true
   production: false
-  servicePlan: P2
+  servicePlan: B2
   platform:
     #dbProvider: Azure Database for PostgreSQL
     headers:
