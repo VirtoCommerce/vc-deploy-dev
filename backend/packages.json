@@ -25,7 +25,11 @@
         {
           "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
           "BlobName": "VirtoCommerce.GoogleEcommerceAnalytics_4.1005.0-alpha.277-vcst-5337-ga-event-search.zip"
-        } 
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "BlobName": "VirtoCommerce.Catalog_3.1049.0.zip"
+        }
       ]
     },
     {
@@ -209,10 +213,6 @@
         {
           "Id": "VirtoCommerce.Search",
           "Version": "3.1010.0"
-        },
-        {
-          "Id": "VirtoCommerce.Catalog",
-          "Version": "3.1048.0"
         },
         {
           "Id": "VirtoCommerce.AzureSearch",
