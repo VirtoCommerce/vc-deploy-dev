@@ -30,10 +30,6 @@
           "BlobName": "VirtoCommerce.Contentful_3.1002.0-alpha.130.zip"
         },
         {
-          "Id": "VirtoCommerce.Punchout",
-          "BlobName": "VirtoCommerce.Punchout_3.1000.0-alpha.54-vcst-5887-punchoutordermessage.zip"
-        },
-        {
           "Id": "VirtoCommerce.ElasticSearch",
           "BlobName": "VirtoCommerce.ElasticSearch_3.807.0-alpha.292.zip"
         },
@@ -381,6 +377,10 @@
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.1021.0-alpha.386.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Punchout",
+          "BlobName": "VirtoCommerce.Punchout_3.1000.0-alpha.5.zip"
         }
       ]
     }
