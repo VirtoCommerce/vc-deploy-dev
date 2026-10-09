@@ -226,10 +226,6 @@
           "BlobName": "VirtoCommerce.Payment_3.1010.0-alpha.304.zip"
         },
         {
-          "Id": "VirtoCommerce.Xapi",
-          "BlobName": "VirtoCommerce.Xapi_3.1026.0-alpha.213.zip"
-        },
-        {
           "Id": "VirtoCommerce.CatalogPersonalization",
           "BlobName": "VirtoCommerce.CatalogPersonalization_3.1006.0-alpha.316.zip"
         },
@@ -381,6 +377,10 @@
         {
           "Id": "VirtoCommerce.Punchout",
           "BlobName": "VirtoCommerce.Punchout_3.1000.0-alpha.5.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Xapi",
+          "BlobName": "VirtoCommerce.Xapi_3.1027.0-alpha.216.zip"
         }
       ]
     }
