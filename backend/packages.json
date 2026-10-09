@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.1076.0",
+  "PlatformVersion": "3.1078.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.1076.0",
+  "PlatformImageTag": "3.1078.0",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
   ],
@@ -25,7 +25,7 @@
         {
           "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
           "BlobName": "VirtoCommerce.GoogleEcommerceAnalytics_4.1005.0-alpha.277-vcst-5337-ga-event-search.zip"
-        } 
+        }
       ]
     },
     {
