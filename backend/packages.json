@@ -25,7 +25,11 @@
         {
           "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
           "BlobName": "VirtoCommerce.GoogleEcommerceAnalytics_4.1005.0-alpha.277-vcst-5337-ga-event-search.zip"
-        } 
+        },
+        {
+          "Id": "VirtoCommerce.XOrder",
+          "BlobName": "VirtoCommerce.XOrder_3.1015.0.zip"
+        }
       ]
     },
     {
@@ -337,10 +341,6 @@
         {
           "Id": "VirtoCommerce.XPickup",
           "Version": "3.1008.0"
-        },
-        {
-          "Id": "VirtoCommerce.XOrder",
-          "Version": "3.1014.0"
         },
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
