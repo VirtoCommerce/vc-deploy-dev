@@ -61,6 +61,9 @@
       # Bekaert build + the specsavers-theme preset file; store bekaert-fencing selects no such preset, so it
       # renders the compiled Bekaert brand. Pinned separately so a future FE (Specsavers) theme deploy cannot move it.
       BEKAERT-FENCING: https://vcptcore-aidemo.govirto.com/cms-content/assets/assets/themes/specsavers-theme-bekaert-theme-2026-09-03T13-27-46Z.zip
+      # Domain 2, store 2 (vcptcore-aidemo-cookes.govirto.com): Cookes, store cookes. Theme = vc-storefront-clone build of fork branch
+      # clone/cookes-2.56.0 (vc-frontend 2.56.0, the same baseline FE runs on this env): Cookes header/footer/listing chrome.
+      COOKES: https://vcptcore-aidemo.govirto.com/cms-content/assets/themes/cookes-theme-2026-10-09T15-46-27Z.zip
   customApps:
     app1:
       enabled: false
@@ -90,6 +93,27 @@
       route: platform
   - host: vcptcore-aidemo-bekaert.govirto.com
     root: BEKAERT-FENCING
+    paths:
+    - path: /xapi
+      route: platform
+    - path: /files
+      route: platform
+    - path: /connect/token
+      route: platform
+    - path: /graphql
+      route: platform
+    - path: /revoke/token
+      route: platform
+    - path: /api/files
+      route: platform
+    - path: /externalsignin
+      route: platform
+    - path: /signin-oidc
+      route: platform
+    - path: /signin-google
+      route: platform
+  - host: vcptcore-aidemo-cookes.govirto.com
+    root: COOKES
     paths:
     - path: /xapi
       route: platform
