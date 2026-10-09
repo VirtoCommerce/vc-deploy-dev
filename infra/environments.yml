@@ -57,6 +57,10 @@
       # so a stale URL here is a live landmine - it reverted the live theme to Singer on 2026-08-27
       # and would have reverted this one to Bekaert.
       FE: https://vcptcore-aidemo.govirto.com/cms-content/assets/assets/themes/specsavers-theme-bekaert-theme-2026-09-03T13-27-46Z.zip
+      # Domain 2 (vcptcore-aidemo-bekaert.govirto.com): Bekaert Fencing, store bekaert-fencing. Same zip as FE on purpose — FE is the
+      # Bekaert build + the specsavers-theme preset file; store bekaert-fencing selects no such preset, so it
+      # renders the compiled Bekaert brand. Pinned separately so a future FE (Specsavers) theme deploy cannot move it.
+      BEKAERT-FENCING: https://vcptcore-aidemo.govirto.com/cms-content/assets/assets/themes/specsavers-theme-bekaert-theme-2026-09-03T13-27-46Z.zip
   customApps:
     app1:
       enabled: false
@@ -65,6 +69,27 @@
   routes:
   - host: front-vcptcore-aidemo.govirto.com
     root: FE
+    paths:
+    - path: /xapi
+      route: platform
+    - path: /files
+      route: platform
+    - path: /connect/token
+      route: platform
+    - path: /graphql
+      route: platform
+    - path: /revoke/token
+      route: platform
+    - path: /api/files
+      route: platform
+    - path: /externalsignin
+      route: platform
+    - path: /signin-oidc
+      route: platform
+    - path: /signin-google
+      route: platform
+  - host: vcptcore-aidemo-bekaert.govirto.com
+    root: BEKAERT-FENCING
     paths:
     - path: /xapi
       route: platform
