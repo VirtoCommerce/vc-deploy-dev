@@ -7,6 +7,8 @@
     #imageTag: 3.832.9-e6dda9a
     sqlReplica: false
     config:
+      # Environment label (Platform Admin + storefront) - default only, a value saved in Settings wins
+      VirtoCommerce__Settings__Override__DefaultValue__Global__VirtoCommerce_Platform_EnvironmentName: "Stable V15"
       FrontendSecurity__OrganizationMaintainerRole: Organization maintainer
       Authorization__AllowApiAccessForCustomers: true
       DOTNET_USE_POLLING_FILE_WATCHER: true
