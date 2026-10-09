@@ -403,6 +403,7 @@
       Notifications__Smtp__Password: smtppassword-sendgrid
       Search__ElasticAppSearch__PrivateApiKey: elasticappsearch
       Serilog__WriteTo__1__Args__connectionString: connectionstringaiqa
+      APPLICATIONINSIGHTS_CONNECTION_STRING: appinsights-connectionstring-vcptcore-qa1
       EventBus__Connections__0__ConnectionOptionsSerialized: eventbusconnection
       #Assets__AzureBlobStorage__ConnectionString: azureblobconnectionstring
       PushMessages__FcmSenderOptions__PrivateKey: firebase-privatekey
