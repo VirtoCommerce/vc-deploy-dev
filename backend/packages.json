@@ -25,7 +25,11 @@
         {
           "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
           "BlobName": "VirtoCommerce.GoogleEcommerceAnalytics_4.1005.0-alpha.277-vcst-5337-ga-event-search.zip"
-        } 
+        },
+        {
+          "Id": "VirtoCommerce.FileExperienceApi",
+          "BlobName": "VirtoCommerce.FileExperienceApi_3.1007.0.zip"
+        }
       ]
     },
     {
@@ -41,10 +45,6 @@
         {
           "Id": "VirtoCommerce.Cart",
           "Version": "3.1012.0"
-        },
-        {
-          "Id": "VirtoCommerce.FileExperienceApi",
-          "Version": "3.1006.0"
         },
         {
           "Id": "VirtoCommerce.PageBuilderModule",
