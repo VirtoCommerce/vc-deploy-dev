@@ -25,7 +25,11 @@
         {
           "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
           "BlobName": "VirtoCommerce.GoogleEcommerceAnalytics_4.1005.0-alpha.277-vcst-5337-ga-event-search.zip"
-        } 
+        },
+        {
+          "Id": "VirtoCommerce.Seo",
+          "BlobName": "VirtoCommerce.Seo_3.1006.0.zip"
+        }
       ]
     },
     {
@@ -141,10 +145,6 @@
         {
           "Id": "VirtoCommerce.GoogleSSO",
           "Version": "3.1003.0"
-        },
-        {
-          "Id": "VirtoCommerce.Seo",
-          "Version": "3.1005.0"
         },
         {
           "Id": "VirtoCommerce.WebHooks",
