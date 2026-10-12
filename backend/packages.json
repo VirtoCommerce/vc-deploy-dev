@@ -316,10 +316,6 @@
           "Version": "3.1012.0"
         },
         {
-          "Id": "VirtoCommerce.PageBuilderModule",
-          "Version": "3.1033.0"
-        },
-        {
           "Id": "VirtoCommerce.Seo",
           "Version": "3.1006.0"
         },
@@ -354,6 +350,10 @@
         {
           "Id": "VirtoCommerce.SqlQueries",
           "Version": "3.1006.0"
+        },
+        {
+          "Id": "VirtoCommerce.PageBuilderModule",
+          "Version": "3.1034.0"
         }
       ]
     },
