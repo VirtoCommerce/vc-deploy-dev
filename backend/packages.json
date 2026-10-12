@@ -43,6 +43,9 @@
         },
         {
           "BlobName": "VirtoCommerce.SqlQueries_3.1006.0-pr-25-6559.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.ImageTools_3.1007.0-pr-130-6db0.zip"
         }
       ]
     },
@@ -191,10 +194,6 @@
         {
           "Id": "VirtoCommerce.BulkActionsModule",
           "Version": "3.1004.0"
-        },
-        {
-          "Id": "VirtoCommerce.ImageTools",
-          "Version": "3.1006.0"
         },
         {
           "Id": "VirtoCommerce.LuceneSearch",
