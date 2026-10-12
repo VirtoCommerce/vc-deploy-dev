@@ -50,6 +50,7 @@
       FileUpload__RootPath: attachments
       FileUpload__Scopes__0__Scope: quote-attachments
       FileUpload__Scopes__0__MaxFileSize: 10485760
+      FileUpload__Scopes__0__MinFileSize: 1
       FileUpload__Scopes__0__AllowedExtensions__0: .csv
       FileUpload__Scopes__0__AllowedExtensions__1: .docx
       FileUpload__Scopes__0__AllowedExtensions__2: .jpg
@@ -64,6 +65,7 @@
       FileUpload__Scopes__1__AllowAnonymousUpload: false
       FileUpload__Scopes__2__Scope: organization-logos
       FileUpload__Scopes__2__MaxFileSize: 5000000
+      FileUpload__Scopes__2__MinFileSize: 1
       FileUpload__Scopes__2__AllowedExtensions__0: .jpg
       FileUpload__Scopes__2__AllowedExtensions__1: .png
       FileUpload__Scopes__2__AllowAnonymousUpload: false
@@ -82,7 +84,8 @@
       FileUpload__Scopes__3__AllowedExtensions__9: .odt
       FileUpload__Scopes__3__AllowAnonymousUpload: true
       FileUpload__Scopes__4__Scope: sales-rep-documents
-      FileUpload__Scopes__4__MaxFileSize: 52428800          # bytes; must exceed the largest document
+      FileUpload__Scopes__4__MaxFileSize: 52428800
+      FileUpload__Scopes__4__MinFileSize: 1
       FileUpload__Scopes__4__AllowAnonymousUpload: false
       FileUpload__Scopes__4__AllowedExtensions__0: .pdf
       FileUpload__Scopes__4__AllowedExtensions__1: .doc
@@ -99,6 +102,15 @@
       FileUpload__Scopes__4__AllowedExtensions__12: .jpeg
       FileUpload__Scopes__4__AllowedExtensions__13: .gif
       FileUpload__Scopes__4__AllowedExtensions__14: .webp
+      FileUpload__Scopes__5__Scope: return-attachments
+      FileUpload__Scopes__5__MaxFileSize: 5242880
+      FileUpload__Scopes__5__MinFileSize: 1
+      FileUpload__Scopes__5__AllowAnonymousUpload: false
+      FileUpload__Scopes__5__AllowedExtensions__0: .jpg
+      FileUpload__Scopes__5__AllowedExtensions__1: .jpeg
+      FileUpload__Scopes__5__AllowedExtensions__2: .png
+      FileUpload__Scopes__5__AllowedExtensions__3: .webp
+      FileUpload__Scopes__5__AllowedExtensions__4: .pdf
       # Send notifications via email
       Notifications__DefaultSender: virto.start@virtoway.com
       Notifications__Gateway: SendGrid
