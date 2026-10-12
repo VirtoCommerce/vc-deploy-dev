@@ -144,6 +144,8 @@
       route: platform
     - path: /.well-known/ucp
       route: platform
+    - path: /modules
+      route: platform
   protectedParameters:
    - themes.B2B-store
    - custom.app1.image.tag
