@@ -13,10 +13,6 @@
 
     config:
     
-      # VCST-6199 QA (temporary): own read-only SqlQueries connection; cloud vcptcore-qa1_vcptcore_user_ro login does not exist.
-      # Remove this line and DROP USER [qa1_sqlqueries_ro] after VCST-6199 is verified.
-      ConnectionStrings__SqlQueries.QaReadOnly: "Server=tcp:vc-managed-03-dbserver.database.windows.net,1433;Database=vcptcore-qa1-platform_vcptcore;User ID=qa1_sqlqueries_ro;Password=Password1!;Encrypt=True;TrustServerCertificate=False;"
-
       
       # VCST-6093 QA (temporary): DefaultValue override under test
       VirtoCommerce__Settings__Override__DefaultValue__Global__VirtoCommerce_Platform_Security_SignInLogEnabled: "false"
