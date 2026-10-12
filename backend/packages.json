@@ -10,17 +10,18 @@
       "ModuleSources": [
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
-      "Modules": []
+      "Modules": [
+        {
+          "Id": "VirtoCommerce.Loyalty",
+          "Version": "3.1009.0"
+        }
+      ]
     },
     {
       "Name": "AzureBlob",
       "Container": "packages",
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
-        {
-          "Id": "VirtoCommerce.Loyalty",
-          "BlobName": "VirtoCommerce.Loyalty_3.1007.0-pr-17-df7a.zip"
-        },
         {
           "Id": "VirtoCommerce.SeqLog",
           "BlobName": "VirtoCommerce.SeqLog_3.800.0.zip"
