@@ -58,6 +58,10 @@
         },
         {
           "BlobName": "VirtoCommerce.Subscription_3.1006.0-pr-128-7611.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Store",
+          "BlobName": "VirtoCommerce.Store_3.1010.0-pr-186-87fa.zip"
         }
       ]
     },
@@ -298,10 +302,6 @@
         {
           "Id": "VirtoCommerce.Search",
           "Version": "3.1010.0"
-        },
-        {
-          "Id": "VirtoCommerce.Store",
-          "Version": "3.1009.0"
         },
         {
           "Id": "VirtoCommerce.UCP",
