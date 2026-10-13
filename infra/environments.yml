@@ -67,6 +67,10 @@
       UCP__UcpBaseUrl: "https://vcptcore-regression-storefront.govirto.com/ucp/v1"
       UCP__HandoffUrlTemplate: "https://vcptcore-regression-storefront.govirto.com/checkout?ucp_session={token}"
       UCP__HandoffTokenTtlMinutes: 120
+      # UCP signed-in buyers (vc-module-ucp README, "Let buyers sign in"): one public host for discovery, MCP and OAuth
+      UCP__PublicOrigin: "https://vcptcore-regression-storefront.govirto.com"
+      Authorization__Resources__0: "https://vcptcore-regression-storefront.govirto.com/ucp/mcp"
+      Authorization__OAuthLoginPath: /oauth/authorize
       # File upload scope for organization logos (White Labeling)
       FileUpload__Scopes__0__Scope: organization-logos
       FileUpload__Scopes__0__MaxFileSize: 5000000
@@ -204,6 +208,12 @@
     - path: /ucp
       route: platform
     - path: /.well-known/ucp
+      route: platform
+    - path: /.well-known/oauth-protected-resource
+      route: platform
+    - path: /.well-known/openid-configuration
+      route: platform
+    - path: /connect
       route: platform
   protectedParameters:
     - platform.image.tag
