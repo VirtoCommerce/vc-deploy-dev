@@ -46,6 +46,15 @@
         },
         {
           "BlobName": "VirtoCommerce.ImageTools_3.1007.0-pr-130-6db0.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Tax_3.1008.0-pr-61-cd26.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.CatalogPersonalization_3.1007.0-pr-93-af5d.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.CatalogPublishing_3.1008.0-pr-82-23a3.zip"
         }
       ]
     },
@@ -212,10 +221,6 @@
           "Version": "3.1006.0"
         },
         {
-          "Id": "VirtoCommerce.CatalogPersonalization",
-          "Version": "3.1006.0"
-        },
-        {
           "Id": "VirtoCommerce.Pages",
           "Version": "3.1010.0"
         },
@@ -226,10 +231,6 @@
         {
           "Id": "VirtoCommerce.FileExperienceApi",
           "Version": "3.1006.0"
-        },
-        {
-          "Id": "VirtoCommerce.CatalogPublishing",
-          "Version": "3.1007.0"
         },
         {
           "Id": "VirtoCommerce.Contracts",
@@ -314,10 +315,6 @@
         {
           "Id": "VirtoCommerce.Pricing",
           "Version": "3.1008.0"
-        },
-        {
-          "Id": "VirtoCommerce.Tax",
-          "Version": "3.1007.0"
         },
         {
           "Id": "VirtoCommerce.Xapi",
