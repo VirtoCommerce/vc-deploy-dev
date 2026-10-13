@@ -295,11 +295,6 @@
           "BlobName": "VirtoCommerce.XCatalog_3.1023.0-alpha.234.zip"
         },
         {
-          "Id": "VirtoCommerce.Return",
-          "BlobName": "VirtoCommerce.Return_3.1005.0-pr-28-fb4f.zip",
-          "Version": "3.1005.0-pr-28-fb4f"
-        },
-        {
           "Id": "VirtoCommerce.XFrontend",
           "BlobName": "VirtoCommerce.XFrontend_3.1007.0-alpha.55.zip"
         },
@@ -382,6 +377,10 @@
         {
           "Id": "VirtoCommerce.CatalogPublishing",
           "BlobName": "VirtoCommerce.CatalogPublishing_3.1008.0-alpha.418.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Return",
+          "BlobName": "VirtoCommerce.Return_3.1005.0-alpha.165.zip"
         }
       ]
     }
