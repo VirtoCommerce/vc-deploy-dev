@@ -55,6 +55,9 @@
         },
         {
           "BlobName": "VirtoCommerce.CatalogPublishing_3.1008.0-pr-82-23a3.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Subscription_3.1006.0-pr-128-7611.zip"
         }
       ]
     },
@@ -242,10 +245,6 @@
         },
         {
           "Id": "VirtoCommerce.AvalaraTax",
-          "Version": "3.1005.0"
-        },
-        {
-          "Id": "VirtoCommerce.Subscription",
           "Version": "3.1005.0"
         },
         {
