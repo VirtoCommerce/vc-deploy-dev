@@ -268,10 +268,6 @@
           "Version": "3.1023.0"
         },
         {
-          "Id": "VirtoCommerce.Return",
-          "Version": "3.1004.0"
-        },
-        {
           "Id": "VirtoCommerce.XFrontend",
           "Version": "3.1007.0"
         },
@@ -354,6 +350,10 @@
         {
           "Id": "VirtoCommerce.CatalogPublishing",
           "Version": "3.1008.0"
+        },
+        {
+          "Id": "VirtoCommerce.Return",
+          "Version": "3.1005.0"
         }
       ]
     },
