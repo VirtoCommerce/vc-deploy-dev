@@ -299,10 +299,6 @@
           "BlobName": "VirtoCommerce.XCatalog_3.1023.0-alpha.234.zip"
         },
         {
-          "Id": "VirtoCommerce.Tax",
-          "BlobName": "VirtoCommerce.Tax_3.1007.0-alpha.245.zip"
-        },
-        {
           "Id": "VirtoCommerce.Return",
           "BlobName": "VirtoCommerce.Return_3.1005.0-pr-28-fb4f.zip",
           "Version": "3.1005.0-pr-28-fb4f"
@@ -382,6 +378,10 @@
         {
           "Id": "VirtoCommerce.CatalogPersonalization",
           "BlobName": "VirtoCommerce.CatalogPersonalization_3.1007.0-alpha.320.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Tax",
+          "BlobName": "VirtoCommerce.Tax_3.1008.0-alpha.249.zip"
         }
       ]
     }
