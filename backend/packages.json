@@ -307,10 +307,6 @@
           "BlobName": "VirtoCommerce.Tax_3.1007.0-alpha.245.zip"
         },
         {
-          "Id": "VirtoCommerce.ImageTools",
-          "BlobName": "VirtoCommerce.ImageTools_3.1006.0-alpha.418.zip"
-        },
-        {
           "Id": "VirtoCommerce.Return",
           "BlobName": "VirtoCommerce.Return_3.1005.0-pr-28-fb4f.zip",
           "Version": "3.1005.0-pr-28-fb4f"
@@ -382,6 +378,10 @@
         {
           "Id": "VirtoCommerce.PageBuilderModule",
           "BlobName": "VirtoCommerce.PageBuilderModule_3.1035.0-alpha.878.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ImageTools",
+          "BlobName": "VirtoCommerce.ImageTools_3.1007.0-alpha.422.zip"
         }
       ]
     }
