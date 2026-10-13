@@ -227,10 +227,6 @@
           "BlobName": "VirtoCommerce.Payment_3.1010.0-alpha.304.zip"
         },
         {
-          "Id": "VirtoCommerce.CatalogPersonalization",
-          "BlobName": "VirtoCommerce.CatalogPersonalization_3.1006.0-alpha.316.zip"
-        },
-        {
           "Id": "VirtoCommerce.Sitemaps",
           "BlobName": "VirtoCommerce.Sitemaps_3.1006.0-alpha.433.zip"
         },
@@ -382,6 +378,10 @@
         {
           "Id": "VirtoCommerce.ImageTools",
           "BlobName": "VirtoCommerce.ImageTools_3.1007.0-alpha.422.zip"
+        },
+        {
+          "Id": "VirtoCommerce.CatalogPersonalization",
+          "BlobName": "VirtoCommerce.CatalogPersonalization_3.1007.0-alpha.320.zip"
         }
       ]
     }
