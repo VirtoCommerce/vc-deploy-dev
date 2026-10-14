@@ -184,10 +184,6 @@
           "Version": "3.1010.0"
         },
         {
-          "Id": "VirtoCommerce.Content",
-          "Version": "3.1006.0"
-        },
-        {
           "Id": "VirtoCommerce.Shipping",
           "Version": "3.1009.0"
         },
@@ -354,6 +350,10 @@
         {
           "Id": "VirtoCommerce.BackgroundJobs",
           "Version": "3.1053.0"
+        },
+        {
+          "Id": "VirtoCommerce.Content",
+          "Version": "3.1007.0"
         }
       ]
     },
