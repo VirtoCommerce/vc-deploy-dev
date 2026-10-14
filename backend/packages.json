@@ -31,6 +31,9 @@
         },
         {
           "BlobName": "VirtoCommerce.Content_3.1007.0-pr-224-ba48.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.PageBuilderModule_3.1035.0-pr-171-61df.zip"
         }
       ]
     },
@@ -59,10 +62,6 @@
         {
           "Id": "VirtoCommerce.ImageTools",
           "Version": "3.1007.0"
-        },
-        {
-          "Id": "VirtoCommerce.PageBuilderModule",
-          "Version": "3.1034.0"
         },
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
