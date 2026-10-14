@@ -207,10 +207,6 @@
           "BlobName": "VirtoCommerce.Shipping_3.1009.0-alpha.274.zip"
         },
         {
-          "Id": "VirtoCommerce.Content",
-          "BlobName": "VirtoCommerce.Content_3.1006.0-alpha.1068.zip"
-        },
-        {
           "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
           "BlobName": "VirtoCommerce.GoogleEcommerceAnalytics_4.1004.0-alpha.243.zip"
         },
@@ -381,6 +377,10 @@
         {
           "Id": "VirtoCommerce.BackgroundJobs",
           "BlobName": "VirtoCommerce.BackgroundJobs_3.1053.0-alpha.19.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Content",
+          "BlobName": "VirtoCommerce.Content_3.1007.0-alpha.1072.zip"
         }
       ]
     }
