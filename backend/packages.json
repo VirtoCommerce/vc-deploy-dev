@@ -65,6 +65,9 @@
         },
         {
           "BlobName": "VirtoCommerce.BackgroundJobs_3.1053.0-pr-7-3bcd.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Content_3.1007.0-pr-224-ba48.zip"
         }
       ]
     },
@@ -225,10 +228,6 @@
         {
           "Id": "VirtoCommerce.Payment",
           "Version": "3.1010.0"
-        },
-        {
-          "Id": "VirtoCommerce.Content",
-          "Version": "3.1006.0"
         },
         {
           "Id": "VirtoCommerce.Pages",
