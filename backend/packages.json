@@ -163,10 +163,6 @@
           "BlobName": "VirtoCommerce.OpenTelemetry_3.1002.0-alpha.10.zip"
         },
         {
-          "Id": "VirtoCommerce.BackgroundJobs",
-          "BlobName": "VirtoCommerce.BackgroundJobs_3.1052.0-alpha.14.zip"
-        },
-        {
           "Id": "VirtoCommerce.Search",
           "BlobName": "VirtoCommerce.Search_3.1010.0-alpha.857.zip"
         },
@@ -381,6 +377,10 @@
         {
           "Id": "VirtoCommerce.Subscription",
           "BlobName": "VirtoCommerce.Subscription_3.1006.0-alpha.403.zip"
+        },
+        {
+          "Id": "VirtoCommerce.BackgroundJobs",
+          "BlobName": "VirtoCommerce.BackgroundJobs_3.1053.0-alpha.18.zip"
         }
       ]
     }
