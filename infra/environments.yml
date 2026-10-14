@@ -46,6 +46,24 @@
       Content__PathMappings__themes__1: _storeId
       # Because cms-content is network share
       DOTNET_USE_POLLING_FILE_WATCHER: true
+      # VCST-5886 Punchout cXML (vc-module-punchout) - test configurations, one per SharedSecret (mirrors vcptcore-qa1 #6693).
+      # 0: B2B-store, all checks on (SenderDomain + AllowedReturnUrls), default lifetimes.
+      Punchout__Configurations__0__StoreId: B2B-store
+      Punchout__Configurations__0__SharedSecret: vcst-po0-rASrwlnFRDHOk9DcI0iKSZdk
+      Punchout__Configurations__0__SenderDomain: NetworkId
+      Punchout__Configurations__0__AllowedReturnUrls__0: https://punchoutcommerce.com/*
+      Punchout__Configurations__0__TokenLifeTime: "00:15:00"
+      Punchout__Configurations__0__SessionLifeTime: "04:00:00"
+      # 1: second store (QA-STORE), no SenderDomain / AllowedReturnUrls (checks skipped), short lifetimes for expiry tests.
+      Punchout__Configurations__1__StoreId: QA-STORE
+      Punchout__Configurations__1__SharedSecret: vcst-po1-1Wtc5D4nb09qiWiZSjrfpFAw
+      Punchout__Configurations__1__TokenLifeTime: "00:02:00"
+      Punchout__Configurations__1__SessionLifeTime: "00:10:00"
+      # 2: StoreId points to a store that does not exist (negative case).
+      Punchout__Configurations__2__StoreId: AGENT-TEST-no-such-store
+      Punchout__Configurations__2__SharedSecret: vcst-po2-WJxrGm8TbkqKUzk28dzUcfBG
+      # 3: no StoreId (negative case).
+      Punchout__Configurations__3__SharedSecret: vcst-po3-mbtgynuf6GJZ5K5IvK_vOR9i
       # File Uploader settings
       FileUpload__RootPath: attachments
       FileUpload__Scopes__0__Scope: quote-attachments
