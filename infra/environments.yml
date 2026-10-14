@@ -17,8 +17,10 @@
       # VCST-6093 QA (temporary): DefaultValue override under test
       VirtoCommerce__Settings__Override__DefaultValue__Global__VirtoCommerce_Platform_Security_SignInLogEnabled: "false"
 
-      # VCST-5886 Punchout cXML (vc-module-punchout PR #1) - test configurations, one per SharedSecret.
+      # VCST-5886/5887 Punchout cXML - test configurations, one per SharedSecret. Id and StoreId are required, and Id and
+      # SharedSecret must be unique (validated at startup since vc-module-punchout PR #2) - an invalid entry stops the platform.
       # 0: B2B-store, all checks on (SenderDomain + AllowedReturnUrls), default lifetimes.
+      Punchout__Configurations__0__Id: qa1-punchout-0
       Punchout__Configurations__0__StoreId: B2B-store
       Punchout__Configurations__0__SharedSecret: qa1-02b08c7c3e6dc8da89f628c8
       Punchout__Configurations__0__SenderDomain: NetworkId
@@ -26,15 +28,15 @@
       Punchout__Configurations__0__TokenLifeTime: "00:15:00"
       Punchout__Configurations__0__SessionLifeTime: "04:00:00"
       # 1: second store, no SenderDomain / AllowedReturnUrls (checks skipped), short lifetimes for expiry tests.
+      Punchout__Configurations__1__Id: qa1-punchout-1
       Punchout__Configurations__1__StoreId: New-super
       Punchout__Configurations__1__SharedSecret: qa1-ab92600f24911ac9bba37ba6
       Punchout__Configurations__1__TokenLifeTime: "00:02:00"
       Punchout__Configurations__1__SessionLifeTime: "00:10:00"
       # 2: StoreId points to a store that does not exist (negative case).
+      Punchout__Configurations__2__Id: qa1-punchout-2
       Punchout__Configurations__2__StoreId: AGENT-TEST-no-such-store
       Punchout__Configurations__2__SharedSecret: qa1-a65c38611bf8a16b275581a8
-      # 3: no StoreId (negative case).
-      Punchout__Configurations__3__SharedSecret: qa1-41b15ec06a6ce7bd185eabce
       FileUpload__RootPath: attachments
       FileUpload__Scopes__0__Scope: quote-attachments
       FileUpload__Scopes__0__MaxFileSize: 1000000
