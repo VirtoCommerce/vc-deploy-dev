@@ -69,6 +69,20 @@
       FileUpload__Scopes__2__AllowedExtensions__0: .jpg
       FileUpload__Scopes__2__AllowedExtensions__1: .png
       FileUpload__Scopes__2__AllowAnonymousUpload: false
+      FileUpload__Scopes__3__Scope: product-configuration
+      FileUpload__Scopes__3__MaxFileSize: 10000000
+      FileUpload__Scopes__3__MinFileSize: 1
+      FileUpload__Scopes__3__AllowedExtensions__0: .doc
+      FileUpload__Scopes__3__AllowedExtensions__1: .rtf
+      FileUpload__Scopes__3__AllowedExtensions__2: .docx
+      FileUpload__Scopes__3__AllowedExtensions__3: .txt
+      FileUpload__Scopes__3__AllowedExtensions__4: .pdf
+      FileUpload__Scopes__3__AllowedExtensions__5: .xls
+      FileUpload__Scopes__3__AllowedExtensions__6: .xlsx
+      FileUpload__Scopes__3__AllowedExtensions__7: .jpg
+      FileUpload__Scopes__3__AllowedExtensions__8: .png
+      FileUpload__Scopes__3__AllowedExtensions__9: .odt
+      FileUpload__Scopes__3__AllowAnonymousUpload: true
       FileUpload__Scopes__4__Scope: sales-rep-documents
       FileUpload__Scopes__4__MaxFileSize: 52428800
       FileUpload__Scopes__4__MinFileSize: 1
@@ -311,6 +325,8 @@
     - path: /ucp
       route: platform
     - path: /.well-known/ucp
+      route: platform
+    - path: /modules
       route: platform
   protectedParameters:
     - platform.image.tag
