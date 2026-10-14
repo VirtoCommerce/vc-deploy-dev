@@ -18,6 +18,9 @@
         },
         {
           "BlobName": "VirtoCommerce.XCart_3.1039.0-pr-145-b5a8.zip"
+        },
+        {
+         "BlobName": "VirtoCommerce.Punchout_3.1000.0-alpha.5.zip"
         }
       ]
     },
@@ -38,11 +41,7 @@
         {
           "Id": "VirtoCommerce.PriceExportImport",
           "Version": "3.1001.0"
-        },
-        {
-          "Id": "VirtoCommerce.Punchout",
-          "Version": "3.1000.0"
-        },
+        },   
         {
           "Id": "VirtoCommerce.NativePaymentMethods",
           "Version": "3.1002.0"
