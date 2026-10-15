@@ -75,10 +75,6 @@
           "BlobName": "VirtoCommerce.SqlQueries_3.1006.0-alpha.52.zip"
         },
         {
-          "Id": "VirtoCommerce.WebHooks",
-          "BlobName": "VirtoCommerce.WebHooks_3.1005.0-alpha.354.zip"
-        },
-        {
           "Id": "VirtoCommerce.CustomerExportImport",
           "BlobName": "VirtoCommerce.CustomerExportImport_3.1002.0-alpha.220.zip"
         },
@@ -381,6 +377,10 @@
         {
           "Id": "VirtoCommerce.Subscription",
           "BlobName": "VirtoCommerce.Subscription_3.1007.0-alpha.405.zip"
+        },
+        {
+          "Id": "VirtoCommerce.WebHooks",
+          "BlobName": "VirtoCommerce.WebHooks_3.1006.0-alpha.366.zip"
         }
       ]
     }
