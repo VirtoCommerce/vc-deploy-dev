@@ -239,10 +239,6 @@
           "BlobName": "VirtoCommerce.AuthorizeNetPayment_3.1005.0-alpha.128.zip"
         },
         {
-          "Id": "VirtoCommerce.Marketing",
-          "BlobName": "VirtoCommerce.Marketing_3.1009.0-alpha.949.zip"
-        },
-        {
           "Id": "VirtoCommerce.AvalaraTax",
           "BlobName": "VirtoCommerce.AvalaraTax_3.1005.0-alpha.367.zip"
         },
@@ -381,6 +377,10 @@
         {
           "Id": "VirtoCommerce.Shipping",
           "BlobName": "VirtoCommerce.Shipping_3.1010.0-alpha.278.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Marketing",
+          "BlobName": "VirtoCommerce.Marketing_3.1010.0-alpha.953.zip"
         }
       ]
     }
