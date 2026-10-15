@@ -203,10 +203,6 @@
           "BlobName": "VirtoCommerce.GoogleEcommerceAnalytics_4.1004.0-alpha.243.zip"
         },
         {
-          "Id": "VirtoCommerce.Payment",
-          "BlobName": "VirtoCommerce.Payment_3.1010.0-alpha.304.zip"
-        },
-        {
           "Id": "VirtoCommerce.Sitemaps",
           "BlobName": "VirtoCommerce.Sitemaps_3.1006.0-alpha.433.zip"
         },
@@ -381,6 +377,10 @@
         {
           "Id": "VirtoCommerce.Core",
           "BlobName": "VirtoCommerce.Core_3.1013.0-alpha.1728.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Payment",
+          "BlobName": "VirtoCommerce.Payment_3.1011.0-alpha.308.zip"
         }
       ]
     }
