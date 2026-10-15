@@ -139,10 +139,6 @@
           "BlobName": "VirtoCommerce.OTP_3.1000.0-alpha.5.zip"
         },
         {
-          "Id": "VirtoCommerce.Core",
-          "BlobName": "VirtoCommerce.Core_3.1012.0-alpha.1724.zip"
-        },
-        {
           "Id": "VirtoCommerce.GoogleSSO",
           "BlobName": "VirtoCommerce.GoogleSSO_3.1003.0-alpha.62.zip"
         },
@@ -381,6 +377,10 @@
         {
           "Id": "VirtoCommerce.Seo",
           "BlobName": "VirtoCommerce.Seo_3.1008.0-alpha.105.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Core",
+          "BlobName": "VirtoCommerce.Core_3.1013.0-alpha.1728.zip"
         }
       ]
     }
