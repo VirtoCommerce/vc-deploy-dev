@@ -2,7 +2,7 @@
   "ManifestVersion": "2.0",
   "PlatformVersion": "3.1084.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.1084.0-pr-3142-b518-vcst-6331-required-dictionary-dynamic-property-b5181c31",
+  "PlatformImageTag": "3.1085.0-pr-3141-a644-vcst-6323-dynamic-property-short-text-limit-a644d8c5",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
   ],
