@@ -231,10 +231,6 @@
           "BlobName": "VirtoCommerce.AvalaraTax_3.1005.0-alpha.367.zip"
         },
         {
-          "Id": "VirtoCommerce.DynamicAssociationsModule",
-          "BlobName": "VirtoCommerce.DynamicAssociationsModule_3.1003.0-alpha.214.zip"
-        },
-        {
           "Id": "VirtoCommerce.WhiteLabeling",
           "BlobName": "VirtoCommerce.WhiteLabeling_3.1005.0-alpha.96.zip"
         },
@@ -381,6 +377,10 @@
         {
           "Id": "VirtoCommerce.Inventory",
           "BlobName": "VirtoCommerce.Inventory_3.1011.0-alpha.550.zip"
+        },
+        {
+          "Id": "VirtoCommerce.DynamicAssociationsModule",
+          "BlobName": "VirtoCommerce.DynamicAssociationsModule_3.1004.0-alpha.218.zip"
         }
       ]
     }
