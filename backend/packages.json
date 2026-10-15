@@ -271,10 +271,6 @@
           "BlobName": "VirtoCommerce.XOrder_3.1016.0-alpha.145.zip"
         },
         {
-          "Id": "VirtoCommerce.BackgroundJobs",
-          "BlobName": "VirtoCommerce.BackgroundJobs_3.1053.0-alpha.19.zip"
-        },
-        {
           "Id": "VirtoCommerce.Content",
           "BlobName": "VirtoCommerce.Content_3.1007.0-alpha.1072.zip"
         },
@@ -381,6 +377,10 @@
         {
           "Id": "VirtoCommerce.WebHooks",
           "BlobName": "VirtoCommerce.WebHooks_3.1006.0-alpha.366.zip"
+        },
+        {
+          "Id": "VirtoCommerce.BackgroundJobs",
+          "BlobName": "VirtoCommerce.BackgroundJobs_3.1054.0-alpha.21.zip"
         }
       ]
     }
