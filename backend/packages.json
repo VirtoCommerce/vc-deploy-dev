@@ -211,10 +211,6 @@
           "BlobName": "VirtoCommerce.XPickup_3.1008.0-alpha.62.zip"
         },
         {
-          "Id": "VirtoCommerce.Orders",
-          "BlobName": "VirtoCommerce.Orders_3.1018.0-alpha.1451.zip"
-        },
-        {
           "Id": "VirtoCommerce.XCMS",
           "BlobName": "VirtoCommerce.XCMS_3.1008.0-alpha.89.zip"
         },
@@ -381,6 +377,10 @@
         {
           "Id": "VirtoCommerce.WhiteLabeling",
           "BlobName": "VirtoCommerce.WhiteLabeling_3.1006.0-alpha.100.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Orders",
+          "BlobName": "VirtoCommerce.Orders_3.1019.0-alpha.1455.zip"
         }
       ]
     }
