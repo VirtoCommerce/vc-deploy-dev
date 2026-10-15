@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.1076.0",
+  "PlatformVersion": "3.1084.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.1076.0",
+  "PlatformImageTag": "3.1084.0",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -51,7 +51,7 @@
         },
         {
           "Id": "VirtoCommerce.BackgroundJobs",
-          "Version": "3.1052.0"
+          "Version": "3.1054.0"
         },
         {
           "Id": "VirtoCommerce.BackInStock",
@@ -75,7 +75,7 @@
         },
         {
           "Id": "VirtoCommerce.Catalog",
-          "Version": "3.1048.0"
+          "Version": "3.1049.0"
         },
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
@@ -83,15 +83,15 @@
         },
         {
           "Id": "VirtoCommerce.CatalogPersonalization",
-          "Version": "3.1006.0"
-        },
-        {
-          "Id": "VirtoCommerce.CatalogPublishing",
           "Version": "3.1007.0"
         },
         {
+          "Id": "VirtoCommerce.CatalogPublishing",
+          "Version": "3.1008.0"
+        },
+        {
           "Id": "VirtoCommerce.Content",
-          "Version": "3.1006.0"
+          "Version": "3.1007.0"
         },
         {
           "Id": "VirtoCommerce.Contentful",
@@ -147,7 +147,7 @@
         },
         {
           "Id": "VirtoCommerce.FileExperienceApi",
-          "Version": "3.1006.0"
+          "Version": "3.1008.0"
         },
         {
           "Id": "VirtoCommerce.FileSystemAssets",
@@ -167,7 +167,7 @@
         },
         {
           "Id": "VirtoCommerce.ImageTools",
-          "Version": "3.1006.0"
+          "Version": "3.1007.0"
         },
         {
           "Id": "VirtoCommerce.Inventory",
@@ -227,7 +227,7 @@
         },
         {
           "Id": "VirtoCommerce.PageBuilderModule",
-          "Version": "3.1032.0"
+          "Version": "3.1035.0"
         },
         {
           "Id": "VirtoCommerce.Pages",
@@ -255,7 +255,7 @@
         },
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.1020.0"
+          "Version": "3.1021.0"
         },
         {
           "Id": "VirtoCommerce.PushMessages",
@@ -263,15 +263,15 @@
         },
         {
           "Id": "VirtoCommerce.Quote",
-          "Version": "3.1003.0"
+          "Version": "3.1005.0"
         },
         {
           "Id": "VirtoCommerce.Return",
-          "Version": "3.1004.0"
+          "Version": "3.1005.0"
         },
         {
           "Id": "VirtoCommerce.SalesRep",
-          "Version": "3.1012.0"
+          "Version": "3.1014.0"
         },
         {
           "Id": "VirtoCommerce.Sanity",
@@ -283,7 +283,7 @@
         },
         {
           "Id": "VirtoCommerce.Seo",
-          "Version": "3.1005.0"
+          "Version": "3.1007.0"
         },
         {
           "Id": "VirtoCommerce.Shipping",
@@ -303,15 +303,15 @@
         },
         {
           "Id": "VirtoCommerce.SqlQueries",
-          "Version": "3.1005.0"
+          "Version": "3.1006.0"
         },
         {
           "Id": "VirtoCommerce.Store",
-          "Version": "3.1009.0"
+          "Version": "3.1010.0"
         },
         {
           "Id": "VirtoCommerce.Subscription",
-          "Version": "3.1005.0"
+          "Version": "3.1006.0"
         },
         {
           "Id": "VirtoCommerce.SystemOperations",
@@ -323,7 +323,7 @@
         },
         {
           "Id": "VirtoCommerce.Tax",
-          "Version": "3.1007.0"
+          "Version": "3.1008.0"
         },
         {
           "Id": "VirtoCommerce.UCP",
@@ -339,11 +339,11 @@
         },
         {
           "Id": "VirtoCommerce.Xapi",
-          "Version": "3.1026.0"
+          "Version": "3.1027.0"
         },
         {
           "Id": "VirtoCommerce.XCart",
-          "Version": "3.1039.0"
+          "Version": "3.1042.0"
         },
         {
           "Id": "VirtoCommerce.XCatalog",
@@ -359,7 +359,7 @@
         },
         {
           "Id": "VirtoCommerce.XOrder",
-          "Version": "3.1014.0"
+          "Version": "3.1016.0"
         },
         {
           "Id": "VirtoCommerce.XPickup",
