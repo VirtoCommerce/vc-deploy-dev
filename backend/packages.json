@@ -307,10 +307,6 @@
           "BlobName": "VirtoCommerce.Xapi_3.1027.0-alpha.216.zip"
         },
         {
-          "Id": "VirtoCommerce.ImageTools",
-          "BlobName": "VirtoCommerce.ImageTools_3.1007.0-alpha.422.zip"
-        },
-        {
           "Id": "VirtoCommerce.CatalogPersonalization",
           "BlobName": "VirtoCommerce.CatalogPersonalization_3.1007.0-alpha.320.zip"
         },
@@ -381,6 +377,10 @@
         {
           "Id": "VirtoCommerce.Customer",
           "BlobName": "VirtoCommerce.Customer_3.1030.0-alpha.1022.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ImageTools",
+          "BlobName": "VirtoCommerce.ImageTools_3.1008.0-alpha.424.zip"
         }
       ]
     }
