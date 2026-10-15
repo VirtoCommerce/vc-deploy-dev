@@ -66,6 +66,7 @@
       FileUpload__RootPath: attachments
       FileUpload__Scopes__0__Scope: quote-attachments
       FileUpload__Scopes__0__MaxFileSize: 10485760
+      FileUpload__Scopes__0__MinFileSize: 1
       FileUpload__Scopes__0__AllowedExtensions__0: .csv
       FileUpload__Scopes__0__AllowedExtensions__1: .docx
       FileUpload__Scopes__0__AllowedExtensions__2: .jpg
@@ -75,6 +76,7 @@
       FileUpload__Scopes__0__AllowedExtensions__6: .xlsx
       FileUpload__Scopes__1__Scope: purchase-request-sources
       FileUpload__Scopes__1__MaxFileSize: 20971520
+      FileUpload__Scopes__1__MinFileSize: 1
       FileUpload__Scopes__1__AllowedExtensions__0: .gif
       FileUpload__Scopes__1__AllowedExtensions__1: .jpeg
       FileUpload__Scopes__1__AllowedExtensions__2: .jpg
@@ -82,16 +84,18 @@
       FileUpload__Scopes__1__AllowedExtensions__4: .webp
       FileUpload__Scopes__2__Scope: organization-logos
       FileUpload__Scopes__2__MaxFileSize: 5000000
+      FileUpload__Scopes__2__MinFileSize: 1
       FileUpload__Scopes__2__AllowedExtensions__0: .jpg
       FileUpload__Scopes__2__AllowedExtensions__1: .png
       FileUpload__Scopes__2__AllowAnonymousUpload: false
       FileUpload__Scopes__3__Scope: review-images
       FileUpload__Scopes__3__MaxFileSize: 10000000
+      FileUpload__Scopes__3__MinFileSize: 1
       FileUpload__Scopes__3__AllowedExtensions__0: .jpg
       FileUpload__Scopes__3__AllowedExtensions__1: .png
       FileUpload__Scopes__4__Scope: product-configuration
       FileUpload__Scopes__4__MaxFileSize: 10000000
-      FileUpload__Scopes__3__MinFileSize: 1
+      FileUpload__Scopes__4__MinFileSize: 1
       FileUpload__Scopes__4__AllowedExtensions__0: .doc
       FileUpload__Scopes__4__AllowedExtensions__1: .rtf
       FileUpload__Scopes__4__AllowedExtensions__2: .docx
@@ -105,6 +109,7 @@
       FileUpload__Scopes__4__AllowAnonymousUpload: false
       FileUpload__Scopes__5__Scope: sales-rep-documents
       FileUpload__Scopes__5__MaxFileSize: 52428800
+      FileUpload__Scopes__5__MinFileSize: 1
       FileUpload__Scopes__5__AllowAnonymousUpload: false
       FileUpload__Scopes__5__AllowedExtensions__0: .pdf
       FileUpload__Scopes__5__AllowedExtensions__1: .doc
@@ -121,6 +126,15 @@
       FileUpload__Scopes__5__AllowedExtensions__12: .jpeg
       FileUpload__Scopes__5__AllowedExtensions__13: .gif
       FileUpload__Scopes__5__AllowedExtensions__14: .webp
+      FileUpload__Scopes__6__Scope: return-attachments
+      FileUpload__Scopes__6__MaxFileSize: 5242880
+      FileUpload__Scopes__6__MinFileSize: 1
+      FileUpload__Scopes__6__AllowAnonymousUpload: false
+      FileUpload__Scopes__6__AllowedExtensions__0: .jpg
+      FileUpload__Scopes__6__AllowedExtensions__1: .jpeg
+      FileUpload__Scopes__6__AllowedExtensions__2: .png
+      FileUpload__Scopes__6__AllowedExtensions__3: .webp
+      FileUpload__Scopes__6__AllowedExtensions__4: .pdf
       #SEO
       Seo__SeoInfoResolver__0: Pages
       Seo__SeoInfoResolver__1: ContentFile      
@@ -202,7 +216,7 @@
   storefront:
     enabled: false
     themes:
-      B2B-store: https://github.com/VirtoCommerce/vc-frontend-next/releases/download/3.0.0/vc-frontend-next-3.0.0.zip
+      B2B-store: https://github.com/VirtoCommerce/vc-frontend/releases/download/2.60.0/vc-theme-b2b-vue-2.60.0.zip
       B2B-loyalty: https://github.com/VirtoCommerce/vc-frontend-next/releases/download/3.0.0/vc-frontend-next-3.0.0.zip
     headers:
         Cross-Origin-Embedder-Policy: unsafe-none
@@ -271,6 +285,18 @@
       route: platform
     - path: /connect/token
       route: platform
+    - path: /connect/authorize
+      route: platform
+    - path: /connect/session
+      route: platform
+    - path: /.well-known/openid-configuration
+      route: platform
+    - path: /.well-known/oauth-authorization-server
+      route: platform
+    - path: /.well-known/oauth-protected-resource
+      route: platform
+    - path: /.well-known/jwks
+      route: platform
     - path: /graphql
       route: platform
     - path: /revoke/token
@@ -284,10 +310,12 @@
     - path: /signin-oidc
       route: platform
     - path: /signin-google
-      route: platform
+      route: platform 
     - path: /ucp
       route: platform
     - path: /.well-known/ucp
+      route: platform
+    - path: /modules
       route: platform
   - host: virtostart-loyalty-store.govirto.com
     root: B2B-loyalty
@@ -298,6 +326,18 @@
       route: platform
     - path: /connect/token
       route: platform
+    - path: /connect/authorize
+      route: platform
+    - path: /connect/session
+      route: platform
+    - path: /.well-known/openid-configuration
+      route: platform
+    - path: /.well-known/oauth-authorization-server
+      route: platform
+    - path: /.well-known/oauth-protected-resource
+      route: platform
+    - path: /.well-known/jwks
+      route: platform
     - path: /graphql
       route: platform
     - path: /revoke/token
@@ -311,6 +351,12 @@
     - path: /signin-oidc
       route: platform
     - path: /signin-google
+      route: platform 
+    - path: /ucp
+      route: platform
+    - path: /.well-known/ucp
+      route: platform
+    - path: /modules
       route: platform
   protectedParameters:
    - platform.image.tag
