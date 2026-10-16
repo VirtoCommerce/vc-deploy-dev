@@ -40,6 +40,9 @@
         },
         {
           "BlobName": "VirtoCommerce.Catalog_3.1050.0-pr-914-f223.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Customer_3.1030.0-pr-321-c54f.zip"
         }
       ]
     },
@@ -364,10 +367,6 @@
         {
           "Id": "VirtoCommerce.BackupRestore",
           "Version": "3.1007.0"
-        },
-        {
-          "Id": "VirtoCommerce.Customer",
-          "Version": "3.1029.0"
         },
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
