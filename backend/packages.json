@@ -278,10 +278,6 @@
           "BlobName": "VirtoCommerce.Assets_3.1011.0-pr-41-dd57.zip"
         },
         {
-          "Id": "VirtoCommerce.Pricing",
-          "BlobName": "VirtoCommerce.Pricing_3.1009.0-pr-240-1d05.zip"
-        },
-        {
           "Id": "VirtoCommerce.Customer",
           "BlobName": "VirtoCommerce.Customer_3.1030.0-pr-322-be80.zip"
         },
@@ -384,6 +380,10 @@
         {
           "Id": "VirtoCommerce.Loyalty",
           "BlobName": "VirtoCommerce.Loyalty_3.1010.0-pr-19-47e1.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Pricing",
+          "BlobName": "VirtoCommerce.Pricing_3.1009.0-alpha.828.zip"
         }
       ]
     }
