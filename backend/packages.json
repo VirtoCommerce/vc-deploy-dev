@@ -37,6 +37,9 @@
         },
         {
           "BlobName": "VirtoCommerce.Pricing_3.1009.0-pr-242-db99.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Catalog_3.1050.0-pr-914-f223.zip"
         }
       ]
     },
@@ -49,10 +52,6 @@
         {
           "Id": "VirtoCommerce.Cart",
           "Version": "3.1012.0"
-        },
-        {
-          "Id": "VirtoCommerce.Catalog",
-          "Version": "3.1049.0"
         },
         {
           "Id": "VirtoCommerce.CatalogPersonalization",
