@@ -284,10 +284,6 @@
           "Version": "3.1027.0"
         },
         {
-          "Id": "VirtoCommerce.SqlQueries",
-          "Version": "3.1006.0"
-        },
-        {
           "Id": "VirtoCommerce.ImageTools",
           "Version": "3.1007.0"
         },
@@ -354,6 +350,10 @@
         {
           "Id": "VirtoCommerce.Catalog",
           "Version": "3.1050.0"
+        },
+        {
+          "Id": "VirtoCommerce.SqlQueries",
+          "Version": "3.1007.0"
         }
       ]
     },
