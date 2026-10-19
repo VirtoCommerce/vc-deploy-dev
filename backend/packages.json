@@ -24,24 +24,6 @@
           "BlobName": "VirtoCommerce.Punchout_3.1000.0-pr-2-6c75.zip"
         },
         {
-          "BlobName": "VirtoCommerce.Subscription_3.1006.0-pr-128-5c31.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.BackgroundJobs_3.1053.0-pr-7-3bcd.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.Content_3.1007.0-pr-224-ba48.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.PageBuilderModule_3.1035.0-pr-171-61df.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.Pricing_3.1009.0-pr-242-db99.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.Catalog_3.1050.0-pr-914-f223.zip"
-        },
-        {
           "BlobName": "VirtoCommerce.Customer_3.1030.0-pr-321-c54f.zip"
         },
         {
@@ -58,6 +40,30 @@
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
       "Modules": [
+        {
+          "Id": "VirtoCommerce.BackgroundJobs",
+          "Version": "3.1054.0"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "Version": "3.1050.0"
+        },
+        {
+          "Id": "VirtoCommerce.Content",
+          "Version": "3.1007.0"
+        },
+        {
+          "Id": "VirtoCommerce.PageBuilderModule",
+          "Version": "3.1035.0"
+        },
+        {
+          "Id": "VirtoCommerce.Pricing",
+          "Version": "3.1009.0"
+        },
+        {
+          "Id": "VirtoCommerce.Subscription",
+          "Version": "3.1006.0"
+        },
         {
           "Id": "VirtoCommerce.Cart",
           "Version": "3.1012.0"
@@ -84,7 +90,7 @@
         },
         {
           "Id": "VirtoCommerce.SqlQueries",
-          "Version": "3.1006.0"
+          "Version": "3.1007.0"
         },
         {
           "Id": "VirtoCommerce.Store",
@@ -108,7 +114,7 @@
         },
         {
           "Id": "VirtoCommerce.SalesRep",
-          "Version": "3.1013.0"
+          "Version": "3.1014.0"
         },
         {
           "Id": "VirtoCommerce.Loyalty",
