@@ -20,7 +20,7 @@
       DOTNET_USE_POLLING_FILE_WATCHER: true
       #Authorization__AllowApiAccessForCustomers: true
       VirtoCommerce__FileExtensionsBlackList__0: .pdf
-      Reload: 124
+      Reload: 125
       
       VirtoCommerce__RefreshProbingFolderOnStart: true
       
