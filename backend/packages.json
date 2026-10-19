@@ -43,6 +43,9 @@
         },
         {
           "BlobName": "VirtoCommerce.Customer_3.1030.0-pr-321-c54f.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.AzureSearch_3.1008.0-pr-59-b009.zip"
         }
       ]
     },
@@ -339,10 +342,6 @@
         {
           "Id": "VirtoCommerce.Shipping",
           "Version": "3.1009.0"
-        },
-        {
-          "Id": "VirtoCommerce.AzureSearch",
-          "Version": "3.1007.0"
         },
         {
           "Id": "VirtoCommerce.Notifications",
