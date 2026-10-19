@@ -46,6 +46,9 @@
         },
         {
           "BlobName": "VirtoCommerce.AzureSearch_3.1008.0-pr-59-b009.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Search_3.1011.0-pr-157-9278.zip"
         }
       ]
     },
@@ -317,10 +320,6 @@
         },
         {
           "Id": "VirtoCommerce.Assets",
-          "Version": "3.1010.0"
-        },
-        {
-          "Id": "VirtoCommerce.Search",
           "Version": "3.1010.0"
         },
         {
