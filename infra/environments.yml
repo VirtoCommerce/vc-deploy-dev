@@ -518,6 +518,8 @@
       route: platform
     - path: /signin-google
       route: platform
+    - path: /modules
+      route: platform
 
   - host: vcptcore-qa-loyalty.govirto.com
     root: B2B-loyalty
@@ -541,6 +543,8 @@
     - path: /signin-oidc
       route: platform
     - path: /signin-google
+      route: platform
+    - path: /modules
       route: platform
   protectedParameters:
    - themes.B2B-store
