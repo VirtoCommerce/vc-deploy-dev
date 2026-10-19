@@ -171,6 +171,7 @@
       PushNotifications__ScalabilityMode: RedisBackplane
       PushNotifications__HubUrl: https://vcptcore-qa1.govirto.com/pushNotificationHub?api_key=17489aa2-34d6-4447-a437-285457f4f72d
       PushNotifications__RedisBackplane__ChannelName: vcptcore-qa1-chanel
+      DistributedLock__KeyPrefix: vcptcore-qa1
       PushMessages__UseFirebaseCloudMessaging: true
       PushMessages__FcmSenderOptions__Type: service_account
       PushMessages__FcmSenderOptions__ProjectId: vcptcore-qa
