@@ -77,6 +77,25 @@
       FileUpload__Scopes__0__AllowedExtensions__0: .jpg
       FileUpload__Scopes__0__AllowedExtensions__1: .png
       FileUpload__Scopes__0__AllowAnonymousUpload: false
+      FileUpload__Scopes__1__Scope: product-configuration
+      FileUpload__Scopes__1__MaxFileSize: 10000000
+      FileUpload__Scopes__1__MinFileSize: 1
+      FileUpload__Scopes__1__AllowedExtensions__0: .doc
+      FileUpload__Scopes__1__AllowedExtensions__1: .rtf
+      FileUpload__Scopes__1__AllowedExtensions__2: .docx
+      FileUpload__Scopes__1__AllowedExtensions__3: .txt
+      FileUpload__Scopes__1__AllowedExtensions__4: .pdf
+      FileUpload__Scopes__1__AllowedExtensions__5: .xls
+      FileUpload__Scopes__1__AllowedExtensions__6: .xlsx
+      FileUpload__Scopes__1__AllowedExtensions__7: .jpg
+      FileUpload__Scopes__1__AllowedExtensions__8: .png
+      FileUpload__Scopes__1__AllowedExtensions__9: .odt
+      FileUpload__Scopes__1__AllowAnonymousUpload: true
+      FileUpload__Scopes__2__Scope: review-images
+      FileUpload__Scopes__2__MaxFileSize: 10000000
+      FileUpload__Scopes__2__AllowedExtensions__0: .jpg
+      FileUpload__Scopes__2__AllowedExtensions__1: .png
+      FileUpload__Scopes__2__AllowAnonymousUpload: false
       # Search
       Search__Provider: ElasticSearch8
       # Enables the PickupLocation search index (pickup point search by keyword)
@@ -153,6 +172,7 @@
       EventBus__Subscriptions__0__Name: TestRegression
       EventBus__Subscriptions__0__Events__0__EventId: VirtoCommerce.Platform.Core.Security.Events.UserPasswordChangedEvent
       EventBus__Subscriptions__0__Events__1__EventId: VirtoCommerce.MarketingModule.Core.Events.PromotionChangedEvent
+      VirtoCommerce__StoreAssets__KnownAssetHosts__0: vcptcore-regression.govirto.com
     secretConfig:
       Notifications__SendGrid__ApiKey: sendkey
       Search__ElasticAppSearch__PrivateApiKey: elasticappsearch
@@ -160,7 +180,7 @@
       PushMessages__FcmSenderOptions__PrivateKey: fcm-private-key-regress
   storefront:
     headers:
-        Cross-Origin-Embedder-Policy: require-corp
+        Cross-Origin-Embedder-Policy: unsafe-none
         X-Response-Time: \$\request_time
     enabled: false
     servicePlan: B1
