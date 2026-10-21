@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.1084.0-pr-3140-9092-vcst-6310-sign-in-log-time-zone-90920610",
+  "PlatformVersion": "3.1087.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.1084.0-pr-3140-9092-vcst-6310-sign-in-log-time-zone-90920610",
+  "PlatformImageTag": "3.1087.0-pr-3134-a3d2-next-style-a3d2534e",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
   ],
