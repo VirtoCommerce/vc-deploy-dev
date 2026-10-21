@@ -40,6 +40,7 @@
         VC_ALLOW_WRITES: ""
         PORT: "80"  # the platform routes traffic and /health probes to containerPort 80
       secretConfig:
+        APPLICATIONINSIGHTS_CONNECTION_STRING: appinsights-connectionstring-vcptcore-selfdemo
         GITHUB_DEPLOY_APP_PRIVATE_KEY: github-deploy-app-private-key
         GITHUB_THEME_APP_PRIVATE_KEY: github-theme-app-private-key
     app2:
