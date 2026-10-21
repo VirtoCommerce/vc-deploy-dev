@@ -170,10 +170,6 @@
           "BlobName": "VirtoCommerce.Export_3.1006.0-pr-113-d315.zip"
         },
         {
-          "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
-          "BlobName": "VirtoCommerce.GoogleEcommerceAnalytics_4.1004.0-alpha.243.zip"
-        },
-        {
           "Id": "VirtoCommerce.Sitemaps",
           "BlobName": "VirtoCommerce.Sitemaps_3.1007.0-pr-95-8210.zip"
         },
@@ -384,6 +380,10 @@
         {
           "Id": "VirtoCommerce.Search",
           "BlobName": "VirtoCommerce.Search_3.1011.0-alpha.861.zip"
+        },
+        {
+          "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
+          "BlobName": "VirtoCommerce.GoogleEcommerceAnalytics_4.1005.0-alpha.247.zip"
         }
       ]
     }
