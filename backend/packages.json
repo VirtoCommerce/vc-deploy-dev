@@ -168,10 +168,6 @@
           "Version": "3.1018.0"
         },
         {
-          "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
-          "Version": "4.1004.0"
-        },
-        {
           "Id": "VirtoCommerce.Payment",
           "Version": "3.1010.0"
         },
@@ -354,6 +350,10 @@
         {
           "Id": "VirtoCommerce.Search",
           "Version": "3.1011.0"
+        },
+        {
+          "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
+          "Version": "4.1006.0"
         }
       ]
     },
