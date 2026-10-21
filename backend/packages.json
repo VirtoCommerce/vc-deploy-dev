@@ -262,10 +262,6 @@
           "BlobName": "VirtoCommerce.ImageTools_3.1008.0-pr-131-69ac.zip"
         },
         {
-          "Id": "VirtoCommerce.SalesRep",
-          "BlobName": "VirtoCommerce.SalesRep_3.1014.0-alpha.44.zip"
-        },
-        {
           "Id": "VirtoCommerce.CatalogPublishing",
           "BlobName": "VirtoCommerce.CatalogPublishing_3.1009.0-pr-83-7271.zip"
         },
@@ -384,6 +380,10 @@
         {
           "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
           "BlobName": "VirtoCommerce.GoogleEcommerceAnalytics_4.1006.0-alpha.249.zip"
+        },
+        {
+          "Id": "VirtoCommerce.SalesRep",
+          "BlobName": "VirtoCommerce.SalesRep_3.1015.0-alpha.46.zip"
         }
       ]
     }
