@@ -20,7 +20,7 @@
       name: vc-deploy-mcp
       enabled: true
       imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/vc-deploy-mcp
-      imageTag: 0.0.1-afb9a9f
+      imageTag: 0.0.1-8efd85f
       servicePlan: B1
       type: standalone
       probePath: /health
