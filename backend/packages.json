@@ -264,10 +264,6 @@
           "Version": "3.1021.0"
         },
         {
-          "Id": "VirtoCommerce.Xapi",
-          "Version": "3.1027.0"
-        },
-        {
           "Id": "VirtoCommerce.ImageTools",
           "Version": "3.1007.0"
         },
@@ -354,6 +350,10 @@
         {
           "Id": "VirtoCommerce.SalesRep",
           "Version": "3.1015.0"
+        },
+        {
+          "Id": "VirtoCommerce.Xapi",
+          "Version": "3.1028.0"
         }
       ]
     },
