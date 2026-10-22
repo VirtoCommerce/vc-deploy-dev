@@ -39,6 +39,7 @@
         # Writes stay off until Entra is configured (plan step 27).
         VC_ALLOW_WRITES: ""
         PORT: "80"  # the platform routes traffic and /health probes to containerPort 80
+        reload: 1
       secretConfig:
         APPLICATIONINSIGHTS_CONNECTION_STRING: appinsights-connectionstring-vcptcore-selfdemo
         GITHUB_DEPLOY_APP_PRIVATE_KEY: github-deploy-app-private-key
