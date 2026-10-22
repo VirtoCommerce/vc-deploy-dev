@@ -20,7 +20,7 @@
       name: vc-deploy-mcp
       enabled: true
       imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/vc-deploy-mcp
-      imageTag: 0.0.1-afb9a9f
+      imageTag: 0.0.1-f25aa72 #0.0.1-afb9a9f
       servicePlan: B1
       type: standalone
       probePath: /health
@@ -39,7 +39,7 @@
         # Writes stay off until Entra is configured (plan step 27).
         VC_ALLOW_WRITES: ""
         PORT: "80"  # the platform routes traffic and /health probes to containerPort 80
-        reload: 1
+        reload: 2
       secretConfig:
         APPLICATIONINSIGHTS_CONNECTION_STRING: appinsights-connectionstring-vcptcore-selfdemo
         GITHUB_DEPLOY_APP_PRIVATE_KEY: github-deploy-app-private-key
