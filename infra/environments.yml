@@ -164,6 +164,10 @@
       VirtoCommerce__Settings__Overrides__Default__Global__GoogleAnalytics4_GtmContainerId: GtmContainerId-FromConfig-default
       VirtoCommerce__Settings__Overrides__Default__Tenants__Store__store2__GoogleAnalytics4_EnableTracking: false
       VirtoCommerce__Settings__Overrides__Default__Tenants__Store__store2__GoogleAnalytics4_MeasurementId: MeasurementId-FromConfig-tenant
+
+      # VCI-1493: Workload Identity Federation (AKS -> GCP) for the GA4 Data API (Sales Rep customer insights, VCST-5337)
+      GOOGLE_WORKLOAD_IDENTITY_AUDIENCE: https://iam.googleapis.com/projects/1067195343364/locations/global/workloadIdentityPools/virto-aks/providers/vcptcore
+      GOOGLE_WORKLOAD_IDENTITY_SERVICE_ACCOUNT: ga-reporting@storefrontcoreapp.iam.gserviceaccount.com
       
       LoginPageUI__ShowForgotPasswordLink: true
            
