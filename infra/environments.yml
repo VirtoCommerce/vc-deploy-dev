@@ -146,6 +146,8 @@
       route: platform
     - path: /modules
       route: platform
+    - path: /cms-content
+      route: platform
   protectedParameters:
    - themes.B2B-store
    - custom.app1.image.tag
