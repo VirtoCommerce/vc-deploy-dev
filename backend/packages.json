@@ -34,6 +34,10 @@
           "BlobName": "VirtoCommerce.PriceExportImport_3.1002.0-pr-97-2bce.zip"
         },
         {
+          "Id": "VirtoCommerce.ProductSubscription",
+          "BlobName": "VirtoCommerce.ProductSubscription_3.1000.0-pr-1-fdd1.zip"
+        },        
+        {
           "Id": "VirtoCommerce.ShipStation",
           "BlobName": "VirtoCommerce.ShipStation_3.1002.0-alpha.152.zip"
         },
@@ -383,7 +387,7 @@
         },
         {
           "Id": "VirtoCommerce.Payment",
-          "BlobName": "VirtoCommerce.Payment_3.1011.0-alpha.310.zip"
+          "BlobName": "VirtoCommerce.Payment_3.1011.0-alpha.315-vcst-6507.zip"
         }
       ]
     }
