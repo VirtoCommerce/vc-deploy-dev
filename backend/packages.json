@@ -23,6 +23,18 @@
           "BlobName": "VirtoCommerce.SalesRep_3.1015.0-pr-15-e5bc.zip"
         },
         {
+          "Id": "VirtoCommerce.PageBuilderModule",
+          "BlobName": "VirtoCommerce.PageBuilderModule_3.1036.0-pr-175-a3bc.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Pages",
+          "BlobName": "VirtoCommerce.Pages_3.1011.0-pr-23-4bcd.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XCMS",
+          "BlobName": "VirtoCommerce.XCMS_3.1009.0-pr-27-bb4c.zip"
+        },
+        {
           "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
           "BlobName": "VirtoCommerce.GoogleEcommerceAnalytics_4.1005.0-pr-61-5267.zip"
         } 
@@ -45,10 +57,6 @@
         {
           "Id": "VirtoCommerce.FileExperienceApi",
           "Version": "3.1008.0"
-        },
-        {
-          "Id": "VirtoCommerce.PageBuilderModule",
-          "Version": "3.1035.0"
         },
         {
           "Id": "VirtoCommerce.XCart",
@@ -275,10 +283,6 @@
           "Version": "3.1018.0"
         },
         {
-          "Id": "VirtoCommerce.Pages",
-          "Version": "3.1010.0"
-        },
-        {
           "Id": "VirtoCommerce.CustomerReviews",
           "Version": "3.1007.0"
         },
@@ -365,10 +369,6 @@
         {
           "Id": "VirtoCommerce.Assets",
           "Version": "3.1010.0"
-        },
-        {
-          "Id": "VirtoCommerce.XCMS",
-          "Version": "3.1008.0"
         },
         {
           "Id": "VirtoCommerce.ApplicationInsights",
