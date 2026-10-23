@@ -334,6 +334,8 @@
       route: platform
     - path: /api/otp
       route: platform
+    - path: /api/mfa
+      route: platform
     - path: /externalsignin
       route: platform
     - path: /signin-oidc
