@@ -262,10 +262,6 @@
           "BlobName": "VirtoCommerce.Core_3.1013.0-pr-268-cf23.zip"
         },
         {
-          "Id": "VirtoCommerce.Payment",
-          "BlobName": "VirtoCommerce.Payment_3.1011.0-pr-78-2c48.zip"
-        },
-        {
           "Id": "VirtoCommerce.Return",
           "BlobName": "VirtoCommerce.Return_3.1006.0-pr-30-19b7.zip"
         },
@@ -384,6 +380,10 @@
         {
           "Id": "VirtoCommerce.ImageTools",
           "BlobName": "VirtoCommerce.ImageTools_3.1008.0-alpha.425.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Payment",
+          "BlobName": "VirtoCommerce.Payment_3.1011.0-alpha.309.zip"
         }
       ]
     }
