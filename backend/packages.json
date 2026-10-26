@@ -35,6 +35,10 @@
           "BlobName": "VirtoCommerce.XCMS_3.1009.0-pr-27-bb4c.zip"
         },
         {
+          "Id": "VirtoCommerce.ProfileExperienceApiModule",
+          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.1022.0-pr-150-afd6.zip"
+        },
+        {
           "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
           "BlobName": "VirtoCommerce.GoogleEcommerceAnalytics_4.1005.0-pr-61-5267.zip"
         } 
@@ -329,10 +333,6 @@
         {
           "Id": "VirtoCommerce.BackupRestore",
           "Version": "3.1007.0"
-        },
-        {
-          "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.1021.0"
         },
         {
           "Id": "VirtoCommerce.XCatalog",
