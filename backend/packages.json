@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.1039.12",
+  "PlatformVersion": "3.1076.8",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.1039.12",
+  "PlatformImageTag": "3.1076.8",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -13,11 +13,15 @@
       "Modules": [
         {
           "Id": "VirtoCommerce.AzureAD",
-          "Version": "3.1002.0"
-        },        
+          "Version": "3.1003.0"
+        },
         {
           "Id": "VirtoCommerce.ApplicationInsights",
-          "Version": "3.1004.0"
+          "Version": "3.1005.0"
+        },
+        {
+          "Id": "VirtoCommerce.BackgroundJobs",
+          "Version": "3.1052.2"
         }
       ]
     }
