@@ -24,6 +24,15 @@
         },
         {
           "BlobName": "VirtoCommerce.XOrder_3.1017.0-pr-57-a0d1.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.CustomerReviews_3.1008.0-pr-86-6eca.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.XCart_3.1043.0-pr-151-07b3.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.XCatalog_3.1024.0-pr-115-8339.zip"
         }
       ]
     },
@@ -275,15 +284,7 @@
           "Version": "3.1005.0"
         },
         {
-          "Id": "VirtoCommerce.XCatalog",
-          "Version": "3.1023.0"
-        },
-        {
           "Id": "VirtoCommerce.XFrontend",
-          "Version": "3.1007.0"
-        },
-        {
-          "Id": "VirtoCommerce.CustomerReviews",
           "Version": "3.1007.0"
         },
         {
@@ -345,10 +346,6 @@
         {
           "Id": "VirtoCommerce.Store",
           "Version": "3.1010.0"
-        },
-        {
-          "Id": "VirtoCommerce.XCart",
-          "Version": "3.1042.0"
         },
         {
           "Id": "VirtoCommerce.Quote",
