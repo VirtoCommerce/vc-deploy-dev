@@ -22,23 +22,9 @@
           "BlobName": "VirtoCommerce.AIDocumentProcessing_3.901.0.zip"
         },
         {
-          "BlobName": "VirtoCommerce.Customer_3.1030.0-pr-321-c54f.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.Search_3.1010.0.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.PageBuilderModule_3.1036.0-pr-166-e2d3.zip"
-        },
-        {
           "Id": "VirtoCommerce.AuditLog",
           "Version": "3.1004.0",
           "BlobName": "VirtoCommerce.AuditLog_3.1004.0.zip"
-        },
-        {
-          "Id": "VirtoCommerce.Customer",
-          "Version": "3.1030.0-pr-322-a3d3",
-          "BlobName": "VirtoCommerce.Customer_3.1030.0-pr-322-a3d3.zip"
         },
         {
           "Id": "VirtoCommerce.PageBuilderModule",
@@ -54,11 +40,6 @@
           "Id": "VirtoCommerce.Quote",
           "Version": "3.1006.0-pr-166-10b1",
           "BlobName": "VirtoCommerce.Quote_3.1006.0-pr-166-10b1.zip"
-        },
-        {
-          "Id": "VirtoCommerce.Search",
-          "Version": "3.1011.0-pr-156-88b0",
-          "BlobName": "VirtoCommerce.Search_3.1011.0-pr-156-88b0.zip"
         },
         {
           "Id": "VirtoCommerce.SqlQueries",
@@ -148,6 +129,10 @@
           "Version": "3.1013.0"
         },
         {
+          "Id": "VirtoCommerce.Customer",
+          "Version": "3.1031.0"
+        },
+        {
           "Id": "VirtoCommerce.CustomerExportImport",
           "Version": "3.1003.0"
         },
@@ -234,6 +219,10 @@
         {
           "Id": "VirtoCommerce.Return",
           "Version": "3.1006.0"
+        },
+        {
+          "Id": "VirtoCommerce.Search",
+          "Version": "3.1012.0"
         },
         {
           "Id": "VirtoCommerce.Seo",
