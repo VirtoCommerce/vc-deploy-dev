@@ -162,10 +162,6 @@
           "BlobName": "VirtoCommerce.AuthorizeNetPayment_3.1006.0-pr-16-8871.zip"
         },
         {
-          "Id": "VirtoCommerce.AvalaraTax",
-          "BlobName": "VirtoCommerce.AvalaraTax_3.1006.0-pr-85-1582.zip"
-        },
-        {
           "Id": "VirtoCommerce.XCatalog",
           "BlobName": "VirtoCommerce.XCatalog_3.1023.0-alpha.234.zip"
         },
@@ -384,6 +380,10 @@
         {
           "Id": "VirtoCommerce.Contracts",
           "BlobName": "VirtoCommerce.Contracts_3.1007.0-alpha.184.zip"
+        },
+        {
+          "Id": "VirtoCommerce.AvalaraTax",
+          "BlobName": "VirtoCommerce.AvalaraTax_3.1006.0-alpha.371.zip"
         }
       ]
     }
