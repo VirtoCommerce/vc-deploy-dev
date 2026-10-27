@@ -104,10 +104,6 @@
           "Version": "3.1004.0"
         },
         {
-          "Id": "VirtoCommerce.Core",
-          "Version": "3.1012.0"
-        },
-        {
           "Id": "VirtoCommerce.GoogleSSO",
           "Version": "3.1003.0"
         },
@@ -358,6 +354,10 @@
         {
           "Id": "VirtoCommerce.Tax",
           "Version": "3.1009.0"
+        },
+        {
+          "Id": "VirtoCommerce.Core",
+          "Version": "3.1013.0"
         }
       ]
     },
