@@ -32,21 +32,6 @@
           "BlobName": "VirtoCommerce.PageBuilderModule_3.1036.0-pr-174-1cae.zip"
         },
         {
-          "Id": "VirtoCommerce.ProductSnapshot",
-          "Version": "3.1004.0-pr-4-1a6a",
-          "BlobName": "VirtoCommerce.ProductSnapshot_3.1004.0-pr-4-1a6a.zip"
-        },
-        {
-          "Id": "VirtoCommerce.Quote",
-          "Version": "3.1006.0-pr-166-10b1",
-          "BlobName": "VirtoCommerce.Quote_3.1006.0-pr-166-10b1.zip"
-        },
-        {
-          "Id": "VirtoCommerce.SqlQueries",
-          "Version": "3.1008.0-pr-28-a6d4",
-          "BlobName": "VirtoCommerce.SqlQueries_3.1008.0-pr-28-a6d4.zip"
-        },
-        {
           "Id": "VirtoCommerce.StateMachine",
           "Version": "3.1003.0-pr-4-ccb3",
           "BlobName": "VirtoCommerce.StateMachine_3.1003.0-pr-4-ccb3.zip"
@@ -217,6 +202,14 @@
           "Version": "3.1010.0"
         },
         {
+          "Id": "VirtoCommerce.ProductSnapshot",
+          "Version": "3.1004.0"
+        },
+        {
+          "Id": "VirtoCommerce.Quote",
+          "Version": "3.1006.0"
+        },
+        {
           "Id": "VirtoCommerce.Return",
           "Version": "3.1006.0"
         },
@@ -239,6 +232,10 @@
         {
           "Id": "VirtoCommerce.Sitemaps",
           "Version": "3.1007.0"
+        },
+        {
+          "Id": "VirtoCommerce.SqlQueries",
+          "Version": "3.1008.0"
         },
         {
           "Id": "VirtoCommerce.Store",
