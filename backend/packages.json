@@ -58,10 +58,6 @@
           "BlobName": "VirtoCommerce.CyberSourcePayment_3.1003.0-alpha.75.zip"
         },
         {
-          "Id": "VirtoCommerce.EnvironmentsCompare",
-          "BlobName": "VirtoCommerce.EnvironmentsCompare_3.1002.0-pr-3-9647.zip"
-        },
-        {
           "Id": "Virtocommerce.UCP",
           "BlobName": "Virtocommerce.UCP_3.1000.0-alpha.5.zip"
         },
@@ -384,6 +380,10 @@
         {
           "Id": "VirtoCommerce.NativePaymentMethods",
           "BlobName": "VirtoCommerce.NativePaymentMethods_3.1003.0-alpha.134.zip"
+        },
+        {
+          "Id": "VirtoCommerce.EnvironmentsCompare",
+          "BlobName": "VirtoCommerce.EnvironmentsCompare_3.1002.0-alpha.24.zip"
         }
       ]
     }
