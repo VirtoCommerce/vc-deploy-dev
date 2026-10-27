@@ -206,10 +206,6 @@
           "BlobName": "VirtoCommerce.XCMS_3.1009.0-alpha.94.zip"
         },
         {
-          "Id": "VirtoCommerce.AdminShell",
-          "BlobName": "VirtoCommerce.AdminShell_3.1000.0-alpha.2.zip"
-        },
-        {
           "Id": "VirtoCommerce.Catalog",
           "BlobName": "VirtoCommerce.Catalog_3.1051.0-alpha.2582.zip"
         },
@@ -384,6 +380,10 @@
         {
           "Id": "VirtoCommerce.MFA",
           "BlobName": "VirtoCommerce.MFA_3.1001.0-alpha.7.zip"
+        },
+        {
+          "Id": "VirtoCommerce.AdminShell",
+          "BlobName": "VirtoCommerce.AdminShell_3.1001.0-alpha.14.zip"
         }
       ]
     }
