@@ -190,10 +190,6 @@
           "BlobName": "VirtoCommerce.Xapi_3.1028.0-alpha.219.zip"
         },
         {
-          "Id": "VirtoCommerce.MFA",
-          "BlobName": "VirtoCommerce.MFA_3.1000.0-alpha.4.zip"
-        },
-        {
           "Id": "VirtoCommerce.OTP",
           "BlobName": "VirtoCommerce.OTP_3.1001.0-alpha.9.zip"
         },
@@ -384,6 +380,10 @@
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.1022.0-alpha.389.zip"
+        },
+        {
+          "Id": "VirtoCommerce.MFA",
+          "BlobName": "VirtoCommerce.MFA_3.1001.0-alpha.7.zip"
         }
       ]
     }
