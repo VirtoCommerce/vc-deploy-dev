@@ -94,10 +94,6 @@
           "BlobName": "VirtoCommerce.News_3.1005.0-alpha.73.zip"
         },
         {
-          "Id": "VirtoCommerce.BackInStock",
-          "BlobName": "VirtoCommerce.BackInStock_3.1003.0-pr-11-9ebe.zip"
-        },
-        {
           "Id": "VirtoCommerce.TaskManagement",
           "BlobName": "VirtoCommerce.TaskManagement_3.1006.0-pr-31-e006.zip"
         },
@@ -384,6 +380,10 @@
         {
           "Id": "VirtoCommerce.CatalogPersonalization",
           "BlobName": "VirtoCommerce.CatalogPersonalization_3.1009.0-alpha.324.zip"
+        },
+        {
+          "Id": "VirtoCommerce.BackInStock",
+          "BlobName": "VirtoCommerce.BackInStock_3.1003.0-alpha.69.zip"
         }
       ]
     }
