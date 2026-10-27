@@ -282,10 +282,6 @@
           "BlobName": "VirtoCommerce.AzureSearch_3.1009.0-alpha.311.zip"
         },
         {
-          "Id": "VirtoCommerce.Customer",
-          "BlobName": "VirtoCommerce.Customer_3.1031.0-pr-322-182d.zip"
-        },
-        {
           "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
           "BlobName": "VirtoCommerce.GoogleEcommerceAnalytics_4.1006.0-alpha.249.zip"
         },
@@ -384,6 +380,10 @@
         {
           "Id": "VirtoCommerce.Shipping",
           "BlobName": "VirtoCommerce.Shipping_3.1010.0-alpha.279.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Customer",
+          "BlobName": "VirtoCommerce.Customer_3.1031.0-alpha.1025.zip"
         }
       ]
     }
