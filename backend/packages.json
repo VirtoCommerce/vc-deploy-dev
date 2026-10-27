@@ -27,9 +27,19 @@
           "BlobName": "VirtoCommerce.AuditLog_3.1004.0.zip"
         },
         {
+          "Id": "VirtoCommerce.Cart",
+          "Version": "3.1013.0-alpha.818-vcst-5888-punchoutorderrequest",
+          "BlobName": "VirtoCommerce.Cart_3.1013.0-alpha.818-vcst-5888-punchoutorderrequest.zip"
+        },
+        {
           "Id": "VirtoCommerce.PageBuilderModule",
           "Version": "3.1036.0-pr-174-1cae",
           "BlobName": "VirtoCommerce.PageBuilderModule_3.1036.0-pr-174-1cae.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Punchout",
+          "Version": "3.1000.0-pr-6-d2e3",
+          "BlobName": "VirtoCommerce.Punchout_3.1000.0-pr-6-d2e3.zip"
         },
         {
           "Id": "VirtoCommerce.StateMachine",
@@ -40,6 +50,11 @@
           "Id": "VirtoCommerce.Subscription",
           "Version": "3.1007.0-pr-129-5b98",
           "BlobName": "VirtoCommerce.Subscription_3.1007.0-pr-129-5b98.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XCart",
+          "Version": "3.1043.0-alpha.300-vcst-5888-punchoutorderrequest",
+          "BlobName": "VirtoCommerce.XCart_3.1043.0-alpha.300-vcst-5888-punchoutorderrequest.zip"
         }
       ]
     },
@@ -254,16 +269,8 @@
           "Version": "3.1006.0"
         },
         {
-          "Id": "VirtoCommerce.Cart",
-          "Version": "3.1013.0"
-        },
-        {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "Version": "3.1021.0"
-        },
-        {
-          "Id": "VirtoCommerce.XCart",
-          "Version": "3.1042.0"
         },
         {
           "Id": "VirtoCommerce.PushMessages",
