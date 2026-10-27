@@ -366,10 +366,6 @@
           "BlobName": "VirtoCommerce.Payment_3.1011.0-alpha.325-vcst-6507.zip"
         },
         {
-          "Id": "VirtoCommerce.PageBuilderModule",
-          "BlobName": "VirtoCommerce.PageBuilderModule_3.1037.0-alpha.886.zip"
-        },
-        {
           "Id": "VirtoCommerce.MFA",
           "BlobName": "VirtoCommerce.MFA_3.1000.0-alpha.4.zip"
         },
@@ -388,6 +384,10 @@
         {
           "Id": "VirtoCommerce.Quote",
           "BlobName": "VirtoCommerce.Quote_3.1006.0-alpha.521.zip"
+        },
+        {
+          "Id": "VirtoCommerce.PageBuilderModule",
+          "BlobName": "VirtoCommerce.PageBuilderModule_3.1038.0-alpha.888.zip"
         }
       ]
     }
