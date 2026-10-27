@@ -164,10 +164,6 @@
           "Version": "3.1003.0"
         },
         {
-          "Id": "VirtoCommerce.AvalaraTax",
-          "Version": "3.1005.0"
-        },
-        {
           "Id": "VirtoCommerce.XCMS",
           "Version": "3.1008.0"
         },
@@ -358,6 +354,10 @@
         {
           "Id": "VirtoCommerce.CustomerExportImport",
           "Version": "3.1003.0"
+        },
+        {
+          "Id": "VirtoCommerce.AvalaraTax",
+          "Version": "3.1006.0"
         }
       ]
     },
