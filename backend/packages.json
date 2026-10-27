@@ -132,10 +132,6 @@
           "Version": "3.1006.0"
         },
         {
-          "Id": "VirtoCommerce.Pages",
-          "Version": "3.1010.0"
-        },
-        {
           "Id": "VirtoCommerce.XPickup",
           "Version": "3.1008.0"
         },
@@ -358,6 +354,10 @@
         {
           "Id": "VirtoCommerce.PriceExportImport",
           "Version": "3.1002.0"
+        },
+        {
+          "Id": "VirtoCommerce.Pages",
+          "Version": "3.1011.0"
         }
       ]
     },
