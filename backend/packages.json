@@ -42,10 +42,6 @@
           "BlobName": "VirtoCommerce.ShipStation_3.1002.0-alpha.152.zip"
         },
         {
-          "Id": "VirtoCommerce.NativePaymentMethods",
-          "BlobName": "VirtoCommerce.NativePaymentMethods_3.1003.0-pr-19-6e72.zip"
-        },
-        {
           "Id": "VirtoCommerce.OpenIdConnectModule",
           "BlobName": "VirtoCommerce.OpenIdConnectModule_3.1002.0-alpha.45.zip"
         },
@@ -384,6 +380,10 @@
         {
           "Id": "VirtoCommerce.DynamicAssociationsModule",
           "BlobName": "VirtoCommerce.DynamicAssociationsModule_3.1004.0-alpha.219.zip"
+        },
+        {
+          "Id": "VirtoCommerce.NativePaymentMethods",
+          "BlobName": "VirtoCommerce.NativePaymentMethods_3.1003.0-alpha.134.zip"
         }
       ]
     }
