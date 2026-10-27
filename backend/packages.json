@@ -264,10 +264,6 @@
           "Version": "3.1054.0"
         },
         {
-          "Id": "VirtoCommerce.Pricing",
-          "Version": "3.1009.0"
-        },
-        {
           "Id": "VirtoCommerce.SqlQueries",
           "Version": "3.1007.0"
         },
@@ -358,6 +354,10 @@
         {
           "Id": "VirtoCommerce.Inventory",
           "Version": "3.1011.0"
+        },
+        {
+          "Id": "VirtoCommerce.Pricing",
+          "Version": "3.1010.0"
         }
       ]
     },
