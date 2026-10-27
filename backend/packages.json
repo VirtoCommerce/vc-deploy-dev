@@ -182,10 +182,6 @@
           "BlobName": "VirtoCommerce.Loyalty_3.1010.0-pr-19-4ae3.zip"
         },
         {
-          "Id": "VirtoCommerce.SqlQueries",
-          "BlobName": "VirtoCommerce.SqlQueries_3.1008.0-pr-28-c230.zip"
-        },
-        {
           "Id": "VirtoCommerce.AzureSearch",
           "BlobName": "VirtoCommerce.AzureSearch_3.1009.0-alpha.311.zip"
         },
@@ -384,6 +380,10 @@
         {
           "Id": "VirtoCommerce.ProductSnapshot",
           "BlobName": "VirtoCommerce.ProductSnapshot_3.1004.0-alpha.30.zip"
+        },
+        {
+          "Id": "VirtoCommerce.SqlQueries",
+          "BlobName": "VirtoCommerce.SqlQueries_3.1008.0-alpha.66.zip"
         }
       ]
     }
