@@ -31,11 +31,6 @@
           "BlobName": "VirtoCommerce.PageBuilderModule_3.1036.0-pr-166-e2d3.zip"
         },
         {
-          "Id": "VirtoCommerce.AdminShell",
-          "Version": "3.1000.0-pr-1-34b3",
-          "BlobName": "VirtoCommerce.AdminShell_3.1000.0-pr-1-34b3.zip"
-        },
-        {
           "Id": "VirtoCommerce.AuditLog",
           "Version": "3.1004.0",
           "BlobName": "VirtoCommerce.AuditLog_3.1004.0.zip"
@@ -44,11 +39,6 @@
           "Id": "VirtoCommerce.Customer",
           "Version": "3.1030.0-pr-322-a3d3",
           "BlobName": "VirtoCommerce.Customer_3.1030.0-pr-322-a3d3.zip"
-        },
-        {
-          "Id": "VirtoCommerce.Notifications",
-          "Version": "3.1019.0-pr-208-59d8",
-          "BlobName": "VirtoCommerce.Notifications_3.1019.0-pr-208-59d8.zip"
         },
         {
           "Id": "VirtoCommerce.PageBuilderModule",
@@ -93,6 +83,10 @@
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
       "Modules": [
+        {
+          "Id": "VirtoCommerce.AdminShell",
+          "Version": "3.1000.0"
+        },
         {
           "Id": "VirtoCommerce.AlgoliaSearch",
           "Version": "3.1002.0"
@@ -200,6 +194,10 @@
         {
           "Id": "VirtoCommerce.NativePaymentMethods",
           "Version": "3.1003.0"
+        },
+        {
+          "Id": "VirtoCommerce.Notifications",
+          "Version": "3.1019.0"
         },
         {
           "Id": "VirtoCommerce.OTP",
