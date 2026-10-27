@@ -306,10 +306,6 @@
           "BlobName": "VirtoCommerce.BackgroundJobs_3.1054.0-alpha.21.zip"
         },
         {
-          "Id": "VirtoCommerce.AdminShell",
-          "BlobName": "VirtoCommerce.AdminShell_3.1000.0-pr-1-9155.zip"
-        },
-        {
           "Id": "VirtoCommerce.Loyalty",
           "BlobName": "VirtoCommerce.Loyalty_3.1010.0-pr-19-4ae3.zip"
         },
@@ -384,6 +380,10 @@
         {
           "Id": "VirtoCommerce.XCMS",
           "BlobName": "VirtoCommerce.XCMS_3.1009.0-alpha.94.zip"
+        },
+        {
+          "Id": "VirtoCommerce.AdminShell",
+          "BlobName": "VirtoCommerce.AdminShell_3.1000.0-alpha.2.zip"
         }
       ]
     }
