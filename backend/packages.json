@@ -204,10 +204,6 @@
           "Version": "3.1017.0"
         },
         {
-          "Id": "VirtoCommerce.ImageTools",
-          "Version": "3.1008.0"
-        },
-        {
           "Id": "VirtoCommerce.PageBuilderModule",
           "Version": "3.1038.0"
         },
@@ -358,6 +354,10 @@
         {
           "Id": "VirtoCommerce.Return",
           "Version": "3.1006.0"
+        },
+        {
+          "Id": "VirtoCommerce.ImageTools",
+          "Version": "3.1009.0"
         }
       ]
     },
