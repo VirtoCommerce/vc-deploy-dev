@@ -156,10 +156,6 @@
           "Version": "3.1018.0"
         },
         {
-          "Id": "VirtoCommerce.Shipping",
-          "Version": "3.1009.0"
-        },
-        {
           "Id": "VirtoCommerce.Sitemaps",
           "Version": "3.1006.0"
         },
@@ -358,6 +354,10 @@
         {
           "Id": "VirtoCommerce.Orders",
           "Version": "3.1019.0"
+        },
+        {
+          "Id": "VirtoCommerce.Shipping",
+          "Version": "3.1010.0"
         }
       ]
     },
