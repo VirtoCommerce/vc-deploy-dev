@@ -318,10 +318,6 @@
           "BlobName": "VirtoCommerce.ImageTools_3.1008.0-pr-131-6cca.zip"
         },
         {
-          "Id": "VirtoCommerce.Payment",
-          "BlobName": "VirtoCommerce.Payment_3.1011.0-alpha.325-vcst-6507.zip"
-        },
-        {
           "Id": "VirtoCommerce.MFA",
           "BlobName": "VirtoCommerce.MFA_3.1000.0-alpha.4.zip"
         },
@@ -384,6 +380,10 @@
         {
           "Id": "VirtoCommerce.Notifications",
           "BlobName": "VirtoCommerce.Notifications_3.1019.0-alpha.506.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Payment",
+          "BlobName": "VirtoCommerce.Payment_3.1011.0-alpha.309.zip"
         }
       ]
     }
