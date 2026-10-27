@@ -314,10 +314,6 @@
           "BlobName": "VirtoCommerce.Pricing_3.1010.0-pr-240-8a3e.zip"
         },
         {
-          "Id": "VirtoCommerce.Catalog",
-          "BlobName": "VirtoCommerce.Catalog_3.1051.0-pr-913-8afd.zip"
-        },
-        {
           "Id": "VirtoCommerce.SqlQueries",
           "BlobName": "VirtoCommerce.SqlQueries_3.1008.0-pr-28-c230.zip"
         },
@@ -384,6 +380,10 @@
         {
           "Id": "VirtoCommerce.AdminShell",
           "BlobName": "VirtoCommerce.AdminShell_3.1000.0-alpha.2.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "BlobName": "VirtoCommerce.Catalog_3.1051.0-alpha.2582.zip"
         }
       ]
     }
