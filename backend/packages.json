@@ -214,10 +214,6 @@
           "BlobName": "VirtoCommerce.Contracts_3.1007.0-pr-42-5e7f.zip"
         },
         {
-          "Id": "VirtoCommerce.DynamicAssociationsModule",
-          "BlobName": "VirtoCommerce.DynamicAssociationsModule_3.1004.0-pr-58-666f.zip"
-        },
-        {
           "Id": "VirtoCommerce.WhiteLabeling",
           "BlobName": "VirtoCommerce.WhiteLabeling_3.1006.0-pr-28-5e8b.zip"
         },
@@ -384,6 +380,10 @@
         {
           "Id": "VirtoCommerce.Content",
           "BlobName": "VirtoCommerce.Content_3.1008.0-alpha.1074.zip"
+        },
+        {
+          "Id": "VirtoCommerce.DynamicAssociationsModule",
+          "BlobName": "VirtoCommerce.DynamicAssociationsModule_3.1004.0-alpha.219.zip"
         }
       ]
     }
