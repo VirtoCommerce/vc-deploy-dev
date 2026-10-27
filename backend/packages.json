@@ -190,10 +190,6 @@
           "BlobName": "VirtoCommerce.GoogleEcommerceAnalytics_4.1006.0-alpha.249.zip"
         },
         {
-          "Id": "VirtoCommerce.SalesRep",
-          "BlobName": "VirtoCommerce.SalesRep_3.1015.0-alpha.46.zip"
-        },
-        {
           "Id": "VirtoCommerce.Xapi",
           "BlobName": "VirtoCommerce.Xapi_3.1028.0-alpha.219.zip"
         },
@@ -384,6 +380,10 @@
         {
           "Id": "VirtoCommerce.SqlQueries",
           "BlobName": "VirtoCommerce.SqlQueries_3.1008.0-alpha.66.zip"
+        },
+        {
+          "Id": "VirtoCommerce.SalesRep",
+          "BlobName": "VirtoCommerce.SalesRep_3.1016.0-alpha.48.zip"
         }
       ]
     }
