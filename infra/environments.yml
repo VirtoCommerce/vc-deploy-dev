@@ -42,6 +42,7 @@
         OTEL_EXPERIMENTAL_RESOURCE_DETECTORS: otel
         RESTARTED_AT: 2026-07-10T14:03
         VIRTO_OZ_CHECKPOINTER__TYPE: postgres
+        VIRTO_OZ_CORS_ORIGINS: https://vcmp-dev.govirto.com
         VIRTO_OZ_LLM__SUBAGENT__TIMEOUT: 300
         VIRTO_OZ_MCP__AUTH__BASE_URL: https://virtooz-dev.govirto.com
         VIRTO_OZ_MCP__AUTH__STORAGE__AUTH__TYPE: entra_id
