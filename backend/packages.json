@@ -150,10 +150,6 @@
           "BlobName": "VirtoCommerce.LuceneSearch_3.1006.0-alpha.262.zip"
         },
         {
-          "Id": "VirtoCommerce.BackupRestore",
-          "BlobName": "VirtoCommerce.BackupRestore_3.1008.0-pr-9-9d58.zip"
-        },
-        {
           "Id": "VirtoCommerce.Export",
           "BlobName": "VirtoCommerce.Export_3.1006.0-pr-113-5d84.zip"
         },
@@ -384,6 +380,10 @@
         {
           "Id": "VirtoCommerce.BackInStock",
           "BlobName": "VirtoCommerce.BackInStock_3.1003.0-alpha.69.zip"
+        },
+        {
+          "Id": "VirtoCommerce.BackupRestore",
+          "BlobName": "VirtoCommerce.BackupRestore_3.1008.0-alpha.27.zip"
         }
       ]
     }
