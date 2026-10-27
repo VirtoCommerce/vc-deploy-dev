@@ -204,10 +204,6 @@
           "Version": "3.1031.0"
         },
         {
-          "Id": "VirtoCommerce.Search",
-          "Version": "3.1012.0"
-        },
-        {
           "Id": "VirtoCommerce.Tax",
           "Version": "3.1009.0"
         },
@@ -358,6 +354,10 @@
         {
           "Id": "VirtoCommerce.SqlQueries",
           "Version": "3.1008.0"
+        },
+        {
+          "Id": "VirtoCommerce.Search",
+          "Version": "3.1013.0"
         }
       ]
     },
