@@ -266,10 +266,6 @@
           "BlobName": "VirtoCommerce.CustomerReviews_3.1008.0-pr-84-bee6.zip"
         },
         {
-          "Id": "VirtoCommerce.Tax",
-          "BlobName": "VirtoCommerce.Tax_3.1009.0-pr-62-bc42.zip"
-        },
-        {
           "Id": "VirtoCommerce.WebHooks",
           "BlobName": "VirtoCommerce.WebHooks_3.1006.0-pr-89-0a3f.zip"
         },
@@ -384,6 +380,10 @@
         {
           "Id": "VirtoCommerce.Inventory",
           "BlobName": "VirtoCommerce.Inventory_3.1011.0-alpha.551.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Tax",
+          "BlobName": "VirtoCommerce.Tax_3.1009.0-alpha.252.zip"
         }
       ]
     }
