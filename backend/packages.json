@@ -138,10 +138,6 @@
           "BlobName": "VirtoCommerce.XPickup_3.1008.0-alpha.62.zip"
         },
         {
-          "Id": "VirtoCommerce.GDPR",
-          "BlobName": "VirtoCommerce.GDPR_3.1004.0-pr-28-c68e.zip"
-        },
-        {
           "Id": "VirtoCommerce.AuthorizeNetPayment",
           "BlobName": "VirtoCommerce.AuthorizeNetPayment_3.1006.0-pr-16-8871.zip"
         },
@@ -384,6 +380,10 @@
         {
           "Id": "VirtoCommerce.TaskManagement",
           "BlobName": "VirtoCommerce.TaskManagement_3.1006.0-alpha.215.zip"
+        },
+        {
+          "Id": "VirtoCommerce.GDPR",
+          "BlobName": "VirtoCommerce.GDPR_3.1004.0-alpha.184.zip"
         }
       ]
     }
