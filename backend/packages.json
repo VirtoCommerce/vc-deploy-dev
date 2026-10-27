@@ -278,10 +278,6 @@
           "BlobName": "VirtoCommerce.WhiteLabeling_3.1006.0-pr-28-5e8b.zip"
         },
         {
-          "Id": "VirtoCommerce.Orders",
-          "BlobName": "VirtoCommerce.Orders_3.1019.0-pr-508-b92a.zip"
-        },
-        {
           "Id": "VirtoCommerce.CustomerReviews",
           "BlobName": "VirtoCommerce.CustomerReviews_3.1008.0-pr-84-bee6.zip"
         },
@@ -384,6 +380,10 @@
         {
           "Id": "VirtoCommerce.Core",
           "BlobName": "VirtoCommerce.Core_3.1013.0-alpha.1729.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Orders",
+          "BlobName": "VirtoCommerce.Orders_3.1019.0-alpha.1456.zip"
         }
       ]
     }
