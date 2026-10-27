@@ -37,6 +37,19 @@
       Punchout__Configurations__2__Id: qa1-punchout-2
       Punchout__Configurations__2__StoreId: AGENT-TEST-no-such-store
       Punchout__Configurations__2__SharedSecret: qa1-a65c38611bf8a16b275581a8
+      # VCST-5888: B2B-store with default methods (OrderRequest T1 methods, T4)
+      Punchout__Configurations__3__Id: qa1-punchout-defaults
+      Punchout__Configurations__3__StoreId: B2B-store
+      Punchout__Configurations__3__SharedSecret: agt58882aWganRdpRHvbdCRckctSw
+      Punchout__Configurations__3__SenderDomain: NetworkId
+      Punchout__Configurations__3__DefaultShipmentMethodCode: FixedRate
+      Punchout__Configurations__3__DefaultPaymentMethodCode: DefaultManualPaymentMethod
+      # VCST-5888: B2B-store with default method codes that do not exist (OrderRequest T17b)
+      Punchout__Configurations__4__Id: qa1-punchout-badcodes
+      Punchout__Configurations__4__StoreId: B2B-store
+      Punchout__Configurations__4__SharedSecret: agt5888u0Dmqc27LL1T5BALODorAg
+      Punchout__Configurations__4__DefaultShipmentMethodCode: AGENT-TEST-NoSuchShipping
+      Punchout__Configurations__4__DefaultPaymentMethodCode: AGENT-TEST-NoSuchPayment
       FileUpload__RootPath: attachments
       FileUpload__Scopes__0__Scope: quote-attachments
       FileUpload__Scopes__0__MaxFileSize: 1000000
