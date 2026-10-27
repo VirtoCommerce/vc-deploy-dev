@@ -50,10 +50,6 @@
           "BlobName": "VirtoCommerce.OpenIdConnectModule_3.1002.0-alpha.45.zip"
         },
         {
-          "Id": "VirtoCommerce.OrderManagement",
-          "BlobName": "VirtoCommerce.OrderManagement_3.1003.0-pr-8-9d46.zip"
-        },
-        {
           "Id": "VirtoCommerce.Sanity",
           "BlobName": "VirtoCommerce.Sanity_3.1004.0-alpha.11.zip"
         },
@@ -384,6 +380,10 @@
         {
           "Id": "VirtoCommerce.BackupRestore",
           "BlobName": "VirtoCommerce.BackupRestore_3.1008.0-alpha.27.zip"
+        },
+        {
+          "Id": "VirtoCommerce.OrderManagement",
+          "BlobName": "VirtoCommerce.OrderManagement_3.1003.0-alpha.54.zip"
         }
       ]
     }
