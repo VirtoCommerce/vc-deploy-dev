@@ -234,10 +234,6 @@
           "BlobName": "VirtoCommerce.Contracts_3.1007.0-pr-42-5e7f.zip"
         },
         {
-          "Id": "VirtoCommerce.CatalogPersonalization",
-          "BlobName": "VirtoCommerce.CatalogPersonalization_3.1009.0-pr-94-7bb0.zip"
-        },
-        {
           "Id": "VirtoCommerce.DynamicAssociationsModule",
           "BlobName": "VirtoCommerce.DynamicAssociationsModule_3.1004.0-pr-58-666f.zip"
         },
@@ -384,6 +380,10 @@
         {
           "Id": "VirtoCommerce.BulkActionsModule",
           "BlobName": "VirtoCommerce.BulkActionsModule_3.1005.0-alpha.268.zip"
+        },
+        {
+          "Id": "VirtoCommerce.CatalogPersonalization",
+          "BlobName": "VirtoCommerce.CatalogPersonalization_3.1009.0-alpha.324.zip"
         }
       ]
     }
