@@ -55,6 +55,9 @@
           "Id": "VirtoCommerce.XCart",
           "Version": "3.1043.0-alpha.300-vcst-5888-punchoutorderrequest",
           "BlobName": "VirtoCommerce.XCart_3.1043.0-alpha.300-vcst-5888-punchoutorderrequest.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Search_3.1013.0-pr-159-b3bc.zip"
         }
       ]
     },
@@ -227,10 +230,6 @@
         {
           "Id": "VirtoCommerce.Return",
           "Version": "3.1006.0"
-        },
-        {
-          "Id": "VirtoCommerce.Search",
-          "Version": "3.1012.0"
         },
         {
           "Id": "VirtoCommerce.Seo",
