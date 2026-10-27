@@ -164,10 +164,6 @@
           "Version": "3.1007.0"
         },
         {
-          "Id": "VirtoCommerce.CustomerReviews",
-          "Version": "3.1007.0"
-        },
-        {
           "Id": "VirtoCommerce.UCP",
           "Version": "3.1010.0"
         },
@@ -358,6 +354,10 @@
         {
           "Id": "VirtoCommerce.CatalogPublishing",
           "Version": "3.1009.0"
+        },
+        {
+          "Id": "VirtoCommerce.CustomerReviews",
+          "Version": "3.1008.0"
         }
       ]
     },
