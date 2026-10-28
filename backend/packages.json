@@ -120,10 +120,6 @@
           "Version": "3.1005.0"
         },
         {
-          "Id": "VirtoCommerce.XCMS",
-          "Version": "3.1008.0"
-        },
-        {
           "Id": "VirtoCommerce.XCatalog",
           "Version": "3.1023.0"
         },
@@ -362,6 +358,10 @@
         {
           "Id": "VirtoCommerce.Pages",
           "Version": "3.1012.0"
+        },
+        {
+          "Id": "VirtoCommerce.XCMS",
+          "Version": "3.1009.0"
         }
       ]
     },
