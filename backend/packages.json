@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.1085.0",
+  "PlatformVersion": "3.1091.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.1085.0",
+  "PlatformImageTag": "3.1091.0-pr-3144-e637-vcst-6121-passkeys-e6371864",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
   ],
@@ -44,6 +44,21 @@
         },
         {
           "BlobName": "VirtoCommerce.Sanity_3.1004.0-pr-4-f7a8.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.AdminShell_3.1002.0-pr-4-1dd1.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Passkeys_3.1000.0-pr-1-5d36.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Store_3.1012.0-pr-190-ded5.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Customer_3.1032.0-pr-324-b30b.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.XFrontend_3.1008.0-alpha.64-vcst-6121-passkeys.zip"
         }
       ]
     },
@@ -290,10 +305,6 @@
           "Version": "3.1007.0"
         },
         {
-          "Id": "VirtoCommerce.XFrontend",
-          "Version": "3.1007.0"
-        },
-        {
           "Id": "VirtoCommerce.WhiteLabeling",
           "Version": "3.1005.0"
         },
@@ -308,10 +319,6 @@
         {
           "Id": "VirtoCommerce.Sitemaps",
           "Version": "3.1006.0"
-        },
-        {
-          "Id": "VirtoCommerce.Store",
-          "Version": "3.1010.0"
         },
         {
           "Id": "VirtoCommerce.Inventory",
@@ -356,10 +363,6 @@
         {
           "Id": "VirtoCommerce.Core",
           "Version": "3.1012.0"
-        },
-        {
-          "Id": "VirtoCommerce.Customer",
-          "Version": "3.1029.0"
         },
         {
           "Id": "VirtoCommerce.Xapi",
