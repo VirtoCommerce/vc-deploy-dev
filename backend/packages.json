@@ -188,10 +188,6 @@
           "Version": "3.1008.0"
         },
         {
-          "Id": "VirtoCommerce.Store",
-          "Version": "3.1011.0"
-        },
-        {
           "Id": "VirtoCommerce.Marketing",
           "Version": "3.1010.0"
         },
@@ -362,6 +358,10 @@
         {
           "Id": "VirtoCommerce.AdminShell",
           "Version": "3.1002.0"
+        },
+        {
+          "Id": "VirtoCommerce.Store",
+          "Version": "3.1012.0"
         }
       ]
     },
