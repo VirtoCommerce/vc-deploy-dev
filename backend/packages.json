@@ -46,10 +46,6 @@
           "BlobName": "VirtoCommerce.OpenIdConnectModule_3.1002.0-alpha.45.zip"
         },
         {
-          "Id": "VirtoCommerce.Sanity",
-          "BlobName": "VirtoCommerce.Sanity_3.1004.0-alpha.11.zip"
-        },
-        {
           "Id": "VirtoCommerce.Datatrans",
           "BlobName": "VirtoCommerce.Datatrans_3.1003.0-alpha.117.zip"
         },
@@ -384,6 +380,10 @@
         {
           "Id": "VirtoCommerce.PageBuilderModule",
           "BlobName": "VirtoCommerce.PageBuilderModule_3.1040.0-alpha.892.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Sanity",
+          "BlobName": "VirtoCommerce.Sanity_3.1004.0-alpha.18.zip"
         }
       ]
     }
