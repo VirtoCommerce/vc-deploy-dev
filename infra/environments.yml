@@ -387,6 +387,9 @@
 
       #UnitOfMeasure default settings
       Measures__DefaultSource: https://vcptcore-qa.govirto.com/cms-content/assets/measures/VirtoCommerce.Catalog.json
+      Sanity__WebhookSecrets__0: whsec_qa_F6c4HejhIzxzt4ZaLoNieZfxuhd0XdaX
+      Sanity__WebhookSecrets__1: whsec_qa_N8dDShLOS1HmFyndr2pljOH4FGgtijDS
+      Sanity__Secrets__qaToken: skAIcLctnWysTZGol61sTfI6t0DLJPiBLGWWT4v8NHi8kmTpWKbclMOweGn2b0LpQnZ78lBhEd4vDplqU0Z44hEshWv2CQP1W2sebfFqBHns0JpDQ7ovPiT3YfxytX3bpWNIa3XKn1VhWJduhaGMqNGYHEpyTw8Gz7uVq4iYrQZ77YuR9jgy
       
     secretConfig:
       Payments__AuthorizeNet__TxnKey: authorizenet-txnkey-vs
