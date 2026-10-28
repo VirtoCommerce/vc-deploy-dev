@@ -58,6 +58,9 @@
         },
         {
           "BlobName": "VirtoCommerce.Search_3.1013.0-pr-158-6098.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.1022.0-pr-149-2242.zip"
         }
       ]
     },
@@ -266,10 +269,6 @@
         {
           "Id": "VirtoCommerce.WhiteLabeling",
           "Version": "3.1006.0"
-        },
-        {
-          "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.1021.0"
         },
         {
           "Id": "VirtoCommerce.PushMessages",
