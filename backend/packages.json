@@ -308,10 +308,6 @@
           "Version": "3.1002.0"
         },
         {
-          "Id": "VirtoCommerce.Pages",
-          "Version": "3.1011.0"
-        },
-        {
           "Id": "VirtoCommerce.OrderManagement",
           "Version": "3.1003.0"
         },
@@ -362,6 +358,10 @@
         {
           "Id": "VirtoCommerce.Search",
           "Version": "3.1014.0"
+        },
+        {
+          "Id": "VirtoCommerce.Pages",
+          "Version": "3.1012.0"
         }
       ]
     },
