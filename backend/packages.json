@@ -41,7 +41,10 @@
         {
           "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
           "BlobName": "VirtoCommerce.GoogleEcommerceAnalytics_4.1005.0-pr-61-5267.zip"
-        } 
+        },
+        {
+          "BlobName": "VirtoCommerce.Sanity_3.1004.0-pr-4-f7a8.zip"
+        }
       ]
     },
     {
@@ -125,10 +128,6 @@
         {
           "Id": "VirtoCommerce.OrderManagement",
           "Version": "3.1002.0"
-        },
-        {
-          "Id": "VirtoCommerce.Sanity",
-          "Version": "3.1003.0"
         },
         {
           "Id": "VirtoCommerce.Datatrans",
