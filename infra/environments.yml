@@ -503,11 +503,21 @@
     paths:
     - path: /xapi
       route: platform
-    - path: /cms-content
-      route: platform
     - path: /files
       route: platform
     - path: /connect/token
+      route: platform
+    - path: /connect/authorize
+      route: platform
+    - path: /connect/session
+      route: platform
+    - path: /.well-known/openid-configuration
+      route: platform
+    - path: /.well-known/oauth-authorization-server
+      route: platform
+    - path: /.well-known/oauth-protected-resource
+      route: platform
+    - path: /.well-known/jwks
       route: platform
     - path: /graphql
       route: platform
@@ -515,11 +525,19 @@
       route: platform
     - path: /api/files
       route: platform
+    - path: /api/otp
+      route: platform
+    - path: /api/mfa
+      route: platform
     - path: /externalsignin
       route: platform
     - path: /signin-oidc
       route: platform
     - path: /signin-google
+      route: platform 
+    - path: /ucp
+      route: platform
+    - path: /.well-known/ucp
       route: platform
     - path: /modules
       route: platform
