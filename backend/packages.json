@@ -212,10 +212,6 @@
           "Version": "3.1010.0"
         },
         {
-          "Id": "VirtoCommerce.Cart",
-          "Version": "3.1013.0"
-        },
-        {
           "Id": "VirtoCommerce.BulkActionsModule",
           "Version": "3.1005.0"
         },
@@ -362,6 +358,10 @@
         {
           "Id": "VirtoCommerce.Sanity",
           "Version": "3.1004.0"
+        },
+        {
+          "Id": "VirtoCommerce.Cart",
+          "Version": "3.1014.0"
         }
       ]
     },
