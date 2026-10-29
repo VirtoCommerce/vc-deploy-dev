@@ -192,7 +192,7 @@
       # So the client can request a token for our MCP specifically (RFC 8707).
       Authorization__Resources__0: https://virtostart-main-mcp-onx.govirto.com
 
-      Reload: 2026-07-02
+      Reload: 2026-10-29
     secretConfig:
       AI__OpenAI__ApiKey: openai-api-key
       Notifications__SendGrid__ApiKey: sendkey
