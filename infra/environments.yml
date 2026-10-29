@@ -31,7 +31,7 @@
     config:
       APPINSIGHTS_INSTRUMENTATIONKEY: adc98546-3f8a-4462-a0b2-7c822b5565ba
     themes:
-      FE: https://vcptcore-aidemo.govirto.com/cms-content/assets/themes/specsavers-theme-2026-10-22T13-25-20Z.zip
+      FE: https://github.com/VirtoCommerce/vc-frontend-next/releases/download/3.1.0/vc-frontend-next-3.1.0.zip
   customApps:
     app1:
       enabled: false
