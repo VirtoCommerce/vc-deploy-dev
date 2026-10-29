@@ -162,8 +162,6 @@
       route: platform
     - path: /signin-google
       route: platform
-    - path: /api/files
-      route: platform
   protectedParameters:
    - platform.image.tag
    - custom.app1.image.tag
