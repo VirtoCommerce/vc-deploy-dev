@@ -358,10 +358,6 @@
           "BlobName": "VirtoCommerce.Sanity_3.1004.0-alpha.18.zip"
         },
         {
-          "Id": "VirtoCommerce.AdminShell",
-          "BlobName": "VirtoCommerce.AdminShell_3.1002.0-alpha.16.zip"
-        },
-        {
           "Id": "VirtoCommerce.Cart",
           "BlobName": "VirtoCommerce.Cart_3.1014.0-alpha.821.zip"
         },
@@ -392,6 +388,10 @@
         {
           "Id": "VirtoCommerce.Passkeys",
           "BlobName": "VirtoCommerce.Passkeys_3.1000.0-alpha.2.zip"
+        },
+        {
+          "Id": "VirtoCommerce.AdminShell",
+          "BlobName": "VirtoCommerce.AdminShell_3.1003.0-alpha.18.zip"
         }
       ]
     }
