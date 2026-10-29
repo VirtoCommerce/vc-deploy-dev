@@ -34,6 +34,10 @@
       GoogleSSO__AuthenticationCaption: Google sign-in
       GoogleSSO__DefaultUserType: Customer
       GoogleSSO__UsePreferredUsername: false
+
+      # VCI-1493: Workload Identity Federation (AKS -> GCP) for the GA4 Data API (Sales Rep customer insights, VCST-5337)
+      GOOGLE_WORKLOAD_IDENTITY_AUDIENCE: https://iam.googleapis.com/projects/1067195343364/locations/global/workloadIdentityPools/virto-aks/providers/vcst
+      GOOGLE_WORKLOAD_IDENTITY_SERVICE_ACCOUNT: ga-reporting@storefrontcoreapp.iam.gserviceaccount.com
       #Default Store
       VirtoCommerce__Stores__DefaultStore: B2B-store
       # Allows to see theme in Content menu in platform UI
