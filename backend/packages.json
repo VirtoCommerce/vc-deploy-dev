@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.1090.0",
+  "PlatformVersion": "3.1091.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.1090.0",
+  "PlatformImageTag": "3.1091.0",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -23,7 +23,7 @@
       "Modules": [
         {
           "Id": "VirtoCommerce.AdminShell",
-          "Version": "3.1001.0"
+          "Version": "3.1002.0"
         },
         {
           "Id": "VirtoCommerce.ApplicationInsights",
@@ -75,7 +75,7 @@
         },
         {
           "Id": "VirtoCommerce.Cart",
-          "Version": "3.1013.0"
+          "Version": "3.1014.0"
         },
         {
           "Id": "VirtoCommerce.Catalog",
@@ -119,7 +119,7 @@
         },
         {
           "Id": "VirtoCommerce.CustomerReviews",
-          "Version": "3.1008.0"
+          "Version": "3.1009.0"
         },
         {
           "Id": "VirtoCommerce.CyberSourcePayment",
@@ -194,6 +194,10 @@
           "Version": "3.1004.0"
         },
         {
+          "Id": "VirtoCommerce.MFA",
+          "Version": "3.1000.0"
+        },
+        {
           "Id": "VirtoCommerce.NativePaymentMethods",
           "Version": "3.1003.0"
         },
@@ -231,11 +235,11 @@
         },
         {
           "Id": "VirtoCommerce.PageBuilderModule",
-          "Version": "3.1038.0"
+          "Version": "3.1040.0"
         },
         {
           "Id": "VirtoCommerce.Pages",
-          "Version": "3.1011.0"
+          "Version": "3.1012.0"
         },
         {
           "Id": "VirtoCommerce.Payment",
@@ -279,11 +283,11 @@
         },
         {
           "Id": "VirtoCommerce.Sanity",
-          "Version": "3.1003.0"
+          "Version": "3.1004.0"
         },
         {
           "Id": "VirtoCommerce.Search",
-          "Version": "3.1013.0"
+          "Version": "3.1014.0"
         },
         {
           "Id": "VirtoCommerce.Seo",
@@ -311,7 +315,7 @@
         },
         {
           "Id": "VirtoCommerce.Store",
-          "Version": "3.1011.0"
+          "Version": "3.1013.0"
         },
         {
           "Id": "VirtoCommerce.Subscription",
@@ -343,11 +347,11 @@
         },
         {
           "Id": "VirtoCommerce.Xapi",
-          "Version": "3.1028.0"
+          "Version": "3.1029.0"
         },
         {
           "Id": "VirtoCommerce.XCart",
-          "Version": "3.1042.0"
+          "Version": "3.1044.0"
         },
         {
           "Id": "VirtoCommerce.XCatalog",
@@ -355,11 +359,11 @@
         },
         {
           "Id": "VirtoCommerce.XCMS",
-          "Version": "3.1008.0"
+          "Version": "3.1009.0"
         },
         {
           "Id": "VirtoCommerce.XFrontend",
-          "Version": "3.1007.0"
+          "Version": "3.1008.0"
         },
         {
           "Id": "VirtoCommerce.XOrder",
