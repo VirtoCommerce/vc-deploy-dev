@@ -111,7 +111,7 @@
         },
         {
           "Id": "VirtoCommerce.Customer",
-          "Version": "3.1031.0"
+          "Version": "3.1032.0"
         },
         {
           "Id": "VirtoCommerce.CustomerExportImport",
@@ -242,6 +242,10 @@
           "Version": "3.1012.0"
         },
         {
+          "Id": "VirtoCommerce.Passkeys",
+          "Version": "3.1000.0"
+        },
+        {
           "Id": "VirtoCommerce.Payment",
           "Version": "3.1011.0"
         },
@@ -363,7 +367,7 @@
         },
         {
           "Id": "VirtoCommerce.XFrontend",
-          "Version": "3.1008.0"
+          "Version": "3.1009.0"
         },
         {
           "Id": "VirtoCommerce.XOrder",
