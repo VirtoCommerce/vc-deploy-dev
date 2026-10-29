@@ -59,6 +59,12 @@
       route: platform
     - path: /signin-google
       route: platform
+    - path: /modules
+      route: platform
+    - path: /api/mfa
+      route: platform
+    - path: /api/otp
+      route: platform
   protectedParameters:
     - platform.image.tag
   version: 3.240
