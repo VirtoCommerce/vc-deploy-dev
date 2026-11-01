@@ -382,12 +382,12 @@
           "BlobName": "VirtoCommerce.Passkeys_3.1000.0-alpha.2.zip"
         },
         {
-          "Id": "VirtoCommerce.AdminShell",
-          "BlobName": "VirtoCommerce.AdminShell_3.1004.0-pr-6-8df8.zip"
-        },
-        {
           "Id": "VirtoCommerce.AdminAngularJs",
           "BlobName": "VirtoCommerce.AdminAngularJs_3.1092.0-alpha.2.zip"
+        },
+        {
+          "Id": "VirtoCommerce.AdminShell",
+          "BlobName": "VirtoCommerce.AdminShell_3.1092.0-alpha.20.zip"
         }
       ]
     }
