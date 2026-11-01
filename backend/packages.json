@@ -18,10 +18,6 @@
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
         {
-          "Id": "VirtoCommerce.AdminAngularJs",
-          "BlobName": "VirtoCommerce.AdminAngularJs_3.1090.0-pr-1-4a10.zip"
-        },
-        {
           "Id": "VirtoCommerce.SeqLog",
           "BlobName": "VirtoCommerce.SeqLog_3.800.0.zip"
         },
@@ -388,6 +384,10 @@
         {
           "Id": "VirtoCommerce.AdminShell",
           "BlobName": "VirtoCommerce.AdminShell_3.1004.0-pr-6-8df8.zip"
+        },
+        {
+          "Id": "VirtoCommerce.AdminAngularJs",
+          "BlobName": "VirtoCommerce.AdminAngularJs_3.1092.0-alpha.2.zip"
         }
       ]
     }
