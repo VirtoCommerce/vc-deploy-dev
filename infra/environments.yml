@@ -12,6 +12,15 @@
     sqlReplica: false
     config:
       VirtoCommerce__BackgroundJobs__Provider: RabbitMQ
+      # VCST-6626 TEMPORARY punch-out test configuration — remove after the test
+      Punchout__Configurations__0__Id: vcptcore-qa-punchout-6626
+      Punchout__Configurations__0__StoreId: B2B-store
+      Punchout__Configurations__0__SharedSecret: dc3747a9a22b8a13abe074450b2fe89ab27e6624f7592441cff917a69e870f99
+      Punchout__Configurations__0__SenderDomain: NetworkId
+      Punchout__Configurations__0__AllowedReturnUrls__0: http://localhost:3699/*
+      Punchout__Configurations__0__TokenLifeTime: "00:15:00"
+      Punchout__Configurations__0__SessionLifeTime: "04:00:00"
+      # /VCST-6626 punch-out
       FileUpload__RootPath: attachments
       FileUpload__Scopes__0__Scope: quote-attachments
       FileUpload__Scopes__0__MaxFileSize: 1000000
