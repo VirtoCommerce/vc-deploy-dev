@@ -48,6 +48,10 @@
         },
         {
           "BlobName": "VirtoCommerce.XFrontend_3.1008.0-alpha.64-vcst-6121-passkeys.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Punchout",
+          "BlobName": "VirtoCommerce.Punchout_3.1000.0-alpha.8.zip"
         }
       ]
     },
@@ -71,7 +75,7 @@
         },
         {
           "Id": "VirtoCommerce.Cart",
-          "Version": "3.1013.0"
+          "Version": "3.1014.0"
         },
         {
           "Id": "VirtoCommerce.FileExperienceApi",
@@ -79,7 +83,7 @@
         },
         {
           "Id": "VirtoCommerce.XCart",
-          "Version": "3.1043.0"
+          "Version": "3.1044.0"
         },
         {
           "Id": "VirtoCommerce.AzureBlobAssets",
