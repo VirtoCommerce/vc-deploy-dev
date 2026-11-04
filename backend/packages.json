@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.1093.0",
+  "PlatformVersion": "3.1094.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.1093.0-pr-3154-4607-vcst-6630-expired-password-46078a9c",
+  "PlatformImageTag": "3.1094.0",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -364,11 +364,11 @@
         },
         {
           "Id": "VirtoCommerce.AdminAngularJs",
-          "Version": "3.1092.0"
+          "Version": "3.1094.0"
         },
         {
           "Id": "VirtoCommerce.AdminShell",
-          "Version": "3.1092.0"
+          "Version": "3.1093.0"
         },
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
