@@ -356,10 +356,6 @@
           "Version": "3.1023.0"
         },
         {
-          "Id": "VirtoCommerce.AdminAngularJs",
-          "Version": "3.1093.0"
-        },
-        {
           "Id": "VirtoCommerce.AdminShell",
           "Version": "3.1093.0"
         },
@@ -370,6 +366,10 @@
         {
           "Id": "VirtoCommerce.XCart",
           "Version": "3.1045.0"
+        },
+        {
+          "Id": "VirtoCommerce.AdminAngularJs",
+          "Version": "3.1094.0"
         }
       ]
     },
