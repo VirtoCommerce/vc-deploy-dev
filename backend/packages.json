@@ -17,10 +17,22 @@
           "BlobName": "VirtoCommerce.ElasticSearch8_3.1012.0-pr-47-d205.zip"
         },
         {
-          "BlobName": "VirtoCommerce.XCart_3.1045.0-pr-153-ec03.zip"
+          "BlobName": "VirtoCommerce.XCart_3.1043.0-pr-151-07b3.zip"
         },
         {
           "BlobName": "VirtoCommerce.SalesRep_3.1017.0-pr-30-1e10.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Quote_3.1006.0-pr-168-9b3f.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.CustomerReviews_3.1008.0-pr-86-6eca.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.XCatalog_3.1024.0-pr-115-8339.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.BackInStock_3.1004.0-pr-13-6f41.zip"
         }
       ]
     },
@@ -135,10 +147,6 @@
           "Version": "3.1005.0"
         },
         {
-          "Id": "VirtoCommerce.XCatalog",
-          "Version": "3.1023.0"
-        },
-        {
           "Id": "VirtoCommerce.UCP",
           "Version": "3.1010.0"
         },
@@ -149,10 +157,6 @@
         {
           "Id": "VirtoCommerce.FileExperienceApi",
           "Version": "3.1008.0"
-        },
-        {
-          "Id": "VirtoCommerce.Quote",
-          "Version": "3.1005.0"
         },
         {
           "Id": "VirtoCommerce.Subscription",
@@ -263,10 +267,6 @@
           "Version": "3.1008.0"
         },
         {
-          "Id": "VirtoCommerce.BackInStock",
-          "Version": "3.1003.0"
-        },
-        {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
           "Version": "3.1008.0"
         },
@@ -349,10 +349,6 @@
         {
           "Id": "VirtoCommerce.Store",
           "Version": "3.1013.0"
-        },
-        {
-          "Id": "VirtoCommerce.CustomerReviews",
-          "Version": "3.1009.0"
         },
         {
           "Id": "VirtoCommerce.Customer",
