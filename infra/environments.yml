@@ -13,7 +13,8 @@
       Serilog__Using__0: Serilog.Sinks.Console
       Serilog__MinimumLevel__Default: "Information"
       Serilog__WriteTo__0: Console
-      APPINSIGHTS_INSTRUMENTATIONKEY: 85936324-4fc0-4d35-aa2f-164c4800ba3b
+      #APPINSIGHTS_INSTRUMENTATIONKEY: 85936324-4fc0-4d35-aa2f-164c4800ba3b
+      ApplicationInsights__ConnectionString: InstrumentationKey=6741753e-a23f-4604-909d-661fcb6f6110;IngestionEndpoint=https://westeurope-5.in.applicationinsights.azure.com/;LiveEndpoint=https://westeurope.livediagnostics.monitor.azure.com/;ApplicationId=bfb670ea-47bd-4903-ad6a-96856d39dfb6
       PushNotifications__ForceWebSockets: true
       PushNotifications__ScalabilityMode: RedisBackplane
       PushNotifications__RedisBackplane__ChannelName: vcptcore-dev-chanel
@@ -104,7 +105,7 @@
       Notifications__Smtp__Password: smtppasswordyandex
       PushNotifications__HubUrl: pushnotifications-huburl-vcptcore-dev
       ConnectionStrings__AzureAppConfigurationConnectionString: azure-app-configuration-connection-string
-      APPLICATIONINSIGHTS_CONNECTION_STRING: appinsights-connectionstring-vcptcore-dev
+      #APPLICATIONINSIGHTS_CONNECTION_STRING: appinsights-connectionstring-vcptcore-dev
 
   storefront:
     enabled: false
