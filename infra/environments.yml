@@ -8,7 +8,6 @@
     imageTag: 3.811.0-alpha.12870-vcst-388-63cbde4f-27b60ad
     sqlReplica: false
     config:
-      APPLICATIONINSIGHTS_CONNECTION_STRING: appinsights-connectionstring-vcptcore-dev
       #VirtoCommerce__PlatformUI__RootApp: admin-shell
       ProductSubscription__EnableMockPaymentMethod: true
       Serilog__Using__0: Serilog.Sinks.Console
@@ -105,6 +104,7 @@
       Notifications__Smtp__Password: smtppasswordyandex
       PushNotifications__HubUrl: pushnotifications-huburl-vcptcore-dev
       ConnectionStrings__AzureAppConfigurationConnectionString: azure-app-configuration-connection-string
+      APPLICATIONINSIGHTS_CONNECTION_STRING: appinsights-connectionstring-vcptcore-dev
 
   storefront:
     enabled: false
