@@ -346,10 +346,6 @@
           "BlobName": "VirtoCommerce.AdminShell_3.1093.0-alpha.22.zip"
         },
         {
-          "Id": "VirtoCommerce.XCart",
-          "BlobName": "VirtoCommerce.XCart_3.1045.0-alpha.303.zip"
-        },
-        {
           "Id": "VirtoCommerce.AdminAngularJs",
           "BlobName": "VirtoCommerce.AdminAngularJs_3.1094.0-alpha.6.zip"
         },
@@ -380,6 +376,10 @@
         {
           "Id": "VirtoCommerce.CustomerReviews",
           "BlobName": "VirtoCommerce.CustomerReviews_3.1010.0-alpha.307.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XCart",
+          "BlobName": "VirtoCommerce.XCart_3.1046.0-alpha.306.zip"
         }
       ]
     }
