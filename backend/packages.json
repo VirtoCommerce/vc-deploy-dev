@@ -12,10 +12,7 @@
       "Modules": [    
         {
           "BlobName": "VirtoCommerce.AdminShell_3.1094.0-pr-8-9ba2.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.MFA_3.1002.0-pr-3-1a0f.zip"
-        },
+        },     
         {
           "BlobName": "VirtoCommerce.ElasticSearch8_3.1012.0-pr-47-d205.zip"
         },
@@ -114,7 +111,7 @@
         },
         {
           "Id": "VirtoCommerce.WebHooks",
-          "Version": "3.1006.0"
+          "Version": "3.1005.0"
         },
         {
           "Id": "VirtoCommerce.AzureAD",
@@ -135,7 +132,7 @@
         {
           "Id": "VirtoCommerce.FileSystemAssets",
           "Version": "3.1006.0"
-        },
+        },     
         {
           "Id": "VirtoCommerce.LuceneSearch",
           "Version": "3.1006.0"
@@ -151,7 +148,7 @@
         {
           "Id": "VirtoCommerce.AuthorizeNetPayment",
           "Version": "3.1005.0"
-        },
+        },       
         {
           "Id": "VirtoCommerce.UCP",
           "Version": "3.1010.0"
@@ -163,7 +160,7 @@
         {
           "Id": "VirtoCommerce.FileExperienceApi",
           "Version": "3.1008.0"
-        },
+        },       
         {
           "Id": "VirtoCommerce.Subscription",
           "Version": "3.1006.0"
@@ -179,7 +176,7 @@
         {
           "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
           "Version": "4.1006.0"
-        },       
+        },
         {
           "Id": "VirtoCommerce.OTP",
           "Version": "3.1001.0"
@@ -271,7 +268,7 @@
         {
           "Id": "VirtoCommerce.Content",
           "Version": "3.1008.0"
-        },
+        },     
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
           "Version": "3.1008.0"
@@ -311,7 +308,7 @@
         {
           "Id": "VirtoCommerce.ImageTools",
           "Version": "3.1009.0"
-        },
+        },     
         {
           "Id": "VirtoCommerce.ProductSnapshot",
           "Version": "3.1004.0"
@@ -333,10 +330,6 @@
           "Version": "3.1009.0"
         },
         {
-          "Id": "VirtoCommerce.Xapi",
-          "Version": "3.1029.0"
-        },
-        {
           "Id": "VirtoCommerce.PageBuilderModule",
           "Version": "3.1040.0"
         },
@@ -351,7 +344,7 @@
         {
           "Id": "VirtoCommerce.Store",
           "Version": "3.1013.0"
-        },
+        },        
         {
           "Id": "VirtoCommerce.Customer",
           "Version": "3.1032.0"
@@ -365,12 +358,20 @@
           "Version": "3.1000.0"
         },
         {
-          "Id": "VirtoCommerce.AdminAngularJs",
-          "Version": "3.1094.0"
-        },
-        {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "Version": "3.1023.0"
+        },
+        {
+          "Id": "VirtoCommerce.AdminAngularJs",
+          "Version": "3.1094.0"
+        },       
+        {
+          "Id": "VirtoCommerce.Xapi",
+          "Version": "3.1030.0"
+        },
+        {
+          "Id": "VirtoCommerce.MFA",
+          "Version": "3.1002.0"
         }
       ]
     }
