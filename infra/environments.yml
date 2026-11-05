@@ -13,7 +13,7 @@
       Serilog__Using__0: Serilog.Sinks.Console
       Serilog__MinimumLevel__Default: "Information"
       Serilog__WriteTo__0: Console
-      APPINSIGHTS_INSTRUMENTATIONKEY: 85936324-4fc0-4d35-aa2f-164c4800ba3b
+      # APPINSIGHTS_INSTRUMENTATIONKEY: 85936324-4fc0-4d35-aa2f-164c4800ba3b  # dead since AI SDK 3.x (VCST-4717) — see APPLICATIONINSIGHTS_CONNECTION_STRING
       PushNotifications__ForceWebSockets: true
       PushNotifications__ScalabilityMode: RedisBackplane
       PushNotifications__RedisBackplane__ChannelName: vcptcore-dev-chanel
