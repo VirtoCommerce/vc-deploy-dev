@@ -50,10 +50,6 @@
           "BlobName": "VirtoCommerce.CyberSourcePayment_3.1003.0-alpha.75.zip"
         },
         {
-          "Id": "Virtocommerce.UCP",
-          "BlobName": "Virtocommerce.UCP_3.1000.0-alpha.5.zip"
-        },
-        {
           "Id": "VirtoCommerce.EventBus",
           "BlobName": "VirtoCommerce.EventBus_3.1010.0-alpha.203.zip"
         },
@@ -102,10 +98,6 @@
           "BlobName": "VirtoCommerce.AzureAD_3.1003.0-alpha.85.zip"
         },
         {
-          "Id": "VirtoCommerce.OpenTelemetry",
-          "BlobName": "VirtoCommerce.OpenTelemetry_3.1002.0-alpha.10.zip"
-        },
-        {
           "Id": "VirtoCommerce.ElasticSearch8",
           "BlobName": "VirtoCommerce.ElasticSearch8_3.1011.0-alpha.190.zip"
         },
@@ -132,10 +124,6 @@
         {
           "Id": "VirtoCommerce.XCatalog",
           "BlobName": "VirtoCommerce.XCatalog_3.1023.0-alpha.234.zip"
-        },
-        {
-          "Id": "VirtoCommerce.UCP",
-          "BlobName": "VirtoCommerce.UCP_3.1010.0-alpha.30.zip"
         },
         {
           "Id": "VirtoCommerce.PushMessages",
