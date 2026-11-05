@@ -20,7 +20,7 @@
           "BlobName": "VirtoCommerce.XCart_3.1043.0-pr-151-07b3.zip"
         },
         {
-          "BlobName": "VirtoCommerce.SalesRep_3.1017.0-pr-30-1e10.zip"
+          "BlobName": "VirtoCommerce.SalesRep_3.1018.0-pr-33-04e4.zip"
         },
         {
           "BlobName": "VirtoCommerce.Quote_3.1006.0-pr-168-9b3f.zip"
@@ -33,6 +33,9 @@
         },
         {
           "BlobName": "VirtoCommerce.BackInStock_3.1004.0-pr-13-6f41.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.TaskManagement_3.1007.0-pr-33-14ff.zip"
         }
       ]
     },
@@ -305,10 +308,6 @@
         {
           "Id": "VirtoCommerce.ImageTools",
           "Version": "3.1009.0"
-        },
-        {
-          "Id": "VirtoCommerce.TaskManagement",
-          "Version": "3.1006.0"
         },
         {
           "Id": "VirtoCommerce.ProductSnapshot",
