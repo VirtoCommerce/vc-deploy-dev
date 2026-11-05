@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.1095.0-alpha.13451",
+  "PlatformVersion": "3.1092.0-pr-3061-4b36-vcst-4717-4b369afa",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.1095.0-alpha.13451-dev-8ffb8b73",
+  "PlatformImageTag": "3.1092.0-pr-3061-4b36-vcst-4717-4b369afa",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -95,7 +95,7 @@
         },
         {
           "Id": "VirtoCommerce.ApplicationInsights",
-          "BlobName": "VirtoCommerce.ApplicationInsights_3.1005.0-alpha.75.zip"
+          "BlobName": "VirtoCommerce.ApplicationInsights_3.1006.0-alpha.94-vcst-4717.zip"
         },
         {
           "Id": "VirtoCommerce.AzureAD",
@@ -151,7 +151,7 @@
         },
         {
           "Id": "VirtoCommerce.BackgroundJobs",
-          "BlobName": "VirtoCommerce.BackgroundJobs_3.1054.0-alpha.21.zip"
+          "BlobName": "VirtoCommerce.BackgroundJobs_3.1055.0-pr-4-6c26.zip"
         },
         {
           "Id": "VirtoCommerce.Loyalty",
@@ -391,7 +391,7 @@
         },
         {
           "Id": "VirtoCommerce.Xapi",
-          "BlobName": "VirtoCommerce.Xapi_3.1030.0-alpha.223.zip"
+          "BlobName": "VirtoCommerce.Xapi_3.1030.0-pr-70-99e4.zip"
         }
       ]
     }
