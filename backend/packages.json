@@ -11,6 +11,9 @@
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [    
         {
+          "BlobName": "VirtoCommerce.AdminShell_3.1094.0-pr-8-3275.zip"
+        },
+        {
           "BlobName": "VirtoCommerce.MFA_3.1002.0-pr-3-1a0f.zip"
         },
         {
@@ -364,10 +367,6 @@
         {
           "Id": "VirtoCommerce.AdminAngularJs",
           "Version": "3.1094.0"
-        },
-        {
-          "Id": "VirtoCommerce.AdminShell",
-          "Version": "3.1093.0"
         },
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
