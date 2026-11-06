@@ -324,10 +324,6 @@
           "Version": "3.1023.0"
         },
         {
-          "Id": "VirtoCommerce.AdminAngularJs",
-          "Version": "3.1094.0"
-        },
-        {
           "Id": "VirtoCommerce.Xapi",
           "Version": "3.1030.0"
         },
@@ -370,6 +366,10 @@
         {
           "Id": "VirtoCommerce.AdminShell",
           "Version": "3.1094.0"
+        },
+        {
+          "Id": "VirtoCommerce.AdminAngularJs",
+          "Version": "3.1096.0"
         }
       ]
     },
