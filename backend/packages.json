@@ -46,6 +46,15 @@
         },
         {
           "BlobName": "VirtoCommerce.Customer_3.1033.0-pr-325-9487.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.XFrontend_3.1010.0-pr-12-3ca5.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.SalesRep_3.1019.0-pr-24-2fd6.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Orders_3.1020.0-pr-507-d3ef.zip"
         }
       ]
     },
@@ -196,10 +205,6 @@
           "Version": "3.1003.0"
         },
         {
-          "Id": "VirtoCommerce.Orders",
-          "Version": "3.1019.0"
-        },
-        {
           "Id": "VirtoCommerce.Pages",
           "Version": "3.1012.0"
         },
@@ -272,16 +277,8 @@
           "Version": "3.1008.0"
         },
         {
-          "Id": "VirtoCommerce.SalesRep",
-          "Version": "3.1018.0"
-        },
-        {
           "Id": "VirtoCommerce.ElasticSearch",
           "Version": "3.806.0"
-        },
-        {
-          "Id": "VirtoCommerce.XFrontend",
-          "Version": "3.1009.0"
         },
         {
           "Id": "VirtoCommerce.OpenTelemetry",
