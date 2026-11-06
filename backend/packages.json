@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.1096.0-alpha.13454",
+  "PlatformVersion": "3.1096.0-pr-3061-c9bf-vcst-4717-c9bfe100",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.1096.0-alpha.13454-dev-074e5b5f",
+  "PlatformImageTag": "3.1096.0-pr-3061-c9bf-vcst-4717-c9bfe100",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -91,7 +91,7 @@
         },
         {
           "Id": "VirtoCommerce.ApplicationInsights",
-          "BlobName": "VirtoCommerce.ApplicationInsights_3.1006.0-alpha.94-vcst-4717.zip"
+          "BlobName": "VirtoCommerce.ApplicationInsights_3.1006.0-pr-17-d170.zip"
         },
         {
           "Id": "VirtoCommerce.AzureAD",
@@ -335,7 +335,7 @@
         },
         {
           "Id": "VirtoCommerce.Xapi",
-          "BlobName": "VirtoCommerce.Xapi_3.1030.0-pr-70-99e4.zip"
+          "BlobName": "VirtoCommerce.Xapi_3.1031.0-pr-70-5958.zip"
         },
         {
           "Id": "VirtoCommerce.MFA",
