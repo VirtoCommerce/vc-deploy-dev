@@ -14,7 +14,6 @@
       Serilog__MinimumLevel__Default: "Information"
       Serilog__WriteTo__0: Console
       #APPINSIGHTS_INSTRUMENTATIONKEY: 85936324-4fc0-4d35-aa2f-164c4800ba3b
-      ApplicationInsights__ConnectionString: InstrumentationKey=6741753e-a23f-4604-909d-661fcb6f6110;IngestionEndpoint=https://westeurope-5.in.applicationinsights.azure.com/;LiveEndpoint=https://westeurope.livediagnostics.monitor.azure.com/;ApplicationId=bfb670ea-47bd-4903-ad6a-96856d39dfb6
       PushNotifications__ForceWebSockets: true
       PushNotifications__ScalabilityMode: RedisBackplane
       PushNotifications__RedisBackplane__ChannelName: vcptcore-dev-chanel
@@ -66,7 +65,7 @@
       Assets__AzureBlobStorage__RootPath: catalog
       Content__AzureBlobStorage__RootPath: cms
       Content__AzureBlobStorage__ConnectionString: DefaultEndpointsProtocol=https;AccountName=qademovc3;AccountKey=qPIpM63MI2P3ei6B1xIL4/DlKDqdsRj54z2GUtgCAeXPcMe8+mZiUvrvI5fjdyrovk331XmBlMFfAEFAjCnvtw==;EndpointSuffix=core.windows.net
-      VirtoCommerce__ApplicationInsights__EnableProfiler: true
+      VirtoCommerce__ApplicationInsights__EnableProfiler: false
       VirtoCommerce__LicenseFilePath: app_data/VirtoCommerce.lic
       VirtoCommerce__LicensePublicKeyPath: app_data/public.key
       VirtoCommerce__LicensePrivateKeyPath: app_data/private.key
@@ -105,7 +104,7 @@
       Notifications__Smtp__Password: smtppasswordyandex
       PushNotifications__HubUrl: pushnotifications-huburl-vcptcore-dev
       ConnectionStrings__AzureAppConfigurationConnectionString: azure-app-configuration-connection-string
-      #APPLICATIONINSIGHTS_CONNECTION_STRING: appinsights-connectionstring-vcptcore-dev
+      ApplicationInsights__ConnectionString: appinsights-connectionstring-vcptcore-dev
 
   storefront:
     enabled: false
