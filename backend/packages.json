@@ -342,10 +342,6 @@
           "BlobName": "VirtoCommerce.AdminShell_3.1093.0-alpha.22.zip"
         },
         {
-          "Id": "VirtoCommerce.AdminAngularJs",
-          "BlobName": "VirtoCommerce.AdminAngularJs_3.1094.0-alpha.6.zip"
-        },
-        {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
           "BlobName": "VirtoCommerce.CatalogCsvImportModule_3.1009.0-alpha.408.zip"
         },
@@ -376,6 +372,10 @@
         {
           "Id": "VirtoCommerce.TaskManagement",
           "BlobName": "VirtoCommerce.TaskManagement_3.1007.0-alpha.218.zip"
+        },
+        {
+          "Id": "VirtoCommerce.AdminAngularJs",
+          "BlobName": "VirtoCommerce.AdminAngularJs_3.1095.0-alpha.10.zip"
         }
       ]
     }
