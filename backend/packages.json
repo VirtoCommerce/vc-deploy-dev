@@ -318,10 +318,6 @@
           "BlobName": "VirtoCommerce.Store_3.1013.0-alpha.812.zip"
         },
         {
-          "Id": "VirtoCommerce.Customer",
-          "BlobName": "VirtoCommerce.Customer_3.1032.0-alpha.1027.zip"
-        },
-        {
           "Id": "VirtoCommerce.XFrontend",
           "BlobName": "VirtoCommerce.XFrontend_3.1009.0-alpha.61.zip"
         },
@@ -376,6 +372,10 @@
         {
           "Id": "VirtoCommerce.AdminAngularJs",
           "BlobName": "VirtoCommerce.AdminAngularJs_3.1095.0-alpha.10.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Customer",
+          "BlobName": "VirtoCommerce.Customer_3.1033.0-alpha.1030.zip"
         }
       ]
     }
