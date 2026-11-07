@@ -146,10 +146,6 @@
           "BlobName": "VirtoCommerce.Core_3.1013.0-alpha.1729.zip"
         },
         {
-          "Id": "VirtoCommerce.Inventory",
-          "BlobName": "VirtoCommerce.Inventory_3.1011.0-alpha.551.zip"
-        },
-        {
           "Id": "VirtoCommerce.Shipping",
           "BlobName": "VirtoCommerce.Shipping_3.1010.0-alpha.279.zip"
         },
@@ -384,6 +380,10 @@
         {
           "Id": "VirtoCommerce.Tax",
           "BlobName": "VirtoCommerce.Tax_3.1011.0-alpha.257.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Inventory",
+          "BlobName": "VirtoCommerce.Inventory_3.1012.0-alpha.555.zip"
         }
       ]
     }
