@@ -178,10 +178,6 @@
           "BlobName": "VirtoCommerce.XFrontend_3.1009.0-alpha.61.zip"
         },
         {
-          "Id": "VirtoCommerce.Punchout",
-          "BlobName": "VirtoCommerce.Punchout_3.1000.0-alpha.8.zip"
-        },
-        {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.1023.0-alpha.391.zip"
         },
@@ -384,6 +380,10 @@
         {
           "Id": "VirtoCommerce.Content",
           "BlobName": "VirtoCommerce.Content_3.1009.0-alpha.1078.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Punchout",
+          "BlobName": "VirtoCommerce.Punchout_3.1000.0-alpha.11.zip"
         }
       ]
     }
