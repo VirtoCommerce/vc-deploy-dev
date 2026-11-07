@@ -40,10 +40,6 @@
           "Version": "3.1004.0"
         },
         {
-          "Id": "VirtoCommerce.XRecommend",
-          "Version": "3.1002.0"
-        },
-        {
           "Id": "VirtoCommerce.SystemOperations",
           "Version": "3.1002.0"
         },
@@ -370,6 +366,10 @@
         {
           "Id": "VirtoCommerce.EventBus",
           "Version": "3.1011.0"
+        },
+        {
+          "Id": "VirtoCommerce.XRecommend",
+          "Version": "3.1003.0"
         }
       ]
     },
