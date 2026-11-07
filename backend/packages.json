@@ -20,15 +20,15 @@
         {
           "Id": "VirtoCommerce.MCP",
           "BlobName": "VirtoCommerce.MCP_3.1000.0-pr-1-1a7b.zip"
-        },        
+        },
         {
           "Id": "VirtoCommerce.UCP",
           "BlobName": "VirtoCommerce.UCP_3.1011.0-pr-13-666c.zip"
-        },        
+        },
         {
           "Id": "VirtoCommerce.SystemOperations",
           "BlobName": "VirtoCommerce.SystemOperations_3.1003.0-pr-5-c351.zip"
-        },          
+        },
         {
           "Id": "VirtoCommerce.SeqLog",
           "BlobName": "VirtoCommerce.SeqLog_3.800.0.zip"
@@ -226,10 +226,6 @@
           "BlobName": "VirtoCommerce.CatalogPersonalization_3.1009.0-alpha.324.zip"
         },
         {
-          "Id": "VirtoCommerce.BackupRestore",
-          "BlobName": "VirtoCommerce.BackupRestore_3.1008.0-alpha.27.zip"
-        },
-        {
           "Id": "VirtoCommerce.OrderManagement",
           "BlobName": "VirtoCommerce.OrderManagement_3.1003.0-alpha.54.zip"
         },
@@ -384,6 +380,10 @@
         {
           "Id": "VirtoCommerce.Contracts",
           "BlobName": "VirtoCommerce.Contracts_3.1008.0-alpha.188.zip"
+        },
+        {
+          "Id": "VirtoCommerce.BackupRestore",
+          "BlobName": "VirtoCommerce.BackupRestore_3.1009.0-alpha.31.zip"
         }
       ]
     }
