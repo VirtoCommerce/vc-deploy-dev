@@ -230,10 +230,6 @@
           "BlobName": "VirtoCommerce.NativePaymentMethods_3.1003.0-alpha.134.zip"
         },
         {
-          "Id": "VirtoCommerce.EnvironmentsCompare",
-          "BlobName": "VirtoCommerce.EnvironmentsCompare_3.1002.0-alpha.24.zip"
-        },
-        {
           "Id": "VirtoCommerce.Export",
           "BlobName": "VirtoCommerce.Export_3.1006.0-alpha.299.zip"
         },
@@ -384,6 +380,10 @@
         {
           "Id": "VirtoCommerce.ImageTools",
           "BlobName": "VirtoCommerce.ImageTools_3.1010.0-alpha.431.zip"
+        },
+        {
+          "Id": "VirtoCommerce.EnvironmentsCompare",
+          "BlobName": "VirtoCommerce.EnvironmentsCompare_3.1003.0-alpha.28.zip"
         }
       ]
     }
