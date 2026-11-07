@@ -134,10 +134,6 @@
           "BlobName": "VirtoCommerce.XOrder_3.1017.0-pr-56-715f.zip"
         },
         {
-          "Id": "VirtoCommerce.Core",
-          "BlobName": "VirtoCommerce.Core_3.1013.0-alpha.1729.zip"
-        },
-        {
           "Id": "VirtoCommerce.Shipping",
           "BlobName": "VirtoCommerce.Shipping_3.1010.0-alpha.279.zip"
         },
@@ -388,6 +384,10 @@
         {
           "Id": "VirtoCommerce.WebHooks",
           "BlobName": "VirtoCommerce.WebHooks_3.1007.0-alpha.372.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Core",
+          "BlobName": "VirtoCommerce.Core_3.1014.0-alpha.1733.zip"
         }
       ]
     }
