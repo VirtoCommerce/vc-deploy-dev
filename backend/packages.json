@@ -178,10 +178,6 @@
           "BlobName": "VirtoCommerce.Payment_3.1012.0-pr-81-4a27.zip"
         },
         {
-          "Id": "VirtoCommerce.Marketing",
-          "BlobName": "VirtoCommerce.Marketing_3.1010.0-alpha.954.zip"
-        },
-        {
           "Id": "VirtoCommerce.Inventory",
           "BlobName": "VirtoCommerce.Inventory_3.1011.0-alpha.551.zip"
         },
@@ -384,6 +380,10 @@
         {
           "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
           "BlobName": "VirtoCommerce.GoogleEcommerceAnalytics_4.1007.0-alpha.253.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Marketing",
+          "BlobName": "VirtoCommerce.Marketing_3.1011.0-alpha.958.zip"
         }
       ]
     }
