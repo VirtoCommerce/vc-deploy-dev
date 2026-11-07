@@ -142,10 +142,6 @@
           "BlobName": "VirtoCommerce.Shipping_3.1010.0-alpha.279.zip"
         },
         {
-          "Id": "VirtoCommerce.WebHooks",
-          "BlobName": "VirtoCommerce.WebHooks_3.1006.0-alpha.367.zip"
-        },
-        {
           "Id": "VirtoCommerce.SqlQueries",
           "BlobName": "VirtoCommerce.SqlQueries_3.1008.0-alpha.66.zip"
         },
@@ -388,6 +384,10 @@
         {
           "Id": "VirtoCommerce.PushMessages",
           "BlobName": "VirtoCommerce.PushMessages_3.1009.0-alpha.127.zip"
+        },
+        {
+          "Id": "VirtoCommerce.WebHooks",
+          "BlobName": "VirtoCommerce.WebHooks_3.1007.0-alpha.372.zip"
         }
       ]
     }
