@@ -18,6 +18,18 @@
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
         {
+          "Id": "VirtoCommerce.MCP",
+          "BlobName": "VirtoCommerce.MCP_3.1000.0-pr-1-1a7b.zip"
+        },        
+        {
+          "Id": "VirtoCommerce.UCP",
+          "BlobName": "VirtoCommerce.UCP_3.1011.0-pr-13-666c.zip"
+        },        
+        {
+          "Id": "VirtoCommerce.SystemOperations",
+          "BlobName": "VirtoCommerce.SystemOperations_3.1003.0-pr-5-c351.zip"
+        },          
+        {
           "Id": "VirtoCommerce.SeqLog",
           "BlobName": "VirtoCommerce.SeqLog_3.800.0.zip"
         },
@@ -364,10 +376,6 @@
         {
           "Id": "VirtoCommerce.AdminShell",
           "BlobName": "VirtoCommerce.AdminShell_3.1094.0-alpha.27.zip"
-        },
-        {
-          "Id": "VirtoCommerce.SystemOperations",
-          "BlobName": "VirtoCommerce.SystemOperations_3.1003.0-alpha.30.zip"
         },
         {
           "Id": "VirtoCommerce.BackInStock",
