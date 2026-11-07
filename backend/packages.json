@@ -266,10 +266,6 @@
           "BlobName": "VirtoCommerce.XCart_3.1046.0-alpha.306.zip"
         },
         {
-          "Id": "VirtoCommerce.TaskManagement",
-          "BlobName": "VirtoCommerce.TaskManagement_3.1007.0-alpha.218.zip"
-        },
-        {
           "Id": "VirtoCommerce.Quote",
           "BlobName": "VirtoCommerce.Quote_3.1007.0-alpha.533.zip"
         },
@@ -384,6 +380,10 @@
         {
           "Id": "VirtoCommerce.BulkActionsModule",
           "BlobName": "VirtoCommerce.BulkActionsModule_3.1006.0-alpha.272.zip"
+        },
+        {
+          "Id": "VirtoCommerce.TaskManagement",
+          "BlobName": "VirtoCommerce.TaskManagement_3.1007.0-alpha.220.zip"
         }
       ]
     }
