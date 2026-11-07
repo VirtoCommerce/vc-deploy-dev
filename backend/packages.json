@@ -122,10 +122,6 @@
           "BlobName": "VirtoCommerce.FileExperienceApi_3.1008.0-alpha.100.zip"
         },
         {
-          "Id": "VirtoCommerce.Return",
-          "BlobName": "VirtoCommerce.Return_3.1006.0-pr-30-525e.zip"
-        },
-        {
           "Id": "VirtoCommerce.Loyalty",
           "BlobName": "VirtoCommerce.Loyalty_3.1010.0-pr-19-4ae3.zip"
         },
@@ -388,6 +384,10 @@
         {
           "Id": "VirtoCommerce.Subscription",
           "BlobName": "VirtoCommerce.Subscription_3.1007.0-alpha.408.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Return",
+          "BlobName": "VirtoCommerce.Return_3.1007.0-alpha.172.zip"
         }
       ]
     }
