@@ -210,10 +210,6 @@
           "BlobName": "VirtoCommerce.Xapi_3.1031.0-pr-70-5958.zip"
         },
         {
-          "Id": "VirtoCommerce.MFA",
-          "BlobName": "VirtoCommerce.MFA_3.1002.0-alpha.12.zip"
-        },
-        {
           "Id": "VirtoCommerce.XCatalog",
           "BlobName": "VirtoCommerce.XCatalog_3.1024.0-alpha.239.zip"
         },
@@ -384,6 +380,10 @@
         {
           "Id": "VirtoCommerce.PageBuilderModule",
           "BlobName": "VirtoCommerce.PageBuilderModule_3.1041.0-alpha.896.zip"
+        },
+        {
+          "Id": "VirtoCommerce.MFA",
+          "BlobName": "VirtoCommerce.MFA_3.1003.0-alpha.15.zip"
         }
       ]
     }
