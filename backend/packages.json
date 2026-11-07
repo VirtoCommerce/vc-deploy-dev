@@ -228,10 +228,6 @@
           "Version": "3.1003.0"
         },
         {
-          "Id": "VirtoCommerce.NativePaymentMethods",
-          "Version": "3.1003.0"
-        },
-        {
           "Id": "VirtoCommerce.WhiteLabeling",
           "Version": "3.1006.0"
         },
@@ -370,6 +366,10 @@
         {
           "Id": "VirtoCommerce.BuilderIO",
           "Version": "3.1006.0"
+        },
+        {
+          "Id": "VirtoCommerce.NativePaymentMethods",
+          "Version": "3.1004.0"
         }
       ]
     },
