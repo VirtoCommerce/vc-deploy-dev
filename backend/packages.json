@@ -346,10 +346,6 @@
           "BlobName": "VirtoCommerce.TaskManagement_3.1007.0-alpha.218.zip"
         },
         {
-          "Id": "VirtoCommerce.Customer",
-          "BlobName": "VirtoCommerce.Customer_3.1033.0-alpha.1030.zip"
-        },
-        {
           "Id": "VirtoCommerce.Quote",
           "BlobName": "VirtoCommerce.Quote_3.1007.0-alpha.533.zip"
         },
@@ -384,6 +380,10 @@
         {
           "Id": "VirtoCommerce.AvalaraTax",
           "BlobName": "VirtoCommerce.AvalaraTax_3.1007.0-alpha.375.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Customer",
+          "BlobName": "VirtoCommerce.Customer_3.1034.0-alpha.1033.zip"
         }
       ]
     }
