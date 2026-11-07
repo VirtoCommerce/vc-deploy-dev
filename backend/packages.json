@@ -254,10 +254,6 @@
           "BlobName": "VirtoCommerce.WhiteLabeling_3.1006.0-alpha.101.zip"
         },
         {
-          "Id": "VirtoCommerce.ImageTools",
-          "BlobName": "VirtoCommerce.ImageTools_3.1009.0-alpha.427.zip"
-        },
-        {
           "Id": "VirtoCommerce.ProductSnapshot",
           "BlobName": "VirtoCommerce.ProductSnapshot_3.1004.0-alpha.30.zip"
         },
@@ -384,6 +380,10 @@
         {
           "Id": "VirtoCommerce.CatalogPersonalization",
           "BlobName": "VirtoCommerce.CatalogPersonalization_3.1010.0-alpha.328.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ImageTools",
+          "BlobName": "VirtoCommerce.ImageTools_3.1010.0-alpha.431.zip"
         }
       ]
     }
