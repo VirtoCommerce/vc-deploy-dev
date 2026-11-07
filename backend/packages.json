@@ -158,10 +158,6 @@
           "BlobName": "VirtoCommerce.Core_3.1013.0-alpha.1729.zip"
         },
         {
-          "Id": "VirtoCommerce.Orders",
-          "BlobName": "VirtoCommerce.Orders_3.1019.0-alpha.1456.zip"
-        },
-        {
           "Id": "VirtoCommerce.Pricing",
           "BlobName": "VirtoCommerce.Pricing_3.1010.0-alpha.830.zip"
         },
@@ -384,6 +380,10 @@
         {
           "Id": "VirtoCommerce.TaskManagement",
           "BlobName": "VirtoCommerce.TaskManagement_3.1007.0-alpha.220.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Orders",
+          "BlobName": "VirtoCommerce.Orders_3.1020.0-alpha.1460.zip"
         }
       ]
     }
