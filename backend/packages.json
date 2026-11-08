@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.1095.0",
+  "PlatformVersion": "3.1096.0-pr-3121-4be6-vcst-4464-onx-mcp-auth-4be694fc",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.1095.0",
+  "PlatformImageTag": "3.1096.0-pr-3121-4be6-vcst-4464-onx-mcp-auth-4be694fc",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -17,13 +17,13 @@
           "BlobName": "VirtoCommerce.TaskManagement_3.1007.0-pr-33-14ff.zip"
         },
         {
-          "BlobName": "VirtoCommerce.MCP_3.1000.0-pr-1-b150.zip"
+          "BlobName": "VirtoCommerce.MCP_3.1000.0-alpha.51-vcst-6155-core-mcp-module.zip"
         },        
         {
-          "BlobName": "VirtoCommerce.UCP_3.1011.0-pr-13-3d09.zip"
+          "BlobName": "VirtoCommerce.UCP_3.1011.0-pr-13-68e1.zip"
         },        
         {
-          "BlobName": "VirtoCommerce.SystemOperations_3.1003.0-pr-5-c351.zip"
+          "BlobName": "VirtoCommerce.SystemOperations_3.1003.0-pr-5-f9a9.zip"
         }  
       ]
     },
