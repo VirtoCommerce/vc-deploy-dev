@@ -20,10 +20,9 @@
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: true      
       # Enable Azure Active Directory login in platform UI
       Authorization__AllowApiAccessForCustomers: true
-      # Sign-in for OAuth clients: the storefront's page on the storefront host; the platform's own login page on every
-      # other host, such as the platform host for /admin/mcp and the onx MCP adapter. Not set as the default
-      # Authorization__OAuthLoginPath with an empty value for the platform host: on 2026-11-08 an empty value did not reach the platform.
-      Authorization__OAuthLoginPaths__vcst-qa-storefront.govirto.com: /oauth/authorize
+      Authorization__OAuthLoginPath: /oauth/authorize
+      Authorization__BuiltInLoginHosts__0: vcst-qa.govirto.com
+      Authorization__OAuthLoginPaths__vcst-qa.govirto.com: ""
       Authorization__Resources__0: https://vcst-qa-storefront.govirto.com/ucp/mcp
       Authorization__Resources__1: https://vcst-qa-mcp-onx.govirto.com/mcp
       Authorization__Resources__2: https://vcst-qa.govirto.com/admin/mcp
