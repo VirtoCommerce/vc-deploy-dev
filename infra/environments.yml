@@ -173,11 +173,15 @@
       EventBus__Subscriptions__0__Events__0__EventId: VirtoCommerce.Platform.Core.Security.Events.UserPasswordChangedEvent
       EventBus__Subscriptions__0__Events__1__EventId: VirtoCommerce.MarketingModule.Core.Events.PromotionChangedEvent
       VirtoCommerce__StoreAssets__KnownAssetHosts__0: vcptcore-regression.govirto.com
+      Authorization__EnablePersistentStorageTokenValidation: true
     secretConfig:
       Notifications__SendGrid__ApiKey: sendkey
       Search__ElasticAppSearch__PrivateApiKey: elasticappsearch
       Notifications__Smtp__Password: smtppasswordyandex
       PushMessages__FcmSenderOptions__PrivateKey: fcm-private-key-regress
+      Payments__CyberSource__MerchantId: cybersource-merchantid
+      Payments__CyberSource__MerchantKeyId: cybersource-merchantkeyid
+      Payments__CyberSource__MerchantSecretKey: cybersource-merchantsecretkey
   storefront:
     headers:
         Cross-Origin-Embedder-Policy: unsafe-none
