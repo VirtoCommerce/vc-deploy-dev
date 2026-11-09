@@ -11,12 +11,6 @@
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [  
         {
-          "BlobName": "VirtoCommerce.SalesRep_3.1018.0-pr-33-ff13.zip"
-        },
-        {
-          "BlobName": "VirtoCommerce.TaskManagement_3.1007.0-pr-33-14ff.zip"
-        },
-        {
           "BlobName": "VirtoCommerce.MCP_3.1000.0-pr-1-df74.zip"
         },        
         {
@@ -37,7 +31,11 @@
           "Id": "VirtoCommerce.Loyalty",
           "Version": "3.1010.0"
         },
-               {
+        {
+          "Id": "VirtoCommerce.Contentful",
+          "Version": "3.1001.0"
+        },
+        {
           "Id": "VirtoCommerce.ShipStation",
           "Version": "3.1001.0"
         },
@@ -54,27 +52,11 @@
           "Version": "3.1002.0"
         },
         {
-          "Id": "VirtoCommerce.EventBus",
-          "Version": "3.1010.0"
-        },
-        {
-          "Id": "VirtoCommerce.News",
-          "Version": "3.1005.0"
-        },
-        {
           "Id": "VirtoCommerce.MarketingExperienceApi",
           "Version": "3.1004.0"
-        },
-        {
-          "Id": "VirtoCommerce.XRecommend",
-          "Version": "3.1002.0"
-        },
+        },  
         {
           "Id": "VirtoCommerce.Skyflow",
-          "Version": "3.1005.0"
-        },
-        {
-          "Id": "VirtoCommerce.BuilderIO",
           "Version": "3.1005.0"
         },
         {
@@ -91,7 +73,7 @@
         },
         {
           "Id": "VirtoCommerce.WebHooks",
-          "Version": "3.1006.0"
+          "Version": "3.1005.0"
         },
         {
           "Id": "VirtoCommerce.AzureAD",
@@ -132,7 +114,7 @@
         {
           "Id": "VirtoCommerce.AuthorizeNetPayment",
           "Version": "3.1005.0"
-        },
+        },       
         {
           "Id": "VirtoCommerce.PushMessages",
           "Version": "3.1008.0"
@@ -140,10 +122,6 @@
         {
           "Id": "VirtoCommerce.FileExperienceApi",
           "Version": "3.1008.0"
-        },
-        {
-          "Id": "VirtoCommerce.Quote",
-          "Version": "3.1005.0"
         },
         {
           "Id": "VirtoCommerce.Subscription",
@@ -234,10 +212,6 @@
           "Version": "3.1007.0"
         },
         {
-          "Id": "VirtoCommerce.CustomerExportImport",
-          "Version": "3.1003.0"
-        },
-        {
           "Id": "VirtoCommerce.AvalaraTax",
           "Version": "3.1006.0"
         },
@@ -254,27 +228,11 @@
           "Version": "3.1008.0"
         },
         {
-          "Id": "VirtoCommerce.CatalogCsvImportModule",
-          "Version": "3.1009.0"
-        },
-        {
-          "Id": "VirtoCommerce.EnvironmentsCompare",
-          "Version": "3.1002.0"
-        },
-        {
           "Id": "VirtoCommerce.CatalogPublishing",
           "Version": "3.1009.0"
         },
         {
-          "Id": "VirtoCommerce.PriceExportImport",
-          "Version": "3.1002.0"
-        },
-        {
           "Id": "VirtoCommerce.OrderManagement",
-          "Version": "3.1003.0"
-        },
-        {
-          "Id": "VirtoCommerce.NativePaymentMethods",
           "Version": "3.1003.0"
         },
         {
@@ -292,14 +250,6 @@
         {
           "Id": "VirtoCommerce.ImageTools",
           "Version": "3.1009.0"
-        },
-        {
-          "Id": "VirtoCommerce.TaskManagement",
-          "Version": "3.1006.0"
-        },
-        {
-          "Id": "VirtoCommerce.ProductSnapshot",
-          "Version": "3.1004.0"
         },
         {
           "Id": "VirtoCommerce.SqlQueries",
@@ -334,10 +284,6 @@
           "Version": "3.1013.0"
         },
         {
-          "Id": "VirtoCommerce.Customer",
-          "Version": "3.1032.0"
-        },
-        {
           "Id": "VirtoCommerce.XFrontend",
           "Version": "3.1009.0"
         },
@@ -346,28 +292,12 @@
           "Version": "3.1000.0"
         },
         {
-          "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.1023.0"
-        },
-        {
-          "Id": "VirtoCommerce.AdminShell",
-          "Version": "3.1094.0"
-        },
-        {
-          "Id": "VirtoCommerce.AdminAngularJs",
-          "Version": "3.1096.0"
-        },
-        {
           "Id": "VirtoCommerce.Xapi",
           "Version": "3.1030.0"
         },
         {
           "Id": "VirtoCommerce.MFA",
           "Version": "3.1002.0"
-        },
-        {
-          "Id": "VirtoCommerce.SalesRep",
-          "Version": "3.1018.0"
         },
         {
           "Id": "VirtoCommerce.XCart",
@@ -384,6 +314,74 @@
         {
           "Id": "VirtoCommerce.CustomerReviews",
           "Version": "3.1010.0"
+        },
+        {
+          "Id": "VirtoCommerce.CatalogCsvImportModule",
+          "Version": "3.1009.0"
+        },
+        {
+          "Id": "VirtoCommerce.Quote",
+          "Version": "3.1007.0"
+        },
+        {
+          "Id": "VirtoCommerce.Customer",
+          "Version": "3.1033.0"
+        },
+        {
+          "Id": "VirtoCommerce.AdminShell",
+          "Version": "3.1094.0"
+        },
+        {
+          "Id": "VirtoCommerce.AdminAngularJs",
+          "Version": "3.1096.0"
+        },
+        {
+          "Id": "VirtoCommerce.PriceExportImport",
+          "Version": "3.1003.0"
+        },
+        {
+          "Id": "VirtoCommerce.CustomerExportImport",
+          "Version": "3.1004.0"
+        },
+        {
+          "Id": "VirtoCommerce.EventBus",
+          "Version": "3.1011.0"
+        },
+        {
+          "Id": "VirtoCommerce.XRecommend",
+          "Version": "3.1003.0"
+        },
+        {
+          "Id": "VirtoCommerce.EnvironmentsCompare",
+          "Version": "3.1003.0"
+        },
+        {
+          "Id": "VirtoCommerce.BuilderIO",
+          "Version": "3.1006.0"
+        },
+        {
+          "Id": "VirtoCommerce.NativePaymentMethods",
+          "Version": "3.1004.0"
+        },
+        {
+          "Id": "VirtoCommerce.News",
+          "Version": "3.1006.0"
+        },
+        {
+          "Id": "VirtoCommerce.ProductSnapshot",
+          "Version": "3.1005.0"
+        },
+        {
+          "Id": "VirtoCommerce.TaskManagement",
+          "Version": "3.1007.0"
+        },
+        {
+          "Id": "VirtoCommerce.ProfileExperienceApiModule",
+          "Version": "3.1024.0"
+        },
+        {
+          "Id": "VirtoCommerce.SalesRep",
+          "Version": "3.1020.0"
         }
       ]
     }
