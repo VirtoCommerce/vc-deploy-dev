@@ -280,10 +280,6 @@
           "Version": "3.1000.0"
         },
         {
-          "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.1023.0"
-        },
-        {
           "Id": "VirtoCommerce.Xapi",
           "Version": "3.1030.0"
         },
@@ -370,6 +366,10 @@
         {
           "Id": "VirtoCommerce.TaskManagement",
           "Version": "3.1007.0"
+        },
+        {
+          "Id": "VirtoCommerce.ProfileExperienceApiModule",
+          "Version": "3.1024.0"
         }
       ]
     },
