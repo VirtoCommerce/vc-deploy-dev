@@ -20,10 +20,15 @@
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: true      
       # Enable Azure Active Directory login in platform UI
       Authorization__AllowApiAccessForCustomers: true
+      # Sign-in for OAuth clients: the storefront's page on every host but the platform host, which uses the
+      # platform's own login page for /admin/mcp and the onx MCP adapter. A list entry, so that the host is a value:
+      # Virto Cloud drops variables whose names contain dots.
       Authorization__OAuthLoginPath: /oauth/authorize
-      Authorization__BuiltInLoginHosts__0: vcst-qa.govirto.com
+      Authorization__OAuthLoginPaths__0__Host: vcst-qa.govirto.com
       Authorization__Resources__0: https://vcst-qa-storefront.govirto.com/ucp/mcp
       Authorization__Resources__1: https://vcst-qa-mcp-onx.govirto.com/mcp
+      Authorization__Resources__2: https://vcst-qa.govirto.com/admin/mcp
+      MCP__PublicOrigin: https://vcst-qa.govirto.com
       AzureAd__Enabled: true
       AzureAd__ApplicationId: 86d04c35-143d-4d3c-aea2-8608e2186282
       AzureAd__TenantId: bc03e660-5e3a-45c4-bf5c-b75489f78923

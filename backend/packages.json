@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.1094.0",
+  "PlatformVersion": "3.1096.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.1094.0",
+  "PlatformImageTag": "3.1096.0",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -15,7 +15,16 @@
         },
         {
           "BlobName": "VirtoCommerce.TaskManagement_3.1007.0-pr-33-14ff.zip"
-        }
+        },
+        {
+          "BlobName": "VirtoCommerce.MCP_3.1000.0-pr-1-df74.zip"
+        },        
+        {
+          "BlobName": "VirtoCommerce.UCP_3.1011.0-pr-13-5de2.zip"
+        },        
+        {
+          "BlobName": "VirtoCommerce.SystemOperations_3.1003.0-pr-5-37af.zip"
+        }  
       ]
     },
     {
@@ -58,10 +67,6 @@
         },
         {
           "Id": "VirtoCommerce.XRecommend",
-          "Version": "3.1002.0"
-        },
-        {
-          "Id": "VirtoCommerce.SystemOperations",
           "Version": "3.1002.0"
         },
         {
@@ -127,10 +132,6 @@
         {
           "Id": "VirtoCommerce.AuthorizeNetPayment",
           "Version": "3.1005.0"
-        },
-        {
-          "Id": "VirtoCommerce.UCP",
-          "Version": "3.1010.0"
         },
         {
           "Id": "VirtoCommerce.PushMessages",
@@ -254,7 +255,7 @@
         },
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
-          "Version": "3.1008.0"
+          "Version": "3.1009.0"
         },
         {
           "Id": "VirtoCommerce.EnvironmentsCompare",
@@ -350,11 +351,11 @@
         },
         {
           "Id": "VirtoCommerce.AdminShell",
-          "Version": "3.1093.0"
+          "Version": "3.1094.0"
         },
         {
           "Id": "VirtoCommerce.AdminAngularJs",
-          "Version": "3.1094.0"
+          "Version": "3.1096.0"
         },
         {
           "Id": "VirtoCommerce.Xapi",
