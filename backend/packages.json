@@ -288,10 +288,6 @@
           "Version": "3.1002.0"
         },
         {
-          "Id": "VirtoCommerce.SalesRep",
-          "Version": "3.1018.0"
-        },
-        {
           "Id": "VirtoCommerce.XCart",
           "Version": "3.1046.0"
         },
@@ -370,6 +366,10 @@
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "Version": "3.1024.0"
+        },
+        {
+          "Id": "VirtoCommerce.SalesRep",
+          "Version": "3.1020.0"
         }
       ]
     },
