@@ -330,10 +330,6 @@
           "BlobName": "VirtoCommerce.PageBuilderModule_3.1041.0-alpha.896.zip"
         },
         {
-          "Id": "VirtoCommerce.MFA",
-          "BlobName": "VirtoCommerce.MFA_3.1003.0-alpha.15.zip"
-        },
-        {
           "Id": "VirtoCommerce.Seo",
           "BlobName": "VirtoCommerce.Seo_3.1009.0-alpha.110.zip"
         },
@@ -388,6 +384,10 @@
         {
           "Id": "VirtoCommerce.TaskManagement",
           "BlobName": "VirtoCommerce.TaskManagement_3.1007.0-alpha.221.zip"
+        },
+        {
+          "Id": "VirtoCommerce.MFA",
+          "BlobName": "VirtoCommerce.MFA_3.1003.0-alpha.15.zip"
         }
       ]
     }
