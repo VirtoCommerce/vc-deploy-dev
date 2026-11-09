@@ -80,10 +80,6 @@
           "Version": "3.1006.0"
         },
         {
-          "Id": "VirtoCommerce.ElasticSearch8",
-          "Version": "3.1011.0"
-        },
-        {
           "Id": "VirtoCommerce.LuceneSearch",
           "Version": "3.1006.0"
         },
@@ -370,6 +366,10 @@
         {
           "Id": "VirtoCommerce.SalesRep",
           "Version": "3.1020.0"
+        },
+        {
+          "Id": "VirtoCommerce.ElasticSearch8",
+          "Version": "3.1012.0"
         }
       ]
     },
