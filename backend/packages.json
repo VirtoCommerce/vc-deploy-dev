@@ -286,10 +286,6 @@
           "BlobName": "VirtoCommerce.BulkActionsModule_3.1006.0-alpha.272.zip"
         },
         {
-          "Id": "VirtoCommerce.TaskManagement",
-          "BlobName": "VirtoCommerce.TaskManagement_3.1007.0-alpha.220.zip"
-        },
-        {
           "Id": "VirtoCommerce.Orders",
           "BlobName": "VirtoCommerce.Orders_3.1020.0-alpha.1460.zip"
         },
@@ -388,6 +384,10 @@
         {
           "Id": "VirtoCommerce.XRecommend",
           "BlobName": "VirtoCommerce.XRecommend_3.1003.0-alpha.75.zip"
+        },
+        {
+          "Id": "VirtoCommerce.TaskManagement",
+          "BlobName": "VirtoCommerce.TaskManagement_3.1007.0-alpha.221.zip"
         }
       ]
     }
