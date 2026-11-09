@@ -86,10 +86,6 @@
           "BlobName": "VirtoCommerce.AzureAD_3.1003.0-alpha.85.zip"
         },
         {
-          "Id": "VirtoCommerce.ElasticSearch8",
-          "BlobName": "VirtoCommerce.ElasticSearch8_3.1011.0-alpha.190.zip"
-        },
-        {
           "Id": "VirtoCommerce.FileSystemAssets",
           "BlobName": "VirtoCommerce.FileSystemAssets_3.1006.0-alpha.156.zip"
         },
@@ -392,6 +388,10 @@
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.1024.0-alpha.395.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ElasticSearch8",
+          "BlobName": "VirtoCommerce.ElasticSearch8_3.1012.0-alpha.196.zip"
         }
       ]
     }
