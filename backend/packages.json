@@ -55,6 +55,9 @@
         },
         {
           "BlobName": "VirtoCommerce.Orders_3.1020.0-pr-507-d3ef.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Catalog_3.1052.0-pr-916-eefd.zip"
         }
       ]
     },
@@ -119,10 +122,6 @@
         {
           "Id": "VirtoCommerce.BulkActionsModule",
           "Version": "3.1005.0"
-        },
-        {
-          "Id": "VirtoCommerce.Catalog",
-          "Version": "3.1051.0"
         },
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
