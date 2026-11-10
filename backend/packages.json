@@ -166,10 +166,6 @@
           "BlobName": "VirtoCommerce.AdminAngularJs_3.1095.0-alpha.11.zip"
         },
         {
-          "Id": "VirtoCommerce.AdminShell",
-          "BlobName": "VirtoCommerce.AdminShell_3.1094.0-alpha.27.zip"
-        },
-        {
           "Id": "VirtoCommerce.BackInStock",
           "BlobName": "VirtoCommerce.BackInStock_3.1005.0-alpha.76.zip"
         },
@@ -392,6 +388,10 @@
         {
           "Id": "VirtoCommerce.SalesRep",
           "BlobName": "VirtoCommerce.SalesRep_3.1022.0-alpha.64.zip"
+        },
+        {
+          "Id": "VirtoCommerce.AdminShell",
+          "BlobName": "VirtoCommerce.AdminShell_3.1095.0-alpha.43.zip"
         }
       ]
     }
