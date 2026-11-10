@@ -308,10 +308,6 @@
           "Version": "3.1033.0"
         },
         {
-          "Id": "VirtoCommerce.AdminShell",
-          "Version": "3.1094.0"
-        },
-        {
           "Id": "VirtoCommerce.AdminAngularJs",
           "Version": "3.1096.0"
         },
@@ -370,6 +366,10 @@
         {
           "Id": "VirtoCommerce.SalesRep",
           "Version": "3.1021.0"
+        },
+        {
+          "Id": "VirtoCommerce.AdminShell",
+          "Version": "3.1095.0"
         }
       ]
     },
