@@ -56,10 +56,6 @@
           "Version": "3.1003.0"
         },
         {
-          "Id": "VirtoCommerce.ApplicationInsights",
-          "Version": "3.1005.0"
-        },
-        {
           "Id": "VirtoCommerce.OpenTelemetry",
           "Version": "3.1002.0"
         },
@@ -374,6 +370,10 @@
         {
           "Id": "VirtoCommerce.SalesRep",
           "Version": "3.1023.0"
+        },
+        {
+          "Id": "VirtoCommerce.ApplicationInsights",
+          "Version": "3.1007.0"
         }
       ]
     },
