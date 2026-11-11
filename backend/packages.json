@@ -18,10 +18,6 @@
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
         {
-          "Id": "VirtoCommerce.MCP",
-          "BlobName": "VirtoCommerce.MCP_3.1000.0-pr-1-1a7b.zip"
-        },
-        {
           "Id": "VirtoCommerce.UCP",
           "BlobName": "VirtoCommerce.UCP_3.1011.0-pr-13-666c.zip"
         },
@@ -392,6 +388,10 @@
         {
           "Id": "VirtoCommerce.Search",
           "BlobName": "VirtoCommerce.Search_3.1015.0-alpha.875.zip"
+        },
+        {
+          "Id": "VirtoCommerce.MCP",
+          "BlobName": "VirtoCommerce.MCP_3.1000.0-alpha.4.zip"
         }
       ]
     }
