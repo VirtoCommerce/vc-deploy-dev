@@ -246,10 +246,6 @@
           "BlobName": "VirtoCommerce.BulkActionsModule_3.1006.0-alpha.272.zip"
         },
         {
-          "Id": "VirtoCommerce.Orders",
-          "BlobName": "VirtoCommerce.Orders_3.1020.0-alpha.1460.zip"
-        },
-        {
           "Id": "VirtoCommerce.News",
           "BlobName": "VirtoCommerce.News_3.1006.0-alpha.82.zip"
         },
@@ -392,6 +388,10 @@
         {
           "Id": "VirtoCommerce.XFrontend",
           "BlobName": "VirtoCommerce.XFrontend_3.1010.0-alpha.65.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Orders",
+          "BlobName": "VirtoCommerce.Orders_3.1020.0-alpha.1461.zip"
         }
       ]
     }
