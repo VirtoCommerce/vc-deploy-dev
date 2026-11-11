@@ -244,10 +244,6 @@
           "Version": "3.1013.0"
         },
         {
-          "Id": "VirtoCommerce.XFrontend",
-          "Version": "3.1009.0"
-        },
-        {
           "Id": "VirtoCommerce.Passkeys",
           "Version": "3.1000.0"
         },
@@ -374,6 +370,10 @@
         {
           "Id": "VirtoCommerce.Orders",
           "Version": "3.1020.0"
+        },
+        {
+          "Id": "VirtoCommerce.XFrontend",
+          "Version": "3.1010.0"
         }
       ]
     },
