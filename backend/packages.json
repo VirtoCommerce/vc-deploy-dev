@@ -11,9 +11,6 @@
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
         {
-          "BlobName": "VirtoCommerce.UCP_3.1011.0-pr-13-2b7e.zip"
-        },        
-        {
           "BlobName": "VirtoCommerce.SystemOperations_3.1003.0-pr-5-216f.zip"
         }  
       ]
@@ -83,6 +80,10 @@
         {
           "Id": "VirtoCommerce.MCP",
           "Version": "3.1000.0"
+        },
+        {
+          "Id": "VirtoCommerce.UCP",
+          "Version": "3.1011.0"
         },
         {
           "Id": "VirtoCommerce.OpenTelemetry",
