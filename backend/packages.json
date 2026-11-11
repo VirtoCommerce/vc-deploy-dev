@@ -22,10 +22,6 @@
           "BlobName": "VirtoCommerce.UCP_3.1011.0-pr-13-666c.zip"
         },
         {
-          "Id": "VirtoCommerce.SystemOperations",
-          "BlobName": "VirtoCommerce.SystemOperations_3.1003.0-pr-5-8cff.zip"
-        },
-        {
           "Id": "VirtoCommerce.SeqLog",
           "BlobName": "VirtoCommerce.SeqLog_3.800.0.zip"
         },
@@ -392,6 +388,10 @@
         {
           "Id": "VirtoCommerce.MCP",
           "BlobName": "VirtoCommerce.MCP_3.1000.0-alpha.4.zip"
+        },
+        {
+          "Id": "VirtoCommerce.SystemOperations",
+          "BlobName": "VirtoCommerce.SystemOperations_3.1003.0-alpha.31.zip"
         }
       ]
     }
