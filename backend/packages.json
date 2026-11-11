@@ -59,6 +59,9 @@
         },
         {
           "BlobName": "VirtoCommerce.Xapi_3.1031.0-pr-70-5958.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Search_3.1015.0-pr-162-4ee0.zip"
         }
       ]
     },
@@ -75,10 +78,6 @@
         {
           "Id": "VirtoCommerce.PageBuilderModule",
           "Version": "3.1040.0"
-        },
-        {
-          "Id": "VirtoCommerce.Search",
-          "Version": "3.1014.0"
         },
         {
           "Id": "VirtoCommerce.XCart",
