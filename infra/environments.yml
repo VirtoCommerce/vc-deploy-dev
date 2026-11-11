@@ -36,7 +36,7 @@
         # Entra v2 tokens carry the API app's client id in `aud`, never the App ID URI.
         ENTRA_AUDIENCE: "1e04697f-9c56-4eb5-aa74-325189dac22c"
         # Clients are told to request <this>/deploy; without it the server derives api://<client id>.
-        ENTRA_APP_ID_URI: "api://vc-deploy-mcp"
+        ENTRA_APP_ID_URI: "api://vc-deploy-dev"
         MCP_RESOURCE_URL: "https://vcptcore-selfdemo-vc-deploy-mcp.govirto.com/mcp"
         VC_ENV_ALLOWLIST: "vcptcore-aidemo,vcptcore-aidemo2"
         # Writes stay off until Entra is configured (plan step 27).
