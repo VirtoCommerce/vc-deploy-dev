@@ -144,10 +144,6 @@
           "Version": "3.1011.0"
         },
         {
-          "Id": "VirtoCommerce.Orders",
-          "Version": "3.1019.0"
-        },
-        {
           "Id": "VirtoCommerce.Shipping",
           "Version": "3.1010.0"
         },
@@ -374,6 +370,10 @@
         {
           "Id": "VirtoCommerce.UCP",
           "Version": "3.1011.0"
+        },
+        {
+          "Id": "VirtoCommerce.Orders",
+          "Version": "3.1020.0"
         }
       ]
     },
