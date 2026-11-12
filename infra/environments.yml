@@ -216,7 +216,7 @@
   storefront:
     enabled: false
     themes:
-      B2B-store: https://github.com/VirtoCommerce/vc-frontend-next/releases/download/3.2.0/vc-frontend-next-3.2.0.zip
+      B2B-store: https://github.com/VirtoCommerce/vc-frontend/releases/download/2.62.0/vc-theme-b2b-vue-2.62.0.zip
       B2B-loyalty: https://github.com/VirtoCommerce/vc-frontend-next/releases/download/3.2.0/vc-frontend-next-3.2.0.zip
     headers:
         Cross-Origin-Embedder-Policy: unsafe-none
