@@ -10,9 +10,6 @@
       "Container": "packages",
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [  
-        {
-          "BlobName": "VirtoCommerce.Xapi_3.1031.0-pr-70-108f.zip"
-        }
       ]
     },
     {
@@ -21,6 +18,10 @@
         "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
       ],
       "Modules": [
+        {
+          "Id": "VirtoCommerce.Xapi",
+          "Version": "3.1031.0"
+        },
         {
           "Id": "VirtoCommerce.MCP",
           "Version": "3.1000.0"
@@ -135,7 +136,7 @@
         },
         {
           "Id": "VirtoCommerce.BackgroundJobs",
-          "Version": "3.1054.0"
+          "Version": "3.1055.0"
         },
         {
           "Id": "VirtoCommerce.AzureSearch",
