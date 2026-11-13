@@ -340,10 +340,6 @@
           "Version": "3.1015.0"
         },
         {
-          "Id": "VirtoCommerce.MCP",
-          "Version": "3.1000.0"
-        },
-        {
           "Id": "VirtoCommerce.SystemOperations",
           "Version": "3.1003.0"
         },
@@ -374,6 +370,10 @@
         {
           "Id": "VirtoCommerce.SalesRep",
           "Version": "3.1024.0"
+        },
+        {
+          "Id": "VirtoCommerce.MCP",
+          "Version": "3.1001.0"
         }
       ]
     },
