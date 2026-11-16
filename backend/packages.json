@@ -118,10 +118,6 @@
           "BlobName": "VirtoCommerce.Xapi_3.1031.0-pr-70-5958.zip"
         },
         {
-          "Id": "VirtoCommerce.Quote",
-          "BlobName": "VirtoCommerce.Quote_3.1007.0-alpha.533.zip"
-        },
-        {
           "Id": "VirtoCommerce.AdminAngularJs",
           "BlobName": "VirtoCommerce.AdminAngularJs_3.1095.0-alpha.11.zip"
         },
@@ -392,6 +388,10 @@
         {
           "Id": "VirtoCommerce.XOrder",
           "BlobName": "VirtoCommerce.XOrder_3.1018.0-alpha.152.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Quote",
+          "BlobName": "VirtoCommerce.Quote_3.1008.0-alpha.538.zip"
         }
       ]
     }
