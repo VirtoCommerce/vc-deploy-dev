@@ -19,7 +19,7 @@ jobs:
    
       - name: Install vc-build
         run: |
-          dotnet tool install --global VirtoCommerce.GlobalTool
+          dotnet tool install --global VirtoCommerce.GlobalTool --version 3.1002.0-alpha.301
     
       - name: Get theme version
         id: storybook-version
