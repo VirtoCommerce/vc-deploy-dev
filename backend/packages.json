@@ -164,10 +164,6 @@
           "Version": "3.1009.0"
         },
         {
-          "Id": "VirtoCommerce.WhiteLabeling",
-          "Version": "3.1006.0"
-        },
-        {
           "Id": "VirtoCommerce.Sitemaps",
           "Version": "3.1007.0"
         },
@@ -374,6 +370,10 @@
         {
           "Id": "VirtoCommerce.XRecommend",
           "Version": "3.1004.0"
+        },
+        {
+          "Id": "VirtoCommerce.WhiteLabeling",
+          "Version": "3.1007.0"
         }
       ]
     },
