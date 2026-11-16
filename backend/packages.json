@@ -22,6 +22,10 @@
       ],
       "Modules": [
         {
+          "Id": "VirtoCommerce.AdminAngularJs",
+          "Version": "3.1096.0"
+        },
+        {
           "Id": "VirtoCommerce.AdminShell",
           "Version": "3.1095.0"
         },
