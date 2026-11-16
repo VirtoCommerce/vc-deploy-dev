@@ -318,10 +318,6 @@
           "BlobName": "VirtoCommerce.XRecommend_3.1003.0-alpha.75.zip"
         },
         {
-          "Id": "VirtoCommerce.TaskManagement",
-          "BlobName": "VirtoCommerce.TaskManagement_3.1007.0-alpha.221.zip"
-        },
-        {
           "Id": "VirtoCommerce.Punchout",
           "BlobName": "VirtoCommerce.Punchout_3.1000.0-alpha.12.zip"
         },
@@ -392,6 +388,10 @@
         {
           "Id": "VirtoCommerce.MFA",
           "BlobName": "VirtoCommerce.MFA_3.1004.0-alpha.19.zip"
+        },
+        {
+          "Id": "VirtoCommerce.TaskManagement",
+          "BlobName": "VirtoCommerce.TaskManagement_3.1008.0-alpha.224.zip"
         }
       ]
     }
