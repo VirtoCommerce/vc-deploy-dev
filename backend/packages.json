@@ -280,10 +280,6 @@
           "Version": "3.1005.0"
         },
         {
-          "Id": "VirtoCommerce.AdminShell",
-          "Version": "3.1095.0"
-        },
-        {
           "Id": "VirtoCommerce.Catalog",
           "Version": "3.1052.0"
         },
@@ -374,6 +370,10 @@
         {
           "Id": "VirtoCommerce.PushMessages",
           "Version": "3.1009.0"
+        },
+        {
+          "Id": "VirtoCommerce.AdminShell",
+          "Version": "3.1096.0"
         }
       ]
     },
