@@ -294,10 +294,6 @@
           "BlobName": "VirtoCommerce.Store_3.1014.0-alpha.816.zip"
         },
         {
-          "Id": "VirtoCommerce.PushMessages",
-          "BlobName": "VirtoCommerce.PushMessages_3.1009.0-alpha.127.zip"
-        },
-        {
           "Id": "VirtoCommerce.WebHooks",
           "BlobName": "VirtoCommerce.WebHooks_3.1007.0-alpha.372.zip"
         },
@@ -392,6 +388,10 @@
         {
           "Id": "VirtoCommerce.Skyflow",
           "BlobName": "VirtoCommerce.Skyflow_3.1006.0-alpha.93.zip"
+        },
+        {
+          "Id": "VirtoCommerce.PushMessages",
+          "BlobName": "VirtoCommerce.PushMessages_3.1009.0-alpha.129.zip"
         }
       ]
     }
