@@ -14,6 +14,10 @@
     config:
     
       
+      # VCST-6507 Subscribe & Save: the mock stored-card payment method (no real charges) for testing subscriptions,
+      # renewals, declines and 3-D Secure without a payment provider.
+      ProductSubscription__EnableMockPaymentMethod: "true"
+
       # VCST-6093 QA (temporary): DefaultValue override under test
       VirtoCommerce__Settings__Override__DefaultValue__Global__VirtoCommerce_Platform_Security_SignInLogEnabled: "false"
 
