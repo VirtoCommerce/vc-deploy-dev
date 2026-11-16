@@ -200,10 +200,6 @@
           "Version": "3.1000.0"
         },
         {
-          "Id": "VirtoCommerce.BackInStock",
-          "Version": "3.1004.0"
-        },
-        {
           "Id": "VirtoCommerce.CustomerReviews",
           "Version": "3.1010.0"
         },
@@ -374,6 +370,10 @@
         {
           "Id": "VirtoCommerce.XCart",
           "Version": "3.1047.0"
+        },
+        {
+          "Id": "VirtoCommerce.BackInStock",
+          "Version": "3.1005.0"
         }
       ]
     },
