@@ -322,10 +322,6 @@
           "BlobName": "VirtoCommerce.OpenSearch_3.1005.0-alpha.53.zip"
         },
         {
-          "Id": "VirtoCommerce.AdminShell",
-          "BlobName": "VirtoCommerce.AdminShell_3.1095.0-alpha.43.zip"
-        },
-        {
           "Id": "VirtoCommerce.Catalog",
           "BlobName": "VirtoCommerce.Catalog_3.1052.0-alpha.2587.zip"
         },
@@ -392,6 +388,10 @@
         {
           "Id": "VirtoCommerce.PushMessages",
           "BlobName": "VirtoCommerce.PushMessages_3.1009.0-alpha.129.zip"
+        },
+        {
+          "Id": "VirtoCommerce.AdminShell",
+          "BlobName": "VirtoCommerce.AdminShell_3.1096.0-alpha.46.zip"
         }
       ]
     }
