@@ -234,10 +234,6 @@
           "BlobName": "VirtoCommerce.BulkActionsModule_3.1006.0-alpha.272.zip"
         },
         {
-          "Id": "VirtoCommerce.News",
-          "BlobName": "VirtoCommerce.News_3.1006.0-alpha.82.zip"
-        },
-        {
           "Id": "VirtoCommerce.PriceExportImport",
           "BlobName": "VirtoCommerce.PriceExportImport_3.1003.0-alpha.203.zip"
         },
@@ -392,6 +388,10 @@
         {
           "Id": "VirtoCommerce.TaskManagement",
           "BlobName": "VirtoCommerce.TaskManagement_3.1008.0-alpha.224.zip"
+        },
+        {
+          "Id": "VirtoCommerce.News",
+          "BlobName": "VirtoCommerce.News_3.1007.0-alpha.85.zip"
         }
       ]
     }
