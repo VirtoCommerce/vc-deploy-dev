@@ -82,10 +82,6 @@
           "BlobName": "VirtoCommerce.LuceneSearch_3.1006.0-alpha.262.zip"
         },
         {
-          "Id": "VirtoCommerce.XPickup",
-          "BlobName": "VirtoCommerce.XPickup_3.1008.0-alpha.62.zip"
-        },
-        {
           "Id": "VirtoCommerce.AuthorizeNetPayment",
           "BlobName": "VirtoCommerce.AuthorizeNetPayment_3.1005.0-alpha.128.zip"
         },
@@ -392,6 +388,10 @@
         {
           "Id": "VirtoCommerce.SalesRep",
           "BlobName": "VirtoCommerce.SalesRep_3.1025.0-alpha.74.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XPickup",
+          "BlobName": "VirtoCommerce.XPickup_3.1009.0-alpha.69.zip"
         }
       ]
     }
