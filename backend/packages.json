@@ -220,10 +220,6 @@
           "Version": "3.1000.0"
         },
         {
-          "Id": "VirtoCommerce.MFA",
-          "Version": "3.1002.0"
-        },
-        {
           "Id": "VirtoCommerce.XCart",
           "Version": "3.1046.0"
         },
@@ -374,6 +370,10 @@
         {
           "Id": "VirtoCommerce.TaskManagement",
           "Version": "3.1008.0"
+        },
+        {
+          "Id": "VirtoCommerce.MFA",
+          "Version": "3.1004.0"
         }
       ]
     },
