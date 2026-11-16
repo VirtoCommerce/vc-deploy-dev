@@ -244,10 +244,6 @@
           "Version": "3.1046.0"
         },
         {
-          "Id": "VirtoCommerce.XCatalog",
-          "Version": "3.1024.0"
-        },
-        {
           "Id": "VirtoCommerce.BackInStock",
           "Version": "3.1004.0"
         },
@@ -374,6 +370,10 @@
         {
           "Id": "VirtoCommerce.PageBuilderModule",
           "Version": "3.1041.0"
+        },
+        {
+          "Id": "VirtoCommerce.XCatalog",
+          "Version": "3.1025.0"
         }
       ]
     },
