@@ -302,10 +302,6 @@
           "BlobName": "VirtoCommerce.Core_3.1014.0-alpha.1733.zip"
         },
         {
-          "Id": "VirtoCommerce.XRecommend",
-          "BlobName": "VirtoCommerce.XRecommend_3.1003.0-alpha.75.zip"
-        },
-        {
           "Id": "VirtoCommerce.Punchout",
           "BlobName": "VirtoCommerce.Punchout_3.1000.0-alpha.12.zip"
         },
@@ -392,6 +388,10 @@
         {
           "Id": "VirtoCommerce.AdminShell",
           "BlobName": "VirtoCommerce.AdminShell_3.1096.0-alpha.46.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XRecommend",
+          "BlobName": "VirtoCommerce.XRecommend_3.1004.0-alpha.78.zip"
         }
       ]
     }
