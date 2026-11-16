@@ -282,10 +282,6 @@
           "BlobName": "VirtoCommerce.Export_3.1007.0-alpha.303.zip"
         },
         {
-          "Id": "VirtoCommerce.PageBuilderModule",
-          "BlobName": "VirtoCommerce.PageBuilderModule_3.1041.0-alpha.896.zip"
-        },
-        {
           "Id": "VirtoCommerce.Seo",
           "BlobName": "VirtoCommerce.Seo_3.1009.0-alpha.110.zip"
         },
@@ -392,6 +388,10 @@
         {
           "Id": "VirtoCommerce.MCP",
           "BlobName": "VirtoCommerce.MCP_3.1001.0-alpha.8.zip"
+        },
+        {
+          "Id": "VirtoCommerce.PageBuilderModule",
+          "BlobName": "VirtoCommerce.PageBuilderModule_3.1041.0-alpha.898.zip"
         }
       ]
     }
