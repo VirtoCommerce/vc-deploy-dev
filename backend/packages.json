@@ -244,10 +244,6 @@
           "Version": "3.1011.0"
         },
         {
-          "Id": "VirtoCommerce.XRecommend",
-          "Version": "3.1003.0"
-        },
-        {
           "Id": "VirtoCommerce.EnvironmentsCompare",
           "Version": "3.1003.0"
         },
@@ -373,6 +369,10 @@
         },
         {
           "Id": "VirtoCommerce.OrderManagement",
+          "Version": "3.1004.0"
+        },
+        {
+          "Id": "VirtoCommerce.XRecommend",
           "Version": "3.1004.0"
         }
       ]
