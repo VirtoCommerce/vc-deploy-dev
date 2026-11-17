@@ -284,10 +284,6 @@
           "Version": "3.1008.0"
         },
         {
-          "Id": "VirtoCommerce.News",
-          "Version": "3.1007.0"
-        },
-        {
           "Id": "VirtoCommerce.Skyflow",
           "Version": "3.1006.0"
         },
@@ -374,6 +370,10 @@
         {
           "Id": "VirtoCommerce.XFrontend",
           "Version": "3.1011.0"
+        },
+        {
+          "Id": "VirtoCommerce.News",
+          "Version": "3.1008.0"
         }
       ]
     },
