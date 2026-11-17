@@ -80,14 +80,12 @@
       FileUpload__Scopes__3__AllowAnonymousUpload: true   
       
       Search__AzureSearch__SearchServiceName: qa-demovc-3-search
-      Search__AzureSearch__Key: 6BE1143312E89C26C227E6BBAE24DD47
       Search__AzureSearch__QueryParserType: Full
      
       AzureAd__Priority: 1
       PasswordLogin__Priority: 0
       Reload: 8
       Tax__Avalara__AccountNumber: 2000188799
-      Tax__Avalara__LicenseKey: 16BC3F87E836E15C     
       VirtoCommerce__SampleDataUrl: https://virtocommerce.azureedge.net/sample-data/b2b-sample-store.zip
       
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
@@ -122,13 +120,10 @@
       GoogleSSO__DefaultUserType: Customer
       GoogleSSO__UsePreferredUsername: false
       GoogleSSO__ApplicationId:  995027985115-qijocrsde8stfmf0d56dv2vjb4lkgfjc.apps.googleusercontent.com
-      GoogleSSO__Secret: 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 
       Content__Provider: FileSystem
       Assets__Provider: FileSystem
-      Assets__AzureBlobStorage__ConnectionString: DefaultEndpointsProtocol=https;AccountName=qademovc3;AccountKey=qPIpM63MI2P3ei6B1xIL4/DlKDqdsRj54z2GUtgCAeXPcMe8+mZiUvrvI5fjdyrovk331XmBlMFfAEFAjCnvtw==;EndpointSuffix=core.windows.net
       Assets__AzureBlobStorage__RootPath: catalog
       Content__AzureBlobStorage__RootPath: cms
-      Content__AzureBlobStorage__ConnectionString: DefaultEndpointsProtocol=https;AccountName=qademovc3;AccountKey=qPIpM63MI2P3ei6B1xIL4/DlKDqdsRj54z2GUtgCAeXPcMe8+mZiUvrvI5fjdyrovk331XmBlMFfAEFAjCnvtw==;EndpointSuffix=core.windows.net
          
       VirtoCommerce__LicenseFilePath: app_data/VirtoCommerce.lic
       VirtoCommerce__LicensePublicKeyPath: app_data/public.key
@@ -167,7 +162,6 @@
       Measures__DefaultSource: https://vcptcore-qa.govirto.com/cms-content/assets/measures/VirtoCommerce.Catalog.json
       
       Payments__AuthorizeNet__ApiLogin: 52B9X7vb4
-      #Payments__AuthorizeNet__SHA2Hash: FA6D2B37A7E9105942D2D184F1B2DBD8D9CA85611DE55B2267A6F7E0D7E49ACD9A6BC238CE068E75CA14ACFAD734F700FD94DCAB20353DD4D32D9BABE72DBBE4      
 
       # Skyflow settings
       Payments__Skyflow__tokenURI: https://manage.skyflowapis.com/v1/auth/sa/oauth/token
@@ -183,7 +177,6 @@
       # Shippment
       Shipping__IsPickupEnabled: true
     secretConfig:
-      #Search__ElasticAppSearch__PrivateApiKey: elasticappsearch
       Notifications__SendGrid__ApiKey: sendkey
       Notifications__Smtp__Password: smtppasswordyandex
       #Search__ElasticSearch8__Key: elastic-search-8
@@ -198,6 +191,11 @@
       Payments__CyberSource__MerchantKeyId: cybersource-merchantkeyid
       Payments__CyberSource__MerchantSecretKey: cybersource-merchantsecretkey
       PushNotifications__HubUrl: pushnotifications-huburl-vcptcore-demo
+      Search__AzureSearch__Key: azureseearchkey
+      Tax__Avalara__LicenseKey: avalara-licensekey
+      GoogleSSO__Secret: googlesso-secret-vcptcore
+      Assets__AzureBlobStorage__ConnectionString: qademovc3-blob-connectionstring
+      Content__AzureBlobStorage__ConnectionString: qademovc3-blob-connectionstring
   storefront:
     enabled: false
     themes:
