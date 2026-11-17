@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.1039.17",
+  "PlatformVersion": "3.1039.19",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.1039.17",
+  "PlatformImageTag": "3.1039.19",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -155,7 +155,7 @@
         },
         {
           "Id": "VirtoCommerce.PageBuilderModule",
-          "Version": "3.1012.3"
+          "Version": "3.1012.4"
         },
         {
           "Id": "VirtoCommerce.Payment",
