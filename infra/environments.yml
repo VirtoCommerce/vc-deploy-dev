@@ -26,7 +26,6 @@
       # 0: B2B-store, all checks on (SenderDomain + AllowedReturnUrls), default lifetimes.
       Punchout__Configurations__0__Id: qa1-punchout-0
       Punchout__Configurations__0__StoreId: B2B-store
-      Punchout__Configurations__0__SharedSecret: qa1-02b08c7c3e6dc8da89f628c8
       Punchout__Configurations__0__SenderDomain: NetworkId
       Punchout__Configurations__0__AllowedReturnUrls__0: https://punchoutcommerce.com/*
       Punchout__Configurations__0__TokenLifeTime: "00:15:00"
@@ -34,24 +33,20 @@
       # 1: second store, no SenderDomain / AllowedReturnUrls (checks skipped), short lifetimes for expiry tests.
       Punchout__Configurations__1__Id: qa1-punchout-1
       Punchout__Configurations__1__StoreId: New-super
-      Punchout__Configurations__1__SharedSecret: qa1-ab92600f24911ac9bba37ba6
       Punchout__Configurations__1__TokenLifeTime: "00:02:00"
       Punchout__Configurations__1__SessionLifeTime: "00:10:00"
       # 2: StoreId points to a store that does not exist (negative case).
       Punchout__Configurations__2__Id: qa1-punchout-2
       Punchout__Configurations__2__StoreId: AGENT-TEST-no-such-store
-      Punchout__Configurations__2__SharedSecret: qa1-a65c38611bf8a16b275581a8
       # VCST-5888: B2B-store with default methods (OrderRequest T1 methods, T4)
       Punchout__Configurations__3__Id: qa1-punchout-defaults
       Punchout__Configurations__3__StoreId: B2B-store
-      Punchout__Configurations__3__SharedSecret: agt58882aWganRdpRHvbdCRckctSw
       Punchout__Configurations__3__SenderDomain: NetworkId
       Punchout__Configurations__3__DefaultShipmentMethodCode: FixedRate
       Punchout__Configurations__3__DefaultPaymentMethodCode: DefaultManualPaymentMethod
       # VCST-5888: B2B-store with default method codes that do not exist (OrderRequest T17b)
       Punchout__Configurations__4__Id: qa1-punchout-badcodes
       Punchout__Configurations__4__StoreId: B2B-store
-      Punchout__Configurations__4__SharedSecret: agt5888u0Dmqc27LL1T5BALODorAg
       Punchout__Configurations__4__DefaultShipmentMethodCode: AGENT-TEST-NoSuchShipping
       Punchout__Configurations__4__DefaultPaymentMethodCode: AGENT-TEST-NoSuchPayment
       FileUpload__RootPath: attachments
@@ -122,7 +117,6 @@
       FileUpload__Scopes__6__AllowedExtensions__4: .pdf
       DOTNET_USE_POLLING_FILE_WATCHER: true
       Reload: 31
-      #ConnectionStrings__AzureAppConfigurationConnectionString: "Endpoint=https://qa-vc-app-config.azconfig.io;Id=BvwK;Secret=nbF7kOXCU14+qCF5OtP4LR63zfbSyDx6th46bIWkUHQ="
 
       Serilog__Using__0: Serilog.Sinks.Console
       Serilog__Using__1: Serilog.Sinks.ApplicationInsights
@@ -149,13 +143,10 @@
       EnvironmentsCompare__CurrentEnvironmentName: VCPTCORE-QA1
       EnvironmentsCompare__ComparableEnvironments__0__Name: VCPTCORE-QA
       EnvironmentsCompare__ComparableEnvironments__0__Url: https://vcptcore-qa.govirto.com
-      EnvironmentsCompare__ComparableEnvironments__0__ApiKey: 403b50c6-9078-4c77-934e-8ddc578eb919
       EnvironmentsCompare__ComparableEnvironments__1__Name: VCST
       EnvironmentsCompare__ComparableEnvironments__1__Url: https://vcst-qa.govirto.com
-      EnvironmentsCompare__ComparableEnvironments__1__ApiKey: 403b50c6-9078-4c77-934e-8ddc578eb919
       EnvironmentsCompare__ComparableEnvironments__2__Name: VCPTCORE-QA-SAME
       EnvironmentsCompare__ComparableEnvironments__2__Url: https://vcptcore-qa.govirto.com
-      EnvironmentsCompare__ComparableEnvironments__2__ApiKey: 403b50c6-9078-4c77-934e-8ddc578eb919
 
 
       #Notifications_settings
@@ -173,7 +164,6 @@
       #Notifications__Gateway: MicrosoftGraph
       Notifications__MicrosoftGraph__ApplicationId: 24ffedfb-a93a-4fea-a078-dcdcf233d995
       Notifications__MicrosoftGraph__TenantId: 70697aab-b16c-4648-ad2b-5cc5b193e9a5
-      Notifications__MicrosoftGraph__SecretValue: Ua58Q~3lrsu2MXDTXFMBdkSE8hOIR8KXsYwjNcin
       #Notifications__Smtp__EnableSsl: False
 
 
@@ -186,7 +176,6 @@
       VirtoCommerce__Stores__DefaultStore: B2B-store
       PushNotifications__ForceWebSockets: true
       PushNotifications__ScalabilityMode: RedisBackplane
-      PushNotifications__HubUrl: https://vcptcore-qa1.govirto.com/pushNotificationHub?api_key=17489aa2-34d6-4447-a437-285457f4f72d
       PushNotifications__RedisBackplane__ChannelName: vcptcore-qa1-chanel
       DistributedLock__KeyPrefix: vcptcore-qa1
       PushMessages__UseFirebaseCloudMessaging: true
@@ -200,7 +189,6 @@
       PushMessages__FcmSenderOptions__AuthProviderX509CertUrl: https://www.googleapis.com/oauth2/v1/certs
       PushMessages__FcmSenderOptions__ClientX509CertUrl: https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-fb4ea%40vcptcore-qa.iam.gserviceaccount.com
       PushMessages__FcmSenderOptions__UniverseDomain: googleapis.com
-      PushMessages__FcmReceiverOptions__ApiKey: AIzaSyD4YXs4pSO11Gb95ecyd7oRl8wV6SUM_jU
       PushMessages__FcmReceiverOptions__AuthDomain: vcptcore-qa.firebaseapp.com
       PushMessages__FcmReceiverOptions__ProjectId: vcptcore-qa
       PushMessages__FcmReceiverOptions__StorageBucket: vcptcore-qa.appspot.com
@@ -240,7 +228,6 @@
       #Search__Provider: OpenSearch
       #Search__OpenSearch__Server: https://opensearch-uat.govirto.com/
       #Search__OpenSearch__User: admin
-      Search__OpenSearch__Password: '@-mJ"ch{l/#+LXg_"w>v'
       Search__OpenSearch__EnableHttpCompression: true
       #Search__Provider: ElasticAppSearch
       #Search__Provider: Lucene
@@ -253,7 +240,6 @@
       #Search__ElasticSearch9__User: elastic
 
       #Search__Provider: AlgoliaSearch
-      Search__AlgoliaSearch__ApiKey: f3de99009f79a358485b9e11fe7e3692
       Search__AlgoliaSearch__AppId: O1IWK3QKLW
 
       PlatformSettings__Settings__0__Name: Order.RefundNewNumberTemplate
@@ -264,7 +250,6 @@
       Search__ElasticAppSearch__EnableHttpCompression: true
       Search__ElasticAppSearch__Endpoint: https://enterprise-search-vc03.govirto.com
       Search__AzureSearch__SearchServiceName: qa-demovc-3-search
-      Search__AzureSearch__Key: 6BE1143312E89C26C227E6BBAE24DD47
       Search__AzureSearch__QueryParserType: Full
       Search__AzureSearch__Endpoint: https://qa-demovc-3-search.search.windows.net
 
@@ -274,7 +259,6 @@
       GoogleSSO__AuthenticationType: GoogleSSO
       GoogleSSO__AuthenticationCaption: Google
       GoogleSSO__ApplicationId:  995027985115-qijocrsde8stfmf0d56dv2vjb4lkgfjc.apps.googleusercontent.com
-      GoogleSSO__Secret: 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
       GoogleSSO__Priority: 2
 
       #OpenId_settings
@@ -284,7 +268,6 @@
       oidc__0__AuthenticationCaption: Virto
       oidc__0__Authority: https://vcst-qa.govirto.com
       oidc__0__ClientId: 0c73f782-97d2-4f5d-8345-9209198fe179
-      oidc__0__ClientSecret: 100ee8c1-ad30-4aab-af02-eefff78a4777
       oidc__0__ResponseMode: query
       oidc__0__ResponseType: code
       oidc__0__GetClaimsFromUserInfoEndpoint: true
@@ -306,7 +289,6 @@
       Assets__FileSystem__PublicUrl: https://vcptcore-qa1.govirto.com/cms-content/assets/
       Assets__Provider: FileSystem
       #Assets__Provider: AzureBlobStorage
-      Assets__AzureBlobStorage__ConnectionString: DefaultEndpointsProtocol=https;AccountName=qademovc3;AccountKey=qPIpM63MI2P3ei6B1xIL4/DlKDqdsRj54z2GUtgCAeXPcMe8+mZiUvrvI5fjdyrovk331XmBlMFfAEFAjCnvtw==;EndpointSuffix=core.windows.net
       Assets__AzureBlobStorage__ConnectionString: BlobEndpoint=https://qademovc3.blob.core.windows.net/;QueueEndpoint=https://qademovc3.queue.core.windows.net/;FileEndpoint=https://qademovc3.file.core.windows.net/;TableEndpoint=https://qademovc3.table.core.windows.net/;SharedAccessSignature=sv=2022-11-02&ss=bfqt&srt=sco&sp=rwdlacupiytfx&se=2025-02-27T00:34:20Z&st=2024-02-26T16:34:20Z&spr=https&sig=QSyd83bPIqXYfQAK9AhGgdXaXYmPsSz450OGegOnZUE%3D
       Assets__AzureBlobStorage__RootPath: catalog
       Assets__AzureBlobStorage__AllowBlobPublicAccess: true
@@ -322,7 +304,6 @@
       Content__AzureBlobStorage__RootPath: cms
       Content__AzureBlobStorage__AllowBlobPublicAccess: false
       Content__AzureBlobStorage__ConnectionString: BlobEndpoint=https://qademovc3.blob.core.windows.net/;QueueEndpoint=https://qademovc3.queue.core.windows.net/;FileEndpoint=https://qademovc3.file.core.windows.net/;TableEndpoint=https://qademovc3.table.core.windows.net/;SharedAccessSignature=sv=2022-11-02&ss=bfqt&srt=sco&sp=rwdlacupiytfx&se=2025-02-27T00:34:20Z&st=2024-02-26T16:34:20Z&spr=https&sig=QSyd83bPIqXYfQAK9AhGgdXaXYmPsSz450OGegOnZUE%3D
-      #Content__AzureBlobStorage__ConnectionString: DefaultEndpointsProtocol=https;AccountName=qademovc3;AccountKey=qPIpM63MI2P3ei6B1xIL4/DlKDqdsRj54z2GUtgCAeXPcMe8+mZiUvrvI5fjdyrovk331XmBlMFfAEFAjCnvtw==;EndpointSuffix=core.windows.net
       #VirtoCommerce__FileExtensionsWhiteList__0: ".pdf"
       VirtoCommerce__LicenseFilePath: app_data/VirtoCommerce.lic
       VirtoCommerce__LicensePublicKeyPath: app_data/public.key
@@ -342,14 +323,10 @@
       Logging__LogLevel__Default: Information
       PasswordLogin__DetailedErrors: true
       Payments__AuthorizeNet__ApiLogin: 52B9X7vb4
-      #Payments__AuthorizeNet__SHA2Hash: FA6D2B37A7E9105942D2D184F1B2DBD8D9CA85611DE55B2267A6F7E0D7E49ACD9A6BC238CE068E75CA14ACFAD734F700FD94DCAB20353DD4D32D9BABE72DBBE4
-      Payments__AuthorizeNet__TxnKey: 6QzDf3843wVRp4vx
       Tax__Avalara__AccountNumber: 2000188799
-      Tax__Avalara__LicenseKey: 16BC3F87E836E15C
       APPINSIGHTS_INSTRUMENTATIONKEY: bd723c64-aa55-4ae1-9891-50244a4719f0
       #VirtoCommerce__ApplicationInsights__RoleName: This is QA role
       #VirtoCommerce__ApplicationInsights__RoleInstance: This is instance of QA
-      Videos__GoogleApiKey: AIzaSyD5A4oFeSgaMQnMo3OiaqUSJ23SQGELiA4
       Caching__CacheEnabled: true
       Authorization__ReturnPasswordHash: true
       Authorization__AllowApiAccessForCustomers: false
@@ -426,9 +403,27 @@
       Serilog__WriteTo__1__Args__connectionString: connectionstringaiqa
       APPLICATIONINSIGHTS_CONNECTION_STRING: appinsights-connectionstring-vcptcore-qa1
       EventBus__Connections__0__ConnectionOptionsSerialized: eventbusconnection
-      #Assets__AzureBlobStorage__ConnectionString: azureblobconnectionstring
       PushMessages__FcmSenderOptions__PrivateKey: firebase-privatekey
       Search__ElasticSearch8__Key: elastic-search-8
+      Punchout__Configurations__0__SharedSecret: punchout-0-sharedsecret
+      Punchout__Configurations__1__SharedSecret: punchout-1-sharedsecret
+      Punchout__Configurations__2__SharedSecret: punchout-2-sharedsecret
+      Punchout__Configurations__3__SharedSecret: punchout-3-sharedsecret
+      Punchout__Configurations__4__SharedSecret: punchout-4-sharedsecret
+      EnvironmentsCompare__ComparableEnvironments__0__ApiKey: environmentscompare-apikey
+      EnvironmentsCompare__ComparableEnvironments__1__ApiKey: environmentscompare-apikey
+      EnvironmentsCompare__ComparableEnvironments__2__ApiKey: environmentscompare-apikey
+      Notifications__MicrosoftGraph__SecretValue: msgraph-notifications-secretvalue
+      PushNotifications__HubUrl: pushnotifications-huburl-vcptcore-qa1
+      PushMessages__FcmReceiverOptions__ApiKey: fcm-receiver-apikey
+      Search__OpenSearch__Password: opensearch-password
+      Search__AlgoliaSearch__ApiKey: algolia-apikey
+      Search__AzureSearch__Key: azureseearchkey
+      GoogleSSO__Secret: googlesso-secret-vcptcore
+      oidc__0__ClientSecret: oidc-0-clientsecret
+      Assets__AzureBlobStorage__ConnectionString: qademovc3-blob-connectionstring
+      Tax__Avalara__LicenseKey: avalara-licensekey
+      Videos__GoogleApiKey: google-videos-apikey
       #Search__ElasticSearch9__Key: elastic-new9
 
 
@@ -449,7 +444,6 @@
       VirtoCommerce__Endpoint__Password: store
       CookieAuthenticationOptions__ExpireTimeSpan: 10:00:00
       Swagger__UI__Enable: true
-      #ConnectionStrings__ContentConnectionString: provider=AzureBlobStorage;rootPath=cms;DefaultEndpointsProtocol=https;AccountName=qademovc3;AccountKey=qPIpM63MI2P3ei6B1xIL4/DlKDqdsRj54z2GUtgCAeXPcMe8+mZiUvrvI5fjdyrovk331XmBlMFfAEFAjCnvtw==;EndpointSuffix=core.windows.net
     themes:
       B2B-store: https://github.com/VirtoCommerce/vc-theme-b2b-vue/releases/download/2.2.0/vc-theme-b2b-vue-2.2.0.zip
   ingress: {}
@@ -484,7 +478,6 @@
         VirtoCommerce__ApplicationInsights__RoleInstance: This is instance of QA1
       secretConfig:
         Notifications__SendGrid__ApiKey: sendkey
-        #Notifications__Smtp__Password: smtppassword
         Search__ElasticAppSearch__PrivateApiKey: elasticappsearch
   routes:
   - host: vcptcore-qa1-storefront.govirto.com
