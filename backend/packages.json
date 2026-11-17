@@ -318,10 +318,6 @@
           "BlobName": "VirtoCommerce.SalesRep_3.1025.0-alpha.74.zip"
         },
         {
-          "Id": "VirtoCommerce.XPickup",
-          "BlobName": "VirtoCommerce.XPickup_3.1009.0-alpha.69.zip"
-        },
-        {
           "Id": "VirtoCommerce.XCMS",
           "BlobName": "VirtoCommerce.XCMS_3.1010.0-alpha.100.zip"
         },
@@ -392,6 +388,10 @@
         {
           "Id": "VirtoCommerce.TaskManagement",
           "BlobName": "VirtoCommerce.TaskManagement_3.1009.0-alpha.226.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XPickup",
+          "BlobName": "VirtoCommerce.XPickup_3.1010.0-alpha.71.zip"
         }
       ]
     }
