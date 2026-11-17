@@ -15,7 +15,6 @@
       Serilog__WriteTo__0: Console
       PushNotifications__ForceWebSockets: true
       PushNotifications__ScalabilityMode: RedisBackplane
-      PushNotifications__HubUrl: https://vcptcore-loadtest.govirto.com/pushNotificationHub?api_key=50b592c2-22a0-4bdc-bf51-d917f72bb83f
       PushNotifications__RedisBackplane__ChannelName: vcptcore-loadtest-chanel
       Notifications__DefaultSender: azure_25da07ed75daacae20578a7a7dc58541@azure.com
       Notifications__Gateway: SendGrid
@@ -38,20 +37,17 @@
       #Search__Provider: OpenSearch
       Search__OpenSearch__Server: https://opensearch-uat.govirto.com/
       Search__OpenSearch__User: admin
-      Search__OpenSearch__Password: '@-mJ"ch{l/#+LXg_"w>v'
       Search__OpenSearch__EnableHttpCompression: true
       Search__Provider: ElasticSearch8
       #Search__Scope: default
       Search__Lucene__Path: /path/to/lucene/indexes
       Search__AzureSearch__SearchServiceName: qa-demovc-3-search
-      Search__AzureSearch__Key: 6BE1143312E89C26C227E6BBAE24DD47
       Search__AzureSearch__QueryParserType: Full
       #VirtoCommerce__LocalUploadFolderPath: wwwroot/cms-content
       AzureAd__Priority: 1
       PasswordLogin__Priority: 0
       Reload: 77
       Tax__Avalara__AccountNumber: 2000188799
-      Tax__Avalara__LicenseKey: 16BC3F87E836E15C
       #Search__Provider: Lucene
       VirtoCommerce__SampleDataUrl: https://virtocommerce.azureedge.net/sample-data/b2b-sample-store.zip
       #VirtoCommerce__SampleDataUrl: ""
@@ -71,10 +67,8 @@
       AzureAd__ValidateIssuer: MultitenantAzureAD
       Content__Provider: FileSystem
       Assets__Provider: FileSystem
-      Assets__AzureBlobStorage__ConnectionString: DefaultEndpointsProtocol=https;AccountName=qademovc3;AccountKey=qPIpM63MI2P3ei6B1xIL4/DlKDqdsRj54z2GUtgCAeXPcMe8+mZiUvrvI5fjdyrovk331XmBlMFfAEFAjCnvtw==;EndpointSuffix=core.windows.net
       Assets__AzureBlobStorage__RootPath: catalog
       Content__AzureBlobStorage__RootPath: cms
-      Content__AzureBlobStorage__ConnectionString: DefaultEndpointsProtocol=https;AccountName=qademovc3;AccountKey=qPIpM63MI2P3ei6B1xIL4/DlKDqdsRj54z2GUtgCAeXPcMe8+mZiUvrvI5fjdyrovk331XmBlMFfAEFAjCnvtw==;EndpointSuffix=core.windows.net
       VirtoCommerce__LicenseFilePath: app_data/VirtoCommerce.lic
       VirtoCommerce__LicensePublicKeyPath: app_data/public.key
       VirtoCommerce__LicensePrivateKeyPath: app_data/private.key
@@ -85,8 +79,6 @@
       SqlServer__ParameterTranslationMode: Constant
       #Logging__LogLevel__Default: Information
       Payments__AuthorizeNet__ApiLogin: 8hPT4p99R
-      Payments__AuthorizeNet__SHA2Hash: FA6D2B37A7E9105942D2D184F1B2DBD8D9CA85611DE55B2267A6F7E0D7E49ACD9A6BC238CE068E75CA14ACFAD734F700FD94DCAB20353DD4D32D9BABE72DBBE4
-      Payments__AuthorizeNet__TxnKey: 63c54EWq5d2XnGAR
       ASPNETCORE_ENVIRONMENT: Production
       DefaultMainMenuState__items__0__path: browse/marketing
       DefaultMainMenuState__items__0__isFavorite: true
@@ -110,6 +102,14 @@
       Search__ElasticAppSearch__PrivateApiKey: elasticappsearch
       Notifications__SendGrid__ApiKey: sendkey
       Notifications__Smtp__Password: smtppasswordyandex
+      PushNotifications__HubUrl: pushnotifications-huburl-vcptcore-loadtest
+      Search__OpenSearch__Password: opensearch-password
+      Search__AzureSearch__Key: azureseearchkey
+      Tax__Avalara__LicenseKey: avalara-licensekey
+      Assets__AzureBlobStorage__ConnectionString: qademovc3-blob-connectionstring
+      Content__AzureBlobStorage__ConnectionString: qademovc3-blob-connectionstring
+      Payments__AuthorizeNet__SHA2Hash: authorizenet-sha2hash
+      Payments__AuthorizeNet__TxnKey: authorizenet-txnkey
   storefront:
     enabled: false
     # imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/storefront
