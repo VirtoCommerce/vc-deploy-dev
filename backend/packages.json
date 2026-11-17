@@ -110,10 +110,6 @@
           "BlobName": "VirtoCommerce.Cart_3.1014.0-alpha.821.zip"
         },
         {
-          "Id": "VirtoCommerce.Xapi",
-          "BlobName": "VirtoCommerce.Xapi_3.1031.0-pr-70-5958.zip"
-        },
-        {
           "Id": "VirtoCommerce.AdminAngularJs",
           "BlobName": "VirtoCommerce.AdminAngularJs_3.1095.0-alpha.11.zip"
         },
@@ -392,6 +388,10 @@
         {
           "Id": "VirtoCommerce.Passkeys",
           "BlobName": "VirtoCommerce.Passkeys_3.1001.0-alpha.8.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Xapi",
+          "BlobName": "VirtoCommerce.Xapi_3.1032.0-alpha.230.zip"
         }
       ]
     }
