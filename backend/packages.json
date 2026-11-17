@@ -236,10 +236,6 @@
           "Version": "3.1004.0"
         },
         {
-          "Id": "VirtoCommerce.ProductSnapshot",
-          "Version": "3.1005.0"
-        },
-        {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "Version": "3.1024.0"
         },
@@ -374,6 +370,10 @@
         {
           "Id": "VirtoCommerce.Quote",
           "Version": "3.1008.0"
+        },
+        {
+          "Id": "VirtoCommerce.ProductSnapshot",
+          "Version": "3.1006.0"
         }
       ]
     },
