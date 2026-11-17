@@ -310,10 +310,6 @@
           "BlobName": "VirtoCommerce.WhiteLabeling_3.1007.0-alpha.107.zip"
         },
         {
-          "Id": "VirtoCommerce.XCart",
-          "BlobName": "VirtoCommerce.XCart_3.1047.0-alpha.310.zip"
-        },
-        {
           "Id": "VirtoCommerce.XOrder",
           "BlobName": "VirtoCommerce.XOrder_3.1018.0-alpha.152.zip"
         },
@@ -392,6 +388,10 @@
         {
           "Id": "VirtoCommerce.Cart",
           "BlobName": "VirtoCommerce.Cart_3.1015.0-alpha.826.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XCart",
+          "BlobName": "VirtoCommerce.XCart_3.1048.0-alpha.312.zip"
         }
       ]
     }
