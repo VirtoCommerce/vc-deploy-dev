@@ -322,10 +322,6 @@
           "BlobName": "VirtoCommerce.MFA_3.1004.0-alpha.19.zip"
         },
         {
-          "Id": "VirtoCommerce.News",
-          "BlobName": "VirtoCommerce.News_3.1007.0-alpha.85.zip"
-        },
-        {
           "Id": "VirtoCommerce.PushMessages",
           "BlobName": "VirtoCommerce.PushMessages_3.1009.0-alpha.129.zip"
         },
@@ -392,6 +388,10 @@
         {
           "Id": "VirtoCommerce.Contracts",
           "BlobName": "VirtoCommerce.Contracts_3.1009.0-alpha.192.zip"
+        },
+        {
+          "Id": "VirtoCommerce.News",
+          "BlobName": "VirtoCommerce.News_3.1008.0-alpha.87.zip"
         }
       ]
     }
