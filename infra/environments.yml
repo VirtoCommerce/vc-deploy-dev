@@ -390,6 +390,7 @@
       Serilog__WriteTo__1__Args__connectionString: connectionstringaiqa
       APPLICATIONINSIGHTS_CONNECTION_STRING: appinsights-connectionstring-vcptcore-qa
       EventBus__Connections__0__ConnectionOptionsSerialized: eventbusconnection
+      #Assets__AzureBlobStorage__ConnectionString: azureblobconnectionstring
       PushMessages__FcmSenderOptions__PrivateKey: firebase-privatekey
       Search__ElasticSearch8__Key: elastic-search-8
       PushNotifications__HubUrl: pushnotifications-huburl-vcptcore-qa
@@ -468,6 +469,9 @@
         #VirtoCommerce__ApplicationInsights__RoleInstance: This is instance of QA2
       #secretConfig:
         #Notifications__SendGrid__ApiKey: sendkey
+        #Notifications__Smtp__Password: smtppassword
+        #Search__ElasticAppSearch__PrivateApiKey: elasticappsearch
+        #Search__AzureSearch__Key: azureseearchkey
     app2:
       enabled: false
       servicePlan: P1
@@ -488,6 +492,7 @@
         VirtoCommerce__ApplicationInsights__RoleInstance: This is instance of QA1
       secretConfig:
         #Notifications__SendGrid__ApiKey: sendkey
+        #Notifications__Smtp__Password: smtppassword
         Search__ElasticAppSearch__PrivateApiKey: elasticappsearch
   routes:
   - host: vcptcore-qa-storefront.govirto.com
