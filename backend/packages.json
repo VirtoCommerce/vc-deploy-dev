@@ -294,10 +294,6 @@
           "BlobName": "VirtoCommerce.SystemOperations_3.1003.0-alpha.31.zip"
         },
         {
-          "Id": "VirtoCommerce.XFrontend",
-          "BlobName": "VirtoCommerce.XFrontend_3.1010.0-alpha.65.zip"
-        },
-        {
           "Id": "VirtoCommerce.Orders",
           "BlobName": "VirtoCommerce.Orders_3.1020.0-alpha.1461.zip"
         },
@@ -392,6 +388,10 @@
         {
           "Id": "VirtoCommerce.PushMessages",
           "BlobName": "VirtoCommerce.PushMessages_3.1010.0-alpha.131.zip"
+        },
+        {
+          "Id": "VirtoCommerce.XFrontend",
+          "BlobName": "VirtoCommerce.XFrontend_3.1011.0-alpha.68.zip"
         }
       ]
     }
