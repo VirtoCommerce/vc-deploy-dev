@@ -197,6 +197,7 @@
       GoogleSSO__Secret: googlesso-secret-vcptcore
       Assets__AzureBlobStorage__ConnectionString: qademovc3-blob-connectionstring
       Content__AzureBlobStorage__ConnectionString: qademovc3-blob-connectionstring
+      #Payments__AuthorizeNet__SHA2Hash: authorizenet-sha2hash
   storefront:
     enabled: false
     themes:
