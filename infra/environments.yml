@@ -131,7 +131,6 @@
       PushMessages__FcmSenderOptions__AuthProviderX509CertUrl: https://www.googleapis.com/oauth2/v1/certs
       PushMessages__FcmSenderOptions__ClientX509CertUrl: https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-ekgb8%40test-97e05.iam.gserviceaccount.com
       PushMessages__FcmSenderOptions__UniverseDomain: googleapis.com
-      PushMessages__FcmReceiverOptions__ApiKey: AIzaSyAh1GH8SFIx4ULiaZUNZRnxNNM2jFLGdaE
       PushMessages__FcmReceiverOptions__AuthDomain: test-97e05.firebaseapp.com
       PushMessages__FcmReceiverOptions__ProjectId: test-97e05
       PushMessages__FcmReceiverOptions__StorageBucket: test-97e05.appspot.com
@@ -160,6 +159,7 @@
       GoogleSSO__Secret: googlesso-secret
       PushNotifications__HubUrl: pushnotifications-huburl-vcst-dev
       VirtoCommerce__RabbitMQ__Uri: rabbitmq-uri-dev
+      PushMessages__FcmReceiverOptions__ApiKey: fcm-receiver-apikey-vcst-dev
   storefront:
     headers:
       Cross-Origin-Resource-Policy: cross-origin
