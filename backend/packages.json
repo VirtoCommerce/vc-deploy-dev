@@ -276,10 +276,6 @@
           "Version": "3.1041.0"
         },
         {
-          "Id": "VirtoCommerce.XCatalog",
-          "Version": "3.1025.0"
-        },
-        {
           "Id": "VirtoCommerce.AdminShell",
           "Version": "3.1096.0"
         },
@@ -374,6 +370,10 @@
         {
           "Id": "VirtoCommerce.Skyflow",
           "Version": "3.1007.0"
+        },
+        {
+          "Id": "VirtoCommerce.XCatalog",
+          "Version": "3.1026.0"
         }
       ]
     },
