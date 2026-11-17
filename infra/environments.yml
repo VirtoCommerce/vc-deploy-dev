@@ -425,6 +425,9 @@
       Tax__Avalara__LicenseKey: avalara-licensekey
       Videos__GoogleApiKey: google-videos-apikey
       #Search__ElasticSearch9__Key: elastic-new9
+      #ConnectionStrings__AzureAppConfigurationConnectionString: azure-app-configuration-connection-string
+      #ConnectionStrings__ContentConnectionString: qademovc3-content-connectionstring
+      #Payments__AuthorizeNet__SHA2Hash: authorizenet-sha2hash
 
 
 
