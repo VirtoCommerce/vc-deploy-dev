@@ -411,6 +411,9 @@
       Sanity__WebhookSecrets__0: sanity-webhooksecret-0
       Sanity__WebhookSecrets__1: sanity-webhooksecret-1
       Sanity__Secrets__qaToken: sanity-qatoken
+      #ConnectionStrings__ContentConnectionString: qademovc3-content-connectionstring
+      #Content__AzureBlobStorage__ConnectionString: qademovc3-blob-connectionstring
+      #Payments__AuthorizeNet__SHA2Hash: authorizenet-sha2hash
       
       
       
