@@ -13,7 +13,6 @@
       Serilog__Using__0: Serilog.Sinks.Console
       Serilog__MinimumLevel__Default: "Information"
       Serilog__WriteTo__0: Console
-      #APPINSIGHTS_INSTRUMENTATIONKEY: 85936324-4fc0-4d35-aa2f-164c4800ba3b
       PushNotifications__ForceWebSockets: true
       PushNotifications__ScalabilityMode: RedisBackplane
       PushNotifications__RedisBackplane__ChannelName: vcptcore-dev-chanel
@@ -36,14 +35,12 @@
       Content__PathMappings__blogs__2: blogs
       DOTNET_USE_POLLING_FILE_WATCHER: true
       Search__AzureSearch__SearchServiceName: qa-demovc-3-search
-      Search__AzureSearch__Key: 6BE1143312E89C26C227E6BBAE24DD47
       Search__AzureSearch__QueryParserType: Full
       #VirtoCommerce__LocalUploadFolderPath: wwwroot/cms-content
       AzureAd__Priority: 1
       PasswordLogin__Priority: 0
       Reload: 831
       Tax__Avalara__AccountNumber: 2000188799
-      Tax__Avalara__LicenseKey: 16BC3F87E836E15C
       Search__Provider: ElasticAppSearch
       VirtoCommerce__SampleDataUrl: https://virtocommerce.azureedge.net/sample-data/b2b-sample-store.zip
       #VirtoCommerce__SampleDataUrl: ""
@@ -61,10 +58,8 @@
       AzureAd__ValidateIssuer: MultitenantAzureAD
       Content__Provider: FileSystem
       Assets__Provider: FileSystem
-      Assets__AzureBlobStorage__ConnectionString: DefaultEndpointsProtocol=https;AccountName=qademovc3;AccountKey=qPIpM63MI2P3ei6B1xIL4/DlKDqdsRj54z2GUtgCAeXPcMe8+mZiUvrvI5fjdyrovk331XmBlMFfAEFAjCnvtw==;EndpointSuffix=core.windows.net
       Assets__AzureBlobStorage__RootPath: catalog
       Content__AzureBlobStorage__RootPath: cms
-      Content__AzureBlobStorage__ConnectionString: DefaultEndpointsProtocol=https;AccountName=qademovc3;AccountKey=qPIpM63MI2P3ei6B1xIL4/DlKDqdsRj54z2GUtgCAeXPcMe8+mZiUvrvI5fjdyrovk331XmBlMFfAEFAjCnvtw==;EndpointSuffix=core.windows.net
       VirtoCommerce__ApplicationInsights__EnableProfiler: false
       VirtoCommerce__LicenseFilePath: app_data/VirtoCommerce.lic
       VirtoCommerce__LicensePublicKeyPath: app_data/public.key
@@ -73,8 +68,6 @@
       VirtoCommerce__Hangfire__JobStorageType: SqlServer
       Logging__LogLevel__Default: Information
       Payments__AuthorizeNet__ApiLogin: 8hPT4p99R
-      Payments__AuthorizeNet__SHA2Hash: FA6D2B37A7E9105942D2D184F1B2DBD8D9CA85611DE55B2267A6F7E0D7E49ACD9A6BC238CE068E75CA14ACFAD734F700FD94DCAB20353DD4D32D9BABE72DBBE4
-      Payments__AuthorizeNet__TxnKey: 63c54EWq5d2XnGAR
       ASPNETCORE_ENVIRONMENT: Development
       DefaultMainMenuState__items__0__path: browse/marketing
       DefaultMainMenuState__items__0__isFavorite: true
@@ -93,7 +86,6 @@
       EventBus__Subscriptions__0__Events__0__EventId: "VirtoCommerce.Platform.Core.Security.Events.UserChangedEvent"
       Punchout__Configurations__0__Id: Main
       Punchout__Configurations__0__StoreId: B2B-store
-      Punchout__Configurations__0__SharedSecret: qa1-02b08c7c3e6dc8da89f628c8
       Punchout__Configurations__0__SenderDomain: NetworkId
       Punchout__Configurations__0__AllowedReturnUrls__0: https://punchoutcommerce.com/*
       Punchout__Configurations__0__TokenLifeTime: "00:15:00"
@@ -105,6 +97,13 @@
       PushNotifications__HubUrl: pushnotifications-huburl-vcptcore-dev
       ConnectionStrings__AzureAppConfigurationConnectionString: azure-app-configuration-connection-string
       ApplicationInsights__ConnectionString: appinsights-connectionstring-vcptcore-dev
+      Search__AzureSearch__Key: azureseearchkey
+      Tax__Avalara__LicenseKey: avalara-licensekey
+      Assets__AzureBlobStorage__ConnectionString: qademovc3-blob-connectionstring
+      Content__AzureBlobStorage__ConnectionString: qademovc3-blob-connectionstring
+      Payments__AuthorizeNet__SHA2Hash: authorizenet-sha2hash
+      Payments__AuthorizeNet__TxnKey: authorizenet-txnkey
+      Punchout__Configurations__0__SharedSecret: punchout-0-sharedsecret
 
   storefront:
     enabled: false
