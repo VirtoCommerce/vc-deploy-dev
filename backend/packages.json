@@ -46,10 +46,6 @@
           "BlobName": "VirtoCommerce.CyberSourcePayment_3.1003.0-alpha.75.zip"
         },
         {
-          "Id": "VirtoCommerce.MarketingExperienceApi",
-          "BlobName": "VirtoCommerce.MarketingExperienceApi_3.1004.0-alpha.103.zip"
-        },
-        {
           "Id": "VirtoCommerce.ElasticAppSearch",
           "BlobName": "VirtoCommerce.ElasticAppSearch_3.1003.0-alpha.190.zip"
         },
@@ -392,6 +388,10 @@
         {
           "Id": "VirtoCommerce.Return",
           "BlobName": "VirtoCommerce.Return_3.1007.0-alpha.174.zip"
+        },
+        {
+          "Id": "VirtoCommerce.MarketingExperienceApi",
+          "BlobName": "VirtoCommerce.MarketingExperienceApi_3.1006.0-alpha.115.zip"
         }
       ]
     }
