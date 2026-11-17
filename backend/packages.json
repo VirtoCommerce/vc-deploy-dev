@@ -214,10 +214,6 @@
           "BlobName": "VirtoCommerce.Pricing_3.1011.0-alpha.834.zip"
         },
         {
-          "Id": "VirtoCommerce.Passkeys",
-          "BlobName": "VirtoCommerce.Passkeys_3.1001.0-alpha.6.zip"
-        },
-        {
           "Id": "VirtoCommerce.BackgroundJobs",
           "BlobName": "VirtoCommerce.BackgroundJobs_3.1055.0-alpha.25.zip"
         },
@@ -392,6 +388,10 @@
         {
           "Id": "VirtoCommerce.Punchout",
           "BlobName": "VirtoCommerce.Punchout_3.1000.0-alpha.14.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Passkeys",
+          "BlobName": "VirtoCommerce.Passkeys_3.1001.0-alpha.8.zip"
         }
       ]
     }
