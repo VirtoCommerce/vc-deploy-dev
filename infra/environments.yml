@@ -177,6 +177,11 @@
       Payments__AuthorizeNet__SHA2Hash: authorizenet-sha2hash
       Payments__AuthorizeNet__TxnKey: authorizenet-txnkey
       Tax__Avalara__LicenseKey: avalara-licensekey
+      #Assets__AzureBlobStorage__ConnectionString: qademovc3-blob-connectionstring
+      #Content__AzureBlobStorage__ConnectionString: qademovc3-blob-connectionstring
+      #Search__AzureSearch__Key: azureseearchkey
+      #Search__ElasticSearch8__Key: elasticsearch8-key-regress
+      #Notifications__Smtp__Password: smtppassword-regress
   storefront:
     headers:
         Cross-Origin-Embedder-Policy: unsafe-none
