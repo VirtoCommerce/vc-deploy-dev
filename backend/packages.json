@@ -41,8 +41,8 @@
         },
         {
           "Id": "VirtoCommerce.ProductSubscription",
-          "Version": "3.1000.0-pr-1-30d0",
-          "BlobName": "VirtoCommerce.ProductSubscription_3.1000.0-pr-1-30d0.zip"
+          "Version": "3.1000.0-pr-1-0e1b",
+          "BlobName": "VirtoCommerce.ProductSubscription_3.1000.0-pr-1-0e1b.zip"
         },
         {
           "Id": "VirtoCommerce.Payment",
@@ -51,18 +51,18 @@
         },
         {
           "Id": "VirtoCommerce.XCart",
-          "Version": "3.1047.0-pr-152-64b8",
-          "BlobName": "VirtoCommerce.XCart_3.1047.0-pr-152-64b8.zip"
+          "Version": "3.1049.0-pr-152-7329",
+          "BlobName": "VirtoCommerce.XCart_3.1049.0-pr-152-7329.zip"
         },
         {
           "Id": "VirtoCommerce.XOrder",
-          "Version": "3.1018.0-pr-56-7d9c",
-          "BlobName": "VirtoCommerce.XOrder_3.1018.0-pr-56-7d9c.zip"
+          "Version": "3.1019.0-pr-56-73c7",
+          "BlobName": "VirtoCommerce.XOrder_3.1019.0-pr-56-73c7.zip"
         },
         {
           "Id": "VirtoCommerce.AuthorizeNetPayment",
-          "Version": "3.1006.0-pr-16-8871",
-          "BlobName": "VirtoCommerce.AuthorizeNetPayment_3.1006.0-pr-16-8871.zip"
+          "Version": "3.1006.0-pr-16-ae7b",
+          "BlobName": "VirtoCommerce.AuthorizeNetPayment_3.1006.0-pr-16-ae7b.zip"
         }
       ]
     },
@@ -110,11 +110,11 @@
         },
         {
           "Id": "VirtoCommerce.Xapi",
-          "Version": "3.1031.0"
+          "Version": "3.1032.0"
         },
         {
           "Id": "VirtoCommerce.Cart",
-          "Version": "3.1014.0"
+          "Version": "3.1015.0"
         },
         {
           "Id": "VirtoCommerce.PageBuilderModule",
@@ -394,7 +394,7 @@
         },
         {
           "Id": "VirtoCommerce.FileExperienceApi",
-          "Version": "3.1008.0"
+          "Version": "3.1009.0"
         },
         {
           "Id": "VirtoCommerce.XCMS",
@@ -422,7 +422,7 @@
         },
         {
           "Id": "VirtoCommerce.XCatalog",
-          "Version": "3.1024.0"
+          "Version": "3.1026.0"
         },
         {
           "Id": "VirtoCommerce.SeqLog",
