@@ -273,6 +273,7 @@
       Tax__Avalara__LicenseKey: avalara-licensekey
       Videos__GoogleApiKey: google-videos-apikey
       Videos__VimeoAccessToken: vimeo-accesstoken
+      #Search__OpenSearch__Password: opensearch-password
   storefront:
     headers:
       Cross-Origin-Embedder-Policy: unsafe-none
