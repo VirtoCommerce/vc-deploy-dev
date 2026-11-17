@@ -64,6 +64,9 @@
       # Domain 2, store 2 (vcptcore-aidemo-cookes.govirto.com): Cookes, store cookes. Theme = vc-storefront-clone build of fork branch
       # clone/cookes-2.56.0 (vc-frontend 2.56.0, the same baseline FE runs on this env): Cookes header/footer/listing chrome.
       COOKES: https://vcptcore-aidemo.govirto.com/cms-content/assets/themes/cookes-theme-2026-10-14T10-44-15Z-search.zip
+      # Domain 3, store 3 (vcptcore-aidemo-moa.govirto.com): Mall of America marketplace demo, store moa. Theme = fork of vc-frontend 2.61.0
+      # (branch moa of the MOA theme repo, commit 418f6b0), built with theme-work/build.sh. Own key, so no other theme line moves.
+      MOA: https://vcptcore-aidemo.govirto.com/cms-content/assets/themes/moa-theme-2026-11-17T13-58-03Z.zip
   customApps:
     app1:
       enabled: false
@@ -114,6 +117,27 @@
       route: platform
   - host: vcptcore-aidemo-cookes.govirto.com
     root: COOKES
+    paths:
+    - path: /xapi
+      route: platform
+    - path: /files
+      route: platform
+    - path: /connect/token
+      route: platform
+    - path: /graphql
+      route: platform
+    - path: /revoke/token
+      route: platform
+    - path: /api/files
+      route: platform
+    - path: /externalsignin
+      route: platform
+    - path: /signin-oidc
+      route: platform
+    - path: /signin-google
+      route: platform
+  - host: vcptcore-aidemo-moa.govirto.com
+    root: MOA
     paths:
     - path: /xapi
       route: platform
