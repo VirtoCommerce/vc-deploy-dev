@@ -120,7 +120,6 @@
       # Sync push notifications between platform instances
       PushNotifications__ForceWebSockets: true
       #PushNotifications__ScalabilityMode: RedisBackplane
-      PushNotifications__HubUrl: https://vcst-qa.govirto.com/pushNotificationHub?api_key=458ab7f7-df17-4aed-9f21-092f8b611efa
       PushNotifications__RedisBackplane__ChannelName: vcst-qa-chanel
       # Shippment
       #Shipping__IsPickupEnabled: true
@@ -136,7 +135,6 @@
       PushMessages__FcmSenderOptions__AuthProviderX509CertUrl: https://www.googleapis.com/oauth2/v1/certs
       PushMessages__FcmSenderOptions__ClientX509CertUrl: https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-1vh96%40vcst-qa.iam.gserviceaccount.com
       PushMessages__FcmSenderOptions__UniverseDomain: googleapis.com
-      PushMessages__FcmReceiverOptions__ApiKey: AIzaSyAJLCGjYkqbbv8n8dvuXazURr8kz0GsuVo
       PushMessages__FcmReceiverOptions__AuthDomain: vcst-qa.firebaseapp.com
       PushMessages__FcmReceiverOptions__ProjectId: vcst-qa
       PushMessages__FcmReceiverOptions__StorageBucket: vcst-qa.appspot.com
@@ -167,7 +165,6 @@
       #Search__Provider: OpenSearch
       #Search__OpenSearch__Server: https://opensearch-uat.govirto.com/
       #Search__OpenSearch__User: admin
-      #Search__OpenSearch__Password: '@-mJ"ch{l/#+LXg_"w>v'
       #Search__OpenSearch__EnableHttpCompression: true
 
       Search__PickupLocationFullTextSearchEnabled: true
@@ -189,9 +186,6 @@
       #Authorization__RefreshTokenLifeTime: 0:30:00
       # Avalara Tax
       Tax__Avalara__AccountNumber: 2000188799
-      Tax__Avalara__LicenseKey: 16BC3F87E836E15C
-      Videos__GoogleApiKey: AIzaSyD5A4oFeSgaMQnMo3OiaqUSJ23SQGELiA4
-      Videos__VimeoAccessToken: fb79d3c3db929322b9fa5c5f9f14aeff
     secretConfig:
       Search__ElasticSearch8__Key: elastic8
       PushMessages__FcmSenderOptions__PrivateKey: fcm-private-key-new
@@ -211,6 +205,10 @@
       GoogleSSO__ApplicationId: googlesso-aplicationid
       GoogleSSO__Secret: googlesso-secret
       PushNotifications__HubUrl: pushnotifications-huburl-vcst-qa
+      PushMessages__FcmReceiverOptions__ApiKey: fcm-receiver-apikey-vcst-qa
+      Tax__Avalara__LicenseKey: avalara-licensekey
+      Videos__GoogleApiKey: google-videos-apikey
+      Videos__VimeoAccessToken: vimeo-accesstoken
   storefront:
     headers:
       Cross-Origin-Embedder-Policy: unsafe-none
