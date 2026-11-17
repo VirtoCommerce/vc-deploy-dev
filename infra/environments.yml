@@ -27,7 +27,6 @@
       #Search__Provider: AzureSearch
       Search__Provider: ElasticSearch8
       Search__AzureSearch__SearchServiceName: qa-demovc-3-search
-      Search__AzureSearch__Key: 6BE1143312E89C26C227E6BBAE24DD47
       Search__AzureSearch__QueryParserType: Full
       Search__AzureSearch__Endpoint: https://qa-demovc-3-search.search.windows.net
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
@@ -36,7 +35,6 @@
       Swagger__UI__Enabled: true
       PushNotifications__ForceWebSockets: true
       PushNotifications__ScalabilityMode: RedisBackplane
-      PushNotifications__HubUrl: https://vcptcore-stable.govirto.com/pushNotificationHub?api_key=02afefbb-ce9e-47b7-8051-54a5be648965
       PushNotifications__RedisBackplane__ChannelName: vcptcore-stable-chanel
       Assets__Provider: FileSystem
       Content__FileSystem__PublicUrl: https://vcptcore-stable.govirto.com/cms-content/
@@ -49,10 +47,7 @@
       VirtoCommerce__Hangfire__JobStorageType: SqlServer
       Search__OrderFullTextSearchEnabled: true
       Payments__AuthorizeNet__ApiLogin: 8hPT4p99R
-      Payments__AuthorizeNet__SHA2Hash: FA6D2B37A7E9105942D2D184F1B2DBD8D9CA85611DE55B2267A6F7E0D7E49ACD9A6BC238CE068E75CA14ACFAD734F700FD94DCAB20353DD4D32D9BABE72DBBE4
-      Payments__AuthorizeNet__TxnKey: 63c54EWq5d2XnGAR
       Tax__Avalara__AccountNumber: 2000188799
-      Tax__Avalara__LicenseKey: 16BC3F87E836E15C
       AzureAd__Enabled: true
       AzureAd__Priority: 1
       AzureAd__AuthenticationType: AzureAD
@@ -68,6 +63,11 @@
       VirtoCommerce__SampleDataUrl: https://vc3prerelease.blob.core.windows.net/packages/clothing-and-electronics_3_0_2.zip
     secretConfig:
       Notifications__SendGrid__ApiKey: sendkey
+      Search__AzureSearch__Key: azureseearchkey
+      PushNotifications__HubUrl: pushnotifications-huburl-vcptcore-stable
+      Payments__AuthorizeNet__SHA2Hash: authorizenet-sha2hash
+      Payments__AuthorizeNet__TxnKey: authorizenet-txnkey
+      Tax__Avalara__LicenseKey: avalara-licensekey
       #Search__ElasticAppSearch__PrivateApiKey: elasticappsearch
   storefront:
     enabled: false
