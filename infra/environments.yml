@@ -169,7 +169,6 @@
       PushMessages__FcmSenderOptions__AuthProviderX509CertUrl: https://www.googleapis.com/oauth2/v1/certs
       PushMessages__FcmSenderOptions__ClientX509CertUrl: https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-zyqdm%40virto-start.iam.gserviceaccount.com
       PushMessages__FcmSenderOptions__UniverseDomain: googleapis.com
-      PushMessages__FcmReceiverOptions__ApiKey: AIzaSyCepXqq6j8dT4_KsbDuQDb9Etgs3LZxeEc
       PushMessages__FcmReceiverOptions__AuthDomain: virto-start.firebaseapp.com
       PushMessages__FcmReceiverOptions__ProjectId: virto-start
       PushMessages__FcmReceiverOptions__StorageBucket: virto-start.appspot.com
@@ -212,6 +211,7 @@
       GoogleSSO__ApplicationId: googlesso-applicationid
       GoogleSSO__Secret: googlesso-secret  
       PushNotifications__HubUrl: pushnotifications-huburl
+      PushMessages__FcmReceiverOptions__ApiKey: fcm-receiver-apikey
     databases: {}
   storefront:
     enabled: false
