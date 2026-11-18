@@ -142,9 +142,6 @@
       PushNotifications__ForceWebSockets: true
       #PushNotifications__ScalabilityMode: RedisBackplane
       PushNotifications__RedisBackplane__ChannelName: vcst-qa-chanel
-      # Own namespace for distributed-lock keys in the shared Redis: without it the search module's
-      # "IndexationJob" lock is one global key for every stand that sets no prefix, and a holder on any of
-      # them blocks indexation here (every run logged "Indexation skipped: the 'IndexationJob' lock is held").
       DistributedLock__KeyPrefix: vcst-qa
       
       # Return detailed error information if login failed
