@@ -252,10 +252,6 @@
           "Version": "3.1041.0"
         },
         {
-          "Id": "VirtoCommerce.AdminShell",
-          "Version": "3.1096.0"
-        },
-        {
           "Id": "VirtoCommerce.XRecommend",
           "Version": "3.1004.0"
         },
@@ -378,6 +374,10 @@
         {
           "Id": "VirtoCommerce.OTP",
           "Version": "3.1002.0"
+        },
+        {
+          "Id": "VirtoCommerce.AdminShell",
+          "Version": "3.1097.0"
         }
       ]
     },
