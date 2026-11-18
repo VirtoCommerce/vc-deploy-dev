@@ -1,4 +1,4 @@
-- name: vcptcore-aidemo3
+- name: vcptcore-rainbowsandals
   gitops: true
   production: false
   servicePlan: B1
@@ -31,14 +31,14 @@
     config:
       APPINSIGHTS_INSTRUMENTATIONKEY: adc98546-3f8a-4462-a0b2-7c822b5565ba
     themes:
-      FE: https://github.com/VirtoCommerce/vc-frontend-next/releases/download/3.1.0/vc-frontend-next-3.1.0.zip
+      FE: https://github.com/VirtoCommerce/vc-frontend-next/releases/download/3.3.0/vc-frontend-next-3.3.0.zip
   customApps:
     app1:
       enabled: false
     app2:
       enabled: false
   routes:
-  - host: front-vcptcore-aidemo3.govirto.com
+  - host: front-vcptcore-rainbowsandals.govirto.com
     root: FE
     paths:
     - path: /xapi
