@@ -13,9 +13,9 @@
     dbName: vcst-qa-platform_restored
     config:
       # Increment to force environment reload
-      reload: 25
+      reload: 26
       # Application Insights settings
-      APPINSIGHTS_INSTRUMENTATIONKEY: ef0125aa-1c8e-42d3-964f-d0a11256309d      
+      APPLICATIONINSIGHTS_CONNECTION_STRING: "InstrumentationKey=ef0125aa-1c8e-42d3-964f-d0a11256309d;IngestionEndpoint=https://eastus-3.in.applicationinsights.azure.com/;LiveEndpoint=https://eastus.livediagnostics.monitor.azure.com/;ApplicationId=7d07a5e2-1346-45b8-8b3c-2117c72a3f7b"
       # Forward headers to Nginx
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: true      
       # Enable Azure Active Directory login in platform UI
