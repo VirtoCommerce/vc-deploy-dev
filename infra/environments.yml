@@ -5,7 +5,7 @@
   platform:
     dbProvider: AzureSQL Database
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.1090.0-4a4a93a
+    imageTag: 3.1099.0-e8edbb0
     sqlReplica: false
     redis:
       service: redis-uat-vc03-redis-cluster.redis-cluster:6379
