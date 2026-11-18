@@ -90,10 +90,6 @@
           "BlobName": "VirtoCommerce.AzureSearch_3.1009.0-alpha.311.zip"
         },
         {
-          "Id": "VirtoCommerce.OTP",
-          "BlobName": "VirtoCommerce.OTP_3.1001.0-alpha.9.zip"
-        },
-        {
           "Id": "VirtoCommerce.Shipping",
           "BlobName": "VirtoCommerce.Shipping_3.1010.0-alpha.279.zip"
         },
@@ -392,6 +388,10 @@
         {
           "Id": "VirtoCommerce.Punchout",
           "BlobName": "VirtoCommerce.Punchout_3.1000.0-alpha.17.zip"
+        },
+        {
+          "Id": "VirtoCommerce.OTP",
+          "BlobName": "VirtoCommerce.OTP_3.1002.0-alpha.15.zip"
         }
       ]
     }
