@@ -45,6 +45,7 @@
       VirtoCommerce__SampleDataUrl: https://virtocommerce.azureedge.net/sample-data/b2b-sample-store.zip
       #VirtoCommerce__SampleDataUrl: ""
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
+      Authorization__Resources__0: https://vcptcore-dev.govirto.com/admin/mcp
       Swagger__UI__Enabled: false
       Search__OrderFullTextSearchEnabled: true
       Search__ContentFullTextSearchEnabled: true
