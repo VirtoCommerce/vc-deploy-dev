@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.1100.0-alpha.13463",
+  "PlatformVersion": "3.1100.0-pr-3165-9061",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.1100.0-alpha.13463-dev-9afac32b",
+  "PlatformImageTag": "3.1100.0-pr-3165-9061-vcst-6639-mcp-client-self-registration-90616bd9",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -279,7 +279,7 @@
         },
         {
           "Id": "VirtoCommerce.MCP",
-          "BlobName": "VirtoCommerce.MCP_3.1001.0-alpha.8.zip"
+          "BlobName": "VirtoCommerce.MCP_3.1002.0-pr-4-03eb.zip"
         },
         {
           "Id": "VirtoCommerce.PageBuilderModule",
@@ -295,7 +295,7 @@
         },
         {
           "Id": "VirtoCommerce.AdminShell",
-          "BlobName": "VirtoCommerce.AdminShell_3.1096.0-alpha.46.zip"
+          "BlobName": "VirtoCommerce.AdminShell_3.1097.0-pr-14-f885.zip"
         },
         {
           "Id": "VirtoCommerce.XRecommend",
