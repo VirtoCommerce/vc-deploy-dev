@@ -17,8 +17,7 @@ jobs:
         fetch-depth: 0
     
     - name: Install vc-build
-      run: |
-        dotnet tool install --global VirtoCommerce.GlobalTool --version 3.1002.0-alpha.301
+      uses: VirtoCommerce/.github/actions/setup-vcbuild@v3
 
     - name: Pack
       run: |
