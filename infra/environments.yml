@@ -160,21 +160,21 @@
       # Firebase settings
       PushMessages__UseFirebaseCloudMessaging: true
       PushMessages__FcmSenderOptions__Type: service_account
-      PushMessages__FcmSenderOptions__ProjectId: virto-start
-      PushMessages__FcmSenderOptions__PrivateKeyId: 489fa58336f29dd62103179969e9f336066b706b 
-      PushMessages__FcmSenderOptions__ClientEmail: firebase-adminsdk-zyqdm@virto-start.iam.gserviceaccount.com
-      PushMessages__FcmSenderOptions__ClientId: 109623620724725484090
+      PushMessages__FcmSenderOptions__ProjectId: virtostart
+      PushMessages__FcmSenderOptions__PrivateKeyId: a056f1fe02544c171e75f4541ad971ba765c438f
+      PushMessages__FcmSenderOptions__ClientEmail: firebase-adminsdk-fbsvc@virtostart.iam.gserviceaccount.com
+      PushMessages__FcmSenderOptions__ClientId: 112049527810453485063
       PushMessages__FcmSenderOptions__AuthUri: https://accounts.google.com/o/oauth2/auth
       PushMessages__FcmSenderOptions__TokenUri: https://oauth2.googleapis.com/token
       PushMessages__FcmSenderOptions__AuthProviderX509CertUrl: https://www.googleapis.com/oauth2/v1/certs
-      PushMessages__FcmSenderOptions__ClientX509CertUrl: https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-zyqdm%40virto-start.iam.gserviceaccount.com
+      PushMessages__FcmSenderOptions__ClientX509CertUrl: https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-fbsvc%40virtostart.iam.gserviceaccount.com
       PushMessages__FcmSenderOptions__UniverseDomain: googleapis.com
-      PushMessages__FcmReceiverOptions__AuthDomain: virto-start.firebaseapp.com
-      PushMessages__FcmReceiverOptions__ProjectId: virto-start
-      PushMessages__FcmReceiverOptions__StorageBucket: virto-start.appspot.com
-      PushMessages__FcmReceiverOptions__MessagingSenderId: 691497305246
-      PushMessages__FcmReceiverOptions__AppId: 1:691497305246:web:d7a9cfead5daac661d678f
-      PushMessages__FcmReceiverOptions__VapidKey: BBZaEhlEb6fcpLMxGC2ylQH2eQWTx4n6kZDWcrGebQjJiMr8w_3nF5U8zspbE_eeCV6YoFNyv7IrNLspmToBcjE
+      PushMessages__FcmReceiverOptions__AuthDomain: virtostart.firebaseapp.com
+      PushMessages__FcmReceiverOptions__ProjectId: virtostart
+      PushMessages__FcmReceiverOptions__StorageBucket: virtostart.firebasestorage.app
+      PushMessages__FcmReceiverOptions__MessagingSenderId: 644442319860
+      PushMessages__FcmReceiverOptions__AppId: 1:644442319860:web:b93515e99f8149a1a5e7a1
+      PushMessages__FcmReceiverOptions__VapidKey: BJX2ymi1ILjL_txRyt8PEvekW4rfzv_mPk3uFEnHJ_zJ-7rhLIZKlqReq0M_WRvqt1Bjfdld59NaB2NdHBnr95o
 
       #UCP
       UCP__DefaultStoreId: B2B-store
@@ -205,7 +205,7 @@
       Payments__Skyflow__IntegrationsAccount__clientID: skyflow-integrationsaccount-clientid
       Payments__Skyflow__IntegrationsAccount__keyID: skyflow-integrationsaccount-keyid
       Payments__Skyflow__IntegrationsAccount__privateKey: skyflow-integrationsaccount-privatekey
-      PushMessages__FcmSenderOptions__PrivateKey: fcm-private-key-new
+      PushMessages__FcmSenderOptions__PrivateKey: fcm-private-key-virtostart
       Search__ElasticAppSearch__PrivateApiKey: elasticappsearchprivateapikey
       Search__ElasticSearch8__Key: elasticsearch8key
       GoogleSSO__ApplicationId: googlesso-applicationid
