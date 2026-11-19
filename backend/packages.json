@@ -286,10 +286,6 @@
           "BlobName": "VirtoCommerce.MFA_3.1004.0-alpha.19.zip"
         },
         {
-          "Id": "VirtoCommerce.AdminShell",
-          "BlobName": "VirtoCommerce.AdminShell_3.1097.0-pr-14-f885.zip"
-        },
-        {
           "Id": "VirtoCommerce.XRecommend",
           "BlobName": "VirtoCommerce.XRecommend_3.1004.0-alpha.78.zip"
         },
@@ -392,6 +388,10 @@
         {
           "Id": "VirtoCommerce.AdminAngularJs",
           "BlobName": "VirtoCommerce.AdminAngularJs_3.1097.0-alpha.17.zip"
+        },
+        {
+          "Id": "VirtoCommerce.AdminShell",
+          "BlobName": "VirtoCommerce.AdminShell_3.1098.0-alpha.51.zip"
         }
       ]
     }
