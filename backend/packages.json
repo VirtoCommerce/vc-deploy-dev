@@ -188,10 +188,6 @@
           "Version": "3.1033.0"
         },
         {
-          "Id": "VirtoCommerce.AdminAngularJs",
-          "Version": "3.1096.0"
-        },
-        {
           "Id": "VirtoCommerce.PriceExportImport",
           "Version": "3.1003.0"
         },
@@ -377,6 +373,10 @@
         },
         {
           "Id": "VirtoCommerce.AdminShell",
+          "Version": "3.1097.0"
+        },
+        {
+          "Id": "VirtoCommerce.AdminAngularJs",
           "Version": "3.1097.0"
         }
       ]
