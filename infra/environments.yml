@@ -43,6 +43,11 @@
       # ChatbotUrl + setting AI.ChatEndpoint (/api/chat). Empty -> the blade shows "not configured".
       # VirtoOZ calls back into this platform with the OAuth app "VirtoOZ" (Security > OAuth applications).
       VirtoCommerce__AI__ChatbotUrl: https://virtooz.govirto.com/
+      # --- Honour the ingress's X-Forwarded-Proto (added 2026-11-19, as on vcptcore-demo) ---
+      # Without it the platform sees plain http behind the TLS ingress and issues tokens with
+      # iss=http://vcptcore-aidemo.govirto.com/; VirtoOZ matches iss to its tenant URL (https) exactly
+      # and answered 401 "Could not validate credentials". With it the OIDC issuer is https.
+      ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
   storefront:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/storefront
     imageTag: 6.0
