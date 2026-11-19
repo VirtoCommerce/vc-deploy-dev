@@ -18,6 +18,9 @@
         },
         {
           "BlobName": "VirtoCommerce.OTP_3.1002.0-pr-4-83d4.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.SiteBuilder_3.1000.0-pr-1-28d0.zip"
         }
       ]
     },
@@ -266,10 +269,6 @@
         {
           "Id": "VirtoCommerce.MCP",
           "Version": "3.1001.0"
-        },
-        {
-          "Id": "VirtoCommerce.PageBuilderModule",
-          "Version": "3.1041.0"
         },
         {
           "Id": "VirtoCommerce.AdminShell",
