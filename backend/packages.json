@@ -102,10 +102,6 @@
           "BlobName": "VirtoCommerce.Sanity_3.1004.0-alpha.18.zip"
         },
         {
-          "Id": "VirtoCommerce.AdminAngularJs",
-          "BlobName": "VirtoCommerce.AdminAngularJs_3.1095.0-alpha.11.zip"
-        },
-        {
           "Id": "VirtoCommerce.BackInStock",
           "BlobName": "VirtoCommerce.BackInStock_3.1005.0-alpha.76.zip"
         },
@@ -392,6 +388,10 @@
         {
           "Id": "VirtoCommerce.OTP",
           "BlobName": "VirtoCommerce.OTP_3.1002.0-alpha.15.zip"
+        },
+        {
+          "Id": "VirtoCommerce.AdminAngularJs",
+          "BlobName": "VirtoCommerce.AdminAngularJs_3.1097.0-alpha.17.zip"
         }
       ]
     }
