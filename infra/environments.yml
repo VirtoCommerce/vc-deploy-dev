@@ -403,8 +403,8 @@
       Search__AzureSearch__Key: azureseearchkey
       GoogleSSO__Secret: googlesso-secret-vcptcore
       oidc__0__ClientSecret: oidc-0-clientsecret
-      Assets__AzureBlobStorage__ConnectionString: qademovc3-blob-connectionstring-key2
-      Content__AzureBlobStorage__ConnectionString: qademovc3-blob-connectionstring-key2
+      Assets__AzureBlobStorage__ConnectionString: qademovc3-blob-connectionstring
+      Content__AzureBlobStorage__ConnectionString: qademovc3-blob-connectionstring
       Tax__Avalara__LicenseKey: avalara-licensekey
       Videos__GoogleApiKey: google-videos-apikey
       Payments__Datatrans__Secret: datatrans-secret
