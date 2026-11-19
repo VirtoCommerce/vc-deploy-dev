@@ -31,7 +31,7 @@
     config:
       APPINSIGHTS_INSTRUMENTATIONKEY: adc98546-3f8a-4462-a0b2-7c822b5565ba
     themes:
-      FE: https://vc3prerelease.blob.core.windows.net/demo/vc-frontend-next-3.3.0-rainbowsandals-3-3-0-g40c27e4.zip
+      FE: https://vc3prerelease.blob.core.windows.net/demo/vc-frontend-next-3.3.0-rainbowsandals-3-3-0-gf1a8734.zip
   customApps:
     app1:
       enabled: false
