@@ -17,7 +17,7 @@ jobs:
         fetch-depth: 0
     
     - name: Install vc-build
-      uses: VirtoCommerce/.github/actions/setup-vcbuild@v3
+      uses: VirtoCommerce/.github/actions/setup-vcbuild@stable
     
     - name: Update app
       run: |
