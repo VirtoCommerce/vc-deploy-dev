@@ -38,6 +38,11 @@
       # an empty list, the checkout pickup selector had no dealers, and the Google dealer map had
       # nothing to plot. The exception text names this exact key.
       Search__PickupLocationFullTextSearchEnabled: true
+      # --- VirtoOZ AI Assistant (VirtoCommerce.AI, added 2026-11-19) ---
+      # The admin "AI Assistant" blade embeds this chatbot in an iframe, and chat calls go to
+      # ChatbotUrl + setting AI.ChatEndpoint (/api/chat). Empty -> the blade shows "not configured".
+      # VirtoOZ calls back into this platform with the OAuth app "VirtoOZ" (Security > OAuth applications).
+      VirtoCommerce__AI__ChatbotUrl: https://virtooz.govirto.com/
   storefront:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/storefront
     imageTag: 6.0
