@@ -58,6 +58,10 @@
         TENANTS__VCCOM_DEV__NAME: "VirtoCommerce.com Dev"
         TENANTS__VCCOM_DEV__PLATFORM__URL: https://vccom-dev.govirto.com
         TENANTS__VCCOM_DEV__PLATFORM__AUTH__CLIENT_ID: e66ab452-1250-4515-95f0-b971b146d534
+        TENANTS__VCPTCORE_AIDEMO__ID: "vcptcore_aidemo"
+        TENANTS__VCPTCORE_AIDEMO__NAME: "Platform AI Demo"
+        TENANTS__VCPTCORE_AIDEMO__PLATFORM__URL: https://vcptcore-aidemo.govirto.com
+        TENANTS__VCPTCORE_AIDEMO__PLATFORM__AUTH__CLIENT_ID: be54ae66-0ab1-4574-8f8f-d1b30845932c
         VIRTO_OZ_CHECKPOINTER__TYPE: postgres
         VIRTO_OZ_LLM__SUBAGENT__TIMEOUT: 300
         VIRTO_OZ_MCP__AUTH__BASE_URL: https://virtooz.govirto.com
@@ -73,6 +77,7 @@
         TENANTS__VCMP_DEMO__PLATFORM__AUTH__CLIENT_SECRET: vcpt-virtooz-vcmp-demo-client-secret        
         TENANTS__VCPTCORE_QA__PLATFORM__AUTH__CLIENT_SECRET: vcpt-virtooz-vcptcore-qa-client-secret
         TENANTS__VCCOM_DEV__PLATFORM__AUTH__CLIENT_SECRET: vcpt-virtooz-vccom-dev-client-secret
+        TENANTS__VCPTCORE_AIDEMO__PLATFORM__AUTH__CLIENT_SECRET: vcpt-virtooz-vcptcore-aidemo-client-secret
         VIRTO_OZ_CHECKPOINTER__CONNECTION_STRING: vcpt-virtooz-checkpointer-connection-string
         VIRTO_OZ_MCP__AUTH__SIGNING_KEY: vcpt-virtooz-mcp-auth-signing-key
         #VIRTO_OZ_MCP__AUTH__STORAGE__AUTH__PASSWORD: vcpt-virtooz-mcp-auth-storage-auth-password
