@@ -368,16 +368,16 @@
           "Version": "3.1020.0"
         },
         {
-          "Id": "VirtoCommerce.AdminShell",
-          "Version": "3.1099.0"
-        },
-        {
           "Id": "VirtoCommerce.MCP",
           "Version": "3.1002.0"
         },
         {
           "Id": "VirtoCommerce.ElasticSearch8",
           "Version": "3.1013.0"
+        },
+        {
+          "Id": "VirtoCommerce.AdminShell",
+          "Version": "3.1100.0"
         }
       ]
     },
