@@ -60,8 +60,9 @@
       # ApiLogin = the same sandbox account vcst-qa uses; TxnKey comes from the environment secret below.
       Payments__AuthorizeNet__ApiLogin: 52B9X7vb4
     secretConfig:
-      # Value = NAME of an environment secret (VirtoCloud portal), not the key itself - same name as vcst-qa.
-      Payments__AuthorizeNet__TxnKey: authorizenet-txnkey
+      # Value = NAME of a secret in Key Vault "vcptcore", not the key itself. "-vs" is the key that pairs with the ApiLogin
+      # above (vcptcore-demo, -qa, -qa1 use the same pair); plain "authorizenet-txnkey" belongs to another login (dev, stable…).
+      Payments__AuthorizeNet__TxnKey: authorizenet-txnkey-vs
   storefront:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/storefront
     imageTag: 6.0
