@@ -48,6 +48,11 @@
       # iss=http://vcptcore-aidemo.govirto.com/; VirtoOZ matches iss to its tenant URL (https) exactly
       # and answered 401 "Could not validate credentials". With it the OIDC issuer is https.
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
+      # --- VirtoOZ in the vendor portal (added 2026-11-20, as on vcmp-qa in vc-deploy-marketplace) ---
+      # /apps/vendor-portal/ (MarketplaceVendor) opens the VirtoOZ chat through vc-shell's ai-agent plugin and
+      # hands it the portal's own platform token (aud=resource_server), which VirtoOZ accepts. The admin
+      # AI Assistant blade mints via /api/ai/token without aud and is rejected. Empty = no AI panel.
+      Marketplace__AiAssistantUrl: https://virtooz.govirto.com
       # --- Authorize.Net Accept, SANDBOX (added 2026-11-20, as on vcst-qa / vcptcore-demo) ---
       # VirtoCommerce.AuthorizeNetPayment 3.1005.0 (already in backend/packages.json) binds ApiLogin and
       # TxnKey ONLY from configuration section Payments:AuthorizeNet - there is no admin setting for them.
