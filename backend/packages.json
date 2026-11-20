@@ -376,12 +376,12 @@
           "Version": "3.1013.0"
         },
         {
-          "Id": "VirtoCommerce.AdminShell",
-          "Version": "3.1100.0"
-        },
-        {
           "Id": "VirtoCommerce.ProductComparison",
           "Version": "3.1000.0"
+        },
+        {
+          "Id": "VirtoCommerce.AdminShell",
+          "Version": "3.1101.0"
         }
       ]
     },
