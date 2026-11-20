@@ -90,8 +90,8 @@
       # clone/cookes-2.56.0 (vc-frontend 2.56.0, the same baseline FE runs on this env): Cookes header/footer/listing chrome.
       COOKES: https://vcptcore-aidemo.govirto.com/cms-content/assets/themes/cookes-theme-2026-10-14T10-44-15Z-search.zip
       # Domain 3, store 3 (vcptcore-aidemo-moa.govirto.com): Mall of America marketplace demo, store moa. Theme = fork of vc-frontend 2.61.0
-      # (branch moa of the MOA theme repo, commit 5eee9e6), built with theme-work/build.sh. Own key, so no other theme line moves.
-      MOA: https://vcptcore-aidemo.govirto.com/cms-content/assets/themes/moa-theme-2026-11-20T10-25-26Z.zip
+      # (branch moa of the MOA theme repo, commit 09f75fa), built with theme-work/build.sh. Own key, so no other theme line moves.
+      MOA: https://vcptcore-aidemo.govirto.com/cms-content/assets/themes/moa-theme-2026-11-20T10-45-16Z.zip
   customApps:
     app1:
       enabled: false
