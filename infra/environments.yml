@@ -48,6 +48,15 @@
       # iss=http://vcptcore-aidemo.govirto.com/; VirtoOZ matches iss to its tenant URL (https) exactly
       # and answered 401 "Could not validate credentials". With it the OIDC issuer is https.
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
+      # --- Authorize.Net Accept, SANDBOX (added 2026-11-20, as on vcst-qa / vcptcore-demo) ---
+      # VirtoCommerce.AuthorizeNetPayment 3.1005.0 (already in backend/packages.json) binds ApiLogin and
+      # TxnKey ONLY from configuration section Payments:AuthorizeNet - there is no admin setting for them.
+      # Sandbox vs live is the per-store payment-method setting Mode (default "test" = jstest.authorize.net).
+      # ApiLogin = the same sandbox account vcst-qa uses; TxnKey comes from the environment secret below.
+      Payments__AuthorizeNet__ApiLogin: 52B9X7vb4
+    secretConfig:
+      # Value = NAME of an environment secret (VirtoCloud portal), not the key itself - same name as vcst-qa.
+      Payments__AuthorizeNet__TxnKey: authorizenet-txnkey
   storefront:
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/storefront
     imageTag: 6.0
