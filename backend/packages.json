@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.1099.0",
+  "PlatformVersion": "3.1101.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.1099.0",
+  "PlatformImageTag": "3.1101.0",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
   ],
@@ -37,8 +37,8 @@
         },
         {
           "Id": "VirtoCommerce.ProductSubscription",
-          "Version": "3.1000.0-pr-1-bfe1",
-          "BlobName": "VirtoCommerce.ProductSubscription_3.1000.0-pr-1-bfe1.zip"
+          "Version": "3.1000.0-pr-1-ca06",
+          "BlobName": "VirtoCommerce.ProductSubscription_3.1000.0-pr-1-ca06.zip"
         },
         {
           "Id": "VirtoCommerce.Payment",
@@ -122,7 +122,7 @@
         },
         {
           "Id": "VirtoCommerce.AdminShell",
-          "Version": "3.1096.0"
+          "Version": "3.1101.0"
         },
         {
           "Id": "VirtoCommerce.AlgoliaSearch",
