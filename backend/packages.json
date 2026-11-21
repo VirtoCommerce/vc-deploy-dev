@@ -344,10 +344,6 @@
           "Version": "3.1048.0"
         },
         {
-          "Id": "VirtoCommerce.Orders",
-          "Version": "3.1021.0"
-        },
-        {
           "Id": "VirtoCommerce.XOrder",
           "Version": "3.1019.0"
         },
@@ -382,6 +378,10 @@
         {
           "Id": "VirtoCommerce.AdminShell",
           "Version": "3.1101.0"
+        },
+        {
+          "Id": "VirtoCommerce.Orders",
+          "Version": "3.1022.0"
         }
       ]
     },
