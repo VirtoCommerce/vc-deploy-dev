@@ -352,10 +352,6 @@
           "Version": "3.1002.0"
         },
         {
-          "Id": "VirtoCommerce.AdminAngularJs",
-          "Version": "3.1097.0"
-        },
-        {
           "Id": "VirtoCommerce.Notifications",
           "Version": "3.1020.0"
         },
@@ -382,6 +378,10 @@
         {
           "Id": "VirtoCommerce.ApplicationInsights",
           "Version": "3.1008.0"
+        },
+        {
+          "Id": "VirtoCommerce.AdminAngularJs",
+          "Version": "3.1098.0"
         }
       ]
     },
