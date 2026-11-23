@@ -370,10 +370,6 @@
           "BlobName": "VirtoCommerce.OTP_3.1002.0-alpha.15.zip"
         },
         {
-          "Id": "VirtoCommerce.AdminAngularJs",
-          "BlobName": "VirtoCommerce.AdminAngularJs_3.1097.0-alpha.17.zip"
-        },
-        {
           "Id": "VirtoCommerce.MCP",
           "BlobName": "VirtoCommerce.MCP_3.1002.0-alpha.12.zip"
         },
@@ -396,6 +392,10 @@
         {
           "Id": "VirtoCommerce.ApplicationInsights",
           "BlobName": "VirtoCommerce.ApplicationInsights_3.1008.0-alpha.90.zip"
+        },
+        {
+          "Id": "VirtoCommerce.AdminAngularJs",
+          "BlobName": "VirtoCommerce.AdminAngularJs_3.1098.0-alpha.20.zip"
         }
       ]
     }
