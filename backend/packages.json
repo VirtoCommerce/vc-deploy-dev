@@ -54,10 +54,6 @@
           "BlobName": "VirtoCommerce.GoogleSSO_3.1003.0-alpha.62.zip"
         },
         {
-          "Id": "VirtoCommerce.ApplicationInsights",
-          "BlobName": "VirtoCommerce.ApplicationInsights_3.1007.0.zip"
-        },
-        {
           "Id": "VirtoCommerce.AzureAD",
           "BlobName": "VirtoCommerce.AzureAD_3.1003.0-alpha.85.zip"
         },
@@ -396,6 +392,10 @@
         {
           "Id": "VirtoCommerce.Orders",
           "BlobName": "VirtoCommerce.Orders_3.1022.0-alpha.1468.zip"
+        },
+        {
+          "Id": "VirtoCommerce.ApplicationInsights",
+          "BlobName": "VirtoCommerce.ApplicationInsights_3.1008.0-alpha.89.zip"
         }
       ]
     }
