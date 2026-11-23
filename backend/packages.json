@@ -21,6 +21,12 @@
         },
         {
           "BlobName": "VirtoCommerce.SiteBuilder_3.1000.0-pr-1-644f.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.1027.0-pr-154-3246.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.MFA_3.1006.0-pr-9-cf17.zip"
         }
       ]
     },
@@ -299,10 +305,6 @@
           "Version": "3.1007.0"
         },
         {
-          "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.1025.0"
-        },
-        {
           "Id": "VirtoCommerce.UCP",
           "Version": "3.1012.0"
         },
@@ -317,10 +319,6 @@
         {
           "Id": "VirtoCommerce.Contracts",
           "Version": "3.1009.0"
-        },
-        {
-          "Id": "VirtoCommerce.MFA",
-          "Version": "3.1005.0"
         },
         {
           "Id": "VirtoCommerce.PushMessages",
