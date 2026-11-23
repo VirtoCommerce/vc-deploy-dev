@@ -287,8 +287,8 @@
       PasswordLogin__Priority: 0
       Content__FileSystem__PublicUrl: https://vcptcore-qa1.govirto.com/cms-content/
       Assets__FileSystem__PublicUrl: https://vcptcore-qa1.govirto.com/cms-content/assets/
-      Assets__Provider: FileSystem
-      #Assets__Provider: AzureBlobStorage
+      #Assets__Provider: FileSystem
+      Assets__Provider: AzureBlobStorage
       Assets__AzureBlobStorage__RootPath: catalog
       Assets__AzureBlobStorage__AllowBlobPublicAccess: true
       Content__Provider: FileSystem
