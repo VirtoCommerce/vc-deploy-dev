@@ -1,17 +1,16 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.1039.12",
+  "PlatformVersion": "3.1076.15",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.1039.12",
+  "PlatformImageTag": "3.1076.15",
   "PlatformAssetUrl": "",
   "Sources": [
-
     {
       "Name": "AzureBlob",
       "Modules": [
         {
-          "Id": "VirtoCommerce.AI",
-          "BlobName": "VirtoCommerce.VirtoOZManagement_3.1000.0-pr-2-544f.zip"
+          "Id": "VirtoCommerce.VirtoOZManagement",
+          "BlobName": "VirtoCommerce.VirtoOZManagement_3.1000.0-pr-5-fcae.zip"
         }
       ],
       "Container": "packages",
@@ -25,11 +24,15 @@
       "Modules": [
         {
           "Id": "VirtoCommerce.AzureAD",
-          "Version": "3.1002.0"
-        },        
+          "Version": "3.1003.0"
+        },
         {
           "Id": "VirtoCommerce.ApplicationInsights",
-          "Version": "3.1004.0"
+          "Version": "3.1005.0"
+        },
+        {
+          "Id": "VirtoCommerce.BackgroundJobs",
+          "Version": "3.1052.3"
         }
       ]
     }
