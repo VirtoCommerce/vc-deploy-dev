@@ -51,11 +51,11 @@
         },
         {
           "Id": "VirtoCommerce.XCMS",
-          "Version": "3.1009.0"
+          "Version": "3.1010.0"
         },
         {
           "Id": "VirtoCommerce.XFrontend",
-          "Version": "3.1010.0"
+          "Version": "3.1011.0"
         },
         {
           "Id": "VirtoCommerce.AdminShell",
@@ -87,11 +87,11 @@
         },
         {
           "Id": "VirtoCommerce.FileExperienceApi",
-          "Version": "3.1008.0"
+          "Version": "3.1009.0"
         },
         {
           "Id": "VirtoCommerce.XCart",
-          "Version": "3.1046.0"
+          "Version": "3.1047.0"
         },
         {
           "Id": "VirtoCommerce.AzureBlobAssets",
@@ -279,7 +279,7 @@
         },
         {
           "Id": "VirtoCommerce.PushMessages",
-          "Version": "3.1008.0"
+          "Version": "3.1009.0"
         },
         {
           "Id": "VirtoCommerce.Contracts",
@@ -287,7 +287,7 @@
         },
         {
           "Id": "VirtoCommerce.TaskManagement",
-          "Version": "3.1007.0"
+          "Version": "3.1008.0"
         },
         {
           "Id": "VirtoCommerce.Shipping",
@@ -315,7 +315,7 @@
         },
         {
           "Id": "VirtoCommerce.WhiteLabeling",
-          "Version": "3.1006.0"
+          "Version": "3.1007.0"
         },
         {
           "Id": "VirtoCommerce.Subscription",
@@ -351,7 +351,7 @@
         },
         {
           "Id": "VirtoCommerce.XCatalog",
-          "Version": "3.1024.0"
+          "Version": "3.1025.0"
         },
         {
           "Id": "VirtoCommerce.XPickup",
@@ -359,7 +359,7 @@
         },
         {
           "Id": "VirtoCommerce.XOrder",
-          "Version": "3.1017.0"
+          "Version": "3.1018.0"
         },
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
@@ -395,7 +395,7 @@
         },
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.1024.0"
+          "Version": "3.1025.0"
         }
       ]
     }
