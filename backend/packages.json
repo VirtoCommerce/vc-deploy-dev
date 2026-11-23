@@ -32,6 +32,9 @@
         },
         {
           "BlobName": "VirtoCommerce.ProductComparison_3.1000.0-pr-1-7403.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.1026.0-pr-153-495e.zip"
         }
       ]
     },
@@ -392,10 +395,6 @@
         {
           "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
           "Version": "4.1006.0"
-        },
-        {
-          "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.1025.0"
         }
       ]
     }
