@@ -148,10 +148,6 @@
           "Version": "3.1009.0"
         },
         {
-          "Id": "VirtoCommerce.Customer",
-          "Version": "3.1033.0"
-        },
-        {
           "Id": "VirtoCommerce.PriceExportImport",
           "Version": "3.1003.0"
         },
@@ -382,6 +378,10 @@
         {
           "Id": "VirtoCommerce.Notifications",
           "Version": "3.1021.0"
+        },
+        {
+          "Id": "VirtoCommerce.Customer",
+          "Version": "3.1034.0"
         }
       ]
     },
