@@ -88,10 +88,6 @@
           "Version": "3.1013.0"
         },
         {
-          "Id": "VirtoCommerce.Seo",
-          "Version": "3.1008.0"
-        },
-        {
           "Id": "VirtoCommerce.Marketing",
           "Version": "3.1010.0"
         },
@@ -382,6 +378,10 @@
         {
           "Id": "VirtoCommerce.Payment",
           "Version": "3.1012.0"
+        },
+        {
+          "Id": "VirtoCommerce.Seo",
+          "Version": "3.1009.0"
         }
       ]
     },
