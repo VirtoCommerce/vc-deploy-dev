@@ -27,6 +27,9 @@
         },
         {
           "BlobName": "VirtoCommerce.MFA_3.1006.0-pr-9-cf17.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.SalesRep_3.1028.0-pr-40-87bf.zip"
         }
       ]
     },
@@ -360,10 +363,6 @@
           "Id": "VirtoCommerce.Passkeys",
           "Version": "3.1001.0"
         },  
-        {
-          "Id": "VirtoCommerce.SalesRep",
-          "Version": "3.1026.0"
-        },
         {
           "Id": "VirtoCommerce.Cart",
           "Version": "3.1015.0"
