@@ -212,6 +212,7 @@
       GoogleSSO__Secret: googlesso-secret  
       PushNotifications__HubUrl: pushnotifications-huburl
       PushMessages__FcmReceiverOptions__ApiKey: fcm-receiver-apikey
+      APPLICATIONINSIGHTS_CONNECTION_STRING: app-insight-cs
     databases: {}
   storefront:
     enabled: false
