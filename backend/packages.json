@@ -140,10 +140,6 @@
           "Version": "3.1004.0"
         },
         {
-          "Id": "VirtoCommerce.Quote",
-          "Version": "3.1008.0"
-        },
-        {
           "Id": "VirtoCommerce.ProductSnapshot",
           "Version": "3.1006.0"
         },
@@ -382,6 +378,10 @@
         {
           "Id": "VirtoCommerce.OrderManagement",
           "Version": "3.1006.0"
+        },
+        {
+          "Id": "VirtoCommerce.Quote",
+          "Version": "3.1009.0"
         }
       ]
     },
