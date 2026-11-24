@@ -114,10 +114,6 @@
           "BlobName": "VirtoCommerce.AvalaraTax_3.1007.0-alpha.375.zip"
         },
         {
-          "Id": "VirtoCommerce.Assets",
-          "BlobName": "VirtoCommerce.Assets_3.1012.0-alpha.222.zip"
-        },
-        {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
           "BlobName": "VirtoCommerce.CatalogCsvImportModule_3.1010.0-alpha.412.zip"
         },
@@ -396,6 +392,10 @@
         {
           "Id": "VirtoCommerce.MFA",
           "BlobName": "VirtoCommerce.MFA_3.1006.0-alpha.25.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Assets",
+          "BlobName": "VirtoCommerce.Assets_3.1012.0-alpha.226.zip"
         }
       ]
     }
