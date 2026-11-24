@@ -86,10 +86,6 @@
           "BlobName": "VirtoCommerce.AzureSearch_3.1009.0-alpha.311.zip"
         },
         {
-          "Id": "VirtoCommerce.Shipping",
-          "BlobName": "VirtoCommerce.Shipping_3.1010.0-alpha.279.zip"
-        },
-        {
           "Id": "VirtoCommerce.SqlQueries",
           "BlobName": "VirtoCommerce.SqlQueries_3.1008.0-alpha.66.zip"
         },
@@ -396,6 +392,10 @@
         {
           "Id": "VirtoCommerce.Store",
           "BlobName": "VirtoCommerce.Store_3.1014.0-alpha.820.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Shipping",
+          "BlobName": "VirtoCommerce.Shipping_3.1011.0-alpha.287.zip"
         }
       ]
     }
