@@ -168,10 +168,6 @@
           "Version": "3.1052.0"
         },
         {
-          "Id": "VirtoCommerce.Search",
-          "Version": "3.1015.0"
-        },
-        {
           "Id": "VirtoCommerce.SystemOperations",
           "Version": "3.1003.0"
         },
@@ -382,6 +378,10 @@
         {
           "Id": "VirtoCommerce.Marketing",
           "Version": "3.1011.0"
+        },
+        {
+          "Id": "VirtoCommerce.Search",
+          "Version": "3.1016.0"
         }
       ]
     },
