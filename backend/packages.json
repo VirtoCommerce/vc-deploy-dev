@@ -174,10 +174,6 @@
           "BlobName": "VirtoCommerce.Tax_3.1011.0-alpha.257.zip"
         },
         {
-          "Id": "VirtoCommerce.Export",
-          "BlobName": "VirtoCommerce.Export_3.1007.0-alpha.303.zip"
-        },
-        {
           "Id": "VirtoCommerce.Content",
           "BlobName": "VirtoCommerce.Content_3.1009.0-alpha.1078.zip"
         },
@@ -396,6 +392,10 @@
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
           "BlobName": "VirtoCommerce.CatalogCsvImportModule_3.1010.0-alpha.416.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Export",
+          "BlobName": "VirtoCommerce.Export_3.1007.0-alpha.307.zip"
         }
       ]
     }
