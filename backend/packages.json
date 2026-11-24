@@ -332,10 +332,6 @@
           "Version": "3.1000.0"
         },
         {
-          "Id": "VirtoCommerce.OTP",
-          "Version": "3.1002.0"
-        },
-        {
           "Id": "VirtoCommerce.Notifications",
           "Version": "3.1020.0"
         },
@@ -382,6 +378,10 @@
         {
           "Id": "VirtoCommerce.XCatalog",
           "Version": "3.1027.0"
+        },
+        {
+          "Id": "VirtoCommerce.OTP",
+          "Version": "3.1003.0"
         }
       ]
     },
