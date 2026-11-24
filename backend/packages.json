@@ -80,10 +80,6 @@
           "Version": "4.1006.0"
         },
         {
-          "Id": "VirtoCommerce.Marketing",
-          "Version": "3.1010.0"
-        },
-        {
           "Id": "VirtoCommerce.Assets",
           "Version": "3.1011.0"
         },
@@ -382,6 +378,10 @@
         {
           "Id": "VirtoCommerce.Pages",
           "Version": "3.1013.0"
+        },
+        {
+          "Id": "VirtoCommerce.Marketing",
+          "Version": "3.1011.0"
         }
       ]
     },
