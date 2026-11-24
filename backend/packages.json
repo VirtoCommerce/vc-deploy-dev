@@ -174,10 +174,6 @@
           "BlobName": "VirtoCommerce.PriceExportImport_3.1003.0-alpha.203.zip"
         },
         {
-          "Id": "VirtoCommerce.Pricing",
-          "BlobName": "VirtoCommerce.Pricing_3.1011.0-alpha.834.zip"
-        },
-        {
           "Id": "VirtoCommerce.BackgroundJobs",
           "BlobName": "VirtoCommerce.BackgroundJobs_3.1055.0-alpha.25.zip"
         },
@@ -396,6 +392,10 @@
         {
           "Id": "VirtoCommerce.Notifications",
           "BlobName": "VirtoCommerce.Notifications_3.1021.0-alpha.515.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Pricing",
+          "BlobName": "VirtoCommerce.Pricing_3.1011.0-alpha.838.zip"
         }
       ]
     }
