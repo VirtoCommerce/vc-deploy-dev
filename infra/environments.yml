@@ -5,7 +5,7 @@
   platform:
     dbProvider: AzureSQL Database
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
-    imageTag: 3.1099.0-b89fb28
+    imageTag: 3.1101.0-020b073
     sqlReplica: false
     redis:
       service: redis-uat-vc03-redis-cluster.redis-cluster:6379
@@ -36,6 +36,7 @@
       Authorization__Resources__0: https://front-vcptcore-aidemo3.govirto.com/ucp/mcp
       Authorization__OAuthLoginPath: /oauth/authorize
       Authorization__OAuthLoginPaths__0__Host: vcptcore-aidemo3.govirto.com
+      MCP__Scopes__ucp__AllowSelfRegisteredClients: true
       # Behind the ingress the platform sees http; without this the OAuth issuer is http:// and no client accepts it (virtostart sets it too).
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
   storefront:
