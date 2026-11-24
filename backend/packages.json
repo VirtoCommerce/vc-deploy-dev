@@ -196,10 +196,6 @@
           "Version": "3.1004.0"
         },
         {
-          "Id": "VirtoCommerce.BackInStock",
-          "Version": "3.1005.0"
-        },
-        {
           "Id": "VirtoCommerce.Quote",
           "Version": "3.1008.0"
         },
@@ -382,6 +378,10 @@
         {
           "Id": "VirtoCommerce.Pricing",
           "Version": "3.1011.0"
+        },
+        {
+          "Id": "VirtoCommerce.BackInStock",
+          "Version": "3.1006.0"
         }
       ]
     },
