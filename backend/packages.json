@@ -230,10 +230,6 @@
           "BlobName": "VirtoCommerce.XCMS_3.1010.0-alpha.100.zip"
         },
         {
-          "Id": "VirtoCommerce.MFA",
-          "BlobName": "VirtoCommerce.MFA_3.1004.0-alpha.19.zip"
-        },
-        {
           "Id": "VirtoCommerce.XRecommend",
           "BlobName": "VirtoCommerce.XRecommend_3.1004.0-alpha.78.zip"
         },
@@ -396,6 +392,10 @@
         {
           "Id": "VirtoCommerce.Search",
           "BlobName": "VirtoCommerce.Search_3.1016.0-alpha.880.zip"
+        },
+        {
+          "Id": "VirtoCommerce.MFA",
+          "BlobName": "VirtoCommerce.MFA_3.1006.0-alpha.25.zip"
         }
       ]
     }
