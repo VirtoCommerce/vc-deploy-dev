@@ -218,10 +218,6 @@
           "BlobName": "VirtoCommerce.WebHooks_3.1007.0-alpha.372.zip"
         },
         {
-          "Id": "VirtoCommerce.Core",
-          "BlobName": "VirtoCommerce.Core_3.1014.0-alpha.1733.zip"
-        },
-        {
           "Id": "VirtoCommerce.ElasticSearch8",
           "BlobName": "VirtoCommerce.ElasticSearch8_3.1012.0-alpha.196.zip"
         },
@@ -396,6 +392,10 @@
         {
           "Id": "VirtoCommerce.Sitemaps",
           "BlobName": "VirtoCommerce.Sitemaps_3.1008.0-alpha.445.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Core",
+          "BlobName": "VirtoCommerce.Core_3.1014.0-alpha.1737.zip"
         }
       ]
     }
