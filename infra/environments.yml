@@ -34,6 +34,8 @@
       UCP__HandoffUrlTemplate: "https://front-vcptcore-aidemo3.govirto.com/checkout?ucp_session={token}"
       # The MCP endpoint as an OAuth-protected resource, so the agent's OAuth client can be scoped to it (RFC 8707).
       Authorization__Resources__0: https://front-vcptcore-aidemo3.govirto.com/ucp/mcp
+      Authorization__OAuthLoginPath: /oauth/authorize
+      Authorization__OAuthLoginPaths__0__Host: vcptcore-aidemo3.govirto.com
       # Behind the ingress the platform sees http; without this the OAuth issuer is http:// and no client accepts it (virtostart sets it too).
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
   storefront:
