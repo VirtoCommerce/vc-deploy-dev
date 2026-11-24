@@ -154,10 +154,6 @@
           "BlobName": "VirtoCommerce.NativePaymentMethods_3.1004.0-alpha.138.zip"
         },
         {
-          "Id": "VirtoCommerce.BulkActionsModule",
-          "BlobName": "VirtoCommerce.BulkActionsModule_3.1006.0-alpha.272.zip"
-        },
-        {
           "Id": "VirtoCommerce.PriceExportImport",
           "BlobName": "VirtoCommerce.PriceExportImport_3.1003.0-alpha.203.zip"
         },
@@ -396,6 +392,10 @@
         {
           "Id": "VirtoCommerce.Export",
           "BlobName": "VirtoCommerce.Export_3.1007.0-alpha.307.zip"
+        },
+        {
+          "Id": "VirtoCommerce.BulkActionsModule",
+          "BlobName": "VirtoCommerce.BulkActionsModule_3.1006.0-alpha.276.zip"
         }
       ]
     }
