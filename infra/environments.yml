@@ -1,4 +1,4 @@
-- name: vcptcore-aidemo3
+- name: vcptcore-caplugs
   gitops: true
   production: false
   servicePlan: B1
@@ -29,13 +29,13 @@
       UCP__DefaultStoreId: B2B-store
       UCP__DefaultCurrency: USD
       UCP__DefaultCultureName: en-US
-      UCP__StorefrontOrigin: "https://front-vcptcore-aidemo3.govirto.com"
-      UCP__UcpBaseUrl: "https://front-vcptcore-aidemo3.govirto.com/ucp/v1"
-      UCP__HandoffUrlTemplate: "https://front-vcptcore-aidemo3.govirto.com/checkout?ucp_session={token}"
+      UCP__StorefrontOrigin: "https://front-vcptcore-caplugs.govirto.com"
+      UCP__UcpBaseUrl: "https://front-vcptcore-caplugs.govirto.com/ucp/v1"
+      UCP__HandoffUrlTemplate: "https://front-vcptcore-caplugs.govirto.com/checkout?ucp_session={token}"
       # The MCP endpoint as an OAuth-protected resource, so the agent's OAuth client can be scoped to it (RFC 8707).
-      Authorization__Resources__0: https://front-vcptcore-aidemo3.govirto.com/ucp/mcp
+      Authorization__Resources__0: https://front-vcptcore-caplugs.govirto.com/ucp/mcp
       Authorization__OAuthLoginPath: /oauth/authorize
-      Authorization__OAuthLoginPaths__0__Host: vcptcore-aidemo3.govirto.com
+      Authorization__OAuthLoginPaths__0__Host: vcptcore-caplugs.govirto.com
       MCP__Scopes__ucp__AllowSelfRegisteredClients: true
       # Behind the ingress the platform sees http; without this the OAuth issuer is http:// and no client accepts it (virtostart sets it too).
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
@@ -45,14 +45,14 @@
     config:
       APPINSIGHTS_INSTRUMENTATIONKEY: adc98546-3f8a-4462-a0b2-7c822b5565ba
     themes:
-      FE: https://vc3prerelease.blob.core.windows.net/demo/vc-frontend-next-3.1.0-pipeline-test-next-3-1-0-g6750355.zip
+      FE: https://github.com/VirtoCommerce/vc-frontend-next/releases/download/3.3.0/vc-frontend-next-3.3.0.zip
   customApps:
     app1:
       enabled: false
     app2:
       enabled: false
   routes:
-  - host: front-vcptcore-aidemo3.govirto.com
+  - host: front-vcptcore-caplugs.govirto.com
     root: FE
     paths:
     - path: /xapi
