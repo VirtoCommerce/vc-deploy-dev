@@ -192,10 +192,6 @@
           "Version": "3.1003.0"
         },
         {
-          "Id": "VirtoCommerce.Store",
-          "Version": "3.1014.0"
-        },
-        {
           "Id": "VirtoCommerce.Shipping",
           "Version": "3.1011.0"
         },
@@ -382,6 +378,10 @@
         {
           "Id": "VirtoCommerce.SalesRep",
           "Version": "3.1028.0"
+        },
+        {
+          "Id": "VirtoCommerce.Store",
+          "Version": "3.1015.0"
         }
       ]
     },
