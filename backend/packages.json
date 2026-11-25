@@ -10,6 +10,9 @@
       "Container": "packages",
       "ServiceUri": "https://vc3prerelease.blob.core.windows.net",
       "Modules": [
+        {
+          "BlobName": "VirtoCommerce.SiteBuilder_3.1002.0-pr-4-b4af.zip"
+        }
       ]
     },
     {
