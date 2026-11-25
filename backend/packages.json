@@ -126,10 +126,6 @@
           "BlobName": "VirtoCommerce.EventBus_3.1011.0-alpha.213.zip"
         },
         {
-          "Id": "VirtoCommerce.GDPR",
-          "BlobName": "VirtoCommerce.GDPR_3.1005.0-alpha.188.zip"
-        },
-        {
           "Id": "VirtoCommerce.GoogleEcommerceAnalytics",
           "BlobName": "VirtoCommerce.GoogleEcommerceAnalytics_4.1007.0-alpha.253.zip"
         },
@@ -396,6 +392,10 @@
         {
           "Id": "VirtoCommerce.BackupRestore",
           "BlobName": "VirtoCommerce.BackupRestore_3.1009.0-alpha.35.zip"
+        },
+        {
+          "Id": "VirtoCommerce.GDPR",
+          "BlobName": "VirtoCommerce.GDPR_3.1005.0-alpha.192.zip"
         }
       ]
     }
