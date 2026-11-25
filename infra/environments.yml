@@ -9,7 +9,6 @@
       Cross-Origin-Resource-Policy: cross-origin
       Cross-Origin-Opener-Policy: unsafe-none
       Cross-Origin-Embedder-Policy: unsafe-none
-    hostname: virtooz-admin.govirto.com
     imageRepository: virtopaasregistrymain.azurecr.io/vcpt/virtooz-platform
     sqlReplica: false
     redis:
@@ -33,6 +32,9 @@
     databases: {}
   storefront:
     enabled: false
+  ingress:
+    hostnames:
+      name1: virtooz-admin.govirto.com
   customApps:
     app1:
       name: virtooz
