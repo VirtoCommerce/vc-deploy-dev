@@ -17,8 +17,6 @@
       APPINSIGHTS_INSTRUMENTATIONKEY: b64da477-188b-4154-969b-3cb1310400f0
       # Forward headers to Nginx
       ASPNETCORE_FORWARDEDHEADERS_ENABLED: true
-      # The back-office MCP endpoint (/admin/mcp): Site Builder MCP setup, README "Quick setup" step 2.
-      # Without MCP__PublicOrigin the endpoint refuses every token with invalid_token.
       Authorization__Resources__0: https://vcst-dev.govirto.com/admin/mcp
       MCP__PublicOrigin: https://vcst-dev.govirto.com
       # Enable Azure Active Directory login in platform UI
