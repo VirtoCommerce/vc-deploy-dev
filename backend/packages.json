@@ -180,10 +180,6 @@
           "Version": "3.1098.0"
         },
         {
-          "Id": "VirtoCommerce.SalesRep",
-          "Version": "3.1027.0"
-        },
-        {
           "Id": "VirtoCommerce.Xapi",
           "Version": "3.1033.0"
         },
@@ -382,6 +378,10 @@
         {
           "Id": "VirtoCommerce.MCP",
           "Version": "3.1004.0"
+        },
+        {
+          "Id": "VirtoCommerce.SalesRep",
+          "Version": "3.1028.0"
         }
       ]
     },
