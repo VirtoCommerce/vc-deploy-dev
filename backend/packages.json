@@ -76,10 +76,6 @@
           "Version": "4.1006.0"
         },
         {
-          "Id": "VirtoCommerce.AvalaraTax",
-          "Version": "3.1006.0"
-        },
-        {
           "Id": "VirtoCommerce.Sanity",
           "Version": "3.1004.0"
         },
@@ -382,6 +378,10 @@
         {
           "Id": "VirtoCommerce.EnvironmentsCompare",
           "Version": "3.1004.0"
+        },
+        {
+          "Id": "VirtoCommerce.AvalaraTax",
+          "Version": "3.1007.0"
         }
       ]
     },
