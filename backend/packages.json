@@ -266,10 +266,6 @@
           "BlobName": "VirtoCommerce.AdminAngularJs_3.1098.0-alpha.20.zip"
         },
         {
-          "Id": "VirtoCommerce.Passkeys",
-          "BlobName": "VirtoCommerce.Passkeys_3.1002.0-alpha.12.zip"
-        },
-        {
           "Id": "VirtoCommerce.SalesRep",
           "BlobName": "VirtoCommerce.SalesRep_3.1027.0-alpha.83.zip"
         },
@@ -396,6 +392,10 @@
         {
           "Id": "VirtoCommerce.GDPR",
           "BlobName": "VirtoCommerce.GDPR_3.1005.0-alpha.192.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Passkeys",
+          "BlobName": "VirtoCommerce.Passkeys_3.1002.0-alpha.13.zip"
         }
       ]
     }
