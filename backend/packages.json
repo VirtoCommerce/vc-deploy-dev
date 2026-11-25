@@ -140,10 +140,6 @@
           "Version": "3.1010.0"
         },
         {
-          "Id": "VirtoCommerce.CustomerReviews",
-          "Version": "3.1011.0"
-        },
-        {
           "Id": "VirtoCommerce.XCMS",
           "Version": "3.1011.0"
         },
@@ -382,6 +378,10 @@
         {
           "Id": "VirtoCommerce.ImageTools",
           "Version": "3.1010.0"
+        },
+        {
+          "Id": "VirtoCommerce.CustomerReviews",
+          "Version": "3.1012.0"
         }
       ]
     },
