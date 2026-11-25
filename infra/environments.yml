@@ -9,6 +9,7 @@
       Cross-Origin-Resource-Policy: cross-origin
       Cross-Origin-Opener-Policy: unsafe-none
       Cross-Origin-Embedder-Policy: unsafe-none
+    hostname: virtooz-admin.govirto.com
     imageRepository: virtopaasregistrymain.azurecr.io/vcpt/virtooz-platform
     sqlReplica: false
     redis:
