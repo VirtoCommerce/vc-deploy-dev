@@ -292,10 +292,6 @@
           "Version": "3.1012.0"
         },
         {
-          "Id": "VirtoCommerce.MFA",
-          "Version": "3.1006.0"
-        },
-        {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
           "Version": "3.1028.0"
         },
@@ -382,6 +378,10 @@
         {
           "Id": "VirtoCommerce.CustomerReviews",
           "Version": "3.1012.0"
+        },
+        {
+          "Id": "VirtoCommerce.MFA",
+          "Version": "3.1007.0"
         }
       ]
     },
