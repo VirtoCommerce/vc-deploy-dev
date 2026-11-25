@@ -142,10 +142,6 @@
           "BlobName": "VirtoCommerce.BackgroundJobs_3.1055.0-alpha.25.zip"
         },
         {
-          "Id": "VirtoCommerce.Tax",
-          "BlobName": "VirtoCommerce.Tax_3.1011.0-alpha.257.zip"
-        },
-        {
           "Id": "VirtoCommerce.Content",
           "BlobName": "VirtoCommerce.Content_3.1009.0-alpha.1078.zip"
         },
@@ -396,6 +392,10 @@
         {
           "Id": "VirtoCommerce.Payment",
           "BlobName": "VirtoCommerce.Payment_3.1013.0-alpha.319.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Tax",
+          "BlobName": "VirtoCommerce.Tax_3.1012.0-alpha.263.zip"
         }
       ]
     }
