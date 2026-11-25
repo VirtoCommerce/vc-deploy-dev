@@ -158,10 +158,6 @@
           "BlobName": "VirtoCommerce.Subscription_3.1007.0-alpha.408.zip"
         },
         {
-          "Id": "VirtoCommerce.WebHooks",
-          "BlobName": "VirtoCommerce.WebHooks_3.1007.0-alpha.372.zip"
-        },
-        {
           "Id": "VirtoCommerce.ElasticSearch8",
           "BlobName": "VirtoCommerce.ElasticSearch8_3.1012.0-alpha.196.zip"
         },
@@ -396,6 +392,10 @@
         {
           "Id": "VirtoCommerce.MFA",
           "BlobName": "VirtoCommerce.MFA_3.1007.0-alpha.27.zip"
+        },
+        {
+          "Id": "VirtoCommerce.WebHooks",
+          "BlobName": "VirtoCommerce.WebHooks_3.1007.0-alpha.376.zip"
         }
       ]
     }
