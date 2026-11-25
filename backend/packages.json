@@ -86,10 +86,6 @@
           "BlobName": "VirtoCommerce.AzureSearch_3.1009.0-alpha.311.zip"
         },
         {
-          "Id": "VirtoCommerce.SqlQueries",
-          "BlobName": "VirtoCommerce.SqlQueries_3.1008.0-alpha.66.zip"
-        },
-        {
           "Id": "VirtoCommerce.Sanity",
           "BlobName": "VirtoCommerce.Sanity_3.1004.0-alpha.18.zip"
         },
@@ -396,6 +392,10 @@
         {
           "Id": "VirtoCommerce.Return",
           "BlobName": "VirtoCommerce.Return_3.1008.0-alpha.178.zip"
+        },
+        {
+          "Id": "VirtoCommerce.SqlQueries",
+          "BlobName": "VirtoCommerce.SqlQueries_3.1009.0-alpha.73.zip"
         }
       ]
     }
