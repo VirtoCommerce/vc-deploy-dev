@@ -390,12 +390,12 @@
           "BlobName": "VirtoCommerce.WebHooks_3.1007.0-alpha.376.zip"
         },
         {
-          "Id": "VirtoCommerce.MCP",
-          "BlobName": "VirtoCommerce.MCP_3.1003.0-alpha.14.zip"
-        },
-        {
           "Id": "VirtoCommerce.AvalaraTax",
           "BlobName": "VirtoCommerce.AvalaraTax_3.1007.0-alpha.379.zip"
+        },
+        {
+          "Id": "VirtoCommerce.MCP",
+          "BlobName": "VirtoCommerce.MCP_3.1004.0-alpha.16.zip"
         }
       ]
     }
