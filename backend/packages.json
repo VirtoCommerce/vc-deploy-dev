@@ -200,10 +200,6 @@
           "Version": "3.1008.0"
         },
         {
-          "Id": "VirtoCommerce.Tax",
-          "Version": "3.1011.0"
-        },
-        {
           "Id": "VirtoCommerce.Inventory",
           "Version": "3.1012.0"
         },
@@ -381,6 +377,10 @@
         },
         {
           "Id": "VirtoCommerce.Shipping",
+          "Version": "3.1012.0"
+        },
+        {
+          "Id": "VirtoCommerce.Tax",
           "Version": "3.1012.0"
         }
       ]
