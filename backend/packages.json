@@ -334,10 +334,6 @@
           "BlobName": "VirtoCommerce.Search_3.1016.0-alpha.880.zip"
         },
         {
-          "Id": "VirtoCommerce.MFA",
-          "BlobName": "VirtoCommerce.MFA_3.1006.0-alpha.25.zip"
-        },
-        {
           "Id": "VirtoCommerce.Assets",
           "BlobName": "VirtoCommerce.Assets_3.1012.0-alpha.226.zip"
         },
@@ -396,6 +392,10 @@
         {
           "Id": "VirtoCommerce.CustomerReviews",
           "BlobName": "VirtoCommerce.CustomerReviews_3.1012.0-alpha.316.zip"
+        },
+        {
+          "Id": "VirtoCommerce.MFA",
+          "BlobName": "VirtoCommerce.MFA_3.1007.0-alpha.27.zip"
         }
       ]
     }
