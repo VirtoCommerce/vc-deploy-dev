@@ -247,6 +247,7 @@
       #Authorization__RefreshTokenLifeTime: 0:30:00
       # Avalara Tax
       Tax__Avalara__AccountNumber: 2000188799
+      Authorization__EnablePersistentStorageTokenValidation: true
     secretConfig:
       Search__ElasticSearch8__Key: elastic8
       PushMessages__FcmSenderOptions__PrivateKey: fcm-private-key-new
