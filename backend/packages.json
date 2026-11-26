@@ -59,7 +59,12 @@
           "Id": "VirtoCommerce.AuthorizeNetPayment",
           "Version": "3.1006.0-pr-16-ae7b",
           "BlobName": "VirtoCommerce.AuthorizeNetPayment_3.1006.0-pr-16-ae7b.zip"
-        }
+        },
+        {
+          "Id": "VirtoCommerce.Catalog",
+          "Version": "3.1055.0-pr-921-6aa3",
+          "BlobName": "VirtoCommerce.Catalog_3.1055.0-pr-921-6aa3.zip"
+        },
       ]
     },
     {
@@ -75,10 +80,6 @@
         {
           "Id": "VirtoCommerce.BackgroundJobs",
           "Version": "3.1055.0"
-        },
-        {
-          "Id": "VirtoCommerce.Catalog",
-          "Version": "3.1052.0"
         },
         {
           "Id": "VirtoCommerce.Customer",
