@@ -156,10 +156,6 @@
           "Version": "3.1019.0"
         },
         {
-          "Id": "VirtoCommerce.Punchout",
-          "Version": "3.1000.0"
-        },
-        {
           "Id": "VirtoCommerce.ElasticSearch8",
           "Version": "3.1013.0"
         },
@@ -382,6 +378,10 @@
         {
           "Id": "VirtoCommerce.Tax",
           "Version": "3.1012.0"
+        },
+        {
+          "Id": "VirtoCommerce.Punchout",
+          "Version": "3.1001.0"
         }
       ]
     },
