@@ -342,7 +342,11 @@
         },
         {
           "Id": "VirtoCommerce.UCP",
-          "Version": "3.1010.0"
+          "Version": "3.1012.0"
+        },
+        {
+          "Id": "VirtoCommerce.MCP",
+          "Version": "3.1004.0"
         },
         {
           "Id": "VirtoCommerce.Skyflow",
