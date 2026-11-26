@@ -222,10 +222,6 @@
           "BlobName": "VirtoCommerce.XCart_3.1048.0-alpha.312.zip"
         },
         {
-          "Id": "VirtoCommerce.Punchout",
-          "BlobName": "VirtoCommerce.Punchout_3.1000.0-alpha.17.zip"
-        },
-        {
           "Id": "VirtoCommerce.ProductComparison",
           "BlobName": "VirtoCommerce.ProductComparison_3.1000.0-alpha.7.zip"
         },
@@ -396,6 +392,10 @@
         {
           "Id": "VirtoCommerce.Shipping",
           "BlobName": "VirtoCommerce.Shipping_3.1012.0-alpha.289.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Punchout",
+          "BlobName": "VirtoCommerce.Punchout_3.1001.0-alpha.21.zip"
         }
       ]
     }
