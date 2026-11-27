@@ -1,7 +1,7 @@
 - name: vcptcore-dev
   gitops: true
   production: false
-  servicePlan: B2
+  servicePlan: F2
   platform:
     #dbProvider: Azure Database for PostgreSQL
     imageRepository: virtopaasregistrymain.azurecr.io/vcptcore/platform
