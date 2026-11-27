@@ -64,6 +64,9 @@
           "Id": "VirtoCommerce.Catalog",
           "Version": "3.1055.0-pr-921-855d",
           "BlobName": "VirtoCommerce.Catalog_3.1055.0-pr-921-855d.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.UCP_3.1013.0-pr-15-4c30.zip"
         }
       ]
     },
@@ -408,10 +411,6 @@
         {
           "Id": "VirtoCommerce.EventBus",
           "Version": "3.1011.0"
-        },
-        {
-          "Id": "VirtoCommerce.UCP",
-          "Version": "3.1012.0"
         },
         {
           "Id": "VirtoCommerce.MCP",
