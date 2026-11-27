@@ -20,6 +20,12 @@
         },
         {
           "BlobName": "VirtoCommerce.Payment_3.1014.0-pr-83-9661.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.Customer_3.1035.0-pr-328-6a73.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.GDPR_3.1006.0-pr-31-9c3c.zip"
         }
       ]
     },
@@ -64,10 +70,6 @@
         {
           "Id": "VirtoCommerce.AdminShell",
           "Version": "3.1101.0"
-        },
-        {
-          "Id": "VirtoCommerce.Customer",
-          "Version": "3.1034.0"
         },
         {
           "Id": "VirtoCommerce.Passkeys",
@@ -220,10 +222,6 @@
         {
           "Id": "VirtoCommerce.AvalaraTax",
           "Version": "3.1007.0"
-        },
-        {
-          "Id": "VirtoCommerce.GDPR",
-          "Version": "3.1005.0"
         },
         {
           "Id": "VirtoCommerce.Return",
