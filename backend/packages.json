@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.1100.0",
+  "PlatformVersion": "3.1101.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.1100.0",
+  "PlatformImageTag": "3.1101.0",
   "PlatformAssetUrl": "",
   "Sources": [
     {
@@ -23,19 +23,19 @@
       "Modules": [
         {
           "Id": "VirtoCommerce.AdminShell",
-          "Version": "3.1097.0"
+          "Version": "3.1101.0"
         },
         {
           "Id": "VirtoCommerce.AdminAngularJs",
-          "Version": "3.1096.0"
+          "Version": "3.1098.0"
         },
         {
           "Id": "VirtoCommerce.Loyalty",
-          "Version": "3.1012.0"
+          "Version": "3.1013.0"
         },
         {
           "Id": "VirtoCommerce.Cart",
-          "Version": "3.1015.0"
+          "Version": "3.1016.0"
         },     
         {
           "Id": "VirtoCommerce.ElasticSearch",
@@ -47,11 +47,11 @@
         },
         {
           "Id": "VirtoCommerce.PriceExportImport",
-          "Version": "3.1003.0"
+          "Version": "3.1004.0"
         },
         {
           "Id": "VirtoCommerce.NativePaymentMethods",
-          "Version": "3.1004.0"
+          "Version": "3.1005.0"
         },
         {
           "Id": "VirtoCommerce.ShipStation",
@@ -71,7 +71,7 @@
         },
         {
           "Id": "VirtoCommerce.OrderManagement",
-          "Version": "3.1005.0"
+          "Version": "3.1006.0"
         },
         {
           "Id": "VirtoCommerce.Sanity",
@@ -91,15 +91,15 @@
         },
         {
           "Id": "VirtoCommerce.EnvironmentsCompare",
-          "Version": "3.1003.0"
+          "Version": "3.1004.0"
         },
         {
           "Id": "VirtoCommerce.SqlQueries",
-          "Version": "3.1008.0"
+          "Version": "3.1009.0"
         },
         {
           "Id": "VirtoCommerce.Core",
-          "Version": "3.1013.0"
+          "Version": "3.1014.0"
         },
         {
           "Id": "VirtoCommerce.AzureAD",
@@ -111,23 +111,23 @@
         },
         {
           "Id": "VirtoCommerce.Seo",
-          "Version": "3.1008.0"
+          "Version": "3.1009.0"
         },
         {
           "Id": "VirtoCommerce.ApplicationInsights",
-          "Version": "3.1007.0"
+          "Version": "3.1008.0"
         },
         {
           "Id": "VirtoCommerce.WebHooks",
-          "Version": "3.1006.0"
+          "Version": "3.1007.0"
         },
         {
           "Id": "VirtoCommerce.ElasticSearch8",
-          "Version": "3.1012.0"
+          "Version": "3.1013.0"
         },
         {
           "Id": "VirtoCommerce.Export",
-          "Version": "3.1006.0"
+          "Version": "3.1007.0"
         },
         {
           "Id": "VirtoCommerce.AzureBlobAssets",
@@ -139,7 +139,7 @@
         },
         {
           "Id": "VirtoCommerce.BulkActionsModule",
-          "Version": "3.1005.0"
+          "Version": "3.1006.0"
         },
         {
           "Id": "VirtoCommerce.LuceneSearch",
@@ -151,15 +151,15 @@
         },
         {
           "Id": "VirtoCommerce.Content",
-          "Version": "3.1008.0"
+          "Version": "3.1009.0"
         },
         {
           "Id": "VirtoCommerce.CatalogPersonalization",
-          "Version": "3.1009.0"
+          "Version": "3.1010.0"
         },
         {
           "Id": "VirtoCommerce.CatalogPublishing",
-          "Version": "3.1009.0"
+          "Version": "3.1010.0"
         },
         {
           "Id": "VirtoCommerce.AuthorizeNetPayment",
@@ -167,7 +167,7 @@
         },
         {
           "Id": "VirtoCommerce.AvalaraTax",
-          "Version": "3.1006.0"
+          "Version": "3.1007.0"
         },
         {
           "Id": "VirtoCommerce.Subscription",
@@ -175,23 +175,23 @@
         },
         {
           "Id": "VirtoCommerce.GDPR",
-          "Version": "3.1004.0"
+          "Version": "3.1005.0"
         },
         {
           "Id": "VirtoCommerce.Return",
-          "Version": "3.1007.0"
+          "Version": "3.1008.0"
         },
         {
           "Id": "VirtoCommerce.DynamicAssociationsModule",
-          "Version": "3.1004.0"
+          "Version": "3.1005.0"
         },
         {
           "Id": "VirtoCommerce.Marketing",
-          "Version": "3.1010.0"
+          "Version": "3.1011.0"
         },
         {
           "Id": "VirtoCommerce.CustomerExportImport",
-          "Version": "3.1004.0"
+          "Version": "3.1005.0"
         },
         {
           "Id": "VirtoCommerce.EventBus",
@@ -199,11 +199,11 @@
         },
         {
           "Id": "VirtoCommerce.Assets",
-          "Version": "3.1011.0"
+          "Version": "3.1012.0"
         },
         {
           "Id": "VirtoCommerce.BackupRestore",
-          "Version": "3.1008.0"
+          "Version": "3.1009.0"
         },
         {
           "Id": "VirtoCommerce.AzureSearch",
@@ -211,11 +211,11 @@
         },
         {
           "Id": "VirtoCommerce.ProductSnapshot",
-          "Version": "3.1006.0"
+          "Version": "3.1007.0"
         },
         {
           "Id": "VirtoCommerce.BackInStock",
-          "Version": "3.1005.0"
+          "Version": "3.1006.0"
         },
         {
           "Id": "VirtoCommerce.News",
@@ -235,7 +235,7 @@
         },
         {
           "Id": "VirtoCommerce.Quote",
-          "Version": "3.1008.0"
+          "Version": "3.1009.0"
         },
         {
           "Id": "VirtoCommerce.FileExperienceApi",
@@ -255,11 +255,11 @@
         },
         {
           "Id": "VirtoCommerce.WhiteLabeling",
-          "Version": "3.1007.0"
+          "Version": "3.1008.0"
         },
         {
           "Id": "VirtoCommerce.Contracts",
-          "Version": "3.1009.0"
+          "Version": "3.1010.0"
         },
         {
           "Id": "VirtoCommerce.XPickup",
@@ -271,15 +271,15 @@
         },
         {
           "Id": "VirtoCommerce.Shipping",
-          "Version": "3.1010.0"
+          "Version": "3.1012.0"
         },
         {
           "Id": "VirtoCommerce.Tax",
-          "Version": "3.1009.0"
+          "Version": "3.1012.0"
         },
         {
           "Id": "VirtoCommerce.Payment",
-          "Version": "3.1011.0"
+          "Version": "3.1013.0"
         },
         {
           "Id": "VirtoCommerce.SystemOperations",
@@ -287,15 +287,15 @@
         },
         {
           "Id": "VirtoCommerce.Notifications",
-          "Version": "3.1018.0"
+          "Version": "3.1021.0"
         },
         {
           "Id": "VirtoCommerce.Pages",
-          "Version": "3.1012.0"
+          "Version": "3.1013.0"
         },
         {
           "Id": "VirtoCommerce.Xapi",
-          "Version": "3.1032.0"
+          "Version": "3.1033.0"
         },
         {
           "Id": "VirtoCommerce.XFrontend",
@@ -307,51 +307,51 @@
         },
         {
           "Id": "VirtoCommerce.XCatalog",
-          "Version": "3.1026.0"
+          "Version": "3.1027.0"
         },
         {
           "Id": "VirtoCommerce.Customer",
-          "Version": "3.1033.0"
+          "Version": "3.1034.0"
         },
         {
           "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.1025.0"
+          "Version": "3.1028.0"
         },
         {
           "Id": "VirtoCommerce.CustomerReviews",
-          "Version": "3.1011.0"
+          "Version": "3.1012.0"
         },
         {
           "Id": "VirtoCommerce.Catalog",
-          "Version": "3.1052.0"
+          "Version": "3.1054.0"
         },
         {
           "Id": "VirtoCommerce.Orders",
-          "Version": "3.1021.0"
+          "Version": "3.1023.0"
         },
         {
           "Id": "VirtoCommerce.Pricing",
-          "Version": "3.1010.0"
-        },
-        {
-          "Id": "VirtoCommerce.Store",
-          "Version": "3.1013.0"
-        },
-        {
-          "Id": "VirtoCommerce.Sitemaps",
-          "Version": "3.1007.0"
-        },
-          {
-           "Id": "VirtoCommerce.SalesRep",
-           "Version": "3.1026.0"
-        },
-        {
-          "Id": "VirtoCommerce.Inventory",
           "Version": "3.1011.0"
         },
         {
+          "Id": "VirtoCommerce.Store",
+          "Version": "3.1015.0"
+        },
+        {
+          "Id": "VirtoCommerce.Sitemaps",
+          "Version": "3.1008.0"
+        },
+          {
+           "Id": "VirtoCommerce.SalesRep",
+           "Version": "3.1029.0"
+        },
+        {
+          "Id": "VirtoCommerce.Inventory",
+          "Version": "3.1012.0"
+        },
+        {
           "Id": "VirtoCommerce.MCP",
-          "Version": "3.1001.0"
+          "Version": "3.1004.0"
         },
         {
           "Id": "VirtoCommerce.UCP",
@@ -367,15 +367,15 @@
         },
         {
           "Id": "VirtoCommerce.ImageTools",
-          "Version": "3.1009.0"
+          "Version": "3.1010.0"
         },
         {
           "Id": "VirtoCommerce.Search",
-          "Version": "3.1015.0"
+          "Version": "3.1016.0"
         },
         {
           "Id": "VirtoCommerce.CatalogCsvImportModule",
-          "Version": "3.1009.0"
+          "Version": "3.1010.0"
         }
       ]
     }
