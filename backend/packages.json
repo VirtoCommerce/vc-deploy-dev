@@ -36,14 +36,19 @@
           "BlobName": "VirtoCommerce.Passkeys_3.1002.0-pr-3-90bc.zip"
         },
         {
+          "Id": "VirtoCommerce.ProductSubscription",
+          "Version": "3.1000.0-pr-1-f3de",
+          "BlobName": "VirtoCommerce.ProductSubscription_3.1000.0-pr-1-f3de.zip"
+        },
+        {
           "Id": "VirtoCommerce.Payment",
           "Version": "3.1012.0-alpha.334-vcst-6507",
           "BlobName": "VirtoCommerce.Payment_3.1012.0-alpha.334-vcst-6507.zip"
         },
         {
           "Id": "VirtoCommerce.XCart",
-          "Version": "3.1049.0-pr-159-8f74",
-          "BlobName": "VirtoCommerce.XCart_3.1049.0-pr-159-8f74.zip"
+          "Version": "3.1049.0-alpha.318-vcst-6507",
+          "BlobName": "VirtoCommerce.XCart_3.1049.0-alpha.318-vcst-6507.zip"
         },
         {
           "Id": "VirtoCommerce.XOrder",
