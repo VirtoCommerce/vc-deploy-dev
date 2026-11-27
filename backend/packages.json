@@ -374,10 +374,6 @@
           "BlobName": "VirtoCommerce.SalesRep_3.1029.0-alpha.87.zip"
         },
         {
-          "Id": "VirtoCommerce.Payment",
-          "BlobName": "VirtoCommerce.Payment_3.1013.0-alpha.319.zip"
-        },
-        {
           "Id": "VirtoCommerce.Tax",
           "BlobName": "VirtoCommerce.Tax_3.1012.0-alpha.263.zip"
         },
@@ -396,6 +392,10 @@
         {
           "Id": "VirtoCommerce.TaskManagement",
           "BlobName": "VirtoCommerce.TaskManagement_3.1010.0-alpha.230.zip"
+        },
+        {
+          "Id": "VirtoCommerce.Payment",
+          "BlobName": "VirtoCommerce.Payment_3.1014.0-alpha.322.zip"
         }
       ]
     }
