@@ -64,6 +64,9 @@
           "Id": "VirtoCommerce.Catalog",
           "Version": "3.1055.0-pr-921-855d",
           "BlobName": "VirtoCommerce.Catalog_3.1055.0-pr-921-855d.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.ProfileExperienceApiModule_3.1029.0-pr-166-588c.zip"
         }
       ]
     },
@@ -88,10 +91,6 @@
         {
           "Id": "VirtoCommerce.Orders",
           "Version": "3.1021.0"
-        },
-        {
-          "Id": "VirtoCommerce.ProfileExperienceApiModule",
-          "Version": "3.1025.0"
         },
         {
           "Id": "VirtoCommerce.SalesRep",
