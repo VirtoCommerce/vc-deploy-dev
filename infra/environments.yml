@@ -300,7 +300,7 @@
       #VirtoCommerce__ApplicationInsights__RoleName: This is QA role
       #VirtoCommerce__ApplicationInsights__RoleInstance: This is instance of QA      
       Caching__CacheEnabled: true
-      Authorization__ReturnPasswordHash: true
+      Authorization__ReturnPasswordHash: false
       Authorization__AllowApiAccessForCustomers: false
       Authorization__EnablePersistentStorageTokenValidation: true
       #Authorization__AllowOverrideProtectedUserFields: false
