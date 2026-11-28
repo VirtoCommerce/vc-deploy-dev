@@ -18,6 +18,9 @@
       # renewals, declines and 3-D Secure without a payment provider.
       ProductSubscription__EnableMockPaymentMethod: "true"
 
+      # VCST-7074 QA (temporary): accept user API keys only in the api_key header; revert after the check.
+      ApiKeyAuthentication__AllowQueryString: "false"
+
       # VCST-6093 QA (temporary): DefaultValue override under test
       VirtoCommerce__Settings__Override__DefaultValue__Global__VirtoCommerce_Platform_Security_SignInLogEnabled: "false"
 
