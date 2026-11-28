@@ -1,8 +1,8 @@
 {
   "ManifestVersion": "2.0",
-  "PlatformVersion": "3.1104.0",
+  "PlatformVersion": "3.1105.0",
   "PlatformImage": "ghcr.io/virtocommerce/platform",
-  "PlatformImageTag": "3.1104.0",
+  "PlatformImageTag": "3.1105.0-pr-3182-27bb-vcst-7074-27bbe19a",
   "ModuleSources": [
     "https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules_v3.json"
   ],
@@ -56,6 +56,12 @@
           "Id": "VirtoCommerce.Catalog",
           "Version": "3.1055.0-pr-921-855d",
           "BlobName": "VirtoCommerce.Catalog_3.1055.0-pr-921-855d.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.AdminAngularJs_3.1099.0-pr-7-56e2.zip"
+        },
+        {
+          "BlobName": "VirtoCommerce.AdminShell_3.1102.0-pr-25-738b.zip"
         }
       ]
     },
@@ -116,14 +122,6 @@
         {
           "Id": "VirtoCommerce.PageBuilderModule",
           "Version": "3.1041.0"
-        },
-        {
-          "Id": "VirtoCommerce.AdminAngularJs",
-          "Version": "3.1098.0"
-        },
-        {
-          "Id": "VirtoCommerce.AdminShell",
-          "Version": "3.1101.0"
         },
         {
           "Id": "VirtoCommerce.AlgoliaSearch",
